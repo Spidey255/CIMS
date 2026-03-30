@@ -1,44 +1,43 @@
 name: .NET API Deployment
 
 on:
-    workflow_call:
+  workflow_call:
 
 jobs:
-    build-and-deploy:
+  build-and-deploy:
     runs-on: [self-hosted, linux]
 
     steps:
-        - name: Checkout Code
+      - name: Checkout Code
         uses: actions/checkout@v4
 
-        - name: Restore Solution
+      - name: Restore Solution
         run: dotnet restore DynamicDFSAPI/iProofProcessDFSService.sln
 
-        - name: Build Solution
+      - name: Build Solution
         run: dotnet build DynamicDFSAPI/iProofProcessDFSService.sln --configuration Release --no-restore
 
-        - name: Publish API
+      - name: Publish API
         run: dotnet publish DynamicDFSAPI/iProofProcessService/iProofProcessService.csproj -c Release -o publish
 
-        - name: Ensure Target Directory Exists
+      - name: Ensure Target Directory Exists
         run: |
-            mkdir -p /home/Share/Presentations/CIMSAPI
+          mkdir -p /home/Share/Presentations/CIMSAPI
 
-        - name: Stop Service
+      - name: Stop Service
         run: |
-            sudo systemctl stop CIMSAPI.service || true
+          sudo systemctl stop CIMSAPI.service || true
 
-        - name: Clean Old Files
+      - name: Clean Old Files
         run: |
-            rm -rf /home/Share/Presentations/CIMSAPI/*
+          rm -rf /home/Share/Presentations/CIMSAPI/*
 
-        - name: Copy New Files
+      - name: Copy New Files
         run: |
-            cp -r publish/* /home/Share/Presentations/CIMSAPI/
+          cp -r publish/* /home/Share/Presentations/CIMSAPI/
 
-        - name: Start Service
+      - name: Start Service
         run: |
-            sudo systemctl daemon-reload
-            sudo systemctl start CIMSAPI.service
-            sudo systemctl status CIMSAPI.service --no-pager
-    
+          sudo systemctl daemon-reload
+          sudo systemctl start CIMSAPI.service
+          sudo systemctl status CIMSAPI.service --no-pager
