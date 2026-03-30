@@ -140,8 +140,16 @@ namespace CPS.Proof.DFSExtension
 		private List<Triplet<string, string, string>> queryExpressionData = new List<Triplet<string, string, string>>
 		{
 	  			
+			     new Triplet<string, string, string>("18f009fa-842f-90cf-5d3c-5263dc607c23","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
 			     new Triplet<string, string, string>("24CB82CD-872D-4E8D-BC8E-E8518B921195","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
+			
+						
+			     new Triplet<string, string, string>("8a3f1b64-7176-b37d-7999-a8c604f44456","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"028B1EFF-34A8-4D44-BF39-06CE99DF7C67"),
 			
 						
 			     new Triplet<string, string, string>("F928C371-839D-4F0F-AF8D-BCADF87418A6","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
@@ -157,6 +165,10 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("0C8CDFAE-5C2A-428D-A7E8-DC4118670282","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("0a52bb10-821c-0a9a-8ae2-ec075fba6a8e","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
@@ -182,6 +194,14 @@ namespace CPS.Proof.DFSExtension
 						
 			     new Triplet<string, string, string>("5C8C3BEC-ED3E-4D4C-96B2-E2FF8F683A9C","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
+			
+						
+			     new Triplet<string, string, string>("18f009fa-842f-90cf-5d3c-5263dc607c23","Load Additional Document Details based on Funding Agency and Project Category",
+												     @"A3BB2140-4053-4558-9363-3BA1B526BD0A"),
+			
+						
+			     new Triplet<string, string, string>("0a52bb10-821c-0a9a-8ae2-ec075fba6a8e","Load Proposal Documents",
+												     @"D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5"),
 			
 						
 			     new Triplet<string, string, string>("80332665-9163-4BD6-8426-C075A9016AEF","Load Grid By IdProposalDocuments",
@@ -229,8 +249,20 @@ namespace CPS.Proof.DFSExtension
 												     @"EXEC GetDateDifferenceInYears 32,'','',''"),
 			
 						
+			     new Triplet<string, string, string>("MFG_d2_AdditionalName","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetDepartmentWiseFacultyCopi '@MFG_d2_Departmentid',3,'@DummyInstance',''"),
+			
+						
+			     new Triplet<string, string, string>("MFG_d2_Departmentid","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC [GetDepartmentWiseFacultyCopi] '@Dept',2,'@DummyInstance','@MFG_d2_AdditionalType'"),
+			
+						
 			     new Triplet<string, string, string>("MF_d1_FundingAgency","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
 												     @"EXEC GetDateDifferenceInYears 7,'','',''"),
+			
+						
+			     new Triplet<string, string, string>("MFG_d2_AdditionalType","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC [GetDepartmentWiseFaculty] '',3,'','',''"),
 			
 						
 		};
@@ -255,6 +287,9 @@ namespace CPS.Proof.DFSExtension
 		{
 		
 	  			
+			     new Tuple<string, int>("CopiDetails",5),
+			
+						
 			     new Tuple<string, int>("RequiredDocuments",5),
 			
 						
@@ -380,10 +415,10 @@ namespace CPS.Proof.DFSExtension
                     {
                      
                                      fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [E0AC6667-6D92-49AA-8F4D-01F473F2E426] WHERE InstanceId='{0}' AND
-							ProcessActivityMapId='{1}' AND FormId='{2}') BEGIN INSERT INTO [E0AC6667-6D92-49AA-8F4D-01F473F2E426](InstanceId,ProcessActivityMapId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d1_ProjectProposalID,MF_d1_ProjectRefNo,MF_d1_ProjectCategoryID,MF_d1_FinancialYearID,MF_d1_DepartmentID,MF_d1_Designation,MF_d1_ProjectName,MF_d1_ProjectType,MF_d1_FundingAgency,MF_d1_ProjectBudget,MF_d1_Remarks,MF_d1_PrincipalInvestigator,MF_d1_EmployeeBasicInfoId,MF_d1_ProjectStatus,MF_d1_SectorID,MF_d1_EndorsementFileType,MF_d1_ProposalCode,MF_d1_IsSubmitted,MF_d1_OverHead,MF_d1_IfExternalInstitute,MF_d1_UpdatedBy,MF_d1_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid)
+							ProcessActivityMapId='{1}' AND FormId='{2}') BEGIN INSERT INTO [E0AC6667-6D92-49AA-8F4D-01F473F2E426](InstanceId,ProcessActivityMapId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d1_ProjectProposalID,MF_d1_ProjectRefNo,MF_d1_ProjectCategoryID,MF_d1_FinancialYearID,MF_d1_DepartmentID,MF_d1_Designation,MF_d1_ProjectName,MF_d1_ProjectType,MF_d1_FundingAgency,MF_d1_ProjectBudget,MF_d1_Remarks,MF_d1_PrincipalInvestigator,MF_d1_EmployeeBasicInfoId,MF_d1_ProjectStatus,MF_d1_SectorID,MF_d1_EndorsementFileType,MF_d1_ProposalCode,MF_d1_IsSubmitted,MF_d1_OverHead,MF_d1_IfExternalInstitute,MF_d1_UpdatedBy,MF_d1_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,Dept,DummyInstance)
 							VALUES( {3}) END ELSE BEGIN UPDATE [E0AC6667-6D92-49AA-8F4D-01F473F2E426]SET {4}WHERE InstanceId='{0}'AND ProcessActivityMapId='{1}'AND FormId='{2}'END ";
 
-                                     colList=@"InstanceId,ProcessActivityMapId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d1_ProjectProposalID,MF_d1_ProjectRefNo,MF_d1_ProjectCategoryID,MF_d1_FinancialYearID,MF_d1_DepartmentID,MF_d1_Designation,MF_d1_ProjectName,MF_d1_ProjectType,MF_d1_FundingAgency,MF_d1_ProjectBudget,MF_d1_Remarks,MF_d1_PrincipalInvestigator,MF_d1_EmployeeBasicInfoId,MF_d1_ProjectStatus,MF_d1_SectorID,MF_d1_EndorsementFileType,MF_d1_ProposalCode,MF_d1_IsSubmitted,MF_d1_OverHead,MF_d1_IfExternalInstitute,MF_d1_UpdatedBy,MF_d1_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid";
+                                     colList=@"InstanceId,ProcessActivityMapId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d1_ProjectProposalID,MF_d1_ProjectRefNo,MF_d1_ProjectCategoryID,MF_d1_FinancialYearID,MF_d1_DepartmentID,MF_d1_Designation,MF_d1_ProjectName,MF_d1_ProjectType,MF_d1_FundingAgency,MF_d1_ProjectBudget,MF_d1_Remarks,MF_d1_PrincipalInvestigator,MF_d1_EmployeeBasicInfoId,MF_d1_ProjectStatus,MF_d1_SectorID,MF_d1_EndorsementFileType,MF_d1_ProposalCode,MF_d1_IsSubmitted,MF_d1_OverHead,MF_d1_IfExternalInstitute,MF_d1_UpdatedBy,MF_d1_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,Dept,DummyInstance";
                                     
                      
                             splitcols = colList.Split(',');
@@ -1221,109 +1256,45 @@ private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData>
 try
 {
 base.WriteDebugInfo(@"Root-OnAfterFormLoad");
-if(ISpace["MF_d1_ProjectProposalID"].Value!="0" )
-{
-base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectProposalID""].Value!=""0"" )");
-base.WriteDebugInfo(@"EXEC InnovaceNoCode..[FormLoadById_E0AC6667-6D92-49AA-8F4D-01F473F2E426]  '#MF_d1_ProjectProposalID'");
+base.WriteDebugInfo(@"EXEC GetEmployeeATOMDetails '@@gv_UserId'");
 
-var querySource38A4572FA65040C2879CBCCD9DD5898C =GetQueryExpressionDataSource("38A4572F-A650-40C2-879C-BCCD9DD5898C");
-Dictionary<short,object> result38A4572FA65040C2879CBCCD9DD5898C=iSpace.ExecuteQuery(querySource38A4572FA65040C2879CBCCD9DD5898C,@"EXEC InnovaceNoCode..[FormLoadById_E0AC6667-6D92-49AA-8F4D-01F473F2E426]  '" + ISpace["MF_d1_ProjectProposalID"].Value + @"'",false);
+var querySource8a3f1b647176b37d7999a8c604f44456 =GetQueryExpressionDataSource("8a3f1b64-7176-b37d-7999-a8c604f44456");
+Dictionary<short,object> result8a3f1b647176b37d7999a8c604f44456=iSpace.ExecuteQuery(querySource8a3f1b647176b37d7999a8c604f44456,@"EXEC GetEmployeeATOMDetails '" + ISpace["gv_userid"].Value + @"'",false);
 
-base.WriteDebugInfo(@"var querySource38A4572FA65040C2879CBCCD9DD5898C =GetQueryExpressionDataSource(""38A4572F-A650-40C2-879C-BCCD9DD5898C"");Dictionary<short,object> result38A4572FA65040C2879CBCCD9DD5898C=iSpace.ExecuteQuery(querySource38A4572FA65040C2879CBCCD9DD5898C,@""EXEC InnovaceNoCode..[FormLoadById_E0AC6667-6D92-49AA-8F4D-01F473F2E426]  '"" + ISpace[""MF_d1_ProjectProposalID""].Value + @""'"",false);");
+base.WriteDebugInfo(@"var querySource8a3f1b647176b37d7999a8c604f44456 =GetQueryExpressionDataSource(""8a3f1b64-7176-b37d-7999-a8c604f44456"");Dictionary<short,object> result8a3f1b647176b37d7999a8c604f44456=iSpace.ExecuteQuery(querySource8a3f1b647176b37d7999a8c604f44456,@""EXEC GetEmployeeATOMDetails '"" + ISpace[""gv_userid""].Value + @""'"",false);");
 base.WriteDebugInfo(@"");
 
-if((result38A4572FA65040C2879CBCCD9DD5898C!=null) && (result38A4572FA65040C2879CBCCD9DD5898C.Count!=0))
+if((result8a3f1b647176b37d7999a8c604f44456!=null) && (result8a3f1b647176b37d7999a8c604f44456.Count!=0))
 {
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(21))
-ISpace["MF_d1_UpdatedOn"].Value = result38A4572FA65040C2879CBCCD9DD5898C[21];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(14))
-ISpace["MF_d1_SectorID"].Value = result38A4572FA65040C2879CBCCD9DD5898C[14];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(3))
-ISpace["MF_d1_FinancialYearID"].Value = result38A4572FA65040C2879CBCCD9DD5898C[3];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(2))
-ISpace["MF_d1_ProjectCategoryID"].Value = result38A4572FA65040C2879CBCCD9DD5898C[2];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(8))
-ISpace["MF_d1_FundingAgency"].Value = result38A4572FA65040C2879CBCCD9DD5898C[8];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(7))
-ISpace["MF_d1_ProjectType"].Value = result38A4572FA65040C2879CBCCD9DD5898C[7];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(19))
-ISpace["MF_d1_IfExternalInstitute"].Value = result38A4572FA65040C2879CBCCD9DD5898C[19];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(17))
-ISpace["MF_d1_IsSubmitted"].Value = result38A4572FA65040C2879CBCCD9DD5898C[17];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(20))
-ISpace["MF_d1_UpdatedBy"].Value = result38A4572FA65040C2879CBCCD9DD5898C[20];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(9))
-ISpace["MF_d1_ProjectBudget"].Value = result38A4572FA65040C2879CBCCD9DD5898C[9];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(18))
-ISpace["MF_d1_OverHead"].Value = result38A4572FA65040C2879CBCCD9DD5898C[18];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(15))
-ISpace["MF_d1_EndorsementFileType"].Value = result38A4572FA65040C2879CBCCD9DD5898C[15];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(6))
-ISpace["MF_d1_ProjectName"].Value = result38A4572FA65040C2879CBCCD9DD5898C[6];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(10))
-ISpace["MF_d1_Remarks"].Value = result38A4572FA65040C2879CBCCD9DD5898C[10];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(1))
-ISpace["MF_d1_ProjectRefNo"].Value = result38A4572FA65040C2879CBCCD9DD5898C[1];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(16))
-ISpace["MF_d1_ProposalCode"].Value = result38A4572FA65040C2879CBCCD9DD5898C[16];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(5))
-ISpace["MF_d1_Designation"].Value = result38A4572FA65040C2879CBCCD9DD5898C[5];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(4))
-ISpace["MF_d1_DepartmentID"].Value = result38A4572FA65040C2879CBCCD9DD5898C[4];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(11))
-ISpace["MF_d1_PrincipalInvestigator"].Value = result38A4572FA65040C2879CBCCD9DD5898C[11];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(13))
-ISpace["MF_d1_ProjectStatus"].Value = result38A4572FA65040C2879CBCCD9DD5898C[13];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(0))
-ISpace["MF_d1_ProjectProposalID"].Value = result38A4572FA65040C2879CBCCD9DD5898C[0];
-if(result38A4572FA65040C2879CBCCD9DD5898C.ContainsKey(12))
-ISpace["MF_d1_EmployeeBasicInfoId"].Value = result38A4572FA65040C2879CBCCD9DD5898C[12];
+if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(3))
+ISpace["MF_d1_DepartmentID"].Value = result8a3f1b647176b37d7999a8c604f44456[3];
+if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(2))
+ISpace["MF_d1_Designation"].Value = result8a3f1b647176b37d7999a8c604f44456[2];
+if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(19))
+ISpace["MF_d1_PrincipalInvestigator"].Value = result8a3f1b647176b37d7999a8c604f44456[19];
+if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(8))
+ISpace["MF_d1_EmployeeBasicInfoId"].Value = result8a3f1b647176b37d7999a8c604f44456[8];
 }
 else{
-ISpace["MF_d1_UpdatedOn"].Value = null;ISpace["MF_d1_SectorID"].Value = null;ISpace["MF_d1_FinancialYearID"].Value = null;ISpace["MF_d1_ProjectCategoryID"].Value = null;ISpace["MF_d1_FundingAgency"].Value = null;ISpace["MF_d1_ProjectType"].Value = null;ISpace["MF_d1_IfExternalInstitute"].Value = null;ISpace["MF_d1_IsSubmitted"].Value = null;ISpace["MF_d1_UpdatedBy"].Value = null;ISpace["MF_d1_ProjectBudget"].Value = null;ISpace["MF_d1_OverHead"].Value = null;ISpace["MF_d1_EndorsementFileType"].Value = null;ISpace["MF_d1_ProjectName"].Value = null;ISpace["MF_d1_Remarks"].Value = null;ISpace["MF_d1_ProjectRefNo"].Value = null;ISpace["MF_d1_ProposalCode"].Value = null;ISpace["MF_d1_Designation"].Value = null;ISpace["MF_d1_DepartmentID"].Value = null;ISpace["MF_d1_PrincipalInvestigator"].Value = null;ISpace["MF_d1_ProjectStatus"].Value = null;ISpace["MF_d1_ProjectProposalID"].Value = null;ISpace["MF_d1_EmployeeBasicInfoId"].Value = null;
+ISpace["MF_d1_DepartmentID"].Value = null;ISpace["MF_d1_Designation"].Value = null;ISpace["MF_d1_PrincipalInvestigator"].Value = null;ISpace["MF_d1_EmployeeBasicInfoId"].Value = null;
 }
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
 
-var querySource8D9E24807B9A4810A5172F25677BF216 =GetQueryExpressionDataSource("8D9E2480-7B9A-4810-A517-2F25677BF216");
+var querySource0a52bb10821c0a9a8ae2ec075fba6a8e =GetQueryExpressionDataSource("0a52bb10-821c-0a9a-8ae2-ec075fba6a8e");
 
-DataTable result8D9E24807B9A4810A5172F25677BF216=iSpace.SetGridDataSource(querySource8D9E24807B9A4810A5172F25677BF216, _objectFactory.GetGridRPP("RequiredDocuments"),@"EXEC InnovaceNoCode..[GridLoadById_A3BB2140-4053-4558-9363-3BA1B526BD0A]  '" + ISpace["MF_d1_ProjectProposalID"].Value + @"'");
+DataTable result0a52bb10821c0a9a8ae2ec075fba6a8e=iSpace.SetGridDataSource(querySource0a52bb10821c0a9a8ae2ec075fba6a8e, _objectFactory.GetGridRPP("ProposalDocuments"),@"EXEC [GetProjectProposalDetailsLoad] 4,''");
 
-iSpace.InsertGridBindDetails("RequiredDocuments","11",querySource8D9E24807B9A4810A5172F25677BF216,"EXEC InnovaceNoCode..[GridLoadById_A3BB2140-4053-4558-9363-3BA1B526BD0A]  '" + ISpace["MF_d1_ProjectProposalID"].Value + @"'",_objectFactory.GetGridRPP("RequiredDocuments"));
+iSpace.InsertGridBindDetails("ProposalDocuments","11",querySource0a52bb10821c0a9a8ae2ec075fba6a8e,"EXEC [GetProjectProposalDetailsLoad] 4,''",_objectFactory.GetGridRPP("ProposalDocuments"));
 
-base.WriteDebugInfo(@"var querySource8D9E24807B9A4810A5172F25677BF216 =GetQueryExpressionDataSource(""8D9E2480-7B9A-4810-A517-2F25677BF216"");DataTable result8D9E24807B9A4810A5172F25677BF216=iSpace.SetGridDataSource(querySource8D9E24807B9A4810A5172F25677BF216, _objectFactory.GetGridRPP(""RequiredDocuments""),@""EXEC InnovaceNoCode..[GridLoadById_A3BB2140-4053-4558-9363-3BA1B526BD0A]  '"" + ISpace[""MF_d1_ProjectProposalID""].Value + @""'"");iSpace.InsertGridBindDetails(""RequiredDocuments"",""11"",querySource8D9E24807B9A4810A5172F25677BF216,""EXEC InnovaceNoCode..[GridLoadById_A3BB2140-4053-4558-9363-3BA1B526BD0A]  '"" + ISpace[""MF_d1_ProjectProposalID""].Value + @""'"",_objectFactory.GetGridRPP(""RequiredDocuments""));");
+base.WriteDebugInfo(@"var querySource0a52bb10821c0a9a8ae2ec075fba6a8e =GetQueryExpressionDataSource(""0a52bb10-821c-0a9a-8ae2-ec075fba6a8e"");DataTable result0a52bb10821c0a9a8ae2ec075fba6a8e=iSpace.SetGridDataSource(querySource0a52bb10821c0a9a8ae2ec075fba6a8e, _objectFactory.GetGridRPP(""ProposalDocuments""),@""EXEC [GetProjectProposalDetailsLoad] 4,''"");iSpace.InsertGridBindDetails(""ProposalDocuments"",""11"",querySource0a52bb10821c0a9a8ae2ec075fba6a8e,""EXEC [GetProjectProposalDetailsLoad] 4,''"",_objectFactory.GetGridRPP(""ProposalDocuments""));");
 base.WriteDebugInfo(@"");
 
 
-List<Triplet<string, short, short?>> resultCA53303706834BD9B5E540B6D2688B23=acdataIspaceB3A493374C4B42EC9F9B1C4C8B4E2E13.GetQueryExpressionBindings("CA533037-0683-4BD9-B5E5-40B6D2688B23");
-iSpace.SetGridData(result8D9E24807B9A4810A5172F25677BF216,resultCA53303706834BD9B5E540B6D2688B23,"RequiredDocuments",ref ISpace);
-iSpace.UpdateGridBindDetails("RequiredDocuments",resultCA53303706834BD9B5E540B6D2688B23);
-
-var querySource8033266591634BD68426C075A9016AEF =GetQueryExpressionDataSource("80332665-9163-4BD6-8426-C075A9016AEF");
-
-DataTable result8033266591634BD68426C075A9016AEF=iSpace.SetGridDataSource(querySource8033266591634BD68426C075A9016AEF, _objectFactory.GetGridRPP("ProposalDocuments"),@"EXEC InnovaceNoCode..[GridLoadById_D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5]  '" + ISpace["MF_d1_ProjectProposalID"].Value + @"'");
-
-iSpace.InsertGridBindDetails("ProposalDocuments","11",querySource8033266591634BD68426C075A9016AEF,"EXEC InnovaceNoCode..[GridLoadById_D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5]  '" + ISpace["MF_d1_ProjectProposalID"].Value + @"'",_objectFactory.GetGridRPP("ProposalDocuments"));
-
-base.WriteDebugInfo(@"var querySource8033266591634BD68426C075A9016AEF =GetQueryExpressionDataSource(""80332665-9163-4BD6-8426-C075A9016AEF"");DataTable result8033266591634BD68426C075A9016AEF=iSpace.SetGridDataSource(querySource8033266591634BD68426C075A9016AEF, _objectFactory.GetGridRPP(""ProposalDocuments""),@""EXEC InnovaceNoCode..[GridLoadById_D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5]  '"" + ISpace[""MF_d1_ProjectProposalID""].Value + @""'"");iSpace.InsertGridBindDetails(""ProposalDocuments"",""11"",querySource8033266591634BD68426C075A9016AEF,""EXEC InnovaceNoCode..[GridLoadById_D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5]  '"" + ISpace[""MF_d1_ProjectProposalID""].Value + @""'"",_objectFactory.GetGridRPP(""ProposalDocuments""));");
-base.WriteDebugInfo(@"");
-
-
-List<Triplet<string, short, short?>> resultFB30DA91C1CF455A891034E8B9BDD2B2=acdataIspaceB3A493374C4B42EC9F9B1C4C8B4E2E13.GetQueryExpressionBindings("FB30DA91-C1CF-455A-8910-34E8B9BDD2B2");
-iSpace.SetGridData(result8033266591634BD68426C075A9016AEF,resultFB30DA91C1CF455A891034E8B9BDD2B2,"ProposalDocuments",ref ISpace);
-iSpace.UpdateGridBindDetails("ProposalDocuments",resultFB30DA91C1CF455A891034E8B9BDD2B2);
-
-var querySourceF7CC07A7418E45D294316826271A4DA5 =GetQueryExpressionDataSource("F7CC07A7-418E-45D2-9431-6826271A4DA5");
-
-DataTable resultF7CC07A7418E45D294316826271A4DA5=iSpace.SetGridDataSource(querySourceF7CC07A7418E45D294316826271A4DA5, _objectFactory.GetGridRPP("CopiDetails"),@"EXEC InnovaceNoCode..[GridLoadById_FC9B8D2E-9EE3-436F-AF08-A774AF04D678]  '" + ISpace["MF_d1_ProjectProposalID"].Value + @"'");
-
-iSpace.InsertGridBindDetails("CopiDetails","11",querySourceF7CC07A7418E45D294316826271A4DA5,"EXEC InnovaceNoCode..[GridLoadById_FC9B8D2E-9EE3-436F-AF08-A774AF04D678]  '" + ISpace["MF_d1_ProjectProposalID"].Value + @"'",_objectFactory.GetGridRPP("CopiDetails"));
-
-base.WriteDebugInfo(@"var querySourceF7CC07A7418E45D294316826271A4DA5 =GetQueryExpressionDataSource(""F7CC07A7-418E-45D2-9431-6826271A4DA5"");DataTable resultF7CC07A7418E45D294316826271A4DA5=iSpace.SetGridDataSource(querySourceF7CC07A7418E45D294316826271A4DA5, _objectFactory.GetGridRPP(""CopiDetails""),@""EXEC InnovaceNoCode..[GridLoadById_FC9B8D2E-9EE3-436F-AF08-A774AF04D678]  '"" + ISpace[""MF_d1_ProjectProposalID""].Value + @""'"");iSpace.InsertGridBindDetails(""CopiDetails"",""11"",querySourceF7CC07A7418E45D294316826271A4DA5,""EXEC InnovaceNoCode..[GridLoadById_FC9B8D2E-9EE3-436F-AF08-A774AF04D678]  '"" + ISpace[""MF_d1_ProjectProposalID""].Value + @""'"",_objectFactory.GetGridRPP(""CopiDetails""));");
-base.WriteDebugInfo(@"");
-
-
-List<Triplet<string, short, short?>> result981B6BE580334BE1B318B88386962FCB=acdataIspaceB3A493374C4B42EC9F9B1C4C8B4E2E13.GetQueryExpressionBindings("981B6BE5-8033-4BE1-B318-B88386962FCB");
-iSpace.SetGridData(resultF7CC07A7418E45D294316826271A4DA5,result981B6BE580334BE1B318B88386962FCB,"CopiDetails",ref ISpace);
-iSpace.UpdateGridBindDetails("CopiDetails",result981B6BE580334BE1B318B88386962FCB);
+List<Triplet<string, short, short?>> resultef1f2ec4a6cbdd231f52fd0b0d03ba57=acdataIspaceB3A493374C4B42EC9F9B1C4C8B4E2E13.GetQueryExpressionBindings("ef1f2ec4-a6cb-dd23-1f52-fd0b0d03ba57");
+iSpace.SetGridData(result0a52bb10821c0a9a8ae2ec075fba6a8e,resultef1f2ec4a6cbdd231f52fd0b0d03ba57,"ProposalDocuments",ref ISpace);
+iSpace.UpdateGridBindDetails("ProposalDocuments",resultef1f2ec4a6cbdd231f52fd0b0d03ba57);
 }
 }
 catch(Exception ex)
@@ -1407,6 +1378,32 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_mf_d1_projectcategoryid (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MF_d1_ProjectCategoryID-OnChange");
+
+var querySource18f009fa842f90cf5d3c5263dc607c23 =GetQueryExpressionDataSource("18f009fa-842f-90cf-5d3c-5263dc607c23");
+
+DataTable result18f009fa842f90cf5d3c5263dc607c23=iSpace.SetGridDataSource(querySource18f009fa842f90cf5d3c5263dc607c23, _objectFactory.GetGridRPP("RequiredDocuments"),@"EXEC GetProposalDocumentList 1,'" + ISpace["MF_d1_FundingAgency"].Value + @"','" + ISpace["MF_d1_ProjectCategoryID"].Value + @"'");
+
+iSpace.InsertGridBindDetails("RequiredDocuments","11",querySource18f009fa842f90cf5d3c5263dc607c23,"EXEC GetProposalDocumentList 1,'" + ISpace["MF_d1_FundingAgency"].Value + @"','" + ISpace["MF_d1_ProjectCategoryID"].Value + @"'",_objectFactory.GetGridRPP("RequiredDocuments"));
+
+base.WriteDebugInfo(@"var querySource18f009fa842f90cf5d3c5263dc607c23 =GetQueryExpressionDataSource(""18f009fa-842f-90cf-5d3c-5263dc607c23"");DataTable result18f009fa842f90cf5d3c5263dc607c23=iSpace.SetGridDataSource(querySource18f009fa842f90cf5d3c5263dc607c23, _objectFactory.GetGridRPP(""RequiredDocuments""),@""EXEC GetProposalDocumentList 1,'"" + ISpace[""MF_d1_FundingAgency""].Value + @""','"" + ISpace[""MF_d1_ProjectCategoryID""].Value + @""'"");iSpace.InsertGridBindDetails(""RequiredDocuments"",""11"",querySource18f009fa842f90cf5d3c5263dc607c23,""EXEC GetProposalDocumentList 1,'"" + ISpace[""MF_d1_FundingAgency""].Value + @""','"" + ISpace[""MF_d1_ProjectCategoryID""].Value + @""'"",_objectFactory.GetGridRPP(""RequiredDocuments""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result46a77cd670de6252e1d62429032e267f=acdataIspaceB3A493374C4B42EC9F9B1C4C8B4E2E13.GetQueryExpressionBindings("46a77cd6-70de-6252-e1d6-2429032e267f");
+iSpace.SetGridData(result18f009fa842f90cf5d3c5263dc607c23,result46a77cd670de6252e1d62429032e267f,"RequiredDocuments",ref ISpace);
+iSpace.UpdateGridBindDetails("RequiredDocuments",result46a77cd670de6252e1d62429032e267f);
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_edit_copidetails (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -1427,18 +1424,18 @@ if((result24CB82CD872D4E8DBC8EE8518B921195!=null) && (result24CB82CD872D4E8DBC8E
 {
 if(result24CB82CD872D4E8DBC8EE8518B921195.ContainsKey(12))
 ISpace["MFG_d2_UpdatedOn"].Value = result24CB82CD872D4E8DBC8EE8518B921195[12];
-if(result24CB82CD872D4E8DBC8EE8518B921195.ContainsKey(11))
-ISpace["MFG_d2_UpdatedBy"].Value = result24CB82CD872D4E8DBC8EE8518B921195[11];
-if(result24CB82CD872D4E8DBC8EE8518B921195.ContainsKey(2))
-ISpace["MFG_d2_AdditionalType"].Value = result24CB82CD872D4E8DBC8EE8518B921195[2];
-if(result24CB82CD872D4E8DBC8EE8518B921195.ContainsKey(8))
-ISpace["MFG_d2_ExternalDesignation"].Value = result24CB82CD872D4E8DBC8EE8518B921195[8];
-if(result24CB82CD872D4E8DBC8EE8518B921195.ContainsKey(7))
-ISpace["MFG_d2_ExternalFacultyName"].Value = result24CB82CD872D4E8DBC8EE8518B921195[7];
 if(result24CB82CD872D4E8DBC8EE8518B921195.ContainsKey(3))
 ISpace["MFG_d2_AdditionalName"].Value = result24CB82CD872D4E8DBC8EE8518B921195[3];
 if(result24CB82CD872D4E8DBC8EE8518B921195.ContainsKey(4))
 ISpace["MFG_d2_Departmentid"].Value = result24CB82CD872D4E8DBC8EE8518B921195[4];
+if(result24CB82CD872D4E8DBC8EE8518B921195.ContainsKey(2))
+ISpace["MFG_d2_AdditionalType"].Value = result24CB82CD872D4E8DBC8EE8518B921195[2];
+if(result24CB82CD872D4E8DBC8EE8518B921195.ContainsKey(11))
+ISpace["MFG_d2_UpdatedBy"].Value = result24CB82CD872D4E8DBC8EE8518B921195[11];
+if(result24CB82CD872D4E8DBC8EE8518B921195.ContainsKey(8))
+ISpace["MFG_d2_ExternalDesignation"].Value = result24CB82CD872D4E8DBC8EE8518B921195[8];
+if(result24CB82CD872D4E8DBC8EE8518B921195.ContainsKey(7))
+ISpace["MFG_d2_ExternalFacultyName"].Value = result24CB82CD872D4E8DBC8EE8518B921195[7];
 if(result24CB82CD872D4E8DBC8EE8518B921195.ContainsKey(5))
 ISpace["MFG_d2_DesignationID"].Value = result24CB82CD872D4E8DBC8EE8518B921195[5];
 if(result24CB82CD872D4E8DBC8EE8518B921195.ContainsKey(6))
@@ -1453,7 +1450,7 @@ if(result24CB82CD872D4E8DBC8EE8518B921195.ContainsKey(0))
 ISpace["MFG_d2_AdditionalID"].Value = result24CB82CD872D4E8DBC8EE8518B921195[0];
 }
 else{
-ISpace["MFG_d2_UpdatedOn"].Value = null;ISpace["MFG_d2_UpdatedBy"].Value = null;ISpace["MFG_d2_AdditionalType"].Value = null;ISpace["MFG_d2_ExternalDesignation"].Value = null;ISpace["MFG_d2_ExternalFacultyName"].Value = null;ISpace["MFG_d2_AdditionalName"].Value = null;ISpace["MFG_d2_Departmentid"].Value = null;ISpace["MFG_d2_DesignationID"].Value = null;ISpace["MFG_d2_ExternalInstituteName"].Value = null;ISpace["MFG_d2_ProjectDetailsID"].Value = null;ISpace["MFG_d2_ExternalEmailId"].Value = null;ISpace["MFG_d2_ExternalContactNo"].Value = null;ISpace["MFG_d2_AdditionalID"].Value = null;
+ISpace["MFG_d2_UpdatedOn"].Value = null;ISpace["MFG_d2_AdditionalName"].Value = null;ISpace["MFG_d2_Departmentid"].Value = null;ISpace["MFG_d2_AdditionalType"].Value = null;ISpace["MFG_d2_UpdatedBy"].Value = null;ISpace["MFG_d2_ExternalDesignation"].Value = null;ISpace["MFG_d2_ExternalFacultyName"].Value = null;ISpace["MFG_d2_DesignationID"].Value = null;ISpace["MFG_d2_ExternalInstituteName"].Value = null;ISpace["MFG_d2_ProjectDetailsID"].Value = null;ISpace["MFG_d2_ExternalEmailId"].Value = null;ISpace["MFG_d2_ExternalContactNo"].Value = null;ISpace["MFG_d2_AdditionalID"].Value = null;
 }
 }
 catch(Exception ex)
@@ -1537,6 +1534,32 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_mf_d1_fundingagency (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MF_d1_FundingAgency-OnChange");
+
+var querySource18f009fa842f90cf5d3c5263dc607c23 =GetQueryExpressionDataSource("18f009fa-842f-90cf-5d3c-5263dc607c23");
+
+DataTable result18f009fa842f90cf5d3c5263dc607c23=iSpace.SetGridDataSource(querySource18f009fa842f90cf5d3c5263dc607c23, _objectFactory.GetGridRPP("RequiredDocuments"),@"EXEC GetProposalDocumentList 1,'" + ISpace["MF_d1_FundingAgency"].Value + @"','" + ISpace["MF_d1_ProjectCategoryID"].Value + @"'");
+
+iSpace.InsertGridBindDetails("RequiredDocuments","11",querySource18f009fa842f90cf5d3c5263dc607c23,"EXEC GetProposalDocumentList 1,'" + ISpace["MF_d1_FundingAgency"].Value + @"','" + ISpace["MF_d1_ProjectCategoryID"].Value + @"'",_objectFactory.GetGridRPP("RequiredDocuments"));
+
+base.WriteDebugInfo(@"var querySource18f009fa842f90cf5d3c5263dc607c23 =GetQueryExpressionDataSource(""18f009fa-842f-90cf-5d3c-5263dc607c23"");DataTable result18f009fa842f90cf5d3c5263dc607c23=iSpace.SetGridDataSource(querySource18f009fa842f90cf5d3c5263dc607c23, _objectFactory.GetGridRPP(""RequiredDocuments""),@""EXEC GetProposalDocumentList 1,'"" + ISpace[""MF_d1_FundingAgency""].Value + @""','"" + ISpace[""MF_d1_ProjectCategoryID""].Value + @""'"");iSpace.InsertGridBindDetails(""RequiredDocuments"",""11"",querySource18f009fa842f90cf5d3c5263dc607c23,""EXEC GetProposalDocumentList 1,'"" + ISpace[""MF_d1_FundingAgency""].Value + @""','"" + ISpace[""MF_d1_ProjectCategoryID""].Value + @""'"",_objectFactory.GetGridRPP(""RequiredDocuments""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result46a77cd670de6252e1d62429032e267f=acdataIspaceB3A493374C4B42EC9F9B1C4C8B4E2E13.GetQueryExpressionBindings("46a77cd6-70de-6252-e1d6-2429032e267f");
+iSpace.SetGridData(result18f009fa842f90cf5d3c5263dc607c23,result46a77cd670de6252e1d62429032e267f,"RequiredDocuments",ref ISpace);
+iSpace.UpdateGridBindDetails("RequiredDocuments",result46a77cd670de6252e1d62429032e267f);
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 public override void ExecuteMethod
 	(string methodName, string elementName,
 		ref Dictionary<string, ServiceElementData> dfsParam)
@@ -1547,6 +1570,14 @@ public override void ExecuteMethod
 }
 	if(methodName.ToLower().Equals("onchange"))
 {
+		if(elementName.ToLower().Equals("mf_d1_projectcategoryid"))
+    {
+    			SubscribeElementEvents_mf_d1_projectcategoryid(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mf_d1_fundingagency"))
+    {
+    			SubscribeElementEvents_mf_d1_fundingagency(ref dfsParam);
+    }
 }
 	if(methodName.ToLower().Equals("onclick"))
 {
@@ -1659,83 +1690,29 @@ using System;
 														   -1),
 								}
 			},
-							{"981B6BE5-8033-4BE1-B318-B88386962FCB", 
+							{"46a77cd6-70de-6252-e1d6-2429032e267f", 
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("CopiDetails_RowId",13,
+								   new Triplet<string, short, short?>("MG_d4_Categorymapid",0,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalID",0,
+								   new Triplet<string, short, short?>("MG_d4_DocumentId",2,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Departmentid",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",11,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
+								   new Triplet<string, short, short?>("MG_d4_DocumentName",1,
 														   -1),
 								}
 			},
-							{"CA533037-0683-4BD9-B5E5-40B6D2688B23", 
+							{"ef1f2ec4-a6cb-dd23-1f52-fd0b0d03ba57", 
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("MG_d4_Categorymapid",2,
+								   new Triplet<string, short, short?>("MG_d3_DocumentName",1,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d4_Document",6,
+								   new Triplet<string, short, short?>("MG_d3_DocumentProposalID",2,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d4_DocumentId",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d4_DocumentName",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d4_ProjectproposalID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d4_UpdatedBy",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d4_UpdatedOn",5,
-														   -1),
-								   new Triplet<string, short, short?>("RequiredDocuments_RowId",7,
-														   -1),
-								}
-			},
-							{"FB30DA91-C1CF-455A-8910-34E8B9BDD2B2", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("MG_d3_DocumentName",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_DocumentProposalID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_MandatoryCheck",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_ProjectproposalID",2,
+								   new Triplet<string, short, short?>("MG_d3_MandatoryCheck",3,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d3_ProposalDocumentID",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_UpdatedBy",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_UpdatedOn",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_UploadDocument",6,
-														   -1),
-								   new Triplet<string, short, short?>("ProposalDocuments_RowId",8,
 														   -1),
 								}
 			},
