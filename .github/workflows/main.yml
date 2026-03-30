@@ -11,3 +11,8 @@ jobs:
 
   deploy-react:
     uses: ./.github/workflows/react.yml
+    secrets:
+      VITE_BASE_URL: ${{ secrets.VITE_BASE_URL }}
+      VITE_AUTH_URL: ${{ secrets.VITE_AUTH_URL }}
+      VITE_DOCUMENT_SERVICE_URL: ${{ secrets.VITE_DOCUMENT_SERVICE_URL }}
+      VITE_BASE_EXECUTION_URL: ${{ secrets.VITE_BASE_EXECUTION_URL }}

@@ -1296,6 +1296,12 @@ List<Triplet<string, short, short?>> resultef1f2ec4a6cbdd231f52fd0b0d03ba57=acda
 iSpace.SetGridData(result0a52bb10821c0a9a8ae2ec075fba6a8e,resultef1f2ec4a6cbdd231f52fd0b0d03ba57,"ProposalDocuments",ref ISpace);
 iSpace.UpdateGridBindDetails("ProposalDocuments",resultef1f2ec4a6cbdd231f52fd0b0d03ba57);
 }
+ISpace["MF_d1_FinancialYearID"].Man=true;ISpace["MF_d1_ProjectName"].Man=true;ISpace["MF_d1_ProjectCategoryID"].Man=true;ISpace["MF_d1_ProjectType"].Man=true;ISpace["MF_d1_SectorID"].Man=true;ISpace["MF_d1_FundingAgency"].Man=true;
+base.WriteDebugInfo(@"ISpace[""MF_d1_FinancialYearID""].Man=true;ISpace[""MF_d1_ProjectName""].Man=true;ISpace[""MF_d1_ProjectCategoryID""].Man=true;ISpace[""MF_d1_ProjectType""].Man=true;ISpace[""MF_d1_SectorID""].Man=true;ISpace[""MF_d1_FundingAgency""].Man=true;");
+
+
+
+
 }
 catch(Exception ex)
 {
@@ -1534,6 +1540,24 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_mfg_d2_departmentid (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MFG_d2_Departmentid-OnChange");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["MFG_d2_AdditionalName"].rElemData=iSpace.Reload(ISpace["MFG_d2_AdditionalName"].Value,@"EXEC GetDepartmentWiseFacultyCopi '" + ISpace["MFG_d2_Departmentid"].Value + @"',3,'" + ISpace["DummyInstance"].Value + @"',''","3A103712-5244-4427-B2B6-1C4E046FD337");
+base.WriteDebugInfo(@"ISpace[""MFG_d2_AdditionalName""].rElemData=iSpace.Reload(ISpace[""MFG_d2_AdditionalName""].Value,@""EXEC GetDepartmentWiseFacultyCopi '"" + ISpace[""MFG_d2_Departmentid""].Value + @""',3,'"" + ISpace[""DummyInstance""].Value + @""',''"",""3A103712-5244-4427-B2B6-1C4E046FD337"");");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_mf_d1_fundingagency (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -1560,6 +1584,24 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_mfg_d2_additionaltype (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MFG_d2_AdditionalType-OnChange");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["MFG_d2_Departmentid"].rElemData=iSpace.Reload(ISpace["MFG_d2_Departmentid"].Value,@"EXEC [GetDepartmentWiseFacultyCopi] '" + ISpace["Dept"].Value + @"',2,'" + ISpace["DummyInstance"].Value + @"','" + ISpace["MFG_d2_AdditionalType"].Value + @"'","3A103712-5244-4427-B2B6-1C4E046FD337");
+base.WriteDebugInfo(@"ISpace[""MFG_d2_Departmentid""].rElemData=iSpace.Reload(ISpace[""MFG_d2_Departmentid""].Value,@""EXEC [GetDepartmentWiseFacultyCopi] '"" + ISpace[""Dept""].Value + @""',2,'"" + ISpace[""DummyInstance""].Value + @""','"" + ISpace[""MFG_d2_AdditionalType""].Value + @""'"",""3A103712-5244-4427-B2B6-1C4E046FD337"");");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 public override void ExecuteMethod
 	(string methodName, string elementName,
 		ref Dictionary<string, ServiceElementData> dfsParam)
@@ -1574,9 +1616,17 @@ public override void ExecuteMethod
     {
     			SubscribeElementEvents_mf_d1_projectcategoryid(ref dfsParam);
     }
+		if(elementName.ToLower().Equals("mfg_d2_departmentid"))
+    {
+    			SubscribeElementEvents_mfg_d2_departmentid(ref dfsParam);
+    }
 		if(elementName.ToLower().Equals("mf_d1_fundingagency"))
     {
     			SubscribeElementEvents_mf_d1_fundingagency(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mfg_d2_additionaltype"))
+    {
+    			SubscribeElementEvents_mfg_d2_additionaltype(ref dfsParam);
     }
 }
 	if(methodName.ToLower().Equals("onclick"))

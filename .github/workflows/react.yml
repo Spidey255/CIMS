@@ -2,6 +2,15 @@ name: React App Deployment
 
 on:
   workflow_call:
+    secrets:
+      VITE_BASE_URL:
+        required: true
+      VITE_AUTH_URL:
+        required: true
+      VITE_DOCUMENT_SERVICE_URL:
+        required: true
+      VITE_BASE_EXECUTION_URL:
+        required: true
 
 jobs:
   deploy:
@@ -36,4 +45,3 @@ jobs:
       - name: Copy Build Files
         run: |
           cp -r Client/dist/* /home/Share/Presentations/CIMS/
-

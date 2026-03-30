@@ -1,43 +1,44 @@
 name: .NET API Deployment
 
-on:
-  workflow_call:
+    on:
+      workflow_call:
 
-jobs:
-  build-and-deploy:
-    runs-on: [self-hosted, linux]
+    jobs:
+      build-and-deploy:
+        runs-on: [self-hosted, linux]
 
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v4
+        steps:
+          - name: Checkout Code
+            uses: actions/checkout@v4
 
-      - name: Restore Solution
-        run: dotnet restore DynamicDFSAPI/iProofProcessDFSService.sln
+          - name: Restore Solution
+            run: dotnet restore DynamicDFSAPI/iProofProcessDFSService.sln
 
-      - name: Build Solution
-        run: dotnet build DynamicDFSAPI/iProofProcessDFSService.sln --configuration Release --no-restore
+          - name: Build Solution
+            run: dotnet build DynamicDFSAPI/iProofProcessDFSService.sln --configuration Release --no-restore
 
-      - name: Publish API
-        run: dotnet publish DynamicDFSAPI/iProofProcessService/iProofProcessService.csproj -c Release -o publish
+          - name: Publish API
+            run: dotnet publish DynamicDFSAPI/iProofProcessService/iProofProcessService.csproj -c Release -o publish
 
-      - name: Ensure Target Directory Exists
-        run: |
-          mkdir -p /home/Share/Presentations/CIMSAPI
+          - name: Ensure Target Directory Exists
+            run: |
+              mkdir -p /home/Share/Presentations/CIMSAPI
 
-      - name: Stop Service
-        run: |
-          sudo systemctl stop CIMSAPI.service || true
+          - name: Stop Service
+            run: |
+              sudo systemctl stop CIMSAPI.service || true
 
-      - name: Clean Old Files
-        run: |
-          rm -rf /home/Share/Presentations/CIMSAPI/*
+          - name: Clean Old Files
+            run: |
+              rm -rf /home/Share/Presentations/CIMSAPI/*
 
-      - name: Copy New Files
-        run: |
-          cp -r publish/* /home/Share/Presentations/CIMSAPI/
+          - name: Copy New Files
+            run: |
+              cp -r publish/* /home/Share/Presentations/CIMSAPI/
 
-      - name: Start Service
-        run: |
-          sudo systemctl daemon-reload
-          sudo systemctl start CIMSAPI.service
-          sudo systemctl status CIMSAPI.service --no-pager
+          - name: Start Service
+            run: |
+              sudo systemctl daemon-reload
+              sudo systemctl start CIMSAPI.service
+              sudo systemctl status CIMSAPI.service --no-pager
+    
