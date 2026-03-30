@@ -1,0 +1,39 @@
+name: React App Deployment
+
+on:
+  workflow_call:
+
+jobs:
+  deploy:
+    runs-on: [self-hosted, linux]
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Install Dependencies
+        working-directory: Client
+        run: npm install
+
+      - name: Build React App
+        working-directory: Client
+        run: npm run build
+        env:
+          CI: false
+          VITE_BASE_URL: ${{ secrets.VITE_BASE_URL }}
+          VITE_AUTH_URL: ${{ secrets.VITE_AUTH_URL }}
+          VITE_DOCUMENT_SERVICE_URL: ${{ secrets.VITE_DOCUMENT_SERVICE_URL }}
+          VITE_BASE_EXECUTION_URL: ${{ secrets.VITE_BASE_EXECUTION_URL }}
+
+      - name: Ensure Target Directory Exists
+        run: |
+          mkdir -p /home/Share/Presentations/CIMS
+
+      - name: Clean Old Build
+        run: |
+          rm -rf /home/Share/Presentations/CIMS/*
+
+      - name: Copy Build Files
+        run: |
+          cp -r Client/dist/* /home/Share/Presentations/CIMS/
+

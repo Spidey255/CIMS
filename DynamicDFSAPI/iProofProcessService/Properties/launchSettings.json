@@ -1,0 +1,18 @@
+
+
+
+{
+  
+  "profiles": {    
+    "iProofProcessService": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://10.195.250.170:5011/swagger/index.html",
+      "applicationUrl":  "http://10.195.250.170:5011",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
+

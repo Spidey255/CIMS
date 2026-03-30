@@ -1,0 +1,13 @@
+name: Full Stack Deployment Trigger
+
+on:
+  push:
+    branches:
+      - Dev
+
+jobs:
+  deploy-dotnet:
+    uses: ./.github/workflows/dotnet.yml
+
+  deploy-react:
+    uses: ./.github/workflows/react.yml

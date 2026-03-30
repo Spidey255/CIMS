@@ -1,0 +1,118 @@
+/* ==========================================================================
+   ULTRA LIGHT CORPORATE THEME – PASTEL COLORS + WHITE UI
+   ==========================================================================*/
+
+/* NAVBAR WRAPPER */
+.CustomIspaceMenuTop {
+    display: flex;
+    flex-direction: row;
+    background: #ffffff; /* Full white menu bar */
+    padding: 10px;
+}
+
+/* MENU ITEMS */
+.CustomIspaceMenuTop > li {
+    margin-left: 6px;
+}
+
+/* CLEAN LIGHT BUTTONS */
+.CustomIspaceMenuTop .btn {
+    background: #ffffff !important;
+    border: 1px solid #e7ecf2 !important;
+    color: #5b616a;
+    border-radius: 8px !important;
+    padding: 6px 12px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: 0.15s ease-in-out;
+}
+
+/* Button hover → very soft grey-blue */
+.CustomIspaceMenuTop .btn:hover {
+    background: #f4f8fc !important;
+    border-color: #d8e2ec !important;
+    color: #333c48;
+}
+
+/* DROPDOWN MENU (Very Soft White) */
+.CustomIspaceMenuTop .dropdown-menu {
+    min-width: 170px;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #e7ecf2;
+    background: #ffffff;
+    box-shadow: 0 4px 14px rgba(130, 145, 170, 0.08);
+}
+
+/* DROPDOWN TEXT */
+.CustomIspaceMenuTop .dropdown-menu li > a,
+.CustomIspaceMenuTop .dropdown-menu label {
+    padding: 10px 16px;
+    font-size: 13px;
+    color: #5c6675;
+}
+
+/* Soft Hover */
+.CustomIspaceMenuTop .dropdown-menu li:hover {
+    background: #f6f9fc;
+}
+
+/* RADIO BUTTON AREA */
+.CustomCheckbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Light-blue radio selection */
+.CustomCheckbox input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #80bfff; /* Soft pastel blue */
+}
+
+/* PRIORITY DOT COLORS (Pastel Versions) */
+.border-slate  { background: #aeb7c2; }
+.border-success { background: #8fd59b; }
+.border-purple { background: #c9a4e3; }
+.border-danger { background: #f2a0a0; }
+
+/* Light Status Dot */
+.status-mark {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+
+
+/* Soft Save Exit (success-700 variant) */
+.btn-success-700 {
+    background: #b0e8be !important;
+    border-color: #b0e8be !important;
+    color: #20502c !important;
+}
+
+/* Remove heavy shadows */
+.CustomIspaceMenuTop .icon {
+    width: 32px;
+    height: 32px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 6px;
+}
+
+/* Light Hover */
+.CustomIspaceMenuTop .icon:hover {
+    background-color: #f4f7fb !important;
+}
+
+
+.table-responsive {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
+}
+

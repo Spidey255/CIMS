@@ -1,0 +1,63 @@
+/* Container */
+.grid-shimmer-container {
+  width: 100%;
+  padding: 8px 0;
+}
+
+/* Table Row */
+.grid-shimmer-row {
+  display: grid;
+  grid-template-columns: 80px 1.5fr 2fr 1fr 1fr;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 16px;
+  border-bottom: 1px solid #f1f3f6;
+}
+
+/* Cell */
+.grid-shimmer-cell {
+  height: 50px;
+  border-radius: 6px;
+  background: #edf0f4;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Shimmer Effect */
+.grid-shimmer-cell::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  transform: translateX(-100%);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.7),
+    transparent
+  );
+  animation: gridShimmer 1.3s infinite;
+}
+
+/* Sizes */
+.grid-shimmer-cell.sm {
+  width: 60%;
+}
+
+.grid-shimmer-cell.md {
+  width: 80%;
+}
+
+.grid-shimmer-cell.lg {
+  width: 100%;
+}
+
+.grid-shimmer-cell.xl {
+  width: 95%;
+}
+
+/* Animation */
+@keyframes gridShimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}

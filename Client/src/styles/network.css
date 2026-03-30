@@ -1,0 +1,57 @@
+/* Toast container */
+.modern-toast-container {
+  position: fixed;
+  bottom: 24px;
+  display: flex;
+  justify-content: center;
+  z-index: 99999999;
+  animation: slideUp 0.45s ease, fadeIn 0.35s ease;
+  width: 100%;
+}
+
+/* Corporate card style */
+.modern-toast {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(14px);
+  padding: 14px 22px;
+  color: #1a1a1a;
+  width: 330px;
+  border-radius: 14px;
+  /* border: 1px solid rgba(255, 255, 255, 0.6); */
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+  animation: fadeIn 0.35s ease;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+/* States */
+.network-lost {
+  border-left: 4px solid #e64b47; /* soft red */
+  background: rgba(255, 235, 235, 0.75);
+}
+
+.network-restored {
+  border-left: 4px solid #3b82f6; /* corporate blue */
+  background: rgba(230, 243, 255, 0.75);
+}
+
+/* Text styling */
+.modern-toast strong {
+  font-size: 0.98rem;
+  color: #0f172a;
+}
+
+.modern-toast .small {
+  font-size: 0.80rem;
+  color: #475569;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+

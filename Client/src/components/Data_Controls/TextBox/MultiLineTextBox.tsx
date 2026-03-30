@@ -1,0 +1,51 @@
+// Innovace Intech Solution Pvt Ltd
+import React from "react";
+import type { UIElement } from "../../../constants/types";
+import { useGeneralStore } from "../../../store/useStore";
+
+const MultiLineTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
+  element,
+  isGrid,
+}) => {
+  const state = useGeneralStore(
+    (store) => store.state[element.ElementName]?.["value"]
+  );
+  const setState = useGeneralStore((store) => store.setState);
+
+  
+
+  return (
+    <div className={!Boolean(isGrid) ? element.ColumnCss : undefined}>
+      <div id={`${element.ElementName}`}>
+        <div className="form-group">
+          {!Boolean(isGrid) && Boolean(element["ShowCaption"]) ? (
+            <label className="form-label" htmlFor={element.ElementName}>
+              {element?.DCaption}
+            </label>
+          ) : null}
+
+          <span className="text-danger"></span>
+
+          <div className="controls">
+            <textarea
+              className="form-control input-lg"
+              data-type="textarea"
+              cols={25}
+              rows={5}
+              placeholder={element?.DHelpText}
+              autoComplete="off"
+              data-toggle="popover"
+              data-trigger="hover"
+              value={typeof state === "string" ? state : ""}
+              onChange={(e) => setState(element.ElementName, e.target.value)}
+              onClick={(e) => e.stopPropagation()}
+              id={element.ElementName}
+            ></textarea>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default MultiLineTextBox;
