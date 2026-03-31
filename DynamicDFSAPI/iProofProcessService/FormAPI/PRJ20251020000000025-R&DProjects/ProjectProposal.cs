@@ -1283,6 +1283,8 @@ ISpace["MF_d1_EmployeeBasicInfoId"].Value = result8a3f1b647176b37d7999a8c604f444
 else{
 ISpace["MF_d1_DepartmentID"].Value = null;ISpace["MF_d1_Designation"].Value = null;ISpace["MF_d1_PrincipalInvestigator"].Value = null;ISpace["MF_d1_EmployeeBasicInfoId"].Value = null;
 }
+ISpace["MF_d1_Currency"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_d1_Currency""].Visible=""false"";");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
