@@ -249,6 +249,10 @@ namespace CPS.Proof.DFSExtension
 												     @"EXEC GetProjectDetailCombo 2"),
 			
 						
+			     new Triplet<string, string, string>("MFG_d2_MemberType","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetMemberTypes"),
+			
+						
 			     new Triplet<string, string, string>("MF_d1_SectorID","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
 												     @"EXEC GetDateDifferenceInYears 32,'','',''"),
 			
@@ -291,6 +295,9 @@ namespace CPS.Proof.DFSExtension
 		{
 		
 	  			
+			     new Tuple<string, int>("CopiDetails",1000),
+			
+						
 		};
 
 	   public override int GetGridRPP(string ElementName)

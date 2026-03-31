@@ -18,7 +18,7 @@ import { useUserStore } from "@/store/useUserStore";
 
 import ProjectsExplorer_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start";
 import ProjectProposal_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_Start";
-import ProjectProposal_ReadOnlyView-ReadOnly from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_ReadOnlyView-ReadOnly";
+import ProjectProposal_ReadOnly from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_ReadOnly";
 
 const hasAccessToken = (): boolean => {
   if (typeof window === "undefined") {
@@ -70,7 +70,7 @@ const App: React.FC = () => {
       }>
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start" element={<ProjectsExplorer_Start />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_Start" element={<ProjectProposal_Start />} />
-        <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_ReadOnlyView-ReadOnly" element={<ProjectProposal_ReadOnlyView-ReadOnly />} />
+        <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_ReadOnly" element={<ProjectProposal_ReadOnly />} />
         <Route path="/Inbox" element={<Inbox />} />
         <Route path="*" element={<NotFound />} />
       </Route>
