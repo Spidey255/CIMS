@@ -298,6 +298,9 @@ namespace CPS.Proof.DFSExtension
 			     new Tuple<string, int>("CopiDetails",1000),
 			
 						
+			     new Tuple<string, int>("ProposalDocuments",5),
+			
+						
 		};
 
 	   public override int GetGridRPP(string ElementName)
