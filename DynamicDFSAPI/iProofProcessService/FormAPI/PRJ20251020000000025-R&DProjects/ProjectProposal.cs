@@ -1285,8 +1285,8 @@ ISpace["MF_d1_EmployeeBasicInfoId"].Value = result8a3f1b647176b37d7999a8c604f444
 else{
 ISpace["M_DepartmentId"].Value = null;ISpace["MF_d1_DepartmentID"].Value = null;ISpace["MF_d1_Designation"].Value = null;ISpace["MF_d1_PrincipalInvestigator"].Value = null;ISpace["MF_d1_EmployeeBasicInfoId"].Value = null;
 }
-ISpace["MF_d1_Currency"].Visible="false";
-base.WriteDebugInfo(@"ISpace[""MF_d1_Currency""].Visible=""false"";");
+ISpace["M_DepartmentId"].Visible="false";ISpace["MF_d1_Currency"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""M_DepartmentId""].Visible=""false"";ISpace[""MF_d1_Currency""].Visible=""false"";");
 ISpace["MFG_d2_DesignationID"].Visible="false";ISpace["MFG_d2_ExternalInstituteName"].Visible="false";ISpace["MFG_d2_ExternalEmailId"].Visible="false";ISpace["MFG_d2_ExternalContactNo"].Visible="false";ISpace["MFG_d2_ExternalDesignation"].Visible="false";ISpace["MFG_d2_ExternalFacultyName"].Visible="false";ISpace["MFG_d2_AdditionalName"].Visible="false";ISpace["MFG_d2_Departmentid"].Visible="false";ISpace["MFG_d2_AdditionalType"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""MFG_d2_DesignationID""].Visible=""false"";ISpace[""MFG_d2_ExternalInstituteName""].Visible=""false"";ISpace[""MFG_d2_ExternalEmailId""].Visible=""false"";ISpace[""MFG_d2_ExternalContactNo""].Visible=""false"";ISpace[""MFG_d2_ExternalDesignation""].Visible=""false"";ISpace[""MFG_d2_ExternalFacultyName""].Visible=""false"";ISpace[""MFG_d2_AdditionalName""].Visible=""false"";ISpace[""MFG_d2_Departmentid""].Visible=""false"";ISpace[""MFG_d2_AdditionalType""].Visible=""false"";");
 if(1==1)
