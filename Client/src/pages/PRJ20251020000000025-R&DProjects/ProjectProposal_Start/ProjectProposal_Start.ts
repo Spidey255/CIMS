@@ -34,7 +34,7 @@ export const DataElementsData = [
     "Bindable": false,
     "Action": "FormOnLoad",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"MF_d1_FinancialYearID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_ProjectType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_Designation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_Currency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_DocumentProposalID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_SectorID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_PrincipalInvestigator\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_MandatoryCheck\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d1_ProjectCategoryID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_EmployeeBasicInfoId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_FundingAgency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_DepartmentID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_ProposalDocumentID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_DocumentName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_ProjectName\",\"Value\":\"\",\"EDT\":9}]}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"MFG_d2_ExternalFacultyName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_FinancialYearID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_ProjectType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_Designation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_d2_AdditionalType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_Currency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_DocumentProposalID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_d2_ExternalDesignation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_SectorID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_PrincipalInvestigator\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_d2_DesignationID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_MandatoryCheck\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d1_ProjectCategoryID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_d2_ExternalInstituteName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_EmployeeBasicInfoId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_d2_ExternalContactNo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_FundingAgency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_d2_ExternalEmailId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_d2_AdditionalName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_DepartmentID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_d2_Departmentid\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_ProposalDocumentID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_DocumentName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_ProjectName\",\"Value\":\"\",\"EDT\":9}]}]",
     "DCaption": "",
     "__idx": 0,
     "_id": "349381ae-7c2c-17f4-6aba-54c5138548e4_1_0",
@@ -1614,8 +1614,9 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "HeaderTemplate": "",
                                         "MergeRow": "",
+                                        "Action": "OnChange",
                                         "IsSaveWidget": 0,
-                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                         "EDT": 9,
                                         "DCaption": "Member Type",
                                         "DHelpText": "",
@@ -1659,6 +1660,12 @@ export const DataElementsData = [
                                         "DCaption": "Faculty Type",
                                         "DHelpText": "",
                                         "DToolTip": "",
+                                        "ElementControlProperty": [
+                                          {
+                                            "Visible": false,
+                                            "Span": false
+                                          }
+                                        ],
                                         "__idx": 53,
                                         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_54_53",
                                         "children": []
@@ -1698,6 +1705,12 @@ export const DataElementsData = [
                                         "DCaption": "Department",
                                         "DHelpText": "",
                                         "DToolTip": "",
+                                        "ElementControlProperty": [
+                                          {
+                                            "Visible": false,
+                                            "Span": false
+                                          }
+                                        ],
                                         "__idx": 54,
                                         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_55_54",
                                         "children": []
@@ -1736,6 +1749,12 @@ export const DataElementsData = [
                                         "DCaption": "Name",
                                         "DHelpText": "",
                                         "DToolTip": "",
+                                        "ElementControlProperty": [
+                                          {
+                                            "Visible": false,
+                                            "Span": false
+                                          }
+                                        ],
                                         "__idx": 55,
                                         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_56_55",
                                         "children": []
@@ -1775,6 +1794,12 @@ export const DataElementsData = [
                                         "DCaption": "External Institute Name",
                                         "DHelpText": "",
                                         "DToolTip": "",
+                                        "ElementControlProperty": [
+                                          {
+                                            "Visible": false,
+                                            "Span": false
+                                          }
+                                        ],
                                         "__idx": 56,
                                         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_57_56",
                                         "children": []
@@ -1814,6 +1839,12 @@ export const DataElementsData = [
                                         "DCaption": "External Faculty Name",
                                         "DHelpText": "",
                                         "DToolTip": "",
+                                        "ElementControlProperty": [
+                                          {
+                                            "Visible": false,
+                                            "Span": false
+                                          }
+                                        ],
                                         "__idx": 57,
                                         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_58_57",
                                         "children": []
@@ -1853,6 +1884,12 @@ export const DataElementsData = [
                                         "DCaption": "External EmailId",
                                         "DHelpText": "",
                                         "DToolTip": "",
+                                        "ElementControlProperty": [
+                                          {
+                                            "Visible": false,
+                                            "Span": false
+                                          }
+                                        ],
                                         "__idx": 58,
                                         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_59_58",
                                         "children": []
@@ -1892,6 +1929,12 @@ export const DataElementsData = [
                                         "DCaption": "External Contact No",
                                         "DHelpText": "",
                                         "DToolTip": "",
+                                        "ElementControlProperty": [
+                                          {
+                                            "Visible": false,
+                                            "Span": false
+                                          }
+                                        ],
                                         "__idx": 59,
                                         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_60_59",
                                         "children": []
@@ -6092,8 +6135,9 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "HeaderTemplate": "",
                                     "MergeRow": "",
+                                    "Action": "OnChange",
                                     "IsSaveWidget": 0,
-                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                     "EDT": 9,
                                     "DCaption": "Member Type",
                                     "DHelpText": "",
@@ -6137,6 +6181,12 @@ export const DataElementsData = [
                                     "DCaption": "Faculty Type",
                                     "DHelpText": "",
                                     "DToolTip": "",
+                                    "ElementControlProperty": [
+                                      {
+                                        "Visible": false,
+                                        "Span": false
+                                      }
+                                    ],
                                     "__idx": 53,
                                     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_54_53",
                                     "children": []
@@ -6176,6 +6226,12 @@ export const DataElementsData = [
                                     "DCaption": "Department",
                                     "DHelpText": "",
                                     "DToolTip": "",
+                                    "ElementControlProperty": [
+                                      {
+                                        "Visible": false,
+                                        "Span": false
+                                      }
+                                    ],
                                     "__idx": 54,
                                     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_55_54",
                                     "children": []
@@ -6214,6 +6270,12 @@ export const DataElementsData = [
                                     "DCaption": "Name",
                                     "DHelpText": "",
                                     "DToolTip": "",
+                                    "ElementControlProperty": [
+                                      {
+                                        "Visible": false,
+                                        "Span": false
+                                      }
+                                    ],
                                     "__idx": 55,
                                     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_56_55",
                                     "children": []
@@ -6253,6 +6315,12 @@ export const DataElementsData = [
                                     "DCaption": "External Institute Name",
                                     "DHelpText": "",
                                     "DToolTip": "",
+                                    "ElementControlProperty": [
+                                      {
+                                        "Visible": false,
+                                        "Span": false
+                                      }
+                                    ],
                                     "__idx": 56,
                                     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_57_56",
                                     "children": []
@@ -6292,6 +6360,12 @@ export const DataElementsData = [
                                     "DCaption": "External Faculty Name",
                                     "DHelpText": "",
                                     "DToolTip": "",
+                                    "ElementControlProperty": [
+                                      {
+                                        "Visible": false,
+                                        "Span": false
+                                      }
+                                    ],
                                     "__idx": 57,
                                     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_58_57",
                                     "children": []
@@ -6331,6 +6405,12 @@ export const DataElementsData = [
                                     "DCaption": "External EmailId",
                                     "DHelpText": "",
                                     "DToolTip": "",
+                                    "ElementControlProperty": [
+                                      {
+                                        "Visible": false,
+                                        "Span": false
+                                      }
+                                    ],
                                     "__idx": 58,
                                     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_59_58",
                                     "children": []
@@ -6370,6 +6450,12 @@ export const DataElementsData = [
                                     "DCaption": "External Contact No",
                                     "DHelpText": "",
                                     "DToolTip": "",
+                                    "ElementControlProperty": [
+                                      {
+                                        "Visible": false,
+                                        "Span": false
+                                      }
+                                    ],
                                     "__idx": 59,
                                     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_60_59",
                                     "children": []
@@ -10488,8 +10574,9 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "HeaderTemplate": "",
                                 "MergeRow": "",
+                                "Action": "OnChange",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                 "EDT": 9,
                                 "DCaption": "Member Type",
                                 "DHelpText": "",
@@ -10533,6 +10620,12 @@ export const DataElementsData = [
                                 "DCaption": "Faculty Type",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Visible": false,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 53,
                                 "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_54_53",
                                 "children": []
@@ -10572,6 +10665,12 @@ export const DataElementsData = [
                                 "DCaption": "Department",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Visible": false,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 54,
                                 "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_55_54",
                                 "children": []
@@ -10610,6 +10709,12 @@ export const DataElementsData = [
                                 "DCaption": "Name",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Visible": false,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 55,
                                 "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_56_55",
                                 "children": []
@@ -10649,6 +10754,12 @@ export const DataElementsData = [
                                 "DCaption": "External Institute Name",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Visible": false,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 56,
                                 "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_57_56",
                                 "children": []
@@ -10688,6 +10799,12 @@ export const DataElementsData = [
                                 "DCaption": "External Faculty Name",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Visible": false,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 57,
                                 "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_58_57",
                                 "children": []
@@ -10727,6 +10844,12 @@ export const DataElementsData = [
                                 "DCaption": "External EmailId",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Visible": false,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 58,
                                 "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_59_58",
                                 "children": []
@@ -10766,6 +10889,12 @@ export const DataElementsData = [
                                 "DCaption": "External Contact No",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Visible": false,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 59,
                                 "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_60_59",
                                 "children": []
@@ -14760,8 +14889,9 @@ export const DataElementsData = [
                             "Bindable": false,
                             "HeaderTemplate": "",
                             "MergeRow": "",
+                            "Action": "OnChange",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                             "EDT": 9,
                             "DCaption": "Member Type",
                             "DHelpText": "",
@@ -14805,6 +14935,12 @@ export const DataElementsData = [
                             "DCaption": "Faculty Type",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Visible": false,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 53,
                             "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_54_53",
                             "children": []
@@ -14844,6 +14980,12 @@ export const DataElementsData = [
                             "DCaption": "Department",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Visible": false,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 54,
                             "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_55_54",
                             "children": []
@@ -14882,6 +15024,12 @@ export const DataElementsData = [
                             "DCaption": "Name",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Visible": false,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 55,
                             "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_56_55",
                             "children": []
@@ -14921,6 +15069,12 @@ export const DataElementsData = [
                             "DCaption": "External Institute Name",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Visible": false,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 56,
                             "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_57_56",
                             "children": []
@@ -14960,6 +15114,12 @@ export const DataElementsData = [
                             "DCaption": "External Faculty Name",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Visible": false,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 57,
                             "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_58_57",
                             "children": []
@@ -14999,6 +15159,12 @@ export const DataElementsData = [
                             "DCaption": "External EmailId",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Visible": false,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 58,
                             "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_59_58",
                             "children": []
@@ -15038,6 +15204,12 @@ export const DataElementsData = [
                             "DCaption": "External Contact No",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Visible": false,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 59,
                             "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_60_59",
                             "children": []
@@ -18909,8 +19081,9 @@ export const DataElementsData = [
                         "Bindable": false,
                         "HeaderTemplate": "",
                         "MergeRow": "",
+                        "Action": "OnChange",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                         "EDT": 9,
                         "DCaption": "Member Type",
                         "DHelpText": "",
@@ -18954,6 +19127,12 @@ export const DataElementsData = [
                         "DCaption": "Faculty Type",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Visible": false,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 53,
                         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_54_53",
                         "children": []
@@ -18993,6 +19172,12 @@ export const DataElementsData = [
                         "DCaption": "Department",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Visible": false,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 54,
                         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_55_54",
                         "children": []
@@ -19031,6 +19216,12 @@ export const DataElementsData = [
                         "DCaption": "Name",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Visible": false,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 55,
                         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_56_55",
                         "children": []
@@ -19070,6 +19261,12 @@ export const DataElementsData = [
                         "DCaption": "External Institute Name",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Visible": false,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 56,
                         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_57_56",
                         "children": []
@@ -19109,6 +19306,12 @@ export const DataElementsData = [
                         "DCaption": "External Faculty Name",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Visible": false,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 57,
                         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_58_57",
                         "children": []
@@ -19148,6 +19351,12 @@ export const DataElementsData = [
                         "DCaption": "External EmailId",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Visible": false,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 58,
                         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_59_58",
                         "children": []
@@ -19187,6 +19396,12 @@ export const DataElementsData = [
                         "DCaption": "External Contact No",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Visible": false,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 59,
                         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_60_59",
                         "children": []
@@ -22821,8 +23036,9 @@ export const DataElementsData = [
                     "Bindable": false,
                     "HeaderTemplate": "",
                     "MergeRow": "",
+                    "Action": "OnChange",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                     "EDT": 9,
                     "DCaption": "Member Type",
                     "DHelpText": "",
@@ -22866,6 +23082,12 @@ export const DataElementsData = [
                     "DCaption": "Faculty Type",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Visible": false,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 53,
                     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_54_53",
                     "children": []
@@ -22905,6 +23127,12 @@ export const DataElementsData = [
                     "DCaption": "Department",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Visible": false,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 54,
                     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_55_54",
                     "children": []
@@ -22943,6 +23171,12 @@ export const DataElementsData = [
                     "DCaption": "Name",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Visible": false,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 55,
                     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_56_55",
                     "children": []
@@ -22982,6 +23216,12 @@ export const DataElementsData = [
                     "DCaption": "External Institute Name",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Visible": false,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 56,
                     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_57_56",
                     "children": []
@@ -23021,6 +23261,12 @@ export const DataElementsData = [
                     "DCaption": "External Faculty Name",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Visible": false,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 57,
                     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_58_57",
                     "children": []
@@ -23060,6 +23306,12 @@ export const DataElementsData = [
                     "DCaption": "External EmailId",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Visible": false,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 58,
                     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_59_58",
                     "children": []
@@ -23099,6 +23351,12 @@ export const DataElementsData = [
                     "DCaption": "External Contact No",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Visible": false,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 59,
                     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_60_59",
                     "children": []
@@ -26612,8 +26870,9 @@ export const DataElementsData = [
                 "Bindable": false,
                 "HeaderTemplate": "",
                 "MergeRow": "",
+                "Action": "OnChange",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                 "EDT": 9,
                 "DCaption": "Member Type",
                 "DHelpText": "",
@@ -26657,6 +26916,12 @@ export const DataElementsData = [
                 "DCaption": "Faculty Type",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Visible": false,
+                    "Span": false
+                  }
+                ],
                 "__idx": 53,
                 "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_54_53",
                 "children": []
@@ -26696,6 +26961,12 @@ export const DataElementsData = [
                 "DCaption": "Department",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Visible": false,
+                    "Span": false
+                  }
+                ],
                 "__idx": 54,
                 "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_55_54",
                 "children": []
@@ -26734,6 +27005,12 @@ export const DataElementsData = [
                 "DCaption": "Name",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Visible": false,
+                    "Span": false
+                  }
+                ],
                 "__idx": 55,
                 "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_56_55",
                 "children": []
@@ -26773,6 +27050,12 @@ export const DataElementsData = [
                 "DCaption": "External Institute Name",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Visible": false,
+                    "Span": false
+                  }
+                ],
                 "__idx": 56,
                 "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_57_56",
                 "children": []
@@ -26812,6 +27095,12 @@ export const DataElementsData = [
                 "DCaption": "External Faculty Name",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Visible": false,
+                    "Span": false
+                  }
+                ],
                 "__idx": 57,
                 "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_58_57",
                 "children": []
@@ -26851,6 +27140,12 @@ export const DataElementsData = [
                 "DCaption": "External EmailId",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Visible": false,
+                    "Span": false
+                  }
+                ],
                 "__idx": 58,
                 "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_59_58",
                 "children": []
@@ -26890,6 +27185,12 @@ export const DataElementsData = [
                 "DCaption": "External Contact No",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Visible": false,
+                    "Span": false
+                  }
+                ],
                 "__idx": 59,
                 "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_60_59",
                 "children": []
@@ -30282,8 +30583,9 @@ export const DataElementsData = [
             "Bindable": false,
             "HeaderTemplate": "",
             "MergeRow": "",
+            "Action": "OnChange",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
             "EDT": 9,
             "DCaption": "Member Type",
             "DHelpText": "",
@@ -30327,6 +30629,12 @@ export const DataElementsData = [
             "DCaption": "Faculty Type",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Visible": false,
+                "Span": false
+              }
+            ],
             "__idx": 53,
             "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_54_53",
             "children": []
@@ -30366,6 +30674,12 @@ export const DataElementsData = [
             "DCaption": "Department",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Visible": false,
+                "Span": false
+              }
+            ],
             "__idx": 54,
             "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_55_54",
             "children": []
@@ -30404,6 +30718,12 @@ export const DataElementsData = [
             "DCaption": "Name",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Visible": false,
+                "Span": false
+              }
+            ],
             "__idx": 55,
             "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_56_55",
             "children": []
@@ -30443,6 +30763,12 @@ export const DataElementsData = [
             "DCaption": "External Institute Name",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Visible": false,
+                "Span": false
+              }
+            ],
             "__idx": 56,
             "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_57_56",
             "children": []
@@ -30482,6 +30808,12 @@ export const DataElementsData = [
             "DCaption": "External Faculty Name",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Visible": false,
+                "Span": false
+              }
+            ],
             "__idx": 57,
             "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_58_57",
             "children": []
@@ -30521,6 +30853,12 @@ export const DataElementsData = [
             "DCaption": "External EmailId",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Visible": false,
+                "Span": false
+              }
+            ],
             "__idx": 58,
             "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_59_58",
             "children": []
@@ -30560,6 +30898,12 @@ export const DataElementsData = [
             "DCaption": "External Contact No",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Visible": false,
+                "Span": false
+              }
+            ],
             "__idx": 59,
             "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_60_59",
             "children": []
@@ -33749,8 +34093,9 @@ export const DataElementsData = [
         "Bindable": false,
         "HeaderTemplate": "",
         "MergeRow": "",
+        "Action": "OnChange",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
         "EDT": 9,
         "DCaption": "Member Type",
         "DHelpText": "",
@@ -33794,6 +34139,12 @@ export const DataElementsData = [
         "DCaption": "Faculty Type",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Visible": false,
+            "Span": false
+          }
+        ],
         "__idx": 53,
         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_54_53",
         "children": []
@@ -33833,6 +34184,12 @@ export const DataElementsData = [
         "DCaption": "Department",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Visible": false,
+            "Span": false
+          }
+        ],
         "__idx": 54,
         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_55_54",
         "children": []
@@ -33871,6 +34228,12 @@ export const DataElementsData = [
         "DCaption": "Name",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Visible": false,
+            "Span": false
+          }
+        ],
         "__idx": 55,
         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_56_55",
         "children": []
@@ -33910,6 +34273,12 @@ export const DataElementsData = [
         "DCaption": "External Institute Name",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Visible": false,
+            "Span": false
+          }
+        ],
         "__idx": 56,
         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_57_56",
         "children": []
@@ -33949,6 +34318,12 @@ export const DataElementsData = [
         "DCaption": "External Faculty Name",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Visible": false,
+            "Span": false
+          }
+        ],
         "__idx": 57,
         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_58_57",
         "children": []
@@ -33988,6 +34363,12 @@ export const DataElementsData = [
         "DCaption": "External EmailId",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Visible": false,
+            "Span": false
+          }
+        ],
         "__idx": 58,
         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_59_58",
         "children": []
@@ -34027,6 +34408,12 @@ export const DataElementsData = [
         "DCaption": "External Contact No",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Visible": false,
+            "Span": false
+          }
+        ],
         "__idx": 59,
         "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_60_59",
         "children": []
@@ -36775,8 +37162,9 @@ export const DataElementsData = [
     "Bindable": false,
     "HeaderTemplate": "",
     "MergeRow": "",
+    "Action": "OnChange",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MFG_d2_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_MemberType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
     "EDT": 9,
     "DCaption": "Member Type",
     "DHelpText": "",
@@ -36820,6 +37208,12 @@ export const DataElementsData = [
     "DCaption": "Faculty Type",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Visible": false,
+        "Span": false
+      }
+    ],
     "__idx": 53,
     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_54_53",
     "children": []
@@ -36859,6 +37253,12 @@ export const DataElementsData = [
     "DCaption": "Department",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Visible": false,
+        "Span": false
+      }
+    ],
     "__idx": 54,
     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_55_54",
     "children": []
@@ -36897,6 +37297,12 @@ export const DataElementsData = [
     "DCaption": "Name",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Visible": false,
+        "Span": false
+      }
+    ],
     "__idx": 55,
     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_56_55",
     "children": []
@@ -36936,6 +37342,12 @@ export const DataElementsData = [
     "DCaption": "External Institute Name",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Visible": false,
+        "Span": false
+      }
+    ],
     "__idx": 56,
     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_57_56",
     "children": []
@@ -36975,6 +37387,12 @@ export const DataElementsData = [
     "DCaption": "External Faculty Name",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Visible": false,
+        "Span": false
+      }
+    ],
     "__idx": 57,
     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_58_57",
     "children": []
@@ -37014,6 +37432,12 @@ export const DataElementsData = [
     "DCaption": "External EmailId",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Visible": false,
+        "Span": false
+      }
+    ],
     "__idx": 58,
     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_59_58",
     "children": []
@@ -37053,6 +37477,12 @@ export const DataElementsData = [
     "DCaption": "External Contact No",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Visible": false,
+        "Span": false
+      }
+    ],
     "__idx": 59,
     "_id": "2cd14513-967b-32cc-4d78-3c9dbd2e1e01_60_59",
     "children": []

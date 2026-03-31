@@ -195,7 +195,7 @@ namespace CPS.Proof.DFSExtension
 		{
 		
 	  			
-			     new Tuple<string, int>("ProjectListActiveProjectspr",5),
+			     new Tuple<string, int>("ProjectListActiveProjectspr",1000),
 			
 						
 		};
