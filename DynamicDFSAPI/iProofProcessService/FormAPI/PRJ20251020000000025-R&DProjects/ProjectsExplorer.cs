@@ -195,9 +195,6 @@ namespace CPS.Proof.DFSExtension
 		{
 		
 	  			
-			     new Tuple<string, int>("ProjectListActiveProjectspr",500),
-			
-						
 		};
 
 	   public override int GetGridRPP(string ElementName)
@@ -747,14 +744,7 @@ base.WriteDebugInfo(@"Root-OnAfterFormLoad");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-if(ISpace["FormVersionId"].Value=="02A1FE25-AE94-461D-9B6F-A7AC8493B6F6")
-{
-ISpace["UI_GridPanel"].Visible="true";ISpace["UI_GridPanel"].Enbl="true";
-}
-base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""02A1FE25-AE94-461D-9B6F-A7AC8493B6F6"")
-{
-ISpace[""UI_GridPanel""].Visible=""true"";ISpace[""UI_GridPanel""].Enbl=""true"";
-}");
+
 }
 if(1==1)
 {
@@ -777,12 +767,12 @@ iSpace.UpdateGridBindDetails("ProjectListActiveProjectspr",result28E58773E71A46B
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-base.WriteDebugInfo(@"Exec GetProjectStatistics ' @@gv_UserName'");
+base.WriteDebugInfo(@"Exec GetProjectStatistics '@@gv_UserName'");
 
 var querySourceBA80C2CD020D491F8055BD63F5ADE3A5 =GetQueryExpressionDataSource("BA80C2CD-020D-491F-8055-BD63F5ADE3A5");
-Dictionary<short,object> resultBA80C2CD020D491F8055BD63F5ADE3A5=iSpace.ExecuteQuery(querySourceBA80C2CD020D491F8055BD63F5ADE3A5,@"ExecGetProjectStatistics ' " + ISpace["gv_username"].Value + @"'",false);
+Dictionary<short,object> resultBA80C2CD020D491F8055BD63F5ADE3A5=iSpace.ExecuteQuery(querySourceBA80C2CD020D491F8055BD63F5ADE3A5,@"Exec GetProjectStatistics '" + ISpace["gv_username"].Value + @"'",false);
 
-base.WriteDebugInfo(@"var querySourceBA80C2CD020D491F8055BD63F5ADE3A5 =GetQueryExpressionDataSource(""BA80C2CD-020D-491F-8055-BD63F5ADE3A5"");Dictionary<short,object> resultBA80C2CD020D491F8055BD63F5ADE3A5=iSpace.ExecuteQuery(querySourceBA80C2CD020D491F8055BD63F5ADE3A5,@""ExecGetProjectStatistics ' "" + ISpace[""gv_username""].Value + @""'"",false);");
+base.WriteDebugInfo(@"var querySourceBA80C2CD020D491F8055BD63F5ADE3A5 =GetQueryExpressionDataSource(""BA80C2CD-020D-491F-8055-BD63F5ADE3A5"");Dictionary<short,object> resultBA80C2CD020D491F8055BD63F5ADE3A5=iSpace.ExecuteQuery(querySourceBA80C2CD020D491F8055BD63F5ADE3A5,@""Exec GetProjectStatistics '"" + ISpace[""gv_username""].Value + @""'"",false);");
 base.WriteDebugInfo(@"");
 
 if((resultBA80C2CD020D491F8055BD63F5ADE3A5!=null) && (resultBA80C2CD020D491F8055BD63F5ADE3A5.Count!=0))
@@ -823,14 +813,7 @@ base.WriteDebugInfo(@"Add-OnClick");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-if(ISpace["FormVersionId"].Value=="02A1FE25-AE94-461D-9B6F-A7AC8493B6F6")
-{
-ISpace["UI_GridPanel"].Visible="false";ISpace["UI_GridPanel"].Enbl="true";
-}
-base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""02A1FE25-AE94-461D-9B6F-A7AC8493B6F6"")
-{
-ISpace[""UI_GridPanel""].Visible=""false"";ISpace[""UI_GridPanel""].Enbl=""true"";
-}");
+
 ISpace["MF_V1_ProjectDetailsID"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MF_V1_ProjectDetailsID""].Value=null;");
 ISpace["MF_V1_ProjectTitle"].Value=null;
@@ -1070,7 +1053,6 @@ using System;
 
 		private Dictionary<string,string> formVersionList =new Dictionary<string,string> 
 		{
-							{"02A1FE25-AE94-461D-9B6F-A7AC8493B6F6", "Medium"},
 					};	
 
 		

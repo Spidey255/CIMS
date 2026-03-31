@@ -315,7 +315,7 @@ namespace CPS.Proof.DFSExtension
 
 
 
-        public  object GetObjectValue(object obj,int dataType)
+        public  object GetObjectValue(object obj,int? dataType)
         {
             try
             {

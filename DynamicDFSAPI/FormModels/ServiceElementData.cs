@@ -91,7 +91,7 @@ namespace CPS.Proof.DFSExtension
         /// Gets <see cref="string"/> contains element data type.
         /// </summary>
         [DataMember(Name = "EDT", EmitDefaultValue = false)]
-        public int EDT { get; set; }
+        public int? EDT { get; set; }
 
         /// <summary>
         /// Gets <see cref="System.Int32"/> contains sequence .

@@ -16,7 +16,7 @@ namespace CPS.Proof.DFSExtension
         void RemoveVariables(ref Dictionary<string, ServiceElementData> dicParams,
              Dictionary<string, object> globalVariables,  Dictionary<string, object> userVariables);
 
-        object GetObjectValue(object obj,int dataTypeId);
+        object GetObjectValue(object obj,int? dataTypeId);
 
          Status AddInstance(SlotToken token, Context context, 
             ref Dictionary<string, ServiceElementData> refParams);
