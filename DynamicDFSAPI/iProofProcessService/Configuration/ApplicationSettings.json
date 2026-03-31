@@ -17,7 +17,7 @@
     "NoCodeConnection": "24F5D845-D560-4FC1-B284-00FB19DFB96F",
     "TargetDBType":"8", //8-Postgres,0-MSSQL
     "UnlockKey": "MLCPSC.CB4052024_gNwPHghklh1m",
-    "SUrl": "http://10.195.250.170/",
+    "SUrl": "http://10.195.250.170",
     "SPrt": "5017",
     "TLS": "false",
     "DRSts": "{\"ReturnStatus\":true,\"Message\":\"Scanned Successfully\"}",
