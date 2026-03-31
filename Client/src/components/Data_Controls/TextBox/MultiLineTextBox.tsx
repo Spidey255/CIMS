@@ -15,7 +15,12 @@ const MultiLineTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
   
 
   return (
-    <div className={!Boolean(isGrid) ? element.ColumnCss : undefined}>
+    <div className={[
+  element?.ColumnCss,
+  !isGrid && element?.Wrap && `col-md-${element.Wrap} mb-2`,
+]
+  .filter(Boolean)
+  .join(" ")}>
       <div id={`${element.ElementName}`}>
         <div className="form-group">
           {!Boolean(isGrid) && Boolean(element["ShowCaption"]) ? (

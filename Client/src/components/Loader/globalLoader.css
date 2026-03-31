@@ -2,6 +2,7 @@
 .global-loader-overlay {
   position: fixed;
   inset: 0;
+  background: rgba(15, 23, 42, 0.6); 
   background: rgba(15, 23, 42, 0.6); /* dark glass */
   backdrop-filter: blur(6px);
   z-index: 99999999;

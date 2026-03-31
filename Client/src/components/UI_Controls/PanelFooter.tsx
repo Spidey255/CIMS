@@ -8,12 +8,14 @@ const PanelFooter: React.FC<{
 }> = ({ element, children }) => {
   console
   return (
-    <div className={`${element.ColumnCss} ${element.Css}`}>
-      
-          {/* <div className="card-footer">{children}</div> */}
-          {children}
-        </div>
-    
+    <div className={[element.Css, element.ColumnCss]
+      .filter(Boolean)
+      .join(' ')}>
+
+      {/* <div className="card-footer">{children}</div> */}
+      {children}
+    </div>
+
   );
 };
 

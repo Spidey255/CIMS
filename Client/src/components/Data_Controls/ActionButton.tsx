@@ -516,7 +516,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({
         FormVersionId: activePage?.FormVersionId,
         ViewPort: 4,
         Action: element.Action,
-        FormInstanceId: redirectUrlParams?.instanceId ?? formInstanceId ??  "",
+        FormInstanceId: redirectUrlParams?.instanceId ?? formInstanceId ??  null,
         JsxFileName: "",
         JsxFileVersion: "",
         Params: updatedStateParams || stateParams,
@@ -559,6 +559,8 @@ const ActionButton: React.FC<ActionButtonProps> = ({
             ShowDialog: row.ShowDialog ?? false,
             HideDialog: row.HideDialog ?? false,
             ShowModal: row.ShowModal ?? false,
+            isVisible : row.Visible , 
+            visible : row.Visible , 
           };
         });
 

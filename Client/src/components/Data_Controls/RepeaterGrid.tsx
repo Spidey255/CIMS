@@ -85,9 +85,13 @@ const RepeaterGrid: React.FC<{ element: UIElement; children?: ReactNode }> = ({
   // loading boolean: explicitly true/false only
 
   const isLoading =
-    gridLoadingState === true ||
-    gridData === undefined ||
-    gridData === null;
+    gridLoadingState === true;
+
+    //  const isLoading =
+    // gridLoadingState === true ||
+    // gridData === undefined ||
+    // gridData === null;
+
 
 
 

@@ -19,7 +19,7 @@ export const uploadDocument = async (formData: FormData) => {
 
 export const ExtractDocumentOcr = async (formData: FormData) => {
   const data = await axiosHelper<IUrlFileResponse>(
-    `http://210.18.135.72/Execution/api/RemoteGateway/ExtractDocumentOcr`,
+    `${config.BASE_EXECUTION_URL}/RemoteGateway/ExtractDocumentOcr`,
     "POST",
     formData
   );

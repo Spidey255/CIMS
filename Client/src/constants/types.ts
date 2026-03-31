@@ -66,6 +66,7 @@ export interface UIElement {
   BorderStyle?: number;
   Width?: number;
   DocumentSettings?:string;
+  Visible?: string | boolean;
   
   TabHeaders?: ITabHeader[];
   ActiveTab?: boolean;
@@ -199,6 +200,8 @@ export interface IGlobalStateValues {
   EDT?: number | null | undefined;
   Value?: any;
   isVisible?:any;
+  visible?:any;
+  Visible?:any;
   ShowDialog?: boolean;
   HideDialog?: boolean;
   ShowModal?: boolean;
@@ -257,7 +260,7 @@ export interface ServiceElementData {
   EDT?: number | null; // Contains Element's Data type
   Seq?: number; // Contains Sequence especially significant in Grid rows
   Chk?: boolean; // Checked Status of Check box
-  Visible?: string; // Shows or Hides the control
+  Visible?: string | boolean; // Shows or Hides the control
   BaCol?: string; // Holds Back color in Hex
   FCol?: string; // Holds Fore color in Hex
   BrCl?: string; // Holds Border color in Hex

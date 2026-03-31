@@ -1,6 +1,6 @@
 // Innovace Intech Solution Pvt Ltd
 import React from "react";
-import type{ UIElement } from "../../../constants/types";
+import type { UIElement } from "../../../constants/types";
 import { useGeneralStore } from "../../../store/useStore";
 
 const LabelNumericTextBox: React.FC<{
@@ -10,17 +10,20 @@ const LabelNumericTextBox: React.FC<{
   const controlId = element.ElementName || element.UIElementid;
   const state = useGeneralStore((store) => store.state[controlId]?.["value"]);
 
-    const isVisible = useGeneralStore(
-      (store) => store.state[element.ElementName]?.["isVisible"]
-    ) || false;
-  
-  
-    if (!isVisible) {
-      return;
-    }
+  const isVisible = useGeneralStore(
+    (store) => store.state[element.ElementName]?.isVisible
+  ) ?? true;
+
+  if (!isVisible) return null;
 
   return (
-    <div className={!Boolean(isGrid) ? `${element.ColumnCss} ${element.Css} col-md-${element.Wrap}` : ""}>
+    <div className={
+      !isGrid
+        ? [element?.ColumnCss, element?.Wrap && `col-md-${element.Wrap}`]
+          .filter(Boolean)
+          .join(" ")
+        : ""
+    }>
       <div id={controlId}>
         <div className="form-group">
           {!Boolean(isGrid) && Boolean(element["ShowCaption"]) ? (

@@ -12,6 +12,7 @@ import {
   resusableDeleteDocument,
   resusableOnFileChange,
 } from "@/components/Events/onFileChange";
+import { config } from "@/constants/config";
 
 const InlineSingle: React.FC<{
   element: UIElement;
@@ -28,7 +29,7 @@ const InlineSingle: React.FC<{
 
   const src =
     typeof state === "string" && state.split("#").length > 1
-      ? `http://210.18.135.72/iProofService/api/RemoteGateway/ExplorerDocuments?docId=${state.split("#")[0]
+      ? `${config.URL}/iProofService/api/RemoteGateway/ExplorerDocuments?docId=${state.split("#")[0]
       }&verNo=0&requestFrom=DE&Rand=0.8229241063356949&slotId=${slotId}`
       : "";
 

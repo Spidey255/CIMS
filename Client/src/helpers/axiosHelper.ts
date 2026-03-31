@@ -99,7 +99,7 @@ export const getWidgetInstanceData = async <T>(
   formVersionId: string,
 ): Promise<T> => {
   const data = await axiosHelper<T>(
-    "http://210.18.135.72:5009/api/iProofServicesHub/GetWidgetInstanceData",
+    `${config.URL}:5009/api/iProofServicesHub/GetWidgetInstanceData`,
     "POST",
     JSON.stringify({
       SlotId: slotId,
@@ -169,15 +169,19 @@ export const getGridInstanceData = async <T>({
   return data;
 };
 
-axios.interceptors.response.use(res => {
-  if (res.data) {
-    if (res.data['Message'] === "Invalid Slot") {
-      sessionStorage.clear()
-      window.location.href = "/login"
+axios.interceptors.response.use(
+  (res) => {
+    if (res.data?.Message === "Invalid Slot") {
+      (window as any).triggerSessionTimeout?.();
     }
+    return res;
+  },
+  (error) => {
+    if (error.response?.status === 401) {
+      (window as any).triggerSessionTimeout?.();
+    }
+    return Promise.reject(error);
   }
-
-  return res
-})
+);
 
 export default axiosHelper;

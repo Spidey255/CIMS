@@ -1,12 +1,8 @@
 // Innovace Intech Solution Pvt Ltd
-// import { INBOX_SETTING_ID, API_TOKEN } from "../constant/config";
+import { config } from "@/constants/config";
 
-// const getTokenFromQuery = (): string | null => {
-//     const params = new URLSearchParams(window.location.search);
-//     return params.get("token"); // null if not found
-// };
 
-const BASE_URL: string = "http://210.18.135.72/iProofServicesHub/iProofServicesHub";
+const BASE_URL: string = `${config.URL}/iProofServicesHub/iProofServicesHub`;
 // const TOKEN: string | null = getTokenFromQuery();
 
 interface FetchOptions extends RequestInit {}
@@ -41,7 +37,7 @@ export const fetchSubModules = async (moduleId: number | string): Promise<InboxT
     const url = `${BASE_URL}/GetReactInboxTaskList`;
 
     const requestBody = {
-        InboxSettingsId: "F5F024F4-F02E-4126-974C-F97A71FD6EA5" + "#1",
+        InboxSettingsId: config.INBOX_SETTING_ID + "#1",
         Direction: 1,
         FirstRowIndex: -1,
         PageSize: 10,
@@ -68,7 +64,7 @@ export const fetchInboxTaskList = async (
     const url = `${BASE_URL}/GetReactInboxTaskList`;
 
     const requestBody = {
-        InboxSettingsId: "F5F024F4-F02E-4126-974C-F97A71FD6EA5",
+        InboxSettingsId: config.INBOX_SETTING_ID,
         Direction: 1,
         FirstRowIndex: -1,
         PageSize: 10,

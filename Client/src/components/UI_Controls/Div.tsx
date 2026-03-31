@@ -7,7 +7,9 @@ const Div: React.FC<{ element: UIElement; children?: React.ReactNode }> = ({
   children,
 }) => {
   return (
-    <div className={`${element.Css} ${element.ColumnCss}`}>
+    <div  className={[element.Css, element.ColumnCss]
+    .filter(Boolean)
+    .join(' ')}>
       {element.Content && <span>{element.Content}</span>}
       {children}
     </div>

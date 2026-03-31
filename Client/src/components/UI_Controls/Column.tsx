@@ -9,9 +9,20 @@ const Column: React.FC<{
   if (element.ElementName === "UI_GridColumns") return null;
 
 
-    
+
   return (
-    <div className={`${element?.ColumnCss ? element?.ColumnCss : ''} ${element?.Css ? element?.Css : ''} col-md-${element.Wrap} ${element.ElementName.includes("Header")  ? "card p-0" : '' }`}>{children}</div>
+    <div
+      className={[
+        element?.ColumnCss,
+        element?.Css,
+        element?.Wrap ? `col-md-${element.Wrap}` : null,
+        element?.ElementName?.includes("Header") ? "card p-0" : null,
+      ]
+        .filter(Boolean)
+        .join(" ")}
+    >
+      {children}
+    </div>
   );
 };
 

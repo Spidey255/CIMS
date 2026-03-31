@@ -17,6 +17,7 @@ import { useGeneralStore } from "@/store/useStore";
 import { useUserStore } from "@/store/useUserStore";
 import { useRedirectStore } from "@/store/useRedirectStore";
 import { getFormOnLoadData, getGridInstanceData } from "@/helpers/axiosHelper";
+import { useLoaderStore } from "@/store/useLoaderStore";
 
 interface IStoreProps {
   data: UIElement[];
@@ -40,9 +41,11 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
     (store) => store.setComboReady
   );
 
+  const showLoader = useLoaderStore((s) => s.show);
+    const hideLoader = useLoaderStore((s) => s.hide);
 
 
-  if(storeQueryParams?.token){
+  if (storeQueryParams?.token) {
     sessionStorage.setItem("accessToken", storeQueryParams?.token);
   }
 
@@ -50,7 +53,7 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
 
   const location = useLocation();
 
-  
+
   // Loop over query parameters and add them to the params object
 
 
@@ -70,7 +73,7 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
 
   const redirectParams = useRedirectStore.getState().params; // This will now persist even after reload
   const redirectUrlParams = getUrlParams(redirectParams?.RedirectUrl || location?.search);
-  
+
 
 
   const handleGetFormLoadData = useCallback(async () => {
@@ -169,7 +172,7 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
               value: existData ? existData.Value : String(curr["CurrValue"] || ""),
               type: curr.ControlType,
               required: curr?.ElementControlProperty?.some((s) => accessMandatory(s)),
-              isVisible: existData?.Visible !== "false",
+              isVisible: (existData?.Visible ?? "true") !== "false",
               EDT: existData?.EDT ?? curr["EDT"] ?? "",
             },
           };
@@ -184,11 +187,12 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
           const existData = formLoadData?.find(
             (f) => f.ElementName?.toLowerCase() === curr["ElementName"]?.toLowerCase()
           );
+          const visibility = existData?.Visible ?? curr["Visible"] ?? "true";
 
           return {
             ...acc,
             [curr.ElementName]: {
-              visible: existData?.Visible !== "false",
+              Visible: visibility === "true" || visibility === true,
               ElementName: curr.ElementName,
               ElementId: curr.ElementId,
               EDT: existData?.EDT ?? curr["EDT"] ?? "",
@@ -283,7 +287,9 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
   }, [data, slotId, setGridHeader, setInitialState, setUIElementState, setGridElementMapper, setGridLoadingState, setPagination, setGridDynamicState]);
 
   useEffect(() => {
-    handleGetFormLoadData();
+    showLoader();
+    handleGetFormLoadData().then(() => hideLoader());
+    // handleGetFormLoadData();
   }, [handleGetFormLoadData]);
 
   return null;

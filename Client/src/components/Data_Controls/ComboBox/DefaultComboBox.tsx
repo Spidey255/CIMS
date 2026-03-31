@@ -15,15 +15,12 @@ const DefaultComboBox: React.FC<{
   const state = useGeneralStore(
     (store) => store.state[element.ElementName]?.["value"]
   );
+  const visible = element.ElementControlProperty?.find(p => "Visible" in p)?.Visible ?? "true";
+ const storeState = useGeneralStore((store) => store.state[element.ElementName]);
 
-    const isVisible = useGeneralStore(
-      (store) => store.state[element.ElementName]?.["isVisible"]
-    ) || false;
-  
-  
-    if (!isVisible) {
-      return;
-    }
+  const isVisible = storeState !== undefined ? storeState.isVisible : visible;
+
+
   const relement = useGeneralStore(
     (store) => store.state[element.ElementName]?.["rElemData"]
   );
@@ -66,10 +63,16 @@ const DefaultComboBox: React.FC<{
   const isMandatory =
     element.ElementControlProperty?.some((prop) => accessMandatory(prop)) ?? false;
 
-
+  if (isVisible == false || isVisible == "false") return null;
 
   return (
-    <div className={!Boolean(isGrid) ? element.ColumnCss + ` col-md-${element.Wrap}` : undefined}>
+    <div className={
+      !isGrid
+        ? [element?.ColumnCss, element?.Wrap && `col-md-${element.Wrap}`]
+          .filter(Boolean)
+          .join(" ")
+        : ""
+    }>
       <div id={element.ElementName}>
         <div className="mb-3">
 

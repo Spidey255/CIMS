@@ -12,14 +12,7 @@ const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
     (store) => store.state[element.ElementName]?.["value"]
   );
 
-    const isVisible = useGeneralStore(
-      (store) => store.state[element.ElementName]?.["isVisible"]
-    ) || false;
-  
-  
-    if (!isVisible) {
-      return;
-    }
+
   const setState = useGeneralStore((store) => store.setState);
 
   function onChange(e: any) {
@@ -28,6 +21,13 @@ const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
   }
 
   const controlId = element.ElementName || element.UIElementid;
+
+  const visible = element.ElementControlProperty?.find(p => "Visible" in p)?.Visible ?? "true";
+  const isVisible = useGeneralStore(
+  (store) => store.state[element.ElementName]?.isVisible
+) || visible;
+
+ if(isVisible == false || isVisible == "false") return null
 
   return (
     <div className={!Boolean(isGrid) ? `${element.ColumnCss} col-md-${element.Wrap}` : element.ColumnCss }>

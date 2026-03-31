@@ -5,7 +5,7 @@ import { getWorkSpaces, getWorkspaceMenu, clearWorkspaceCache, type Workspace } 
 import { useSidebar } from "./SidebarContext";
 import { useLoaderStore } from "@/store/useLoaderStore";
 import "./sidebar.css";
-import Profiler from "../../assets/profile.jpg";
+import Profiler from "../../assets/images/profile.jpg";
 
 
 /* ✅ MENU TYPE (local to this file only) */
@@ -394,7 +394,7 @@ const Sidebar: React.FC = () => {
                         {!collapsed && <span>Logout</span>}
                     </div>
 
-                    <div className="d-flex align-items-center sidebar-profile px-3 mt-auto mb-3">
+                    <div className="d-flex  sidebar-profile px-3 mt-auto">
                         <img
                             src={Profiler}
                             className="rounded-circle"

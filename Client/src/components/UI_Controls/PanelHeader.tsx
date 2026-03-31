@@ -9,7 +9,9 @@ const PanelHeader: React.FC<{
   return (
     <div
       id={element.ElementId}
-      className={`${element.ColumnCss} ${element.Css}`}
+      className={[element.Css, element.ColumnCss]
+        .filter(Boolean)
+        .join(' ')}
     >
       {children}
     </div>

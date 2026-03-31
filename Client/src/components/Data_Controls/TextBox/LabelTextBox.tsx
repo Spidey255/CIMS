@@ -10,14 +10,10 @@ const LabelTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
   const state = useGeneralStore(
     (store) => store.state[element.ElementName]?.["value"]
   ) || "-----";
-  const isVisible = useGeneralStore(
-    (store) => store.state[element.ElementName]?.["isVisible"]
-  ) || false;
 
 
-  if (!isVisible) {
-    return;
-  }
+
+
 
   // Check if value contains HTML
   const isHTML = (value: unknown): value is string => {
@@ -45,6 +41,15 @@ const LabelTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
         : formattedState
       : "";
 
+  const visible = element.ElementControlProperty?.find(p => "Visible" in p)?.Visible ?? "true";
+  const isVisible = useGeneralStore(
+    (store) => store.state[element.ElementName]?.isVisible
+  ) || visible;
+
+
+  if (isVisible == false || isVisible == "false") return null
+
+  // if (!isVisible) return null;
   return (
     <div
       className={

@@ -203,9 +203,8 @@ const Login: React.FC = () => {
           <button
             type="submit"
             disabled={isSubmitting}
-            className="btn w-100 text-white fw-semibold"
+            className="btn w-100 text-white fw-semibold btn-primary"
             style={{
-              backgroundColor: "#000",
               height: 44,
               borderRadius: 8,
             }}

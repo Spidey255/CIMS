@@ -1,7 +1,8 @@
 // Innovace Intech Solution Pvt Ltd
 import axios from "axios";
+import { config } from "@/constants/config";
 
-const BASE_URL = import.meta.env.VITE_BASE_EXECUTION_URL as string;
+const BASE_URL = config.BASE_EXECUTION_URL;
 
 export interface Workspace {
   portalGroupId: string;

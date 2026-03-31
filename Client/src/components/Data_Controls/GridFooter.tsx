@@ -17,6 +17,7 @@ const PAGE_SIZE_OPTIONS = [
 ];
 
 const InlineGridFooter: React.FC<{ element: UIElement }> = ({ element }) => {
+  console.log("Rendering GridFooter for element:", element);
   const parentElementId = element["ParentElementId"];
   const pagination = useGridStore(
     (store) => store.pagination?.[String(parentElementId)]
@@ -157,7 +158,7 @@ const InlineGridFooter: React.FC<{ element: UIElement }> = ({ element }) => {
   };
 
   return (
-    <div className="datatable-footer card-footer border-top py-2 px-3 d-flex justify-content-between align-items-center flex-wrap gap-2">
+    <div className={`datatable-footer card-footer border-top py-2 px-3 d-flex justify-content-between align-items-center flex-wrap gap-2 ${element.Css || ""}`}>
       <div className="d-flex align-items-center gap-2">
         <label className="mb-0 text-muted" htmlFor={`${parentElementId}-page-size`}>
           Show

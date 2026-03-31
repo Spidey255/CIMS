@@ -20,14 +20,7 @@ const DefaultNumericTextBox: React.FC<DefaultNumericTextBoxProps> = ({
     return typeof val === "number" || typeof val === "string" ? val : "";
   });
 
-    const isVisible = useGeneralStore(
-      (store) => store.state[element.ElementName]?.["isVisible"]
-    ) || false;
-  
-  
-    if (!isVisible) {
-      return;
-    }
+
 
   const setState = useGeneralStore((store) => store.setState);
   const controlId = element.ElementName || element.UIElementid;
@@ -49,8 +42,20 @@ const DefaultNumericTextBox: React.FC<DefaultNumericTextBoxProps> = ({
     }
   };
 
+  const isVisible = useGeneralStore(
+    (store) => store.state[element.ElementName]?.isVisible
+  ) ?? true;
+
+  if (!isVisible) return null;
+
   return (
-    <div className={!isGrid ? element.ColumnCss : undefined}>
+    <div className={
+      !isGrid
+        ? [element?.ColumnCss, element?.Wrap && `col-md-${element.Wrap}`]
+          .filter(Boolean)
+          .join(" ")
+        : ""
+    }>
       <div id={controlId}>
         <div className="form-group">
           {/* Caption */}
