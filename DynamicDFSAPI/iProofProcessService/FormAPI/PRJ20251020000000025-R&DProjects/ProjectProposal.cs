@@ -1285,6 +1285,8 @@ ISpace["MF_d1_DepartmentID"].Value = null;ISpace["MF_d1_Designation"].Value = nu
 }
 ISpace["MF_d1_Currency"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""MF_d1_Currency""].Visible=""false"";");
+ISpace["MFG_d2_DesignationID"].Visible="false";ISpace["MFG_d2_ExternalInstituteName"].Visible="false";ISpace["MFG_d2_ExternalEmailId"].Visible="false";ISpace["MFG_d2_ExternalContactNo"].Visible="false";ISpace["MFG_d2_ExternalDesignation"].Visible="false";ISpace["MFG_d2_ExternalFacultyName"].Visible="false";ISpace["MFG_d2_AdditionalName"].Visible="false";ISpace["MFG_d2_Departmentid"].Visible="false";ISpace["MFG_d2_AdditionalType"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MFG_d2_DesignationID""].Visible=""false"";ISpace[""MFG_d2_ExternalInstituteName""].Visible=""false"";ISpace[""MFG_d2_ExternalEmailId""].Visible=""false"";ISpace[""MFG_d2_ExternalContactNo""].Visible=""false"";ISpace[""MFG_d2_ExternalDesignation""].Visible=""false"";ISpace[""MFG_d2_ExternalFacultyName""].Visible=""false"";ISpace[""MFG_d2_AdditionalName""].Visible=""false"";ISpace[""MFG_d2_Departmentid""].Visible=""false"";ISpace[""MFG_d2_AdditionalType""].Visible=""false"";");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
@@ -1495,6 +1497,30 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_mfg_d2_membertype (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MFG_d2_MemberType-OnChange");
+if(ISpace["MFG_d2_MemberType"].Value=="1")
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_MemberType""].Value==""1"")");
+ISpace["MFG_d2_AdditionalName"].Visible="true";ISpace["MFG_d2_Departmentid"].Visible="true";ISpace["MFG_d2_AdditionalType"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""MFG_d2_AdditionalName""].Visible=""true"";ISpace[""MFG_d2_Departmentid""].Visible=""true"";ISpace[""MFG_d2_AdditionalType""].Visible=""true"";");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["MFG_d2_ExternalInstituteName"].Visible="true";ISpace["MFG_d2_ExternalEmailId"].Visible="true";ISpace["MFG_d2_ExternalContactNo"].Visible="true";ISpace["MFG_d2_ExternalDesignation"].Visible="true";ISpace["MFG_d2_ExternalFacultyName"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""MFG_d2_ExternalInstituteName""].Visible=""true"";ISpace[""MFG_d2_ExternalEmailId""].Visible=""true"";ISpace[""MFG_d2_ExternalContactNo""].Visible=""true"";ISpace[""MFG_d2_ExternalDesignation""].Visible=""true"";ISpace[""MFG_d2_ExternalFacultyName""].Visible=""true"";");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_submitform (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -1650,6 +1676,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("mf_d1_projecttype"))
     {
     			SubscribeElementEvents_mf_d1_projecttype(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mfg_d2_membertype"))
+    {
+    			SubscribeElementEvents_mfg_d2_membertype(ref dfsParam);
     }
 		if(elementName.ToLower().Equals("mfg_d2_departmentid"))
     {

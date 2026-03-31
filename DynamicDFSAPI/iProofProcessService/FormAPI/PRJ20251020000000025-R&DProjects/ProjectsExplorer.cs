@@ -195,6 +195,9 @@ namespace CPS.Proof.DFSExtension
 		{
 		
 	  			
+			     new Tuple<string, int>("ProjectListActiveProjectspr",5),
+			
+						
 		};
 
 	   public override int GetGridRPP(string ElementName)

@@ -34,7 +34,7 @@ export const DataElementsData = [
     "Bindable": false,
     "Action": "FormOnLoad",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"MF_d1_FinancialYearID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_ProjectType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_Designation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_DocumentProposalID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_SectorID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_PrincipalInvestigator\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_MandatoryCheck\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d1_ProjectCategoryID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_EmployeeBasicInfoId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_FundingAgency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_DepartmentID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_ProposalDocumentID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_DocumentName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_ProjectName\",\"Value\":\"\",\"EDT\":9}]}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"MF_d1_FinancialYearID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_ProjectType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_Designation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_Currency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_DocumentProposalID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_SectorID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_PrincipalInvestigator\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_MandatoryCheck\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d1_ProjectCategoryID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_EmployeeBasicInfoId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_FundingAgency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_DepartmentID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_ProposalDocumentID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d3_DocumentName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d1_ProjectName\",\"Value\":\"\",\"EDT\":9}]}]",
     "DCaption": "",
     "__idx": 0,
     "_id": "349381ae-7c2c-17f4-6aba-54c5138548e4_1_0",
@@ -1210,6 +1210,12 @@ export const DataElementsData = [
                                         "DCaption": "Currency",
                                         "DHelpText": "",
                                         "DToolTip": "",
+                                        "ElementControlProperty": [
+                                          {
+                                            "Visible": false,
+                                            "Span": false
+                                          }
+                                        ],
                                         "__idx": 50,
                                         "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
                                         "children": []
@@ -2519,7 +2525,7 @@ export const DataElementsData = [
                                                                         "DCaption": "Faculty Type",
                                                                         "DHelpText": "",
                                                                         "DToolTip": "",
-                                                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                         "__idx": 6,
                                                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_7_6",
                                                                         "children": []
@@ -2559,7 +2565,7 @@ export const DataElementsData = [
                                                                         "DCaption": "Name",
                                                                         "DHelpText": "",
                                                                         "DToolTip": "",
-                                                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                         "__idx": 7,
                                                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_8_7",
                                                                         "children": []
@@ -2599,7 +2605,7 @@ export const DataElementsData = [
                                                                         "DCaption": "Department",
                                                                         "DHelpText": "",
                                                                         "DToolTip": "",
-                                                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                         "__idx": 8,
                                                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_9_8",
                                                                         "children": []
@@ -2639,7 +2645,7 @@ export const DataElementsData = [
                                                                         "DCaption": "External Institute Name",
                                                                         "DHelpText": "",
                                                                         "DToolTip": "",
-                                                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                         "__idx": 9,
                                                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_10_9",
                                                                         "children": []
@@ -2679,7 +2685,7 @@ export const DataElementsData = [
                                                                         "DCaption": "External Faculty Name",
                                                                         "DHelpText": "",
                                                                         "DToolTip": "",
-                                                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                         "__idx": 10,
                                                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_11_10",
                                                                         "children": []
@@ -2719,7 +2725,7 @@ export const DataElementsData = [
                                                                         "DCaption": "External EmailId",
                                                                         "DHelpText": "",
                                                                         "DToolTip": "",
-                                                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                         "__idx": 11,
                                                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_12_11",
                                                                         "children": []
@@ -2759,7 +2765,7 @@ export const DataElementsData = [
                                                                         "DCaption": "External Contact No",
                                                                         "DHelpText": "",
                                                                         "DToolTip": "",
-                                                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                         "__idx": 12,
                                                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_13_12",
                                                                         "children": []
@@ -2891,7 +2897,7 @@ export const DataElementsData = [
                                                 "DCaption": "",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 73,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_74_73",
                                                 "children": []
@@ -2930,7 +2936,7 @@ export const DataElementsData = [
                                                 "DCaption": "",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 74,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_75_74",
                                                 "children": []
@@ -2969,7 +2975,7 @@ export const DataElementsData = [
                                                 "DCaption": "AdditionalID",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 75,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_76_75",
                                                 "children": []
@@ -3008,7 +3014,7 @@ export const DataElementsData = [
                                                 "DCaption": "ProjectDetailsID",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 76,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_77_76",
                                                 "children": []
@@ -3046,7 +3052,7 @@ export const DataElementsData = [
                                                 "DCaption": "Faculty Type",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 77,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_78_77",
                                                 "children": []
@@ -3085,7 +3091,7 @@ export const DataElementsData = [
                                                 "DCaption": "Name",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 78,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_79_78",
                                                 "children": []
@@ -3124,7 +3130,7 @@ export const DataElementsData = [
                                                 "DCaption": "Department",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 79,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_80_79",
                                                 "children": []
@@ -3163,7 +3169,7 @@ export const DataElementsData = [
                                                 "DCaption": "DesignationID",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 80,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_81_80",
                                                 "children": []
@@ -3202,7 +3208,7 @@ export const DataElementsData = [
                                                 "DCaption": "External Institute Name",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 81,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_82_81",
                                                 "children": []
@@ -3241,7 +3247,7 @@ export const DataElementsData = [
                                                 "DCaption": "External Faculty Name",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 82,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_83_82",
                                                 "children": []
@@ -3280,7 +3286,7 @@ export const DataElementsData = [
                                                 "DCaption": "External Designation",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 83,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_84_83",
                                                 "children": []
@@ -3319,7 +3325,7 @@ export const DataElementsData = [
                                                 "DCaption": "External EmailId",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 84,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_85_84",
                                                 "children": []
@@ -3358,7 +3364,7 @@ export const DataElementsData = [
                                                 "DCaption": "External Contact No",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 85,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_86_85",
                                                 "children": []
@@ -3396,7 +3402,7 @@ export const DataElementsData = [
                                                 "DCaption": "UpdatedBy",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 86,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_87_86",
                                                 "children": []
@@ -3434,7 +3440,7 @@ export const DataElementsData = [
                                                 "DCaption": "UpdatedOn",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 87,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_88_87",
                                                 "children": []
@@ -3472,7 +3478,7 @@ export const DataElementsData = [
                                                 "DCaption": "Edit",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 88,
                                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_89_88",
                                                 "children": []
@@ -4055,7 +4061,7 @@ export const DataElementsData = [
                                                 "DCaption": "",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                                 "__idx": 89,
                                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_90_89",
                                                 "children": []
@@ -4094,7 +4100,7 @@ export const DataElementsData = [
                                                 "DCaption": "",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                                 "__idx": 90,
                                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_91_90",
                                                 "children": []
@@ -4134,7 +4140,7 @@ export const DataElementsData = [
                                                 "DCaption": "ProposalDocumentID",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                                 "__idx": 91,
                                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_92_91",
                                                 "children": []
@@ -4174,7 +4180,7 @@ export const DataElementsData = [
                                                 "DCaption": "DocumentProposalID",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                                 "__idx": 92,
                                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_93_92",
                                                 "children": []
@@ -4214,7 +4220,7 @@ export const DataElementsData = [
                                                 "DCaption": "ProjectproposalID",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                                 "__idx": 93,
                                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_94_93",
                                                 "children": []
@@ -4253,7 +4259,7 @@ export const DataElementsData = [
                                                 "DCaption": "Document Name",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                                 "__idx": 94,
                                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_95_94",
                                                 "children": []
@@ -4292,7 +4298,7 @@ export const DataElementsData = [
                                                 "DCaption": "UpdatedOn",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                                 "__idx": 95,
                                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_96_95",
                                                 "children": []
@@ -4331,7 +4337,7 @@ export const DataElementsData = [
                                                 "DCaption": "UpdatedBy",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                                 "__idx": 96,
                                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_97_96",
                                                 "children": []
@@ -4370,7 +4376,7 @@ export const DataElementsData = [
                                                 "DCaption": "Upload Document",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                                 "__idx": 97,
                                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_98_97",
                                                 "children": []
@@ -4409,7 +4415,7 @@ export const DataElementsData = [
                                                 "DCaption": "MandatoryCheck",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                                 "__idx": 98,
                                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_99_98",
                                                 "children": []
@@ -4447,7 +4453,7 @@ export const DataElementsData = [
                                                 "DCaption": "Edit",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                                 "__idx": 99,
                                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_100_99",
                                                 "children": []
@@ -5682,6 +5688,12 @@ export const DataElementsData = [
                                     "DCaption": "Currency",
                                     "DHelpText": "",
                                     "DToolTip": "",
+                                    "ElementControlProperty": [
+                                      {
+                                        "Visible": false,
+                                        "Span": false
+                                      }
+                                    ],
                                     "__idx": 50,
                                     "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
                                     "children": []
@@ -6991,7 +7003,7 @@ export const DataElementsData = [
                                                                     "DCaption": "Faculty Type",
                                                                     "DHelpText": "",
                                                                     "DToolTip": "",
-                                                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                     "__idx": 6,
                                                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_7_6",
                                                                     "children": []
@@ -7031,7 +7043,7 @@ export const DataElementsData = [
                                                                     "DCaption": "Name",
                                                                     "DHelpText": "",
                                                                     "DToolTip": "",
-                                                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                     "__idx": 7,
                                                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_8_7",
                                                                     "children": []
@@ -7071,7 +7083,7 @@ export const DataElementsData = [
                                                                     "DCaption": "Department",
                                                                     "DHelpText": "",
                                                                     "DToolTip": "",
-                                                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                     "__idx": 8,
                                                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_9_8",
                                                                     "children": []
@@ -7111,7 +7123,7 @@ export const DataElementsData = [
                                                                     "DCaption": "External Institute Name",
                                                                     "DHelpText": "",
                                                                     "DToolTip": "",
-                                                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                     "__idx": 9,
                                                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_10_9",
                                                                     "children": []
@@ -7151,7 +7163,7 @@ export const DataElementsData = [
                                                                     "DCaption": "External Faculty Name",
                                                                     "DHelpText": "",
                                                                     "DToolTip": "",
-                                                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                     "__idx": 10,
                                                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_11_10",
                                                                     "children": []
@@ -7191,7 +7203,7 @@ export const DataElementsData = [
                                                                     "DCaption": "External EmailId",
                                                                     "DHelpText": "",
                                                                     "DToolTip": "",
-                                                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                     "__idx": 11,
                                                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_12_11",
                                                                     "children": []
@@ -7231,7 +7243,7 @@ export const DataElementsData = [
                                                                     "DCaption": "External Contact No",
                                                                     "DHelpText": "",
                                                                     "DToolTip": "",
-                                                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                     "__idx": 12,
                                                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_13_12",
                                                                     "children": []
@@ -7363,7 +7375,7 @@ export const DataElementsData = [
                                             "DCaption": "",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 73,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_74_73",
                                             "children": []
@@ -7402,7 +7414,7 @@ export const DataElementsData = [
                                             "DCaption": "",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 74,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_75_74",
                                             "children": []
@@ -7441,7 +7453,7 @@ export const DataElementsData = [
                                             "DCaption": "AdditionalID",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 75,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_76_75",
                                             "children": []
@@ -7480,7 +7492,7 @@ export const DataElementsData = [
                                             "DCaption": "ProjectDetailsID",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 76,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_77_76",
                                             "children": []
@@ -7518,7 +7530,7 @@ export const DataElementsData = [
                                             "DCaption": "Faculty Type",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 77,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_78_77",
                                             "children": []
@@ -7557,7 +7569,7 @@ export const DataElementsData = [
                                             "DCaption": "Name",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 78,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_79_78",
                                             "children": []
@@ -7596,7 +7608,7 @@ export const DataElementsData = [
                                             "DCaption": "Department",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 79,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_80_79",
                                             "children": []
@@ -7635,7 +7647,7 @@ export const DataElementsData = [
                                             "DCaption": "DesignationID",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 80,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_81_80",
                                             "children": []
@@ -7674,7 +7686,7 @@ export const DataElementsData = [
                                             "DCaption": "External Institute Name",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 81,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_82_81",
                                             "children": []
@@ -7713,7 +7725,7 @@ export const DataElementsData = [
                                             "DCaption": "External Faculty Name",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 82,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_83_82",
                                             "children": []
@@ -7752,7 +7764,7 @@ export const DataElementsData = [
                                             "DCaption": "External Designation",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 83,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_84_83",
                                             "children": []
@@ -7791,7 +7803,7 @@ export const DataElementsData = [
                                             "DCaption": "External EmailId",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 84,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_85_84",
                                             "children": []
@@ -7830,7 +7842,7 @@ export const DataElementsData = [
                                             "DCaption": "External Contact No",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 85,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_86_85",
                                             "children": []
@@ -7868,7 +7880,7 @@ export const DataElementsData = [
                                             "DCaption": "UpdatedBy",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 86,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_87_86",
                                             "children": []
@@ -7906,7 +7918,7 @@ export const DataElementsData = [
                                             "DCaption": "UpdatedOn",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 87,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_88_87",
                                             "children": []
@@ -7944,7 +7956,7 @@ export const DataElementsData = [
                                             "DCaption": "Edit",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 88,
                                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_89_88",
                                             "children": []
@@ -8527,7 +8539,7 @@ export const DataElementsData = [
                                             "DCaption": "",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                             "__idx": 89,
                                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_90_89",
                                             "children": []
@@ -8566,7 +8578,7 @@ export const DataElementsData = [
                                             "DCaption": "",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                             "__idx": 90,
                                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_91_90",
                                             "children": []
@@ -8606,7 +8618,7 @@ export const DataElementsData = [
                                             "DCaption": "ProposalDocumentID",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                             "__idx": 91,
                                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_92_91",
                                             "children": []
@@ -8646,7 +8658,7 @@ export const DataElementsData = [
                                             "DCaption": "DocumentProposalID",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                             "__idx": 92,
                                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_93_92",
                                             "children": []
@@ -8686,7 +8698,7 @@ export const DataElementsData = [
                                             "DCaption": "ProjectproposalID",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                             "__idx": 93,
                                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_94_93",
                                             "children": []
@@ -8725,7 +8737,7 @@ export const DataElementsData = [
                                             "DCaption": "Document Name",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                             "__idx": 94,
                                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_95_94",
                                             "children": []
@@ -8764,7 +8776,7 @@ export const DataElementsData = [
                                             "DCaption": "UpdatedOn",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                             "__idx": 95,
                                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_96_95",
                                             "children": []
@@ -8803,7 +8815,7 @@ export const DataElementsData = [
                                             "DCaption": "UpdatedBy",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                             "__idx": 96,
                                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_97_96",
                                             "children": []
@@ -8842,7 +8854,7 @@ export const DataElementsData = [
                                             "DCaption": "Upload Document",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                             "__idx": 97,
                                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_98_97",
                                             "children": []
@@ -8881,7 +8893,7 @@ export const DataElementsData = [
                                             "DCaption": "MandatoryCheck",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                             "__idx": 98,
                                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_99_98",
                                             "children": []
@@ -8919,7 +8931,7 @@ export const DataElementsData = [
                                             "DCaption": "Edit",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                             "__idx": 99,
                                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_100_99",
                                             "children": []
@@ -10072,6 +10084,12 @@ export const DataElementsData = [
                                 "DCaption": "Currency",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Visible": false,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 50,
                                 "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
                                 "children": []
@@ -11381,7 +11399,7 @@ export const DataElementsData = [
                                                                 "DCaption": "Faculty Type",
                                                                 "DHelpText": "",
                                                                 "DToolTip": "",
-                                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                 "__idx": 6,
                                                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_7_6",
                                                                 "children": []
@@ -11421,7 +11439,7 @@ export const DataElementsData = [
                                                                 "DCaption": "Name",
                                                                 "DHelpText": "",
                                                                 "DToolTip": "",
-                                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                 "__idx": 7,
                                                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_8_7",
                                                                 "children": []
@@ -11461,7 +11479,7 @@ export const DataElementsData = [
                                                                 "DCaption": "Department",
                                                                 "DHelpText": "",
                                                                 "DToolTip": "",
-                                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                 "__idx": 8,
                                                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_9_8",
                                                                 "children": []
@@ -11501,7 +11519,7 @@ export const DataElementsData = [
                                                                 "DCaption": "External Institute Name",
                                                                 "DHelpText": "",
                                                                 "DToolTip": "",
-                                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                 "__idx": 9,
                                                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_10_9",
                                                                 "children": []
@@ -11541,7 +11559,7 @@ export const DataElementsData = [
                                                                 "DCaption": "External Faculty Name",
                                                                 "DHelpText": "",
                                                                 "DToolTip": "",
-                                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                 "__idx": 10,
                                                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_11_10",
                                                                 "children": []
@@ -11581,7 +11599,7 @@ export const DataElementsData = [
                                                                 "DCaption": "External EmailId",
                                                                 "DHelpText": "",
                                                                 "DToolTip": "",
-                                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                 "__idx": 11,
                                                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_12_11",
                                                                 "children": []
@@ -11621,7 +11639,7 @@ export const DataElementsData = [
                                                                 "DCaption": "External Contact No",
                                                                 "DHelpText": "",
                                                                 "DToolTip": "",
-                                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                                 "__idx": 12,
                                                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_13_12",
                                                                 "children": []
@@ -11753,7 +11771,7 @@ export const DataElementsData = [
                                         "DCaption": "",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 73,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_74_73",
                                         "children": []
@@ -11792,7 +11810,7 @@ export const DataElementsData = [
                                         "DCaption": "",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 74,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_75_74",
                                         "children": []
@@ -11831,7 +11849,7 @@ export const DataElementsData = [
                                         "DCaption": "AdditionalID",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 75,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_76_75",
                                         "children": []
@@ -11870,7 +11888,7 @@ export const DataElementsData = [
                                         "DCaption": "ProjectDetailsID",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 76,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_77_76",
                                         "children": []
@@ -11908,7 +11926,7 @@ export const DataElementsData = [
                                         "DCaption": "Faculty Type",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 77,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_78_77",
                                         "children": []
@@ -11947,7 +11965,7 @@ export const DataElementsData = [
                                         "DCaption": "Name",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 78,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_79_78",
                                         "children": []
@@ -11986,7 +12004,7 @@ export const DataElementsData = [
                                         "DCaption": "Department",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 79,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_80_79",
                                         "children": []
@@ -12025,7 +12043,7 @@ export const DataElementsData = [
                                         "DCaption": "DesignationID",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 80,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_81_80",
                                         "children": []
@@ -12064,7 +12082,7 @@ export const DataElementsData = [
                                         "DCaption": "External Institute Name",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 81,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_82_81",
                                         "children": []
@@ -12103,7 +12121,7 @@ export const DataElementsData = [
                                         "DCaption": "External Faculty Name",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 82,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_83_82",
                                         "children": []
@@ -12142,7 +12160,7 @@ export const DataElementsData = [
                                         "DCaption": "External Designation",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 83,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_84_83",
                                         "children": []
@@ -12181,7 +12199,7 @@ export const DataElementsData = [
                                         "DCaption": "External EmailId",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 84,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_85_84",
                                         "children": []
@@ -12220,7 +12238,7 @@ export const DataElementsData = [
                                         "DCaption": "External Contact No",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 85,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_86_85",
                                         "children": []
@@ -12258,7 +12276,7 @@ export const DataElementsData = [
                                         "DCaption": "UpdatedBy",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 86,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_87_86",
                                         "children": []
@@ -12296,7 +12314,7 @@ export const DataElementsData = [
                                         "DCaption": "UpdatedOn",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 87,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_88_87",
                                         "children": []
@@ -12334,7 +12352,7 @@ export const DataElementsData = [
                                         "DCaption": "Edit",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 88,
                                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_89_88",
                                         "children": []
@@ -12917,7 +12935,7 @@ export const DataElementsData = [
                                         "DCaption": "",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                         "__idx": 89,
                                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_90_89",
                                         "children": []
@@ -12956,7 +12974,7 @@ export const DataElementsData = [
                                         "DCaption": "",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                         "__idx": 90,
                                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_91_90",
                                         "children": []
@@ -12996,7 +13014,7 @@ export const DataElementsData = [
                                         "DCaption": "ProposalDocumentID",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                         "__idx": 91,
                                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_92_91",
                                         "children": []
@@ -13036,7 +13054,7 @@ export const DataElementsData = [
                                         "DCaption": "DocumentProposalID",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                         "__idx": 92,
                                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_93_92",
                                         "children": []
@@ -13076,7 +13094,7 @@ export const DataElementsData = [
                                         "DCaption": "ProjectproposalID",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                         "__idx": 93,
                                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_94_93",
                                         "children": []
@@ -13115,7 +13133,7 @@ export const DataElementsData = [
                                         "DCaption": "Document Name",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                         "__idx": 94,
                                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_95_94",
                                         "children": []
@@ -13154,7 +13172,7 @@ export const DataElementsData = [
                                         "DCaption": "UpdatedOn",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                         "__idx": 95,
                                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_96_95",
                                         "children": []
@@ -13193,7 +13211,7 @@ export const DataElementsData = [
                                         "DCaption": "UpdatedBy",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                         "__idx": 96,
                                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_97_96",
                                         "children": []
@@ -13232,7 +13250,7 @@ export const DataElementsData = [
                                         "DCaption": "Upload Document",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                         "__idx": 97,
                                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_98_97",
                                         "children": []
@@ -13271,7 +13289,7 @@ export const DataElementsData = [
                                         "DCaption": "MandatoryCheck",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                         "__idx": 98,
                                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_99_98",
                                         "children": []
@@ -13309,7 +13327,7 @@ export const DataElementsData = [
                                         "DCaption": "Edit",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                         "__idx": 99,
                                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_100_99",
                                         "children": []
@@ -14338,6 +14356,12 @@ export const DataElementsData = [
                             "DCaption": "Currency",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Visible": false,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 50,
                             "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
                             "children": []
@@ -15647,7 +15671,7 @@ export const DataElementsData = [
                                                             "DCaption": "Faculty Type",
                                                             "DHelpText": "",
                                                             "DToolTip": "",
-                                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                             "__idx": 6,
                                                             "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_7_6",
                                                             "children": []
@@ -15687,7 +15711,7 @@ export const DataElementsData = [
                                                             "DCaption": "Name",
                                                             "DHelpText": "",
                                                             "DToolTip": "",
-                                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                             "__idx": 7,
                                                             "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_8_7",
                                                             "children": []
@@ -15727,7 +15751,7 @@ export const DataElementsData = [
                                                             "DCaption": "Department",
                                                             "DHelpText": "",
                                                             "DToolTip": "",
-                                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                             "__idx": 8,
                                                             "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_9_8",
                                                             "children": []
@@ -15767,7 +15791,7 @@ export const DataElementsData = [
                                                             "DCaption": "External Institute Name",
                                                             "DHelpText": "",
                                                             "DToolTip": "",
-                                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                             "__idx": 9,
                                                             "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_10_9",
                                                             "children": []
@@ -15807,7 +15831,7 @@ export const DataElementsData = [
                                                             "DCaption": "External Faculty Name",
                                                             "DHelpText": "",
                                                             "DToolTip": "",
-                                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                             "__idx": 10,
                                                             "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_11_10",
                                                             "children": []
@@ -15847,7 +15871,7 @@ export const DataElementsData = [
                                                             "DCaption": "External EmailId",
                                                             "DHelpText": "",
                                                             "DToolTip": "",
-                                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                             "__idx": 11,
                                                             "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_12_11",
                                                             "children": []
@@ -15887,7 +15911,7 @@ export const DataElementsData = [
                                                             "DCaption": "External Contact No",
                                                             "DHelpText": "",
                                                             "DToolTip": "",
-                                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                             "__idx": 12,
                                                             "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_13_12",
                                                             "children": []
@@ -16019,7 +16043,7 @@ export const DataElementsData = [
                                     "DCaption": "",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 73,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_74_73",
                                     "children": []
@@ -16058,7 +16082,7 @@ export const DataElementsData = [
                                     "DCaption": "",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 74,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_75_74",
                                     "children": []
@@ -16097,7 +16121,7 @@ export const DataElementsData = [
                                     "DCaption": "AdditionalID",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 75,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_76_75",
                                     "children": []
@@ -16136,7 +16160,7 @@ export const DataElementsData = [
                                     "DCaption": "ProjectDetailsID",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 76,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_77_76",
                                     "children": []
@@ -16174,7 +16198,7 @@ export const DataElementsData = [
                                     "DCaption": "Faculty Type",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 77,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_78_77",
                                     "children": []
@@ -16213,7 +16237,7 @@ export const DataElementsData = [
                                     "DCaption": "Name",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 78,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_79_78",
                                     "children": []
@@ -16252,7 +16276,7 @@ export const DataElementsData = [
                                     "DCaption": "Department",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 79,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_80_79",
                                     "children": []
@@ -16291,7 +16315,7 @@ export const DataElementsData = [
                                     "DCaption": "DesignationID",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 80,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_81_80",
                                     "children": []
@@ -16330,7 +16354,7 @@ export const DataElementsData = [
                                     "DCaption": "External Institute Name",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 81,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_82_81",
                                     "children": []
@@ -16369,7 +16393,7 @@ export const DataElementsData = [
                                     "DCaption": "External Faculty Name",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 82,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_83_82",
                                     "children": []
@@ -16408,7 +16432,7 @@ export const DataElementsData = [
                                     "DCaption": "External Designation",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 83,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_84_83",
                                     "children": []
@@ -16447,7 +16471,7 @@ export const DataElementsData = [
                                     "DCaption": "External EmailId",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 84,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_85_84",
                                     "children": []
@@ -16486,7 +16510,7 @@ export const DataElementsData = [
                                     "DCaption": "External Contact No",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 85,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_86_85",
                                     "children": []
@@ -16524,7 +16548,7 @@ export const DataElementsData = [
                                     "DCaption": "UpdatedBy",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 86,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_87_86",
                                     "children": []
@@ -16562,7 +16586,7 @@ export const DataElementsData = [
                                     "DCaption": "UpdatedOn",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 87,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_88_87",
                                     "children": []
@@ -16600,7 +16624,7 @@ export const DataElementsData = [
                                     "DCaption": "Edit",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 88,
                                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_89_88",
                                     "children": []
@@ -17183,7 +17207,7 @@ export const DataElementsData = [
                                     "DCaption": "",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                     "__idx": 89,
                                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_90_89",
                                     "children": []
@@ -17222,7 +17246,7 @@ export const DataElementsData = [
                                     "DCaption": "",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                     "__idx": 90,
                                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_91_90",
                                     "children": []
@@ -17262,7 +17286,7 @@ export const DataElementsData = [
                                     "DCaption": "ProposalDocumentID",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                     "__idx": 91,
                                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_92_91",
                                     "children": []
@@ -17302,7 +17326,7 @@ export const DataElementsData = [
                                     "DCaption": "DocumentProposalID",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                     "__idx": 92,
                                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_93_92",
                                     "children": []
@@ -17342,7 +17366,7 @@ export const DataElementsData = [
                                     "DCaption": "ProjectproposalID",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                     "__idx": 93,
                                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_94_93",
                                     "children": []
@@ -17381,7 +17405,7 @@ export const DataElementsData = [
                                     "DCaption": "Document Name",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                     "__idx": 94,
                                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_95_94",
                                     "children": []
@@ -17420,7 +17444,7 @@ export const DataElementsData = [
                                     "DCaption": "UpdatedOn",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                     "__idx": 95,
                                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_96_95",
                                     "children": []
@@ -17459,7 +17483,7 @@ export const DataElementsData = [
                                     "DCaption": "UpdatedBy",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                     "__idx": 96,
                                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_97_96",
                                     "children": []
@@ -17498,7 +17522,7 @@ export const DataElementsData = [
                                     "DCaption": "Upload Document",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                     "__idx": 97,
                                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_98_97",
                                     "children": []
@@ -17537,7 +17561,7 @@ export const DataElementsData = [
                                     "DCaption": "MandatoryCheck",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                     "__idx": 98,
                                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_99_98",
                                     "children": []
@@ -17575,7 +17599,7 @@ export const DataElementsData = [
                                     "DCaption": "Edit",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                     "__idx": 99,
                                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_100_99",
                                     "children": []
@@ -18481,6 +18505,12 @@ export const DataElementsData = [
                         "DCaption": "Currency",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Visible": false,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 50,
                         "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
                         "children": []
@@ -19790,7 +19820,7 @@ export const DataElementsData = [
                                                         "DCaption": "Faculty Type",
                                                         "DHelpText": "",
                                                         "DToolTip": "",
-                                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                         "__idx": 6,
                                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_7_6",
                                                         "children": []
@@ -19830,7 +19860,7 @@ export const DataElementsData = [
                                                         "DCaption": "Name",
                                                         "DHelpText": "",
                                                         "DToolTip": "",
-                                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                         "__idx": 7,
                                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_8_7",
                                                         "children": []
@@ -19870,7 +19900,7 @@ export const DataElementsData = [
                                                         "DCaption": "Department",
                                                         "DHelpText": "",
                                                         "DToolTip": "",
-                                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                         "__idx": 8,
                                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_9_8",
                                                         "children": []
@@ -19910,7 +19940,7 @@ export const DataElementsData = [
                                                         "DCaption": "External Institute Name",
                                                         "DHelpText": "",
                                                         "DToolTip": "",
-                                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                         "__idx": 9,
                                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_10_9",
                                                         "children": []
@@ -19950,7 +19980,7 @@ export const DataElementsData = [
                                                         "DCaption": "External Faculty Name",
                                                         "DHelpText": "",
                                                         "DToolTip": "",
-                                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                         "__idx": 10,
                                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_11_10",
                                                         "children": []
@@ -19990,7 +20020,7 @@ export const DataElementsData = [
                                                         "DCaption": "External EmailId",
                                                         "DHelpText": "",
                                                         "DToolTip": "",
-                                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                         "__idx": 11,
                                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_12_11",
                                                         "children": []
@@ -20030,7 +20060,7 @@ export const DataElementsData = [
                                                         "DCaption": "External Contact No",
                                                         "DHelpText": "",
                                                         "DToolTip": "",
-                                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                         "__idx": 12,
                                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_13_12",
                                                         "children": []
@@ -20162,7 +20192,7 @@ export const DataElementsData = [
                                 "DCaption": "",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 73,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_74_73",
                                 "children": []
@@ -20201,7 +20231,7 @@ export const DataElementsData = [
                                 "DCaption": "",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 74,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_75_74",
                                 "children": []
@@ -20240,7 +20270,7 @@ export const DataElementsData = [
                                 "DCaption": "AdditionalID",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 75,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_76_75",
                                 "children": []
@@ -20279,7 +20309,7 @@ export const DataElementsData = [
                                 "DCaption": "ProjectDetailsID",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 76,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_77_76",
                                 "children": []
@@ -20317,7 +20347,7 @@ export const DataElementsData = [
                                 "DCaption": "Faculty Type",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 77,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_78_77",
                                 "children": []
@@ -20356,7 +20386,7 @@ export const DataElementsData = [
                                 "DCaption": "Name",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 78,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_79_78",
                                 "children": []
@@ -20395,7 +20425,7 @@ export const DataElementsData = [
                                 "DCaption": "Department",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 79,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_80_79",
                                 "children": []
@@ -20434,7 +20464,7 @@ export const DataElementsData = [
                                 "DCaption": "DesignationID",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 80,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_81_80",
                                 "children": []
@@ -20473,7 +20503,7 @@ export const DataElementsData = [
                                 "DCaption": "External Institute Name",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 81,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_82_81",
                                 "children": []
@@ -20512,7 +20542,7 @@ export const DataElementsData = [
                                 "DCaption": "External Faculty Name",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 82,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_83_82",
                                 "children": []
@@ -20551,7 +20581,7 @@ export const DataElementsData = [
                                 "DCaption": "External Designation",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 83,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_84_83",
                                 "children": []
@@ -20590,7 +20620,7 @@ export const DataElementsData = [
                                 "DCaption": "External EmailId",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 84,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_85_84",
                                 "children": []
@@ -20629,7 +20659,7 @@ export const DataElementsData = [
                                 "DCaption": "External Contact No",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 85,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_86_85",
                                 "children": []
@@ -20667,7 +20697,7 @@ export const DataElementsData = [
                                 "DCaption": "UpdatedBy",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 86,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_87_86",
                                 "children": []
@@ -20705,7 +20735,7 @@ export const DataElementsData = [
                                 "DCaption": "UpdatedOn",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 87,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_88_87",
                                 "children": []
@@ -20743,7 +20773,7 @@ export const DataElementsData = [
                                 "DCaption": "Edit",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 88,
                                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_89_88",
                                 "children": []
@@ -21326,7 +21356,7 @@ export const DataElementsData = [
                                 "DCaption": "",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                 "__idx": 89,
                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_90_89",
                                 "children": []
@@ -21365,7 +21395,7 @@ export const DataElementsData = [
                                 "DCaption": "",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                 "__idx": 90,
                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_91_90",
                                 "children": []
@@ -21405,7 +21435,7 @@ export const DataElementsData = [
                                 "DCaption": "ProposalDocumentID",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                 "__idx": 91,
                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_92_91",
                                 "children": []
@@ -21445,7 +21475,7 @@ export const DataElementsData = [
                                 "DCaption": "DocumentProposalID",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                 "__idx": 92,
                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_93_92",
                                 "children": []
@@ -21485,7 +21515,7 @@ export const DataElementsData = [
                                 "DCaption": "ProjectproposalID",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                 "__idx": 93,
                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_94_93",
                                 "children": []
@@ -21524,7 +21554,7 @@ export const DataElementsData = [
                                 "DCaption": "Document Name",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                 "__idx": 94,
                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_95_94",
                                 "children": []
@@ -21563,7 +21593,7 @@ export const DataElementsData = [
                                 "DCaption": "UpdatedOn",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                 "__idx": 95,
                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_96_95",
                                 "children": []
@@ -21602,7 +21632,7 @@ export const DataElementsData = [
                                 "DCaption": "UpdatedBy",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                 "__idx": 96,
                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_97_96",
                                 "children": []
@@ -21641,7 +21671,7 @@ export const DataElementsData = [
                                 "DCaption": "Upload Document",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                 "__idx": 97,
                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_98_97",
                                 "children": []
@@ -21680,7 +21710,7 @@ export const DataElementsData = [
                                 "DCaption": "MandatoryCheck",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                 "__idx": 98,
                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_99_98",
                                 "children": []
@@ -21718,7 +21748,7 @@ export const DataElementsData = [
                                 "DCaption": "Edit",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                                 "__idx": 99,
                                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_100_99",
                                 "children": []
@@ -22428,6 +22458,12 @@ export const DataElementsData = [
                     "DCaption": "Currency",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Visible": false,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 50,
                     "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
                     "children": []
@@ -23696,7 +23732,7 @@ export const DataElementsData = [
                                                     "DCaption": "Faculty Type",
                                                     "DHelpText": "",
                                                     "DToolTip": "",
-                                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                     "__idx": 6,
                                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_7_6",
                                                     "children": []
@@ -23736,7 +23772,7 @@ export const DataElementsData = [
                                                     "DCaption": "Name",
                                                     "DHelpText": "",
                                                     "DToolTip": "",
-                                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                     "__idx": 7,
                                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_8_7",
                                                     "children": []
@@ -23776,7 +23812,7 @@ export const DataElementsData = [
                                                     "DCaption": "Department",
                                                     "DHelpText": "",
                                                     "DToolTip": "",
-                                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                     "__idx": 8,
                                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_9_8",
                                                     "children": []
@@ -23816,7 +23852,7 @@ export const DataElementsData = [
                                                     "DCaption": "External Institute Name",
                                                     "DHelpText": "",
                                                     "DToolTip": "",
-                                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                     "__idx": 9,
                                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_10_9",
                                                     "children": []
@@ -23856,7 +23892,7 @@ export const DataElementsData = [
                                                     "DCaption": "External Faculty Name",
                                                     "DHelpText": "",
                                                     "DToolTip": "",
-                                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                     "__idx": 10,
                                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_11_10",
                                                     "children": []
@@ -23896,7 +23932,7 @@ export const DataElementsData = [
                                                     "DCaption": "External EmailId",
                                                     "DHelpText": "",
                                                     "DToolTip": "",
-                                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                     "__idx": 11,
                                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_12_11",
                                                     "children": []
@@ -23936,7 +23972,7 @@ export const DataElementsData = [
                                                     "DCaption": "External Contact No",
                                                     "DHelpText": "",
                                                     "DToolTip": "",
-                                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                     "__idx": 12,
                                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_13_12",
                                                     "children": []
@@ -24068,7 +24104,7 @@ export const DataElementsData = [
                             "DCaption": "",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 73,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_74_73",
                             "children": []
@@ -24107,7 +24143,7 @@ export const DataElementsData = [
                             "DCaption": "",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 74,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_75_74",
                             "children": []
@@ -24146,7 +24182,7 @@ export const DataElementsData = [
                             "DCaption": "AdditionalID",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 75,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_76_75",
                             "children": []
@@ -24185,7 +24221,7 @@ export const DataElementsData = [
                             "DCaption": "ProjectDetailsID",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 76,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_77_76",
                             "children": []
@@ -24223,7 +24259,7 @@ export const DataElementsData = [
                             "DCaption": "Faculty Type",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 77,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_78_77",
                             "children": []
@@ -24262,7 +24298,7 @@ export const DataElementsData = [
                             "DCaption": "Name",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 78,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_79_78",
                             "children": []
@@ -24301,7 +24337,7 @@ export const DataElementsData = [
                             "DCaption": "Department",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 79,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_80_79",
                             "children": []
@@ -24340,7 +24376,7 @@ export const DataElementsData = [
                             "DCaption": "DesignationID",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 80,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_81_80",
                             "children": []
@@ -24379,7 +24415,7 @@ export const DataElementsData = [
                             "DCaption": "External Institute Name",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 81,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_82_81",
                             "children": []
@@ -24418,7 +24454,7 @@ export const DataElementsData = [
                             "DCaption": "External Faculty Name",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 82,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_83_82",
                             "children": []
@@ -24457,7 +24493,7 @@ export const DataElementsData = [
                             "DCaption": "External Designation",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 83,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_84_83",
                             "children": []
@@ -24496,7 +24532,7 @@ export const DataElementsData = [
                             "DCaption": "External EmailId",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 84,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_85_84",
                             "children": []
@@ -24535,7 +24571,7 @@ export const DataElementsData = [
                             "DCaption": "External Contact No",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 85,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_86_85",
                             "children": []
@@ -24573,7 +24609,7 @@ export const DataElementsData = [
                             "DCaption": "UpdatedBy",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 86,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_87_86",
                             "children": []
@@ -24611,7 +24647,7 @@ export const DataElementsData = [
                             "DCaption": "UpdatedOn",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 87,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_88_87",
                             "children": []
@@ -24649,7 +24685,7 @@ export const DataElementsData = [
                             "DCaption": "Edit",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                             "__idx": 88,
                             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_89_88",
                             "children": []
@@ -25193,7 +25229,7 @@ export const DataElementsData = [
                             "DCaption": "",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                             "__idx": 89,
                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_90_89",
                             "children": []
@@ -25232,7 +25268,7 @@ export const DataElementsData = [
                             "DCaption": "",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                             "__idx": 90,
                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_91_90",
                             "children": []
@@ -25272,7 +25308,7 @@ export const DataElementsData = [
                             "DCaption": "ProposalDocumentID",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                             "__idx": 91,
                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_92_91",
                             "children": []
@@ -25312,7 +25348,7 @@ export const DataElementsData = [
                             "DCaption": "DocumentProposalID",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                             "__idx": 92,
                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_93_92",
                             "children": []
@@ -25352,7 +25388,7 @@ export const DataElementsData = [
                             "DCaption": "ProjectproposalID",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                             "__idx": 93,
                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_94_93",
                             "children": []
@@ -25391,7 +25427,7 @@ export const DataElementsData = [
                             "DCaption": "Document Name",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                             "__idx": 94,
                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_95_94",
                             "children": []
@@ -25430,7 +25466,7 @@ export const DataElementsData = [
                             "DCaption": "UpdatedOn",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                             "__idx": 95,
                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_96_95",
                             "children": []
@@ -25469,7 +25505,7 @@ export const DataElementsData = [
                             "DCaption": "UpdatedBy",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                             "__idx": 96,
                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_97_96",
                             "children": []
@@ -25508,7 +25544,7 @@ export const DataElementsData = [
                             "DCaption": "Upload Document",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                             "__idx": 97,
                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_98_97",
                             "children": []
@@ -25547,7 +25583,7 @@ export const DataElementsData = [
                             "DCaption": "MandatoryCheck",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                             "__idx": 98,
                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_99_98",
                             "children": []
@@ -25585,7 +25621,7 @@ export const DataElementsData = [
                             "DCaption": "Edit",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                             "__idx": 99,
                             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_100_99",
                             "children": []
@@ -26254,6 +26290,12 @@ export const DataElementsData = [
                 "DCaption": "Currency",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Visible": false,
+                    "Span": false
+                  }
+                ],
                 "__idx": 50,
                 "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
                 "children": []
@@ -27481,7 +27523,7 @@ export const DataElementsData = [
                                                 "DCaption": "Faculty Type",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 6,
                                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_7_6",
                                                 "children": []
@@ -27521,7 +27563,7 @@ export const DataElementsData = [
                                                 "DCaption": "Name",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 7,
                                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_8_7",
                                                 "children": []
@@ -27561,7 +27603,7 @@ export const DataElementsData = [
                                                 "DCaption": "Department",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 8,
                                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_9_8",
                                                 "children": []
@@ -27601,7 +27643,7 @@ export const DataElementsData = [
                                                 "DCaption": "External Institute Name",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 9,
                                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_10_9",
                                                 "children": []
@@ -27641,7 +27683,7 @@ export const DataElementsData = [
                                                 "DCaption": "External Faculty Name",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 10,
                                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_11_10",
                                                 "children": []
@@ -27681,7 +27723,7 @@ export const DataElementsData = [
                                                 "DCaption": "External EmailId",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 11,
                                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_12_11",
                                                 "children": []
@@ -27721,7 +27763,7 @@ export const DataElementsData = [
                                                 "DCaption": "External Contact No",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                                 "__idx": 12,
                                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_13_12",
                                                 "children": []
@@ -27853,7 +27895,7 @@ export const DataElementsData = [
                         "DCaption": "",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 73,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_74_73",
                         "children": []
@@ -27892,7 +27934,7 @@ export const DataElementsData = [
                         "DCaption": "",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 74,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_75_74",
                         "children": []
@@ -27931,7 +27973,7 @@ export const DataElementsData = [
                         "DCaption": "AdditionalID",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 75,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_76_75",
                         "children": []
@@ -27970,7 +28012,7 @@ export const DataElementsData = [
                         "DCaption": "ProjectDetailsID",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 76,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_77_76",
                         "children": []
@@ -28008,7 +28050,7 @@ export const DataElementsData = [
                         "DCaption": "Faculty Type",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 77,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_78_77",
                         "children": []
@@ -28047,7 +28089,7 @@ export const DataElementsData = [
                         "DCaption": "Name",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 78,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_79_78",
                         "children": []
@@ -28086,7 +28128,7 @@ export const DataElementsData = [
                         "DCaption": "Department",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 79,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_80_79",
                         "children": []
@@ -28125,7 +28167,7 @@ export const DataElementsData = [
                         "DCaption": "DesignationID",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 80,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_81_80",
                         "children": []
@@ -28164,7 +28206,7 @@ export const DataElementsData = [
                         "DCaption": "External Institute Name",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 81,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_82_81",
                         "children": []
@@ -28203,7 +28245,7 @@ export const DataElementsData = [
                         "DCaption": "External Faculty Name",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 82,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_83_82",
                         "children": []
@@ -28242,7 +28284,7 @@ export const DataElementsData = [
                         "DCaption": "External Designation",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 83,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_84_83",
                         "children": []
@@ -28281,7 +28323,7 @@ export const DataElementsData = [
                         "DCaption": "External EmailId",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 84,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_85_84",
                         "children": []
@@ -28320,7 +28362,7 @@ export const DataElementsData = [
                         "DCaption": "External Contact No",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 85,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_86_85",
                         "children": []
@@ -28358,7 +28400,7 @@ export const DataElementsData = [
                         "DCaption": "UpdatedBy",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 86,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_87_86",
                         "children": []
@@ -28396,7 +28438,7 @@ export const DataElementsData = [
                         "DCaption": "UpdatedOn",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 87,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_88_87",
                         "children": []
@@ -28434,7 +28476,7 @@ export const DataElementsData = [
                         "DCaption": "Edit",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                         "__idx": 88,
                         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_89_88",
                         "children": []
@@ -28939,7 +28981,7 @@ export const DataElementsData = [
                         "DCaption": "",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                         "__idx": 89,
                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_90_89",
                         "children": []
@@ -28978,7 +29020,7 @@ export const DataElementsData = [
                         "DCaption": "",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                         "__idx": 90,
                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_91_90",
                         "children": []
@@ -29018,7 +29060,7 @@ export const DataElementsData = [
                         "DCaption": "ProposalDocumentID",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                         "__idx": 91,
                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_92_91",
                         "children": []
@@ -29058,7 +29100,7 @@ export const DataElementsData = [
                         "DCaption": "DocumentProposalID",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                         "__idx": 92,
                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_93_92",
                         "children": []
@@ -29098,7 +29140,7 @@ export const DataElementsData = [
                         "DCaption": "ProjectproposalID",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                         "__idx": 93,
                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_94_93",
                         "children": []
@@ -29137,7 +29179,7 @@ export const DataElementsData = [
                         "DCaption": "Document Name",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                         "__idx": 94,
                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_95_94",
                         "children": []
@@ -29176,7 +29218,7 @@ export const DataElementsData = [
                         "DCaption": "UpdatedOn",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                         "__idx": 95,
                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_96_95",
                         "children": []
@@ -29215,7 +29257,7 @@ export const DataElementsData = [
                         "DCaption": "UpdatedBy",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                         "__idx": 96,
                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_97_96",
                         "children": []
@@ -29254,7 +29296,7 @@ export const DataElementsData = [
                         "DCaption": "Upload Document",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                         "__idx": 97,
                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_98_97",
                         "children": []
@@ -29293,7 +29335,7 @@ export const DataElementsData = [
                         "DCaption": "MandatoryCheck",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                         "__idx": 98,
                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_99_98",
                         "children": []
@@ -29331,7 +29373,7 @@ export const DataElementsData = [
                         "DCaption": "Edit",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                         "__idx": 99,
                         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_100_99",
                         "children": []
@@ -29959,6 +30001,12 @@ export const DataElementsData = [
             "DCaption": "Currency",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Visible": false,
+                "Span": false
+              }
+            ],
             "__idx": 50,
             "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
             "children": []
@@ -31145,7 +31193,7 @@ export const DataElementsData = [
                                             "DCaption": "Faculty Type",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 6,
                                             "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_7_6",
                                             "children": []
@@ -31185,7 +31233,7 @@ export const DataElementsData = [
                                             "DCaption": "Name",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 7,
                                             "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_8_7",
                                             "children": []
@@ -31225,7 +31273,7 @@ export const DataElementsData = [
                                             "DCaption": "Department",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 8,
                                             "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_9_8",
                                             "children": []
@@ -31265,7 +31313,7 @@ export const DataElementsData = [
                                             "DCaption": "External Institute Name",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 9,
                                             "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_10_9",
                                             "children": []
@@ -31305,7 +31353,7 @@ export const DataElementsData = [
                                             "DCaption": "External Faculty Name",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 10,
                                             "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_11_10",
                                             "children": []
@@ -31345,7 +31393,7 @@ export const DataElementsData = [
                                             "DCaption": "External EmailId",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 11,
                                             "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_12_11",
                                             "children": []
@@ -31385,7 +31433,7 @@ export const DataElementsData = [
                                             "DCaption": "External Contact No",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                             "__idx": 12,
                                             "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_13_12",
                                             "children": []
@@ -31517,7 +31565,7 @@ export const DataElementsData = [
                     "DCaption": "",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 73,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_74_73",
                     "children": []
@@ -31556,7 +31604,7 @@ export const DataElementsData = [
                     "DCaption": "",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 74,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_75_74",
                     "children": []
@@ -31595,7 +31643,7 @@ export const DataElementsData = [
                     "DCaption": "AdditionalID",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 75,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_76_75",
                     "children": []
@@ -31634,7 +31682,7 @@ export const DataElementsData = [
                     "DCaption": "ProjectDetailsID",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 76,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_77_76",
                     "children": []
@@ -31672,7 +31720,7 @@ export const DataElementsData = [
                     "DCaption": "Faculty Type",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 77,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_78_77",
                     "children": []
@@ -31711,7 +31759,7 @@ export const DataElementsData = [
                     "DCaption": "Name",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 78,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_79_78",
                     "children": []
@@ -31750,7 +31798,7 @@ export const DataElementsData = [
                     "DCaption": "Department",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 79,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_80_79",
                     "children": []
@@ -31789,7 +31837,7 @@ export const DataElementsData = [
                     "DCaption": "DesignationID",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 80,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_81_80",
                     "children": []
@@ -31828,7 +31876,7 @@ export const DataElementsData = [
                     "DCaption": "External Institute Name",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 81,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_82_81",
                     "children": []
@@ -31867,7 +31915,7 @@ export const DataElementsData = [
                     "DCaption": "External Faculty Name",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 82,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_83_82",
                     "children": []
@@ -31906,7 +31954,7 @@ export const DataElementsData = [
                     "DCaption": "External Designation",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 83,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_84_83",
                     "children": []
@@ -31945,7 +31993,7 @@ export const DataElementsData = [
                     "DCaption": "External EmailId",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 84,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_85_84",
                     "children": []
@@ -31984,7 +32032,7 @@ export const DataElementsData = [
                     "DCaption": "External Contact No",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 85,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_86_85",
                     "children": []
@@ -32022,7 +32070,7 @@ export const DataElementsData = [
                     "DCaption": "UpdatedBy",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 86,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_87_86",
                     "children": []
@@ -32060,7 +32108,7 @@ export const DataElementsData = [
                     "DCaption": "UpdatedOn",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 87,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_88_87",
                     "children": []
@@ -32098,7 +32146,7 @@ export const DataElementsData = [
                     "DCaption": "Edit",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                     "__idx": 88,
                     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_89_88",
                     "children": []
@@ -32564,7 +32612,7 @@ export const DataElementsData = [
                     "DCaption": "",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                     "__idx": 89,
                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_90_89",
                     "children": []
@@ -32603,7 +32651,7 @@ export const DataElementsData = [
                     "DCaption": "",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                     "__idx": 90,
                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_91_90",
                     "children": []
@@ -32643,7 +32691,7 @@ export const DataElementsData = [
                     "DCaption": "ProposalDocumentID",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                     "__idx": 91,
                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_92_91",
                     "children": []
@@ -32683,7 +32731,7 @@ export const DataElementsData = [
                     "DCaption": "DocumentProposalID",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                     "__idx": 92,
                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_93_92",
                     "children": []
@@ -32723,7 +32771,7 @@ export const DataElementsData = [
                     "DCaption": "ProjectproposalID",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                     "__idx": 93,
                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_94_93",
                     "children": []
@@ -32762,7 +32810,7 @@ export const DataElementsData = [
                     "DCaption": "Document Name",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                     "__idx": 94,
                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_95_94",
                     "children": []
@@ -32801,7 +32849,7 @@ export const DataElementsData = [
                     "DCaption": "UpdatedOn",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                     "__idx": 95,
                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_96_95",
                     "children": []
@@ -32840,7 +32888,7 @@ export const DataElementsData = [
                     "DCaption": "UpdatedBy",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                     "__idx": 96,
                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_97_96",
                     "children": []
@@ -32879,7 +32927,7 @@ export const DataElementsData = [
                     "DCaption": "Upload Document",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                     "__idx": 97,
                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_98_97",
                     "children": []
@@ -32918,7 +32966,7 @@ export const DataElementsData = [
                     "DCaption": "MandatoryCheck",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                     "__idx": 98,
                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_99_98",
                     "children": []
@@ -32956,7 +33004,7 @@ export const DataElementsData = [
                     "DCaption": "Edit",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                     "__idx": 99,
                     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_100_99",
                     "children": []
@@ -33502,6 +33550,12 @@ export const DataElementsData = [
         "DCaption": "Currency",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Visible": false,
+            "Span": false
+          }
+        ],
         "__idx": 50,
         "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
         "children": []
@@ -34524,7 +34578,7 @@ export const DataElementsData = [
                                         "DCaption": "Faculty Type",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 6,
                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_7_6",
                                         "children": []
@@ -34564,7 +34618,7 @@ export const DataElementsData = [
                                         "DCaption": "Name",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 7,
                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_8_7",
                                         "children": []
@@ -34604,7 +34658,7 @@ export const DataElementsData = [
                                         "DCaption": "Department",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 8,
                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_9_8",
                                         "children": []
@@ -34644,7 +34698,7 @@ export const DataElementsData = [
                                         "DCaption": "External Institute Name",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 9,
                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_10_9",
                                         "children": []
@@ -34684,7 +34738,7 @@ export const DataElementsData = [
                                         "DCaption": "External Faculty Name",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 10,
                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_11_10",
                                         "children": []
@@ -34724,7 +34778,7 @@ export const DataElementsData = [
                                         "DCaption": "External EmailId",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 11,
                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_12_11",
                                         "children": []
@@ -34764,7 +34818,7 @@ export const DataElementsData = [
                                         "DCaption": "External Contact No",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                         "__idx": 12,
                                         "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_13_12",
                                         "children": []
@@ -34896,7 +34950,7 @@ export const DataElementsData = [
                 "DCaption": "",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 73,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_74_73",
                 "children": []
@@ -34935,7 +34989,7 @@ export const DataElementsData = [
                 "DCaption": "",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 74,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_75_74",
                 "children": []
@@ -34974,7 +35028,7 @@ export const DataElementsData = [
                 "DCaption": "AdditionalID",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 75,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_76_75",
                 "children": []
@@ -35013,7 +35067,7 @@ export const DataElementsData = [
                 "DCaption": "ProjectDetailsID",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 76,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_77_76",
                 "children": []
@@ -35051,7 +35105,7 @@ export const DataElementsData = [
                 "DCaption": "Faculty Type",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 77,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_78_77",
                 "children": []
@@ -35090,7 +35144,7 @@ export const DataElementsData = [
                 "DCaption": "Name",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 78,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_79_78",
                 "children": []
@@ -35129,7 +35183,7 @@ export const DataElementsData = [
                 "DCaption": "Department",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 79,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_80_79",
                 "children": []
@@ -35168,7 +35222,7 @@ export const DataElementsData = [
                 "DCaption": "DesignationID",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 80,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_81_80",
                 "children": []
@@ -35207,7 +35261,7 @@ export const DataElementsData = [
                 "DCaption": "External Institute Name",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 81,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_82_81",
                 "children": []
@@ -35246,7 +35300,7 @@ export const DataElementsData = [
                 "DCaption": "External Faculty Name",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 82,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_83_82",
                 "children": []
@@ -35285,7 +35339,7 @@ export const DataElementsData = [
                 "DCaption": "External Designation",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 83,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_84_83",
                 "children": []
@@ -35324,7 +35378,7 @@ export const DataElementsData = [
                 "DCaption": "External EmailId",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 84,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_85_84",
                 "children": []
@@ -35363,7 +35417,7 @@ export const DataElementsData = [
                 "DCaption": "External Contact No",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 85,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_86_85",
                 "children": []
@@ -35401,7 +35455,7 @@ export const DataElementsData = [
                 "DCaption": "UpdatedBy",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 86,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_87_86",
                 "children": []
@@ -35439,7 +35493,7 @@ export const DataElementsData = [
                 "DCaption": "UpdatedOn",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 87,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_88_87",
                 "children": []
@@ -35477,7 +35531,7 @@ export const DataElementsData = [
                 "DCaption": "Edit",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                 "__idx": 88,
                 "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_89_88",
                 "children": []
@@ -35865,7 +35919,7 @@ export const DataElementsData = [
                 "DCaption": "",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                 "__idx": 89,
                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_90_89",
                 "children": []
@@ -35904,7 +35958,7 @@ export const DataElementsData = [
                 "DCaption": "",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                 "__idx": 90,
                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_91_90",
                 "children": []
@@ -35944,7 +35998,7 @@ export const DataElementsData = [
                 "DCaption": "ProposalDocumentID",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                 "__idx": 91,
                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_92_91",
                 "children": []
@@ -35984,7 +36038,7 @@ export const DataElementsData = [
                 "DCaption": "DocumentProposalID",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                 "__idx": 92,
                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_93_92",
                 "children": []
@@ -36024,7 +36078,7 @@ export const DataElementsData = [
                 "DCaption": "ProjectproposalID",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                 "__idx": 93,
                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_94_93",
                 "children": []
@@ -36063,7 +36117,7 @@ export const DataElementsData = [
                 "DCaption": "Document Name",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                 "__idx": 94,
                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_95_94",
                 "children": []
@@ -36102,7 +36156,7 @@ export const DataElementsData = [
                 "DCaption": "UpdatedOn",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                 "__idx": 95,
                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_96_95",
                 "children": []
@@ -36141,7 +36195,7 @@ export const DataElementsData = [
                 "DCaption": "UpdatedBy",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                 "__idx": 96,
                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_97_96",
                 "children": []
@@ -36180,7 +36234,7 @@ export const DataElementsData = [
                 "DCaption": "Upload Document",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                 "__idx": 97,
                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_98_97",
                 "children": []
@@ -36219,7 +36273,7 @@ export const DataElementsData = [
                 "DCaption": "MandatoryCheck",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                 "__idx": 98,
                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_99_98",
                 "children": []
@@ -36257,7 +36311,7 @@ export const DataElementsData = [
                 "DCaption": "Edit",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+                "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
                 "__idx": 99,
                 "_id": "24199579-8584-779d-91a7-d0c4f2f78064_100_99",
                 "children": []
@@ -36644,6 +36698,12 @@ export const DataElementsData = [
     "DCaption": "Currency",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Visible": false,
+        "Span": false
+      }
+    ],
     "__idx": 50,
     "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
     "children": []
@@ -37462,7 +37522,7 @@ export const DataElementsData = [
                                     "DCaption": "Faculty Type",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 6,
                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_7_6",
                                     "children": []
@@ -37502,7 +37562,7 @@ export const DataElementsData = [
                                     "DCaption": "Name",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 7,
                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_8_7",
                                     "children": []
@@ -37542,7 +37602,7 @@ export const DataElementsData = [
                                     "DCaption": "Department",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 8,
                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_9_8",
                                     "children": []
@@ -37582,7 +37642,7 @@ export const DataElementsData = [
                                     "DCaption": "External Institute Name",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 9,
                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_10_9",
                                     "children": []
@@ -37622,7 +37682,7 @@ export const DataElementsData = [
                                     "DCaption": "External Faculty Name",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 10,
                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_11_10",
                                     "children": []
@@ -37662,7 +37722,7 @@ export const DataElementsData = [
                                     "DCaption": "External EmailId",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 11,
                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_12_11",
                                     "children": []
@@ -37702,7 +37762,7 @@ export const DataElementsData = [
                                     "DCaption": "External Contact No",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                     "__idx": 12,
                                     "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_13_12",
                                     "children": []
@@ -37834,7 +37894,7 @@ export const DataElementsData = [
             "DCaption": "",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 73,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_74_73",
             "children": []
@@ -37873,7 +37933,7 @@ export const DataElementsData = [
             "DCaption": "",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 74,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_75_74",
             "children": []
@@ -37912,7 +37972,7 @@ export const DataElementsData = [
             "DCaption": "AdditionalID",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 75,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_76_75",
             "children": []
@@ -37951,7 +38011,7 @@ export const DataElementsData = [
             "DCaption": "ProjectDetailsID",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 76,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_77_76",
             "children": []
@@ -37989,7 +38049,7 @@ export const DataElementsData = [
             "DCaption": "Faculty Type",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 77,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_78_77",
             "children": []
@@ -38028,7 +38088,7 @@ export const DataElementsData = [
             "DCaption": "Name",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 78,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_79_78",
             "children": []
@@ -38067,7 +38127,7 @@ export const DataElementsData = [
             "DCaption": "Department",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 79,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_80_79",
             "children": []
@@ -38106,7 +38166,7 @@ export const DataElementsData = [
             "DCaption": "DesignationID",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 80,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_81_80",
             "children": []
@@ -38145,7 +38205,7 @@ export const DataElementsData = [
             "DCaption": "External Institute Name",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 81,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_82_81",
             "children": []
@@ -38184,7 +38244,7 @@ export const DataElementsData = [
             "DCaption": "External Faculty Name",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 82,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_83_82",
             "children": []
@@ -38223,7 +38283,7 @@ export const DataElementsData = [
             "DCaption": "External Designation",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 83,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_84_83",
             "children": []
@@ -38262,7 +38322,7 @@ export const DataElementsData = [
             "DCaption": "External EmailId",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 84,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_85_84",
             "children": []
@@ -38301,7 +38361,7 @@ export const DataElementsData = [
             "DCaption": "External Contact No",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 85,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_86_85",
             "children": []
@@ -38339,7 +38399,7 @@ export const DataElementsData = [
             "DCaption": "UpdatedBy",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 86,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_87_86",
             "children": []
@@ -38377,7 +38437,7 @@ export const DataElementsData = [
             "DCaption": "UpdatedOn",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 87,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_88_87",
             "children": []
@@ -38415,7 +38475,7 @@ export const DataElementsData = [
             "DCaption": "Edit",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+            "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
             "__idx": 88,
             "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_89_88",
             "children": []
@@ -38687,7 +38747,7 @@ export const DataElementsData = [
             "DCaption": "",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
             "__idx": 89,
             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_90_89",
             "children": []
@@ -38726,7 +38786,7 @@ export const DataElementsData = [
             "DCaption": "",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
             "__idx": 90,
             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_91_90",
             "children": []
@@ -38766,7 +38826,7 @@ export const DataElementsData = [
             "DCaption": "ProposalDocumentID",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
             "__idx": 91,
             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_92_91",
             "children": []
@@ -38806,7 +38866,7 @@ export const DataElementsData = [
             "DCaption": "DocumentProposalID",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
             "__idx": 92,
             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_93_92",
             "children": []
@@ -38846,7 +38906,7 @@ export const DataElementsData = [
             "DCaption": "ProjectproposalID",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
             "__idx": 93,
             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_94_93",
             "children": []
@@ -38885,7 +38945,7 @@ export const DataElementsData = [
             "DCaption": "Document Name",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
             "__idx": 94,
             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_95_94",
             "children": []
@@ -38924,7 +38984,7 @@ export const DataElementsData = [
             "DCaption": "UpdatedOn",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
             "__idx": 95,
             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_96_95",
             "children": []
@@ -38963,7 +39023,7 @@ export const DataElementsData = [
             "DCaption": "UpdatedBy",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
             "__idx": 96,
             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_97_96",
             "children": []
@@ -39002,7 +39062,7 @@ export const DataElementsData = [
             "DCaption": "Upload Document",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
             "__idx": 97,
             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_98_97",
             "children": []
@@ -39041,7 +39101,7 @@ export const DataElementsData = [
             "DCaption": "MandatoryCheck",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
             "__idx": 98,
             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_99_98",
             "children": []
@@ -39079,7 +39139,7 @@ export const DataElementsData = [
             "DCaption": "Edit",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+            "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
             "__idx": 99,
             "_id": "24199579-8584-779d-91a7-d0c4f2f78064_100_99",
             "children": []
@@ -39475,7 +39535,7 @@ export const DataElementsData = [
                                 "DCaption": "Faculty Type",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 6,
                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_7_6",
                                 "children": []
@@ -39515,7 +39575,7 @@ export const DataElementsData = [
                                 "DCaption": "Name",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 7,
                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_8_7",
                                 "children": []
@@ -39555,7 +39615,7 @@ export const DataElementsData = [
                                 "DCaption": "Department",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 8,
                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_9_8",
                                 "children": []
@@ -39595,7 +39655,7 @@ export const DataElementsData = [
                                 "DCaption": "External Institute Name",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 9,
                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_10_9",
                                 "children": []
@@ -39635,7 +39695,7 @@ export const DataElementsData = [
                                 "DCaption": "External Faculty Name",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 10,
                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_11_10",
                                 "children": []
@@ -39675,7 +39735,7 @@ export const DataElementsData = [
                                 "DCaption": "External EmailId",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 11,
                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_12_11",
                                 "children": []
@@ -39715,7 +39775,7 @@ export const DataElementsData = [
                                 "DCaption": "External Contact No",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+                                "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
                                 "__idx": 12,
                                 "_id": "ab13f60b-94f0-ac3d-477f-c865d2ab03fa_13_12",
                                 "children": []
@@ -39847,7 +39907,7 @@ export const DataElementsData = [
         "DCaption": "",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 73,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_74_73",
         "children": []
@@ -39886,7 +39946,7 @@ export const DataElementsData = [
         "DCaption": "",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 74,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_75_74",
         "children": []
@@ -39925,7 +39985,7 @@ export const DataElementsData = [
         "DCaption": "AdditionalID",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 75,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_76_75",
         "children": []
@@ -39964,7 +40024,7 @@ export const DataElementsData = [
         "DCaption": "ProjectDetailsID",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 76,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_77_76",
         "children": []
@@ -40002,7 +40062,7 @@ export const DataElementsData = [
         "DCaption": "Faculty Type",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 77,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_78_77",
         "children": []
@@ -40041,7 +40101,7 @@ export const DataElementsData = [
         "DCaption": "Name",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 78,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_79_78",
         "children": []
@@ -40080,7 +40140,7 @@ export const DataElementsData = [
         "DCaption": "Department",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 79,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_80_79",
         "children": []
@@ -40119,7 +40179,7 @@ export const DataElementsData = [
         "DCaption": "DesignationID",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 80,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_81_80",
         "children": []
@@ -40158,7 +40218,7 @@ export const DataElementsData = [
         "DCaption": "External Institute Name",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 81,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_82_81",
         "children": []
@@ -40197,7 +40257,7 @@ export const DataElementsData = [
         "DCaption": "External Faculty Name",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 82,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_83_82",
         "children": []
@@ -40236,7 +40296,7 @@ export const DataElementsData = [
         "DCaption": "External Designation",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 83,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_84_83",
         "children": []
@@ -40275,7 +40335,7 @@ export const DataElementsData = [
         "DCaption": "External EmailId",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 84,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_85_84",
         "children": []
@@ -40314,7 +40374,7 @@ export const DataElementsData = [
         "DCaption": "External Contact No",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 85,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_86_85",
         "children": []
@@ -40352,7 +40412,7 @@ export const DataElementsData = [
         "DCaption": "UpdatedBy",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 86,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_87_86",
         "children": []
@@ -40390,7 +40450,7 @@ export const DataElementsData = [
         "DCaption": "UpdatedOn",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 87,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_88_87",
         "children": []
@@ -40428,7 +40488,7 @@ export const DataElementsData = [
         "DCaption": "Edit",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+        "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
         "__idx": 88,
         "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_89_88",
         "children": []
@@ -40660,7 +40720,7 @@ export const DataElementsData = [
         "DCaption": "",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
         "__idx": 89,
         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_90_89",
         "children": []
@@ -40699,7 +40759,7 @@ export const DataElementsData = [
         "DCaption": "",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
         "__idx": 90,
         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_91_90",
         "children": []
@@ -40739,7 +40799,7 @@ export const DataElementsData = [
         "DCaption": "ProposalDocumentID",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
         "__idx": 91,
         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_92_91",
         "children": []
@@ -40779,7 +40839,7 @@ export const DataElementsData = [
         "DCaption": "DocumentProposalID",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
         "__idx": 92,
         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_93_92",
         "children": []
@@ -40819,7 +40879,7 @@ export const DataElementsData = [
         "DCaption": "ProjectproposalID",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
         "__idx": 93,
         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_94_93",
         "children": []
@@ -40858,7 +40918,7 @@ export const DataElementsData = [
         "DCaption": "Document Name",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
         "__idx": 94,
         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_95_94",
         "children": []
@@ -40897,7 +40957,7 @@ export const DataElementsData = [
         "DCaption": "UpdatedOn",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
         "__idx": 95,
         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_96_95",
         "children": []
@@ -40936,7 +40996,7 @@ export const DataElementsData = [
         "DCaption": "UpdatedBy",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
         "__idx": 96,
         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_97_96",
         "children": []
@@ -40975,7 +41035,7 @@ export const DataElementsData = [
         "DCaption": "Upload Document",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
         "__idx": 97,
         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_98_97",
         "children": []
@@ -41014,7 +41074,7 @@ export const DataElementsData = [
         "DCaption": "MandatoryCheck",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
         "__idx": 98,
         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_99_98",
         "children": []
@@ -41052,7 +41112,7 @@ export const DataElementsData = [
         "DCaption": "Edit",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+        "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
         "__idx": 99,
         "_id": "24199579-8584-779d-91a7-d0c4f2f78064_100_99",
         "children": []
@@ -41092,7 +41152,7 @@ export const DataElementsData = [
     "DCaption": "",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 73,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_74_73",
     "children": []
@@ -41131,7 +41191,7 @@ export const DataElementsData = [
     "DCaption": "",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 74,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_75_74",
     "children": []
@@ -41170,7 +41230,7 @@ export const DataElementsData = [
     "DCaption": "AdditionalID",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 75,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_76_75",
     "children": []
@@ -41209,7 +41269,7 @@ export const DataElementsData = [
     "DCaption": "ProjectDetailsID",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 76,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_77_76",
     "children": []
@@ -41247,7 +41307,7 @@ export const DataElementsData = [
     "DCaption": "Faculty Type",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 77,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_78_77",
     "children": []
@@ -41286,7 +41346,7 @@ export const DataElementsData = [
     "DCaption": "Name",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 78,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_79_78",
     "children": []
@@ -41325,7 +41385,7 @@ export const DataElementsData = [
     "DCaption": "Department",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 79,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_80_79",
     "children": []
@@ -41364,7 +41424,7 @@ export const DataElementsData = [
     "DCaption": "DesignationID",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 80,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_81_80",
     "children": []
@@ -41403,7 +41463,7 @@ export const DataElementsData = [
     "DCaption": "External Institute Name",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 81,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_82_81",
     "children": []
@@ -41442,7 +41502,7 @@ export const DataElementsData = [
     "DCaption": "External Faculty Name",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 82,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_83_82",
     "children": []
@@ -41481,7 +41541,7 @@ export const DataElementsData = [
     "DCaption": "External Designation",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 83,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_84_83",
     "children": []
@@ -41520,7 +41580,7 @@ export const DataElementsData = [
     "DCaption": "External EmailId",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 84,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_85_84",
     "children": []
@@ -41559,7 +41619,7 @@ export const DataElementsData = [
     "DCaption": "External Contact No",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 85,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_86_85",
     "children": []
@@ -41597,7 +41657,7 @@ export const DataElementsData = [
     "DCaption": "UpdatedBy",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 86,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_87_86",
     "children": []
@@ -41635,7 +41695,7 @@ export const DataElementsData = [
     "DCaption": "UpdatedOn",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 87,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_88_87",
     "children": []
@@ -41673,7 +41733,7 @@ export const DataElementsData = [
     "DCaption": "Edit",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "C14676AF-755C-4007-BC21-AA6218837DB3",
+    "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
     "__idx": 88,
     "_id": "68fc2605-cc7d-ea8d-863b-d6c19cc3b178_89_88",
     "children": []
@@ -41711,7 +41771,7 @@ export const DataElementsData = [
     "DCaption": "",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
     "__idx": 89,
     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_90_89",
     "children": []
@@ -41750,7 +41810,7 @@ export const DataElementsData = [
     "DCaption": "",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
     "__idx": 90,
     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_91_90",
     "children": []
@@ -41790,7 +41850,7 @@ export const DataElementsData = [
     "DCaption": "ProposalDocumentID",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
     "__idx": 91,
     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_92_91",
     "children": []
@@ -41830,7 +41890,7 @@ export const DataElementsData = [
     "DCaption": "DocumentProposalID",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
     "__idx": 92,
     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_93_92",
     "children": []
@@ -41870,7 +41930,7 @@ export const DataElementsData = [
     "DCaption": "ProjectproposalID",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
     "__idx": 93,
     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_94_93",
     "children": []
@@ -41909,7 +41969,7 @@ export const DataElementsData = [
     "DCaption": "Document Name",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
     "__idx": 94,
     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_95_94",
     "children": []
@@ -41948,7 +42008,7 @@ export const DataElementsData = [
     "DCaption": "UpdatedOn",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
     "__idx": 95,
     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_96_95",
     "children": []
@@ -41987,7 +42047,7 @@ export const DataElementsData = [
     "DCaption": "UpdatedBy",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
     "__idx": 96,
     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_97_96",
     "children": []
@@ -42026,7 +42086,7 @@ export const DataElementsData = [
     "DCaption": "Upload Document",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
     "__idx": 97,
     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_98_97",
     "children": []
@@ -42065,7 +42125,7 @@ export const DataElementsData = [
     "DCaption": "MandatoryCheck",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
     "__idx": 98,
     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_99_98",
     "children": []
@@ -42103,7 +42163,7 @@ export const DataElementsData = [
     "DCaption": "Edit",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "23144D54-00CD-4BFB-89F6-472EBD9AD319",
+    "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
     "__idx": 99,
     "_id": "24199579-8584-779d-91a7-d0c4f2f78064_100_99",
     "children": []
