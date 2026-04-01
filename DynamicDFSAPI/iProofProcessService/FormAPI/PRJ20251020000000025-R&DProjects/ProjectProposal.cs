@@ -346,6 +346,10 @@ namespace CPS.Proof.DFSExtension
 							virtualInstance=new ISpaceB3A493374C4B42EC9F9B1C4C8B4E2E13();
 							break;
 					
+											case "F692D026-2B48-418C-9285-DBD42DAC5F26":
+							virtualInstance=new ISpaceF692D0262B48418C9285DBD42DAC5F26();
+							break;
+					
 					
 					default:
 						break;
@@ -1744,6 +1748,85 @@ public override void ExecuteMethod
 }
 namespace CPS.Proof.DFSExtension
 {
+
+using System.Collections.Generic;
+using System;
+using CPS.Proof.DFSExtension;
+using System.Linq;using System.Data;
+using System.Runtime.CompilerServices;
+public class ISpaceF692D0262B48418C9285DBD42DAC5F26 : VirtualForm
+{
+IISpace iSpace = new ISpace();
+AcDataISpaceF692D0262B48418C9285DBD42DAC5F26 acdataIspaceF692D0262B48418C9285DBD42DAC5F26=new AcDataISpaceF692D0262B48418C9285DBD42DAC5F26();
+private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
+{
+try
+{
+base.WriteDebugInfo(@"Root-OnAfterFormLoad");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["MF_d1_FinancialYearID"].Enbl="false";ISpace["MF_d1_ProjectName"].Enbl="false";ISpace["MF_d1_Remarks"].Enbl="false";ISpace["MF_d1_ProjectCategoryID"].Enbl="false";ISpace["MF_d1_Currency"].Enbl="false";ISpace["MF_d1_OverHead"].Enbl="false";ISpace["MF_d1_ProjectBudget"].Enbl="false";ISpace["MF_d1_ProjectType"].Enbl="false";ISpace["MF_d1_SectorID"].Enbl="false";ISpace["MF_d1_FundingAgency"].Enbl="false";
+base.WriteDebugInfo(@"ISpace[""MF_d1_FinancialYearID""].Enbl=""false"";ISpace[""MF_d1_ProjectName""].Enbl=""false"";ISpace[""MF_d1_Remarks""].Enbl=""false"";ISpace[""MF_d1_ProjectCategoryID""].Enbl=""false"";ISpace[""MF_d1_Currency""].Enbl=""false"";ISpace[""MF_d1_OverHead""].Enbl=""false"";ISpace[""MF_d1_ProjectBudget""].Enbl=""false"";ISpace[""MF_d1_ProjectType""].Enbl=""false"";ISpace[""MF_d1_SectorID""].Enbl=""false"";ISpace[""MF_d1_FundingAgency""].Enbl=""false"";");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+public override void ExecuteMethod
+	(string methodName, string elementName,
+		ref Dictionary<string, ServiceElementData> dfsParam)
+{
+	if(methodName.ToLower().Equals("formonload"))
+{
+			SubscribeFormEvents_root(ref dfsParam);
+}
+	if(methodName.ToLower().Equals("onchange"))
+{
+		if(elementName.ToLower().Equals("mf_d1_projectcategoryid"))
+    {
+    			SubscribeElementEvents_mf_d1_projectcategoryid(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mf_d1_projecttype"))
+    {
+    			SubscribeElementEvents_mf_d1_projecttype(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mfg_d2_membertype"))
+    {
+    			SubscribeElementEvents_mfg_d2_membertype(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mfg_d2_departmentid"))
+    {
+    			SubscribeElementEvents_mfg_d2_departmentid(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mf_d1_fundingagency"))
+    {
+    			SubscribeElementEvents_mf_d1_fundingagency(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mfg_d2_additionaltype"))
+    {
+    			SubscribeElementEvents_mfg_d2_additionaltype(ref dfsParam);
+    }
+}
+	if(methodName.ToLower().Equals("onclick"))
+{
+		if(elementName.ToLower().Equals("save_copidetails"))
+{
+			SubscribeElementEvents_save_copidetails(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("edit_copidetails"))
+{
+			SubscribeElementEvents_edit_copidetails(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("submitform"))
+{
+			SubscribeElementEvents_submitform(ref dfsParam);
+}
+}
+}
+}
 }
 
   

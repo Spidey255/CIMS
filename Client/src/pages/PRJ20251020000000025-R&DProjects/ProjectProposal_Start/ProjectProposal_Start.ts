@@ -1007,6 +1007,10 @@ export const DataElementsData = [
                                           {
                                             "Mandatory": true,
                                             "Span": false
+                                          },
+                                          {
+                                            "Enable": false,
+                                            "Span": false
                                           }
                                         ],
                                         "__idx": 44,
@@ -1051,6 +1055,10 @@ export const DataElementsData = [
                                         "ElementControlProperty": [
                                           {
                                             "Mandatory": true,
+                                            "Span": false
+                                          },
+                                          {
+                                            "Enable": false,
                                             "Span": false
                                           }
                                         ],
@@ -1097,6 +1105,10 @@ export const DataElementsData = [
                                           {
                                             "Mandatory": true,
                                             "Span": false
+                                          },
+                                          {
+                                            "Enable": false,
+                                            "Span": false
                                           }
                                         ],
                                         "__idx": 46,
@@ -1140,6 +1152,10 @@ export const DataElementsData = [
                                         "ElementControlProperty": [
                                           {
                                             "Mandatory": true,
+                                            "Span": false
+                                          },
+                                          {
+                                            "Enable": false,
                                             "Span": false
                                           }
                                         ],
@@ -1186,6 +1202,10 @@ export const DataElementsData = [
                                           {
                                             "Mandatory": true,
                                             "Span": false
+                                          },
+                                          {
+                                            "Enable": false,
+                                            "Span": false
                                           }
                                         ],
                                         "__idx": 48,
@@ -1231,6 +1251,10 @@ export const DataElementsData = [
                                           {
                                             "Mandatory": true,
                                             "Span": false
+                                          },
+                                          {
+                                            "Enable": false,
+                                            "Span": false
                                           }
                                         ],
                                         "__idx": 49,
@@ -1270,6 +1294,12 @@ export const DataElementsData = [
                                         "DCaption": "Project Budget",
                                         "DHelpText": "",
                                         "DToolTip": "",
+                                        "ElementControlProperty": [
+                                          {
+                                            "Enable": false,
+                                            "Span": false
+                                          }
+                                        ],
                                         "__idx": 50,
                                         "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
                                         "children": []
@@ -1307,6 +1337,12 @@ export const DataElementsData = [
                                         "DCaption": "OverHead",
                                         "DHelpText": "",
                                         "DToolTip": "",
+                                        "ElementControlProperty": [
+                                          {
+                                            "Enable": false,
+                                            "Span": false
+                                          }
+                                        ],
                                         "__idx": 51,
                                         "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_52_51",
                                         "children": []
@@ -1349,6 +1385,10 @@ export const DataElementsData = [
                                           {
                                             "Visible": false,
                                             "Span": false
+                                          },
+                                          {
+                                            "Enable": false,
+                                            "Span": false
                                           }
                                         ],
                                         "__idx": 52,
@@ -1390,6 +1430,12 @@ export const DataElementsData = [
                                         "DCaption": "Remarks",
                                         "DHelpText": "Enter Remarks ( Max 500 Characters)",
                                         "DToolTip": "",
+                                        "ElementControlProperty": [
+                                          {
+                                            "Enable": false,
+                                            "Span": false
+                                          }
+                                        ],
                                         "__idx": 53,
                                         "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
                                         "children": []
@@ -5858,6 +5904,10 @@ export const DataElementsData = [
                                       {
                                         "Mandatory": true,
                                         "Span": false
+                                      },
+                                      {
+                                        "Enable": false,
+                                        "Span": false
                                       }
                                     ],
                                     "__idx": 44,
@@ -5902,6 +5952,10 @@ export const DataElementsData = [
                                     "ElementControlProperty": [
                                       {
                                         "Mandatory": true,
+                                        "Span": false
+                                      },
+                                      {
+                                        "Enable": false,
                                         "Span": false
                                       }
                                     ],
@@ -5948,6 +6002,10 @@ export const DataElementsData = [
                                       {
                                         "Mandatory": true,
                                         "Span": false
+                                      },
+                                      {
+                                        "Enable": false,
+                                        "Span": false
                                       }
                                     ],
                                     "__idx": 46,
@@ -5991,6 +6049,10 @@ export const DataElementsData = [
                                     "ElementControlProperty": [
                                       {
                                         "Mandatory": true,
+                                        "Span": false
+                                      },
+                                      {
+                                        "Enable": false,
                                         "Span": false
                                       }
                                     ],
@@ -6037,6 +6099,10 @@ export const DataElementsData = [
                                       {
                                         "Mandatory": true,
                                         "Span": false
+                                      },
+                                      {
+                                        "Enable": false,
+                                        "Span": false
                                       }
                                     ],
                                     "__idx": 48,
@@ -6082,6 +6148,10 @@ export const DataElementsData = [
                                       {
                                         "Mandatory": true,
                                         "Span": false
+                                      },
+                                      {
+                                        "Enable": false,
+                                        "Span": false
                                       }
                                     ],
                                     "__idx": 49,
@@ -6121,6 +6191,12 @@ export const DataElementsData = [
                                     "DCaption": "Project Budget",
                                     "DHelpText": "",
                                     "DToolTip": "",
+                                    "ElementControlProperty": [
+                                      {
+                                        "Enable": false,
+                                        "Span": false
+                                      }
+                                    ],
                                     "__idx": 50,
                                     "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
                                     "children": []
@@ -6158,6 +6234,12 @@ export const DataElementsData = [
                                     "DCaption": "OverHead",
                                     "DHelpText": "",
                                     "DToolTip": "",
+                                    "ElementControlProperty": [
+                                      {
+                                        "Enable": false,
+                                        "Span": false
+                                      }
+                                    ],
                                     "__idx": 51,
                                     "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_52_51",
                                     "children": []
@@ -6200,6 +6282,10 @@ export const DataElementsData = [
                                       {
                                         "Visible": false,
                                         "Span": false
+                                      },
+                                      {
+                                        "Enable": false,
+                                        "Span": false
                                       }
                                     ],
                                     "__idx": 52,
@@ -6241,6 +6327,12 @@ export const DataElementsData = [
                                     "DCaption": "Remarks",
                                     "DHelpText": "Enter Remarks ( Max 500 Characters)",
                                     "DToolTip": "",
+                                    "ElementControlProperty": [
+                                      {
+                                        "Enable": false,
+                                        "Span": false
+                                      }
+                                    ],
                                     "__idx": 53,
                                     "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
                                     "children": []
@@ -10627,6 +10719,10 @@ export const DataElementsData = [
                                   {
                                     "Mandatory": true,
                                     "Span": false
+                                  },
+                                  {
+                                    "Enable": false,
+                                    "Span": false
                                   }
                                 ],
                                 "__idx": 44,
@@ -10671,6 +10767,10 @@ export const DataElementsData = [
                                 "ElementControlProperty": [
                                   {
                                     "Mandatory": true,
+                                    "Span": false
+                                  },
+                                  {
+                                    "Enable": false,
                                     "Span": false
                                   }
                                 ],
@@ -10717,6 +10817,10 @@ export const DataElementsData = [
                                   {
                                     "Mandatory": true,
                                     "Span": false
+                                  },
+                                  {
+                                    "Enable": false,
+                                    "Span": false
                                   }
                                 ],
                                 "__idx": 46,
@@ -10760,6 +10864,10 @@ export const DataElementsData = [
                                 "ElementControlProperty": [
                                   {
                                     "Mandatory": true,
+                                    "Span": false
+                                  },
+                                  {
+                                    "Enable": false,
                                     "Span": false
                                   }
                                 ],
@@ -10806,6 +10914,10 @@ export const DataElementsData = [
                                   {
                                     "Mandatory": true,
                                     "Span": false
+                                  },
+                                  {
+                                    "Enable": false,
+                                    "Span": false
                                   }
                                 ],
                                 "__idx": 48,
@@ -10851,6 +10963,10 @@ export const DataElementsData = [
                                   {
                                     "Mandatory": true,
                                     "Span": false
+                                  },
+                                  {
+                                    "Enable": false,
+                                    "Span": false
                                   }
                                 ],
                                 "__idx": 49,
@@ -10890,6 +11006,12 @@ export const DataElementsData = [
                                 "DCaption": "Project Budget",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Enable": false,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 50,
                                 "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
                                 "children": []
@@ -10927,6 +11049,12 @@ export const DataElementsData = [
                                 "DCaption": "OverHead",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Enable": false,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 51,
                                 "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_52_51",
                                 "children": []
@@ -10969,6 +11097,10 @@ export const DataElementsData = [
                                   {
                                     "Visible": false,
                                     "Span": false
+                                  },
+                                  {
+                                    "Enable": false,
+                                    "Span": false
                                   }
                                 ],
                                 "__idx": 52,
@@ -11010,6 +11142,12 @@ export const DataElementsData = [
                                 "DCaption": "Remarks",
                                 "DHelpText": "Enter Remarks ( Max 500 Characters)",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Enable": false,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 53,
                                 "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
                                 "children": []
@@ -15272,6 +15410,10 @@ export const DataElementsData = [
                               {
                                 "Mandatory": true,
                                 "Span": false
+                              },
+                              {
+                                "Enable": false,
+                                "Span": false
                               }
                             ],
                             "__idx": 44,
@@ -15316,6 +15458,10 @@ export const DataElementsData = [
                             "ElementControlProperty": [
                               {
                                 "Mandatory": true,
+                                "Span": false
+                              },
+                              {
+                                "Enable": false,
                                 "Span": false
                               }
                             ],
@@ -15362,6 +15508,10 @@ export const DataElementsData = [
                               {
                                 "Mandatory": true,
                                 "Span": false
+                              },
+                              {
+                                "Enable": false,
+                                "Span": false
                               }
                             ],
                             "__idx": 46,
@@ -15405,6 +15555,10 @@ export const DataElementsData = [
                             "ElementControlProperty": [
                               {
                                 "Mandatory": true,
+                                "Span": false
+                              },
+                              {
+                                "Enable": false,
                                 "Span": false
                               }
                             ],
@@ -15451,6 +15605,10 @@ export const DataElementsData = [
                               {
                                 "Mandatory": true,
                                 "Span": false
+                              },
+                              {
+                                "Enable": false,
+                                "Span": false
                               }
                             ],
                             "__idx": 48,
@@ -15496,6 +15654,10 @@ export const DataElementsData = [
                               {
                                 "Mandatory": true,
                                 "Span": false
+                              },
+                              {
+                                "Enable": false,
+                                "Span": false
                               }
                             ],
                             "__idx": 49,
@@ -15535,6 +15697,12 @@ export const DataElementsData = [
                             "DCaption": "Project Budget",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Enable": false,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 50,
                             "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
                             "children": []
@@ -15572,6 +15740,12 @@ export const DataElementsData = [
                             "DCaption": "OverHead",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Enable": false,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 51,
                             "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_52_51",
                             "children": []
@@ -15614,6 +15788,10 @@ export const DataElementsData = [
                               {
                                 "Visible": false,
                                 "Span": false
+                              },
+                              {
+                                "Enable": false,
+                                "Span": false
                               }
                             ],
                             "__idx": 52,
@@ -15655,6 +15833,12 @@ export const DataElementsData = [
                             "DCaption": "Remarks",
                             "DHelpText": "Enter Remarks ( Max 500 Characters)",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Enable": false,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 53,
                             "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
                             "children": []
@@ -19794,6 +19978,10 @@ export const DataElementsData = [
                           {
                             "Mandatory": true,
                             "Span": false
+                          },
+                          {
+                            "Enable": false,
+                            "Span": false
                           }
                         ],
                         "__idx": 44,
@@ -19838,6 +20026,10 @@ export const DataElementsData = [
                         "ElementControlProperty": [
                           {
                             "Mandatory": true,
+                            "Span": false
+                          },
+                          {
+                            "Enable": false,
                             "Span": false
                           }
                         ],
@@ -19884,6 +20076,10 @@ export const DataElementsData = [
                           {
                             "Mandatory": true,
                             "Span": false
+                          },
+                          {
+                            "Enable": false,
+                            "Span": false
                           }
                         ],
                         "__idx": 46,
@@ -19927,6 +20123,10 @@ export const DataElementsData = [
                         "ElementControlProperty": [
                           {
                             "Mandatory": true,
+                            "Span": false
+                          },
+                          {
+                            "Enable": false,
                             "Span": false
                           }
                         ],
@@ -19973,6 +20173,10 @@ export const DataElementsData = [
                           {
                             "Mandatory": true,
                             "Span": false
+                          },
+                          {
+                            "Enable": false,
+                            "Span": false
                           }
                         ],
                         "__idx": 48,
@@ -20018,6 +20222,10 @@ export const DataElementsData = [
                           {
                             "Mandatory": true,
                             "Span": false
+                          },
+                          {
+                            "Enable": false,
+                            "Span": false
                           }
                         ],
                         "__idx": 49,
@@ -20057,6 +20265,12 @@ export const DataElementsData = [
                         "DCaption": "Project Budget",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Enable": false,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 50,
                         "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
                         "children": []
@@ -20094,6 +20308,12 @@ export const DataElementsData = [
                         "DCaption": "OverHead",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Enable": false,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 51,
                         "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_52_51",
                         "children": []
@@ -20136,6 +20356,10 @@ export const DataElementsData = [
                           {
                             "Visible": false,
                             "Span": false
+                          },
+                          {
+                            "Enable": false,
+                            "Span": false
                           }
                         ],
                         "__idx": 52,
@@ -20177,6 +20401,12 @@ export const DataElementsData = [
                         "DCaption": "Remarks",
                         "DHelpText": "Enter Remarks ( Max 500 Characters)",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Enable": false,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 53,
                         "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
                         "children": []
@@ -23985,6 +24215,10 @@ export const DataElementsData = [
                       {
                         "Mandatory": true,
                         "Span": false
+                      },
+                      {
+                        "Enable": false,
+                        "Span": false
                       }
                     ],
                     "__idx": 44,
@@ -24029,6 +24263,10 @@ export const DataElementsData = [
                     "ElementControlProperty": [
                       {
                         "Mandatory": true,
+                        "Span": false
+                      },
+                      {
+                        "Enable": false,
                         "Span": false
                       }
                     ],
@@ -24075,6 +24313,10 @@ export const DataElementsData = [
                       {
                         "Mandatory": true,
                         "Span": false
+                      },
+                      {
+                        "Enable": false,
+                        "Span": false
                       }
                     ],
                     "__idx": 46,
@@ -24118,6 +24360,10 @@ export const DataElementsData = [
                     "ElementControlProperty": [
                       {
                         "Mandatory": true,
+                        "Span": false
+                      },
+                      {
+                        "Enable": false,
                         "Span": false
                       }
                     ],
@@ -24164,6 +24410,10 @@ export const DataElementsData = [
                       {
                         "Mandatory": true,
                         "Span": false
+                      },
+                      {
+                        "Enable": false,
+                        "Span": false
                       }
                     ],
                     "__idx": 48,
@@ -24209,6 +24459,10 @@ export const DataElementsData = [
                       {
                         "Mandatory": true,
                         "Span": false
+                      },
+                      {
+                        "Enable": false,
+                        "Span": false
                       }
                     ],
                     "__idx": 49,
@@ -24248,6 +24502,12 @@ export const DataElementsData = [
                     "DCaption": "Project Budget",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Enable": false,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 50,
                     "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
                     "children": []
@@ -24285,6 +24545,12 @@ export const DataElementsData = [
                     "DCaption": "OverHead",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Enable": false,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 51,
                     "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_52_51",
                     "children": []
@@ -24327,6 +24593,10 @@ export const DataElementsData = [
                       {
                         "Visible": false,
                         "Span": false
+                      },
+                      {
+                        "Enable": false,
+                        "Span": false
                       }
                     ],
                     "__idx": 52,
@@ -24368,6 +24638,12 @@ export const DataElementsData = [
                     "DCaption": "Remarks",
                     "DHelpText": "Enter Remarks ( Max 500 Characters)",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Enable": false,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 53,
                     "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
                     "children": []
@@ -28053,6 +28329,10 @@ export const DataElementsData = [
                   {
                     "Mandatory": true,
                     "Span": false
+                  },
+                  {
+                    "Enable": false,
+                    "Span": false
                   }
                 ],
                 "__idx": 44,
@@ -28097,6 +28377,10 @@ export const DataElementsData = [
                 "ElementControlProperty": [
                   {
                     "Mandatory": true,
+                    "Span": false
+                  },
+                  {
+                    "Enable": false,
                     "Span": false
                   }
                 ],
@@ -28143,6 +28427,10 @@ export const DataElementsData = [
                   {
                     "Mandatory": true,
                     "Span": false
+                  },
+                  {
+                    "Enable": false,
+                    "Span": false
                   }
                 ],
                 "__idx": 46,
@@ -28186,6 +28474,10 @@ export const DataElementsData = [
                 "ElementControlProperty": [
                   {
                     "Mandatory": true,
+                    "Span": false
+                  },
+                  {
+                    "Enable": false,
                     "Span": false
                   }
                 ],
@@ -28232,6 +28524,10 @@ export const DataElementsData = [
                   {
                     "Mandatory": true,
                     "Span": false
+                  },
+                  {
+                    "Enable": false,
+                    "Span": false
                   }
                 ],
                 "__idx": 48,
@@ -28277,6 +28573,10 @@ export const DataElementsData = [
                   {
                     "Mandatory": true,
                     "Span": false
+                  },
+                  {
+                    "Enable": false,
+                    "Span": false
                   }
                 ],
                 "__idx": 49,
@@ -28316,6 +28616,12 @@ export const DataElementsData = [
                 "DCaption": "Project Budget",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Enable": false,
+                    "Span": false
+                  }
+                ],
                 "__idx": 50,
                 "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
                 "children": []
@@ -28353,6 +28659,12 @@ export const DataElementsData = [
                 "DCaption": "OverHead",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Enable": false,
+                    "Span": false
+                  }
+                ],
                 "__idx": 51,
                 "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_52_51",
                 "children": []
@@ -28395,6 +28707,10 @@ export const DataElementsData = [
                   {
                     "Visible": false,
                     "Span": false
+                  },
+                  {
+                    "Enable": false,
+                    "Span": false
                   }
                 ],
                 "__idx": 52,
@@ -28436,6 +28752,12 @@ export const DataElementsData = [
                 "DCaption": "Remarks",
                 "DHelpText": "Enter Remarks ( Max 500 Characters)",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Enable": false,
+                    "Span": false
+                  }
+                ],
                 "__idx": 53,
                 "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
                 "children": []
@@ -31998,6 +32320,10 @@ export const DataElementsData = [
               {
                 "Mandatory": true,
                 "Span": false
+              },
+              {
+                "Enable": false,
+                "Span": false
               }
             ],
             "__idx": 44,
@@ -32042,6 +32368,10 @@ export const DataElementsData = [
             "ElementControlProperty": [
               {
                 "Mandatory": true,
+                "Span": false
+              },
+              {
+                "Enable": false,
                 "Span": false
               }
             ],
@@ -32088,6 +32418,10 @@ export const DataElementsData = [
               {
                 "Mandatory": true,
                 "Span": false
+              },
+              {
+                "Enable": false,
+                "Span": false
               }
             ],
             "__idx": 46,
@@ -32131,6 +32465,10 @@ export const DataElementsData = [
             "ElementControlProperty": [
               {
                 "Mandatory": true,
+                "Span": false
+              },
+              {
+                "Enable": false,
                 "Span": false
               }
             ],
@@ -32177,6 +32515,10 @@ export const DataElementsData = [
               {
                 "Mandatory": true,
                 "Span": false
+              },
+              {
+                "Enable": false,
+                "Span": false
               }
             ],
             "__idx": 48,
@@ -32222,6 +32564,10 @@ export const DataElementsData = [
               {
                 "Mandatory": true,
                 "Span": false
+              },
+              {
+                "Enable": false,
+                "Span": false
               }
             ],
             "__idx": 49,
@@ -32261,6 +32607,12 @@ export const DataElementsData = [
             "DCaption": "Project Budget",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Enable": false,
+                "Span": false
+              }
+            ],
             "__idx": 50,
             "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
             "children": []
@@ -32298,6 +32650,12 @@ export const DataElementsData = [
             "DCaption": "OverHead",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Enable": false,
+                "Span": false
+              }
+            ],
             "__idx": 51,
             "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_52_51",
             "children": []
@@ -32340,6 +32698,10 @@ export const DataElementsData = [
               {
                 "Visible": false,
                 "Span": false
+              },
+              {
+                "Enable": false,
+                "Span": false
               }
             ],
             "__idx": 52,
@@ -32381,6 +32743,12 @@ export const DataElementsData = [
             "DCaption": "Remarks",
             "DHelpText": "Enter Remarks ( Max 500 Characters)",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Enable": false,
+                "Span": false
+              }
+            ],
             "__idx": 53,
             "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
             "children": []
@@ -35779,6 +36147,10 @@ export const DataElementsData = [
           {
             "Mandatory": true,
             "Span": false
+          },
+          {
+            "Enable": false,
+            "Span": false
           }
         ],
         "__idx": 44,
@@ -35823,6 +36195,10 @@ export const DataElementsData = [
         "ElementControlProperty": [
           {
             "Mandatory": true,
+            "Span": false
+          },
+          {
+            "Enable": false,
             "Span": false
           }
         ],
@@ -35869,6 +36245,10 @@ export const DataElementsData = [
           {
             "Mandatory": true,
             "Span": false
+          },
+          {
+            "Enable": false,
+            "Span": false
           }
         ],
         "__idx": 46,
@@ -35912,6 +36292,10 @@ export const DataElementsData = [
         "ElementControlProperty": [
           {
             "Mandatory": true,
+            "Span": false
+          },
+          {
+            "Enable": false,
             "Span": false
           }
         ],
@@ -35958,6 +36342,10 @@ export const DataElementsData = [
           {
             "Mandatory": true,
             "Span": false
+          },
+          {
+            "Enable": false,
+            "Span": false
           }
         ],
         "__idx": 48,
@@ -36003,6 +36391,10 @@ export const DataElementsData = [
           {
             "Mandatory": true,
             "Span": false
+          },
+          {
+            "Enable": false,
+            "Span": false
           }
         ],
         "__idx": 49,
@@ -36042,6 +36434,12 @@ export const DataElementsData = [
         "DCaption": "Project Budget",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Enable": false,
+            "Span": false
+          }
+        ],
         "__idx": 50,
         "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
         "children": []
@@ -36079,6 +36477,12 @@ export const DataElementsData = [
         "DCaption": "OverHead",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Enable": false,
+            "Span": false
+          }
+        ],
         "__idx": 51,
         "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_52_51",
         "children": []
@@ -36121,6 +36525,10 @@ export const DataElementsData = [
           {
             "Visible": false,
             "Span": false
+          },
+          {
+            "Enable": false,
+            "Span": false
           }
         ],
         "__idx": 52,
@@ -36162,6 +36570,12 @@ export const DataElementsData = [
         "DCaption": "Remarks",
         "DHelpText": "Enter Remarks ( Max 500 Characters)",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Enable": false,
+            "Span": false
+          }
+        ],
         "__idx": 53,
         "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
         "children": []
@@ -39192,6 +39606,10 @@ export const DataElementsData = [
       {
         "Mandatory": true,
         "Span": false
+      },
+      {
+        "Enable": false,
+        "Span": false
       }
     ],
     "__idx": 44,
@@ -39236,6 +39654,10 @@ export const DataElementsData = [
     "ElementControlProperty": [
       {
         "Mandatory": true,
+        "Span": false
+      },
+      {
+        "Enable": false,
         "Span": false
       }
     ],
@@ -39282,6 +39704,10 @@ export const DataElementsData = [
       {
         "Mandatory": true,
         "Span": false
+      },
+      {
+        "Enable": false,
+        "Span": false
       }
     ],
     "__idx": 46,
@@ -39325,6 +39751,10 @@ export const DataElementsData = [
     "ElementControlProperty": [
       {
         "Mandatory": true,
+        "Span": false
+      },
+      {
+        "Enable": false,
         "Span": false
       }
     ],
@@ -39371,6 +39801,10 @@ export const DataElementsData = [
       {
         "Mandatory": true,
         "Span": false
+      },
+      {
+        "Enable": false,
+        "Span": false
       }
     ],
     "__idx": 48,
@@ -39416,6 +39850,10 @@ export const DataElementsData = [
       {
         "Mandatory": true,
         "Span": false
+      },
+      {
+        "Enable": false,
+        "Span": false
       }
     ],
     "__idx": 49,
@@ -39455,6 +39893,12 @@ export const DataElementsData = [
     "DCaption": "Project Budget",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Enable": false,
+        "Span": false
+      }
+    ],
     "__idx": 50,
     "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_51_50",
     "children": []
@@ -39492,6 +39936,12 @@ export const DataElementsData = [
     "DCaption": "OverHead",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Enable": false,
+        "Span": false
+      }
+    ],
     "__idx": 51,
     "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_52_51",
     "children": []
@@ -39534,6 +39984,10 @@ export const DataElementsData = [
       {
         "Visible": false,
         "Span": false
+      },
+      {
+        "Enable": false,
+        "Span": false
       }
     ],
     "__idx": 52,
@@ -39575,6 +40029,12 @@ export const DataElementsData = [
     "DCaption": "Remarks",
     "DHelpText": "Enter Remarks ( Max 500 Characters)",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Enable": false,
+        "Span": false
+      }
+    ],
     "__idx": 53,
     "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
     "children": []
