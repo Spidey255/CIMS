@@ -171,7 +171,7 @@ export const getGridInstanceData = async <T>({
 
 axios.interceptors.response.use(
   (res) => {
-    if (res.data?.Message === "Invalid Slot") {
+    if (res.data?.Message == "Invalid Slot") {
       (window as any).triggerSessionTimeout?.();
     }
     return res;

@@ -141,6 +141,7 @@ const handlePaginationRequest = async (
     const currentState = useGridStore.getState();
     const activePage = usePageStore.getState().activePage;
     const gridInfo = currentState.gridInfo[key];
+    const formInstanceId = usePageStore((store) => store.formInstanceId);
 
     const response = await getGridInstanceData<IAppResponse>({
       slotId: slotId!,
@@ -148,7 +149,7 @@ const handlePaginationRequest = async (
       controlId: gridInfo.ElementName,
       packageProcessMapId: activePage?.PackageProcessMapId || "",
       processActivityMapId: activePage?.ProcessActivityMapId || "",
-      formInstanceId: activePage?.FormVersionId || "",
+      formInstanceId: formInstanceId || null || activePage?.FormVersionId || "",
       pageDirection: pageDirection === 2 ? 3 : pageDirection,
       pageSize: currentState.pagination[key]?.pageSize || 5,
       currentRowIndex: currentRowIndex,

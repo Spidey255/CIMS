@@ -80,7 +80,7 @@ const DefaultComboBox: React.FC<{
           {!isGrid && element.ShowCaption ? (
             <>
               <label
-                className="form-label fw-semibold"
+                className="form-label "
                 htmlFor={element.ElementName}
               >
                 {element?.DCaption}

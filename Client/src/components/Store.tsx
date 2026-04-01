@@ -14,6 +14,7 @@ import type {
 import { accessMandatory } from "@/helpers/utils";
 import { useGridStore } from "@/store/useGridStore";
 import { useGeneralStore } from "@/store/useStore";
+import { usePageStore } from "@/store/usePageStore";
 import { useUserStore } from "@/store/useUserStore";
 import { useRedirectStore } from "@/store/useRedirectStore";
 import { getFormOnLoadData, getGridInstanceData } from "@/helpers/axiosHelper";
@@ -40,7 +41,7 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
   const setComboReady = useGeneralStore(
     (store) => store.setComboReady
   );
-
+const formInstanceId = usePageStore((store) => store.formInstanceId);
   const showLoader = useLoaderStore((s) => s.show);
     const hideLoader = useLoaderStore((s) => s.hide);
 
@@ -93,7 +94,7 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
             controlId: m.ElementName,
             packageProcessMapId: PackageProcessMapId,
             processActivityMapId: ProcessActivityMapId,
-            formInstanceId: FormVersionId,
+            formInstanceId: formInstanceId || null || "",
             pageDirection: 1,
             pageSize: m["RowsPerPage"] || 5,
             currentRowIndex: 0,

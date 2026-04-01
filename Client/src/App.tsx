@@ -4,6 +4,7 @@ import { Toaster } from "react-hot-toast";
 import NotFound from "@/pages/NotFound";
 import GlobalLoader from "@/components/Loader/GlobalLoader";
 import Inbox from "@/components/Inbox/Inbox";
+import SessionTimeoutModal from "@/components/Internal/SessionTimeoutModal";
 
 import LoginPage from "@/components/Auth/Okta/Login";
     import CreateAccount from "@/components/Auth/Okta/CreateAccount";
@@ -54,6 +55,17 @@ const PublicRoute: React.FC = () => {
 };
 
 const App: React.FC = () => {
+ const [sessionExpired, setSessionExpired] = useState(false);
+
+  // global trigger for axios
+  (window as any).triggerSessionTimeout = () => {
+    setSessionExpired(true);
+  };
+
+  const handleLogout = () => {
+    sessionStorage.clear();
+    window.location.href = "/login";
+  };
 
 
   return (
@@ -90,6 +102,10 @@ const App: React.FC = () => {
   </Routes>
 </Router>
       <Toaster />
+      <SessionTimeoutModal
+        isOpen={sessionExpired}
+        onConfirm={handleLogout}
+      />
     </>
   );
 };

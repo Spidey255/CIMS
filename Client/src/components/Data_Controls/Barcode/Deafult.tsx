@@ -88,7 +88,7 @@ import React, { useRef, useCallback } from "react";
 import { QRCodeSVG } from "qrcode.react";
 import type { UIElement } from "../../../constants/types";
 import { useGeneralStore } from "../../../store/useStore";
-import qrimg from "../../../assets/Vertiv-Logo1.svg";
+import qrimg from "../../../assets/images/Vertiv-Logo1.svg";
 
 import {
   downloadQRAsPDF,
