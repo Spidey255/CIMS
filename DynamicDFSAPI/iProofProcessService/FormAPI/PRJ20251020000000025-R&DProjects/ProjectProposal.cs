@@ -1785,45 +1785,9 @@ public override void ExecuteMethod
 }
 	if(methodName.ToLower().Equals("onchange"))
 {
-		if(elementName.ToLower().Equals("mf_d1_projectcategoryid"))
-    {
-    			SubscribeElementEvents_mf_d1_projectcategoryid(ref dfsParam);
-    }
-		if(elementName.ToLower().Equals("mf_d1_projecttype"))
-    {
-    			SubscribeElementEvents_mf_d1_projecttype(ref dfsParam);
-    }
-		if(elementName.ToLower().Equals("mfg_d2_membertype"))
-    {
-    			SubscribeElementEvents_mfg_d2_membertype(ref dfsParam);
-    }
-		if(elementName.ToLower().Equals("mfg_d2_departmentid"))
-    {
-    			SubscribeElementEvents_mfg_d2_departmentid(ref dfsParam);
-    }
-		if(elementName.ToLower().Equals("mf_d1_fundingagency"))
-    {
-    			SubscribeElementEvents_mf_d1_fundingagency(ref dfsParam);
-    }
-		if(elementName.ToLower().Equals("mfg_d2_additionaltype"))
-    {
-    			SubscribeElementEvents_mfg_d2_additionaltype(ref dfsParam);
-    }
 }
 	if(methodName.ToLower().Equals("onclick"))
 {
-		if(elementName.ToLower().Equals("save_copidetails"))
-{
-			SubscribeElementEvents_save_copidetails(ref dfsParam);
-}
-		if(elementName.ToLower().Equals("edit_copidetails"))
-{
-			SubscribeElementEvents_edit_copidetails(ref dfsParam);
-}
-		if(elementName.ToLower().Equals("submitform"))
-{
-			SubscribeElementEvents_submitform(ref dfsParam);
-}
 }
 }
 }
