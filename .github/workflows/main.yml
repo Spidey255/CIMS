@@ -16,3 +16,5 @@ jobs:
       VITE_AUTH_URL: ${{ secrets.VITE_AUTH_URL }}
       VITE_DOCUMENT_SERVICE_URL: ${{ secrets.VITE_DOCUMENT_SERVICE_URL }}
       VITE_BASE_EXECUTION_URL: ${{ secrets.VITE_BASE_EXECUTION_URL }}
+      VITE_INBOX_SETTING_ID: ${{ secrets.VITE_INBOX_SETTING_ID }}
+      VITE_URL: ${{ secrets.VITE_URL }}

@@ -648,7 +648,11 @@ namespace CPS.Proof.DFSExtension
                                                 break;
 
                                         default:
-                                            colValues += gitem["Value"].ToString() + ",";
+                                                    if(gitem["Value"].ToString()=="")
+
+                                                        colValues +=  "NULL,";
+                                                    else
+                                                    colValues += gitem["Value"].ToString() + ",";
                                             break;
                                     }                                    
                                 }                                 
@@ -675,7 +679,7 @@ namespace CPS.Proof.DFSExtension
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_D2D6E00AB6B74968BAAAEF3D20F2BAC5 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d3_DocumentName] NVARCHAR(50)	, [MG_d3_UpdatedOn] DATETIME	, [MG_d3_DocumentProposalID] NVARCHAR(50)	, [MG_d3_UploadDocument] BIGINT	, [MG_d3_ProposalDocumentID] NVARCHAR(50)	, [MG_d3_UpdatedBy] BIGINT	, [MG_d3_ProjectproposalID] NVARCHAR(50)	, [MG_d3_MandatoryCheck] INT){0}INSERT INTO [D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d3_DocumentName,MG_d3_UpdatedOn,MG_d3_DocumentProposalID,MG_d3_UploadDocument,MG_d3_ProposalDocumentID,MG_d3_UpdatedBy,MG_d3_ProjectproposalID,MG_d3_MandatoryCheck)
+		DECLARE  @TBL_D2D6E00AB6B74968BAAAEF3D20F2BAC5 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d3_DocumentName] NVARCHAR(100)	, [MG_d3_UpdatedOn] DATETIME	, [MG_d3_DocumentProposalID] NVARCHAR(100)	, [MG_d3_UploadDocument] BIGINT	, [MG_d3_ProposalDocumentID] NVARCHAR(100)	, [MG_d3_UpdatedBy] BIGINT	, [MG_d3_ProjectproposalID] NVARCHAR(50)	, [MG_d3_MandatoryCheck] INT){0}INSERT INTO [D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d3_DocumentName,MG_d3_UpdatedOn,MG_d3_DocumentProposalID,MG_d3_UploadDocument,MG_d3_ProposalDocumentID,MG_d3_UpdatedBy,MG_d3_ProjectproposalID,MG_d3_MandatoryCheck)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d3_DocumentName,TDT.MG_d3_UpdatedOn,TDT.MG_d3_DocumentProposalID,TDT.MG_d3_UploadDocument,TDT.MG_d3_ProposalDocumentID,TDT.MG_d3_UpdatedBy,TDT.MG_d3_ProjectproposalID,TDT.MG_d3_MandatoryCheck FROM @TBL_D2D6E00AB6B74968BAAAEF3D20F2BAC5 TDT
 							LEFT JOIN [D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;";
@@ -756,7 +760,11 @@ namespace CPS.Proof.DFSExtension
                                                 break;
 
                                         default:
-                                            colValues += gitem["Value"].ToString() + ",";
+                                                    if(gitem["Value"].ToString()=="")
+
+                                                        colValues +=  "NULL,";
+                                                    else
+                                                    colValues += gitem["Value"].ToString() + ",";
                                             break;
                                     }                                    
                                 }                                 
@@ -864,7 +872,11 @@ namespace CPS.Proof.DFSExtension
                                                 break;
 
                                         default:
-                                            colValues += gitem["Value"].ToString() + ",";
+                                                    if(gitem["Value"].ToString()=="")
+
+                                                        colValues +=  "NULL,";
+                                                    else
+                                                    colValues += gitem["Value"].ToString() + ",";
                                             break;
                                     }                                    
                                 }                                 
@@ -1035,7 +1047,7 @@ namespace CPS.Proof.DFSExtension
                      
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_D2D6E00AB6B74968BAAAEF3D20F2BAC5 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d3_DocumentName] NVARCHAR(50)	, [MG_d3_UpdatedOn] DATETIME	, [MG_d3_DocumentProposalID] NVARCHAR(50)	, [MG_d3_UploadDocument] BIGINT	, [MG_d3_ProposalDocumentID] NVARCHAR(50)	, [MG_d3_UpdatedBy] BIGINT	, [MG_d3_ProjectproposalID] NVARCHAR(50)	, [MG_d3_MandatoryCheck] INT){0}INSERT INTO [D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d3_DocumentName,MG_d3_UpdatedOn,MG_d3_DocumentProposalID,MG_d3_UploadDocument,MG_d3_ProposalDocumentID,MG_d3_UpdatedBy,MG_d3_ProjectproposalID,MG_d3_MandatoryCheck)
+		DECLARE  @TBL_D2D6E00AB6B74968BAAAEF3D20F2BAC5 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d3_DocumentName] NVARCHAR(100)	, [MG_d3_UpdatedOn] DATETIME	, [MG_d3_DocumentProposalID] NVARCHAR(100)	, [MG_d3_UploadDocument] BIGINT	, [MG_d3_ProposalDocumentID] NVARCHAR(100)	, [MG_d3_UpdatedBy] BIGINT	, [MG_d3_ProjectproposalID] NVARCHAR(50)	, [MG_d3_MandatoryCheck] INT){0}INSERT INTO [D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d3_DocumentName,MG_d3_UpdatedOn,MG_d3_DocumentProposalID,MG_d3_UploadDocument,MG_d3_ProposalDocumentID,MG_d3_UpdatedBy,MG_d3_ProjectproposalID,MG_d3_MandatoryCheck)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d3_DocumentName,TDT.MG_d3_UpdatedOn,TDT.MG_d3_DocumentProposalID,TDT.MG_d3_UploadDocument,TDT.MG_d3_ProposalDocumentID,TDT.MG_d3_UpdatedBy,TDT.MG_d3_ProjectproposalID,TDT.MG_d3_MandatoryCheck FROM @TBL_D2D6E00AB6B74968BAAAEF3D20F2BAC5 TDT
 							LEFT JOIN [D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;";

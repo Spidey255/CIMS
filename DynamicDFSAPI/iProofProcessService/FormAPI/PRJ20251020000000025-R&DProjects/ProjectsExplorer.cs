@@ -541,7 +541,11 @@ namespace CPS.Proof.DFSExtension
                                                 break;
 
                                         default:
-                                            colValues += gitem["Value"].ToString() + ",";
+                                                    if(gitem["Value"].ToString()=="")
+
+                                                        colValues +=  "NULL,";
+                                                    else
+                                                    colValues += gitem["Value"].ToString() + ",";
                                             break;
                                     }                                    
                                 }                                 

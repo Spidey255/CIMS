@@ -347,7 +347,9 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "EDT": 9,
-                    "DCaption": "M_DepartmentId",
+                    "DCaption": "",
+                    "DHelpText": "",
+                    "DToolTip": "",
                     "ElementControlProperty": [
                       {
                         "Visible": false,
@@ -435,7 +437,9 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "EDT": 9,
-                    "DCaption": "M_DesignationId",
+                    "DCaption": "",
+                    "DHelpText": "",
+                    "DToolTip": "",
                     "ElementControlProperty": [
                       {
                         "Visible": false,
@@ -1176,7 +1180,7 @@ export const DataElementsData = [
                                         "BindingDetail": "",
                                         "EDT": 9,
                                         "DCaption": "Project Title",
-                                        "DHelpText": "",
+                                        "DHelpText": "Enter Project Title ( Max 2500 Characters",
                                         "DToolTip": "",
                                         "ElementControlProperty": [
                                           {
@@ -1384,7 +1388,7 @@ export const DataElementsData = [
                                         "BindingDetail": "",
                                         "EDT": 9,
                                         "DCaption": "Remarks",
-                                        "DHelpText": "",
+                                        "DHelpText": "Enter Remarks ( Max 500 Characters)",
                                         "DToolTip": "",
                                         "__idx": 53,
                                         "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
@@ -1923,7 +1927,7 @@ export const DataElementsData = [
                                         "BindingDetail": "",
                                         "EDT": 9,
                                         "DCaption": "External Institute Name",
-                                        "DHelpText": "",
+                                        "DHelpText": "Enter External Institute Name",
                                         "DToolTip": "",
                                         "ElementControlProperty": [
                                           {
@@ -1968,7 +1972,7 @@ export const DataElementsData = [
                                         "BindingDetail": "",
                                         "EDT": 9,
                                         "DCaption": "External Faculty Name",
-                                        "DHelpText": "",
+                                        "DHelpText": "Enter External Faculty Name",
                                         "DToolTip": "",
                                         "ElementControlProperty": [
                                           {
@@ -2013,7 +2017,7 @@ export const DataElementsData = [
                                         "BindingDetail": "",
                                         "EDT": 9,
                                         "DCaption": "External EmailId",
-                                        "DHelpText": "",
+                                        "DHelpText": "Enter External EmailId",
                                         "DToolTip": "",
                                         "ElementControlProperty": [
                                           {
@@ -2058,7 +2062,7 @@ export const DataElementsData = [
                                         "BindingDetail": "",
                                         "EDT": 9,
                                         "DCaption": "External Contact No",
-                                        "DHelpText": "",
+                                        "DHelpText": "Enter External Contact No",
                                         "DToolTip": "",
                                         "ElementControlProperty": [
                                           {
@@ -3316,7 +3320,7 @@ export const DataElementsData = [
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
                                             "EDT": 5,
-                                            "DCaption": "",
+                                            "DCaption": "CopiDetails_Sequence",
                                             "DHelpText": "",
                                             "DToolTip": "",
                                             "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -3355,7 +3359,7 @@ export const DataElementsData = [
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
                                             "EDT": 9,
-                                            "DCaption": "",
+                                            "DCaption": "CopiDetails_RowId",
                                             "DHelpText": "",
                                             "DToolTip": "",
                                             "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -4466,7 +4470,7 @@ export const DataElementsData = [
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
                                             "EDT": 5,
-                                            "DCaption": "",
+                                            "DCaption": "ProposalDocuments_Sequence",
                                             "DHelpText": "",
                                             "DToolTip": "",
                                             "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -4505,7 +4509,7 @@ export const DataElementsData = [
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
                                             "EDT": 9,
-                                            "DCaption": "",
+                                            "DCaption": "ProposalDocuments_RowId",
                                             "DHelpText": "",
                                             "DToolTip": "",
                                             "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -5194,7 +5198,9 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "EDT": 9,
-                "DCaption": "M_DepartmentId",
+                "DCaption": "",
+                "DHelpText": "",
+                "DToolTip": "",
                 "ElementControlProperty": [
                   {
                     "Visible": false,
@@ -5282,7 +5288,9 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "EDT": 9,
-                "DCaption": "M_DesignationId",
+                "DCaption": "",
+                "DHelpText": "",
+                "DToolTip": "",
                 "ElementControlProperty": [
                   {
                     "Visible": false,
@@ -6023,7 +6031,7 @@ export const DataElementsData = [
                                     "BindingDetail": "",
                                     "EDT": 9,
                                     "DCaption": "Project Title",
-                                    "DHelpText": "",
+                                    "DHelpText": "Enter Project Title ( Max 2500 Characters",
                                     "DToolTip": "",
                                     "ElementControlProperty": [
                                       {
@@ -6231,7 +6239,7 @@ export const DataElementsData = [
                                     "BindingDetail": "",
                                     "EDT": 9,
                                     "DCaption": "Remarks",
-                                    "DHelpText": "",
+                                    "DHelpText": "Enter Remarks ( Max 500 Characters)",
                                     "DToolTip": "",
                                     "__idx": 53,
                                     "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
@@ -6770,7 +6778,7 @@ export const DataElementsData = [
                                     "BindingDetail": "",
                                     "EDT": 9,
                                     "DCaption": "External Institute Name",
-                                    "DHelpText": "",
+                                    "DHelpText": "Enter External Institute Name",
                                     "DToolTip": "",
                                     "ElementControlProperty": [
                                       {
@@ -6815,7 +6823,7 @@ export const DataElementsData = [
                                     "BindingDetail": "",
                                     "EDT": 9,
                                     "DCaption": "External Faculty Name",
-                                    "DHelpText": "",
+                                    "DHelpText": "Enter External Faculty Name",
                                     "DToolTip": "",
                                     "ElementControlProperty": [
                                       {
@@ -6860,7 +6868,7 @@ export const DataElementsData = [
                                     "BindingDetail": "",
                                     "EDT": 9,
                                     "DCaption": "External EmailId",
-                                    "DHelpText": "",
+                                    "DHelpText": "Enter External EmailId",
                                     "DToolTip": "",
                                     "ElementControlProperty": [
                                       {
@@ -6905,7 +6913,7 @@ export const DataElementsData = [
                                     "BindingDetail": "",
                                     "EDT": 9,
                                     "DCaption": "External Contact No",
-                                    "DHelpText": "",
+                                    "DHelpText": "Enter External Contact No",
                                     "DToolTip": "",
                                     "ElementControlProperty": [
                                       {
@@ -8163,7 +8171,7 @@ export const DataElementsData = [
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
                                         "EDT": 5,
-                                        "DCaption": "",
+                                        "DCaption": "CopiDetails_Sequence",
                                         "DHelpText": "",
                                         "DToolTip": "",
                                         "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -8202,7 +8210,7 @@ export const DataElementsData = [
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
                                         "EDT": 9,
-                                        "DCaption": "",
+                                        "DCaption": "CopiDetails_RowId",
                                         "DHelpText": "",
                                         "DToolTip": "",
                                         "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -9313,7 +9321,7 @@ export const DataElementsData = [
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
                                         "EDT": 5,
-                                        "DCaption": "",
+                                        "DCaption": "ProposalDocuments_Sequence",
                                         "DHelpText": "",
                                         "DToolTip": "",
                                         "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -9352,7 +9360,7 @@ export const DataElementsData = [
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
                                         "EDT": 9,
-                                        "DCaption": "",
+                                        "DCaption": "ProposalDocuments_RowId",
                                         "DHelpText": "",
                                         "DToolTip": "",
                                         "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -10000,7 +10008,9 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "EDT": 9,
-            "DCaption": "M_DepartmentId",
+            "DCaption": "",
+            "DHelpText": "",
+            "DToolTip": "",
             "ElementControlProperty": [
               {
                 "Visible": false,
@@ -10088,7 +10098,9 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "EDT": 9,
-            "DCaption": "M_DesignationId",
+            "DCaption": "",
+            "DHelpText": "",
+            "DToolTip": "",
             "ElementControlProperty": [
               {
                 "Visible": false,
@@ -10788,7 +10800,7 @@ export const DataElementsData = [
                                 "BindingDetail": "",
                                 "EDT": 9,
                                 "DCaption": "Project Title",
-                                "DHelpText": "",
+                                "DHelpText": "Enter Project Title ( Max 2500 Characters",
                                 "DToolTip": "",
                                 "ElementControlProperty": [
                                   {
@@ -10996,7 +11008,7 @@ export const DataElementsData = [
                                 "BindingDetail": "",
                                 "EDT": 9,
                                 "DCaption": "Remarks",
-                                "DHelpText": "",
+                                "DHelpText": "Enter Remarks ( Max 500 Characters)",
                                 "DToolTip": "",
                                 "__idx": 53,
                                 "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
@@ -11535,7 +11547,7 @@ export const DataElementsData = [
                                 "BindingDetail": "",
                                 "EDT": 9,
                                 "DCaption": "External Institute Name",
-                                "DHelpText": "",
+                                "DHelpText": "Enter External Institute Name",
                                 "DToolTip": "",
                                 "ElementControlProperty": [
                                   {
@@ -11580,7 +11592,7 @@ export const DataElementsData = [
                                 "BindingDetail": "",
                                 "EDT": 9,
                                 "DCaption": "External Faculty Name",
-                                "DHelpText": "",
+                                "DHelpText": "Enter External Faculty Name",
                                 "DToolTip": "",
                                 "ElementControlProperty": [
                                   {
@@ -11625,7 +11637,7 @@ export const DataElementsData = [
                                 "BindingDetail": "",
                                 "EDT": 9,
                                 "DCaption": "External EmailId",
-                                "DHelpText": "",
+                                "DHelpText": "Enter External EmailId",
                                 "DToolTip": "",
                                 "ElementControlProperty": [
                                   {
@@ -11670,7 +11682,7 @@ export const DataElementsData = [
                                 "BindingDetail": "",
                                 "EDT": 9,
                                 "DCaption": "External Contact No",
-                                "DHelpText": "",
+                                "DHelpText": "Enter External Contact No",
                                 "DToolTip": "",
                                 "ElementControlProperty": [
                                   {
@@ -12928,7 +12940,7 @@ export const DataElementsData = [
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
                                     "EDT": 5,
-                                    "DCaption": "",
+                                    "DCaption": "CopiDetails_Sequence",
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -12967,7 +12979,7 @@ export const DataElementsData = [
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
                                     "EDT": 9,
-                                    "DCaption": "",
+                                    "DCaption": "CopiDetails_RowId",
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -14078,7 +14090,7 @@ export const DataElementsData = [
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
                                     "EDT": 5,
-                                    "DCaption": "",
+                                    "DCaption": "ProposalDocuments_Sequence",
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -14117,7 +14129,7 @@ export const DataElementsData = [
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
                                     "EDT": 9,
-                                    "DCaption": "",
+                                    "DCaption": "ProposalDocuments_RowId",
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -14682,7 +14694,9 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "EDT": 9,
-        "DCaption": "M_DepartmentId",
+        "DCaption": "",
+        "DHelpText": "",
+        "DToolTip": "",
         "ElementControlProperty": [
           {
             "Visible": false,
@@ -14770,7 +14784,9 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "EDT": 9,
-        "DCaption": "M_DesignationId",
+        "DCaption": "",
+        "DHelpText": "",
+        "DToolTip": "",
         "ElementControlProperty": [
           {
             "Visible": false,
@@ -15429,7 +15445,7 @@ export const DataElementsData = [
                             "BindingDetail": "",
                             "EDT": 9,
                             "DCaption": "Project Title",
-                            "DHelpText": "",
+                            "DHelpText": "Enter Project Title ( Max 2500 Characters",
                             "DToolTip": "",
                             "ElementControlProperty": [
                               {
@@ -15637,7 +15653,7 @@ export const DataElementsData = [
                             "BindingDetail": "",
                             "EDT": 9,
                             "DCaption": "Remarks",
-                            "DHelpText": "",
+                            "DHelpText": "Enter Remarks ( Max 500 Characters)",
                             "DToolTip": "",
                             "__idx": 53,
                             "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
@@ -16176,7 +16192,7 @@ export const DataElementsData = [
                             "BindingDetail": "",
                             "EDT": 9,
                             "DCaption": "External Institute Name",
-                            "DHelpText": "",
+                            "DHelpText": "Enter External Institute Name",
                             "DToolTip": "",
                             "ElementControlProperty": [
                               {
@@ -16221,7 +16237,7 @@ export const DataElementsData = [
                             "BindingDetail": "",
                             "EDT": 9,
                             "DCaption": "External Faculty Name",
-                            "DHelpText": "",
+                            "DHelpText": "Enter External Faculty Name",
                             "DToolTip": "",
                             "ElementControlProperty": [
                               {
@@ -16266,7 +16282,7 @@ export const DataElementsData = [
                             "BindingDetail": "",
                             "EDT": 9,
                             "DCaption": "External EmailId",
-                            "DHelpText": "",
+                            "DHelpText": "Enter External EmailId",
                             "DToolTip": "",
                             "ElementControlProperty": [
                               {
@@ -16311,7 +16327,7 @@ export const DataElementsData = [
                             "BindingDetail": "",
                             "EDT": 9,
                             "DCaption": "External Contact No",
-                            "DHelpText": "",
+                            "DHelpText": "Enter External Contact No",
                             "DToolTip": "",
                             "ElementControlProperty": [
                               {
@@ -17569,7 +17585,7 @@ export const DataElementsData = [
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
                                 "EDT": 5,
-                                "DCaption": "",
+                                "DCaption": "CopiDetails_Sequence",
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -17608,7 +17624,7 @@ export const DataElementsData = [
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
                                 "EDT": 9,
-                                "DCaption": "",
+                                "DCaption": "CopiDetails_RowId",
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -18719,7 +18735,7 @@ export const DataElementsData = [
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
                                 "EDT": 5,
-                                "DCaption": "",
+                                "DCaption": "ProposalDocuments_Sequence",
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -18758,7 +18774,7 @@ export const DataElementsData = [
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
                                 "EDT": 9,
-                                "DCaption": "",
+                                "DCaption": "ProposalDocuments_RowId",
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -19282,7 +19298,9 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "EDT": 9,
-    "DCaption": "M_DepartmentId",
+    "DCaption": "",
+    "DHelpText": "",
+    "DToolTip": "",
     "ElementControlProperty": [
       {
         "Visible": false,
@@ -19370,7 +19388,9 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "EDT": 9,
-    "DCaption": "M_DesignationId",
+    "DCaption": "",
+    "DHelpText": "",
+    "DToolTip": "",
     "ElementControlProperty": [
       {
         "Visible": false,
@@ -19947,7 +19967,7 @@ export const DataElementsData = [
                         "BindingDetail": "",
                         "EDT": 9,
                         "DCaption": "Project Title",
-                        "DHelpText": "",
+                        "DHelpText": "Enter Project Title ( Max 2500 Characters",
                         "DToolTip": "",
                         "ElementControlProperty": [
                           {
@@ -20155,7 +20175,7 @@ export const DataElementsData = [
                         "BindingDetail": "",
                         "EDT": 9,
                         "DCaption": "Remarks",
-                        "DHelpText": "",
+                        "DHelpText": "Enter Remarks ( Max 500 Characters)",
                         "DToolTip": "",
                         "__idx": 53,
                         "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
@@ -20694,7 +20714,7 @@ export const DataElementsData = [
                         "BindingDetail": "",
                         "EDT": 9,
                         "DCaption": "External Institute Name",
-                        "DHelpText": "",
+                        "DHelpText": "Enter External Institute Name",
                         "DToolTip": "",
                         "ElementControlProperty": [
                           {
@@ -20739,7 +20759,7 @@ export const DataElementsData = [
                         "BindingDetail": "",
                         "EDT": 9,
                         "DCaption": "External Faculty Name",
-                        "DHelpText": "",
+                        "DHelpText": "Enter External Faculty Name",
                         "DToolTip": "",
                         "ElementControlProperty": [
                           {
@@ -20784,7 +20804,7 @@ export const DataElementsData = [
                         "BindingDetail": "",
                         "EDT": 9,
                         "DCaption": "External EmailId",
-                        "DHelpText": "",
+                        "DHelpText": "Enter External EmailId",
                         "DToolTip": "",
                         "ElementControlProperty": [
                           {
@@ -20829,7 +20849,7 @@ export const DataElementsData = [
                         "BindingDetail": "",
                         "EDT": 9,
                         "DCaption": "External Contact No",
-                        "DHelpText": "",
+                        "DHelpText": "Enter External Contact No",
                         "DToolTip": "",
                         "ElementControlProperty": [
                           {
@@ -22087,7 +22107,7 @@ export const DataElementsData = [
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
                             "EDT": 5,
-                            "DCaption": "",
+                            "DCaption": "CopiDetails_Sequence",
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -22126,7 +22146,7 @@ export const DataElementsData = [
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
                             "EDT": 9,
-                            "DCaption": "",
+                            "DCaption": "CopiDetails_RowId",
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -23237,7 +23257,7 @@ export const DataElementsData = [
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
                             "EDT": 5,
-                            "DCaption": "",
+                            "DCaption": "ProposalDocuments_Sequence",
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -23276,7 +23296,7 @@ export const DataElementsData = [
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
                             "EDT": 9,
-                            "DCaption": "",
+                            "DCaption": "ProposalDocuments_RowId",
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -24138,7 +24158,7 @@ export const DataElementsData = [
                     "BindingDetail": "",
                     "EDT": 9,
                     "DCaption": "Project Title",
-                    "DHelpText": "",
+                    "DHelpText": "Enter Project Title ( Max 2500 Characters",
                     "DToolTip": "",
                     "ElementControlProperty": [
                       {
@@ -24346,7 +24366,7 @@ export const DataElementsData = [
                     "BindingDetail": "",
                     "EDT": 9,
                     "DCaption": "Remarks",
-                    "DHelpText": "",
+                    "DHelpText": "Enter Remarks ( Max 500 Characters)",
                     "DToolTip": "",
                     "__idx": 53,
                     "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
@@ -24844,7 +24864,7 @@ export const DataElementsData = [
                     "BindingDetail": "",
                     "EDT": 9,
                     "DCaption": "External Institute Name",
-                    "DHelpText": "",
+                    "DHelpText": "Enter External Institute Name",
                     "DToolTip": "",
                     "ElementControlProperty": [
                       {
@@ -24889,7 +24909,7 @@ export const DataElementsData = [
                     "BindingDetail": "",
                     "EDT": 9,
                     "DCaption": "External Faculty Name",
-                    "DHelpText": "",
+                    "DHelpText": "Enter External Faculty Name",
                     "DToolTip": "",
                     "ElementControlProperty": [
                       {
@@ -24934,7 +24954,7 @@ export const DataElementsData = [
                     "BindingDetail": "",
                     "EDT": 9,
                     "DCaption": "External EmailId",
-                    "DHelpText": "",
+                    "DHelpText": "Enter External EmailId",
                     "DToolTip": "",
                     "ElementControlProperty": [
                       {
@@ -24979,7 +24999,7 @@ export const DataElementsData = [
                     "BindingDetail": "",
                     "EDT": 9,
                     "DCaption": "External Contact No",
-                    "DHelpText": "",
+                    "DHelpText": "Enter External Contact No",
                     "DToolTip": "",
                     "ElementControlProperty": [
                       {
@@ -26237,7 +26257,7 @@ export const DataElementsData = [
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
                         "EDT": 5,
-                        "DCaption": "",
+                        "DCaption": "CopiDetails_Sequence",
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -26276,7 +26296,7 @@ export const DataElementsData = [
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
                         "EDT": 9,
-                        "DCaption": "",
+                        "DCaption": "CopiDetails_RowId",
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -27346,7 +27366,7 @@ export const DataElementsData = [
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
                         "EDT": 5,
-                        "DCaption": "",
+                        "DCaption": "ProposalDocuments_Sequence",
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -27385,7 +27405,7 @@ export const DataElementsData = [
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
                         "EDT": 9,
-                        "DCaption": "",
+                        "DCaption": "ProposalDocuments_RowId",
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -28206,7 +28226,7 @@ export const DataElementsData = [
                 "BindingDetail": "",
                 "EDT": 9,
                 "DCaption": "Project Title",
-                "DHelpText": "",
+                "DHelpText": "Enter Project Title ( Max 2500 Characters",
                 "DToolTip": "",
                 "ElementControlProperty": [
                   {
@@ -28414,7 +28434,7 @@ export const DataElementsData = [
                 "BindingDetail": "",
                 "EDT": 9,
                 "DCaption": "Remarks",
-                "DHelpText": "",
+                "DHelpText": "Enter Remarks ( Max 500 Characters)",
                 "DToolTip": "",
                 "__idx": 53,
                 "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
@@ -28871,7 +28891,7 @@ export const DataElementsData = [
                 "BindingDetail": "",
                 "EDT": 9,
                 "DCaption": "External Institute Name",
-                "DHelpText": "",
+                "DHelpText": "Enter External Institute Name",
                 "DToolTip": "",
                 "ElementControlProperty": [
                   {
@@ -28916,7 +28936,7 @@ export const DataElementsData = [
                 "BindingDetail": "",
                 "EDT": 9,
                 "DCaption": "External Faculty Name",
-                "DHelpText": "",
+                "DHelpText": "Enter External Faculty Name",
                 "DToolTip": "",
                 "ElementControlProperty": [
                   {
@@ -28961,7 +28981,7 @@ export const DataElementsData = [
                 "BindingDetail": "",
                 "EDT": 9,
                 "DCaption": "External EmailId",
-                "DHelpText": "",
+                "DHelpText": "Enter External EmailId",
                 "DToolTip": "",
                 "ElementControlProperty": [
                   {
@@ -29006,7 +29026,7 @@ export const DataElementsData = [
                 "BindingDetail": "",
                 "EDT": 9,
                 "DCaption": "External Contact No",
-                "DHelpText": "",
+                "DHelpText": "Enter External Contact No",
                 "DToolTip": "",
                 "ElementControlProperty": [
                   {
@@ -30264,7 +30284,7 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "EDT": 5,
-                    "DCaption": "",
+                    "DCaption": "CopiDetails_Sequence",
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -30303,7 +30323,7 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "EDT": 9,
-                    "DCaption": "",
+                    "DCaption": "CopiDetails_RowId",
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -31332,7 +31352,7 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "EDT": 5,
-                    "DCaption": "",
+                    "DCaption": "ProposalDocuments_Sequence",
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -31371,7 +31391,7 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "EDT": 9,
-                    "DCaption": "",
+                    "DCaption": "ProposalDocuments_RowId",
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -32151,7 +32171,7 @@ export const DataElementsData = [
             "BindingDetail": "",
             "EDT": 9,
             "DCaption": "Project Title",
-            "DHelpText": "",
+            "DHelpText": "Enter Project Title ( Max 2500 Characters",
             "DToolTip": "",
             "ElementControlProperty": [
               {
@@ -32359,7 +32379,7 @@ export const DataElementsData = [
             "BindingDetail": "",
             "EDT": 9,
             "DCaption": "Remarks",
-            "DHelpText": "",
+            "DHelpText": "Enter Remarks ( Max 500 Characters)",
             "DToolTip": "",
             "__idx": 53,
             "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
@@ -32775,7 +32795,7 @@ export const DataElementsData = [
             "BindingDetail": "",
             "EDT": 9,
             "DCaption": "External Institute Name",
-            "DHelpText": "",
+            "DHelpText": "Enter External Institute Name",
             "DToolTip": "",
             "ElementControlProperty": [
               {
@@ -32820,7 +32840,7 @@ export const DataElementsData = [
             "BindingDetail": "",
             "EDT": 9,
             "DCaption": "External Faculty Name",
-            "DHelpText": "",
+            "DHelpText": "Enter External Faculty Name",
             "DToolTip": "",
             "ElementControlProperty": [
               {
@@ -32865,7 +32885,7 @@ export const DataElementsData = [
             "BindingDetail": "",
             "EDT": 9,
             "DCaption": "External EmailId",
-            "DHelpText": "",
+            "DHelpText": "Enter External EmailId",
             "DToolTip": "",
             "ElementControlProperty": [
               {
@@ -32910,7 +32930,7 @@ export const DataElementsData = [
             "BindingDetail": "",
             "EDT": 9,
             "DCaption": "External Contact No",
-            "DHelpText": "",
+            "DHelpText": "Enter External Contact No",
             "DToolTip": "",
             "ElementControlProperty": [
               {
@@ -34168,7 +34188,7 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "EDT": 5,
-                "DCaption": "",
+                "DCaption": "CopiDetails_Sequence",
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -34207,7 +34227,7 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "EDT": 9,
-                "DCaption": "",
+                "DCaption": "CopiDetails_RowId",
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -35195,7 +35215,7 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "EDT": 5,
-                "DCaption": "",
+                "DCaption": "ProposalDocuments_Sequence",
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -35234,7 +35254,7 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "EDT": 9,
-                "DCaption": "",
+                "DCaption": "ProposalDocuments_RowId",
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -35932,7 +35952,7 @@ export const DataElementsData = [
         "BindingDetail": "",
         "EDT": 9,
         "DCaption": "Project Title",
-        "DHelpText": "",
+        "DHelpText": "Enter Project Title ( Max 2500 Characters",
         "DToolTip": "",
         "ElementControlProperty": [
           {
@@ -36140,7 +36160,7 @@ export const DataElementsData = [
         "BindingDetail": "",
         "EDT": 9,
         "DCaption": "Remarks",
-        "DHelpText": "",
+        "DHelpText": "Enter Remarks ( Max 500 Characters)",
         "DToolTip": "",
         "__idx": 53,
         "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
@@ -36474,7 +36494,7 @@ export const DataElementsData = [
         "BindingDetail": "",
         "EDT": 9,
         "DCaption": "External Institute Name",
-        "DHelpText": "",
+        "DHelpText": "Enter External Institute Name",
         "DToolTip": "",
         "ElementControlProperty": [
           {
@@ -36519,7 +36539,7 @@ export const DataElementsData = [
         "BindingDetail": "",
         "EDT": 9,
         "DCaption": "External Faculty Name",
-        "DHelpText": "",
+        "DHelpText": "Enter External Faculty Name",
         "DToolTip": "",
         "ElementControlProperty": [
           {
@@ -36564,7 +36584,7 @@ export const DataElementsData = [
         "BindingDetail": "",
         "EDT": 9,
         "DCaption": "External EmailId",
-        "DHelpText": "",
+        "DHelpText": "Enter External EmailId",
         "DToolTip": "",
         "ElementControlProperty": [
           {
@@ -36609,7 +36629,7 @@ export const DataElementsData = [
         "BindingDetail": "",
         "EDT": 9,
         "DCaption": "External Contact No",
-        "DHelpText": "",
+        "DHelpText": "Enter External Contact No",
         "DToolTip": "",
         "ElementControlProperty": [
           {
@@ -37785,7 +37805,7 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "EDT": 5,
-            "DCaption": "",
+            "DCaption": "CopiDetails_Sequence",
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -37824,7 +37844,7 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "EDT": 9,
-            "DCaption": "",
+            "DCaption": "CopiDetails_RowId",
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -38730,7 +38750,7 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "EDT": 5,
-            "DCaption": "",
+            "DCaption": "ProposalDocuments_Sequence",
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -38769,7 +38789,7 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "EDT": 9,
-            "DCaption": "",
+            "DCaption": "ProposalDocuments_RowId",
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -39345,7 +39365,7 @@ export const DataElementsData = [
     "BindingDetail": "",
     "EDT": 9,
     "DCaption": "Project Title",
-    "DHelpText": "",
+    "DHelpText": "Enter Project Title ( Max 2500 Characters",
     "DToolTip": "",
     "ElementControlProperty": [
       {
@@ -39553,7 +39573,7 @@ export const DataElementsData = [
     "BindingDetail": "",
     "EDT": 9,
     "DCaption": "Remarks",
-    "DHelpText": "",
+    "DHelpText": "Enter Remarks ( Max 500 Characters)",
     "DToolTip": "",
     "__idx": 53,
     "_id": "3ea85f7a-f8fd-b8f1-e9a1-3a3cd95b454f_54_53",
@@ -39765,7 +39785,7 @@ export const DataElementsData = [
     "BindingDetail": "",
     "EDT": 9,
     "DCaption": "External Institute Name",
-    "DHelpText": "",
+    "DHelpText": "Enter External Institute Name",
     "DToolTip": "",
     "ElementControlProperty": [
       {
@@ -39810,7 +39830,7 @@ export const DataElementsData = [
     "BindingDetail": "",
     "EDT": 9,
     "DCaption": "External Faculty Name",
-    "DHelpText": "",
+    "DHelpText": "Enter External Faculty Name",
     "DToolTip": "",
     "ElementControlProperty": [
       {
@@ -39855,7 +39875,7 @@ export const DataElementsData = [
     "BindingDetail": "",
     "EDT": 9,
     "DCaption": "External EmailId",
-    "DHelpText": "",
+    "DHelpText": "Enter External EmailId",
     "DToolTip": "",
     "ElementControlProperty": [
       {
@@ -39900,7 +39920,7 @@ export const DataElementsData = [
     "BindingDetail": "",
     "EDT": 9,
     "DCaption": "External Contact No",
-    "DHelpText": "",
+    "DHelpText": "Enter External Contact No",
     "DToolTip": "",
     "ElementControlProperty": [
       {
@@ -40993,7 +41013,7 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "EDT": 5,
-        "DCaption": "",
+        "DCaption": "CopiDetails_Sequence",
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -41032,7 +41052,7 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "EDT": 9,
-        "DCaption": "",
+        "DCaption": "CopiDetails_RowId",
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -41815,7 +41835,7 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "EDT": 5,
-        "DCaption": "",
+        "DCaption": "ProposalDocuments_Sequence",
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -41854,7 +41874,7 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "EDT": 9,
-        "DCaption": "",
+        "DCaption": "ProposalDocuments_RowId",
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -42247,7 +42267,7 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "EDT": 5,
-    "DCaption": "",
+    "DCaption": "CopiDetails_Sequence",
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -42286,7 +42306,7 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "EDT": 9,
-    "DCaption": "",
+    "DCaption": "CopiDetails_RowId",
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "473DB9A6-7C75-4893-9E0F-C76E7A2ACF42",
@@ -42867,7 +42887,7 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "EDT": 5,
-    "DCaption": "",
+    "DCaption": "ProposalDocuments_Sequence",
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
@@ -42906,7 +42926,7 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "EDT": 9,
-    "DCaption": "",
+    "DCaption": "ProposalDocuments_RowId",
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "9A34EBEC-5489-4807-82D8-9685BAB574E1",
