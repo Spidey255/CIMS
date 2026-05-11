@@ -158,7 +158,7 @@ namespace CPS.Proof.DFSExtension
 		
 	  			
 			     new Triplet<string, string, string>("MF_ProjectNo","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw1z/z9sf1712IST2TisZRbDL01cRO080NYHWsKvkYJS77XPhhEPANfatU8lJP0mJJjSopgrwrPOlAa7ekRdWJpCoSneyUlDBd6d1RrcOybG3s",
-												     @"EXEC GetProjectExtensionDetails 1,'@@gv_UserName'"),
+												     @"EXEC GetProjectExtensionDetails 1,'@MF_UserName'"),
 			
 						
 		};
@@ -782,6 +782,8 @@ base.WriteDebugInfo(@"ISpace[""MF_ProjectDetailsId""].Visible=""false"";ISpace["
 }
 ISpace["MG_BudgetName"].Enbl="false";
 base.WriteDebugInfo(@"ISpace[""MG_BudgetName""].Enbl=""false"";");
+ISpace["MF_UserName"].Value=ISpace["gv_username"].Value;
+base.WriteDebugInfo(@"ISpace[""MF_UserName""].Value=ISpace[""gv_username""].Value;");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
