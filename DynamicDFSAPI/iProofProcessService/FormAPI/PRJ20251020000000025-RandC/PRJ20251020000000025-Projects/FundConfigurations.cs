@@ -144,6 +144,18 @@ namespace CPS.Proof.DFSExtension
 												     @"9ADED37B-CD11-426B-AF16-DEAC75685EF5"),
 			
 						
+			     new Triplet<string, string, string>("e4eda5cb-4f56-1368-3ed3-a5d93c1c4960","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"9ADED37B-CD11-426B-AF16-DEAC75685EF5"),
+			
+						
+			     new Triplet<string, string, string>("a8bb0e10-87dc-0e81-8594-b70af24399ed","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"9ADED37B-CD11-426B-AF16-DEAC75685EF5"),
+			
+						
+			     new Triplet<string, string, string>("f96864a8-507f-ee11-9e57-d16f7f129885","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"9ADED37B-CD11-426B-AF16-DEAC75685EF5"),
+			
+						
 			     new Triplet<string, string, string>("DAC9F044-5935-4FA0-923E-7A3EAB9A2F96","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"9ADED37B-CD11-426B-AF16-DEAC75685EF5"),
 			
@@ -1233,143 +1245,76 @@ base.WriteDebugInfo(@"MF_Add-OnClick");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-base.WriteDebugInfo(@"Entering DomainDataMap for Fund Configurations");
-var FundConfigurations_repoObj = new RepositoryMapper(DbTypes.SQLServer);
+base.WriteDebugInfo(@"EXEC [SP_UpsertFundDistributionMaster] '#MF_DistributionId','@@gv_UserId','#MF_SameFundingAgency','#MF_MultipleProjectsAllowed','#MF_PackageProcessMapId'");
 
+var querySourcee4eda5cb4f5613683ed3a5d93c1c4960 =GetQueryExpressionDataSource("e4eda5cb-4f56-1368-3ed3-a5d93c1c4960");
+Dictionary<short,object> resulte4eda5cb4f5613683ed3a5d93c1c4960=iSpace.ExecuteQuery(querySourcee4eda5cb4f5613683ed3a5d93c1c4960,@"EXEC [SP_UpsertFundDistributionMaster] '" + ISpace["MF_DistributionId"].Value + @"','" + ISpace["gv_userid"].Value + @"','" + ISpace["MF_SameFundingAgency"].Value + @"','" + ISpace["MF_MultipleProjectsAllowed"].Value + @"','" + ISpace["MF_PackageProcessMapId"].Value + @"'",false);
 
-var FundDistributionMasterFundConfigurationstableObj = new RepositoryTable("FundDistributionMaster");
-  FundDistributionMasterFundConfigurationstableObj.AppConnectionSettingsId  ="9ADED37B-CD11-426B-AF16-DEAC75685EF5";FundDistributionMasterFundConfigurationstableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var FundConfigurations_FundDistributionMaster_rows = GetElementClientData(ISpace["InstanceId"].Value,"781F63B4-048D-4578-AF08-83C4E8FC0483");
+base.WriteDebugInfo(@"var querySourcee4eda5cb4f5613683ed3a5d93c1c4960 =GetQueryExpressionDataSource(""e4eda5cb-4f56-1368-3ed3-a5d93c1c4960"");Dictionary<short,object> resulte4eda5cb4f5613683ed3a5d93c1c4960=iSpace.ExecuteQuery(querySourcee4eda5cb4f5613683ed3a5d93c1c4960,@""EXEC [SP_UpsertFundDistributionMaster] '"" + ISpace[""MF_DistributionId""].Value + @""','"" + ISpace[""gv_userid""].Value + @""','"" + ISpace[""MF_SameFundingAgency""].Value + @""','"" + ISpace[""MF_MultipleProjectsAllowed""].Value + @""','"" + ISpace[""MF_PackageProcessMapId""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-if(FundConfigurations_FundDistributionMaster_rows!=null && FundConfigurations_FundDistributionMaster_rows.Count>0){
-var FundConfigurations_FundDistributionMaster_rowsObj = new List<RepositoryRow>();
-foreach(var rows in FundConfigurations_FundDistributionMaster_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var FundDistributionMaster_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
-
-if(rows.ContainsKey("C3C56D3A-493C-4FC0-9174-CE53BCB50995"))     elementData = rows["C3C56D3A-493C-4FC0-9174-CE53BCB50995"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DistributionId",true,false,9);
-if(repositoryColumnObj!=null)FundDistributionMaster_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_DistributionId not found");}
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedBy",false,false,5);
-if(repositoryColumnObj!=null)FundDistributionMaster_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-if(rows.ContainsKey("4CDCB08E-DCEB-4063-90C2-374A5013BB1B"))     elementData = rows["4CDCB08E-DCEB-4063-90C2-374A5013BB1B"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"SameFundingAgency",false,false,0);
-if(repositoryColumnObj!=null)FundDistributionMaster_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_SameFundingAgency not found");}
-
-if(rows.ContainsKey("40E3794E-390D-49A6-8D12-A1B07CE6B41B"))     elementData = rows["40E3794E-390D-49A6-8D12-A1B07CE6B41B"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"MultipleProjectsAllowed",false,false,0);
-if(repositoryColumnObj!=null)FundDistributionMaster_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_MultipleProjectsAllowed not found");}
-
-if(rows.ContainsKey("1B6915C8-6C3A-4669-8F57-FF2797EA96AE"))     elementData = rows["1B6915C8-6C3A-4669-8F57-FF2797EA96AE"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"PackageProcessMapId",false,false,9);
-if(repositoryColumnObj!=null)FundDistributionMaster_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_PackageProcessMapId not found");}
-
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedOn",false,false,8);
-if(repositoryColumnObj!=null)FundDistributionMaster_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
-repositoryRowObj.Columns=FundDistributionMaster_colObj;
-FundConfigurations_FundDistributionMaster_rowsObj.Add(repositoryRowObj);
-}}
-
-FundDistributionMasterFundConfigurationstableObj.Rows=FundConfigurations_FundDistributionMaster_rowsObj;
-var FundConfigurations_repoObj_status_FundDistributionMaster = FundConfigurations_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref FundDistributionMasterFundConfigurationstableObj);if(!FundConfigurations_repoObj_status_FundDistributionMaster) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Fund Configurations");
+if((resulte4eda5cb4f5613683ed3a5d93c1c4960!=null) && (resulte4eda5cb4f5613683ed3a5d93c1c4960.Count!=0))
+{
+if(resulte4eda5cb4f5613683ed3a5d93c1c4960.ContainsKey(0))
+ISpace["MF_InsertCount"].Value = resulte4eda5cb4f5613683ed3a5d93c1c4960[0];
+}
+else{
+ISpace["MF_InsertCount"].Value = null;
+}
 if(ISpace["MF_FundTypeId"].Value==1)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_FundTypeId""].Value==1)");
-base.WriteDebugInfo(@"Entering DomainDataMap for ProjectDistrubitionDetails");
-var ProjectDistrubitionDetails_repoObj = new RepositoryMapper(DbTypes.SQLServer);
+base.WriteDebugInfo(@"#MF_DistrubitionDetails[Rows]");
+iSpace.GetLoopExpressionData("MF_DistrubitionDetails",ref ISpace);
 
+foreach(var gridChild in ISpace["MF_DistrubitionDetails"].Child)
+{foreach(var gridrow in gridChild.Child)
+ {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
 
-var ProjectDistrubitionDetailsProjectDistrubitionDetailstableObj = new RepositoryTable("ProjectDistrubitionDetails");
-  ProjectDistrubitionDetailsProjectDistrubitionDetailstableObj.AppConnectionSettingsId  ="9ADED37B-CD11-426B-AF16-DEAC75685EF5";ProjectDistrubitionDetailsProjectDistrubitionDetailstableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var ProjectDistrubitionDetails_ProjectDistrubitionDetails_rows = GetElementClientData(ISpace["InstanceId"].Value,"DD0086FF-AEF5-45C9-A3B5-6CFE3A7C352F");
+base.WriteDebugInfo(@"EXEC [SP_UpsertProjectDistributionDetails] '#MG_ProjectOrOtherId','#MG_Description','#MF_FundTypeId',#MG_MaxAmount,'#MG_BudgetHeadId',#MG_MaxPercentageUsage,'#MF_DistributionId'");
 
-if(ProjectDistrubitionDetails_ProjectDistrubitionDetails_rows!=null && ProjectDistrubitionDetails_ProjectDistrubitionDetails_rows.Count>0){
-var ProjectDistrubitionDetails_ProjectDistrubitionDetails_rowsObj = new List<RepositoryRow>();
-foreach(var rows in ProjectDistrubitionDetails_ProjectDistrubitionDetails_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var ProjectDistrubitionDetails_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
+var querySourcef96864a8507fee119e57d16f7f129885 =GetQueryExpressionDataSource("f96864a8-507f-ee11-9e57-d16f7f129885");
+Dictionary<short,object> resultf96864a8507fee119e57d16f7f129885=iSpace.ExecuteQuery(querySourcef96864a8507fee119e57d16f7f129885,@"EXEC [SP_UpsertProjectDistributionDetails] '" + ISpace["MG_ProjectOrOtherId"].Value + @"','" + ISpace["MG_Description"].Value + @"','" + ISpace["MF_FundTypeId"].Value + @"'," + ISpace["MG_MaxAmount"].Value + @",'" + ISpace["MG_BudgetHeadId"].Value + @"'," + ISpace["MG_MaxPercentageUsage"].Value + @",'" + ISpace["MF_DistributionId"].Value + @"'",false);
 
-if(rows.ContainsKey("6204D68F-FF10-4F21-B878-2607159C5180"))     elementData = rows["6204D68F-FF10-4F21-B878-2607159C5180"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Description",false,false,9);
-if(repositoryColumnObj!=null)ProjectDistrubitionDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_Description not found");}
+base.WriteDebugInfo(@"var querySourcef96864a8507fee119e57d16f7f129885 =GetQueryExpressionDataSource(""f96864a8-507f-ee11-9e57-d16f7f129885"");Dictionary<short,object> resultf96864a8507fee119e57d16f7f129885=iSpace.ExecuteQuery(querySourcef96864a8507fee119e57d16f7f129885,@""EXEC [SP_UpsertProjectDistributionDetails] '"" + ISpace[""MG_ProjectOrOtherId""].Value + @""','"" + ISpace[""MG_Description""].Value + @""','"" + ISpace[""MF_FundTypeId""].Value + @""',"" + ISpace[""MG_MaxAmount""].Value + @"",'"" + ISpace[""MG_BudgetHeadId""].Value + @""',"" + ISpace[""MG_MaxPercentageUsage""].Value + @"",'"" + ISpace[""MF_DistributionId""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-if(rows.ContainsKey("5852B2EE-9B02-44E2-9FB4-9DACE339D8BD"))     elementData = rows["5852B2EE-9B02-44E2-9FB4-9DACE339D8BD"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"FundTypeId",false,false,5);
-if(repositoryColumnObj!=null)ProjectDistrubitionDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_FundTypeId not found");}
+if((resultf96864a8507fee119e57d16f7f129885!=null) && (resultf96864a8507fee119e57d16f7f129885.Count!=0))
+{
+if(resultf96864a8507fee119e57d16f7f129885.ContainsKey(0))
+ISpace["MF_InsertCount"].Value = resultf96864a8507fee119e57d16f7f129885[0];
+}
+else{
+ISpace["MF_InsertCount"].Value = null;
+}
+}
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MF_DistrubitionDetails","DD0086FF-AEF5-45C9-A3B5-6CFE3A7C352F",_objectFactory.GetGridRPP("MF_DistrubitionDetails"),_elementBase.GetGridLoopQuery("DD0086FF-AEF5-45C9-A3B5-6CFE3A7C352F","MF_DistrubitionDetails",ISpace), ref ISpace);
+base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""MF_DistrubitionDetails"",ref ISpace);
 
-if(rows.ContainsKey("2C4EF5CA-D390-4960-9476-E8F6580DEEC9"))     elementData = rows["2C4EF5CA-D390-4960-9476-E8F6580DEEC9"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ProjectDistributionId",true,true,5);
-if(repositoryColumnObj!=null)ProjectDistrubitionDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_ProjectOrOtherId not found");}
-
-if(rows.ContainsKey("F24AD8C1-E439-49A2-86FC-9A0E9CFC516C"))     elementData = rows["F24AD8C1-E439-49A2-86FC-9A0E9CFC516C"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"MaxAmount",false,false,3);
-if(repositoryColumnObj!=null)ProjectDistrubitionDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_MaxAmount not found");}
-
-if(rows.ContainsKey("32E470CA-58C4-4FFE-9D02-0494D54BD69E"))     elementData = rows["32E470CA-58C4-4FFE-9D02-0494D54BD69E"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BudgetHeadId",false,false,9);
-if(repositoryColumnObj!=null)ProjectDistrubitionDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_BudgetHeadId not found");}
-
-if(rows.ContainsKey("BB0126FB-58D6-4D67-81A0-CBCFD5B634C3"))     elementData = rows["BB0126FB-58D6-4D67-81A0-CBCFD5B634C3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"MaxPercentageUsage",false,false,3);
-if(repositoryColumnObj!=null)ProjectDistrubitionDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_MaxPercentageUsage not found");}
-
-if(rows.ContainsKey("C3C56D3A-493C-4FC0-9174-CE53BCB50995"))     elementData = rows["C3C56D3A-493C-4FC0-9174-CE53BCB50995"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DistributionId",false,false,9);
-if(repositoryColumnObj!=null)ProjectDistrubitionDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_DistributionId not found");}
-repositoryRowObj.Columns=ProjectDistrubitionDetails_colObj;
-ProjectDistrubitionDetails_ProjectDistrubitionDetails_rowsObj.Add(repositoryRowObj);
-}}
-
-ProjectDistrubitionDetailsProjectDistrubitionDetailstableObj.Rows=ProjectDistrubitionDetails_ProjectDistrubitionDetails_rowsObj;
-var ProjectDistrubitionDetails_repoObj_status_ProjectDistrubitionDetails = ProjectDistrubitionDetails_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref ProjectDistrubitionDetailsProjectDistrubitionDetailstableObj);if(!ProjectDistrubitionDetails_repoObj_status_ProjectDistrubitionDetails) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for ProjectDistrubitionDetails");
+foreach(var gridChild in ISpace[""MF_DistrubitionDetails""].Child)
+{foreach(var gridrow in gridChild.Child)
+ {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
+");
 }
 else
 {
 base.WriteDebugInfo(@"else");
-base.WriteDebugInfo(@"Entering DomainDataMap for OtherDistributionDetails");
-var OtherDistributionDetails_repoObj = new RepositoryMapper(DbTypes.SQLServer);
+base.WriteDebugInfo(@"EXEC [SP_UpsertOtherDistributionDetails] '#MF_OtherDistributionId',#MF_MaxAmount,'#MF_Description',#MF_MaxPercentageUsage,'#MF_FundTypeId','#MF_DistributionId'");
 
+var querySourcea8bb0e1087dc0e818594b70af24399ed =GetQueryExpressionDataSource("a8bb0e10-87dc-0e81-8594-b70af24399ed");
+Dictionary<short,object> resulta8bb0e1087dc0e818594b70af24399ed=iSpace.ExecuteQuery(querySourcea8bb0e1087dc0e818594b70af24399ed,@"EXEC [SP_UpsertOtherDistributionDetails] '" + ISpace["MF_OtherDistributionId"].Value + @"'," + ISpace["MF_MaxAmount"].Value + @",'" + ISpace["MF_Description"].Value + @"'," + ISpace["MF_MaxPercentageUsage"].Value + @",'" + ISpace["MF_FundTypeId"].Value + @"','" + ISpace["MF_DistributionId"].Value + @"'",false);
 
-var OtherDistributionDetailsOtherDistributionDetailstableObj = new RepositoryTable("OtherDistributionDetails");
-  OtherDistributionDetailsOtherDistributionDetailstableObj.AppConnectionSettingsId  ="9ADED37B-CD11-426B-AF16-DEAC75685EF5";OtherDistributionDetailsOtherDistributionDetailstableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var OtherDistributionDetails_OtherDistributionDetails_rows = GetElementClientData(ISpace["InstanceId"].Value,"781F63B4-048D-4578-AF08-83C4E8FC0483");
+base.WriteDebugInfo(@"var querySourcea8bb0e1087dc0e818594b70af24399ed =GetQueryExpressionDataSource(""a8bb0e10-87dc-0e81-8594-b70af24399ed"");Dictionary<short,object> resulta8bb0e1087dc0e818594b70af24399ed=iSpace.ExecuteQuery(querySourcea8bb0e1087dc0e818594b70af24399ed,@""EXEC [SP_UpsertOtherDistributionDetails] '"" + ISpace[""MF_OtherDistributionId""].Value + @""',"" + ISpace[""MF_MaxAmount""].Value + @"",'"" + ISpace[""MF_Description""].Value + @""',"" + ISpace[""MF_MaxPercentageUsage""].Value + @"",'"" + ISpace[""MF_FundTypeId""].Value + @""','"" + ISpace[""MF_DistributionId""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-if(OtherDistributionDetails_OtherDistributionDetails_rows!=null && OtherDistributionDetails_OtherDistributionDetails_rows.Count>0){
-var OtherDistributionDetails_OtherDistributionDetails_rowsObj = new List<RepositoryRow>();
-foreach(var rows in OtherDistributionDetails_OtherDistributionDetails_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var OtherDistributionDetails_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
-
-if(rows.ContainsKey("ABAF769F-7D04-4C52-AEA4-E8791812D9D2"))     elementData = rows["ABAF769F-7D04-4C52-AEA4-E8791812D9D2"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"MaxAmount",false,false,3);
-if(repositoryColumnObj!=null)OtherDistributionDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_MaxAmount not found");}
-
-if(rows.ContainsKey("5519D63F-4F89-421F-9993-3556DE012FE3"))     elementData = rows["5519D63F-4F89-421F-9993-3556DE012FE3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Description",false,false,9);
-if(repositoryColumnObj!=null)OtherDistributionDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_Description not found");}
-
-if(rows.ContainsKey("C2BF1BE7-9A89-45AF-ACA5-62946C323850"))     elementData = rows["C2BF1BE7-9A89-45AF-ACA5-62946C323850"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"MaxPercentageOfUsage",false,false,3);
-if(repositoryColumnObj!=null)OtherDistributionDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_MaxPercentageUsage not found");}
-
-if(rows.ContainsKey("5852B2EE-9B02-44E2-9FB4-9DACE339D8BD"))     elementData = rows["5852B2EE-9B02-44E2-9FB4-9DACE339D8BD"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"FundTypeId",false,false,5);
-if(repositoryColumnObj!=null)OtherDistributionDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_FundTypeId not found");}
-
-if(rows.ContainsKey("0BCB3EC1-E3A9-4D0F-8E5B-9465E9494B39"))     elementData = rows["0BCB3EC1-E3A9-4D0F-8E5B-9465E9494B39"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"OtherDistributionId",true,true,5);
-if(repositoryColumnObj!=null)OtherDistributionDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_OtherDistributionId not found");}
-
-if(rows.ContainsKey("C3C56D3A-493C-4FC0-9174-CE53BCB50995"))     elementData = rows["C3C56D3A-493C-4FC0-9174-CE53BCB50995"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DistributionId",false,false,9);
-if(repositoryColumnObj!=null)OtherDistributionDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_DistributionId not found");}
-repositoryRowObj.Columns=OtherDistributionDetails_colObj;
-OtherDistributionDetails_OtherDistributionDetails_rowsObj.Add(repositoryRowObj);
-}}
-
-OtherDistributionDetailsOtherDistributionDetailstableObj.Rows=OtherDistributionDetails_OtherDistributionDetails_rowsObj;
-var OtherDistributionDetails_repoObj_status_OtherDistributionDetails = OtherDistributionDetails_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref OtherDistributionDetailsOtherDistributionDetailstableObj);if(!OtherDistributionDetails_repoObj_status_OtherDistributionDetails) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for OtherDistributionDetails");
+if((resulta8bb0e1087dc0e818594b70af24399ed!=null) && (resulta8bb0e1087dc0e818594b70af24399ed.Count!=0))
+{
+if(resulta8bb0e1087dc0e818594b70af24399ed.ContainsKey(0))
+ISpace["MF_InsertCount"].Value = resulta8bb0e1087dc0e818594b70af24399ed[0];
+}
+else{
+ISpace["MF_InsertCount"].Value = null;
+}
 }
 ISpace["Message"].Value=@"Added Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Added Successfully"";");
