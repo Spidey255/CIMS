@@ -1,0 +1,42 @@
+name: React App Deployment
+
+on:
+  workflow_call:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        working-directory: Client
+        run: npm install
+
+      - name: Build React App
+        working-directory: Client
+        run: npm run build
+        env:
+          CI: false
+          VITE_BASE_URL: ${{ secrets.VITE_BASE_URL }}
+          VITE_AUTH_URL: ${{ secrets.VITE_AUTH_URL }}
+          VITE_DOCUMENT_SERVICE_URL: ${{ secrets.VITE_DOCUMENT_SERVICE_URL }}
+          VITE_BASE_EXECUTION_URL:  ${{ secrets.VITE_BASE_EXECUTION_URL }}
+          VITE_INBOX_SETTING_ID: ${{ secrets.VITE_INBOX_SETTING_ID }}
+          VITE_URL: ${{ secrets.VITE_URL }}
+
+      - name: Deploy React Build
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SERVER_SSH_KEY }}
+          source: "Client/dist/*"
+          target: /home/cpsadmin/Presentations/CIMSIITDH
+          strip_components: 2

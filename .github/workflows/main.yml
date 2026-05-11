@@ -1,0 +1,15 @@
+name: Full Stack Deployment Trigger
+
+on:
+  push:
+    branches:
+      - CIMS_Dev
+
+jobs:
+  deploy-dotnet:
+    uses: ./.github/workflows/dotnet.yml
+    secrets: inherit
+
+  deploy-react:
+    uses: ./.github/workflows/react.yml
+    secrets: inherit

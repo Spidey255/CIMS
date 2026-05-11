@@ -1,0 +1,77 @@
+// Innovace Intech Solution Pvt Ltd
+
+import { useEffect, useMemo } from "react";
+import { useSearchParams } from "react-router-dom";
+import { usePageStore } from "@/store/usePageStore";
+import { DataElementsData } from "./QRCodeGeneration_Dossier";
+import Store from "@/components/Store";
+
+
+
+// Dynamically imported components
+import Column from "@/components/UI_Controls/Column.tsx";
+import Div from "@/components/UI_Controls/Div.tsx";
+import Row from "@/components/UI_Controls/Row.tsx";
+import Panel from "@/components/UI_Controls/Panel.tsx";
+import PanelBody from "@/components/UI_Controls/PanelBody.tsx";
+import Barcode from "@/components/Data_Controls/Barcode/Deafult";
+import TextBox from "@/components/Data_Controls/TextBox";
+
+
+const QRCodeGeneration_Dossier = ({
+  ProcessName = "QRCodeGeneration",
+  PackageProcessMapId = "F803A994-9682-477C-82AA-2B964D0D3002",
+  FormVersionId = "1A6C3AEF-FBDE-41F9-84E7-210F2A4D22EA",
+  ProcessActivityMapId = "C9E6AE39-B1AC-449E-B18B-15BF5D4209E1"
+}) => {
+  const setActivePage = usePageStore((state) => state.setActivePage);
+  const resetActivePage = usePageStore((state) => state.resetActivePage);
+
+   const [searchParams] = useSearchParams();
+
+  // ✅ URL → object
+  const storeQueryParams = useMemo<Record<string, string>>(() => {
+    const obj: Record<string, string> = {};
+
+    for (const [key, value] of searchParams.entries()) {
+      obj[key] = value;
+    }
+
+    return obj;
+  }, [searchParams]);
+
+  useEffect(() => {
+    setActivePage({ ProcessName, PackageProcessMapId, FormVersionId, ProcessActivityMapId });
+    return () => resetActivePage();
+  }, []);
+
+  return (
+    <main>
+      
+      <Column key="dfd0c546-af4f-1aee-d912-7a004817a417_1_0" element={{"VersionName":"Medium","Id":1,"WidgetId":"DFA43166-31F4-4258-AD3D-871FCF6038D4","uielementid":"dfd0c546-af4f-1aee-d912-7a004817a417","WidgetName":"QRCodeGeneration_Root_Dossier.Json","ShowCaption":false,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":1,"IsBadge":false,"ElementId":"","UIElementid":"dfd0c546-af4f-1aee-d912-7a004817a417","Sequence":1,"ElementName":"UI_MainContainer","ControlType":"Column","uielementtypeid":5,"Wrap":12,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":18,"Searchable":false,"Bindable":false,"Action":"FormOnLoad","IsSaveWidget":0,"BindingDetail":"[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"M_instanceid\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_QR_Shipment_Info\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_QRCode\",\"Value\":\"\",\"EDT\":9}]}]","DCaption":"","__idx":0,"_id":"dfd0c546-af4f-1aee-d912-7a004817a417_1_0"}}  >
+        <Div key="03d2eb17-8df1-23cc-fdb6-310ef1d103b4_2_1" element={{"VersionName":"Medium","Id":2,"uielementid":"03d2eb17-8df1-23cc-fdb6-310ef1d103b4","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":2,"Css":"content grid_view box_panel_w","IsBadge":false,"MaxValue":100,"CurrValue":10,"ElementId":"","UIElementid":"03d2eb17-8df1-23cc-fdb6-310ef1d103b4","Sequence":1,"ElementName":"UI_Div","ParentElementId":"dfd0c546-af4f-1aee-d912-7a004817a417","ControlType":"Div","uielementtypeid":44,"Wrap":12,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":51,"Searchable":false,"Bindable":false,"IsSaveWidget":0,"BindingDetail":"","__idx":1,"_id":"03d2eb17-8df1-23cc-fdb6-310ef1d103b4_2_1"}}  >
+          <Row key="fa72789e-b2a7-2e66-66f8-6a1d79031375_3_2" element={{"VersionName":"Medium","Id":3,"uielementid":"fa72789e-b2a7-2e66-66f8-6a1d79031375","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":3,"Css":"row grid_view","IsBadge":false,"MaxValue":100,"CurrValue":10,"ElementId":"","UIElementid":"fa72789e-b2a7-2e66-66f8-6a1d79031375","Sequence":1,"ElementName":"UI_Row","ParentElementId":"03d2eb17-8df1-23cc-fdb6-310ef1d103b4","ControlType":"Row","uielementtypeid":11,"Wrap":12,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":23,"Searchable":false,"Bindable":false,"IsSaveWidget":0,"BindingDetail":"","__idx":2,"_id":"fa72789e-b2a7-2e66-66f8-6a1d79031375_3_2"}}  >
+            <Panel key="775ba8e4-b4ff-fe48-0b31-2510cbe8a97e_4_3" element={{"VersionName":"Medium","Id":4,"uielementid":"775ba8e4-b4ff-fe48-0b31-2510cbe8a97e","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":4,"Css":"card grid_view","IsBadge":false,"MaxValue":100,"CurrValue":10,"ElementId":"","UIElementid":"775ba8e4-b4ff-fe48-0b31-2510cbe8a97e","Sequence":1,"ElementName":"UI_Panel","ParentElementId":"fa72789e-b2a7-2e66-66f8-6a1d79031375","ControlType":"Panel","uielementtypeid":1,"Wrap":12,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":15,"Searchable":false,"Bindable":false,"IsSaveWidget":0,"BindingDetail":"","__idx":3,"_id":"775ba8e4-b4ff-fe48-0b31-2510cbe8a97e_4_3"}}  >
+              <PanelBody key="a167df96-bb68-119d-310e-cf1b4ccbae1e_5_4" element={{"VersionName":"Medium","Id":5,"uielementid":"a167df96-bb68-119d-310e-cf1b4ccbae1e","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":5,"Css":"card-body","IsBadge":false,"MaxValue":100,"CurrValue":10,"ElementId":"","UIElementid":"a167df96-bb68-119d-310e-cf1b4ccbae1e","Sequence":1,"ElementName":"UI_Panel Body","ParentElementId":"775ba8e4-b4ff-fe48-0b31-2510cbe8a97e","ControlType":"Panel Body","uielementtypeid":28,"Wrap":12,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":35,"Searchable":false,"Bindable":false,"IsSaveWidget":0,"BindingDetail":"","__idx":4,"_id":"a167df96-bb68-119d-310e-cf1b4ccbae1e_5_4"}}  >
+                <Row key="2711dae7-2390-c3a2-db4c-7e9b73812091_6_5" element={{"VersionName":"Medium","Id":6,"uielementid":"2711dae7-2390-c3a2-db4c-7e9b73812091","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":6,"Css":"row grid_view","IsBadge":false,"MaxValue":100,"CurrValue":10,"ElementId":"","UIElementid":"2711dae7-2390-c3a2-db4c-7e9b73812091","Sequence":1,"ElementName":"UI_Row","ParentElementId":"a167df96-bb68-119d-310e-cf1b4ccbae1e","ControlType":"Row","uielementtypeid":11,"Wrap":12,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":23,"Searchable":false,"Bindable":false,"IsSaveWidget":0,"BindingDetail":"","__idx":5,"_id":"2711dae7-2390-c3a2-db4c-7e9b73812091_6_5"}}  />
+                <Barcode key="a167df96-bb68-119d-310e-cf1b4ccbae1e_7_6" element={{"VersionName":"Medium","Id":7,"uielementid":"a167df96-bb68-119d-310e-cf1b4ccbae1e","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":6,"ElementId":"c1ee5e93-4797-0993-4fa9-b026da239a8f","UIElementid":"a167df96-bb68-119d-310e-cf1b4ccbae1e","Sequence":2,"ElementName":"M_QRCode","ParentElementId":"DFA43166-31F4-4258-AD3D-871FCF6038D4","ControlType":"Barcode","Wrap":12,"IsMultiline":false,"ClearFix":false,"RenderType":24,"OnDemandLoad":false,"ControlId":81,"DisplayName":"M_QRCode","Searchable":false,"Bindable":false,"HeaderTemplate":"","MergeRow":"","IsSaveWidget":0,"BindingDetail":"","EDT":9,"DCaption":"QR Code","DHelpText":"","DToolTip":"","__idx":6,"_id":"a167df96-bb68-119d-310e-cf1b4ccbae1e_7_6"}}  />
+                <TextBox key="a167df96-bb68-119d-310e-cf1b4ccbae1e_8_7" element={{"VersionName":"Medium","Id":8,"uielementid":"a167df96-bb68-119d-310e-cf1b4ccbae1e","ShowCaption":false,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":6,"Css":"text-default","ElementId":"2c0f17a8-430e-a47a-58e7-0b392d90a549","UIElementid":"a167df96-bb68-119d-310e-cf1b4ccbae1e","Sequence":3,"ElementName":"M_QR_Shipment_Info","ParentElementId":"DFA43166-31F4-4258-AD3D-871FCF6038D4","ControlType":"TextBox","Wrap":12,"IsMultiline":true,"ClearFix":false,"RenderType":2,"OnDemandLoad":false,"ControlId":1,"DisplayName":"M_QR_Shipment_Info","Searchable":false,"Bindable":false,"HeaderTemplate":"","MergeRow":"","IsSaveWidget":0,"BindingDetail":"","EDT":9,"DCaption":"M_QR_Shipment_Info","ElementControlProperty":[{"Visible":false,"Span":false}],"__idx":7,"_id":"a167df96-bb68-119d-310e-cf1b4ccbae1e_8_7"}}  />
+              </PanelBody>
+            </Panel>
+          </Row>
+        </Div>
+      </Column>
+      <Store
+        data={DataElementsData}
+        queryParams={storeQueryParams}
+        ProcessName={ProcessName}
+        FormVersionId={FormVersionId}
+        ProcessActivityMapId={ProcessActivityMapId}
+        PackageProcessMapId={PackageProcessMapId}
+      />
+            
+    </main>
+  );
+};
+
+export default QRCodeGeneration_Dossier;
