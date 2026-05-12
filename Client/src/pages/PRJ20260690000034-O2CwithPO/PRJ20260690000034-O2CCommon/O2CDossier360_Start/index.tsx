@@ -1,0 +1,84 @@
+// Innovace Intech Solution Pvt Ltd
+
+import { useEffect, useMemo } from "react";
+import { useSearchParams } from "react-router-dom";
+import { usePageStore } from "@/store/usePageStore";
+import { DataElementsData } from "./O2CDossier360_Start";
+import Store from "@/components/Store";
+
+
+
+// Dynamically imported components
+import Column from "@/components/UI_Controls/Column.tsx";
+import Div from "@/components/UI_Controls/Div.tsx";
+import Header from "@/components/UI_Controls/Header.tsx";
+import Row from "@/components/UI_Controls/Row.tsx";
+import PlaceHolder from "@/components/Data_Controls/PlaceHolder.tsx";
+import TextBox from "@/components/Data_Controls/TextBox";
+import DateTimePicker from "@/components/Data_Controls/DateTimePicker";
+
+
+const O2CDossier360_Start = ({
+  ProcessName = "O2CDossier360",
+  PackageProcessMapId = "B605A8FA-6A2C-45BA-BA33-F8BD69F8B51B",
+  FormVersionId = "26E4D9D2-1586-49BA-B359-66B3DBBBAF9E",
+  ProcessActivityMapId = "8487E6C3-B9EF-4403-B49D-2DC7D868A331"
+}) => {
+  const setActivePage = usePageStore((state) => state.setActivePage);
+  const resetActivePage = usePageStore((state) => state.resetActivePage);
+
+   const [searchParams] = useSearchParams();
+
+  // ✅ URL → object
+  const storeQueryParams = useMemo<Record<string, string>>(() => {
+    const obj: Record<string, string> = {};
+
+    for (const [key, value] of searchParams.entries()) {
+      obj[key] = value;
+    }
+
+    return obj;
+  }, [searchParams]);
+
+  useEffect(() => {
+    setActivePage({ ProcessName, PackageProcessMapId, FormVersionId, ProcessActivityMapId });
+    return () => resetActivePage();
+  }, []);
+
+  return (
+    <main>
+      
+      <Column key="FECEF2A7-250F-4797-B40B-BAA86657A3A8_1_0" element={{"VersionName":"Medium","Id":1,"WidgetId":"7B5FE2BC-32AE-4CB0-B7E7-4121B55D6FE3","uielementid":"FECEF2A7-250F-4797-B40B-BAA86657A3A8","WidgetName":"O2CDossier360_Root_Start.Json","ShowCaption":false,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":1,"IsBadge":false,"ElementId":"","UIElementid":"FECEF2A7-250F-4797-B40B-BAA86657A3A8","Sequence":1,"ElementName":"UI_MainContainer","ControlType":"Column","uielementtypeid":5,"Wrap":12,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":18,"Searchable":false,"Bindable":false,"Action":"FormOnLoad","IsSaveWidget":0,"BindingDetail":"[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"M_DossierName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_PODate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"M_PoNumber\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_PoSubType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_PoType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_TreePlaceHolder\",\"Value\":\"\",\"EDT\":10}]}]","DCaption":"","__idx":0,"_id":"FECEF2A7-250F-4797-B40B-BAA86657A3A8_1_0"}}  >
+        <Div key="A04D5305-5A93-4E41-88A1-6C2636CDBC24_2_1" element={{"VersionName":"Medium","Id":2,"uielementid":"A04D5305-5A93-4E41-88A1-6C2636CDBC24","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":2,"Css":"page-header page-header-light shadow p-2 position-sticky top-0 px-3","IsBadge":false,"MaxValue":100,"CurrValue":10,"ElementId":"","UIElementid":"A04D5305-5A93-4E41-88A1-6C2636CDBC24","Sequence":1,"ElementName":"UI_Div","ParentElementId":"FECEF2A7-250F-4797-B40B-BAA86657A3A8","ControlType":"Div","uielementtypeid":44,"Wrap":12,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":51,"Searchable":false,"Bindable":false,"IsSaveWidget":0,"BindingDetail":"","__idx":1,"_id":"A04D5305-5A93-4E41-88A1-6C2636CDBC24_2_1"}}  >
+          <Header key="1A74616D-E909-40D2-849A-D85B111376BA_4_3" element={{"VersionName":"Medium","Id":4,"uielementid":"1A74616D-E909-40D2-849A-D85B111376BA","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":3,"Css":"mb-0 heading-caption hlCmpt","IsBadge":false,"MaxValue":100,"CurrValue":10,"HeadingType":"h5","ElementId":"","UIElementid":"1A74616D-E909-40D2-849A-D85B111376BA","Sequence":1,"ElementName":"UI_O2C Dossier 360","ParentElementId":"A04D5305-5A93-4E41-88A1-6C2636CDBC24","ControlType":"Header","uielementtypeid":16,"Wrap":12,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":26,"Searchable":false,"Bindable":false,"IsSaveWidget":0,"BindingDetail":"","UCaption":"O2C Dossier 360","__idx":3,"_id":"1A74616D-E909-40D2-849A-D85B111376BA_4_3"}}  />
+          <Row key="ED21D151-C319-4204-819E-699A8E55DE78_5_4" element={{"VersionName":"Medium","Id":5,"uielementid":"ED21D151-C319-4204-819E-699A8E55DE78","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":3,"Css":"d-flex grid_view justify-content-between fg0","IsBadge":false,"MaxValue":100,"CurrValue":10,"ElementId":"","UIElementid":"ED21D151-C319-4204-819E-699A8E55DE78","Sequence":2,"ElementName":"UI_Row","ParentElementId":"A04D5305-5A93-4E41-88A1-6C2636CDBC24","ControlType":"Row","uielementtypeid":11,"Wrap":12,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":23,"Searchable":false,"Bindable":false,"IsSaveWidget":0,"BindingDetail":"","__idx":4,"_id":"ED21D151-C319-4204-819E-699A8E55DE78_5_4"}}  >
+            <Column key="195A9E8E-54AF-4128-8F47-B34A5D998CF4_7_6" element={{"VersionName":"Medium","Id":7,"uielementid":"195A9E8E-54AF-4128-8F47-B34A5D998CF4","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":4,"Css":"grid_view d-flex gap-2 align-items-center","IsBadge":false,"MaxValue":100,"CurrValue":10,"ElementId":"","UIElementid":"195A9E8E-54AF-4128-8F47-B34A5D998CF4","Sequence":1,"ElementName":"UI_Column","ParentElementId":"ED21D151-C319-4204-819E-699A8E55DE78","ControlType":"Column","uielementtypeid":5,"Wrap":0,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":18,"Searchable":false,"Bindable":false,"IsSaveWidget":0,"BindingDetail":"","__idx":6,"_id":"195A9E8E-54AF-4128-8F47-B34A5D998CF4_7_6"}}  >
+              <TextBox key="195A9E8E-54AF-4128-8F47-B34A5D998CF4_10_9" element={{"VersionName":"Medium","Id":10,"uielementid":"195A9E8E-54AF-4128-8F47-B34A5D998CF4","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":5,"Css":"bg_violet_02","ElementId":"3A01361F-A805-43FE-90E5-F803B4B103D6","UIElementid":"195A9E8E-54AF-4128-8F47-B34A5D998CF4","Sequence":1,"ElementName":"M_DossierName","ParentElementId":"7B5FE2BC-32AE-4CB0-B7E7-4121B55D6FE3","ControlType":"TextBox","Wrap":0,"IsMultiline":false,"ClearFix":false,"RenderType":2,"OnDemandLoad":false,"ControlId":1,"HeaderTemplate":"","MergeRow":"","IsSaveWidget":0,"BindingDetail":"","EDT":9,"DCaption":"Dossier Name","DHelpText":"","DToolTip":"","__idx":9,"_id":"195A9E8E-54AF-4128-8F47-B34A5D998CF4_10_9"}}  />
+              <TextBox key="195A9E8E-54AF-4128-8F47-B34A5D998CF4_11_10" element={{"VersionName":"Medium","Id":11,"uielementid":"195A9E8E-54AF-4128-8F47-B34A5D998CF4","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":5,"Css":"bg_magenta","ElementId":"6B8CC12E-E883-4936-B2F5-90ABF9322E39","UIElementid":"195A9E8E-54AF-4128-8F47-B34A5D998CF4","Sequence":2,"ElementName":"M_PoType","ParentElementId":"7B5FE2BC-32AE-4CB0-B7E7-4121B55D6FE3","ControlType":"TextBox","Wrap":0,"IsMultiline":false,"ClearFix":false,"RenderType":2,"OnDemandLoad":false,"ControlId":1,"HeaderTemplate":"","MergeRow":"","IsSaveWidget":0,"BindingDetail":"","EDT":9,"DCaption":"PO Type","DHelpText":"","DToolTip":"","__idx":10,"_id":"195A9E8E-54AF-4128-8F47-B34A5D998CF4_11_10"}}  />
+              <TextBox key="195A9E8E-54AF-4128-8F47-B34A5D998CF4_12_11" element={{"VersionName":"Medium","Id":12,"uielementid":"195A9E8E-54AF-4128-8F47-B34A5D998CF4","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":5,"Css":"bg_grey","ElementId":"2F63B698-B25B-4119-BE85-096E19A07E2D","UIElementid":"195A9E8E-54AF-4128-8F47-B34A5D998CF4","Sequence":3,"ElementName":"M_PoSubType","ParentElementId":"7B5FE2BC-32AE-4CB0-B7E7-4121B55D6FE3","ControlType":"TextBox","Wrap":0,"IsMultiline":false,"ClearFix":false,"RenderType":2,"OnDemandLoad":false,"ControlId":1,"HeaderTemplate":"","MergeRow":"","IsSaveWidget":0,"BindingDetail":"","EDT":9,"DCaption":"PO Sub Type","DHelpText":"","DToolTip":"","__idx":11,"_id":"195A9E8E-54AF-4128-8F47-B34A5D998CF4_12_11"}}  />
+              <TextBox key="195A9E8E-54AF-4128-8F47-B34A5D998CF4_13_12" element={{"VersionName":"Medium","Id":13,"uielementid":"195A9E8E-54AF-4128-8F47-B34A5D998CF4","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":5,"Css":"frm_ltr","ElementId":"D653412D-1119-4AEC-9455-569815726DA3","UIElementid":"195A9E8E-54AF-4128-8F47-B34A5D998CF4","Sequence":4,"ElementName":"M_PoNumber","ParentElementId":"7B5FE2BC-32AE-4CB0-B7E7-4121B55D6FE3","ControlType":"TextBox","Wrap":0,"IsMultiline":false,"ClearFix":false,"RenderType":2,"OnDemandLoad":false,"ControlId":1,"HeaderTemplate":"","MergeRow":"","IsSaveWidget":0,"BindingDetail":"","EDT":9,"DCaption":"PO Number","DHelpText":"","DToolTip":"","__idx":12,"_id":"195A9E8E-54AF-4128-8F47-B34A5D998CF4_13_12"}}  />
+              <DateTimePicker key="195A9E8E-54AF-4128-8F47-B34A5D998CF4_14_13" element={{"VersionName":"Medium","Id":14,"uielementid":"195A9E8E-54AF-4128-8F47-B34A5D998CF4","ShowCaption":false,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":5,"Css":"initiatedon","ElementId":"6FB9936D-798E-415A-8A20-C2E691399BC1","UIElementid":"195A9E8E-54AF-4128-8F47-B34A5D998CF4","Sequence":5,"ElementName":"M_PODate","ParentElementId":"7B5FE2BC-32AE-4CB0-B7E7-4121B55D6FE3","ControlType":"DateTimePicker","Wrap":0,"ClearFix":false,"RenderType":10,"OnDemandLoad":false,"ControlId":7,"HeaderTemplate":"","MergeRow":"","IsSaveWidget":0,"BindingDetail":"","EDT":8,"DCaption":"","DHelpText":"","DToolTip":"","__idx":13,"_id":"195A9E8E-54AF-4128-8F47-B34A5D998CF4_14_13"}}  />
+            </Column>
+            <Column key="E9C96269-D902-4C3D-9E45-4B744B1EE456_8_7" element={{"VersionName":"Medium","Id":8,"uielementid":"E9C96269-D902-4C3D-9E45-4B744B1EE456","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":4,"Css":"grid_view flex-end gap-2","IsBadge":false,"MaxValue":100,"CurrValue":10,"ElementId":"","UIElementid":"E9C96269-D902-4C3D-9E45-4B744B1EE456","Sequence":2,"ElementName":"UI_Column","ParentElementId":"ED21D151-C319-4204-819E-699A8E55DE78","ControlType":"Column","uielementtypeid":5,"Wrap":0,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":18,"Searchable":false,"Bindable":false,"IsSaveWidget":0,"BindingDetail":"","__idx":7,"_id":"E9C96269-D902-4C3D-9E45-4B744B1EE456_8_7"}}  />
+          </Row>
+        </Div>
+        <Div key="0EE1742A-83A6-4B1A-AFED-7EADD4037CFB_3_2" element={{"VersionName":"Medium","Id":3,"uielementid":"0EE1742A-83A6-4B1A-AFED-7EADD4037CFB","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":2,"Css":"content grid_view","IsBadge":false,"MaxValue":100,"CurrValue":10,"ElementId":"","UIElementid":"0EE1742A-83A6-4B1A-AFED-7EADD4037CFB","Sequence":2,"ElementName":"UI_Div","ParentElementId":"FECEF2A7-250F-4797-B40B-BAA86657A3A8","ControlType":"Div","uielementtypeid":44,"Wrap":12,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":51,"Searchable":false,"Bindable":false,"IsSaveWidget":0,"BindingDetail":"","__idx":2,"_id":"0EE1742A-83A6-4B1A-AFED-7EADD4037CFB_3_2"}}  >
+          <Row key="F2E7205A-A7CA-416E-8F94-91C07EB5B32B_6_5" element={{"VersionName":"Medium","Id":6,"uielementid":"F2E7205A-A7CA-416E-8F94-91C07EB5B32B","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":3,"Css":"row grid_view","IsBadge":false,"MaxValue":100,"CurrValue":10,"ElementId":"","UIElementid":"F2E7205A-A7CA-416E-8F94-91C07EB5B32B","Sequence":3,"ElementName":"UI_Row","ParentElementId":"0EE1742A-83A6-4B1A-AFED-7EADD4037CFB","ControlType":"Row","uielementtypeid":11,"Wrap":12,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":23,"Searchable":false,"Bindable":false,"IsSaveWidget":0,"BindingDetail":"","__idx":5,"_id":"F2E7205A-A7CA-416E-8F94-91C07EB5B32B_6_5"}}  >
+            <PlaceHolder key="F2E7205A-A7CA-416E-8F94-91C07EB5B32B_9_8" element={{"VersionName":"Medium","Id":9,"uielementid":"F2E7205A-A7CA-416E-8F94-91C07EB5B32B","ShowCaption":false,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":4,"Css":"form-group","height":800,"ElementId":"0408F250-A63F-403E-BA0C-3DA122294BCB","UIElementid":"F2E7205A-A7CA-416E-8F94-91C07EB5B32B","Sequence":3,"ElementName":"M_TreePlaceHolder","ParentElementId":"7B5FE2BC-32AE-4CB0-B7E7-4121B55D6FE3","ControlType":"PlaceHolder","Wrap":12,"ClearFix":false,"OnDemandLoad":false,"ControlId":14,"HeaderTemplate":"","MergeRow":"","IsSaveWidget":0,"BindingDetail":"","EDT":10,"DCaption":"","DHelpText":"","DToolTip":"","__idx":8,"_id":"F2E7205A-A7CA-416E-8F94-91C07EB5B32B_9_8"}}  />
+          </Row>
+        </Div>
+      </Column>
+      <Store
+        data={DataElementsData}
+        queryParams={storeQueryParams}
+        ProcessName={ProcessName}
+        FormVersionId={FormVersionId}
+        ProcessActivityMapId={ProcessActivityMapId}
+        PackageProcessMapId={PackageProcessMapId}
+      />
+            
+    </main>
+  );
+};
+
+export default O2CDossier360_Start;
