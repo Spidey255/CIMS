@@ -39,7 +39,7 @@ namespace CPS.Proof.DFSExtension
 
         /// <summary>
         /// Represents the constructor that creates an instance
-        /// of FundConfigurations Controller.
+        /// of CommitmentSpentDetails Controller.
         /// </summary>
         /// <param name="configuration">
         /// A <see cref="IConfiguration"/> that holds  
@@ -90,18 +90,18 @@ namespace CPS.Proof.DFSExtension
                 switch(context.PackageProcessMapId)
                 {
             
-                                      case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":   var  objectFactoryCommitmentSpentDetails=new CommitmentSpentDetailsObjectFactory();
-                                             virtualpageinstance = objectFactoryCommitmentSpentDetails.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-
-                                            virtualpageinstance._objectFactory = objectFactoryCommitmentSpentDetails;
-                                            break;
-
-                                     case "84777088-B51C-45AA-8BBA-D24FBDEF26E9":   var  objectFactoryFundConfigurations=new FundConfigurationsObjectFactory();
+                                      case "84777088-B51C-45AA-8BBA-D24FBDEF26E9":   var  objectFactoryFundConfigurations=new FundConfigurationsObjectFactory();
                                              virtualpageinstance = objectFactoryFundConfigurations.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
 
                                             virtualpageinstance._objectFactory = objectFactoryFundConfigurations;
+                                            break;
+
+                                     case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":   var  objectFactoryCommitmentSpentDetails=new CommitmentSpentDetailsObjectFactory();
+                                             virtualpageinstance = objectFactoryCommitmentSpentDetails.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+
+                                            virtualpageinstance._objectFactory = objectFactoryCommitmentSpentDetails;
                                             break;
 
                  
@@ -286,16 +286,16 @@ namespace CPS.Proof.DFSExtension
                 switch(context.PackageProcessMapId)
                 {
             
-                                      case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":   var  objectFactoryCommitmentSpentDetails=new CommitmentSpentDetailsObjectFactory();
-                                             virtualpageinstance = objectFactoryCommitmentSpentDetails.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-                                            virtualpageinstance._objectFactory = objectFactoryCommitmentSpentDetails;
-                                            break;
-
-                                     case "84777088-B51C-45AA-8BBA-D24FBDEF26E9":   var  objectFactoryFundConfigurations=new FundConfigurationsObjectFactory();
+                                      case "84777088-B51C-45AA-8BBA-D24FBDEF26E9":   var  objectFactoryFundConfigurations=new FundConfigurationsObjectFactory();
                                              virtualpageinstance = objectFactoryFundConfigurations.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
                                             virtualpageinstance._objectFactory = objectFactoryFundConfigurations;
+                                            break;
+
+                                     case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":   var  objectFactoryCommitmentSpentDetails=new CommitmentSpentDetailsObjectFactory();
+                                             virtualpageinstance = objectFactoryCommitmentSpentDetails.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+                                            virtualpageinstance._objectFactory = objectFactoryCommitmentSpentDetails;
                                             break;
 
                  
@@ -467,8 +467,7 @@ namespace CPS.Proof.DFSExtension
 
             ICommon common = null;
 
-             Tuple<string,string> combosource=null;
-
+           
             Tuple<string,string> combosource=null;
 
             try
@@ -486,21 +485,21 @@ namespace CPS.Proof.DFSExtension
                 {
             
                                      
-                    case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":   
-                                             foreach (var item in context.Params)
-                                             {
-                                            var  objectFactoryCommitmentSpentDetails=new CommitmentSpentDetailsObjectFactory();
-                                             combosource = objectFactoryCommitmentSpentDetails.GetComboDataSource
-                                                        (item.ElementName);  
-                                             }
-                                            break;
-                   
-                                    
                     case "84777088-B51C-45AA-8BBA-D24FBDEF26E9":   
                                              foreach (var item in context.Params)
                                              {
                                             var  objectFactoryFundConfigurations=new FundConfigurationsObjectFactory();
                                              combosource = objectFactoryFundConfigurations.GetComboDataSource
+                                                        (item.ElementName);  
+                                             }
+                                            break;
+                   
+                                    
+                    case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":   
+                                             foreach (var item in context.Params)
+                                             {
+                                            var  objectFactoryCommitmentSpentDetails=new CommitmentSpentDetailsObjectFactory();
+                                             combosource = objectFactoryCommitmentSpentDetails.GetComboDataSource
                                                         (item.ElementName);  
                                              }
                                             break;
@@ -644,22 +643,7 @@ namespace CPS.Proof.DFSExtension
                 switch(context.PackageProcessMapId)
                 {
             
-                                      case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":    var elementFactoryCommitmentSpentDetails=new CommitmentSpentDetailsDataElementFactory();       
-                                           
-                                             if(context.Action=="GridSave")
-                                            {
-                                                insertQuery = elementFactoryCommitmentSpentDetails.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId,token.UMID, formjsonData);
-                                            }
-                                            else
-                                            {
-                                                insertQuery=elementFactoryCommitmentSpentDetails.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId, token.UMID, formjsonData);
-                                            }
-
-                                            break;
-
-                                     case "84777088-B51C-45AA-8BBA-D24FBDEF26E9":    var elementFactoryFundConfigurations=new FundConfigurationsDataElementFactory();       
+                                      case "84777088-B51C-45AA-8BBA-D24FBDEF26E9":    var elementFactoryFundConfigurations=new FundConfigurationsDataElementFactory();       
                                            
                                              if(context.Action=="GridSave")
                                             {
@@ -669,6 +653,21 @@ namespace CPS.Proof.DFSExtension
                                             else
                                             {
                                                 insertQuery=elementFactoryFundConfigurations.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId, token.UMID, formjsonData);
+                                            }
+
+                                            break;
+
+                                     case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":    var elementFactoryCommitmentSpentDetails=new CommitmentSpentDetailsDataElementFactory();       
+                                           
+                                             if(context.Action=="GridSave")
+                                            {
+                                                insertQuery = elementFactoryCommitmentSpentDetails.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId,token.UMID, formjsonData);
+                                            }
+                                            else
+                                            {
+                                                insertQuery=elementFactoryCommitmentSpentDetails.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
                                                     context.WidgetId, token.UMID, formjsonData);
                                             }
 
