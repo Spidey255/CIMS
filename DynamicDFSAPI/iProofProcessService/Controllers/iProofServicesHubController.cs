@@ -10,6 +10,7 @@ namespace CPS.Proof.DFSExtension
     using Microsoft.Extensions.Configuration;
     using Newtonsoft.Json;   
     using SRA.Proof.Middleware;
+    using System.Text.RegularExpressions;
        
 
      /// <summary>
@@ -466,6 +467,8 @@ namespace CPS.Proof.DFSExtension
 
             ICommon common = null;
 
+             Tuple<string,string> combosource=null;
+
             Tuple<string,string> combosource=null;
 
             try
@@ -505,9 +508,40 @@ namespace CPS.Proof.DFSExtension
                  
                 }               
                 
+                 string input = combosource.Item2.ToString();
+
+                string pattern = @"@(\w+\w*)(\[(\w+[.]*\w*)\])*";
+
+                MatchCollection matches = Regex.Matches(input, pattern);
+
+                string updatedQuery = string.Empty;
+
+                updatedQuery = combosource.Item2;
+
+                 foreach (var item1 in context.Params)
+                {
+                    
+                    if (matches.Count > 0)
+                    {
+
+                        foreach (Match match in matches)
+                        {
+                            if(item1.ElementName==match.Value.Replace("@",""))
+                            {
+
+                                updatedQuery = updatedQuery.Replace(match.Value, item1.Value);
+                            }
+                        }
+                    }
+                }
+                Tuple<string, string> updatedComboSource = new Tuple<string, string>(combosource.Item1.ToString(),
+                    updatedQuery
+                    );
+
+
 
                 status = externalQueryController.GetComboDataSource
-                        (token, combosource, out queryresult);
+                        (token, updatedComboSource, out queryresult);
 
                 if (status == Status.Success)
                 {
