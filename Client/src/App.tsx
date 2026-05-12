@@ -18,7 +18,6 @@ import { useUserStore } from "@/store/useUserStore";
 
 
 import FundConfigurations_Start from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/FundConfigurations_Start";
-import CommitmentSpentDetails_Start from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/CommitmentSpentDetails_Start";
 
 const hasAccessToken = (): boolean => {
   if (typeof window === "undefined") {
@@ -80,7 +79,6 @@ const App: React.FC = () => {
         </SidebarProvider>
       }>
         <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/FundConfigurations_Start" element={<FundConfigurations_Start />} />
-        <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/CommitmentSpentDetails_Start" element={<CommitmentSpentDetails_Start />} />
         <Route path="/Inbox" element={<Inbox />} />
         <Route path="*" element={<NotFound />} />
       </Route>

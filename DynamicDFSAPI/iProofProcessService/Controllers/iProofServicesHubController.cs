@@ -38,7 +38,7 @@ namespace CPS.Proof.DFSExtension
 
         /// <summary>
         /// Represents the constructor that creates an instance
-        /// of CommitmentSpentDetails Controller.
+        /// of FundConfigurations Controller.
         /// </summary>
         /// <param name="configuration">
         /// A <see cref="IConfiguration"/> that holds  
@@ -94,13 +94,6 @@ namespace CPS.Proof.DFSExtension
                                                         (context.ProcessActivityMapId);
 
                                             virtualpageinstance._objectFactory = objectFactoryFundConfigurations;
-                                            break;
-
-                                     case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":   var  objectFactoryCommitmentSpentDetails=new CommitmentSpentDetailsObjectFactory();
-                                             virtualpageinstance = objectFactoryCommitmentSpentDetails.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-
-                                            virtualpageinstance._objectFactory = objectFactoryCommitmentSpentDetails;
                                             break;
 
                  
@@ -289,12 +282,6 @@ namespace CPS.Proof.DFSExtension
                                              virtualpageinstance = objectFactoryFundConfigurations.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
                                             virtualpageinstance._objectFactory = objectFactoryFundConfigurations;
-                                            break;
-
-                                     case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":   var  objectFactoryCommitmentSpentDetails=new CommitmentSpentDetailsObjectFactory();
-                                             virtualpageinstance = objectFactoryCommitmentSpentDetails.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-                                            virtualpageinstance._objectFactory = objectFactoryCommitmentSpentDetails;
                                             break;
 
                  
@@ -492,16 +479,6 @@ namespace CPS.Proof.DFSExtension
                                              }
                                             break;
                    
-                                    
-                    case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":   
-                                             foreach (var item in context.Params)
-                                             {
-                                            var  objectFactoryCommitmentSpentDetails=new CommitmentSpentDetailsObjectFactory();
-                                             combosource = objectFactoryCommitmentSpentDetails.GetComboDataSource
-                                                        (item.ElementName);  
-                                             }
-                                            break;
-                   
                  
                 }               
                 
@@ -620,21 +597,6 @@ namespace CPS.Proof.DFSExtension
                                             else
                                             {
                                                 insertQuery=elementFactoryFundConfigurations.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId, token.UMID, formjsonData);
-                                            }
-
-                                            break;
-
-                                     case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":    var elementFactoryCommitmentSpentDetails=new CommitmentSpentDetailsDataElementFactory();       
-                                           
-                                             if(context.Action=="GridSave")
-                                            {
-                                                insertQuery = elementFactoryCommitmentSpentDetails.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId,token.UMID, formjsonData);
-                                            }
-                                            else
-                                            {
-                                                insertQuery=elementFactoryCommitmentSpentDetails.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
                                                     context.WidgetId, token.UMID, formjsonData);
                                             }
 
