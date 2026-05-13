@@ -1603,14 +1603,7 @@ ISpace["M_ActivityName"].Value=ISpace["gv_activityname"].Value;
 base.WriteDebugInfo(@"ISpace[""M_ActivityName""].Value=ISpace[""gv_activityname""].Value;");
 ISpace["UC_PhoneNumber"].Visible="false";ISpace["UC_DOB"].Visible="false";ISpace["UC_DOR"].Visible="false";ISpace["UC_Paylevel"].Visible="false";ISpace["UC_EmailId"].Visible="false";ISpace["UC_Grade"].Visible="false";ISpace["UC_DOJ"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""UC_PhoneNumber""].Visible=""false"";ISpace[""UC_DOB""].Visible=""false"";ISpace[""UC_DOR""].Visible=""false"";ISpace[""UC_Paylevel""].Visible=""false"";ISpace[""UC_EmailId""].Visible=""false"";ISpace[""UC_Grade""].Visible=""false"";ISpace[""UC_DOJ""].Visible=""false"";");
-if(ISpace["FormVersionId"].Value=="B1CB93DB-7B9C-4661-BE11-02ED3BFD5725")
-{
-ISpace["UI_AvailablebudgetModal"].Visible="false";
-}
-base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-BE11-02ED3BFD5725"")
-{
-ISpace[""UI_AvailablebudgetModal""].Visible=""false"";
-}");
+
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
@@ -1889,16 +1882,8 @@ try
 {
 base.WriteDebugInfo(@"AvailableBudgetclose-OnClick");
 
-if(ISpace["FormVersionId"].Value=="B1CB93DB-7B9C-4661-BE11-02ED3BFD5725")
-{
-iSpace.SetUIControlProperty("UI_AvailablebudgetModal","ShowModal","false",ref  ISpace);;
-}
 
 base.WriteDebugInfo(@"
-if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-BE11-02ED3BFD5725"")
-{
-iSpace.SetUIControlProperty(""UI_AvailablebudgetModal"",""ShowModal"",""false"",ref  ISpace);;
-}
 ");
 }
 catch(Exception ex)
@@ -2522,16 +2507,8 @@ if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
 
-if(ISpace["FormVersionId"].Value=="B1CB93DB-7B9C-4661-BE11-02ED3BFD5725")
-{
-iSpace.SetUIControlProperty("UI_AvailablebudgetModal","ShowModal","true",ref  ISpace);;
-}
 
 base.WriteDebugInfo(@"
-if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-BE11-02ED3BFD5725"")
-{
-iSpace.SetUIControlProperty(""UI_AvailablebudgetModal"",""ShowModal"",""true"",ref  ISpace);;
-}
 ");
 }
 }
@@ -3101,14 +3078,7 @@ base.WriteDebugInfo(@"ISpace[""AssignToUser""].Value=null;");
 }
 ISpace["UC_PhoneNumber"].Visible="false";ISpace["UC_DOB"].Visible="false";ISpace["UC_DOR"].Visible="false";ISpace["UC_Paylevel"].Visible="false";ISpace["UC_EmailId"].Visible="false";ISpace["UC_Grade"].Visible="false";ISpace["UC_DOJ"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""UC_PhoneNumber""].Visible=""false"";ISpace[""UC_DOB""].Visible=""false"";ISpace[""UC_DOR""].Visible=""false"";ISpace[""UC_Paylevel""].Visible=""false"";ISpace[""UC_EmailId""].Visible=""false"";ISpace[""UC_Grade""].Visible=""false"";ISpace[""UC_DOJ""].Visible=""false"";");
-if(ISpace["FormVersionId"].Value=="B1CB93DB-7B9C-4661-BE11-02ED3BFD5725")
-{
-ISpace["UI_AvailablebudgetModal"].Visible="false";
-}
-base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-BE11-02ED3BFD5725"")
-{
-ISpace[""UI_AvailablebudgetModal""].Visible=""false"";
-}");
+
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
