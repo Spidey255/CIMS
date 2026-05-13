@@ -504,6 +504,8 @@ namespace CPS.Proof.DFSExtension
                                             var  objectFactoryFundConfigurations=new FundConfigurationsObjectFactory();
                                              combosource = objectFactoryFundConfigurations.GetComboDataSource
                                                         (item.ElementName);  
+                                             if (combosource != null)
+                                break;
                                              }
                                             break;
                    
@@ -514,6 +516,8 @@ namespace CPS.Proof.DFSExtension
                                             var  objectFactoryCommitmentSpentDetails=new CommitmentSpentDetailsObjectFactory();
                                              combosource = objectFactoryCommitmentSpentDetails.GetComboDataSource
                                                         (item.ElementName);  
+                                             if (combosource != null)
+                                break;
                                              }
                                             break;
                    
@@ -524,6 +528,8 @@ namespace CPS.Proof.DFSExtension
                                             var  objectFactoryProjectFundInstallment=new ProjectFundInstallmentObjectFactory();
                                              combosource = objectFactoryProjectFundInstallment.GetComboDataSource
                                                         (item.ElementName);  
+                                             if (combosource != null)
+                                break;
                                              }
                                             break;
                    
