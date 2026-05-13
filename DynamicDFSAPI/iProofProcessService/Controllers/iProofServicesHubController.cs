@@ -39,7 +39,7 @@ namespace CPS.Proof.DFSExtension
 
         /// <summary>
         /// Represents the constructor that creates an instance
-        /// of CommitmentSpentDetails Controller.
+        /// of TempAdvance Controller.
         /// </summary>
         /// <param name="configuration">
         /// A <see cref="IConfiguration"/> that holds  
@@ -102,6 +102,41 @@ namespace CPS.Proof.DFSExtension
                                                         (context.ProcessActivityMapId);
 
                                             virtualpageinstance._objectFactory = objectFactoryCommitmentSpentDetails;
+                                            break;
+
+                                     case "64C42232-67DB-43B8-8B68-4468FE0DD17F":   var  objectFactoryProjectFundInstallment=new ProjectFundInstallmentObjectFactory();
+                                             virtualpageinstance = objectFactoryProjectFundInstallment.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+
+                                            virtualpageinstance._objectFactory = objectFactoryProjectFundInstallment;
+                                            break;
+
+                                     case "B1037B85-D9C1-411B-87DE-0658365B81A8":   var  objectFactoryProjectReimbursement=new ProjectReimbursementObjectFactory();
+                                             virtualpageinstance = objectFactoryProjectReimbursement.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+
+                                            virtualpageinstance._objectFactory = objectFactoryProjectReimbursement;
+                                            break;
+
+                                     case "654C8734-EE30-4F33-B278-659E77BFDD71":   var  objectFactoryTravelRequest=new TravelRequestObjectFactory();
+                                             virtualpageinstance = objectFactoryTravelRequest.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+
+                                            virtualpageinstance._objectFactory = objectFactoryTravelRequest;
+                                            break;
+
+                                     case "AC69E996-4AE4-4D34-829F-4DFC7F63582C":   var  objectFactoryTravelSettlement=new TravelSettlementObjectFactory();
+                                             virtualpageinstance = objectFactoryTravelSettlement.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+
+                                            virtualpageinstance._objectFactory = objectFactoryTravelSettlement;
+                                            break;
+
+                                     case "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295":   var  objectFactoryTempAdvance=new TempAdvanceObjectFactory();
+                                             virtualpageinstance = objectFactoryTempAdvance.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+
+                                            virtualpageinstance._objectFactory = objectFactoryTempAdvance;
                                             break;
 
                  
@@ -296,6 +331,36 @@ namespace CPS.Proof.DFSExtension
                                              virtualpageinstance = objectFactoryCommitmentSpentDetails.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
                                             virtualpageinstance._objectFactory = objectFactoryCommitmentSpentDetails;
+                                            break;
+
+                                     case "64C42232-67DB-43B8-8B68-4468FE0DD17F":   var  objectFactoryProjectFundInstallment=new ProjectFundInstallmentObjectFactory();
+                                             virtualpageinstance = objectFactoryProjectFundInstallment.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+                                            virtualpageinstance._objectFactory = objectFactoryProjectFundInstallment;
+                                            break;
+
+                                     case "B1037B85-D9C1-411B-87DE-0658365B81A8":   var  objectFactoryProjectReimbursement=new ProjectReimbursementObjectFactory();
+                                             virtualpageinstance = objectFactoryProjectReimbursement.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+                                            virtualpageinstance._objectFactory = objectFactoryProjectReimbursement;
+                                            break;
+
+                                     case "654C8734-EE30-4F33-B278-659E77BFDD71":   var  objectFactoryTravelRequest=new TravelRequestObjectFactory();
+                                             virtualpageinstance = objectFactoryTravelRequest.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+                                            virtualpageinstance._objectFactory = objectFactoryTravelRequest;
+                                            break;
+
+                                     case "AC69E996-4AE4-4D34-829F-4DFC7F63582C":   var  objectFactoryTravelSettlement=new TravelSettlementObjectFactory();
+                                             virtualpageinstance = objectFactoryTravelSettlement.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+                                            virtualpageinstance._objectFactory = objectFactoryTravelSettlement;
+                                            break;
+
+                                     case "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295":   var  objectFactoryTempAdvance=new TempAdvanceObjectFactory();
+                                             virtualpageinstance = objectFactoryTempAdvance.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+                                            virtualpageinstance._objectFactory = objectFactoryTempAdvance;
                                             break;
 
                  
@@ -504,6 +569,56 @@ namespace CPS.Proof.DFSExtension
                                              }
                                             break;
                    
+                                    
+                    case "64C42232-67DB-43B8-8B68-4468FE0DD17F":   
+                                             foreach (var item in context.Params)
+                                             {
+                                            var  objectFactoryProjectFundInstallment=new ProjectFundInstallmentObjectFactory();
+                                             combosource = objectFactoryProjectFundInstallment.GetComboDataSource
+                                                        (item.ElementName);  
+                                             }
+                                            break;
+                   
+                                    
+                    case "B1037B85-D9C1-411B-87DE-0658365B81A8":   
+                                             foreach (var item in context.Params)
+                                             {
+                                            var  objectFactoryProjectReimbursement=new ProjectReimbursementObjectFactory();
+                                             combosource = objectFactoryProjectReimbursement.GetComboDataSource
+                                                        (item.ElementName);  
+                                             }
+                                            break;
+                   
+                                    
+                    case "654C8734-EE30-4F33-B278-659E77BFDD71":   
+                                             foreach (var item in context.Params)
+                                             {
+                                            var  objectFactoryTravelRequest=new TravelRequestObjectFactory();
+                                             combosource = objectFactoryTravelRequest.GetComboDataSource
+                                                        (item.ElementName);  
+                                             }
+                                            break;
+                   
+                                    
+                    case "AC69E996-4AE4-4D34-829F-4DFC7F63582C":   
+                                             foreach (var item in context.Params)
+                                             {
+                                            var  objectFactoryTravelSettlement=new TravelSettlementObjectFactory();
+                                             combosource = objectFactoryTravelSettlement.GetComboDataSource
+                                                        (item.ElementName);  
+                                             }
+                                            break;
+                   
+                                    
+                    case "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295":   
+                                             foreach (var item in context.Params)
+                                             {
+                                            var  objectFactoryTempAdvance=new TempAdvanceObjectFactory();
+                                             combosource = objectFactoryTempAdvance.GetComboDataSource
+                                                        (item.ElementName);  
+                                             }
+                                            break;
+                   
                  
                 }               
                 
@@ -668,6 +783,81 @@ namespace CPS.Proof.DFSExtension
                                             else
                                             {
                                                 insertQuery=elementFactoryCommitmentSpentDetails.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId, token.UMID, formjsonData);
+                                            }
+
+                                            break;
+
+                                     case "64C42232-67DB-43B8-8B68-4468FE0DD17F":    var elementFactoryProjectFundInstallment=new ProjectFundInstallmentDataElementFactory();       
+                                           
+                                             if(context.Action=="GridSave")
+                                            {
+                                                insertQuery = elementFactoryProjectFundInstallment.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId,token.UMID, formjsonData);
+                                            }
+                                            else
+                                            {
+                                                insertQuery=elementFactoryProjectFundInstallment.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId, token.UMID, formjsonData);
+                                            }
+
+                                            break;
+
+                                     case "B1037B85-D9C1-411B-87DE-0658365B81A8":    var elementFactoryProjectReimbursement=new ProjectReimbursementDataElementFactory();       
+                                           
+                                             if(context.Action=="GridSave")
+                                            {
+                                                insertQuery = elementFactoryProjectReimbursement.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId,token.UMID, formjsonData);
+                                            }
+                                            else
+                                            {
+                                                insertQuery=elementFactoryProjectReimbursement.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId, token.UMID, formjsonData);
+                                            }
+
+                                            break;
+
+                                     case "654C8734-EE30-4F33-B278-659E77BFDD71":    var elementFactoryTravelRequest=new TravelRequestDataElementFactory();       
+                                           
+                                             if(context.Action=="GridSave")
+                                            {
+                                                insertQuery = elementFactoryTravelRequest.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId,token.UMID, formjsonData);
+                                            }
+                                            else
+                                            {
+                                                insertQuery=elementFactoryTravelRequest.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId, token.UMID, formjsonData);
+                                            }
+
+                                            break;
+
+                                     case "AC69E996-4AE4-4D34-829F-4DFC7F63582C":    var elementFactoryTravelSettlement=new TravelSettlementDataElementFactory();       
+                                           
+                                             if(context.Action=="GridSave")
+                                            {
+                                                insertQuery = elementFactoryTravelSettlement.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId,token.UMID, formjsonData);
+                                            }
+                                            else
+                                            {
+                                                insertQuery=elementFactoryTravelSettlement.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId, token.UMID, formjsonData);
+                                            }
+
+                                            break;
+
+                                     case "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295":    var elementFactoryTempAdvance=new TempAdvanceDataElementFactory();       
+                                           
+                                             if(context.Action=="GridSave")
+                                            {
+                                                insertQuery = elementFactoryTempAdvance.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId,token.UMID, formjsonData);
+                                            }
+                                            else
+                                            {
+                                                insertQuery=elementFactoryTempAdvance.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
                                                     context.WidgetId, token.UMID, formjsonData);
                                             }
 
