@@ -786,6 +786,8 @@ ISpace["MF_UserName"].Value=ISpace["gv_username"].Value;
 base.WriteDebugInfo(@"ISpace[""MF_UserName""].Value=ISpace[""gv_username""].Value;");
 ISpace["MF_ProjectNo"].rElemData=iSpace.Reload(ISpace["MF_ProjectNo"].Value,@"EXEC GetProjectExtensionDetails 1,'" + ISpace["MF_UserName"].Value + @"'","3A103712-5244-4427-B2B6-1C4E046FD337");
 base.WriteDebugInfo(@"ISpace[""MF_ProjectNo""].rElemData=iSpace.Reload(ISpace[""MF_ProjectNo""].Value,@""EXEC GetProjectExtensionDetails 1,'"" + ISpace[""MF_UserName""].Value + @""'"",""3A103712-5244-4427-B2B6-1C4E046FD337"");");
+ISpace["MF_UserName"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_UserName""].Visible=""false"";");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
