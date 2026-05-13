@@ -266,7 +266,7 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("MF_P1_TransferType","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw1z/z9sf1712IST2TisZRbDL01cRO080NYHWsKvkYJS77XPhhEPANfatU8lJP0mJJjSopgrwrPOlAa7ekRdWJpCoSneyUlDBd6d1RrcOybG3s",
-												     @"EXEC GetReceiptsTransferType"),
+												     @"EXEC GetTransferType"),
 			
 						
 			     new Triplet<string, string, string>("C_FC_ProjectNo_15","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw1z/z9sf1712IST2TisZRbDL01cRO080NYHWsKvkYJS77XPhhEPANfatU8lJP0mJJjSopgrwrPOlAa7ekRdWJpCoSneyUlDBd6d1RrcOybG3s",
