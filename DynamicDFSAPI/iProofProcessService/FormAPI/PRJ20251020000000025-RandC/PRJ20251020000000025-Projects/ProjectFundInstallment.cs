@@ -1548,6 +1548,8 @@ base.WriteDebugInfo(@"Root-OnAfterFormLoad");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
+ISpace["UC_EmployeeBaicInfoId"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""UC_EmployeeBaicInfoId""].Visible=""false"";");
 ISpace["M_InitiatorUserMapId"].Value=ISpace["gv_usermapid"].Value;
 base.WriteDebugInfo(@"ISpace[""M_InitiatorUserMapId""].Value=ISpace[""gv_usermapid""].Value;");
 ISpace["MF_P1_ReceiptsId"].Value=ISpace["gv_instanceid"].Value;
