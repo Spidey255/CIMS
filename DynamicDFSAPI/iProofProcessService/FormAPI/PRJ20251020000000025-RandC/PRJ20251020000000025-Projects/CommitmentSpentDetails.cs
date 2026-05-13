@@ -890,17 +890,17 @@ using System;
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("MG_Balance",6,
-														   -1),
 								   new Triplet<string, short, short?>("MG_YetToReceive",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_Balance",6,
 														   -1),
 								   new Triplet<string, short, short?>("MG_ReceivedAmount",3,
 														   -1),
 								   new Triplet<string, short, short?>("MG_Spent",5,
 														   -1),
-								   new Triplet<string, short, short?>("MG_Commitment",4,
-														   -1),
 								   new Triplet<string, short, short?>("MG_SanctionedAmount",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_Commitment",4,
 														   -1),
 								   new Triplet<string, short, short?>("MG_BudgetName",0,
 														   -1),
