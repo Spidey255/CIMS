@@ -306,10 +306,10 @@ namespace CPS.Proof.DFSExtension
 			     new Tuple<string, int>("AvailableBudgetHeadAmount",50),
 			
 						
-			     new Tuple<string, int>("ReceiptSplitUp",5),
+			     new Tuple<string, int>("MG_DcoumentDetails",5),
 			
 						
-			     new Tuple<string, int>("MG_DcoumentDetails",5),
+			     new Tuple<string, int>("ReceiptSplitUp",5),
 			
 						
 		};
