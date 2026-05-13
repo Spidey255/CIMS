@@ -298,6 +298,7 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
 
   useEffect(() => {
     showLoader();
+setComboReady(false);
     handleGetFormLoadData().then(() => hideLoader());
     // handleGetFormLoadData();
   }, [handleGetFormLoadData]);
