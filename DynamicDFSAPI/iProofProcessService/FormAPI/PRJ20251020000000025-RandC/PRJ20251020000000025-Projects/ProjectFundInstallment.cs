@@ -2213,65 +2213,6 @@ base.WriteDebugInfo(@"if(1==1)");
 ISpace["MF_P1_ReceiptAmount"].Enbl="false";
 base.WriteDebugInfo(@"ISpace[""MF_P1_ReceiptAmount""].Enbl=""false"";");
 }
-if(1==2)
-{
-base.WriteDebugInfo(@"if(1==2)");
-base.WriteDebugInfo(@"#ReceiptSplitUp[Rows]");
-iSpace.GetLoopExpressionData("ReceiptSplitUp",ref ISpace);
-
-foreach(var gridChild in ISpace["ReceiptSplitUp"].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-
-
-
-ISpace["M_Budgetid"].Value=ISpace["MG_R2_BudgetId"].Value;
-base.WriteDebugInfo(@"
-
-ISpace[""M_Budgetid""].Value=ISpace[""MG_R2_BudgetId""].Value;");
-
-
-ISpace["M_R2_ReceiptSplitUpId"].Value=ISpace["MG_R2_ReceiptSplitUpId"].Value;
-base.WriteDebugInfo(@"
-
-ISpace[""M_R2_ReceiptSplitUpId""].Value=ISpace[""MG_R2_ReceiptSplitUpId""].Value;");
-
-if(
-ISpace["Editflag"].Value==1)
-{
-base.WriteDebugInfo(@"
-if(
-ISpace[""Editflag""].Value==1)");
-if(ISpace["M_Budgetid"].Value==ISpace["MFG_R2_BudgetId"].Value)
-{
-base.WriteDebugInfo(@"if(ISpace[""M_Budgetid""].Value==ISpace[""MFG_R2_BudgetId""].Value)");
-ISpace["Message"].Value=@"This Budget head is already added";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""This Budget head is already added"";");
-return;
-base.WriteDebugInfo(@"return;");
-}
-}
-else
-{
-base.WriteDebugInfo(@"else");
-if(ISpace["M_Budgetid"].Value==ISpace["MFG_R2_BudgetId"].Value)
-{
-base.WriteDebugInfo(@"if(ISpace[""M_Budgetid""].Value==ISpace[""MFG_R2_BudgetId""].Value)");
-ISpace["Message"].Value=@"This Budget head is already added";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""This Budget head is already added"";");
-return;
-base.WriteDebugInfo(@"return;");
-}
-}
-}
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReceiptSplitUp"",ref ISpace);
-
-foreach(var gridChild in ISpace[""ReceiptSplitUp""].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-");
-}
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
@@ -2298,20 +2239,6 @@ if(ISpace["M_BudgetErr"].Value==1)
 base.WriteDebugInfo(@"if(ISpace[""M_BudgetErr""].Value==1)");
 ISpace["Message"].Value=String.Format(@"{0}",ISpace["M_BudgetErrMsg"].Value);
 base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""M_BudgetErrMsg""].Value);");
-return;
-base.WriteDebugInfo(@"return;");
-}
-}
-if(1==2)
-{
-base.WriteDebugInfo(@"if(1==2)");
-if(ISpace["MFG_R2_Amount"].Value>ISpace["R_ReceiptAmountBalance"].Value)
-{
-base.WriteDebugInfo(@"if(ISpace[""MFG_R2_Amount""].Value>ISpace[""R_ReceiptAmountBalance""].Value)");
-ISpace["Message"].Value=@"Splitup Amount Should be less than or equal to Fund Installment Amount";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Splitup Amount Should be less than or equal to Fund Installment Amount"";");
-ISpace["MFG_R2_Amount"].Value=null;
-base.WriteDebugInfo(@"ISpace[""MFG_R2_Amount""].Value=null;");
 return;
 base.WriteDebugInfo(@"return;");
 }
@@ -3760,20 +3687,6 @@ return;
 base.WriteDebugInfo(@"return;");
 }
 }
-if(1==2)
-{
-base.WriteDebugInfo(@"if(1==2)");
-if(ISpace["MFG_R2_Amount"].Value>ISpace["R_ReceiptAmountBalance"].Value)
-{
-base.WriteDebugInfo(@"if(ISpace[""MFG_R2_Amount""].Value>ISpace[""R_ReceiptAmountBalance""].Value)");
-ISpace["Message"].Value=@"Splitup Amount Should be less than or equal to Fund Installment Amount";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Splitup Amount Should be less than or equal to Fund Installment Amount"";");
-ISpace["MFG_R2_Amount"].Value=null;
-base.WriteDebugInfo(@"ISpace[""MFG_R2_Amount""].Value=null;");
-return;
-base.WriteDebugInfo(@"return;");
-}
-}
 }
 catch(Exception ex)
 {
@@ -3812,65 +3725,6 @@ base.WriteDebugInfo(@"if(1==1)");
 ISpace["MF_P1_ReceiptAmount"].Enbl="false";
 base.WriteDebugInfo(@"ISpace[""MF_P1_ReceiptAmount""].Enbl=""false"";");
 }
-if(1==2)
-{
-base.WriteDebugInfo(@"if(1==2)");
-base.WriteDebugInfo(@"#ReceiptSplitUp[Rows]");
-iSpace.GetLoopExpressionData("ReceiptSplitUp",ref ISpace);
-
-foreach(var gridChild in ISpace["ReceiptSplitUp"].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-
-
-
-ISpace["M_Budgetid"].Value=ISpace["MG_R2_BudgetId"].Value;
-base.WriteDebugInfo(@"
-
-ISpace[""M_Budgetid""].Value=ISpace[""MG_R2_BudgetId""].Value;");
-
-
-ISpace["M_R2_ReceiptSplitUpId"].Value=ISpace["MG_R2_ReceiptSplitUpId"].Value;
-base.WriteDebugInfo(@"
-
-ISpace[""M_R2_ReceiptSplitUpId""].Value=ISpace[""MG_R2_ReceiptSplitUpId""].Value;");
-
-if(
-ISpace["Editflag"].Value==1)
-{
-base.WriteDebugInfo(@"
-if(
-ISpace[""Editflag""].Value==1)");
-if(ISpace["M_Budgetid"].Value==ISpace["MFG_R2_BudgetId"].Value)
-{
-base.WriteDebugInfo(@"if(ISpace[""M_Budgetid""].Value==ISpace[""MFG_R2_BudgetId""].Value)");
-ISpace["Message"].Value=@"This Budget head is already added";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""This Budget head is already added"";");
-return;
-base.WriteDebugInfo(@"return;");
-}
-}
-else
-{
-base.WriteDebugInfo(@"else");
-if(ISpace["M_Budgetid"].Value==ISpace["MFG_R2_BudgetId"].Value)
-{
-base.WriteDebugInfo(@"if(ISpace[""M_Budgetid""].Value==ISpace[""MFG_R2_BudgetId""].Value)");
-ISpace["Message"].Value=@"This Budget head is already added";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""This Budget head is already added"";");
-return;
-base.WriteDebugInfo(@"return;");
-}
-}
-}
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReceiptSplitUp"",ref ISpace);
-
-foreach(var gridChild in ISpace[""ReceiptSplitUp""].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-");
-}
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
@@ -3897,20 +3751,6 @@ if(ISpace["M_BudgetErr"].Value==1)
 base.WriteDebugInfo(@"if(ISpace[""M_BudgetErr""].Value==1)");
 ISpace["Message"].Value=String.Format(@"{0}",ISpace["M_BudgetErrMsg"].Value);
 base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""M_BudgetErrMsg""].Value);");
-return;
-base.WriteDebugInfo(@"return;");
-}
-}
-if(1==2)
-{
-base.WriteDebugInfo(@"if(1==2)");
-if(ISpace["MFG_R2_Amount"].Value>ISpace["R_ReceiptAmountBalance"].Value)
-{
-base.WriteDebugInfo(@"if(ISpace[""MFG_R2_Amount""].Value>ISpace[""R_ReceiptAmountBalance""].Value)");
-ISpace["Message"].Value=@"Splitup Amount Should be less than or equal to Fund Installment Amount";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Splitup Amount Should be less than or equal to Fund Installment Amount"";");
-ISpace["MFG_R2_Amount"].Value=null;
-base.WriteDebugInfo(@"ISpace[""MFG_R2_Amount""].Value=null;");
 return;
 base.WriteDebugInfo(@"return;");
 }
