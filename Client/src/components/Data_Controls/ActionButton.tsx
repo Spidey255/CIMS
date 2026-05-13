@@ -108,7 +108,7 @@
 //         elementIds = params.map((p) => `${rowId}+${p.ElementName}`);
 //       }
 
-//       // ? ADDED: Create EDT lookup map (NO impact on existing logic)
+//       // ✅ ADDED: Create EDT lookup map (NO impact on existing logic)
 //       const edtMap = params.reduce((acc, p) => {
 //         acc[p.ElementName] = p.EDT;
 //         return acc;
@@ -129,7 +129,7 @@
 //       Object.keys(storeState).forEach((key) => {
 //         const actualName = getActualElementName(key);
 
-//         if (!actualName) return; // ? Type guard
+//         if (!actualName) return; // ✅ Type guard
 
 //         actualNameMap[actualName] = storeState[key];
 //       });
@@ -150,12 +150,12 @@
 //         return acc;
 //       }, {} as Record<string, TValue | undefined>);
 
-//       // ? MODIFIED (but structure unchanged): add EDT
+//       // ✅ MODIFIED (but structure unchanged): add EDT
 //       const stateParams = Object.entries(fetchedStateValues).map(
 //         ([id, value]) => ({
 //           ElementName: id,
 //           Value: value,
-//           EDT: edtMap[id] ?? null, // ? ADDED
+//           EDT: edtMap[id] ?? null, // ✅ ADDED
 //         })
 //       );
 
@@ -339,6 +339,7 @@ import { useRedirectStore } from "@/store/useRedirectStore";
 import { pages } from "@/constants/pages";
 import { useLoaderStore } from "@/store/useLoaderStore";
 import { saveGrid } from "@/helpers/saveGridHelper";
+import { saveForm } from "@/helpers/saveGridHelper";
 import toast from "react-hot-toast";
 
 interface ActionButtonProps {
@@ -414,9 +415,19 @@ const ActionButton: React.FC<ActionButtonProps> = ({
       // Get all grid elements
       const gridElementsToSave = gridElements.filter(g => g.ControlType === "Grid");
 
+      // Get all form elements except grid elements
+      const formElementsToSave = gridElements.filter(
+        g => g.ControlType !== "Grid"
+      );
+
+      if (formElementsToSave.length && element.ElementName == "SubmitForm") {
+        const savedInstanceId = await saveForm({ elements: formElementsToSave, formInstanceId });
+        console.log("Grids saved successfully — IDs:", savedInstanceId);
+      }
+
       if (gridElementsToSave.length) {
-        const savedInstanceId = await saveGrid({ elements: gridElementsToSave, formInstanceId });
-        console.log("Grids saved successfully � IDs:", savedInstanceId);
+        const savedInstanceId = await  saveGrid({ elements: gridElementsToSave, formInstanceId });
+        console.log("Grids saved successfully — IDs:", savedInstanceId);
       }
 
       if (!element.BindingDetail) {
@@ -538,7 +549,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({
       }
 
       // =====================================================
-      // ? NEW: UPDATE GENERAL STORE FROM API RESPONSE
+      // ✅ NEW: UPDATE GENERAL STORE FROM API RESPONSE
       // =====================================================
       const generalStateUpdate: Record<string, IGlobalStateValues> = {};
       const currentState = useGeneralStore.getState().state;
@@ -559,7 +570,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({
             ...currentState[row.ElementName!], // keep existing behavior
             value: row.Value ?? "",
 
-            // ? ADD (does NOT affect existing logic)
+            // ✅ ADD (does NOT affect existing logic)
             ShowDialog: row.ShowDialog ?? false,
             HideDialog: row.HideDialog ?? false,
             ShowModal: row.ShowModal ?? false,
@@ -658,18 +669,18 @@ const ActionButton: React.FC<ActionButtonProps> = ({
       hideLoader();
     }
   };
-  
-//  const visible = element.ElementControlProperty?.find(p => "Visible" in p)?.Visible ?? "true";
+
+  //  const visible = element.ElementControlProperty?.find(p => "Visible" in p)?.Visible ?? "true";
   const storeVisible = useGeneralStore(
-  (store) => store.state[element.ElementName]?.isVisible
-);
+    (store) => store.state[element.ElementName]?.isVisible
+  );
 
-const isVisible =
-  storeVisible !== undefined && storeVisible !== null
-    ? storeVisible
-    : true;
+  const isVisible =
+    storeVisible !== undefined && storeVisible !== null
+      ? storeVisible
+      : true;
 
- if(isVisible == false || isVisible == "false") return null
+  if (isVisible == false || isVisible == "false") return null
 
 
   return (

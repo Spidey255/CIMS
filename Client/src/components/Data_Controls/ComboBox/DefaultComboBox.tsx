@@ -31,9 +31,16 @@ const DefaultComboBox: React.FC<{
   const controlId = element.ElementId || element.UIElementid || element.ElementName;
 
   const [comboBoxValues, setComboBoxValues] = useState<IList[]>([]);
+
+const comboReady = useGeneralStore(
+  (store) => store.comboReady
+);
   // console.log("comboBoxValues",comboBoxValues);
- const fetchData = useCallback(async () => {
+const fetchData = useCallback(async () => {
   try {
+    // ✅ WAIT UNTIL COMBO READY
+    if (!comboReady) return;
+
     if (!element || !slotId || !activePage) return;
 
     const data = await onLoad(element, slotId);
@@ -41,12 +48,12 @@ const DefaultComboBox: React.FC<{
     setComboBoxValues(Array.isArray(data) ? data : []);
   } catch (error) {
     console.log("ComboBox onLoad Error:", error);
-    setComboBoxValues([]); // fallback
+    setComboBoxValues([]);
   }
-}, [element, slotId, activePage]);
+}, [element, slotId, activePage, comboReady]);
   useEffect(() => {
     fetchData();
-  }, [fetchData]);
+  }, [fetchData,comboReady]);
 
 
   const handleChange = async (event: any) => {

@@ -62,12 +62,14 @@ const Placeholder: React.FC<{
   const url = String(state);
 
   // ✅ Memoize parsing
-  const { finalSrc } = useMemo(() => {
-    if (!url) return { finalSrc: "" };
+ const { finalSrc } = useMemo(() => {
+  if (!url) return { finalSrc: "" };
 
+  try {
     const queryString = url.split("?")[1];
 
     let val = "";
+
     if (!queryString) {
       val = url;
     }
@@ -80,15 +82,30 @@ const Placeholder: React.FC<{
       (p) => p.ProcessActivityMapId === params?.PkActMId
     );
 
+    const resolvedUrl =
+      page?.ProcessName || val || url;
+
+    // ✅ Add iframe mode param
+    const separator = resolvedUrl.includes("?")
+      ? "&"
+      : "?";
+
     return {
-      finalSrc: page?.ProcessName || val || url
+      finalSrc: `${resolvedUrl}${separator}isSideBar=false`,
     };
-  }, [url]);
+  } catch (error) {
+    console.error("Iframe URL parse error:", error);
+
+    return {
+      finalSrc: "",
+    };
+  }
+}, [url]);
 
   // ✅ Prevent infinite reload on failure
   const [isError, setIsError] = useState(false);
 
-  if (!finalSrc || isError) {
+  if (!finalSrc || isError || finalSrc == "" || finalSrc == undefined) {
     return (
       <div className="control">
         <div style={{ padding: 20 }}>
