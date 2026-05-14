@@ -2696,9 +2696,9 @@ foreach(var gridChild in ISpace[""ReceiptSplitUp""].Child)
 {foreach(var gridrow in gridChild.Child)
  {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
 ");
-if(ISpace["M_SaveDomainData"].Value==1)
+if(ISpace["M_SaveDomainData"].Value==1 || 1==1)
 {
-base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1)");
+base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1 || 1==1)");
 ISpace["MF_P1_Status"].Value="A";
 base.WriteDebugInfo(@"ISpace[""MF_P1_Status""].Value=""A"";");
 base.WriteDebugInfo(@"EXEC UpsertProjectReceipts '#MF_P1_ReceiptsId','#MF_P1_TransferReferenceBankId','#MF_P1_ReceiptDate','#MF_P1_ReceiptNo','#UC_EmployeeBaicInfoId','#MF_P1_Status','#MF_P1_TransferReferenceDate','#MF_P1_TransferReferenceBranch','#MF_P1_UpdatedBy','#MF_P1_TransferType','#C_FC_ProjectNo_15'");
@@ -4178,9 +4178,9 @@ foreach(var gridChild in ISpace[""ReceiptSplitUp""].Child)
 {foreach(var gridrow in gridChild.Child)
  {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
 ");
-if(ISpace["M_SaveDomainData"].Value==1)
+if(ISpace["M_SaveDomainData"].Value==1 || 1==1)
 {
-base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1)");
+base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1 || 1==1)");
 ISpace["MF_P1_Status"].Value="A";
 base.WriteDebugInfo(@"ISpace[""MF_P1_Status""].Value=""A"";");
 base.WriteDebugInfo(@"EXEC UpsertProjectReceipts '#MF_P1_ReceiptsId','#MF_P1_TransferReferenceBankId','#MF_P1_ReceiptDate','#MF_P1_ReceiptNo','#UC_EmployeeBaicInfoId','#MF_P1_Status','#MF_P1_TransferReferenceDate','#MF_P1_TransferReferenceBranch','#MF_P1_UpdatedBy','#MF_P1_TransferType','#C_FC_ProjectNo_15'");
