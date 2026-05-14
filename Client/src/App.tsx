@@ -17,13 +17,20 @@ import { SidebarProvider } from "@/layout/SideBar/SidebarContext";
 import { useUserStore } from "@/store/useUserStore";
 
 
+import ProjectReimbursement_RDoffice from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectReimbursement_RDoffice";
+import ProjectReimbursement_ViewActivity from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectReimbursement_ViewActivity";
 import ProjectFundInstallment_AdditionalDetails from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectFundInstallment_AdditionalDetails";
+import ProjectReimbursement_Registrar from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectReimbursement_Registrar";
 import ProjectFundInstallment_View0 from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectFundInstallment_View0";
+import ProjectReimbursement_ARRD from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectReimbursement_ARRD";
 import FundConfigurations_Start from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/FundConfigurations_Start";
 import ProjectFundInstallment_HOD from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectFundInstallment_HOD";
+import ProjectReimbursement_PIInitiation from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectReimbursement_PIInitiation";
 import CommitmentSpentDetails_Start from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/CommitmentSpentDetails_Start";
+import ProjectReimbursement_DeanRD from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectReimbursement_DeanRD";
 import ProjectFundInstallment_RDOffice from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectFundInstallment_RDOffice";
 import ProjectFundInstallment_PIInitiation from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectFundInstallment_PIInitiation";
+import ProjectReimbursement_AdditionalDetails from "@/pages/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectReimbursement_AdditionalDetails";
 
 const hasAccessToken = (): boolean => {
   if (typeof window === "undefined") {
@@ -84,13 +91,20 @@ const App: React.FC = () => {
           <MainLayout />
         </SidebarProvider>
       }>
+        <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectReimbursement_RDoffice" element={<ProjectReimbursement_RDoffice />} />
+        <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectReimbursement_ViewActivity" element={<ProjectReimbursement_ViewActivity />} />
         <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectFundInstallment_AdditionalDetails" element={<ProjectFundInstallment_AdditionalDetails />} />
+        <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectReimbursement_Registrar" element={<ProjectReimbursement_Registrar />} />
         <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectFundInstallment_View0" element={<ProjectFundInstallment_View0 />} />
+        <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectReimbursement_ARRD" element={<ProjectReimbursement_ARRD />} />
         <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/FundConfigurations_Start" element={<FundConfigurations_Start />} />
         <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectFundInstallment_HOD" element={<ProjectFundInstallment_HOD />} />
+        <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectReimbursement_PIInitiation" element={<ProjectReimbursement_PIInitiation />} />
         <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/CommitmentSpentDetails_Start" element={<CommitmentSpentDetails_Start />} />
+        <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectReimbursement_DeanRD" element={<ProjectReimbursement_DeanRD />} />
         <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectFundInstallment_RDOffice" element={<ProjectFundInstallment_RDOffice />} />
         <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectFundInstallment_PIInitiation" element={<ProjectFundInstallment_PIInitiation />} />
+        <Route path="/PRJ20251020000000025-RandC/PRJ20251020000000025-Projects/ProjectReimbursement_AdditionalDetails" element={<ProjectReimbursement_AdditionalDetails />} />
         <Route path="/Inbox" element={<Inbox />} />
         <Route path="*" element={<NotFound />} />
       </Route>
