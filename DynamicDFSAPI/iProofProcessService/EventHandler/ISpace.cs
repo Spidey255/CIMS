@@ -280,7 +280,7 @@ namespace CPS.Proof.DFSExtension
 
         #region Grid functions
 
-        public object Sum(string gridTable,string gridcolumn, string filter)
+        public object Sum(string gridTable,string gridcolumn, string filter,string instanceId)
         {
             IExternalQueryController externalQueryController = null;
 
@@ -291,7 +291,7 @@ namespace CPS.Proof.DFSExtension
                 object aggValue=null;
 
                 externalQueryController.AggregateGridData
-                (gridTable,gridcolumn,"Sum", filter,out aggValue);
+                (gridTable,gridcolumn,"Sum", filter,instanceId,out aggValue);
 
                 return aggValue;
             }

@@ -85,7 +85,7 @@ namespace CPS.Proof.DFSExtension
         Status DeleteGridInstanceData(Context context);
 
         Status AggregateGridData(string tableName, string gridColumnName,
-                string aggregatorType, string filter, out object aggregateValue);
+                string aggregatorType, string filter,string instanceId, out object aggregateValue);
 
       
         Status FilterResponseByRBAC(string packageProcessMapId, string processActivityMapId,

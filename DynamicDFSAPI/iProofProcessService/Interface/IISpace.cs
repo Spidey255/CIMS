@@ -111,7 +111,7 @@ namespace CPS.Proof.DFSExtension
 
         void RedirectExternal(ref Dictionary<string, ServiceElementData> ISpace, string url);
 
-        object Sum(string gridTable, string gridcolumn, string gridvalue);
+        object Sum(string gridTable, string gridcolumn, string gridvalue,string instanceId);
 
         Status AddNewInstance(string forkId, 
             string parentInstanceId,string processactivitymapid,string slotId,ForkedProcess forkedProcess);

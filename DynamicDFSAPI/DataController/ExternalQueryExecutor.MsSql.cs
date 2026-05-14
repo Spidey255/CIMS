@@ -2946,13 +2946,13 @@ namespace CPS.Proof.DFSExtension
         }
 
         public Status AggregateGridData(string tableName, string gridColumnName, 
-                string aggregatorType, string filter, out object aggregateValue)
+                string aggregatorType, string filter,string instanceId, out object aggregateValue)
         {
              _sysLog.Debug("Entering AggregateGridData");
 
             aggregateValue = null;
 
-            var sqlQuery = @"SELECT {0} FROM {1} WHERE 1=1 {2}";
+            var sqlQuery = @"SELECT {0} FROM {1} WHERE InstanceId={3} AND 1=1 {2}";
 
             try
             {
@@ -2969,7 +2969,7 @@ namespace CPS.Proof.DFSExtension
 
                         aggfunction = string.Concat("SUM(", gridColumnName, ")");                        
 
-                        sqlQuery = string.Format(sqlQuery, aggfunction,tableName,filter);
+                        sqlQuery = string.Format(sqlQuery, aggfunction,tableName,filter,instanceId);
 
                         break;
 
