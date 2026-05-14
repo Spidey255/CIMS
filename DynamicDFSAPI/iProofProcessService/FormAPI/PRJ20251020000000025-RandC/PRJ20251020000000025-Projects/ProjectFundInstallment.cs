@@ -960,14 +960,14 @@ namespace CPS.Proof.DFSExtension
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_249EF4459B494EF9804546BD1E6FF8ED AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT){0}INSERT INTO [249EF445-9B49-4EF9-8045-46BD1E6FF8ED](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
+		DECLARE  @TBL_249EF4459B494EF9804546BD1E6FF8ED AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_R2_ReceiptsId] VARCHAR(MAX)	, [MG_R2_ReceiptSplitUpId] VARCHAR(MAX)	, [MG_R2_UpdatedBy] INT	, [MG_R2_Amount] DECIMAL(18,2)	, [MG_R2_BudgetId] VARCHAR(250)	, [MG_R2_UpdatedOn] DATETIME){0}INSERT INTO [249EF445-9B49-4EF9-8045-46BD1E6FF8ED](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_R2_ReceiptsId,TDT.MG_R2_ReceiptSplitUpId,TDT.MG_R2_UpdatedBy,TDT.MG_R2_Amount,TDT.MG_R2_BudgetId,TDT.MG_R2_UpdatedOn FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
 							LEFT JOIN [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;";
 
-                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence";
+                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn";
 
-                                     tempInsertQuery=@"INSERT INTO @TBL_249EF4459B494EF9804546BD1E6FF8ED(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence)VALUES({0});";
+                                     tempInsertQuery=@"INSERT INTO @TBL_249EF4459B494EF9804546BD1E6FF8ED(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)VALUES({0});";
                                      
 
                             splitcols = colList.Split(',');
@@ -1414,14 +1414,14 @@ namespace CPS.Proof.DFSExtension
                      
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_249EF4459B494EF9804546BD1E6FF8ED AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT){0}INSERT INTO [249EF445-9B49-4EF9-8045-46BD1E6FF8ED](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
+		DECLARE  @TBL_249EF4459B494EF9804546BD1E6FF8ED AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_R2_ReceiptsId] VARCHAR(MAX)	, [MG_R2_ReceiptSplitUpId] VARCHAR(MAX)	, [MG_R2_UpdatedBy] INT	, [MG_R2_Amount] DECIMAL(18,2)	, [MG_R2_BudgetId] VARCHAR(250)	, [MG_R2_UpdatedOn] DATETIME){0}INSERT INTO [249EF445-9B49-4EF9-8045-46BD1E6FF8ED](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_R2_ReceiptsId,TDT.MG_R2_ReceiptSplitUpId,TDT.MG_R2_UpdatedBy,TDT.MG_R2_Amount,TDT.MG_R2_BudgetId,TDT.MG_R2_UpdatedOn FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
 							LEFT JOIN [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;";
 
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence";
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn";
 
-                            tempInsertQuery=@"INSERT INTO @TBL_249EF4459B494EF9804546BD1E6FF8ED(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence)VALUES({0});";
+                            tempInsertQuery=@"INSERT INTO @TBL_249EF4459B494EF9804546BD1E6FF8ED(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)VALUES({0});";
 
                             splitcols = colList.Split(',');
 
@@ -1845,6 +1845,50 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_ui_yes (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"UI_Yes-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+
+var querySource658407BFCBFF443BAA604C126BC8B3CE =GetQueryExpressionDataSource("658407BF-CBFF-443B-AA60-4C126BC8B3CE");
+
+DataTable result658407BFCBFF443BAA604C126BC8B3CE=iSpace.SetGridDataSource(querySource658407BFCBFF443BAA604C126BC8B3CE, _objectFactory.GetGridRPP("ReceiptSplitUp"),@"EXEC [DeleteFormGridDatacc29fcb5b804498f8b8407ad780fb5af] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_processmapid"].Value + @"','cc29fcb5-b804-498f-8b84-07ad780fb5af','" + ISpace["gv_activitymapid"].Value + @"','" + ISpace["growid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("ReceiptSplitUp","11",querySource658407BFCBFF443BAA604C126BC8B3CE,"EXEC [DeleteFormGridDatacc29fcb5b804498f8b8407ad780fb5af] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_processmapid"].Value + @"','cc29fcb5-b804-498f-8b84-07ad780fb5af','" + ISpace["gv_activitymapid"].Value + @"','" + ISpace["growid"].Value + @"'",_objectFactory.GetGridRPP("ReceiptSplitUp"));
+
+base.WriteDebugInfo(@"var querySource658407BFCBFF443BAA604C126BC8B3CE =GetQueryExpressionDataSource(""658407BF-CBFF-443B-AA60-4C126BC8B3CE"");DataTable result658407BFCBFF443BAA604C126BC8B3CE=iSpace.SetGridDataSource(querySource658407BFCBFF443BAA604C126BC8B3CE, _objectFactory.GetGridRPP(""ReceiptSplitUp""),@""EXEC [DeleteFormGridDatacc29fcb5b804498f8b8407ad780fb5af] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""','cc29fcb5-b804-498f-8b84-07ad780fb5af','"" + ISpace[""gv_activitymapid""].Value + @""','"" + ISpace[""growid""].Value + @""'"");iSpace.InsertGridBindDetails(""ReceiptSplitUp"",""11"",querySource658407BFCBFF443BAA604C126BC8B3CE,""EXEC [DeleteFormGridDatacc29fcb5b804498f8b8407ad780fb5af] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""','cc29fcb5-b804-498f-8b84-07ad780fb5af','"" + ISpace[""gv_activitymapid""].Value + @""','"" + ISpace[""growid""].Value + @""'"",_objectFactory.GetGridRPP(""ReceiptSplitUp""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result17C8E5FF5228497B8E83DEEEFF92F497=acdataIspaceDDBF52926EF44C37B72AE6DCFFBF7B02.GetQueryExpressionBindings("17C8E5FF-5228-497B-8E83-DEEEFF92F497");
+iSpace.SetGridData(result658407BFCBFF443BAA604C126BC8B3CE,result17C8E5FF5228497B8E83DEEEFF92F497,"ReceiptSplitUp",ref ISpace);
+iSpace.UpdateGridBindDetails("ReceiptSplitUp",result17C8E5FF5228497B8E83DEEEFF92F497);
+object MG_R2_Amount=iSpace.Sum("[249EF445-9B49-4EF9-8045-46BD1E6FF8ED]","MG_R2_Amount","");
+ISpace["R_TotalSplitUpAmount"].Value=Convert.ChangeType(MG_R2_Amount, MG_R2_Amount.GetType());;
+base.WriteDebugInfo(@"object MG_R2_Amount=iSpace.Sum(""[249EF445-9B49-4EF9-8045-46BD1E6FF8ED]"",""MG_R2_Amount"","""");
+ISpace[""R_TotalSplitUpAmount""].Value=Convert.ChangeType(MG_R2_Amount, MG_R2_Amount.GetType());;");
+ISpace["R_ReceiptAmountBalance"].Value=ISpace["MF_P1_ReceiptAmount"].Value - ISpace["R_TotalSplitUpAmount"].Value;
+base.WriteDebugInfo(@"ISpace[""R_ReceiptAmountBalance""].Value=ISpace[""MF_P1_ReceiptAmount""].Value - ISpace[""R_TotalSplitUpAmount""].Value;");
+ISpace["Message"].Value=@"Data deleted successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Data deleted successfully"";");
+ISpace["growid"].Value="";
+base.WriteDebugInfo(@"ISpace[""growid""].Value="""";");
+ISpace["UI_Confirmation"].HideDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_Confirmation""].HideDialog=true;;");
+}
+ISpace["UI_Confirmation"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_Confirmation""].ShowDialog=true;;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_mf_p1_receiptamount (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -1884,8 +1928,16 @@ try
 {
 base.WriteDebugInfo(@"AvailableBudgetclose-OnClick");
 
+if(ISpace["FormVersionId"].Value=="B1CB93DB-7B9C-4661-BE11-02ED3BFD5725")
+{
+iSpace.SetUIControlProperty("UI_AvailablebudgetModal","ShowModal","false",ref  ISpace);;
+}
 
 base.WriteDebugInfo(@"
+if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-BE11-02ED3BFD5725"")
+{
+iSpace.SetUIControlProperty(""UI_AvailablebudgetModal"",""ShowModal"",""false"",ref  ISpace);;
+}
 ");
 }
 catch(Exception ex)
@@ -2103,6 +2155,22 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_ui_no (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"UI_No-OnClick");
+ISpace["growid"].Value="";
+base.WriteDebugInfo(@"ISpace[""growid""].Value="""";");
+ISpace["UI_Confirmation"].HideDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_Confirmation""].HideDialog=true;;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_m_moveto (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -2147,8 +2215,8 @@ base.WriteDebugInfo(@"if(1==1)");
 if(ISpace["MF_P1_ReceiptDate"].Value>CurrentDate())
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_ReceiptDate""].Value>CurrentDate())");
-ISpace["Message"].Value=@"Fund Installment Date should be less than the current date.";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Fund Installment Date should be less than the current date."";");
+ISpace["Message"].Value=@"ERROR:Fund Installment Date should be less than the current date.";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Fund Installment Date should be less than the current date."";");
 ISpace["MF_P1_ReceiptDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MF_P1_ReceiptDate""].Value=null;");
 return;
@@ -2157,8 +2225,8 @@ base.WriteDebugInfo(@"return;");
 if(ISpace["MF_P1_ReceiptDate"].Value<ISpace["C_FC_StartDate_15"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_ReceiptDate""].Value<ISpace[""C_FC_StartDate_15""].Value)");
-ISpace["Message"].Value=@"Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date"";");
+ISpace["Message"].Value=@"SUCCESS:Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date"";");
 ISpace["MF_P1_ReceiptDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MF_P1_ReceiptDate""].Value=null;");
 return;
@@ -2167,8 +2235,8 @@ base.WriteDebugInfo(@"return;");
 if(ISpace["MF_P1_ReceiptDate"].Value>=ISpace["C_FC_EndDate"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_ReceiptDate""].Value>=ISpace[""C_FC_EndDate""].Value)");
-ISpace["Message"].Value=@"Fund Installment Date should be less than Closing Date  or Actual End Date";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Fund Installment Date should be less than Closing Date  or Actual End Date"";");
+ISpace["Message"].Value=@"WARNING:Fund Installment Date should be less than Closing Date  or Actual End Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""WARNING:Fund Installment Date should be less than Closing Date  or Actual End Date"";");
 ISpace["MF_P1_ReceiptDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MF_P1_ReceiptDate""].Value=null;");
 return;
@@ -2308,8 +2376,8 @@ base.WriteDebugInfo(@"ISpace[""Editflag""].Value=null;");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-ISpace["R_ReceiptAmountBalance"].Value=ISpace["MF_P1_ReceiptAmount"].Value - ISpace["R_TotalSplitUpAmount"].Value;
-base.WriteDebugInfo(@"ISpace[""R_ReceiptAmountBalance""].Value=ISpace[""MF_P1_ReceiptAmount""].Value - ISpace[""R_TotalSplitUpAmount""].Value;");
+ISpace["R_ReceiptAmountBalance"].Value=ISpace["MF_P1_ReceiptAmount"].Value-ISpace["R_TotalSplitUpAmount"].Value;
+base.WriteDebugInfo(@"ISpace[""R_ReceiptAmountBalance""].Value=ISpace[""MF_P1_ReceiptAmount""].Value-ISpace[""R_TotalSplitUpAmount""].Value;");
 }
 }
 catch(Exception ex)
@@ -2325,8 +2393,8 @@ try
 base.WriteDebugInfo(@"Delete-OnClick");
 ISpace["growid"].Value=ISpace["ReceiptSplitUp_RowId"].Value;
 base.WriteDebugInfo(@"ISpace[""growid""].Value=ISpace[""ReceiptSplitUp_RowId""].Value;");
-ISpace["UI_DeleteDialog"].ShowDialog=true;;
-base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].ShowDialog=true;;");
+ISpace["UI_Confirmation"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_Confirmation""].ShowDialog=true;;");
 }
 catch(Exception ex)
 {
@@ -2353,12 +2421,12 @@ base.WriteDebugInfo(@"ISpace[""R_TotalSplitUpAmount""].Value=ISpace[""R_TotalSpl
 ISpace["R_ReceiptAmountBalance"].Value=ISpace["R_ReceiptAmountBalance"].Value+ISpace["MG_R2_Amount"].Value;
 base.WriteDebugInfo(@"ISpace[""R_ReceiptAmountBalance""].Value=ISpace[""R_ReceiptAmountBalance""].Value+ISpace[""MG_R2_Amount""].Value;");
 }
-base.WriteDebugInfo(@"EXEC LoadFormGridDatacc29fcb5b804498f8b8407ad780fb5af '#Instanceid','@@gv_ProcessMapId','cc29fcb5-b804-498f-8b84-07ad780fb5af','@@gv_ActivityMapId','#growid'");
+base.WriteDebugInfo(@"EXEC LoadFormGridDatacc29fcb5b804498f8b8407ad780fb5af '@@gv_InstanceId','@@gv_ProcessMapId','cc29fcb5-b804-498f-8b84-07ad780fb5af','@@gv_ActivityMapId','#growid'");
 
 var querySourceA5DC182250F5461FAA7F4043FAB5724D =GetQueryExpressionDataSource("A5DC1822-50F5-461F-AA7F-4043FAB5724D");
-Dictionary<short,object> resultA5DC182250F5461FAA7F4043FAB5724D=iSpace.ExecuteQuery(querySourceA5DC182250F5461FAA7F4043FAB5724D,@"EXEC LoadFormGridDatacc29fcb5b804498f8b8407ad780fb5af '" + ISpace["Instanceid"].Value + @"','" + ISpace["gv_processmapid"].Value + @"','cc29fcb5-b804-498f-8b84-07ad780fb5af','" + ISpace["gv_activitymapid"].Value + @"','" + ISpace["growid"].Value + @"'",false);
+Dictionary<short,object> resultA5DC182250F5461FAA7F4043FAB5724D=iSpace.ExecuteQuery(querySourceA5DC182250F5461FAA7F4043FAB5724D,@"EXEC LoadFormGridDatacc29fcb5b804498f8b8407ad780fb5af '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_processmapid"].Value + @"','cc29fcb5-b804-498f-8b84-07ad780fb5af','" + ISpace["gv_activitymapid"].Value + @"','" + ISpace["growid"].Value + @"'",false);
 
-base.WriteDebugInfo(@"var querySourceA5DC182250F5461FAA7F4043FAB5724D =GetQueryExpressionDataSource(""A5DC1822-50F5-461F-AA7F-4043FAB5724D"");Dictionary<short,object> resultA5DC182250F5461FAA7F4043FAB5724D=iSpace.ExecuteQuery(querySourceA5DC182250F5461FAA7F4043FAB5724D,@""EXEC LoadFormGridDatacc29fcb5b804498f8b8407ad780fb5af '"" + ISpace[""Instanceid""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""','cc29fcb5-b804-498f-8b84-07ad780fb5af','"" + ISpace[""gv_activitymapid""].Value + @""','"" + ISpace[""growid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"var querySourceA5DC182250F5461FAA7F4043FAB5724D =GetQueryExpressionDataSource(""A5DC1822-50F5-461F-AA7F-4043FAB5724D"");Dictionary<short,object> resultA5DC182250F5461FAA7F4043FAB5724D=iSpace.ExecuteQuery(querySourceA5DC182250F5461FAA7F4043FAB5724D,@""EXEC LoadFormGridDatacc29fcb5b804498f8b8407ad780fb5af '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""','cc29fcb5-b804-498f-8b84-07ad780fb5af','"" + ISpace[""gv_activitymapid""].Value + @""','"" + ISpace[""growid""].Value + @""'"",false);");
 base.WriteDebugInfo(@"EXEC LoadFormGridDatacc29fcb5b804498f8b8407ad780fb5af '@@gv_InstanceId','@@gv_ProcessMapId','cc29fcb5-b804-498f-8b84-07ad780fb5af','@@gv_ActivityMapId','#growid'");
 
 if((resultA5DC182250F5461FAA7F4043FAB5724D!=null) && (resultA5DC182250F5461FAA7F4043FAB5724D.Count!=0))
@@ -2394,10 +2462,8 @@ base.WriteDebugInfo(@"Add-OnClick");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-
-
-base.WriteDebugInfo(@"
-");
+ISpace["UI_AvailablebudgetModal"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_AvailablebudgetModal""].ShowDialog=true;;");
 }
 }
 catch(Exception ex)
@@ -3576,8 +3642,8 @@ base.WriteDebugInfo(@"if(1==1)");
 if(ISpace["MF_P1_ReceiptDate"].Value>CurrentDate())
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_ReceiptDate""].Value>CurrentDate())");
-ISpace["Message"].Value=@"Fund Installment Date should be less than the current date.";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Fund Installment Date should be less than the current date."";");
+ISpace["Message"].Value=@"ERROR:Fund Installment Date should be less than the current date.";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Fund Installment Date should be less than the current date."";");
 ISpace["MF_P1_ReceiptDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MF_P1_ReceiptDate""].Value=null;");
 return;
@@ -3586,8 +3652,8 @@ base.WriteDebugInfo(@"return;");
 if(ISpace["MF_P1_ReceiptDate"].Value<ISpace["C_FC_StartDate_15"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_ReceiptDate""].Value<ISpace[""C_FC_StartDate_15""].Value)");
-ISpace["Message"].Value=@"Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date"";");
+ISpace["Message"].Value=@"SUCCESS:Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date"";");
 ISpace["MF_P1_ReceiptDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MF_P1_ReceiptDate""].Value=null;");
 return;
@@ -3596,8 +3662,8 @@ base.WriteDebugInfo(@"return;");
 if(ISpace["MF_P1_ReceiptDate"].Value>=ISpace["C_FC_EndDate"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_ReceiptDate""].Value>=ISpace[""C_FC_EndDate""].Value)");
-ISpace["Message"].Value=@"Fund Installment Date should be less than Closing Date  or Actual End Date";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Fund Installment Date should be less than Closing Date  or Actual End Date"";");
+ISpace["Message"].Value=@"WARNING:Fund Installment Date should be less than Closing Date  or Actual End Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""WARNING:Fund Installment Date should be less than Closing Date  or Actual End Date"";");
 ISpace["MF_P1_ReceiptDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MF_P1_ReceiptDate""].Value=null;");
 return;
@@ -3779,8 +3845,8 @@ base.WriteDebugInfo(@"ISpace[""Editflag""].Value=null;");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-ISpace["R_ReceiptAmountBalance"].Value=ISpace["MF_P1_ReceiptAmount"].Value - ISpace["R_TotalSplitUpAmount"].Value;
-base.WriteDebugInfo(@"ISpace[""R_ReceiptAmountBalance""].Value=ISpace[""MF_P1_ReceiptAmount""].Value - ISpace[""R_TotalSplitUpAmount""].Value;");
+ISpace["R_ReceiptAmountBalance"].Value=ISpace["MF_P1_ReceiptAmount"].Value-ISpace["R_TotalSplitUpAmount"].Value;
+base.WriteDebugInfo(@"ISpace[""R_ReceiptAmountBalance""].Value=ISpace[""MF_P1_ReceiptAmount""].Value-ISpace[""R_TotalSplitUpAmount""].Value;");
 }
 }
 catch(Exception ex)
@@ -3796,8 +3862,8 @@ try
 base.WriteDebugInfo(@"Delete-OnClick");
 ISpace["growid"].Value=ISpace["ReceiptSplitUp_RowId"].Value;
 base.WriteDebugInfo(@"ISpace[""growid""].Value=ISpace[""ReceiptSplitUp_RowId""].Value;");
-ISpace["UI_DeleteDialog"].ShowDialog=true;;
-base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].ShowDialog=true;;");
+ISpace["UI_Confirmation"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_Confirmation""].ShowDialog=true;;");
 }
 catch(Exception ex)
 {
@@ -3824,12 +3890,12 @@ base.WriteDebugInfo(@"ISpace[""R_TotalSplitUpAmount""].Value=ISpace[""R_TotalSpl
 ISpace["R_ReceiptAmountBalance"].Value=ISpace["R_ReceiptAmountBalance"].Value+ISpace["MG_R2_Amount"].Value;
 base.WriteDebugInfo(@"ISpace[""R_ReceiptAmountBalance""].Value=ISpace[""R_ReceiptAmountBalance""].Value+ISpace[""MG_R2_Amount""].Value;");
 }
-base.WriteDebugInfo(@"EXEC LoadFormGridDatacc29fcb5b804498f8b8407ad780fb5af '#Instanceid','@@gv_ProcessMapId','cc29fcb5-b804-498f-8b84-07ad780fb5af','@@gv_ActivityMapId','#growid'");
+base.WriteDebugInfo(@"EXEC LoadFormGridDatacc29fcb5b804498f8b8407ad780fb5af '@@gv_InstanceId','@@gv_ProcessMapId','cc29fcb5-b804-498f-8b84-07ad780fb5af','@@gv_ActivityMapId','#growid'");
 
 var querySourceA5DC182250F5461FAA7F4043FAB5724D =GetQueryExpressionDataSource("A5DC1822-50F5-461F-AA7F-4043FAB5724D");
-Dictionary<short,object> resultA5DC182250F5461FAA7F4043FAB5724D=iSpace.ExecuteQuery(querySourceA5DC182250F5461FAA7F4043FAB5724D,@"EXEC LoadFormGridDatacc29fcb5b804498f8b8407ad780fb5af '" + ISpace["Instanceid"].Value + @"','" + ISpace["gv_processmapid"].Value + @"','cc29fcb5-b804-498f-8b84-07ad780fb5af','" + ISpace["gv_activitymapid"].Value + @"','" + ISpace["growid"].Value + @"'",false);
+Dictionary<short,object> resultA5DC182250F5461FAA7F4043FAB5724D=iSpace.ExecuteQuery(querySourceA5DC182250F5461FAA7F4043FAB5724D,@"EXEC LoadFormGridDatacc29fcb5b804498f8b8407ad780fb5af '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_processmapid"].Value + @"','cc29fcb5-b804-498f-8b84-07ad780fb5af','" + ISpace["gv_activitymapid"].Value + @"','" + ISpace["growid"].Value + @"'",false);
 
-base.WriteDebugInfo(@"var querySourceA5DC182250F5461FAA7F4043FAB5724D =GetQueryExpressionDataSource(""A5DC1822-50F5-461F-AA7F-4043FAB5724D"");Dictionary<short,object> resultA5DC182250F5461FAA7F4043FAB5724D=iSpace.ExecuteQuery(querySourceA5DC182250F5461FAA7F4043FAB5724D,@""EXEC LoadFormGridDatacc29fcb5b804498f8b8407ad780fb5af '"" + ISpace[""Instanceid""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""','cc29fcb5-b804-498f-8b84-07ad780fb5af','"" + ISpace[""gv_activitymapid""].Value + @""','"" + ISpace[""growid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"var querySourceA5DC182250F5461FAA7F4043FAB5724D =GetQueryExpressionDataSource(""A5DC1822-50F5-461F-AA7F-4043FAB5724D"");Dictionary<short,object> resultA5DC182250F5461FAA7F4043FAB5724D=iSpace.ExecuteQuery(querySourceA5DC182250F5461FAA7F4043FAB5724D,@""EXEC LoadFormGridDatacc29fcb5b804498f8b8407ad780fb5af '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""','cc29fcb5-b804-498f-8b84-07ad780fb5af','"" + ISpace[""gv_activitymapid""].Value + @""','"" + ISpace[""growid""].Value + @""'"",false);");
 base.WriteDebugInfo(@"EXEC LoadFormGridDatacc29fcb5b804498f8b8407ad780fb5af '@@gv_InstanceId','@@gv_ProcessMapId','cc29fcb5-b804-498f-8b84-07ad780fb5af','@@gv_ActivityMapId','#growid'");
 
 if((resultA5DC182250F5461FAA7F4043FAB5724D!=null) && (resultA5DC182250F5461FAA7F4043FAB5724D.Count!=0))
@@ -3865,18 +3931,8 @@ base.WriteDebugInfo(@"Add-OnClick");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-
-if(ISpace["FormVersionId"].Value=="B1CB93DB-7B9C-4661-BE11-02ED3BFD5725")
-{
-iSpace.SetUIControlProperty("UI_AvailablebudgetModal","ShowModal","true",ref  ISpace);;
-}
-
-base.WriteDebugInfo(@"
-if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-BE11-02ED3BFD5725"")
-{
-iSpace.SetUIControlProperty(""UI_AvailablebudgetModal"",""ShowModal"",""true"",ref  ISpace);;
-}
-");
+ISpace["UI_AvailablebudgetModal"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_AvailablebudgetModal""].ShowDialog=true;;");
 }
 }
 catch(Exception ex)
@@ -4409,6 +4465,26 @@ using System;
 								   new Triplet<string, short, short?>("RemarksId",0,
 														   -1),
 								   new Triplet<string, short, short?>("UserName",2,
+														   -1),
+								}
+			},
+							{"17C8E5FF-5228-497B-8E83-DEEEFF92F497", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_R2_BudgetId",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_R2_Amount",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_R2_ReceiptsId",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_R2_ReceiptSplitUpId",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_R2_UpdatedOn",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_R2_UpdatedBy",4,
+														   -1),
+								   new Triplet<string, short, short?>("ReceiptSplitUp_RowId",6,
 														   -1),
 								}
 			},
