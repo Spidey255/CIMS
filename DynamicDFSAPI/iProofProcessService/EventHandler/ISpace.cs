@@ -526,8 +526,9 @@ namespace CPS.Proof.DFSExtension
 
                     rowItem.Child = new List<ServiceElementData>();
 
-                    
-                    if (!string.IsNullOrEmpty(row["RowId"].ToString()))
+                    if (row.Table.Columns.Contains("RowId") &&
+                                row["RowId"] != DBNull.Value &&
+                                    !string.IsNullOrWhiteSpace(row["RowId"].ToString()))                  
                         rowItem.RwId = row["RowId"].ToString();
                     else
                         rowItem.RwId = Guid.NewGuid().ToString();
