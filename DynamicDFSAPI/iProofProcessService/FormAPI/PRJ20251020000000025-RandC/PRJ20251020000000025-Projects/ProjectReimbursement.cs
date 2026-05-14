@@ -2647,8 +2647,6 @@ ISpace["ExecutionMessage"].Value = null;
 }
 ISpace["Message"].Value=@"Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Submitted Successfully"";");
-ISpace.ExecuteInstanceCommand("Submit");
-base.WriteDebugInfo(@"ISpace.ExecuteInstanceCommand(""Submit"");");
 }
 catch(Exception ex)
 {
@@ -3472,8 +3470,6 @@ ISpace["ExecutionMessage"].Value = null;
 }
 ISpace["Message"].Value=@"Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Submitted Successfully"";");
-ISpace.ExecuteInstanceCommand("Submit");
-base.WriteDebugInfo(@"ISpace.ExecuteInstanceCommand(""Submit"");");
 }
 catch(Exception ex)
 {
@@ -4137,8 +4133,6 @@ ISpace["ExecutionMessage"].Value = null;
 }
 ISpace["Message"].Value=@"Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Submitted Successfully"";");
-ISpace.ExecuteInstanceCommand("Submit");
-base.WriteDebugInfo(@"ISpace.ExecuteInstanceCommand(""Submit"");");
 }
 catch(Exception ex)
 {
@@ -4784,8 +4778,6 @@ ISpace["ExecutionMessage"].Value = null;
 }
 ISpace["Message"].Value=@"Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Submitted Successfully"";");
-ISpace.ExecuteInstanceCommand("Submit");
-base.WriteDebugInfo(@"ISpace.ExecuteInstanceCommand(""Submit"");");
 }
 catch(Exception ex)
 {
@@ -5490,8 +5482,6 @@ ISpace["ExecutionMessage"].Value = null;
 }
 ISpace["Message"].Value=@"Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Submitted Successfully"";");
-ISpace.ExecuteInstanceCommand("Submit");
-base.WriteDebugInfo(@"ISpace.ExecuteInstanceCommand(""Submit"");");
 }
 catch(Exception ex)
 {
@@ -6428,8 +6418,6 @@ ISpace["ExecutionMessage"].Value = null;
 }
 ISpace["Message"].Value=@"Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Submitted Successfully"";");
-ISpace.ExecuteInstanceCommand("Submit");
-base.WriteDebugInfo(@"ISpace.ExecuteInstanceCommand(""Submit"");");
 }
 catch(Exception ex)
 {
