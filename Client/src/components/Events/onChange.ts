@@ -161,6 +161,7 @@
 
 
 
+
 import { useGridStore } from "../../store/useGridStore";
 import { useGeneralStore } from "../../store/useStore";
 import { useUserStore } from "../../store/useUserStore";
@@ -175,6 +176,7 @@ import type {
   TValue,
 } from "../../constants/types";
 import { usePageStore } from "../../store/usePageStore";
+import toast from "react-hot-toast";
 
 export async function resusableOnChange(element: UIElement) {
   if (element.Action == "OnChange" && element.BindingDetail) {
@@ -245,6 +247,21 @@ export async function resusableOnChange(element: UIElement) {
           "No rows in response in ACTION BUTTON " + element.Id
         );
 
+        if(data.Message){
+          if(data.Message.split(":")[0].toLowerCase() === "success"){
+            toast.success(data.Message);
+          } else if(data.Message.split(":")[0].toLowerCase() === "warning"){
+            toast.error(data.Message.split(":")[1]);
+          } else if(data.Message.split(":")[0].toLowerCase() === "error"){
+            toast.error(data.Message.split(":")[1]);
+          } else {
+            toast.error(data.Message.split(":")[1]);
+          }
+          // toast.error(data.Message);
+       
+        }
+
+
       // REDIRECTION LOGICS
       const redirectionInfo = data.Rows.filter((row) => Boolean(row["RType"]));
 
@@ -274,15 +291,15 @@ export async function resusableOnChange(element: UIElement) {
       updateDataInfo.forEach((row) => {
         if (row["ElementName"]) {
           updateState[row.ElementName] = {
-            ...currentState[row.ElementName], // ✅ keep existing state
+            ...currentState[row.ElementName], // ? keep existing state
 
             value: row.Value ?? "",
 
-            // ✅ ADD THIS (VISIBLE PART FIX)
+            // ? ADD THIS (VISIBLE PART FIX)
             isVisible: row.Visible,
             visible: row.Visible,
 
-            // ✅ OPTIONAL (if backend sends these)
+            // ? OPTIONAL (if backend sends these)
             ShowDialog: row.ShowDialog ?? false,
             HideDialog: row.HideDialog ?? false,
             ShowModal: row.ShowModal ?? false,

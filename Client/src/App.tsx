@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate, Outlet, useLocation } from "react-router-dom";
-import { Toaster } from "react-hot-toast";
+import { AppToaster } from "@/components/Internal/AppToaster";
 import NotFound from "@/pages/NotFound";
 import GlobalLoader from "@/components/Loader/GlobalLoader";
 import Inbox from "@/components/Inbox/Inbox";
@@ -109,7 +109,7 @@ const App: React.FC = () => {
     <Route path="*" element={<NotFound />} />
   </Routes>
 </Router>
-      <Toaster />
+      <AppToaster />
       <SessionTimeoutModal
         isOpen={sessionExpired}
         onConfirm={handleLogout}

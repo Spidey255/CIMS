@@ -317,6 +317,9 @@
 // export default ActionButton;
 
 
+
+
+
 import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
@@ -422,12 +425,12 @@ const ActionButton: React.FC<ActionButtonProps> = ({
 
       if (formElementsToSave.length && element.ElementName == "SubmitForm") {
         const savedInstanceId = await saveForm({ elements: formElementsToSave, formInstanceId });
-        console.log("Grids saved successfully — IDs:", savedInstanceId);
+        console.log("Grids saved successfully � IDs:", savedInstanceId);
       }
 
       if (gridElementsToSave.length) {
         const savedInstanceId = await  saveGrid({ elements: gridElementsToSave, formInstanceId });
-        console.log("Grids saved successfully — IDs:", savedInstanceId);
+        console.log("Grids saved successfully � IDs:", savedInstanceId);
       }
 
       if (!element.BindingDetail) {
@@ -544,12 +547,22 @@ const ActionButton: React.FC<ActionButtonProps> = ({
         return;
       }
 
-      if (data.Message) {
-        toast.error(data.Message);
-      }
+      if(data.Message){
+          if(data.Message.split(":")[0].toLowerCase() === "success"){
+            toast.success(data.Message);
+          } else if(data.Message.split(":")[0].toLowerCase() === "warning"){
+            toast.error(data.Message.split(":")[1]);
+          } else if(data.Message.split(":")[0].toLowerCase() === "error"){
+            toast.error(data.Message.split(":")[1]);
+          } else {
+            toast.error(data.Message.split(":")[1]);
+          }
+          // toast.error(data.Message);
+       
+        }
 
       // =====================================================
-      // ✅ NEW: UPDATE GENERAL STORE FROM API RESPONSE
+      // ? NEW: UPDATE GENERAL STORE FROM API RESPONSE
       // =====================================================
       const generalStateUpdate: Record<string, IGlobalStateValues> = {};
       const currentState = useGeneralStore.getState().state;
@@ -570,7 +583,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({
             ...currentState[row.ElementName!], // keep existing behavior
             value: row.Value ?? "",
 
-            // ✅ ADD (does NOT affect existing logic)
+            // ? ADD (does NOT affect existing logic)
             ShowDialog: row.ShowDialog ?? false,
             HideDialog: row.HideDialog ?? false,
             ShowModal: row.ShowModal ?? false,
