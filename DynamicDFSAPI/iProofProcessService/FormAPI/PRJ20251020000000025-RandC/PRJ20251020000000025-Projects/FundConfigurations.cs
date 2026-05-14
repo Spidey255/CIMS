@@ -218,9 +218,6 @@ namespace CPS.Proof.DFSExtension
 			     new Tuple<string, int>("MF_FundType",25),
 			
 						
-			     new Tuple<string, int>("MF_DistrubitionDetails",25),
-			
-						
 		};
 
 	   public override int GetGridRPP(string ElementName)
