@@ -2952,7 +2952,7 @@ namespace CPS.Proof.DFSExtension
 
             aggregateValue = null;
 
-            var sqlQuery = @"SELECT {0} FROM {1} WHERE InstanceId={3} AND 1=1 {2}";
+            var sqlQuery = @"SELECT {0} FROM {1} WHERE InstanceId='{3}' AND 1=1 {2}";
 
             try
             {
