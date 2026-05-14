@@ -526,7 +526,11 @@ namespace CPS.Proof.DFSExtension
 
                     rowItem.Child = new List<ServiceElementData>();
 
-                    rowItem.RwId = Guid.NewGuid().ToString();
+                    
+                    if (!string.IsNullOrEmpty(row["RowId"].ToString()))
+                        rowItem.RwId = row["RowId"].ToString();
+                    else
+                        rowItem.RwId = Guid.NewGuid().ToString();
 
                     var indexer = bindings.GetEnumerator();
 
