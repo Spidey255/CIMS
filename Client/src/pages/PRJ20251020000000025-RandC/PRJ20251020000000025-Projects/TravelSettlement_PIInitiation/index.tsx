@@ -31,6 +31,7 @@ import RepeaterFooter from "@/components/Data_Controls/RepeaterFooter";
 import GridHeader from "@/components/Data_Controls/GridHeader.tsx";
 import GridSearchbar from "@/components/Data_Controls/GridSearchbar.tsx";
 import GridFooter from "@/components/Data_Controls/GridFooter.tsx";
+import Horizontalrule from "@/components/UI_Controls/HorizontalRule.tsx";
 import Modal from "@/components/UI_Controls/Modal.tsx";
 import Inline from "@/components/Data_Controls/InlineGrid.tsx";
 import RadioButton from "@/components/Data_Controls/RadioButton.tsx";

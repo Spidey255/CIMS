@@ -1160,11 +1160,11 @@ base.WriteDebugInfo(@"if(ISpace[""MF_FundTypeId""].Value==1)");
 
 var querySource291629D86EDC4ED287968C3E5F8981AB =GetQueryExpressionDataSource("291629D8-6EDC-4ED2-8796-8C3E5F8981AB");
 
-DataTable result291629D86EDC4ED287968C3E5F8981AB=iSpace.SetGridDataSource(querySource291629D86EDC4ED287968C3E5F8981AB, _objectFactory.GetGridRPP("MF_DistrubitionDetails"),@"exec SP_GetDistrubitionDetails 2,"","" + ISpace["MF_FundTypeId"].Value + @"","" + ISpace["MF_DistributionId"].Value + @""");
+DataTable result291629D86EDC4ED287968C3E5F8981AB=iSpace.SetGridDataSource(querySource291629D86EDC4ED287968C3E5F8981AB, _objectFactory.GetGridRPP("MF_DistrubitionDetails"),@"exec SP_GetDistrubitionDetails 2,'','" + ISpace["MF_FundTypeId"].Value + @"','" + ISpace["MF_DistributionId"].Value + @"'");
 
-iSpace.InsertGridBindDetails("MF_DistrubitionDetails","11",querySource291629D86EDC4ED287968C3E5F8981AB,"exec SP_GetDistrubitionDetails 2,"","" + ISpace["MF_FundTypeId"].Value + @"","" + ISpace["MF_DistributionId"].Value + @""",_objectFactory.GetGridRPP("MF_DistrubitionDetails"));
+iSpace.InsertGridBindDetails("MF_DistrubitionDetails","11",querySource291629D86EDC4ED287968C3E5F8981AB,"exec SP_GetDistrubitionDetails 2,'','" + ISpace["MF_FundTypeId"].Value + @"','" + ISpace["MF_DistributionId"].Value + @"'",_objectFactory.GetGridRPP("MF_DistrubitionDetails"));
 
-base.WriteDebugInfo(@"var querySource291629D86EDC4ED287968C3E5F8981AB =GetQueryExpressionDataSource(""291629D8-6EDC-4ED2-8796-8C3E5F8981AB"");DataTable result291629D86EDC4ED287968C3E5F8981AB=iSpace.SetGridDataSource(querySource291629D86EDC4ED287968C3E5F8981AB, _objectFactory.GetGridRPP(""MF_DistrubitionDetails""),@""exec SP_GetDistrubitionDetails 2,"""","""" + ISpace[""MF_FundTypeId""].Value + @"""","""" + ISpace[""MF_DistributionId""].Value + @"""""");iSpace.InsertGridBindDetails(""MF_DistrubitionDetails"",""11"",querySource291629D86EDC4ED287968C3E5F8981AB,""exec SP_GetDistrubitionDetails 2,"""","""" + ISpace[""MF_FundTypeId""].Value + @"""","""" + ISpace[""MF_DistributionId""].Value + @"""""",_objectFactory.GetGridRPP(""MF_DistrubitionDetails""));");
+base.WriteDebugInfo(@"var querySource291629D86EDC4ED287968C3E5F8981AB =GetQueryExpressionDataSource(""291629D8-6EDC-4ED2-8796-8C3E5F8981AB"");DataTable result291629D86EDC4ED287968C3E5F8981AB=iSpace.SetGridDataSource(querySource291629D86EDC4ED287968C3E5F8981AB, _objectFactory.GetGridRPP(""MF_DistrubitionDetails""),@""exec SP_GetDistrubitionDetails 2,'','"" + ISpace[""MF_FundTypeId""].Value + @""','"" + ISpace[""MF_DistributionId""].Value + @""'"");iSpace.InsertGridBindDetails(""MF_DistrubitionDetails"",""11"",querySource291629D86EDC4ED287968C3E5F8981AB,""exec SP_GetDistrubitionDetails 2,'','"" + ISpace[""MF_FundTypeId""].Value + @""','"" + ISpace[""MF_DistributionId""].Value + @""'"",_objectFactory.GetGridRPP(""MF_DistrubitionDetails""));");
 base.WriteDebugInfo(@"");
 
 

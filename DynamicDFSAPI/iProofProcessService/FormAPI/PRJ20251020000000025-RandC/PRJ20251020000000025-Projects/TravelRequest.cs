@@ -3130,10 +3130,6 @@ base.WriteDebugInfo(@"Save_TravelExpense-OnClick");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-ISpace["MG_T2_Departure"].Value=RegularExpression(ISpace["MG_T2_Departure"].Value,"^[a-zA-Z0-9"-]+$","0");
-base.WriteDebugInfo(@"ISpace[""MG_T2_Departure""].Value=RegularExpression(ISpace[""MG_T2_Departure""].Value,""^[a-zA-Z0-9""-]+$"",""0"");");
-ISpace["MG_T2_Arrival"].Value=RegularExpression(ISpace["MG_T2_Arrival"].Value,"^[a-zA-Z0-9"-]+$","0");
-base.WriteDebugInfo(@"ISpace[""MG_T2_Arrival""].Value=RegularExpression(ISpace[""MG_T2_Arrival""].Value,""^[a-zA-Z0-9""-]+$"",""0"");");
 if(ISpace["MFG_T2_ModeofJourney"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_T2_ModeofJourney""].Value=="""")");
@@ -6110,8 +6106,6 @@ base.WriteDebugInfo(@"SubmitForm-OnClick");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-ISpace["MF_TransactionNo"].Value=RegularExpression(ISpace["MF_TransactionNo"].Value,"^[a-zA-Z0-9"-]+$","0");
-base.WriteDebugInfo(@"ISpace[""MF_TransactionNo""].Value=RegularExpression(ISpace[""MF_TransactionNo""].Value,""^[a-zA-Z0-9""-]+$"",""0"");");
 if(ISpace["MF_TransactionNo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_TransactionNo""].Value=="""")");
@@ -7392,10 +7386,6 @@ base.WriteDebugInfo(@"Save_TravelExpense-OnClick");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-ISpace["MG_T2_Departure"].Value=RegularExpression(ISpace["MG_T2_Departure"].Value,"^[a-zA-Z0-9"-]+$","0");
-base.WriteDebugInfo(@"ISpace[""MG_T2_Departure""].Value=RegularExpression(ISpace[""MG_T2_Departure""].Value,""^[a-zA-Z0-9""-]+$"",""0"");");
-ISpace["MG_T2_Arrival"].Value=RegularExpression(ISpace["MG_T2_Arrival"].Value,"^[a-zA-Z0-9"-]+$","0");
-base.WriteDebugInfo(@"ISpace[""MG_T2_Arrival""].Value=RegularExpression(ISpace[""MG_T2_Arrival""].Value,""^[a-zA-Z0-9""-]+$"",""0"");");
 if(ISpace["MFG_T2_ModeofJourney"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_T2_ModeofJourney""].Value=="""")");
