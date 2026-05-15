@@ -2658,10 +2658,6 @@ return;
 base.WriteDebugInfo(@"return;");
 }
 }
-object M_DocumentDetailsId=iSpace.Count("[B5EF84C8-83A9-4B1C-9431-0489F9EC063B]","M_DocumentDetailsId","",ISpace["gv_instanceid"].Value);
-ISpace["MF_CountDoc"].Value= Convert.ChangeType(M_DocumentDetailsId, M_DocumentDetailsId.GetType());;
-base.WriteDebugInfo(@"object M_DocumentDetailsId=iSpace.Count(""[B5EF84C8-83A9-4B1C-9431-0489F9EC063B]"",""M_DocumentDetailsId"","""",ISpace[""gv_instanceid""].Value);
-ISpace[""MF_CountDoc""].Value= Convert.ChangeType(M_DocumentDetailsId, M_DocumentDetailsId.GetType());;");
 if(ISpace["MF_CountDoc"].Value>0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_CountDoc""].Value>0)");
@@ -6940,10 +6936,6 @@ return;
 base.WriteDebugInfo(@"return;");
 }
 }
-object M_DocumentDetailsId=iSpace.Count("[B5EF84C8-83A9-4B1C-9431-0489F9EC063B]","M_DocumentDetailsId","",ISpace["gv_instanceid"].Value);
-ISpace["MF_CountDoc"].Value= Convert.ChangeType(M_DocumentDetailsId, M_DocumentDetailsId.GetType());;
-base.WriteDebugInfo(@"object M_DocumentDetailsId=iSpace.Count(""[B5EF84C8-83A9-4B1C-9431-0489F9EC063B]"",""M_DocumentDetailsId"","""",ISpace[""gv_instanceid""].Value);
-ISpace[""MF_CountDoc""].Value= Convert.ChangeType(M_DocumentDetailsId, M_DocumentDetailsId.GetType());;");
 if(ISpace["MF_CountDoc"].Value>0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_CountDoc""].Value>0)");

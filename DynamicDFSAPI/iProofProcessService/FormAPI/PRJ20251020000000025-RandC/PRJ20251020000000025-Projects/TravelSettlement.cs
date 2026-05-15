@@ -3284,21 +3284,9 @@ base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter at least one Fun
 return;
 base.WriteDebugInfo(@"return;");
 }
-object M_DocumentDetailsId=iSpace.Count("[2624976A-0052-420C-8D20-F5C9444C7A48]","M_DocumentDetailsId","",ISpace["gv_instanceid"].Value);
-ISpace["MF_CountDoc"].Value= Convert.ChangeType(M_DocumentDetailsId, M_DocumentDetailsId.GetType());;
-base.WriteDebugInfo(@"object M_DocumentDetailsId=iSpace.Count(""[2624976A-0052-420C-8D20-F5C9444C7A48]"",""M_DocumentDetailsId"","""",ISpace[""gv_instanceid""].Value);
-ISpace[""MF_CountDoc""].Value= Convert.ChangeType(M_DocumentDetailsId, M_DocumentDetailsId.GetType());;");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-if(ISpace["MF_CountDoc"].Value==0)
-{
-base.WriteDebugInfo(@"if(ISpace[""MF_CountDoc""].Value==0)");
-ISpace["Message"].Value=@"Please enter at least one Document Details";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter at least one Document Details"";");
-return;
-base.WriteDebugInfo(@"return;");
-}
 base.WriteDebugInfo(@"#MG_DcoumentDetails[Rows]");
 iSpace.GetLoopExpressionData("MG_DcoumentDetails",ref ISpace);
 
@@ -7991,21 +7979,9 @@ base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter at least one Fun
 return;
 base.WriteDebugInfo(@"return;");
 }
-object M_DocumentDetailsId=iSpace.Count("[2624976A-0052-420C-8D20-F5C9444C7A48]","M_DocumentDetailsId","",ISpace["gv_instanceid"].Value);
-ISpace["MF_CountDoc"].Value= Convert.ChangeType(M_DocumentDetailsId, M_DocumentDetailsId.GetType());;
-base.WriteDebugInfo(@"object M_DocumentDetailsId=iSpace.Count(""[2624976A-0052-420C-8D20-F5C9444C7A48]"",""M_DocumentDetailsId"","""",ISpace[""gv_instanceid""].Value);
-ISpace[""MF_CountDoc""].Value= Convert.ChangeType(M_DocumentDetailsId, M_DocumentDetailsId.GetType());;");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-if(ISpace["MF_CountDoc"].Value==0)
-{
-base.WriteDebugInfo(@"if(ISpace[""MF_CountDoc""].Value==0)");
-ISpace["Message"].Value=@"Please enter at least one Document Details";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter at least one Document Details"";");
-return;
-base.WriteDebugInfo(@"return;");
-}
 base.WriteDebugInfo(@"#MG_DcoumentDetails[Rows]");
 iSpace.GetLoopExpressionData("MG_DcoumentDetails",ref ISpace);
 
