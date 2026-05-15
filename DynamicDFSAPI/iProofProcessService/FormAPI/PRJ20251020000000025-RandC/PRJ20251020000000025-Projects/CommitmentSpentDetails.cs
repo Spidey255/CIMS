@@ -794,11 +794,11 @@ base.WriteDebugInfo(@"if(1==1)");
 
 var querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA =GetQueryExpressionDataSource("D81D3EDF-DDF6-4F81-A44C-3C2187BB3EBA");
 
-DataTable resultD81D3EDFDDF64F81A44C3C2187BB3EBA=iSpace.SetGridDataSource(querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA, _objectFactory.GetGridRPP("MG_CommitmentDetails"),@"EXEC GetProjectBudgetInformation '" + ISpace["MF_ProjectNo"].Value + @"'");
+DataTable resultD81D3EDFDDF64F81A44C3C2187BB3EBA=iSpace.SetGridDataSource(querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA, _objectFactory.GetGridRPP("MG_CommitmentDetails"),@"EXEC GetProjectBudgetInformation "" + ISpace["MF_ProjectNo"].Value + @""");
 
-iSpace.InsertGridBindDetails("MG_CommitmentDetails","11",querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA,"EXEC GetProjectBudgetInformation '" + ISpace["MF_ProjectNo"].Value + @"'",_objectFactory.GetGridRPP("MG_CommitmentDetails"));
+iSpace.InsertGridBindDetails("MG_CommitmentDetails","11",querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA,"EXEC GetProjectBudgetInformation "" + ISpace["MF_ProjectNo"].Value + @""",_objectFactory.GetGridRPP("MG_CommitmentDetails"));
 
-base.WriteDebugInfo(@"var querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA =GetQueryExpressionDataSource(""D81D3EDF-DDF6-4F81-A44C-3C2187BB3EBA"");DataTable resultD81D3EDFDDF64F81A44C3C2187BB3EBA=iSpace.SetGridDataSource(querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA, _objectFactory.GetGridRPP(""MG_CommitmentDetails""),@""EXEC GetProjectBudgetInformation '"" + ISpace[""MF_ProjectNo""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_CommitmentDetails"",""11"",querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA,""EXEC GetProjectBudgetInformation '"" + ISpace[""MF_ProjectNo""].Value + @""'"",_objectFactory.GetGridRPP(""MG_CommitmentDetails""));");
+base.WriteDebugInfo(@"var querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA =GetQueryExpressionDataSource(""D81D3EDF-DDF6-4F81-A44C-3C2187BB3EBA"");DataTable resultD81D3EDFDDF64F81A44C3C2187BB3EBA=iSpace.SetGridDataSource(querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA, _objectFactory.GetGridRPP(""MG_CommitmentDetails""),@""EXEC GetProjectBudgetInformation """" + ISpace[""MF_ProjectNo""].Value + @"""""");iSpace.InsertGridBindDetails(""MG_CommitmentDetails"",""11"",querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA,""EXEC GetProjectBudgetInformation """" + ISpace[""MF_ProjectNo""].Value + @"""""",_objectFactory.GetGridRPP(""MG_CommitmentDetails""));");
 base.WriteDebugInfo(@"");
 
 
@@ -824,11 +824,11 @@ base.WriteDebugInfo(@"if(1==1)");
 
 var querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA =GetQueryExpressionDataSource("D81D3EDF-DDF6-4F81-A44C-3C2187BB3EBA");
 
-DataTable resultD81D3EDFDDF64F81A44C3C2187BB3EBA=iSpace.SetGridDataSource(querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA, _objectFactory.GetGridRPP("MG_CommitmentDetails"),@"EXEC GetProjectBudgetInformation '" + ISpace["MF_ProjectNo"].Value + @"'");
+DataTable resultD81D3EDFDDF64F81A44C3C2187BB3EBA=iSpace.SetGridDataSource(querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA, _objectFactory.GetGridRPP("MG_CommitmentDetails"),@"EXEC GetProjectBudgetInformation "" + ISpace["MF_ProjectNo"].Value + @""");
 
-iSpace.InsertGridBindDetails("MG_CommitmentDetails","11",querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA,"EXEC GetProjectBudgetInformation '" + ISpace["MF_ProjectNo"].Value + @"'",_objectFactory.GetGridRPP("MG_CommitmentDetails"));
+iSpace.InsertGridBindDetails("MG_CommitmentDetails","11",querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA,"EXEC GetProjectBudgetInformation "" + ISpace["MF_ProjectNo"].Value + @""",_objectFactory.GetGridRPP("MG_CommitmentDetails"));
 
-base.WriteDebugInfo(@"var querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA =GetQueryExpressionDataSource(""D81D3EDF-DDF6-4F81-A44C-3C2187BB3EBA"");DataTable resultD81D3EDFDDF64F81A44C3C2187BB3EBA=iSpace.SetGridDataSource(querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA, _objectFactory.GetGridRPP(""MG_CommitmentDetails""),@""EXEC GetProjectBudgetInformation '"" + ISpace[""MF_ProjectNo""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_CommitmentDetails"",""11"",querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA,""EXEC GetProjectBudgetInformation '"" + ISpace[""MF_ProjectNo""].Value + @""'"",_objectFactory.GetGridRPP(""MG_CommitmentDetails""));");
+base.WriteDebugInfo(@"var querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA =GetQueryExpressionDataSource(""D81D3EDF-DDF6-4F81-A44C-3C2187BB3EBA"");DataTable resultD81D3EDFDDF64F81A44C3C2187BB3EBA=iSpace.SetGridDataSource(querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA, _objectFactory.GetGridRPP(""MG_CommitmentDetails""),@""EXEC GetProjectBudgetInformation """" + ISpace[""MF_ProjectNo""].Value + @"""""");iSpace.InsertGridBindDetails(""MG_CommitmentDetails"",""11"",querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA,""EXEC GetProjectBudgetInformation """" + ISpace[""MF_ProjectNo""].Value + @"""""",_objectFactory.GetGridRPP(""MG_CommitmentDetails""));");
 base.WriteDebugInfo(@"");
 
 
