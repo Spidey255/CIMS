@@ -2208,6 +2208,14 @@ if(1==1)
 base.WriteDebugInfo(@"if(1==1)");
 ISpace["M_InitiatorUserMapId"].Value=ISpace["gv_usermapid"].Value;
 base.WriteDebugInfo(@"ISpace[""M_InitiatorUserMapId""].Value=ISpace[""gv_usermapid""].Value;");
+if(ISpace["FormVersionId"].Value=="817AE0D5-4499-4C2A-9284-F655B64E42CE")
+{
+ISpace["UI_InvisibleRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""817AE0D5-4499-4C2A-9284-F655B64E42CE"")
+{
+ISpace[""UI_InvisibleRow""].Visible=""false"";
+}");
 base.WriteDebugInfo(@"EXEC [GetEmployeeUserContextDetails] '@@gv_UserId'");
 
 var querySource805F857AE6164D34A84914552D9D77C8 =GetQueryExpressionDataSource("805F857A-E616-4D34-A849-14552D9D77C8");
@@ -2706,12 +2714,146 @@ ISpace["MF_TravelStatus"].Value="I";
 base.WriteDebugInfo(@"ISpace[""MF_TravelStatus""].Value=""I"";");
 ISpace["M_IsCommitment"].Value=1;
 base.WriteDebugInfo(@"ISpace[""M_IsCommitment""].Value=1;");
+if(ISpace["M_SaveDomainData"].Value==1||1==1)
+{
+base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1||1==1)");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '#CreatedOn','#MF_T1_BankDocument','#MF_T1_ReferenceNo','#MF_T1_AccountNo','#OverAll_Total','#UC_EmployeeBaicInfoId','#M_TravelPlace','#MF_T1_AdvanceAmount','#MF_T1_BankName','#MF_T1_TravelAdvanceID','#MF_T1_JourneyPurpose','#Travel_Type','#MF_T1_BeneficiaryName','#gv_UserId','#MF_TransactionNo','#MF_TravelStatus','#MF_TransactionDate','#M_IsAdvanceRequired'");
+
+var querySourceD16F9C83EA714542AB4DE3D99AB969B2 =GetQueryExpressionDataSource("D16F9C83-EA71-4542-AB4D-E3D99AB969B2");
+Dictionary<short,object> resultD16F9C83EA714542AB4DE3D99AB969B2=iSpace.ExecuteQuery(querySourceD16F9C83EA714542AB4DE3D99AB969B2,@"EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '" + ISpace["CreatedOn"].Value + @"','" + ISpace["MF_T1_BankDocument"].Value + @"','" + ISpace["MF_T1_ReferenceNo"].Value + @"','" + ISpace["MF_T1_AccountNo"].Value + @"','" + ISpace["OverAll_Total"].Value + @"','" + ISpace["UC_EmployeeBaicInfoId"].Value + @"','" + ISpace["M_TravelPlace"].Value + @"','" + ISpace["MF_T1_AdvanceAmount"].Value + @"','" + ISpace["MF_T1_BankName"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MF_T1_JourneyPurpose"].Value + @"','" + ISpace["Travel_Type"].Value + @"','" + ISpace["MF_T1_BeneficiaryName"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["MF_TransactionNo"].Value + @"','" + ISpace["MF_TravelStatus"].Value + @"','" + ISpace["MF_TransactionDate"].Value + @"','" + ISpace["M_IsAdvanceRequired"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourceD16F9C83EA714542AB4DE3D99AB969B2 =GetQueryExpressionDataSource(""D16F9C83-EA71-4542-AB4D-E3D99AB969B2"");Dictionary<short,object> resultD16F9C83EA714542AB4DE3D99AB969B2=iSpace.ExecuteQuery(querySourceD16F9C83EA714542AB4DE3D99AB969B2,@""EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '"" + ISpace[""CreatedOn""].Value + @""','"" + ISpace[""MF_T1_BankDocument""].Value + @""','"" + ISpace[""MF_T1_ReferenceNo""].Value + @""','"" + ISpace[""MF_T1_AccountNo""].Value + @""','"" + ISpace[""OverAll_Total""].Value + @""','"" + ISpace[""UC_EmployeeBaicInfoId""].Value + @""','"" + ISpace[""M_TravelPlace""].Value + @""','"" + ISpace[""MF_T1_AdvanceAmount""].Value + @""','"" + ISpace[""MF_T1_BankName""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MF_T1_JourneyPurpose""].Value + @""','"" + ISpace[""Travel_Type""].Value + @""','"" + ISpace[""MF_T1_BeneficiaryName""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""MF_TransactionNo""].Value + @""','"" + ISpace[""MF_TravelStatus""].Value + @""','"" + ISpace[""MF_TransactionDate""].Value + @""','"" + ISpace[""M_IsAdvanceRequired""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultD16F9C83EA714542AB4DE3D99AB969B2!=null) && (resultD16F9C83EA714542AB4DE3D99AB969B2.Count!=0))
+{
+}
+else{
+
+}
+base.WriteDebugInfo(@"EXEC Repo51838b372ec64d358a5e38648bc93ab1 '#gv_UserId','#UpdatedOn','#MF_T1_TravelAdvanceID','#MG_T2_ToDate','#MG_T2_FromDate','#M_IsTravelRequest','#MG_T2_ExpenditureTypeID','#Expenditure_Type','#MG_T3_Amount'");
+
+var querySource864963C6427C451F8C30D7E8FCDD4228 =GetQueryExpressionDataSource("864963C6-427C-451F-8C30-D7E8FCDD4228");
+Dictionary<short,object> result864963C6427C451F8C30D7E8FCDD4228=iSpace.ExecuteQuery(querySource864963C6427C451F8C30D7E8FCDD4228,@"EXEC Repo51838b372ec64d358a5e38648bc93ab1 '" + ISpace["gv_UserId"].Value + @"','" + ISpace["UpdatedOn"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_T2_ToDate"].Value + @"','" + ISpace["MG_T2_FromDate"].Value + @"','" + ISpace["M_IsTravelRequest"].Value + @"','" + ISpace["MG_T2_ExpenditureTypeID"].Value + @"','" + ISpace["Expenditure_Type"].Value + @"','" + ISpace["MG_T3_Amount"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource864963C6427C451F8C30D7E8FCDD4228 =GetQueryExpressionDataSource(""864963C6-427C-451F-8C30-D7E8FCDD4228"");Dictionary<short,object> result864963C6427C451F8C30D7E8FCDD4228=iSpace.ExecuteQuery(querySource864963C6427C451F8C30D7E8FCDD4228,@""EXEC Repo51838b372ec64d358a5e38648bc93ab1 '"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""UpdatedOn""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_T2_ToDate""].Value + @""','"" + ISpace[""MG_T2_FromDate""].Value + @""','"" + ISpace[""M_IsTravelRequest""].Value + @""','"" + ISpace[""MG_T2_ExpenditureTypeID""].Value + @""','"" + ISpace[""Expenditure_Type""].Value + @""','"" + ISpace[""MG_T3_Amount""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result864963C6427C451F8C30D7E8FCDD4228!=null) && (result864963C6427C451F8C30D7E8FCDD4228.Count!=0))
+{
+}
+else{
+
+}
+base.WriteDebugInfo(@"EXEC Repo374fb8a88dd94cf1bf73f40ae18fcad7 '#M_IsTravelRequest','#UpdatedOn','#MG_T2_TADetailsID','#gv_UserId','#MG_T2_DepartureDate','#MG_T2_DepartureTime','#MG_T2_ArrivalDate','#MG_T2_Road','#MF_T1_TravelAdvanceID','#MG_T2_Departure','#MG_T2_Amount','#MG_T2_JourneyClass','#MG_T2_Arrival','#MG_T2_PNRNo','#MG_T2_ModeofJourney','#MG_T2_ArrivalTime'");
+
+var querySourceEBE446FD1D9E41DEB663DEAA6EE73345 =GetQueryExpressionDataSource("EBE446FD-1D9E-41DE-B663-DEAA6EE73345");
+Dictionary<short,object> resultEBE446FD1D9E41DEB663DEAA6EE73345=iSpace.ExecuteQuery(querySourceEBE446FD1D9E41DEB663DEAA6EE73345,@"EXEC Repo374fb8a88dd94cf1bf73f40ae18fcad7 '" + ISpace["M_IsTravelRequest"].Value + @"','" + ISpace["UpdatedOn"].Value + @"','" + ISpace["MG_T2_TADetailsID"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["MG_T2_DepartureDate"].Value + @"','" + ISpace["MG_T2_DepartureTime"].Value + @"','" + ISpace["MG_T2_ArrivalDate"].Value + @"','" + ISpace["MG_T2_Road"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_T2_Departure"].Value + @"','" + ISpace["MG_T2_Amount"].Value + @"','" + ISpace["MG_T2_JourneyClass"].Value + @"','" + ISpace["MG_T2_Arrival"].Value + @"','" + ISpace["MG_T2_PNRNo"].Value + @"','" + ISpace["MG_T2_ModeofJourney"].Value + @"','" + ISpace["MG_T2_ArrivalTime"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourceEBE446FD1D9E41DEB663DEAA6EE73345 =GetQueryExpressionDataSource(""EBE446FD-1D9E-41DE-B663-DEAA6EE73345"");Dictionary<short,object> resultEBE446FD1D9E41DEB663DEAA6EE73345=iSpace.ExecuteQuery(querySourceEBE446FD1D9E41DEB663DEAA6EE73345,@""EXEC Repo374fb8a88dd94cf1bf73f40ae18fcad7 '"" + ISpace[""M_IsTravelRequest""].Value + @""','"" + ISpace[""UpdatedOn""].Value + @""','"" + ISpace[""MG_T2_TADetailsID""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""MG_T2_DepartureDate""].Value + @""','"" + ISpace[""MG_T2_DepartureTime""].Value + @""','"" + ISpace[""MG_T2_ArrivalDate""].Value + @""','"" + ISpace[""MG_T2_Road""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_T2_Departure""].Value + @""','"" + ISpace[""MG_T2_Amount""].Value + @""','"" + ISpace[""MG_T2_JourneyClass""].Value + @""','"" + ISpace[""MG_T2_Arrival""].Value + @""','"" + ISpace[""MG_T2_PNRNo""].Value + @""','"" + ISpace[""MG_T2_ModeofJourney""].Value + @""','"" + ISpace[""MG_T2_ArrivalTime""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultEBE446FD1D9E41DEB663DEAA6EE73345!=null) && (resultEBE446FD1D9E41DEB663DEAA6EE73345.Count!=0))
+{
+}
+else{
+
+}
+base.WriteDebugInfo(@"EXEC DocumentsDomain '#M_DocumentDetailsId','#M_PackageProcessMapId','#UpdatedOn','#M_DocumentName','#gv_UserId','#M_UploadDcoument','#MF_T1_TravelAdvanceID'");
+
+var querySource1D2378FB2963489899022B61F44BE0AD =GetQueryExpressionDataSource("1D2378FB-2963-4898-9902-2B61F44BE0AD");
+Dictionary<short,object> result1D2378FB2963489899022B61F44BE0AD=iSpace.ExecuteQuery(querySource1D2378FB2963489899022B61F44BE0AD,@"EXEC DocumentsDomain '" + ISpace["M_DocumentDetailsId"].Value + @"','" + ISpace["M_PackageProcessMapId"].Value + @"','" + ISpace["UpdatedOn"].Value + @"','" + ISpace["M_DocumentName"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["M_UploadDcoument"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource1D2378FB2963489899022B61F44BE0AD =GetQueryExpressionDataSource(""1D2378FB-2963-4898-9902-2B61F44BE0AD"");Dictionary<short,object> result1D2378FB2963489899022B61F44BE0AD=iSpace.ExecuteQuery(querySource1D2378FB2963489899022B61F44BE0AD,@""EXEC DocumentsDomain '"" + ISpace[""M_DocumentDetailsId""].Value + @""','"" + ISpace[""M_PackageProcessMapId""].Value + @""','"" + ISpace[""UpdatedOn""].Value + @""','"" + ISpace[""M_DocumentName""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""M_UploadDcoument""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result1D2378FB2963489899022B61F44BE0AD!=null) && (result1D2378FB2963489899022B61F44BE0AD.Count!=0))
+{
+}
+else{
+
+}
+base.WriteDebugInfo(@"#MF_FundAmount[rows]");
+iSpace.GetLoopExpressionData("MF_FundAmount",ref ISpace);
+
+foreach(var gridChild in ISpace["MF_FundAmount"].Child)
+{foreach(var gridrow in gridChild.Child)
+ {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
+
+
+if(
+ISpace["MG_FundTypeId"].Value==1)
+{
+base.WriteDebugInfo(@"
+if(
+ISpace[""MG_FundTypeId""].Value==1)");
+base.WriteDebugInfo(@"EXEC ProjectApprovalCommittmentDetails '#MG_Amount','#MF_T1_TravelAdvanceID','#MG_ProjectDetailsId','#MG_BudgetHead','#gv_ProcessMapId'");
+
+var querySource4213CFEEA88E4B67BEECB0AEF4337465 =GetQueryExpressionDataSource("4213CFEE-A88E-4B67-BEEC-B0AEF4337465");
+Dictionary<short,object> result4213CFEEA88E4B67BEECB0AEF4337465=iSpace.ExecuteQuery(querySource4213CFEEA88E4B67BEECB0AEF4337465,@"EXEC ProjectApprovalCommittmentDetails '" + ISpace["MG_Amount"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_ProjectDetailsId"].Value + @"','" + ISpace["MG_BudgetHead"].Value + @"','" + ISpace["gv_ProcessMapId"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource4213CFEEA88E4B67BEECB0AEF4337465 =GetQueryExpressionDataSource(""4213CFEE-A88E-4B67-BEEC-B0AEF4337465"");Dictionary<short,object> result4213CFEEA88E4B67BEECB0AEF4337465=iSpace.ExecuteQuery(querySource4213CFEEA88E4B67BEECB0AEF4337465,@""EXEC ProjectApprovalCommittmentDetails '"" + ISpace[""MG_Amount""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_ProjectDetailsId""].Value + @""','"" + ISpace[""MG_BudgetHead""].Value + @""','"" + ISpace[""gv_ProcessMapId""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result4213CFEEA88E4B67BEECB0AEF4337465!=null) && (result4213CFEEA88E4B67BEECB0AEF4337465.Count!=0))
+{
+}
+else{
+
+}
+}
+}
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MF_FundAmount","AD9C54EC-27A0-4C21-9923-063084E3B588",_objectFactory.GetGridRPP("MF_FundAmount"),_elementBase.GetGridLoopQuery("AD9C54EC-27A0-4C21-9923-063084E3B588","MF_FundAmount",ISpace), ref ISpace);
+base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""MF_FundAmount"",ref ISpace);
+
+foreach(var gridChild in ISpace[""MF_FundAmount""].Child)
+{foreach(var gridrow in gridChild.Child)
+ {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
+");
+}
+if(1==2)
+{
+base.WriteDebugInfo(@"if(1==2)");
+base.WriteDebugInfo(@"#MF_FundAmount[Rows]");
+iSpace.GetLoopExpressionData("MF_FundAmount",ref ISpace);
+
+foreach(var gridChild in ISpace["MF_FundAmount"].Child)
+{foreach(var gridrow in gridChild.Child)
+ {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
+
+base.WriteDebugInfo(@"EXEC UpsertProjectBudgetDetails 5,'#MG_ProjectDetailsId','#MF_T1_TravelAdvanceID','#MG_Amount','#MG_BudgetHead','1','#MG_FundTypeid','#M_PackageProcessMapId','#UC_EmployeeBaicInfoId'");
+
+var querySourceEA86EC989465469D97F236E0D8B7BEB7 =GetQueryExpressionDataSource("EA86EC98-9465-469D-97F2-36E0D8B7BEB7");
+Dictionary<short,object> resultEA86EC989465469D97F236E0D8B7BEB7=iSpace.ExecuteQuery(querySourceEA86EC989465469D97F236E0D8B7BEB7,@"EXEC UpsertProjectBudgetDetails 5,'" + ISpace["MG_ProjectDetailsId"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_Amount"].Value + @"','" + ISpace["MG_BudgetHead"].Value + @"','1','" + ISpace["MG_FundTypeid"].Value + @"','" + ISpace["M_PackageProcessMapId"].Value + @"','" + ISpace["UC_EmployeeBaicInfoId"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourceEA86EC989465469D97F236E0D8B7BEB7 =GetQueryExpressionDataSource(""EA86EC98-9465-469D-97F2-36E0D8B7BEB7"");Dictionary<short,object> resultEA86EC989465469D97F236E0D8B7BEB7=iSpace.ExecuteQuery(querySourceEA86EC989465469D97F236E0D8B7BEB7,@""EXEC UpsertProjectBudgetDetails 5,'"" + ISpace[""MG_ProjectDetailsId""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_Amount""].Value + @""','"" + ISpace[""MG_BudgetHead""].Value + @""','1','"" + ISpace[""MG_FundTypeid""].Value + @""','"" + ISpace[""M_PackageProcessMapId""].Value + @""','"" + ISpace[""UC_EmployeeBaicInfoId""].Value + @""'"",false);");
+}
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MF_FundAmount","AD9C54EC-27A0-4C21-9923-063084E3B588",_objectFactory.GetGridRPP("MF_FundAmount"),_elementBase.GetGridLoopQuery("AD9C54EC-27A0-4C21-9923-063084E3B588","MF_FundAmount",ISpace), ref ISpace);
+base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""MF_FundAmount"",ref ISpace);
+
+foreach(var gridChild in ISpace[""MF_FundAmount""].Child)
+{foreach(var gridrow in gridChild.Child)
+ {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
+");
+}
+}
 base.WriteDebugInfo(@"EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '#CreatedOn','#MF_T1_BankDocument','#MF_T1_ReferenceNo','#MF_T1_AccountNo','#OverAll_Total','#UC_EmployeeBaicInfoId','#M_TravelPlace','#MF_T1_AdvanceAmount','#MF_T1_BankName','#MF_T1_TravelAdvanceID','#MF_T1_JourneyPurpose','#Travel_Type','#MF_T1_BeneficiaryName','#gv_UserId','#MF_TransactionNo','#MF_TravelStatus','#MF_TransactionDate','#M_IsAdvanceRequired'");
 
 var querySource5BE98974AD594580A75130D0492B011E =GetQueryExpressionDataSource("5BE98974-AD59-4580-A751-30D0492B011E");
 Dictionary<short,object> result5BE98974AD594580A75130D0492B011E=iSpace.ExecuteQuery(querySource5BE98974AD594580A75130D0492B011E,@"EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '" + ISpace["CreatedOn"].Value + @"','" + ISpace["MF_T1_BankDocument"].Value + @"','" + ISpace["MF_T1_ReferenceNo"].Value + @"','" + ISpace["MF_T1_AccountNo"].Value + @"','" + ISpace["OverAll_Total"].Value + @"','" + ISpace["UC_EmployeeBaicInfoId"].Value + @"','" + ISpace["M_TravelPlace"].Value + @"','" + ISpace["MF_T1_AdvanceAmount"].Value + @"','" + ISpace["MF_T1_BankName"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MF_T1_JourneyPurpose"].Value + @"','" + ISpace["Travel_Type"].Value + @"','" + ISpace["MF_T1_BeneficiaryName"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["MF_TransactionNo"].Value + @"','" + ISpace["MF_TravelStatus"].Value + @"','" + ISpace["MF_TransactionDate"].Value + @"','" + ISpace["M_IsAdvanceRequired"].Value + @"'",false);
 
 base.WriteDebugInfo(@"var querySource5BE98974AD594580A75130D0492B011E =GetQueryExpressionDataSource(""5BE98974-AD59-4580-A751-30D0492B011E"");Dictionary<short,object> result5BE98974AD594580A75130D0492B011E=iSpace.ExecuteQuery(querySource5BE98974AD594580A75130D0492B011E,@""EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '"" + ISpace[""CreatedOn""].Value + @""','"" + ISpace[""MF_T1_BankDocument""].Value + @""','"" + ISpace[""MF_T1_ReferenceNo""].Value + @""','"" + ISpace[""MF_T1_AccountNo""].Value + @""','"" + ISpace[""OverAll_Total""].Value + @""','"" + ISpace[""UC_EmployeeBaicInfoId""].Value + @""','"" + ISpace[""M_TravelPlace""].Value + @""','"" + ISpace[""MF_T1_AdvanceAmount""].Value + @""','"" + ISpace[""MF_T1_BankName""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MF_T1_JourneyPurpose""].Value + @""','"" + ISpace[""Travel_Type""].Value + @""','"" + ISpace[""MF_T1_BeneficiaryName""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""MF_TransactionNo""].Value + @""','"" + ISpace[""MF_TravelStatus""].Value + @""','"" + ISpace[""MF_TransactionDate""].Value + @""','"" + ISpace[""M_IsAdvanceRequired""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result5BE98974AD594580A75130D0492B011E!=null) && (result5BE98974AD594580A75130D0492B011E.Count!=0))
+{
+}
+else{
+
+}
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
@@ -4496,9 +4638,9 @@ ISpace["MF_TravelStatus"].Value="A";
 base.WriteDebugInfo(@"ISpace[""MF_TravelStatus""].Value=""A"";");
 ISpace["M_IsCommitment"].Value=0;
 base.WriteDebugInfo(@"ISpace[""M_IsCommitment""].Value=0;");
-if(ISpace["M_SaveDomainData"].Value==1)
+if(ISpace["M_SaveDomainData"].Value==1||1==1)
 {
-base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1)");
+base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1||1==1)");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
@@ -5089,9 +5231,9 @@ ISpace["MF_TravelStatus"].Value="A";
 base.WriteDebugInfo(@"ISpace[""MF_TravelStatus""].Value=""A"";");
 ISpace["M_IsCommitment"].Value=0;
 base.WriteDebugInfo(@"ISpace[""M_IsCommitment""].Value=0;");
-if(ISpace["M_SaveDomainData"].Value==1)
+if(ISpace["M_SaveDomainData"].Value==1||1==1)
 {
-base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1)");
+base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1||1==1)");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
@@ -5666,9 +5808,9 @@ ISpace["MF_TravelStatus"].Value="A";
 base.WriteDebugInfo(@"ISpace[""MF_TravelStatus""].Value=""A"";");
 ISpace["M_IsCommitment"].Value=0;
 base.WriteDebugInfo(@"ISpace[""M_IsCommitment""].Value=0;");
-if(ISpace["M_SaveDomainData"].Value==1)
+if(ISpace["M_SaveDomainData"].Value==1||1==1)
 {
-base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1)");
+base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1||1==1)");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
@@ -6119,9 +6261,9 @@ ISpace["MF_TravelStatus"].Value="A";
 base.WriteDebugInfo(@"ISpace[""MF_TravelStatus""].Value=""A"";");
 ISpace["M_IsCommitment"].Value=0;
 base.WriteDebugInfo(@"ISpace[""M_IsCommitment""].Value=0;");
-if(ISpace["M_SaveDomainData"].Value==1)
+if(ISpace["M_SaveDomainData"].Value==1||1==1)
 {
-base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1)");
+base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1||1==1)");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
@@ -6998,6 +7140,14 @@ var querySource5BE98974AD594580A75130D0492B011E =GetQueryExpressionDataSource("5
 Dictionary<short,object> result5BE98974AD594580A75130D0492B011E=iSpace.ExecuteQuery(querySource5BE98974AD594580A75130D0492B011E,@"EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '" + ISpace["CreatedOn"].Value + @"','" + ISpace["MF_T1_BankDocument"].Value + @"','" + ISpace["MF_T1_ReferenceNo"].Value + @"','" + ISpace["MF_T1_AccountNo"].Value + @"','" + ISpace["OverAll_Total"].Value + @"','" + ISpace["UC_EmployeeBaicInfoId"].Value + @"','" + ISpace["M_TravelPlace"].Value + @"','" + ISpace["MF_T1_AdvanceAmount"].Value + @"','" + ISpace["MF_T1_BankName"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MF_T1_JourneyPurpose"].Value + @"','" + ISpace["Travel_Type"].Value + @"','" + ISpace["MF_T1_BeneficiaryName"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["MF_TransactionNo"].Value + @"','" + ISpace["MF_TravelStatus"].Value + @"','" + ISpace["MF_TransactionDate"].Value + @"','" + ISpace["M_IsAdvanceRequired"].Value + @"'",false);
 
 base.WriteDebugInfo(@"var querySource5BE98974AD594580A75130D0492B011E =GetQueryExpressionDataSource(""5BE98974-AD59-4580-A751-30D0492B011E"");Dictionary<short,object> result5BE98974AD594580A75130D0492B011E=iSpace.ExecuteQuery(querySource5BE98974AD594580A75130D0492B011E,@""EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '"" + ISpace[""CreatedOn""].Value + @""','"" + ISpace[""MF_T1_BankDocument""].Value + @""','"" + ISpace[""MF_T1_ReferenceNo""].Value + @""','"" + ISpace[""MF_T1_AccountNo""].Value + @""','"" + ISpace[""OverAll_Total""].Value + @""','"" + ISpace[""UC_EmployeeBaicInfoId""].Value + @""','"" + ISpace[""M_TravelPlace""].Value + @""','"" + ISpace[""MF_T1_AdvanceAmount""].Value + @""','"" + ISpace[""MF_T1_BankName""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MF_T1_JourneyPurpose""].Value + @""','"" + ISpace[""Travel_Type""].Value + @""','"" + ISpace[""MF_T1_BeneficiaryName""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""MF_TransactionNo""].Value + @""','"" + ISpace[""MF_TravelStatus""].Value + @""','"" + ISpace[""MF_TransactionDate""].Value + @""','"" + ISpace[""M_IsAdvanceRequired""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result5BE98974AD594580A75130D0492B011E!=null) && (result5BE98974AD594580A75130D0492B011E.Count!=0))
+{
+}
+else{
+
+}
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
