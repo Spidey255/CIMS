@@ -467,3 +467,17 @@
 }
 /* tree grid styles  Ends*/
 
+.pdf-conatiner canvas {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.position-relative canvas{
+ display: flex !important;
+ justify-content: center;
+}
+
+
+
+
+

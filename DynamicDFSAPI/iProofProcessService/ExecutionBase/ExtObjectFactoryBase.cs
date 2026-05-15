@@ -86,5 +86,16 @@ namespace CPS.Proof.DFSExtension
         /// </param>
         /// <returns></returns>
         public abstract int GetGridRPP(string ElementName);
+
+         /// <summary>
+        /// Represents the method that is used to get the 
+        /// Process forking details 
+        /// </summary>
+        /// <param name="forkId">
+        /// A <see cref="string"/> that contains the 
+        /// Process Fork Id
+        /// </param>
+        /// <returns></returns>
+        public abstract ForkedProcess GetForkProcessSettings(string forkId);
     }
 }

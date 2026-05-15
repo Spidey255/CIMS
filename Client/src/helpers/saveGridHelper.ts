@@ -6,9 +6,13 @@ import { useUserStore } from "@/store/useUserStore";
 import { usePageStore } from "@/store/usePageStore";
 import axiosHelper from "@/helpers/axiosHelper";
 import { config } from "@/constants/config";
-import type { UIElement, IAppResponse } from "@/constants/types";
+import type { UIElement, IAppResponse, IBindingData, IActionParams } from "@/constants/types";
 
 interface ISaveGridParams {
+  elements: UIElement[];
+  formInstanceId: string | null;
+}
+interface ISaveFormParams {
   elements: UIElement[];
   formInstanceId: string | null;
 }
@@ -43,7 +47,7 @@ export const saveGrid = async ({ elements, formInstanceId }: ISaveGridParams): P
             return {
               ElementName: elementName,
               Value: value ?? null,
-              EDT: state[elementName]?.EDT ?? null,
+              EDT: state[elementName]?.EDT ?? 9,
             };
           }),
         })
@@ -81,5 +85,96 @@ export const saveGrid = async ({ elements, formInstanceId }: ISaveGridParams): P
   } catch (err) {
     console.error("Unable to save grid:", err);
     throw new Error("Unable to save grid. Try again.");
+  }
+};
+
+
+export const saveForm = async ({
+  elements,
+  formInstanceId,
+}: ISaveFormParams): Promise<string> => {
+  try {
+    if (!elements?.length) return "";
+
+    const slotId = useUserStore.getState().slotId;
+    const activePage = usePageStore.getState().activePage;
+    const state = useGeneralStore.getState().state;
+    const uiElementState = useGeneralStore.getState().uiElementState;
+
+    const saveAllPromises = elements.map(async (element) => {
+      const bindingDetails =
+        typeof element.BindingDetail === "string"
+          ? (JSON.parse(element.BindingDetail) as IBindingData[])
+          : (element.BindingDetail as IBindingData[]);
+
+      if (!bindingDetails?.length) {
+        console.log("No Content in BindingDetail");
+        return;
+      }
+
+      const details = bindingDetails[0];
+
+      const params = details.Params
+        ? typeof details.Params === "string"
+          ? (JSON.parse(details.Params) as IActionParams[])
+          : (details.Params as IActionParams[])
+        : [];
+
+      const edtMap = params.reduce((acc, p) => {
+        acc[p.ElementName] = p.EDT;
+        return acc;
+      }, {} as Record<string, number | null>);
+
+      const Action = "FormSave";
+
+      const formattedData = Object.entries(state)
+        .filter(([key]) => !key.includes("+"))
+        .map(([key, value]: any) => ({
+          ElementName: key,
+          Value: value?.value ?? null,
+          EDT:
+            state[key]?.EDT ??
+            edtMap[key] ??
+            uiElementState[key]?.EDT ??
+            9,
+        }));
+
+      const FormData = [
+        {
+          ElementId: element.ElementId,
+          ElementName: element.ElementName,
+          EDT: state[element.ElementName]?.EDT ?? null,
+          Child: formattedData,
+        },
+      ];
+
+      const postData = {
+        SlotId: slotId,
+        ControlId: element.ElementName,
+        PackageProcessMapId: activePage?.PackageProcessMapId,
+        ProcessActivityMapId: activePage?.ProcessActivityMapId,
+        ViewPort: 4,
+        Action,
+        FormInstanceId: formInstanceId,
+        WidgetId: element.WidgetId,
+        JsxFileName: "",
+        JsxFileVersion: "",
+        Params: [],
+        FormData,
+      };
+
+      return axiosHelper<IAppResponse>(
+        config.SAVE_WIDGET_URL,
+        "POST",
+        postData
+      );
+    });
+
+    await Promise.all(saveAllPromises);
+
+    return formInstanceId || "";
+  } catch (error) {
+    console.error("Save Form Error:", error);
+    throw error;
   }
 };

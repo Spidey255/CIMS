@@ -17,13 +17,20 @@ const DefaultDateTimePicker: React.FC<{
   const state = useGeneralStore(
     (store) => store.state[element.ElementName]?.["value"]
   );
+  console.log("state",state);
   const setState = useGeneralStore((store) => store.setState);
 
   const controlId = element.ElementName || element.UIElementid;
+  const visible = element.ElementControlProperty?.find(p => "Visible" in p)?.Visible ?? "";
+  const storeState = useGeneralStore((store) => store.state[element.ElementName]);
+
+  const isVisible = storeState !== undefined ? storeState.isVisible : visible;
+
+  if (isVisible == false || isVisible == "false") return null
 
 
   return (
-   <div className={!Boolean(isGrid) ? `${element.ColumnCss} col-md-${element?.Wrap}` : undefined}>
+    <div className={!Boolean(isGrid) ? `${element.ColumnCss} col-md-${element?.Wrap}` : undefined}>
       <div
         id={`${element.ElementName}`}
         onClick={() => "LayoutControlSelected(event,this.id)"}

@@ -41,13 +41,18 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
   const setComboReady = useGeneralStore(
     (store) => store.setComboReady
   );
-const formInstanceId = usePageStore((store) => store.formInstanceId);
+  const formInstanceId = usePageStore((store) => store.formInstanceId);
   const showLoader = useLoaderStore((s) => s.show);
-    const hideLoader = useLoaderStore((s) => s.hide);
-
+  const hideLoader = useLoaderStore((s) => s.hide);
+  const setSlotId = useUserStore((store) => store.setSlotId);
 
   if (storeQueryParams?.token) {
     sessionStorage.setItem("accessToken", storeQueryParams?.token);
+    setSlotId(storeQueryParams?.token);
+  }
+
+  if(storeQueryParams?.instanceId) {
+     usePageStore.getState().setFormInstanceId(storeQueryParams?.instanceId || null);
   }
 
   const slotId = useUserStore((store) => store.slotId) || sessionStorage.getItem("accessToken");
@@ -74,6 +79,10 @@ const formInstanceId = usePageStore((store) => store.formInstanceId);
 
   const redirectParams = useRedirectStore.getState().params; // This will now persist even after reload
   const redirectUrlParams = getUrlParams(redirectParams?.RedirectUrl || location?.search);
+ const finalUrlParams = {
+  ...storeQueryParams,
+  ...redirectUrlParams,
+}
 
 
 
@@ -127,17 +136,17 @@ const formInstanceId = usePageStore((store) => store.formInstanceId);
       if (!formLoadDataApi.length) return;
 
 
-      if (formLoadDataApi[0].BindingDetail && redirectUrlParams) {
+      if (formLoadDataApi[0].BindingDetail && finalUrlParams) {
         const bindingDetails = JSON.parse(formLoadDataApi[0].BindingDetail);
 
         bindingDetails.forEach((binding: any) => {
           if (Array.isArray(binding.Params)) {
             binding.Params = binding.Params.map((param: any) => {
               // Check if ElementName exists in redirectUrlParams
-              if (redirectUrlParams[param.ElementName]) {
+              if (finalUrlParams[param.ElementName]) {
                 return {
                   ...param,
-                  Value: redirectUrlParams[param.ElementName],  // Set Value from URL params
+                  Value: finalUrlParams[param.ElementName],  // Set Value from URL params
                 };
               }
               return param;  // Keep existing Value if no match
@@ -289,6 +298,7 @@ const formInstanceId = usePageStore((store) => store.formInstanceId);
 
   useEffect(() => {
     showLoader();
+setComboReady(false);
     handleGetFormLoadData().then(() => hideLoader());
     // handleGetFormLoadData();
   }, [handleGetFormLoadData]);

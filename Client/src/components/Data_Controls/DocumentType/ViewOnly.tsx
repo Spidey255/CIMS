@@ -49,6 +49,24 @@ const View: React.FC<{
     handleLoadData();
   }, [handleLoadData]);
 
+  const handleViewClick = async () => {
+  if (!base64Data) {
+    await handleLoadData(); // fetch first
+  }
+
+  if ((window as any).ReactNativeWebView && base64Data) {
+    (window as any).ReactNativeWebView.postMessage(
+      JSON.stringify({
+        type: "OPEN_PDF",
+        payload: base64Data,
+      })
+    );
+    return;
+  }
+
+  setIsModalOpen(true);
+};
+
   return (
     <div
       className={element.ColumnCss}
@@ -62,7 +80,7 @@ const View: React.FC<{
         <span id={`man_${element.ElementName}`} className="text-danger"></span>
         <div className="controls">
           <div
-            className="input-group input-group-xs form-control p-0" 
+            className="input-group input-group-xs form-control p-0"
             data-toggle="popover"
             data-placement="top"
           >
@@ -77,7 +95,7 @@ const View: React.FC<{
               <a
                 className="btn btn-default btn-icon"
                 title="View"
-                onClick={() => setIsModalOpen(true)}
+                onClick={handleViewClick}
               >
                 <i className="ph ph-arrow-square-out"></i>
               </a>
@@ -97,7 +115,7 @@ const View: React.FC<{
                   id={`inp_${element.ElementName}`}
                   accept=".pdf"
                   data-maxfilesize="10485760"
-                  // onChange={handleFileChange}
+                // onChange={handleFileChange}
                 />
               </div>
             </div>

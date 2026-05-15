@@ -10,7 +10,9 @@ const Div: React.FC<{ element: UIElement; children?: React.ReactNode }> = ({
     <div  className={[element.Css, element.ColumnCss]
     .filter(Boolean)
     .join(' ')}>
-      {element.Content && <span>{element.Content}</span>}
+      {element.Content && (
+  <span dangerouslySetInnerHTML={{ __html: element.Content }} />
+)}
       {children}
     </div>
   );

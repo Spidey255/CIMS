@@ -317,6 +317,9 @@
 // export default ActionButton;
 
 
+
+
+
 import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
@@ -339,6 +342,7 @@ import { useRedirectStore } from "@/store/useRedirectStore";
 import { pages } from "@/constants/pages";
 import { useLoaderStore } from "@/store/useLoaderStore";
 import { saveGrid } from "@/helpers/saveGridHelper";
+import { saveForm } from "@/helpers/saveGridHelper";
 import toast from "react-hot-toast";
 
 interface ActionButtonProps {
@@ -351,7 +355,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({
   gridElements,
 }) => {
   const navigate = useNavigate();
-   const location = useLocation();
+  const location = useLocation();
   const slotId = useUserStore((store) => store.slotId);
   const setPagination = useGridStore((store) => store.setPagination);
   const setGridDynamicState = useGridStore(
@@ -364,6 +368,10 @@ const ActionButton: React.FC<ActionButtonProps> = ({
   const state = useGeneralStore(
     (store) => store.state[element.ElementName]?.value
   );
+
+  const Css = useGeneralStore(
+    (store) => store.state[element.ElementName]?.Css
+  ) || "";
   const setRedirectParams = useRedirectStore.getState().setParams;
 
   const activePage = usePageStore((store) => store.activePage);
@@ -381,7 +389,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({
       showLoader();
 
 
-     
+
 
       // Loop over query parameters and add them to the params object
 
@@ -410,9 +418,19 @@ const ActionButton: React.FC<ActionButtonProps> = ({
       // Get all grid elements
       const gridElementsToSave = gridElements.filter(g => g.ControlType === "Grid");
 
+      // Get all form elements except grid elements
+      const formElementsToSave = gridElements.filter(
+        g => g.ControlType !== "Grid"
+      );
+
+      if (formElementsToSave.length && element.ElementName == "SubmitForm") {
+        const savedInstanceId = await saveForm({ elements: formElementsToSave, formInstanceId });
+        console.log("Grids saved successfully � IDs:", savedInstanceId);
+      }
+
       if (gridElementsToSave.length) {
-        const savedInstanceId = await saveGrid({ elements: gridElementsToSave, formInstanceId });
-        console.log("Grids saved successfully — IDs:", savedInstanceId);
+        const savedInstanceId = await  saveGrid({ elements: gridElementsToSave, formInstanceId });
+        console.log("Grids saved successfully � IDs:", savedInstanceId);
       }
 
       if (!element.BindingDetail) {
@@ -516,7 +534,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({
         FormVersionId: activePage?.FormVersionId,
         ViewPort: 4,
         Action: element.Action,
-        FormInstanceId: redirectUrlParams?.instanceId ?? formInstanceId ??  null,
+        FormInstanceId: redirectUrlParams?.instanceId ?? formInstanceId ?? null,
         JsxFileName: "",
         JsxFileVersion: "",
         Params: updatedStateParams || stateParams,
@@ -529,12 +547,22 @@ const ActionButton: React.FC<ActionButtonProps> = ({
         return;
       }
 
-      if (data.Message) {
-        toast.error(data.Message);
-      }
+      if(data.Message){
+          if(data.Message.split(":")[0].toLowerCase() === "success"){
+            toast.success(data.Message);
+          } else if(data.Message.split(":")[0].toLowerCase() === "warning"){
+            toast.error(data.Message.split(":")[1]);
+          } else if(data.Message.split(":")[0].toLowerCase() === "error"){
+            toast.error(data.Message.split(":")[1]);
+          } else {
+            toast.error(data.Message.split(":")[1]);
+          }
+          // toast.error(data.Message);
+       
+        }
 
       // =====================================================
-      // ✅ NEW: UPDATE GENERAL STORE FROM API RESPONSE
+      // ? NEW: UPDATE GENERAL STORE FROM API RESPONSE
       // =====================================================
       const generalStateUpdate: Record<string, IGlobalStateValues> = {};
       const currentState = useGeneralStore.getState().state;
@@ -555,12 +583,13 @@ const ActionButton: React.FC<ActionButtonProps> = ({
             ...currentState[row.ElementName!], // keep existing behavior
             value: row.Value ?? "",
 
-            // ✅ ADD (does NOT affect existing logic)
+            // ? ADD (does NOT affect existing logic)
             ShowDialog: row.ShowDialog ?? false,
             HideDialog: row.HideDialog ?? false,
             ShowModal: row.ShowModal ?? false,
-            isVisible : row.Visible , 
-            visible : row.Visible , 
+            isVisible: row.Visible,
+            visible: row.Visible,
+            Css: row.CSS || "",
           };
         });
 
@@ -654,6 +683,19 @@ const ActionButton: React.FC<ActionButtonProps> = ({
     }
   };
 
+  //  const visible = element.ElementControlProperty?.find(p => "Visible" in p)?.Visible ?? "true";
+  const storeVisible = useGeneralStore(
+    (store) => store.state[element.ElementName]?.isVisible
+  );
+
+  const isVisible =
+    storeVisible !== undefined && storeVisible !== null
+      ? storeVisible
+      : true;
+
+  if (isVisible == false || isVisible == "false") return null
+
+
   return (
     <div
       id={element.ElementId || element.UIElementid}
@@ -668,7 +710,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({
           <span title={element.ElementName}>
             <a
               id={`btn_${element.ElementId}`}
-              className={element.Css}
+              className={Css || element.Css}
               title={element.DCaption}
             >
               {state || element.DCaption}

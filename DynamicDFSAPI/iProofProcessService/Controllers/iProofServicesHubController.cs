@@ -10,6 +10,7 @@ namespace CPS.Proof.DFSExtension
     using Microsoft.Extensions.Configuration;
     using Newtonsoft.Json;   
     using SRA.Proof.Middleware;
+    using System.Text.RegularExpressions;
        
 
      /// <summary>
@@ -38,7 +39,7 @@ namespace CPS.Proof.DFSExtension
 
         /// <summary>
         /// Represents the constructor that creates an instance
-        /// of ProjectProposal Controller.
+        /// of CommitmentSpentDetails Controller.
         /// </summary>
         /// <param name="configuration">
         /// A <see cref="IConfiguration"/> that holds  
@@ -89,18 +90,11 @@ namespace CPS.Proof.DFSExtension
                 switch(context.PackageProcessMapId)
                 {
             
-                                      case "B219A0EA-0254-4F69-B989-B681DD475183":   var  objectFactoryProjectsExplorer=new ProjectsExplorerObjectFactory();
-                                             virtualpageinstance = objectFactoryProjectsExplorer.GetDfsVirtualInstance
+                                      case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":   var  objectFactoryCommitmentSpentDetails=new CommitmentSpentDetailsObjectFactory();
+                                             virtualpageinstance = objectFactoryCommitmentSpentDetails.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
 
-                                            virtualpageinstance._objectFactory = objectFactoryProjectsExplorer;
-                                            break;
-
-                                     case "026e321e-9bb7-4c74-8615-3bbd7cc1b241":   var  objectFactoryProjectProposal=new ProjectProposalObjectFactory();
-                                             virtualpageinstance = objectFactoryProjectProposal.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-
-                                            virtualpageinstance._objectFactory = objectFactoryProjectProposal;
+                                            virtualpageinstance._objectFactory = objectFactoryCommitmentSpentDetails;
                                             break;
 
                  
@@ -285,16 +279,10 @@ namespace CPS.Proof.DFSExtension
                 switch(context.PackageProcessMapId)
                 {
             
-                                      case "B219A0EA-0254-4F69-B989-B681DD475183":   var  objectFactoryProjectsExplorer=new ProjectsExplorerObjectFactory();
-                                             virtualpageinstance = objectFactoryProjectsExplorer.GetDfsVirtualInstance
+                                      case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":   var  objectFactoryCommitmentSpentDetails=new CommitmentSpentDetailsObjectFactory();
+                                             virtualpageinstance = objectFactoryCommitmentSpentDetails.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
-                                            virtualpageinstance._objectFactory = objectFactoryProjectsExplorer;
-                                            break;
-
-                                     case "026e321e-9bb7-4c74-8615-3bbd7cc1b241":   var  objectFactoryProjectProposal=new ProjectProposalObjectFactory();
-                                             virtualpageinstance = objectFactoryProjectProposal.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-                                            virtualpageinstance._objectFactory = objectFactoryProjectProposal;
+                                            virtualpageinstance._objectFactory = objectFactoryCommitmentSpentDetails;
                                             break;
 
                  
@@ -419,7 +407,8 @@ namespace CPS.Proof.DFSExtension
                       if(item.Key=="Message")
                         {
                             if(item.Value !=null)
-                            response.Message = item.Value.Value;
+                            response.Message = Convert.ToString(item.Value.Value);
+                           
                         }
 
                        
@@ -465,6 +454,7 @@ namespace CPS.Proof.DFSExtension
 
             ICommon common = null;
 
+           
             Tuple<string,string> combosource=null;
 
             try
@@ -482,31 +472,54 @@ namespace CPS.Proof.DFSExtension
                 {
             
                                      
-                    case "B219A0EA-0254-4F69-B989-B681DD475183":   
+                    case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":   
                                              foreach (var item in context.Params)
                                              {
-                                            var  objectFactoryProjectsExplorer=new ProjectsExplorerObjectFactory();
-                                             combosource = objectFactoryProjectsExplorer.GetComboDataSource
+                                            var  objectFactoryCommitmentSpentDetails=new CommitmentSpentDetailsObjectFactory();
+                                             combosource = objectFactoryCommitmentSpentDetails.GetComboDataSource
                                                         (item.ElementName);  
-                                             }
-                                            break;
-                   
-                                    
-                    case "026e321e-9bb7-4c74-8615-3bbd7cc1b241":   
-                                             foreach (var item in context.Params)
-                                             {
-                                            var  objectFactoryProjectProposal=new ProjectProposalObjectFactory();
-                                             combosource = objectFactoryProjectProposal.GetComboDataSource
-                                                        (item.ElementName);  
+                                             if (combosource != null)
+                                break;
                                              }
                                             break;
                    
                  
                 }               
                 
+                 string input = combosource.Item2.ToString();
+
+                string pattern = @"@(\w+\w*)(\[(\w+[.]*\w*)\])*";
+
+                MatchCollection matches = Regex.Matches(input, pattern);
+
+                string updatedQuery = string.Empty;
+
+                updatedQuery = combosource.Item2;
+
+                 foreach (var item1 in context.Params)
+                {
+                    
+                    if (matches.Count > 0)
+                    {
+
+                        foreach (Match match in matches)
+                        {
+                            if(item1.ElementName==match.Value.Replace("@",""))
+                            {
+
+                                updatedQuery = updatedQuery.Replace(match.Value, item1.Value);
+                            }
+                        }
+                    }
+                }
+                Tuple<string, string> updatedComboSource = new Tuple<string, string>(combosource.Item1.ToString(),
+                    updatedQuery
+                    );
+
+
 
                 status = externalQueryController.GetComboDataSource
-                        (token, combosource, out queryresult);
+                        (token, updatedComboSource, out queryresult);
 
                 if (status == Status.Success)
                 {
@@ -609,31 +622,16 @@ namespace CPS.Proof.DFSExtension
                 switch(context.PackageProcessMapId)
                 {
             
-                                      case "B219A0EA-0254-4F69-B989-B681DD475183":    var elementFactoryProjectsExplorer=new ProjectsExplorerDataElementFactory();       
+                                      case "C12B87A0-C375-4057-B0BA-64B4C80E77F9":    var elementFactoryCommitmentSpentDetails=new CommitmentSpentDetailsDataElementFactory();       
                                            
                                              if(context.Action=="GridSave")
                                             {
-                                                insertQuery = elementFactoryProjectsExplorer.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                insertQuery = elementFactoryCommitmentSpentDetails.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
                                                     context.WidgetId,token.UMID, formjsonData);
                                             }
                                             else
                                             {
-                                                insertQuery=elementFactoryProjectsExplorer.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId, token.UMID, formjsonData);
-                                            }
-
-                                            break;
-
-                                     case "026e321e-9bb7-4c74-8615-3bbd7cc1b241":    var elementFactoryProjectProposal=new ProjectProposalDataElementFactory();       
-                                           
-                                             if(context.Action=="GridSave")
-                                            {
-                                                insertQuery = elementFactoryProjectProposal.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId,token.UMID, formjsonData);
-                                            }
-                                            else
-                                            {
-                                                insertQuery=elementFactoryProjectProposal.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                insertQuery=elementFactoryCommitmentSpentDetails.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
                                                     context.WidgetId, token.UMID, formjsonData);
                                             }
 
@@ -655,7 +653,12 @@ namespace CPS.Proof.DFSExtension
 
                     return response;
                 }
+                else
+                {
+                    response.ExecutionMessage = "Form Data Save Failed";
 
+                    return response;
+                }
 
                               
                 return response;

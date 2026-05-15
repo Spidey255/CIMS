@@ -206,6 +206,7 @@ export interface IGlobalStateValues {
   HideDialog?: boolean;
   ShowModal?: boolean;
   rElemData?: any;
+  Css?: string;
 }
 
 export interface IDocumentValue {

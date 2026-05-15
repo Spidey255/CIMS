@@ -644,7 +644,7 @@ namespace CPS.Proof.DFSExtension
             }
         }
 
-        private bool CallRemoteAPI(SlotToken token, Context context, ref PageContext pageContext)
+        public bool CallRemoteAPI(SlotToken token, Context context, ref PageContext pageContext)
         {
             IChilkatInstantiator chilkatInstance = null;
             ck.Rest rest = null;

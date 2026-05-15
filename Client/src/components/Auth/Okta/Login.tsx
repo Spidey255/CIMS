@@ -1,10 +1,12 @@
 // Innovace Intech Solution Pvt Ltd
+// Innovace Intech Solution Pvt Ltd
 import React, { useState } from "react";
 import axiosHelper from "../../../helpers/axiosHelper";
 import { useUserStore } from "../../../store/useUserStore";
 import type { IOnActionResponse } from "../../../constants/types";
 import { useNavigate } from "react-router-dom";
 import { config } from "../../../constants/config";
+import { getWorkSpaces,getWorkspaceMenu } from "@/helpers/workspaceHelper";
 
 const Login: React.FC = () => {
   const [credentials, setCredentials] = useState({
@@ -72,7 +74,22 @@ const Login: React.FC = () => {
        localStorage.setItem("displayName", response?.TokenDetail?.displayName || '');
       localStorage.setItem("roleNames", response?.TokenDetail?.roleNames || '');
       setSlotId(slotToken);
-      navigate("/");
+
+
+       const workspaces = await getWorkSpaces(slotToken);
+  if (workspaces.length > 0) {
+    const firstWorkspace = workspaces[0];
+
+    const menu = await getWorkspaceMenu(
+      slotToken,
+      firstWorkspace.portalGroupId
+    );
+
+    if (menu?.length && menu[0]?.path) {
+      navigate("/" + menu[0].path);
+    } 
+  } 
+      
     } catch (err) {
       const message =
         typeof err === "object" && err !== null && "message" in err
@@ -232,3 +249,4 @@ const Login: React.FC = () => {
 };
 
 export default Login;
+ 

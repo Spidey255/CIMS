@@ -10,11 +10,12 @@ const LabelNumericTextBox: React.FC<{
   const controlId = element.ElementName || element.UIElementid;
   const state = useGeneralStore((store) => store.state[controlId]?.["value"]);
 
-const isVisible = useGeneralStore(
+const visible = element.ElementControlProperty?.find(p => "Visible" in p)?.Visible ?? "true";
+  const isVisible = useGeneralStore(
   (store) => store.state[element.ElementName]?.isVisible
-) ?? true;
+) || visible;
 
-if (!isVisible) return null;
+ if(isVisible == false || isVisible == "false") return null
 
   return (
     <div className={!Boolean(isGrid) ? `${element.ColumnCss} ${element.Css} col-md-${element.Wrap}` : ""}>

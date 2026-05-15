@@ -41,5 +41,7 @@ namespace CPS.Proof.DFSExtension
 
         int GetGridRPP(string elementName);
 
+        ForkedProcess GetForkProcessSettings(string forkId);
+
     }
 }

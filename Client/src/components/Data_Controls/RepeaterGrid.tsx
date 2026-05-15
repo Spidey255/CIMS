@@ -84,13 +84,13 @@ const RepeaterGrid: React.FC<{ element: UIElement; children?: ReactNode }> = ({
 
   // loading boolean: explicitly true/false only
 
-  const isLoading =
-    gridLoadingState === true;
+  // const isLoading =
+  //   gridLoadingState === true;
 
-    //  const isLoading =
-    // gridLoadingState === true ||
-    // gridData === undefined ||
-    // gridData === null;
+     const isLoading =
+    gridLoadingState === true ||
+    gridData === undefined ||
+    gridData === null;
 
 
 
@@ -168,7 +168,7 @@ const RepeaterGrid: React.FC<{ element: UIElement; children?: ReactNode }> = ({
         (
           paginatedData.map((rowData) => (
             <Fragment key={rowData.RwId}>
-              <div className={`row Rep-Row m-0`}>
+              <div className={`row Rep-Row `}>
                 {cloneChildrenWithProps(children, rowData)}
               </div>
             </Fragment>

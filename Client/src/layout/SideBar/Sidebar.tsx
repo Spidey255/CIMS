@@ -1,5 +1,5 @@
 // Innovace Intech Solution Pvt Ltd
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import { getWorkSpaces, getWorkspaceMenu, clearWorkspaceCache, type Workspace } from "@/helpers/workspaceHelper";
 import { useSidebar } from "./SidebarContext";
@@ -55,21 +55,21 @@ const Sidebar: React.FC = () => {
         setOpenSubMenu(openSubMenu === key ? null : key);
     };
 
-   const handleConfirmLogout = () => {
-    sessionStorage.clear();
-    localStorage.removeItem("displayName");
-    localStorage.removeItem("roleNames");
-    clearWorkspaceCache();
+    const handleConfirmLogout = () => {
+        sessionStorage.clear();
+        localStorage.removeItem("displayName");
+        localStorage.removeItem("roleNames");
+        clearWorkspaceCache();
 
-    setWorkspaces([]);
-    setSelectedWorkspace("Loading...");
-    setSelectedWorkspaceId(null);
-    setDynamicMenu([]);
-    setUserName(null);
-    setRoleNames(null);
+        setWorkspaces([]);
+        setSelectedWorkspace("Loading...");
+        setSelectedWorkspaceId(null);
+        setDynamicMenu([]);
+        setUserName(null);
+        setRoleNames(null);
 
-    navigate("/login", { replace: true });
-};
+        navigate("/login", { replace: true });
+    };
 
     const closeModal = () => {
         setClosing(true);
@@ -78,7 +78,12 @@ const Sidebar: React.FC = () => {
             setClosing(false);
         }, 300);
     };
+    const [showRolePopup, setShowRolePopup] = useState(false);
+    const roleRef = useRef<HTMLDivElement | null>(null);
 
+    const rolesArray = roleNames ? roleNames.split(",") : [];
+    const firstRole = rolesArray[0];
+    const extraRoles = rolesArray.slice(1);
 
 
 
@@ -109,7 +114,7 @@ const Sidebar: React.FC = () => {
     useEffect(() => {
         if (!selectedWorkspaceId) return;
 
-        
+
 
         const loadWorkspaceMenu = async () => {
             startLoading();
@@ -117,14 +122,14 @@ const Sidebar: React.FC = () => {
             try {
                 const slotId = sessionStorage.getItem("accessToken") || "";
 
-                
+
 
                 const parsedMenu = await getWorkspaceMenu(
                     slotId,
                     selectedWorkspaceId
                 );
 
-               
+
 
                 if (!parsedMenu || parsedMenu.length === 0) {
                     console.warn("Menu API returned empty");
@@ -215,14 +220,31 @@ const Sidebar: React.FC = () => {
     }, []);
 
 
+    useEffect(() => {
+        const handleClickOutside = (event: MouseEvent) => {
+            if (roleRef.current && !roleRef.current.contains(event.target as Node)) {
+                setShowRolePopup(false);
+            }
+        };
+
+        document.addEventListener("mousedown", handleClickOutside);
+        return () => document.removeEventListener("mousedown", handleClickOutside);
+    }, []);
+
+    useEffect(() => {
+        if (collapsed) {
+            setShowRolePopup(false);
+        }
+    }, [collapsed]);
+
     return (
         <>
             <div className={`sidebar-content ${collapsed ? "collapsed" : ""}`}>
 
                 {/* HEADER */}
                 <div className="sidebar-top px-3 d-flex align-items-center justify-content-between sidebar-padding-fix">
-                    <button className="btn btn-light btn-sm" onClick={toggle}>
-                        <i className="ph ph-list"></i>
+                    <button className="btn btn-light btn-sm bg-light border-1" onClick={toggle}>
+                       {collapsed ?   <i className="ph ph-text-indent"></i> :<i className="ph ph-text-outdent"></i> }
                     </button>
                     {!collapsed && (
                         // <div className="d-flex align-items-center">
@@ -230,7 +252,7 @@ const Sidebar: React.FC = () => {
                         //     <span className="sidebar-title ms-2">Innovace</span> */}
                         //     <div className="sidebar-logo"></div>
                         // </div>
-                         <div className="sidebar-logo"></div>
+                        <div className="sidebar-logo"></div>
                     )}
 
 
@@ -381,37 +403,64 @@ const Sidebar: React.FC = () => {
 
                 {/* FOOTER */}
                 <div className="sidebar-footer">
-                    <hr className="sidebar-divider" />
+    <hr className="sidebar-divider" />
 
-                    <div
-                        className="log-btn"
-                        onClick={() => setShowLogoutModal(true)}
-                        data-bs-toggle={collapsed ? "tooltip" : undefined}
-                        data-bs-placement="right"
-                        title="Logout"
+    <div
+        className="log-btn"
+        onClick={() => setShowLogoutModal(true)}
+        data-bs-toggle={collapsed ? "tooltip" : undefined}
+        data-bs-placement="right"
+        title="Logout"
+    >
+        <i className="lfticn ph ph-sign-out"></i>
+
+        {/* ✅ ALWAYS RENDER */}
+        <span className="sidebar-text">Logout</span>
+    </div>
+
+    <div className="d-flex sidebar-profile px-3 mt-auto">
+        <img
+            src={Profiler}
+            className="rounded-circle"
+            width="42"
+            height="42"
+            alt="profile"
+        />
+
+        {/* ✅ ALWAYS RENDER */}
+        <div className="ms-2 sidebar-profile-info">
+            {userName && <div className="fw-semibold">{userName}</div>}
+
+            <div ref={roleRef} className="role-wrapper">
+                {firstRole && (
+                    <span className="role-pill">{firstRole}</span>
+                )}
+
+                {extraRoles.length > 0 && (
+                    <span
+                        className="role-more"
+                        onClick={() => setShowRolePopup((prev) => !prev)}
                     >
-                        <i className="lfticn ph ph-sign-out"></i>
-                        {!collapsed && <span>Logout</span>}
-                    </div>
+                        +{extraRoles.length}
+                    </span>
+                )}
 
-                    <div className="d-flex  sidebar-profile px-3 mt-auto">
-                        <img
-                            src={Profiler}
-                            className="rounded-circle"
-                            width="42"
-                            height="42"
-                            alt="profile"
-                        />
+                {showRolePopup && (
+                    <div className="role-popup">
+                        <div className="role-popup-title">Other Roles</div>
 
-                        {!collapsed && (
-                            <div className="ms-2">
-                                {userName && <div className="fw-semibold">{userName}</div>}
-                                {roleNames && <small className="text-muted">{roleNames}</small>}
+                        {extraRoles.map((role, index) => (
+                            <div key={index} className="role-item">
+                                <span className="role-dot"></span>
+                                {role}
                             </div>
-                        )}
+                        ))}
                     </div>
-
-                </div>
+                )}
+            </div>
+        </div>
+    </div>
+</div>
             </div>
 
             {/* LOGOUT MODAL */}

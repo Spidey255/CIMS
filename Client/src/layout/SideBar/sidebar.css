@@ -81,8 +81,12 @@
   padding-top: var(--sidebar-p-md);
   display: flex;
   flex-direction: column;
-  transition: width var(--sidebar-normal);
-  z-index: var(--sidebar-z);
+
+  /* 🔥 FIX */
+  transition: width 0.28s ease-in-out;
+  overflow: hidden;
+  will-change: width;
+  transform: translateZ(0);
 }
 
 .sidebar-content.collapsed {
@@ -170,10 +174,7 @@
 }
 
 
-/* When collapsed hide text */
-.sidebar-content.collapsed .sidebar-link span {
-  display: none;
-}
+
 
 
 /* --------------------------- */
@@ -249,12 +250,14 @@
 .sub-submenu {
   list-style: none;
   padding-left: 22px;
+
   max-height: 0;
   overflow: hidden;
-  transition: max-height var(--sidebar-normal);
+
+  transition: max-height 0.25s ease-in-out;
 }
 
-.has-submenu.open .sub-submenu {
+.level-1.open > .sub-submenu {
   max-height: 350px;
 }
 
@@ -468,4 +471,144 @@
   gap: 10px;
   text-decoration: none;
   color: #333;
+}
+
+
+/* Wrapper */
+.role-wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 2px;
+}
+
+/* First role pill */
+.role-pill {
+  background: #eef2ff;
+  color: #4f46e5;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+/* +more badge */
+.role-more {
+  background: #f1f5f9;
+  color: #334155;
+  padding: 2px 6px;
+  border-radius: 10px;
+  font-size: 11px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.role-more:hover {
+  background: #e2e8f0;
+}
+
+/* Popup */
+.role-popup {
+  position: absolute;
+  bottom: 120%;
+  left: 0;
+  min-width: 180px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+  border: 1px solid #e5e7eb;
+  z-index: 1000;
+
+  animation: fadeSlideUp 0.2s ease;
+}
+
+/* Title */
+.role-popup-title {
+  font-size: 11px;
+  font-weight: 600;
+  color: #64748b;
+  margin-bottom: 6px;
+}
+
+/* Role item */
+.role-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  padding: 4px 6px;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+
+.role-item:hover {
+  background: #f8fafc;
+}
+
+/* Dot */
+.role-dot {
+  width: 6px;
+  height: 6px;
+  background: #6366f1;
+  border-radius: 50%;
+}
+
+/* Animation */
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+.sidebar-link span,
+.sidebar-sublink span,
+.sidebar-sub-sublink span {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  white-space: nowrap;
+}
+
+.sidebar-content.collapsed .sidebar-link span,
+.sidebar-content.collapsed .sidebar-sublink span,
+.sidebar-content.collapsed .sidebar-sub-sublink span {
+  opacity: 0;
+  transform: translateX(-10px);
+  pointer-events: none;
+}
+
+
+/* TEXT SMOOTH HIDE */
+.sidebar-text,
+.sidebar-profile-info {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  white-space: nowrap;
+}
+
+/* COLLAPSE EFFECT */
+.sidebar-content.collapsed .sidebar-text,
+.sidebar-content.collapsed .sidebar-profile-info {
+  opacity: 0;
+  transform: translateX(-10px);
+  pointer-events: none;
+}
+
+
+/* PREVENT HEIGHT JUMP */
+.sidebar-footer {
+  min-height: 120px; /* keeps layout stable */
+}
+
+
+/* FIX IMAGE ALIGNMENT */
+.sidebar-profile {
+  align-items: center;
+  min-height: 60px;
 }

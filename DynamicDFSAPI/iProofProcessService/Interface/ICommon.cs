@@ -26,5 +26,7 @@ namespace CPS.Proof.DFSExtension
 
         Status SubmitInstance(SlotToken token, string insId, Context context,
             ref Dictionary<string, ServiceElementData> refParams);
+
+        bool CallRemoteAPI(SlotToken token, Context context, ref PageContext pageContext);
     }
 }

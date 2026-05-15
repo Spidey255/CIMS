@@ -24,6 +24,6 @@ export const config = {
   SUPPORTED_DOCUMENT_FORMAT: ["docx"],
   SUPPORTED_SPREADSHEET_FORMAT: ["xlsx", "xls"],
 
-  DataControlIds: [1, 2, 3, 4, 5, 6, 7, 8, 13, 14, 66, 67, 68, 76, 81],
+  DataControlIds: [1, 2, 3, 4, 5, 6, 7, 8, 9, 13, 14, 66, 67, 68, 76, 81],
 };
 

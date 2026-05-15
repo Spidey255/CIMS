@@ -1,5 +1,5 @@
 // Innovace Intech Solution Pvt Ltd
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 
 interface Props {
   isOpen: boolean;
@@ -7,69 +7,93 @@ interface Props {
 }
 
 const SessionTimeoutModal: React.FC<Props> = ({ isOpen, onConfirm }) => {
-  const modalRef = useRef<HTMLDivElement | null>(null);
-  const bsModal = useRef<any>(null);
 
+  // Prevent background scroll
   useEffect(() => {
-    if (modalRef.current) {
-      bsModal.current = new (window as any).bootstrap.Modal(modalRef.current, {
-        backdrop: "static",
-        keyboard: false,
-      });
-    }
-  }, []);
-
-  useEffect(() => {
-    if (!bsModal.current) return;
-
-    if (isOpen) {
-      bsModal.current.show();
-    } else {
-      bsModal.current.hide();
-    }
+    document.body.style.overflow = isOpen ? "hidden" : "auto";
   }, [isOpen]);
 
+  if (!isOpen) return null;
+
   return (
-    <div
-      className="modal fade"
-      tabIndex={-1}
-      ref={modalRef}
-      aria-hidden="true"
-    >
-      <div className="modal-dialog modal-dialog-centered">
-        <div className="modal-content border-0 shadow-lg rounded-4">
+    <div style={styles.overlay}>
+      <div style={styles.modal}>
 
-          <div className="modal-body text-center p-5">
-
-            {/* Icon */}
-            <div className="mb-4">
-              <div className="session-icon">
-                <i className="fa fa-clock"></i>
-              </div>
-            </div>
-
-            {/* Title */}
-            <h4 className="fw-bold mb-2">Session Expired</h4>
-
-            {/* Message */}
-            <p className="text-muted mb-4">
-              Your session has expired. Please login again to continue.
-            </p>
-
-            {/* Button */}
-            <button
-              className="btn btn-primary px-4 rounded-pill"
-              onClick={onConfirm}
-            >
-              OK
-            </button>
-
-          </div>
-
+        {/* Icon */}
+        <div style={styles.iconWrapper}>
+          ⏳
         </div>
+
+        {/* Title */}
+        <h2 style={styles.title}>Session Expired</h2>
+
+        {/* Message */}
+        <p style={styles.message}>
+          Your session has expired. Please login again to continue.
+        </p>
+
+        {/* Button */}
+        <button style={styles.button} onClick={onConfirm}>
+          Continue to Login
+        </button>
+
       </div>
     </div>
   );
 };
 
 export default SessionTimeoutModal;
+
+
+const styles: Record<string, React.CSSProperties> = {
+  overlay: {
+    position: "fixed",
+    inset: 0,
+    background: "#fff",
+    backdropFilter: "blur(6px)",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    zIndex: 99999,
+    animation: "fadeIn 0.3s ease",
+  },
+
+  modal: {
+    width: "360px",
+    background: "#fff",
+    borderRadius: "20px",
+    padding: "30px 25px",
+    textAlign: "center",
+    // boxShadow: "0 20px 60px rgba(0,0,0,0.2)",
+    animation: "scaleIn 0.3s ease",
+  },
+
+  iconWrapper: {
+    fontSize: "40px",
+    marginBottom: "15px",
+  },
+
+  title: {
+    fontSize: "20px",
+    fontWeight: 700,
+    marginBottom: "10px",
+  },
+
+  message: {
+    fontSize: "14px",
+    color: "#666",
+    marginBottom: "25px",
+  },
+
+  button: {
+    width: "100%",
+    padding: "12px",
+    borderRadius: "10px",
+    border: "none",
+    backgroundColor: "var(--bg-primary)",
+    color: "#fff",
+    fontWeight: 600,
+    cursor: "pointer",
+    transition: "0.2s",
+  },
+};

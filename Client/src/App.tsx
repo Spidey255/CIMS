@@ -1,6 +1,6 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate, Outlet, useLocation } from "react-router-dom";
-import { Toaster } from "react-hot-toast";
+import { AppToaster } from "@/components/Internal/AppToaster";
 import NotFound from "@/pages/NotFound";
 import GlobalLoader from "@/components/Loader/GlobalLoader";
 import Inbox from "@/components/Inbox/Inbox";
@@ -17,9 +17,7 @@ import { SidebarProvider } from "@/layout/SideBar/SidebarContext";
 import { useUserStore } from "@/store/useUserStore";
 
 
-import ProjectsExplorer_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start";
-import ProjectProposal_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_Start";
-import ProjectProposal_ReadOnly from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_ReadOnly";
+import CommitmentSpentDetails_Start from "@/pages/PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start";
 
 const hasAccessToken = (): boolean => {
   if (typeof window === "undefined") {
@@ -80,9 +78,7 @@ const App: React.FC = () => {
           <MainLayout />
         </SidebarProvider>
       }>
-        <Route path="/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start" element={<ProjectsExplorer_Start />} />
-        <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_Start" element={<ProjectProposal_Start />} />
-        <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_ReadOnly" element={<ProjectProposal_ReadOnly />} />
+        <Route path="/PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start" element={<CommitmentSpentDetails_Start />} />
         <Route path="/Inbox" element={<Inbox />} />
         <Route path="*" element={<NotFound />} />
       </Route>
@@ -101,7 +97,7 @@ const App: React.FC = () => {
     <Route path="*" element={<NotFound />} />
   </Routes>
 </Router>
-      <Toaster />
+      <AppToaster />
       <SessionTimeoutModal
         isOpen={sessionExpired}
         onConfirm={handleLogout}

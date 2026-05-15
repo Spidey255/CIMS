@@ -34,30 +34,39 @@ const UploadControl: React.FC<{
 
 
   const handleFileChange = async (
-    event: React.ChangeEvent<HTMLInputElement>
-  ) => {
-    try {
-      const result = await resusableOnFileChange(event.target.files, {
-        maxSize: Size,
-        ElementName: element.ElementName,
-        isGrid: Boolean(isGrid),
-      });
-      if (result) {
-        // setDocumentData({ documentId: result.documentId, documentNo: result.documentNo });
-        setFileName(result.fileName);
-        setBase64Data(result.base64Data);
-        setState(element.ElementName, result.documentId);
-      }
-    } catch (error) {
-      console.log(error);
-    }
-  };
+  event: React.ChangeEvent<HTMLInputElement>
+) => {
+  try {
+    const files = event.target.files;
 
-  const triggerFileInputClick = () => {
-    if (fileInputRef.current) {
-      fileInputRef.current.click();
+    if (!files || files.length === 0) return;
+
+    const result = await resusableOnFileChange(files, {
+      maxSize: Size,
+      ElementName: element.ElementName,
+      isGrid: Boolean(isGrid),
+    });
+
+    if (result) {
+      setFileName(result.fileName);
+      setBase64Data(result.base64Data);
+      setState(element.ElementName, result.documentId);
     }
-  };
+
+    // ✅ IMPORTANT FIX: reset input so same file can be selected again
+    event.target.value = "";
+
+  } catch (error) {
+    console.log(error);
+  }
+};
+
+ const triggerFileInputClick = () => {
+  if (fileInputRef.current) {
+    fileInputRef.current.value = ""; // ✅ reset before click
+    fileInputRef.current.click();
+  }
+};
 
   return (
     <div

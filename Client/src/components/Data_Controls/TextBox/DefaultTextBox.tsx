@@ -22,12 +22,16 @@ const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
 
   const controlId = element.ElementName || element.UIElementid;
 
-  const visible = element.ElementControlProperty?.find(p => "Visible" in p)?.Visible ?? "true";
-  const isVisible = useGeneralStore(
-  (store) => store.state[element.ElementName]?.isVisible
-) || visible;
-
- if(isVisible == false || isVisible == "false") return null
+  const storeVisible = useGeneralStore(
+      (store) => store.state[element.ElementName]?.isVisible
+    );
+  
+    const isVisible =
+      storeVisible !== undefined && storeVisible !== null
+        ? storeVisible
+        : true;
+  
+    if (isVisible == false || isVisible == "false") return null
 
   return (
     <div className={!Boolean(isGrid) ? `${element.ColumnCss} col-md-${element.Wrap}` : element.ColumnCss }>
@@ -49,8 +53,8 @@ const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
               rows={5}
               className="form-control input-lg"
               placeholder={element?.DHelpText}
-              value={state !== undefined && state !== null ? String(state) : ""}              // ✅ controlled value
-              onChange={onChange}               // ✅ update store
+              value={state !== undefined && state !== null ? String(state) : ""}              // ? controlled value
+              onChange={onChange}               // ? update store
               onClick={(e) => e.stopPropagation()}
             />
           ) : (
@@ -60,7 +64,7 @@ const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
               name={element.ElementName}
               className="form-control input-lg"
               placeholder={element?.DHelpText}
-              value={state !== undefined && state !== null ? String(state) : ""}              // ✅ controlled value
+              value={state !== undefined && state !== null ? String(state) : ""}              // ? controlled value
               onChange={onChange}
               onClick={(e) => e.stopPropagation()}
             />

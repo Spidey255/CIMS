@@ -280,7 +280,7 @@ namespace CPS.Proof.DFSExtension
 
         #region Grid functions
 
-        public object Sum(string gridTable,string gridcolumn, string filter)
+        public object Sum(string gridTable,string gridcolumn, string filter,string instanceId)
         {
             IExternalQueryController externalQueryController = null;
 
@@ -291,13 +291,76 @@ namespace CPS.Proof.DFSExtension
                 object aggValue=null;
 
                 externalQueryController.AggregateGridData
-                (gridTable,gridcolumn,"Sum", filter,out aggValue);
+                (gridTable,gridcolumn,"Sum", filter,instanceId,out aggValue);
 
                 return aggValue;
             }
             catch (Exception ex)
             {
                 return null;
+            }
+             finally
+            {
+                if (externalQueryController != null)
+                {
+                    ObjectManager.Release(externalQueryController);
+                }
+            }
+        }
+
+        public object Count(string gridTable, string gridcolumn, string filter, string instanceId)
+        {
+            IExternalQueryController externalQueryController = null;
+
+            try
+            {
+                externalQueryController = ObjectManager.Acquire<IExternalQueryController>();
+
+                object aggValue = null;
+
+                externalQueryController.AggregateGridData
+                (gridTable, gridcolumn, "Count", filter, instanceId, out aggValue);
+
+                return aggValue;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            finally
+            {
+                if (externalQueryController != null)
+                {
+                    ObjectManager.Release(externalQueryController);
+                }
+            }
+        }
+
+        public object AVG(string gridTable, string gridcolumn, string filter, string instanceId)
+        {
+            IExternalQueryController externalQueryController = null;
+
+            try
+            {
+                externalQueryController = ObjectManager.Acquire<IExternalQueryController>();
+
+                object aggValue = null;
+
+                externalQueryController.AggregateGridData
+                (gridTable, gridcolumn, "AVG", filter, instanceId, out aggValue);
+
+                return aggValue;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            finally
+            {
+                if (externalQueryController != null)
+                {
+                    ObjectManager.Release(externalQueryController);
+                }
             }
         }
 
@@ -526,7 +589,12 @@ namespace CPS.Proof.DFSExtension
 
                     rowItem.Child = new List<ServiceElementData>();
 
-                    rowItem.RwId = Guid.NewGuid().ToString();
+                    if (row.Table.Columns.Contains("RowId") &&
+                                row["RowId"] != DBNull.Value &&
+                                    !string.IsNullOrWhiteSpace(row["RowId"].ToString()))                  
+                        rowItem.RwId = row["RowId"].ToString();
+                    else
+                        rowItem.RwId = Guid.NewGuid().ToString();
 
                     var indexer = bindings.GetEnumerator();
 
@@ -838,5 +906,129 @@ namespace CPS.Proof.DFSExtension
 
             ISpace["RedirectUrl"].Value = url;
         }
+
+         public Status AddNewInstance(string forkId, 
+            string parentInstanceId,string processactivitymapid,string slotId,ForkedProcess forkedProcess)
+        {
+            _log.Debug("Entering AddNewInstance");
+
+            FormSuspendedReason outErrMsg = FormSuspendedReason.Unknown;
+
+            //Assign default value for explicit transaction 
+            ITransactionBase transactionBase = null;
+
+            ICommon common = null;
+
+            try
+            {
+                PageContext pageContext = new PageContext();
+
+                pageContext.SlotId = slotId;
+
+                pageContext.GenerateInstanceName = true;
+
+                pageContext.InstanceCommand = FormInstanceCommand.AddInstance;
+
+                //Get Transaction Object from ObjectManager
+                transactionBase = ObjectManager.Acquire<ITransactionBase>();
+
+                //Create transaction instance of type TransactionObject
+                pageContext.TransactionObject = transactionBase.CreateTransactionInstance();
+
+                var InstanceContext = new FormInstanceInfo
+                {
+                    InsCmd = "AddInstance",
+
+                    PPM = forkedProcess.FrkPrcId,
+
+                    //FV = forkedProcess.FrmFVId,
+
+                    PamId = forkedProcess.FrkActMapId,
+
+                    MFId = forkedProcess.MFId,
+
+                    ElmId = forkedProcess.MFId,
+
+                    IDesc = "From System",
+
+                    InsId=forkedProcess.NewInstanceId,
+
+                    PInsId=parentInstanceId
+                };
+
+                pageContext.InstanceContext = InstanceContext;
+
+                common = ObjectManager.Acquire<Common>();
+
+                var token = common.Authorize(slotId,null);
+
+                common.CallRemoteAPI(token, null, ref pageContext);
+
+
+                //Assign the Generated InstanceId
+               var newinstanceid = pageContext.InstanceContext.InsId;
+
+                if (pageContext.Status == FormStatus.Failure)
+                {
+                    outErrMsg = pageContext.SuspendedReason;
+
+                    return Status.Failure;
+                }
+
+                InserttoMappedElements(token, 
+                    forkedProcess.InsertQuery, parentInstanceId,processactivitymapid);
+
+                return Status.Success;
+            }
+            catch (Exception ex)
+            {
+                _log.Error("Error in AddNewInstance");
+
+                return Status.Failure;
+            }
+            finally
+            {
+                if (transactionBase != null)
+                    ObjectManager.Release<ITransactionBase>(transactionBase);
+
+                if (common != null)
+                    ObjectManager.Release<ICommon>(common);
+                _log.Debug("Exiting AddNewInstance");
+            }
+        }
+
+        private Status InserttoMappedElements(SlotToken token, 
+            string insertQuery,string instanceId,string processactivitymapid)
+        {
+            IExternalQueryController externalQueryController = null;
+
+            _log.Debug("Entering InserttoMappedElements");
+
+            try
+            {
+                externalQueryController = ObjectManager.Acquire<IExternalQueryController>();
+
+                externalQueryController.SaveForkedInstanceData
+                    (token,insertQuery, instanceId, processactivitymapid);
+
+                return Status.Success;
+            }
+            catch (Exception ex)
+            {
+                _log.Error("Error in InserttoMappedElements", ex);
+
+                return Status.Failure;
+            }
+            finally
+            {
+                _log.Debug("Exiting InserttoMappedElements");
+
+                if(externalQueryController != null)
+                {
+                    ObjectManager.Release(externalQueryController);
+                }
+            }
+        }
+
     }
 }

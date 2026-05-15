@@ -22,7 +22,7 @@ const CheckBox: React.FC<{
   const controlId = element.ElementName || element.UIElementid;
 
   return (
-    <div className={!Boolean(isGrid) ? element.ColumnCss : undefined}>
+    <div  className={!Boolean(isGrid) ? `${element.ColumnCss} col-md-${element.Wrap}` : element.ColumnCss }>
       <div id={controlId} className="form-check form-check-inline">
         <input
           type="checkbox"

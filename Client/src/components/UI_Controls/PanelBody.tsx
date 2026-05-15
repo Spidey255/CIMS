@@ -6,7 +6,11 @@ const PanelBody: React.FC<{
   element: UIElement;
   children?: React.ReactNode;
 }> = ({ element, children }) => {
-  return <div className={`${element.Css}`}>{children}</div>;
+  let css = "card-body";
+  if(element.Css){
+    css = `${element.Css}`;
+  }
+  return <div className={`${css}`}>{children}</div>;
 };
 
 export default PanelBody;

@@ -26,6 +26,14 @@ const LabelDateTimePicker: React.FC<{
     }
   }, [element.ElementName]);
 
+  const visible = element.ElementControlProperty?.find(p => "Visible" in p)?.Visible ?? "";
+
+  const storeState = useGeneralStore((store) => store.state[element.ElementName]);
+
+  const isVisible = storeState !== undefined ? storeState.isVisible : visible;
+
+  if (isVisible == false || isVisible == "false") return null
+
   return (
     <div className={!Boolean(isGrid) ? `${element?.ColumnCss} ${element?.Css} col-md-${element?.Wrap}` : ""}>
       <div id={element.ElementName}>
