@@ -161,7 +161,6 @@
 
 
 
-
 import { useGridStore } from "../../store/useGridStore";
 import { useGeneralStore } from "../../store/useStore";
 import { useUserStore } from "../../store/useUserStore";
@@ -331,13 +330,22 @@ export async function resusableOnChange(element: UIElement) {
           const { setGridDynamicState, setPagination } =
             useGridStore.getState();
           // Call dynamic grid state update
-          setGridDynamicState(elementMapper.uiElementId, m?.Child!);
+          // setGridDynamicState(elementMapper.uiElementId, m?.Child!);
+          // setPagination(elementMapper.uiElementId, {
+          //   currentPage: 1,
+          //   pageSize: element["RowsPerPage"] || 5,
+          //   totalItems: m["TotalRecords"] || 0,
+          //   fromRowIndex: m["RecordsFrom"] || 0,
+          //   toRowIndex: m["RecordsTo"] || 0,
+          // });
+
+           setGridDynamicState(elementMapper.uiElementId, m.Child!);
           setPagination(elementMapper.uiElementId, {
             currentPage: 1,
-            pageSize: element["RowsPerPage"] || 5,
-            totalItems: m["TotalRecords"] || 0,
-            fromRowIndex: m["RecordsFrom"] || 0,
-            toRowIndex: m["RecordsTo"] || 0,
+            pageSize: m?.PageCount || 5,
+            totalItems: m.Child?.length || 0,
+            fromRowIndex: m.RecordsFrom || 0,
+            toRowIndex: m.RecordsTo || 0,
           });
         }
       });
