@@ -2001,24 +2001,6 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
-private void SubscribeElementEvents_ui_availablebudgetmodal (ref Dictionary<string,ServiceElementData> ISpace)
-{
-IISpace iSpace = new ISpace();
-try
-{
-base.WriteDebugInfo(@"UI_AvailablebudgetModal-OnClick");
-if(1==1)
-{
-base.WriteDebugInfo(@"if(1==1)");
-ISpace["MF_ProjectNo"].Value=null;
-base.WriteDebugInfo(@"ISpace[""MF_ProjectNo""].Value=null;");
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 private void SubscribeElementEvents_ui_no (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -2881,6 +2863,20 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_m_availablebudget (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_AvailableBudget-OnClick");
+ISpace["UI_AvailableBudget"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_AvailableBudget""].ShowDialog=true;;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 public override void ExecuteMethod
 	(string methodName, string elementName,
 		ref Dictionary<string, ServiceElementData> dfsParam)
@@ -2949,6 +2945,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("edit_reimbursementfunddetails"))
 {
 			SubscribeElementEvents_edit_reimbursementfunddetails(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("m_availablebudget"))
+{
+			SubscribeElementEvents_m_availablebudget(ref dfsParam);
 }
 }
 }

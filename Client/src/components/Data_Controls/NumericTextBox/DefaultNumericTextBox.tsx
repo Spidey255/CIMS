@@ -42,12 +42,16 @@ const DefaultNumericTextBox: React.FC<DefaultNumericTextBoxProps> = ({
     }
   };
 
- const visible = element.ElementControlProperty?.find(p => "Visible" in p)?.Visible ?? "true";
-  const isVisible = useGeneralStore(
-  (store) => store.state[element.ElementName]?.isVisible
-) || visible;
-
- if(isVisible == false || isVisible == "false") return null
+ const storeVisible = useGeneralStore(
+     (store) => store.state[element.ElementName]?.isVisible
+   );
+ 
+   const isVisible =
+     storeVisible !== undefined && storeVisible !== null
+       ? storeVisible
+       : true;
+ 
+   if (isVisible == false || isVisible == "false") return null
 
   return (
     <div className={
