@@ -252,18 +252,6 @@ namespace CPS.Proof.DFSExtension
 												     @"B49EFF11-DEBD-4F34-BEC5-7C607851D347"),
 			
 						
-			     new Triplet<string, string, string>("71BB9B08-DE61-44CB-80C5-CC85FCFEF138","Delete Records",
-												     @"84AEB9E0-3009-4426-AB92-AAF06D2B42AF"),
-			
-						
-			     new Triplet<string, string, string>("B5618765-36C3-484C-A564-3707FD364056","Delete Records",
-												     @"1D198218-D4AF-4E09-9A9D-119D03D0C3BA"),
-			
-						
-			     new Triplet<string, string, string>("068CB074-46DC-429F-9887-7296FCE9263F","Load Commitments",
-												     @"B3C42BFD-4F71-4A59-BC58-E5B5C95B481C"),
-			
-						
 			     new Triplet<string, string, string>("CBB39281-01F4-4B3A-B892-47A0222DAFBA","Grid BindingC",
 												     @"84AEB9E0-3009-4426-AB92-AAF06D2B42AF"),
 			
@@ -278,6 +266,18 @@ namespace CPS.Proof.DFSExtension
 						
 			     new Triplet<string, string, string>("9B5B780E-4C6E-4FCE-A2BD-A3A4764A9120","Grid BindingC",
 												     @"1D198218-D4AF-4E09-9A9D-119D03D0C3BA"),
+			
+						
+			     new Triplet<string, string, string>("B5618765-36C3-484C-A564-3707FD364056","Delete Records",
+												     @"1D198218-D4AF-4E09-9A9D-119D03D0C3BA"),
+			
+						
+			     new Triplet<string, string, string>("71BB9B08-DE61-44CB-80C5-CC85FCFEF138","Delete Records",
+												     @"84AEB9E0-3009-4426-AB92-AAF06D2B42AF"),
+			
+						
+			     new Triplet<string, string, string>("068CB074-46DC-429F-9887-7296FCE9263F","Load Commitments",
+												     @"B3C42BFD-4F71-4A59-BC58-E5B5C95B481C"),
 			
 			
 			

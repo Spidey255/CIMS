@@ -244,8 +244,12 @@ namespace CPS.Proof.DFSExtension
 												     @"A65EED98-D95D-45DF-9765-1BDBF01908AD"),
 			
 						
-			     new Triplet<string, string, string>("DF30243A-9324-4865-9FFF-478698865C85","Load Commitments",
-												     @"1064BC8E-93B2-409C-BD15-01E2EBC35B41"),
+			     new Triplet<string, string, string>("C5471BC3-8ECA-4216-A66F-923825C32508","Grid BindingC",
+												     @"00D69CC2-E6EC-4412-B2A9-14E57A96FB5C"),
+			
+						
+			     new Triplet<string, string, string>("A8D19C29-F512-4468-83DE-4C86EF7F0E8F","Grid BindingU",
+												     @"00D69CC2-E6EC-4412-B2A9-14E57A96FB5C"),
 			
 						
 			     new Triplet<string, string, string>("F3514DB4-690A-4BE6-A6A7-7FA3D37E5B7C","Grid BindingC",
@@ -256,16 +260,12 @@ namespace CPS.Proof.DFSExtension
 												     @"D74F91B1-1C1A-47A6-BF5F-B731EB2F53FB"),
 			
 						
-			     new Triplet<string, string, string>("C5471BC3-8ECA-4216-A66F-923825C32508","Grid BindingC",
-												     @"00D69CC2-E6EC-4412-B2A9-14E57A96FB5C"),
-			
-						
-			     new Triplet<string, string, string>("A8D19C29-F512-4468-83DE-4C86EF7F0E8F","Grid BindingU",
-												     @"00D69CC2-E6EC-4412-B2A9-14E57A96FB5C"),
-			
-						
 			     new Triplet<string, string, string>("21822FB8-6E0C-4D8C-9EE5-38233317BB5C","Delete Records",
 												     @"00D69CC2-E6EC-4412-B2A9-14E57A96FB5C"),
+			
+						
+			     new Triplet<string, string, string>("DF30243A-9324-4865-9FFF-478698865C85","Load Commitments",
+												     @"1064BC8E-93B2-409C-BD15-01E2EBC35B41"),
 			
 			
 			

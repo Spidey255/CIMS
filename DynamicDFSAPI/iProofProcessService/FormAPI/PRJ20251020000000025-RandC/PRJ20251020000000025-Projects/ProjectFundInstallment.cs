@@ -232,20 +232,20 @@ namespace CPS.Proof.DFSExtension
 												     @"8B4BCD21-9BD3-4278-AA2C-99F30B18BC32"),
 			
 						
-			     new Triplet<string, string, string>("EE2E79C5-4A8F-4AC1-A64E-6FCFA533D02D","Available Balance",
-												     @"9A0E4095-1BE8-44D4-97FB-822ADA862E58"),
-			
-						
-			     new Triplet<string, string, string>("658407BF-CBFF-443B-AA60-4C126BC8B3CE","Delete Grid rows",
-												     @"249EF445-9B49-4EF9-8045-46BD1E6FF8ED"),
-			
-						
 			     new Triplet<string, string, string>("490A453A-6852-4615-B83B-173BC38F190B","Grid BindingF",
 												     @"249EF445-9B49-4EF9-8045-46BD1E6FF8ED"),
 			
 						
 			     new Triplet<string, string, string>("C102915B-AF51-44F9-A85E-2C1A53654BCF","Grid Binding6",
 												     @"249EF445-9B49-4EF9-8045-46BD1E6FF8ED"),
+			
+						
+			     new Triplet<string, string, string>("658407BF-CBFF-443B-AA60-4C126BC8B3CE","Delete Grid rows",
+												     @"249EF445-9B49-4EF9-8045-46BD1E6FF8ED"),
+			
+						
+			     new Triplet<string, string, string>("EE2E79C5-4A8F-4AC1-A64E-6FCFA533D02D","Available Balance",
+												     @"9A0E4095-1BE8-44D4-97FB-822ADA862E58"),
 			
 			
 			

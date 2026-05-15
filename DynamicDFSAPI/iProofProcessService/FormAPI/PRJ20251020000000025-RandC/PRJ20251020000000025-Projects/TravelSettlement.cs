@@ -332,10 +332,6 @@ namespace CPS.Proof.DFSExtension
 												     @"BD17B4AF-1152-47EA-9EEB-DDA244A8B9F9"),
 			
 						
-			     new Triplet<string, string, string>("4F4B72E2-20D7-4166-89F9-0192E1123361","Load Fund details",
-												     @"0BFAF73B-02D4-4680-B1C9-625AAFB02DB5"),
-			
-						
 			     new Triplet<string, string, string>("800FCB85-CC5F-4550-9D3F-5D7AE4650DF2","Load Remarks Details",
 												     @"F9CBD66E-80AF-4A49-805E-978379D06B55"),
 			
@@ -348,16 +344,8 @@ namespace CPS.Proof.DFSExtension
 												     @"9F49372F-0255-42EC-AB05-31E6C4F9F2EA"),
 			
 						
-			     new Triplet<string, string, string>("D8D9A976-5AAA-4BD2-B7D8-AE2AA0ACF5BB","Update the Other Expenses",
-												     @"7D2812B7-3A49-4DA7-9E48-082B26C3333C"),
-			
-						
-			     new Triplet<string, string, string>("12B0DEF7-CA44-4A9E-A1D6-DF341107FA9C","Add Other Expenses",
-												     @"7D2812B7-3A49-4DA7-9E48-082B26C3333C"),
-			
-						
-			     new Triplet<string, string, string>("9B59C95F-3EF4-4759-B14A-AA281DE48F47","Delete Records",
-												     @"7D2812B7-3A49-4DA7-9E48-082B26C3333C"),
+			     new Triplet<string, string, string>("4F4B72E2-20D7-4166-89F9-0192E1123361","Load Fund details",
+												     @"0BFAF73B-02D4-4680-B1C9-625AAFB02DB5"),
 			
 						
 			     new Triplet<string, string, string>("47DEECA9-8E4E-4FDE-806B-D716B4F25534","Grid BindingE",
@@ -366,6 +354,18 @@ namespace CPS.Proof.DFSExtension
 						
 			     new Triplet<string, string, string>("68C5D0A5-8E30-49AB-91AD-12CEEA91048F","Grid Binding8",
 												     @"9F49372F-0255-42EC-AB05-31E6C4F9F2EA"),
+			
+						
+			     new Triplet<string, string, string>("9B59C95F-3EF4-4759-B14A-AA281DE48F47","Delete Records",
+												     @"7D2812B7-3A49-4DA7-9E48-082B26C3333C"),
+			
+						
+			     new Triplet<string, string, string>("D8D9A976-5AAA-4BD2-B7D8-AE2AA0ACF5BB","Update the Other Expenses",
+												     @"7D2812B7-3A49-4DA7-9E48-082B26C3333C"),
+			
+						
+			     new Triplet<string, string, string>("12B0DEF7-CA44-4A9E-A1D6-DF341107FA9C","Add Other Expenses",
+												     @"7D2812B7-3A49-4DA7-9E48-082B26C3333C"),
 			
 			
 			
@@ -3278,10 +3278,6 @@ base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please select Travel Referenc
 return;
 base.WriteDebugInfo(@"return;");
 }
-object MG_FundType=iSpace.Count("[0BFAF73B-02D4-4680-B1C9-625AAFB02DB5]","MG_FundType","",ISpace["gv_instanceid"].Value);
-ISpace["MF_GrdFundCount"].Value=Convert.ChangeType(MG_FundType, MG_FundType.GetType());;
-base.WriteDebugInfo(@"object MG_FundType=iSpace.Count(""[0BFAF73B-02D4-4680-B1C9-625AAFB02DB5]"",""MG_FundType"","""",ISpace[""gv_instanceid""].Value);
-ISpace[""MF_GrdFundCount""].Value=Convert.ChangeType(MG_FundType, MG_FundType.GetType());;");
 if(ISpace["MF_GrdFundCount"].Value==0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_GrdFundCount""].Value==0)");
@@ -3348,14 +3344,6 @@ foreach(var gridChild in ISpace[""MG_DcoumentDetails""].Child)
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-if(ISpace["M_SumOfFund"].Value!=Abs(ISpace["OverAll_Total"].Value))
-{
-base.WriteDebugInfo(@"if(ISpace[""M_SumOfFund""].Value!=Abs(ISpace[""OverAll_Total""].Value))");
-ISpace["Message"].Value=@"Please enter Actual Source for Funds Equal to Actual Total(A+B)";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter Actual Source for Funds Equal to Actual Total(A+B)"";");
-return;
-base.WriteDebugInfo(@"return;");
-}
 }
 if(ISpace["MF_T1_AdvanceAmount"].Value<0)
 {
@@ -8005,10 +7993,6 @@ base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please select Travel Referenc
 return;
 base.WriteDebugInfo(@"return;");
 }
-object MG_FundType=iSpace.Count("[0BFAF73B-02D4-4680-B1C9-625AAFB02DB5]","MG_FundType","",ISpace["gv_instanceid"].Value);
-ISpace["MF_GrdFundCount"].Value=Convert.ChangeType(MG_FundType, MG_FundType.GetType());;
-base.WriteDebugInfo(@"object MG_FundType=iSpace.Count(""[0BFAF73B-02D4-4680-B1C9-625AAFB02DB5]"",""MG_FundType"","""",ISpace[""gv_instanceid""].Value);
-ISpace[""MF_GrdFundCount""].Value=Convert.ChangeType(MG_FundType, MG_FundType.GetType());;");
 if(ISpace["MF_GrdFundCount"].Value==0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_GrdFundCount""].Value==0)");
@@ -8075,14 +8059,6 @@ foreach(var gridChild in ISpace[""MG_DcoumentDetails""].Child)
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-if(ISpace["M_SumOfFund"].Value!=Abs(ISpace["OverAll_Total"].Value))
-{
-base.WriteDebugInfo(@"if(ISpace[""M_SumOfFund""].Value!=Abs(ISpace[""OverAll_Total""].Value))");
-ISpace["Message"].Value=@"Please enter Actual Source for Funds Equal to Actual Total(A+B)";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter Actual Source for Funds Equal to Actual Total(A+B)"";");
-return;
-base.WriteDebugInfo(@"return;");
-}
 }
 if(ISpace["MF_T1_AdvanceAmount"].Value<0)
 {

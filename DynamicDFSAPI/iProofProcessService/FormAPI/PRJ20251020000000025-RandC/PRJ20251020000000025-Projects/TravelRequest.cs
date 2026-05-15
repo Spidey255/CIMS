@@ -168,6 +168,26 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
+			     new Triplet<string, string, string>("1D2378FB-2963-4898-9902-2B61F44BE0AD","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("864963C6-427C-451F-8C30-D7E8FCDD4228","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("EBE446FD-1D9E-41DE-B663-DEAA6EE73345","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("D16F9C83-EA71-4542-AB4D-E3D99AB969B2","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("4213CFEE-A88E-4B67-BEEC-B0AEF4337465","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
 			     new Triplet<string, string, string>("F83D458B-7CDF-409F-9329-98D97A3D6B68","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"2F28A839-0875-4C17-8ADF-2FC7F8F8847C"),
 			
@@ -260,28 +280,12 @@ namespace CPS.Proof.DFSExtension
 												     @"8259E1B0-2F90-4FE9-8BE4-875AEB9D5F40"),
 			
 						
-			     new Triplet<string, string, string>("E51258BF-79BE-40CF-B8C4-A28ACDA2DAA4","Delete fund",
-												     @"AD9C54EC-27A0-4C21-9923-063084E3B588"),
-			
-						
-			     new Triplet<string, string, string>("A0ECD2B8-9809-41FB-814E-CFF85B9E0A09","Load Remarks Details",
-												     @"C9F458E5-830A-413E-BD1F-94F72A4AFB50"),
-			
-						
 			     new Triplet<string, string, string>("0C732937-A40A-4ABB-BB7D-D89BDA0D481E","Load Fund details",
 												     @"AD9C54EC-27A0-4C21-9923-063084E3B588"),
 			
 						
-			     new Triplet<string, string, string>("35103DBC-9C79-44E2-A5BC-8BA3E5A2960A","Add Other Expenses",
+			     new Triplet<string, string, string>("F83D458B-7CDF-409F-9329-98D97A3D6B68","Delete Records",
 												     @"A694A330-AAD5-4856-853C-D6AD1573AF0B"),
-			
-						
-			     new Triplet<string, string, string>("4F7F1264-1768-4CE3-875C-0113E884A910","Update the Other Expenses",
-												     @"A694A330-AAD5-4856-853C-D6AD1573AF0B"),
-			
-						
-			     new Triplet<string, string, string>("ED8F039D-5B07-4E67-A918-1A0BCE50C57F","Delete Records",
-												     @"FA412DDD-7AD9-49AF-B8D7-2B7E1620D8FC"),
 			
 						
 			     new Triplet<string, string, string>("AFBC2448-5761-40CF-A8EB-1C60C3DC33D1","Grid Binding8",
@@ -292,7 +296,23 @@ namespace CPS.Proof.DFSExtension
 												     @"FA412DDD-7AD9-49AF-B8D7-2B7E1620D8FC"),
 			
 						
-			     new Triplet<string, string, string>("F83D458B-7CDF-409F-9329-98D97A3D6B68","Delete Records",
+			     new Triplet<string, string, string>("ED8F039D-5B07-4E67-A918-1A0BCE50C57F","Delete Records",
+												     @"FA412DDD-7AD9-49AF-B8D7-2B7E1620D8FC"),
+			
+						
+			     new Triplet<string, string, string>("A0ECD2B8-9809-41FB-814E-CFF85B9E0A09","Load Remarks Details",
+												     @"C9F458E5-830A-413E-BD1F-94F72A4AFB50"),
+			
+						
+			     new Triplet<string, string, string>("E51258BF-79BE-40CF-B8C4-A28ACDA2DAA4","Delete fund",
+												     @"AD9C54EC-27A0-4C21-9923-063084E3B588"),
+			
+						
+			     new Triplet<string, string, string>("35103DBC-9C79-44E2-A5BC-8BA3E5A2960A","Add Other Expenses",
+												     @"A694A330-AAD5-4856-853C-D6AD1573AF0B"),
+			
+						
+			     new Triplet<string, string, string>("4F7F1264-1768-4CE3-875C-0113E884A910","Update the Other Expenses",
 												     @"A694A330-AAD5-4856-853C-D6AD1573AF0B"),
 			
 			
@@ -4502,278 +4522,62 @@ base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1)");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-base.WriteDebugInfo(@"Entering DomainDataMap for Repo198E5A8A61F54E7C92DD34146A7059EF");
-var Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj = new RepositoryMapper(DbTypes.SQLServer);
+base.WriteDebugInfo(@"EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '#CreatedOn','#MF_T1_BankDocument','#MF_T1_ReferenceNo','#MF_T1_AccountNo','#OverAll_Total','#UC_EmployeeBaicInfoId','#M_TravelPlace','#MF_T1_AdvanceAmount','#MF_T1_BankName','#MF_T1_TravelAdvanceID','#MF_T1_JourneyPurpose','#Travel_Type','#MF_T1_BeneficiaryName','#gv_UserId','#MF_TransactionNo','#MF_TravelStatus','#MF_TransactionDate','#M_IsAdvanceRequired'");
 
+var querySourceD16F9C83EA714542AB4DE3D99AB969B2 =GetQueryExpressionDataSource("D16F9C83-EA71-4542-AB4D-E3D99AB969B2");
+Dictionary<short,object> resultD16F9C83EA714542AB4DE3D99AB969B2=iSpace.ExecuteQuery(querySourceD16F9C83EA714542AB4DE3D99AB969B2,@"EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '" + ISpace["CreatedOn"].Value + @"','" + ISpace["MF_T1_BankDocument"].Value + @"','" + ISpace["MF_T1_ReferenceNo"].Value + @"','" + ISpace["MF_T1_AccountNo"].Value + @"','" + ISpace["OverAll_Total"].Value + @"','" + ISpace["UC_EmployeeBaicInfoId"].Value + @"','" + ISpace["M_TravelPlace"].Value + @"','" + ISpace["MF_T1_AdvanceAmount"].Value + @"','" + ISpace["MF_T1_BankName"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MF_T1_JourneyPurpose"].Value + @"','" + ISpace["Travel_Type"].Value + @"','" + ISpace["MF_T1_BeneficiaryName"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["MF_TransactionNo"].Value + @"','" + ISpace["MF_TravelStatus"].Value + @"','" + ISpace["MF_TransactionDate"].Value + @"','" + ISpace["M_IsAdvanceRequired"].Value + @"'",false);
 
-var TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj = new RepositoryTable("TravelAdvance");
-  TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows = GetElementClientData(ISpace["InstanceId"].Value,"EE0139AD-5EB8-4786-96CB-2C87A8B572D9");
+base.WriteDebugInfo(@"var querySourceD16F9C83EA714542AB4DE3D99AB969B2 =GetQueryExpressionDataSource(""D16F9C83-EA71-4542-AB4D-E3D99AB969B2"");Dictionary<short,object> resultD16F9C83EA714542AB4DE3D99AB969B2=iSpace.ExecuteQuery(querySourceD16F9C83EA714542AB4DE3D99AB969B2,@""EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '"" + ISpace[""CreatedOn""].Value + @""','"" + ISpace[""MF_T1_BankDocument""].Value + @""','"" + ISpace[""MF_T1_ReferenceNo""].Value + @""','"" + ISpace[""MF_T1_AccountNo""].Value + @""','"" + ISpace[""OverAll_Total""].Value + @""','"" + ISpace[""UC_EmployeeBaicInfoId""].Value + @""','"" + ISpace[""M_TravelPlace""].Value + @""','"" + ISpace[""MF_T1_AdvanceAmount""].Value + @""','"" + ISpace[""MF_T1_BankName""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MF_T1_JourneyPurpose""].Value + @""','"" + ISpace[""Travel_Type""].Value + @""','"" + ISpace[""MF_T1_BeneficiaryName""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""MF_TransactionNo""].Value + @""','"" + ISpace[""MF_TravelStatus""].Value + @""','"" + ISpace[""MF_TransactionDate""].Value + @""','"" + ISpace[""M_IsAdvanceRequired""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-if(Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows!=null && Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows.Count>0){
-var Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rowsObj = new List<RepositoryRow>();
-foreach(var rows in Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var TravelAdvance_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
+if((resultD16F9C83EA714542AB4DE3D99AB969B2!=null) && (resultD16F9C83EA714542AB4DE3D99AB969B2.Count!=0))
+{
+}
+else{
 
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"CreatedOn",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
+}
+base.WriteDebugInfo(@"EXEC Repo51838b372ec64d358a5e38648bc93ab1 '#gv_UserId','#UpdatedOn','#MF_T1_TravelAdvanceID','#MG_T2_ToDate','#MG_T2_FromDate','#M_IsTravelRequest','#MG_T2_ExpenditureTypeID','#Expenditure_Type','#MG_T3_Amount'");
 
-if(rows.ContainsKey("E45AC962-0AE5-4044-91CA-E6108F75C426"))     elementData = rows["E45AC962-0AE5-4044-91CA-E6108F75C426"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BankDocument",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_BankDocument not found");}
+var querySource864963C6427C451F8C30D7E8FCDD4228 =GetQueryExpressionDataSource("864963C6-427C-451F-8C30-D7E8FCDD4228");
+Dictionary<short,object> result864963C6427C451F8C30D7E8FCDD4228=iSpace.ExecuteQuery(querySource864963C6427C451F8C30D7E8FCDD4228,@"EXEC Repo51838b372ec64d358a5e38648bc93ab1 '" + ISpace["gv_UserId"].Value + @"','" + ISpace["UpdatedOn"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_T2_ToDate"].Value + @"','" + ISpace["MG_T2_FromDate"].Value + @"','" + ISpace["M_IsTravelRequest"].Value + @"','" + ISpace["MG_T2_ExpenditureTypeID"].Value + @"','" + ISpace["Expenditure_Type"].Value + @"','" + ISpace["MG_T3_Amount"].Value + @"'",false);
 
-if(rows.ContainsKey("F575B6C8-44A2-4EF7-8943-E03F0FEE690A"))     elementData = rows["F575B6C8-44A2-4EF7-8943-E03F0FEE690A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ReferenceNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_ReferenceNo not found");}
+base.WriteDebugInfo(@"var querySource864963C6427C451F8C30D7E8FCDD4228 =GetQueryExpressionDataSource(""864963C6-427C-451F-8C30-D7E8FCDD4228"");Dictionary<short,object> result864963C6427C451F8C30D7E8FCDD4228=iSpace.ExecuteQuery(querySource864963C6427C451F8C30D7E8FCDD4228,@""EXEC Repo51838b372ec64d358a5e38648bc93ab1 '"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""UpdatedOn""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_T2_ToDate""].Value + @""','"" + ISpace[""MG_T2_FromDate""].Value + @""','"" + ISpace[""M_IsTravelRequest""].Value + @""','"" + ISpace[""MG_T2_ExpenditureTypeID""].Value + @""','"" + ISpace[""Expenditure_Type""].Value + @""','"" + ISpace[""MG_T3_Amount""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-if(rows.ContainsKey("8532946C-3E86-492D-91BF-42E67F12F8D2"))     elementData = rows["8532946C-3E86-492D-91BF-42E67F12F8D2"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"AccountNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_AccountNo not found");}
+if((result864963C6427C451F8C30D7E8FCDD4228!=null) && (result864963C6427C451F8C30D7E8FCDD4228.Count!=0))
+{
+}
+else{
 
-if(rows.ContainsKey("1206DC21-D786-47CC-9F64-B73A940A99E3"))     elementData = rows["1206DC21-D786-47CC-9F64-B73A940A99E3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TotalAmount",false,false,3);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-OverAll_Total not found");}
+}
+base.WriteDebugInfo(@"EXEC Repo374fb8a88dd94cf1bf73f40ae18fcad7 '#M_IsTravelRequest','#UpdatedOn','#MG_T2_TADetailsID','#gv_UserId','#MG_T2_DepartureDate','#MG_T2_DepartureTime','#MG_T2_ArrivalDate','#MG_T2_Road','#MF_T1_TravelAdvanceID','#MG_T2_Departure','#MG_T2_Amount','#MG_T2_JourneyClass','#MG_T2_Arrival','#MG_T2_PNRNo','#MG_T2_ModeofJourney','#MG_T2_ArrivalTime'");
 
-if(rows.ContainsKey("3A8389F9-5E41-429F-BBEB-28849095B97E"))     elementData = rows["3A8389F9-5E41-429F-BBEB-28849095B97E"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"EmployeeBasicInfoId",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-UC_EmployeeBaicInfoId not found");}
+var querySourceEBE446FD1D9E41DEB663DEAA6EE73345 =GetQueryExpressionDataSource("EBE446FD-1D9E-41DE-B663-DEAA6EE73345");
+Dictionary<short,object> resultEBE446FD1D9E41DEB663DEAA6EE73345=iSpace.ExecuteQuery(querySourceEBE446FD1D9E41DEB663DEAA6EE73345,@"EXEC Repo374fb8a88dd94cf1bf73f40ae18fcad7 '" + ISpace["M_IsTravelRequest"].Value + @"','" + ISpace["UpdatedOn"].Value + @"','" + ISpace["MG_T2_TADetailsID"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["MG_T2_DepartureDate"].Value + @"','" + ISpace["MG_T2_DepartureTime"].Value + @"','" + ISpace["MG_T2_ArrivalDate"].Value + @"','" + ISpace["MG_T2_Road"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_T2_Departure"].Value + @"','" + ISpace["MG_T2_Amount"].Value + @"','" + ISpace["MG_T2_JourneyClass"].Value + @"','" + ISpace["MG_T2_Arrival"].Value + @"','" + ISpace["MG_T2_PNRNo"].Value + @"','" + ISpace["MG_T2_ModeofJourney"].Value + @"','" + ISpace["MG_T2_ArrivalTime"].Value + @"'",false);
 
-if(rows.ContainsKey("7DE18D63-ECDC-4C68-B51E-0C27E1E491C8"))     elementData = rows["7DE18D63-ECDC-4C68-B51E-0C27E1E491C8"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelPlace",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_TravelPlace not found");}
-
-if(rows.ContainsKey("CB48F356-433B-43E2-B1B2-E29A871CCD62"))     elementData = rows["CB48F356-433B-43E2-B1B2-E29A871CCD62"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"AdvanceAmount",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_AdvanceAmount not found");}
-
-if(rows.ContainsKey("EFA3E743-38FA-433D-BF2B-F11A3AA499A9"))     elementData = rows["EFA3E743-38FA-433D-BF2B-F11A3AA499A9"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BankName",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_BankName not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelAdvanceID",true,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("7224660A-1F78-4AAD-AD2D-D6A00A4FFBFA"))     elementData = rows["7224660A-1F78-4AAD-AD2D-D6A00A4FFBFA"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"JourneyPurpose",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_JourneyPurpose not found");}
-
-if(rows.ContainsKey("EF93D216-3C63-4B9B-9CF3-712FB1F0F355"))     elementData = rows["EF93D216-3C63-4B9B-9CF3-712FB1F0F355"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelType",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-Travel_Type not found");}
-
-if(rows.ContainsKey("DCD03594-9A63-4DD5-AB25-78543850A746"))     elementData = rows["DCD03594-9A63-4DD5-AB25-78543850A746"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BeneficiaryName",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_BeneficiaryName not found");}
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"CreatedBy",false,false,6);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-if(rows.ContainsKey("F1E9E348-5D1F-4689-A04D-C2B8597FA52A"))     elementData = rows["F1E9E348-5D1F-4689-A04D-C2B8597FA52A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TransactionNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_TransactionNo not found");}
-
-if(rows.ContainsKey("8C5A1489-F4B6-44FB-B8D6-4A0E180B368A"))     elementData = rows["8C5A1489-F4B6-44FB-B8D6-4A0E180B368A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelStatus",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_TravelStatus not found");}
-
-if(rows.ContainsKey("043C289E-EB2A-43BC-BC05-286F6ABE56EE"))     elementData = rows["043C289E-EB2A-43BC-BC05-286F6ABE56EE"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TransactionDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_TransactionDate not found");}
-
-if(rows.ContainsKey("3CE3C87B-0042-44B5-B6D1-717BADEC32DC"))     elementData = rows["3CE3C87B-0042-44B5-B6D1-717BADEC32DC"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"IsAdvanceRequired",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_IsAdvanceRequired not found");}
-repositoryRowObj.Columns=TravelAdvance_colObj;
-Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rowsObj.Add(repositoryRowObj);
-}}
-
-TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj.Rows=Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rowsObj;
-var Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj_status_TravelAdvance = Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj);if(!Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj_status_TravelAdvance) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Repo198E5A8A61F54E7C92DD34146A7059EF");
-base.WriteDebugInfo(@"Entering DomainDataMap for Repo51838b372ec64d358a5e38648bc93ab1");
-var Repo51838b372ec64d358a5e38648bc93ab1_repoObj = new RepositoryMapper(DbTypes.SQLServer);
+base.WriteDebugInfo(@"var querySourceEBE446FD1D9E41DEB663DEAA6EE73345 =GetQueryExpressionDataSource(""EBE446FD-1D9E-41DE-B663-DEAA6EE73345"");Dictionary<short,object> resultEBE446FD1D9E41DEB663DEAA6EE73345=iSpace.ExecuteQuery(querySourceEBE446FD1D9E41DEB663DEAA6EE73345,@""EXEC Repo374fb8a88dd94cf1bf73f40ae18fcad7 '"" + ISpace[""M_IsTravelRequest""].Value + @""','"" + ISpace[""UpdatedOn""].Value + @""','"" + ISpace[""MG_T2_TADetailsID""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""MG_T2_DepartureDate""].Value + @""','"" + ISpace[""MG_T2_DepartureTime""].Value + @""','"" + ISpace[""MG_T2_ArrivalDate""].Value + @""','"" + ISpace[""MG_T2_Road""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_T2_Departure""].Value + @""','"" + ISpace[""MG_T2_Amount""].Value + @""','"" + ISpace[""MG_T2_JourneyClass""].Value + @""','"" + ISpace[""MG_T2_Arrival""].Value + @""','"" + ISpace[""MG_T2_PNRNo""].Value + @""','"" + ISpace[""MG_T2_ModeofJourney""].Value + @""','"" + ISpace[""MG_T2_ArrivalTime""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-
-var TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj = new RepositoryTable("TravelAdvance_ExpenditureType");
-  TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows = GetElementClientData(ISpace["InstanceId"].Value,"A694A330-AAD5-4856-853C-D6AD1573AF0B");
-
-if(Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows!=null && Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows.Count>0){
-var Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rowsObj = new List<RepositoryRow>();
-foreach(var rows in Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var TravelAdvance_ExpenditureType_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedBy",false,false,6);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedOn",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelAdvanceID",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("4C5A9A6D-FEC3-4E20-9AFD-F5F8361CB871"))     elementData = rows["4C5A9A6D-FEC3-4E20-9AFD-F5F8361CB871"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ToDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ToDate not found");}
-
-if(rows.ContainsKey("490A92F2-4C92-4971-BD74-3938B80EBBC0"))     elementData = rows["490A92F2-4C92-4971-BD74-3938B80EBBC0"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"FromDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_FromDate not found");}
-
-if(rows.ContainsKey("8D228937-474E-4AFF-B96F-38A1BF76C117"))     elementData = rows["8D228937-474E-4AFF-B96F-38A1BF76C117"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"IsTravelRequest",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_IsTravelRequest not found");}
-
-if(rows.ContainsKey("244E8CE8-EB87-4A10-9361-B273DFF01FE3"))     elementData = rows["244E8CE8-EB87-4A10-9361-B273DFF01FE3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ExpenditureTypeID",true,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ExpenditureTypeID not found");}
-
-if(rows.ContainsKey("41AAE0B5-5977-486B-A512-59C01B14C404"))     elementData = rows["41AAE0B5-5977-486B-A512-59C01B14C404"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ExpenditureType",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-Expenditure_Type not found");}
-
-if(rows.ContainsKey("1DA63E25-0188-4F41-ACA7-8168FE1862F3"))     elementData = rows["1DA63E25-0188-4F41-ACA7-8168FE1862F3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Amount",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T3_Amount not found");}
-repositoryRowObj.Columns=TravelAdvance_ExpenditureType_colObj;
-Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rowsObj.Add(repositoryRowObj);
-}}
-
-TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj.Rows=Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rowsObj;
-var Repo51838b372ec64d358a5e38648bc93ab1_repoObj_status_TravelAdvance_ExpenditureType = Repo51838b372ec64d358a5e38648bc93ab1_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj);if(!Repo51838b372ec64d358a5e38648bc93ab1_repoObj_status_TravelAdvance_ExpenditureType) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Repo51838b372ec64d358a5e38648bc93ab1");
-base.WriteDebugInfo(@"Entering DomainDataMap for Repo374fb8a88dd94cf1bf73f40ae18fcad7");
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj = new RepositoryMapper(DbTypes.SQLServer);
-
-
-var TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj = new RepositoryTable("TravelAdvanceDetails");
-  TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows = GetElementClientData(ISpace["InstanceId"].Value,"FA412DDD-7AD9-49AF-B8D7-2B7E1620D8FC");
-
-if(Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows!=null && Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows.Count>0){
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rowsObj = new List<RepositoryRow>();
-foreach(var rows in Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var TravelAdvanceDetails_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
-
-if(rows.ContainsKey("8D228937-474E-4AFF-B96F-38A1BF76C117"))     elementData = rows["8D228937-474E-4AFF-B96F-38A1BF76C117"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"IsTravelRequest",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_IsTravelRequest not found");}
-
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedOn",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
-
-if(rows.ContainsKey("1E5F9CC5-01E4-4DF4-8C7E-8A01CBEA4349"))     elementData = rows["1E5F9CC5-01E4-4DF4-8C7E-8A01CBEA4349"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TADetailsID",true,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_TADetailsID not found");}
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedBy",false,false,6);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-if(rows.ContainsKey("484E6EB5-6324-49D0-B63A-495466030415"))     elementData = rows["484E6EB5-6324-49D0-B63A-495466030415"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DepartureDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_DepartureDate not found");}
-
-if(rows.ContainsKey("ABBB7E59-83D0-4C6B-AD05-4C98BEE1E82B"))     elementData = rows["ABBB7E59-83D0-4C6B-AD05-4C98BEE1E82B"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DepartureTime",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_DepartureTime not found");}
-
-if(rows.ContainsKey("4EB3190D-F7E0-4703-970F-4726DADD2454"))     elementData = rows["4EB3190D-F7E0-4703-970F-4726DADD2454"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ArrivalDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ArrivalDate not found");}
-
-if(rows.ContainsKey("17A92271-D47F-43F3-BE12-EE7AA3212124"))     elementData = rows["17A92271-D47F-43F3-BE12-EE7AA3212124"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Road",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Road not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelAdvanceID",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("45BA3B8C-BB8B-428B-9CBA-AD963E7110A3"))     elementData = rows["45BA3B8C-BB8B-428B-9CBA-AD963E7110A3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Departure",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Departure not found");}
-
-if(rows.ContainsKey("FA7A7A4E-5225-4C60-BC2A-7A76BEF41BF4"))     elementData = rows["FA7A7A4E-5225-4C60-BC2A-7A76BEF41BF4"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Amount",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Amount not found");}
-
-if(rows.ContainsKey("B59E7372-E293-463F-AD0D-4F734BC303A3"))     elementData = rows["B59E7372-E293-463F-AD0D-4F734BC303A3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"JourneyClass",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_JourneyClass not found");}
-
-if(rows.ContainsKey("0FFCFFBC-99D0-481E-A24E-D6161A319428"))     elementData = rows["0FFCFFBC-99D0-481E-A24E-D6161A319428"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Arrival",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Arrival not found");}
-
-if(rows.ContainsKey("2F1F6722-D855-4FDA-B73D-205C2AF35448"))     elementData = rows["2F1F6722-D855-4FDA-B73D-205C2AF35448"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"PNRNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_PNRNo not found");}
-
-if(rows.ContainsKey("EF1D6930-942A-4E47-8F27-F98F747EF257"))     elementData = rows["EF1D6930-942A-4E47-8F27-F98F747EF257"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ModeofJourney",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ModeofJourney not found");}
-
-if(rows.ContainsKey("F0795EE2-8062-4C08-A312-B12985FB0565"))     elementData = rows["F0795EE2-8062-4C08-A312-B12985FB0565"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ArrivalTime",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ArrivalTime not found");}
-repositoryRowObj.Columns=TravelAdvanceDetails_colObj;
-Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rowsObj.Add(repositoryRowObj);
-}}
-
-TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj.Rows=Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rowsObj;
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj_status_TravelAdvanceDetails = Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj);if(!Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj_status_TravelAdvanceDetails) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Repo374fb8a88dd94cf1bf73f40ae18fcad7");
-base.WriteDebugInfo(@"Entering DomainDataMap for Documents Domain");
-var DocumentsDomain_repoObj = new RepositoryMapper(DbTypes.SQLServer);
-
-
-var DocumentDetailsDocumentsDomaintableObj = new RepositoryTable("DocumentDetails");
-  DocumentDetailsDocumentsDomaintableObj.AppConnectionSettingsId  ="9ADED37B-CD11-426B-AF16-DEAC75685EF5";DocumentDetailsDocumentsDomaintableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var DocumentsDomain_DocumentDetails_rows = GetElementClientData(ISpace["InstanceId"].Value,"B5EF84C8-83A9-4B1C-9431-0489F9EC063B");
-
-if(DocumentsDomain_DocumentDetails_rows!=null && DocumentsDomain_DocumentDetails_rows.Count>0){
-var DocumentsDomain_DocumentDetails_rowsObj = new List<RepositoryRow>();
-foreach(var rows in DocumentsDomain_DocumentDetails_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var DocumentDetails_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
-
-if(rows.ContainsKey("A1AD45A0-A5E2-4AF8-A79E-88D905CCC3D9"))     elementData = rows["A1AD45A0-A5E2-4AF8-A79E-88D905CCC3D9"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DocumentDetailsId",true,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_DocumentDetailsId not found");}
-
-if(rows.ContainsKey("EC7B2941-D275-42A9-8EA3-BAC2A6D8DB1D"))     elementData = rows["EC7B2941-D275-42A9-8EA3-BAC2A6D8DB1D"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"PackageProcessMappingId",false,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_PackageProcessMapId not found");}
-
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedOn",false,false,8);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
-
-if(rows.ContainsKey("630018D0-02B5-4226-86E6-28D81821D78E"))     elementData = rows["630018D0-02B5-4226-86E6-28D81821D78E"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DocumentName",false,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_DocumentName not found");}
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedBy",false,false,6);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-if(rows.ContainsKey("52C4B0D4-D32D-4183-94CC-279702B41866"))     elementData = rows["52C4B0D4-D32D-4183-94CC-279702B41866"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DocumentId",false,false,6);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_UploadDcoument not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"InstanceId",false,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-repositoryRowObj.Columns=DocumentDetails_colObj;
-DocumentsDomain_DocumentDetails_rowsObj.Add(repositoryRowObj);
-}}
-
-DocumentDetailsDocumentsDomaintableObj.Rows=DocumentsDomain_DocumentDetails_rowsObj;
-var DocumentsDomain_repoObj_status_DocumentDetails = DocumentsDomain_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref DocumentDetailsDocumentsDomaintableObj);if(!DocumentsDomain_repoObj_status_DocumentDetails) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Documents Domain");
+if((resultEBE446FD1D9E41DEB663DEAA6EE73345!=null) && (resultEBE446FD1D9E41DEB663DEAA6EE73345.Count!=0))
+{
+}
+else{
+
+}
+base.WriteDebugInfo(@"EXEC DocumentsDomain '#M_DocumentDetailsId','#M_PackageProcessMapId','#UpdatedOn','#M_DocumentName','#gv_UserId','#M_UploadDcoument','#MF_T1_TravelAdvanceID'");
+
+var querySource1D2378FB2963489899022B61F44BE0AD =GetQueryExpressionDataSource("1D2378FB-2963-4898-9902-2B61F44BE0AD");
+Dictionary<short,object> result1D2378FB2963489899022B61F44BE0AD=iSpace.ExecuteQuery(querySource1D2378FB2963489899022B61F44BE0AD,@"EXEC DocumentsDomain '" + ISpace["M_DocumentDetailsId"].Value + @"','" + ISpace["M_PackageProcessMapId"].Value + @"','" + ISpace["UpdatedOn"].Value + @"','" + ISpace["M_DocumentName"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["M_UploadDcoument"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource1D2378FB2963489899022B61F44BE0AD =GetQueryExpressionDataSource(""1D2378FB-2963-4898-9902-2B61F44BE0AD"");Dictionary<short,object> result1D2378FB2963489899022B61F44BE0AD=iSpace.ExecuteQuery(querySource1D2378FB2963489899022B61F44BE0AD,@""EXEC DocumentsDomain '"" + ISpace[""M_DocumentDetailsId""].Value + @""','"" + ISpace[""M_PackageProcessMapId""].Value + @""','"" + ISpace[""UpdatedOn""].Value + @""','"" + ISpace[""M_DocumentName""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""M_UploadDcoument""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result1D2378FB2963489899022B61F44BE0AD!=null) && (result1D2378FB2963489899022B61F44BE0AD.Count!=0))
+{
+}
+else{
+
+}
 base.WriteDebugInfo(@"#MF_FundAmount[rows]");
 iSpace.GetLoopExpressionData("MF_FundAmount",ref ISpace);
 
@@ -4788,44 +4592,20 @@ ISpace["MG_FundTypeId"].Value==1)
 base.WriteDebugInfo(@"
 if(
 ISpace[""MG_FundTypeId""].Value==1)");
-base.WriteDebugInfo(@"Entering DomainDataMap for ProjectApprovalCommittmentDetails");
-var ProjectApprovalCommittmentDetails_repoObj = new RepositoryMapper(DbTypes.SQLServer);
+base.WriteDebugInfo(@"EXEC ProjectApprovalCommittmentDetails '#MG_Amount','#MF_T1_TravelAdvanceID','#MG_ProjectDetailsId','#MG_BudgetHead','#gv_ProcessMapId'");
 
+var querySource4213CFEEA88E4B67BEECB0AEF4337465 =GetQueryExpressionDataSource("4213CFEE-A88E-4B67-BEEC-B0AEF4337465");
+Dictionary<short,object> result4213CFEEA88E4B67BEECB0AEF4337465=iSpace.ExecuteQuery(querySource4213CFEEA88E4B67BEECB0AEF4337465,@"EXEC ProjectApprovalCommittmentDetails '" + ISpace["MG_Amount"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_ProjectDetailsId"].Value + @"','" + ISpace["MG_BudgetHead"].Value + @"','" + ISpace["gv_ProcessMapId"].Value + @"'",false);
 
-var ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj = new RepositoryTable("ProjectApprovalCommittmentDetails");
-  ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows = GetElementClientData(ISpace["InstanceId"].Value,"AD9C54EC-27A0-4C21-9923-063084E3B588");
+base.WriteDebugInfo(@"var querySource4213CFEEA88E4B67BEECB0AEF4337465 =GetQueryExpressionDataSource(""4213CFEE-A88E-4B67-BEEC-B0AEF4337465"");Dictionary<short,object> result4213CFEEA88E4B67BEECB0AEF4337465=iSpace.ExecuteQuery(querySource4213CFEEA88E4B67BEECB0AEF4337465,@""EXEC ProjectApprovalCommittmentDetails '"" + ISpace[""MG_Amount""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_ProjectDetailsId""].Value + @""','"" + ISpace[""MG_BudgetHead""].Value + @""','"" + ISpace[""gv_ProcessMapId""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-if(ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows!=null && ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows.Count>0){
-var ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rowsObj = new List<RepositoryRow>();
-foreach(var rows in ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var ProjectApprovalCommittmentDetails_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
+if((result4213CFEEA88E4B67BEECB0AEF4337465!=null) && (result4213CFEEA88E4B67BEECB0AEF4337465.Count!=0))
+{
+}
+else{
 
-if(rows.ContainsKey("8D190818-93B1-4A96-BF0B-C69E15392C71"))     elementData = rows["8D190818-93B1-4A96-BF0B-C69E15392C71"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Amount",false,false,3);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_Amount not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ReferenceId",true,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("9BCAAA76-7F8C-46BA-8939-DF72324C498C"))     elementData = rows["9BCAAA76-7F8C-46BA-8939-DF72324C498C"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ProjectDetailsId",false,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_ProjectDetailsId not found");}
-
-if(rows.ContainsKey("D4C1F776-CEEB-4160-8127-FA7286334A0A"))     elementData = rows["D4C1F776-CEEB-4160-8127-FA7286334A0A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BudgetId",false,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_BudgetHead not found");}
-
-elementData = ISpace["gv_ProcessMapId"].Value != null? Convert.ToString(ISpace["gv_ProcessMapId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"PackageProcessMapId",false,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_ProcessMapId not found");}
-repositoryRowObj.Columns=ProjectApprovalCommittmentDetails_colObj;
-ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rowsObj.Add(repositoryRowObj);
-}}
-
-ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj.Rows=ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rowsObj;
-var ProjectApprovalCommittmentDetails_repoObj_status_ProjectApprovalCommittmentDetails = ProjectApprovalCommittmentDetails_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj);if(!ProjectApprovalCommittmentDetails_repoObj_status_ProjectApprovalCommittmentDetails) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for ProjectApprovalCommittmentDetails");
+}
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("MF_FundAmount","AD9C54EC-27A0-4C21-9923-063084E3B588",_objectFactory.GetGridRPP("MF_FundAmount"),_elementBase.GetGridLoopQuery("AD9C54EC-27A0-4C21-9923-063084E3B588","MF_FundAmount",ISpace), ref ISpace);
@@ -5335,278 +5115,62 @@ base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1)");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-base.WriteDebugInfo(@"Entering DomainDataMap for Repo198E5A8A61F54E7C92DD34146A7059EF");
-var Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj = new RepositoryMapper(DbTypes.SQLServer);
+base.WriteDebugInfo(@"EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '#CreatedOn','#MF_T1_BankDocument','#MF_T1_ReferenceNo','#MF_T1_AccountNo','#OverAll_Total','#UC_EmployeeBaicInfoId','#M_TravelPlace','#MF_T1_AdvanceAmount','#MF_T1_BankName','#MF_T1_TravelAdvanceID','#MF_T1_JourneyPurpose','#Travel_Type','#MF_T1_BeneficiaryName','#gv_UserId','#MF_TransactionNo','#MF_TravelStatus','#MF_TransactionDate','#M_IsAdvanceRequired'");
 
+var querySourceD16F9C83EA714542AB4DE3D99AB969B2 =GetQueryExpressionDataSource("D16F9C83-EA71-4542-AB4D-E3D99AB969B2");
+Dictionary<short,object> resultD16F9C83EA714542AB4DE3D99AB969B2=iSpace.ExecuteQuery(querySourceD16F9C83EA714542AB4DE3D99AB969B2,@"EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '" + ISpace["CreatedOn"].Value + @"','" + ISpace["MF_T1_BankDocument"].Value + @"','" + ISpace["MF_T1_ReferenceNo"].Value + @"','" + ISpace["MF_T1_AccountNo"].Value + @"','" + ISpace["OverAll_Total"].Value + @"','" + ISpace["UC_EmployeeBaicInfoId"].Value + @"','" + ISpace["M_TravelPlace"].Value + @"','" + ISpace["MF_T1_AdvanceAmount"].Value + @"','" + ISpace["MF_T1_BankName"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MF_T1_JourneyPurpose"].Value + @"','" + ISpace["Travel_Type"].Value + @"','" + ISpace["MF_T1_BeneficiaryName"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["MF_TransactionNo"].Value + @"','" + ISpace["MF_TravelStatus"].Value + @"','" + ISpace["MF_TransactionDate"].Value + @"','" + ISpace["M_IsAdvanceRequired"].Value + @"'",false);
 
-var TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj = new RepositoryTable("TravelAdvance");
-  TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows = GetElementClientData(ISpace["InstanceId"].Value,"EE0139AD-5EB8-4786-96CB-2C87A8B572D9");
+base.WriteDebugInfo(@"var querySourceD16F9C83EA714542AB4DE3D99AB969B2 =GetQueryExpressionDataSource(""D16F9C83-EA71-4542-AB4D-E3D99AB969B2"");Dictionary<short,object> resultD16F9C83EA714542AB4DE3D99AB969B2=iSpace.ExecuteQuery(querySourceD16F9C83EA714542AB4DE3D99AB969B2,@""EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '"" + ISpace[""CreatedOn""].Value + @""','"" + ISpace[""MF_T1_BankDocument""].Value + @""','"" + ISpace[""MF_T1_ReferenceNo""].Value + @""','"" + ISpace[""MF_T1_AccountNo""].Value + @""','"" + ISpace[""OverAll_Total""].Value + @""','"" + ISpace[""UC_EmployeeBaicInfoId""].Value + @""','"" + ISpace[""M_TravelPlace""].Value + @""','"" + ISpace[""MF_T1_AdvanceAmount""].Value + @""','"" + ISpace[""MF_T1_BankName""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MF_T1_JourneyPurpose""].Value + @""','"" + ISpace[""Travel_Type""].Value + @""','"" + ISpace[""MF_T1_BeneficiaryName""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""MF_TransactionNo""].Value + @""','"" + ISpace[""MF_TravelStatus""].Value + @""','"" + ISpace[""MF_TransactionDate""].Value + @""','"" + ISpace[""M_IsAdvanceRequired""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-if(Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows!=null && Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows.Count>0){
-var Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rowsObj = new List<RepositoryRow>();
-foreach(var rows in Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var TravelAdvance_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
+if((resultD16F9C83EA714542AB4DE3D99AB969B2!=null) && (resultD16F9C83EA714542AB4DE3D99AB969B2.Count!=0))
+{
+}
+else{
 
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"CreatedOn",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
+}
+base.WriteDebugInfo(@"EXEC Repo51838b372ec64d358a5e38648bc93ab1 '#gv_UserId','#UpdatedOn','#MF_T1_TravelAdvanceID','#MG_T2_ToDate','#MG_T2_FromDate','#M_IsTravelRequest','#MG_T2_ExpenditureTypeID','#Expenditure_Type','#MG_T3_Amount'");
 
-if(rows.ContainsKey("E45AC962-0AE5-4044-91CA-E6108F75C426"))     elementData = rows["E45AC962-0AE5-4044-91CA-E6108F75C426"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BankDocument",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_BankDocument not found");}
+var querySource864963C6427C451F8C30D7E8FCDD4228 =GetQueryExpressionDataSource("864963C6-427C-451F-8C30-D7E8FCDD4228");
+Dictionary<short,object> result864963C6427C451F8C30D7E8FCDD4228=iSpace.ExecuteQuery(querySource864963C6427C451F8C30D7E8FCDD4228,@"EXEC Repo51838b372ec64d358a5e38648bc93ab1 '" + ISpace["gv_UserId"].Value + @"','" + ISpace["UpdatedOn"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_T2_ToDate"].Value + @"','" + ISpace["MG_T2_FromDate"].Value + @"','" + ISpace["M_IsTravelRequest"].Value + @"','" + ISpace["MG_T2_ExpenditureTypeID"].Value + @"','" + ISpace["Expenditure_Type"].Value + @"','" + ISpace["MG_T3_Amount"].Value + @"'",false);
 
-if(rows.ContainsKey("F575B6C8-44A2-4EF7-8943-E03F0FEE690A"))     elementData = rows["F575B6C8-44A2-4EF7-8943-E03F0FEE690A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ReferenceNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_ReferenceNo not found");}
+base.WriteDebugInfo(@"var querySource864963C6427C451F8C30D7E8FCDD4228 =GetQueryExpressionDataSource(""864963C6-427C-451F-8C30-D7E8FCDD4228"");Dictionary<short,object> result864963C6427C451F8C30D7E8FCDD4228=iSpace.ExecuteQuery(querySource864963C6427C451F8C30D7E8FCDD4228,@""EXEC Repo51838b372ec64d358a5e38648bc93ab1 '"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""UpdatedOn""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_T2_ToDate""].Value + @""','"" + ISpace[""MG_T2_FromDate""].Value + @""','"" + ISpace[""M_IsTravelRequest""].Value + @""','"" + ISpace[""MG_T2_ExpenditureTypeID""].Value + @""','"" + ISpace[""Expenditure_Type""].Value + @""','"" + ISpace[""MG_T3_Amount""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-if(rows.ContainsKey("8532946C-3E86-492D-91BF-42E67F12F8D2"))     elementData = rows["8532946C-3E86-492D-91BF-42E67F12F8D2"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"AccountNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_AccountNo not found");}
+if((result864963C6427C451F8C30D7E8FCDD4228!=null) && (result864963C6427C451F8C30D7E8FCDD4228.Count!=0))
+{
+}
+else{
 
-if(rows.ContainsKey("1206DC21-D786-47CC-9F64-B73A940A99E3"))     elementData = rows["1206DC21-D786-47CC-9F64-B73A940A99E3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TotalAmount",false,false,3);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-OverAll_Total not found");}
+}
+base.WriteDebugInfo(@"EXEC Repo374fb8a88dd94cf1bf73f40ae18fcad7 '#M_IsTravelRequest','#UpdatedOn','#MG_T2_TADetailsID','#gv_UserId','#MG_T2_DepartureDate','#MG_T2_DepartureTime','#MG_T2_ArrivalDate','#MG_T2_Road','#MF_T1_TravelAdvanceID','#MG_T2_Departure','#MG_T2_Amount','#MG_T2_JourneyClass','#MG_T2_Arrival','#MG_T2_PNRNo','#MG_T2_ModeofJourney','#MG_T2_ArrivalTime'");
 
-if(rows.ContainsKey("3A8389F9-5E41-429F-BBEB-28849095B97E"))     elementData = rows["3A8389F9-5E41-429F-BBEB-28849095B97E"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"EmployeeBasicInfoId",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-UC_EmployeeBaicInfoId not found");}
+var querySourceEBE446FD1D9E41DEB663DEAA6EE73345 =GetQueryExpressionDataSource("EBE446FD-1D9E-41DE-B663-DEAA6EE73345");
+Dictionary<short,object> resultEBE446FD1D9E41DEB663DEAA6EE73345=iSpace.ExecuteQuery(querySourceEBE446FD1D9E41DEB663DEAA6EE73345,@"EXEC Repo374fb8a88dd94cf1bf73f40ae18fcad7 '" + ISpace["M_IsTravelRequest"].Value + @"','" + ISpace["UpdatedOn"].Value + @"','" + ISpace["MG_T2_TADetailsID"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["MG_T2_DepartureDate"].Value + @"','" + ISpace["MG_T2_DepartureTime"].Value + @"','" + ISpace["MG_T2_ArrivalDate"].Value + @"','" + ISpace["MG_T2_Road"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_T2_Departure"].Value + @"','" + ISpace["MG_T2_Amount"].Value + @"','" + ISpace["MG_T2_JourneyClass"].Value + @"','" + ISpace["MG_T2_Arrival"].Value + @"','" + ISpace["MG_T2_PNRNo"].Value + @"','" + ISpace["MG_T2_ModeofJourney"].Value + @"','" + ISpace["MG_T2_ArrivalTime"].Value + @"'",false);
 
-if(rows.ContainsKey("7DE18D63-ECDC-4C68-B51E-0C27E1E491C8"))     elementData = rows["7DE18D63-ECDC-4C68-B51E-0C27E1E491C8"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelPlace",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_TravelPlace not found");}
-
-if(rows.ContainsKey("CB48F356-433B-43E2-B1B2-E29A871CCD62"))     elementData = rows["CB48F356-433B-43E2-B1B2-E29A871CCD62"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"AdvanceAmount",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_AdvanceAmount not found");}
-
-if(rows.ContainsKey("EFA3E743-38FA-433D-BF2B-F11A3AA499A9"))     elementData = rows["EFA3E743-38FA-433D-BF2B-F11A3AA499A9"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BankName",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_BankName not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelAdvanceID",true,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("7224660A-1F78-4AAD-AD2D-D6A00A4FFBFA"))     elementData = rows["7224660A-1F78-4AAD-AD2D-D6A00A4FFBFA"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"JourneyPurpose",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_JourneyPurpose not found");}
-
-if(rows.ContainsKey("EF93D216-3C63-4B9B-9CF3-712FB1F0F355"))     elementData = rows["EF93D216-3C63-4B9B-9CF3-712FB1F0F355"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelType",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-Travel_Type not found");}
-
-if(rows.ContainsKey("DCD03594-9A63-4DD5-AB25-78543850A746"))     elementData = rows["DCD03594-9A63-4DD5-AB25-78543850A746"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BeneficiaryName",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_BeneficiaryName not found");}
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"CreatedBy",false,false,6);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-if(rows.ContainsKey("F1E9E348-5D1F-4689-A04D-C2B8597FA52A"))     elementData = rows["F1E9E348-5D1F-4689-A04D-C2B8597FA52A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TransactionNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_TransactionNo not found");}
-
-if(rows.ContainsKey("8C5A1489-F4B6-44FB-B8D6-4A0E180B368A"))     elementData = rows["8C5A1489-F4B6-44FB-B8D6-4A0E180B368A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelStatus",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_TravelStatus not found");}
-
-if(rows.ContainsKey("043C289E-EB2A-43BC-BC05-286F6ABE56EE"))     elementData = rows["043C289E-EB2A-43BC-BC05-286F6ABE56EE"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TransactionDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_TransactionDate not found");}
-
-if(rows.ContainsKey("3CE3C87B-0042-44B5-B6D1-717BADEC32DC"))     elementData = rows["3CE3C87B-0042-44B5-B6D1-717BADEC32DC"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"IsAdvanceRequired",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_IsAdvanceRequired not found");}
-repositoryRowObj.Columns=TravelAdvance_colObj;
-Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rowsObj.Add(repositoryRowObj);
-}}
-
-TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj.Rows=Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rowsObj;
-var Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj_status_TravelAdvance = Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj);if(!Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj_status_TravelAdvance) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Repo198E5A8A61F54E7C92DD34146A7059EF");
-base.WriteDebugInfo(@"Entering DomainDataMap for Repo51838b372ec64d358a5e38648bc93ab1");
-var Repo51838b372ec64d358a5e38648bc93ab1_repoObj = new RepositoryMapper(DbTypes.SQLServer);
+base.WriteDebugInfo(@"var querySourceEBE446FD1D9E41DEB663DEAA6EE73345 =GetQueryExpressionDataSource(""EBE446FD-1D9E-41DE-B663-DEAA6EE73345"");Dictionary<short,object> resultEBE446FD1D9E41DEB663DEAA6EE73345=iSpace.ExecuteQuery(querySourceEBE446FD1D9E41DEB663DEAA6EE73345,@""EXEC Repo374fb8a88dd94cf1bf73f40ae18fcad7 '"" + ISpace[""M_IsTravelRequest""].Value + @""','"" + ISpace[""UpdatedOn""].Value + @""','"" + ISpace[""MG_T2_TADetailsID""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""MG_T2_DepartureDate""].Value + @""','"" + ISpace[""MG_T2_DepartureTime""].Value + @""','"" + ISpace[""MG_T2_ArrivalDate""].Value + @""','"" + ISpace[""MG_T2_Road""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_T2_Departure""].Value + @""','"" + ISpace[""MG_T2_Amount""].Value + @""','"" + ISpace[""MG_T2_JourneyClass""].Value + @""','"" + ISpace[""MG_T2_Arrival""].Value + @""','"" + ISpace[""MG_T2_PNRNo""].Value + @""','"" + ISpace[""MG_T2_ModeofJourney""].Value + @""','"" + ISpace[""MG_T2_ArrivalTime""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-
-var TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj = new RepositoryTable("TravelAdvance_ExpenditureType");
-  TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows = GetElementClientData(ISpace["InstanceId"].Value,"A694A330-AAD5-4856-853C-D6AD1573AF0B");
-
-if(Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows!=null && Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows.Count>0){
-var Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rowsObj = new List<RepositoryRow>();
-foreach(var rows in Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var TravelAdvance_ExpenditureType_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedBy",false,false,6);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedOn",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelAdvanceID",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("4C5A9A6D-FEC3-4E20-9AFD-F5F8361CB871"))     elementData = rows["4C5A9A6D-FEC3-4E20-9AFD-F5F8361CB871"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ToDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ToDate not found");}
-
-if(rows.ContainsKey("490A92F2-4C92-4971-BD74-3938B80EBBC0"))     elementData = rows["490A92F2-4C92-4971-BD74-3938B80EBBC0"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"FromDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_FromDate not found");}
-
-if(rows.ContainsKey("8D228937-474E-4AFF-B96F-38A1BF76C117"))     elementData = rows["8D228937-474E-4AFF-B96F-38A1BF76C117"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"IsTravelRequest",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_IsTravelRequest not found");}
-
-if(rows.ContainsKey("244E8CE8-EB87-4A10-9361-B273DFF01FE3"))     elementData = rows["244E8CE8-EB87-4A10-9361-B273DFF01FE3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ExpenditureTypeID",true,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ExpenditureTypeID not found");}
-
-if(rows.ContainsKey("41AAE0B5-5977-486B-A512-59C01B14C404"))     elementData = rows["41AAE0B5-5977-486B-A512-59C01B14C404"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ExpenditureType",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-Expenditure_Type not found");}
-
-if(rows.ContainsKey("1DA63E25-0188-4F41-ACA7-8168FE1862F3"))     elementData = rows["1DA63E25-0188-4F41-ACA7-8168FE1862F3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Amount",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T3_Amount not found");}
-repositoryRowObj.Columns=TravelAdvance_ExpenditureType_colObj;
-Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rowsObj.Add(repositoryRowObj);
-}}
-
-TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj.Rows=Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rowsObj;
-var Repo51838b372ec64d358a5e38648bc93ab1_repoObj_status_TravelAdvance_ExpenditureType = Repo51838b372ec64d358a5e38648bc93ab1_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj);if(!Repo51838b372ec64d358a5e38648bc93ab1_repoObj_status_TravelAdvance_ExpenditureType) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Repo51838b372ec64d358a5e38648bc93ab1");
-base.WriteDebugInfo(@"Entering DomainDataMap for Repo374fb8a88dd94cf1bf73f40ae18fcad7");
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj = new RepositoryMapper(DbTypes.SQLServer);
-
-
-var TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj = new RepositoryTable("TravelAdvanceDetails");
-  TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows = GetElementClientData(ISpace["InstanceId"].Value,"FA412DDD-7AD9-49AF-B8D7-2B7E1620D8FC");
-
-if(Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows!=null && Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows.Count>0){
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rowsObj = new List<RepositoryRow>();
-foreach(var rows in Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var TravelAdvanceDetails_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
-
-if(rows.ContainsKey("8D228937-474E-4AFF-B96F-38A1BF76C117"))     elementData = rows["8D228937-474E-4AFF-B96F-38A1BF76C117"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"IsTravelRequest",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_IsTravelRequest not found");}
-
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedOn",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
-
-if(rows.ContainsKey("1E5F9CC5-01E4-4DF4-8C7E-8A01CBEA4349"))     elementData = rows["1E5F9CC5-01E4-4DF4-8C7E-8A01CBEA4349"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TADetailsID",true,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_TADetailsID not found");}
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedBy",false,false,6);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-if(rows.ContainsKey("484E6EB5-6324-49D0-B63A-495466030415"))     elementData = rows["484E6EB5-6324-49D0-B63A-495466030415"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DepartureDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_DepartureDate not found");}
-
-if(rows.ContainsKey("ABBB7E59-83D0-4C6B-AD05-4C98BEE1E82B"))     elementData = rows["ABBB7E59-83D0-4C6B-AD05-4C98BEE1E82B"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DepartureTime",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_DepartureTime not found");}
-
-if(rows.ContainsKey("4EB3190D-F7E0-4703-970F-4726DADD2454"))     elementData = rows["4EB3190D-F7E0-4703-970F-4726DADD2454"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ArrivalDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ArrivalDate not found");}
-
-if(rows.ContainsKey("17A92271-D47F-43F3-BE12-EE7AA3212124"))     elementData = rows["17A92271-D47F-43F3-BE12-EE7AA3212124"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Road",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Road not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelAdvanceID",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("45BA3B8C-BB8B-428B-9CBA-AD963E7110A3"))     elementData = rows["45BA3B8C-BB8B-428B-9CBA-AD963E7110A3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Departure",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Departure not found");}
-
-if(rows.ContainsKey("FA7A7A4E-5225-4C60-BC2A-7A76BEF41BF4"))     elementData = rows["FA7A7A4E-5225-4C60-BC2A-7A76BEF41BF4"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Amount",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Amount not found");}
-
-if(rows.ContainsKey("B59E7372-E293-463F-AD0D-4F734BC303A3"))     elementData = rows["B59E7372-E293-463F-AD0D-4F734BC303A3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"JourneyClass",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_JourneyClass not found");}
-
-if(rows.ContainsKey("0FFCFFBC-99D0-481E-A24E-D6161A319428"))     elementData = rows["0FFCFFBC-99D0-481E-A24E-D6161A319428"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Arrival",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Arrival not found");}
-
-if(rows.ContainsKey("2F1F6722-D855-4FDA-B73D-205C2AF35448"))     elementData = rows["2F1F6722-D855-4FDA-B73D-205C2AF35448"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"PNRNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_PNRNo not found");}
-
-if(rows.ContainsKey("EF1D6930-942A-4E47-8F27-F98F747EF257"))     elementData = rows["EF1D6930-942A-4E47-8F27-F98F747EF257"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ModeofJourney",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ModeofJourney not found");}
-
-if(rows.ContainsKey("F0795EE2-8062-4C08-A312-B12985FB0565"))     elementData = rows["F0795EE2-8062-4C08-A312-B12985FB0565"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ArrivalTime",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ArrivalTime not found");}
-repositoryRowObj.Columns=TravelAdvanceDetails_colObj;
-Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rowsObj.Add(repositoryRowObj);
-}}
-
-TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj.Rows=Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rowsObj;
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj_status_TravelAdvanceDetails = Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj);if(!Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj_status_TravelAdvanceDetails) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Repo374fb8a88dd94cf1bf73f40ae18fcad7");
-base.WriteDebugInfo(@"Entering DomainDataMap for Documents Domain");
-var DocumentsDomain_repoObj = new RepositoryMapper(DbTypes.SQLServer);
-
-
-var DocumentDetailsDocumentsDomaintableObj = new RepositoryTable("DocumentDetails");
-  DocumentDetailsDocumentsDomaintableObj.AppConnectionSettingsId  ="9ADED37B-CD11-426B-AF16-DEAC75685EF5";DocumentDetailsDocumentsDomaintableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var DocumentsDomain_DocumentDetails_rows = GetElementClientData(ISpace["InstanceId"].Value,"B5EF84C8-83A9-4B1C-9431-0489F9EC063B");
-
-if(DocumentsDomain_DocumentDetails_rows!=null && DocumentsDomain_DocumentDetails_rows.Count>0){
-var DocumentsDomain_DocumentDetails_rowsObj = new List<RepositoryRow>();
-foreach(var rows in DocumentsDomain_DocumentDetails_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var DocumentDetails_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
-
-if(rows.ContainsKey("A1AD45A0-A5E2-4AF8-A79E-88D905CCC3D9"))     elementData = rows["A1AD45A0-A5E2-4AF8-A79E-88D905CCC3D9"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DocumentDetailsId",true,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_DocumentDetailsId not found");}
-
-if(rows.ContainsKey("EC7B2941-D275-42A9-8EA3-BAC2A6D8DB1D"))     elementData = rows["EC7B2941-D275-42A9-8EA3-BAC2A6D8DB1D"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"PackageProcessMappingId",false,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_PackageProcessMapId not found");}
-
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedOn",false,false,8);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
-
-if(rows.ContainsKey("630018D0-02B5-4226-86E6-28D81821D78E"))     elementData = rows["630018D0-02B5-4226-86E6-28D81821D78E"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DocumentName",false,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_DocumentName not found");}
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedBy",false,false,6);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-if(rows.ContainsKey("52C4B0D4-D32D-4183-94CC-279702B41866"))     elementData = rows["52C4B0D4-D32D-4183-94CC-279702B41866"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DocumentId",false,false,6);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_UploadDcoument not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"InstanceId",false,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-repositoryRowObj.Columns=DocumentDetails_colObj;
-DocumentsDomain_DocumentDetails_rowsObj.Add(repositoryRowObj);
-}}
-
-DocumentDetailsDocumentsDomaintableObj.Rows=DocumentsDomain_DocumentDetails_rowsObj;
-var DocumentsDomain_repoObj_status_DocumentDetails = DocumentsDomain_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref DocumentDetailsDocumentsDomaintableObj);if(!DocumentsDomain_repoObj_status_DocumentDetails) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Documents Domain");
+if((resultEBE446FD1D9E41DEB663DEAA6EE73345!=null) && (resultEBE446FD1D9E41DEB663DEAA6EE73345.Count!=0))
+{
+}
+else{
+
+}
+base.WriteDebugInfo(@"EXEC DocumentsDomain '#M_DocumentDetailsId','#M_PackageProcessMapId','#UpdatedOn','#M_DocumentName','#gv_UserId','#M_UploadDcoument','#MF_T1_TravelAdvanceID'");
+
+var querySource1D2378FB2963489899022B61F44BE0AD =GetQueryExpressionDataSource("1D2378FB-2963-4898-9902-2B61F44BE0AD");
+Dictionary<short,object> result1D2378FB2963489899022B61F44BE0AD=iSpace.ExecuteQuery(querySource1D2378FB2963489899022B61F44BE0AD,@"EXEC DocumentsDomain '" + ISpace["M_DocumentDetailsId"].Value + @"','" + ISpace["M_PackageProcessMapId"].Value + @"','" + ISpace["UpdatedOn"].Value + @"','" + ISpace["M_DocumentName"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["M_UploadDcoument"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource1D2378FB2963489899022B61F44BE0AD =GetQueryExpressionDataSource(""1D2378FB-2963-4898-9902-2B61F44BE0AD"");Dictionary<short,object> result1D2378FB2963489899022B61F44BE0AD=iSpace.ExecuteQuery(querySource1D2378FB2963489899022B61F44BE0AD,@""EXEC DocumentsDomain '"" + ISpace[""M_DocumentDetailsId""].Value + @""','"" + ISpace[""M_PackageProcessMapId""].Value + @""','"" + ISpace[""UpdatedOn""].Value + @""','"" + ISpace[""M_DocumentName""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""M_UploadDcoument""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result1D2378FB2963489899022B61F44BE0AD!=null) && (result1D2378FB2963489899022B61F44BE0AD.Count!=0))
+{
+}
+else{
+
+}
 base.WriteDebugInfo(@"#MF_FundAmount[rows]");
 iSpace.GetLoopExpressionData("MF_FundAmount",ref ISpace);
 
@@ -5621,44 +5185,20 @@ ISpace["MG_FundTypeId"].Value==1)
 base.WriteDebugInfo(@"
 if(
 ISpace[""MG_FundTypeId""].Value==1)");
-base.WriteDebugInfo(@"Entering DomainDataMap for ProjectApprovalCommittmentDetails");
-var ProjectApprovalCommittmentDetails_repoObj = new RepositoryMapper(DbTypes.SQLServer);
+base.WriteDebugInfo(@"EXEC ProjectApprovalCommittmentDetails '#MG_Amount','#MF_T1_TravelAdvanceID','#MG_ProjectDetailsId','#MG_BudgetHead','#gv_ProcessMapId'");
 
+var querySource4213CFEEA88E4B67BEECB0AEF4337465 =GetQueryExpressionDataSource("4213CFEE-A88E-4B67-BEEC-B0AEF4337465");
+Dictionary<short,object> result4213CFEEA88E4B67BEECB0AEF4337465=iSpace.ExecuteQuery(querySource4213CFEEA88E4B67BEECB0AEF4337465,@"EXEC ProjectApprovalCommittmentDetails '" + ISpace["MG_Amount"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_ProjectDetailsId"].Value + @"','" + ISpace["MG_BudgetHead"].Value + @"','" + ISpace["gv_ProcessMapId"].Value + @"'",false);
 
-var ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj = new RepositoryTable("ProjectApprovalCommittmentDetails");
-  ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows = GetElementClientData(ISpace["InstanceId"].Value,"AD9C54EC-27A0-4C21-9923-063084E3B588");
+base.WriteDebugInfo(@"var querySource4213CFEEA88E4B67BEECB0AEF4337465 =GetQueryExpressionDataSource(""4213CFEE-A88E-4B67-BEEC-B0AEF4337465"");Dictionary<short,object> result4213CFEEA88E4B67BEECB0AEF4337465=iSpace.ExecuteQuery(querySource4213CFEEA88E4B67BEECB0AEF4337465,@""EXEC ProjectApprovalCommittmentDetails '"" + ISpace[""MG_Amount""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_ProjectDetailsId""].Value + @""','"" + ISpace[""MG_BudgetHead""].Value + @""','"" + ISpace[""gv_ProcessMapId""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-if(ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows!=null && ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows.Count>0){
-var ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rowsObj = new List<RepositoryRow>();
-foreach(var rows in ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var ProjectApprovalCommittmentDetails_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
+if((result4213CFEEA88E4B67BEECB0AEF4337465!=null) && (result4213CFEEA88E4B67BEECB0AEF4337465.Count!=0))
+{
+}
+else{
 
-if(rows.ContainsKey("8D190818-93B1-4A96-BF0B-C69E15392C71"))     elementData = rows["8D190818-93B1-4A96-BF0B-C69E15392C71"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Amount",false,false,3);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_Amount not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ReferenceId",true,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("9BCAAA76-7F8C-46BA-8939-DF72324C498C"))     elementData = rows["9BCAAA76-7F8C-46BA-8939-DF72324C498C"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ProjectDetailsId",false,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_ProjectDetailsId not found");}
-
-if(rows.ContainsKey("D4C1F776-CEEB-4160-8127-FA7286334A0A"))     elementData = rows["D4C1F776-CEEB-4160-8127-FA7286334A0A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BudgetId",false,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_BudgetHead not found");}
-
-elementData = ISpace["gv_ProcessMapId"].Value != null? Convert.ToString(ISpace["gv_ProcessMapId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"PackageProcessMapId",false,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_ProcessMapId not found");}
-repositoryRowObj.Columns=ProjectApprovalCommittmentDetails_colObj;
-ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rowsObj.Add(repositoryRowObj);
-}}
-
-ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj.Rows=ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rowsObj;
-var ProjectApprovalCommittmentDetails_repoObj_status_ProjectApprovalCommittmentDetails = ProjectApprovalCommittmentDetails_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj);if(!ProjectApprovalCommittmentDetails_repoObj_status_ProjectApprovalCommittmentDetails) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for ProjectApprovalCommittmentDetails");
+}
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("MF_FundAmount","AD9C54EC-27A0-4C21-9923-063084E3B588",_objectFactory.GetGridRPP("MF_FundAmount"),_elementBase.GetGridLoopQuery("AD9C54EC-27A0-4C21-9923-063084E3B588","MF_FundAmount",ISpace), ref ISpace);
@@ -6152,278 +5692,62 @@ base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1)");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-base.WriteDebugInfo(@"Entering DomainDataMap for Repo198E5A8A61F54E7C92DD34146A7059EF");
-var Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj = new RepositoryMapper(DbTypes.SQLServer);
+base.WriteDebugInfo(@"EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '#CreatedOn','#MF_T1_BankDocument','#MF_T1_ReferenceNo','#MF_T1_AccountNo','#OverAll_Total','#UC_EmployeeBaicInfoId','#M_TravelPlace','#MF_T1_AdvanceAmount','#MF_T1_BankName','#MF_T1_TravelAdvanceID','#MF_T1_JourneyPurpose','#Travel_Type','#MF_T1_BeneficiaryName','#gv_UserId','#MF_TransactionNo','#MF_TravelStatus','#MF_TransactionDate','#M_IsAdvanceRequired'");
 
+var querySourceD16F9C83EA714542AB4DE3D99AB969B2 =GetQueryExpressionDataSource("D16F9C83-EA71-4542-AB4D-E3D99AB969B2");
+Dictionary<short,object> resultD16F9C83EA714542AB4DE3D99AB969B2=iSpace.ExecuteQuery(querySourceD16F9C83EA714542AB4DE3D99AB969B2,@"EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '" + ISpace["CreatedOn"].Value + @"','" + ISpace["MF_T1_BankDocument"].Value + @"','" + ISpace["MF_T1_ReferenceNo"].Value + @"','" + ISpace["MF_T1_AccountNo"].Value + @"','" + ISpace["OverAll_Total"].Value + @"','" + ISpace["UC_EmployeeBaicInfoId"].Value + @"','" + ISpace["M_TravelPlace"].Value + @"','" + ISpace["MF_T1_AdvanceAmount"].Value + @"','" + ISpace["MF_T1_BankName"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MF_T1_JourneyPurpose"].Value + @"','" + ISpace["Travel_Type"].Value + @"','" + ISpace["MF_T1_BeneficiaryName"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["MF_TransactionNo"].Value + @"','" + ISpace["MF_TravelStatus"].Value + @"','" + ISpace["MF_TransactionDate"].Value + @"','" + ISpace["M_IsAdvanceRequired"].Value + @"'",false);
 
-var TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj = new RepositoryTable("TravelAdvance");
-  TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows = GetElementClientData(ISpace["InstanceId"].Value,"EE0139AD-5EB8-4786-96CB-2C87A8B572D9");
+base.WriteDebugInfo(@"var querySourceD16F9C83EA714542AB4DE3D99AB969B2 =GetQueryExpressionDataSource(""D16F9C83-EA71-4542-AB4D-E3D99AB969B2"");Dictionary<short,object> resultD16F9C83EA714542AB4DE3D99AB969B2=iSpace.ExecuteQuery(querySourceD16F9C83EA714542AB4DE3D99AB969B2,@""EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '"" + ISpace[""CreatedOn""].Value + @""','"" + ISpace[""MF_T1_BankDocument""].Value + @""','"" + ISpace[""MF_T1_ReferenceNo""].Value + @""','"" + ISpace[""MF_T1_AccountNo""].Value + @""','"" + ISpace[""OverAll_Total""].Value + @""','"" + ISpace[""UC_EmployeeBaicInfoId""].Value + @""','"" + ISpace[""M_TravelPlace""].Value + @""','"" + ISpace[""MF_T1_AdvanceAmount""].Value + @""','"" + ISpace[""MF_T1_BankName""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MF_T1_JourneyPurpose""].Value + @""','"" + ISpace[""Travel_Type""].Value + @""','"" + ISpace[""MF_T1_BeneficiaryName""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""MF_TransactionNo""].Value + @""','"" + ISpace[""MF_TravelStatus""].Value + @""','"" + ISpace[""MF_TransactionDate""].Value + @""','"" + ISpace[""M_IsAdvanceRequired""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-if(Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows!=null && Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows.Count>0){
-var Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rowsObj = new List<RepositoryRow>();
-foreach(var rows in Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var TravelAdvance_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
+if((resultD16F9C83EA714542AB4DE3D99AB969B2!=null) && (resultD16F9C83EA714542AB4DE3D99AB969B2.Count!=0))
+{
+}
+else{
 
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"CreatedOn",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
+}
+base.WriteDebugInfo(@"EXEC Repo51838b372ec64d358a5e38648bc93ab1 '#gv_UserId','#UpdatedOn','#MF_T1_TravelAdvanceID','#MG_T2_ToDate','#MG_T2_FromDate','#M_IsTravelRequest','#MG_T2_ExpenditureTypeID','#Expenditure_Type','#MG_T3_Amount'");
 
-if(rows.ContainsKey("E45AC962-0AE5-4044-91CA-E6108F75C426"))     elementData = rows["E45AC962-0AE5-4044-91CA-E6108F75C426"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BankDocument",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_BankDocument not found");}
+var querySource864963C6427C451F8C30D7E8FCDD4228 =GetQueryExpressionDataSource("864963C6-427C-451F-8C30-D7E8FCDD4228");
+Dictionary<short,object> result864963C6427C451F8C30D7E8FCDD4228=iSpace.ExecuteQuery(querySource864963C6427C451F8C30D7E8FCDD4228,@"EXEC Repo51838b372ec64d358a5e38648bc93ab1 '" + ISpace["gv_UserId"].Value + @"','" + ISpace["UpdatedOn"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_T2_ToDate"].Value + @"','" + ISpace["MG_T2_FromDate"].Value + @"','" + ISpace["M_IsTravelRequest"].Value + @"','" + ISpace["MG_T2_ExpenditureTypeID"].Value + @"','" + ISpace["Expenditure_Type"].Value + @"','" + ISpace["MG_T3_Amount"].Value + @"'",false);
 
-if(rows.ContainsKey("F575B6C8-44A2-4EF7-8943-E03F0FEE690A"))     elementData = rows["F575B6C8-44A2-4EF7-8943-E03F0FEE690A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ReferenceNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_ReferenceNo not found");}
+base.WriteDebugInfo(@"var querySource864963C6427C451F8C30D7E8FCDD4228 =GetQueryExpressionDataSource(""864963C6-427C-451F-8C30-D7E8FCDD4228"");Dictionary<short,object> result864963C6427C451F8C30D7E8FCDD4228=iSpace.ExecuteQuery(querySource864963C6427C451F8C30D7E8FCDD4228,@""EXEC Repo51838b372ec64d358a5e38648bc93ab1 '"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""UpdatedOn""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_T2_ToDate""].Value + @""','"" + ISpace[""MG_T2_FromDate""].Value + @""','"" + ISpace[""M_IsTravelRequest""].Value + @""','"" + ISpace[""MG_T2_ExpenditureTypeID""].Value + @""','"" + ISpace[""Expenditure_Type""].Value + @""','"" + ISpace[""MG_T3_Amount""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-if(rows.ContainsKey("8532946C-3E86-492D-91BF-42E67F12F8D2"))     elementData = rows["8532946C-3E86-492D-91BF-42E67F12F8D2"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"AccountNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_AccountNo not found");}
+if((result864963C6427C451F8C30D7E8FCDD4228!=null) && (result864963C6427C451F8C30D7E8FCDD4228.Count!=0))
+{
+}
+else{
 
-if(rows.ContainsKey("1206DC21-D786-47CC-9F64-B73A940A99E3"))     elementData = rows["1206DC21-D786-47CC-9F64-B73A940A99E3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TotalAmount",false,false,3);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-OverAll_Total not found");}
+}
+base.WriteDebugInfo(@"EXEC Repo374fb8a88dd94cf1bf73f40ae18fcad7 '#M_IsTravelRequest','#UpdatedOn','#MG_T2_TADetailsID','#gv_UserId','#MG_T2_DepartureDate','#MG_T2_DepartureTime','#MG_T2_ArrivalDate','#MG_T2_Road','#MF_T1_TravelAdvanceID','#MG_T2_Departure','#MG_T2_Amount','#MG_T2_JourneyClass','#MG_T2_Arrival','#MG_T2_PNRNo','#MG_T2_ModeofJourney','#MG_T2_ArrivalTime'");
 
-if(rows.ContainsKey("3A8389F9-5E41-429F-BBEB-28849095B97E"))     elementData = rows["3A8389F9-5E41-429F-BBEB-28849095B97E"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"EmployeeBasicInfoId",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-UC_EmployeeBaicInfoId not found");}
+var querySourceEBE446FD1D9E41DEB663DEAA6EE73345 =GetQueryExpressionDataSource("EBE446FD-1D9E-41DE-B663-DEAA6EE73345");
+Dictionary<short,object> resultEBE446FD1D9E41DEB663DEAA6EE73345=iSpace.ExecuteQuery(querySourceEBE446FD1D9E41DEB663DEAA6EE73345,@"EXEC Repo374fb8a88dd94cf1bf73f40ae18fcad7 '" + ISpace["M_IsTravelRequest"].Value + @"','" + ISpace["UpdatedOn"].Value + @"','" + ISpace["MG_T2_TADetailsID"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["MG_T2_DepartureDate"].Value + @"','" + ISpace["MG_T2_DepartureTime"].Value + @"','" + ISpace["MG_T2_ArrivalDate"].Value + @"','" + ISpace["MG_T2_Road"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_T2_Departure"].Value + @"','" + ISpace["MG_T2_Amount"].Value + @"','" + ISpace["MG_T2_JourneyClass"].Value + @"','" + ISpace["MG_T2_Arrival"].Value + @"','" + ISpace["MG_T2_PNRNo"].Value + @"','" + ISpace["MG_T2_ModeofJourney"].Value + @"','" + ISpace["MG_T2_ArrivalTime"].Value + @"'",false);
 
-if(rows.ContainsKey("7DE18D63-ECDC-4C68-B51E-0C27E1E491C8"))     elementData = rows["7DE18D63-ECDC-4C68-B51E-0C27E1E491C8"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelPlace",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_TravelPlace not found");}
-
-if(rows.ContainsKey("CB48F356-433B-43E2-B1B2-E29A871CCD62"))     elementData = rows["CB48F356-433B-43E2-B1B2-E29A871CCD62"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"AdvanceAmount",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_AdvanceAmount not found");}
-
-if(rows.ContainsKey("EFA3E743-38FA-433D-BF2B-F11A3AA499A9"))     elementData = rows["EFA3E743-38FA-433D-BF2B-F11A3AA499A9"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BankName",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_BankName not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelAdvanceID",true,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("7224660A-1F78-4AAD-AD2D-D6A00A4FFBFA"))     elementData = rows["7224660A-1F78-4AAD-AD2D-D6A00A4FFBFA"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"JourneyPurpose",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_JourneyPurpose not found");}
-
-if(rows.ContainsKey("EF93D216-3C63-4B9B-9CF3-712FB1F0F355"))     elementData = rows["EF93D216-3C63-4B9B-9CF3-712FB1F0F355"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelType",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-Travel_Type not found");}
-
-if(rows.ContainsKey("DCD03594-9A63-4DD5-AB25-78543850A746"))     elementData = rows["DCD03594-9A63-4DD5-AB25-78543850A746"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BeneficiaryName",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_BeneficiaryName not found");}
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"CreatedBy",false,false,6);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-if(rows.ContainsKey("F1E9E348-5D1F-4689-A04D-C2B8597FA52A"))     elementData = rows["F1E9E348-5D1F-4689-A04D-C2B8597FA52A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TransactionNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_TransactionNo not found");}
-
-if(rows.ContainsKey("8C5A1489-F4B6-44FB-B8D6-4A0E180B368A"))     elementData = rows["8C5A1489-F4B6-44FB-B8D6-4A0E180B368A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelStatus",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_TravelStatus not found");}
-
-if(rows.ContainsKey("043C289E-EB2A-43BC-BC05-286F6ABE56EE"))     elementData = rows["043C289E-EB2A-43BC-BC05-286F6ABE56EE"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TransactionDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_TransactionDate not found");}
-
-if(rows.ContainsKey("3CE3C87B-0042-44B5-B6D1-717BADEC32DC"))     elementData = rows["3CE3C87B-0042-44B5-B6D1-717BADEC32DC"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"IsAdvanceRequired",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_IsAdvanceRequired not found");}
-repositoryRowObj.Columns=TravelAdvance_colObj;
-Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rowsObj.Add(repositoryRowObj);
-}}
-
-TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj.Rows=Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rowsObj;
-var Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj_status_TravelAdvance = Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj);if(!Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj_status_TravelAdvance) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Repo198E5A8A61F54E7C92DD34146A7059EF");
-base.WriteDebugInfo(@"Entering DomainDataMap for Repo51838b372ec64d358a5e38648bc93ab1");
-var Repo51838b372ec64d358a5e38648bc93ab1_repoObj = new RepositoryMapper(DbTypes.SQLServer);
+base.WriteDebugInfo(@"var querySourceEBE446FD1D9E41DEB663DEAA6EE73345 =GetQueryExpressionDataSource(""EBE446FD-1D9E-41DE-B663-DEAA6EE73345"");Dictionary<short,object> resultEBE446FD1D9E41DEB663DEAA6EE73345=iSpace.ExecuteQuery(querySourceEBE446FD1D9E41DEB663DEAA6EE73345,@""EXEC Repo374fb8a88dd94cf1bf73f40ae18fcad7 '"" + ISpace[""M_IsTravelRequest""].Value + @""','"" + ISpace[""UpdatedOn""].Value + @""','"" + ISpace[""MG_T2_TADetailsID""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""MG_T2_DepartureDate""].Value + @""','"" + ISpace[""MG_T2_DepartureTime""].Value + @""','"" + ISpace[""MG_T2_ArrivalDate""].Value + @""','"" + ISpace[""MG_T2_Road""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_T2_Departure""].Value + @""','"" + ISpace[""MG_T2_Amount""].Value + @""','"" + ISpace[""MG_T2_JourneyClass""].Value + @""','"" + ISpace[""MG_T2_Arrival""].Value + @""','"" + ISpace[""MG_T2_PNRNo""].Value + @""','"" + ISpace[""MG_T2_ModeofJourney""].Value + @""','"" + ISpace[""MG_T2_ArrivalTime""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-
-var TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj = new RepositoryTable("TravelAdvance_ExpenditureType");
-  TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows = GetElementClientData(ISpace["InstanceId"].Value,"A694A330-AAD5-4856-853C-D6AD1573AF0B");
-
-if(Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows!=null && Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows.Count>0){
-var Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rowsObj = new List<RepositoryRow>();
-foreach(var rows in Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var TravelAdvance_ExpenditureType_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedBy",false,false,6);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedOn",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelAdvanceID",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("4C5A9A6D-FEC3-4E20-9AFD-F5F8361CB871"))     elementData = rows["4C5A9A6D-FEC3-4E20-9AFD-F5F8361CB871"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ToDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ToDate not found");}
-
-if(rows.ContainsKey("490A92F2-4C92-4971-BD74-3938B80EBBC0"))     elementData = rows["490A92F2-4C92-4971-BD74-3938B80EBBC0"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"FromDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_FromDate not found");}
-
-if(rows.ContainsKey("8D228937-474E-4AFF-B96F-38A1BF76C117"))     elementData = rows["8D228937-474E-4AFF-B96F-38A1BF76C117"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"IsTravelRequest",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_IsTravelRequest not found");}
-
-if(rows.ContainsKey("244E8CE8-EB87-4A10-9361-B273DFF01FE3"))     elementData = rows["244E8CE8-EB87-4A10-9361-B273DFF01FE3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ExpenditureTypeID",true,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ExpenditureTypeID not found");}
-
-if(rows.ContainsKey("41AAE0B5-5977-486B-A512-59C01B14C404"))     elementData = rows["41AAE0B5-5977-486B-A512-59C01B14C404"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ExpenditureType",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-Expenditure_Type not found");}
-
-if(rows.ContainsKey("1DA63E25-0188-4F41-ACA7-8168FE1862F3"))     elementData = rows["1DA63E25-0188-4F41-ACA7-8168FE1862F3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Amount",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T3_Amount not found");}
-repositoryRowObj.Columns=TravelAdvance_ExpenditureType_colObj;
-Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rowsObj.Add(repositoryRowObj);
-}}
-
-TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj.Rows=Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rowsObj;
-var Repo51838b372ec64d358a5e38648bc93ab1_repoObj_status_TravelAdvance_ExpenditureType = Repo51838b372ec64d358a5e38648bc93ab1_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj);if(!Repo51838b372ec64d358a5e38648bc93ab1_repoObj_status_TravelAdvance_ExpenditureType) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Repo51838b372ec64d358a5e38648bc93ab1");
-base.WriteDebugInfo(@"Entering DomainDataMap for Repo374fb8a88dd94cf1bf73f40ae18fcad7");
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj = new RepositoryMapper(DbTypes.SQLServer);
-
-
-var TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj = new RepositoryTable("TravelAdvanceDetails");
-  TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows = GetElementClientData(ISpace["InstanceId"].Value,"FA412DDD-7AD9-49AF-B8D7-2B7E1620D8FC");
-
-if(Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows!=null && Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows.Count>0){
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rowsObj = new List<RepositoryRow>();
-foreach(var rows in Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var TravelAdvanceDetails_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
-
-if(rows.ContainsKey("8D228937-474E-4AFF-B96F-38A1BF76C117"))     elementData = rows["8D228937-474E-4AFF-B96F-38A1BF76C117"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"IsTravelRequest",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_IsTravelRequest not found");}
-
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedOn",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
-
-if(rows.ContainsKey("1E5F9CC5-01E4-4DF4-8C7E-8A01CBEA4349"))     elementData = rows["1E5F9CC5-01E4-4DF4-8C7E-8A01CBEA4349"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TADetailsID",true,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_TADetailsID not found");}
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedBy",false,false,6);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-if(rows.ContainsKey("484E6EB5-6324-49D0-B63A-495466030415"))     elementData = rows["484E6EB5-6324-49D0-B63A-495466030415"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DepartureDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_DepartureDate not found");}
-
-if(rows.ContainsKey("ABBB7E59-83D0-4C6B-AD05-4C98BEE1E82B"))     elementData = rows["ABBB7E59-83D0-4C6B-AD05-4C98BEE1E82B"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DepartureTime",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_DepartureTime not found");}
-
-if(rows.ContainsKey("4EB3190D-F7E0-4703-970F-4726DADD2454"))     elementData = rows["4EB3190D-F7E0-4703-970F-4726DADD2454"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ArrivalDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ArrivalDate not found");}
-
-if(rows.ContainsKey("17A92271-D47F-43F3-BE12-EE7AA3212124"))     elementData = rows["17A92271-D47F-43F3-BE12-EE7AA3212124"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Road",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Road not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelAdvanceID",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("45BA3B8C-BB8B-428B-9CBA-AD963E7110A3"))     elementData = rows["45BA3B8C-BB8B-428B-9CBA-AD963E7110A3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Departure",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Departure not found");}
-
-if(rows.ContainsKey("FA7A7A4E-5225-4C60-BC2A-7A76BEF41BF4"))     elementData = rows["FA7A7A4E-5225-4C60-BC2A-7A76BEF41BF4"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Amount",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Amount not found");}
-
-if(rows.ContainsKey("B59E7372-E293-463F-AD0D-4F734BC303A3"))     elementData = rows["B59E7372-E293-463F-AD0D-4F734BC303A3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"JourneyClass",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_JourneyClass not found");}
-
-if(rows.ContainsKey("0FFCFFBC-99D0-481E-A24E-D6161A319428"))     elementData = rows["0FFCFFBC-99D0-481E-A24E-D6161A319428"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Arrival",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Arrival not found");}
-
-if(rows.ContainsKey("2F1F6722-D855-4FDA-B73D-205C2AF35448"))     elementData = rows["2F1F6722-D855-4FDA-B73D-205C2AF35448"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"PNRNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_PNRNo not found");}
-
-if(rows.ContainsKey("EF1D6930-942A-4E47-8F27-F98F747EF257"))     elementData = rows["EF1D6930-942A-4E47-8F27-F98F747EF257"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ModeofJourney",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ModeofJourney not found");}
-
-if(rows.ContainsKey("F0795EE2-8062-4C08-A312-B12985FB0565"))     elementData = rows["F0795EE2-8062-4C08-A312-B12985FB0565"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ArrivalTime",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ArrivalTime not found");}
-repositoryRowObj.Columns=TravelAdvanceDetails_colObj;
-Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rowsObj.Add(repositoryRowObj);
-}}
-
-TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj.Rows=Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rowsObj;
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj_status_TravelAdvanceDetails = Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj);if(!Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj_status_TravelAdvanceDetails) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Repo374fb8a88dd94cf1bf73f40ae18fcad7");
-base.WriteDebugInfo(@"Entering DomainDataMap for Documents Domain");
-var DocumentsDomain_repoObj = new RepositoryMapper(DbTypes.SQLServer);
-
-
-var DocumentDetailsDocumentsDomaintableObj = new RepositoryTable("DocumentDetails");
-  DocumentDetailsDocumentsDomaintableObj.AppConnectionSettingsId  ="9ADED37B-CD11-426B-AF16-DEAC75685EF5";DocumentDetailsDocumentsDomaintableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var DocumentsDomain_DocumentDetails_rows = GetElementClientData(ISpace["InstanceId"].Value,"B5EF84C8-83A9-4B1C-9431-0489F9EC063B");
-
-if(DocumentsDomain_DocumentDetails_rows!=null && DocumentsDomain_DocumentDetails_rows.Count>0){
-var DocumentsDomain_DocumentDetails_rowsObj = new List<RepositoryRow>();
-foreach(var rows in DocumentsDomain_DocumentDetails_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var DocumentDetails_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
-
-if(rows.ContainsKey("A1AD45A0-A5E2-4AF8-A79E-88D905CCC3D9"))     elementData = rows["A1AD45A0-A5E2-4AF8-A79E-88D905CCC3D9"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DocumentDetailsId",true,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_DocumentDetailsId not found");}
-
-if(rows.ContainsKey("EC7B2941-D275-42A9-8EA3-BAC2A6D8DB1D"))     elementData = rows["EC7B2941-D275-42A9-8EA3-BAC2A6D8DB1D"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"PackageProcessMappingId",false,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_PackageProcessMapId not found");}
-
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedOn",false,false,8);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
-
-if(rows.ContainsKey("630018D0-02B5-4226-86E6-28D81821D78E"))     elementData = rows["630018D0-02B5-4226-86E6-28D81821D78E"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DocumentName",false,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_DocumentName not found");}
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedBy",false,false,6);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-if(rows.ContainsKey("52C4B0D4-D32D-4183-94CC-279702B41866"))     elementData = rows["52C4B0D4-D32D-4183-94CC-279702B41866"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DocumentId",false,false,6);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_UploadDcoument not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"InstanceId",false,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-repositoryRowObj.Columns=DocumentDetails_colObj;
-DocumentsDomain_DocumentDetails_rowsObj.Add(repositoryRowObj);
-}}
-
-DocumentDetailsDocumentsDomaintableObj.Rows=DocumentsDomain_DocumentDetails_rowsObj;
-var DocumentsDomain_repoObj_status_DocumentDetails = DocumentsDomain_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref DocumentDetailsDocumentsDomaintableObj);if(!DocumentsDomain_repoObj_status_DocumentDetails) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Documents Domain");
+if((resultEBE446FD1D9E41DEB663DEAA6EE73345!=null) && (resultEBE446FD1D9E41DEB663DEAA6EE73345.Count!=0))
+{
+}
+else{
+
+}
+base.WriteDebugInfo(@"EXEC DocumentsDomain '#M_DocumentDetailsId','#M_PackageProcessMapId','#UpdatedOn','#M_DocumentName','#gv_UserId','#M_UploadDcoument','#MF_T1_TravelAdvanceID'");
+
+var querySource1D2378FB2963489899022B61F44BE0AD =GetQueryExpressionDataSource("1D2378FB-2963-4898-9902-2B61F44BE0AD");
+Dictionary<short,object> result1D2378FB2963489899022B61F44BE0AD=iSpace.ExecuteQuery(querySource1D2378FB2963489899022B61F44BE0AD,@"EXEC DocumentsDomain '" + ISpace["M_DocumentDetailsId"].Value + @"','" + ISpace["M_PackageProcessMapId"].Value + @"','" + ISpace["UpdatedOn"].Value + @"','" + ISpace["M_DocumentName"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["M_UploadDcoument"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource1D2378FB2963489899022B61F44BE0AD =GetQueryExpressionDataSource(""1D2378FB-2963-4898-9902-2B61F44BE0AD"");Dictionary<short,object> result1D2378FB2963489899022B61F44BE0AD=iSpace.ExecuteQuery(querySource1D2378FB2963489899022B61F44BE0AD,@""EXEC DocumentsDomain '"" + ISpace[""M_DocumentDetailsId""].Value + @""','"" + ISpace[""M_PackageProcessMapId""].Value + @""','"" + ISpace[""UpdatedOn""].Value + @""','"" + ISpace[""M_DocumentName""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""M_UploadDcoument""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result1D2378FB2963489899022B61F44BE0AD!=null) && (result1D2378FB2963489899022B61F44BE0AD.Count!=0))
+{
+}
+else{
+
+}
 base.WriteDebugInfo(@"#MF_FundAmount[rows]");
 iSpace.GetLoopExpressionData("MF_FundAmount",ref ISpace);
 
@@ -6438,44 +5762,20 @@ ISpace["MG_FundTypeId"].Value==1)
 base.WriteDebugInfo(@"
 if(
 ISpace[""MG_FundTypeId""].Value==1)");
-base.WriteDebugInfo(@"Entering DomainDataMap for ProjectApprovalCommittmentDetails");
-var ProjectApprovalCommittmentDetails_repoObj = new RepositoryMapper(DbTypes.SQLServer);
+base.WriteDebugInfo(@"EXEC ProjectApprovalCommittmentDetails '#MG_Amount','#MF_T1_TravelAdvanceID','#MG_ProjectDetailsId','#MG_BudgetHead','#gv_ProcessMapId'");
 
+var querySource4213CFEEA88E4B67BEECB0AEF4337465 =GetQueryExpressionDataSource("4213CFEE-A88E-4B67-BEEC-B0AEF4337465");
+Dictionary<short,object> result4213CFEEA88E4B67BEECB0AEF4337465=iSpace.ExecuteQuery(querySource4213CFEEA88E4B67BEECB0AEF4337465,@"EXEC ProjectApprovalCommittmentDetails '" + ISpace["MG_Amount"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_ProjectDetailsId"].Value + @"','" + ISpace["MG_BudgetHead"].Value + @"','" + ISpace["gv_ProcessMapId"].Value + @"'",false);
 
-var ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj = new RepositoryTable("ProjectApprovalCommittmentDetails");
-  ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows = GetElementClientData(ISpace["InstanceId"].Value,"AD9C54EC-27A0-4C21-9923-063084E3B588");
+base.WriteDebugInfo(@"var querySource4213CFEEA88E4B67BEECB0AEF4337465 =GetQueryExpressionDataSource(""4213CFEE-A88E-4B67-BEEC-B0AEF4337465"");Dictionary<short,object> result4213CFEEA88E4B67BEECB0AEF4337465=iSpace.ExecuteQuery(querySource4213CFEEA88E4B67BEECB0AEF4337465,@""EXEC ProjectApprovalCommittmentDetails '"" + ISpace[""MG_Amount""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_ProjectDetailsId""].Value + @""','"" + ISpace[""MG_BudgetHead""].Value + @""','"" + ISpace[""gv_ProcessMapId""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-if(ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows!=null && ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows.Count>0){
-var ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rowsObj = new List<RepositoryRow>();
-foreach(var rows in ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var ProjectApprovalCommittmentDetails_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
+if((result4213CFEEA88E4B67BEECB0AEF4337465!=null) && (result4213CFEEA88E4B67BEECB0AEF4337465.Count!=0))
+{
+}
+else{
 
-if(rows.ContainsKey("8D190818-93B1-4A96-BF0B-C69E15392C71"))     elementData = rows["8D190818-93B1-4A96-BF0B-C69E15392C71"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Amount",false,false,3);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_Amount not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ReferenceId",true,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("9BCAAA76-7F8C-46BA-8939-DF72324C498C"))     elementData = rows["9BCAAA76-7F8C-46BA-8939-DF72324C498C"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ProjectDetailsId",false,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_ProjectDetailsId not found");}
-
-if(rows.ContainsKey("D4C1F776-CEEB-4160-8127-FA7286334A0A"))     elementData = rows["D4C1F776-CEEB-4160-8127-FA7286334A0A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BudgetId",false,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_BudgetHead not found");}
-
-elementData = ISpace["gv_ProcessMapId"].Value != null? Convert.ToString(ISpace["gv_ProcessMapId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"PackageProcessMapId",false,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_ProcessMapId not found");}
-repositoryRowObj.Columns=ProjectApprovalCommittmentDetails_colObj;
-ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rowsObj.Add(repositoryRowObj);
-}}
-
-ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj.Rows=ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rowsObj;
-var ProjectApprovalCommittmentDetails_repoObj_status_ProjectApprovalCommittmentDetails = ProjectApprovalCommittmentDetails_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj);if(!ProjectApprovalCommittmentDetails_repoObj_status_ProjectApprovalCommittmentDetails) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for ProjectApprovalCommittmentDetails");
+}
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("MF_FundAmount","AD9C54EC-27A0-4C21-9923-063084E3B588",_objectFactory.GetGridRPP("MF_FundAmount"),_elementBase.GetGridLoopQuery("AD9C54EC-27A0-4C21-9923-063084E3B588","MF_FundAmount",ISpace), ref ISpace);
@@ -6847,278 +6147,62 @@ base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1)");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-base.WriteDebugInfo(@"Entering DomainDataMap for Repo198E5A8A61F54E7C92DD34146A7059EF");
-var Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj = new RepositoryMapper(DbTypes.SQLServer);
+base.WriteDebugInfo(@"EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '#CreatedOn','#MF_T1_BankDocument','#MF_T1_ReferenceNo','#MF_T1_AccountNo','#OverAll_Total','#UC_EmployeeBaicInfoId','#M_TravelPlace','#MF_T1_AdvanceAmount','#MF_T1_BankName','#MF_T1_TravelAdvanceID','#MF_T1_JourneyPurpose','#Travel_Type','#MF_T1_BeneficiaryName','#gv_UserId','#MF_TransactionNo','#MF_TravelStatus','#MF_TransactionDate','#M_IsAdvanceRequired'");
 
+var querySourceD16F9C83EA714542AB4DE3D99AB969B2 =GetQueryExpressionDataSource("D16F9C83-EA71-4542-AB4D-E3D99AB969B2");
+Dictionary<short,object> resultD16F9C83EA714542AB4DE3D99AB969B2=iSpace.ExecuteQuery(querySourceD16F9C83EA714542AB4DE3D99AB969B2,@"EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '" + ISpace["CreatedOn"].Value + @"','" + ISpace["MF_T1_BankDocument"].Value + @"','" + ISpace["MF_T1_ReferenceNo"].Value + @"','" + ISpace["MF_T1_AccountNo"].Value + @"','" + ISpace["OverAll_Total"].Value + @"','" + ISpace["UC_EmployeeBaicInfoId"].Value + @"','" + ISpace["M_TravelPlace"].Value + @"','" + ISpace["MF_T1_AdvanceAmount"].Value + @"','" + ISpace["MF_T1_BankName"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MF_T1_JourneyPurpose"].Value + @"','" + ISpace["Travel_Type"].Value + @"','" + ISpace["MF_T1_BeneficiaryName"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["MF_TransactionNo"].Value + @"','" + ISpace["MF_TravelStatus"].Value + @"','" + ISpace["MF_TransactionDate"].Value + @"','" + ISpace["M_IsAdvanceRequired"].Value + @"'",false);
 
-var TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj = new RepositoryTable("TravelAdvance");
-  TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows = GetElementClientData(ISpace["InstanceId"].Value,"EE0139AD-5EB8-4786-96CB-2C87A8B572D9");
+base.WriteDebugInfo(@"var querySourceD16F9C83EA714542AB4DE3D99AB969B2 =GetQueryExpressionDataSource(""D16F9C83-EA71-4542-AB4D-E3D99AB969B2"");Dictionary<short,object> resultD16F9C83EA714542AB4DE3D99AB969B2=iSpace.ExecuteQuery(querySourceD16F9C83EA714542AB4DE3D99AB969B2,@""EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '"" + ISpace[""CreatedOn""].Value + @""','"" + ISpace[""MF_T1_BankDocument""].Value + @""','"" + ISpace[""MF_T1_ReferenceNo""].Value + @""','"" + ISpace[""MF_T1_AccountNo""].Value + @""','"" + ISpace[""OverAll_Total""].Value + @""','"" + ISpace[""UC_EmployeeBaicInfoId""].Value + @""','"" + ISpace[""M_TravelPlace""].Value + @""','"" + ISpace[""MF_T1_AdvanceAmount""].Value + @""','"" + ISpace[""MF_T1_BankName""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MF_T1_JourneyPurpose""].Value + @""','"" + ISpace[""Travel_Type""].Value + @""','"" + ISpace[""MF_T1_BeneficiaryName""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""MF_TransactionNo""].Value + @""','"" + ISpace[""MF_TravelStatus""].Value + @""','"" + ISpace[""MF_TransactionDate""].Value + @""','"" + ISpace[""M_IsAdvanceRequired""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-if(Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows!=null && Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows.Count>0){
-var Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rowsObj = new List<RepositoryRow>();
-foreach(var rows in Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var TravelAdvance_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
+if((resultD16F9C83EA714542AB4DE3D99AB969B2!=null) && (resultD16F9C83EA714542AB4DE3D99AB969B2.Count!=0))
+{
+}
+else{
 
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"CreatedOn",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
+}
+base.WriteDebugInfo(@"EXEC Repo51838b372ec64d358a5e38648bc93ab1 '#gv_UserId','#UpdatedOn','#MF_T1_TravelAdvanceID','#MG_T2_ToDate','#MG_T2_FromDate','#M_IsTravelRequest','#MG_T2_ExpenditureTypeID','#Expenditure_Type','#MG_T3_Amount'");
 
-if(rows.ContainsKey("E45AC962-0AE5-4044-91CA-E6108F75C426"))     elementData = rows["E45AC962-0AE5-4044-91CA-E6108F75C426"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BankDocument",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_BankDocument not found");}
+var querySource864963C6427C451F8C30D7E8FCDD4228 =GetQueryExpressionDataSource("864963C6-427C-451F-8C30-D7E8FCDD4228");
+Dictionary<short,object> result864963C6427C451F8C30D7E8FCDD4228=iSpace.ExecuteQuery(querySource864963C6427C451F8C30D7E8FCDD4228,@"EXEC Repo51838b372ec64d358a5e38648bc93ab1 '" + ISpace["gv_UserId"].Value + @"','" + ISpace["UpdatedOn"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_T2_ToDate"].Value + @"','" + ISpace["MG_T2_FromDate"].Value + @"','" + ISpace["M_IsTravelRequest"].Value + @"','" + ISpace["MG_T2_ExpenditureTypeID"].Value + @"','" + ISpace["Expenditure_Type"].Value + @"','" + ISpace["MG_T3_Amount"].Value + @"'",false);
 
-if(rows.ContainsKey("F575B6C8-44A2-4EF7-8943-E03F0FEE690A"))     elementData = rows["F575B6C8-44A2-4EF7-8943-E03F0FEE690A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ReferenceNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_ReferenceNo not found");}
+base.WriteDebugInfo(@"var querySource864963C6427C451F8C30D7E8FCDD4228 =GetQueryExpressionDataSource(""864963C6-427C-451F-8C30-D7E8FCDD4228"");Dictionary<short,object> result864963C6427C451F8C30D7E8FCDD4228=iSpace.ExecuteQuery(querySource864963C6427C451F8C30D7E8FCDD4228,@""EXEC Repo51838b372ec64d358a5e38648bc93ab1 '"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""UpdatedOn""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_T2_ToDate""].Value + @""','"" + ISpace[""MG_T2_FromDate""].Value + @""','"" + ISpace[""M_IsTravelRequest""].Value + @""','"" + ISpace[""MG_T2_ExpenditureTypeID""].Value + @""','"" + ISpace[""Expenditure_Type""].Value + @""','"" + ISpace[""MG_T3_Amount""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-if(rows.ContainsKey("8532946C-3E86-492D-91BF-42E67F12F8D2"))     elementData = rows["8532946C-3E86-492D-91BF-42E67F12F8D2"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"AccountNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_AccountNo not found");}
+if((result864963C6427C451F8C30D7E8FCDD4228!=null) && (result864963C6427C451F8C30D7E8FCDD4228.Count!=0))
+{
+}
+else{
 
-if(rows.ContainsKey("1206DC21-D786-47CC-9F64-B73A940A99E3"))     elementData = rows["1206DC21-D786-47CC-9F64-B73A940A99E3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TotalAmount",false,false,3);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-OverAll_Total not found");}
+}
+base.WriteDebugInfo(@"EXEC Repo374fb8a88dd94cf1bf73f40ae18fcad7 '#M_IsTravelRequest','#UpdatedOn','#MG_T2_TADetailsID','#gv_UserId','#MG_T2_DepartureDate','#MG_T2_DepartureTime','#MG_T2_ArrivalDate','#MG_T2_Road','#MF_T1_TravelAdvanceID','#MG_T2_Departure','#MG_T2_Amount','#MG_T2_JourneyClass','#MG_T2_Arrival','#MG_T2_PNRNo','#MG_T2_ModeofJourney','#MG_T2_ArrivalTime'");
 
-if(rows.ContainsKey("3A8389F9-5E41-429F-BBEB-28849095B97E"))     elementData = rows["3A8389F9-5E41-429F-BBEB-28849095B97E"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"EmployeeBasicInfoId",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-UC_EmployeeBaicInfoId not found");}
+var querySourceEBE446FD1D9E41DEB663DEAA6EE73345 =GetQueryExpressionDataSource("EBE446FD-1D9E-41DE-B663-DEAA6EE73345");
+Dictionary<short,object> resultEBE446FD1D9E41DEB663DEAA6EE73345=iSpace.ExecuteQuery(querySourceEBE446FD1D9E41DEB663DEAA6EE73345,@"EXEC Repo374fb8a88dd94cf1bf73f40ae18fcad7 '" + ISpace["M_IsTravelRequest"].Value + @"','" + ISpace["UpdatedOn"].Value + @"','" + ISpace["MG_T2_TADetailsID"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["MG_T2_DepartureDate"].Value + @"','" + ISpace["MG_T2_DepartureTime"].Value + @"','" + ISpace["MG_T2_ArrivalDate"].Value + @"','" + ISpace["MG_T2_Road"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_T2_Departure"].Value + @"','" + ISpace["MG_T2_Amount"].Value + @"','" + ISpace["MG_T2_JourneyClass"].Value + @"','" + ISpace["MG_T2_Arrival"].Value + @"','" + ISpace["MG_T2_PNRNo"].Value + @"','" + ISpace["MG_T2_ModeofJourney"].Value + @"','" + ISpace["MG_T2_ArrivalTime"].Value + @"'",false);
 
-if(rows.ContainsKey("7DE18D63-ECDC-4C68-B51E-0C27E1E491C8"))     elementData = rows["7DE18D63-ECDC-4C68-B51E-0C27E1E491C8"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelPlace",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_TravelPlace not found");}
-
-if(rows.ContainsKey("CB48F356-433B-43E2-B1B2-E29A871CCD62"))     elementData = rows["CB48F356-433B-43E2-B1B2-E29A871CCD62"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"AdvanceAmount",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_AdvanceAmount not found");}
-
-if(rows.ContainsKey("EFA3E743-38FA-433D-BF2B-F11A3AA499A9"))     elementData = rows["EFA3E743-38FA-433D-BF2B-F11A3AA499A9"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BankName",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_BankName not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelAdvanceID",true,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("7224660A-1F78-4AAD-AD2D-D6A00A4FFBFA"))     elementData = rows["7224660A-1F78-4AAD-AD2D-D6A00A4FFBFA"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"JourneyPurpose",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_JourneyPurpose not found");}
-
-if(rows.ContainsKey("EF93D216-3C63-4B9B-9CF3-712FB1F0F355"))     elementData = rows["EF93D216-3C63-4B9B-9CF3-712FB1F0F355"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelType",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-Travel_Type not found");}
-
-if(rows.ContainsKey("DCD03594-9A63-4DD5-AB25-78543850A746"))     elementData = rows["DCD03594-9A63-4DD5-AB25-78543850A746"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BeneficiaryName",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_BeneficiaryName not found");}
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"CreatedBy",false,false,6);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-if(rows.ContainsKey("F1E9E348-5D1F-4689-A04D-C2B8597FA52A"))     elementData = rows["F1E9E348-5D1F-4689-A04D-C2B8597FA52A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TransactionNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_TransactionNo not found");}
-
-if(rows.ContainsKey("8C5A1489-F4B6-44FB-B8D6-4A0E180B368A"))     elementData = rows["8C5A1489-F4B6-44FB-B8D6-4A0E180B368A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelStatus",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_TravelStatus not found");}
-
-if(rows.ContainsKey("043C289E-EB2A-43BC-BC05-286F6ABE56EE"))     elementData = rows["043C289E-EB2A-43BC-BC05-286F6ABE56EE"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TransactionDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_TransactionDate not found");}
-
-if(rows.ContainsKey("3CE3C87B-0042-44B5-B6D1-717BADEC32DC"))     elementData = rows["3CE3C87B-0042-44B5-B6D1-717BADEC32DC"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"IsAdvanceRequired",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_IsAdvanceRequired not found");}
-repositoryRowObj.Columns=TravelAdvance_colObj;
-Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rowsObj.Add(repositoryRowObj);
-}}
-
-TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj.Rows=Repo198E5A8A61F54E7C92DD34146A7059EF_TravelAdvance_rowsObj;
-var Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj_status_TravelAdvance = Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref TravelAdvanceRepo198E5A8A61F54E7C92DD34146A7059EFtableObj);if(!Repo198E5A8A61F54E7C92DD34146A7059EF_repoObj_status_TravelAdvance) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Repo198E5A8A61F54E7C92DD34146A7059EF");
-base.WriteDebugInfo(@"Entering DomainDataMap for Repo51838b372ec64d358a5e38648bc93ab1");
-var Repo51838b372ec64d358a5e38648bc93ab1_repoObj = new RepositoryMapper(DbTypes.SQLServer);
+base.WriteDebugInfo(@"var querySourceEBE446FD1D9E41DEB663DEAA6EE73345 =GetQueryExpressionDataSource(""EBE446FD-1D9E-41DE-B663-DEAA6EE73345"");Dictionary<short,object> resultEBE446FD1D9E41DEB663DEAA6EE73345=iSpace.ExecuteQuery(querySourceEBE446FD1D9E41DEB663DEAA6EE73345,@""EXEC Repo374fb8a88dd94cf1bf73f40ae18fcad7 '"" + ISpace[""M_IsTravelRequest""].Value + @""','"" + ISpace[""UpdatedOn""].Value + @""','"" + ISpace[""MG_T2_TADetailsID""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""MG_T2_DepartureDate""].Value + @""','"" + ISpace[""MG_T2_DepartureTime""].Value + @""','"" + ISpace[""MG_T2_ArrivalDate""].Value + @""','"" + ISpace[""MG_T2_Road""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_T2_Departure""].Value + @""','"" + ISpace[""MG_T2_Amount""].Value + @""','"" + ISpace[""MG_T2_JourneyClass""].Value + @""','"" + ISpace[""MG_T2_Arrival""].Value + @""','"" + ISpace[""MG_T2_PNRNo""].Value + @""','"" + ISpace[""MG_T2_ModeofJourney""].Value + @""','"" + ISpace[""MG_T2_ArrivalTime""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-
-var TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj = new RepositoryTable("TravelAdvance_ExpenditureType");
-  TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows = GetElementClientData(ISpace["InstanceId"].Value,"A694A330-AAD5-4856-853C-D6AD1573AF0B");
-
-if(Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows!=null && Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows.Count>0){
-var Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rowsObj = new List<RepositoryRow>();
-foreach(var rows in Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var TravelAdvance_ExpenditureType_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedBy",false,false,6);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedOn",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelAdvanceID",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("4C5A9A6D-FEC3-4E20-9AFD-F5F8361CB871"))     elementData = rows["4C5A9A6D-FEC3-4E20-9AFD-F5F8361CB871"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ToDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ToDate not found");}
-
-if(rows.ContainsKey("490A92F2-4C92-4971-BD74-3938B80EBBC0"))     elementData = rows["490A92F2-4C92-4971-BD74-3938B80EBBC0"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"FromDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_FromDate not found");}
-
-if(rows.ContainsKey("8D228937-474E-4AFF-B96F-38A1BF76C117"))     elementData = rows["8D228937-474E-4AFF-B96F-38A1BF76C117"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"IsTravelRequest",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_IsTravelRequest not found");}
-
-if(rows.ContainsKey("244E8CE8-EB87-4A10-9361-B273DFF01FE3"))     elementData = rows["244E8CE8-EB87-4A10-9361-B273DFF01FE3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ExpenditureTypeID",true,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ExpenditureTypeID not found");}
-
-if(rows.ContainsKey("41AAE0B5-5977-486B-A512-59C01B14C404"))     elementData = rows["41AAE0B5-5977-486B-A512-59C01B14C404"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ExpenditureType",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-Expenditure_Type not found");}
-
-if(rows.ContainsKey("1DA63E25-0188-4F41-ACA7-8168FE1862F3"))     elementData = rows["1DA63E25-0188-4F41-ACA7-8168FE1862F3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Amount",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvance_ExpenditureType_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T3_Amount not found");}
-repositoryRowObj.Columns=TravelAdvance_ExpenditureType_colObj;
-Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rowsObj.Add(repositoryRowObj);
-}}
-
-TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj.Rows=Repo51838b372ec64d358a5e38648bc93ab1_TravelAdvance_ExpenditureType_rowsObj;
-var Repo51838b372ec64d358a5e38648bc93ab1_repoObj_status_TravelAdvance_ExpenditureType = Repo51838b372ec64d358a5e38648bc93ab1_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref TravelAdvance_ExpenditureTypeRepo51838b372ec64d358a5e38648bc93ab1tableObj);if(!Repo51838b372ec64d358a5e38648bc93ab1_repoObj_status_TravelAdvance_ExpenditureType) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Repo51838b372ec64d358a5e38648bc93ab1");
-base.WriteDebugInfo(@"Entering DomainDataMap for Repo374fb8a88dd94cf1bf73f40ae18fcad7");
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj = new RepositoryMapper(DbTypes.SQLServer);
-
-
-var TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj = new RepositoryTable("TravelAdvanceDetails");
-  TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows = GetElementClientData(ISpace["InstanceId"].Value,"FA412DDD-7AD9-49AF-B8D7-2B7E1620D8FC");
-
-if(Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows!=null && Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows.Count>0){
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rowsObj = new List<RepositoryRow>();
-foreach(var rows in Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var TravelAdvanceDetails_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
-
-if(rows.ContainsKey("8D228937-474E-4AFF-B96F-38A1BF76C117"))     elementData = rows["8D228937-474E-4AFF-B96F-38A1BF76C117"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"IsTravelRequest",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_IsTravelRequest not found");}
-
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedOn",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
-
-if(rows.ContainsKey("1E5F9CC5-01E4-4DF4-8C7E-8A01CBEA4349"))     elementData = rows["1E5F9CC5-01E4-4DF4-8C7E-8A01CBEA4349"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TADetailsID",true,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_TADetailsID not found");}
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedBy",false,false,6);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-if(rows.ContainsKey("484E6EB5-6324-49D0-B63A-495466030415"))     elementData = rows["484E6EB5-6324-49D0-B63A-495466030415"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DepartureDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_DepartureDate not found");}
-
-if(rows.ContainsKey("ABBB7E59-83D0-4C6B-AD05-4C98BEE1E82B"))     elementData = rows["ABBB7E59-83D0-4C6B-AD05-4C98BEE1E82B"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DepartureTime",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_DepartureTime not found");}
-
-if(rows.ContainsKey("4EB3190D-F7E0-4703-970F-4726DADD2454"))     elementData = rows["4EB3190D-F7E0-4703-970F-4726DADD2454"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ArrivalDate",false,false,8);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ArrivalDate not found");}
-
-if(rows.ContainsKey("17A92271-D47F-43F3-BE12-EE7AA3212124"))     elementData = rows["17A92271-D47F-43F3-BE12-EE7AA3212124"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Road",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Road not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"TravelAdvanceID",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("45BA3B8C-BB8B-428B-9CBA-AD963E7110A3"))     elementData = rows["45BA3B8C-BB8B-428B-9CBA-AD963E7110A3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Departure",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Departure not found");}
-
-if(rows.ContainsKey("FA7A7A4E-5225-4C60-BC2A-7A76BEF41BF4"))     elementData = rows["FA7A7A4E-5225-4C60-BC2A-7A76BEF41BF4"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Amount",false,false,5);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Amount not found");}
-
-if(rows.ContainsKey("B59E7372-E293-463F-AD0D-4F734BC303A3"))     elementData = rows["B59E7372-E293-463F-AD0D-4F734BC303A3"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"JourneyClass",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_JourneyClass not found");}
-
-if(rows.ContainsKey("0FFCFFBC-99D0-481E-A24E-D6161A319428"))     elementData = rows["0FFCFFBC-99D0-481E-A24E-D6161A319428"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Arrival",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_Arrival not found");}
-
-if(rows.ContainsKey("2F1F6722-D855-4FDA-B73D-205C2AF35448"))     elementData = rows["2F1F6722-D855-4FDA-B73D-205C2AF35448"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"PNRNo",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_PNRNo not found");}
-
-if(rows.ContainsKey("EF1D6930-942A-4E47-8F27-F98F747EF257"))     elementData = rows["EF1D6930-942A-4E47-8F27-F98F747EF257"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ModeofJourney",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ModeofJourney not found");}
-
-if(rows.ContainsKey("F0795EE2-8062-4C08-A312-B12985FB0565"))     elementData = rows["F0795EE2-8062-4C08-A312-B12985FB0565"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ArrivalTime",false,false,9);
-if(repositoryColumnObj!=null)TravelAdvanceDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_T2_ArrivalTime not found");}
-repositoryRowObj.Columns=TravelAdvanceDetails_colObj;
-Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rowsObj.Add(repositoryRowObj);
-}}
-
-TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj.Rows=Repo374fb8a88dd94cf1bf73f40ae18fcad7_TravelAdvanceDetails_rowsObj;
-var Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj_status_TravelAdvanceDetails = Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref TravelAdvanceDetailsRepo374fb8a88dd94cf1bf73f40ae18fcad7tableObj);if(!Repo374fb8a88dd94cf1bf73f40ae18fcad7_repoObj_status_TravelAdvanceDetails) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Repo374fb8a88dd94cf1bf73f40ae18fcad7");
-base.WriteDebugInfo(@"Entering DomainDataMap for Documents Domain");
-var DocumentsDomain_repoObj = new RepositoryMapper(DbTypes.SQLServer);
-
-
-var DocumentDetailsDocumentsDomaintableObj = new RepositoryTable("DocumentDetails");
-  DocumentDetailsDocumentsDomaintableObj.AppConnectionSettingsId  ="9ADED37B-CD11-426B-AF16-DEAC75685EF5";DocumentDetailsDocumentsDomaintableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var DocumentsDomain_DocumentDetails_rows = GetElementClientData(ISpace["InstanceId"].Value,"B5EF84C8-83A9-4B1C-9431-0489F9EC063B");
-
-if(DocumentsDomain_DocumentDetails_rows!=null && DocumentsDomain_DocumentDetails_rows.Count>0){
-var DocumentsDomain_DocumentDetails_rowsObj = new List<RepositoryRow>();
-foreach(var rows in DocumentsDomain_DocumentDetails_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var DocumentDetails_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
-
-if(rows.ContainsKey("A1AD45A0-A5E2-4AF8-A79E-88D905CCC3D9"))     elementData = rows["A1AD45A0-A5E2-4AF8-A79E-88D905CCC3D9"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DocumentDetailsId",true,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_DocumentDetailsId not found");}
-
-if(rows.ContainsKey("EC7B2941-D275-42A9-8EA3-BAC2A6D8DB1D"))     elementData = rows["EC7B2941-D275-42A9-8EA3-BAC2A6D8DB1D"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"PackageProcessMappingId",false,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_PackageProcessMapId not found");}
-
-elementData = CurrentDate().ToString() ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedOn",false,false,8);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-CurrentDate not found");}
-
-if(rows.ContainsKey("630018D0-02B5-4226-86E6-28D81821D78E"))     elementData = rows["630018D0-02B5-4226-86E6-28D81821D78E"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DocumentName",false,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_DocumentName not found");}
-
-elementData = ISpace["gv_UserId"].Value != null? Convert.ToString(ISpace["gv_UserId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"UpdatedBy",false,false,6);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_UserId not found");}
-
-if(rows.ContainsKey("52C4B0D4-D32D-4183-94CC-279702B41866"))     elementData = rows["52C4B0D4-D32D-4183-94CC-279702B41866"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"DocumentId",false,false,6);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-M_UploadDcoument not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"InstanceId",false,false,9);
-if(repositoryColumnObj!=null)DocumentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-repositoryRowObj.Columns=DocumentDetails_colObj;
-DocumentsDomain_DocumentDetails_rowsObj.Add(repositoryRowObj);
-}}
-
-DocumentDetailsDocumentsDomaintableObj.Rows=DocumentsDomain_DocumentDetails_rowsObj;
-var DocumentsDomain_repoObj_status_DocumentDetails = DocumentsDomain_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref DocumentDetailsDocumentsDomaintableObj);if(!DocumentsDomain_repoObj_status_DocumentDetails) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for Documents Domain");
+if((resultEBE446FD1D9E41DEB663DEAA6EE73345!=null) && (resultEBE446FD1D9E41DEB663DEAA6EE73345.Count!=0))
+{
+}
+else{
+
+}
+base.WriteDebugInfo(@"EXEC DocumentsDomain '#M_DocumentDetailsId','#M_PackageProcessMapId','#UpdatedOn','#M_DocumentName','#gv_UserId','#M_UploadDcoument','#MF_T1_TravelAdvanceID'");
+
+var querySource1D2378FB2963489899022B61F44BE0AD =GetQueryExpressionDataSource("1D2378FB-2963-4898-9902-2B61F44BE0AD");
+Dictionary<short,object> result1D2378FB2963489899022B61F44BE0AD=iSpace.ExecuteQuery(querySource1D2378FB2963489899022B61F44BE0AD,@"EXEC DocumentsDomain '" + ISpace["M_DocumentDetailsId"].Value + @"','" + ISpace["M_PackageProcessMapId"].Value + @"','" + ISpace["UpdatedOn"].Value + @"','" + ISpace["M_DocumentName"].Value + @"','" + ISpace["gv_UserId"].Value + @"','" + ISpace["M_UploadDcoument"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource1D2378FB2963489899022B61F44BE0AD =GetQueryExpressionDataSource(""1D2378FB-2963-4898-9902-2B61F44BE0AD"");Dictionary<short,object> result1D2378FB2963489899022B61F44BE0AD=iSpace.ExecuteQuery(querySource1D2378FB2963489899022B61F44BE0AD,@""EXEC DocumentsDomain '"" + ISpace[""M_DocumentDetailsId""].Value + @""','"" + ISpace[""M_PackageProcessMapId""].Value + @""','"" + ISpace[""UpdatedOn""].Value + @""','"" + ISpace[""M_DocumentName""].Value + @""','"" + ISpace[""gv_UserId""].Value + @""','"" + ISpace[""M_UploadDcoument""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result1D2378FB2963489899022B61F44BE0AD!=null) && (result1D2378FB2963489899022B61F44BE0AD.Count!=0))
+{
+}
+else{
+
+}
 base.WriteDebugInfo(@"#MF_FundAmount[rows]");
 iSpace.GetLoopExpressionData("MF_FundAmount",ref ISpace);
 
@@ -7133,44 +6217,20 @@ ISpace["MG_FundTypeId"].Value==1)
 base.WriteDebugInfo(@"
 if(
 ISpace[""MG_FundTypeId""].Value==1)");
-base.WriteDebugInfo(@"Entering DomainDataMap for ProjectApprovalCommittmentDetails");
-var ProjectApprovalCommittmentDetails_repoObj = new RepositoryMapper(DbTypes.SQLServer);
+base.WriteDebugInfo(@"EXEC ProjectApprovalCommittmentDetails '#MG_Amount','#MF_T1_TravelAdvanceID','#MG_ProjectDetailsId','#MG_BudgetHead','#gv_ProcessMapId'");
 
+var querySource4213CFEEA88E4B67BEECB0AEF4337465 =GetQueryExpressionDataSource("4213CFEE-A88E-4B67-BEEC-B0AEF4337465");
+Dictionary<short,object> result4213CFEEA88E4B67BEECB0AEF4337465=iSpace.ExecuteQuery(querySource4213CFEEA88E4B67BEECB0AEF4337465,@"EXEC ProjectApprovalCommittmentDetails '" + ISpace["MG_Amount"].Value + @"','" + ISpace["MF_T1_TravelAdvanceID"].Value + @"','" + ISpace["MG_ProjectDetailsId"].Value + @"','" + ISpace["MG_BudgetHead"].Value + @"','" + ISpace["gv_ProcessMapId"].Value + @"'",false);
 
-var ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj = new RepositoryTable("ProjectApprovalCommittmentDetails");
-  ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj.AppConnectionSettingsId  ="3A103712-5244-4427-B2B6-1C4E046FD337";ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj.ProofConnectionId = "C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0)";
-var ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows = GetElementClientData(ISpace["InstanceId"].Value,"AD9C54EC-27A0-4C21-9923-063084E3B588");
+base.WriteDebugInfo(@"var querySource4213CFEEA88E4B67BEECB0AEF4337465 =GetQueryExpressionDataSource(""4213CFEE-A88E-4B67-BEEC-B0AEF4337465"");Dictionary<short,object> result4213CFEEA88E4B67BEECB0AEF4337465=iSpace.ExecuteQuery(querySource4213CFEEA88E4B67BEECB0AEF4337465,@""EXEC ProjectApprovalCommittmentDetails '"" + ISpace[""MG_Amount""].Value + @""','"" + ISpace[""MF_T1_TravelAdvanceID""].Value + @""','"" + ISpace[""MG_ProjectDetailsId""].Value + @""','"" + ISpace[""MG_BudgetHead""].Value + @""','"" + ISpace[""gv_ProcessMapId""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-if(ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows!=null && ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows.Count>0){
-var ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rowsObj = new List<RepositoryRow>();
-foreach(var rows in ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rows){RepositoryRow repositoryRowObj = null;string elementData = null;RepositoryColumn repositoryColumnObj = null;if(rows !=null){ var ProjectApprovalCommittmentDetails_colObj = new List<RepositoryColumn>();repositoryRowObj= new RepositoryRow();//var myByte = (byte)rowData.Value.RwSt;//repositoryRowObj.RowState=(RepositoryRowState)myByte;
+if((result4213CFEEA88E4B67BEECB0AEF4337465!=null) && (result4213CFEEA88E4B67BEECB0AEF4337465.Count!=0))
+{
+}
+else{
 
-if(rows.ContainsKey("8D190818-93B1-4A96-BF0B-C69E15392C71"))     elementData = rows["8D190818-93B1-4A96-BF0B-C69E15392C71"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"Amount",false,false,3);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_Amount not found");}
-
-if(rows.ContainsKey("EDA145A9-38F0-4F23-AF5C-48A949E2F759"))     elementData = rows["EDA145A9-38F0-4F23-AF5C-48A949E2F759"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ReferenceId",true,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MF_T1_TravelAdvanceID not found");}
-
-if(rows.ContainsKey("9BCAAA76-7F8C-46BA-8939-DF72324C498C"))     elementData = rows["9BCAAA76-7F8C-46BA-8939-DF72324C498C"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"ProjectDetailsId",false,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_ProjectDetailsId not found");}
-
-if(rows.ContainsKey("D4C1F776-CEEB-4160-8127-FA7286334A0A"))     elementData = rows["D4C1F776-CEEB-4160-8127-FA7286334A0A"];if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"BudgetId",false,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-MG_BudgetHead not found");}
-
-elementData = ISpace["gv_ProcessMapId"].Value != null? Convert.ToString(ISpace["gv_ProcessMapId"].Value):null ;if(elementData!=null){repositoryColumnObj=GetRepositoryColumnObject(elementData,"PackageProcessMapId",false,false,9);
-if(repositoryColumnObj!=null)ProjectApprovalCommittmentDetails_colObj.Add(repositoryColumnObj);elementData = null;}
-else{base.WriteDebugInfo(@"Element-gv_ProcessMapId not found");}
-repositoryRowObj.Columns=ProjectApprovalCommittmentDetails_colObj;
-ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rowsObj.Add(repositoryRowObj);
-}}
-
-ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj.Rows=ProjectApprovalCommittmentDetails_ProjectApprovalCommittmentDetails_rowsObj;
-var ProjectApprovalCommittmentDetails_repoObj_status_ProjectApprovalCommittmentDetails = ProjectApprovalCommittmentDetails_repoObj.Execute(DomainOperationTypes.CreateOrUpdate,ref ProjectApprovalCommittmentDetailsProjectApprovalCommittmentDetailstableObj);if(!ProjectApprovalCommittmentDetails_repoObj_status_ProjectApprovalCommittmentDetails) throw new Exception("Error in Execute Domain Data Map");}
-base.WriteDebugInfo(@"Exiting DomainDataMap for ProjectApprovalCommittmentDetails");
+}
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("MF_FundAmount","AD9C54EC-27A0-4C21-9923-063084E3B588",_objectFactory.GetGridRPP("MF_FundAmount"),_elementBase.GetGridLoopQuery("AD9C54EC-27A0-4C21-9923-063084E3B588","MF_FundAmount",ISpace), ref ISpace);
