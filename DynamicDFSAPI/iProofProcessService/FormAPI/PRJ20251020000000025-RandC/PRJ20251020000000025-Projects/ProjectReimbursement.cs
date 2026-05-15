@@ -2304,47 +2304,6 @@ object MG_P3_Amount=iSpace.Sum("[84AEB9E0-3009-4426-AB92-AAF06D2B42AF]","MG_P3_A
 ISpace["MFG_P3_OverallAmount"].Value=Convert.ChangeType(MG_P3_Amount, MG_P3_Amount.GetType());;
 base.WriteDebugInfo(@"object MG_P3_Amount=iSpace.Sum(""[84AEB9E0-3009-4426-AB92-AAF06D2B42AF]"",""MG_P3_Amount"","""",ISpace[""gv_instanceid""].Value);
 ISpace[""MFG_P3_OverallAmount""].Value=Convert.ChangeType(MG_P3_Amount, MG_P3_Amount.GetType());;");
-if(ISpace["MFG_P3_FundTypeId"].Value=="1")
-{
-base.WriteDebugInfo(@"if(ISpace[""MFG_P3_FundTypeId""].Value==""1"")");
-base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
-
-foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-
-
-if(
-
-
-ISpace["growid"].Value!=ISpace["ReimbursementFundDetails_RowId"].Value||ISpace["growid"].Value=="")
-{
-base.WriteDebugInfo(@"
-if(
-
-
-ISpace[""growid""].Value!=ISpace[""ReimbursementFundDetails_RowId""].Value||ISpace[""growid""].Value=="""")");
-if(ISpace["MFG_P3_BudgetHeadId"].Value==ISpace["MG_P3_BudgetHeadId"].Value)
-{
-base.WriteDebugInfo(@"if(ISpace[""MFG_P3_BudgetHeadId""].Value==ISpace[""MG_P3_BudgetHeadId""].Value)");
-ISpace["Message"].Value=@"Budget Head is already Exists";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Budget Head is already Exists"";");
-ISpace["MFG_P3_BudgetHeadId"].Value="";
-base.WriteDebugInfo(@"ISpace[""MFG_P3_BudgetHeadId""].Value="""";");
-return;
-base.WriteDebugInfo(@"return;");
-}
-}
-}
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","84AEB9E0-3009-4426-AB92-AAF06D2B42AF",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("84AEB9E0-3009-4426-AB92-AAF06D2B42AF","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
-
-foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-");
-}
 ISpace["growid"].Value="";
 base.WriteDebugInfo(@"ISpace[""growid""].Value="""";");
 ISpace["MFG_P3_FundDetailsId"].Value="";
@@ -3212,47 +3171,6 @@ object MG_P3_Amount=iSpace.Sum("[84AEB9E0-3009-4426-AB92-AAF06D2B42AF]","MG_P3_A
 ISpace["MFG_P3_OverallAmount"].Value=Convert.ChangeType(MG_P3_Amount, MG_P3_Amount.GetType());;
 base.WriteDebugInfo(@"object MG_P3_Amount=iSpace.Sum(""[84AEB9E0-3009-4426-AB92-AAF06D2B42AF]"",""MG_P3_Amount"","""",ISpace[""gv_instanceid""].Value);
 ISpace[""MFG_P3_OverallAmount""].Value=Convert.ChangeType(MG_P3_Amount, MG_P3_Amount.GetType());;");
-if(ISpace["MFG_P3_FundTypeId"].Value=="1")
-{
-base.WriteDebugInfo(@"if(ISpace[""MFG_P3_FundTypeId""].Value==""1"")");
-base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
-
-foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-
-
-if(
-
-
-ISpace["growid"].Value!=ISpace["ReimbursementFundDetails_RowId"].Value||ISpace["growid"].Value=="")
-{
-base.WriteDebugInfo(@"
-if(
-
-
-ISpace[""growid""].Value!=ISpace[""ReimbursementFundDetails_RowId""].Value||ISpace[""growid""].Value=="""")");
-if(ISpace["MFG_P3_BudgetHeadId"].Value==ISpace["MG_P3_BudgetHeadId"].Value)
-{
-base.WriteDebugInfo(@"if(ISpace[""MFG_P3_BudgetHeadId""].Value==ISpace[""MG_P3_BudgetHeadId""].Value)");
-ISpace["Message"].Value=@"Budget Head is already Exists";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Budget Head is already Exists"";");
-ISpace["MFG_P3_BudgetHeadId"].Value="";
-base.WriteDebugInfo(@"ISpace[""MFG_P3_BudgetHeadId""].Value="""";");
-return;
-base.WriteDebugInfo(@"return;");
-}
-}
-}
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","84AEB9E0-3009-4426-AB92-AAF06D2B42AF",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("84AEB9E0-3009-4426-AB92-AAF06D2B42AF","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
-
-foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-");
-}
 ISpace["growid"].Value="";
 base.WriteDebugInfo(@"ISpace[""growid""].Value="""";");
 ISpace["MFG_P3_FundDetailsId"].Value="";
@@ -3875,47 +3793,6 @@ object MG_P3_Amount=iSpace.Sum("[84AEB9E0-3009-4426-AB92-AAF06D2B42AF]","MG_P3_A
 ISpace["MFG_P3_OverallAmount"].Value=Convert.ChangeType(MG_P3_Amount, MG_P3_Amount.GetType());;
 base.WriteDebugInfo(@"object MG_P3_Amount=iSpace.Sum(""[84AEB9E0-3009-4426-AB92-AAF06D2B42AF]"",""MG_P3_Amount"","""",ISpace[""gv_instanceid""].Value);
 ISpace[""MFG_P3_OverallAmount""].Value=Convert.ChangeType(MG_P3_Amount, MG_P3_Amount.GetType());;");
-if(ISpace["MFG_P3_FundTypeId"].Value=="1")
-{
-base.WriteDebugInfo(@"if(ISpace[""MFG_P3_FundTypeId""].Value==""1"")");
-base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
-
-foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-
-
-if(
-
-
-ISpace["growid"].Value!=ISpace["ReimbursementFundDetails_RowId"].Value||ISpace["growid"].Value=="")
-{
-base.WriteDebugInfo(@"
-if(
-
-
-ISpace[""growid""].Value!=ISpace[""ReimbursementFundDetails_RowId""].Value||ISpace[""growid""].Value=="""")");
-if(ISpace["MFG_P3_BudgetHeadId"].Value==ISpace["MG_P3_BudgetHeadId"].Value)
-{
-base.WriteDebugInfo(@"if(ISpace[""MFG_P3_BudgetHeadId""].Value==ISpace[""MG_P3_BudgetHeadId""].Value)");
-ISpace["Message"].Value=@"Budget Head is already Exists";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Budget Head is already Exists"";");
-ISpace["MFG_P3_BudgetHeadId"].Value="";
-base.WriteDebugInfo(@"ISpace[""MFG_P3_BudgetHeadId""].Value="""";");
-return;
-base.WriteDebugInfo(@"return;");
-}
-}
-}
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","84AEB9E0-3009-4426-AB92-AAF06D2B42AF",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("84AEB9E0-3009-4426-AB92-AAF06D2B42AF","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
-
-foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-");
-}
 ISpace["growid"].Value="";
 base.WriteDebugInfo(@"ISpace[""growid""].Value="""";");
 ISpace["MFG_P3_FundDetailsId"].Value="";
@@ -4520,47 +4397,6 @@ object MG_P3_Amount=iSpace.Sum("[84AEB9E0-3009-4426-AB92-AAF06D2B42AF]","MG_P3_A
 ISpace["MFG_P3_OverallAmount"].Value=Convert.ChangeType(MG_P3_Amount, MG_P3_Amount.GetType());;
 base.WriteDebugInfo(@"object MG_P3_Amount=iSpace.Sum(""[84AEB9E0-3009-4426-AB92-AAF06D2B42AF]"",""MG_P3_Amount"","""",ISpace[""gv_instanceid""].Value);
 ISpace[""MFG_P3_OverallAmount""].Value=Convert.ChangeType(MG_P3_Amount, MG_P3_Amount.GetType());;");
-if(ISpace["MFG_P3_FundTypeId"].Value=="1")
-{
-base.WriteDebugInfo(@"if(ISpace[""MFG_P3_FundTypeId""].Value==""1"")");
-base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
-
-foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-
-
-if(
-
-
-ISpace["growid"].Value!=ISpace["ReimbursementFundDetails_RowId"].Value||ISpace["growid"].Value=="")
-{
-base.WriteDebugInfo(@"
-if(
-
-
-ISpace[""growid""].Value!=ISpace[""ReimbursementFundDetails_RowId""].Value||ISpace[""growid""].Value=="""")");
-if(ISpace["MFG_P3_BudgetHeadId"].Value==ISpace["MG_P3_BudgetHeadId"].Value)
-{
-base.WriteDebugInfo(@"if(ISpace[""MFG_P3_BudgetHeadId""].Value==ISpace[""MG_P3_BudgetHeadId""].Value)");
-ISpace["Message"].Value=@"Budget Head is already Exists";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Budget Head is already Exists"";");
-ISpace["MFG_P3_BudgetHeadId"].Value="";
-base.WriteDebugInfo(@"ISpace[""MFG_P3_BudgetHeadId""].Value="""";");
-return;
-base.WriteDebugInfo(@"return;");
-}
-}
-}
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","84AEB9E0-3009-4426-AB92-AAF06D2B42AF",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("84AEB9E0-3009-4426-AB92-AAF06D2B42AF","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
-
-foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-");
-}
 ISpace["growid"].Value="";
 base.WriteDebugInfo(@"ISpace[""growid""].Value="""";");
 ISpace["MFG_P3_FundDetailsId"].Value="";
@@ -5165,47 +5001,6 @@ object MG_P3_Amount=iSpace.Sum("[84AEB9E0-3009-4426-AB92-AAF06D2B42AF]","MG_P3_A
 ISpace["MFG_P3_OverallAmount"].Value=Convert.ChangeType(MG_P3_Amount, MG_P3_Amount.GetType());;
 base.WriteDebugInfo(@"object MG_P3_Amount=iSpace.Sum(""[84AEB9E0-3009-4426-AB92-AAF06D2B42AF]"",""MG_P3_Amount"","""",ISpace[""gv_instanceid""].Value);
 ISpace[""MFG_P3_OverallAmount""].Value=Convert.ChangeType(MG_P3_Amount, MG_P3_Amount.GetType());;");
-if(ISpace["MFG_P3_FundTypeId"].Value=="1")
-{
-base.WriteDebugInfo(@"if(ISpace[""MFG_P3_FundTypeId""].Value==""1"")");
-base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
-
-foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-
-
-if(
-
-
-ISpace["growid"].Value!=ISpace["ReimbursementFundDetails_RowId"].Value||ISpace["growid"].Value=="")
-{
-base.WriteDebugInfo(@"
-if(
-
-
-ISpace[""growid""].Value!=ISpace[""ReimbursementFundDetails_RowId""].Value||ISpace[""growid""].Value=="""")");
-if(ISpace["MFG_P3_BudgetHeadId"].Value==ISpace["MG_P3_BudgetHeadId"].Value)
-{
-base.WriteDebugInfo(@"if(ISpace[""MFG_P3_BudgetHeadId""].Value==ISpace[""MG_P3_BudgetHeadId""].Value)");
-ISpace["Message"].Value=@"Budget Head is already Exists";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Budget Head is already Exists"";");
-ISpace["MFG_P3_BudgetHeadId"].Value="";
-base.WriteDebugInfo(@"ISpace[""MFG_P3_BudgetHeadId""].Value="""";");
-return;
-base.WriteDebugInfo(@"return;");
-}
-}
-}
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","84AEB9E0-3009-4426-AB92-AAF06D2B42AF",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("84AEB9E0-3009-4426-AB92-AAF06D2B42AF","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
-
-foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-");
-}
 ISpace["growid"].Value="";
 base.WriteDebugInfo(@"ISpace[""growid""].Value="""";");
 ISpace["MFG_P3_FundDetailsId"].Value="";
@@ -6045,47 +5840,6 @@ object MG_P3_Amount=iSpace.Sum("[84AEB9E0-3009-4426-AB92-AAF06D2B42AF]","MG_P3_A
 ISpace["MFG_P3_OverallAmount"].Value=Convert.ChangeType(MG_P3_Amount, MG_P3_Amount.GetType());;
 base.WriteDebugInfo(@"object MG_P3_Amount=iSpace.Sum(""[84AEB9E0-3009-4426-AB92-AAF06D2B42AF]"",""MG_P3_Amount"","""",ISpace[""gv_instanceid""].Value);
 ISpace[""MFG_P3_OverallAmount""].Value=Convert.ChangeType(MG_P3_Amount, MG_P3_Amount.GetType());;");
-if(ISpace["MFG_P3_FundTypeId"].Value=="1")
-{
-base.WriteDebugInfo(@"if(ISpace[""MFG_P3_FundTypeId""].Value==""1"")");
-base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
-
-foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-
-
-if(
-
-
-ISpace["growid"].Value!=ISpace["ReimbursementFundDetails_RowId"].Value||ISpace["growid"].Value=="")
-{
-base.WriteDebugInfo(@"
-if(
-
-
-ISpace[""growid""].Value!=ISpace[""ReimbursementFundDetails_RowId""].Value||ISpace[""growid""].Value=="""")");
-if(ISpace["MFG_P3_BudgetHeadId"].Value==ISpace["MG_P3_BudgetHeadId"].Value)
-{
-base.WriteDebugInfo(@"if(ISpace[""MFG_P3_BudgetHeadId""].Value==ISpace[""MG_P3_BudgetHeadId""].Value)");
-ISpace["Message"].Value=@"Budget Head is already Exists";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Budget Head is already Exists"";");
-ISpace["MFG_P3_BudgetHeadId"].Value="";
-base.WriteDebugInfo(@"ISpace[""MFG_P3_BudgetHeadId""].Value="""";");
-return;
-base.WriteDebugInfo(@"return;");
-}
-}
-}
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","84AEB9E0-3009-4426-AB92-AAF06D2B42AF",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("84AEB9E0-3009-4426-AB92-AAF06D2B42AF","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
-
-foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-");
-}
 ISpace["growid"].Value="";
 base.WriteDebugInfo(@"ISpace[""growid""].Value="""";");
 ISpace["MFG_P3_FundDetailsId"].Value="";

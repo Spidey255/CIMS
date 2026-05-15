@@ -334,10 +334,10 @@ namespace CPS.Proof.DFSExtension
 			     new Tuple<string, int>("MG_DcoumentDetails",5),
 			
 						
-			     new Tuple<string, int>("MG_CommitmentDetails",5),
+			     new Tuple<string, int>("MG_Advancedetails",5),
 			
 						
-			     new Tuple<string, int>("MG_Advancedetails",5),
+			     new Tuple<string, int>("MG_CommitmentDetails",5),
 			
 						
 			     new Tuple<string, int>("ReimbursementFundDetails",25),
@@ -2151,6 +2151,20 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_m_availablebudget (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_AvailableBudget-OnClick");
+ISpace["UI_AvailableBudget"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_AvailableBudget""].ShowDialog=true;;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_submitform (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -2950,6 +2964,10 @@ public override void ExecuteMethod
 }
 	if(methodName.ToLower().Equals("onclick"))
 {
+		if(elementName.ToLower().Equals("m_availablebudget"))
+{
+			SubscribeElementEvents_m_availablebudget(ref dfsParam);
+}
 		if(elementName.ToLower().Equals("submitform"))
 {
 			SubscribeElementEvents_submitform(ref dfsParam);
