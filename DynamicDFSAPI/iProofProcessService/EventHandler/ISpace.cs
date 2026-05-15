@@ -299,6 +299,69 @@ namespace CPS.Proof.DFSExtension
             {
                 return null;
             }
+             finally
+            {
+                if (externalQueryController != null)
+                {
+                    ObjectManager.Release(externalQueryController);
+                }
+            }
+        }
+
+        public object Count(string gridTable, string gridcolumn, string filter, string instanceId)
+        {
+            IExternalQueryController externalQueryController = null;
+
+            try
+            {
+                externalQueryController = ObjectManager.Acquire<IExternalQueryController>();
+
+                object aggValue = null;
+
+                externalQueryController.AggregateGridData
+                (gridTable, gridcolumn, "Count", filter, instanceId, out aggValue);
+
+                return aggValue;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            finally
+            {
+                if (externalQueryController != null)
+                {
+                    ObjectManager.Release(externalQueryController);
+                }
+            }
+        }
+
+        public object AVG(string gridTable, string gridcolumn, string filter, string instanceId)
+        {
+            IExternalQueryController externalQueryController = null;
+
+            try
+            {
+                externalQueryController = ObjectManager.Acquire<IExternalQueryController>();
+
+                object aggValue = null;
+
+                externalQueryController.AggregateGridData
+                (gridTable, gridcolumn, "AVG", filter, instanceId, out aggValue);
+
+                return aggValue;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+            finally
+            {
+                if (externalQueryController != null)
+                {
+                    ObjectManager.Release(externalQueryController);
+                }
+            }
         }
 
        

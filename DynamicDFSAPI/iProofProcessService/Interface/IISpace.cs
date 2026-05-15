@@ -113,6 +113,8 @@ namespace CPS.Proof.DFSExtension
 
         object Sum(string gridTable, string gridcolumn, string gridvalue,string instanceId);
 
+         object Count(string gridTable, string gridcolumn, string filter, string instanceId);
+
         Status AddNewInstance(string forkId, 
             string parentInstanceId,string processactivitymapid,string slotId,ForkedProcess forkedProcess);
 
