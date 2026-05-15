@@ -2541,18 +2541,6 @@ base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Both Overall Fund Amount and�
 return;
 base.WriteDebugInfo(@"return;");
 }
-object M_DocumentDetailsId=iSpace.Count("[93570AD2-BC61-4B0C-AE1C-2A20265D17E7]","M_DocumentDetailsId","",ISpace["gv_instanceid"].Value);
-ISpace["M_Gridcount"].Value=Convert.ChangeType(M_DocumentDetailsId, M_DocumentDetailsId.GetType());;
-base.WriteDebugInfo(@"object M_DocumentDetailsId=iSpace.Count(""[93570AD2-BC61-4B0C-AE1C-2A20265D17E7]"",""M_DocumentDetailsId"","""",ISpace[""gv_instanceid""].Value);
-ISpace[""M_Gridcount""].Value=Convert.ChangeType(M_DocumentDetailsId, M_DocumentDetailsId.GetType());;");
-if(ISpace["M_Gridcount"].Value==0)
-{
-base.WriteDebugInfo(@"if(ISpace[""M_Gridcount""].Value==0)");
-ISpace["Message"].Value=@"Please upload atleast one Document in Document Details Grid";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please upload atleast one Document in Document Details Grid"";");
-return;
-base.WriteDebugInfo(@"return;");
-}
 base.WriteDebugInfo(@"#MG_DcoumentDetails[Rows]");
 iSpace.GetLoopExpressionData("MG_DcoumentDetails",ref ISpace);
 
@@ -3522,8 +3510,8 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"M_Unlock-OnClick");
-ISpace.ExecuteInstanceCommand("Cancel");
-base.WriteDebugInfo(@"ISpace.ExecuteInstanceCommand(""Cancel"");");
+ISpace["Message"].Value=@"Hi";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Hi"";");
 }
 catch(Exception ex)
 {
@@ -6275,18 +6263,6 @@ if(ISpace["MFG_P3_OverallAmount"].Value!=ISpace["MF_P1_TotalAmount"].Value)
 base.WriteDebugInfo(@"if(ISpace[""MFG_P3_OverallAmount""].Value!=ISpace[""MF_P1_TotalAmount""].Value)");
 ISpace["Message"].Value=@"Both Overall Fund Amount and Overall Bill Amount should be same";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Both Overall Fund Amount and Overall Bill Amount should be same"";");
-return;
-base.WriteDebugInfo(@"return;");
-}
-object M_DocumentDetailsId=iSpace.Count("[93570AD2-BC61-4B0C-AE1C-2A20265D17E7]","M_DocumentDetailsId","",ISpace["gv_instanceid"].Value);
-ISpace["M_Gridcount"].Value=Convert.ChangeType(M_DocumentDetailsId, M_DocumentDetailsId.GetType());;
-base.WriteDebugInfo(@"object M_DocumentDetailsId=iSpace.Count(""[93570AD2-BC61-4B0C-AE1C-2A20265D17E7]"",""M_DocumentDetailsId"","""",ISpace[""gv_instanceid""].Value);
-ISpace[""M_Gridcount""].Value=Convert.ChangeType(M_DocumentDetailsId, M_DocumentDetailsId.GetType());;");
-if(ISpace["M_Gridcount"].Value==0)
-{
-base.WriteDebugInfo(@"if(ISpace[""M_Gridcount""].Value==0)");
-ISpace["Message"].Value=@"Please upload atleast one Document in Document Details Grid";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please upload atleast one Document in Document Details Grid"";");
 return;
 base.WriteDebugInfo(@"return;");
 }

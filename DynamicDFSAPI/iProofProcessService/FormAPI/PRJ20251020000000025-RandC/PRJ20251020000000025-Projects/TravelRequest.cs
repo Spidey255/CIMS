@@ -2586,18 +2586,6 @@ base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please select Is Advance Req
 return;
 base.WriteDebugInfo(@"return;");
 }
-object MG_FundType=iSpace.Count("[AD9C54EC-27A0-4C21-9923-063084E3B588]","MG_FundType","",ISpace["gv_instanceid"].Value);
-ISpace["MF_GrdFundCount"].Value=Convert.ChangeType(MG_FundType, MG_FundType.GetType());;
-base.WriteDebugInfo(@"object MG_FundType=iSpace.Count(""[AD9C54EC-27A0-4C21-9923-063084E3B588]"",""MG_FundType"","""",ISpace[""gv_instanceid""].Value);
-ISpace[""MF_GrdFundCount""].Value=Convert.ChangeType(MG_FundType, MG_FundType.GetType());;");
-if(ISpace["MF_GrdFundCount"].Value==0)
-{
-base.WriteDebugInfo(@"if(ISpace[""MF_GrdFundCount""].Value==0)");
-ISpace["Message"].Value=@"Please enter at least one Funding Details";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter at least one Funding Details"";");
-return;
-base.WriteDebugInfo(@"return;");
-}
 if(Trim(ISpace["MF_T1_BankBranch"].Value)==""&&ISpace["Travel_Type"].Value=="3")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MF_T1_BankBranch""].Value)==""""&&ISpace[""Travel_Type""].Value==""3"")");
@@ -6877,18 +6865,6 @@ if(ISpace["M_IsAdvanceRequired"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""M_IsAdvanceRequired""].Value=="""")");
 ISpace["Message"].Value=@"Please select Is Advance Required";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please select Is Advance Required"";");
-return;
-base.WriteDebugInfo(@"return;");
-}
-object MG_FundType=iSpace.Count("[AD9C54EC-27A0-4C21-9923-063084E3B588]","MG_FundType","",ISpace["gv_instanceid"].Value);
-ISpace["MF_GrdFundCount"].Value=Convert.ChangeType(MG_FundType, MG_FundType.GetType());;
-base.WriteDebugInfo(@"object MG_FundType=iSpace.Count(""[AD9C54EC-27A0-4C21-9923-063084E3B588]"",""MG_FundType"","""",ISpace[""gv_instanceid""].Value);
-ISpace[""MF_GrdFundCount""].Value=Convert.ChangeType(MG_FundType, MG_FundType.GetType());;");
-if(ISpace["MF_GrdFundCount"].Value==0)
-{
-base.WriteDebugInfo(@"if(ISpace[""MF_GrdFundCount""].Value==0)");
-ISpace["Message"].Value=@"Please enter at least one Funding Details";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter at least one Funding Details"";");
 return;
 base.WriteDebugInfo(@"return;");
 }
