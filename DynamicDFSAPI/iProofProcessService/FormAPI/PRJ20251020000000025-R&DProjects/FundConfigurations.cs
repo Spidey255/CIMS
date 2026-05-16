@@ -189,10 +189,6 @@ namespace CPS.Proof.DFSExtension
 												     @"EXEC GetFundDistributionCombos 2"),
 			
 						
-			     new Triplet<string, string, string>("MG_BudgetHeadId","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMA18yFT7KruzVDa0TqsqpOM+grujzoqor1KqRIderPPsozBAr7TiIaPx7MYO2zQclV",
-												     @"EXEC GetFundDistributionCombos 3"),
-			
-						
 		};
 		
 		public override Tuple<string, string> GetComboDataSource(string ElementName)
@@ -513,19 +509,19 @@ namespace CPS.Proof.DFSExtension
 
                 
                  
-                                      case "04FCD160-1EC6-471F-97B0-1C6738875C87":
+                                      case "4f5082a3-9a94-c0ae-f847-0dd75437412a":
                     {
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_04FCD1601EC6471F97B01C6738875C87 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_FundTypeName] VARCHAR(MAX)	, [MG_FundTypeId] INT){0}INSERT INTO [04FCD160-1EC6-471F-97B0-1C6738875C87](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_FundTypeName,MG_FundTypeId)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_FundTypeName,TDT.MG_FundTypeId FROM @TBL_04FCD1601EC6471F97B01C6738875C87 TDT
-							LEFT JOIN [04FCD160-1EC6-471F-97B0-1C6738875C87] DT  WITH(NOLOCK)
+		DECLARE  @TBL_4f5082a39a94c0aef8470dd75437412a AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_ProjectOrOtherId] INT	, [MG_DistributionId] VARCHAR(MAX)	, [MG_FundType] VARCHAR(MAX)	, [MG_BudgetHeadId] VARCHAR(250)	, [MG_MaxPercentageUsage] DECIMAL(18,2)	, [MG_MaxAmount] DECIMAL(18,2)	, [MG_Description] VARCHAR(MAX)){0}INSERT INTO [4f5082a3-9a94-c0ae-f847-0dd75437412a](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ProjectOrOtherId,MG_DistributionId,MG_FundType,MG_BudgetHeadId,MG_MaxPercentageUsage,MG_MaxAmount,MG_Description)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_ProjectOrOtherId,TDT.MG_DistributionId,TDT.MG_FundType,TDT.MG_BudgetHeadId,TDT.MG_MaxPercentageUsage,TDT.MG_MaxAmount,TDT.MG_Description FROM @TBL_4f5082a39a94c0aef8470dd75437412a TDT
+							LEFT JOIN [4f5082a3-9a94-c0ae-f847-0dd75437412a] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;";
 
-                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_FundTypeName,MG_FundTypeId";
+                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ProjectOrOtherId,MG_DistributionId,MG_FundType,MG_BudgetHeadId,MG_MaxPercentageUsage,MG_MaxAmount,MG_Description";
 
-                                     tempInsertQuery=@"INSERT INTO @TBL_04FCD1601EC6471F97B01C6738875C87(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_FundTypeName,MG_FundTypeId)VALUES({0});";
+                                     tempInsertQuery=@"INSERT INTO @TBL_4f5082a39a94c0aef8470dd75437412a(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ProjectOrOtherId,MG_DistributionId,MG_FundType,MG_BudgetHeadId,MG_MaxPercentageUsage,MG_MaxAmount,MG_Description)VALUES({0});";
                                      
 
                             splitcols = colList.Split(',');
@@ -625,19 +621,19 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
                      
-                                    case "DD0086FF-AEF5-45C9-A3B5-6CFE3A7C352F":
+                                    case "04FCD160-1EC6-471F-97B0-1C6738875C87":
                     {
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_DD0086FFAEF545C9A3B56CFE3A7C352F AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_ProjectOrOtherId] INT	, [MG_MaxAmount] DECIMAL(18,2)	, [MG_MaxPercentageUsage] DECIMAL(18,2)	, [MG_BudgetHeadId] VARCHAR(250)	, [MG_FundType] VARCHAR(MAX)	, [MG_Description] VARCHAR(MAX)	, [MG_DistributionId] VARCHAR(MAX)){0}INSERT INTO [DD0086FF-AEF5-45C9-A3B5-6CFE3A7C352F](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ProjectOrOtherId,MG_MaxAmount,MG_MaxPercentageUsage,MG_BudgetHeadId,MG_FundType,MG_Description,MG_DistributionId)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_ProjectOrOtherId,TDT.MG_MaxAmount,TDT.MG_MaxPercentageUsage,TDT.MG_BudgetHeadId,TDT.MG_FundType,TDT.MG_Description,TDT.MG_DistributionId FROM @TBL_DD0086FFAEF545C9A3B56CFE3A7C352F TDT
-							LEFT JOIN [DD0086FF-AEF5-45C9-A3B5-6CFE3A7C352F] DT  WITH(NOLOCK)
+		DECLARE  @TBL_04FCD1601EC6471F97B01C6738875C87 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_FundTypeName] VARCHAR(MAX)	, [MG_FundTypeId] INT){0}INSERT INTO [04FCD160-1EC6-471F-97B0-1C6738875C87](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_FundTypeName,MG_FundTypeId)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_FundTypeName,TDT.MG_FundTypeId FROM @TBL_04FCD1601EC6471F97B01C6738875C87 TDT
+							LEFT JOIN [04FCD160-1EC6-471F-97B0-1C6738875C87] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;";
 
-                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ProjectOrOtherId,MG_MaxAmount,MG_MaxPercentageUsage,MG_BudgetHeadId,MG_FundType,MG_Description,MG_DistributionId";
+                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_FundTypeName,MG_FundTypeId";
 
-                                     tempInsertQuery=@"INSERT INTO @TBL_DD0086FFAEF545C9A3B56CFE3A7C352F(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ProjectOrOtherId,MG_MaxAmount,MG_MaxPercentageUsage,MG_BudgetHeadId,MG_FundType,MG_Description,MG_DistributionId)VALUES({0});";
+                                     tempInsertQuery=@"INSERT INTO @TBL_04FCD1601EC6471F97B01C6738875C87(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_FundTypeName,MG_FundTypeId)VALUES({0});";
                                      
 
                             splitcols = colList.Split(',');
@@ -782,19 +778,19 @@ namespace CPS.Proof.DFSExtension
                 {
                      
 
-                                         case "04FCD160-1EC6-471F-97B0-1C6738875C87":
+                                         case "4f5082a3-9a94-c0ae-f847-0dd75437412a":
                     {
                      
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_04FCD1601EC6471F97B01C6738875C87 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_FundTypeName] VARCHAR(MAX)	, [MG_FundTypeId] INT){0}INSERT INTO [04FCD160-1EC6-471F-97B0-1C6738875C87](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_FundTypeName,MG_FundTypeId)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_FundTypeName,TDT.MG_FundTypeId FROM @TBL_04FCD1601EC6471F97B01C6738875C87 TDT
-							LEFT JOIN [04FCD160-1EC6-471F-97B0-1C6738875C87] DT  WITH(NOLOCK)
+		DECLARE  @TBL_4f5082a39a94c0aef8470dd75437412a AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_ProjectOrOtherId] INT	, [MG_DistributionId] VARCHAR(MAX)	, [MG_FundType] VARCHAR(MAX)	, [MG_BudgetHeadId] VARCHAR(250)	, [MG_MaxPercentageUsage] DECIMAL(18,2)	, [MG_MaxAmount] DECIMAL(18,2)	, [MG_Description] VARCHAR(MAX)){0}INSERT INTO [4f5082a3-9a94-c0ae-f847-0dd75437412a](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ProjectOrOtherId,MG_DistributionId,MG_FundType,MG_BudgetHeadId,MG_MaxPercentageUsage,MG_MaxAmount,MG_Description)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_ProjectOrOtherId,TDT.MG_DistributionId,TDT.MG_FundType,TDT.MG_BudgetHeadId,TDT.MG_MaxPercentageUsage,TDT.MG_MaxAmount,TDT.MG_Description FROM @TBL_4f5082a39a94c0aef8470dd75437412a TDT
+							LEFT JOIN [4f5082a3-9a94-c0ae-f847-0dd75437412a] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;";
 
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_FundTypeName,MG_FundTypeId";
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ProjectOrOtherId,MG_DistributionId,MG_FundType,MG_BudgetHeadId,MG_MaxPercentageUsage,MG_MaxAmount,MG_Description";
 
-                            tempInsertQuery=@"INSERT INTO @TBL_04FCD1601EC6471F97B01C6738875C87(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_FundTypeName,MG_FundTypeId)VALUES({0});";
+                            tempInsertQuery=@"INSERT INTO @TBL_4f5082a39a94c0aef8470dd75437412a(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ProjectOrOtherId,MG_DistributionId,MG_FundType,MG_BudgetHeadId,MG_MaxPercentageUsage,MG_MaxAmount,MG_Description)VALUES({0});";
 
                             splitcols = colList.Split(',');
 
@@ -881,19 +877,19 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
-                                              case "DD0086FF-AEF5-45C9-A3B5-6CFE3A7C352F":
+                                              case "04FCD160-1EC6-471F-97B0-1C6738875C87":
                     {
                      
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_DD0086FFAEF545C9A3B56CFE3A7C352F AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_ProjectOrOtherId] INT	, [MG_MaxAmount] DECIMAL(18,2)	, [MG_MaxPercentageUsage] DECIMAL(18,2)	, [MG_BudgetHeadId] VARCHAR(250)	, [MG_FundType] VARCHAR(MAX)	, [MG_Description] VARCHAR(MAX)	, [MG_DistributionId] VARCHAR(MAX)){0}INSERT INTO [DD0086FF-AEF5-45C9-A3B5-6CFE3A7C352F](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ProjectOrOtherId,MG_MaxAmount,MG_MaxPercentageUsage,MG_BudgetHeadId,MG_FundType,MG_Description,MG_DistributionId)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_ProjectOrOtherId,TDT.MG_MaxAmount,TDT.MG_MaxPercentageUsage,TDT.MG_BudgetHeadId,TDT.MG_FundType,TDT.MG_Description,TDT.MG_DistributionId FROM @TBL_DD0086FFAEF545C9A3B56CFE3A7C352F TDT
-							LEFT JOIN [DD0086FF-AEF5-45C9-A3B5-6CFE3A7C352F] DT  WITH(NOLOCK)
+		DECLARE  @TBL_04FCD1601EC6471F97B01C6738875C87 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_FundTypeName] VARCHAR(MAX)	, [MG_FundTypeId] INT){0}INSERT INTO [04FCD160-1EC6-471F-97B0-1C6738875C87](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_FundTypeName,MG_FundTypeId)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_FundTypeName,TDT.MG_FundTypeId FROM @TBL_04FCD1601EC6471F97B01C6738875C87 TDT
+							LEFT JOIN [04FCD160-1EC6-471F-97B0-1C6738875C87] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;";
 
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ProjectOrOtherId,MG_MaxAmount,MG_MaxPercentageUsage,MG_BudgetHeadId,MG_FundType,MG_Description,MG_DistributionId";
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_FundTypeName,MG_FundTypeId";
 
-                            tempInsertQuery=@"INSERT INTO @TBL_DD0086FFAEF545C9A3B56CFE3A7C352F(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ProjectOrOtherId,MG_MaxAmount,MG_MaxPercentageUsage,MG_BudgetHeadId,MG_FundType,MG_Description,MG_DistributionId)VALUES({0});";
+                            tempInsertQuery=@"INSERT INTO @TBL_04FCD1601EC6471F97B01C6738875C87(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_FundTypeName,MG_FundTypeId)VALUES({0});";
 
                             splitcols = colList.Split(',');
 
@@ -1158,19 +1154,15 @@ if(ISpace["MF_FundTypeId"].Value==1)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_FundTypeId""].Value==1)");
 
-var querySource291629D86EDC4ED287968C3E5F8981AB =GetQueryExpressionDataSource("291629D8-6EDC-4ED2-8796-8C3E5F8981AB");
-
-DataTable result291629D86EDC4ED287968C3E5F8981AB=iSpace.SetGridDataSource(querySource291629D86EDC4ED287968C3E5F8981AB, _objectFactory.GetGridRPP("MF_DistrubitionDetails"),@"exec SP_GetDistrubitionDetails 2,'','" + ISpace["MF_FundTypeId"].Value + @"','" + ISpace["MF_DistributionId"].Value + @"'");
-
-iSpace.InsertGridBindDetails("MF_DistrubitionDetails","11",querySource291629D86EDC4ED287968C3E5F8981AB,"exec SP_GetDistrubitionDetails 2,'','" + ISpace["MF_FundTypeId"].Value + @"','" + ISpace["MF_DistributionId"].Value + @"'",_objectFactory.GetGridRPP("MF_DistrubitionDetails"));
-
-base.WriteDebugInfo(@"var querySource291629D86EDC4ED287968C3E5F8981AB =GetQueryExpressionDataSource(""291629D8-6EDC-4ED2-8796-8C3E5F8981AB"");DataTable result291629D86EDC4ED287968C3E5F8981AB=iSpace.SetGridDataSource(querySource291629D86EDC4ED287968C3E5F8981AB, _objectFactory.GetGridRPP(""MF_DistrubitionDetails""),@""exec SP_GetDistrubitionDetails 2,'','"" + ISpace[""MF_FundTypeId""].Value + @""','"" + ISpace[""MF_DistributionId""].Value + @""'"");iSpace.InsertGridBindDetails(""MF_DistrubitionDetails"",""11"",querySource291629D86EDC4ED287968C3E5F8981AB,""exec SP_GetDistrubitionDetails 2,'','"" + ISpace[""MF_FundTypeId""].Value + @""','"" + ISpace[""MF_DistributionId""].Value + @""'"",_objectFactory.GetGridRPP(""MF_DistrubitionDetails""));");
+base.WriteDebugInfo(@"");
 base.WriteDebugInfo(@"");
 
+if((result291629D86EDC4ED287968C3E5F8981AB!=null) && (result291629D86EDC4ED287968C3E5F8981AB.Count!=0))
+{
+}
+else{
 
-List<Triplet<string, short, short?>> result080778C9A8D34B048CFA39FBC2646244=acdataIspace4E51124DBF8346ECBA9AB746693F716F.GetQueryExpressionBindings("080778C9-A8D3-4B04-8CFA-39FBC2646244");
-iSpace.SetGridData(result291629D86EDC4ED287968C3E5F8981AB,result080778C9A8D34B048CFA39FBC2646244,"MF_DistrubitionDetails",ref ISpace);
-iSpace.UpdateGridBindDetails("MF_DistrubitionDetails",result080778C9A8D34B048CFA39FBC2646244);
+}
 if(ISpace["FormVersionId"].Value=="FE4DDBCD-890E-4679-BDD8-D94D3D9C5BC3")
 {
 ISpace["UI_Panelhide"].Visible="false";
@@ -1285,7 +1277,7 @@ else{
 ISpace["MF_InsertCount"].Value = null;
 }
 }
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MF_DistrubitionDetails","DD0086FF-AEF5-45C9-A3B5-6CFE3A7C352F",_objectFactory.GetGridRPP("MF_DistrubitionDetails"),_elementBase.GetGridLoopQuery("DD0086FF-AEF5-45C9-A3B5-6CFE3A7C352F","MF_DistrubitionDetails",ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MF_DistrubitionDetails","",_objectFactory.GetGridRPP("MF_DistrubitionDetails"),_elementBase.GetGridLoopQuery("","MF_DistrubitionDetails",ISpace), ref ISpace);
 base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""MF_DistrubitionDetails"",ref ISpace);
 
 foreach(var gridChild in ISpace[""MF_DistrubitionDetails""].Child)
@@ -1382,22 +1374,6 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
-							{"080778C9-A8D3-4B04-8CFA-39FBC2646244", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("MG_BudgetHeadId",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_Description",6,
-														   -1),
-								   new Triplet<string, short, short?>("MG_MaxAmount",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_MaxPercentageUsage",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_ProjectOrOtherId",0,
-														   -1),
-								}
-			},
 							{"A1ECD9F9-7CCB-425C-9711-457074501B49", 
 				
 				new List<Triplet<string, short, short?>> {

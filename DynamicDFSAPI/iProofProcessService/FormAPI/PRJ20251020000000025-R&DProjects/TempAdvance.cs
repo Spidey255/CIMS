@@ -298,7 +298,7 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("MFG_P3_FundTypeId","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMA18yFT7KruzVDa0TqsqpOM+grujzoqor1KqRIderPPsozBAr7TiIaPx7MYO2zQclV",
-												     @"exec SP_GetDistrubitionDetails 4,'@M_PackageProcessMapId','',''"),
+												     @"EXEC SP_GetDistrubitionDetails 4,'@M_PackageProcessMapId','',''"),
 			
 						
 			     new Triplet<string, string, string>("MFG_P3_ProjectDetailsId","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
@@ -2068,8 +2068,8 @@ else{
 ISpace["UC_EmployeeId"].Value = null;ISpace["UC_Department"].Value = null;ISpace["UC_EmployeeBaicInfoId"].Value = null;ISpace["UC_Designation"].Value = null;ISpace["UC_DOB"].Value = null;ISpace["UC_DOJ"].Value = null;ISpace["UC_Paylevel"].Value = null;ISpace["UC_DOR"].Value = null;ISpace["UC_Grade"].Value = null;ISpace["UC_EmailId"].Value = null;ISpace["UC_Name"].Value = null;ISpace["UC_PhoneNumber"].Value = null;
 }
 }
-ISpace["MFG_P3_FundTypeId"].rElemData=iSpace.Reload(ISpace["MFG_P3_FundTypeId"].Value,@"exec SP_GetDistrubitionDetails 4,'" + ISpace["M_PackageProcessMapId"].Value + @"','',''","9ADED37B-CD11-426B-AF16-DEAC75685EF5");
-base.WriteDebugInfo(@"ISpace[""MFG_P3_FundTypeId""].rElemData=iSpace.Reload(ISpace[""MFG_P3_FundTypeId""].Value,@""exec SP_GetDistrubitionDetails 4,'"" + ISpace[""M_PackageProcessMapId""].Value + @""','',''"",""9ADED37B-CD11-426B-AF16-DEAC75685EF5"");");
+ISpace["MFG_P3_FundTypeId"].rElemData=iSpace.Reload(ISpace["MFG_P3_FundTypeId"].Value,@"EXEC SP_GetDistrubitionDetails 4,'" + ISpace["M_PackageProcessMapId"].Value + @"','',''","9ADED37B-CD11-426B-AF16-DEAC75685EF5");
+base.WriteDebugInfo(@"ISpace[""MFG_P3_FundTypeId""].rElemData=iSpace.Reload(ISpace[""MFG_P3_FundTypeId""].Value,@""EXEC SP_GetDistrubitionDetails 4,'"" + ISpace[""M_PackageProcessMapId""].Value + @""','',''"",""9ADED37B-CD11-426B-AF16-DEAC75685EF5"");");
 
 
 
