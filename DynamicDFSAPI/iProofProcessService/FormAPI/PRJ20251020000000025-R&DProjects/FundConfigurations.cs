@@ -1368,15 +1368,19 @@ if(ISpace["MF_FundTypeId"].Value==1)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_FundTypeId""].Value==1)");
 
-base.WriteDebugInfo(@"");
+var querySource291629D86EDC4ED287968C3E5F8981AB =GetQueryExpressionDataSource("291629D8-6EDC-4ED2-8796-8C3E5F8981AB");
+
+DataTable result291629D86EDC4ED287968C3E5F8981AB=iSpace.SetGridDataSource(querySource291629D86EDC4ED287968C3E5F8981AB, _objectFactory.GetGridRPP("MG_PDDetails"),@"exec SP_GetDistrubitionDetails 2,'','" + ISpace["MF_FundTypeId"].Value + @"','" + ISpace["MF_DistributionId"].Value + @"'");
+
+iSpace.InsertGridBindDetails("MG_PDDetails","11",querySource291629D86EDC4ED287968C3E5F8981AB,"exec SP_GetDistrubitionDetails 2,'','" + ISpace["MF_FundTypeId"].Value + @"','" + ISpace["MF_DistributionId"].Value + @"'",_objectFactory.GetGridRPP("MG_PDDetails"));
+
+base.WriteDebugInfo(@"var querySource291629D86EDC4ED287968C3E5F8981AB =GetQueryExpressionDataSource(""291629D8-6EDC-4ED2-8796-8C3E5F8981AB"");DataTable result291629D86EDC4ED287968C3E5F8981AB=iSpace.SetGridDataSource(querySource291629D86EDC4ED287968C3E5F8981AB, _objectFactory.GetGridRPP(""MG_PDDetails""),@""exec SP_GetDistrubitionDetails 2,'','"" + ISpace[""MF_FundTypeId""].Value + @""','"" + ISpace[""MF_DistributionId""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_PDDetails"",""11"",querySource291629D86EDC4ED287968C3E5F8981AB,""exec SP_GetDistrubitionDetails 2,'','"" + ISpace[""MF_FundTypeId""].Value + @""','"" + ISpace[""MF_DistributionId""].Value + @""'"",_objectFactory.GetGridRPP(""MG_PDDetails""));");
 base.WriteDebugInfo(@"");
 
-if((result291629D86EDC4ED287968C3E5F8981AB!=null) && (result291629D86EDC4ED287968C3E5F8981AB.Count!=0))
-{
-}
-else{
 
-}
+List<Triplet<string, short, short?>> result080778C9A8D34B048CFA39FBC2646244=acdataIspace4E51124DBF8346ECBA9AB746693F716F.GetQueryExpressionBindings("080778C9-A8D3-4B04-8CFA-39FBC2646244");
+iSpace.SetGridData(result291629D86EDC4ED287968C3E5F8981AB,result080778C9A8D34B048CFA39FBC2646244,"MG_PDDetails",ref ISpace);
+iSpace.UpdateGridBindDetails("MG_PDDetails",result080778C9A8D34B048CFA39FBC2646244);
 if(ISpace["FormVersionId"].Value=="FE4DDBCD-890E-4679-BDD8-D94D3D9C5BC3")
 {
 ISpace["UI_Panelhide"].Visible="false";
@@ -1588,6 +1592,22 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
+							{"080778C9-A8D3-4B04-8CFA-39FBC2646244", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_BudgetHeadId",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_Description",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_MaxAmount",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_MaxPercentageUsage",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_ProjectOrOtherId",0,
+														   -1),
+								}
+			},
 							{"A1ECD9F9-7CCB-425C-9711-457074501B49", 
 				
 				new List<Triplet<string, short, short?>> {
