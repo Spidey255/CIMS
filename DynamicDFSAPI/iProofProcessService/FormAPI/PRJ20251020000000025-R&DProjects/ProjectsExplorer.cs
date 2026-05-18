@@ -822,25 +822,33 @@ base.WriteDebugInfo(@"");
 
 if((resultBA80C2CD020D491F8055BD63F5ADE3A5!=null) && (resultBA80C2CD020D491F8055BD63F5ADE3A5.Count!=0))
 {
-if(resultBA80C2CD020D491F8055BD63F5ADE3A5.ContainsKey(7))
-ISpace["MF_SanctionedAmount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[7];
-if(resultBA80C2CD020D491F8055BD63F5ADE3A5.ContainsKey(6))
-ISpace["MF_SanctionedCount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[6];
+if(resultBA80C2CD020D491F8055BD63F5ADE3A5.ContainsKey(11))
+ISpace["MF_SanctionedAmount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[11];
 if(resultBA80C2CD020D491F8055BD63F5ADE3A5.ContainsKey(5))
-ISpace["MF_ProposalAmount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[5];
+ISpace["MF_ProjectPendingAmount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[5];
+if(resultBA80C2CD020D491F8055BD63F5ADE3A5.ContainsKey(10))
+ISpace["MF_SanctionedCount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[10];
+if(resultBA80C2CD020D491F8055BD63F5ADE3A5.ContainsKey(7))
+ISpace["MF_ProposalAmount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[7];
 if(resultBA80C2CD020D491F8055BD63F5ADE3A5.ContainsKey(0))
 ISpace["MF_ActiveCount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[0];
 if(resultBA80C2CD020D491F8055BD63F5ADE3A5.ContainsKey(3))
 ISpace["MF_CompletedAmount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[3];
+if(resultBA80C2CD020D491F8055BD63F5ADE3A5.ContainsKey(10))
+ISpace["MF_ProposalPendingAmount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[10];
+if(resultBA80C2CD020D491F8055BD63F5ADE3A5.ContainsKey(9))
+ISpace["MF_ProposalPendingCount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[9];
 if(resultBA80C2CD020D491F8055BD63F5ADE3A5.ContainsKey(1))
 ISpace["MF_ActiveAmount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[1];
+if(resultBA80C2CD020D491F8055BD63F5ADE3A5.ContainsKey(4))
+ISpace["MF_ProjectPendingCount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[4];
 if(resultBA80C2CD020D491F8055BD63F5ADE3A5.ContainsKey(2))
 ISpace["MF_CompletedCount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[2];
-if(resultBA80C2CD020D491F8055BD63F5ADE3A5.ContainsKey(4))
-ISpace["MF_ProposalCount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[4];
+if(resultBA80C2CD020D491F8055BD63F5ADE3A5.ContainsKey(6))
+ISpace["MF_ProposalCount"].Value = resultBA80C2CD020D491F8055BD63F5ADE3A5[6];
 }
 else{
-ISpace["MF_SanctionedAmount"].Value = null;ISpace["MF_SanctionedCount"].Value = null;ISpace["MF_ProposalAmount"].Value = null;ISpace["MF_ActiveCount"].Value = null;ISpace["MF_CompletedAmount"].Value = null;ISpace["MF_ActiveAmount"].Value = null;ISpace["MF_CompletedCount"].Value = null;ISpace["MF_ProposalCount"].Value = null;
+ISpace["MF_SanctionedAmount"].Value = null;ISpace["MF_ProjectPendingAmount"].Value = null;ISpace["MF_SanctionedCount"].Value = null;ISpace["MF_ProposalAmount"].Value = null;ISpace["MF_ActiveCount"].Value = null;ISpace["MF_CompletedAmount"].Value = null;ISpace["MF_ProposalPendingAmount"].Value = null;ISpace["MF_ProposalPendingCount"].Value = null;ISpace["MF_ActiveAmount"].Value = null;ISpace["MF_ProjectPendingCount"].Value = null;ISpace["MF_CompletedCount"].Value = null;ISpace["MF_ProposalCount"].Value = null;
 }
 }
 }
