@@ -931,108 +931,7 @@ namespace CPS.Proof.DFSExtension
                 {
 
                 
-                                      case "DA3904EF-0E60-44D0-943E-2E97494B15C8":
-                    {
-                     
-                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [DA3904EF-0E60-44D0-943E-2E97494B15C8] WHERE InstanceId='{0}' AND
-							ProcessActivityMapId='{1}' AND FormId='{2}') BEGIN INSERT INTO [DA3904EF-0E60-44D0-943E-2E97494B15C8](ProcessActivityMapId,FormId,ExecutionMessage,ExecutionStatus,Subject,SetDestinationTo,MF_ProjectDetailsId,SLATime,MF_ProjectNo,MF_UserName,InstanceId)
-							VALUES( {3}) END ELSE BEGIN UPDATE [DA3904EF-0E60-44D0-943E-2E97494B15C8]SET {4}WHERE InstanceId='{0}'AND ProcessActivityMapId='{1}'AND FormId='{2}'END ";
-
-                                     colList=@"ProcessActivityMapId,FormId,ExecutionMessage,ExecutionStatus,Subject,SetDestinationTo,MF_ProjectDetailsId,SLATime,MF_ProjectNo,MF_UserName,InstanceId";
-                                    
-                     
-                            splitcols = colList.Split(',');
-
-                            if (splitcols.Length <= 0)
-                                return null;
-
-                            var parentObject = JObject.Parse(formJsonData);
-
-
-                            foreach (var fcol in splitcols)
-                            {
-                                if (fcol == "InstanceId")
-                                {
-                                    colValues += "'" + instanceId + "',";
-
-                                    continue;
-
-                                }
-
-                                else if (fcol == "ProcessActivityMapId")
-                                {
-                                    colValues += "'" + processActivityMapId + "',";
-                                    continue;
-                                }
-
-                                else if (fcol == "FormId")
-                                {
-                                    colValues += "'" + formId + "',";
-                                    continue;
-                                }
-
-                                bool isFound = false;
-
-                                foreach(var childObject in (JArray)parentObject["Child"])
-                                {
-
-                                    if (childObject["ElementName"].ToString() == fcol)
-                                    {
-                                        isFound = true;
-
-                                         if (childObject["Value"] == null)
-                                        {
-                                          
-                                            colValues += "null,";
-                                            UpdatecolValues += fcol + "=" + "null,";
-                                            break;
-                                        }
-
-                                        switch (Convert.ToInt32(childObject["EDT"]))
-                                        {
-                                            case 8:
-                                            case 9:
-                                                colValues += "'" + childObject["Value"].ToString() + "',";
-                                                UpdatecolValues+=fcol+"="+"'" + childObject["Value"].ToString() + "',";
-                                                break;
-
-                                            default:
-                                                if (childObject["Value"] != null)
-                                                {
-                                                    colValues += childObject["Value"].ToString() + ",";
-                                                    UpdatecolValues += fcol + "=" + childObject["Value"].ToString() + ",";
-                                                }
-                                                else
-                                                {
-                                                    colValues += "null,";
-                                                    UpdatecolValues += fcol + "=" + "null,";
-                                                }
-                                                 break;
-                                        }
-
-                                       
-                                    }
-                                }
-
-                                 if(!isFound)
-                                {
-                                    colValues += "null,";
-                                    UpdatecolValues += fcol + "=" + "null,";
-                                }
-
-                            }
-                            colValues = colValues.Remove(colValues.Length - 1);
-                            UpdatecolValues = UpdatecolValues.Remove(colValues.Length - 1);
-
-                            fInsertQuery =  string.Format(fInsertQuery,instanceId,processActivityMapId,formId, colValues,UpdatecolValues);
-
-                            colValues = string.Empty;
-
-                            break;
-                        }
-                
-                       
-                      case "7816392B-A9EF-486D-88F9-AC7C972D679B":
+                                      case "7816392B-A9EF-486D-88F9-AC7C972D679B":
                     {
                      
                                      fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [7816392B-A9EF-486D-88F9-AC7C972D679B] WHERE InstanceId='{0}' AND
@@ -1141,6 +1040,107 @@ namespace CPS.Proof.DFSExtension
 							VALUES( {3}) END ELSE BEGIN UPDATE [E0AC6667-6D92-49AA-8F4D-01F473F2E426]SET {4}WHERE InstanceId='{0}'AND ProcessActivityMapId='{1}'AND FormId='{2}'END ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d1_ProjectProposalID,MF_d1_ProjectRefNo,MF_d1_ProjectCategoryID,MF_d1_FinancialYearID,MF_d1_DepartmentID,MF_d1_Designation,MF_d1_ProjectName,MF_d1_ProjectType,MF_d1_FundingAgency,MF_d1_ProjectBudget,MF_d1_Remarks,MF_d1_PrincipalInvestigator,MF_d1_EmployeeBasicInfoId,MF_d1_ProjectStatus,MF_d1_SectorID,MF_d1_EndorsementFileType,MF_d1_ProposalCode,MF_d1_IsSubmitted,MF_d1_OverHead,MF_d1_IfExternalInstitute,MF_d1_UpdatedBy,MF_d1_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_d1_Currency,M_DepartmentId,M_DesignationId,Dept,DummyInstance";
+                                    
+                     
+                            splitcols = colList.Split(',');
+
+                            if (splitcols.Length <= 0)
+                                return null;
+
+                            var parentObject = JObject.Parse(formJsonData);
+
+
+                            foreach (var fcol in splitcols)
+                            {
+                                if (fcol == "InstanceId")
+                                {
+                                    colValues += "'" + instanceId + "',";
+
+                                    continue;
+
+                                }
+
+                                else if (fcol == "ProcessActivityMapId")
+                                {
+                                    colValues += "'" + processActivityMapId + "',";
+                                    continue;
+                                }
+
+                                else if (fcol == "FormId")
+                                {
+                                    colValues += "'" + formId + "',";
+                                    continue;
+                                }
+
+                                bool isFound = false;
+
+                                foreach(var childObject in (JArray)parentObject["Child"])
+                                {
+
+                                    if (childObject["ElementName"].ToString() == fcol)
+                                    {
+                                        isFound = true;
+
+                                         if (childObject["Value"] == null)
+                                        {
+                                          
+                                            colValues += "null,";
+                                            UpdatecolValues += fcol + "=" + "null,";
+                                            break;
+                                        }
+
+                                        switch (Convert.ToInt32(childObject["EDT"]))
+                                        {
+                                            case 8:
+                                            case 9:
+                                                colValues += "'" + childObject["Value"].ToString() + "',";
+                                                UpdatecolValues+=fcol+"="+"'" + childObject["Value"].ToString() + "',";
+                                                break;
+
+                                            default:
+                                                if (childObject["Value"] != null)
+                                                {
+                                                    colValues += childObject["Value"].ToString() + ",";
+                                                    UpdatecolValues += fcol + "=" + childObject["Value"].ToString() + ",";
+                                                }
+                                                else
+                                                {
+                                                    colValues += "null,";
+                                                    UpdatecolValues += fcol + "=" + "null,";
+                                                }
+                                                 break;
+                                        }
+
+                                       
+                                    }
+                                }
+
+                                 if(!isFound)
+                                {
+                                    colValues += "null,";
+                                    UpdatecolValues += fcol + "=" + "null,";
+                                }
+
+                            }
+                            colValues = colValues.Remove(colValues.Length - 1);
+                            UpdatecolValues = UpdatecolValues.Remove(colValues.Length - 1);
+
+                            fInsertQuery =  string.Format(fInsertQuery,instanceId,processActivityMapId,formId, colValues,UpdatecolValues);
+
+                            colValues = string.Empty;
+
+                            break;
+                        }
+                
+                       
+                      case "DA3904EF-0E60-44D0-943E-2E97494B15C8":
+                    {
+                     
+                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [DA3904EF-0E60-44D0-943E-2E97494B15C8] WHERE InstanceId='{0}' AND
+							ProcessActivityMapId='{1}' AND FormId='{2}') BEGIN INSERT INTO [DA3904EF-0E60-44D0-943E-2E97494B15C8](ProcessActivityMapId,FormId,ExecutionMessage,ExecutionStatus,Subject,SetDestinationTo,MF_ProjectDetailsId,SLATime,MF_ProjectNo,MF_UserName,InstanceId)
+							VALUES( {3}) END ELSE BEGIN UPDATE [DA3904EF-0E60-44D0-943E-2E97494B15C8]SET {4}WHERE InstanceId='{0}'AND ProcessActivityMapId='{1}'AND FormId='{2}'END ";
+
+                                     colList=@"ProcessActivityMapId,FormId,ExecutionMessage,ExecutionStatus,Subject,SetDestinationTo,MF_ProjectDetailsId,SLATime,MF_ProjectNo,MF_UserName,InstanceId";
                                     
                      
                             splitcols = colList.Split(',');
