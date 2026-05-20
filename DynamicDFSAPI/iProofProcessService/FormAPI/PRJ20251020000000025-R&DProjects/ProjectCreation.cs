@@ -4097,14 +4097,6 @@ ISpace[""UI_Tab""].Visible=""false"";
 {
 ISpace[""UI_SecondRow""].Visible=""false"";
 }");
-if(ISpace["FormVersionId"].Value=="EB102E80-C3DC-4EB9-8511-B1018E342530")
-{
-ISpace["UI_Row"].Visible="false";
-}
-base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""EB102E80-C3DC-4EB9-8511-B1018E342530"")
-{
-ISpace[""UI_Row""].Visible=""false"";
-}");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
