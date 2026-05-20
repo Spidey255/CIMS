@@ -4088,17 +4088,11 @@ if(ISpace["FormVersionId"].Value=="EB102E80-C3DC-4EB9-8511-B1018E342530")
 ISpace["UI_Tab"].Visible="false";
 }if(ISpace["FormVersionId"].Value=="EB102E80-C3DC-4EB9-8511-B1018E342530")
 {
-ISpace["UI_FirstRow"].Visible="true";
-}if(ISpace["FormVersionId"].Value=="EB102E80-C3DC-4EB9-8511-B1018E342530")
-{
 ISpace["UI_SecondRow"].Visible="false";
 }
 base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""EB102E80-C3DC-4EB9-8511-B1018E342530"")
 {
 ISpace[""UI_Tab""].Visible=""false"";
-}if(ISpace[""FormVersionId""].Value==""EB102E80-C3DC-4EB9-8511-B1018E342530"")
-{
-ISpace[""UI_FirstRow""].Visible=""true"";
 }if(ISpace[""FormVersionId""].Value==""EB102E80-C3DC-4EB9-8511-B1018E342530"")
 {
 ISpace[""UI_SecondRow""].Visible=""false"";
@@ -4952,17 +4946,11 @@ if(ISpace["FormVersionId"].Value=="EB102E80-C3DC-4EB9-8511-B1018E342530")
 ISpace["UI_Tab"].Visible="false";
 }if(ISpace["FormVersionId"].Value=="EB102E80-C3DC-4EB9-8511-B1018E342530")
 {
-ISpace["UI_FirstRow"].Visible="true";
-}if(ISpace["FormVersionId"].Value=="EB102E80-C3DC-4EB9-8511-B1018E342530")
-{
 ISpace["UI_SecondRow"].Visible="false";
 }
 base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""EB102E80-C3DC-4EB9-8511-B1018E342530"")
 {
 ISpace[""UI_Tab""].Visible=""false"";
-}if(ISpace[""FormVersionId""].Value==""EB102E80-C3DC-4EB9-8511-B1018E342530"")
-{
-ISpace[""UI_FirstRow""].Visible=""true"";
 }if(ISpace[""FormVersionId""].Value==""EB102E80-C3DC-4EB9-8511-B1018E342530"")
 {
 ISpace[""UI_SecondRow""].Visible=""false"";
@@ -5249,14 +5237,7 @@ ISpace[""UI_Tab""].Visible=""true"";
 {
 ISpace[""UI_SecondRow""].Visible=""true"";
 }");
-if(ISpace["FormVersionId"].Value=="EB102E80-C3DC-4EB9-8511-B1018E342530")
-{
-ISpace["UI_FirstRow"].Visible="false";
-}
-base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""EB102E80-C3DC-4EB9-8511-B1018E342530"")
-{
-ISpace[""UI_FirstRow""].Visible=""false"";
-}");
+
 if(ISpace["FormVersionId"].Value=="EB102E80-C3DC-4EB9-8511-B1018E342530")
 {
 ISpace["UI_DuplicatePanel"].Visible="true";
@@ -5397,14 +5378,7 @@ else{
 
 }
 }
-if(ISpace["FormVersionId"].Value=="EB102E80-C3DC-4EB9-8511-B1018E342530")
-{
-ISpace["UI_FirstRow"].Visible="false";
-}
-base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""EB102E80-C3DC-4EB9-8511-B1018E342530"")
-{
-ISpace[""UI_FirstRow""].Visible=""false"";
-}");
+
 base.WriteDebugInfo(@"EXEC [GetDateDifferenceInYears] 9,'','','','#ID1'");
 
 var querySourceB8862B256DA54AA6BA4AFA4D3BF7D939 =GetQueryExpressionDataSource("B8862B25-6DA5-4AA6-BA4A-FA4D3BF7D939");
@@ -6760,8 +6734,6 @@ try
 base.WriteDebugInfo(@"BSave-OnClick");
 ISpace["Message"].Value=@"Saved Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Saved Successfully"";");
-ISpace.ExecuteInstanceCommand("Save");
-base.WriteDebugInfo(@"ISpace.ExecuteInstanceCommand(""Save"");");
 base.WriteDebugInfo(@"exec UpdateProposalIsSubmit '#ProjectProposal'");
 
 var querySource7AD869272FFA4555BA40DAA289C8646D =GetQueryExpressionDataSource("7AD86927-2FFA-4555-BA40-DAA289C8646D");
