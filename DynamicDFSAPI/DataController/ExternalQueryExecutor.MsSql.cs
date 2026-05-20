@@ -1234,107 +1234,6 @@ namespace CPS.Proof.DFSExtension
                         }
                 
                        
-                      case "A83D8B17-78DB-4B11-86C7-91E3F9A7C20E":
-                    {
-                     
-                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [A83D8B17-78DB-4B11-86C7-91E3F9A7C20E] WHERE InstanceId='{0}' AND
-							ProcessActivityMapId='{1}' AND FormId='{2}') BEGIN INSERT INTO [A83D8B17-78DB-4B11-86C7-91E3F9A7C20E](ProcessActivityMapId,FormId,IntAmount,ManpowerTotalCost,BudgetID,ProjectBudget1,ReleaseAmount,DocumentCount,NonRecurringAmount,ProjectDetailsID,JourneyID,IsSubmit,ActiveEdit,EquipmentTotalCost,ManPowerAmount,CountCopi,RecurringAmount,ExtCount,ManPowerRequired,FundReceiptISActive,IfExternalIns,IFEquipment,Duration,ProjectKey,BudgetName,EmployeeName,EmpDepartment,Comments,TProjectName,FundReceiptCode,PackageprocessmapID,DuplicateBudget,TempInstanceID,DummyProject,DuplicateCheck,ReleaseDescription,BudgetDescription,DMValidation,ProcessID,REdit1,Department,Department1,SanctionNumber,setflowdummyremarks,Description1,SchemeDuplicate,AAName,DCode,ProjectRefNo,BudgetDuplicate1,TypeofprojectKey,FinancialYear1,FName,RedirectUrl,DepartmentType1,ProjectStatus,PrincipleInvestigator,DName,EmpEmployeeBasicId,EmpDeptCode,ExternalCount,Monthyear1,SetDestinationTo,ExecutionMessage,EmpDesignationID,Duration1,NextStage,InstanceId,FCode,Designation,DocumentComments,CategoryDuplicate,ProjectCode,AEmployeeID,ACode,FundDupCheck,EmpCode,PrincipleInvestigator1,FundReceiptName,JourneyDescription,InternalCount,ADepartment,ID1,FundingAcencyName1,ProjectName1,Subject,RootCopi,ProjectName,ProjectCategory1,AgencyDuplicate,Description,BudgetDuplicate,ActivityMapid,ExecutionStatus,Overheads,Aid,BudgetDomainCount,EquipmentAmount,Did,FundReceiptID,EndorsementAmount,BudgetCount,OverallBudgetTotal,EquipmentGridCount,IntExpense,Logid,Fid,SLATime,IsSubmitted,projectbudgets,ManpowerGridCount,ProjectBudget,DocumentName,MonthYear,Currency,Sector,SanctionedRelease,ProjectCategory,FinancialYear,TypeOfProject,SchemeType,FundingAcencyName,ProjectProposal,MoveTo,FundReceiptMode,StartDate1,SanctionDate,EndDate1,StartDate,ReleaseDate,EndDate,Upload,ImageUpload)
-							VALUES( {3}) END ELSE BEGIN UPDATE [A83D8B17-78DB-4B11-86C7-91E3F9A7C20E]SET {4}WHERE InstanceId='{0}'AND ProcessActivityMapId='{1}'AND FormId='{2}'END ";
-
-                                     colList=@"ProcessActivityMapId,FormId,IntAmount,ManpowerTotalCost,BudgetID,ProjectBudget1,ReleaseAmount,DocumentCount,NonRecurringAmount,ProjectDetailsID,JourneyID,IsSubmit,ActiveEdit,EquipmentTotalCost,ManPowerAmount,CountCopi,RecurringAmount,ExtCount,ManPowerRequired,FundReceiptISActive,IfExternalIns,IFEquipment,Duration,ProjectKey,BudgetName,EmployeeName,EmpDepartment,Comments,TProjectName,FundReceiptCode,PackageprocessmapID,DuplicateBudget,TempInstanceID,DummyProject,DuplicateCheck,ReleaseDescription,BudgetDescription,DMValidation,ProcessID,REdit1,Department,Department1,SanctionNumber,setflowdummyremarks,Description1,SchemeDuplicate,AAName,DCode,ProjectRefNo,BudgetDuplicate1,TypeofprojectKey,FinancialYear1,FName,RedirectUrl,DepartmentType1,ProjectStatus,PrincipleInvestigator,DName,EmpEmployeeBasicId,EmpDeptCode,ExternalCount,Monthyear1,SetDestinationTo,ExecutionMessage,EmpDesignationID,Duration1,NextStage,InstanceId,FCode,Designation,DocumentComments,CategoryDuplicate,ProjectCode,AEmployeeID,ACode,FundDupCheck,EmpCode,PrincipleInvestigator1,FundReceiptName,JourneyDescription,InternalCount,ADepartment,ID1,FundingAcencyName1,ProjectName1,Subject,RootCopi,ProjectName,ProjectCategory1,AgencyDuplicate,Description,BudgetDuplicate,ActivityMapid,ExecutionStatus,Overheads,Aid,BudgetDomainCount,EquipmentAmount,Did,FundReceiptID,EndorsementAmount,BudgetCount,OverallBudgetTotal,EquipmentGridCount,IntExpense,Logid,Fid,SLATime,IsSubmitted,projectbudgets,ManpowerGridCount,ProjectBudget,DocumentName,MonthYear,Currency,Sector,SanctionedRelease,ProjectCategory,FinancialYear,TypeOfProject,SchemeType,FundingAcencyName,ProjectProposal,MoveTo,FundReceiptMode,StartDate1,SanctionDate,EndDate1,StartDate,ReleaseDate,EndDate,Upload,ImageUpload";
-                                    
-                     
-                            splitcols = colList.Split(',');
-
-                            if (splitcols.Length <= 0)
-                                return null;
-
-                            var parentObject = JObject.Parse(formJsonData);
-
-
-                            foreach (var fcol in splitcols)
-                            {
-                                if (fcol == "InstanceId")
-                                {
-                                    colValues += "'" + instanceId + "',";
-
-                                    continue;
-
-                                }
-
-                                else if (fcol == "ProcessActivityMapId")
-                                {
-                                    colValues += "'" + processActivityMapId + "',";
-                                    continue;
-                                }
-
-                                else if (fcol == "FormId")
-                                {
-                                    colValues += "'" + formId + "',";
-                                    continue;
-                                }
-
-                                bool isFound = false;
-
-                                foreach(var childObject in (JArray)parentObject["Child"])
-                                {
-
-                                    if (childObject["ElementName"].ToString() == fcol)
-                                    {
-                                        isFound = true;
-
-                                         if (childObject["Value"] == null)
-                                        {
-                                          
-                                            colValues += "null,";
-                                            UpdatecolValues += fcol + "=" + "null,";
-                                            break;
-                                        }
-
-                                        switch (Convert.ToInt32(childObject["EDT"]))
-                                        {
-                                            case 8:
-                                            case 9:
-                                                colValues += "'" + childObject["Value"].ToString() + "',";
-                                                UpdatecolValues+=fcol+"="+"'" + childObject["Value"].ToString() + "',";
-                                                break;
-
-                                            default:
-                                                if (childObject["Value"] != null)
-                                                {
-                                                    colValues += childObject["Value"].ToString() + ",";
-                                                    UpdatecolValues += fcol + "=" + childObject["Value"].ToString() + ",";
-                                                }
-                                                else
-                                                {
-                                                    colValues += "null,";
-                                                    UpdatecolValues += fcol + "=" + "null,";
-                                                }
-                                                 break;
-                                        }
-
-                                       
-                                    }
-                                }
-
-                                 if(!isFound)
-                                {
-                                    colValues += "null,";
-                                    UpdatecolValues += fcol + "=" + "null,";
-                                }
-
-                            }
-                            colValues = colValues.Remove(colValues.Length - 1);
-                            UpdatecolValues = UpdatecolValues.Remove(colValues.Length - 1);
-
-                            fInsertQuery =  string.Format(fInsertQuery,instanceId,processActivityMapId,formId, colValues,UpdatecolValues);
-
-                            colValues = string.Empty;
-
-                            break;
-                        }
-                
-                       
                       case "781F63B4-048D-4578-AF08-83C4E8FC0483":
                     {
                      
@@ -1444,6 +1343,107 @@ namespace CPS.Proof.DFSExtension
 							VALUES( {3}) END ELSE BEGIN UPDATE [22A823DE-0760-4F0D-A347-1C1315A2967E]SET {4}WHERE InstanceId='{0}'AND ProcessActivityMapId='{1}'AND FormId='{2}'END ";
 
                                      colList=@"ProcessActivityMapId,FormId,growid,C_FC_AgencyCode_33,M_InstanceId,M_PackageProcessMapId,M_Remarks,UC_Department,IN_InstanceName,UC_DOR,M_ActualTransactionNo,UC_DOJ,ExecuteCommand,UC_EmailId,FC_ProjectNo,FC_Category,M_Status,CancelRedirectUrl,UC_DOB,MF_TransactionNo,MF_InstanceId,M_DestinationActivityId,M_MoveToValue,FC_AgencyCode,FC_EndDate,MF_T1_BeneficiaryName,FC_SanctionNo,C_FC_ProjectName_33,C_FC_Category_33,MF_T1_ReferenceNo,MF_SaveBudgetName,MF_T1_Destination,UC_PhoneNumber,ExecutionStatus,M_BudgetErrMsg,MF_T1_BankName,MF_T1_BankBranch,C_FC_SanctionedValue_33,M_SourceActivityMapId,IN_SLA,AssignToRole,M_TravelPlace,UC_Designation,UC_Name,MF_E1_EmployeeBasicInfoId,M_InitiatorUserMapId,Subject,C_FC_SanctionNo_33,FC_StartDate,AssignToUser,MF_PackageProcessMapId,FC_ProjectName,UC_EmployeeId,MF_FundDetailsId,SetDestinationTo,UC_EmployeeBaicInfoId,M_NextStage,MF_T1_AccountNo,MF_T1_TravellingPerson,KeyContext,M_SourceHeader,DisplayContext,UC_Grade,M_MiscDetails,FC_SanctionedDate,MF_T1_JourneyPurpose,RedirectUrl,MF_TravelStatus,MF_T1_ProjectNo,ExecutionMessage,FC_SanctionedValue,MF_T1_TravelAdvanceID,UC_Paylevel,MF_SaveBudgetAmount,C_FC_BudgetHeadAmount,AdvanceAmount,MF_T1_AvailableBudget,T_ExpenditureTotal,IN_Category,M_IsTravelRequest,MF_Amount,M_FieldMandatory,M_IsFlowReturned,M_RemarksMandatory,MF_T1_AdvanceAmount,M_IsSourceStep,M_IsCancelReject,M_BudgetErr,T_AdvanceDrawn,SLATime,M_T1_AdvanceAmount,C_FC_ReceiptAmountinBudgetHead,T_TravelAdvanceTotal,M_SaveDomainData,IN_Priority,IN_Status,MF_CountDoc,M_OverAll_Total,MF_GrdFundCount,M_IsCommitment,M_RequestId,OverAll_Total,M_SumOfFund,MF_T1_TravelType,C_FC_ProjectNo_33,R_ReferenceNo,MF_BudgetHead,A,MF_T1_BudgetHead,M_MoveTo,MF_FundType,MF_ProjectNo,Travel_Type,C_FC_SanctionedDate_33,M_RandDTransactionDate,C_FC_StartDate_33,M_ActualTransactionDate,MF_TransactionDate,C_FC_EndDate_33,MF_T1_BankDocument,Thumbnail,M_TravelInstanceId,M_RandDTransactionNo,M_ActivityName,InstanceId";
+                                    
+                     
+                            splitcols = colList.Split(',');
+
+                            if (splitcols.Length <= 0)
+                                return null;
+
+                            var parentObject = JObject.Parse(formJsonData);
+
+
+                            foreach (var fcol in splitcols)
+                            {
+                                if (fcol == "InstanceId")
+                                {
+                                    colValues += "'" + instanceId + "',";
+
+                                    continue;
+
+                                }
+
+                                else if (fcol == "ProcessActivityMapId")
+                                {
+                                    colValues += "'" + processActivityMapId + "',";
+                                    continue;
+                                }
+
+                                else if (fcol == "FormId")
+                                {
+                                    colValues += "'" + formId + "',";
+                                    continue;
+                                }
+
+                                bool isFound = false;
+
+                                foreach(var childObject in (JArray)parentObject["Child"])
+                                {
+
+                                    if (childObject["ElementName"].ToString() == fcol)
+                                    {
+                                        isFound = true;
+
+                                         if (childObject["Value"] == null)
+                                        {
+                                          
+                                            colValues += "null,";
+                                            UpdatecolValues += fcol + "=" + "null,";
+                                            break;
+                                        }
+
+                                        switch (Convert.ToInt32(childObject["EDT"]))
+                                        {
+                                            case 8:
+                                            case 9:
+                                                colValues += "'" + childObject["Value"].ToString() + "',";
+                                                UpdatecolValues+=fcol+"="+"'" + childObject["Value"].ToString() + "',";
+                                                break;
+
+                                            default:
+                                                if (childObject["Value"] != null)
+                                                {
+                                                    colValues += childObject["Value"].ToString() + ",";
+                                                    UpdatecolValues += fcol + "=" + childObject["Value"].ToString() + ",";
+                                                }
+                                                else
+                                                {
+                                                    colValues += "null,";
+                                                    UpdatecolValues += fcol + "=" + "null,";
+                                                }
+                                                 break;
+                                        }
+
+                                       
+                                    }
+                                }
+
+                                 if(!isFound)
+                                {
+                                    colValues += "null,";
+                                    UpdatecolValues += fcol + "=" + "null,";
+                                }
+
+                            }
+                            colValues = colValues.Remove(colValues.Length - 1);
+                            UpdatecolValues = UpdatecolValues.Remove(colValues.Length - 1);
+
+                            fInsertQuery =  string.Format(fInsertQuery,instanceId,processActivityMapId,formId, colValues,UpdatecolValues);
+
+                            colValues = string.Empty;
+
+                            break;
+                        }
+                
+                       
+                      case "A83D8B17-78DB-4B11-86C7-91E3F9A7C20E":
+                    {
+                     
+                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [A83D8B17-78DB-4B11-86C7-91E3F9A7C20E] WHERE InstanceId='{0}' AND
+							ProcessActivityMapId='{1}' AND FormId='{2}') BEGIN INSERT INTO [A83D8B17-78DB-4B11-86C7-91E3F9A7C20E](ProcessActivityMapId,FormId,IntAmount,ManpowerTotalCost,BudgetID,ProjectBudget1,ReleaseAmount,DocumentCount,NonRecurringAmount,ProjectDetailsID,JourneyID,IsSubmit,ActiveEdit,EquipmentTotalCost,ManPowerAmount,CountCopi,RecurringAmount,ExtCount,ManPowerRequired,FundReceiptISActive,IfExternalIns,IFEquipment,Duration,ProjectKey,BudgetName,EmployeeName,EmpDepartment,Comments,TProjectName,FundReceiptCode,PackageprocessmapID,DuplicateBudget,TempInstanceID,DummyProject,DuplicateCheck,ReleaseDescription,BudgetDescription,DMValidation,ProcessID,REdit1,Department,Department1,SanctionNumber,setflowdummyremarks,Description1,SchemeDuplicate,AAName,DCode,ProjectRefNo,BudgetDuplicate1,TypeofprojectKey,FinancialYear1,FName,RedirectUrl,DepartmentType1,ProjectStatus,PrincipleInvestigator,DName,EmpEmployeeBasicId,EmpDeptCode,ExternalCount,Monthyear1,SetDestinationTo,ExecutionMessage,EmpDesignationID,Duration1,NextStage,InstanceId,FCode,Designation,DocumentComments,CategoryDuplicate,ProjectCode,AEmployeeID,ACode,FundDupCheck,EmpCode,PrincipleInvestigator1,FundReceiptName,JourneyDescription,InternalCount,ADepartment,ID1,FundingAcencyName1,ProjectName1,Subject,RootCopi,ProjectName,ProjectCategory1,AgencyDuplicate,Description,BudgetDuplicate,ActivityMapid,ExecutionStatus,Overheads,Aid,BudgetDomainCount,EquipmentAmount,Did,FundReceiptID,EndorsementAmount,BudgetCount,OverallBudgetTotal,EquipmentGridCount,IntExpense,Logid,Fid,SLATime,IsSubmitted,projectbudgets,ManpowerGridCount,ProjectBudget,DocumentName,MonthYear,Currency,Sector,SanctionedRelease,ProjectCategory,FinancialYear,TypeOfProject,SchemeType,FundingAcencyName,ProjectProposal,MoveTo,FundReceiptMode,StartDate1,SanctionDate,EndDate1,StartDate,ReleaseDate,EndDate,Upload,ImageUpload)
+							VALUES( {3}) END ELSE BEGIN UPDATE [A83D8B17-78DB-4B11-86C7-91E3F9A7C20E]SET {4}WHERE InstanceId='{0}'AND ProcessActivityMapId='{1}'AND FormId='{2}'END ";
+
+                                     colList=@"ProcessActivityMapId,FormId,IntAmount,ManpowerTotalCost,BudgetID,ProjectBudget1,ReleaseAmount,DocumentCount,NonRecurringAmount,ProjectDetailsID,JourneyID,IsSubmit,ActiveEdit,EquipmentTotalCost,ManPowerAmount,CountCopi,RecurringAmount,ExtCount,ManPowerRequired,FundReceiptISActive,IfExternalIns,IFEquipment,Duration,ProjectKey,BudgetName,EmployeeName,EmpDepartment,Comments,TProjectName,FundReceiptCode,PackageprocessmapID,DuplicateBudget,TempInstanceID,DummyProject,DuplicateCheck,ReleaseDescription,BudgetDescription,DMValidation,ProcessID,REdit1,Department,Department1,SanctionNumber,setflowdummyremarks,Description1,SchemeDuplicate,AAName,DCode,ProjectRefNo,BudgetDuplicate1,TypeofprojectKey,FinancialYear1,FName,RedirectUrl,DepartmentType1,ProjectStatus,PrincipleInvestigator,DName,EmpEmployeeBasicId,EmpDeptCode,ExternalCount,Monthyear1,SetDestinationTo,ExecutionMessage,EmpDesignationID,Duration1,NextStage,InstanceId,FCode,Designation,DocumentComments,CategoryDuplicate,ProjectCode,AEmployeeID,ACode,FundDupCheck,EmpCode,PrincipleInvestigator1,FundReceiptName,JourneyDescription,InternalCount,ADepartment,ID1,FundingAcencyName1,ProjectName1,Subject,RootCopi,ProjectName,ProjectCategory1,AgencyDuplicate,Description,BudgetDuplicate,ActivityMapid,ExecutionStatus,Overheads,Aid,BudgetDomainCount,EquipmentAmount,Did,FundReceiptID,EndorsementAmount,BudgetCount,OverallBudgetTotal,EquipmentGridCount,IntExpense,Logid,Fid,SLATime,IsSubmitted,projectbudgets,ManpowerGridCount,ProjectBudget,DocumentName,MonthYear,Currency,Sector,SanctionedRelease,ProjectCategory,FinancialYear,TypeOfProject,SchemeType,FundingAcencyName,ProjectProposal,MoveTo,FundReceiptMode,StartDate1,SanctionDate,EndDate1,StartDate,ReleaseDate,EndDate,Upload,ImageUpload";
                                     
                      
                             splitcols = colList.Split(',');
