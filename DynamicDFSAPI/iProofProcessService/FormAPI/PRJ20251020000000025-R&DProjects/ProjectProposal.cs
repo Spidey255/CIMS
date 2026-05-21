@@ -1323,6 +1323,18 @@ private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData>
 try
 {
 base.WriteDebugInfo(@"Root-OnAfterFormLoad");
+ISpace["M_DepartmentId"].Visible="false";ISpace["MF_d1_Currency"].Visible="false";ISpace["M_DesignationId"].Visible="false";ISpace["MF_d1_EmployeeBasicInfoId"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""M_DepartmentId""].Visible=""false"";ISpace[""MF_d1_Currency""].Visible=""false"";ISpace[""M_DesignationId""].Visible=""false"";ISpace[""MF_d1_EmployeeBasicInfoId""].Visible=""false"";");
+ISpace["MFG_d2_DesignationID"].Visible="false";ISpace["MFG_d2_ExternalInstituteName"].Visible="false";ISpace["MFG_d2_ExternalEmailId"].Visible="false";ISpace["MFG_d2_ExternalContactNo"].Visible="false";ISpace["MFG_d2_ExternalDesignation"].Visible="false";ISpace["MFG_d2_ExternalFacultyName"].Visible="false";ISpace["MFG_d2_AdditionalName"].Visible="false";ISpace["MFG_d2_Departmentid"].Visible="false";ISpace["MFG_d2_AdditionalType"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MFG_d2_DesignationID""].Visible=""false"";ISpace[""MFG_d2_ExternalInstituteName""].Visible=""false"";ISpace[""MFG_d2_ExternalEmailId""].Visible=""false"";ISpace[""MFG_d2_ExternalContactNo""].Visible=""false"";ISpace[""MFG_d2_ExternalDesignation""].Visible=""false"";ISpace[""MFG_d2_ExternalFacultyName""].Visible=""false"";ISpace[""MFG_d2_AdditionalName""].Visible=""false"";ISpace[""MFG_d2_Departmentid""].Visible=""false"";ISpace[""MFG_d2_AdditionalType""].Visible=""false"";");
+if(ISpace["FormVersionId"].Value=="FA963D46-2D52-4A3E-8550-E878A2504252")
+{
+ISpace["UI_InvisibleRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""FA963D46-2D52-4A3E-8550-E878A2504252"")
+{
+ISpace[""UI_InvisibleRow""].Visible=""false"";
+}");
 base.WriteDebugInfo(@"EXEC GetEmployeeATOMDetails '@@gv_UserId'");
 
 var querySource8a3f1b647176b37d7999a8c604f44456 =GetQueryExpressionDataSource("8a3f1b64-7176-b37d-7999-a8c604f44456");
@@ -1353,18 +1365,6 @@ ISpace["MF_d1_EmployeeBasicInfoId"].Value = result8a3f1b647176b37d7999a8c604f444
 else{
 ISpace["M_DeptCode"].Value = null;ISpace["M_DepartmentId"].Value = null;ISpace["MF_d1_DepartmentID"].Value = null;ISpace["MF_d1_Designation"].Value = null;ISpace["M_EMPCode"].Value = null;ISpace["MF_d1_PrincipalInvestigator"].Value = null;ISpace["M_DesignationId"].Value = null;ISpace["MF_d1_EmployeeBasicInfoId"].Value = null;
 }
-ISpace["M_DepartmentId"].Visible="false";ISpace["MF_d1_Currency"].Visible="false";ISpace["M_DesignationId"].Visible="false";ISpace["MF_d1_EmployeeBasicInfoId"].Visible="false";
-base.WriteDebugInfo(@"ISpace[""M_DepartmentId""].Visible=""false"";ISpace[""MF_d1_Currency""].Visible=""false"";ISpace[""M_DesignationId""].Visible=""false"";ISpace[""MF_d1_EmployeeBasicInfoId""].Visible=""false"";");
-ISpace["MFG_d2_DesignationID"].Visible="false";ISpace["MFG_d2_ExternalInstituteName"].Visible="false";ISpace["MFG_d2_ExternalEmailId"].Visible="false";ISpace["MFG_d2_ExternalContactNo"].Visible="false";ISpace["MFG_d2_ExternalDesignation"].Visible="false";ISpace["MFG_d2_ExternalFacultyName"].Visible="false";ISpace["MFG_d2_AdditionalName"].Visible="false";ISpace["MFG_d2_Departmentid"].Visible="false";ISpace["MFG_d2_AdditionalType"].Visible="false";
-base.WriteDebugInfo(@"ISpace[""MFG_d2_DesignationID""].Visible=""false"";ISpace[""MFG_d2_ExternalInstituteName""].Visible=""false"";ISpace[""MFG_d2_ExternalEmailId""].Visible=""false"";ISpace[""MFG_d2_ExternalContactNo""].Visible=""false"";ISpace[""MFG_d2_ExternalDesignation""].Visible=""false"";ISpace[""MFG_d2_ExternalFacultyName""].Visible=""false"";ISpace[""MFG_d2_AdditionalName""].Visible=""false"";ISpace[""MFG_d2_Departmentid""].Visible=""false"";ISpace[""MFG_d2_AdditionalType""].Visible=""false"";");
-if(ISpace["FormVersionId"].Value=="FA963D46-2D52-4A3E-8550-E878A2504252")
-{
-ISpace["UI_InvisibleRow"].Visible="false";
-}
-base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""FA963D46-2D52-4A3E-8550-E878A2504252"")
-{
-ISpace[""UI_InvisibleRow""].Visible=""false"";
-}");
 base.WriteDebugInfo(@"EXEC GenerateProjectCode '#M_EMPCode','#M_DeptCode'");
 
 var querySource88cbc3574873bf55f158e572a8e16a59 =GetQueryExpressionDataSource("88cbc357-4873-bf55-f158-e572a8e16a59");
