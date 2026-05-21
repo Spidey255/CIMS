@@ -148,6 +148,10 @@ namespace CPS.Proof.DFSExtension
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
 						
+			     new Triplet<string, string, string>("88cbc357-4873-bf55-f158-e572a8e16a59","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
 			     new Triplet<string, string, string>("8a3f1b64-7176-b37d-7999-a8c604f44456","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"028B1EFF-34A8-4D44-BF39-06CE99DF7C67"),
 			
@@ -1329,12 +1333,16 @@ base.WriteDebugInfo(@"");
 
 if((result8a3f1b647176b37d7999a8c604f44456!=null) && (result8a3f1b647176b37d7999a8c604f44456.Count!=0))
 {
+if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(20))
+ISpace["M_DeptCode"].Value = result8a3f1b647176b37d7999a8c604f44456[20];
 if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(4))
 ISpace["M_DepartmentId"].Value = result8a3f1b647176b37d7999a8c604f44456[4];
 if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(3))
 ISpace["MF_d1_DepartmentID"].Value = result8a3f1b647176b37d7999a8c604f44456[3];
 if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(2))
 ISpace["MF_d1_Designation"].Value = result8a3f1b647176b37d7999a8c604f44456[2];
+if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(0))
+ISpace["M_EMPCode"].Value = result8a3f1b647176b37d7999a8c604f44456[0];
 if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(19))
 ISpace["MF_d1_PrincipalInvestigator"].Value = result8a3f1b647176b37d7999a8c604f44456[19];
 if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(21))
@@ -1343,7 +1351,7 @@ if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(8))
 ISpace["MF_d1_EmployeeBasicInfoId"].Value = result8a3f1b647176b37d7999a8c604f44456[8];
 }
 else{
-ISpace["M_DepartmentId"].Value = null;ISpace["MF_d1_DepartmentID"].Value = null;ISpace["MF_d1_Designation"].Value = null;ISpace["MF_d1_PrincipalInvestigator"].Value = null;ISpace["M_DesignationId"].Value = null;ISpace["MF_d1_EmployeeBasicInfoId"].Value = null;
+ISpace["M_DeptCode"].Value = null;ISpace["M_DepartmentId"].Value = null;ISpace["MF_d1_DepartmentID"].Value = null;ISpace["MF_d1_Designation"].Value = null;ISpace["M_EMPCode"].Value = null;ISpace["MF_d1_PrincipalInvestigator"].Value = null;ISpace["M_DesignationId"].Value = null;ISpace["MF_d1_EmployeeBasicInfoId"].Value = null;
 }
 ISpace["M_DepartmentId"].Visible="false";ISpace["MF_d1_Currency"].Visible="false";ISpace["M_DesignationId"].Visible="false";ISpace["MF_d1_EmployeeBasicInfoId"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""M_DepartmentId""].Visible=""false"";ISpace[""MF_d1_Currency""].Visible=""false"";ISpace[""M_DesignationId""].Visible=""false"";ISpace[""MF_d1_EmployeeBasicInfoId""].Visible=""false"";");
@@ -1357,6 +1365,22 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""FA963D46-2D52-4A3E-8
 {
 ISpace[""UI_InvisibleRow""].Visible=""false"";
 }");
+base.WriteDebugInfo(@"EXEC GenerateProjectCode '#M_EMPCode','#M_DeptCode'");
+
+var querySource88cbc3574873bf55f158e572a8e16a59 =GetQueryExpressionDataSource("88cbc357-4873-bf55-f158-e572a8e16a59");
+Dictionary<short,object> result88cbc3574873bf55f158e572a8e16a59=iSpace.ExecuteQuery(querySource88cbc3574873bf55f158e572a8e16a59,@"EXEC GenerateProjectCode '" + ISpace["M_EMPCode"].Value + @"','" + ISpace["M_DeptCode"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource88cbc3574873bf55f158e572a8e16a59 =GetQueryExpressionDataSource(""88cbc357-4873-bf55-f158-e572a8e16a59"");Dictionary<short,object> result88cbc3574873bf55f158e572a8e16a59=iSpace.ExecuteQuery(querySource88cbc3574873bf55f158e572a8e16a59,@""EXEC GenerateProjectCode '"" + ISpace[""M_EMPCode""].Value + @""','"" + ISpace[""M_DeptCode""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result88cbc3574873bf55f158e572a8e16a59!=null) && (result88cbc3574873bf55f158e572a8e16a59.Count!=0))
+{
+if(result88cbc3574873bf55f158e572a8e16a59.ContainsKey(0))
+ISpace["MF_d1_ProjectRefNo"].Value = result88cbc3574873bf55f158e572a8e16a59[0];
+}
+else{
+ISpace["MF_d1_ProjectRefNo"].Value = null;
+}
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
