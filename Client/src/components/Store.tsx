@@ -91,7 +91,7 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
 
     try {
       // -------------------------------
-      // 1️⃣ LOAD GRID INSTANCE DATA FIRST
+      // 1?? LOAD GRID INSTANCE DATA FIRST
       // -------------------------------
       const gridData = data.filter((f) => f.ControlId === 11);
 
@@ -130,7 +130,7 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
 
 
       // -------------------------------
-      // 2️⃣ FORM ON LOAD API CALL
+      // 2?? FORM ON LOAD API CALL
       // -------------------------------
       const formLoadDataApi = data.filter((f) => f["Action"]?.toLowerCase() === "formonload");
       if (!formLoadDataApi.length) return;
@@ -167,7 +167,7 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
       );
 
       // -------------------------------
-      // 3️⃣ INITIALIZE GLOBAL STATE FIELDS
+      // 3?? INITIALIZE GLOBAL STATE FIELDS
       // -------------------------------
       const inputs: Record<string, IGlobalStateValues> = data
         .filter((f) => config.DataControlIds.includes(f.ControlId))
@@ -182,14 +182,18 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
               value: existData ? existData.Value : String(curr["CurrValue"] || ""),
               type: curr.ControlType,
               required: curr?.ElementControlProperty?.some((s) => accessMandatory(s)),
-              isVisible: (existData?.Visible ?? "true") !== "false",
+              // isVisible: (existData?.Visible ?? "true") !== "false",
+              isVisible:
+                existData?.Visible == null
+                  ? true
+                  : existData.Visible !== "false",
               EDT: existData?.EDT ?? curr["EDT"] ?? "",
             },
           };
         }, {});
 
       // -------------------------------
-      // 4️⃣ INITIALIZE UI CONTROLS STATE
+      // 4?? INITIALIZE UI CONTROLS STATE
       // -------------------------------
       const uiControls: Record<string, ServiceElementData> = data
         .filter((f) => !config.DataControlIds.includes(f.ControlId))
@@ -202,7 +206,12 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
           return {
             ...acc,
             [curr.ElementName]: {
-              Visible: visibility === "true" || visibility === true,
+              // Visible: visibility === "true" || visibility === true,
+              Visible:
+                visibility == null
+                  ? true
+                  : visibility === "true" ||
+                  visibility === true,
               ElementName: curr.ElementName,
               ElementId: curr.ElementId,
               EDT: existData?.EDT ?? curr["EDT"] ?? "",
@@ -214,7 +223,7 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
         }, {});
 
       // -------------------------------
-      // 5️⃣ GRID HEADER BUILDING
+      // 5?? GRID HEADER BUILDING
       // -------------------------------
       const gridColumns = data.filter((f) => f.ElementName === "UI_GridColumns");
 
@@ -231,7 +240,7 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
       setGridHeader(gridColumnsValue);
 
       // -------------------------------
-      // 6️⃣ GRID DYNAMIC MAPPER + CHILD ROW DATA
+      // 6?? GRID DYNAMIC MAPPER + CHILD ROW DATA
       // -------------------------------
       const gridElementMapper: Record<string, { uiElementId: string; elementName: string }> = {};
 
@@ -242,7 +251,7 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
 
         setGridInfo(m["UIElementid"], m);
 
-        // ✅ NEW: set footer pagination from formLoadData
+        // ? NEW: set footer pagination from formLoadData
         if (existData) {
           setPagination(m["UIElementid"], {
             currentPage: 1,
@@ -285,7 +294,7 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
 
 
       // -------------------------------
-      // 7️⃣ APPLY FINAL STATES
+      // 7?? APPLY FINAL STATES
       // -------------------------------
       setInitialState(inputs);
       setUIElementState(uiControls);
@@ -296,12 +305,23 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
     }
   }, [data, slotId, setGridHeader, setInitialState, setUIElementState, setGridElementMapper, setGridLoadingState, setPagination, setGridDynamicState]);
 
-  useEffect(() => {
-    showLoader();
-setComboReady(false);
-    handleGetFormLoadData().then(() => hideLoader());
-    // handleGetFormLoadData();
-  }, [handleGetFormLoadData]);
+  // useEffect(() => {
+  //   showLoader();
+  //   setComboReady(false);
+  //   handleGetFormLoadData().then(() => hideLoader());
+  //   // handleGetFormLoadData();
+  // }, [handleGetFormLoadData]);
+
+  const hasLoaded = React.useRef(false);
+
+useEffect(() => {
+  if (hasLoaded.current) return;
+  hasLoaded.current = true;
+
+  showLoader();
+  setComboReady(false);
+  handleGetFormLoadData().then(() => hideLoader());
+}, [handleGetFormLoadData]);
 
   return null;
 };

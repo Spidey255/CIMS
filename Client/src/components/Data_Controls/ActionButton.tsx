@@ -108,7 +108,7 @@
 //         elementIds = params.map((p) => `${rowId}+${p.ElementName}`);
 //       }
 
-//       // ✅ ADDED: Create EDT lookup map (NO impact on existing logic)
+//       // ? ADDED: Create EDT lookup map (NO impact on existing logic)
 //       const edtMap = params.reduce((acc, p) => {
 //         acc[p.ElementName] = p.EDT;
 //         return acc;
@@ -129,7 +129,7 @@
 //       Object.keys(storeState).forEach((key) => {
 //         const actualName = getActualElementName(key);
 
-//         if (!actualName) return; // ✅ Type guard
+//         if (!actualName) return; // ? Type guard
 
 //         actualNameMap[actualName] = storeState[key];
 //       });
@@ -150,12 +150,12 @@
 //         return acc;
 //       }, {} as Record<string, TValue | undefined>);
 
-//       // ✅ MODIFIED (but structure unchanged): add EDT
+//       // ? MODIFIED (but structure unchanged): add EDT
 //       const stateParams = Object.entries(fetchedStateValues).map(
 //         ([id, value]) => ({
 //           ElementName: id,
 //           Value: value,
-//           EDT: edtMap[id] ?? null, // ✅ ADDED
+//           EDT: edtMap[id] ?? null, // ? ADDED
 //         })
 //       );
 
@@ -317,9 +317,6 @@
 // export default ActionButton;
 
 
-
-
-
 import React, { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 
@@ -429,7 +426,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({
       }
 
       if (gridElementsToSave.length) {
-        const savedInstanceId = await  saveGrid({ elements: gridElementsToSave, formInstanceId });
+        const savedInstanceId = await saveGrid({ elements: gridElementsToSave, formInstanceId });
         console.log("Grids saved successfully � IDs:", savedInstanceId);
       }
 
@@ -547,19 +544,19 @@ const ActionButton: React.FC<ActionButtonProps> = ({
         return;
       }
 
-      if(data.Message){
-          if(data.Message.split(":")[0].toLowerCase() === "success"){
-            toast.success(data.Message);
-          } else if(data.Message.split(":")[0].toLowerCase() === "warning"){
-            toast.error(data.Message.split(":")[1]);
-          } else if(data.Message.split(":")[0].toLowerCase() === "error"){
-            toast.error(data.Message.split(":")[1]);
-          } else {
-            toast.error(data.Message.split(":")[1]);
-          }
-          // toast.error(data.Message);
-       
+      if (data.Message) {
+        if (data.Message.split(":")[0].toLowerCase() === "success") {
+          toast.success(data.Message);
+        } else if (data.Message.split(":")[0].toLowerCase() === "warning") {
+          toast.error(data.Message.split(":")[1]);
+        } else if (data.Message.split(":")[0].toLowerCase() === "error") {
+          toast.error(data.Message.split(":")[1]);
+        } else {
+          toast.error(data.Message.split(":")[1]);
         }
+        // toast.error(data.Message);
+
+      }
 
       // =====================================================
       // ? NEW: UPDATE GENERAL STORE FROM API RESPONSE
@@ -576,21 +573,44 @@ const ActionButton: React.FC<ActionButtonProps> = ({
       });
       setRedirectParams(redirectPayload);
 
+      // data.Rows
+      //   .filter((row) => row.ElementName)
+      //   .forEach((row) => {
+      //     generalStateUpdate[row.ElementName!] = {
+      //       ...currentState[row.ElementName!], // keep existing behavior
+      //       value: row.Value ?? "",
+
+      //       // ? ADD (does NOT affect existing logic)
+      //       ShowDialog: row.ShowDialog ?? false,
+      //       HideDialog: row.HideDialog ?? false,
+      //       ShowModal: row.ShowModal ?? false,
+      //       isVisible: row.Visible,
+      //       visible: row.Visible,
+      //       Css: row.CSS || "",
+      //     };
+      //   });
+
       data.Rows
         .filter((row) => row.ElementName)
         .forEach((row) => {
-          generalStateUpdate[row.ElementName!] = {
-            ...currentState[row.ElementName!], // keep existing behavior
+          const updatedState: any = {
+            ...currentState[row.ElementName!],
             value: row.Value ?? "",
 
-            // ? ADD (does NOT affect existing logic)
+            // existing
             ShowDialog: row.ShowDialog ?? false,
             HideDialog: row.HideDialog ?? false,
             ShowModal: row.ShowModal ?? false,
-            isVisible: row.Visible,
-            visible: row.Visible,
             Css: row.CSS || "",
           };
+
+          // ? only add if not null/undefined
+          if (row.Visible !== null && row.Visible !== undefined) {
+            updatedState.isVisible = row.Visible;
+            updatedState.visible = row.Visible;
+          }
+
+          generalStateUpdate[row.ElementName!] = updatedState;
         });
 
 

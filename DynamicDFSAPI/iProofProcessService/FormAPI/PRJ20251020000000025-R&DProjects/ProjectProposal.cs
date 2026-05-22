@@ -160,10 +160,6 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
-			     new Triplet<string, string, string>("ADFF9091-E7A5-460E-871D-4014B6EDBC37","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
 			     new Triplet<string, string, string>("0C8CDFAE-5C2A-428D-A7E8-DC4118670282","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -1655,22 +1651,6 @@ if((result0C8CDFAE5C2A428DA7E8DC4118670282!=null) && (result0C8CDFAE5C2A428DA7E8
 {
 if(result0C8CDFAE5C2A428DA7E8DC4118670282.ContainsKey(0))
 ISpace["ExecutionMessage"].Value = result0C8CDFAE5C2A428DA7E8DC4118670282[0];
-}
-else{
-ISpace["ExecutionMessage"].Value = null;
-}
-base.WriteDebugInfo(@"EXEC InnovaceNoCode..[GridSave_A3BB2140-4053-4558-9363-3BA1B526BD0A]   '@@gv_InstanceId','@@gv_ActivityMapId','A3BB2140-4053-4558-9363-3BA1B526BD0A'");
-
-var querySourceADFF9091E7A5460E871D4014B6EDBC37 =GetQueryExpressionDataSource("ADFF9091-E7A5-460E-871D-4014B6EDBC37");
-Dictionary<short,object> resultADFF9091E7A5460E871D4014B6EDBC37=iSpace.ExecuteQuery(querySourceADFF9091E7A5460E871D4014B6EDBC37,@"EXEC InnovaceNoCode..[GridSave_A3BB2140-4053-4558-9363-3BA1B526BD0A]   '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','A3BB2140-4053-4558-9363-3BA1B526BD0A'",false);
-
-base.WriteDebugInfo(@"var querySourceADFF9091E7A5460E871D4014B6EDBC37 =GetQueryExpressionDataSource(""ADFF9091-E7A5-460E-871D-4014B6EDBC37"");Dictionary<short,object> resultADFF9091E7A5460E871D4014B6EDBC37=iSpace.ExecuteQuery(querySourceADFF9091E7A5460E871D4014B6EDBC37,@""EXEC InnovaceNoCode..[GridSave_A3BB2140-4053-4558-9363-3BA1B526BD0A]   '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','A3BB2140-4053-4558-9363-3BA1B526BD0A'"",false);");
-base.WriteDebugInfo(@"");
-
-if((resultADFF9091E7A5460E871D4014B6EDBC37!=null) && (resultADFF9091E7A5460E871D4014B6EDBC37.Count!=0))
-{
-if(resultADFF9091E7A5460E871D4014B6EDBC37.ContainsKey(0))
-ISpace["ExecutionMessage"].Value = resultADFF9091E7A5460E871D4014B6EDBC37[0];
 }
 else{
 ISpace["ExecutionMessage"].Value = null;
