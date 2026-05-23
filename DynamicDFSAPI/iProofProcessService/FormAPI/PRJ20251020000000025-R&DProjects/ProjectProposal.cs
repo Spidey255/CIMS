@@ -1523,6 +1523,8 @@ if((result4D70F9F762964C9DBE1764DD6765B7EB!=null) && (result4D70F9F762964C9DBE17
 {
 if(result4D70F9F762964C9DBE1764DD6765B7EB.ContainsKey(12))
 ISpace["MFG_d2_UpdatedOn"].Value = result4D70F9F762964C9DBE1764DD6765B7EB[12];
+if(result4D70F9F762964C9DBE1764DD6765B7EB.ContainsKey(14))
+ISpace["MFG_d2_MemberType"].Value = result4D70F9F762964C9DBE1764DD6765B7EB[14];
 if(result4D70F9F762964C9DBE1764DD6765B7EB.ContainsKey(3))
 ISpace["MFG_d2_AdditionalName"].Value = result4D70F9F762964C9DBE1764DD6765B7EB[3];
 if(result4D70F9F762964C9DBE1764DD6765B7EB.ContainsKey(4))
@@ -1537,8 +1539,6 @@ if(result4D70F9F762964C9DBE1764DD6765B7EB.ContainsKey(7))
 ISpace["MFG_d2_ExternalFacultyName"].Value = result4D70F9F762964C9DBE1764DD6765B7EB[7];
 if(result4D70F9F762964C9DBE1764DD6765B7EB.ContainsKey(5))
 ISpace["MFG_d2_DesignationID"].Value = result4D70F9F762964C9DBE1764DD6765B7EB[5];
-if(result4D70F9F762964C9DBE1764DD6765B7EB.ContainsKey(14))
-ISpace["MG_d2_MemberType"].Value = result4D70F9F762964C9DBE1764DD6765B7EB[14];
 if(result4D70F9F762964C9DBE1764DD6765B7EB.ContainsKey(6))
 ISpace["MFG_d2_ExternalInstituteName"].Value = result4D70F9F762964C9DBE1764DD6765B7EB[6];
 if(result4D70F9F762964C9DBE1764DD6765B7EB.ContainsKey(1))
@@ -1551,7 +1551,7 @@ if(result4D70F9F762964C9DBE1764DD6765B7EB.ContainsKey(0))
 ISpace["MFG_d2_AdditionalID"].Value = result4D70F9F762964C9DBE1764DD6765B7EB[0];
 }
 else{
-ISpace["MFG_d2_UpdatedOn"].Value = null;ISpace["MFG_d2_AdditionalName"].Value = null;ISpace["MFG_d2_Departmentid"].Value = null;ISpace["MFG_d2_AdditionalType"].Value = null;ISpace["MFG_d2_UpdatedBy"].Value = null;ISpace["MFG_d2_ExternalDesignation"].Value = null;ISpace["MFG_d2_ExternalFacultyName"].Value = null;ISpace["MFG_d2_DesignationID"].Value = null;ISpace["MG_d2_MemberType"].Value = null;ISpace["MFG_d2_ExternalInstituteName"].Value = null;ISpace["MFG_d2_ProjectDetailsID"].Value = null;ISpace["MFG_d2_ExternalEmailId"].Value = null;ISpace["MFG_d2_ExternalContactNo"].Value = null;ISpace["MFG_d2_AdditionalID"].Value = null;
+ISpace["MFG_d2_UpdatedOn"].Value = null;ISpace["MFG_d2_MemberType"].Value = null;ISpace["MFG_d2_AdditionalName"].Value = null;ISpace["MFG_d2_Departmentid"].Value = null;ISpace["MFG_d2_AdditionalType"].Value = null;ISpace["MFG_d2_UpdatedBy"].Value = null;ISpace["MFG_d2_ExternalDesignation"].Value = null;ISpace["MFG_d2_ExternalFacultyName"].Value = null;ISpace["MFG_d2_DesignationID"].Value = null;ISpace["MFG_d2_ExternalInstituteName"].Value = null;ISpace["MFG_d2_ProjectDetailsID"].Value = null;ISpace["MFG_d2_ExternalEmailId"].Value = null;ISpace["MFG_d2_ExternalContactNo"].Value = null;ISpace["MFG_d2_AdditionalID"].Value = null;
 }
 }
 catch(Exception ex)
