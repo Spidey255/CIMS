@@ -265,6 +265,10 @@ namespace CPS.Proof.DFSExtension
 												     @"EXEC [GetDepartmentWiseFaculty] '',3,'','',''"),
 			
 						
+			     new Triplet<string, string, string>("M_MoveTo","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAX4svK5cDYCPw2sEhYNSLVUgHvT8EwteQ6Cu6POiqivUqpEh16s8+yjMECvtOIho/Hsxg7bNByVU=",
+												     @"EXEC GetNextStep '@MF_d1_ProjectProposalID'"),
+			
+						
 			     new Triplet<string, string, string>("MFG_d2_AdditionalName","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
 												     @"EXEC GetDepartmentWiseFacultyCopi '@MFG_d2_Departmentid',3,'@DummyInstance',''"),
 			
