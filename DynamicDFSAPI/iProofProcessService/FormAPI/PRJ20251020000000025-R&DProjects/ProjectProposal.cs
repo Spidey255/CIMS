@@ -164,6 +164,14 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
+			     new Triplet<string, string, string>("b1129839-7563-b91c-2a45-3c887bc84b31","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("ae41ce97-6cf7-500a-798c-70cf6103e145","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
 			     new Triplet<string, string, string>("6C11211E-6354-4E64-99A1-D591D85CCC41","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
@@ -1851,6 +1859,64 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_submitform (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"SubmitForm-OnClick");
+if(ISpace["M_MoveTo"].Value=="APPROVE")
+{
+base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value==""APPROVE"")");
+ISpace["MF_d1_ProjectStatus"].Value="5";
+base.WriteDebugInfo(@"ISpace[""MF_d1_ProjectStatus""].Value=""5"";");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["MF_d1_ProjectStatus"].Value="2";
+base.WriteDebugInfo(@"ISpace[""MF_d1_ProjectStatus""].Value=""2"";");
+}
+base.WriteDebugInfo(@"EXEC InnovaceNoCode..[FormSave_E0AC6667-6D92-49AA-8F4D-01F473F2E426] '@@gv_InstanceId','@@gv_ActivityMapId','026e321e-9bb7-4c74-8615-3bbd7cc1b241','#MF_d1_ProjectProposalID','#MF_d1_ProjectRefNo','#MF_d1_ProjectCategoryID','#MF_d1_FinancialYearID','#M_DepartmentId','#M_DesignationId','#MF_d1_ProjectName','#MF_d1_ProjectType','#MF_d1_FundingAgency',#MF_d1_ProjectBudget,'#MF_d1_Remarks','#MF_d1_PrincipalInvestigator','#MF_d1_EmployeeBasicInfoId','#MF_d1_ProjectStatus','#MF_d1_SectorID','#MF_d1_EndorsementFileType','#MF_d1_ProposalCode',#MF_d1_IsSubmitted,#MF_d1_OverHead,#MF_d1_IfExternalInstitute,'@@gv_UserId','#MF_d1_UpdatedOn','@@gv_ProcessMapId','#MF_d1_Currency','#M_DepartmentId','#M_DesignationId','#Dept','#DummyInstance'");
+
+var querySourceae41ce976cf7500a798c70cf6103e145 =GetQueryExpressionDataSource("ae41ce97-6cf7-500a-798c-70cf6103e145");
+Dictionary<short,object> resultae41ce976cf7500a798c70cf6103e145=iSpace.ExecuteQuery(querySourceae41ce976cf7500a798c70cf6103e145,@"EXEC InnovaceNoCode..[FormSave_E0AC6667-6D92-49AA-8F4D-01F473F2E426] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','026e321e-9bb7-4c74-8615-3bbd7cc1b241','" + ISpace["MF_d1_ProjectProposalID"].Value + @"','" + ISpace["MF_d1_ProjectRefNo"].Value + @"','" + ISpace["MF_d1_ProjectCategoryID"].Value + @"','" + ISpace["MF_d1_FinancialYearID"].Value + @"','" + ISpace["M_DepartmentId"].Value + @"','" + ISpace["M_DesignationId"].Value + @"','" + ISpace["MF_d1_ProjectName"].Value + @"','" + ISpace["MF_d1_ProjectType"].Value + @"','" + ISpace["MF_d1_FundingAgency"].Value + @"'," + ISpace["MF_d1_ProjectBudget"].Value + @",'" + ISpace["MF_d1_Remarks"].Value + @"','" + ISpace["MF_d1_PrincipalInvestigator"].Value + @"','" + ISpace["MF_d1_EmployeeBasicInfoId"].Value + @"','" + ISpace["MF_d1_ProjectStatus"].Value + @"','" + ISpace["MF_d1_SectorID"].Value + @"','" + ISpace["MF_d1_EndorsementFileType"].Value + @"','" + ISpace["MF_d1_ProposalCode"].Value + @"'," + ISpace["MF_d1_IsSubmitted"].Value + @"," + ISpace["MF_d1_OverHead"].Value + @"," + ISpace["MF_d1_IfExternalInstitute"].Value + @",'" + ISpace["gv_userid"].Value + @"','" + ISpace["MF_d1_UpdatedOn"].Value + @"','" + ISpace["gv_processmapid"].Value + @"','" + ISpace["MF_d1_Currency"].Value + @"','" + ISpace["M_DepartmentId"].Value + @"','" + ISpace["M_DesignationId"].Value + @"','" + ISpace["Dept"].Value + @"','" + ISpace["DummyInstance"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourceae41ce976cf7500a798c70cf6103e145 =GetQueryExpressionDataSource(""ae41ce97-6cf7-500a-798c-70cf6103e145"");Dictionary<short,object> resultae41ce976cf7500a798c70cf6103e145=iSpace.ExecuteQuery(querySourceae41ce976cf7500a798c70cf6103e145,@""EXEC InnovaceNoCode..[FormSave_E0AC6667-6D92-49AA-8F4D-01F473F2E426] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','026e321e-9bb7-4c74-8615-3bbd7cc1b241','"" + ISpace[""MF_d1_ProjectProposalID""].Value + @""','"" + ISpace[""MF_d1_ProjectRefNo""].Value + @""','"" + ISpace[""MF_d1_ProjectCategoryID""].Value + @""','"" + ISpace[""MF_d1_FinancialYearID""].Value + @""','"" + ISpace[""M_DepartmentId""].Value + @""','"" + ISpace[""M_DesignationId""].Value + @""','"" + ISpace[""MF_d1_ProjectName""].Value + @""','"" + ISpace[""MF_d1_ProjectType""].Value + @""','"" + ISpace[""MF_d1_FundingAgency""].Value + @""',"" + ISpace[""MF_d1_ProjectBudget""].Value + @"",'"" + ISpace[""MF_d1_Remarks""].Value + @""','"" + ISpace[""MF_d1_PrincipalInvestigator""].Value + @""','"" + ISpace[""MF_d1_EmployeeBasicInfoId""].Value + @""','"" + ISpace[""MF_d1_ProjectStatus""].Value + @""','"" + ISpace[""MF_d1_SectorID""].Value + @""','"" + ISpace[""MF_d1_EndorsementFileType""].Value + @""','"" + ISpace[""MF_d1_ProposalCode""].Value + @""',"" + ISpace[""MF_d1_IsSubmitted""].Value + @"","" + ISpace[""MF_d1_OverHead""].Value + @"","" + ISpace[""MF_d1_IfExternalInstitute""].Value + @"",'"" + ISpace[""gv_userid""].Value + @""','"" + ISpace[""MF_d1_UpdatedOn""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""','"" + ISpace[""MF_d1_Currency""].Value + @""','"" + ISpace[""M_DepartmentId""].Value + @""','"" + ISpace[""M_DesignationId""].Value + @""','"" + ISpace[""Dept""].Value + @""','"" + ISpace[""DummyInstance""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultae41ce976cf7500a798c70cf6103e145!=null) && (resultae41ce976cf7500a798c70cf6103e145.Count!=0))
+{
+if(resultae41ce976cf7500a798c70cf6103e145.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultae41ce976cf7500a798c70cf6103e145[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+base.WriteDebugInfo(@"EXEC InnovaceNoCode..[GridSave_A3BB2140-4053-4558-9363-3BA1B526BD0A] '@@gv_InstanceId','@@gv_ActivityMapId','A3BB2140-4053-4558-9363-3BA1B526BD0A'");
+
+var querySourceb11298397563b91c2a453c887bc84b31 =GetQueryExpressionDataSource("b1129839-7563-b91c-2a45-3c887bc84b31");
+Dictionary<short,object> resultb11298397563b91c2a453c887bc84b31=iSpace.ExecuteQuery(querySourceb11298397563b91c2a453c887bc84b31,@"EXEC InnovaceNoCode..[GridSave_A3BB2140-4053-4558-9363-3BA1B526BD0A] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','A3BB2140-4053-4558-9363-3BA1B526BD0A'",false);
+
+base.WriteDebugInfo(@"var querySourceb11298397563b91c2a453c887bc84b31 =GetQueryExpressionDataSource(""b1129839-7563-b91c-2a45-3c887bc84b31"");Dictionary<short,object> resultb11298397563b91c2a453c887bc84b31=iSpace.ExecuteQuery(querySourceb11298397563b91c2a453c887bc84b31,@""EXEC InnovaceNoCode..[GridSave_A3BB2140-4053-4558-9363-3BA1B526BD0A] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','A3BB2140-4053-4558-9363-3BA1B526BD0A'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultb11298397563b91c2a453c887bc84b31!=null) && (resultb11298397563b91c2a453c887bc84b31.Count!=0))
+{
+if(resultb11298397563b91c2a453c887bc84b31.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultb11298397563b91c2a453c887bc84b31[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+ISpace["Message"].Value=@"Success:Submitted Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:Submitted Successfully"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 public override void ExecuteMethod
 	(string methodName, string elementName,
 		ref Dictionary<string, ServiceElementData> dfsParam)
@@ -1864,6 +1930,10 @@ public override void ExecuteMethod
 }
 	if(methodName.ToLower().Equals("onclick"))
 {
+		if(elementName.ToLower().Equals("submitform"))
+{
+			SubscribeElementEvents_submitform(ref dfsParam);
+}
 }
 }
 }

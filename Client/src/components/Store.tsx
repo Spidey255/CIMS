@@ -95,36 +95,51 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
       // -------------------------------
       const gridData = data.filter((f) => f.ControlId === 11);
 
-      await Promise.all(
-        gridData.map(async (m) => {
-          const { Rows } = await getGridInstanceData<IAppResponse>({
-            slotId,
-            widgetId: m.WidgetId || "",
-            controlId: m.ElementName,
-            packageProcessMapId: PackageProcessMapId,
-            processActivityMapId: ProcessActivityMapId,
-            formInstanceId: formInstanceId || null || "",
-            pageDirection: 1,
-            pageSize: m["RowsPerPage"] || 5,
-            currentRowIndex: 0,
-            searchFilter: "",
-          });
+     // store grid api response
+const gridInstanceMap: Record<string, any> = {};
 
-          Rows?.forEach((row) => {
-            if (row.ElementName === m.ElementName) {
-              setPagination(m["UIElementid"], {
-                currentPage: 1,
-                pageSize: m["RowsPerPage"] || 5,
-                totalItems: row["TotalRecords"] || 0,
-                fromRowIndex: row["RecordsFrom"] || 0,
-                toRowIndex: row["RecordsTo"] || 0,
-              });
-            }
-          });
+await Promise.all(
+  gridData.map(async (m) => {
+    const response = await getGridInstanceData<IAppResponse>({
+      slotId,
+      widgetId: m.WidgetId || "",
+      controlId: m.ElementName,
+      packageProcessMapId: PackageProcessMapId,
+      processActivityMapId: ProcessActivityMapId,
+      formInstanceId: formInstanceId || "",
+      pageDirection: 1,
+      pageSize: m["RowsPerPage"] || 5,
+      currentRowIndex: 0,
+      searchFilter: "",
+    });
 
-          setGridLoadingState(m["UIElementid"], false);
-        })
-      );
+    const rows = response?.Rows || [];
+
+    const matchedRow = rows.find(
+      (r) =>
+        r.ElementName?.toLowerCase() ===
+        m.ElementName?.toLowerCase()
+    );
+
+    // save grid data
+    if (matchedRow?.Child?.length) {
+      gridInstanceMap[m.ElementName] = matchedRow;
+    }
+
+    // pagination
+    if (matchedRow) {
+      setPagination(m["UIElementid"], {
+        currentPage: 1,
+        pageSize: m["RowsPerPage"] || 5,
+        totalItems: matchedRow["TotalRecords"] || 0,
+        fromRowIndex: matchedRow["RecordsFrom"] || 0,
+        toRowIndex: matchedRow["RecordsTo"] || 0,
+      });
+    }
+
+    setGridLoadingState(m["UIElementid"], false);
+  })
+);
 
 
 
@@ -245,9 +260,19 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
       const gridElementMapper: Record<string, { uiElementId: string; elementName: string }> = {};
 
       gridData.forEach((m) => {
-        const existData = formLoadData?.find(
-          (f) => f?.ElementName?.toLowerCase() === m.ElementName?.toLowerCase()
-        );
+        // const existData = formLoadData?.find(
+        //   (f) => f?.ElementName?.toLowerCase() === m.ElementName?.toLowerCase()
+        // );
+
+        const gridInstanceData = gridInstanceMap[m.ElementName];
+
+const existData =
+  gridInstanceData ||
+  formLoadData?.find(
+    (f) =>
+      f?.ElementName?.toLowerCase() ===
+      m.ElementName?.toLowerCase()
+  );
 
         setGridInfo(m["UIElementid"], m);
 
@@ -269,8 +294,8 @@ const Store: React.FC<IStoreProps> = ({ data, queryParams: storeQueryParams, Pac
         if (existData?.Child) {
           setGridDynamicState(m["UIElementid"], existData.Child);
 
-          existData.Child.forEach((row) => {
-            row.Child?.forEach((rowData) => {
+          existData.Child.forEach((row: any) => {
+            row.Child?.forEach((rowData: any) => {
               const elementData = data.find(
                 (d) => d.ElementName === rowData.ElementName
               );
