@@ -1641,6 +1641,12 @@ else{
 ISpace["MF_d1_ProjectRefNo"].Value = null;
 }
 }
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["Subject"].Value=ISpace["MF_d1_ProjectRefNo"].Value;
+base.WriteDebugInfo(@"ISpace[""Subject""].Value=ISpace[""MF_d1_ProjectRefNo""].Value;");
+}
 base.WriteDebugInfo(@"EXEC InnovaceNoCode..[FormSave_E0AC6667-6D92-49AA-8F4D-01F473F2E426] '@@gv_InstanceId','@@gv_ActivityMapId','026e321e-9bb7-4c74-8615-3bbd7cc1b241','#MF_d1_ProjectProposalID','#MF_d1_ProjectRefNo','#MF_d1_ProjectCategoryID','#MF_d1_FinancialYearID','#M_DepartmentId','#M_DesignationId','#MF_d1_ProjectName','#MF_d1_ProjectType','#MF_d1_FundingAgency',#MF_d1_ProjectBudget,'#MF_d1_Remarks','#MF_d1_PrincipalInvestigator','#MF_d1_EmployeeBasicInfoId','#MF_d1_ProjectStatus','#MF_d1_SectorID','#MF_d1_EndorsementFileType','#MF_d1_ProposalCode',#MF_d1_IsSubmitted,#MF_d1_OverHead,#MF_d1_IfExternalInstitute,#MF_d1_UpdatedBy,'#MF_d1_UpdatedOn','@@gv_ProcessMapId','#MF_d1_Currency','#M_DepartmentId','#M_DesignationId','#Dept','#DummyInstance'");
 
 var querySource0C8CDFAE5C2A428DA7E8DC4118670282 =GetQueryExpressionDataSource("0C8CDFAE-5C2A-428D-A7E8-DC4118670282");
