@@ -356,7 +356,11 @@ namespace CPS.Proof.DFSExtension
                         {
                             if(!row.IsNull(dataColumn))
                             refparams.Add(dataColumn.ToString(),
-                                new ServiceElementData { Value = row[dataColumn] });
+                                 new ServiceElementData
+                                    {
+                                        Value = row[dataColumn],
+                                        ElementName = dataColumn.ToString()
+                                    });
                         }
                     }
                 }
