@@ -1864,6 +1864,14 @@ if(1==1)
 base.WriteDebugInfo(@"if(1==1)");
 ISpace["MF_d1_FinancialYearID"].Enbl="false";ISpace["MF_d1_ProjectName"].Enbl="false";ISpace["MF_d1_Remarks"].Enbl="false";ISpace["MF_d1_ProjectCategoryID"].Enbl="false";ISpace["MF_d1_Currency"].Enbl="false";ISpace["MF_d1_OverHead"].Enbl="false";ISpace["MF_d1_ProjectBudget"].Enbl="false";ISpace["MF_d1_ProjectType"].Enbl="false";ISpace["MF_d1_SectorID"].Enbl="false";ISpace["MF_d1_FundingAgency"].Enbl="false";
 base.WriteDebugInfo(@"ISpace[""MF_d1_FinancialYearID""].Enbl=""false"";ISpace[""MF_d1_ProjectName""].Enbl=""false"";ISpace[""MF_d1_Remarks""].Enbl=""false"";ISpace[""MF_d1_ProjectCategoryID""].Enbl=""false"";ISpace[""MF_d1_Currency""].Enbl=""false"";ISpace[""MF_d1_OverHead""].Enbl=""false"";ISpace[""MF_d1_ProjectBudget""].Enbl=""false"";ISpace[""MF_d1_ProjectType""].Enbl=""false"";ISpace[""MF_d1_SectorID""].Enbl=""false"";ISpace[""MF_d1_FundingAgency""].Enbl=""false"";");
+if(ISpace["FormVersionId"].Value=="FA963D46-2D52-4A3E-8550-E878A2504252")
+{
+ISpace["UI_InvisibleRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""FA963D46-2D52-4A3E-8550-E878A2504252"")
+{
+ISpace[""UI_InvisibleRow""].Visible=""false"";
+}");
 }
 }
 catch(Exception ex)
