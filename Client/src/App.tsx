@@ -19,8 +19,12 @@ import { useUserStore } from "@/store/useUserStore";
 
 import ProjectsExplorer_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start";
 import ProjectProposal_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_Start";
+import ProjectCreationfromAutomation_VIEW-1 from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW-1";
+import ProjectCreationfromAutomation_VIEW-2 from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW-2";
 import ProjectProposal_ReadOnly from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_ReadOnly";
+import ProjectCreationfromAutomation_VIEW-4 from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW-4";
 import FundConfigurations_Start from "@/pages/PRJ20251020000000025-R&DProjects/FundConfigurations_Start";
+import ProjectCreationfromAutomation_VIEW-3 from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW-3";
 import CommitmentSpentDetails_Start from "@/pages/PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start";
 
 const hasAccessToken = (): boolean => {
@@ -84,8 +88,12 @@ const App: React.FC = () => {
       }>
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start" element={<ProjectsExplorer_Start />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_Start" element={<ProjectProposal_Start />} />
+        <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW-1" element={<ProjectCreationfromAutomation_VIEW-1 />} />
+        <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW-2" element={<ProjectCreationfromAutomation_VIEW-2 />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_ReadOnly" element={<ProjectProposal_ReadOnly />} />
+        <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW-4" element={<ProjectCreationfromAutomation_VIEW-4 />} />
         <Route path="/PRJ20251020000000025-R&DProjects/FundConfigurations_Start" element={<FundConfigurations_Start />} />
+        <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW-3" element={<ProjectCreationfromAutomation_VIEW-3 />} />
         <Route path="/PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start" element={<CommitmentSpentDetails_Start />} />
         <Route path="/Inbox" element={<Inbox />} />
         <Route path="*" element={<NotFound />} />
