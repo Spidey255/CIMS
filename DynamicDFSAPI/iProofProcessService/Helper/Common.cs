@@ -518,6 +518,10 @@ namespace CPS.Proof.DFSExtension
         public Status LoadInstance(SlotToken token,string insId, Context context, 
             ref Dictionary<string, ServiceElementData> refParams)
         {
+
+         //Assign default value for explicit transaction 
+            ITransactionBase transactionBase = null;
+
             try
             {
                 PageContext pageContext = new PageContext();
@@ -529,6 +533,12 @@ namespace CPS.Proof.DFSExtension
                
                 pageContext.InstanceCommand = FormInstanceCommand.LoadInstance;
 
+
+                  //Get Transaction Object from ObjectManager
+                transactionBase = ObjectManager.Acquire<ITransactionBase>();
+
+                //Create transaction instance of type TransactionObject
+                pageContext.TransactionObject = transactionBase.CreateTransactionInstance();
 
                 var InstanceContext = new FormInstanceInfo
                 {
