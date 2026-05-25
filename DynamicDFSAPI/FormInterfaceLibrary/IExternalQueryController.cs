@@ -77,7 +77,7 @@ namespace CPS.Proof.DFSExtension
         Status GetGridInstanceData(SlotToken token,  Context context,
             out DataTable queryResult,out DataTable pagination);
 
-        Status GetFormInstanceData(SlotToken token, Context context,
+        Status GetFormInstanceData(SlotToken token, string formInstanceId,string processActivityMapId,string formId,
             out DataTable queryResult);
 
         Status UpdateGridLoopData(string bulkInsertQuery);

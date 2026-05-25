@@ -127,24 +127,70 @@ namespace CPS.Proof.DFSExtension
                 Dictionary<string, ServiceElementData> refParams =
                     new Dictionary<string, ServiceElementData>();
 
-                foreach (var item1 in context.Params)
+                if (!string.IsNullOrEmpty(context.FormInstanceId))
                 {
-                    string dickey = string.Empty;                   
+                    refParams = LoadFormInstanceData(token, context.FormInstanceId,
+                         context.ProcessActivityMapId, context.PackageProcessMapId);
 
-                    refParams.Add(item1.ElementName, new ServiceElementData
+                    foreach (var item1 in context.Params)
                     {
-                        ElementName = item1.ElementName,
 
-                         EDT= item1.EDT,
-                        
-                        Value = common.GetObjectValue(item1.Value,item1.EDT),
+                        object objectvalue = null;
 
-                        Visible = null,
+                        if (refParams.ContainsKey(item1.ElementName))
+                        {
+                            objectvalue = refParams[item1.ElementName].Value;
 
-                        Enbl = null
-                       
-                    });
-                    
+                            refParams[item1.ElementName].Value = common.GetObjectValue(objectvalue, item1.EDT);
+
+                            refParams[item1.ElementName].ElementName = item1.ElementName;
+
+                            refParams[item1.ElementName].EDT = item1.EDT;
+
+
+                        }
+
+                        else
+                        {
+
+
+                            refParams.Add(item1.ElementName, new ServiceElementData
+                            {
+                                ElementName = item1.ElementName,
+
+                                EDT = item1.EDT,
+
+                                Value = common.GetObjectValue(item1.Value, item1.EDT)
+
+                            });
+                        }
+
+                    }
+
+                }
+
+                else
+                {
+
+                    foreach (var item1 in context.Params)
+                    {
+                        string dickey = string.Empty;
+
+                        refParams.Add(item1.ElementName, new ServiceElementData
+                        {
+                            ElementName = item1.ElementName,
+
+                            EDT = item1.EDT,
+
+                            Value = common.GetObjectValue(item1.Value, item1.EDT),
+
+                            Visible = null,
+
+                            Enbl = null
+
+                        });
+
+                    }
                 }
 
                 refParams.Add("FormVersionId", new ServiceElementData { Value = context.FormVersionId });
@@ -271,6 +317,72 @@ namespace CPS.Proof.DFSExtension
                 _sysLog.Debug("Exiting ExecuteFormLoad");
             }
         }
+
+
+        private Dictionary<string,ServiceElementData> LoadFormInstanceData(SlotToken token, string formInstanceId,
+                    string processActivityMapId, string formId)
+        {
+            Dictionary<string, ServiceElementData> refparams = null;
+
+            _sysLog.Debug("Entering LoadFormInstanceData");
+
+            IExternalQueryController externalquerycontroller = null;
+
+            try
+            {
+
+                externalquerycontroller = ObjectManager.Acquire<IExternalQueryController>();
+
+                DataTable dataTable = null;
+
+                externalquerycontroller.GetFormInstanceData
+                    (token, formInstanceId, processActivityMapId, formId,out dataTable);
+
+                if (dataTable == null)
+                    return null;
+
+
+                if (dataTable.Rows.Count <= 0)
+                {
+                    return null;
+                }
+                else if(dataTable.Rows.Count>0) 
+                {
+                    refparams=new Dictionary<string,ServiceElementData>();
+
+                    foreach (DataRow row in dataTable.Rows)
+                    {
+                        foreach(DataColumn dataColumn in dataTable.Columns)
+                        {
+                            if(!row.IsNull(dataColumn))
+                            refparams.Add(dataColumn.ToString(),
+                                new ServiceElementData { Value = row[dataColumn] });
+                        }
+                    }
+                }
+
+                return refparams;
+
+                
+            }
+            catch(Exception ex)
+            {
+                _sysLog.Error("Error in LoadFormInstanceData", ex);
+
+                return null;
+            }
+            finally
+            {
+                if(externalquerycontroller != null)
+                {
+                    ObjectManager.Release(externalquerycontroller);
+                }
+
+                _sysLog.Debug("Exiting LoadFormInstanceData");
+            }
+
+        }
+
 
 
          [HttpPost]
@@ -971,8 +1083,9 @@ namespace CPS.Proof.DFSExtension
 
                 DataTable table = null;               
 
-                var status = externalQueryController.
-                    GetFormInstanceData(token, context, out table);
+                 var status = externalQueryController.
+                    GetFormInstanceData(token, context.FormInstanceId,
+                        context.ProcessActivityMapId,context.PackageProcessMapId, out table);
 
 
                 var JSONString = new StringBuilder();
