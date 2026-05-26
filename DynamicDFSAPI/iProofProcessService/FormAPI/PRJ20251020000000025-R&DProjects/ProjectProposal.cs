@@ -204,6 +204,10 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
+			     new Triplet<string, string, string>("cf8665f1-ed60-b9d0-8a13-ee250aa2de27","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
 			     new Triplet<string, string, string>("f9231ef6-c778-e031-aeb2-2f8be33e4ca2","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -1929,6 +1933,26 @@ ISpace["ExecutionMessage"].Value = null;
 }
 ISpace["Message"].Value=@"Success:Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:Submitted Successfully"";");
+if(ISpace["M_MoveTo"].Value=="APPROVE")
+{
+base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value==""APPROVE"")");
+base.WriteDebugInfo(@"EXEC UpdateProposalState '@@gv_InstanceId'");
+
+var querySourcecf8665f1ed60b9d08a13ee250aa2de27 =GetQueryExpressionDataSource("cf8665f1-ed60-b9d0-8a13-ee250aa2de27");
+Dictionary<short,object> resultcf8665f1ed60b9d08a13ee250aa2de27=iSpace.ExecuteQuery(querySourcecf8665f1ed60b9d08a13ee250aa2de27,@"EXEC UpdateProposalState '" + ISpace["gv_instanceid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcecf8665f1ed60b9d08a13ee250aa2de27 =GetQueryExpressionDataSource(""cf8665f1-ed60-b9d0-8a13-ee250aa2de27"");Dictionary<short,object> resultcf8665f1ed60b9d08a13ee250aa2de27=iSpace.ExecuteQuery(querySourcecf8665f1ed60b9d08a13ee250aa2de27,@""EXEC UpdateProposalState '"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultcf8665f1ed60b9d08a13ee250aa2de27!=null) && (resultcf8665f1ed60b9d08a13ee250aa2de27.Count!=0))
+{
+if(resultcf8665f1ed60b9d08a13ee250aa2de27.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultcf8665f1ed60b9d08a13ee250aa2de27[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+}
 }
 catch(Exception ex)
 {

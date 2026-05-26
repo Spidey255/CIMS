@@ -305,7 +305,7 @@ namespace CPS.Proof.DFSExtension
 			     new Tuple<string, int>("EquipmentGrid",5),
 			
 						
-			     new Tuple<string, int>("BudgetAllocation",5),
+			     new Tuple<string, int>("BudgetAllocation",100),
 			
 						
 			     new Tuple<string, int>("ExternalCoPiGrid",50),
