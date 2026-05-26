@@ -192,6 +192,14 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
+			     new Triplet<string, string, string>("9cc2bc31-cc30-0ba3-4ad6-22f9e9abf5d5","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("5b1d3894-0d72-9c8d-3a5f-8fe772ffa261","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
 			     new Triplet<string, string, string>("BE17AA72-8920-4740-9BFC-07684FE3DC81","Load Grid By IdRDDocumentGrid",
 												     @"6677BAB3-659A-4A96-9067-5D365F60CB62"),
 			
@@ -209,6 +217,10 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("682312DA-B0C6-4126-810E-552155F7C406","Load Grid By IdExternalCoPiGrid",
+												     @"59259E21-AFE8-4DAB-A543-74CC22FC79D5"),
+			
+						
+			     new Triplet<string, string, string>("5b1d3894-0d72-9c8d-3a5f-8fe772ffa261","CoPi Grid Load",
 												     @"59259E21-AFE8-4DAB-A543-74CC22FC79D5"),
 			
 			
@@ -1914,6 +1926,72 @@ List<Triplet<string, short, short?>> resultB36302D05F8149779190D6B1447FA477=acda
 iSpace.SetGridData(result682312DAB0C64126810E552155F7C406,resultB36302D05F8149779190D6B1447FA477,"ExternalCoPiGrid",ref ISpace);
 iSpace.UpdateGridBindDetails("ExternalCoPiGrid",resultB36302D05F8149779190D6B1447FA477);
 }
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [GetProjectProposalDetailsLoad] 1,'#MF_d10_ProjectproposalID'");
+
+var querySource9cc2bc31cc300ba34ad622f9e9abf5d5 =GetQueryExpressionDataSource("9cc2bc31-cc30-0ba3-4ad6-22f9e9abf5d5");
+Dictionary<short,object> result9cc2bc31cc300ba34ad622f9e9abf5d5=iSpace.ExecuteQuery(querySource9cc2bc31cc300ba34ad622f9e9abf5d5,@"EXEC [GetProjectProposalDetailsLoad] 1,'" + ISpace["MF_d10_ProjectproposalID"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource9cc2bc31cc300ba34ad622f9e9abf5d5 =GetQueryExpressionDataSource(""9cc2bc31-cc30-0ba3-4ad6-22f9e9abf5d5"");Dictionary<short,object> result9cc2bc31cc300ba34ad622f9e9abf5d5=iSpace.ExecuteQuery(querySource9cc2bc31cc300ba34ad622f9e9abf5d5,@""EXEC [GetProjectProposalDetailsLoad] 1,'"" + ISpace[""MF_d10_ProjectproposalID""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result9cc2bc31cc300ba34ad622f9e9abf5d5!=null) && (result9cc2bc31cc300ba34ad622f9e9abf5d5.Count!=0))
+{
+if(result9cc2bc31cc300ba34ad622f9e9abf5d5.ContainsKey(2))
+ISpace["MF_d10_ProjectCategoryID"].Value = result9cc2bc31cc300ba34ad622f9e9abf5d5[2];
+if(result9cc2bc31cc300ba34ad622f9e9abf5d5.ContainsKey(6))
+ISpace["MF_d10_FundingAgency"].Value = result9cc2bc31cc300ba34ad622f9e9abf5d5[6];
+if(result9cc2bc31cc300ba34ad622f9e9abf5d5.ContainsKey(7))
+ISpace["MF_d10_Sector"].Value = result9cc2bc31cc300ba34ad622f9e9abf5d5[7];
+if(result9cc2bc31cc300ba34ad622f9e9abf5d5.ContainsKey(3))
+ISpace["MF_d10_FinancialYearID"].Value = result9cc2bc31cc300ba34ad622f9e9abf5d5[3];
+if(result9cc2bc31cc300ba34ad622f9e9abf5d5.ContainsKey(17))
+ISpace["m_currency"].Value = result9cc2bc31cc300ba34ad622f9e9abf5d5[17];
+if(result9cc2bc31cc300ba34ad622f9e9abf5d5.ContainsKey(13))
+ISpace["MF_d10_ProjectType"].Value = result9cc2bc31cc300ba34ad622f9e9abf5d5[13];
+if(result9cc2bc31cc300ba34ad622f9e9abf5d5.ContainsKey(21))
+ISpace["MF_d10_IsExternalIns"].Value = result9cc2bc31cc300ba34ad622f9e9abf5d5[21];
+if(result9cc2bc31cc300ba34ad622f9e9abf5d5.ContainsKey(9))
+ISpace["MF_d10_ProjectBudget"].Value = result9cc2bc31cc300ba34ad622f9e9abf5d5[9];
+if(result9cc2bc31cc300ba34ad622f9e9abf5d5.ContainsKey(8))
+ISpace["MF_d10_ProjectName"].Value = result9cc2bc31cc300ba34ad622f9e9abf5d5[8];
+}
+else{
+ISpace["MF_d10_ProjectCategoryID"].Value = null;ISpace["MF_d10_FundingAgency"].Value = null;ISpace["MF_d10_Sector"].Value = null;ISpace["MF_d10_FinancialYearID"].Value = null;ISpace["m_currency"].Value = null;ISpace["MF_d10_ProjectType"].Value = null;ISpace["MF_d10_IsExternalIns"].Value = null;ISpace["MF_d10_ProjectBudget"].Value = null;ISpace["MF_d10_ProjectName"].Value = null;
+}
+}
+if(ISpace["MF_d10_ProjectType"].Value=="450")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d10_ProjectType""].Value==""450"")");
+ISpace["m_currency"].Visible="true";ISpace["m_currency"].Enbl="true";
+base.WriteDebugInfo(@"ISpace[""m_currency""].Visible=""true"";ISpace[""m_currency""].Enbl=""true"";");
+}
+if(ISpace["MF_d10_ProjectType"].Value=="449")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d10_ProjectType""].Value==""449"")");
+ISpace["m_currency"].Visible="false";ISpace["m_currency"].Enbl="false";
+base.WriteDebugInfo(@"ISpace[""m_currency""].Visible=""false"";ISpace[""m_currency""].Enbl=""false"";");
+}
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+
+var querySource5b1d38940d729c8d3a5f8fe772ffa261 =GetQueryExpressionDataSource("5b1d3894-0d72-9c8d-3a5f-8fe772ffa261");
+
+DataTable result5b1d38940d729c8d3a5f8fe772ffa261=iSpace.SetGridDataSource(querySource5b1d38940d729c8d3a5f8fe772ffa261, _objectFactory.GetGridRPP("ExternalCoPiGrid"),@"EXEC GetProjectCoPiDetails '" + ISpace["MF_d10_ProjectproposalID"].Value + @"'");
+
+iSpace.InsertGridBindDetails("ExternalCoPiGrid","11",querySource5b1d38940d729c8d3a5f8fe772ffa261,"EXEC GetProjectCoPiDetails '" + ISpace["MF_d10_ProjectproposalID"].Value + @"'",_objectFactory.GetGridRPP("ExternalCoPiGrid"));
+
+base.WriteDebugInfo(@"var querySource5b1d38940d729c8d3a5f8fe772ffa261 =GetQueryExpressionDataSource(""5b1d3894-0d72-9c8d-3a5f-8fe772ffa261"");DataTable result5b1d38940d729c8d3a5f8fe772ffa261=iSpace.SetGridDataSource(querySource5b1d38940d729c8d3a5f8fe772ffa261, _objectFactory.GetGridRPP(""ExternalCoPiGrid""),@""EXEC GetProjectCoPiDetails '"" + ISpace[""MF_d10_ProjectproposalID""].Value + @""'"");iSpace.InsertGridBindDetails(""ExternalCoPiGrid"",""11"",querySource5b1d38940d729c8d3a5f8fe772ffa261,""EXEC GetProjectCoPiDetails '"" + ISpace[""MF_d10_ProjectproposalID""].Value + @""'"",_objectFactory.GetGridRPP(""ExternalCoPiGrid""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result22ae9f9ee9e879dd1f5e44b4433f5e5c=acdataIspaceE1B5DCB812784AA0A8B21C0CDE17E77A.GetQueryExpressionBindings("22ae9f9e-e9e8-79dd-1f5e-44b4433f5e5c");
+iSpace.SetGridData(result5b1d38940d729c8d3a5f8fe772ffa261,result22ae9f9ee9e879dd1f5e44b4433f5e5c,"ExternalCoPiGrid",ref ISpace);
+iSpace.UpdateGridBindDetails("ExternalCoPiGrid",result22ae9f9ee9e879dd1f5e44b4433f5e5c);
+}
 }
 catch(Exception ex)
 {
@@ -2142,6 +2220,30 @@ using System;
 								   new Triplet<string, short, short?>("MG_d28_Year8",13,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d28_Year9",14,
+														   -1),
+								}
+			},
+							{"22ae9f9e-e9e8-79dd-1f5e-44b4433f5e5c", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d55_AdditionalName",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d55_AdditionalType",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d55_Departmentid",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d55_DesignationID",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d55_ExternalContactNo",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d55_ExternalDesignation",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d55_ExternalEmailId",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d55_ExternalFacultyName",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d55_ExternalInstituteName",6,
 														   -1),
 								}
 			},
