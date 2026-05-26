@@ -168,6 +168,10 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
+			     new Triplet<string, string, string>("6c6e361f-5060-32e3-99f8-6f2090aa1e0c","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"028B1EFF-34A8-4D44-BF39-06CE99DF7C67"),
+			
+						
 			     new Triplet<string, string, string>("BE17AA72-8920-4740-9BFC-07684FE3DC81","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -1991,6 +1995,32 @@ base.WriteDebugInfo(@"");
 List<Triplet<string, short, short?>> result22ae9f9ee9e879dd1f5e44b4433f5e5c=acdataIspaceE1B5DCB812784AA0A8B21C0CDE17E77A.GetQueryExpressionBindings("22ae9f9e-e9e8-79dd-1f5e-44b4433f5e5c");
 iSpace.SetGridData(result5b1d38940d729c8d3a5f8fe772ffa261,result22ae9f9ee9e879dd1f5e44b4433f5e5c,"ExternalCoPiGrid",ref ISpace);
 iSpace.UpdateGridBindDetails("ExternalCoPiGrid",result22ae9f9ee9e879dd1f5e44b4433f5e5c);
+}
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC GetEmployeeATOMDetails '@@gv_UserId'");
+
+var querySource6c6e361f506032e399f86f2090aa1e0c =GetQueryExpressionDataSource("6c6e361f-5060-32e3-99f8-6f2090aa1e0c");
+Dictionary<short,object> result6c6e361f506032e399f86f2090aa1e0c=iSpace.ExecuteQuery(querySource6c6e361f506032e399f86f2090aa1e0c,@"EXEC GetEmployeeATOMDetails '" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource6c6e361f506032e399f86f2090aa1e0c =GetQueryExpressionDataSource(""6c6e361f-5060-32e3-99f8-6f2090aa1e0c"");Dictionary<short,object> result6c6e361f506032e399f86f2090aa1e0c=iSpace.ExecuteQuery(querySource6c6e361f506032e399f86f2090aa1e0c,@""EXEC GetEmployeeATOMDetails '"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result6c6e361f506032e399f86f2090aa1e0c!=null) && (result6c6e361f506032e399f86f2090aa1e0c.Count!=0))
+{
+if(result6c6e361f506032e399f86f2090aa1e0c.ContainsKey(8))
+ISpace["MF_d10_EmployeeBasicInfoId"].Value = result6c6e361f506032e399f86f2090aa1e0c[8];
+if(result6c6e361f506032e399f86f2090aa1e0c.ContainsKey(19))
+ISpace["MF_d10_PrincipalInvestigator"].Value = result6c6e361f506032e399f86f2090aa1e0c[19];
+if(result6c6e361f506032e399f86f2090aa1e0c.ContainsKey(2))
+ISpace["MF_d10_Designation"].Value = result6c6e361f506032e399f86f2090aa1e0c[2];
+if(result6c6e361f506032e399f86f2090aa1e0c.ContainsKey(3))
+ISpace["MF_d10_DepartmentID"].Value = result6c6e361f506032e399f86f2090aa1e0c[3];
+}
+else{
+ISpace["MF_d10_EmployeeBasicInfoId"].Value = null;ISpace["MF_d10_PrincipalInvestigator"].Value = null;ISpace["MF_d10_Designation"].Value = null;ISpace["MF_d10_DepartmentID"].Value = null;
+}
 }
 }
 catch(Exception ex)
