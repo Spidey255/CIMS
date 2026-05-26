@@ -3,7 +3,7 @@
 import { useEffect, useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
 import { usePageStore } from "@/store/usePageStore";
-import { DataElementsData } from "./ProjectCreationfromAutomation_VIEW-2";
+import { DataElementsData } from "./ProjectCreationfromAutomation_VIEW2";
 import Store from "@/components/Store";
 
 
@@ -31,7 +31,7 @@ import DateTimePicker from "@/components/Data_Controls/DateTimePicker";
 import ActionButton from "@/components/Data_Controls/ActionButton.tsx";
 
 
-const ProjectCreationfromAutomation_VIEW-2 = ({
+const ProjectCreationfromAutomation_VIEW2 = ({
   ProcessName = "ProjectCreationfromAutomation",
   PackageProcessMapId = "b92107f7-28a5-49d0-8b7f-312c4826dd60",
   FormVersionId = "ADD720B3-8CFA-4B65-B90D-7D2AC805F75E",
@@ -61,7 +61,7 @@ const ProjectCreationfromAutomation_VIEW-2 = ({
   return (
     <main>
       
-      <Column key="EE6EE0E1-A977-4637-8DCA-F40012733AD2_1_0" element={{"VersionName":"Medium","Id":1,"WidgetId":"7F2113FD-876A-41F4-BEAC-881CA7D38469","uielementid":"EE6EE0E1-A977-4637-8DCA-F40012733AD2","WidgetName":"ProjectCreationfromAutomation_Root_VIEW-2.Json","ShowCaption":false,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":1,"IsBadge":false,"ElementId":"","UIElementid":"EE6EE0E1-A977-4637-8DCA-F40012733AD2","Sequence":1,"ElementName":"UI_MainContainer","ControlType":"Column","uielementtypeid":5,"Wrap":12,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":18,"Searchable":false,"Bindable":false,"Action":"FormOnLoad","IsSaveWidget":0,"BindingDetail":"[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\"}]","DCaption":"","__idx":0,"_id":"EE6EE0E1-A977-4637-8DCA-F40012733AD2_1_0"}}  >
+      <Column key="EE6EE0E1-A977-4637-8DCA-F40012733AD2_1_0" element={{"VersionName":"Medium","Id":1,"WidgetId":"7F2113FD-876A-41F4-BEAC-881CA7D38469","uielementid":"EE6EE0E1-A977-4637-8DCA-F40012733AD2","WidgetName":"ProjectCreationfromAutomation_Root_VIEW2.Json","ShowCaption":false,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":1,"IsBadge":false,"ElementId":"","UIElementid":"EE6EE0E1-A977-4637-8DCA-F40012733AD2","Sequence":1,"ElementName":"UI_MainContainer","ControlType":"Column","uielementtypeid":5,"Wrap":12,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":18,"Searchable":false,"Bindable":false,"Action":"FormOnLoad","IsSaveWidget":0,"BindingDetail":"[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\"}]","DCaption":"","__idx":0,"_id":"EE6EE0E1-A977-4637-8DCA-F40012733AD2_1_0"}}  >
         <PageHeader key="97F721FA-E193-4A5D-BFFC-84ECF95E8032_2_1" element={{"VersionName":"Medium","Id":2,"uielementid":"97F721FA-E193-4A5D-BFFC-84ECF95E8032","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":2,"Css":"page-header page-header-light shadow mb-3","IsBadge":false,"MaxValue":100,"CurrValue":10,"ElementId":"","UIElementid":"97F721FA-E193-4A5D-BFFC-84ECF95E8032","Sequence":1,"ElementName":"UI_ProjectCreation","ParentElementId":"EE6EE0E1-A977-4637-8DCA-F40012733AD2","ControlType":"Page Header","uielementtypeid":21,"Wrap":12,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":30,"Searchable":false,"Bindable":false,"IsSaveWidget":0,"BindingDetail":"","__idx":1,"_id":"97F721FA-E193-4A5D-BFFC-84ECF95E8032_2_1"}}  />
         <Div key="9F9C3E37-F494-4B51-88EC-9B4B003028D6_3_2" element={{"VersionName":"Medium","Id":3,"uielementid":"9F9C3E37-F494-4B51-88EC-9B4B003028D6","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":2,"Css":"content","IsBadge":false,"MaxValue":100,"CurrValue":10,"ElementId":"","UIElementid":"9F9C3E37-F494-4B51-88EC-9B4B003028D6","Sequence":2,"ElementName":"UI_Div","ParentElementId":"EE6EE0E1-A977-4637-8DCA-F40012733AD2","ControlType":"Div","uielementtypeid":44,"Wrap":12,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":51,"Searchable":false,"Bindable":false,"IsSaveWidget":0,"BindingDetail":"","__idx":2,"_id":"9F9C3E37-F494-4B51-88EC-9B4B003028D6_3_2"}}  >
           <Row key="64E20829-94B4-4B0B-BD28-45FD0B735173_4_3" element={{"VersionName":"Medium","Id":4,"uielementid":"64E20829-94B4-4B0B-BD28-45FD0B735173","ShowCaption":true,"Fontbold":false,"FontItalic":false,"FontOverline":false,"FontStrikeout":false,"FontUnderline":false,"Depth":3,"Css":"row grid_view","IsBadge":false,"MaxValue":100,"CurrValue":10,"ElementId":"","UIElementid":"64E20829-94B4-4B0B-BD28-45FD0B735173","Sequence":1,"ElementName":"UI_Row","ParentElementId":"9F9C3E37-F494-4B51-88EC-9B4B003028D6","ControlType":"Row","uielementtypeid":11,"Wrap":12,"EnableDFS":false,"ClearFix":false,"OnDemandLoad":false,"IsLastStep":false,"EnableValidation":false,"Buttons":false,"Legend":false,"NavigationNumbers":false,"ControlId":23,"Searchable":false,"Bindable":false,"IsSaveWidget":0,"BindingDetail":"","__idx":3,"_id":"64E20829-94B4-4B0B-BD28-45FD0B735173_4_3"}}  >
@@ -371,4 +371,4 @@ const ProjectCreationfromAutomation_VIEW-2 = ({
   );
 };
 
-export default ProjectCreationfromAutomation_VIEW-2;
+export default ProjectCreationfromAutomation_VIEW2;

@@ -144,7 +144,7 @@ namespace CPS.Proof.DFSExtension
 
                         object objectvalue = null;
 
-                        if (refParams.ContainsKey(item1.ElementName))
+                        if (refParams != null && refParams.ContainsKey(item1.ElementName))
                         {
                             objectvalue = refParams[item1.ElementName].Value;
 
@@ -160,6 +160,8 @@ namespace CPS.Proof.DFSExtension
                         else
                         {
 
+                            if(refParams==null)
+                                refParams = new Dictionary<string, ServiceElementData>();
 
                             refParams.Add(item1.ElementName, new ServiceElementData
                             {

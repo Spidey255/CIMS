@@ -5,7 +5,7 @@ export const DataElementsData = [
     "Id": 1,
     "WidgetId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
     "uielementid": "EE6EE0E1-A977-4637-8DCA-F40012733AD2",
-    "WidgetName": "ProjectCreationfromAutomation_Root_VIEW-2.Json",
+    "WidgetName": "ProjectCreationfromAutomation_Root_VIEW2.Json",
     "ShowCaption": false,
     "Fontbold": false,
     "FontItalic": false,
