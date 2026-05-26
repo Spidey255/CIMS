@@ -39,7 +39,7 @@ namespace CPS.Proof.DFSExtension
 
         /// <summary>
         /// Represents the constructor that creates an instance
-        /// of TravelSettlement Controller.
+        /// of TempAdvance Controller.
         /// </summary>
         /// <param name="configuration">
         /// A <see cref="IConfiguration"/> that holds  
@@ -125,13 +125,6 @@ namespace CPS.Proof.DFSExtension
                                             virtualpageinstance._objectFactory = objectFactoryProjectCreationfromAutomation;
                                             break;
 
-                                     case "08c9de00-05b0-4b62-aa5e-1dbada1b9158":   var  objectFactoryProjectOverview=new ProjectOverviewObjectFactory();
-                                             virtualpageinstance = objectFactoryProjectOverview.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-
-                                            virtualpageinstance._objectFactory = objectFactoryProjectOverview;
-                                            break;
-
                                      case "64C42232-67DB-43B8-8B68-4468FE0DD17F":   var  objectFactoryProjectFundInstallment=new ProjectFundInstallmentObjectFactory();
                                              virtualpageinstance = objectFactoryProjectFundInstallment.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
@@ -151,20 +144,6 @@ namespace CPS.Proof.DFSExtension
                                                         (context.ProcessActivityMapId);
 
                                             virtualpageinstance._objectFactory = objectFactoryTempAdvance;
-                                            break;
-
-                                     case "654C8734-EE30-4F33-B278-659E77BFDD71":   var  objectFactoryTravelRequest=new TravelRequestObjectFactory();
-                                             virtualpageinstance = objectFactoryTravelRequest.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-
-                                            virtualpageinstance._objectFactory = objectFactoryTravelRequest;
-                                            break;
-
-                                     case "AC69E996-4AE4-4D34-829F-4DFC7F63582C":   var  objectFactoryTravelSettlement=new TravelSettlementObjectFactory();
-                                             virtualpageinstance = objectFactoryTravelSettlement.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-
-                                            virtualpageinstance._objectFactory = objectFactoryTravelSettlement;
                                             break;
 
                  
@@ -497,12 +476,6 @@ namespace CPS.Proof.DFSExtension
                                             virtualpageinstance._objectFactory = objectFactoryProjectCreationfromAutomation;
                                             break;
 
-                                     case "08c9de00-05b0-4b62-aa5e-1dbada1b9158":   var  objectFactoryProjectOverview=new ProjectOverviewObjectFactory();
-                                             virtualpageinstance = objectFactoryProjectOverview.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-                                            virtualpageinstance._objectFactory = objectFactoryProjectOverview;
-                                            break;
-
                                      case "64C42232-67DB-43B8-8B68-4468FE0DD17F":   var  objectFactoryProjectFundInstallment=new ProjectFundInstallmentObjectFactory();
                                              virtualpageinstance = objectFactoryProjectFundInstallment.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
@@ -519,18 +492,6 @@ namespace CPS.Proof.DFSExtension
                                              virtualpageinstance = objectFactoryTempAdvance.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
                                             virtualpageinstance._objectFactory = objectFactoryTempAdvance;
-                                            break;
-
-                                     case "654C8734-EE30-4F33-B278-659E77BFDD71":   var  objectFactoryTravelRequest=new TravelRequestObjectFactory();
-                                             virtualpageinstance = objectFactoryTravelRequest.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-                                            virtualpageinstance._objectFactory = objectFactoryTravelRequest;
-                                            break;
-
-                                     case "AC69E996-4AE4-4D34-829F-4DFC7F63582C":   var  objectFactoryTravelSettlement=new TravelSettlementObjectFactory();
-                                             virtualpageinstance = objectFactoryTravelSettlement.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-                                            virtualpageinstance._objectFactory = objectFactoryTravelSettlement;
                                             break;
 
                  
@@ -780,18 +741,6 @@ namespace CPS.Proof.DFSExtension
                                             break;
                    
                                     
-                    case "08c9de00-05b0-4b62-aa5e-1dbada1b9158":   
-                                             foreach (var item in context.Params)
-                                             {
-                                            var  objectFactoryProjectOverview=new ProjectOverviewObjectFactory();
-                                             combosource = objectFactoryProjectOverview.GetComboDataSource
-                                                        (item.ElementName);  
-                                             if (combosource != null)
-                                break;
-                                             }
-                                            break;
-                   
-                                    
                     case "64C42232-67DB-43B8-8B68-4468FE0DD17F":   
                                              foreach (var item in context.Params)
                                              {
@@ -821,30 +770,6 @@ namespace CPS.Proof.DFSExtension
                                              {
                                             var  objectFactoryTempAdvance=new TempAdvanceObjectFactory();
                                              combosource = objectFactoryTempAdvance.GetComboDataSource
-                                                        (item.ElementName);  
-                                             if (combosource != null)
-                                break;
-                                             }
-                                            break;
-                   
-                                    
-                    case "654C8734-EE30-4F33-B278-659E77BFDD71":   
-                                             foreach (var item in context.Params)
-                                             {
-                                            var  objectFactoryTravelRequest=new TravelRequestObjectFactory();
-                                             combosource = objectFactoryTravelRequest.GetComboDataSource
-                                                        (item.ElementName);  
-                                             if (combosource != null)
-                                break;
-                                             }
-                                            break;
-                   
-                                    
-                    case "AC69E996-4AE4-4D34-829F-4DFC7F63582C":   
-                                             foreach (var item in context.Params)
-                                             {
-                                            var  objectFactoryTravelSettlement=new TravelSettlementObjectFactory();
-                                             combosource = objectFactoryTravelSettlement.GetComboDataSource
                                                         (item.ElementName);  
                                              if (combosource != null)
                                 break;
@@ -1065,21 +990,6 @@ namespace CPS.Proof.DFSExtension
 
                                             break;
 
-                                     case "08c9de00-05b0-4b62-aa5e-1dbada1b9158":    var elementFactoryProjectOverview=new ProjectOverviewDataElementFactory();       
-                                           
-                                             if(context.Action=="GridSave")
-                                            {
-                                                insertQuery = elementFactoryProjectOverview.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId,token.UMID, formjsonData);
-                                            }
-                                            else
-                                            {
-                                                insertQuery=elementFactoryProjectOverview.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId, token.UMID, formjsonData);
-                                            }
-
-                                            break;
-
                                      case "64C42232-67DB-43B8-8B68-4468FE0DD17F":    var elementFactoryProjectFundInstallment=new ProjectFundInstallmentDataElementFactory();       
                                            
                                              if(context.Action=="GridSave")
@@ -1120,36 +1030,6 @@ namespace CPS.Proof.DFSExtension
                                             else
                                             {
                                                 insertQuery=elementFactoryTempAdvance.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId, token.UMID, formjsonData);
-                                            }
-
-                                            break;
-
-                                     case "654C8734-EE30-4F33-B278-659E77BFDD71":    var elementFactoryTravelRequest=new TravelRequestDataElementFactory();       
-                                           
-                                             if(context.Action=="GridSave")
-                                            {
-                                                insertQuery = elementFactoryTravelRequest.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId,token.UMID, formjsonData);
-                                            }
-                                            else
-                                            {
-                                                insertQuery=elementFactoryTravelRequest.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId, token.UMID, formjsonData);
-                                            }
-
-                                            break;
-
-                                     case "AC69E996-4AE4-4D34-829F-4DFC7F63582C":    var elementFactoryTravelSettlement=new TravelSettlementDataElementFactory();       
-                                           
-                                             if(context.Action=="GridSave")
-                                            {
-                                                insertQuery = elementFactoryTravelSettlement.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId,token.UMID, formjsonData);
-                                            }
-                                            else
-                                            {
-                                                insertQuery=elementFactoryTravelSettlement.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
                                                     context.WidgetId, token.UMID, formjsonData);
                                             }
 

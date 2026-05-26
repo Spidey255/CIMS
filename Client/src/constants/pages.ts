@@ -1,6 +1,6 @@
 // Innovace Intech Solution Pvt Ltd
 // ⚠️ AUTO-GENERATED FILE – DO NOT EDIT
-// Generated on 2026-05-26T15:40:08.663Z
+// Generated on 2026-05-26T15:50:04.624Z
 
 export const pages = [
   {
@@ -16,18 +16,6 @@ export const pages = [
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectReimbursement_ViewActivity"
   },
   {
-    "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",
-    "ProcessActivityMapId": "A6341F06-0394-4CAA-88D0-B7B36027AF06",
-    "ProcessName": "TravelRequest",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequest_Registrar"
-  },
-  {
-    "PackageProcessMapId": "08c9de00-05b0-4b62-aa5e-1dbada1b9158",
-    "ProcessActivityMapId": "585BA2B8-3E75-4DAB-B50B-10D8320CE414",
-    "ProcessName": "ProjectOverview",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectOverview_Start"
-  },
-  {
     "PackageProcessMapId": "64C42232-67DB-43B8-8B68-4468FE0DD17F",
     "ProcessActivityMapId": "2B40E332-9840-42E3-8DDC-002EAFAA05FA",
     "ProcessName": "ProjectFundInstallment",
@@ -38,12 +26,6 @@ export const pages = [
     "ProcessActivityMapId": "34CF8FAF-7574-478F-9C4A-A65F98E4D18A",
     "ProcessName": "ProjectsExplorer",
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start"
-  },
-  {
-    "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",
-    "ProcessActivityMapId": "CFA9B7B2-8CF5-4389-B203-8EA7C779EE9A",
-    "ProcessName": "TravelRequest",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequest_ARRD"
   },
   {
     "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
@@ -68,18 +50,6 @@ export const pages = [
     "ProcessActivityMapId": "B3A49337-4C4B-42EC-9F9B-1C4C8B4E2E13",
     "ProcessName": "ProjectProposal",
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectProposal_Start"
-  },
-  {
-    "PackageProcessMapId": "AC69E996-4AE4-4D34-829F-4DFC7F63582C",
-    "ProcessActivityMapId": "0d7fa7ef-8c70-66b3-f172-1782236c8888",
-    "ProcessName": "TravelSettlement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlement_AdditionalDetails"
-  },
-  {
-    "PackageProcessMapId": "AC69E996-4AE4-4D34-829F-4DFC7F63582C",
-    "ProcessActivityMapId": "0D9E568F-8790-489D-A846-3C6057A39268",
-    "ProcessName": "TravelSettlement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlement_PIInitiation"
   },
   {
     "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
@@ -118,46 +88,10 @@ export const pages = [
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectFundInstallment_View0"
   },
   {
-    "PackageProcessMapId": "AC69E996-4AE4-4D34-829F-4DFC7F63582C",
-    "ProcessActivityMapId": "7d998690-8c45-0a15-1172-1969d4aafed7",
-    "ProcessName": "TravelSettlement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlement_RDOfficePayments"
-  },
-  {
-    "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",
-    "ProcessActivityMapId": "AAB05128-7AAE-4A99-8278-465822CE1E85",
-    "ProcessName": "TravelRequest",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequest_PIInitiation"
-  },
-  {
-    "PackageProcessMapId": "AC69E996-4AE4-4D34-829F-4DFC7F63582C",
-    "ProcessActivityMapId": "9ec85095-8919-e8ab-735a-7e71991b7d9d",
-    "ProcessName": "TravelSettlement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlement_ViewActivity"
-  },
-  {
     "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
     "ProcessActivityMapId": "9FE779D2-129C-47A2-B87D-173C6AFE51CB",
     "ProcessName": "TempAdvance",
     "RoutPath": "PRJ20251020000000025-R&DProjects/TempAdvance_Registrar"
-  },
-  {
-    "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",
-    "ProcessActivityMapId": "CE310762-909A-4A90-A266-630580753EC6",
-    "ProcessName": "TravelRequest",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequest_RDOfficeverification"
-  },
-  {
-    "PackageProcessMapId": "AC69E996-4AE4-4D34-829F-4DFC7F63582C",
-    "ProcessActivityMapId": "F4BD3F24-901C-43AB-8607-4D7817A2621C",
-    "ProcessName": "TravelSettlement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlement_RDOfficeverification"
-  },
-  {
-    "PackageProcessMapId": "AC69E996-4AE4-4D34-829F-4DFC7F63582C",
-    "ProcessActivityMapId": "F5D55501-419C-4E8D-97D9-EFE380D7D47D",
-    "ProcessName": "TravelSettlement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlement_ARRD"
   },
   {
     "PackageProcessMapId": "026e321e-9bb7-4c74-8615-3bbd7cc1b241",
@@ -208,40 +142,10 @@ export const pages = [
     "RoutPath": "PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start"
   },
   {
-    "PackageProcessMapId": "AC69E996-4AE4-4D34-829F-4DFC7F63582C",
-    "ProcessActivityMapId": "8e7d1be4-e590-2705-0245-3782073ff3d2",
-    "ProcessName": "TravelSettlement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlement_RDDean"
-  },
-  {
-    "PackageProcessMapId": "AC69E996-4AE4-4D34-829F-4DFC7F63582C",
-    "ProcessActivityMapId": "4a093f4e-d96c-27c0-87db-6b043aed97dc",
-    "ProcessName": "TravelSettlement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlement_Registrar"
-  },
-  {
-    "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",
-    "ProcessActivityMapId": "B26F9122-89B2-4163-B938-37AD78E21338",
-    "ProcessName": "TravelRequest",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequest_RDOfficePayments"
-  },
-  {
-    "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",
-    "ProcessActivityMapId": "5E4661C9-726C-4AD7-A457-7C4A84E9192D",
-    "ProcessName": "TravelRequest",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequest_AdditionalDetails"
-  },
-  {
     "PackageProcessMapId": "64C42232-67DB-43B8-8B68-4468FE0DD17F",
     "ProcessActivityMapId": "FF2ED876-20AB-4F5D-B62B-385405DFB900",
     "ProcessName": "ProjectFundInstallment",
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectFundInstallment_RDOffice"
-  },
-  {
-    "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",
-    "ProcessActivityMapId": "C9900B03-EFE6-417C-9C4E-A09EA54B60FD",
-    "ProcessName": "TravelRequest",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequest_RDDean"
   },
   {
     "PackageProcessMapId": "64C42232-67DB-43B8-8B68-4468FE0DD17F",
@@ -254,12 +158,6 @@ export const pages = [
     "ProcessActivityMapId": "DFE5FDDD-AC9D-4714-A581-68E139EAC447",
     "ProcessName": "ProjectReimbursement",
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectReimbursement_AdditionalDetails"
-  },
-  {
-    "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",
-    "ProcessActivityMapId": "70C5DBA7-4D0C-4BCD-914F-B3C755F174E2",
-    "ProcessName": "TravelRequest",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequest_ViewActivity"
   },
   {
     "PackageProcessMapId": "B1037B85-D9C1-411B-87DE-0658365B81A8",
