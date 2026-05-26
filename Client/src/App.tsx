@@ -17,6 +17,7 @@ import { SidebarProvider } from "@/layout/SideBar/SidebarContext";
 import { useUserStore } from "@/store/useUserStore";
 
 
+import ProjectOverview_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectOverview_Start";
 import ProjectsExplorer_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start";
 import ProjectProposal_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_Start";
 import ProjectCreationfromAutomation_VIEW1 from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW1";
@@ -86,6 +87,7 @@ const App: React.FC = () => {
           <MainLayout />
         </SidebarProvider>
       }>
+        <Route path="/PRJ20251020000000025-R&DProjects/ProjectOverview_Start" element={<ProjectOverview_Start />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start" element={<ProjectsExplorer_Start />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_Start" element={<ProjectProposal_Start />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW1" element={<ProjectCreationfromAutomation_VIEW1 />} />

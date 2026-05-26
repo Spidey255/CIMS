@@ -1435,6 +1435,107 @@ namespace CPS.Proof.DFSExtension
                         }
                 
                        
+                      case "30511266-0219-45B2-9647-28B8A4C85D86":
+                    {
+                     
+                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [30511266-0219-45B2-9647-28B8A4C85D86] WHERE InstanceId='{0}' AND
+							ProcessActivityMapId='{1}' AND FormId='{2}') BEGIN INSERT INTO [30511266-0219-45B2-9647-28B8A4C85D86](ProcessActivityMapId,FormId,MF_ProjectCommitments_GridRows,MF_ProjectCommitments_RecordsRange,MF_ProjectCommitments_PageIndex,MF_ProjectCommitments_TotalPages,MF_V1_ExpenseID,MF_V1_BudgetHead,MF_V1_ProjectDetailsID,MF_V1_PackageProcessMapID,MF_V1_ExpenseDate,MF_V1_AmountSpent,MF_V1_ExpenseDescription,MF_Option,MF_ReceiptsView_GridRows,MF_ReceiptsView_RecordsRange,MF_ReceiptsView_PageIndex,MF_ReceiptsView_TotalPages,MF_P1_ReceiptsId,MF_P1_ProjectDetailsId,MF_P1_ReceiptAmount,MF_P1_ReceiptDate,MF_P1_TransferType,MF_P1_TransferReferenceNumber,MF_P1_TransferReferenceDate,MF_P1_TransferReferenceBankId,MF_P1_TransferReferenceBranch,MF_P1_ReceiptNo,F_ReceiptNo,MF_Budgetdetails_GridRows,MF_Budgetdetails_RecordsRange,MF_Budgetdetails_PageIndex,MF_Budgetdetails_TotalPages,MF_V1_BudgetHeadID,MF_V1_SanctionedAmount,MF_V1_ReceivedAmount,MF_V1_YettoReceive,MF_V1_Spent,MF_V1_Committment,MF_V1_Balance,F_BudgetHeadId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,RefId,F_ProjectDetailsId,MF_PI,MF_COPI,FC_StartDate,FC_EndDate,FC_ProjectNo,FC_ProjectName,FC_AgencyCode,FC_Category,FC_SanctionNo,FC_SanctionedDate,FC_SanctionedValue,InstanceId)
+							VALUES( {3}) END ELSE BEGIN UPDATE [30511266-0219-45B2-9647-28B8A4C85D86]SET {4}WHERE InstanceId='{0}'END ";
+
+                                     colList=@"ProcessActivityMapId,FormId,MF_ProjectCommitments_GridRows,MF_ProjectCommitments_RecordsRange,MF_ProjectCommitments_PageIndex,MF_ProjectCommitments_TotalPages,MF_V1_ExpenseID,MF_V1_BudgetHead,MF_V1_ProjectDetailsID,MF_V1_PackageProcessMapID,MF_V1_ExpenseDate,MF_V1_AmountSpent,MF_V1_ExpenseDescription,MF_Option,MF_ReceiptsView_GridRows,MF_ReceiptsView_RecordsRange,MF_ReceiptsView_PageIndex,MF_ReceiptsView_TotalPages,MF_P1_ReceiptsId,MF_P1_ProjectDetailsId,MF_P1_ReceiptAmount,MF_P1_ReceiptDate,MF_P1_TransferType,MF_P1_TransferReferenceNumber,MF_P1_TransferReferenceDate,MF_P1_TransferReferenceBankId,MF_P1_TransferReferenceBranch,MF_P1_ReceiptNo,F_ReceiptNo,MF_Budgetdetails_GridRows,MF_Budgetdetails_RecordsRange,MF_Budgetdetails_PageIndex,MF_Budgetdetails_TotalPages,MF_V1_BudgetHeadID,MF_V1_SanctionedAmount,MF_V1_ReceivedAmount,MF_V1_YettoReceive,MF_V1_Spent,MF_V1_Committment,MF_V1_Balance,F_BudgetHeadId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,RefId,F_ProjectDetailsId,MF_PI,MF_COPI,FC_StartDate,FC_EndDate,FC_ProjectNo,FC_ProjectName,FC_AgencyCode,FC_Category,FC_SanctionNo,FC_SanctionedDate,FC_SanctionedValue,InstanceId";
+                                    
+                     
+                            splitcols = colList.Split(',');
+
+                            if (splitcols.Length <= 0)
+                                return null;
+
+                            var parentObject = JObject.Parse(formJsonData);
+
+
+                            foreach (var fcol in splitcols)
+                            {
+                                if (fcol == "InstanceId")
+                                {
+                                    colValues += "'" + instanceId + "',";
+
+                                    continue;
+
+                                }
+
+                                else if (fcol == "ProcessActivityMapId")
+                                {
+                                    colValues += "'" + processActivityMapId + "',";
+                                    continue;
+                                }
+
+                                else if (fcol == "FormId")
+                                {
+                                    colValues += "'" + formId + "',";
+                                    continue;
+                                }
+
+                                bool isFound = false;
+
+                                foreach(var childObject in (JArray)parentObject["Child"])
+                                {
+
+                                    if (childObject["ElementName"].ToString() == fcol)
+                                    {
+                                        isFound = true;
+
+                                         if (childObject["Value"] == null)
+                                        {
+                                          
+                                            colValues += "null,";
+                                            UpdatecolValues += fcol + "=" + "null,";
+                                            break;
+                                        }
+
+                                        switch (Convert.ToInt32(childObject["EDT"]))
+                                        {
+                                            case 8:
+                                            case 9:
+                                                colValues += "'" + childObject["Value"].ToString() + "',";
+                                                UpdatecolValues+=fcol+"="+"'" + childObject["Value"].ToString() + "',";
+                                                break;
+
+                                            default:
+                                                if (childObject["Value"] != null)
+                                                {
+                                                    colValues += childObject["Value"].ToString() + ",";
+                                                    UpdatecolValues += fcol + "=" + childObject["Value"].ToString() + ",";
+                                                }
+                                                else
+                                                {
+                                                    colValues += "null,";
+                                                    UpdatecolValues += fcol + "=" + "null,";
+                                                }
+                                                 break;
+                                        }
+
+                                       
+                                    }
+                                }
+
+                                 if(!isFound)
+                                {
+                                    colValues += "null,";
+                                    UpdatecolValues += fcol + "=" + "null,";
+                                }
+
+                            }
+                            colValues = colValues.Remove(colValues.Length - 1);
+                            UpdatecolValues = UpdatecolValues.Remove(colValues.Length - 1);
+
+                            fInsertQuery =  string.Format(fInsertQuery,instanceId,processActivityMapId,formId, colValues,UpdatecolValues);
+
+                            colValues = string.Empty;
+
+                            break;
+                        }
+                
+                       
                                
 
                  }
@@ -2907,6 +3008,336 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
                      
+                                    case "4610BDD7-5FC0-4CA5-8EA2-5F96FD5C198A":
+                    {
+                     
+                                     gInsertQuery=@"
+		
+		DECLARE  @TBL_4610BDD75FC04CA58EA25F96FD5C198A AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MGG_P1_ReceiptsId] VARCHAR(MAX)	, [MGG_P1_ProjectDetailsId] VARCHAR(MAX)	, [MGG_P1_ReceiptAmount] DECIMAL(18,2)	, [MGG_P1_ReceiptDate] DATETIME	, [MGG_P1_TransferType] VARCHAR(MAX)	, [MGG_P1_TransferReferenceNumber] VARCHAR(MAX)	, [MGG_P1_TransferReferenceDate] DATETIME	, [MGG_P1_TransferReferenceBankId] VARCHAR(MAX)	, [MGG_P1_TransferReferenceBranch] VARCHAR(MAX)	, [MGG_P1_ReceiptNo] VARCHAR(MAX)){0}INSERT INTO [4610BDD7-5FC0-4CA5-8EA2-5F96FD5C198A](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_P1_ReceiptsId,MGG_P1_ProjectDetailsId,MGG_P1_ReceiptAmount,MGG_P1_ReceiptDate,MGG_P1_TransferType,MGG_P1_TransferReferenceNumber,MGG_P1_TransferReferenceDate,MGG_P1_TransferReferenceBankId,MGG_P1_TransferReferenceBranch,MGG_P1_ReceiptNo)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MGG_P1_ReceiptsId,TDT.MGG_P1_ProjectDetailsId,TDT.MGG_P1_ReceiptAmount,TDT.MGG_P1_ReceiptDate,TDT.MGG_P1_TransferType,TDT.MGG_P1_TransferReferenceNumber,TDT.MGG_P1_TransferReferenceDate,TDT.MGG_P1_TransferReferenceBankId,TDT.MGG_P1_TransferReferenceBranch,TDT.MGG_P1_ReceiptNo FROM @TBL_4610BDD75FC04CA58EA25F96FD5C198A TDT
+							LEFT JOIN [4610BDD7-5FC0-4CA5-8EA2-5F96FD5C198A] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MGG_P1_ReceiptsId=TDT.MGG_P1_ReceiptsId,MGG_P1_ProjectDetailsId=TDT.MGG_P1_ProjectDetailsId,MGG_P1_ReceiptAmount=TDT.MGG_P1_ReceiptAmount,MGG_P1_ReceiptDate=TDT.MGG_P1_ReceiptDate,MGG_P1_TransferType=TDT.MGG_P1_TransferType,MGG_P1_TransferReferenceNumber=TDT.MGG_P1_TransferReferenceNumber,MGG_P1_TransferReferenceDate=TDT.MGG_P1_TransferReferenceDate,MGG_P1_TransferReferenceBankId=TDT.MGG_P1_TransferReferenceBankId,MGG_P1_TransferReferenceBranch=TDT.MGG_P1_TransferReferenceBranch,MGG_P1_ReceiptNo=TDT.MGG_P1_ReceiptNo FROM @TBL_4610BDD75FC04CA58EA25F96FD5C198A TDT
+							JOIN [4610BDD7-5FC0-4CA5-8EA2-5F96FD5C198A] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId";
+
+                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_P1_ReceiptsId,MGG_P1_ProjectDetailsId,MGG_P1_ReceiptAmount,MGG_P1_ReceiptDate,MGG_P1_TransferType,MGG_P1_TransferReferenceNumber,MGG_P1_TransferReferenceDate,MGG_P1_TransferReferenceBankId,MGG_P1_TransferReferenceBranch,MGG_P1_ReceiptNo";
+
+                                     tempInsertQuery=@"INSERT INTO @TBL_4610BDD75FC04CA58EA25F96FD5C198A(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_P1_ReceiptsId,MGG_P1_ProjectDetailsId,MGG_P1_ReceiptAmount,MGG_P1_ReceiptDate,MGG_P1_TransferType,MGG_P1_TransferReferenceNumber,MGG_P1_TransferReferenceDate,MGG_P1_TransferReferenceBankId,MGG_P1_TransferReferenceBranch,MGG_P1_ReceiptNo)VALUES({0});";
+                                     
+
+                            splitcols = colList.Split(',');
+
+                            if(splitcols.Length<=0)
+                                return null;
+
+                            var parentObject = JObject.Parse(formJsonData)["Child"];
+
+                            for (int i = 0; i < ((JArray)parentObject).Count; i++)
+                            {
+
+                            JObject childObject = (JObject)parentObject[i];
+
+                            var gridRow = childObject["Child"];
+
+
+                        
+                            foreach (var gcol in splitcols)
+                            {
+                                if (gcol == "InstanceId")
+                                {
+                                    colValues += "'" + instanceId + "',";
+
+                                    continue;
+
+                                }
+
+                                else if (gcol == "ProcessActivityMapId")
+                                {
+                                    colValues += "'" + processActivityMapId + "',";
+                                    continue;
+                            }
+
+                            else if (gcol == "GridId")
+                            {
+                                    colValues += "'" + gridId + "',";
+                                continue;
+                            }                               
+                            else if(gcol=="Sequence")
+                            {
+                                colValues += childObject["SEQ"]+",";
+                                continue;
+                            }
+                             else if(gcol=="RowId")
+                            {
+                                colValues +="'" + childObject["RwId"]+"',";
+                                continue;
+                            }
+
+                            bool isFound = false;
+
+                            foreach (var gitem in gridRow)
+                            {                               
+
+                                if (gitem["ElementName"].ToString() == gcol)
+                                {
+                                    isFound = true;
+
+                                    if (gitem["Value"] == null)
+                                    {
+                                        colValues += "null,";
+                                        break;
+                                    }
+
+                                    switch(Convert.ToInt32(gitem["EDT"]))
+                                    {
+                                        case 8:
+                                        case 9:
+                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                                break;
+
+                                        default:
+                                            colValues += gitem["Value"].ToString() + ",";
+                                            break;
+                                    }                                    
+                                }                                 
+                            }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+                                        
+                                    }
+                            
+                        }
+                                 colValues=colValues.Remove(colValues.Length - 1);
+
+                                 bulkInsertQuery=bulkInsertQuery+ string.Format(tempInsertQuery, colValues);
+
+                                 colValues=string.Empty;
+                        }
+                        }
+                        break;
+                     
+                                    case "A5CB07C2-D023-40F7-AF8D-FFF3CE6738DA":
+                    {
+                     
+                                     gInsertQuery=@"
+		
+		DECLARE  @TBL_A5CB07C2D02340F7AF8DFFF3CE6738DA AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MGG_V1_BudgetHeadID] VARCHAR(MAX)	, [MGG_V1_SanctionedAmount] DECIMAL(18,2)	, [MGG_V1_ReceivedAmount] DECIMAL(18,2)	, [MGG_V1_YettoReceive] DECIMAL(18,2)	, [MGG_V1_Spent] DECIMAL(18,2)	, [MGG_V1_Committment] DECIMAL(18,2)	, [MGG_V1_Balance] DECIMAL(18,2)){0}INSERT INTO [A5CB07C2-D023-40F7-AF8D-FFF3CE6738DA](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_BudgetHeadID,MGG_V1_SanctionedAmount,MGG_V1_ReceivedAmount,MGG_V1_YettoReceive,MGG_V1_Spent,MGG_V1_Committment,MGG_V1_Balance)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MGG_V1_BudgetHeadID,TDT.MGG_V1_SanctionedAmount,TDT.MGG_V1_ReceivedAmount,TDT.MGG_V1_YettoReceive,TDT.MGG_V1_Spent,TDT.MGG_V1_Committment,TDT.MGG_V1_Balance FROM @TBL_A5CB07C2D02340F7AF8DFFF3CE6738DA TDT
+							LEFT JOIN [A5CB07C2-D023-40F7-AF8D-FFF3CE6738DA] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MGG_V1_BudgetHeadID=TDT.MGG_V1_BudgetHeadID,MGG_V1_SanctionedAmount=TDT.MGG_V1_SanctionedAmount,MGG_V1_ReceivedAmount=TDT.MGG_V1_ReceivedAmount,MGG_V1_YettoReceive=TDT.MGG_V1_YettoReceive,MGG_V1_Spent=TDT.MGG_V1_Spent,MGG_V1_Committment=TDT.MGG_V1_Committment,MGG_V1_Balance=TDT.MGG_V1_Balance FROM @TBL_A5CB07C2D02340F7AF8DFFF3CE6738DA TDT
+							JOIN [A5CB07C2-D023-40F7-AF8D-FFF3CE6738DA] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId";
+
+                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_BudgetHeadID,MGG_V1_SanctionedAmount,MGG_V1_ReceivedAmount,MGG_V1_YettoReceive,MGG_V1_Spent,MGG_V1_Committment,MGG_V1_Balance";
+
+                                     tempInsertQuery=@"INSERT INTO @TBL_A5CB07C2D02340F7AF8DFFF3CE6738DA(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_BudgetHeadID,MGG_V1_SanctionedAmount,MGG_V1_ReceivedAmount,MGG_V1_YettoReceive,MGG_V1_Spent,MGG_V1_Committment,MGG_V1_Balance)VALUES({0});";
+                                     
+
+                            splitcols = colList.Split(',');
+
+                            if(splitcols.Length<=0)
+                                return null;
+
+                            var parentObject = JObject.Parse(formJsonData)["Child"];
+
+                            for (int i = 0; i < ((JArray)parentObject).Count; i++)
+                            {
+
+                            JObject childObject = (JObject)parentObject[i];
+
+                            var gridRow = childObject["Child"];
+
+
+                        
+                            foreach (var gcol in splitcols)
+                            {
+                                if (gcol == "InstanceId")
+                                {
+                                    colValues += "'" + instanceId + "',";
+
+                                    continue;
+
+                                }
+
+                                else if (gcol == "ProcessActivityMapId")
+                                {
+                                    colValues += "'" + processActivityMapId + "',";
+                                    continue;
+                            }
+
+                            else if (gcol == "GridId")
+                            {
+                                    colValues += "'" + gridId + "',";
+                                continue;
+                            }                               
+                            else if(gcol=="Sequence")
+                            {
+                                colValues += childObject["SEQ"]+",";
+                                continue;
+                            }
+                             else if(gcol=="RowId")
+                            {
+                                colValues +="'" + childObject["RwId"]+"',";
+                                continue;
+                            }
+
+                            bool isFound = false;
+
+                            foreach (var gitem in gridRow)
+                            {                               
+
+                                if (gitem["ElementName"].ToString() == gcol)
+                                {
+                                    isFound = true;
+
+                                    if (gitem["Value"] == null)
+                                    {
+                                        colValues += "null,";
+                                        break;
+                                    }
+
+                                    switch(Convert.ToInt32(gitem["EDT"]))
+                                    {
+                                        case 8:
+                                        case 9:
+                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                                break;
+
+                                        default:
+                                            colValues += gitem["Value"].ToString() + ",";
+                                            break;
+                                    }                                    
+                                }                                 
+                            }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+                                        
+                                    }
+                            
+                        }
+                                 colValues=colValues.Remove(colValues.Length - 1);
+
+                                 bulkInsertQuery=bulkInsertQuery+ string.Format(tempInsertQuery, colValues);
+
+                                 colValues=string.Empty;
+                        }
+                        }
+                        break;
+                     
+                                    case "6D81F5D4-0044-4EEC-8869-E22464BC04F3":
+                    {
+                     
+                                     gInsertQuery=@"
+		
+		DECLARE  @TBL_6D81F5D400444EEC8869E22464BC04F3 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MGG_V1_ExpenseID] VARCHAR(MAX)	, [MGG_V1_BudgetHead] VARCHAR(MAX)	, [MGG_V1_ProjectDetailsID] VARCHAR(MAX)	, [MGG_V1_PackageProcessMapID] VARCHAR(MAX)	, [MGG_V1_ExpenseDate] DATETIME	, [MGG_V1_AmountSpent] DECIMAL(18,2)	, [MGG_V1_ExpenseDescription] VARCHAR(MAX)){0}INSERT INTO [6D81F5D4-0044-4EEC-8869-E22464BC04F3](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_ExpenseID,MGG_V1_BudgetHead,MGG_V1_ProjectDetailsID,MGG_V1_PackageProcessMapID,MGG_V1_ExpenseDate,MGG_V1_AmountSpent,MGG_V1_ExpenseDescription)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MGG_V1_ExpenseID,TDT.MGG_V1_BudgetHead,TDT.MGG_V1_ProjectDetailsID,TDT.MGG_V1_PackageProcessMapID,TDT.MGG_V1_ExpenseDate,TDT.MGG_V1_AmountSpent,TDT.MGG_V1_ExpenseDescription FROM @TBL_6D81F5D400444EEC8869E22464BC04F3 TDT
+							LEFT JOIN [6D81F5D4-0044-4EEC-8869-E22464BC04F3] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MGG_V1_ExpenseID=TDT.MGG_V1_ExpenseID,MGG_V1_BudgetHead=TDT.MGG_V1_BudgetHead,MGG_V1_ProjectDetailsID=TDT.MGG_V1_ProjectDetailsID,MGG_V1_PackageProcessMapID=TDT.MGG_V1_PackageProcessMapID,MGG_V1_ExpenseDate=TDT.MGG_V1_ExpenseDate,MGG_V1_AmountSpent=TDT.MGG_V1_AmountSpent,MGG_V1_ExpenseDescription=TDT.MGG_V1_ExpenseDescription FROM @TBL_6D81F5D400444EEC8869E22464BC04F3 TDT
+							JOIN [6D81F5D4-0044-4EEC-8869-E22464BC04F3] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId";
+
+                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_ExpenseID,MGG_V1_BudgetHead,MGG_V1_ProjectDetailsID,MGG_V1_PackageProcessMapID,MGG_V1_ExpenseDate,MGG_V1_AmountSpent,MGG_V1_ExpenseDescription";
+
+                                     tempInsertQuery=@"INSERT INTO @TBL_6D81F5D400444EEC8869E22464BC04F3(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_ExpenseID,MGG_V1_BudgetHead,MGG_V1_ProjectDetailsID,MGG_V1_PackageProcessMapID,MGG_V1_ExpenseDate,MGG_V1_AmountSpent,MGG_V1_ExpenseDescription)VALUES({0});";
+                                     
+
+                            splitcols = colList.Split(',');
+
+                            if(splitcols.Length<=0)
+                                return null;
+
+                            var parentObject = JObject.Parse(formJsonData)["Child"];
+
+                            for (int i = 0; i < ((JArray)parentObject).Count; i++)
+                            {
+
+                            JObject childObject = (JObject)parentObject[i];
+
+                            var gridRow = childObject["Child"];
+
+
+                        
+                            foreach (var gcol in splitcols)
+                            {
+                                if (gcol == "InstanceId")
+                                {
+                                    colValues += "'" + instanceId + "',";
+
+                                    continue;
+
+                                }
+
+                                else if (gcol == "ProcessActivityMapId")
+                                {
+                                    colValues += "'" + processActivityMapId + "',";
+                                    continue;
+                            }
+
+                            else if (gcol == "GridId")
+                            {
+                                    colValues += "'" + gridId + "',";
+                                continue;
+                            }                               
+                            else if(gcol=="Sequence")
+                            {
+                                colValues += childObject["SEQ"]+",";
+                                continue;
+                            }
+                             else if(gcol=="RowId")
+                            {
+                                colValues +="'" + childObject["RwId"]+"',";
+                                continue;
+                            }
+
+                            bool isFound = false;
+
+                            foreach (var gitem in gridRow)
+                            {                               
+
+                                if (gitem["ElementName"].ToString() == gcol)
+                                {
+                                    isFound = true;
+
+                                    if (gitem["Value"] == null)
+                                    {
+                                        colValues += "null,";
+                                        break;
+                                    }
+
+                                    switch(Convert.ToInt32(gitem["EDT"]))
+                                    {
+                                        case 8:
+                                        case 9:
+                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                                break;
+
+                                        default:
+                                            colValues += gitem["Value"].ToString() + ",";
+                                            break;
+                                    }                                    
+                                }                                 
+                            }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+                                        
+                                    }
+                            
+                        }
+                                 colValues=colValues.Remove(colValues.Length - 1);
+
+                                 bulkInsertQuery=bulkInsertQuery+ string.Format(tempInsertQuery, colValues);
+
+                                 colValues=string.Empty;
+                        }
+                        }
+                        break;
+                     
                                  
                  }       
                 
@@ -4250,6 +4681,309 @@ namespace CPS.Proof.DFSExtension
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d154_Duration,MG_d154_SerialNo,MG_d154_Comments,MG_d154_ManpowerPosition,MG_d154_No_OfManpowerPosition,MG_d154_RatePerMonth,MG_d154_HRAPercentage,MG_d154_HRAPerMonth,MG_d154_TotalPerMonth,MG_d154_TotalMonths,MG_d154_TotalCost";
 
                             tempInsertQuery=@"INSERT INTO @TBL_25683F52E21A4CE391967BCFA640A94B(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d154_Duration,MG_d154_SerialNo,MG_d154_Comments,MG_d154_ManpowerPosition,MG_d154_No_OfManpowerPosition,MG_d154_RatePerMonth,MG_d154_HRAPercentage,MG_d154_HRAPerMonth,MG_d154_TotalPerMonth,MG_d154_TotalMonths,MG_d154_TotalCost)VALUES({0});";
+
+                            splitcols = colList.Split(',');
+
+                            if (splitcols.Length <= 0)
+                                return Status.Failure;
+
+                            foreach (var gridChild in gridData[gridName].Child)
+                            {                            
+                                                                                         
+
+
+                                foreach (var gcol in splitcols)
+                                {
+                                    if (gcol == "InstanceId")
+                                    {
+                                        colValues += "'" + instanceId + "',";
+
+                                        continue;
+
+                                    }
+
+                                    else if (gcol == "ProcessActivityMapId")
+                                    {
+                                        colValues += "'" + processActivityMapId + "',";
+                                        continue;
+                                    }
+
+                                    else if (gcol == "GridId")
+                                    {
+                                        colValues += "'" + gridId + "',";
+                                        continue;
+                                    }
+                                    else if (gcol == "Sequence")
+                                    {
+                                        colValues += gridChild.SEQ + ",";
+                                        continue;
+                                    }
+                                    else if (gcol == "RowId")
+                                    {
+                                        colValues += "'" + gridChild.RwId + "',";
+                                        continue;
+                                    }
+
+                                    bool isFound = false;
+
+                                    foreach (var gridrow in gridChild.Child)
+                                    {
+
+                                        if (gridrow.ElementName == gcol)
+                                        {
+                                            isFound = true;
+
+                                            if (gridrow.Value == null)
+                                            {
+                                                colValues += "null,";
+                                                break;
+                                            }
+
+                                            switch (Convert.ToInt32(gridrow.EDT))
+                                            {
+                                                case 8:
+                                                case 9:
+                                                    colValues += "'" + gridrow.Value.ToString() + "',";
+                                                    break;
+
+                                                default:
+                                                    colValues += gridrow.Value.ToString() + ",";
+                                                    break;
+                                            }
+                                        }
+                                    }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+
+                                    }
+
+                                }
+                                colValues = colValues.Remove(colValues.Length - 1);
+
+                                bulkInsertQuery = bulkInsertQuery + string.Format(tempInsertQuery, colValues);
+                            }
+                        }
+                        break;
+
+                                              case "4610BDD7-5FC0-4CA5-8EA2-5F96FD5C198A":
+                    {
+                     
+                            gInsertQuery=@"
+		
+		DECLARE  @TBL_4610BDD75FC04CA58EA25F96FD5C198A AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MGG_P1_ReceiptsId] VARCHAR(MAX)	, [MGG_P1_ProjectDetailsId] VARCHAR(MAX)	, [MGG_P1_ReceiptAmount] DECIMAL(18,2)	, [MGG_P1_ReceiptDate] DATETIME	, [MGG_P1_TransferType] VARCHAR(MAX)	, [MGG_P1_TransferReferenceNumber] VARCHAR(MAX)	, [MGG_P1_TransferReferenceDate] DATETIME	, [MGG_P1_TransferReferenceBankId] VARCHAR(MAX)	, [MGG_P1_TransferReferenceBranch] VARCHAR(MAX)	, [MGG_P1_ReceiptNo] VARCHAR(MAX)){0}INSERT INTO [4610BDD7-5FC0-4CA5-8EA2-5F96FD5C198A](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_P1_ReceiptsId,MGG_P1_ProjectDetailsId,MGG_P1_ReceiptAmount,MGG_P1_ReceiptDate,MGG_P1_TransferType,MGG_P1_TransferReferenceNumber,MGG_P1_TransferReferenceDate,MGG_P1_TransferReferenceBankId,MGG_P1_TransferReferenceBranch,MGG_P1_ReceiptNo)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MGG_P1_ReceiptsId,TDT.MGG_P1_ProjectDetailsId,TDT.MGG_P1_ReceiptAmount,TDT.MGG_P1_ReceiptDate,TDT.MGG_P1_TransferType,TDT.MGG_P1_TransferReferenceNumber,TDT.MGG_P1_TransferReferenceDate,TDT.MGG_P1_TransferReferenceBankId,TDT.MGG_P1_TransferReferenceBranch,TDT.MGG_P1_ReceiptNo FROM @TBL_4610BDD75FC04CA58EA25F96FD5C198A TDT
+							LEFT JOIN [4610BDD7-5FC0-4CA5-8EA2-5F96FD5C198A] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MGG_P1_ReceiptsId=TDT.MGG_P1_ReceiptsId,MGG_P1_ProjectDetailsId=TDT.MGG_P1_ProjectDetailsId,MGG_P1_ReceiptAmount=TDT.MGG_P1_ReceiptAmount,MGG_P1_ReceiptDate=TDT.MGG_P1_ReceiptDate,MGG_P1_TransferType=TDT.MGG_P1_TransferType,MGG_P1_TransferReferenceNumber=TDT.MGG_P1_TransferReferenceNumber,MGG_P1_TransferReferenceDate=TDT.MGG_P1_TransferReferenceDate,MGG_P1_TransferReferenceBankId=TDT.MGG_P1_TransferReferenceBankId,MGG_P1_TransferReferenceBranch=TDT.MGG_P1_TransferReferenceBranch,MGG_P1_ReceiptNo=TDT.MGG_P1_ReceiptNo FROM @TBL_4610BDD75FC04CA58EA25F96FD5C198A TDT
+							JOIN [4610BDD7-5FC0-4CA5-8EA2-5F96FD5C198A] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId";
+
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_P1_ReceiptsId,MGG_P1_ProjectDetailsId,MGG_P1_ReceiptAmount,MGG_P1_ReceiptDate,MGG_P1_TransferType,MGG_P1_TransferReferenceNumber,MGG_P1_TransferReferenceDate,MGG_P1_TransferReferenceBankId,MGG_P1_TransferReferenceBranch,MGG_P1_ReceiptNo";
+
+                            tempInsertQuery=@"INSERT INTO @TBL_4610BDD75FC04CA58EA25F96FD5C198A(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_P1_ReceiptsId,MGG_P1_ProjectDetailsId,MGG_P1_ReceiptAmount,MGG_P1_ReceiptDate,MGG_P1_TransferType,MGG_P1_TransferReferenceNumber,MGG_P1_TransferReferenceDate,MGG_P1_TransferReferenceBankId,MGG_P1_TransferReferenceBranch,MGG_P1_ReceiptNo)VALUES({0});";
+
+                            splitcols = colList.Split(',');
+
+                            if (splitcols.Length <= 0)
+                                return Status.Failure;
+
+                            foreach (var gridChild in gridData[gridName].Child)
+                            {                            
+                                                                                         
+
+
+                                foreach (var gcol in splitcols)
+                                {
+                                    if (gcol == "InstanceId")
+                                    {
+                                        colValues += "'" + instanceId + "',";
+
+                                        continue;
+
+                                    }
+
+                                    else if (gcol == "ProcessActivityMapId")
+                                    {
+                                        colValues += "'" + processActivityMapId + "',";
+                                        continue;
+                                    }
+
+                                    else if (gcol == "GridId")
+                                    {
+                                        colValues += "'" + gridId + "',";
+                                        continue;
+                                    }
+                                    else if (gcol == "Sequence")
+                                    {
+                                        colValues += gridChild.SEQ + ",";
+                                        continue;
+                                    }
+                                    else if (gcol == "RowId")
+                                    {
+                                        colValues += "'" + gridChild.RwId + "',";
+                                        continue;
+                                    }
+
+                                    bool isFound = false;
+
+                                    foreach (var gridrow in gridChild.Child)
+                                    {
+
+                                        if (gridrow.ElementName == gcol)
+                                        {
+                                            isFound = true;
+
+                                            if (gridrow.Value == null)
+                                            {
+                                                colValues += "null,";
+                                                break;
+                                            }
+
+                                            switch (Convert.ToInt32(gridrow.EDT))
+                                            {
+                                                case 8:
+                                                case 9:
+                                                    colValues += "'" + gridrow.Value.ToString() + "',";
+                                                    break;
+
+                                                default:
+                                                    colValues += gridrow.Value.ToString() + ",";
+                                                    break;
+                                            }
+                                        }
+                                    }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+
+                                    }
+
+                                }
+                                colValues = colValues.Remove(colValues.Length - 1);
+
+                                bulkInsertQuery = bulkInsertQuery + string.Format(tempInsertQuery, colValues);
+                            }
+                        }
+                        break;
+
+                                              case "A5CB07C2-D023-40F7-AF8D-FFF3CE6738DA":
+                    {
+                     
+                            gInsertQuery=@"
+		
+		DECLARE  @TBL_A5CB07C2D02340F7AF8DFFF3CE6738DA AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MGG_V1_BudgetHeadID] VARCHAR(MAX)	, [MGG_V1_SanctionedAmount] DECIMAL(18,2)	, [MGG_V1_ReceivedAmount] DECIMAL(18,2)	, [MGG_V1_YettoReceive] DECIMAL(18,2)	, [MGG_V1_Spent] DECIMAL(18,2)	, [MGG_V1_Committment] DECIMAL(18,2)	, [MGG_V1_Balance] DECIMAL(18,2)){0}INSERT INTO [A5CB07C2-D023-40F7-AF8D-FFF3CE6738DA](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_BudgetHeadID,MGG_V1_SanctionedAmount,MGG_V1_ReceivedAmount,MGG_V1_YettoReceive,MGG_V1_Spent,MGG_V1_Committment,MGG_V1_Balance)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MGG_V1_BudgetHeadID,TDT.MGG_V1_SanctionedAmount,TDT.MGG_V1_ReceivedAmount,TDT.MGG_V1_YettoReceive,TDT.MGG_V1_Spent,TDT.MGG_V1_Committment,TDT.MGG_V1_Balance FROM @TBL_A5CB07C2D02340F7AF8DFFF3CE6738DA TDT
+							LEFT JOIN [A5CB07C2-D023-40F7-AF8D-FFF3CE6738DA] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MGG_V1_BudgetHeadID=TDT.MGG_V1_BudgetHeadID,MGG_V1_SanctionedAmount=TDT.MGG_V1_SanctionedAmount,MGG_V1_ReceivedAmount=TDT.MGG_V1_ReceivedAmount,MGG_V1_YettoReceive=TDT.MGG_V1_YettoReceive,MGG_V1_Spent=TDT.MGG_V1_Spent,MGG_V1_Committment=TDT.MGG_V1_Committment,MGG_V1_Balance=TDT.MGG_V1_Balance FROM @TBL_A5CB07C2D02340F7AF8DFFF3CE6738DA TDT
+							JOIN [A5CB07C2-D023-40F7-AF8D-FFF3CE6738DA] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId";
+
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_BudgetHeadID,MGG_V1_SanctionedAmount,MGG_V1_ReceivedAmount,MGG_V1_YettoReceive,MGG_V1_Spent,MGG_V1_Committment,MGG_V1_Balance";
+
+                            tempInsertQuery=@"INSERT INTO @TBL_A5CB07C2D02340F7AF8DFFF3CE6738DA(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_BudgetHeadID,MGG_V1_SanctionedAmount,MGG_V1_ReceivedAmount,MGG_V1_YettoReceive,MGG_V1_Spent,MGG_V1_Committment,MGG_V1_Balance)VALUES({0});";
+
+                            splitcols = colList.Split(',');
+
+                            if (splitcols.Length <= 0)
+                                return Status.Failure;
+
+                            foreach (var gridChild in gridData[gridName].Child)
+                            {                            
+                                                                                         
+
+
+                                foreach (var gcol in splitcols)
+                                {
+                                    if (gcol == "InstanceId")
+                                    {
+                                        colValues += "'" + instanceId + "',";
+
+                                        continue;
+
+                                    }
+
+                                    else if (gcol == "ProcessActivityMapId")
+                                    {
+                                        colValues += "'" + processActivityMapId + "',";
+                                        continue;
+                                    }
+
+                                    else if (gcol == "GridId")
+                                    {
+                                        colValues += "'" + gridId + "',";
+                                        continue;
+                                    }
+                                    else if (gcol == "Sequence")
+                                    {
+                                        colValues += gridChild.SEQ + ",";
+                                        continue;
+                                    }
+                                    else if (gcol == "RowId")
+                                    {
+                                        colValues += "'" + gridChild.RwId + "',";
+                                        continue;
+                                    }
+
+                                    bool isFound = false;
+
+                                    foreach (var gridrow in gridChild.Child)
+                                    {
+
+                                        if (gridrow.ElementName == gcol)
+                                        {
+                                            isFound = true;
+
+                                            if (gridrow.Value == null)
+                                            {
+                                                colValues += "null,";
+                                                break;
+                                            }
+
+                                            switch (Convert.ToInt32(gridrow.EDT))
+                                            {
+                                                case 8:
+                                                case 9:
+                                                    colValues += "'" + gridrow.Value.ToString() + "',";
+                                                    break;
+
+                                                default:
+                                                    colValues += gridrow.Value.ToString() + ",";
+                                                    break;
+                                            }
+                                        }
+                                    }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+
+                                    }
+
+                                }
+                                colValues = colValues.Remove(colValues.Length - 1);
+
+                                bulkInsertQuery = bulkInsertQuery + string.Format(tempInsertQuery, colValues);
+                            }
+                        }
+                        break;
+
+                                              case "6D81F5D4-0044-4EEC-8869-E22464BC04F3":
+                    {
+                     
+                            gInsertQuery=@"
+		
+		DECLARE  @TBL_6D81F5D400444EEC8869E22464BC04F3 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MGG_V1_ExpenseID] VARCHAR(MAX)	, [MGG_V1_BudgetHead] VARCHAR(MAX)	, [MGG_V1_ProjectDetailsID] VARCHAR(MAX)	, [MGG_V1_PackageProcessMapID] VARCHAR(MAX)	, [MGG_V1_ExpenseDate] DATETIME	, [MGG_V1_AmountSpent] DECIMAL(18,2)	, [MGG_V1_ExpenseDescription] VARCHAR(MAX)){0}INSERT INTO [6D81F5D4-0044-4EEC-8869-E22464BC04F3](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_ExpenseID,MGG_V1_BudgetHead,MGG_V1_ProjectDetailsID,MGG_V1_PackageProcessMapID,MGG_V1_ExpenseDate,MGG_V1_AmountSpent,MGG_V1_ExpenseDescription)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MGG_V1_ExpenseID,TDT.MGG_V1_BudgetHead,TDT.MGG_V1_ProjectDetailsID,TDT.MGG_V1_PackageProcessMapID,TDT.MGG_V1_ExpenseDate,TDT.MGG_V1_AmountSpent,TDT.MGG_V1_ExpenseDescription FROM @TBL_6D81F5D400444EEC8869E22464BC04F3 TDT
+							LEFT JOIN [6D81F5D4-0044-4EEC-8869-E22464BC04F3] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MGG_V1_ExpenseID=TDT.MGG_V1_ExpenseID,MGG_V1_BudgetHead=TDT.MGG_V1_BudgetHead,MGG_V1_ProjectDetailsID=TDT.MGG_V1_ProjectDetailsID,MGG_V1_PackageProcessMapID=TDT.MGG_V1_PackageProcessMapID,MGG_V1_ExpenseDate=TDT.MGG_V1_ExpenseDate,MGG_V1_AmountSpent=TDT.MGG_V1_AmountSpent,MGG_V1_ExpenseDescription=TDT.MGG_V1_ExpenseDescription FROM @TBL_6D81F5D400444EEC8869E22464BC04F3 TDT
+							JOIN [6D81F5D4-0044-4EEC-8869-E22464BC04F3] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId";
+
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_ExpenseID,MGG_V1_BudgetHead,MGG_V1_ProjectDetailsID,MGG_V1_PackageProcessMapID,MGG_V1_ExpenseDate,MGG_V1_AmountSpent,MGG_V1_ExpenseDescription";
+
+                            tempInsertQuery=@"INSERT INTO @TBL_6D81F5D400444EEC8869E22464BC04F3(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_ExpenseID,MGG_V1_BudgetHead,MGG_V1_ProjectDetailsID,MGG_V1_PackageProcessMapID,MGG_V1_ExpenseDate,MGG_V1_AmountSpent,MGG_V1_ExpenseDescription)VALUES({0});";
 
                             splitcols = colList.Split(',');
 

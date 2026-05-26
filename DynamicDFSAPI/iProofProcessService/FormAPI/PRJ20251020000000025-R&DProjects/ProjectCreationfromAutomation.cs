@@ -243,7 +243,19 @@ namespace CPS.Proof.DFSExtension
 		{
 		
 	  			
+			     new Tuple<string, int>("RDDocumentGrid",5),
+			
+						
+			     new Tuple<string, int>("EquipmentGrid",5),
+			
+						
+			     new Tuple<string, int>("BudgetAllocation",5),
+			
+						
 			     new Tuple<string, int>("ExternalCoPiGrid",50),
+			
+						
+			     new Tuple<string, int>("ManpowerGrid",5),
 			
 						
 		};
