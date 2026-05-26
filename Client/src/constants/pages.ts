@@ -1,14 +1,8 @@
 // Innovace Intech Solution Pvt Ltd
 // ⚠️ AUTO-GENERATED FILE – DO NOT EDIT
-// Generated on 2026-05-26T06:24:19.395Z
+// Generated on 2026-05-26T08:19:19.951Z
 
 export const pages = [
-  {
-    "PackageProcessMapId": "08c9de00-05b0-4b62-aa5e-1dbada1b9158",
-    "ProcessActivityMapId": "585BA2B8-3E75-4DAB-B50B-10D8320CE414",
-    "ProcessName": "ProjectOverview",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectOverview_Start"
-  },
   {
     "PackageProcessMapId": "B219A0EA-0254-4F69-B989-B681DD475183",
     "ProcessActivityMapId": "34CF8FAF-7574-478F-9C4A-A65F98E4D18A",
@@ -44,6 +38,12 @@ export const pages = [
     "ProcessActivityMapId": "88470FA8-05F7-4764-A871-E9DAC8F66C89",
     "ProcessName": "ProjectCreationfromAutomation",
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW4"
+  },
+  {
+    "PackageProcessMapId": "84777088-B51C-45AA-8BBA-D24FBDEF26E9",
+    "ProcessActivityMapId": "4E51124D-BF83-46EC-BA9A-B746693F716F",
+    "ProcessName": "FundConfigurations",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/FundConfigurations_Start"
   },
   {
     "PackageProcessMapId": "b92107f7-28a5-49d0-8b7f-312c4826dd60",

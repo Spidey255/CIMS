@@ -221,6 +221,38 @@ namespace CPS.Proof.DFSExtension
 
 		
 	  			
+			     new Triplet<string, string, string>("MF_d10_YearMonth","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetDateDifferenceInYears 5,'','',''"),
+			
+						
+			     new Triplet<string, string, string>("MF_d10_ProjectproposalID","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC [GetProjectproposalDetails] 1,'@MF_d10_InstanceId','@MF_d10_EmployeeBasicInfoId'"),
+			
+						
+			     new Triplet<string, string, string>("MF_d10_ProjectCategoryID","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetDateDifferenceInYears 4,'','',''"),
+			
+						
+			     new Triplet<string, string, string>("MF_d10_FundingAgency","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetDateDifferenceInYears 7,'','',''"),
+			
+						
+			     new Triplet<string, string, string>("MF_d10_Sector","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetGlobalCombo 1,'Sectortype'"),
+			
+						
+			     new Triplet<string, string, string>("MF_d10_FinancialYearID","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetDateDifferenceInYears 8,'','',''"),
+			
+						
+			     new Triplet<string, string, string>("MF_d10_SchemeID","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"Exec GetBudgetSchema"),
+			
+						
+			     new Triplet<string, string, string>("MF_d10_ProjectType","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetProjectDetailCombo 2"),
+			
+						
 		};
 		
 		public override Tuple<string, string> GetComboDataSource(string ElementName)
