@@ -196,6 +196,10 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
+			     new Triplet<string, string, string>("906fc07f-3f3b-c1be-93f7-44636c228555","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
 			     new Triplet<string, string, string>("9cc2bc31-cc30-0ba3-4ad6-22f9e9abf5d5","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -222,6 +226,10 @@ namespace CPS.Proof.DFSExtension
 						
 			     new Triplet<string, string, string>("682312DA-B0C6-4126-810E-552155F7C406","Load Grid By IdExternalCoPiGrid",
 												     @"59259E21-AFE8-4DAB-A543-74CC22FC79D5"),
+			
+						
+			     new Triplet<string, string, string>("906fc07f-3f3b-c1be-93f7-44636c228555","Load Project Budget Details",
+												     @"B73036BB-FE7D-4B0D-998A-985294F8FC5B"),
 			
 						
 			     new Triplet<string, string, string>("5b1d3894-0d72-9c8d-3a5f-8fe772ffa261","CoPi Grid Load",
@@ -2000,7 +2008,19 @@ else{
 ISpace["MF_d10_ProjectCategoryID"].Value = null;ISpace["MF_d10_FundingAgency"].Value = null;ISpace["MF_d10_Sector"].Value = null;ISpace["MF_d10_FinancialYearID"].Value = null;ISpace["m_currency"].Value = null;ISpace["MF_d10_ProjectType"].Value = null;ISpace["MF_d10_IsExternalIns"].Value = null;ISpace["MF_d10_ProjectBudget"].Value = null;ISpace["MF_d10_ProjectName"].Value = null;
 }
 
+var querySource906fc07f3f3bc1be93f744636c228555 =GetQueryExpressionDataSource("906fc07f-3f3b-c1be-93f7-44636c228555");
+
+DataTable result906fc07f3f3bc1be93f744636c228555=iSpace.SetGridDataSource(querySource906fc07f3f3bc1be93f744636c228555, _objectFactory.GetGridRPP("BudgetAllocation"),@"EXEC [GetProjectDetailCombo] 1,'" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("BudgetAllocation","11",querySource906fc07f3f3bc1be93f744636c228555,"EXEC [GetProjectDetailCombo] 1,'" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("BudgetAllocation"));
+
+base.WriteDebugInfo(@"var querySource906fc07f3f3bc1be93f744636c228555 =GetQueryExpressionDataSource(""906fc07f-3f3b-c1be-93f7-44636c228555"");DataTable result906fc07f3f3bc1be93f744636c228555=iSpace.SetGridDataSource(querySource906fc07f3f3bc1be93f744636c228555, _objectFactory.GetGridRPP(""BudgetAllocation""),@""EXEC [GetProjectDetailCombo] 1,'"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""BudgetAllocation"",""11"",querySource906fc07f3f3bc1be93f744636c228555,""EXEC [GetProjectDetailCombo] 1,'"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""BudgetAllocation""));");
 base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result0303e9a5833d0f47596240219e02283c=acdataIspaceE1B5DCB812784AA0A8B21C0CDE17E77A.GetQueryExpressionBindings("0303e9a5-833d-0f47-5962-40219e02283c");
+iSpace.SetGridData(result906fc07f3f3bc1be93f744636c228555,result0303e9a5833d0f47596240219e02283c,"BudgetAllocation",ref ISpace);
+iSpace.UpdateGridBindDetails("BudgetAllocation",result0303e9a5833d0f47596240219e02283c);
 }
 if(ISpace["MF_d10_ProjectType"].Value=="450")
 {
@@ -2080,7 +2100,19 @@ else{
 ISpace["MF_d10_ProjectCategoryID"].Value = null;ISpace["MF_d10_FundingAgency"].Value = null;ISpace["MF_d10_Sector"].Value = null;ISpace["MF_d10_FinancialYearID"].Value = null;ISpace["m_currency"].Value = null;ISpace["MF_d10_ProjectType"].Value = null;ISpace["MF_d10_IsExternalIns"].Value = null;ISpace["MF_d10_ProjectBudget"].Value = null;ISpace["MF_d10_ProjectName"].Value = null;
 }
 
+var querySource906fc07f3f3bc1be93f744636c228555 =GetQueryExpressionDataSource("906fc07f-3f3b-c1be-93f7-44636c228555");
+
+DataTable result906fc07f3f3bc1be93f744636c228555=iSpace.SetGridDataSource(querySource906fc07f3f3bc1be93f744636c228555, _objectFactory.GetGridRPP("BudgetAllocation"),@"EXEC [GetProjectDetailCombo] 1,'" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("BudgetAllocation","11",querySource906fc07f3f3bc1be93f744636c228555,"EXEC [GetProjectDetailCombo] 1,'" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("BudgetAllocation"));
+
+base.WriteDebugInfo(@"var querySource906fc07f3f3bc1be93f744636c228555 =GetQueryExpressionDataSource(""906fc07f-3f3b-c1be-93f7-44636c228555"");DataTable result906fc07f3f3bc1be93f744636c228555=iSpace.SetGridDataSource(querySource906fc07f3f3bc1be93f744636c228555, _objectFactory.GetGridRPP(""BudgetAllocation""),@""EXEC [GetProjectDetailCombo] 1,'"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""BudgetAllocation"",""11"",querySource906fc07f3f3bc1be93f744636c228555,""EXEC [GetProjectDetailCombo] 1,'"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""BudgetAllocation""));");
 base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result0303e9a5833d0f47596240219e02283c=acdataIspaceE1B5DCB812784AA0A8B21C0CDE17E77A.GetQueryExpressionBindings("0303e9a5-833d-0f47-5962-40219e02283c");
+iSpace.SetGridData(result906fc07f3f3bc1be93f744636c228555,result0303e9a5833d0f47596240219e02283c,"BudgetAllocation",ref ISpace);
+iSpace.UpdateGridBindDetails("BudgetAllocation",result0303e9a5833d0f47596240219e02283c);
 }
 if(ISpace["MF_d10_ProjectType"].Value=="450")
 {
@@ -2301,6 +2333,46 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
+							{"0303e9a5-833d-0f47-5962-40219e02283c", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d28_BudgetAmount",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_BudgetHead",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_BudgetID",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_Comments",18,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_RDOfficeComments",19,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_Year1",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_Year10",14,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_Year11",15,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_Year12",16,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_Year2",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_Year3",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_Year4",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_Year5",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_Year6",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_Year7",11,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_Year8",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_Year9",13,
+														   -1),
+								}
+			},
 							{"1C9B183B-6F51-4B6B-9DEA-2D1ADA9DDEB3", 
 				
 				new List<Triplet<string, short, short?>> {
