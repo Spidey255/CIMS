@@ -48,7 +48,7 @@ import ProjectCreationfromAutomation_VIEW4 from "@/pages/PRJ20251020000000025-R&
 import FundConfigurations_Start from "@/pages/PRJ20251020000000025-R&DProjects/FundConfigurations_Start";
 import ProjectCreationfromAutomation_VIEW3 from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW3";
 import ProjectFundInstallment_HOD from "@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_HOD";
-import TempAdvance_DeanR&D from "@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_DeanR&D";
+import TempAdvance_DeanRD from "@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_DeanRD";
 import ProjectReimbursement_PIInitiation from "@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_PIInitiation";
 import CommitmentSpentDetails_Start from "@/pages/PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start";
 import TravelSettlement_RDDean from "@/pages/PRJ20251020000000025-R&DProjects/TravelSettlement_RDDean";
@@ -154,7 +154,7 @@ const App: React.FC = () => {
         <Route path="/PRJ20251020000000025-R&DProjects/FundConfigurations_Start" element={<FundConfigurations_Start />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW3" element={<ProjectCreationfromAutomation_VIEW3 />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_HOD" element={<ProjectFundInstallment_HOD />} />
-        <Route path="/PRJ20251020000000025-R&DProjects/TempAdvance_DeanR&D" element={<TempAdvance_DeanR&D />} />
+        <Route path="/PRJ20251020000000025-R&DProjects/TempAdvance_DeanRD" element={<TempAdvance_DeanRD />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursement_PIInitiation" element={<ProjectReimbursement_PIInitiation />} />
         <Route path="/PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start" element={<CommitmentSpentDetails_Start />} />
         <Route path="/PRJ20251020000000025-R&DProjects/TravelSettlement_RDDean" element={<TravelSettlement_RDDean />} />
