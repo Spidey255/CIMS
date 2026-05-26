@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HLCHPuga7bXb2POnWy2RO4Aqv83SCaPG4xro3UKD+trkW2ZO/WgrNbyqKmMEJBJc1slGVrkV3mN9JpEw8wC1ng==",
+  "success": true,
+  "projectFilePath": "/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/FormModels.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/system.text.json/6.0.11/system.text.json.6.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

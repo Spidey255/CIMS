@@ -1,0 +1,16 @@
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/bin/Debug/FormModels.deps.json
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/bin/Debug/FormModels.dll
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/bin/Debug/FormModels.pdb
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/bin/Debug/FormModels.xml
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/bin/Debug/ConfigSectionHandlers.dll
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/bin/Debug/log4net.dll
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/obj/Debug/FormModels.csproj.AssemblyReference.cache
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/obj/Debug/FormModels.GeneratedMSBuildEditorConfig.editorconfig
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/obj/Debug/FormModels.AssemblyInfoInputs.cache
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/obj/Debug/FormModels.AssemblyInfo.cs
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/obj/Debug/FormModels.csproj.CoreCompileInputs.cache
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/obj/Debug/FormModels.csproj.CopyComplete
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/obj/Debug/FormModels.dll
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/obj/Debug/refint/FormModels.dll
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/obj/Debug/FormModels.pdb
+/home/Share/Presentations/iProofDFSAPISolution/CIMS/DynamicDFSAPI/FormModels/obj/Debug/ref/FormModels.dll
