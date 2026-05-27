@@ -1,6 +1,6 @@
 // Innovace Intech Solution Pvt Ltd
 // ⚠️ AUTO-GENERATED FILE – DO NOT EDIT
-// Generated on 2026-05-27T01:30:29.476Z
+// Generated on 2026-05-27T01:43:07.741Z
 
 export const pages = [
   {
@@ -22,10 +22,22 @@ export const pages = [
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start"
   },
   {
+    "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
+    "ProcessActivityMapId": "1E274DA6-1515-4B96-B922-4B5CC5F2D423",
+    "ProcessName": "TempAdvance",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TempAdvance_RDoffice"
+  },
+  {
     "PackageProcessMapId": "B1037B85-D9C1-411B-87DE-0658365B81A8",
     "ProcessActivityMapId": "C4E2EC4C-58BD-44FB-91D1-3D8E475D6C14",
     "ProcessName": "ProjectReimbursement",
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectReimbursement_Registrar"
+  },
+  {
+    "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
+    "ProcessActivityMapId": "B2EE67FA-41C1-4A1B-AB23-466B572ACE72",
+    "ProcessName": "TempAdvance",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TempAdvance_PIInitiation"
   },
   {
     "PackageProcessMapId": "026e321e-9bb7-4c74-8615-3bbd7cc1b241",
@@ -40,10 +52,28 @@ export const pages = [
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW1"
   },
   {
+    "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
+    "ProcessActivityMapId": "BD4B416F-E184-4A6F-B8DE-4D2B42649FF4",
+    "ProcessName": "TempAdvance",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TempAdvance_RDofficepayment"
+  },
+  {
     "PackageProcessMapId": "b92107f7-28a5-49d0-8b7f-312c4826dd60",
     "ProcessActivityMapId": "BD6CC522-F7E6-46CB-B200-9C41F448175B",
     "ProcessName": "ProjectCreationfromAutomation",
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW2"
+  },
+  {
+    "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
+    "ProcessActivityMapId": "69B6AE86-D2BA-4048-9EE6-B4627B21F951",
+    "ProcessName": "TempAdvance",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TempAdvance_AdditionalDetails"
+  },
+  {
+    "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
+    "ProcessActivityMapId": "9FE779D2-129C-47A2-B87D-173C6AFE51CB",
+    "ProcessName": "TempAdvance",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TempAdvance_Registrar"
   },
   {
     "PackageProcessMapId": "026e321e-9bb7-4c74-8615-3bbd7cc1b241",
@@ -74,6 +104,12 @@ export const pages = [
     "ProcessActivityMapId": "537084A6-7B72-4CBE-A0A2-057049686345",
     "ProcessName": "ProjectFundInstallment",
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectFundInstallment_HOD"
+  },
+  {
+    "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
+    "ProcessActivityMapId": "99884CE2-50CB-494D-B49B-5828617FE860",
+    "ProcessName": "TempAdvance",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TempAdvance_DeanRD"
   },
   {
     "PackageProcessMapId": "B1037B85-D9C1-411B-87DE-0658365B81A8",
@@ -110,6 +146,12 @@ export const pages = [
     "ProcessActivityMapId": "7B9E10F1-A9E8-4A0C-90D9-F183CC3B49D0",
     "ProcessName": "ProjectReimbursement",
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectReimbursement_DeanRD"
+  },
+  {
+    "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
+    "ProcessActivityMapId": "893AB0C8-8E48-4E9C-8DCD-EF160F9C9A43",
+    "ProcessName": "TempAdvance",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TempAdvance_ARRD"
   },
   {
     "PackageProcessMapId": "B1037B85-D9C1-411B-87DE-0658365B81A8",
