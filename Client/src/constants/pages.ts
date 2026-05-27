@@ -1,6 +1,6 @@
 // Innovace Intech Solution Pvt Ltd
 // ⚠️ AUTO-GENERATED FILE – DO NOT EDIT
-// Generated on 2026-05-27T02:17:29.463Z
+// Generated on 2026-05-27T02:31:15.690Z
 
 export const pages = [
   {
@@ -59,12 +59,6 @@ export const pages = [
   },
   {
     "PackageProcessMapId": "AC69E996-4AE4-4D34-829F-4DFC7F63582C",
-    "ProcessActivityMapId": "0d7fa7ef-8c70-66b3-f172-1782236c8888",
-    "ProcessName": "TravelSettlement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlement_AdditionalDetails"
-  },
-  {
-    "PackageProcessMapId": "AC69E996-4AE4-4D34-829F-4DFC7F63582C",
     "ProcessActivityMapId": "0D9E568F-8790-489D-A846-3C6057A39268",
     "ProcessName": "TravelSettlement",
     "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlement_PIInitiation"
@@ -92,12 +86,6 @@ export const pages = [
     "ProcessActivityMapId": "69B6AE86-D2BA-4048-9EE6-B4627B21F951",
     "ProcessName": "TempAdvance",
     "RoutPath": "PRJ20251020000000025-R&DProjects/TempAdvance_AdditionalDetails"
-  },
-  {
-    "PackageProcessMapId": "AC69E996-4AE4-4D34-829F-4DFC7F63582C",
-    "ProcessActivityMapId": "7d998690-8c45-0a15-1172-1969d4aafed7",
-    "ProcessName": "TravelSettlement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlement_RDOfficePayments"
   },
   {
     "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",
@@ -176,18 +164,6 @@ export const pages = [
     "ProcessActivityMapId": "C74E1FE0-A9E3-4B09-A184-6D1DC9CE7B0F",
     "ProcessName": "CommitmentSpentDetails",
     "RoutPath": "PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start"
-  },
-  {
-    "PackageProcessMapId": "AC69E996-4AE4-4D34-829F-4DFC7F63582C",
-    "ProcessActivityMapId": "8e7d1be4-e590-2705-0245-3782073ff3d2",
-    "ProcessName": "TravelSettlement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlement_RDDean"
-  },
-  {
-    "PackageProcessMapId": "AC69E996-4AE4-4D34-829F-4DFC7F63582C",
-    "ProcessActivityMapId": "4a093f4e-d96c-27c0-87db-6b043aed97dc",
-    "ProcessName": "TravelSettlement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlement_Registrar"
   },
   {
     "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",
