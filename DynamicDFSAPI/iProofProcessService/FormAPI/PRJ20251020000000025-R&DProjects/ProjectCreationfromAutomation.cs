@@ -2150,6 +2150,22 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_mg_d28_budgetamount (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MG_d28_BudgetAmount-OnChange");
+object MG_d28_BudgetAmount=iSpace.Sum("[B73036BB-FE7D-4B0D-998A-985294F8FC5B]","MG_d28_BudgetAmount","",ISpace["gv_instanceid"].Value);
+ISpace["MF_d10_BudgetTotalAmount"].Value=Convert.ChangeType(MG_d28_BudgetAmount, MG_d28_BudgetAmount.GetType());;
+base.WriteDebugInfo(@"object MG_d28_BudgetAmount=iSpace.Sum(""[B73036BB-FE7D-4B0D-998A-985294F8FC5B]"",""MG_d28_BudgetAmount"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_d10_BudgetTotalAmount""].Value=Convert.ChangeType(MG_d28_BudgetAmount, MG_d28_BudgetAmount.GetType());;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_submitform (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -2287,6 +2303,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("mf_d10_projectproposalid"))
     {
     			SubscribeElementEvents_mf_d10_projectproposalid(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mg_d28_budgetamount"))
+    {
+    			SubscribeElementEvents_mg_d28_budgetamount(ref dfsParam);
     }
 }
 	if(methodName.ToLower().Equals("onclick"))
