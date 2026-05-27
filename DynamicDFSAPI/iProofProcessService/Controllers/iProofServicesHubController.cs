@@ -39,7 +39,7 @@ namespace CPS.Proof.DFSExtension
 
         /// <summary>
         /// Represents the constructor that creates an instance
-        /// of ProjectCreationfromAutomation Controller.
+        /// of ProjectFundInstallment Controller.
         /// </summary>
         /// <param name="configuration">
         /// A <see cref="IConfiguration"/> that holds  
@@ -123,6 +123,13 @@ namespace CPS.Proof.DFSExtension
                                                         (context.ProcessActivityMapId);
 
                                             virtualpageinstance._objectFactory = objectFactoryProjectCreationfromAutomation;
+                                            break;
+
+                                     case "64C42232-67DB-43B8-8B68-4468FE0DD17F":   var  objectFactoryProjectFundInstallment=new ProjectFundInstallmentObjectFactory();
+                                             virtualpageinstance = objectFactoryProjectFundInstallment.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+
+                                            virtualpageinstance._objectFactory = objectFactoryProjectFundInstallment;
                                             break;
 
                  
@@ -455,6 +462,12 @@ namespace CPS.Proof.DFSExtension
                                             virtualpageinstance._objectFactory = objectFactoryProjectCreationfromAutomation;
                                             break;
 
+                                     case "64C42232-67DB-43B8-8B68-4468FE0DD17F":   var  objectFactoryProjectFundInstallment=new ProjectFundInstallmentObjectFactory();
+                                             virtualpageinstance = objectFactoryProjectFundInstallment.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+                                            virtualpageinstance._objectFactory = objectFactoryProjectFundInstallment;
+                                            break;
+
                  
                 }
 
@@ -701,6 +714,18 @@ namespace CPS.Proof.DFSExtension
                                              }
                                             break;
                    
+                                    
+                    case "64C42232-67DB-43B8-8B68-4468FE0DD17F":   
+                                             foreach (var item in context.Params)
+                                             {
+                                            var  objectFactoryProjectFundInstallment=new ProjectFundInstallmentObjectFactory();
+                                             combosource = objectFactoryProjectFundInstallment.GetComboDataSource
+                                                        (item.ElementName);  
+                                             if (combosource != null)
+                                break;
+                                             }
+                                            break;
+                   
                  
                 }               
                 
@@ -910,6 +935,21 @@ namespace CPS.Proof.DFSExtension
                                             else
                                             {
                                                 insertQuery=elementFactoryProjectCreationfromAutomation.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId, token.UMID, formjsonData);
+                                            }
+
+                                            break;
+
+                                     case "64C42232-67DB-43B8-8B68-4468FE0DD17F":    var elementFactoryProjectFundInstallment=new ProjectFundInstallmentDataElementFactory();       
+                                           
+                                             if(context.Action=="GridSave")
+                                            {
+                                                insertQuery = elementFactoryProjectFundInstallment.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId,token.UMID, formjsonData);
+                                            }
+                                            else
+                                            {
+                                                insertQuery=elementFactoryProjectFundInstallment.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
                                                     context.WidgetId, token.UMID, formjsonData);
                                             }
 

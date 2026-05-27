@@ -1,8 +1,14 @@
 // Innovace Intech Solution Pvt Ltd
 // ⚠️ AUTO-GENERATED FILE – DO NOT EDIT
-// Generated on 2026-05-26T19:06:34.763Z
+// Generated on 2026-05-27T01:14:11.742Z
 
 export const pages = [
+  {
+    "PackageProcessMapId": "64C42232-67DB-43B8-8B68-4468FE0DD17F",
+    "ProcessActivityMapId": "2B40E332-9840-42E3-8DDC-002EAFAA05FA",
+    "ProcessName": "ProjectFundInstallment",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectFundInstallment_AdditionalDetails"
+  },
   {
     "PackageProcessMapId": "B219A0EA-0254-4F69-B989-B681DD475183",
     "ProcessActivityMapId": "34CF8FAF-7574-478F-9C4A-A65F98E4D18A",
@@ -52,9 +58,27 @@ export const pages = [
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW3"
   },
   {
+    "PackageProcessMapId": "64C42232-67DB-43B8-8B68-4468FE0DD17F",
+    "ProcessActivityMapId": "537084A6-7B72-4CBE-A0A2-057049686345",
+    "ProcessName": "ProjectFundInstallment",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectFundInstallment_HOD"
+  },
+  {
     "PackageProcessMapId": "C12B87A0-C375-4057-B0BA-64B4C80E77F9",
     "ProcessActivityMapId": "C74E1FE0-A9E3-4B09-A184-6D1DC9CE7B0F",
     "ProcessName": "CommitmentSpentDetails",
     "RoutPath": "PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start"
+  },
+  {
+    "PackageProcessMapId": "64C42232-67DB-43B8-8B68-4468FE0DD17F",
+    "ProcessActivityMapId": "FF2ED876-20AB-4F5D-B62B-385405DFB900",
+    "ProcessName": "ProjectFundInstallment",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectFundInstallment_RDOffice"
+  },
+  {
+    "PackageProcessMapId": "64C42232-67DB-43B8-8B68-4468FE0DD17F",
+    "ProcessActivityMapId": "DDBF5292-6EF4-4C37-B72A-E6DCFFBF7B02",
+    "ProcessName": "ProjectFundInstallment",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectFundInstallment_PIInitiation"
   }
 ];

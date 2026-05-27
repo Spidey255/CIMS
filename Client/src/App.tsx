@@ -17,6 +17,7 @@ import { SidebarProvider } from "@/layout/SideBar/SidebarContext";
 import { useUserStore } from "@/store/useUserStore";
 
 
+import ProjectFundInstallment_AdditionalDetails from "@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_AdditionalDetails";
 import ProjectsExplorer_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start";
 import ProjectProposal_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_Start";
 import ProjectCreationfromAutomation_VIEW1 from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW1";
@@ -25,7 +26,10 @@ import ProjectProposal_ReadOnly from "@/pages/PRJ20251020000000025-R&DProjects/P
 import ProjectCreationfromAutomation_VIEW4 from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW4";
 import FundConfigurations_Start from "@/pages/PRJ20251020000000025-R&DProjects/FundConfigurations_Start";
 import ProjectCreationfromAutomation_VIEW3 from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW3";
+import ProjectFundInstallment_HOD from "@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_HOD";
 import CommitmentSpentDetails_Start from "@/pages/PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start";
+import ProjectFundInstallment_RDOffice from "@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_RDOffice";
+import ProjectFundInstallment_PIInitiation from "@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_PIInitiation";
 
 const hasAccessToken = (): boolean => {
   if (typeof window === "undefined") {
@@ -86,6 +90,7 @@ const App: React.FC = () => {
           <MainLayout />
         </SidebarProvider>
       }>
+        <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_AdditionalDetails" element={<ProjectFundInstallment_AdditionalDetails />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start" element={<ProjectsExplorer_Start />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_Start" element={<ProjectProposal_Start />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW1" element={<ProjectCreationfromAutomation_VIEW1 />} />
@@ -94,7 +99,10 @@ const App: React.FC = () => {
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW4" element={<ProjectCreationfromAutomation_VIEW4 />} />
         <Route path="/PRJ20251020000000025-R&DProjects/FundConfigurations_Start" element={<FundConfigurations_Start />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW3" element={<ProjectCreationfromAutomation_VIEW3 />} />
+        <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_HOD" element={<ProjectFundInstallment_HOD />} />
         <Route path="/PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start" element={<CommitmentSpentDetails_Start />} />
+        <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_RDOffice" element={<ProjectFundInstallment_RDOffice />} />
+        <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_PIInitiation" element={<ProjectFundInstallment_PIInitiation />} />
         <Route path="/Inbox" element={<Inbox />} />
         <Route path="*" element={<NotFound />} />
       </Route>
