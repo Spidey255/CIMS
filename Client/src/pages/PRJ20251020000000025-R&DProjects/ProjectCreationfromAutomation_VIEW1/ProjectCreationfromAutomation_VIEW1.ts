@@ -34,7 +34,7 @@ export const DataElementsData = [
     "Bindable": false,
     "Action": "FormOnLoad",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"MF_d10_FundReceiptMode\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_BudgetHead\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year10\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_ExchangeRate\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_PrincipalInvestigator\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year3\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"ExternalCoPiGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectCode\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d82_DocumentName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d109_OverallEquipmentcost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_Duration\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_EmployeeBasicInfoId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectStatus\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectproposalID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_No_OfManpowerPosition\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_JustiifcationbyHoD\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_HRAPercentage\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_SerialNo\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_ProjectDetailsID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_AdditionalType\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_ProjectType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectCategoryID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_NonRecurringAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d154_TotalPerMonth\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year8\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_ExternalEmailId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_TotalCost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year4\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_Overhead\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_RateinINR\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_AdditionalName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_FromDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MF_d10_IfExtended\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_ProjectRefNo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d109_EquipmentName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_BudgetAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d154_SerialNo\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MG_d28_Year9\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_IsActive\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"EquipmentGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year11\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_ToDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d55_DesignationID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ExtendedDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d109_TotalEquipmentcost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_BudgetID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_SanctionedDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d28_Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_RDOfficeComments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_ManpowerPosition\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_IsSubmitted\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MG_d154_RatePerMonth\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d145_OverallTotalCost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_ExternalInstituteName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_ExternalContactNo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_SchemeID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_ExternalFacultyName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_IfManpower\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_DepartmentID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d109_Quantity\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_ProjectName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_Sector\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"m_currency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ActualEndDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MF_d10_SanctionedNumber\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_DocumentComments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d109_EquipmentBudget\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_InstanceId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"ManpowerGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year1\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d154_Duration\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_FundingAgency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year5\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d82_DocumentID\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MG_d154_TotalMonths\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_Designation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_IfEquipment\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MG_d55_ExternalDesignation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_HRAPerMonth\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year7\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year12\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"RDDocumentGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year6\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Reappropriation\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_FinancialYearID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UI_HideRow\",\"Value\":\"\",\"EDT\":-1},{\"ElementName\":\"MF_d19_OverallAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_IsExternalIns\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_ActualDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d28_Justiifcation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_RecurringAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_Departmentid\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year2\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_Description\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectBudget\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"BudgetAllocation_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_BudgetTotalAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_YearMonth\",\"Value\":\"\",\"EDT\":9}]}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"MF_d10_FundReceiptMode\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_BudgetHead\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year10\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_ExchangeRate\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_PrincipalInvestigator\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year3\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"ExternalCoPiGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectCode\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"ManpowerGrid\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MG_d82_DocumentName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d109_OverallEquipmentcost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_Duration\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_EmployeeBasicInfoId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectStatus\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectproposalID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_No_OfManpowerPosition\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_JustiifcationbyHoD\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_HRAPercentage\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_SerialNo\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_ProjectDetailsID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_AdditionalType\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_ProjectType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_NonRecurringAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_ProjectCategoryID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_TotalPerMonth\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year8\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_ExternalEmailId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_TotalCost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year4\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_Overhead\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_RateinINR\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_AdditionalName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_FromDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MF_d10_IfExtended\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_ProjectRefNo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"RDDocumentGrid\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MG_d109_EquipmentName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_BudgetAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d154_SerialNo\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MG_d28_Year9\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_IsActive\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"EquipmentGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year11\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_ToDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d55_DesignationID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ExtendedDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d109_TotalEquipmentcost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_SanctionedDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d28_BudgetID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_RDOfficeComments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_ManpowerPosition\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_IsSubmitted\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MG_d154_RatePerMonth\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d145_OverallTotalCost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"EquipmentGrid\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MG_d55_ExternalInstituteName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_RecurringValidation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_ExternalContactNo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_SchemeID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_ExternalFacultyName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_IfManpower\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_DepartmentID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d109_Quantity\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_ProjectName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_Sector\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"m_currency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_SanctionedNumber\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ActualEndDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"BudgetAllocation\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MF_d10_DocumentComments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d109_EquipmentBudget\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_InstanceId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"ManpowerGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year1\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d154_Duration\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_FundingAgency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year5\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d82_DocumentID\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MG_d154_TotalMonths\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_IfEquipment\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_Designation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_ExternalDesignation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_HRAPerMonth\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year7\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year12\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"RDDocumentGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year6\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Reappropriation\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_FinancialYearID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UI_HideRow\",\"Value\":\"\",\"EDT\":-1},{\"ElementName\":\"MF_d19_OverallAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_IsExternalIns\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_ActualDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d28_Justiifcation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_RecurringAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_Departmentid\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year2\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_Description\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectBudget\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_BudgetTotalAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"BudgetAllocation_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_YearMonth\",\"Value\":\"\",\"EDT\":9}]}]",
     "DCaption": "",
     "__idx": 0,
     "_id": "93CFDE26-D3EC-4073-8B9F-C943C17365AA_1_0",
@@ -272,6 +272,13 @@ export const DataElementsData = [
                     "DCaption": "Department",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Enable": false,
+                        "Mandatory": false,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 16,
                     "_id": "614f9e0b-71c4-ca47-65e5-b92e524fa786_17_16",
                     "children": []
@@ -311,6 +318,12 @@ export const DataElementsData = [
                     "DCaption": "Designation",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Enable": false,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 17,
                     "_id": "614f9e0b-71c4-ca47-65e5-b92e524fa786_18_17",
                     "children": []
@@ -551,6 +564,12 @@ export const DataElementsData = [
                     "DCaption": "Project Proposal",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 19,
                     "_id": "0F7EA756-E891-4DC8-9542-29068C710F1E_20_19",
                     "children": []
@@ -910,6 +929,12 @@ export const DataElementsData = [
                                 "DCaption": "Project Type",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 61,
                                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_62_61",
                                 "children": []
@@ -948,6 +973,12 @@ export const DataElementsData = [
                                 "DCaption": "",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 62,
                                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_63_62",
                                 "children": []
@@ -986,6 +1017,12 @@ export const DataElementsData = [
                                 "DCaption": "Funding Agency",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 63,
                                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_64_63",
                                 "children": []
@@ -1024,6 +1061,12 @@ export const DataElementsData = [
                                 "DCaption": "Project Category",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 64,
                                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_65_64",
                                 "children": []
@@ -1062,6 +1105,12 @@ export const DataElementsData = [
                                 "DCaption": "Sector",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 65,
                                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_66_65",
                                 "children": []
@@ -1140,6 +1189,12 @@ export const DataElementsData = [
                                 "DCaption": "Sanctioned Number",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 67,
                                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_68_67",
                                 "children": []
@@ -1218,6 +1273,10 @@ export const DataElementsData = [
                                 "DToolTip": "",
                                 "ElementControlProperty": [
                                   {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  },
+                                  {
                                     "Enable": false,
                                     "Visible": false,
                                     "Span": false
@@ -1266,6 +1325,12 @@ export const DataElementsData = [
                                 "DCaption": "Sanctioned Date",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 70,
                                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_71_70",
                                 "children": []
@@ -1545,6 +1610,14 @@ export const DataElementsData = [
                                 "DCaption": "Scheme",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Enable": true,
+                                    "Visible": true,
+                                    "Mandatory": false,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 74,
                                 "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_75_74",
                                 "children": []
@@ -1583,6 +1656,12 @@ export const DataElementsData = [
                                 "DCaption": "Duration",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 75,
                                 "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_76_75",
                                 "children": []
@@ -2024,6 +2103,16 @@ export const DataElementsData = [
                                 "DCaption": "dbo.ProjectBudgetDetails",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  },
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 81,
                                 "_id": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d_82_81",
                                 "children": []
@@ -2293,11 +2382,17 @@ export const DataElementsData = [
                                     "MergeRow": "",
                                     "Action": "OnChange",
                                     "IsSaveWidget": 0,
-                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_RecurringValidation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                                     "EDT": 3,
                                     "DCaption": "Budget Amount",
                                     "DHelpText": "",
                                     "DToolTip": "",
+                                    "ElementControlProperty": [
+                                      {
+                                        "Mandatory": true,
+                                        "Span": false
+                                      }
+                                    ],
                                     "GridParent": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d",
                                     "__idx": 128,
                                     "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_129_128",
@@ -3640,6 +3735,16 @@ export const DataElementsData = [
                                 "DCaption": "dbo.ProjectManpowerDetails",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Visible": true,
+                                    "Span": false
+                                  },
+                                  {
+                                    "Visible": false,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 87,
                                 "_id": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3_88_87",
                                 "children": []
@@ -4459,6 +4564,16 @@ export const DataElementsData = [
                                 "DCaption": "dbo.ProjectEquipmentDetails",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Visible": false,
+                                    "Span": false
+                                  },
+                                  {
+                                    "Visible": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 92,
                                 "_id": "b4e74df0-bfc4-1505-dfa7-455c8110910f_93_92",
                                 "children": []
@@ -5190,8 +5305,9 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "HeaderTemplate": "",
                                             "MergeRow": "",
+                                            "Action": "OnChange",
                                             "IsSaveWidget": 0,
-                                            "BindingDetail": "",
+                                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"ManpowerGrid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_IfManpower\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                                             "EDT": 0,
                                             "DCaption": "Manpower Required",
                                             "DHelpText": "",
@@ -6157,6 +6273,12 @@ export const DataElementsData = [
                                 "DCaption": "dbo.ProjectDocumentUpload",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 108,
                                 "_id": "6abe9595-d5b1-2f8c-1377-09e7bf721994_109_108",
                                 "children": []
@@ -6389,6 +6511,12 @@ export const DataElementsData = [
                                     "DCaption": "Document",
                                     "DHelpText": "",
                                     "DToolTip": "",
+                                    "ElementControlProperty": [
+                                      {
+                                        "Mandatory": true,
+                                        "Span": false
+                                      }
+                                    ],
                                     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
                                     "__idx": 177,
                                     "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_178_177",
@@ -7795,6 +7923,13 @@ export const DataElementsData = [
                 "DCaption": "Department",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Enable": false,
+                    "Mandatory": false,
+                    "Span": false
+                  }
+                ],
                 "__idx": 16,
                 "_id": "614f9e0b-71c4-ca47-65e5-b92e524fa786_17_16",
                 "children": []
@@ -7834,6 +7969,12 @@ export const DataElementsData = [
                 "DCaption": "Designation",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Enable": false,
+                    "Span": false
+                  }
+                ],
                 "__idx": 17,
                 "_id": "614f9e0b-71c4-ca47-65e5-b92e524fa786_18_17",
                 "children": []
@@ -8074,6 +8215,12 @@ export const DataElementsData = [
                 "DCaption": "Project Proposal",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "__idx": 19,
                 "_id": "0F7EA756-E891-4DC8-9542-29068C710F1E_20_19",
                 "children": []
@@ -8433,6 +8580,12 @@ export const DataElementsData = [
                             "DCaption": "Project Type",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 61,
                             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_62_61",
                             "children": []
@@ -8471,6 +8624,12 @@ export const DataElementsData = [
                             "DCaption": "",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 62,
                             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_63_62",
                             "children": []
@@ -8509,6 +8668,12 @@ export const DataElementsData = [
                             "DCaption": "Funding Agency",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 63,
                             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_64_63",
                             "children": []
@@ -8547,6 +8712,12 @@ export const DataElementsData = [
                             "DCaption": "Project Category",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 64,
                             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_65_64",
                             "children": []
@@ -8585,6 +8756,12 @@ export const DataElementsData = [
                             "DCaption": "Sector",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 65,
                             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_66_65",
                             "children": []
@@ -8663,6 +8840,12 @@ export const DataElementsData = [
                             "DCaption": "Sanctioned Number",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 67,
                             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_68_67",
                             "children": []
@@ -8741,6 +8924,10 @@ export const DataElementsData = [
                             "DToolTip": "",
                             "ElementControlProperty": [
                               {
+                                "Mandatory": true,
+                                "Span": false
+                              },
+                              {
                                 "Enable": false,
                                 "Visible": false,
                                 "Span": false
@@ -8789,6 +8976,12 @@ export const DataElementsData = [
                             "DCaption": "Sanctioned Date",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 70,
                             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_71_70",
                             "children": []
@@ -9068,6 +9261,14 @@ export const DataElementsData = [
                             "DCaption": "Scheme",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Enable": true,
+                                "Visible": true,
+                                "Mandatory": false,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 74,
                             "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_75_74",
                             "children": []
@@ -9106,6 +9307,12 @@ export const DataElementsData = [
                             "DCaption": "Duration",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 75,
                             "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_76_75",
                             "children": []
@@ -9547,6 +9754,16 @@ export const DataElementsData = [
                             "DCaption": "dbo.ProjectBudgetDetails",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              },
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 81,
                             "_id": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d_82_81",
                             "children": []
@@ -9816,11 +10033,17 @@ export const DataElementsData = [
                                 "MergeRow": "",
                                 "Action": "OnChange",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_RecurringValidation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                                 "EDT": 3,
                                 "DCaption": "Budget Amount",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "GridParent": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d",
                                 "__idx": 128,
                                 "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_129_128",
@@ -11163,6 +11386,16 @@ export const DataElementsData = [
                             "DCaption": "dbo.ProjectManpowerDetails",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Visible": true,
+                                "Span": false
+                              },
+                              {
+                                "Visible": false,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 87,
                             "_id": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3_88_87",
                             "children": []
@@ -11982,6 +12215,16 @@ export const DataElementsData = [
                             "DCaption": "dbo.ProjectEquipmentDetails",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Visible": false,
+                                "Span": false
+                              },
+                              {
+                                "Visible": true,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 92,
                             "_id": "b4e74df0-bfc4-1505-dfa7-455c8110910f_93_92",
                             "children": []
@@ -12713,8 +12956,9 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "HeaderTemplate": "",
                                         "MergeRow": "",
+                                        "Action": "OnChange",
                                         "IsSaveWidget": 0,
-                                        "BindingDetail": "",
+                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"ManpowerGrid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_IfManpower\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                                         "EDT": 0,
                                         "DCaption": "Manpower Required",
                                         "DHelpText": "",
@@ -13680,6 +13924,12 @@ export const DataElementsData = [
                             "DCaption": "dbo.ProjectDocumentUpload",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 108,
                             "_id": "6abe9595-d5b1-2f8c-1377-09e7bf721994_109_108",
                             "children": []
@@ -13912,6 +14162,12 @@ export const DataElementsData = [
                                 "DCaption": "Document",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
                                 "__idx": 177,
                                 "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_178_177",
@@ -15277,6 +15533,13 @@ export const DataElementsData = [
             "DCaption": "Department",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Enable": false,
+                "Mandatory": false,
+                "Span": false
+              }
+            ],
             "__idx": 16,
             "_id": "614f9e0b-71c4-ca47-65e5-b92e524fa786_17_16",
             "children": []
@@ -15316,6 +15579,12 @@ export const DataElementsData = [
             "DCaption": "Designation",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Enable": false,
+                "Span": false
+              }
+            ],
             "__idx": 17,
             "_id": "614f9e0b-71c4-ca47-65e5-b92e524fa786_18_17",
             "children": []
@@ -15515,6 +15784,12 @@ export const DataElementsData = [
             "DCaption": "Project Proposal",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "__idx": 19,
             "_id": "0F7EA756-E891-4DC8-9542-29068C710F1E_20_19",
             "children": []
@@ -15874,6 +16149,12 @@ export const DataElementsData = [
                         "DCaption": "Project Type",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 61,
                         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_62_61",
                         "children": []
@@ -15912,6 +16193,12 @@ export const DataElementsData = [
                         "DCaption": "",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 62,
                         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_63_62",
                         "children": []
@@ -15950,6 +16237,12 @@ export const DataElementsData = [
                         "DCaption": "Funding Agency",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 63,
                         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_64_63",
                         "children": []
@@ -15988,6 +16281,12 @@ export const DataElementsData = [
                         "DCaption": "Project Category",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 64,
                         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_65_64",
                         "children": []
@@ -16026,6 +16325,12 @@ export const DataElementsData = [
                         "DCaption": "Sector",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 65,
                         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_66_65",
                         "children": []
@@ -16104,6 +16409,12 @@ export const DataElementsData = [
                         "DCaption": "Sanctioned Number",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 67,
                         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_68_67",
                         "children": []
@@ -16182,6 +16493,10 @@ export const DataElementsData = [
                         "DToolTip": "",
                         "ElementControlProperty": [
                           {
+                            "Mandatory": true,
+                            "Span": false
+                          },
+                          {
                             "Enable": false,
                             "Visible": false,
                             "Span": false
@@ -16230,6 +16545,12 @@ export const DataElementsData = [
                         "DCaption": "Sanctioned Date",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 70,
                         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_71_70",
                         "children": []
@@ -16509,6 +16830,14 @@ export const DataElementsData = [
                         "DCaption": "Scheme",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Enable": true,
+                            "Visible": true,
+                            "Mandatory": false,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 74,
                         "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_75_74",
                         "children": []
@@ -16547,6 +16876,12 @@ export const DataElementsData = [
                         "DCaption": "Duration",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 75,
                         "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_76_75",
                         "children": []
@@ -16988,6 +17323,16 @@ export const DataElementsData = [
                         "DCaption": "dbo.ProjectBudgetDetails",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          },
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 81,
                         "_id": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d_82_81",
                         "children": []
@@ -17257,11 +17602,17 @@ export const DataElementsData = [
                             "MergeRow": "",
                             "Action": "OnChange",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_RecurringValidation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                             "EDT": 3,
                             "DCaption": "Budget Amount",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              }
+                            ],
                             "GridParent": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d",
                             "__idx": 128,
                             "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_129_128",
@@ -18604,6 +18955,16 @@ export const DataElementsData = [
                         "DCaption": "dbo.ProjectManpowerDetails",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Visible": true,
+                            "Span": false
+                          },
+                          {
+                            "Visible": false,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 87,
                         "_id": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3_88_87",
                         "children": []
@@ -19423,6 +19784,16 @@ export const DataElementsData = [
                         "DCaption": "dbo.ProjectEquipmentDetails",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Visible": false,
+                            "Span": false
+                          },
+                          {
+                            "Visible": true,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 92,
                         "_id": "b4e74df0-bfc4-1505-dfa7-455c8110910f_93_92",
                         "children": []
@@ -20154,8 +20525,9 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "HeaderTemplate": "",
                                     "MergeRow": "",
+                                    "Action": "OnChange",
                                     "IsSaveWidget": 0,
-                                    "BindingDetail": "",
+                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"ManpowerGrid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_IfManpower\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                                     "EDT": 0,
                                     "DCaption": "Manpower Required",
                                     "DHelpText": "",
@@ -21121,6 +21493,12 @@ export const DataElementsData = [
                         "DCaption": "dbo.ProjectDocumentUpload",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 108,
                         "_id": "6abe9595-d5b1-2f8c-1377-09e7bf721994_109_108",
                         "children": []
@@ -21353,6 +21731,12 @@ export const DataElementsData = [
                             "DCaption": "Document",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              }
+                            ],
                             "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
                             "__idx": 177,
                             "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_178_177",
@@ -22635,6 +23019,13 @@ export const DataElementsData = [
         "DCaption": "Department",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Enable": false,
+            "Mandatory": false,
+            "Span": false
+          }
+        ],
         "__idx": 16,
         "_id": "614f9e0b-71c4-ca47-65e5-b92e524fa786_17_16",
         "children": []
@@ -22674,6 +23065,12 @@ export const DataElementsData = [
         "DCaption": "Designation",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Enable": false,
+            "Span": false
+          }
+        ],
         "__idx": 17,
         "_id": "614f9e0b-71c4-ca47-65e5-b92e524fa786_18_17",
         "children": []
@@ -22832,6 +23229,12 @@ export const DataElementsData = [
         "DCaption": "Project Proposal",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "__idx": 19,
         "_id": "0F7EA756-E891-4DC8-9542-29068C710F1E_20_19",
         "children": []
@@ -23150,6 +23553,12 @@ export const DataElementsData = [
                     "DCaption": "Project Type",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 61,
                     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_62_61",
                     "children": []
@@ -23188,6 +23597,12 @@ export const DataElementsData = [
                     "DCaption": "",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 62,
                     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_63_62",
                     "children": []
@@ -23226,6 +23641,12 @@ export const DataElementsData = [
                     "DCaption": "Funding Agency",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 63,
                     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_64_63",
                     "children": []
@@ -23264,6 +23685,12 @@ export const DataElementsData = [
                     "DCaption": "Project Category",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 64,
                     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_65_64",
                     "children": []
@@ -23302,6 +23729,12 @@ export const DataElementsData = [
                     "DCaption": "Sector",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 65,
                     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_66_65",
                     "children": []
@@ -23380,6 +23813,12 @@ export const DataElementsData = [
                     "DCaption": "Sanctioned Number",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 67,
                     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_68_67",
                     "children": []
@@ -23458,6 +23897,10 @@ export const DataElementsData = [
                     "DToolTip": "",
                     "ElementControlProperty": [
                       {
+                        "Mandatory": true,
+                        "Span": false
+                      },
+                      {
                         "Enable": false,
                         "Visible": false,
                         "Span": false
@@ -23506,6 +23949,12 @@ export const DataElementsData = [
                     "DCaption": "Sanctioned Date",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 70,
                     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_71_70",
                     "children": []
@@ -23785,6 +24234,14 @@ export const DataElementsData = [
                     "DCaption": "Scheme",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Enable": true,
+                        "Visible": true,
+                        "Mandatory": false,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 74,
                     "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_75_74",
                     "children": []
@@ -23823,6 +24280,12 @@ export const DataElementsData = [
                     "DCaption": "Duration",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 75,
                     "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_76_75",
                     "children": []
@@ -24223,6 +24686,16 @@ export const DataElementsData = [
                     "DCaption": "dbo.ProjectBudgetDetails",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      },
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 81,
                     "_id": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d_82_81",
                     "children": []
@@ -24492,11 +24965,17 @@ export const DataElementsData = [
                         "MergeRow": "",
                         "Action": "OnChange",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_RecurringValidation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                         "EDT": 3,
                         "DCaption": "Budget Amount",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          }
+                        ],
                         "GridParent": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d",
                         "__idx": 128,
                         "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_129_128",
@@ -25839,6 +26318,16 @@ export const DataElementsData = [
                     "DCaption": "dbo.ProjectManpowerDetails",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Visible": true,
+                        "Span": false
+                      },
+                      {
+                        "Visible": false,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 87,
                     "_id": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3_88_87",
                     "children": []
@@ -26658,6 +27147,16 @@ export const DataElementsData = [
                     "DCaption": "dbo.ProjectEquipmentDetails",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Visible": false,
+                        "Span": false
+                      },
+                      {
+                        "Visible": true,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 92,
                     "_id": "b4e74df0-bfc4-1505-dfa7-455c8110910f_93_92",
                     "children": []
@@ -27389,8 +27888,9 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "HeaderTemplate": "",
                                 "MergeRow": "",
+                                "Action": "OnChange",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"ManpowerGrid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_IfManpower\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                                 "EDT": 0,
                                 "DCaption": "Manpower Required",
                                 "DHelpText": "",
@@ -28356,6 +28856,12 @@ export const DataElementsData = [
                     "DCaption": "dbo.ProjectDocumentUpload",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 108,
                     "_id": "6abe9595-d5b1-2f8c-1377-09e7bf721994_109_108",
                     "children": []
@@ -28588,6 +29094,12 @@ export const DataElementsData = [
                         "DCaption": "Document",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          }
+                        ],
                         "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
                         "__idx": 177,
                         "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_178_177",
@@ -29788,6 +30300,13 @@ export const DataElementsData = [
     "DCaption": "Department",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Enable": false,
+        "Mandatory": false,
+        "Span": false
+      }
+    ],
     "__idx": 16,
     "_id": "614f9e0b-71c4-ca47-65e5-b92e524fa786_17_16",
     "children": []
@@ -29827,6 +30346,12 @@ export const DataElementsData = [
     "DCaption": "Designation",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Enable": false,
+        "Span": false
+      }
+    ],
     "__idx": 17,
     "_id": "614f9e0b-71c4-ca47-65e5-b92e524fa786_18_17",
     "children": []
@@ -29903,6 +30428,12 @@ export const DataElementsData = [
     "DCaption": "Project Proposal",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "__idx": 19,
     "_id": "0F7EA756-E891-4DC8-9542-29068C710F1E_20_19",
     "children": []
@@ -30180,6 +30711,12 @@ export const DataElementsData = [
                 "DCaption": "Project Type",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "__idx": 61,
                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_62_61",
                 "children": []
@@ -30218,6 +30755,12 @@ export const DataElementsData = [
                 "DCaption": "",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "__idx": 62,
                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_63_62",
                 "children": []
@@ -30256,6 +30799,12 @@ export const DataElementsData = [
                 "DCaption": "Funding Agency",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "__idx": 63,
                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_64_63",
                 "children": []
@@ -30294,6 +30843,12 @@ export const DataElementsData = [
                 "DCaption": "Project Category",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "__idx": 64,
                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_65_64",
                 "children": []
@@ -30332,6 +30887,12 @@ export const DataElementsData = [
                 "DCaption": "Sector",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "__idx": 65,
                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_66_65",
                 "children": []
@@ -30410,6 +30971,12 @@ export const DataElementsData = [
                 "DCaption": "Sanctioned Number",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "__idx": 67,
                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_68_67",
                 "children": []
@@ -30488,6 +31055,10 @@ export const DataElementsData = [
                 "DToolTip": "",
                 "ElementControlProperty": [
                   {
+                    "Mandatory": true,
+                    "Span": false
+                  },
+                  {
                     "Enable": false,
                     "Visible": false,
                     "Span": false
@@ -30536,6 +31107,12 @@ export const DataElementsData = [
                 "DCaption": "Sanctioned Date",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "__idx": 70,
                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_71_70",
                 "children": []
@@ -30815,6 +31392,14 @@ export const DataElementsData = [
                 "DCaption": "Scheme",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Enable": true,
+                    "Visible": true,
+                    "Mandatory": false,
+                    "Span": false
+                  }
+                ],
                 "__idx": 74,
                 "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_75_74",
                 "children": []
@@ -30853,6 +31438,12 @@ export const DataElementsData = [
                 "DCaption": "Duration",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "__idx": 75,
                 "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_76_75",
                 "children": []
@@ -31212,6 +31803,16 @@ export const DataElementsData = [
                 "DCaption": "dbo.ProjectBudgetDetails",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  },
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "__idx": 81,
                 "_id": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d_82_81",
                 "children": []
@@ -31481,11 +32082,17 @@ export const DataElementsData = [
                     "MergeRow": "",
                     "Action": "OnChange",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_RecurringValidation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                     "EDT": 3,
                     "DCaption": "Budget Amount",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "GridParent": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d",
                     "__idx": 128,
                     "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_129_128",
@@ -32828,6 +33435,16 @@ export const DataElementsData = [
                 "DCaption": "dbo.ProjectManpowerDetails",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Visible": true,
+                    "Span": false
+                  },
+                  {
+                    "Visible": false,
+                    "Span": false
+                  }
+                ],
                 "__idx": 87,
                 "_id": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3_88_87",
                 "children": []
@@ -33647,6 +34264,16 @@ export const DataElementsData = [
                 "DCaption": "dbo.ProjectEquipmentDetails",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Visible": false,
+                    "Span": false
+                  },
+                  {
+                    "Visible": true,
+                    "Span": false
+                  }
+                ],
                 "__idx": 92,
                 "_id": "b4e74df0-bfc4-1505-dfa7-455c8110910f_93_92",
                 "children": []
@@ -34378,8 +35005,9 @@ export const DataElementsData = [
                             "Bindable": false,
                             "HeaderTemplate": "",
                             "MergeRow": "",
+                            "Action": "OnChange",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"ManpowerGrid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_IfManpower\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                             "EDT": 0,
                             "DCaption": "Manpower Required",
                             "DHelpText": "",
@@ -35345,6 +35973,12 @@ export const DataElementsData = [
                 "DCaption": "dbo.ProjectDocumentUpload",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "__idx": 108,
                 "_id": "6abe9595-d5b1-2f8c-1377-09e7bf721994_109_108",
                 "children": []
@@ -35577,6 +36211,12 @@ export const DataElementsData = [
                     "DCaption": "Document",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
                     "__idx": 177,
                     "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_178_177",
@@ -36894,6 +37534,12 @@ export const DataElementsData = [
             "DCaption": "Project Type",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "__idx": 61,
             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_62_61",
             "children": []
@@ -36932,6 +37578,12 @@ export const DataElementsData = [
             "DCaption": "",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "__idx": 62,
             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_63_62",
             "children": []
@@ -36970,6 +37622,12 @@ export const DataElementsData = [
             "DCaption": "Funding Agency",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "__idx": 63,
             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_64_63",
             "children": []
@@ -37008,6 +37666,12 @@ export const DataElementsData = [
             "DCaption": "Project Category",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "__idx": 64,
             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_65_64",
             "children": []
@@ -37046,6 +37710,12 @@ export const DataElementsData = [
             "DCaption": "Sector",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "__idx": 65,
             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_66_65",
             "children": []
@@ -37124,6 +37794,12 @@ export const DataElementsData = [
             "DCaption": "Sanctioned Number",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "__idx": 67,
             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_68_67",
             "children": []
@@ -37202,6 +37878,10 @@ export const DataElementsData = [
             "DToolTip": "",
             "ElementControlProperty": [
               {
+                "Mandatory": true,
+                "Span": false
+              },
+              {
                 "Enable": false,
                 "Visible": false,
                 "Span": false
@@ -37250,6 +37930,12 @@ export const DataElementsData = [
             "DCaption": "Sanctioned Date",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "__idx": 70,
             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_71_70",
             "children": []
@@ -37529,6 +38215,14 @@ export const DataElementsData = [
             "DCaption": "Scheme",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Enable": true,
+                "Visible": true,
+                "Mandatory": false,
+                "Span": false
+              }
+            ],
             "__idx": 74,
             "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_75_74",
             "children": []
@@ -37567,6 +38261,12 @@ export const DataElementsData = [
             "DCaption": "Duration",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "__idx": 75,
             "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_76_75",
             "children": []
@@ -37885,6 +38585,16 @@ export const DataElementsData = [
             "DCaption": "dbo.ProjectBudgetDetails",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              },
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "__idx": 81,
             "_id": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d_82_81",
             "children": []
@@ -38154,11 +38864,17 @@ export const DataElementsData = [
                 "MergeRow": "",
                 "Action": "OnChange",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_RecurringValidation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                 "EDT": 3,
                 "DCaption": "Budget Amount",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "GridParent": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d",
                 "__idx": 128,
                 "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_129_128",
@@ -39460,6 +40176,16 @@ export const DataElementsData = [
             "DCaption": "dbo.ProjectManpowerDetails",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Visible": true,
+                "Span": false
+              },
+              {
+                "Visible": false,
+                "Span": false
+              }
+            ],
             "__idx": 87,
             "_id": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3_88_87",
             "children": []
@@ -40279,6 +41005,16 @@ export const DataElementsData = [
             "DCaption": "dbo.ProjectEquipmentDetails",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Visible": false,
+                "Span": false
+              },
+              {
+                "Visible": true,
+                "Span": false
+              }
+            ],
             "__idx": 92,
             "_id": "b4e74df0-bfc4-1505-dfa7-455c8110910f_93_92",
             "children": []
@@ -41010,8 +41746,9 @@ export const DataElementsData = [
                         "Bindable": false,
                         "HeaderTemplate": "",
                         "MergeRow": "",
+                        "Action": "OnChange",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"ManpowerGrid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_IfManpower\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                         "EDT": 0,
                         "DCaption": "Manpower Required",
                         "DHelpText": "",
@@ -41895,6 +42632,12 @@ export const DataElementsData = [
             "DCaption": "dbo.ProjectDocumentUpload",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "__idx": 108,
             "_id": "6abe9595-d5b1-2f8c-1377-09e7bf721994_109_108",
             "children": []
@@ -42127,6 +42870,12 @@ export const DataElementsData = [
                 "DCaption": "Document",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
                 "__idx": 177,
                 "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_178_177",
@@ -43321,6 +44070,12 @@ export const DataElementsData = [
         "DCaption": "Project Type",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "__idx": 61,
         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_62_61",
         "children": []
@@ -43359,6 +44114,12 @@ export const DataElementsData = [
         "DCaption": "",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "__idx": 62,
         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_63_62",
         "children": []
@@ -43397,6 +44158,12 @@ export const DataElementsData = [
         "DCaption": "Funding Agency",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "__idx": 63,
         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_64_63",
         "children": []
@@ -43435,6 +44202,12 @@ export const DataElementsData = [
         "DCaption": "Project Category",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "__idx": 64,
         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_65_64",
         "children": []
@@ -43473,6 +44246,12 @@ export const DataElementsData = [
         "DCaption": "Sector",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "__idx": 65,
         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_66_65",
         "children": []
@@ -43551,6 +44330,12 @@ export const DataElementsData = [
         "DCaption": "Sanctioned Number",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "__idx": 67,
         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_68_67",
         "children": []
@@ -43629,6 +44414,10 @@ export const DataElementsData = [
         "DToolTip": "",
         "ElementControlProperty": [
           {
+            "Mandatory": true,
+            "Span": false
+          },
+          {
             "Enable": false,
             "Visible": false,
             "Span": false
@@ -43677,6 +44466,12 @@ export const DataElementsData = [
         "DCaption": "Sanctioned Date",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "__idx": 70,
         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_71_70",
         "children": []
@@ -43915,6 +44710,14 @@ export const DataElementsData = [
         "DCaption": "Scheme",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Enable": true,
+            "Visible": true,
+            "Mandatory": false,
+            "Span": false
+          }
+        ],
         "__idx": 74,
         "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_75_74",
         "children": []
@@ -43953,6 +44756,12 @@ export const DataElementsData = [
         "DCaption": "Duration",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "__idx": 75,
         "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_76_75",
         "children": []
@@ -44230,6 +45039,16 @@ export const DataElementsData = [
         "DCaption": "dbo.ProjectBudgetDetails",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          },
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "__idx": 81,
         "_id": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d_82_81",
         "children": []
@@ -44499,11 +45318,17 @@ export const DataElementsData = [
             "MergeRow": "",
             "Action": "OnChange",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_RecurringValidation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
             "EDT": 3,
             "DCaption": "Budget Amount",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "GridParent": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d",
             "__idx": 128,
             "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_129_128",
@@ -45723,6 +46548,16 @@ export const DataElementsData = [
         "DCaption": "dbo.ProjectManpowerDetails",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Visible": true,
+            "Span": false
+          },
+          {
+            "Visible": false,
+            "Span": false
+          }
+        ],
         "__idx": 87,
         "_id": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3_88_87",
         "children": []
@@ -46501,6 +47336,16 @@ export const DataElementsData = [
         "DCaption": "dbo.ProjectEquipmentDetails",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Visible": false,
+            "Span": false
+          },
+          {
+            "Visible": true,
+            "Span": false
+          }
+        ],
         "__idx": 92,
         "_id": "b4e74df0-bfc4-1505-dfa7-455c8110910f_93_92",
         "children": []
@@ -47191,8 +48036,9 @@ export const DataElementsData = [
                     "Bindable": false,
                     "HeaderTemplate": "",
                     "MergeRow": "",
+                    "Action": "OnChange",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"ManpowerGrid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_IfManpower\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                     "EDT": 0,
                     "DCaption": "Manpower Required",
                     "DHelpText": "",
@@ -47992,6 +48838,12 @@ export const DataElementsData = [
         "DCaption": "dbo.ProjectDocumentUpload",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "__idx": 108,
         "_id": "6abe9595-d5b1-2f8c-1377-09e7bf721994_109_108",
         "children": []
@@ -48224,6 +49076,12 @@ export const DataElementsData = [
             "DCaption": "Document",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
             "__idx": 177,
             "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_178_177",
@@ -49132,6 +49990,12 @@ export const DataElementsData = [
     "DCaption": "Project Type",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "__idx": 61,
     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_62_61",
     "children": []
@@ -49170,6 +50034,12 @@ export const DataElementsData = [
     "DCaption": "",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "__idx": 62,
     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_63_62",
     "children": []
@@ -49208,6 +50078,12 @@ export const DataElementsData = [
     "DCaption": "Funding Agency",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "__idx": 63,
     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_64_63",
     "children": []
@@ -49246,6 +50122,12 @@ export const DataElementsData = [
     "DCaption": "Project Category",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "__idx": 64,
     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_65_64",
     "children": []
@@ -49284,6 +50166,12 @@ export const DataElementsData = [
     "DCaption": "Sector",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "__idx": 65,
     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_66_65",
     "children": []
@@ -49362,6 +50250,12 @@ export const DataElementsData = [
     "DCaption": "Sanctioned Number",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "__idx": 67,
     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_68_67",
     "children": []
@@ -49440,6 +50334,10 @@ export const DataElementsData = [
     "DToolTip": "",
     "ElementControlProperty": [
       {
+        "Mandatory": true,
+        "Span": false
+      },
+      {
         "Enable": false,
         "Visible": false,
         "Span": false
@@ -49488,6 +50386,12 @@ export const DataElementsData = [
     "DCaption": "Sanctioned Date",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "__idx": 70,
     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_71_70",
     "children": []
@@ -49644,6 +50548,14 @@ export const DataElementsData = [
     "DCaption": "Scheme",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Enable": true,
+        "Visible": true,
+        "Mandatory": false,
+        "Span": false
+      }
+    ],
     "__idx": 74,
     "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_75_74",
     "children": []
@@ -49682,6 +50594,12 @@ export const DataElementsData = [
     "DCaption": "Duration",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "__idx": 75,
     "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_76_75",
     "children": []
@@ -49916,6 +50834,16 @@ export const DataElementsData = [
     "DCaption": "dbo.ProjectBudgetDetails",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      },
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "__idx": 81,
     "_id": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d_82_81",
     "children": []
@@ -50185,11 +51113,17 @@ export const DataElementsData = [
         "MergeRow": "",
         "Action": "OnChange",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_RecurringValidation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
         "EDT": 3,
         "DCaption": "Budget Amount",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "GridParent": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d",
         "__idx": 128,
         "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_129_128",
@@ -51325,6 +52259,16 @@ export const DataElementsData = [
     "DCaption": "dbo.ProjectManpowerDetails",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Visible": true,
+        "Span": false
+      },
+      {
+        "Visible": false,
+        "Span": false
+      }
+    ],
     "__idx": 87,
     "_id": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3_88_87",
     "children": []
@@ -52060,6 +53004,16 @@ export const DataElementsData = [
     "DCaption": "dbo.ProjectEquipmentDetails",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Visible": false,
+        "Span": false
+      },
+      {
+        "Visible": true,
+        "Span": false
+      }
+    ],
     "__idx": 92,
     "_id": "b4e74df0-bfc4-1505-dfa7-455c8110910f_93_92",
     "children": []
@@ -52709,8 +53663,9 @@ export const DataElementsData = [
                 "Bindable": false,
                 "HeaderTemplate": "",
                 "MergeRow": "",
+                "Action": "OnChange",
                 "IsSaveWidget": 0,
-                "BindingDetail": "",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"ManpowerGrid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_IfManpower\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                 "EDT": 0,
                 "DCaption": "Manpower Required",
                 "DHelpText": "",
@@ -53266,6 +54221,12 @@ export const DataElementsData = [
     "DCaption": "dbo.ProjectDocumentUpload",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "__idx": 108,
     "_id": "6abe9595-d5b1-2f8c-1377-09e7bf721994_109_108",
     "children": []
@@ -53498,6 +54459,12 @@ export const DataElementsData = [
         "DCaption": "Document",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
         "__idx": 177,
         "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_178_177",
@@ -54352,11 +55319,17 @@ export const DataElementsData = [
     "MergeRow": "",
     "Action": "OnChange",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_RecurringValidation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
     "EDT": 3,
     "DCaption": "Budget Amount",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "GridParent": "8b5e1da0-7c29-ff63-d424-9746c5d7d70d",
     "__idx": 128,
     "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_129_128",
@@ -56394,8 +57367,9 @@ export const DataElementsData = [
             "Bindable": false,
             "HeaderTemplate": "",
             "MergeRow": "",
+            "Action": "OnChange",
             "IsSaveWidget": 0,
-            "BindingDetail": "",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"ManpowerGrid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_IfManpower\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
             "EDT": 0,
             "DCaption": "Manpower Required",
             "DHelpText": "",
@@ -56595,6 +57569,12 @@ export const DataElementsData = [
     "DCaption": "Document",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
     "__idx": 177,
     "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_178_177",
@@ -57056,8 +58036,9 @@ export const DataElementsData = [
         "Bindable": false,
         "HeaderTemplate": "",
         "MergeRow": "",
+        "Action": "OnChange",
         "IsSaveWidget": 0,
-        "BindingDetail": "",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"ManpowerGrid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_IfManpower\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
         "EDT": 0,
         "DCaption": "Manpower Required",
         "DHelpText": "",
@@ -57403,8 +58384,9 @@ export const DataElementsData = [
     "Bindable": false,
     "HeaderTemplate": "",
     "MergeRow": "",
+    "Action": "OnChange",
     "IsSaveWidget": 0,
-    "BindingDetail": "",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"ManpowerGrid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_IfManpower\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
     "EDT": 0,
     "DCaption": "Manpower Required",
     "DHelpText": "",

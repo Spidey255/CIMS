@@ -19,7 +19,6 @@ import { useUserStore } from "@/store/useUserStore";
 
 import ProjectReimbursement_RDoffice from "@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_RDoffice";
 import TravelRequest_Registrar from "@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_Registrar";
-import ProjectOverview_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectOverview_Start";
 import ProjectFundInstallment_AdditionalDetails from "@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_AdditionalDetails";
 import ProjectsExplorer_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start";
 import TravelRequest_ARRD from "@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_ARRD";
@@ -116,7 +115,6 @@ const App: React.FC = () => {
       }>
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursement_RDoffice" element={<ProjectReimbursement_RDoffice />} />
         <Route path="/PRJ20251020000000025-R&DProjects/TravelRequest_Registrar" element={<TravelRequest_Registrar />} />
-        <Route path="/PRJ20251020000000025-R&DProjects/ProjectOverview_Start" element={<ProjectOverview_Start />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_AdditionalDetails" element={<ProjectFundInstallment_AdditionalDetails />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start" element={<ProjectsExplorer_Start />} />
         <Route path="/PRJ20251020000000025-R&DProjects/TravelRequest_ARRD" element={<TravelRequest_ARRD />} />

@@ -1971,6 +1971,8 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""ADD720B3-8CFA-4B65-B
 {
 ISpace[""UI_HideRow""].Visible=""false"";
 }");
+ISpace["RDDocumentGrid"].Man=true;ISpace["MG_d28_BudgetAmount"].Man=true;ISpace["BudgetAllocation"].Man=true;ISpace["MG_d82_DocumentID"].Man=true;
+base.WriteDebugInfo(@"ISpace[""RDDocumentGrid""].Man=true;ISpace[""MG_d28_BudgetAmount""].Man=true;ISpace[""BudgetAllocation""].Man=true;ISpace[""MG_d82_DocumentID""].Man=true;");
 }
 if(1==1)
 {
@@ -2052,6 +2054,73 @@ List<Triplet<string, short, short?>> result22ae9f9ee9e879dd1f5e44b4433f5e5c=acda
 iSpace.SetGridData(result5b1d38940d729c8d3a5f8fe772ffa261,result22ae9f9ee9e879dd1f5e44b4433f5e5c,"ExternalCoPiGrid",ref ISpace);
 iSpace.UpdateGridBindDetails("ExternalCoPiGrid",result22ae9f9ee9e879dd1f5e44b4433f5e5c);
 }
+object MG_d28_BudgetAmount=iSpace.Sum("[B73036BB-FE7D-4B0D-998A-985294F8FC5B]","MG_d28_BudgetAmount","",ISpace["gv_instanceid"].Value);
+ISpace["MF_d10_BudgetTotalAmount"].Value=Convert.ChangeType(MG_d28_BudgetAmount, MG_d28_BudgetAmount.GetType());;
+base.WriteDebugInfo(@"object MG_d28_BudgetAmount=iSpace.Sum(""[B73036BB-FE7D-4B0D-998A-985294F8FC5B]"",""MG_d28_BudgetAmount"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_d10_BudgetTotalAmount""].Value=Convert.ChangeType(MG_d28_BudgetAmount, MG_d28_BudgetAmount.GetType());;");
+base.WriteDebugInfo(@"#BudgetAllocation[Rows]");
+iSpace.GetLoopExpressionData("BudgetAllocation",ref ISpace);
+
+foreach(var gridChild in ISpace["BudgetAllocation"].Child)
+{foreach(var gridrow in gridChild.Child)
+ {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
+
+
+if(
+ISpace["MF_d10_RecurringValidation"].Value=="519")
+{
+base.WriteDebugInfo(@"
+if(
+ISpace[""MF_d10_RecurringValidation""].Value==""519"")");
+ISpace["MF_d10_NonRecurringAmount"].Value=ISpace["MF_d10_NonRecurringAmount"].Value+ISpace["MG_d28_BudgetAmount"].Value;
+base.WriteDebugInfo(@"ISpace[""MF_d10_NonRecurringAmount""].Value=ISpace[""MF_d10_NonRecurringAmount""].Value+ISpace[""MG_d28_BudgetAmount""].Value;");
+}
+
+if(
+ISpace["MF_d10_RecurringValidation"].Value=="518")
+{
+base.WriteDebugInfo(@"
+if(
+ISpace[""MF_d10_RecurringValidation""].Value==""518"")");
+ISpace["MF_d10_RecurringAmount"].Value=ISpace["MF_d10_RecurringAmount"].Value+ISpace["MG_d28_BudgetAmount"].Value;
+base.WriteDebugInfo(@"ISpace[""MF_d10_RecurringAmount""].Value=ISpace[""MF_d10_RecurringAmount""].Value+ISpace[""MG_d28_BudgetAmount""].Value;");
+}
+}
+if (_elementBase != null)  iSpace.SetLoopExpressionData("BudgetAllocation","B73036BB-FE7D-4B0D-998A-985294F8FC5B",_objectFactory.GetGridRPP("BudgetAllocation"),_elementBase.GetGridLoopQuery("B73036BB-FE7D-4B0D-998A-985294F8FC5B","BudgetAllocation",ISpace), ref ISpace);
+base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""BudgetAllocation"",ref ISpace);
+
+foreach(var gridChild in ISpace[""BudgetAllocation""].Child)
+{foreach(var gridrow in gridChild.Child)
+ {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
+");
+ISpace["MF_d10_ProjectproposalID"].Man=true;ISpace["MF_d10_ProjectCategoryID"].Man=true;ISpace["MF_d10_FundingAgency"].Man=true;ISpace["MF_d10_Sector"].Man=true;ISpace["MF_d10_FinancialYearID"].Man=true;ISpace["MF_d10_SanctionedDate"].Man=true;ISpace["MF_d10_SchemeID"].Visible="true";ISpace["MF_d10_SchemeID"].Man=false;ISpace["MF_d10_SchemeID"].Enbl="true";ISpace["MF_d10_Duration"].Man=true;ISpace["BudgetAllocation"].Man=true;ISpace["MF_d10_Designation"].Enbl="false";ISpace["MF_d10_SanctionedNumber"].Man=true;ISpace["m_currency"].Man=true;ISpace["MF_d10_ProjectType"].Man=true;ISpace["MF_d10_DepartmentID"].Man=false;ISpace["MF_d10_DepartmentID"].Enbl="false";
+base.WriteDebugInfo(@"ISpace[""MF_d10_ProjectproposalID""].Man=true;ISpace[""MF_d10_ProjectCategoryID""].Man=true;ISpace[""MF_d10_FundingAgency""].Man=true;ISpace[""MF_d10_Sector""].Man=true;ISpace[""MF_d10_FinancialYearID""].Man=true;ISpace[""MF_d10_SanctionedDate""].Man=true;ISpace[""MF_d10_SchemeID""].Visible=""true"";ISpace[""MF_d10_SchemeID""].Man=false;ISpace[""MF_d10_SchemeID""].Enbl=""true"";ISpace[""MF_d10_Duration""].Man=true;ISpace[""BudgetAllocation""].Man=true;ISpace[""MF_d10_Designation""].Enbl=""false"";ISpace[""MF_d10_SanctionedNumber""].Man=true;ISpace[""m_currency""].Man=true;ISpace[""MF_d10_ProjectType""].Man=true;ISpace[""MF_d10_DepartmentID""].Man=false;ISpace[""MF_d10_DepartmentID""].Enbl=""false"";");
+if(ISpace["MF_d10_IfManpower"].Value==true)
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d10_IfManpower""].Value==true)");
+ISpace["ManpowerGrid"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""ManpowerGrid""].Visible=""true"";");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["ManpowerGrid"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""ManpowerGrid""].Visible=""false"";");
+}
+if(ISpace["MF_d10_IfEquipment"].Value==true)
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d10_IfEquipment""].Value==true)");
+ISpace["EquipmentGrid"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""EquipmentGrid""].Visible=""true"";");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["EquipmentGrid"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""EquipmentGrid""].Visible=""false"";");
+}
+ISpace["MF_d10_FinancialYearID"].Value="19";
+base.WriteDebugInfo(@"ISpace[""MF_d10_FinancialYearID""].Value=""19"";");
 }
 catch(Exception ex)
 {
@@ -2160,6 +2229,91 @@ object MG_d28_BudgetAmount=iSpace.Sum("[B73036BB-FE7D-4B0D-998A-985294F8FC5B]","
 ISpace["MF_d10_BudgetTotalAmount"].Value=Convert.ChangeType(MG_d28_BudgetAmount, MG_d28_BudgetAmount.GetType());;
 base.WriteDebugInfo(@"object MG_d28_BudgetAmount=iSpace.Sum(""[B73036BB-FE7D-4B0D-998A-985294F8FC5B]"",""MG_d28_BudgetAmount"","""",ISpace[""gv_instanceid""].Value);
 ISpace[""MF_d10_BudgetTotalAmount""].Value=Convert.ChangeType(MG_d28_BudgetAmount, MG_d28_BudgetAmount.GetType());;");
+base.WriteDebugInfo(@"#BudgetAllocation[Rows]");
+iSpace.GetLoopExpressionData("BudgetAllocation",ref ISpace);
+
+foreach(var gridChild in ISpace["BudgetAllocation"].Child)
+{foreach(var gridrow in gridChild.Child)
+ {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
+
+
+if(
+ISpace["MF_d10_RecurringValidation"].Value=="519")
+{
+base.WriteDebugInfo(@"
+if(
+ISpace[""MF_d10_RecurringValidation""].Value==""519"")");
+ISpace["MF_d10_NonRecurringAmount"].Value=ISpace["MF_d10_NonRecurringAmount"].Value+ISpace["MG_d28_BudgetAmount"].Value;
+base.WriteDebugInfo(@"ISpace[""MF_d10_NonRecurringAmount""].Value=ISpace[""MF_d10_NonRecurringAmount""].Value+ISpace[""MG_d28_BudgetAmount""].Value;");
+}
+
+if(
+ISpace["MF_d10_RecurringValidation"].Value=="518")
+{
+base.WriteDebugInfo(@"
+if(
+ISpace[""MF_d10_RecurringValidation""].Value==""518"")");
+ISpace["MF_d10_RecurringAmount"].Value=ISpace["MF_d10_RecurringAmount"].Value+ISpace["MG_d28_BudgetAmount"].Value;
+base.WriteDebugInfo(@"ISpace[""MF_d10_RecurringAmount""].Value=ISpace[""MF_d10_RecurringAmount""].Value+ISpace[""MG_d28_BudgetAmount""].Value;");
+}
+}
+if (_elementBase != null)  iSpace.SetLoopExpressionData("BudgetAllocation","B73036BB-FE7D-4B0D-998A-985294F8FC5B",_objectFactory.GetGridRPP("BudgetAllocation"),_elementBase.GetGridLoopQuery("B73036BB-FE7D-4B0D-998A-985294F8FC5B","BudgetAllocation",ISpace), ref ISpace);
+base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""BudgetAllocation"",ref ISpace);
+
+foreach(var gridChild in ISpace[""BudgetAllocation""].Child)
+{foreach(var gridrow in gridChild.Child)
+ {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
+");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mf_d10_ifequipment (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MF_d10_IfEquipment-OnChange");
+if(ISpace["MF_d10_IfEquipment"].Value==true)
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d10_IfEquipment""].Value==true)");
+ISpace["EquipmentGrid"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""EquipmentGrid""].Visible=""true"";");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["EquipmentGrid"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""EquipmentGrid""].Visible=""false"";");
+}
+ISpace["MF_d10_FinancialYearID"].Value="19";
+base.WriteDebugInfo(@"ISpace[""MF_d10_FinancialYearID""].Value=""19"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mf_d10_ifmanpower (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MF_d10_IfManpower-OnChange");
+if(ISpace["MF_d10_IfManpower"].Value==true)
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d10_IfManpower""].Value==true)");
+ISpace["ManpowerGrid"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""ManpowerGrid""].Visible=""true"";");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["ManpowerGrid"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""ManpowerGrid""].Visible=""false"";");
+}
 }
 catch(Exception ex)
 {
@@ -2307,6 +2461,14 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("mg_d28_budgetamount"))
     {
     			SubscribeElementEvents_mg_d28_budgetamount(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mf_d10_ifequipment"))
+    {
+    			SubscribeElementEvents_mf_d10_ifequipment(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mf_d10_ifmanpower"))
+    {
+    			SubscribeElementEvents_mf_d10_ifmanpower(ref dfsParam);
     }
 }
 	if(methodName.ToLower().Equals("onclick"))
