@@ -17,6 +17,7 @@ const LabelDateTimePicker: React.FC<{
   const state = useGeneralStore(
     (store) => store.state[element.ElementName]?.["value"]
   );
+  console.log("LabelDateTimePicker state for", element.ElementName, ":", state);
 
   // Initialize Bootstrap 5 Popover (via CDN)
   useEffect(() => {

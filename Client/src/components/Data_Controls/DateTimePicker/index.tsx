@@ -10,6 +10,7 @@ const NumericTextBox: React.FC<{
   element: UIElement;
   isGrid?: boolean;
 }> = ({ element, isGrid }) => {
+ 
   switch (element.RenderType) {
     case 9:
       return <DefaultDateTimePicker element={element} isGrid={isGrid} />;

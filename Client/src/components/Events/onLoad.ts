@@ -103,7 +103,7 @@ export async function onLoad(
             })
 
       if (!activePage) {
-        console.warn("ActivePage not ready yet");
+        // console.warn("ActivePage not ready yet");
         return [];
       }
 

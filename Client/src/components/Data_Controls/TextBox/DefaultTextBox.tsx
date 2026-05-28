@@ -53,8 +53,8 @@ const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
               rows={5}
               className="form-control input-lg"
               placeholder={element?.DHelpText}
-              value={state !== undefined && state !== null ? String(state) : ""}              // ? controlled value
-              onChange={onChange}               // ? update store
+              value={state !== undefined && state !== null ? String(state) : ""}              // ✅ controlled value
+              onChange={onChange}               // ✅ update store
               onClick={(e) => e.stopPropagation()}
             />
           ) : (
@@ -64,7 +64,7 @@ const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
               name={element.ElementName}
               className="form-control input-lg"
               placeholder={element?.DHelpText}
-              value={state !== undefined && state !== null ? String(state) : ""}              // ? controlled value
+              value={state !== undefined && state !== null ? String(state) : ""}              // ✅ controlled value
               onChange={onChange}
               onClick={(e) => e.stopPropagation()}
             />

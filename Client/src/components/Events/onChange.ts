@@ -176,12 +176,19 @@ import type {
 } from "../../constants/types";
 import { usePageStore } from "../../store/usePageStore";
 import toast from "react-hot-toast";
+import { saveGridRow } from "@/helpers/saveGridHelper";
 
 export async function resusableOnChange(element: UIElement) {
   if (element.Action == "OnChange" && element.BindingDetail) {
     try {
-      const slotId = useUserStore.getState().slotId || sessionStorage.getItem("accessToken");
-      const activePage = usePageStore.getState().activePage;
+      const slotId =
+  useUserStore.getState().slotId ||
+  sessionStorage.getItem("accessToken");
+
+const activePage = usePageStore.getState().activePage;
+
+const formInstanceId =
+  usePageStore.getState().formInstanceId;
 
       if (!element["BindingDetail"]) return console.log("No BindingDetail Found");
 
@@ -189,6 +196,12 @@ export async function resusableOnChange(element: UIElement) {
 
       if (!bindingDetails.length) return console.log("No Content in BindingDetail");
 
+     
+      const savedFormInstanceId = await saveGridRow({
+        element,
+        formInstanceId,
+      });
+      console.log("Saved form instance id from onChange:", savedFormInstanceId);
       const details =
         bindingDetails.length === 1
           ? bindingDetails[0]
@@ -230,6 +243,7 @@ export async function resusableOnChange(element: UIElement) {
           : element["ElementName"],
         PackageProcessMapId: activePage?.PackageProcessMapId,
         ProcessActivityMapId: activePage?.ProcessActivityMapId,
+        FormInstanceId: formInstanceId,
         FormVersionId: activePage?.FormVersionId,
         ViewPort: 4,
         Action: element?.Action,
@@ -246,19 +260,19 @@ export async function resusableOnChange(element: UIElement) {
           "No rows in response in ACTION BUTTON " + element.Id
         );
 
-        if(data.Message){
-          if(data.Message.split(":")[0].toLowerCase() === "success"){
-            toast.success(data.Message);
-          } else if(data.Message.split(":")[0].toLowerCase() === "warning"){
-            toast.error(data.Message.split(":")[1]);
-          } else if(data.Message.split(":")[0].toLowerCase() === "error"){
-            toast.error(data.Message.split(":")[1]);
-          } else {
-            toast.error(data.Message.split(":")[1]);
-          }
-          // toast.error(data.Message);
-       
+      if (data.Message) {
+        if (data.Message.split(":")[0].toLowerCase() === "success") {
+          toast.success(data.Message);
+        } else if (data.Message.split(":")[0].toLowerCase() === "warning") {
+          toast.error(data.Message.split(":")[1]);
+        } else if (data.Message.split(":")[0].toLowerCase() === "error") {
+          toast.error(data.Message.split(":")[1]);
+        } else {
+          toast.error(data.Message.split(":")[1]);
         }
+        // toast.error(data.Message);
+
+      }
 
 
       // REDIRECTION LOGICS
@@ -290,15 +304,15 @@ export async function resusableOnChange(element: UIElement) {
       updateDataInfo.forEach((row) => {
         if (row["ElementName"]) {
           updateState[row.ElementName] = {
-            ...currentState[row.ElementName], // ? keep existing state
+            ...currentState[row.ElementName], // ✅ keep existing state
 
             value: row.Value ?? "",
 
-            // ? ADD THIS (VISIBLE PART FIX)
+            // ✅ ADD THIS (VISIBLE PART FIX)
             isVisible: row.Visible,
             visible: row.Visible,
 
-            // ? OPTIONAL (if backend sends these)
+            // ✅ OPTIONAL (if backend sends these)
             ShowDialog: row.ShowDialog ?? false,
             HideDialog: row.HideDialog ?? false,
             ShowModal: row.ShowModal ?? false,
@@ -339,7 +353,7 @@ export async function resusableOnChange(element: UIElement) {
           //   toRowIndex: m["RecordsTo"] || 0,
           // });
 
-           setGridDynamicState(elementMapper.uiElementId, m.Child!);
+          setGridDynamicState(elementMapper.uiElementId, m.Child!);
           setPagination(elementMapper.uiElementId, {
             currentPage: 1,
             pageSize: m?.PageCount || 5,

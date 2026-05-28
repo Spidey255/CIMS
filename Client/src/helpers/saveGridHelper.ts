@@ -17,6 +17,11 @@ interface ISaveFormParams {
   formInstanceId: string | null;
 }
 
+interface ISaveGridRowParams {
+  element: UIElement;
+  formInstanceId: string | null;
+}
+
 export const saveGrid = async ({ elements, formInstanceId }: ISaveGridParams): Promise<string> => {
   if (!elements?.length) return "";
 
@@ -175,6 +180,97 @@ export const saveForm = async ({
     return formInstanceId || "";
   } catch (error) {
     console.error("Save Form Error:", error);
+    throw error;
+  }
+};
+
+
+
+export const saveGridRow = async ({
+  element,
+  formInstanceId,
+}: ISaveGridRowParams): Promise<void> => {
+  if (!element.ElementName.includes("+")) {
+    return;
+  }
+
+  const slotId =
+    useUserStore.getState().slotId ||
+    sessionStorage.getItem("accessToken");
+
+  const activePage =
+    usePageStore.getState().activePage;
+
+  const state =
+    useGeneralStore.getState().state;
+
+  try {
+    // EmployeeGrid+12+Salary
+    const [gridName, rowId] =
+      element.ElementName.split("+");
+
+    // ONLY CURRENT ROW
+    const rowEntries = Object.entries(state).filter(
+      ([key]) =>
+        key.startsWith(`${gridName}+${rowId}+`)
+    );
+
+    const formattedRow = {
+      RwId: rowId,
+      Seq: 1,
+
+      Child: rowEntries.map(([key, valueObj]: any) => {
+        const elementName =
+          key.split("+")[2];
+
+        return {
+          ElementName: elementName,
+          Value: valueObj?.value ?? null,
+          EDT: valueObj?.EDT ?? 9,
+        };
+      }),
+    };
+
+    const FormData = [
+      {
+        ElementName: gridName,
+        Child: [formattedRow],
+      },
+    ];
+
+    const postData = {
+      SlotId: slotId,
+
+      ControlId: gridName,
+
+      PackageProcessMapId:
+        activePage?.PackageProcessMapId,
+
+      ProcessActivityMapId:
+        activePage?.ProcessActivityMapId,
+
+      ViewPort: 4,
+
+      Action: "GridSave",
+
+      FormInstanceId: formInstanceId,
+      WidgetId: element.ParentElementId,
+
+      JsxFileName: "",
+      JsxFileVersion: "",
+
+      Params: [],
+
+      FormData,
+    };
+
+    await axiosHelper<IAppResponse>(
+      config.SAVE_WIDGET_URL,
+      "POST",
+      postData
+    );
+  } catch (error) {
+    console.error("SAVE GRID ROW ERROR", error);
     throw error;
   }
 };

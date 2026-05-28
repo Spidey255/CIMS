@@ -9,6 +9,7 @@ import { config } from "@/constants/config";
 import axiosHelper from "./axiosHelper";
 import { useUserStore } from "@/store/useUserStore";
 import { usePageStore } from "@/store/usePageStore";
+import { useGridStore } from "@/store/useGridStore";
 
 export const getValidColumns = (gridInfo?: UIElement[]) => {
   return !gridInfo
@@ -101,4 +102,51 @@ export const deleteGridInstanceData = async ({
   );
 
   return data;
+};
+
+
+
+export const getGridContextFromElement = (elementName: string) => {
+  // NOT INSIDE GRID
+  if (!elementName.includes("+")) {
+    return null;
+  }
+
+  const [gridElementName, rowId, controlName] =
+    elementName.split("+");
+
+  const gridStore = useGridStore.getState();
+
+  // mapper info
+  const mapper =
+    gridStore.gridElementMapper[gridElementName];
+
+  if (!mapper) {
+    return null;
+  }
+
+  // full grid data
+  const gridData =
+    gridStore.gridDynamicState[mapper.uiElementId];
+
+  // grid configuration
+  const gridInfo =
+    gridStore.gridInfo[mapper.uiElementId];
+
+  // current row
+  const currentRow =
+    gridData?.find((r) => r.RwId === rowId);
+
+  return {
+    gridElementName,
+    rowId,
+    controlName,
+
+    uiElementId: mapper.uiElementId,
+
+    mapper,
+    gridInfo,
+    gridData,
+    currentRow,
+  };
 };

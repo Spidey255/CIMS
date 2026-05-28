@@ -470,7 +470,7 @@ const Sidebar: React.FC = () => {
                         <i className="ph ph-warning-circle text-danger" style={{ fontSize: 60 }}></i>
 
                         <h5 className="mt-3 mb-2">Are you sure?</h5>
-                        <p className="text-muted mb-4">Do you want to logout from Innovace?</p>
+                        <p className="text-muted mb-4">Do you want to logout?</p>
 
                         <div className="d-flex justify-content-center gap-3">
                             <button className="btn btn-light px-4" onClick={closeModal}>

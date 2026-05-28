@@ -505,6 +505,27 @@ const InlineSingle: React.FC<{
     await processFiles(e.dataTransfer.files);
   };
 
+
+  const handlePreviewOpen = async () => {
+    if (!base64Data) return;
+
+    // React Native WebView
+    if ((window as any).ReactNativeWebView) {
+      (window as any).ReactNativeWebView.postMessage(
+        JSON.stringify({
+          type: "OPEN_DOCUMENT",
+          payload: {
+            base64Data,
+            fileType,
+            fileName: state,
+          },
+        })
+      );
+
+      return;
+    }
+  };
+
   return (
     <div
       id={element.ElementName}
@@ -589,12 +610,12 @@ const InlineSingle: React.FC<{
                       <img
                         src={base64Data || src}
                         alt="Document preview"
-                        onClick={triggerFileInputClick}
+                        onClick={handlePreviewOpen}
                         style={{
                           cursor: "pointer",
                           width: "100%",
                           height: "auto",
-                          imageRendering: "crisp-edges"
+                          imageRendering: "crisp-edges",
                         }}
                       />
                     </div>
@@ -602,19 +623,61 @@ const InlineSingle: React.FC<{
 
                   {/* PDF */}
                   {fileType?.match(/pdf/i) && (
-                    <iframe
-                      src={base64Data || src}
-                      width="100%"
-                      height="100%"
-                      style={{ border: "none" }}
-                    />
+                    <>
+                      {(window as any).ReactNativeWebView ? (
+                        <div
+                          className="text-center p-4"
+                          onClick={handlePreviewOpen}
+                          style={{
+                            cursor: "pointer",
+                          }}
+                        >
+                          <i
+                            className="ph ph-file-pdf"
+                            style={{ fontSize: "60px" }}
+                          />
+
+                          <div className="mt-2">
+                            Open PDF
+                          </div>
+                        </div>
+                      ) : (
+                        <iframe
+                          src={base64Data || src}
+                          width="100%"
+                          height="500px"
+                          style={{ border: "none" }}
+                        />
+                      )}
+                    </>
                   )}
 
                   {/* VIDEO */}
                   {fileType?.match(/mp4/i) && (
-                    <video controls className="w-100">
-                      <source src={base64Data || src} type="video/mp4" />
-                    </video>
+                    <>
+                      {(window as any).ReactNativeWebView ? (
+                        <div
+                          className="text-center p-4"
+                          onClick={handlePreviewOpen}
+                          style={{
+                            cursor: "pointer",
+                          }}
+                        >
+                          <i
+                            className="ph ph-video"
+                            style={{ fontSize: "60px" }}
+                          />
+
+                          <div className="mt-2">
+                            Open Video
+                          </div>
+                        </div>
+                      ) : (
+                        <video controls className="w-100">
+                          <source src={base64Data || src} type="video/mp4" />
+                        </video>
+                      )}
+                    </>
                   )}
                 </>
               )}

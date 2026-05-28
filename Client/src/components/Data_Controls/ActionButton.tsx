@@ -108,7 +108,7 @@
 //         elementIds = params.map((p) => `${rowId}+${p.ElementName}`);
 //       }
 
-//       // ? ADDED: Create EDT lookup map (NO impact on existing logic)
+//       // ✅ ADDED: Create EDT lookup map (NO impact on existing logic)
 //       const edtMap = params.reduce((acc, p) => {
 //         acc[p.ElementName] = p.EDT;
 //         return acc;
@@ -129,7 +129,7 @@
 //       Object.keys(storeState).forEach((key) => {
 //         const actualName = getActualElementName(key);
 
-//         if (!actualName) return; // ? Type guard
+//         if (!actualName) return; // ✅ Type guard
 
 //         actualNameMap[actualName] = storeState[key];
 //       });
@@ -150,12 +150,12 @@
 //         return acc;
 //       }, {} as Record<string, TValue | undefined>);
 
-//       // ? MODIFIED (but structure unchanged): add EDT
+//       // ✅ MODIFIED (but structure unchanged): add EDT
 //       const stateParams = Object.entries(fetchedStateValues).map(
 //         ([id, value]) => ({
 //           ElementName: id,
 //           Value: value,
-//           EDT: edtMap[id] ?? null, // ? ADDED
+//           EDT: edtMap[id] ?? null, // ✅ ADDED
 //         })
 //       );
 
@@ -422,12 +422,12 @@ const ActionButton: React.FC<ActionButtonProps> = ({
 
       if (formElementsToSave.length && element.ElementName == "SubmitForm") {
         const savedInstanceId = await saveForm({ elements: formElementsToSave, formInstanceId });
-        console.log("Grids saved successfully � IDs:", savedInstanceId);
+        console.log("Grids saved successfully — IDs:", savedInstanceId);
       }
 
       if (gridElementsToSave.length) {
         const savedInstanceId = await saveGrid({ elements: gridElementsToSave, formInstanceId });
-        console.log("Grids saved successfully � IDs:", savedInstanceId);
+        console.log("Grids saved successfully — IDs:", savedInstanceId);
       }
 
       if (!element.BindingDetail) {
@@ -546,7 +546,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({
 
       if (data.Message) {
         if (data.Message.split(":")[0].toLowerCase() === "success") {
-          toast.success(data.Message);
+          toast.success(data.Message.split(":")[1]);
         } else if (data.Message.split(":")[0].toLowerCase() === "warning") {
           toast.error(data.Message.split(":")[1]);
         } else if (data.Message.split(":")[0].toLowerCase() === "error") {
@@ -559,7 +559,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({
       }
 
       // =====================================================
-      // ? NEW: UPDATE GENERAL STORE FROM API RESPONSE
+      // ✅ NEW: UPDATE GENERAL STORE FROM API RESPONSE
       // =====================================================
       const generalStateUpdate: Record<string, IGlobalStateValues> = {};
       const currentState = useGeneralStore.getState().state;
@@ -580,7 +580,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({
       //       ...currentState[row.ElementName!], // keep existing behavior
       //       value: row.Value ?? "",
 
-      //       // ? ADD (does NOT affect existing logic)
+      //       // ✅ ADD (does NOT affect existing logic)
       //       ShowDialog: row.ShowDialog ?? false,
       //       HideDialog: row.HideDialog ?? false,
       //       ShowModal: row.ShowModal ?? false,
@@ -604,7 +604,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({
             Css: row.CSS || "",
           };
 
-          // ? only add if not null/undefined
+          // ✅ only add if not null/undefined
           if (row.Visible !== null && row.Visible !== undefined) {
             updatedState.isVisible = row.Visible;
             updatedState.visible = row.Visible;

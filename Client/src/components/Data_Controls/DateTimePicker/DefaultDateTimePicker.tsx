@@ -17,16 +17,21 @@ const DefaultDateTimePicker: React.FC<{
   const state = useGeneralStore(
     (store) => store.state[element.ElementName]?.["value"]
   );
-  console.log("state",state);
+  
   const setState = useGeneralStore((store) => store.setState);
 
   const controlId = element.ElementName || element.UIElementid;
-  const visible = element.ElementControlProperty?.find(p => "Visible" in p)?.Visible ?? "";
-  const storeState = useGeneralStore((store) => store.state[element.ElementName]);
-
-  const isVisible = storeState !== undefined ? storeState.isVisible : visible;
-
-  if (isVisible == false || isVisible == "false") return null
+  // const visible = element.ElementControlProperty?.find(p => "Visible" in p)?.Visible ?? "";
+   const storeVisible = useGeneralStore(
+        (store) => store.state[element.ElementName]?.isVisible
+      );
+    
+      const isVisible =
+        storeVisible !== undefined && storeVisible !== null
+          ? storeVisible
+          : true;
+    
+      if (isVisible == false || isVisible == "false") return null
 
 
   return (

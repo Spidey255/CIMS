@@ -17,7 +17,6 @@ const PAGE_SIZE_OPTIONS = [
 ];
 
 const InlineGridFooter: React.FC<{ element: UIElement }> = ({ element }) => {
-  console.log("Rendering GridFooter for element:", element);
   const parentElementId = element["ParentElementId"];
   const pagination = useGridStore(
     (store) => store.pagination?.[String(parentElementId)]

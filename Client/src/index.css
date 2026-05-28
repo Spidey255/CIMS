@@ -1,4 +1,8 @@
 
+body{
+  overflow: auto;
+}
+
   .plh_M_TreePlaceHolder{
     height: calc(100vh - 113px);
   }

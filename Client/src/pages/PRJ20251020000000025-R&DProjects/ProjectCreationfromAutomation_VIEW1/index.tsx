@@ -43,7 +43,7 @@ const ProjectCreationfromAutomation_VIEW1 = ({
 
    const [searchParams] = useSearchParams();
 
-  // ? URL ? object
+  // ✅ URL → object
   const storeQueryParams = useMemo<Record<string, string>>(() => {
     const obj: Record<string, string> = {};
 
