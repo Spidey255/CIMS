@@ -140,6 +140,10 @@ namespace CPS.Proof.DFSExtension
 		private List<Triplet<string, string, string>> queryExpressionData = new List<Triplet<string, string, string>>
 		{
 	  			
+			     new Triplet<string, string, string>("eae2baeb-d143-cc0a-8acf-8c0f81dbfb8a","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
 			     new Triplet<string, string, string>("A74347A4-C3F2-4207-8D0D-320D67D9EB3D","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -263,6 +267,10 @@ namespace CPS.Proof.DFSExtension
 						
 			     new Triplet<string, string, string>("MF_d10_Sector","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
 												     @"EXEC GetGlobalCombo 1,'Sectortype'"),
+			
+						
+			     new Triplet<string, string, string>("MF_d10_FundReceiptMode","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"Exec GetFundReceiptMode"),
 			
 						
 			     new Triplet<string, string, string>("MF_d10_FinancialYearID","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
@@ -2067,21 +2075,21 @@ foreach(var gridChild in ISpace["BudgetAllocation"].Child)
 
 
 if(
-ISpace["MF_d10_RecurringValidation"].Value=="519")
+ISpace["MG_d28_RecurringValidation"].Value==519)
 {
 base.WriteDebugInfo(@"
 if(
-ISpace[""MF_d10_RecurringValidation""].Value==""519"")");
+ISpace[""MG_d28_RecurringValidation""].Value==519)");
 ISpace["MF_d10_NonRecurringAmount"].Value=ISpace["MF_d10_NonRecurringAmount"].Value+ISpace["MG_d28_BudgetAmount"].Value;
 base.WriteDebugInfo(@"ISpace[""MF_d10_NonRecurringAmount""].Value=ISpace[""MF_d10_NonRecurringAmount""].Value+ISpace[""MG_d28_BudgetAmount""].Value;");
 }
 
 if(
-ISpace["MF_d10_RecurringValidation"].Value=="518")
+ISpace["MG_d28_RecurringValidation"].Value==518)
 {
 base.WriteDebugInfo(@"
 if(
-ISpace[""MF_d10_RecurringValidation""].Value==""518"")");
+ISpace[""MG_d28_RecurringValidation""].Value==518)");
 ISpace["MF_d10_RecurringAmount"].Value=ISpace["MF_d10_RecurringAmount"].Value+ISpace["MG_d28_BudgetAmount"].Value;
 base.WriteDebugInfo(@"ISpace[""MF_d10_RecurringAmount""].Value=ISpace[""MF_d10_RecurringAmount""].Value+ISpace[""MG_d28_BudgetAmount""].Value;");
 }
@@ -2121,6 +2129,62 @@ base.WriteDebugInfo(@"ISpace[""EquipmentGrid""].Visible=""false"";");
 }
 ISpace["MF_d10_FinancialYearID"].Value="19";
 base.WriteDebugInfo(@"ISpace[""MF_d10_FinancialYearID""].Value=""19"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mf_d10_fromdate (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MF_d10_FromDate-OnChange");
+base.WriteDebugInfo(@"EXEC GetCalculatedEndDate '#MF_d10_Duration','#MF_d10_YearMonth','#MF_d10_FromDate'");
+
+var querySourceeae2baebd143cc0a8acf8c0f81dbfb8a =GetQueryExpressionDataSource("eae2baeb-d143-cc0a-8acf-8c0f81dbfb8a");
+Dictionary<short,object> resulteae2baebd143cc0a8acf8c0f81dbfb8a=iSpace.ExecuteQuery(querySourceeae2baebd143cc0a8acf8c0f81dbfb8a,@"EXECGetCalculatedEndDate '" + ISpace["MF_d10_Duration"].Value + @"','" + ISpace["MF_d10_YearMonth"].Value + @"','" + ISpace["MF_d10_FromDate"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourceeae2baebd143cc0a8acf8c0f81dbfb8a =GetQueryExpressionDataSource(""eae2baeb-d143-cc0a-8acf-8c0f81dbfb8a"");Dictionary<short,object> resulteae2baebd143cc0a8acf8c0f81dbfb8a=iSpace.ExecuteQuery(querySourceeae2baebd143cc0a8acf8c0f81dbfb8a,@""EXECGetCalculatedEndDate '"" + ISpace[""MF_d10_Duration""].Value + @""','"" + ISpace[""MF_d10_YearMonth""].Value + @""','"" + ISpace[""MF_d10_FromDate""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resulteae2baebd143cc0a8acf8c0f81dbfb8a!=null) && (resulteae2baebd143cc0a8acf8c0f81dbfb8a.Count!=0))
+{
+if(resulteae2baebd143cc0a8acf8c0f81dbfb8a.ContainsKey(0))
+ISpace["MF_d10_ActualEndDate"].Value = resulteae2baebd143cc0a8acf8c0f81dbfb8a[0];
+}
+else{
+ISpace["MF_d10_ActualEndDate"].Value = null;
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mf_d10_yearmonth (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MF_d10_YearMonth-OnChange");
+base.WriteDebugInfo(@"EXEC GetCalculatedEndDate '#MF_d10_Duration','#MF_d10_YearMonth','#MF_d10_FromDate'");
+
+var querySourceeae2baebd143cc0a8acf8c0f81dbfb8a =GetQueryExpressionDataSource("eae2baeb-d143-cc0a-8acf-8c0f81dbfb8a");
+Dictionary<short,object> resulteae2baebd143cc0a8acf8c0f81dbfb8a=iSpace.ExecuteQuery(querySourceeae2baebd143cc0a8acf8c0f81dbfb8a,@"EXECGetCalculatedEndDate '" + ISpace["MF_d10_Duration"].Value + @"','" + ISpace["MF_d10_YearMonth"].Value + @"','" + ISpace["MF_d10_FromDate"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourceeae2baebd143cc0a8acf8c0f81dbfb8a =GetQueryExpressionDataSource(""eae2baeb-d143-cc0a-8acf-8c0f81dbfb8a"");Dictionary<short,object> resulteae2baebd143cc0a8acf8c0f81dbfb8a=iSpace.ExecuteQuery(querySourceeae2baebd143cc0a8acf8c0f81dbfb8a,@""EXECGetCalculatedEndDate '"" + ISpace[""MF_d10_Duration""].Value + @""','"" + ISpace[""MF_d10_YearMonth""].Value + @""','"" + ISpace[""MF_d10_FromDate""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resulteae2baebd143cc0a8acf8c0f81dbfb8a!=null) && (resulteae2baebd143cc0a8acf8c0f81dbfb8a.Count!=0))
+{
+if(resulteae2baebd143cc0a8acf8c0f81dbfb8a.ContainsKey(0))
+ISpace["MF_d10_ActualEndDate"].Value = resulteae2baebd143cc0a8acf8c0f81dbfb8a[0];
+}
+else{
+ISpace["MF_d10_ActualEndDate"].Value = null;
+}
 }
 catch(Exception ex)
 {
@@ -2219,6 +2283,34 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_mg_d154_duration (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MG_d154_Duration-OnChange");
+base.WriteDebugInfo(@"EXEC GetCalculatedEndDate '#MF_d10_Duration','#MF_d10_YearMonth','#MF_d10_FromDate'");
+
+var querySourceeae2baebd143cc0a8acf8c0f81dbfb8a =GetQueryExpressionDataSource("eae2baeb-d143-cc0a-8acf-8c0f81dbfb8a");
+Dictionary<short,object> resulteae2baebd143cc0a8acf8c0f81dbfb8a=iSpace.ExecuteQuery(querySourceeae2baebd143cc0a8acf8c0f81dbfb8a,@"EXECGetCalculatedEndDate '" + ISpace["MF_d10_Duration"].Value + @"','" + ISpace["MF_d10_YearMonth"].Value + @"','" + ISpace["MF_d10_FromDate"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourceeae2baebd143cc0a8acf8c0f81dbfb8a =GetQueryExpressionDataSource(""eae2baeb-d143-cc0a-8acf-8c0f81dbfb8a"");Dictionary<short,object> resulteae2baebd143cc0a8acf8c0f81dbfb8a=iSpace.ExecuteQuery(querySourceeae2baebd143cc0a8acf8c0f81dbfb8a,@""EXECGetCalculatedEndDate '"" + ISpace[""MF_d10_Duration""].Value + @""','"" + ISpace[""MF_d10_YearMonth""].Value + @""','"" + ISpace[""MF_d10_FromDate""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resulteae2baebd143cc0a8acf8c0f81dbfb8a!=null) && (resulteae2baebd143cc0a8acf8c0f81dbfb8a.Count!=0))
+{
+if(resulteae2baebd143cc0a8acf8c0f81dbfb8a.ContainsKey(0))
+ISpace["MF_d10_ActualEndDate"].Value = resulteae2baebd143cc0a8acf8c0f81dbfb8a[0];
+}
+else{
+ISpace["MF_d10_ActualEndDate"].Value = null;
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_mg_d28_budgetamount (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -2238,21 +2330,21 @@ foreach(var gridChild in ISpace["BudgetAllocation"].Child)
 
 
 if(
-ISpace["MF_d10_RecurringValidation"].Value=="519")
+ISpace["MG_d28_RecurringValidation"].Value==519)
 {
 base.WriteDebugInfo(@"
 if(
-ISpace[""MF_d10_RecurringValidation""].Value==""519"")");
+ISpace[""MG_d28_RecurringValidation""].Value==519)");
 ISpace["MF_d10_NonRecurringAmount"].Value=ISpace["MF_d10_NonRecurringAmount"].Value+ISpace["MG_d28_BudgetAmount"].Value;
 base.WriteDebugInfo(@"ISpace[""MF_d10_NonRecurringAmount""].Value=ISpace[""MF_d10_NonRecurringAmount""].Value+ISpace[""MG_d28_BudgetAmount""].Value;");
 }
 
 if(
-ISpace["MF_d10_RecurringValidation"].Value=="518")
+ISpace["MG_d28_RecurringValidation"].Value==518)
 {
 base.WriteDebugInfo(@"
 if(
-ISpace[""MF_d10_RecurringValidation""].Value==""518"")");
+ISpace[""MG_d28_RecurringValidation""].Value==518)");
 ISpace["MF_d10_RecurringAmount"].Value=ISpace["MF_d10_RecurringAmount"].Value+ISpace["MG_d28_BudgetAmount"].Value;
 base.WriteDebugInfo(@"ISpace[""MF_d10_RecurringAmount""].Value=ISpace[""MF_d10_RecurringAmount""].Value+ISpace[""MG_d28_BudgetAmount""].Value;");
 }
@@ -2454,9 +2546,21 @@ public override void ExecuteMethod
 }
 	if(methodName.ToLower().Equals("onchange"))
 {
+		if(elementName.ToLower().Equals("mf_d10_fromdate"))
+    {
+    			SubscribeElementEvents_mf_d10_fromdate(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mf_d10_yearmonth"))
+    {
+    			SubscribeElementEvents_mf_d10_yearmonth(ref dfsParam);
+    }
 		if(elementName.ToLower().Equals("mf_d10_projectproposalid"))
     {
     			SubscribeElementEvents_mf_d10_projectproposalid(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mg_d154_duration"))
+    {
+    			SubscribeElementEvents_mg_d154_duration(ref dfsParam);
     }
 		if(elementName.ToLower().Equals("mg_d28_budgetamount"))
     {
@@ -2528,6 +2632,8 @@ using System;
 								   new Triplet<string, short, short?>("MG_d28_Comments",18,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d28_RDOfficeComments",19,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d28_RecurringValidation",4,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d28_Year1",5,
 														   -1),
