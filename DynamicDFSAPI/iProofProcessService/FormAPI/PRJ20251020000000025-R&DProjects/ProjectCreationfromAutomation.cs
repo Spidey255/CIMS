@@ -2066,6 +2066,16 @@ object MG_d28_BudgetAmount=iSpace.Sum("[B73036BB-FE7D-4B0D-998A-985294F8FC5B]","
 ISpace["MF_d10_BudgetTotalAmount"].Value=Convert.ChangeType(MG_d28_BudgetAmount, MG_d28_BudgetAmount.GetType());;
 base.WriteDebugInfo(@"object MG_d28_BudgetAmount=iSpace.Sum(""[B73036BB-FE7D-4B0D-998A-985294F8FC5B]"",""MG_d28_BudgetAmount"","""",ISpace[""gv_instanceid""].Value);
 ISpace[""MF_d10_BudgetTotalAmount""].Value=Convert.ChangeType(MG_d28_BudgetAmount, MG_d28_BudgetAmount.GetType());;");
+if(ISpace["MF_d10_ProjectBudget"].Value<ISpace["MF_d10_BudgetTotalAmount"].Value)
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d10_ProjectBudget""].Value<ISpace[""MF_d10_BudgetTotalAmount""].Value)");
+ISpace["MF_d10_BudgetTotalAmount"].Value=0;
+base.WriteDebugInfo(@"ISpace[""MF_d10_BudgetTotalAmount""].Value=0;");
+ISpace["Message"].Value=@"Error:Budget Amount should be less than the Project Budget.";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Budget Amount should be less than the Project Budget."";");
+return;
+base.WriteDebugInfo(@"return;");
+}
 base.WriteDebugInfo(@"#BudgetAllocation[Rows]");
 iSpace.GetLoopExpressionData("BudgetAllocation",ref ISpace);
 
@@ -2321,6 +2331,16 @@ object MG_d28_BudgetAmount=iSpace.Sum("[B73036BB-FE7D-4B0D-998A-985294F8FC5B]","
 ISpace["MF_d10_BudgetTotalAmount"].Value=Convert.ChangeType(MG_d28_BudgetAmount, MG_d28_BudgetAmount.GetType());;
 base.WriteDebugInfo(@"object MG_d28_BudgetAmount=iSpace.Sum(""[B73036BB-FE7D-4B0D-998A-985294F8FC5B]"",""MG_d28_BudgetAmount"","""",ISpace[""gv_instanceid""].Value);
 ISpace[""MF_d10_BudgetTotalAmount""].Value=Convert.ChangeType(MG_d28_BudgetAmount, MG_d28_BudgetAmount.GetType());;");
+if(ISpace["MF_d10_ProjectBudget"].Value<ISpace["MF_d10_BudgetTotalAmount"].Value)
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d10_ProjectBudget""].Value<ISpace[""MF_d10_BudgetTotalAmount""].Value)");
+ISpace["MF_d10_BudgetTotalAmount"].Value=0;
+base.WriteDebugInfo(@"ISpace[""MF_d10_BudgetTotalAmount""].Value=0;");
+ISpace["Message"].Value=@"Error:Budget Amount should be less than the Project Budget.";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Budget Amount should be less than the Project Budget."";");
+return;
+base.WriteDebugInfo(@"return;");
+}
 base.WriteDebugInfo(@"#BudgetAllocation[Rows]");
 iSpace.GetLoopExpressionData("BudgetAllocation",ref ISpace);
 
