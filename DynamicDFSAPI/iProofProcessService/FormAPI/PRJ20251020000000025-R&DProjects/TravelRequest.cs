@@ -140,14 +140,6 @@ namespace CPS.Proof.DFSExtension
 		private List<Triplet<string, string, string>> queryExpressionData = new List<Triplet<string, string, string>>
 		{
 	  			
-			     new Triplet<string, string, string>("9116BDE3-E175-48D9-92EE-87A8F58EDC21","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
-			     new Triplet<string, string, string>("5BE98974-AD59-4580-A751-30D0492B011E","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
 			     new Triplet<string, string, string>("4DA95BD5-CD3F-4A6D-8AE5-4C8A839E94D6","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"9ADED37B-CD11-426B-AF16-DEAC75685EF5"),
 			
@@ -156,60 +148,12 @@ namespace CPS.Proof.DFSExtension
 												     @"300A3A31-6181-43BC-865F-73BE07692674"),
 			
 						
-			     new Triplet<string, string, string>("DFBF6D46-81E0-41F6-94F4-5547F670F5AF","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+			     new Triplet<string, string, string>("9116BDE3-E175-48D9-92EE-87A8F58EDC21","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
-			     new Triplet<string, string, string>("0C732937-A40A-4ABB-BB7D-D89BDA0D481E","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+			     new Triplet<string, string, string>("5BE98974-AD59-4580-A751-30D0492B011E","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
-			     new Triplet<string, string, string>("030B3094-527B-4F84-B2E3-92458D34E946","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
-			     new Triplet<string, string, string>("EA86EC98-9465-469D-97F2-36E0D8B7BEB7","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
-			     new Triplet<string, string, string>("1D2378FB-2963-4898-9902-2B61F44BE0AD","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
-			     new Triplet<string, string, string>("864963C6-427C-451F-8C30-D7E8FCDD4228","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
-			     new Triplet<string, string, string>("EBE446FD-1D9E-41DE-B663-DEAA6EE73345","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
-			     new Triplet<string, string, string>("D16F9C83-EA71-4542-AB4D-E3D99AB969B2","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
-			     new Triplet<string, string, string>("4213CFEE-A88E-4B67-BEEC-B0AEF4337465","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
-			     new Triplet<string, string, string>("F83D458B-7CDF-409F-9329-98D97A3D6B68","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"300A3A31-6181-43BC-865F-73BE07692674"),
-			
-						
-			     new Triplet<string, string, string>("5FF745B4-E8FE-40A7-98DD-1695E33EAF99","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
-			     new Triplet<string, string, string>("DEC46E0F-7EB5-48CF-8CA8-6728550C0AD3","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
-			     new Triplet<string, string, string>("805F857A-E616-4D34-A849-14552D9D77C8","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"028B1EFF-34A8-4D44-BF39-06CE99DF7C67"),
-			
-						
-			     new Triplet<string, string, string>("CFA12554-1F39-4BC4-8046-E8A347DB7B6E","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"9ADED37B-CD11-426B-AF16-DEAC75685EF5"),
 			
 						
 			     new Triplet<string, string, string>("AFBC2448-5761-40CF-A8EB-1C60C3DC33D1","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
@@ -273,6 +217,62 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("797A60C1-0BB6-4A40-9156-95B92AAFC889","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"9ADED37B-CD11-426B-AF16-DEAC75685EF5"),
+			
+						
+			     new Triplet<string, string, string>("DFBF6D46-81E0-41F6-94F4-5547F670F5AF","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("0C732937-A40A-4ABB-BB7D-D89BDA0D481E","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("030B3094-527B-4F84-B2E3-92458D34E946","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("EA86EC98-9465-469D-97F2-36E0D8B7BEB7","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("1D2378FB-2963-4898-9902-2B61F44BE0AD","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("864963C6-427C-451F-8C30-D7E8FCDD4228","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("EBE446FD-1D9E-41DE-B663-DEAA6EE73345","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("D16F9C83-EA71-4542-AB4D-E3D99AB969B2","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("4213CFEE-A88E-4B67-BEEC-B0AEF4337465","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("F83D458B-7CDF-409F-9329-98D97A3D6B68","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"300A3A31-6181-43BC-865F-73BE07692674"),
+			
+						
+			     new Triplet<string, string, string>("5FF745B4-E8FE-40A7-98DD-1695E33EAF99","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("DEC46E0F-7EB5-48CF-8CA8-6728550C0AD3","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("805F857A-E616-4D34-A849-14552D9D77C8","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"028B1EFF-34A8-4D44-BF39-06CE99DF7C67"),
+			
+						
+			     new Triplet<string, string, string>("CFA12554-1F39-4BC4-8046-E8A347DB7B6E","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"9ADED37B-CD11-426B-AF16-DEAC75685EF5"),
 			
 						

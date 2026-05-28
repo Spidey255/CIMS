@@ -140,6 +140,10 @@ namespace CPS.Proof.DFSExtension
 		private List<Triplet<string, string, string>> queryExpressionData = new List<Triplet<string, string, string>>
 		{
 	  			
+			     new Triplet<string, string, string>("61e7d773-40d3-95e9-2de5-549773196e79","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"062C4298-5FB2-4C83-877D-A1D5795686CF"),
+			
+						
 			     new Triplet<string, string, string>("eae2baeb-d143-cc0a-8acf-8c0f81dbfb8a","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -164,12 +168,8 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
-			     new Triplet<string, string, string>("19FA52AC-025C-4D4A-932F-AC76D5372103","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
-			     new Triplet<string, string, string>("927C0145-CC97-44FA-81C7-0391CD43D9A7","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			     new Triplet<string, string, string>("7c4d94f1-2381-b2c2-c38d-941e8dba8928","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"062C4298-5FB2-4C83-877D-A1D5795686CF"),
 			
 						
 			     new Triplet<string, string, string>("6c6e361f-5060-32e3-99f8-6f2090aa1e0c","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
@@ -210,6 +210,14 @@ namespace CPS.Proof.DFSExtension
 						
 			     new Triplet<string, string, string>("5b1d3894-0d72-9c8d-3a5f-8fe772ffa261","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("61e7d773-40d3-95e9-2de5-549773196e79","Load Data",
+												     @"08F73C4A-3B94-4327-8859-B98388D1C9CD"),
+			
+						
+			     new Triplet<string, string, string>("7c4d94f1-2381-b2c2-c38d-941e8dba8928","Load Data",
+												     @"25683F52-E21A-4CE3-9196-7BCFA640A94B"),
 			
 						
 			     new Triplet<string, string, string>("BE17AA72-8920-4740-9BFC-07684FE3DC81","Load Grid By IdRDDocumentGrid",
@@ -279,6 +287,10 @@ namespace CPS.Proof.DFSExtension
 						
 			     new Triplet<string, string, string>("MF_d10_SchemeID","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
 												     @"Exec GetBudgetSchema"),
+			
+						
+			     new Triplet<string, string, string>("M_MoveTo","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAX4svK5cDYCPw2sEhYNSLVUgHvT8EwteQ6Cu6POiqivUqpEh16s8+yjMECvtOIho/Hsxg7bNByVU=",
+												     @"EXEC GetNextStep '@MF_d10_InstanceId'"),
 			
 						
 			     new Triplet<string, string, string>("MF_d10_ProjectType","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
@@ -1982,15 +1994,17 @@ ISpace[""UI_HideRow""].Visible=""false"";
 ISpace["RDDocumentGrid"].Man=true;ISpace["MG_d28_BudgetAmount"].Man=true;ISpace["BudgetAllocation"].Man=true;ISpace["MG_d82_DocumentID"].Man=true;
 base.WriteDebugInfo(@"ISpace[""RDDocumentGrid""].Man=true;ISpace[""MG_d28_BudgetAmount""].Man=true;ISpace[""BudgetAllocation""].Man=true;ISpace[""MG_d82_DocumentID""].Man=true;");
 }
+ISpace["MF_d10_InstanceId"].Value=ISpace["gv_instanceid"].Value;
+base.WriteDebugInfo(@"ISpace[""MF_d10_InstanceId""].Value=ISpace[""gv_instanceid""].Value;");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-base.WriteDebugInfo(@"EXEC [GetProjectProposalDetailsLoad] 1,'#MF_d10_ProjectproposalID'");
+base.WriteDebugInfo(@"EXEC GetProjectPropsalDetails '#MF_d10_ProjectproposalID'");
 
 var querySource9cc2bc31cc300ba34ad622f9e9abf5d5 =GetQueryExpressionDataSource("9cc2bc31-cc30-0ba3-4ad6-22f9e9abf5d5");
-Dictionary<short,object> result9cc2bc31cc300ba34ad622f9e9abf5d5=iSpace.ExecuteQuery(querySource9cc2bc31cc300ba34ad622f9e9abf5d5,@"EXEC [GetProjectProposalDetailsLoad] 1,'" + ISpace["MF_d10_ProjectproposalID"].Value + @"'",false);
+Dictionary<short,object> result9cc2bc31cc300ba34ad622f9e9abf5d5=iSpace.ExecuteQuery(querySource9cc2bc31cc300ba34ad622f9e9abf5d5,@"EXECGetProjectPropsalDetails'" + ISpace["MF_d10_ProjectproposalID"].Value + @"'",false);
 
-base.WriteDebugInfo(@"var querySource9cc2bc31cc300ba34ad622f9e9abf5d5 =GetQueryExpressionDataSource(""9cc2bc31-cc30-0ba3-4ad6-22f9e9abf5d5"");Dictionary<short,object> result9cc2bc31cc300ba34ad622f9e9abf5d5=iSpace.ExecuteQuery(querySource9cc2bc31cc300ba34ad622f9e9abf5d5,@""EXEC [GetProjectProposalDetailsLoad] 1,'"" + ISpace[""MF_d10_ProjectproposalID""].Value + @""'"",false);");
+base.WriteDebugInfo(@"var querySource9cc2bc31cc300ba34ad622f9e9abf5d5 =GetQueryExpressionDataSource(""9cc2bc31-cc30-0ba3-4ad6-22f9e9abf5d5"");Dictionary<short,object> result9cc2bc31cc300ba34ad622f9e9abf5d5=iSpace.ExecuteQuery(querySource9cc2bc31cc300ba34ad622f9e9abf5d5,@""EXECGetProjectPropsalDetails'"" + ISpace[""MF_d10_ProjectproposalID""].Value + @""'"",false);");
 base.WriteDebugInfo(@"");
 
 if((result9cc2bc31cc300ba34ad622f9e9abf5d5!=null) && (result9cc2bc31cc300ba34ad622f9e9abf5d5.Count!=0))
@@ -2165,12 +2179,12 @@ base.WriteDebugInfo(@"MF_d10_ProjectproposalID-OnChange");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-base.WriteDebugInfo(@"EXEC [GetProjectProposalDetailsLoad] 1,'#MF_d10_ProjectproposalID'");
+base.WriteDebugInfo(@"EXEC GetProjectPropsalDetails '#MF_d10_ProjectproposalID'");
 
 var querySource9cc2bc31cc300ba34ad622f9e9abf5d5 =GetQueryExpressionDataSource("9cc2bc31-cc30-0ba3-4ad6-22f9e9abf5d5");
-Dictionary<short,object> result9cc2bc31cc300ba34ad622f9e9abf5d5=iSpace.ExecuteQuery(querySource9cc2bc31cc300ba34ad622f9e9abf5d5,@"EXEC [GetProjectProposalDetailsLoad] 1,'" + ISpace["MF_d10_ProjectproposalID"].Value + @"'",false);
+Dictionary<short,object> result9cc2bc31cc300ba34ad622f9e9abf5d5=iSpace.ExecuteQuery(querySource9cc2bc31cc300ba34ad622f9e9abf5d5,@"EXECGetProjectPropsalDetails'" + ISpace["MF_d10_ProjectproposalID"].Value + @"'",false);
 
-base.WriteDebugInfo(@"var querySource9cc2bc31cc300ba34ad622f9e9abf5d5 =GetQueryExpressionDataSource(""9cc2bc31-cc30-0ba3-4ad6-22f9e9abf5d5"");Dictionary<short,object> result9cc2bc31cc300ba34ad622f9e9abf5d5=iSpace.ExecuteQuery(querySource9cc2bc31cc300ba34ad622f9e9abf5d5,@""EXEC [GetProjectProposalDetailsLoad] 1,'"" + ISpace[""MF_d10_ProjectproposalID""].Value + @""'"",false);");
+base.WriteDebugInfo(@"var querySource9cc2bc31cc300ba34ad622f9e9abf5d5 =GetQueryExpressionDataSource(""9cc2bc31-cc30-0ba3-4ad6-22f9e9abf5d5"");Dictionary<short,object> result9cc2bc31cc300ba34ad622f9e9abf5d5=iSpace.ExecuteQuery(querySource9cc2bc31cc300ba34ad622f9e9abf5d5,@""EXECGetProjectPropsalDetails'"" + ISpace[""MF_d10_ProjectproposalID""].Value + @""'"",false);");
 base.WriteDebugInfo(@"");
 
 if((result9cc2bc31cc300ba34ad622f9e9abf5d5!=null) && (result9cc2bc31cc300ba34ad622f9e9abf5d5.Count!=0))
@@ -2248,6 +2262,96 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_mg_d154_totalmonths (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MG_d154_TotalMonths-OnChange");
+object MG_d154_TotalCost=iSpace.Sum("[25683F52-E21A-4CE3-9196-7BCFA640A94B]","MG_d154_TotalCost","",ISpace["gv_instanceid"].Value);
+ISpace["MF_ManPowerTotal"].Value=Convert.ChangeType(MG_d154_TotalCost, MG_d154_TotalCost.GetType());;
+base.WriteDebugInfo(@"object MG_d154_TotalCost=iSpace.Sum(""[25683F52-E21A-4CE3-9196-7BCFA640A94B]"",""MG_d154_TotalCost"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_ManPowerTotal""].Value=Convert.ChangeType(MG_d154_TotalCost, MG_d154_TotalCost.GetType());;");
+
+var querySource7c4d94f12381b2c2c38d941e8dba8928 =GetQueryExpressionDataSource("7c4d94f1-2381-b2c2-c38d-941e8dba8928");
+
+DataTable result7c4d94f12381b2c2c38d941e8dba8928=iSpace.SetGridDataSource(querySource7c4d94f12381b2c2c38d941e8dba8928, _objectFactory.GetGridRPP("ManpowerGrid"),@"EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '" + ISpace["MF_d10_InstanceId"].Value + @"'");
+
+iSpace.InsertGridBindDetails("ManpowerGrid","11",querySource7c4d94f12381b2c2c38d941e8dba8928,"EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '" + ISpace["MF_d10_InstanceId"].Value + @"'",_objectFactory.GetGridRPP("ManpowerGrid"));
+
+base.WriteDebugInfo(@"var querySource7c4d94f12381b2c2c38d941e8dba8928 =GetQueryExpressionDataSource(""7c4d94f1-2381-b2c2-c38d-941e8dba8928"");DataTable result7c4d94f12381b2c2c38d941e8dba8928=iSpace.SetGridDataSource(querySource7c4d94f12381b2c2c38d941e8dba8928, _objectFactory.GetGridRPP(""ManpowerGrid""),@""EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '"" + ISpace[""MF_d10_InstanceId""].Value + @""'"");iSpace.InsertGridBindDetails(""ManpowerGrid"",""11"",querySource7c4d94f12381b2c2c38d941e8dba8928,""EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '"" + ISpace[""MF_d10_InstanceId""].Value + @""'"",_objectFactory.GetGridRPP(""ManpowerGrid""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result2dff53097010e57f5c95f700983350be=acdataIspaceE1B5DCB812784AA0A8B21C0CDE17E77A.GetQueryExpressionBindings("2dff5309-7010-e57f-5c95-f700983350be");
+iSpace.SetGridData(result7c4d94f12381b2c2c38d941e8dba8928,result2dff53097010e57f5c95f700983350be,"ManpowerGrid",ref ISpace);
+iSpace.UpdateGridBindDetails("ManpowerGrid",result2dff53097010e57f5c95f700983350be);
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mg_d109_rateininr (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MG_d109_RateinINR-OnChange");
+object MG_d109_TotalEquipmentcost=iSpace.Sum("[08F73C4A-3B94-4327-8859-B98388D1C9CD]","MG_d109_TotalEquipmentcost","",ISpace["gv_instanceid"].Value);
+ISpace["MF_EquipmentTotal"].Value=Convert.ChangeType(MG_d109_TotalEquipmentcost, MG_d109_TotalEquipmentcost.GetType());;
+base.WriteDebugInfo(@"object MG_d109_TotalEquipmentcost=iSpace.Sum(""[08F73C4A-3B94-4327-8859-B98388D1C9CD]"",""MG_d109_TotalEquipmentcost"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_EquipmentTotal""].Value=Convert.ChangeType(MG_d109_TotalEquipmentcost, MG_d109_TotalEquipmentcost.GetType());;");
+
+var querySource61e7d77340d395e92de5549773196e79 =GetQueryExpressionDataSource("61e7d773-40d3-95e9-2de5-549773196e79");
+
+DataTable result61e7d77340d395e92de5549773196e79=iSpace.SetGridDataSource(querySource61e7d77340d395e92de5549773196e79, _objectFactory.GetGridRPP("EquipmentGrid"),@"EXEC [GetGridData08F73C4A-3B94-4327-8859-B98388D1C9CD] '" + ISpace["MF_d10_InstanceId"].Value + @"'");
+
+iSpace.InsertGridBindDetails("EquipmentGrid","11",querySource61e7d77340d395e92de5549773196e79,"EXEC [GetGridData08F73C4A-3B94-4327-8859-B98388D1C9CD] '" + ISpace["MF_d10_InstanceId"].Value + @"'",_objectFactory.GetGridRPP("EquipmentGrid"));
+
+base.WriteDebugInfo(@"var querySource61e7d77340d395e92de5549773196e79 =GetQueryExpressionDataSource(""61e7d773-40d3-95e9-2de5-549773196e79"");DataTable result61e7d77340d395e92de5549773196e79=iSpace.SetGridDataSource(querySource61e7d77340d395e92de5549773196e79, _objectFactory.GetGridRPP(""EquipmentGrid""),@""EXEC [GetGridData08F73C4A-3B94-4327-8859-B98388D1C9CD] '"" + ISpace[""MF_d10_InstanceId""].Value + @""'"");iSpace.InsertGridBindDetails(""EquipmentGrid"",""11"",querySource61e7d77340d395e92de5549773196e79,""EXEC [GetGridData08F73C4A-3B94-4327-8859-B98388D1C9CD] '"" + ISpace[""MF_d10_InstanceId""].Value + @""'"",_objectFactory.GetGridRPP(""EquipmentGrid""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result83ae6bea5b86be67af2d86bd670877ef=acdataIspaceE1B5DCB812784AA0A8B21C0CDE17E77A.GetQueryExpressionBindings("83ae6bea-5b86-be67-af2d-86bd670877ef");
+iSpace.SetGridData(result61e7d77340d395e92de5549773196e79,result83ae6bea5b86be67af2d86bd670877ef,"EquipmentGrid",ref ISpace);
+iSpace.UpdateGridBindDetails("EquipmentGrid",result83ae6bea5b86be67af2d86bd670877ef);
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mg_d154_ratepermonth (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MG_d154_RatePerMonth-OnChange");
+object MG_d154_TotalCost=iSpace.Sum("[25683F52-E21A-4CE3-9196-7BCFA640A94B]","MG_d154_TotalCost","",ISpace["gv_instanceid"].Value);
+ISpace["MF_ManPowerTotal"].Value=Convert.ChangeType(MG_d154_TotalCost, MG_d154_TotalCost.GetType());;
+base.WriteDebugInfo(@"object MG_d154_TotalCost=iSpace.Sum(""[25683F52-E21A-4CE3-9196-7BCFA640A94B]"",""MG_d154_TotalCost"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_ManPowerTotal""].Value=Convert.ChangeType(MG_d154_TotalCost, MG_d154_TotalCost.GetType());;");
+
+var querySource7c4d94f12381b2c2c38d941e8dba8928 =GetQueryExpressionDataSource("7c4d94f1-2381-b2c2-c38d-941e8dba8928");
+
+DataTable result7c4d94f12381b2c2c38d941e8dba8928=iSpace.SetGridDataSource(querySource7c4d94f12381b2c2c38d941e8dba8928, _objectFactory.GetGridRPP("ManpowerGrid"),@"EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '" + ISpace["MF_d10_InstanceId"].Value + @"'");
+
+iSpace.InsertGridBindDetails("ManpowerGrid","11",querySource7c4d94f12381b2c2c38d941e8dba8928,"EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '" + ISpace["MF_d10_InstanceId"].Value + @"'",_objectFactory.GetGridRPP("ManpowerGrid"));
+
+base.WriteDebugInfo(@"var querySource7c4d94f12381b2c2c38d941e8dba8928 =GetQueryExpressionDataSource(""7c4d94f1-2381-b2c2-c38d-941e8dba8928"");DataTable result7c4d94f12381b2c2c38d941e8dba8928=iSpace.SetGridDataSource(querySource7c4d94f12381b2c2c38d941e8dba8928, _objectFactory.GetGridRPP(""ManpowerGrid""),@""EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '"" + ISpace[""MF_d10_InstanceId""].Value + @""'"");iSpace.InsertGridBindDetails(""ManpowerGrid"",""11"",querySource7c4d94f12381b2c2c38d941e8dba8928,""EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '"" + ISpace[""MF_d10_InstanceId""].Value + @""'"",_objectFactory.GetGridRPP(""ManpowerGrid""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result2dff53097010e57f5c95f700983350be=acdataIspaceE1B5DCB812784AA0A8B21C0CDE17E77A.GetQueryExpressionBindings("2dff5309-7010-e57f-5c95-f700983350be");
+iSpace.SetGridData(result7c4d94f12381b2c2c38d941e8dba8928,result2dff53097010e57f5c95f700983350be,"ManpowerGrid",ref ISpace);
+iSpace.UpdateGridBindDetails("ManpowerGrid",result2dff53097010e57f5c95f700983350be);
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_mg_d154_duration (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -2270,6 +2374,54 @@ ISpace["MF_d10_ActualEndDate"].Value = resulteae2baebd143cc0a8acf8c0f81dbfb8a[0]
 else{
 ISpace["MF_d10_ActualEndDate"].Value = null;
 }
+object MG_d154_TotalCost=iSpace.Sum("[25683F52-E21A-4CE3-9196-7BCFA640A94B]","MG_d154_TotalCost","",ISpace["gv_instanceid"].Value);
+ISpace["MF_ManPowerTotal"].Value=Convert.ChangeType(MG_d154_TotalCost, MG_d154_TotalCost.GetType());;
+base.WriteDebugInfo(@"object MG_d154_TotalCost=iSpace.Sum(""[25683F52-E21A-4CE3-9196-7BCFA640A94B]"",""MG_d154_TotalCost"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_ManPowerTotal""].Value=Convert.ChangeType(MG_d154_TotalCost, MG_d154_TotalCost.GetType());;");
+
+var querySource7c4d94f12381b2c2c38d941e8dba8928 =GetQueryExpressionDataSource("7c4d94f1-2381-b2c2-c38d-941e8dba8928");
+
+DataTable result7c4d94f12381b2c2c38d941e8dba8928=iSpace.SetGridDataSource(querySource7c4d94f12381b2c2c38d941e8dba8928, _objectFactory.GetGridRPP("ManpowerGrid"),@"EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '" + ISpace["MF_d10_InstanceId"].Value + @"'");
+
+iSpace.InsertGridBindDetails("ManpowerGrid","11",querySource7c4d94f12381b2c2c38d941e8dba8928,"EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '" + ISpace["MF_d10_InstanceId"].Value + @"'",_objectFactory.GetGridRPP("ManpowerGrid"));
+
+base.WriteDebugInfo(@"var querySource7c4d94f12381b2c2c38d941e8dba8928 =GetQueryExpressionDataSource(""7c4d94f1-2381-b2c2-c38d-941e8dba8928"");DataTable result7c4d94f12381b2c2c38d941e8dba8928=iSpace.SetGridDataSource(querySource7c4d94f12381b2c2c38d941e8dba8928, _objectFactory.GetGridRPP(""ManpowerGrid""),@""EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '"" + ISpace[""MF_d10_InstanceId""].Value + @""'"");iSpace.InsertGridBindDetails(""ManpowerGrid"",""11"",querySource7c4d94f12381b2c2c38d941e8dba8928,""EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '"" + ISpace[""MF_d10_InstanceId""].Value + @""'"",_objectFactory.GetGridRPP(""ManpowerGrid""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result2dff53097010e57f5c95f700983350be=acdataIspaceE1B5DCB812784AA0A8B21C0CDE17E77A.GetQueryExpressionBindings("2dff5309-7010-e57f-5c95-f700983350be");
+iSpace.SetGridData(result7c4d94f12381b2c2c38d941e8dba8928,result2dff53097010e57f5c95f700983350be,"ManpowerGrid",ref ISpace);
+iSpace.UpdateGridBindDetails("ManpowerGrid",result2dff53097010e57f5c95f700983350be);
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mg_d109_quantity (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MG_d109_Quantity-OnChange");
+object MG_d109_TotalEquipmentcost=iSpace.Sum("[08F73C4A-3B94-4327-8859-B98388D1C9CD]","MG_d109_TotalEquipmentcost","",ISpace["gv_instanceid"].Value);
+ISpace["MF_EquipmentTotal"].Value=Convert.ChangeType(MG_d109_TotalEquipmentcost, MG_d109_TotalEquipmentcost.GetType());;
+base.WriteDebugInfo(@"object MG_d109_TotalEquipmentcost=iSpace.Sum(""[08F73C4A-3B94-4327-8859-B98388D1C9CD]"",""MG_d109_TotalEquipmentcost"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_EquipmentTotal""].Value=Convert.ChangeType(MG_d109_TotalEquipmentcost, MG_d109_TotalEquipmentcost.GetType());;");
+
+var querySource61e7d77340d395e92de5549773196e79 =GetQueryExpressionDataSource("61e7d773-40d3-95e9-2de5-549773196e79");
+
+DataTable result61e7d77340d395e92de5549773196e79=iSpace.SetGridDataSource(querySource61e7d77340d395e92de5549773196e79, _objectFactory.GetGridRPP("EquipmentGrid"),@"EXEC [GetGridData08F73C4A-3B94-4327-8859-B98388D1C9CD] '" + ISpace["MF_d10_InstanceId"].Value + @"'");
+
+iSpace.InsertGridBindDetails("EquipmentGrid","11",querySource61e7d77340d395e92de5549773196e79,"EXEC [GetGridData08F73C4A-3B94-4327-8859-B98388D1C9CD] '" + ISpace["MF_d10_InstanceId"].Value + @"'",_objectFactory.GetGridRPP("EquipmentGrid"));
+
+base.WriteDebugInfo(@"var querySource61e7d77340d395e92de5549773196e79 =GetQueryExpressionDataSource(""61e7d773-40d3-95e9-2de5-549773196e79"");DataTable result61e7d77340d395e92de5549773196e79=iSpace.SetGridDataSource(querySource61e7d77340d395e92de5549773196e79, _objectFactory.GetGridRPP(""EquipmentGrid""),@""EXEC [GetGridData08F73C4A-3B94-4327-8859-B98388D1C9CD] '"" + ISpace[""MF_d10_InstanceId""].Value + @""'"");iSpace.InsertGridBindDetails(""EquipmentGrid"",""11"",querySource61e7d77340d395e92de5549773196e79,""EXEC [GetGridData08F73C4A-3B94-4327-8859-B98388D1C9CD] '"" + ISpace[""MF_d10_InstanceId""].Value + @""'"",_objectFactory.GetGridRPP(""EquipmentGrid""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result83ae6bea5b86be67af2d86bd670877ef=acdataIspaceE1B5DCB812784AA0A8B21C0CDE17E77A.GetQueryExpressionBindings("83ae6bea-5b86-be67-af2d-86bd670877ef");
+iSpace.SetGridData(result61e7d77340d395e92de5549773196e79,result83ae6bea5b86be67af2d86bd670877ef,"EquipmentGrid",ref ISpace);
+iSpace.UpdateGridBindDetails("EquipmentGrid",result83ae6bea5b86be67af2d86bd670877ef);
 }
 catch(Exception ex)
 {
@@ -2286,6 +2438,66 @@ object MG_d28_BudgetAmount=iSpace.Sum("[B73036BB-FE7D-4B0D-998A-985294F8FC5B]","
 ISpace["MF_d10_BudgetTotalAmount"].Value=Convert.ChangeType(MG_d28_BudgetAmount, MG_d28_BudgetAmount.GetType());;
 base.WriteDebugInfo(@"object MG_d28_BudgetAmount=iSpace.Sum(""[B73036BB-FE7D-4B0D-998A-985294F8FC5B]"",""MG_d28_BudgetAmount"","""",ISpace[""gv_instanceid""].Value);
 ISpace[""MF_d10_BudgetTotalAmount""].Value=Convert.ChangeType(MG_d28_BudgetAmount, MG_d28_BudgetAmount.GetType());;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mg_d154_hrapermonth (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MG_d154_HRAPerMonth-OnChange");
+object MG_d154_TotalCost=iSpace.Sum("[25683F52-E21A-4CE3-9196-7BCFA640A94B]","MG_d154_TotalCost","",ISpace["gv_instanceid"].Value);
+ISpace["MF_ManPowerTotal"].Value=Convert.ChangeType(MG_d154_TotalCost, MG_d154_TotalCost.GetType());;
+base.WriteDebugInfo(@"object MG_d154_TotalCost=iSpace.Sum(""[25683F52-E21A-4CE3-9196-7BCFA640A94B]"",""MG_d154_TotalCost"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_ManPowerTotal""].Value=Convert.ChangeType(MG_d154_TotalCost, MG_d154_TotalCost.GetType());;");
+
+var querySource7c4d94f12381b2c2c38d941e8dba8928 =GetQueryExpressionDataSource("7c4d94f1-2381-b2c2-c38d-941e8dba8928");
+
+DataTable result7c4d94f12381b2c2c38d941e8dba8928=iSpace.SetGridDataSource(querySource7c4d94f12381b2c2c38d941e8dba8928, _objectFactory.GetGridRPP("ManpowerGrid"),@"EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '" + ISpace["MF_d10_InstanceId"].Value + @"'");
+
+iSpace.InsertGridBindDetails("ManpowerGrid","11",querySource7c4d94f12381b2c2c38d941e8dba8928,"EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '" + ISpace["MF_d10_InstanceId"].Value + @"'",_objectFactory.GetGridRPP("ManpowerGrid"));
+
+base.WriteDebugInfo(@"var querySource7c4d94f12381b2c2c38d941e8dba8928 =GetQueryExpressionDataSource(""7c4d94f1-2381-b2c2-c38d-941e8dba8928"");DataTable result7c4d94f12381b2c2c38d941e8dba8928=iSpace.SetGridDataSource(querySource7c4d94f12381b2c2c38d941e8dba8928, _objectFactory.GetGridRPP(""ManpowerGrid""),@""EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '"" + ISpace[""MF_d10_InstanceId""].Value + @""'"");iSpace.InsertGridBindDetails(""ManpowerGrid"",""11"",querySource7c4d94f12381b2c2c38d941e8dba8928,""EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '"" + ISpace[""MF_d10_InstanceId""].Value + @""'"",_objectFactory.GetGridRPP(""ManpowerGrid""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result2dff53097010e57f5c95f700983350be=acdataIspaceE1B5DCB812784AA0A8B21C0CDE17E77A.GetQueryExpressionBindings("2dff5309-7010-e57f-5c95-f700983350be");
+iSpace.SetGridData(result7c4d94f12381b2c2c38d941e8dba8928,result2dff53097010e57f5c95f700983350be,"ManpowerGrid",ref ISpace);
+iSpace.UpdateGridBindDetails("ManpowerGrid",result2dff53097010e57f5c95f700983350be);
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mg_d154_hrapercentage (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MG_d154_HRAPercentage-OnChange");
+object MG_d154_TotalCost=iSpace.Sum("[25683F52-E21A-4CE3-9196-7BCFA640A94B]","MG_d154_TotalCost","",ISpace["gv_instanceid"].Value);
+ISpace["MF_ManPowerTotal"].Value=Convert.ChangeType(MG_d154_TotalCost, MG_d154_TotalCost.GetType());;
+base.WriteDebugInfo(@"object MG_d154_TotalCost=iSpace.Sum(""[25683F52-E21A-4CE3-9196-7BCFA640A94B]"",""MG_d154_TotalCost"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_ManPowerTotal""].Value=Convert.ChangeType(MG_d154_TotalCost, MG_d154_TotalCost.GetType());;");
+
+var querySource7c4d94f12381b2c2c38d941e8dba8928 =GetQueryExpressionDataSource("7c4d94f1-2381-b2c2-c38d-941e8dba8928");
+
+DataTable result7c4d94f12381b2c2c38d941e8dba8928=iSpace.SetGridDataSource(querySource7c4d94f12381b2c2c38d941e8dba8928, _objectFactory.GetGridRPP("ManpowerGrid"),@"EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '" + ISpace["MF_d10_InstanceId"].Value + @"'");
+
+iSpace.InsertGridBindDetails("ManpowerGrid","11",querySource7c4d94f12381b2c2c38d941e8dba8928,"EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '" + ISpace["MF_d10_InstanceId"].Value + @"'",_objectFactory.GetGridRPP("ManpowerGrid"));
+
+base.WriteDebugInfo(@"var querySource7c4d94f12381b2c2c38d941e8dba8928 =GetQueryExpressionDataSource(""7c4d94f1-2381-b2c2-c38d-941e8dba8928"");DataTable result7c4d94f12381b2c2c38d941e8dba8928=iSpace.SetGridDataSource(querySource7c4d94f12381b2c2c38d941e8dba8928, _objectFactory.GetGridRPP(""ManpowerGrid""),@""EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '"" + ISpace[""MF_d10_InstanceId""].Value + @""'"");iSpace.InsertGridBindDetails(""ManpowerGrid"",""11"",querySource7c4d94f12381b2c2c38d941e8dba8928,""EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '"" + ISpace[""MF_d10_InstanceId""].Value + @""'"",_objectFactory.GetGridRPP(""ManpowerGrid""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result2dff53097010e57f5c95f700983350be=acdataIspaceE1B5DCB812784AA0A8B21C0CDE17E77A.GetQueryExpressionBindings("2dff5309-7010-e57f-5c95-f700983350be");
+iSpace.SetGridData(result7c4d94f12381b2c2c38d941e8dba8928,result2dff53097010e57f5c95f700983350be,"ManpowerGrid",ref ISpace);
+iSpace.UpdateGridBindDetails("ManpowerGrid",result2dff53097010e57f5c95f700983350be);
 }
 catch(Exception ex)
 {
@@ -2378,38 +2590,6 @@ ISpace["ExecutionMessage"].Value = result3E77697F9C9B4F7086A4EEAF4AAF6937[0];
 else{
 ISpace["ExecutionMessage"].Value = null;
 }
-base.WriteDebugInfo(@"EXEC InnovaceNoCode..[GridSave_654EC874-B7C9-4246-BD32-844DA360ADB1]   '@@gv_InstanceId','@@gv_ActivityMapId','654EC874-B7C9-4246-BD32-844DA360ADB1'");
-
-var querySource19FA52AC025C4D4A932FAC76D5372103 =GetQueryExpressionDataSource("19FA52AC-025C-4D4A-932F-AC76D5372103");
-Dictionary<short,object> result19FA52AC025C4D4A932FAC76D5372103=iSpace.ExecuteQuery(querySource19FA52AC025C4D4A932FAC76D5372103,@"EXEC InnovaceNoCode..[GridSave_654EC874-B7C9-4246-BD32-844DA360ADB1]   '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','654EC874-B7C9-4246-BD32-844DA360ADB1'",false);
-
-base.WriteDebugInfo(@"var querySource19FA52AC025C4D4A932FAC76D5372103 =GetQueryExpressionDataSource(""19FA52AC-025C-4D4A-932F-AC76D5372103"");Dictionary<short,object> result19FA52AC025C4D4A932FAC76D5372103=iSpace.ExecuteQuery(querySource19FA52AC025C4D4A932FAC76D5372103,@""EXEC InnovaceNoCode..[GridSave_654EC874-B7C9-4246-BD32-844DA360ADB1]   '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','654EC874-B7C9-4246-BD32-844DA360ADB1'"",false);");
-base.WriteDebugInfo(@"");
-
-if((result19FA52AC025C4D4A932FAC76D5372103!=null) && (result19FA52AC025C4D4A932FAC76D5372103.Count!=0))
-{
-if(result19FA52AC025C4D4A932FAC76D5372103.ContainsKey(0))
-ISpace["ExecutionMessage"].Value = result19FA52AC025C4D4A932FAC76D5372103[0];
-}
-else{
-ISpace["ExecutionMessage"].Value = null;
-}
-base.WriteDebugInfo(@"EXEC InnovaceNoCode..[GridSave_59259E21-AFE8-4DAB-A543-74CC22FC79D5]   '@@gv_InstanceId','@@gv_ActivityMapId','59259E21-AFE8-4DAB-A543-74CC22FC79D5'");
-
-var querySource927C0145CC9744FA81C70391CD43D9A7 =GetQueryExpressionDataSource("927C0145-CC97-44FA-81C7-0391CD43D9A7");
-Dictionary<short,object> result927C0145CC9744FA81C70391CD43D9A7=iSpace.ExecuteQuery(querySource927C0145CC9744FA81C70391CD43D9A7,@"EXEC InnovaceNoCode..[GridSave_59259E21-AFE8-4DAB-A543-74CC22FC79D5]   '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','59259E21-AFE8-4DAB-A543-74CC22FC79D5'",false);
-
-base.WriteDebugInfo(@"var querySource927C0145CC9744FA81C70391CD43D9A7 =GetQueryExpressionDataSource(""927C0145-CC97-44FA-81C7-0391CD43D9A7"");Dictionary<short,object> result927C0145CC9744FA81C70391CD43D9A7=iSpace.ExecuteQuery(querySource927C0145CC9744FA81C70391CD43D9A7,@""EXEC InnovaceNoCode..[GridSave_59259E21-AFE8-4DAB-A543-74CC22FC79D5]   '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','59259E21-AFE8-4DAB-A543-74CC22FC79D5'"",false);");
-base.WriteDebugInfo(@"");
-
-if((result927C0145CC9744FA81C70391CD43D9A7!=null) && (result927C0145CC9744FA81C70391CD43D9A7.Count!=0))
-{
-if(result927C0145CC9744FA81C70391CD43D9A7.ContainsKey(0))
-ISpace["ExecutionMessage"].Value = result927C0145CC9744FA81C70391CD43D9A7[0];
-}
-else{
-ISpace["ExecutionMessage"].Value = null;
-}
 }
 catch(Exception ex)
 {
@@ -2438,13 +2618,37 @@ public override void ExecuteMethod
     {
     			SubscribeElementEvents_mf_d10_projectproposalid(ref dfsParam);
     }
+		if(elementName.ToLower().Equals("mg_d154_totalmonths"))
+    {
+    			SubscribeElementEvents_mg_d154_totalmonths(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mg_d109_rateininr"))
+    {
+    			SubscribeElementEvents_mg_d109_rateininr(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mg_d154_ratepermonth"))
+    {
+    			SubscribeElementEvents_mg_d154_ratepermonth(ref dfsParam);
+    }
 		if(elementName.ToLower().Equals("mg_d154_duration"))
     {
     			SubscribeElementEvents_mg_d154_duration(ref dfsParam);
     }
+		if(elementName.ToLower().Equals("mg_d109_quantity"))
+    {
+    			SubscribeElementEvents_mg_d109_quantity(ref dfsParam);
+    }
 		if(elementName.ToLower().Equals("mg_d28_budgetamount"))
     {
     			SubscribeElementEvents_mg_d28_budgetamount(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mg_d154_hrapermonth"))
+    {
+    			SubscribeElementEvents_mg_d154_hrapermonth(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mg_d154_hrapercentage"))
+    {
+    			SubscribeElementEvents_mg_d154_hrapercentage(ref dfsParam);
     }
 }
 	if(methodName.ToLower().Equals("onclick"))
@@ -2603,6 +2807,38 @@ using System;
 														   -1),
 								}
 			},
+							{"2dff5309-7010-e57f-5c95-f700983350be", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("ManpowerGrid_RowId",3,
+														   -1),
+								   new Triplet<string, short, short?>("ManpowerGrid_Sequence",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_Comments",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_Duration",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_HRAPercentage",11,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_HRAPerMonth",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_ManpowerPosition",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_No_OfManpowerPosition",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_RatePerMonth",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_SerialNo",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_TotalCost",15,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_TotalMonths",14,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_TotalPerMonth",13,
+														   -1),
+								}
+			},
 							{"7C897385-ED82-479B-9B0C-C2A3DF2CE43C", 
 				
 				new List<Triplet<string, short, short?>> {
@@ -2612,6 +2848,34 @@ using System;
 								   new Triplet<string, short, short?>("MG_d82_DocumentName",0,
 														   -1),
 								   new Triplet<string, short, short?>("RDDocumentGrid_RowId",2,
+														   -1),
+								}
+			},
+							{"83ae6bea-5b86-be67-af2d-86bd670877ef", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("EquipmentGrid_RowId",0,
+														   -1),
+								   new Triplet<string, short, short?>("EquipmentGrid_Sequence",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_Description",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_EquipmentBudget",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_EquipmentName",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_IsActive",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_OverallEquipmentcost",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_Quantity",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_RateinINR",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_SerialNo",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_TotalEquipmentcost",7,
 														   -1),
 								}
 			},
@@ -2819,6 +3083,66 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
+							{"2dff5309-7010-e57f-5c95-f700983350be", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("ManpowerGrid_RowId",3,
+														   -1),
+								   new Triplet<string, short, short?>("ManpowerGrid_Sequence",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_Comments",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_Duration",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_HRAPercentage",11,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_HRAPerMonth",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_ManpowerPosition",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_No_OfManpowerPosition",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_RatePerMonth",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_SerialNo",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_TotalCost",15,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_TotalMonths",14,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_TotalPerMonth",13,
+														   -1),
+								}
+			},
+							{"83ae6bea-5b86-be67-af2d-86bd670877ef", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("EquipmentGrid_RowId",0,
+														   -1),
+								   new Triplet<string, short, short?>("EquipmentGrid_Sequence",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_Description",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_EquipmentBudget",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_EquipmentName",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_IsActive",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_OverallEquipmentcost",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_Quantity",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_RateinINR",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_SerialNo",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_TotalEquipmentcost",7,
+														   -1),
+								}
+			},
 					};	
 
 	
@@ -2941,6 +3265,66 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
+							{"2dff5309-7010-e57f-5c95-f700983350be", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("ManpowerGrid_RowId",3,
+														   -1),
+								   new Triplet<string, short, short?>("ManpowerGrid_Sequence",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_Comments",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_Duration",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_HRAPercentage",11,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_HRAPerMonth",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_ManpowerPosition",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_No_OfManpowerPosition",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_RatePerMonth",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_SerialNo",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_TotalCost",15,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_TotalMonths",14,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_TotalPerMonth",13,
+														   -1),
+								}
+			},
+							{"83ae6bea-5b86-be67-af2d-86bd670877ef", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("EquipmentGrid_RowId",0,
+														   -1),
+								   new Triplet<string, short, short?>("EquipmentGrid_Sequence",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_Description",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_EquipmentBudget",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_EquipmentName",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_IsActive",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_OverallEquipmentcost",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_Quantity",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_RateinINR",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_SerialNo",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_TotalEquipmentcost",7,
+														   -1),
+								}
+			},
 					};	
 
 	
@@ -3063,6 +3447,66 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
+							{"2dff5309-7010-e57f-5c95-f700983350be", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("ManpowerGrid_RowId",3,
+														   -1),
+								   new Triplet<string, short, short?>("ManpowerGrid_Sequence",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_Comments",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_Duration",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_HRAPercentage",11,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_HRAPerMonth",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_ManpowerPosition",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_No_OfManpowerPosition",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_RatePerMonth",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_SerialNo",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_TotalCost",15,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_TotalMonths",14,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d154_TotalPerMonth",13,
+														   -1),
+								}
+			},
+							{"83ae6bea-5b86-be67-af2d-86bd670877ef", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("EquipmentGrid_RowId",0,
+														   -1),
+								   new Triplet<string, short, short?>("EquipmentGrid_Sequence",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_Description",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_EquipmentBudget",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_EquipmentName",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_IsActive",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_OverallEquipmentcost",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_Quantity",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_RateinINR",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_SerialNo",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d109_TotalEquipmentcost",7,
+														   -1),
+								}
+			},
 					};	
 
 	
