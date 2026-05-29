@@ -226,7 +226,7 @@ export const saveGridRow = async ({
         return {
           ElementName: elementName,
           Value: valueObj?.value ?? null,
-          EDT: valueObj?.EDT ?? 9,
+          EDT: state[elementName]?.EDT ??valueObj?.EDT ?? 9,
         };
       }),
     };
