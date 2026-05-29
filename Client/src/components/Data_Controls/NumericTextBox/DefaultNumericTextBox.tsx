@@ -25,29 +25,32 @@ const DefaultNumericTextBox: React.FC<DefaultNumericTextBoxProps> = ({
 
   const controlId = element.ElementName || element.UIElementid;
 
-  // Debounce timer ref
+  // Debounce timer
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const inputValue = e.target.value;
+    // Remove commas
+    const rawValue = e.target.value.replace(/,/g, "");
+
+    // Allow only numbers
+    if (!/^\d*$/.test(rawValue)) return;
 
     const numericValue: number | "" =
-      inputValue === "" ? "" : Number(inputValue);
+      rawValue === "" ? "" : Number(rawValue);
 
-    // Immediate store update
+    // Update store immediately
     setState(element.ElementName, numericValue as any);
 
-    // Clear previous timeout
+    // Debounce API/event calls
     if (debounceRef.current) {
       clearTimeout(debounceRef.current);
     }
 
-    // Debounced API/event call
     debounceRef.current = setTimeout(() => {
       if (element.Action === "OnChange" && element.BindingDetail) {
         resusableOnChange(element);
       }
-    }, 800); // wait 800ms after typing stops
+    }, 800);
   };
 
   const storeVisible = useGeneralStore(
@@ -61,13 +64,21 @@ const DefaultNumericTextBox: React.FC<DefaultNumericTextBoxProps> = ({
 
   if (isVisible === false || isVisible === "false") return null;
 
+  // Format number for display
+  const formattedValue =
+    element.EDT === 3 || element.EDT === 4
+      ? value !== "" && value !== null && value !== undefined
+        ? Number(value).toLocaleString("en-IN")
+        : ""
+      : value;
+
   return (
     <div
       className={
         !isGrid
           ? [element?.ColumnCss, element?.Wrap && `col-md-${element.Wrap}`]
-            .filter(Boolean)
-            .join(" ")
+              .filter(Boolean)
+              .join(" ")
           : ""
       }
     >
@@ -90,18 +101,14 @@ const DefaultNumericTextBox: React.FC<DefaultNumericTextBoxProps> = ({
             <input
               id={controlId}
               name={element.ElementName}
-              type="number"
+              type="text"
+              inputMode="numeric"
               className="form-control input-lg"
-             
-              value={
-                element.EDT === 3 || element.EDT === 4
-                  ? value !== "" && value !== null && value !== undefined
-                    ? Number(value).toLocaleString("en-IN")
-                    : ""
-                  : value
-              }
+              tabIndex={element.TabIndex}
+              value={formattedValue}
               onChange={onChange}
               onClick={(e) => e.stopPropagation()}
+              autoComplete="off"
             />
           </div>
         </div>
