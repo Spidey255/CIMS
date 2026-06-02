@@ -1766,6 +1766,12 @@ base.WriteDebugInfo(@"else");
 ISpace["M_FlowType"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value="""";");
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="?PkActMId=B3A49337-4C4B-42EC-9F9B-1C4C8B4E2E13&frmElementId=E0AC6667-6D92-49AA-8F4D-01F473F2E426&PkPrMId=026e321e-9bb7-4c74-8615-3bbd7cc1b241&formVersionId=FA963D46-2D52-4A3E-8550-E878A2504252&Ver=0.0000";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""?PkActMId=B3A49337-4C4B-42EC-9F9B-1C4C8B4E2E13&frmElementId=E0AC6667-6D92-49AA-8F4D-01F473F2E426&PkPrMId=026e321e-9bb7-4c74-8615-3bbd7cc1b241&formVersionId=FA963D46-2D52-4A3E-8550-E878A2504252&Ver=0.0000"";");
 }
 catch(Exception ex)
 {
@@ -2006,6 +2012,12 @@ base.WriteDebugInfo(@"else");
 ISpace["M_FlowType"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value="""";");
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="?PkActMId=B3A49337-4C4B-42EC-9F9B-1C4C8B4E2E13&frmElementId=E0AC6667-6D92-49AA-8F4D-01F473F2E426&PkPrMId=026e321e-9bb7-4c74-8615-3bbd7cc1b241&formVersionId=FA963D46-2D52-4A3E-8550-E878A2504252&Ver=0.0000";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""?PkActMId=B3A49337-4C4B-42EC-9F9B-1C4C8B4E2E13&frmElementId=E0AC6667-6D92-49AA-8F4D-01F473F2E426&PkPrMId=026e321e-9bb7-4c74-8615-3bbd7cc1b241&formVersionId=FA963D46-2D52-4A3E-8550-E878A2504252&Ver=0.0000"";");
 }
 catch(Exception ex)
 {
@@ -2370,6 +2382,12 @@ base.WriteDebugInfo(@"else");
 ISpace["M_FlowType"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value="""";");
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="?PkActMId=B3A49337-4C4B-42EC-9F9B-1C4C8B4E2E13&frmElementId=E0AC6667-6D92-49AA-8F4D-01F473F2E426&PkPrMId=026e321e-9bb7-4c74-8615-3bbd7cc1b241&formVersionId=FA963D46-2D52-4A3E-8550-E878A2504252&Ver=0.0000";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""?PkActMId=B3A49337-4C4B-42EC-9F9B-1C4C8B4E2E13&frmElementId=E0AC6667-6D92-49AA-8F4D-01F473F2E426&PkPrMId=026e321e-9bb7-4c74-8615-3bbd7cc1b241&formVersionId=FA963D46-2D52-4A3E-8550-E878A2504252&Ver=0.0000"";");
 }
 catch(Exception ex)
 {
