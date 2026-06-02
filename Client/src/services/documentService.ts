@@ -9,7 +9,7 @@ import axiosHelper from "@/helpers/axiosHelper";
 
 export const uploadDocument = async (formData: FormData) => {
   const data = await axiosHelper<IUrlFileResponse>(
-    `${config.DOCUMENT_SERVICE_URL}/RemoteGateway/UploadDocumentViaIspace`,
+    `${config.DOCUMENT_SERVICE_URL}/Values/UploadDocumentViaIspace`,
     "POST",
     formData
   );

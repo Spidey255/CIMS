@@ -47,6 +47,7 @@ import CommitmentSpentDetails_Start from "@/pages/PRJ20251020000000025-R&DProjec
 import TravelRequest_RDOfficePayments from "@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_RDOfficePayments";
 import TravelRequest_AdditionalDetails from "@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_AdditionalDetails";
 import ProjectFundInstallment_RDOffice from "@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_RDOffice";
+import ProjectProposal_Additional from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_Additional";
 import TravelRequest_RDDean from "@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_RDDean";
 import ProjectFundInstallment_PIInitiation from "@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_PIInitiation";
 import ProjectReimbursement_AdditionalDetails from "@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_AdditionalDetails";
@@ -143,6 +144,7 @@ const App: React.FC = () => {
         <Route path="/PRJ20251020000000025-R&DProjects/TravelRequest_RDOfficePayments" element={<TravelRequest_RDOfficePayments />} />
         <Route path="/PRJ20251020000000025-R&DProjects/TravelRequest_AdditionalDetails" element={<TravelRequest_AdditionalDetails />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_RDOffice" element={<ProjectFundInstallment_RDOffice />} />
+        <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_Additional" element={<ProjectProposal_Additional />} />
         <Route path="/PRJ20251020000000025-R&DProjects/TravelRequest_RDDean" element={<TravelRequest_RDDean />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_PIInitiation" element={<ProjectFundInstallment_PIInitiation />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursement_AdditionalDetails" element={<ProjectReimbursement_AdditionalDetails />} />
