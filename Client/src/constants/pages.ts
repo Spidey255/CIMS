@@ -1,6 +1,6 @@
 // Innovace Intech Solution Pvt Ltd
 // ⚠️ AUTO-GENERATED FILE – DO NOT EDIT
-// Generated on 2026-06-03T10:06:56.665Z
+// Generated on 2026-06-03T10:16:15.861Z
 
 export const pages = [
   {
@@ -14,12 +14,6 @@ export const pages = [
     "ProcessActivityMapId": "A6341F06-0394-4CAA-88D0-B7B36027AF06",
     "ProcessName": "TravelRequest",
     "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequest_Registrar"
-  },
-  {
-    "PackageProcessMapId": "08c9de00-05b0-4b62-aa5e-1dbada1b9158",
-    "ProcessActivityMapId": "585BA2B8-3E75-4DAB-B50B-10D8320CE414",
-    "ProcessName": "ProjectOverview",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectOverview_Start"
   },
   {
     "PackageProcessMapId": "64C42232-67DB-43B8-8B68-4468FE0DD17F",
@@ -70,10 +64,22 @@ export const pages = [
     "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlement_PIInitiation"
   },
   {
+    "PackageProcessMapId": "b92107f7-28a5-49d0-8b7f-312c4826dd60",
+    "ProcessActivityMapId": "E1B5DCB8-1278-4AA0-A8B2-1C0CDE17E77A",
+    "ProcessName": "ProjectCreationfromAutomation",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW1"
+  },
+  {
     "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
     "ProcessActivityMapId": "BD4B416F-E184-4A6F-B8DE-4D2B42649FF4",
     "ProcessName": "TempAdvance",
     "RoutPath": "PRJ20251020000000025-R&DProjects/TempAdvance_RDofficepayment"
+  },
+  {
+    "PackageProcessMapId": "b92107f7-28a5-49d0-8b7f-312c4826dd60",
+    "ProcessActivityMapId": "BD6CC522-F7E6-46CB-B200-9C41F448175B",
+    "ProcessName": "ProjectCreationfromAutomation",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW2"
   },
   {
     "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
@@ -118,10 +124,22 @@ export const pages = [
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectProposal_ReadOnly"
   },
   {
+    "PackageProcessMapId": "b92107f7-28a5-49d0-8b7f-312c4826dd60",
+    "ProcessActivityMapId": "88470FA8-05F7-4764-A871-E9DAC8F66C89",
+    "ProcessName": "ProjectCreationfromAutomation",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW4"
+  },
+  {
     "PackageProcessMapId": "84777088-B51C-45AA-8BBA-D24FBDEF26E9",
     "ProcessActivityMapId": "4E51124D-BF83-46EC-BA9A-B746693F716F",
     "ProcessName": "FundConfigurations",
     "RoutPath": "PRJ20251020000000025-R&DProjects/FundConfigurations_Start"
+  },
+  {
+    "PackageProcessMapId": "b92107f7-28a5-49d0-8b7f-312c4826dd60",
+    "ProcessActivityMapId": "218B0C87-E3E2-4D2E-BB8F-B38C51CAD1FE",
+    "ProcessName": "ProjectCreationfromAutomation",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW3"
   },
   {
     "PackageProcessMapId": "64C42232-67DB-43B8-8B68-4468FE0DD17F",
