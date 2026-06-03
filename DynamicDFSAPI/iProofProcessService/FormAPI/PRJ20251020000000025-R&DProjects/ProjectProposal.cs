@@ -2014,10 +2014,10 @@ base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value="""";");
 }
 
 ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="Project Proposal?PkActMId=34CF8FAF-7574-478F-9C4A-A65F98E4D18A&frmElementId=7816392B-A9EF-486D-88F9-AC7C972D679B&PkPrMId=B219A0EA-0254-4F69-B989-B681DD475183&formVersionId=02A1FE25-AE94-461D-9B6F-A7AC8493B6F6&Ver=0.0000";
+ISpace["RedirectUrl"].Value="/Inbox";
 base.WriteDebugInfo(@"
 ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""Project Proposal?PkActMId=34CF8FAF-7574-478F-9C4A-A65F98E4D18A&frmElementId=7816392B-A9EF-486D-88F9-AC7C972D679B&PkPrMId=B219A0EA-0254-4F69-B989-B681DD475183&formVersionId=02A1FE25-AE94-461D-9B6F-A7AC8493B6F6&Ver=0.0000"";");
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -2384,10 +2384,10 @@ base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value="""";");
 }
 
 ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="Project Proposal?PkActMId=34CF8FAF-7574-478F-9C4A-A65F98E4D18A&frmElementId=7816392B-A9EF-486D-88F9-AC7C972D679B&PkPrMId=B219A0EA-0254-4F69-B989-B681DD475183&formVersionId=02A1FE25-AE94-461D-9B6F-A7AC8493B6F6&Ver=0.0000";
+ISpace["RedirectUrl"].Value="/Inbox";
 base.WriteDebugInfo(@"
 ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""Project Proposal?PkActMId=34CF8FAF-7574-478F-9C4A-A65F98E4D18A&frmElementId=7816392B-A9EF-486D-88F9-AC7C972D679B&PkPrMId=B219A0EA-0254-4F69-B989-B681DD475183&formVersionId=02A1FE25-AE94-461D-9B6F-A7AC8493B6F6&Ver=0.0000"";");
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
