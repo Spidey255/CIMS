@@ -325,7 +325,7 @@ namespace CPS.Proof.DFSExtension
                     if (obj != null && obj.ToString() != "")
                         return DateTime.Parse(obj.ToString());
                     else
-                        return new  DateTime(1753, 1, 1);
+                        return DateTime.Now;  
                 }
                 //0 represents Boolean               
                 else if (dataType == 0)
@@ -407,7 +407,7 @@ namespace CPS.Proof.DFSExtension
                         return long.Parse(obj.ToString());
                     }
                     else
-                        return 0;
+                        return null;
                 }
                 switch (obj)
                 {

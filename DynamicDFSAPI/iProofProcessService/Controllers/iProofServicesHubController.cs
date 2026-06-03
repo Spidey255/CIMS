@@ -1262,6 +1262,8 @@ namespace CPS.Proof.DFSExtension
 
                  Response response = new Response();
 
+                 response.FormInstanceId = context.FormInstanceId;
+
                  if (!string.IsNullOrEmpty(res))
                 {
                     var gridObject = serializer.Deserialize<List<ServiceElementData>>(res);                    
@@ -1373,6 +1375,8 @@ namespace CPS.Proof.DFSExtension
 
 
                  Response response = new Response();
+
+                 response.FormInstanceId = context.FormInstanceId;
 
                 if (!string.IsNullOrEmpty(res))
                 {
