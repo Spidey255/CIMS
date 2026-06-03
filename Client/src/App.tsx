@@ -19,6 +19,7 @@ import { useUserStore } from "@/store/useUserStore";
 
 import ProjectReimbursement_RDoffice from "@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_RDoffice";
 import TravelRequest_Registrar from "@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_Registrar";
+import ProjectOverview_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectOverview_Start";
 import ProjectFundInstallment_AdditionalDetails from "@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_AdditionalDetails";
 import ProjectsExplorer_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start";
 import TravelRequest_ARRD from "@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_ARRD";
@@ -27,9 +28,7 @@ import ProjectReimbursement_Registrar from "@/pages/PRJ20251020000000025-R&DProj
 import TempAdvance_PIInitiation from "@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_PIInitiation";
 import ProjectProposal_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_Start";
 import TravelSettlement_PIInitiation from "@/pages/PRJ20251020000000025-R&DProjects/TravelSettlement_PIInitiation";
-import ProjectCreationfromAutomation_VIEW1 from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW1";
 import TempAdvance_RDofficepayment from "@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_RDofficepayment";
-import ProjectCreationfromAutomation_VIEW2 from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW2";
 import TempAdvance_AdditionalDetails from "@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_AdditionalDetails";
 import TravelRequest_PIInitiation from "@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_PIInitiation";
 import TempAdvance_Registrar from "@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_Registrar";
@@ -37,9 +36,7 @@ import TravelRequest_RDOfficeverification from "@/pages/PRJ20251020000000025-R&D
 import TravelSettlement_RDOfficeverification from "@/pages/PRJ20251020000000025-R&DProjects/TravelSettlement_RDOfficeverification";
 import TravelSettlement_ARRD from "@/pages/PRJ20251020000000025-R&DProjects/TravelSettlement_ARRD";
 import ProjectProposal_ReadOnly from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_ReadOnly";
-import ProjectCreationfromAutomation_VIEW4 from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW4";
 import FundConfigurations_Start from "@/pages/PRJ20251020000000025-R&DProjects/FundConfigurations_Start";
-import ProjectCreationfromAutomation_VIEW3 from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW3";
 import ProjectFundInstallment_HOD from "@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_HOD";
 import TempAdvance_DeanRD from "@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_DeanRD";
 import ProjectReimbursement_PIInitiation from "@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_PIInitiation";
@@ -116,6 +113,7 @@ const App: React.FC = () => {
       }>
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursement_RDoffice" element={<ProjectReimbursement_RDoffice />} />
         <Route path="/PRJ20251020000000025-R&DProjects/TravelRequest_Registrar" element={<TravelRequest_Registrar />} />
+        <Route path="/PRJ20251020000000025-R&DProjects/ProjectOverview_Start" element={<ProjectOverview_Start />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_AdditionalDetails" element={<ProjectFundInstallment_AdditionalDetails />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start" element={<ProjectsExplorer_Start />} />
         <Route path="/PRJ20251020000000025-R&DProjects/TravelRequest_ARRD" element={<TravelRequest_ARRD />} />
@@ -124,9 +122,7 @@ const App: React.FC = () => {
         <Route path="/PRJ20251020000000025-R&DProjects/TempAdvance_PIInitiation" element={<TempAdvance_PIInitiation />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_Start" element={<ProjectProposal_Start />} />
         <Route path="/PRJ20251020000000025-R&DProjects/TravelSettlement_PIInitiation" element={<TravelSettlement_PIInitiation />} />
-        <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW1" element={<ProjectCreationfromAutomation_VIEW1 />} />
         <Route path="/PRJ20251020000000025-R&DProjects/TempAdvance_RDofficepayment" element={<TempAdvance_RDofficepayment />} />
-        <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW2" element={<ProjectCreationfromAutomation_VIEW2 />} />
         <Route path="/PRJ20251020000000025-R&DProjects/TempAdvance_AdditionalDetails" element={<TempAdvance_AdditionalDetails />} />
         <Route path="/PRJ20251020000000025-R&DProjects/TravelRequest_PIInitiation" element={<TravelRequest_PIInitiation />} />
         <Route path="/PRJ20251020000000025-R&DProjects/TempAdvance_Registrar" element={<TempAdvance_Registrar />} />
@@ -134,9 +130,7 @@ const App: React.FC = () => {
         <Route path="/PRJ20251020000000025-R&DProjects/TravelSettlement_RDOfficeverification" element={<TravelSettlement_RDOfficeverification />} />
         <Route path="/PRJ20251020000000025-R&DProjects/TravelSettlement_ARRD" element={<TravelSettlement_ARRD />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_ReadOnly" element={<ProjectProposal_ReadOnly />} />
-        <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW4" element={<ProjectCreationfromAutomation_VIEW4 />} />
         <Route path="/PRJ20251020000000025-R&DProjects/FundConfigurations_Start" element={<FundConfigurations_Start />} />
-        <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW3" element={<ProjectCreationfromAutomation_VIEW3 />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_HOD" element={<ProjectFundInstallment_HOD />} />
         <Route path="/PRJ20251020000000025-R&DProjects/TempAdvance_DeanRD" element={<TempAdvance_DeanRD />} />
         <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursement_PIInitiation" element={<ProjectReimbursement_PIInitiation />} />
