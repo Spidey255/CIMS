@@ -1,6 +1,6 @@
 // Innovace Intech Solution Pvt Ltd
 // ⚠️ AUTO-GENERATED FILE – DO NOT EDIT
-// Generated on 2026-06-15T08:31:20.943Z
+// Generated on 2026-06-15T10:45:06.536Z
 
 export const pages = [
   {
@@ -188,6 +188,12 @@ export const pages = [
     "ProcessActivityMapId": "2D400E54-E6D1-43C7-9824-3831B9AD8F32",
     "ProcessName": "ProjectProposal",
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectProposal_Additional"
+  },
+  {
+    "PackageProcessMapId": "29765AAA-A994-40D8-A9EB-93EB92E6EFAB",
+    "ProcessActivityMapId": "2EC40310-88B9-4E21-AD43-FA1B94EBF785",
+    "ProcessName": "TaskSummaryWithFilters",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TaskSummaryWithFilters_Start"
   },
   {
     "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",

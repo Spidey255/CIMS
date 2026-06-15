@@ -1,6 +1,7 @@
 import Row from "./Row";
 import Tab from "./Tab";
 import Panel from "./Panel";
+import Modal from "./Modal";
 import Label from "./Label";
 import Column from "./Column";
 import Header from "./Header";
@@ -21,6 +22,7 @@ const UIControls = {
   Row,
   Tab,
   Panel,
+  Modal,
   Label,
   Column,
   Header,

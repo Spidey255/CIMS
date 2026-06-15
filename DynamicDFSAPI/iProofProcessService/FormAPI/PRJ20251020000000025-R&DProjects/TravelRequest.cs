@@ -140,10 +140,6 @@ namespace CPS.Proof.DFSExtension
 		private List<Triplet<string, string, string>> queryExpressionData = new List<Triplet<string, string, string>>
 		{
 	  			
-			     new Triplet<string, string, string>("9116BDE3-E175-48D9-92EE-87A8F58EDC21","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
 			     new Triplet<string, string, string>("5BE98974-AD59-4580-A751-30D0492B011E","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -154,6 +150,10 @@ namespace CPS.Proof.DFSExtension
 						
 			     new Triplet<string, string, string>("2ACCBC57-2E9C-4A0F-BD46-FAB4E50951D4","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"300A3A31-6181-43BC-865F-73BE07692674"),
+			
+						
+			     new Triplet<string, string, string>("9116BDE3-E175-48D9-92EE-87A8F58EDC21","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
 			     new Triplet<string, string, string>("DFBF6D46-81E0-41F6-94F4-5547F670F5AF","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
