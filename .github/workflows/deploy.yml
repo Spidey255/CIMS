@@ -46,6 +46,12 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Clean Node Modules
+        working-directory: Client
+        run: |
+          rm -rf node_modules
+          npm cache clean --force
+      
       - name: Install Dependencies
         working-directory: Client
         run: npm install
