@@ -12,7 +12,7 @@ const View: React.FC<{
   isGrid?: boolean;
 }> = ({ element, isGrid }) => {
   const state = useGeneralStore(
-    (store) => store.state[element.ElementName]?.["value"]
+    (store) => store.state[element.ElementName]?.["value"] as string
   );
   const slotId = useUserStore((store) => store.slotId);
   const [base64Data, setBase64Data] = useState<string>();
@@ -23,6 +23,7 @@ const View: React.FC<{
 
   const handleLoadData = useCallback(async () => {
     if (!state || !state?.toString().includes("#")) return;
+    
 
     try {
       const data = await getBase64StringFromUrl(

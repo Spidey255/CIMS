@@ -186,10 +186,27 @@ const GridRow = ({
 
   return (
     <tr
-      role="row"
-      className={`${index % 2 === 0 ? "even" : "odd"} ${gridData?.includes(data.RwId!) ? "selected-row" : ""}` }
-      onClick={() => setSelectedRow(gridUIElementId, data.RwId!)}
-    >
+  role="row"
+  className={`
+    ${index % 2 === 0 ? "even" : "odd"}
+    ${gridData?.includes(data.RwId!) ? "selected-row" : ""}
+  `}
+  onClick={(e) => {
+    // SHIFT + CLICK => multi select
+    if (e.shiftKey) {
+      setSelectedRow(gridUIElementId, data.RwId!);
+      return;
+    }
+
+    // NORMAL CLICK => single select
+    useGridStore.setState((state) => ({
+      selectedRow: {
+        ...state.selectedRow,
+        [gridUIElementId]: [data.RwId!],
+      },
+    }));
+  }}
+>
       {headers?.map((head, index) => (
         <td key={index.toString()}>
           <RenderCell

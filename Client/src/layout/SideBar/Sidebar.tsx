@@ -6,6 +6,7 @@ import { useSidebar } from "./SidebarContext";
 import { useLoaderStore } from "@/store/useLoaderStore";
 import "./sidebar.css";
 import Profiler from "../../assets/images/profile.jpg";
+import { usePageStore } from "@/store/usePageStore";
 
 
 /* ✅ MENU TYPE (local to this file only) */
@@ -335,6 +336,7 @@ const Sidebar: React.FC = () => {
                                         data-bs-toggle={collapsed ? "tooltip" : undefined}
                                         data-bs-placement="right"
                                         title={menu.label}
+                                         onClick={() => {usePageStore.getState().setFormInstanceId( null);    }}
                                     >
                                         <i className={`lfticn ph ${menu.icon}`}></i>
                                         {!collapsed && <span>{menu.label}</span>}
@@ -369,6 +371,7 @@ const Sidebar: React.FC = () => {
                                                         data-bs-toggle={collapsed ? "tooltip" : undefined}
                                                         data-bs-placement="right"
                                                         title={child.label}
+                                                         onClick={() => {usePageStore.getState().setFormInstanceId( null);    }}
                                                     >
                                                         {!collapsed && <span>{child.label}</span>}
                                                     </NavLink>
@@ -385,6 +388,7 @@ const Sidebar: React.FC = () => {
                                                                     data-bs-toggle={collapsed ? "tooltip" : undefined}
                                                                     data-bs-placement="right"
                                                                     title={sub.label}
+                                                                     onClick={() => {usePageStore.getState().setFormInstanceId( null);    }}
                                                                 >
                                                                     {!collapsed && <span>{sub.label}</span>}
                                                                 </NavLink>
@@ -429,7 +433,9 @@ const Sidebar: React.FC = () => {
 
         {/* ✅ ALWAYS RENDER */}
         <div className="ms-2 sidebar-profile-info">
-            {userName && <div className="fw-semibold">{userName}</div>}
+            {userName && <div className="fw-semibold"  title={userName}>
+                {userName}
+            </div>}
 
             <div ref={roleRef} className="role-wrapper">
                 {firstRole && (

@@ -153,7 +153,7 @@ export const getGridInstanceData = async <T>({
       ControlId: controlId,
       PackageProcessMapId: packageProcessMapId,
       ProcessActivityMapId: processActivityMapId,
-      FormInstanceId: formInstanceId,
+      FormInstanceId: formInstanceId || null,
       ViewPort: 4,
       Action: "GridLoad",
       PageDirection: pageDirection,
@@ -165,7 +165,7 @@ export const getGridInstanceData = async <T>({
       "Content-Type": "application/json",
     }
   );
-
+usePageStore.getState().setFormInstanceId((data as any).FormInstanceId || null);
   return data;
 };
 

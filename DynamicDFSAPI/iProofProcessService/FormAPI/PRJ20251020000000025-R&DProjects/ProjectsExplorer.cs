@@ -335,7 +335,7 @@ namespace CPS.Proof.DFSExtension
                     {
                      
                                      fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [7816392B-A9EF-486D-88F9-AC7C972D679B] WHERE InstanceId='{0}' AND
-							ProcessActivityMapId='{1}' AND FormId='{2}') BEGIN INSERT INTO [7816392B-A9EF-486D-88F9-AC7C972D679B](InstanceId,ProcessActivityMapId,MF_V1_SanctionedValue,F_ProjectDetailsId,MF_ActiveCount,MF_ProposalCount,MF_CompletedCount,MF_SanctionedCount,MF_ActiveAmount,MF_ProjectListActiveProjectspr_PageIndex,MF_ProjectListActiveProjectspr_TotalPages,MF_V1_ProjectDetailsID,MF_V1_ProjectTitle,MF_V1_ProjectNo,MF_V1_Department,MF_V1_PI,MF_V1_CoPI,MF_V1_ProjectType,MF_V1_Agency,MF_V1_StartDate,MF_V1_EndDate,MF_V1_Duration,MF_V1_FinancialYear,MF_Option,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_ProjectListActiveProjectspr_GridRows,MF_ProjectListActiveProjectspr_RecordsRange,MF_CompletedAmount,MF_ProposalAmount,MF_SanctionedAmount,RedirectUrl,MF_URL,FormId,MF_ProposalPendingCount,MF_ProposalPendingAmount,MF_ProjectPendingCount,MF_ProjectPendingAmount)
+							 FormId='{2}') BEGIN INSERT INTO [7816392B-A9EF-486D-88F9-AC7C972D679B](InstanceId,ProcessActivityMapId,MF_V1_SanctionedValue,F_ProjectDetailsId,MF_ActiveCount,MF_ProposalCount,MF_CompletedCount,MF_SanctionedCount,MF_ActiveAmount,MF_ProjectListActiveProjectspr_PageIndex,MF_ProjectListActiveProjectspr_TotalPages,MF_V1_ProjectDetailsID,MF_V1_ProjectTitle,MF_V1_ProjectNo,MF_V1_Department,MF_V1_PI,MF_V1_CoPI,MF_V1_ProjectType,MF_V1_Agency,MF_V1_StartDate,MF_V1_EndDate,MF_V1_Duration,MF_V1_FinancialYear,MF_Option,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_ProjectListActiveProjectspr_GridRows,MF_ProjectListActiveProjectspr_RecordsRange,MF_CompletedAmount,MF_ProposalAmount,MF_SanctionedAmount,RedirectUrl,MF_URL,FormId,MF_ProposalPendingCount,MF_ProposalPendingAmount,MF_ProjectPendingCount,MF_ProjectPendingAmount)
 							VALUES( {3}) END ELSE BEGIN UPDATE [7816392B-A9EF-486D-88F9-AC7C972D679B]SET {4}WHERE InstanceId='{0}'END ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,MF_V1_SanctionedValue,F_ProjectDetailsId,MF_ActiveCount,MF_ProposalCount,MF_CompletedCount,MF_SanctionedCount,MF_ActiveAmount,MF_ProjectListActiveProjectspr_PageIndex,MF_ProjectListActiveProjectspr_TotalPages,MF_V1_ProjectDetailsID,MF_V1_ProjectTitle,MF_V1_ProjectNo,MF_V1_Department,MF_V1_PI,MF_V1_CoPI,MF_V1_ProjectType,MF_V1_Agency,MF_V1_StartDate,MF_V1_EndDate,MF_V1_Duration,MF_V1_FinancialYear,MF_Option,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_ProjectListActiveProjectspr_GridRows,MF_ProjectListActiveProjectspr_RecordsRange,MF_CompletedAmount,MF_ProposalAmount,MF_SanctionedAmount,RedirectUrl,MF_URL,FormId,MF_ProposalPendingCount,MF_ProposalPendingAmount,MF_ProjectPendingCount,MF_ProjectPendingAmount";
@@ -390,7 +390,30 @@ namespace CPS.Proof.DFSExtension
 
                                         switch (Convert.ToInt32(childObject["EDT"]))
                                         {
+                                            case 0:
+                                                colValues += (Convert.ToBoolean(childObject["Value"]) ? "1" : "0") + ",";
+												break;
                                             case 8:
+                                             if (childObject["Value"] != null)
+                                                {
+                                                    if (childObject["Value"].ToString() == "")
+                                                    {
+                                                        colValues += "null,";
+                                                        UpdatecolValues += fcol + "=" + "null,";
+                                                    }
+                                                    else
+                                                    {
+                                                        colValues += "'"+childObject["Value"].ToString() + "',";
+                                                        UpdatecolValues += fcol+ "=" + "'" + childObject["Value"].ToString() + "',";
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    colValues += "null,";
+                                                    UpdatecolValues += fcol + "=" + "null,";
+                                                }
+                                                break;
+
                                             case 9:
                                                 colValues += "'" + childObject["Value"].ToString() + "',";
                                                 UpdatecolValues+=fcol+"="+"'" + childObject["Value"].ToString() + "',";
@@ -501,9 +524,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_BDF7896C46764008BC642C45896293B5 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MGG_V1_ProjectDetailsID] VARCHAR(MAX)	, [MGG_V1_ProjectNo] VARCHAR(MAX)	, [MGG_V1_Department] VARCHAR(MAX)	, [MGG_V1_PI] VARCHAR(MAX)	, [MGG_V1_CoPI] VARCHAR(MAX)	, [MGG_V1_ProjectType] VARCHAR(MAX)	, [MGG_V1_Agency] VARCHAR(MAX)	, [MGG_V1_StartDate] VARCHAR(MAX)	, [MGG_V1_EndDate] VARCHAR(MAX)	, [MGG_V1_Duration] VARCHAR(MAX)	, [MGG_V1_FinancialYear] VARCHAR(MAX)	, [MGG_V1_SanctionedValue] VARCHAR(MAX)	, [MGG_V1_Type] VARCHAR(MAX)){0}INSERT INTO [BDF7896C-4676-4008-BC64-2C45896293B5](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_ProjectDetailsID,MGG_V1_ProjectNo,MGG_V1_Department,MGG_V1_PI,MGG_V1_CoPI,MGG_V1_ProjectType,MGG_V1_Agency,MGG_V1_StartDate,MGG_V1_EndDate,MGG_V1_Duration,MGG_V1_FinancialYear,MGG_V1_SanctionedValue,MGG_V1_Type)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MGG_V1_ProjectDetailsID,TDT.MGG_V1_ProjectNo,TDT.MGG_V1_Department,TDT.MGG_V1_PI,TDT.MGG_V1_CoPI,TDT.MGG_V1_ProjectType,TDT.MGG_V1_Agency,TDT.MGG_V1_StartDate,TDT.MGG_V1_EndDate,TDT.MGG_V1_Duration,TDT.MGG_V1_FinancialYear,TDT.MGG_V1_SanctionedValue,TDT.MGG_V1_Type FROM @TBL_BDF7896C46764008BC642C45896293B5 TDT
 							LEFT JOIN [BDF7896C-4676-4008-BC64-2C45896293B5] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MGG_V1_ProjectDetailsID=TDT.MGG_V1_ProjectDetailsID,MGG_V1_ProjectNo=TDT.MGG_V1_ProjectNo,MGG_V1_Department=TDT.MGG_V1_Department,MGG_V1_PI=TDT.MGG_V1_PI,MGG_V1_CoPI=TDT.MGG_V1_CoPI,MGG_V1_ProjectType=TDT.MGG_V1_ProjectType,MGG_V1_Agency=TDT.MGG_V1_Agency,MGG_V1_StartDate=TDT.MGG_V1_StartDate,MGG_V1_EndDate=TDT.MGG_V1_EndDate,MGG_V1_Duration=TDT.MGG_V1_Duration,MGG_V1_FinancialYear=TDT.MGG_V1_FinancialYear,MGG_V1_SanctionedValue=TDT.MGG_V1_SanctionedValue,MGG_V1_Type=TDT.MGG_V1_Type FROM @TBL_BDF7896C46764008BC642C45896293B5 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MGG_V1_ProjectDetailsID=TDT.MGG_V1_ProjectDetailsID,MGG_V1_ProjectNo=TDT.MGG_V1_ProjectNo,MGG_V1_Department=TDT.MGG_V1_Department,MGG_V1_PI=TDT.MGG_V1_PI,MGG_V1_CoPI=TDT.MGG_V1_CoPI,MGG_V1_ProjectType=TDT.MGG_V1_ProjectType,MGG_V1_Agency=TDT.MGG_V1_Agency,MGG_V1_StartDate=TDT.MGG_V1_StartDate,MGG_V1_EndDate=TDT.MGG_V1_EndDate,MGG_V1_Duration=TDT.MGG_V1_Duration,MGG_V1_FinancialYear=TDT.MGG_V1_FinancialYear,MGG_V1_SanctionedValue=TDT.MGG_V1_SanctionedValue,MGG_V1_Type=TDT.MGG_V1_Type FROM @TBL_BDF7896C46764008BC642C45896293B5 TDT
 							JOIN [BDF7896C-4676-4008-BC64-2C45896293B5] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_ProjectDetailsID,MGG_V1_ProjectNo,MGG_V1_Department,MGG_V1_PI,MGG_V1_CoPI,MGG_V1_ProjectType,MGG_V1_Agency,MGG_V1_StartDate,MGG_V1_EndDate,MGG_V1_Duration,MGG_V1_FinancialYear,MGG_V1_SanctionedValue,MGG_V1_Type";
 
@@ -575,6 +598,9 @@ namespace CPS.Proof.DFSExtension
 
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
                                         case 8:
                                         case 9:
                                             colValues +="'"+ gitem["Value"].ToString() + "',";
@@ -660,9 +686,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_BDF7896C46764008BC642C45896293B5 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MGG_V1_ProjectDetailsID] VARCHAR(MAX)	, [MGG_V1_ProjectNo] VARCHAR(MAX)	, [MGG_V1_Department] VARCHAR(MAX)	, [MGG_V1_PI] VARCHAR(MAX)	, [MGG_V1_CoPI] VARCHAR(MAX)	, [MGG_V1_ProjectType] VARCHAR(MAX)	, [MGG_V1_Agency] VARCHAR(MAX)	, [MGG_V1_StartDate] VARCHAR(MAX)	, [MGG_V1_EndDate] VARCHAR(MAX)	, [MGG_V1_Duration] VARCHAR(MAX)	, [MGG_V1_FinancialYear] VARCHAR(MAX)	, [MGG_V1_SanctionedValue] VARCHAR(MAX)	, [MGG_V1_Type] VARCHAR(MAX)){0}INSERT INTO [BDF7896C-4676-4008-BC64-2C45896293B5](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_ProjectDetailsID,MGG_V1_ProjectNo,MGG_V1_Department,MGG_V1_PI,MGG_V1_CoPI,MGG_V1_ProjectType,MGG_V1_Agency,MGG_V1_StartDate,MGG_V1_EndDate,MGG_V1_Duration,MGG_V1_FinancialYear,MGG_V1_SanctionedValue,MGG_V1_Type)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MGG_V1_ProjectDetailsID,TDT.MGG_V1_ProjectNo,TDT.MGG_V1_Department,TDT.MGG_V1_PI,TDT.MGG_V1_CoPI,TDT.MGG_V1_ProjectType,TDT.MGG_V1_Agency,TDT.MGG_V1_StartDate,TDT.MGG_V1_EndDate,TDT.MGG_V1_Duration,TDT.MGG_V1_FinancialYear,TDT.MGG_V1_SanctionedValue,TDT.MGG_V1_Type FROM @TBL_BDF7896C46764008BC642C45896293B5 TDT
 							LEFT JOIN [BDF7896C-4676-4008-BC64-2C45896293B5] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MGG_V1_ProjectDetailsID=TDT.MGG_V1_ProjectDetailsID,MGG_V1_ProjectNo=TDT.MGG_V1_ProjectNo,MGG_V1_Department=TDT.MGG_V1_Department,MGG_V1_PI=TDT.MGG_V1_PI,MGG_V1_CoPI=TDT.MGG_V1_CoPI,MGG_V1_ProjectType=TDT.MGG_V1_ProjectType,MGG_V1_Agency=TDT.MGG_V1_Agency,MGG_V1_StartDate=TDT.MGG_V1_StartDate,MGG_V1_EndDate=TDT.MGG_V1_EndDate,MGG_V1_Duration=TDT.MGG_V1_Duration,MGG_V1_FinancialYear=TDT.MGG_V1_FinancialYear,MGG_V1_SanctionedValue=TDT.MGG_V1_SanctionedValue,MGG_V1_Type=TDT.MGG_V1_Type FROM @TBL_BDF7896C46764008BC642C45896293B5 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MGG_V1_ProjectDetailsID=TDT.MGG_V1_ProjectDetailsID,MGG_V1_ProjectNo=TDT.MGG_V1_ProjectNo,MGG_V1_Department=TDT.MGG_V1_Department,MGG_V1_PI=TDT.MGG_V1_PI,MGG_V1_CoPI=TDT.MGG_V1_CoPI,MGG_V1_ProjectType=TDT.MGG_V1_ProjectType,MGG_V1_Agency=TDT.MGG_V1_Agency,MGG_V1_StartDate=TDT.MGG_V1_StartDate,MGG_V1_EndDate=TDT.MGG_V1_EndDate,MGG_V1_Duration=TDT.MGG_V1_Duration,MGG_V1_FinancialYear=TDT.MGG_V1_FinancialYear,MGG_V1_SanctionedValue=TDT.MGG_V1_SanctionedValue,MGG_V1_Type=TDT.MGG_V1_Type FROM @TBL_BDF7896C46764008BC642C45896293B5 TDT
 							JOIN [BDF7896C-4676-4008-BC64-2C45896293B5] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_ProjectDetailsID,MGG_V1_ProjectNo,MGG_V1_Department,MGG_V1_PI,MGG_V1_CoPI,MGG_V1_ProjectType,MGG_V1_Agency,MGG_V1_StartDate,MGG_V1_EndDate,MGG_V1_Duration,MGG_V1_FinancialYear,MGG_V1_SanctionedValue,MGG_V1_Type";
 

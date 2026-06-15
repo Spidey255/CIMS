@@ -2,8 +2,7 @@
 import { config } from "@/constants/config";
 
 
-const BASE_URL: string = `${config.URL}/iProofServicesHub/iProofServicesHub`;
-// const TOKEN: string | null = getTokenFromQuery();
+const BASE_URL: string = `${config.URL}/Execution/api/RemoteGateway`;
 
 interface FetchOptions extends RequestInit {}
 
@@ -27,7 +26,7 @@ const fetchData = async <T = any>(url: string, options: FetchOptions = {}): Prom
 };
 
 export const fetchModules = async (): Promise<any[]> => {
-    const url = `${BASE_URL}/GetModuleList?token=${sessionStorage.getItem("accessToken")}`;
+    const url = `${BASE_URL}/GetModuleList?slotId=${sessionStorage.getItem("accessToken")}`;
     return await fetchData<any[]>(url, { method: "POST" });
 };
 

@@ -1,5 +1,5 @@
 // Innovace Intech Solution Pvt Ltd
-import "./globalLoader.css";
+import "@/styles/globalLoader.css";
 import { useLoaderStore } from "@/store/useLoaderStore";
 
 const GlobalLoader = () => {

@@ -13,6 +13,7 @@ const DownloadOnly: React.FC<{
   const state = useGeneralStore(
     (store) => store.state[element.ElementName]?.["value"] as string
   );
+   
   const slotId = useUserStore((store) => store.slotId);
   const [base64Data, setBase64Data] = useState<string>();
 
@@ -25,7 +26,7 @@ const DownloadOnly: React.FC<{
   const handleLoadData = useCallback(async () => {
     if (!state || !state?.toString().includes("#")) return;
 
-    try {
+       try {
       const data = await getBase64StringFromUrl(
         slotId || "",
         state.toString().split("#")[0],

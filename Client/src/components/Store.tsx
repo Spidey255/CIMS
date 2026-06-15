@@ -106,7 +106,7 @@ await Promise.all(
       controlId: m.ElementName,
       packageProcessMapId: PackageProcessMapId,
       processActivityMapId: ProcessActivityMapId,
-      formInstanceId: formInstanceId || "",
+      formInstanceId: formInstanceId || null || "",
       pageDirection: 1,
       pageSize: m["RowsPerPage"] || 5,
       currentRowIndex: 0,

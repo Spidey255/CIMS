@@ -102,7 +102,7 @@ export async function resusableOnFileChange(
       console.error("API ERROR:", error.response.data);
     }
 
-    toast.error("File upload failed");
+    toast.error(error?.data[0]?.value || "File upload failed");
   }
 }
 

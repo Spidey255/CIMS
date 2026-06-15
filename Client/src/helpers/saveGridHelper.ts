@@ -51,7 +51,9 @@ export const saveGrid = async ({ elements, formInstanceId }: ISaveGridParams): P
             const elementName = key.split("+")[2];
             return {
               ElementName: elementName,
-              Value: value ?? null,
+              Value:  state[elementName]?.EDT && typeof value === "string"
+        ? value.split("#")[0]
+        : value,
               EDT: state[elementName]?.EDT ?? 9,
             };
           }),
@@ -136,7 +138,9 @@ export const saveForm = async ({
         .filter(([key]) => !key.includes("+"))
         .map(([key, value]: any) => ({
           ElementName: key,
-          Value: value?.value ?? null,
+          Value:  state[key]?.EDT === 1 && typeof value === "string"
+        ? value.split("#")[0]
+        : value,
           EDT:
             state[key]?.EDT ??
             edtMap[key] ??
@@ -226,7 +230,7 @@ export const saveGridRow = async ({
         return {
           ElementName: elementName,
           Value: valueObj?.value ?? null,
-          EDT: state[elementName]?.EDT ??valueObj?.EDT ?? 9,
+          EDT: state[elementName]?.EDT ?? valueObj?.EDT ?? 9,
         };
       }),
     };

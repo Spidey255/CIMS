@@ -588,7 +588,7 @@ namespace CPS.Proof.DFSExtension
                     {
                      
                                      fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [EE0139AD-5EB8-4786-96CB-2C87A8B572D9] WHERE InstanceId='{0}' AND
-							ProcessActivityMapId='{1}' AND FormId='{2}') BEGIN INSERT INTO [EE0139AD-5EB8-4786-96CB-2C87A8B572D9](ProcessActivityMapId,FormId,MF_T1_TravelAdvanceID,M_MoveToValue,FC_SanctionedValue,MF_E1_EmployeeBasicInfoId,FC_Category,SetDestinationTo,UC_PhoneNumber,M_Remarks,MF_T1_BankName,M_ActivityName,C_FC_ProjectName_33,FC_AgencyCode,M_SourceActivityMapId,UC_EmailId,MF_FundDetailsId,ExecutionStatus,C_FC_SanctionNo_33,FC_ProjectName,ExecutionMessage,RedirectUrl,UC_Name,MF_T1_BankBranch,UC_Paylevel,M_DestinationActivityId,UC_EmployeeBaicInfoId,M_BudgetErrMsg,UC_DOB,DisplayContext,UC_DOR,CancelRedirectUrl,MF_T1_BeneficiaryName,MF_TravelStatus,ExecuteCommand,IN_SLA,C_FC_AgencyCode_33,KeyContext,C_FC_Category_33,UC_Designation,AssignToUser,UC_EmployeeId,M_TravelPlace,M_NextStage,MF_TransactionNo,MF_T1_ReferenceNo,MF_T1_Destination,FC_SanctionNo,M_InstanceId,MF_T1_TravellingPerson,FC_ProjectNo,M_PackageProcessMapId,MF_PackageProcessMapId,FC_EndDate,MF_T1_ProjectNo,UC_Grade,C_FC_SanctionedValue_33,growid,UC_DOJ,FC_SanctionedDate,AssignToRole,M_Status,MF_InstanceId,MF_T1_JourneyPurpose,M_InitiatorUserMapId,M_TravelInstanceId,UC_Department,Subject,MF_T1_AccountNo,IN_InstanceName,FC_StartDate,IN_Priority,M_IsFlowReturned,OverAll_Total,T_TravelAdvanceTotal,IN_Status,M_IsTravelRequest,MF_T1_AvailableBudget,SLATime,MF_GrdFundCount,M_SaveDomainData,M_FieldMandatory,M_IsSourceStep,T_ExpenditureTotal,MF_T1_AdvanceAmount,MF_Amount,C_FC_ReceiptAmountinBudgetHead,M_SumOfFund,C_FC_BudgetHeadAmount,T_AdvanceDrawn,M_BudgetErr,MF_CountDoc,M_RemarksMandatory,M_IsCommitment,M_IsCancelReject,IN_Category,M_RequestId,AdvanceAmount,M_MoveTo,Travel_Type,MF_T1_TravelType,MF_FundType,MF_BudgetHead,MF_ProjectNo,A,MF_T1_BudgetHead,C_FC_ProjectNo_33,C_FC_StartDate_33,C_FC_SanctionedDate_33,MF_TransactionDate,C_FC_EndDate_33,Thumbnail,MF_T1_BankDocument,InstanceId,M_IsAdvanceRequired)
+							 FormId='{2}') BEGIN INSERT INTO [EE0139AD-5EB8-4786-96CB-2C87A8B572D9](ProcessActivityMapId,FormId,MF_T1_TravelAdvanceID,M_MoveToValue,FC_SanctionedValue,MF_E1_EmployeeBasicInfoId,FC_Category,SetDestinationTo,UC_PhoneNumber,M_Remarks,MF_T1_BankName,M_ActivityName,C_FC_ProjectName_33,FC_AgencyCode,M_SourceActivityMapId,UC_EmailId,MF_FundDetailsId,ExecutionStatus,C_FC_SanctionNo_33,FC_ProjectName,ExecutionMessage,RedirectUrl,UC_Name,MF_T1_BankBranch,UC_Paylevel,M_DestinationActivityId,UC_EmployeeBaicInfoId,M_BudgetErrMsg,UC_DOB,DisplayContext,UC_DOR,CancelRedirectUrl,MF_T1_BeneficiaryName,MF_TravelStatus,ExecuteCommand,IN_SLA,C_FC_AgencyCode_33,KeyContext,C_FC_Category_33,UC_Designation,AssignToUser,UC_EmployeeId,M_TravelPlace,M_NextStage,MF_TransactionNo,MF_T1_ReferenceNo,MF_T1_Destination,FC_SanctionNo,M_InstanceId,MF_T1_TravellingPerson,FC_ProjectNo,M_PackageProcessMapId,MF_PackageProcessMapId,FC_EndDate,MF_T1_ProjectNo,UC_Grade,C_FC_SanctionedValue_33,growid,UC_DOJ,FC_SanctionedDate,AssignToRole,M_Status,MF_InstanceId,MF_T1_JourneyPurpose,M_InitiatorUserMapId,M_TravelInstanceId,UC_Department,Subject,MF_T1_AccountNo,IN_InstanceName,FC_StartDate,IN_Priority,M_IsFlowReturned,OverAll_Total,T_TravelAdvanceTotal,IN_Status,M_IsTravelRequest,MF_T1_AvailableBudget,SLATime,MF_GrdFundCount,M_SaveDomainData,M_FieldMandatory,M_IsSourceStep,T_ExpenditureTotal,MF_T1_AdvanceAmount,MF_Amount,C_FC_ReceiptAmountinBudgetHead,M_SumOfFund,C_FC_BudgetHeadAmount,T_AdvanceDrawn,M_BudgetErr,MF_CountDoc,M_RemarksMandatory,M_IsCommitment,M_IsCancelReject,IN_Category,M_RequestId,AdvanceAmount,M_MoveTo,Travel_Type,MF_T1_TravelType,MF_FundType,MF_BudgetHead,MF_ProjectNo,A,MF_T1_BudgetHead,C_FC_ProjectNo_33,C_FC_StartDate_33,C_FC_SanctionedDate_33,MF_TransactionDate,C_FC_EndDate_33,Thumbnail,MF_T1_BankDocument,InstanceId,M_IsAdvanceRequired)
 							VALUES( {3}) END ELSE BEGIN UPDATE [EE0139AD-5EB8-4786-96CB-2C87A8B572D9]SET {4}WHERE InstanceId='{0}'END ";
 
                                      colList=@"ProcessActivityMapId,FormId,MF_T1_TravelAdvanceID,M_MoveToValue,FC_SanctionedValue,MF_E1_EmployeeBasicInfoId,FC_Category,SetDestinationTo,UC_PhoneNumber,M_Remarks,MF_T1_BankName,M_ActivityName,C_FC_ProjectName_33,FC_AgencyCode,M_SourceActivityMapId,UC_EmailId,MF_FundDetailsId,ExecutionStatus,C_FC_SanctionNo_33,FC_ProjectName,ExecutionMessage,RedirectUrl,UC_Name,MF_T1_BankBranch,UC_Paylevel,M_DestinationActivityId,UC_EmployeeBaicInfoId,M_BudgetErrMsg,UC_DOB,DisplayContext,UC_DOR,CancelRedirectUrl,MF_T1_BeneficiaryName,MF_TravelStatus,ExecuteCommand,IN_SLA,C_FC_AgencyCode_33,KeyContext,C_FC_Category_33,UC_Designation,AssignToUser,UC_EmployeeId,M_TravelPlace,M_NextStage,MF_TransactionNo,MF_T1_ReferenceNo,MF_T1_Destination,FC_SanctionNo,M_InstanceId,MF_T1_TravellingPerson,FC_ProjectNo,M_PackageProcessMapId,MF_PackageProcessMapId,FC_EndDate,MF_T1_ProjectNo,UC_Grade,C_FC_SanctionedValue_33,growid,UC_DOJ,FC_SanctionedDate,AssignToRole,M_Status,MF_InstanceId,MF_T1_JourneyPurpose,M_InitiatorUserMapId,M_TravelInstanceId,UC_Department,Subject,MF_T1_AccountNo,IN_InstanceName,FC_StartDate,IN_Priority,M_IsFlowReturned,OverAll_Total,T_TravelAdvanceTotal,IN_Status,M_IsTravelRequest,MF_T1_AvailableBudget,SLATime,MF_GrdFundCount,M_SaveDomainData,M_FieldMandatory,M_IsSourceStep,T_ExpenditureTotal,MF_T1_AdvanceAmount,MF_Amount,C_FC_ReceiptAmountinBudgetHead,M_SumOfFund,C_FC_BudgetHeadAmount,T_AdvanceDrawn,M_BudgetErr,MF_CountDoc,M_RemarksMandatory,M_IsCommitment,M_IsCancelReject,IN_Category,M_RequestId,AdvanceAmount,M_MoveTo,Travel_Type,MF_T1_TravelType,MF_FundType,MF_BudgetHead,MF_ProjectNo,A,MF_T1_BudgetHead,C_FC_ProjectNo_33,C_FC_StartDate_33,C_FC_SanctionedDate_33,MF_TransactionDate,C_FC_EndDate_33,Thumbnail,MF_T1_BankDocument,InstanceId,M_IsAdvanceRequired";
@@ -643,7 +643,30 @@ namespace CPS.Proof.DFSExtension
 
                                         switch (Convert.ToInt32(childObject["EDT"]))
                                         {
+                                            case 0:
+                                                colValues += (Convert.ToBoolean(childObject["Value"]) ? "1" : "0") + ",";
+												break;
                                             case 8:
+                                             if (childObject["Value"] != null)
+                                                {
+                                                    if (childObject["Value"].ToString() == "")
+                                                    {
+                                                        colValues += "null,";
+                                                        UpdatecolValues += fcol + "=" + "null,";
+                                                    }
+                                                    else
+                                                    {
+                                                        colValues += "'"+childObject["Value"].ToString() + "',";
+                                                        UpdatecolValues += fcol+ "=" + "'" + childObject["Value"].ToString() + "',";
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    colValues += "null,";
+                                                    UpdatecolValues += fcol + "=" + "null,";
+                                                }
+                                                break;
+
                                             case 9:
                                                 colValues += "'" + childObject["Value"].ToString() + "',";
                                                 UpdatecolValues+=fcol+"="+"'" + childObject["Value"].ToString() + "',";
@@ -754,9 +777,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_AD9C54EC27A04C219923063084E3B588 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_BudgetHead] VARCHAR(MAX)	, [MG_ProjectDesc] VARCHAR(MAX)	, [MG_ProjectDetailsId] VARCHAR(MAX)	, [MG_FundDetailsID] VARCHAR(MAX)	, [MG_FundType] VARCHAR(MAX)	, [MG_FundTypeId] INT	, [MG_Amount] DECIMAL(18,2)){0}INSERT INTO [AD9C54EC-27A0-4C21-9923-063084E3B588](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_BudgetHead,MG_ProjectDesc,MG_ProjectDetailsId,MG_FundDetailsID,MG_FundType,MG_FundTypeId,MG_Amount)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_BudgetHead,TDT.MG_ProjectDesc,TDT.MG_ProjectDetailsId,TDT.MG_FundDetailsID,TDT.MG_FundType,TDT.MG_FundTypeId,TDT.MG_Amount FROM @TBL_AD9C54EC27A04C219923063084E3B588 TDT
 							LEFT JOIN [AD9C54EC-27A0-4C21-9923-063084E3B588] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_BudgetHead=TDT.MG_BudgetHead,MG_ProjectDesc=TDT.MG_ProjectDesc,MG_ProjectDetailsId=TDT.MG_ProjectDetailsId,MG_FundDetailsID=TDT.MG_FundDetailsID,MG_FundType=TDT.MG_FundType,MG_FundTypeId=TDT.MG_FundTypeId,MG_Amount=TDT.MG_Amount FROM @TBL_AD9C54EC27A04C219923063084E3B588 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_BudgetHead=TDT.MG_BudgetHead,MG_ProjectDesc=TDT.MG_ProjectDesc,MG_ProjectDetailsId=TDT.MG_ProjectDetailsId,MG_FundDetailsID=TDT.MG_FundDetailsID,MG_FundType=TDT.MG_FundType,MG_FundTypeId=TDT.MG_FundTypeId,MG_Amount=TDT.MG_Amount FROM @TBL_AD9C54EC27A04C219923063084E3B588 TDT
 							JOIN [AD9C54EC-27A0-4C21-9923-063084E3B588] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_BudgetHead,MG_ProjectDesc,MG_ProjectDetailsId,MG_FundDetailsID,MG_FundType,MG_FundTypeId,MG_Amount";
 
@@ -828,6 +851,9 @@ namespace CPS.Proof.DFSExtension
 
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
                                         case 8:
                                         case 9:
                                             colValues +="'"+ gitem["Value"].ToString() + "',";
@@ -868,9 +894,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_B5EF84C883A94B1C94310489F9EC063B AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [M_DocumentName] VARCHAR(MAX)	, [M_DocumentDetailsId] VARCHAR(MAX)	, [M_UploadDcoument] VARBINARY(MAX)){0}INSERT INTO [B5EF84C8-83A9-4B1C-9431-0489F9EC063B](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,M_DocumentName,M_DocumentDetailsId,M_UploadDcoument)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.M_DocumentName,TDT.M_DocumentDetailsId,TDT.M_UploadDcoument FROM @TBL_B5EF84C883A94B1C94310489F9EC063B TDT
 							LEFT JOIN [B5EF84C8-83A9-4B1C-9431-0489F9EC063B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,M_DocumentName=TDT.M_DocumentName,M_DocumentDetailsId=TDT.M_DocumentDetailsId,M_UploadDcoument=TDT.M_UploadDcoument FROM @TBL_B5EF84C883A94B1C94310489F9EC063B TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,M_DocumentName=TDT.M_DocumentName,M_DocumentDetailsId=TDT.M_DocumentDetailsId,M_UploadDcoument=TDT.M_UploadDcoument FROM @TBL_B5EF84C883A94B1C94310489F9EC063B TDT
 							JOIN [B5EF84C8-83A9-4B1C-9431-0489F9EC063B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,M_DocumentName,M_DocumentDetailsId,M_UploadDcoument";
 
@@ -942,6 +968,9 @@ namespace CPS.Proof.DFSExtension
 
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
                                         case 8:
                                         case 9:
                                             colValues +="'"+ gitem["Value"].ToString() + "',";
@@ -982,9 +1011,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_A694A330AAD54856853CD6AD1573AF0B AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_T2_TravelAdvanceID] VARCHAR(MAX)	, [MG_T2_ExpenditureTypeID] VARCHAR(MAX)	, [MG_T3_Amount] INT	, [Expenditure_Type] VARCHAR(250)	, [MG_T2_ToDate] DATETIME	, [MG_T2_FromDate] DATETIME){0}INSERT INTO [A694A330-AAD5-4856-853C-D6AD1573AF0B](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_T2_TravelAdvanceID,MG_T2_ExpenditureTypeID,MG_T3_Amount,Expenditure_Type,MG_T2_ToDate,MG_T2_FromDate)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_T2_TravelAdvanceID,TDT.MG_T2_ExpenditureTypeID,TDT.MG_T3_Amount,TDT.Expenditure_Type,TDT.MG_T2_ToDate,TDT.MG_T2_FromDate FROM @TBL_A694A330AAD54856853CD6AD1573AF0B TDT
 							LEFT JOIN [A694A330-AAD5-4856-853C-D6AD1573AF0B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_T2_TravelAdvanceID=TDT.MG_T2_TravelAdvanceID,MG_T2_ExpenditureTypeID=TDT.MG_T2_ExpenditureTypeID,MG_T3_Amount=TDT.MG_T3_Amount,Expenditure_Type=TDT.Expenditure_Type,MG_T2_ToDate=TDT.MG_T2_ToDate,MG_T2_FromDate=TDT.MG_T2_FromDate FROM @TBL_A694A330AAD54856853CD6AD1573AF0B TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_T2_TravelAdvanceID=TDT.MG_T2_TravelAdvanceID,MG_T2_ExpenditureTypeID=TDT.MG_T2_ExpenditureTypeID,MG_T3_Amount=TDT.MG_T3_Amount,Expenditure_Type=TDT.Expenditure_Type,MG_T2_ToDate=TDT.MG_T2_ToDate,MG_T2_FromDate=TDT.MG_T2_FromDate FROM @TBL_A694A330AAD54856853CD6AD1573AF0B TDT
 							JOIN [A694A330-AAD5-4856-853C-D6AD1573AF0B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_T2_TravelAdvanceID,MG_T2_ExpenditureTypeID,MG_T3_Amount,Expenditure_Type,MG_T2_ToDate,MG_T2_FromDate";
 
@@ -1056,6 +1085,9 @@ namespace CPS.Proof.DFSExtension
 
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
                                         case 8:
                                         case 9:
                                             colValues +="'"+ gitem["Value"].ToString() + "',";
@@ -1096,9 +1128,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_FA412DDD7AD949AFB8D72B7E1620D8FC AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_T2_TADetailsID] VARCHAR(MAX)	, [MG_T2_DepartureTime] VARCHAR(MAX)	, [MG_T2_PNRNo] VARCHAR(MAX)	, [MG_T2_Arrival] VARCHAR(MAX)	, [MG_T2_ArrivalTime] VARCHAR(MAX)	, [MG_T2_Departure] VARCHAR(MAX)	, [MG_T3_TravelAdvanceID] VARCHAR(MAX)	, [MG_T2_Road] INT	, [MG_T2_Amount] INT	, [MG_T2_ModeofJourney] VARCHAR(250)	, [MG_T2_JourneyClass] VARCHAR(250)	, [MG_T2_DepartureDate] DATETIME	, [MG_T2_ArrivalDate] DATETIME){0}INSERT INTO [FA412DDD-7AD9-49AF-B8D7-2B7E1620D8FC](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_T2_TADetailsID,MG_T2_DepartureTime,MG_T2_PNRNo,MG_T2_Arrival,MG_T2_ArrivalTime,MG_T2_Departure,MG_T3_TravelAdvanceID,MG_T2_Road,MG_T2_Amount,MG_T2_ModeofJourney,MG_T2_JourneyClass,MG_T2_DepartureDate,MG_T2_ArrivalDate)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_T2_TADetailsID,TDT.MG_T2_DepartureTime,TDT.MG_T2_PNRNo,TDT.MG_T2_Arrival,TDT.MG_T2_ArrivalTime,TDT.MG_T2_Departure,TDT.MG_T3_TravelAdvanceID,TDT.MG_T2_Road,TDT.MG_T2_Amount,TDT.MG_T2_ModeofJourney,TDT.MG_T2_JourneyClass,TDT.MG_T2_DepartureDate,TDT.MG_T2_ArrivalDate FROM @TBL_FA412DDD7AD949AFB8D72B7E1620D8FC TDT
 							LEFT JOIN [FA412DDD-7AD9-49AF-B8D7-2B7E1620D8FC] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_T2_TADetailsID=TDT.MG_T2_TADetailsID,MG_T2_DepartureTime=TDT.MG_T2_DepartureTime,MG_T2_PNRNo=TDT.MG_T2_PNRNo,MG_T2_Arrival=TDT.MG_T2_Arrival,MG_T2_ArrivalTime=TDT.MG_T2_ArrivalTime,MG_T2_Departure=TDT.MG_T2_Departure,MG_T3_TravelAdvanceID=TDT.MG_T3_TravelAdvanceID,MG_T2_Road=TDT.MG_T2_Road,MG_T2_Amount=TDT.MG_T2_Amount,MG_T2_ModeofJourney=TDT.MG_T2_ModeofJourney,MG_T2_JourneyClass=TDT.MG_T2_JourneyClass,MG_T2_DepartureDate=TDT.MG_T2_DepartureDate,MG_T2_ArrivalDate=TDT.MG_T2_ArrivalDate FROM @TBL_FA412DDD7AD949AFB8D72B7E1620D8FC TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_T2_TADetailsID=TDT.MG_T2_TADetailsID,MG_T2_DepartureTime=TDT.MG_T2_DepartureTime,MG_T2_PNRNo=TDT.MG_T2_PNRNo,MG_T2_Arrival=TDT.MG_T2_Arrival,MG_T2_ArrivalTime=TDT.MG_T2_ArrivalTime,MG_T2_Departure=TDT.MG_T2_Departure,MG_T3_TravelAdvanceID=TDT.MG_T3_TravelAdvanceID,MG_T2_Road=TDT.MG_T2_Road,MG_T2_Amount=TDT.MG_T2_Amount,MG_T2_ModeofJourney=TDT.MG_T2_ModeofJourney,MG_T2_JourneyClass=TDT.MG_T2_JourneyClass,MG_T2_DepartureDate=TDT.MG_T2_DepartureDate,MG_T2_ArrivalDate=TDT.MG_T2_ArrivalDate FROM @TBL_FA412DDD7AD949AFB8D72B7E1620D8FC TDT
 							JOIN [FA412DDD-7AD9-49AF-B8D7-2B7E1620D8FC] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_T2_TADetailsID,MG_T2_DepartureTime,MG_T2_PNRNo,MG_T2_Arrival,MG_T2_ArrivalTime,MG_T2_Departure,MG_T3_TravelAdvanceID,MG_T2_Road,MG_T2_Amount,MG_T2_ModeofJourney,MG_T2_JourneyClass,MG_T2_DepartureDate,MG_T2_ArrivalDate";
 
@@ -1170,6 +1202,9 @@ namespace CPS.Proof.DFSExtension
 
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
                                         case 8:
                                         case 9:
                                             colValues +="'"+ gitem["Value"].ToString() + "',";
@@ -1210,9 +1245,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_8259E1B02F904FE98BE4875AEB9D5F40 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_BudgetName] VARCHAR(MAX)	, [MG_ReceivedAmount] DECIMAL(18,2)	, [MG_Balance] DECIMAL(18,2)	, [MG_Spent] DECIMAL(18,2)	, [MG_YetToReceive] DECIMAL(18,2)	, [MG_Commitment] DECIMAL(18,2)	, [MG_SanctionedAmount] DECIMAL(18,2)){0}INSERT INTO [8259E1B0-2F90-4FE9-8BE4-875AEB9D5F40](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_BudgetName,MG_ReceivedAmount,MG_Balance,MG_Spent,MG_YetToReceive,MG_Commitment,MG_SanctionedAmount)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_BudgetName,TDT.MG_ReceivedAmount,TDT.MG_Balance,TDT.MG_Spent,TDT.MG_YetToReceive,TDT.MG_Commitment,TDT.MG_SanctionedAmount FROM @TBL_8259E1B02F904FE98BE4875AEB9D5F40 TDT
 							LEFT JOIN [8259E1B0-2F90-4FE9-8BE4-875AEB9D5F40] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_BudgetName=TDT.MG_BudgetName,MG_ReceivedAmount=TDT.MG_ReceivedAmount,MG_Balance=TDT.MG_Balance,MG_Spent=TDT.MG_Spent,MG_YetToReceive=TDT.MG_YetToReceive,MG_Commitment=TDT.MG_Commitment,MG_SanctionedAmount=TDT.MG_SanctionedAmount FROM @TBL_8259E1B02F904FE98BE4875AEB9D5F40 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_BudgetName=TDT.MG_BudgetName,MG_ReceivedAmount=TDT.MG_ReceivedAmount,MG_Balance=TDT.MG_Balance,MG_Spent=TDT.MG_Spent,MG_YetToReceive=TDT.MG_YetToReceive,MG_Commitment=TDT.MG_Commitment,MG_SanctionedAmount=TDT.MG_SanctionedAmount FROM @TBL_8259E1B02F904FE98BE4875AEB9D5F40 TDT
 							JOIN [8259E1B0-2F90-4FE9-8BE4-875AEB9D5F40] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_BudgetName,MG_ReceivedAmount,MG_Balance,MG_Spent,MG_YetToReceive,MG_Commitment,MG_SanctionedAmount";
 
@@ -1284,6 +1319,9 @@ namespace CPS.Proof.DFSExtension
 
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
                                         case 8:
                                         case 9:
                                             colValues +="'"+ gitem["Value"].ToString() + "',";
@@ -1324,9 +1362,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_C9F458E5830A413EBD1F94F72A4AFB50 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [ActivityName] VARCHAR(MAX)	, [UserName] VARCHAR(MAX)	, [Remarks] VARCHAR(MAX)	, [RemarksId] VARCHAR(MAX)	, [DateOfRemarks] DATETIME){0}INSERT INTO [C9F458E5-830A-413E-BD1F-94F72A4AFB50](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,ActivityName,UserName,Remarks,RemarksId,DateOfRemarks)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.ActivityName,TDT.UserName,TDT.Remarks,TDT.RemarksId,TDT.DateOfRemarks FROM @TBL_C9F458E5830A413EBD1F94F72A4AFB50 TDT
 							LEFT JOIN [C9F458E5-830A-413E-BD1F-94F72A4AFB50] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,ActivityName=TDT.ActivityName,UserName=TDT.UserName,Remarks=TDT.Remarks,RemarksId=TDT.RemarksId,DateOfRemarks=TDT.DateOfRemarks FROM @TBL_C9F458E5830A413EBD1F94F72A4AFB50 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,ActivityName=TDT.ActivityName,UserName=TDT.UserName,Remarks=TDT.Remarks,RemarksId=TDT.RemarksId,DateOfRemarks=TDT.DateOfRemarks FROM @TBL_C9F458E5830A413EBD1F94F72A4AFB50 TDT
 							JOIN [C9F458E5-830A-413E-BD1F-94F72A4AFB50] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,ActivityName,UserName,Remarks,RemarksId,DateOfRemarks";
 
@@ -1398,6 +1436,9 @@ namespace CPS.Proof.DFSExtension
 
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
                                         case 8:
                                         case 9:
                                             colValues +="'"+ gitem["Value"].ToString() + "',";
@@ -1483,9 +1524,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_AD9C54EC27A04C219923063084E3B588 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_BudgetHead] VARCHAR(MAX)	, [MG_ProjectDesc] VARCHAR(MAX)	, [MG_ProjectDetailsId] VARCHAR(MAX)	, [MG_FundDetailsID] VARCHAR(MAX)	, [MG_FundType] VARCHAR(MAX)	, [MG_FundTypeId] INT	, [MG_Amount] DECIMAL(18,2)){0}INSERT INTO [AD9C54EC-27A0-4C21-9923-063084E3B588](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_BudgetHead,MG_ProjectDesc,MG_ProjectDetailsId,MG_FundDetailsID,MG_FundType,MG_FundTypeId,MG_Amount)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_BudgetHead,TDT.MG_ProjectDesc,TDT.MG_ProjectDetailsId,TDT.MG_FundDetailsID,TDT.MG_FundType,TDT.MG_FundTypeId,TDT.MG_Amount FROM @TBL_AD9C54EC27A04C219923063084E3B588 TDT
 							LEFT JOIN [AD9C54EC-27A0-4C21-9923-063084E3B588] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_BudgetHead=TDT.MG_BudgetHead,MG_ProjectDesc=TDT.MG_ProjectDesc,MG_ProjectDetailsId=TDT.MG_ProjectDetailsId,MG_FundDetailsID=TDT.MG_FundDetailsID,MG_FundType=TDT.MG_FundType,MG_FundTypeId=TDT.MG_FundTypeId,MG_Amount=TDT.MG_Amount FROM @TBL_AD9C54EC27A04C219923063084E3B588 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_BudgetHead=TDT.MG_BudgetHead,MG_ProjectDesc=TDT.MG_ProjectDesc,MG_ProjectDetailsId=TDT.MG_ProjectDetailsId,MG_FundDetailsID=TDT.MG_FundDetailsID,MG_FundType=TDT.MG_FundType,MG_FundTypeId=TDT.MG_FundTypeId,MG_Amount=TDT.MG_Amount FROM @TBL_AD9C54EC27A04C219923063084E3B588 TDT
 							JOIN [AD9C54EC-27A0-4C21-9923-063084E3B588] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_BudgetHead,MG_ProjectDesc,MG_ProjectDetailsId,MG_FundDetailsID,MG_FundType,MG_FundTypeId,MG_Amount";
 
@@ -1584,9 +1625,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_B5EF84C883A94B1C94310489F9EC063B AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [M_DocumentName] VARCHAR(MAX)	, [M_DocumentDetailsId] VARCHAR(MAX)	, [M_UploadDcoument] VARBINARY(MAX)){0}INSERT INTO [B5EF84C8-83A9-4B1C-9431-0489F9EC063B](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,M_DocumentName,M_DocumentDetailsId,M_UploadDcoument)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.M_DocumentName,TDT.M_DocumentDetailsId,TDT.M_UploadDcoument FROM @TBL_B5EF84C883A94B1C94310489F9EC063B TDT
 							LEFT JOIN [B5EF84C8-83A9-4B1C-9431-0489F9EC063B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,M_DocumentName=TDT.M_DocumentName,M_DocumentDetailsId=TDT.M_DocumentDetailsId,M_UploadDcoument=TDT.M_UploadDcoument FROM @TBL_B5EF84C883A94B1C94310489F9EC063B TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,M_DocumentName=TDT.M_DocumentName,M_DocumentDetailsId=TDT.M_DocumentDetailsId,M_UploadDcoument=TDT.M_UploadDcoument FROM @TBL_B5EF84C883A94B1C94310489F9EC063B TDT
 							JOIN [B5EF84C8-83A9-4B1C-9431-0489F9EC063B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,M_DocumentName,M_DocumentDetailsId,M_UploadDcoument";
 
@@ -1685,9 +1726,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_FA412DDD7AD949AFB8D72B7E1620D8FC AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_T2_TADetailsID] VARCHAR(MAX)	, [MG_T2_DepartureTime] VARCHAR(MAX)	, [MG_T2_PNRNo] VARCHAR(MAX)	, [MG_T2_Arrival] VARCHAR(MAX)	, [MG_T2_ArrivalTime] VARCHAR(MAX)	, [MG_T2_Departure] VARCHAR(MAX)	, [MG_T3_TravelAdvanceID] VARCHAR(MAX)	, [MG_T2_Road] INT	, [MG_T2_Amount] INT	, [MG_T2_ModeofJourney] VARCHAR(250)	, [MG_T2_JourneyClass] VARCHAR(250)	, [MG_T2_DepartureDate] DATETIME	, [MG_T2_ArrivalDate] DATETIME){0}INSERT INTO [FA412DDD-7AD9-49AF-B8D7-2B7E1620D8FC](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_T2_TADetailsID,MG_T2_DepartureTime,MG_T2_PNRNo,MG_T2_Arrival,MG_T2_ArrivalTime,MG_T2_Departure,MG_T3_TravelAdvanceID,MG_T2_Road,MG_T2_Amount,MG_T2_ModeofJourney,MG_T2_JourneyClass,MG_T2_DepartureDate,MG_T2_ArrivalDate)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_T2_TADetailsID,TDT.MG_T2_DepartureTime,TDT.MG_T2_PNRNo,TDT.MG_T2_Arrival,TDT.MG_T2_ArrivalTime,TDT.MG_T2_Departure,TDT.MG_T3_TravelAdvanceID,TDT.MG_T2_Road,TDT.MG_T2_Amount,TDT.MG_T2_ModeofJourney,TDT.MG_T2_JourneyClass,TDT.MG_T2_DepartureDate,TDT.MG_T2_ArrivalDate FROM @TBL_FA412DDD7AD949AFB8D72B7E1620D8FC TDT
 							LEFT JOIN [FA412DDD-7AD9-49AF-B8D7-2B7E1620D8FC] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_T2_TADetailsID=TDT.MG_T2_TADetailsID,MG_T2_DepartureTime=TDT.MG_T2_DepartureTime,MG_T2_PNRNo=TDT.MG_T2_PNRNo,MG_T2_Arrival=TDT.MG_T2_Arrival,MG_T2_ArrivalTime=TDT.MG_T2_ArrivalTime,MG_T2_Departure=TDT.MG_T2_Departure,MG_T3_TravelAdvanceID=TDT.MG_T3_TravelAdvanceID,MG_T2_Road=TDT.MG_T2_Road,MG_T2_Amount=TDT.MG_T2_Amount,MG_T2_ModeofJourney=TDT.MG_T2_ModeofJourney,MG_T2_JourneyClass=TDT.MG_T2_JourneyClass,MG_T2_DepartureDate=TDT.MG_T2_DepartureDate,MG_T2_ArrivalDate=TDT.MG_T2_ArrivalDate FROM @TBL_FA412DDD7AD949AFB8D72B7E1620D8FC TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_T2_TADetailsID=TDT.MG_T2_TADetailsID,MG_T2_DepartureTime=TDT.MG_T2_DepartureTime,MG_T2_PNRNo=TDT.MG_T2_PNRNo,MG_T2_Arrival=TDT.MG_T2_Arrival,MG_T2_ArrivalTime=TDT.MG_T2_ArrivalTime,MG_T2_Departure=TDT.MG_T2_Departure,MG_T3_TravelAdvanceID=TDT.MG_T3_TravelAdvanceID,MG_T2_Road=TDT.MG_T2_Road,MG_T2_Amount=TDT.MG_T2_Amount,MG_T2_ModeofJourney=TDT.MG_T2_ModeofJourney,MG_T2_JourneyClass=TDT.MG_T2_JourneyClass,MG_T2_DepartureDate=TDT.MG_T2_DepartureDate,MG_T2_ArrivalDate=TDT.MG_T2_ArrivalDate FROM @TBL_FA412DDD7AD949AFB8D72B7E1620D8FC TDT
 							JOIN [FA412DDD-7AD9-49AF-B8D7-2B7E1620D8FC] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_T2_TADetailsID,MG_T2_DepartureTime,MG_T2_PNRNo,MG_T2_Arrival,MG_T2_ArrivalTime,MG_T2_Departure,MG_T3_TravelAdvanceID,MG_T2_Road,MG_T2_Amount,MG_T2_ModeofJourney,MG_T2_JourneyClass,MG_T2_DepartureDate,MG_T2_ArrivalDate";
 
@@ -1786,9 +1827,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_A694A330AAD54856853CD6AD1573AF0B AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_T2_TravelAdvanceID] VARCHAR(MAX)	, [MG_T2_ExpenditureTypeID] VARCHAR(MAX)	, [MG_T3_Amount] INT	, [Expenditure_Type] VARCHAR(250)	, [MG_T2_ToDate] DATETIME	, [MG_T2_FromDate] DATETIME){0}INSERT INTO [A694A330-AAD5-4856-853C-D6AD1573AF0B](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_T2_TravelAdvanceID,MG_T2_ExpenditureTypeID,MG_T3_Amount,Expenditure_Type,MG_T2_ToDate,MG_T2_FromDate)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_T2_TravelAdvanceID,TDT.MG_T2_ExpenditureTypeID,TDT.MG_T3_Amount,TDT.Expenditure_Type,TDT.MG_T2_ToDate,TDT.MG_T2_FromDate FROM @TBL_A694A330AAD54856853CD6AD1573AF0B TDT
 							LEFT JOIN [A694A330-AAD5-4856-853C-D6AD1573AF0B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_T2_TravelAdvanceID=TDT.MG_T2_TravelAdvanceID,MG_T2_ExpenditureTypeID=TDT.MG_T2_ExpenditureTypeID,MG_T3_Amount=TDT.MG_T3_Amount,Expenditure_Type=TDT.Expenditure_Type,MG_T2_ToDate=TDT.MG_T2_ToDate,MG_T2_FromDate=TDT.MG_T2_FromDate FROM @TBL_A694A330AAD54856853CD6AD1573AF0B TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_T2_TravelAdvanceID=TDT.MG_T2_TravelAdvanceID,MG_T2_ExpenditureTypeID=TDT.MG_T2_ExpenditureTypeID,MG_T3_Amount=TDT.MG_T3_Amount,Expenditure_Type=TDT.Expenditure_Type,MG_T2_ToDate=TDT.MG_T2_ToDate,MG_T2_FromDate=TDT.MG_T2_FromDate FROM @TBL_A694A330AAD54856853CD6AD1573AF0B TDT
 							JOIN [A694A330-AAD5-4856-853C-D6AD1573AF0B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_T2_TravelAdvanceID,MG_T2_ExpenditureTypeID,MG_T3_Amount,Expenditure_Type,MG_T2_ToDate,MG_T2_FromDate";
 
@@ -1887,9 +1928,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_8259E1B02F904FE98BE4875AEB9D5F40 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_BudgetName] VARCHAR(MAX)	, [MG_ReceivedAmount] DECIMAL(18,2)	, [MG_Balance] DECIMAL(18,2)	, [MG_Spent] DECIMAL(18,2)	, [MG_YetToReceive] DECIMAL(18,2)	, [MG_Commitment] DECIMAL(18,2)	, [MG_SanctionedAmount] DECIMAL(18,2)){0}INSERT INTO [8259E1B0-2F90-4FE9-8BE4-875AEB9D5F40](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_BudgetName,MG_ReceivedAmount,MG_Balance,MG_Spent,MG_YetToReceive,MG_Commitment,MG_SanctionedAmount)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_BudgetName,TDT.MG_ReceivedAmount,TDT.MG_Balance,TDT.MG_Spent,TDT.MG_YetToReceive,TDT.MG_Commitment,TDT.MG_SanctionedAmount FROM @TBL_8259E1B02F904FE98BE4875AEB9D5F40 TDT
 							LEFT JOIN [8259E1B0-2F90-4FE9-8BE4-875AEB9D5F40] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_BudgetName=TDT.MG_BudgetName,MG_ReceivedAmount=TDT.MG_ReceivedAmount,MG_Balance=TDT.MG_Balance,MG_Spent=TDT.MG_Spent,MG_YetToReceive=TDT.MG_YetToReceive,MG_Commitment=TDT.MG_Commitment,MG_SanctionedAmount=TDT.MG_SanctionedAmount FROM @TBL_8259E1B02F904FE98BE4875AEB9D5F40 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_BudgetName=TDT.MG_BudgetName,MG_ReceivedAmount=TDT.MG_ReceivedAmount,MG_Balance=TDT.MG_Balance,MG_Spent=TDT.MG_Spent,MG_YetToReceive=TDT.MG_YetToReceive,MG_Commitment=TDT.MG_Commitment,MG_SanctionedAmount=TDT.MG_SanctionedAmount FROM @TBL_8259E1B02F904FE98BE4875AEB9D5F40 TDT
 							JOIN [8259E1B0-2F90-4FE9-8BE4-875AEB9D5F40] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_BudgetName,MG_ReceivedAmount,MG_Balance,MG_Spent,MG_YetToReceive,MG_Commitment,MG_SanctionedAmount";
 
@@ -1988,9 +2029,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_C9F458E5830A413EBD1F94F72A4AFB50 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [ActivityName] VARCHAR(MAX)	, [UserName] VARCHAR(MAX)	, [Remarks] VARCHAR(MAX)	, [RemarksId] VARCHAR(MAX)	, [DateOfRemarks] DATETIME){0}INSERT INTO [C9F458E5-830A-413E-BD1F-94F72A4AFB50](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,ActivityName,UserName,Remarks,RemarksId,DateOfRemarks)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.ActivityName,TDT.UserName,TDT.Remarks,TDT.RemarksId,TDT.DateOfRemarks FROM @TBL_C9F458E5830A413EBD1F94F72A4AFB50 TDT
 							LEFT JOIN [C9F458E5-830A-413E-BD1F-94F72A4AFB50] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,ActivityName=TDT.ActivityName,UserName=TDT.UserName,Remarks=TDT.Remarks,RemarksId=TDT.RemarksId,DateOfRemarks=TDT.DateOfRemarks FROM @TBL_C9F458E5830A413EBD1F94F72A4AFB50 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,ActivityName=TDT.ActivityName,UserName=TDT.UserName,Remarks=TDT.Remarks,RemarksId=TDT.RemarksId,DateOfRemarks=TDT.DateOfRemarks FROM @TBL_C9F458E5830A413EBD1F94F72A4AFB50 TDT
 							JOIN [C9F458E5-830A-413E-BD1F-94F72A4AFB50] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,ActivityName,UserName,Remarks,RemarksId,DateOfRemarks";
 
@@ -2501,8 +2542,12 @@ ISpace["Message"].Value=@"Arrival Station and Departure Station can""t be same."
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Arrival Station and Departure Station can""""t be same."";");
 ISpace["MFG_T2_Arrival"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_Arrival""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -2561,72 +2606,108 @@ if(ISpace["Travel_Type"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""Travel_Type""].Value=="""")");
 ISpace["Message"].Value=@"Please enter the Travel Type";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Travel Type"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["M_TravelPlace"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""M_TravelPlace""].Value=="""")");
 ISpace["Message"].Value=@"Please enter the Place of Travel";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Place of Travel"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(Trim(ISpace["MF_T1_JourneyPurpose"].Value)=="")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MF_T1_JourneyPurpose""].Value)=="""")");
 ISpace["Message"].Value=@"Please enter the Purpose of Travel";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Purpose of Travel"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["M_IsAdvanceRequired"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""M_IsAdvanceRequired""].Value=="""")");
 ISpace["Message"].Value=@"Please select Is Advance Required";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please select Is Advance Required"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(Trim(ISpace["MF_T1_BankBranch"].Value)==""&&ISpace["Travel_Type"].Value=="3")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MF_T1_BankBranch""].Value)==""""&&ISpace[""Travel_Type""].Value==""3"")");
 ISpace["Message"].Value=@"Please enter the Bank Branch";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Bank Branch"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(Trim(ISpace["MF_T1_BeneficiaryName"].Value)==""&&ISpace["Travel_Type"].Value=="3")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MF_T1_BeneficiaryName""].Value)==""""&&ISpace[""Travel_Type""].Value==""3"")");
 ISpace["Message"].Value=@"Please enter the Beneficiary Name";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Beneficiary Name"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(Trim(ISpace["MF_T1_AccountNo"].Value)==""&&ISpace["Travel_Type"].Value=="3")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MF_T1_AccountNo""].Value)==""""&&ISpace[""Travel_Type""].Value==""3"")");
 ISpace["Message"].Value=@"Please enter the Account No";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Account No"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(Trim(ISpace["MF_T1_BankName"].Value)==""&&ISpace["Travel_Type"].Value=="3")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MF_T1_BankName""].Value)==""""&&ISpace[""Travel_Type""].Value==""3"")");
 ISpace["Message"].Value=@"Please enter the Bank Name";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Bank Name"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if((ISpace["MF_T1_BankDocument"].Value == null)&&ISpace["Travel_Type"].Value=="3")
 {
 base.WriteDebugInfo(@"if((ISpace[""MF_T1_BankDocument""].Value == null)&&ISpace[""Travel_Type""].Value==""3"")");
 ISpace["Message"].Value=@"Please enter the Bank Document";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Bank Document"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["M_IsAdvanceRequired"].Value=="Yes")
 {
@@ -2636,16 +2717,24 @@ if(ISpace["MF_T1_AdvanceAmount"].Value==0)
 base.WriteDebugInfo(@"if(ISpace[""MF_T1_AdvanceAmount""].Value==0)");
 ISpace["Message"].Value=@"Please enter the Advance Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Advance Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["T_AdvanceDrawn"].Value<ISpace["MF_T1_AdvanceAmount"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""T_AdvanceDrawn""].Value<ISpace[""MF_T1_AdvanceAmount""].Value)");
 ISpace["Message"].Value=@"Eligible Advance and Advance Amount should be Equal or lesser than";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Eligible Advance and Advance Amount should be Equal or lesser than"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["M_IsAdvanceRequired"].Value=="Yes")
@@ -2656,8 +2745,12 @@ if(ISpace["M_SumOfFund"].Value!=ISpace["MF_T1_AdvanceAmount"].Value)
 base.WriteDebugInfo(@"if(ISpace[""M_SumOfFund""].Value!=ISpace[""MF_T1_AdvanceAmount""].Value)");
 ISpace["Message"].Value=@"Please add Source Fund Amount equal to Advance Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please add Source Fund Amount equal to Advance Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["MF_CountDoc"].Value>0)
@@ -2679,8 +2772,12 @@ if(
 ISpace[""M_DocumentName""].Value=="""")");
 ISpace["Message"].Value=@"Please Enter Document Name";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter Document Name"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 
 if(
@@ -2691,8 +2788,12 @@ if(
 IsNullOrEmpty(ISpace[""M_UploadDcoument""].Value))");
 ISpace["Message"].Value=@"Please Upload Document";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Upload Document"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_DcoumentDetails","B5EF84C8-83A9-4B1C-9431-0489F9EC063B",_objectFactory.GetGridRPP("MG_DcoumentDetails"),_elementBase.GetGridLoopQuery("B5EF84C8-83A9-4B1C-9431-0489F9EC063B","MG_DcoumentDetails",ISpace), ref ISpace);
@@ -2975,8 +3076,12 @@ ISpace["Message"].Value=@"Arrival Date should be greater than Departure Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Arrival Date should be greater than Departure Date"";");
 ISpace["MFG_T2_ArrivalDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ArrivalDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -3017,8 +3122,12 @@ ISpace["Message"].Value=@"Arrival Date should be greater than Departure Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Arrival Date should be greater than Departure Date"";");
 ISpace["MFG_T2_ArrivalDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ArrivalDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -3165,8 +3274,12 @@ ISpace["Message"].Value=@"To Date should be greater than From Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""To Date should be greater than From Date"";");
 ISpace["MFG_T2_ToDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ToDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -3191,8 +3304,12 @@ ISpace["Message"].Value=@"To Date should be greater than From Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""To Date should be greater than From Date"";");
 ISpace["MFG_T2_ToDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ToDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -3215,40 +3332,60 @@ if(ISpace["MFG_T2_ModeofJourney"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""MFG_T2_ModeofJourney""].Value=="""")");
 ISpace["Message"].Value=@"Please Enter the Mode of Journey";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Mode of Journey"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(Trim(ISpace["MFG_T2_Departure"].Value)=="")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MFG_T2_Departure""].Value)=="""")");
 ISpace["Message"].Value=@"Please Enter the Departure";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Departure"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if((ISpace["MFG_T2_DepartureDate"].Value == null))
 {
 base.WriteDebugInfo(@"if((ISpace[""MFG_T2_DepartureDate""].Value == null))");
 ISpace["Message"].Value=@"Please Enter the Departure Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Departure Date"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(Trim(ISpace["MFG_T2_Arrival"].Value)=="")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MFG_T2_Arrival""].Value)=="""")");
 ISpace["Message"].Value=@"Please Enter the Arrival";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Arrival"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if((ISpace["MFG_T2_ArrivalDate"].Value == null))
 {
 base.WriteDebugInfo(@"if((ISpace[""MFG_T2_ArrivalDate""].Value == null))");
 ISpace["Message"].Value=@"Please Enter the Arrival Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Arrival Date"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MFG_T2_ArrivalDate"].Value<ISpace["MFG_T2_DepartureDate"].Value)
 {
@@ -3257,16 +3394,24 @@ ISpace["Message"].Value=@"Arrival Date should be greater than Departure Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Arrival Date should be greater than Departure Date"";");
 ISpace["MFG_T2_ArrivalDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ArrivalDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MFG_T2_Amount"].Value==0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_T2_Amount""].Value==0)");
 ISpace["Message"].Value=@"Please Enter the Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["growid"].Value=="")
@@ -3389,8 +3534,12 @@ if(ISpace["MF_FundType"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""MF_FundType""].Value=="""")");
 ISpace["Message"].Value=@"Please enter Fund Type";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter Fund Type"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MF_FundType"].Value=="1")
 {
@@ -3400,24 +3549,36 @@ if(ISpace["MF_ProjectNo"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""MF_ProjectNo""].Value=="""")");
 ISpace["Message"].Value=@"Please enter Project No";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter Project No"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MF_BudgetHead"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_BudgetHead""].Value=="""")");
 ISpace["Message"].Value=@"Please enter Budget Head";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter Budget Head"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MF_Amount"].Value==0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_Amount""].Value==0)");
 ISpace["Message"].Value=@"Please enter Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 else
@@ -3428,8 +3589,12 @@ if(ISpace["MF_Amount"].Value==0)
 base.WriteDebugInfo(@"if(ISpace[""MF_Amount""].Value==0)");
 ISpace["Message"].Value=@"Please enter Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["MF_FundType"].Value=="1")
@@ -3458,8 +3623,12 @@ if(ISpace["M_BudgetErr"].Value==0)
 base.WriteDebugInfo(@"if(ISpace[""M_BudgetErr""].Value==0)");
 ISpace["Message"].Value=String.Format(@"{0}",ISpace["M_BudgetErrMsg"].Value);
 base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""M_BudgetErrMsg""].Value);");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["MF_FundDetailsId"].Value=="")
@@ -3646,24 +3815,36 @@ if(ISpace["MFG_T2_ExpenditureTypeID"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""MFG_T2_ExpenditureTypeID""].Value=="""")");
 ISpace["Message"].Value=@"Please enter Expenditure type";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter Expenditure type"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if((ISpace["MFG_T2_FromDate"].Value == null))
 {
 base.WriteDebugInfo(@"if((ISpace[""MFG_T2_FromDate""].Value == null))");
 ISpace["Message"].Value=@"Please Enter the From Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the From Date"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if((ISpace["MFG_T2_ToDate"].Value == null))
 {
 base.WriteDebugInfo(@"if((ISpace[""MFG_T2_ToDate""].Value == null))");
 ISpace["Message"].Value=@"Please Enter the To Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the To Date"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MFG_T2_ToDate"].Value< ISpace["MFG_T2_FromDate"].Value)
 {
@@ -3672,16 +3853,24 @@ ISpace["Message"].Value=@"To Date should be greater than From Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""To Date should be greater than From Date"";");
 ISpace["MFG_T2_ToDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ToDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MFG_T3_Amount"].Value==0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_T3_Amount""].Value==0)");
 ISpace["Message"].Value=@"Please Enter the Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["growid"].Value=="")
@@ -3786,8 +3975,12 @@ ISpace["Message"].Value=@"To Date should be greater than From Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""To Date should be greater than From Date"";");
 ISpace["MFG_T2_ToDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ToDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -3828,8 +4021,12 @@ ISpace["Message"].Value=@"Advance amount should be less than the 90% of Total Am
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Advance amount should be less than the 90% of Total Amount"";");
 ISpace["AdvanceAmount"].Value=null;
 base.WriteDebugInfo(@"ISpace[""AdvanceAmount""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -3932,8 +4129,12 @@ ISpace["Message"].Value=@"To Date should be greater than From Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""To Date should be greater than From Date"";");
 ISpace["MFG_T2_ToDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ToDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -4248,8 +4449,12 @@ ISpace["Message"].Value=@"Arrival Station and Departure Station can""t be same."
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Arrival Station and Departure Station can""""t be same."";");
 ISpace["MFG_T2_Arrival"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_Arrival""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -4563,8 +4768,12 @@ if(ISpace["M_MoveTo"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
 ISpace["Message"].Value=@"Move To should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Move To should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 ISpace["MF_TravelStatus"].Value="A";
 base.WriteDebugInfo(@"ISpace[""MF_TravelStatus""].Value=""A"";");
@@ -5142,8 +5351,12 @@ if(ISpace["M_MoveTo"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
 ISpace["Message"].Value=@"Move To should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Move To should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 ISpace["MF_TravelStatus"].Value="A";
 base.WriteDebugInfo(@"ISpace[""MF_TravelStatus""].Value=""A"";");
@@ -5705,8 +5918,12 @@ if(ISpace["M_MoveTo"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
 ISpace["Message"].Value=@"Move To should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Move To should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 ISpace["MF_TravelStatus"].Value="A";
 base.WriteDebugInfo(@"ISpace[""MF_TravelStatus""].Value=""A"";");
@@ -6127,16 +6344,24 @@ if(ISpace["MF_TransactionNo"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""MF_TransactionNo""].Value=="""")");
 ISpace["Message"].Value=@"Please Enter Transaction No";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter Transaction No"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if((ISpace["MF_TransactionDate"].Value == null))
 {
 base.WriteDebugInfo(@"if((ISpace[""MF_TransactionDate""].Value == null))");
 ISpace["Message"].Value=@"Please enter Transaction Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter Transaction Date"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["M_MoveTo"].Value=="")
@@ -6144,8 +6369,12 @@ if(ISpace["M_MoveTo"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
 ISpace["Message"].Value=@"Move To should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Move To should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 ISpace["MF_TravelStatus"].Value="A";
 base.WriteDebugInfo(@"ISpace[""MF_TravelStatus""].Value=""A"";");
@@ -6768,8 +6997,12 @@ ISpace["Message"].Value=@"Arrival Station and Departure Station can""t be same."
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Arrival Station and Departure Station can""""t be same."";");
 ISpace["MFG_T2_Arrival"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_Arrival""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -6828,72 +7061,108 @@ if(ISpace["Travel_Type"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""Travel_Type""].Value=="""")");
 ISpace["Message"].Value=@"Please enter the Travel Type";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Travel Type"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["M_TravelPlace"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""M_TravelPlace""].Value=="""")");
 ISpace["Message"].Value=@"Please enter the Place of Travel";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Place of Travel"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(Trim(ISpace["MF_T1_JourneyPurpose"].Value)=="")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MF_T1_JourneyPurpose""].Value)=="""")");
 ISpace["Message"].Value=@"Please enter the Purpose of Travel";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Purpose of Travel"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["M_IsAdvanceRequired"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""M_IsAdvanceRequired""].Value=="""")");
 ISpace["Message"].Value=@"Please select Is Advance Required";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please select Is Advance Required"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(Trim(ISpace["MF_T1_BankBranch"].Value)==""&&ISpace["Travel_Type"].Value=="3")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MF_T1_BankBranch""].Value)==""""&&ISpace[""Travel_Type""].Value==""3"")");
 ISpace["Message"].Value=@"Please enter the Bank Branch";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Bank Branch"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(Trim(ISpace["MF_T1_BeneficiaryName"].Value)==""&&ISpace["Travel_Type"].Value=="3")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MF_T1_BeneficiaryName""].Value)==""""&&ISpace[""Travel_Type""].Value==""3"")");
 ISpace["Message"].Value=@"Please enter the Beneficiary Name";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Beneficiary Name"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(Trim(ISpace["MF_T1_AccountNo"].Value)==""&&ISpace["Travel_Type"].Value=="3")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MF_T1_AccountNo""].Value)==""""&&ISpace[""Travel_Type""].Value==""3"")");
 ISpace["Message"].Value=@"Please enter the Account No";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Account No"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(Trim(ISpace["MF_T1_BankName"].Value)==""&&ISpace["Travel_Type"].Value=="3")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MF_T1_BankName""].Value)==""""&&ISpace[""Travel_Type""].Value==""3"")");
 ISpace["Message"].Value=@"Please enter the Bank Name";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Bank Name"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if((ISpace["MF_T1_BankDocument"].Value == null)&&ISpace["Travel_Type"].Value=="3")
 {
 base.WriteDebugInfo(@"if((ISpace[""MF_T1_BankDocument""].Value == null)&&ISpace[""Travel_Type""].Value==""3"")");
 ISpace["Message"].Value=@"Please enter the Bank Document";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Bank Document"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["M_IsAdvanceRequired"].Value=="Yes")
 {
@@ -6903,16 +7172,24 @@ if(ISpace["MF_T1_AdvanceAmount"].Value==0)
 base.WriteDebugInfo(@"if(ISpace[""MF_T1_AdvanceAmount""].Value==0)");
 ISpace["Message"].Value=@"Please enter the Advance Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter the Advance Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["T_AdvanceDrawn"].Value<ISpace["MF_T1_AdvanceAmount"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""T_AdvanceDrawn""].Value<ISpace[""MF_T1_AdvanceAmount""].Value)");
 ISpace["Message"].Value=@"Eligible Advance and Advance Amount should be Equal or lesser than";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Eligible Advance and Advance Amount should be Equal or lesser than"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["M_IsAdvanceRequired"].Value=="Yes")
@@ -6923,8 +7200,12 @@ if(ISpace["M_SumOfFund"].Value!=ISpace["MF_T1_AdvanceAmount"].Value)
 base.WriteDebugInfo(@"if(ISpace[""M_SumOfFund""].Value!=ISpace[""MF_T1_AdvanceAmount""].Value)");
 ISpace["Message"].Value=@"Please add Source Fund Amount equal to Advance Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please add Source Fund Amount equal to Advance Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["MF_CountDoc"].Value>0)
@@ -6946,8 +7227,12 @@ if(
 ISpace[""M_DocumentName""].Value=="""")");
 ISpace["Message"].Value=@"Please Enter Document Name";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter Document Name"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 
 if(
@@ -6958,8 +7243,12 @@ if(
 IsNullOrEmpty(ISpace[""M_UploadDcoument""].Value))");
 ISpace["Message"].Value=@"Please Upload Document";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Upload Document"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_DcoumentDetails","B5EF84C8-83A9-4B1C-9431-0489F9EC063B",_objectFactory.GetGridRPP("MG_DcoumentDetails"),_elementBase.GetGridLoopQuery("B5EF84C8-83A9-4B1C-9431-0489F9EC063B","MG_DcoumentDetails",ISpace), ref ISpace);
@@ -6980,8 +7269,12 @@ if(ISpace["M_MoveTo"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
 ISpace["Message"].Value=@"Move To should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Move To should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 base.WriteDebugInfo(@"EXEC Repo198E5A8A61F54E7C92DD34146A7059EF '#CreatedOn','#MF_T1_BankDocument','#MF_T1_ReferenceNo','#MF_T1_AccountNo','#OverAll_Total','#UC_EmployeeBaicInfoId','#M_TravelPlace','#MF_T1_AdvanceAmount','#MF_T1_BankName','#MF_T1_TravelAdvanceID','#MF_T1_JourneyPurpose','#Travel_Type','#MF_T1_BeneficiaryName','#gv_UserId','#MF_TransactionNo','#MF_TravelStatus','#MF_TransactionDate','#M_IsAdvanceRequired'");
 
@@ -7104,8 +7397,12 @@ ISpace["Message"].Value=@"Arrival Date should be greater than Departure Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Arrival Date should be greater than Departure Date"";");
 ISpace["MFG_T2_ArrivalDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ArrivalDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -7146,8 +7443,12 @@ ISpace["Message"].Value=@"Arrival Date should be greater than Departure Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Arrival Date should be greater than Departure Date"";");
 ISpace["MFG_T2_ArrivalDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ArrivalDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -7294,8 +7595,12 @@ ISpace["Message"].Value=@"To Date should be greater than From Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""To Date should be greater than From Date"";");
 ISpace["MFG_T2_ToDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ToDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -7320,8 +7625,12 @@ ISpace["Message"].Value=@"To Date should be greater than From Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""To Date should be greater than From Date"";");
 ISpace["MFG_T2_ToDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ToDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -7344,40 +7653,60 @@ if(ISpace["MFG_T2_ModeofJourney"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""MFG_T2_ModeofJourney""].Value=="""")");
 ISpace["Message"].Value=@"Please Enter the Mode of Journey";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Mode of Journey"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(Trim(ISpace["MFG_T2_Departure"].Value)=="")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MFG_T2_Departure""].Value)=="""")");
 ISpace["Message"].Value=@"Please Enter the Departure";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Departure"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if((ISpace["MFG_T2_DepartureDate"].Value == null))
 {
 base.WriteDebugInfo(@"if((ISpace[""MFG_T2_DepartureDate""].Value == null))");
 ISpace["Message"].Value=@"Please Enter the Departure Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Departure Date"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(Trim(ISpace["MFG_T2_Arrival"].Value)=="")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MFG_T2_Arrival""].Value)=="""")");
 ISpace["Message"].Value=@"Please Enter the Arrival";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Arrival"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if((ISpace["MFG_T2_ArrivalDate"].Value == null))
 {
 base.WriteDebugInfo(@"if((ISpace[""MFG_T2_ArrivalDate""].Value == null))");
 ISpace["Message"].Value=@"Please Enter the Arrival Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Arrival Date"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MFG_T2_ArrivalDate"].Value<ISpace["MFG_T2_DepartureDate"].Value)
 {
@@ -7386,16 +7715,24 @@ ISpace["Message"].Value=@"Arrival Date should be greater than Departure Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Arrival Date should be greater than Departure Date"";");
 ISpace["MFG_T2_ArrivalDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ArrivalDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MFG_T2_Amount"].Value==0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_T2_Amount""].Value==0)");
 ISpace["Message"].Value=@"Please Enter the Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["growid"].Value=="")
@@ -7518,8 +7855,12 @@ if(ISpace["MF_FundType"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""MF_FundType""].Value=="""")");
 ISpace["Message"].Value=@"Please enter Fund Type";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter Fund Type"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MF_FundType"].Value=="1")
 {
@@ -7529,24 +7870,36 @@ if(ISpace["MF_ProjectNo"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""MF_ProjectNo""].Value=="""")");
 ISpace["Message"].Value=@"Please enter Project No";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter Project No"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MF_BudgetHead"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_BudgetHead""].Value=="""")");
 ISpace["Message"].Value=@"Please enter Budget Head";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter Budget Head"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MF_Amount"].Value==0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_Amount""].Value==0)");
 ISpace["Message"].Value=@"Please enter Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 else
@@ -7557,8 +7910,12 @@ if(ISpace["MF_Amount"].Value==0)
 base.WriteDebugInfo(@"if(ISpace[""MF_Amount""].Value==0)");
 ISpace["Message"].Value=@"Please enter Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["MF_FundType"].Value=="1")
@@ -7587,8 +7944,12 @@ if(ISpace["M_BudgetErr"].Value==0)
 base.WriteDebugInfo(@"if(ISpace[""M_BudgetErr""].Value==0)");
 ISpace["Message"].Value=String.Format(@"{0}",ISpace["M_BudgetErrMsg"].Value);
 base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""M_BudgetErrMsg""].Value);");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["MF_FundDetailsId"].Value=="")
@@ -7745,24 +8106,36 @@ if(ISpace["MFG_T2_ExpenditureTypeID"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""MFG_T2_ExpenditureTypeID""].Value=="""")");
 ISpace["Message"].Value=@"Please enter Expenditure type";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please enter Expenditure type"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if((ISpace["MFG_T2_FromDate"].Value == null))
 {
 base.WriteDebugInfo(@"if((ISpace[""MFG_T2_FromDate""].Value == null))");
 ISpace["Message"].Value=@"Please Enter the From Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the From Date"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if((ISpace["MFG_T2_ToDate"].Value == null))
 {
 base.WriteDebugInfo(@"if((ISpace[""MFG_T2_ToDate""].Value == null))");
 ISpace["Message"].Value=@"Please Enter the To Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the To Date"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MFG_T2_ToDate"].Value< ISpace["MFG_T2_FromDate"].Value)
 {
@@ -7771,16 +8144,24 @@ ISpace["Message"].Value=@"To Date should be greater than From Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""To Date should be greater than From Date"";");
 ISpace["MFG_T2_ToDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ToDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MFG_T3_Amount"].Value==0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_T3_Amount""].Value==0)");
 ISpace["Message"].Value=@"Please Enter the Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["growid"].Value=="")
@@ -7929,8 +8310,12 @@ ISpace["Message"].Value=@"To Date should be greater than From Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""To Date should be greater than From Date"";");
 ISpace["MFG_T2_ToDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ToDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -7971,8 +8356,12 @@ ISpace["Message"].Value=@"Advance amount should be less than the 90% of Total Am
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Advance amount should be less than the 90% of Total Amount"";");
 ISpace["AdvanceAmount"].Value=null;
 base.WriteDebugInfo(@"ISpace[""AdvanceAmount""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -8075,8 +8464,12 @@ ISpace["Message"].Value=@"To Date should be greater than From Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""To Date should be greater than From Date"";");
 ISpace["MFG_T2_ToDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_ToDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -8391,8 +8784,12 @@ ISpace["Message"].Value=@"Arrival Station and Departure Station can""t be same."
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Arrival Station and Departure Station can""""t be same."";");
 ISpace["MFG_T2_Arrival"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MFG_T2_Arrival""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -8712,8 +9109,12 @@ if(ISpace["M_MoveTo"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
 ISpace["Message"].Value=@"Move To should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Move To should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["M_SaveDomainData"].Value==0&&ISpace["M_IsflowReturned"].Value==1)
 {

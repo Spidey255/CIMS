@@ -504,7 +504,7 @@ namespace CPS.Proof.DFSExtension
                     {
                      
                                      fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [6B463D69-64AB-468E-B2E3-DB12E6B90014] WHERE InstanceId='{0}' AND
-							ProcessActivityMapId='{1}' AND FormId='{2}') BEGIN INSERT INTO [6B463D69-64AB-468E-B2E3-DB12E6B90014](ProcessActivityMapId,FormId,M_MoveTo,MF_ProjectNo,MF_P1_Initiatedon,MF_P1_UpdatedOn,Thumbnail,MF_P1_ReimbursementId,UC_EmailId,DisplayContext,ExecuteCommand,UC_Department,IN_SLA,CancelRedirectUrl,MF_P1_Remarks,RedirectUrl,M_NextStage,AssignToRole,KeyContext,UC_EmployeeId,UC_Paylevel,M_ErrMsg,MF_P1_ApplicationStatus,M_Status,growid,M_MoveToValue,M_DestinationActivityId,SetDestinationTo,Subject,M_InstanceId,ExecutionStatus,M_PackageProcessMapId,MF_P1_InitatedBy,UC_Grade,UC_DOJ,M_ReferenceNo,MF_P1_UpdatedBy,M_SourceActivityMapId,UC_EmployeeBaicInfoId,M_InitiatorUserMapId,UC_Designation,UC_PhoneNumber,M_Advanceformid,AssignToUser,MF_P1_EmployeeBasicInfoId,UC_Name,ExecutionMessage,MF_E1_EmployeeBasicInfoId,UC_DOB,IN_InstanceName,UC_DOR,M_IsSourceStep,Test,M_IsflowReturned,IN_Category,M_UpdateCount,SLATime,IN_Priority,MF_P1_TotalAmount,M_RemarksMandatory,M_FieldMandatory,M_ErrId,IN_Status,M_SaveDomainData,M_RequestId,M_IsCancelReject,Declaration,InstanceId)
+							 FormId='{2}') BEGIN INSERT INTO [6B463D69-64AB-468E-B2E3-DB12E6B90014](ProcessActivityMapId,FormId,M_MoveTo,MF_ProjectNo,MF_P1_Initiatedon,MF_P1_UpdatedOn,Thumbnail,MF_P1_ReimbursementId,UC_EmailId,DisplayContext,ExecuteCommand,UC_Department,IN_SLA,CancelRedirectUrl,MF_P1_Remarks,RedirectUrl,M_NextStage,AssignToRole,KeyContext,UC_EmployeeId,UC_Paylevel,M_ErrMsg,MF_P1_ApplicationStatus,M_Status,growid,M_MoveToValue,M_DestinationActivityId,SetDestinationTo,Subject,M_InstanceId,ExecutionStatus,M_PackageProcessMapId,MF_P1_InitatedBy,UC_Grade,UC_DOJ,M_ReferenceNo,MF_P1_UpdatedBy,M_SourceActivityMapId,UC_EmployeeBaicInfoId,M_InitiatorUserMapId,UC_Designation,UC_PhoneNumber,M_Advanceformid,AssignToUser,MF_P1_EmployeeBasicInfoId,UC_Name,ExecutionMessage,MF_E1_EmployeeBasicInfoId,UC_DOB,IN_InstanceName,UC_DOR,M_IsSourceStep,Test,M_IsflowReturned,IN_Category,M_UpdateCount,SLATime,IN_Priority,MF_P1_TotalAmount,M_RemarksMandatory,M_FieldMandatory,M_ErrId,IN_Status,M_SaveDomainData,M_RequestId,M_IsCancelReject,Declaration,InstanceId)
 							VALUES( {3}) END ELSE BEGIN UPDATE [6B463D69-64AB-468E-B2E3-DB12E6B90014]SET {4}WHERE InstanceId='{0}'END ";
 
                                      colList=@"ProcessActivityMapId,FormId,M_MoveTo,MF_ProjectNo,MF_P1_Initiatedon,MF_P1_UpdatedOn,Thumbnail,MF_P1_ReimbursementId,UC_EmailId,DisplayContext,ExecuteCommand,UC_Department,IN_SLA,CancelRedirectUrl,MF_P1_Remarks,RedirectUrl,M_NextStage,AssignToRole,KeyContext,UC_EmployeeId,UC_Paylevel,M_ErrMsg,MF_P1_ApplicationStatus,M_Status,growid,M_MoveToValue,M_DestinationActivityId,SetDestinationTo,Subject,M_InstanceId,ExecutionStatus,M_PackageProcessMapId,MF_P1_InitatedBy,UC_Grade,UC_DOJ,M_ReferenceNo,MF_P1_UpdatedBy,M_SourceActivityMapId,UC_EmployeeBaicInfoId,M_InitiatorUserMapId,UC_Designation,UC_PhoneNumber,M_Advanceformid,AssignToUser,MF_P1_EmployeeBasicInfoId,UC_Name,ExecutionMessage,MF_E1_EmployeeBasicInfoId,UC_DOB,IN_InstanceName,UC_DOR,M_IsSourceStep,Test,M_IsflowReturned,IN_Category,M_UpdateCount,SLATime,IN_Priority,MF_P1_TotalAmount,M_RemarksMandatory,M_FieldMandatory,M_ErrId,IN_Status,M_SaveDomainData,M_RequestId,M_IsCancelReject,Declaration,InstanceId";
@@ -559,7 +559,30 @@ namespace CPS.Proof.DFSExtension
 
                                         switch (Convert.ToInt32(childObject["EDT"]))
                                         {
+                                            case 0:
+                                                colValues += (Convert.ToBoolean(childObject["Value"]) ? "1" : "0") + ",";
+												break;
                                             case 8:
+                                             if (childObject["Value"] != null)
+                                                {
+                                                    if (childObject["Value"].ToString() == "")
+                                                    {
+                                                        colValues += "null,";
+                                                        UpdatecolValues += fcol + "=" + "null,";
+                                                    }
+                                                    else
+                                                    {
+                                                        colValues += "'"+childObject["Value"].ToString() + "',";
+                                                        UpdatecolValues += fcol+ "=" + "'" + childObject["Value"].ToString() + "',";
+                                                    }
+                                                }
+                                                else
+                                                {
+                                                    colValues += "null,";
+                                                    UpdatecolValues += fcol + "=" + "null,";
+                                                }
+                                                break;
+
                                             case 9:
                                                 colValues += "'" + childObject["Value"].ToString() + "',";
                                                 UpdatecolValues+=fcol+"="+"'" + childObject["Value"].ToString() + "',";
@@ -670,9 +693,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_00D69CC2E6EC4412B2A914E57A96FB5C AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_P3_ProjectDetailsId] VARCHAR(250)	, [MG_P3_FundTypeId] VARCHAR(250)	, [MG_P3_BudgetHeadId] VARCHAR(250)	, [MG_P3_Amount] DECIMAL(18,2)	, [MG_P3_Employeebasicinfoid] VARCHAR(MAX)	, [MG_P3_ReimbursementId] VARCHAR(MAX)	, [MG_P3_Packageprocessmapid] VARCHAR(MAX)	, [MG_P3_Advanceformid] VARCHAR(MAX)	, [MG_P3_FundDetailsId] VARCHAR(MAX)){0}INSERT INTO [00D69CC2-E6EC-4412-B2A9-14E57A96FB5C](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_P3_ProjectDetailsId,MG_P3_FundTypeId,MG_P3_BudgetHeadId,MG_P3_Amount,MG_P3_Employeebasicinfoid,MG_P3_ReimbursementId,MG_P3_Packageprocessmapid,MG_P3_Advanceformid,MG_P3_FundDetailsId)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_P3_ProjectDetailsId,TDT.MG_P3_FundTypeId,TDT.MG_P3_BudgetHeadId,TDT.MG_P3_Amount,TDT.MG_P3_Employeebasicinfoid,TDT.MG_P3_ReimbursementId,TDT.MG_P3_Packageprocessmapid,TDT.MG_P3_Advanceformid,TDT.MG_P3_FundDetailsId FROM @TBL_00D69CC2E6EC4412B2A914E57A96FB5C TDT
 							LEFT JOIN [00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_P3_ProjectDetailsId=TDT.MG_P3_ProjectDetailsId,MG_P3_FundTypeId=TDT.MG_P3_FundTypeId,MG_P3_BudgetHeadId=TDT.MG_P3_BudgetHeadId,MG_P3_Amount=TDT.MG_P3_Amount,MG_P3_Employeebasicinfoid=TDT.MG_P3_Employeebasicinfoid,MG_P3_ReimbursementId=TDT.MG_P3_ReimbursementId,MG_P3_Packageprocessmapid=TDT.MG_P3_Packageprocessmapid,MG_P3_Advanceformid=TDT.MG_P3_Advanceformid,MG_P3_FundDetailsId=TDT.MG_P3_FundDetailsId FROM @TBL_00D69CC2E6EC4412B2A914E57A96FB5C TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_P3_ProjectDetailsId=TDT.MG_P3_ProjectDetailsId,MG_P3_FundTypeId=TDT.MG_P3_FundTypeId,MG_P3_BudgetHeadId=TDT.MG_P3_BudgetHeadId,MG_P3_Amount=TDT.MG_P3_Amount,MG_P3_Employeebasicinfoid=TDT.MG_P3_Employeebasicinfoid,MG_P3_ReimbursementId=TDT.MG_P3_ReimbursementId,MG_P3_Packageprocessmapid=TDT.MG_P3_Packageprocessmapid,MG_P3_Advanceformid=TDT.MG_P3_Advanceformid,MG_P3_FundDetailsId=TDT.MG_P3_FundDetailsId FROM @TBL_00D69CC2E6EC4412B2A914E57A96FB5C TDT
 							JOIN [00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_P3_ProjectDetailsId,MG_P3_FundTypeId,MG_P3_BudgetHeadId,MG_P3_Amount,MG_P3_Employeebasicinfoid,MG_P3_ReimbursementId,MG_P3_Packageprocessmapid,MG_P3_Advanceformid,MG_P3_FundDetailsId";
 
@@ -744,6 +767,9 @@ namespace CPS.Proof.DFSExtension
 
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
                                         case 8:
                                         case 9:
                                             colValues +="'"+ gitem["Value"].ToString() + "',";
@@ -784,9 +810,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_744177F0C5DD4666BE31646818F67196 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [M_UploadDcoument] VARBINARY(MAX)	, [M_DocumentDetailsId] VARCHAR(MAX)	, [M_DocumentName] VARCHAR(MAX)){0}INSERT INTO [744177F0-C5DD-4666-BE31-646818F67196](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,M_UploadDcoument,M_DocumentDetailsId,M_DocumentName)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.M_UploadDcoument,TDT.M_DocumentDetailsId,TDT.M_DocumentName FROM @TBL_744177F0C5DD4666BE31646818F67196 TDT
 							LEFT JOIN [744177F0-C5DD-4666-BE31-646818F67196] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,M_UploadDcoument=TDT.M_UploadDcoument,M_DocumentDetailsId=TDT.M_DocumentDetailsId,M_DocumentName=TDT.M_DocumentName FROM @TBL_744177F0C5DD4666BE31646818F67196 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,M_UploadDcoument=TDT.M_UploadDcoument,M_DocumentDetailsId=TDT.M_DocumentDetailsId,M_DocumentName=TDT.M_DocumentName FROM @TBL_744177F0C5DD4666BE31646818F67196 TDT
 							JOIN [744177F0-C5DD-4666-BE31-646818F67196] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,M_UploadDcoument,M_DocumentDetailsId,M_DocumentName";
 
@@ -858,6 +884,9 @@ namespace CPS.Proof.DFSExtension
 
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
                                         case 8:
                                         case 9:
                                             colValues +="'"+ gitem["Value"].ToString() + "',";
@@ -898,9 +927,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_1064BC8E93B2409CBD1501E2EBC35B41 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_ReceivedAmount] DECIMAL(18,2)	, [MG_Commitment] DECIMAL(18,2)	, [MG_Balance] DECIMAL(18,2)	, [MG_Spent] DECIMAL(18,2)	, [MG_SanctionedAmount] DECIMAL(18,2)	, [MG_YetToReceive] DECIMAL(18,2)	, [MG_BudgetName] VARCHAR(MAX)){0}INSERT INTO [1064BC8E-93B2-409C-BD15-01E2EBC35B41](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ReceivedAmount,MG_Commitment,MG_Balance,MG_Spent,MG_SanctionedAmount,MG_YetToReceive,MG_BudgetName)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_ReceivedAmount,TDT.MG_Commitment,TDT.MG_Balance,TDT.MG_Spent,TDT.MG_SanctionedAmount,TDT.MG_YetToReceive,TDT.MG_BudgetName FROM @TBL_1064BC8E93B2409CBD1501E2EBC35B41 TDT
 							LEFT JOIN [1064BC8E-93B2-409C-BD15-01E2EBC35B41] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_ReceivedAmount=TDT.MG_ReceivedAmount,MG_Commitment=TDT.MG_Commitment,MG_Balance=TDT.MG_Balance,MG_Spent=TDT.MG_Spent,MG_SanctionedAmount=TDT.MG_SanctionedAmount,MG_YetToReceive=TDT.MG_YetToReceive,MG_BudgetName=TDT.MG_BudgetName FROM @TBL_1064BC8E93B2409CBD1501E2EBC35B41 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_ReceivedAmount=TDT.MG_ReceivedAmount,MG_Commitment=TDT.MG_Commitment,MG_Balance=TDT.MG_Balance,MG_Spent=TDT.MG_Spent,MG_SanctionedAmount=TDT.MG_SanctionedAmount,MG_YetToReceive=TDT.MG_YetToReceive,MG_BudgetName=TDT.MG_BudgetName FROM @TBL_1064BC8E93B2409CBD1501E2EBC35B41 TDT
 							JOIN [1064BC8E-93B2-409C-BD15-01E2EBC35B41] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ReceivedAmount,MG_Commitment,MG_Balance,MG_Spent,MG_SanctionedAmount,MG_YetToReceive,MG_BudgetName";
 
@@ -972,6 +1001,9 @@ namespace CPS.Proof.DFSExtension
 
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
                                         case 8:
                                         case 9:
                                             colValues +="'"+ gitem["Value"].ToString() + "',";
@@ -1012,9 +1044,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_D74F91B11C1A47A6BF5FB731EB2F53FB AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_P2_BillDate] DATETIME	, [MG_P2_Amount] DECIMAL(18,2)	, [MG_P2_BillDocument] INT	, [MG_P2_BillNo] VARCHAR(MAX)	, [MG_P2_ReimbursementDetailsId] VARCHAR(MAX)	, [MG_P2_ReimbursementId] VARCHAR(MAX)	, [MG_P2_ItemDescription] VARCHAR(MAX)){0}INSERT INTO [D74F91B1-1C1A-47A6-BF5F-B731EB2F53FB](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_P2_BillDate,MG_P2_Amount,MG_P2_BillDocument,MG_P2_BillNo,MG_P2_ReimbursementDetailsId,MG_P2_ReimbursementId,MG_P2_ItemDescription)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_P2_BillDate,TDT.MG_P2_Amount,TDT.MG_P2_BillDocument,TDT.MG_P2_BillNo,TDT.MG_P2_ReimbursementDetailsId,TDT.MG_P2_ReimbursementId,TDT.MG_P2_ItemDescription FROM @TBL_D74F91B11C1A47A6BF5FB731EB2F53FB TDT
 							LEFT JOIN [D74F91B1-1C1A-47A6-BF5F-B731EB2F53FB] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_P2_BillDate=TDT.MG_P2_BillDate,MG_P2_Amount=TDT.MG_P2_Amount,MG_P2_BillDocument=TDT.MG_P2_BillDocument,MG_P2_BillNo=TDT.MG_P2_BillNo,MG_P2_ReimbursementDetailsId=TDT.MG_P2_ReimbursementDetailsId,MG_P2_ReimbursementId=TDT.MG_P2_ReimbursementId,MG_P2_ItemDescription=TDT.MG_P2_ItemDescription FROM @TBL_D74F91B11C1A47A6BF5FB731EB2F53FB TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_P2_BillDate=TDT.MG_P2_BillDate,MG_P2_Amount=TDT.MG_P2_Amount,MG_P2_BillDocument=TDT.MG_P2_BillDocument,MG_P2_BillNo=TDT.MG_P2_BillNo,MG_P2_ReimbursementDetailsId=TDT.MG_P2_ReimbursementDetailsId,MG_P2_ReimbursementId=TDT.MG_P2_ReimbursementId,MG_P2_ItemDescription=TDT.MG_P2_ItemDescription FROM @TBL_D74F91B11C1A47A6BF5FB731EB2F53FB TDT
 							JOIN [D74F91B1-1C1A-47A6-BF5F-B731EB2F53FB] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_P2_BillDate,MG_P2_Amount,MG_P2_BillDocument,MG_P2_BillNo,MG_P2_ReimbursementDetailsId,MG_P2_ReimbursementId,MG_P2_ItemDescription";
 
@@ -1086,6 +1118,9 @@ namespace CPS.Proof.DFSExtension
 
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
                                         case 8:
                                         case 9:
                                             colValues +="'"+ gitem["Value"].ToString() + "',";
@@ -1126,9 +1161,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_1356A8F219474667987D2EA211B288A3 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MGA_Amount] DECIMAL(18,2)	, [MGA_AdvanceFormId] VARCHAR(MAX)	, [MGA_DetailsofExpenses] VARCHAR(MAX)	, [MGA_RequestDetailsId] VARCHAR(MAX)	, [MGA_Description] VARCHAR(MAX)){0}INSERT INTO [1356A8F2-1947-4667-987D-2EA211B288A3](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGA_Amount,MGA_AdvanceFormId,MGA_DetailsofExpenses,MGA_RequestDetailsId,MGA_Description)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MGA_Amount,TDT.MGA_AdvanceFormId,TDT.MGA_DetailsofExpenses,TDT.MGA_RequestDetailsId,TDT.MGA_Description FROM @TBL_1356A8F219474667987D2EA211B288A3 TDT
 							LEFT JOIN [1356A8F2-1947-4667-987D-2EA211B288A3] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MGA_Amount=TDT.MGA_Amount,MGA_AdvanceFormId=TDT.MGA_AdvanceFormId,MGA_DetailsofExpenses=TDT.MGA_DetailsofExpenses,MGA_RequestDetailsId=TDT.MGA_RequestDetailsId,MGA_Description=TDT.MGA_Description FROM @TBL_1356A8F219474667987D2EA211B288A3 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MGA_Amount=TDT.MGA_Amount,MGA_AdvanceFormId=TDT.MGA_AdvanceFormId,MGA_DetailsofExpenses=TDT.MGA_DetailsofExpenses,MGA_RequestDetailsId=TDT.MGA_RequestDetailsId,MGA_Description=TDT.MGA_Description FROM @TBL_1356A8F219474667987D2EA211B288A3 TDT
 							JOIN [1356A8F2-1947-4667-987D-2EA211B288A3] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGA_Amount,MGA_AdvanceFormId,MGA_DetailsofExpenses,MGA_RequestDetailsId,MGA_Description";
 
@@ -1200,6 +1235,9 @@ namespace CPS.Proof.DFSExtension
 
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
                                         case 8:
                                         case 9:
                                             colValues +="'"+ gitem["Value"].ToString() + "',";
@@ -1240,9 +1278,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_A65EED98D95D45DF97651BDBF01908AD AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [DateOfRemarks] DATETIME	, [RemarksId] VARCHAR(MAX)	, [Remarks] VARCHAR(MAX)	, [ActivityName] VARCHAR(MAX)	, [UserName] VARCHAR(MAX)){0}INSERT INTO [A65EED98-D95D-45DF-9765-1BDBF01908AD](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,DateOfRemarks,RemarksId,Remarks,ActivityName,UserName)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.DateOfRemarks,TDT.RemarksId,TDT.Remarks,TDT.ActivityName,TDT.UserName FROM @TBL_A65EED98D95D45DF97651BDBF01908AD TDT
 							LEFT JOIN [A65EED98-D95D-45DF-9765-1BDBF01908AD] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,DateOfRemarks=TDT.DateOfRemarks,RemarksId=TDT.RemarksId,Remarks=TDT.Remarks,ActivityName=TDT.ActivityName,UserName=TDT.UserName FROM @TBL_A65EED98D95D45DF97651BDBF01908AD TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,DateOfRemarks=TDT.DateOfRemarks,RemarksId=TDT.RemarksId,Remarks=TDT.Remarks,ActivityName=TDT.ActivityName,UserName=TDT.UserName FROM @TBL_A65EED98D95D45DF97651BDBF01908AD TDT
 							JOIN [A65EED98-D95D-45DF-9765-1BDBF01908AD] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,DateOfRemarks,RemarksId,Remarks,ActivityName,UserName";
 
@@ -1314,6 +1352,9 @@ namespace CPS.Proof.DFSExtension
 
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
                                         case 8:
                                         case 9:
                                             colValues +="'"+ gitem["Value"].ToString() + "',";
@@ -1399,9 +1440,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_00D69CC2E6EC4412B2A914E57A96FB5C AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_P3_ProjectDetailsId] VARCHAR(250)	, [MG_P3_FundTypeId] VARCHAR(250)	, [MG_P3_BudgetHeadId] VARCHAR(250)	, [MG_P3_Amount] DECIMAL(18,2)	, [MG_P3_Employeebasicinfoid] VARCHAR(MAX)	, [MG_P3_ReimbursementId] VARCHAR(MAX)	, [MG_P3_Packageprocessmapid] VARCHAR(MAX)	, [MG_P3_Advanceformid] VARCHAR(MAX)	, [MG_P3_FundDetailsId] VARCHAR(MAX)){0}INSERT INTO [00D69CC2-E6EC-4412-B2A9-14E57A96FB5C](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_P3_ProjectDetailsId,MG_P3_FundTypeId,MG_P3_BudgetHeadId,MG_P3_Amount,MG_P3_Employeebasicinfoid,MG_P3_ReimbursementId,MG_P3_Packageprocessmapid,MG_P3_Advanceformid,MG_P3_FundDetailsId)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_P3_ProjectDetailsId,TDT.MG_P3_FundTypeId,TDT.MG_P3_BudgetHeadId,TDT.MG_P3_Amount,TDT.MG_P3_Employeebasicinfoid,TDT.MG_P3_ReimbursementId,TDT.MG_P3_Packageprocessmapid,TDT.MG_P3_Advanceformid,TDT.MG_P3_FundDetailsId FROM @TBL_00D69CC2E6EC4412B2A914E57A96FB5C TDT
 							LEFT JOIN [00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_P3_ProjectDetailsId=TDT.MG_P3_ProjectDetailsId,MG_P3_FundTypeId=TDT.MG_P3_FundTypeId,MG_P3_BudgetHeadId=TDT.MG_P3_BudgetHeadId,MG_P3_Amount=TDT.MG_P3_Amount,MG_P3_Employeebasicinfoid=TDT.MG_P3_Employeebasicinfoid,MG_P3_ReimbursementId=TDT.MG_P3_ReimbursementId,MG_P3_Packageprocessmapid=TDT.MG_P3_Packageprocessmapid,MG_P3_Advanceformid=TDT.MG_P3_Advanceformid,MG_P3_FundDetailsId=TDT.MG_P3_FundDetailsId FROM @TBL_00D69CC2E6EC4412B2A914E57A96FB5C TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_P3_ProjectDetailsId=TDT.MG_P3_ProjectDetailsId,MG_P3_FundTypeId=TDT.MG_P3_FundTypeId,MG_P3_BudgetHeadId=TDT.MG_P3_BudgetHeadId,MG_P3_Amount=TDT.MG_P3_Amount,MG_P3_Employeebasicinfoid=TDT.MG_P3_Employeebasicinfoid,MG_P3_ReimbursementId=TDT.MG_P3_ReimbursementId,MG_P3_Packageprocessmapid=TDT.MG_P3_Packageprocessmapid,MG_P3_Advanceformid=TDT.MG_P3_Advanceformid,MG_P3_FundDetailsId=TDT.MG_P3_FundDetailsId FROM @TBL_00D69CC2E6EC4412B2A914E57A96FB5C TDT
 							JOIN [00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_P3_ProjectDetailsId,MG_P3_FundTypeId,MG_P3_BudgetHeadId,MG_P3_Amount,MG_P3_Employeebasicinfoid,MG_P3_ReimbursementId,MG_P3_Packageprocessmapid,MG_P3_Advanceformid,MG_P3_FundDetailsId";
 
@@ -1500,9 +1541,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_744177F0C5DD4666BE31646818F67196 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [M_UploadDcoument] VARBINARY(MAX)	, [M_DocumentDetailsId] VARCHAR(MAX)	, [M_DocumentName] VARCHAR(MAX)){0}INSERT INTO [744177F0-C5DD-4666-BE31-646818F67196](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,M_UploadDcoument,M_DocumentDetailsId,M_DocumentName)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.M_UploadDcoument,TDT.M_DocumentDetailsId,TDT.M_DocumentName FROM @TBL_744177F0C5DD4666BE31646818F67196 TDT
 							LEFT JOIN [744177F0-C5DD-4666-BE31-646818F67196] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,M_UploadDcoument=TDT.M_UploadDcoument,M_DocumentDetailsId=TDT.M_DocumentDetailsId,M_DocumentName=TDT.M_DocumentName FROM @TBL_744177F0C5DD4666BE31646818F67196 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,M_UploadDcoument=TDT.M_UploadDcoument,M_DocumentDetailsId=TDT.M_DocumentDetailsId,M_DocumentName=TDT.M_DocumentName FROM @TBL_744177F0C5DD4666BE31646818F67196 TDT
 							JOIN [744177F0-C5DD-4666-BE31-646818F67196] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,M_UploadDcoument,M_DocumentDetailsId,M_DocumentName";
 
@@ -1601,9 +1642,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_1064BC8E93B2409CBD1501E2EBC35B41 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_ReceivedAmount] DECIMAL(18,2)	, [MG_Commitment] DECIMAL(18,2)	, [MG_Balance] DECIMAL(18,2)	, [MG_Spent] DECIMAL(18,2)	, [MG_SanctionedAmount] DECIMAL(18,2)	, [MG_YetToReceive] DECIMAL(18,2)	, [MG_BudgetName] VARCHAR(MAX)){0}INSERT INTO [1064BC8E-93B2-409C-BD15-01E2EBC35B41](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ReceivedAmount,MG_Commitment,MG_Balance,MG_Spent,MG_SanctionedAmount,MG_YetToReceive,MG_BudgetName)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_ReceivedAmount,TDT.MG_Commitment,TDT.MG_Balance,TDT.MG_Spent,TDT.MG_SanctionedAmount,TDT.MG_YetToReceive,TDT.MG_BudgetName FROM @TBL_1064BC8E93B2409CBD1501E2EBC35B41 TDT
 							LEFT JOIN [1064BC8E-93B2-409C-BD15-01E2EBC35B41] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_ReceivedAmount=TDT.MG_ReceivedAmount,MG_Commitment=TDT.MG_Commitment,MG_Balance=TDT.MG_Balance,MG_Spent=TDT.MG_Spent,MG_SanctionedAmount=TDT.MG_SanctionedAmount,MG_YetToReceive=TDT.MG_YetToReceive,MG_BudgetName=TDT.MG_BudgetName FROM @TBL_1064BC8E93B2409CBD1501E2EBC35B41 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_ReceivedAmount=TDT.MG_ReceivedAmount,MG_Commitment=TDT.MG_Commitment,MG_Balance=TDT.MG_Balance,MG_Spent=TDT.MG_Spent,MG_SanctionedAmount=TDT.MG_SanctionedAmount,MG_YetToReceive=TDT.MG_YetToReceive,MG_BudgetName=TDT.MG_BudgetName FROM @TBL_1064BC8E93B2409CBD1501E2EBC35B41 TDT
 							JOIN [1064BC8E-93B2-409C-BD15-01E2EBC35B41] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ReceivedAmount,MG_Commitment,MG_Balance,MG_Spent,MG_SanctionedAmount,MG_YetToReceive,MG_BudgetName";
 
@@ -1702,9 +1743,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_D74F91B11C1A47A6BF5FB731EB2F53FB AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_P2_BillDate] DATETIME	, [MG_P2_Amount] DECIMAL(18,2)	, [MG_P2_BillDocument] INT	, [MG_P2_BillNo] VARCHAR(MAX)	, [MG_P2_ReimbursementDetailsId] VARCHAR(MAX)	, [MG_P2_ReimbursementId] VARCHAR(MAX)	, [MG_P2_ItemDescription] VARCHAR(MAX)){0}INSERT INTO [D74F91B1-1C1A-47A6-BF5F-B731EB2F53FB](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_P2_BillDate,MG_P2_Amount,MG_P2_BillDocument,MG_P2_BillNo,MG_P2_ReimbursementDetailsId,MG_P2_ReimbursementId,MG_P2_ItemDescription)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_P2_BillDate,TDT.MG_P2_Amount,TDT.MG_P2_BillDocument,TDT.MG_P2_BillNo,TDT.MG_P2_ReimbursementDetailsId,TDT.MG_P2_ReimbursementId,TDT.MG_P2_ItemDescription FROM @TBL_D74F91B11C1A47A6BF5FB731EB2F53FB TDT
 							LEFT JOIN [D74F91B1-1C1A-47A6-BF5F-B731EB2F53FB] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_P2_BillDate=TDT.MG_P2_BillDate,MG_P2_Amount=TDT.MG_P2_Amount,MG_P2_BillDocument=TDT.MG_P2_BillDocument,MG_P2_BillNo=TDT.MG_P2_BillNo,MG_P2_ReimbursementDetailsId=TDT.MG_P2_ReimbursementDetailsId,MG_P2_ReimbursementId=TDT.MG_P2_ReimbursementId,MG_P2_ItemDescription=TDT.MG_P2_ItemDescription FROM @TBL_D74F91B11C1A47A6BF5FB731EB2F53FB TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_P2_BillDate=TDT.MG_P2_BillDate,MG_P2_Amount=TDT.MG_P2_Amount,MG_P2_BillDocument=TDT.MG_P2_BillDocument,MG_P2_BillNo=TDT.MG_P2_BillNo,MG_P2_ReimbursementDetailsId=TDT.MG_P2_ReimbursementDetailsId,MG_P2_ReimbursementId=TDT.MG_P2_ReimbursementId,MG_P2_ItemDescription=TDT.MG_P2_ItemDescription FROM @TBL_D74F91B11C1A47A6BF5FB731EB2F53FB TDT
 							JOIN [D74F91B1-1C1A-47A6-BF5F-B731EB2F53FB] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_P2_BillDate,MG_P2_Amount,MG_P2_BillDocument,MG_P2_BillNo,MG_P2_ReimbursementDetailsId,MG_P2_ReimbursementId,MG_P2_ItemDescription";
 
@@ -1803,9 +1844,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_1356A8F219474667987D2EA211B288A3 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MGA_Amount] DECIMAL(18,2)	, [MGA_AdvanceFormId] VARCHAR(MAX)	, [MGA_DetailsofExpenses] VARCHAR(MAX)	, [MGA_RequestDetailsId] VARCHAR(MAX)	, [MGA_Description] VARCHAR(MAX)){0}INSERT INTO [1356A8F2-1947-4667-987D-2EA211B288A3](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGA_Amount,MGA_AdvanceFormId,MGA_DetailsofExpenses,MGA_RequestDetailsId,MGA_Description)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MGA_Amount,TDT.MGA_AdvanceFormId,TDT.MGA_DetailsofExpenses,TDT.MGA_RequestDetailsId,TDT.MGA_Description FROM @TBL_1356A8F219474667987D2EA211B288A3 TDT
 							LEFT JOIN [1356A8F2-1947-4667-987D-2EA211B288A3] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MGA_Amount=TDT.MGA_Amount,MGA_AdvanceFormId=TDT.MGA_AdvanceFormId,MGA_DetailsofExpenses=TDT.MGA_DetailsofExpenses,MGA_RequestDetailsId=TDT.MGA_RequestDetailsId,MGA_Description=TDT.MGA_Description FROM @TBL_1356A8F219474667987D2EA211B288A3 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MGA_Amount=TDT.MGA_Amount,MGA_AdvanceFormId=TDT.MGA_AdvanceFormId,MGA_DetailsofExpenses=TDT.MGA_DetailsofExpenses,MGA_RequestDetailsId=TDT.MGA_RequestDetailsId,MGA_Description=TDT.MGA_Description FROM @TBL_1356A8F219474667987D2EA211B288A3 TDT
 							JOIN [1356A8F2-1947-4667-987D-2EA211B288A3] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGA_Amount,MGA_AdvanceFormId,MGA_DetailsofExpenses,MGA_RequestDetailsId,MGA_Description";
 
@@ -1904,9 +1945,9 @@ namespace CPS.Proof.DFSExtension
 		DECLARE  @TBL_A65EED98D95D45DF97651BDBF01908AD AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [DateOfRemarks] DATETIME	, [RemarksId] VARCHAR(MAX)	, [Remarks] VARCHAR(MAX)	, [ActivityName] VARCHAR(MAX)	, [UserName] VARCHAR(MAX)){0}INSERT INTO [A65EED98-D95D-45DF-9765-1BDBF01908AD](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,DateOfRemarks,RemarksId,Remarks,ActivityName,UserName)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.DateOfRemarks,TDT.RemarksId,TDT.Remarks,TDT.ActivityName,TDT.UserName FROM @TBL_A65EED98D95D45DF97651BDBF01908AD TDT
 							LEFT JOIN [A65EED98-D95D-45DF-9765-1BDBF01908AD] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,DateOfRemarks=TDT.DateOfRemarks,RemarksId=TDT.RemarksId,Remarks=TDT.Remarks,ActivityName=TDT.ActivityName,UserName=TDT.UserName FROM @TBL_A65EED98D95D45DF97651BDBF01908AD TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,DateOfRemarks=TDT.DateOfRemarks,RemarksId=TDT.RemarksId,Remarks=TDT.Remarks,ActivityName=TDT.ActivityName,UserName=TDT.UserName FROM @TBL_A65EED98D95D45DF97651BDBF01908AD TDT
 							JOIN [A65EED98-D95D-45DF-9765-1BDBF01908AD] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,DateOfRemarks,RemarksId,Remarks,ActivityName,UserName";
 
@@ -2206,8 +2247,12 @@ if(IsNullOrEmpty(ISpace["Declaration"].Value))
 base.WriteDebugInfo(@"if(IsNullOrEmpty(ISpace[""Declaration""].Value))");
 ISpace["Message"].Value=@"Select the declaration";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Select the declaration"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["M_SaveDomainData"].Value==1||1==1)
 {
@@ -2301,16 +2346,24 @@ if(ISpace["MF_P1_TotalAmount"].Value==0)
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_TotalAmount""].Value==0)");
 ISpace["Message"].Value=@"Overall Bill Amount should not be 0";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Overall Bill Amount should not be 0"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MFG_P3_OverallAmount"].Value!=ISpace["MF_P1_TotalAmount"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_P3_OverallAmount""].Value!=ISpace[""MF_P1_TotalAmount""].Value)");
 ISpace["Message"].Value=@"Both Overall Fund Amount and Overall Bill Amount should be same";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Both Overall Fund Amount and Overall Bill Amount should be same"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 base.WriteDebugInfo(@"#MG_DcoumentDetails[Rows]");
 iSpace.GetLoopExpressionData("MG_DcoumentDetails",ref ISpace);
@@ -2328,8 +2381,12 @@ if(
 ISpace[""M_DocumentName""].Value=="""")");
 ISpace["Message"].Value=@"Document Name should be Mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Document Name should be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 
 if(
@@ -2340,8 +2397,12 @@ if(
 IsNullOrEmpty(ISpace[""M_UploadDcoument""].Value))");
 ISpace["Message"].Value=@"Upload Document should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Upload Document should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_DcoumentDetails","744177F0-C5DD-4666-BE31-646818F67196",_objectFactory.GetGridRPP("MG_DcoumentDetails"),_elementBase.GetGridLoopQuery("744177F0-C5DD-4666-BE31-646818F67196","MG_DcoumentDetails",ISpace), ref ISpace);
@@ -2393,32 +2454,48 @@ if(Trim(ISpace["MFG_P2_BillNo"].Value)=="")
 base.WriteDebugInfo(@"if(Trim(ISpace[""MFG_P2_BillNo""].Value)=="""")");
 ISpace["Message"].Value=@"Please Enter the Bill No";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Bill No"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if((ISpace["MFG_P2_BillDate"].Value == null))
 {
 base.WriteDebugInfo(@"if((ISpace[""MFG_P2_BillDate""].Value == null))");
 ISpace["Message"].Value=@"Please Enter the Bill Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Bill Date"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(Trim(ISpace["MFG_P2_ItemDescription"].Value)=="")
 {
 base.WriteDebugInfo(@"if(Trim(ISpace[""MFG_P2_ItemDescription""].Value)=="""")");
 ISpace["Message"].Value=@"Please Enter the Item Description";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Item Description"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MFG_P2_Amount"].Value==0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_P2_Amount""].Value==0)");
 ISpace["Message"].Value=@"Please Enter the Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["growid"].Value=="")
@@ -2681,8 +2758,12 @@ if(Trim(ISpace["MFG_P3_FundTypeId"].Value)=="")
 base.WriteDebugInfo(@"if(Trim(ISpace[""MFG_P3_FundTypeId""].Value)=="""")");
 ISpace["Message"].Value=@"Please Enter the Fund Type";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Fund Type"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MFG_P3_FundTypeId"].Value=="1")
 {
@@ -2692,16 +2773,24 @@ if(ISpace["MFG_P3_ProjectDetailsId"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""MFG_P3_ProjectDetailsId""].Value=="""")");
 ISpace["Message"].Value=@"Project No should be Mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Project No should be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MFG_P3_BudgetHeadId"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_P3_BudgetHeadId""].Value=="""")");
 ISpace["Message"].Value=@"Budget Head should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Budget Head should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["MFG_P3_Amount"].Value==0)
@@ -2709,8 +2798,12 @@ if(ISpace["MFG_P3_Amount"].Value==0)
 base.WriteDebugInfo(@"if(ISpace[""MFG_P3_Amount""].Value==0)");
 ISpace["Message"].Value=@"Please Enter the Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 base.WriteDebugInfo(@"EXEC [ValidatePaymentFundAvailability] '#MFG_P3_FundTypeId','#MFG_P3_ProjectDetailsId','#MFG_P3_BudgetHeadId','#UC_EmployeeBaicInfoId','#MFG_P3_Amount'");
 
@@ -2735,8 +2828,12 @@ if(ISpace["M_ErrId"].Value==0)
 base.WriteDebugInfo(@"if(ISpace[""M_ErrId""].Value==0)");
 ISpace["Message"].Value=String.Format(@"{0}",ISpace["M_ErrMsg"].Value);
 base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""M_ErrMsg""].Value);");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["MFG_P3_FundTypeId"].Value=="1")
@@ -2767,8 +2864,12 @@ ISpace["Message"].Value=@"Budget Head is already Exists";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Budget Head is already Exists"";");
 ISpace["MFG_P3_BudgetHeadId"].Value="";
 base.WriteDebugInfo(@"ISpace[""MFG_P3_BudgetHeadId""].Value="""";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -3100,8 +3201,12 @@ if(IsNullOrEmpty(ISpace["Declaration"].Value))
 base.WriteDebugInfo(@"if(IsNullOrEmpty(ISpace[""Declaration""].Value))");
 ISpace["Message"].Value=@"Select the declaration";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Select the declaration"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["M_SaveDomainData"].Value==1||1==1)
 {
@@ -3214,8 +3319,12 @@ if(ISpace["M_MoveTo"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
 ISpace["Message"].Value=@"Move To should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Move To should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["M_SaveDomainData"].Value==1)
@@ -3464,8 +3573,12 @@ ISpace["Message"].Value=@"Budget Head is already Exists";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Budget Head is already Exists"";");
 ISpace["MFG_P3_BudgetHeadId"].Value="";
 base.WriteDebugInfo(@"ISpace[""MFG_P3_BudgetHeadId""].Value="""";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -3685,8 +3798,12 @@ if(IsNullOrEmpty(ISpace["Declaration"].Value))
 base.WriteDebugInfo(@"if(IsNullOrEmpty(ISpace[""Declaration""].Value))");
 ISpace["Message"].Value=@"Select the declaration";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Select the declaration"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["M_SaveDomainData"].Value==1||1==1)
 {
@@ -3799,8 +3916,12 @@ if(ISpace["M_MoveTo"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
 ISpace["Message"].Value=@"Move To should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Move To should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["M_SaveDomainData"].Value==1)
@@ -4049,8 +4170,12 @@ ISpace["Message"].Value=@"Budget Head is already Exists";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Budget Head is already Exists"";");
 ISpace["MFG_P3_BudgetHeadId"].Value="";
 base.WriteDebugInfo(@"ISpace[""MFG_P3_BudgetHeadId""].Value="""";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -4270,8 +4395,12 @@ if(IsNullOrEmpty(ISpace["Declaration"].Value))
 base.WriteDebugInfo(@"if(IsNullOrEmpty(ISpace[""Declaration""].Value))");
 ISpace["Message"].Value=@"Select the declaration";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Select the declaration"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["M_SaveDomainData"].Value==1||1==1)
 {
@@ -4384,8 +4513,12 @@ if(ISpace["M_MoveTo"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
 ISpace["Message"].Value=@"Move To should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Move To should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["M_SaveDomainData"].Value==1)
@@ -4634,8 +4767,12 @@ ISpace["Message"].Value=@"Budget Head is already Exists";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Budget Head is already Exists"";");
 ISpace["MFG_P3_BudgetHeadId"].Value="";
 base.WriteDebugInfo(@"ISpace[""MFG_P3_BudgetHeadId""].Value="""";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -4855,8 +4992,12 @@ if(IsNullOrEmpty(ISpace["Declaration"].Value))
 base.WriteDebugInfo(@"if(IsNullOrEmpty(ISpace[""Declaration""].Value))");
 ISpace["Message"].Value=@"Select the declaration";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Select the declaration"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["M_SaveDomainData"].Value==1||1==1)
 {
@@ -5008,8 +5149,12 @@ if(ISpace["M_MoveTo"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
 ISpace["Message"].Value=@"Move To should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Move To should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["M_SaveDomainData"].Value==1)
@@ -5258,8 +5403,12 @@ ISpace["Message"].Value=@"Budget Head is already Exists";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Budget Head is already Exists"";");
 ISpace["MFG_P3_BudgetHeadId"].Value="";
 base.WriteDebugInfo(@"ISpace[""MFG_P3_BudgetHeadId""].Value="""";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -5469,8 +5618,12 @@ if(IsNullOrEmpty(ISpace["Declaration"].Value))
 base.WriteDebugInfo(@"if(IsNullOrEmpty(ISpace[""Declaration""].Value))");
 ISpace["Message"].Value=@"Select the declaration";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Select the declaration"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["M_SaveDomainData"].Value==1||1==1)
 {
@@ -5600,16 +5753,24 @@ if(ISpace["MF_P1_TotalAmount"].Value==0)
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_TotalAmount""].Value==0)");
 ISpace["Message"].Value=@"Overall Bill Amount should not be 0";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Overall Bill Amount should not be 0"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MFG_P3_OverallAmount"].Value!=ISpace["MF_P1_TotalAmount"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_P3_OverallAmount""].Value!=ISpace[""MF_P1_TotalAmount""].Value)");
 ISpace["Message"].Value=@"Both Overall Fund Amount and Overall Bill Amount should be same";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Both Overall Fund Amount and Overall Bill Amount should be same"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 base.WriteDebugInfo(@"#MG_DcoumentDetails[Rows]");
 iSpace.GetLoopExpressionData("MG_DcoumentDetails",ref ISpace);
@@ -5627,8 +5788,12 @@ if(
 ISpace[""M_DocumentName""].Value=="""")");
 ISpace["Message"].Value=@"Document Name should be Mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Document Name should be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 
 if(
@@ -5639,8 +5804,12 @@ if(
 IsNullOrEmpty(ISpace[""M_UploadDcoument""].Value))");
 ISpace["Message"].Value=@"Upload Document should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Upload Document should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_DcoumentDetails","744177F0-C5DD-4666-BE31-646818F67196",_objectFactory.GetGridRPP("MG_DcoumentDetails"),_elementBase.GetGridLoopQuery("744177F0-C5DD-4666-BE31-646818F67196","MG_DcoumentDetails",ISpace), ref ISpace);
@@ -5658,8 +5827,12 @@ if(ISpace["M_MoveTo"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
 ISpace["Message"].Value=@"Move To should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Move To should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["M_SaveDomainData"].Value==1)
@@ -5772,8 +5945,12 @@ if(Trim(ISpace["MFG_P3_FundTypeId"].Value)=="")
 base.WriteDebugInfo(@"if(Trim(ISpace[""MFG_P3_FundTypeId""].Value)=="""")");
 ISpace["Message"].Value=@"Please Enter the Fund Type";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Fund Type"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MFG_P3_FundTypeId"].Value=="1")
 {
@@ -5783,16 +5960,24 @@ if(ISpace["MFG_P3_ProjectDetailsId"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""MFG_P3_ProjectDetailsId""].Value=="""")");
 ISpace["Message"].Value=@"Project No should be Mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Project No should be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MFG_P3_BudgetHeadId"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_P3_BudgetHeadId""].Value=="""")");
 ISpace["Message"].Value=@"Budget Head should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Budget Head should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["MFG_P3_Amount"].Value==0)
@@ -5800,8 +5985,12 @@ if(ISpace["MFG_P3_Amount"].Value==0)
 base.WriteDebugInfo(@"if(ISpace[""MFG_P3_Amount""].Value==0)");
 ISpace["Message"].Value=@"Please Enter the Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 base.WriteDebugInfo(@"EXEC [ValidatePaymentFundAvailability] '#MFG_P3_FundTypeId','#MFG_P3_ProjectDetailsId','#MFG_P3_BudgetHeadId','#UC_EmployeeBaicInfoId','#MFG_P3_Amount'");
 
@@ -5826,8 +6015,12 @@ if(ISpace["M_ErrId"].Value==0)
 base.WriteDebugInfo(@"if(ISpace[""M_ErrId""].Value==0)");
 ISpace["Message"].Value=String.Format(@"{0}",ISpace["M_ErrMsg"].Value);
 base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""M_ErrMsg""].Value);");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["MFG_P3_FundTypeId"].Value=="1")
@@ -5858,8 +6051,12 @@ ISpace["Message"].Value=@"Budget Head is already Exists";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Budget Head is already Exists"";");
 ISpace["MFG_P3_BudgetHeadId"].Value="";
 base.WriteDebugInfo(@"ISpace[""MFG_P3_BudgetHeadId""].Value="""";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 }
@@ -6151,8 +6348,12 @@ if(IsNullOrEmpty(ISpace["Declaration"].Value))
 base.WriteDebugInfo(@"if(IsNullOrEmpty(ISpace[""Declaration""].Value))");
 ISpace["Message"].Value=@"Select the declaration";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Select the declaration"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["M_SaveDomainData"].Value==1||1==1)
 {
@@ -6304,8 +6505,12 @@ if(ISpace["M_MoveTo"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
 ISpace["Message"].Value=@"Move To should be mandatory";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Move To should be mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
 return;
-base.WriteDebugInfo(@"return;");
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 }
 if(ISpace["M_SaveDomainData"].Value==1)

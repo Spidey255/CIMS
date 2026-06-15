@@ -1,6 +1,6 @@
 // Innovace Intech Solution Pvt Ltd
 import React from "react";
-import "./gridShimmer.css";
+import "@/styles/gridShimmer.css";
 
 const GridShimmer: React.FC<{ rows?: number }> = ({ rows = 5 }) => {
   return (

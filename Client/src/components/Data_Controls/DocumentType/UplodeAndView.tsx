@@ -1,4 +1,5 @@
 // Innovace Intech Solution Pvt Ltd
+// Innovace Intech Solution Pvt Ltd
 import React, { useCallback, useEffect, useRef, useState } from "react";
 
 import type { IInlineMultiFile, UIElement } from "@/constants/types";
@@ -35,6 +36,8 @@ const UploadAndView: React.FC<{
 
   const handleLoadData = useCallback(async () => {
     if (!state || !state?.toString().includes("#")) return;
+    
+   
 
     try {
       const data = await getBase64StringFromUrl(
@@ -97,7 +100,8 @@ const UploadAndView: React.FC<{
       if (result) {
         // Replace existing file with the new one
         setFiles([result]); // Ensuring only the new file is in the state
-        setState(element.ElementName, result.documentId);
+        const name = result.documentId+"#"+result.fileName
+        setState(element.ElementName, name);
       }
     } catch (error) {
       console.log(error);
