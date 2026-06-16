@@ -1,6 +1,6 @@
 // Innovace Intech Solution Pvt Ltd
 // ⚠️ AUTO-GENERATED FILE – DO NOT EDIT
-// Generated on 2026-06-15T11:31:23.398Z
+// Generated on 2026-06-16T11:19:57.432Z
 
 export const pages = [
   {
@@ -66,8 +66,8 @@ export const pages = [
   {
     "PackageProcessMapId": "b92107f7-28a5-49d0-8b7f-312c4826dd60",
     "ProcessActivityMapId": "E1B5DCB8-1278-4AA0-A8B2-1C0CDE17E77A",
-    "ProcessName": "ProjectCreationfromAutomation",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW1"
+    "ProcessName": "ProjectCreation",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreation_VIEW1"
   },
   {
     "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
@@ -78,8 +78,8 @@ export const pages = [
   {
     "PackageProcessMapId": "b92107f7-28a5-49d0-8b7f-312c4826dd60",
     "ProcessActivityMapId": "BD6CC522-F7E6-46CB-B200-9C41F448175B",
-    "ProcessName": "ProjectCreationfromAutomation",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW2"
+    "ProcessName": "ProjectCreation",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreation_VIEW2"
   },
   {
     "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
@@ -126,8 +126,8 @@ export const pages = [
   {
     "PackageProcessMapId": "b92107f7-28a5-49d0-8b7f-312c4826dd60",
     "ProcessActivityMapId": "88470FA8-05F7-4764-A871-E9DAC8F66C89",
-    "ProcessName": "ProjectCreationfromAutomation",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW4"
+    "ProcessName": "ProjectCreation",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreation_VIEW4"
   },
   {
     "PackageProcessMapId": "84777088-B51C-45AA-8BBA-D24FBDEF26E9",
@@ -138,8 +138,8 @@ export const pages = [
   {
     "PackageProcessMapId": "b92107f7-28a5-49d0-8b7f-312c4826dd60",
     "ProcessActivityMapId": "218B0C87-E3E2-4D2E-BB8F-B38C51CAD1FE",
-    "ProcessName": "ProjectCreationfromAutomation",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreationfromAutomation_VIEW3"
+    "ProcessName": "ProjectCreation",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreation_VIEW3"
   },
   {
     "PackageProcessMapId": "64C42232-67DB-43B8-8B68-4468FE0DD17F",
@@ -164,6 +164,12 @@ export const pages = [
     "ProcessActivityMapId": "C74E1FE0-A9E3-4B09-A184-6D1DC9CE7B0F",
     "ProcessName": "CommitmentSpentDetails",
     "RoutPath": "PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start"
+  },
+  {
+    "PackageProcessMapId": "026e321e-9bb7-4c74-8615-3bbd7cc1b241",
+    "ProcessActivityMapId": "6d06ae9b-b587-3c74-a747-3b1063ed2f0d",
+    "ProcessName": "ProjectProposal",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectProposal_View"
   },
   {
     "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",

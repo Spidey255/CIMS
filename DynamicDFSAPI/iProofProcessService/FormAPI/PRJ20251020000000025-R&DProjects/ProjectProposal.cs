@@ -152,10 +152,6 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
-			     new Triplet<string, string, string>("8a3f1b64-7176-b37d-7999-a8c604f44456","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"028B1EFF-34A8-4D44-BF39-06CE99DF7C67"),
-			
-						
 			     new Triplet<string, string, string>("F928C371-839D-4F0F-AF8D-BCADF87418A6","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -182,6 +178,10 @@ namespace CPS.Proof.DFSExtension
 						
 			     new Triplet<string, string, string>("401A9D34-8FD6-4AD0-8D6D-BFDA8D331663","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
+			
+						
+			     new Triplet<string, string, string>("282f122c-129c-3f66-2802-e500377eb9b5","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
 			     new Triplet<string, string, string>("f503cb55-6d72-d4d5-8857-a65ba2925360","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
@@ -386,6 +386,10 @@ namespace CPS.Proof.DFSExtension
 							virtualInstance=new ISpace2D400E54E6D143C798243831B9AD8F32();
 							break;
 					
+											case "6d06ae9b-b587-3c74-a747-3b1063ed2f0d":
+							virtualInstance=new ISpace6d06ae9bb5873c74a7473b1063ed2f0d();
+							break;
+					
 					
 					default:
 						break;
@@ -482,10 +486,10 @@ namespace CPS.Proof.DFSExtension
                     {
                      
                                      fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [E0AC6667-6D92-49AA-8F4D-01F473F2E426] WHERE InstanceId='{0}' AND
-							 FormId='{2}') BEGIN INSERT INTO [E0AC6667-6D92-49AA-8F4D-01F473F2E426](ProcessActivityMapId,FormId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d1_ProjectProposalID,MF_d1_ProjectRefNo,MF_d1_ProjectCategoryID,MF_d1_FinancialYearID,MF_d1_DepartmentID,MF_d1_Designation,MF_d1_ProjectName,MF_d1_ProjectType,MF_d1_FundingAgency,MF_d1_ProjectBudget,MF_d1_Remarks,MF_d1_PrincipalInvestigator,MF_d1_EmployeeBasicInfoId,MF_d1_ProjectStatus,MF_d1_SectorID,MF_d1_EndorsementFileType,MF_d1_ProposalCode,MF_d1_IsSubmitted,MF_d1_OverHead,MF_d1_IfExternalInstitute,MF_d1_UpdatedBy,MF_d1_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_d1_Currency,M_DepartmentId,M_DesignationId,Dept,DummyInstance,M_EMPCode,M_DeptCode,MF_d1_ProjectCategoryCode,M_MoveTo,InstanceId,M_FlowType,M_ParentRowId)
+							 FormId='{2}') BEGIN INSERT INTO [E0AC6667-6D92-49AA-8F4D-01F473F2E426](ProcessActivityMapId,FormId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d1_ProjectProposalID,MF_d1_ProjectRefNo,MF_d1_ProjectCategoryID,MF_d1_FinancialYearID,MF_d1_DepartmentID,MF_d1_Designation,MF_d1_ProjectName,MF_d1_ProjectType,MF_d1_FundingAgency,MF_d1_ProjectBudget,MF_d1_Remarks,MF_d1_PrincipalInvestigator,MF_d1_EmployeeBasicInfoId,MF_d1_ProjectStatus,MF_d1_SectorID,MF_d1_EndorsementFileType,MF_d1_ProposalCode,MF_d1_IsSubmitted,MF_d1_OverHead,MF_d1_IfExternalInstitute,MF_d1_UpdatedBy,MF_d1_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_d1_Currency,M_DepartmentId,M_DesignationId,Dept,DummyInstance,M_EMPCode,M_DeptCode,MF_d1_ProjectCategoryCode,M_MoveTo,InstanceId,M_FlowType,M_ParentRowId,MandatoryCheck)
 							VALUES( {3}) END ELSE BEGIN UPDATE [E0AC6667-6D92-49AA-8F4D-01F473F2E426]SET {4}WHERE InstanceId='{0}'END ";
 
-                                     colList=@"ProcessActivityMapId,FormId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d1_ProjectProposalID,MF_d1_ProjectRefNo,MF_d1_ProjectCategoryID,MF_d1_FinancialYearID,MF_d1_DepartmentID,MF_d1_Designation,MF_d1_ProjectName,MF_d1_ProjectType,MF_d1_FundingAgency,MF_d1_ProjectBudget,MF_d1_Remarks,MF_d1_PrincipalInvestigator,MF_d1_EmployeeBasicInfoId,MF_d1_ProjectStatus,MF_d1_SectorID,MF_d1_EndorsementFileType,MF_d1_ProposalCode,MF_d1_IsSubmitted,MF_d1_OverHead,MF_d1_IfExternalInstitute,MF_d1_UpdatedBy,MF_d1_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_d1_Currency,M_DepartmentId,M_DesignationId,Dept,DummyInstance,M_EMPCode,M_DeptCode,MF_d1_ProjectCategoryCode,M_MoveTo,InstanceId,M_FlowType,M_ParentRowId";
+                                     colList=@"ProcessActivityMapId,FormId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d1_ProjectProposalID,MF_d1_ProjectRefNo,MF_d1_ProjectCategoryID,MF_d1_FinancialYearID,MF_d1_DepartmentID,MF_d1_Designation,MF_d1_ProjectName,MF_d1_ProjectType,MF_d1_FundingAgency,MF_d1_ProjectBudget,MF_d1_Remarks,MF_d1_PrincipalInvestigator,MF_d1_EmployeeBasicInfoId,MF_d1_ProjectStatus,MF_d1_SectorID,MF_d1_EndorsementFileType,MF_d1_ProposalCode,MF_d1_IsSubmitted,MF_d1_OverHead,MF_d1_IfExternalInstitute,MF_d1_UpdatedBy,MF_d1_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_d1_Currency,M_DepartmentId,M_DesignationId,Dept,DummyInstance,M_EMPCode,M_DeptCode,MF_d1_ProjectCategoryCode,M_MoveTo,InstanceId,M_FlowType,M_ParentRowId,MandatoryCheck";
                                     
                      
                             splitcols = colList.Split(',');
@@ -1411,36 +1415,6 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""FA963D46-2D52-4A3E-8
 {
 ISpace[""UI_InvisibleRow""].Visible=""false"";
 }");
-base.WriteDebugInfo(@"EXEC GetEmployeeATOMDetails '@@gv_UserId'");
-
-var querySource8a3f1b647176b37d7999a8c604f44456 =GetQueryExpressionDataSource("8a3f1b64-7176-b37d-7999-a8c604f44456");
-Dictionary<short,object> result8a3f1b647176b37d7999a8c604f44456=iSpace.ExecuteQuery(querySource8a3f1b647176b37d7999a8c604f44456,@"EXEC GetEmployeeATOMDetails '" + ISpace["gv_userid"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySource8a3f1b647176b37d7999a8c604f44456 =GetQueryExpressionDataSource(""8a3f1b64-7176-b37d-7999-a8c604f44456"");Dictionary<short,object> result8a3f1b647176b37d7999a8c604f44456=iSpace.ExecuteQuery(querySource8a3f1b647176b37d7999a8c604f44456,@""EXEC GetEmployeeATOMDetails '"" + ISpace[""gv_userid""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((result8a3f1b647176b37d7999a8c604f44456!=null) && (result8a3f1b647176b37d7999a8c604f44456.Count!=0))
-{
-if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(20))
-ISpace["M_DeptCode"].Value = result8a3f1b647176b37d7999a8c604f44456[20];
-if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(4))
-ISpace["M_DepartmentId"].Value = result8a3f1b647176b37d7999a8c604f44456[4];
-if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(3))
-ISpace["MF_d1_DepartmentID"].Value = result8a3f1b647176b37d7999a8c604f44456[3];
-if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(2))
-ISpace["MF_d1_Designation"].Value = result8a3f1b647176b37d7999a8c604f44456[2];
-if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(0))
-ISpace["M_EMPCode"].Value = result8a3f1b647176b37d7999a8c604f44456[0];
-if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(19))
-ISpace["MF_d1_PrincipalInvestigator"].Value = result8a3f1b647176b37d7999a8c604f44456[19];
-if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(21))
-ISpace["M_DesignationId"].Value = result8a3f1b647176b37d7999a8c604f44456[21];
-if(result8a3f1b647176b37d7999a8c604f44456.ContainsKey(8))
-ISpace["MF_d1_EmployeeBasicInfoId"].Value = result8a3f1b647176b37d7999a8c604f44456[8];
-}
-else{
-ISpace["M_DeptCode"].Value = null;ISpace["M_DepartmentId"].Value = null;ISpace["MF_d1_DepartmentID"].Value = null;ISpace["MF_d1_Designation"].Value = null;ISpace["M_EMPCode"].Value = null;ISpace["MF_d1_PrincipalInvestigator"].Value = null;ISpace["M_DesignationId"].Value = null;ISpace["MF_d1_EmployeeBasicInfoId"].Value = null;
-}
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
@@ -1479,12 +1453,72 @@ else{
 ISpace["MF_d1_FinancialYearID"].Value = null;
 }
 }
-ISpace["MF_d1_FinancialYearID"].Man=true;ISpace["MF_d1_ProjectName"].Man=true;ISpace["MF_d1_ProjectCategoryID"].Man=true;ISpace["MF_d1_ProjectType"].Man=true;ISpace["MF_d1_SectorID"].Man=true;ISpace["MF_d1_FundingAgency"].Man=true;
-base.WriteDebugInfo(@"ISpace[""MF_d1_FinancialYearID""].Man=true;ISpace[""MF_d1_ProjectName""].Man=true;ISpace[""MF_d1_ProjectCategoryID""].Man=true;ISpace[""MF_d1_ProjectType""].Man=true;ISpace[""MF_d1_SectorID""].Man=true;ISpace[""MF_d1_FundingAgency""].Man=true;");
+ISpace["MF_d1_FinancialYearID"].Man=true;ISpace["MF_d1_ProjectName"].Man=true;ISpace["MF_d1_ProjectCategoryID"].Man=true;ISpace["MF_d1_Currency"].Man=true;ISpace["MF_d1_ProjectBudget"].Man=true;ISpace["MF_d1_ProjectType"].Man=true;ISpace["MF_d1_SectorID"].Man=true;ISpace["MF_d1_FundingAgency"].Man=true;
+base.WriteDebugInfo(@"ISpace[""MF_d1_FinancialYearID""].Man=true;ISpace[""MF_d1_ProjectName""].Man=true;ISpace[""MF_d1_ProjectCategoryID""].Man=true;ISpace[""MF_d1_Currency""].Man=true;ISpace[""MF_d1_ProjectBudget""].Man=true;ISpace[""MF_d1_ProjectType""].Man=true;ISpace[""MF_d1_SectorID""].Man=true;ISpace[""MF_d1_FundingAgency""].Man=true;");
 
 
 
 
+ISpace["MF_d1_ProjectStatus"].Value="2";
+base.WriteDebugInfo(@"ISpace[""MF_d1_ProjectStatus""].Value=""2"";");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC GetEmployeeATOMDetails '@@gv_UserId'");
+
+var querySource282f122c129c3f662802e500377eb9b5 =GetQueryExpressionDataSource("282f122c-129c-3f66-2802-e500377eb9b5");
+Dictionary<short,object> result282f122c129c3f662802e500377eb9b5=iSpace.ExecuteQuery(querySource282f122c129c3f662802e500377eb9b5,@"EXEC GetEmployeeATOMDetails '" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource282f122c129c3f662802e500377eb9b5 =GetQueryExpressionDataSource(""282f122c-129c-3f66-2802-e500377eb9b5"");Dictionary<short,object> result282f122c129c3f662802e500377eb9b5=iSpace.ExecuteQuery(querySource282f122c129c3f662802e500377eb9b5,@""EXEC GetEmployeeATOMDetails '"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result282f122c129c3f662802e500377eb9b5!=null) && (result282f122c129c3f662802e500377eb9b5.Count!=0))
+{
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(20))
+ISpace["M_DeptCode"].Value = result282f122c129c3f662802e500377eb9b5[20];
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(4))
+ISpace["M_DepartmentId"].Value = result282f122c129c3f662802e500377eb9b5[4];
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(3))
+ISpace["MF_d1_DepartmentID"].Value = result282f122c129c3f662802e500377eb9b5[3];
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(2))
+ISpace["MF_d1_Designation"].Value = result282f122c129c3f662802e500377eb9b5[2];
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(0))
+ISpace["M_EMPCode"].Value = result282f122c129c3f662802e500377eb9b5[0];
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(19))
+ISpace["MF_d1_PrincipalInvestigator"].Value = result282f122c129c3f662802e500377eb9b5[19];
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(21))
+ISpace["M_DesignationId"].Value = result282f122c129c3f662802e500377eb9b5[21];
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(8))
+ISpace["MF_d1_EmployeeBasicInfoId"].Value = result282f122c129c3f662802e500377eb9b5[8];
+}
+else{
+ISpace["M_DeptCode"].Value = null;ISpace["M_DepartmentId"].Value = null;ISpace["MF_d1_DepartmentID"].Value = null;ISpace["MF_d1_Designation"].Value = null;ISpace["M_EMPCode"].Value = null;ISpace["MF_d1_PrincipalInvestigator"].Value = null;ISpace["M_DesignationId"].Value = null;ISpace["MF_d1_EmployeeBasicInfoId"].Value = null;
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mg_d3_uploaddocument (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MG_d3_UploadDocument-OnChange");
+if(IsNullOrEmpty(ISpace["MG_d3_UploadDocument"].Value))
+{
+base.WriteDebugInfo(@"if(IsNullOrEmpty(ISpace[""MG_d3_UploadDocument""].Value))");
+ISpace["MG_d3_MandatoryCheck"].Value=0;
+base.WriteDebugInfo(@"ISpace[""MG_d3_MandatoryCheck""].Value=0;");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["MG_d3_MandatoryCheck"].Value=0;
+base.WriteDebugInfo(@"ISpace[""MG_d3_MandatoryCheck""].Value=0;");
+}
 }
 catch(Exception ex)
 {
@@ -1768,14 +1802,147 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"SubmitForm-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+if(ISpace["MF_d1_FinancialYearID"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_FinancialYearID""].Value=="""")");
+ISpace["Message"].Value=@"ERROR:Financial Year should be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Financial Year should be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MF_d1_FundingAgency"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_FundingAgency""].Value=="""")");
+ISpace["Message"].Value=@"ERROR:Funding Agency should be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Funding Agency should be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MF_d1_ProjectCategoryID"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectCategoryID""].Value=="""")");
+ISpace["Message"].Value=@"ERROR:Project Category should be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Project Category should be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MF_d1_SectorID"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_SectorID""].Value=="""")");
+ISpace["Message"].Value=@"ERROR:Sector should be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Sector should be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MF_d1_ProjectName"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectName""].Value=="""")");
+ISpace["Message"].Value=@"ERROR:Project Title shoule be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Project Title shoule be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MF_d1_ProjectType"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectType""].Value=="""")");
+ISpace["Message"].Value=@"ERROR:Project Type shoule be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Project Type shoule be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MF_d1_ProjectBudget"].Value==0)
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectBudget""].Value==0)");
+ISpace["Message"].Value=@"ERROR:Project Budget should not be 0";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Project Budget should not be 0"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MF_d1_ProjectType"].Value=="450")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectType""].Value==""450"")");
+if(ISpace["MF_d1_Currency"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_Currency""].Value=="""")");
+ISpace["Message"].Value=@"ERROR:Currency should be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Currency should be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
+base.WriteDebugInfo(@"#ProposalDocuments[Rows]");
+iSpace.GetLoopExpressionData("ProposalDocuments",ref ISpace);
+
+foreach(var gridChild in ISpace["ProposalDocuments"].Child)
+{foreach(var gridrow in gridChild.Child)
+ {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
+
+
+if(
+ISpace["MG_d3_MandatoryCheck"].Value==0)
+{
+base.WriteDebugInfo(@"
+if(
+ISpace[""MG_d3_MandatoryCheck""].Value==0)");
+ISpace["Message"].Value=@"ERROR:Please Upload Project Proposal Document";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Please Upload Project Proposal Document"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ProposalDocuments","D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5",_objectFactory.GetGridRPP("ProposalDocuments"),_elementBase.GetGridLoopQuery("D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5","ProposalDocuments",ISpace), ref ISpace);
+base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ProposalDocuments"",ref ISpace);
+
+foreach(var gridChild in ISpace[""ProposalDocuments""].Child)
+{foreach(var gridrow in gridChild.Child)
+ {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
+");
+}
 if(ISpace["MF_d1_ProjectProposalID"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectProposalID""].Value=="""")");
 ISpace["MF_d1_ProjectProposalID"].Value=ISpace["gv_instanceid"].Value;
 base.WriteDebugInfo(@"ISpace[""MF_d1_ProjectProposalID""].Value=ISpace[""gv_instanceid""].Value;");
 }
-ISpace["MF_d1_ProjectStatus"].Value="2";
-base.WriteDebugInfo(@"ISpace[""MF_d1_ProjectStatus""].Value=""2"";");
 if(ISpace["MF_d1_ProjectRefNo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectRefNo""].Value=="""")");
@@ -1852,19 +2019,6 @@ ISpace["ExecutionMessage"].Value = null;
 }
 ISpace["Message"].Value=@"Success:Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:Submitted Successfully"";");
-
-if(ISpace["M_MoveTo"].Value=="RETURN")
-{
-base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value==""RETURN"")");
-ISpace["M_FlowType"].Value="RETURN";
-base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value=""RETURN"";");
-}
-else
-{
-base.WriteDebugInfo(@"else");
-ISpace["M_FlowType"].Value="";
-base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value="""";");
-}
 
 ISpace["RedirectUrl"].RedirectType="R";
 ISpace["RedirectUrl"].Value="?PkActMId=34CF8FAF-7574-478F-9C4A-A65F98E4D18A&frmElementId=7816392B-A9EF-486D-88F9-AC7C972D679B&PkPrMId=B219A0EA-0254-4F69-B989-B681DD475183&formVersionId=02A1FE25-AE94-461D-9B6F-A7AC8493B6F6&Ver=0.0000";
@@ -1949,6 +2103,10 @@ public override void ExecuteMethod
 }
 	if(methodName.ToLower().Equals("onchange"))
 {
+		if(elementName.ToLower().Equals("mg_d3_uploaddocument"))
+    {
+    			SubscribeElementEvents_mg_d3_uploaddocument(ref dfsParam);
+    }
 		if(elementName.ToLower().Equals("mf_d1_projectcategoryid"))
     {
     			SubscribeElementEvents_mf_d1_projectcategoryid(ref dfsParam);
@@ -2021,6 +2179,18 @@ private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData>
 try
 {
 base.WriteDebugInfo(@"Root-OnAfterFormLoad");
+ISpace["M_DepartmentId"].Visible="false";ISpace["MF_d1_Currency"].Visible="false";ISpace["M_DesignationId"].Visible="false";ISpace["MF_d1_EmployeeBasicInfoId"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""M_DepartmentId""].Visible=""false"";ISpace[""MF_d1_Currency""].Visible=""false"";ISpace[""M_DesignationId""].Visible=""false"";ISpace[""MF_d1_EmployeeBasicInfoId""].Visible=""false"";");
+ISpace["MFG_d2_DesignationID"].Visible="false";ISpace["MFG_d2_ExternalInstituteName"].Visible="false";ISpace["MFG_d2_ExternalEmailId"].Visible="false";ISpace["MFG_d2_ExternalContactNo"].Visible="false";ISpace["MFG_d2_ExternalDesignation"].Visible="false";ISpace["MFG_d2_ExternalFacultyName"].Visible="false";ISpace["MFG_d2_AdditionalName"].Visible="false";ISpace["MFG_d2_Departmentid"].Visible="false";ISpace["MFG_d2_AdditionalType"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MFG_d2_DesignationID""].Visible=""false"";ISpace[""MFG_d2_ExternalInstituteName""].Visible=""false"";ISpace[""MFG_d2_ExternalEmailId""].Visible=""false"";ISpace[""MFG_d2_ExternalContactNo""].Visible=""false"";ISpace[""MFG_d2_ExternalDesignation""].Visible=""false"";ISpace[""MFG_d2_ExternalFacultyName""].Visible=""false"";ISpace[""MFG_d2_AdditionalName""].Visible=""false"";ISpace[""MFG_d2_Departmentid""].Visible=""false"";ISpace[""MFG_d2_AdditionalType""].Visible=""false"";");
+if(ISpace["FormVersionId"].Value=="FA963D46-2D52-4A3E-8550-E878A2504252")
+{
+ISpace["UI_InvisibleRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""FA963D46-2D52-4A3E-8550-E878A2504252"")
+{
+ISpace[""UI_InvisibleRow""].Visible=""false"";
+}");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
@@ -2111,24 +2281,52 @@ else{
 ISpace["ExecutionMessage"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_m_moveto (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_MoveTo-OnChange");
+if(ISpace["M_MoveTo"].Value=="APPROVE")
+{
+base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value==""APPROVE"")");
+ISpace["MF_d1_ProjectStatus"].Value="5";
+base.WriteDebugInfo(@"ISpace[""MF_d1_ProjectStatus""].Value=""5"";");
+}
 if(ISpace["M_MoveTo"].Value=="RETURN")
 {
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value==""RETURN"")");
 ISpace["M_FlowType"].Value="RETURN";
 base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value=""RETURN"";");
+ISpace["MF_d1_ProjectStatus"].Value="3";
+base.WriteDebugInfo(@"ISpace[""MF_d1_ProjectStatus""].Value=""3"";");
 }
-else
+if(ISpace["M_MoveTo"].Value=="APPROVE")
 {
-base.WriteDebugInfo(@"else");
-ISpace["M_FlowType"].Value="";
-base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value="""";");
+base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value==""APPROVE"")");
+ISpace["M_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value=""APPROVE"";");
 }
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="http://10.195.250.170/CIMS/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""http://10.195.250.170/CIMS/Inbox"";");
+if(ISpace["M_MoveTo"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value==""REJECT"")");
+ISpace["M_FlowType"].Value="REJECT";
+base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value=""REJECT"";");
+ISpace["MF_d1_ProjectStatus"].Value="4";
+base.WriteDebugInfo(@"ISpace[""MF_d1_ProjectStatus""].Value=""4"";");
+}
 }
 catch(Exception ex)
 {
@@ -2145,6 +2343,10 @@ public override void ExecuteMethod
 }
 	if(methodName.ToLower().Equals("onchange"))
 {
+		if(elementName.ToLower().Equals("m_moveto"))
+    {
+    			SubscribeElementEvents_m_moveto(ref dfsParam);
+    }
 }
 	if(methodName.ToLower().Equals("onclick"))
 {
@@ -2172,6 +2374,61 @@ private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData>
 {
 try
 {
+base.WriteDebugInfo(@"Root-OnAfterFormLoad");
+ISpace["M_DepartmentId"].Visible="false";ISpace["MF_d1_Currency"].Visible="false";ISpace["M_DesignationId"].Visible="false";ISpace["MF_d1_EmployeeBasicInfoId"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""M_DepartmentId""].Visible=""false"";ISpace[""MF_d1_Currency""].Visible=""false"";ISpace[""M_DesignationId""].Visible=""false"";ISpace[""MF_d1_EmployeeBasicInfoId""].Visible=""false"";");
+ISpace["MFG_d2_DesignationID"].Visible="false";ISpace["MFG_d2_ExternalInstituteName"].Visible="false";ISpace["MFG_d2_ExternalEmailId"].Visible="false";ISpace["MFG_d2_ExternalContactNo"].Visible="false";ISpace["MFG_d2_ExternalDesignation"].Visible="false";ISpace["MFG_d2_ExternalFacultyName"].Visible="false";ISpace["MFG_d2_AdditionalName"].Visible="false";ISpace["MFG_d2_Departmentid"].Visible="false";ISpace["MFG_d2_AdditionalType"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MFG_d2_DesignationID""].Visible=""false"";ISpace[""MFG_d2_ExternalInstituteName""].Visible=""false"";ISpace[""MFG_d2_ExternalEmailId""].Visible=""false"";ISpace[""MFG_d2_ExternalContactNo""].Visible=""false"";ISpace[""MFG_d2_ExternalDesignation""].Visible=""false"";ISpace[""MFG_d2_ExternalFacultyName""].Visible=""false"";ISpace[""MFG_d2_AdditionalName""].Visible=""false"";ISpace[""MFG_d2_Departmentid""].Visible=""false"";ISpace[""MFG_d2_AdditionalType""].Visible=""false"";");
+if(ISpace["FormVersionId"].Value=="FA963D46-2D52-4A3E-8550-E878A2504252")
+{
+ISpace["UI_InvisibleRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""FA963D46-2D52-4A3E-8550-E878A2504252"")
+{
+ISpace[""UI_InvisibleRow""].Visible=""false"";
+}");
+ISpace["MF_d1_FinancialYearID"].Man=true;ISpace["MF_d1_ProjectName"].Man=true;ISpace["MF_d1_ProjectCategoryID"].Man=true;ISpace["MF_d1_Currency"].Man=true;ISpace["MF_d1_ProjectBudget"].Man=true;ISpace["MF_d1_ProjectType"].Man=true;ISpace["MF_d1_SectorID"].Man=true;ISpace["MF_d1_FundingAgency"].Man=true;
+base.WriteDebugInfo(@"ISpace[""MF_d1_FinancialYearID""].Man=true;ISpace[""MF_d1_ProjectName""].Man=true;ISpace[""MF_d1_ProjectCategoryID""].Man=true;ISpace[""MF_d1_Currency""].Man=true;ISpace[""MF_d1_ProjectBudget""].Man=true;ISpace[""MF_d1_ProjectType""].Man=true;ISpace[""MF_d1_SectorID""].Man=true;ISpace[""MF_d1_FundingAgency""].Man=true;");
+
+
+
+
+ISpace["MF_d1_ProjectStatus"].Value="2";
+base.WriteDebugInfo(@"ISpace[""MF_d1_ProjectStatus""].Value=""2"";");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC GetEmployeeATOMDetails '@@gv_UserId'");
+
+var querySource282f122c129c3f662802e500377eb9b5 =GetQueryExpressionDataSource("282f122c-129c-3f66-2802-e500377eb9b5");
+Dictionary<short,object> result282f122c129c3f662802e500377eb9b5=iSpace.ExecuteQuery(querySource282f122c129c3f662802e500377eb9b5,@"EXEC GetEmployeeATOMDetails '" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource282f122c129c3f662802e500377eb9b5 =GetQueryExpressionDataSource(""282f122c-129c-3f66-2802-e500377eb9b5"");Dictionary<short,object> result282f122c129c3f662802e500377eb9b5=iSpace.ExecuteQuery(querySource282f122c129c3f662802e500377eb9b5,@""EXEC GetEmployeeATOMDetails '"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result282f122c129c3f662802e500377eb9b5!=null) && (result282f122c129c3f662802e500377eb9b5.Count!=0))
+{
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(20))
+ISpace["M_DeptCode"].Value = result282f122c129c3f662802e500377eb9b5[20];
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(4))
+ISpace["M_DepartmentId"].Value = result282f122c129c3f662802e500377eb9b5[4];
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(3))
+ISpace["MF_d1_DepartmentID"].Value = result282f122c129c3f662802e500377eb9b5[3];
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(2))
+ISpace["MF_d1_Designation"].Value = result282f122c129c3f662802e500377eb9b5[2];
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(0))
+ISpace["M_EMPCode"].Value = result282f122c129c3f662802e500377eb9b5[0];
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(19))
+ISpace["MF_d1_PrincipalInvestigator"].Value = result282f122c129c3f662802e500377eb9b5[19];
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(21))
+ISpace["M_DesignationId"].Value = result282f122c129c3f662802e500377eb9b5[21];
+if(result282f122c129c3f662802e500377eb9b5.ContainsKey(8))
+ISpace["MF_d1_EmployeeBasicInfoId"].Value = result282f122c129c3f662802e500377eb9b5[8];
+}
+else{
+ISpace["M_DeptCode"].Value = null;ISpace["M_DepartmentId"].Value = null;ISpace["MF_d1_DepartmentID"].Value = null;ISpace["MF_d1_Designation"].Value = null;ISpace["M_EMPCode"].Value = null;ISpace["MF_d1_PrincipalInvestigator"].Value = null;ISpace["M_DesignationId"].Value = null;ISpace["MF_d1_EmployeeBasicInfoId"].Value = null;
+}
+}
 }
 catch(Exception ex)
 {
@@ -2455,14 +2712,147 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"SubmitForm-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+if(ISpace["MF_d1_FinancialYearID"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_FinancialYearID""].Value=="""")");
+ISpace["Message"].Value=@"ERROR:Financial Year should be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Financial Year should be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MF_d1_FundingAgency"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_FundingAgency""].Value=="""")");
+ISpace["Message"].Value=@"ERROR:Funding Agency should be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Funding Agency should be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MF_d1_ProjectCategoryID"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectCategoryID""].Value=="""")");
+ISpace["Message"].Value=@"ERROR:Project Category should be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Project Category should be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MF_d1_SectorID"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_SectorID""].Value=="""")");
+ISpace["Message"].Value=@"ERROR:Sector should be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Sector should be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MF_d1_ProjectName"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectName""].Value=="""")");
+ISpace["Message"].Value=@"ERROR:Project Title shoule be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Project Title shoule be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MF_d1_ProjectType"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectType""].Value=="""")");
+ISpace["Message"].Value=@"ERROR:Project Type shoule be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Project Type shoule be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MF_d1_ProjectBudget"].Value==0)
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectBudget""].Value==0)");
+ISpace["Message"].Value=@"ERROR:Project Budget should not be 0";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Project Budget should not be 0"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MF_d1_ProjectType"].Value=="450")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectType""].Value==""450"")");
+if(ISpace["MF_d1_Currency"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_Currency""].Value=="""")");
+ISpace["Message"].Value=@"ERROR:Currency should be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Currency should be Mandatory"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
+base.WriteDebugInfo(@"#ProposalDocuments[Rows]");
+iSpace.GetLoopExpressionData("ProposalDocuments",ref ISpace);
+
+foreach(var gridChild in ISpace["ProposalDocuments"].Child)
+{foreach(var gridrow in gridChild.Child)
+ {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
+
+
+if(
+ISpace["MG_d3_MandatoryCheck"].Value==0)
+{
+base.WriteDebugInfo(@"
+if(
+ISpace[""MG_d3_MandatoryCheck""].Value==0)");
+ISpace["Message"].Value=@"ERROR:Please Upload Project Proposal Document";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Please Upload Project Proposal Document"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ProposalDocuments","D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5",_objectFactory.GetGridRPP("ProposalDocuments"),_elementBase.GetGridLoopQuery("D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5","ProposalDocuments",ISpace), ref ISpace);
+base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ProposalDocuments"",ref ISpace);
+
+foreach(var gridChild in ISpace[""ProposalDocuments""].Child)
+{foreach(var gridrow in gridChild.Child)
+ {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
+");
+}
 if(ISpace["MF_d1_ProjectProposalID"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectProposalID""].Value=="""")");
 ISpace["MF_d1_ProjectProposalID"].Value=ISpace["gv_instanceid"].Value;
 base.WriteDebugInfo(@"ISpace[""MF_d1_ProjectProposalID""].Value=ISpace[""gv_instanceid""].Value;");
 }
-ISpace["MF_d1_ProjectStatus"].Value="2";
-base.WriteDebugInfo(@"ISpace[""MF_d1_ProjectStatus""].Value=""2"";");
 if(ISpace["MF_d1_ProjectRefNo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectRefNo""].Value=="""")");
@@ -2539,25 +2929,68 @@ ISpace["ExecutionMessage"].Value = null;
 }
 ISpace["Message"].Value=@"Success:Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:Submitted Successfully"";");
-
 if(ISpace["M_MoveTo"].Value=="RETURN")
 {
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value==""RETURN"")");
 ISpace["M_FlowType"].Value="RETURN";
 base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value=""RETURN"";");
+ISpace["MF_d1_ProjectStatus"].Value="3";
+base.WriteDebugInfo(@"ISpace[""MF_d1_ProjectStatus""].Value=""3"";");
 }
-else
+if(ISpace["M_MoveTo"].Value=="APPROVE")
 {
-base.WriteDebugInfo(@"else");
-ISpace["M_FlowType"].Value="";
-base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value="""";");
+base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value==""APPROVE"")");
+ISpace["M_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value=""APPROVE"";");
+}
+if(ISpace["M_MoveTo"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value==""REJECT"")");
+ISpace["M_FlowType"].Value="REJECT";
+base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value=""REJECT"";");
+ISpace["MF_d1_ProjectStatus"].Value="4";
+base.WriteDebugInfo(@"ISpace[""MF_d1_ProjectStatus""].Value=""4"";");
 }
 
 ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="http://10.195.250.170/CIMS/Inbox";
+ISpace["RedirectUrl"].Value="/Inbox";
 base.WriteDebugInfo(@"
 ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""http://10.195.250.170/CIMS/Inbox"";");
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_m_moveto (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_MoveTo-OnChange");
+if(ISpace["M_MoveTo"].Value=="RETURN")
+{
+base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value==""RETURN"")");
+ISpace["M_FlowType"].Value="RETURN";
+base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value=""RETURN"";");
+ISpace["MF_d1_ProjectStatus"].Value="3";
+base.WriteDebugInfo(@"ISpace[""MF_d1_ProjectStatus""].Value=""3"";");
+}
+if(ISpace["M_MoveTo"].Value=="APPROVE")
+{
+base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value==""APPROVE"")");
+ISpace["M_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value=""APPROVE"";");
+}
+if(ISpace["M_MoveTo"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value==""REJECT"")");
+ISpace["M_FlowType"].Value="REJECT";
+base.WriteDebugInfo(@"ISpace[""M_FlowType""].Value=""REJECT"";");
+ISpace["MF_d1_ProjectStatus"].Value="4";
+base.WriteDebugInfo(@"ISpace[""MF_d1_ProjectStatus""].Value=""4"";");
+}
 }
 catch(Exception ex)
 {
@@ -2648,6 +3081,10 @@ public override void ExecuteMethod
     {
     			SubscribeElementEvents_mfg_d2_membertype(ref dfsParam);
     }
+		if(elementName.ToLower().Equals("m_moveto"))
+    {
+    			SubscribeElementEvents_m_moveto(ref dfsParam);
+    }
 		if(elementName.ToLower().Equals("mfg_d2_departmentid"))
     {
     			SubscribeElementEvents_mfg_d2_departmentid(ref dfsParam);
@@ -2687,6 +3124,58 @@ public override void ExecuteMethod
 {
 			SubscribeElementEvents_submitform(ref dfsParam);
 }
+}
+}
+}
+}
+namespace CPS.Proof.DFSExtension
+{
+
+using System.Collections.Generic;
+using System;
+using CPS.Proof.DFSExtension;
+using System.Linq;using System.Data;
+using System.Runtime.CompilerServices;
+public class ISpace6d06ae9bb5873c74a7473b1063ed2f0d : VirtualForm
+{
+IISpace iSpace = new ISpace();
+AcDataISpace6d06ae9bb5873c74a7473b1063ed2f0d acdataIspace6d06ae9bb5873c74a7473b1063ed2f0d=new AcDataISpace6d06ae9bb5873c74a7473b1063ed2f0d();
+private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
+{
+try
+{
+base.WriteDebugInfo(@"Root-OnAfterFormLoad");
+ISpace["M_DepartmentId"].Visible="false";ISpace["MF_d1_Currency"].Visible="false";ISpace["M_DesignationId"].Visible="false";ISpace["MF_d1_EmployeeBasicInfoId"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""M_DepartmentId""].Visible=""false"";ISpace[""MF_d1_Currency""].Visible=""false"";ISpace[""M_DesignationId""].Visible=""false"";ISpace[""MF_d1_EmployeeBasicInfoId""].Visible=""false"";");
+ISpace["MFG_d2_DesignationID"].Visible="false";ISpace["MFG_d2_ExternalInstituteName"].Visible="false";ISpace["MFG_d2_ExternalEmailId"].Visible="false";ISpace["MFG_d2_ExternalContactNo"].Visible="false";ISpace["MFG_d2_ExternalDesignation"].Visible="false";ISpace["MFG_d2_ExternalFacultyName"].Visible="false";ISpace["MFG_d2_AdditionalName"].Visible="false";ISpace["MFG_d2_Departmentid"].Visible="false";ISpace["MFG_d2_AdditionalType"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MFG_d2_DesignationID""].Visible=""false"";ISpace[""MFG_d2_ExternalInstituteName""].Visible=""false"";ISpace[""MFG_d2_ExternalEmailId""].Visible=""false"";ISpace[""MFG_d2_ExternalContactNo""].Visible=""false"";ISpace[""MFG_d2_ExternalDesignation""].Visible=""false"";ISpace[""MFG_d2_ExternalFacultyName""].Visible=""false"";ISpace[""MFG_d2_AdditionalName""].Visible=""false"";ISpace[""MFG_d2_Departmentid""].Visible=""false"";ISpace[""MFG_d2_AdditionalType""].Visible=""false"";");
+if(ISpace["FormVersionId"].Value=="FA963D46-2D52-4A3E-8550-E878A2504252")
+{
+ISpace["UI_InvisibleRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""FA963D46-2D52-4A3E-8550-E878A2504252"")
+{
+ISpace[""UI_InvisibleRow""].Visible=""false"";
+}");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+public override void ExecuteMethod
+	(string methodName, string elementName,
+		ref Dictionary<string, ServiceElementData> dfsParam)
+{
+	if(methodName.ToLower().Equals("formonload"))
+{
+			SubscribeFormEvents_root(ref dfsParam);
+}
+	if(methodName.ToLower().Equals("onchange"))
+{
+}
+	if(methodName.ToLower().Equals("onclick"))
+{
 }
 }
 }
@@ -3271,6 +3760,184 @@ using System;
 								   new Triplet<string, short, short?>("MG_EmployeeName",16,
 														   -1),
 								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
+														   -1),
+								}
+			},
+							{"e94499bc-4a5f-3d1c-af8a-e6389d08f460", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("CopiDetails_RowId",13,
+														   -1),
+								   new Triplet<string, short, short?>("MG_AdditionalTypeValue",18,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalID",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Departmentid",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",11,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
+														   -1),
+								   new Triplet<string, short, short?>("MG_EmployeeName",16,
+														   -1),
+								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
+														   -1),
+								}
+			},
+					};	
+
+	
+
+		private Dictionary<string,string> formVersionList =new Dictionary<string,string> 
+		{
+							{"FA963D46-2D52-4A3E-8550-E878A2504252", "Medium"},
+					};	
+
+		
+		private Dictionary<string,string> formVersionLayoutList =new Dictionary<string,string> 
+		{
+							{"DF310904-3D78-478E-96E3-680D8603C3F5", ""},
+							{"455D44C8-AF0E-4EC6-84C7-8BB6DBAB2069", ""},
+							{"FA963D46-2D52-4A3E-8550-E878A2504252", ""},
+							{"8A4BBE80-7A6F-48C4-A74C-6D3EC9C624C2", ""},
+							{"62054835-2416-4D48-997B-E9F3C389419D", ""},
+							{"9B9F8832-C7E8-4A33-AF15-9156440FCBC0", ""},
+							{"3AD59A17-0AA6-4617-8D26-9A6E24C1798C", ""},
+							{"32BA2907-8800-47E8-AF75-63818566D79A", ""},
+					};	
+
+		
+
+	
+	
+		
+		
+		public override  List<Triplet<string, short, short?>> GetQueryExpressionBindings(string expressionId)
+		{
+			if(string.IsNullOrWhiteSpace(expressionId))
+            {
+			  return null;				
+            }
+
+
+			if(queryExpressionBindings == null || queryExpressionBindings.Count <= 0)
+				return null;
+
+			return queryExpressionBindings[expressionId];
+		}
+
+		public override string GetValidFormVersionId(string formVersionId,ViewportTypes viewPort)
+		{	
+					
+			 if(formVersionList == null || formVersionList.Count <= 0)
+				return formVersionId;
+
+			if (formVersionList.Count == 1)
+                return formVersionList.FirstOrDefault().Key;  
+
+			
+
+			if ( !string.IsNullOrEmpty(formVersionId) &&  formVersionList.ContainsKey(formVersionId))
+            {
+                if (formVersionList.Any(x => x.Key == formVersionId && x.Value == viewPort.ToString()))
+                    return formVersionId;
+            }
+
+			var fallback= new List<string>{"Mobile","Tab","Medium","Large"};
+
+           switch (viewPort)
+            {
+                case ViewportTypes.Tab:
+                    fallback = new List<string> { "Tab", "Mobile", "Medium", "Large" };
+                    break;
+
+                case ViewportTypes.Medium:
+                    fallback = new List<string> { "Medium", "Tab", "Large", "Mobile" };
+                    break;
+
+                case ViewportTypes.Large:
+                    fallback = new List<string> { "Large", "Medium", "Tab", "Mobile" };
+                    break;
+            }
+
+           for (int i = 0; i < fallback.Count; i++)
+           {
+               if (formVersionList.Any(x => x.Value == fallback[i]))
+                   return formVersionList.Where(x => x.Value == fallback[i]).Select(y => y.Key).FirstOrDefault();
+           }
+
+		   return formVersionId;
+		}
+
+	
+
+		
+		
+		
+		
+		
+
+
+	}
+
+}
+		
+  
+
+
+
+
+
+
+
+namespace CPS.Proof.DFSExtension
+{
+	
+using System;
+    using System.Collections.Generic;    
+    using System.Text;	
+    using System.Linq;	
+
+
+	public partial class AcDataISpace6d06ae9bb5873c74a7473b1063ed2f0d  : ExtensionActivityBase
+	{		
+		
+		
+		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
+											new Dictionary<string,  List<Triplet<string, short, short?>>>
+		{
+							{"46a77cd6-70de-6252-e1d6-2429032e267f", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d4_Categorymapid",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d4_DocumentId",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d4_DocumentName",1,
 														   -1),
 								}
 			},

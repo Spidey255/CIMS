@@ -4855,39 +4855,55 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
-							{"17C8E5FF-5228-497B-8E83-DEEEFF92F497", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("MG_R2_Amount",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_R2_BudgetId",2,
-														   -1),
-								   new Triplet<string, short, short?>("MG_R2_ReceiptsId",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_R2_ReceiptSplitUpId",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_R2_UpdatedBy",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_R2_UpdatedOn",5,
-														   -1),
-								   new Triplet<string, short, short?>("ReceiptSplitUp_RowId",6,
-														   -1),
-								}
-			},
 							{"4ACD680C-9EAE-4FDB-A4A3-FC5C4D353701", 
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("ActivityName",1,
-														   -1),
 								   new Triplet<string, short, short?>("DateOfRemarks",3,
+														   -1),
+								   new Triplet<string, short, short?>("ActivityName",1,
 														   -1),
 								   new Triplet<string, short, short?>("Remarks",4,
 														   -1),
 								   new Triplet<string, short, short?>("RemarksId",0,
 														   -1),
 								   new Triplet<string, short, short?>("UserName",2,
+														   -1),
+								}
+			},
+							{"17C8E5FF-5228-497B-8E83-DEEEFF92F497", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_R2_BudgetId",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_R2_Amount",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_R2_ReceiptsId",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_R2_ReceiptSplitUpId",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_R2_UpdatedOn",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_R2_UpdatedBy",4,
+														   -1),
+								   new Triplet<string, short, short?>("ReceiptSplitUp_RowId",6,
+														   -1),
+								}
+			},
+							{"7383DEAC-014B-4719-858E-5F2EDC911594", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("A_BudgetID",3,
+														   -1),
+								   new Triplet<string, short, short?>("A_BudgetClaimedAmount",1,
+														   -1),
+								   new Triplet<string, short, short?>("A_BudgetName",0,
+														   -1),
+								   new Triplet<string, short, short?>("A_OverallSantionedAmount",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_AvailableAmount",4,
 														   -1),
 								}
 			},
@@ -4901,29 +4917,13 @@ using System;
 														   -1),
 								   new Triplet<string, short, short?>("MG_R2_ReceiptsId",1,
 														   -1),
-								   new Triplet<string, short, short?>("MG_R2_ReceiptSplitUpId",0,
+								   new Triplet<string, short, short?>("MG_R2_UpdatedOn",5,
 														   -1),
 								   new Triplet<string, short, short?>("MG_R2_UpdatedBy",4,
 														   -1),
-								   new Triplet<string, short, short?>("MG_R2_UpdatedOn",5,
+								   new Triplet<string, short, short?>("MG_R2_ReceiptSplitUpId",0,
 														   -1),
 								   new Triplet<string, short, short?>("ReceiptSplitUp_RowId",6,
-														   -1),
-								}
-			},
-							{"7383DEAC-014B-4719-858E-5F2EDC911594", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("A_BudgetClaimedAmount",1,
-														   -1),
-								   new Triplet<string, short, short?>("A_BudgetID",3,
-														   -1),
-								   new Triplet<string, short, short?>("A_BudgetName",0,
-														   -1),
-								   new Triplet<string, short, short?>("A_OverallSantionedAmount",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_AvailableAmount",4,
 														   -1),
 								}
 			},
@@ -4931,19 +4931,19 @@ using System;
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("MG_R2_Amount",3,
+								   new Triplet<string, short, short?>("MG_R2_ReceiptsId",1,
 														   -1),
 								   new Triplet<string, short, short?>("MG_R2_BudgetId",2,
 														   -1),
-								   new Triplet<string, short, short?>("MG_R2_ReceiptsId",1,
+								   new Triplet<string, short, short?>("MG_R2_UpdatedBy",4,
+														   -1),
+								   new Triplet<string, short, short?>("ReceiptSplitUp_RowId",6,
 														   -1),
 								   new Triplet<string, short, short?>("MG_R2_ReceiptSplitUpId",0,
 														   -1),
-								   new Triplet<string, short, short?>("MG_R2_UpdatedBy",4,
-														   -1),
 								   new Triplet<string, short, short?>("MG_R2_UpdatedOn",5,
 														   -1),
-								   new Triplet<string, short, short?>("ReceiptSplitUp_RowId",6,
+								   new Triplet<string, short, short?>("MG_R2_Amount",3,
 														   -1),
 								}
 			},
