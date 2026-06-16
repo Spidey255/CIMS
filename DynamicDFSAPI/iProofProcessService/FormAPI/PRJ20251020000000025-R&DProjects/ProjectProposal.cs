@@ -212,6 +212,10 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
+			     new Triplet<string, string, string>("40d3e7ce-7290-1b76-8430-a4b65e4802e8","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
 			     new Triplet<string, string, string>("cf8665f1-ed60-b9d0-8a13-ee250aa2de27","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -1918,25 +1922,27 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-base.WriteDebugInfo(@"#ProposalDocuments[Rows]");
-if (!iSpace.GetGridTableRows("ProposalDocuments","Select * from Proof..[D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+base.WriteDebugInfo(@"EXEC [GetIsProposalDocumentUploaded] '@@gv_InstanceId'");
+
+var querySource40d3e7ce72901b768430a4b65e4802e8 =GetQueryExpressionDataSource("40d3e7ce-7290-1b76-8430-a4b65e4802e8");
+Dictionary<short,object> result40d3e7ce72901b768430a4b65e4802e8=iSpace.ExecuteQuery(querySource40d3e7ce72901b768430a4b65e4802e8,@"EXEC [GetIsProposalDocumentUploaded] '" + ISpace["gv_instanceid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource40d3e7ce72901b768430a4b65e4802e8 =GetQueryExpressionDataSource(""40d3e7ce-7290-1b76-8430-a4b65e4802e8"");Dictionary<short,object> result40d3e7ce72901b768430a4b65e4802e8=iSpace.ExecuteQuery(querySource40d3e7ce72901b768430a4b65e4802e8,@""EXEC [GetIsProposalDocumentUploaded] '"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result40d3e7ce72901b768430a4b65e4802e8!=null) && (result40d3e7ce72901b768430a4b65e4802e8.Count!=0))
 {
-    iSpace.GetLoopExpressionData("ProposalDocuments",ref ISpace);
+if(result40d3e7ce72901b768430a4b65e4802e8.ContainsKey(0))
+ISpace["MandatoryCheck"].Value = result40d3e7ce72901b768430a4b65e4802e8[0];
 }
-
-foreach(var gridChild in ISpace["ProposalDocuments"].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-
-
-if(
-ISpace["MG_d3_MandatoryCheck"].Value==0)
+else{
+ISpace["MandatoryCheck"].Value = null;
+}
+if(ISpace["MandatoryCheck"].Value==1)
 {
-base.WriteDebugInfo(@"
-if(
-ISpace[""MG_d3_MandatoryCheck""].Value==0)");
-ISpace["Message"].Value=@"ERROR:Please Upload Project Proposal Document";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Please Upload Project Proposal Document"";");
+base.WriteDebugInfo(@"if(ISpace[""MandatoryCheck""].Value==1)");
+ISpace["Message"].Value=@"ERROR:Proposal Document should be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Proposal Document should be Mandatory"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -1944,17 +1950,6 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 
 return;");
 }
-}
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ProposalDocuments","D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5",_objectFactory.GetGridRPP("ProposalDocuments"),_elementBase.GetGridLoopQuery("D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5","ProposalDocuments",ISpace), ref ISpace);
-base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ProposalDocuments"",""Select * from Proof..[D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
-{
-    iSpace.GetLoopExpressionData(""ProposalDocuments"",ref ISpace);
-}
-
-foreach(var gridChild in ISpace[""ProposalDocuments""].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-");
 }
 if(ISpace["MF_d1_ProjectProposalID"].Value=="")
 {
@@ -2835,25 +2830,27 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-base.WriteDebugInfo(@"#ProposalDocuments[Rows]");
-if (!iSpace.GetGridTableRows("ProposalDocuments","Select * from Proof..[D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+base.WriteDebugInfo(@"EXEC [GetIsProposalDocumentUploaded] '@@gv_InstanceId'");
+
+var querySource40d3e7ce72901b768430a4b65e4802e8 =GetQueryExpressionDataSource("40d3e7ce-7290-1b76-8430-a4b65e4802e8");
+Dictionary<short,object> result40d3e7ce72901b768430a4b65e4802e8=iSpace.ExecuteQuery(querySource40d3e7ce72901b768430a4b65e4802e8,@"EXEC [GetIsProposalDocumentUploaded] '" + ISpace["gv_instanceid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource40d3e7ce72901b768430a4b65e4802e8 =GetQueryExpressionDataSource(""40d3e7ce-7290-1b76-8430-a4b65e4802e8"");Dictionary<short,object> result40d3e7ce72901b768430a4b65e4802e8=iSpace.ExecuteQuery(querySource40d3e7ce72901b768430a4b65e4802e8,@""EXEC [GetIsProposalDocumentUploaded] '"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result40d3e7ce72901b768430a4b65e4802e8!=null) && (result40d3e7ce72901b768430a4b65e4802e8.Count!=0))
 {
-    iSpace.GetLoopExpressionData("ProposalDocuments",ref ISpace);
+if(result40d3e7ce72901b768430a4b65e4802e8.ContainsKey(0))
+ISpace["MandatoryCheck"].Value = result40d3e7ce72901b768430a4b65e4802e8[0];
 }
-
-foreach(var gridChild in ISpace["ProposalDocuments"].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-
-
-if(
-ISpace["MG_d3_MandatoryCheck"].Value==0)
+else{
+ISpace["MandatoryCheck"].Value = null;
+}
+if(ISpace["MandatoryCheck"].Value==1)
 {
-base.WriteDebugInfo(@"
-if(
-ISpace[""MG_d3_MandatoryCheck""].Value==0)");
-ISpace["Message"].Value=@"ERROR:Please Upload Project Proposal Document";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Please Upload Project Proposal Document"";");
+base.WriteDebugInfo(@"if(ISpace[""MandatoryCheck""].Value==1)");
+ISpace["Message"].Value=@"ERROR:Proposal Document should be Mandatory";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Proposal Document should be Mandatory"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -2861,17 +2858,6 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 
 return;");
 }
-}
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ProposalDocuments","D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5",_objectFactory.GetGridRPP("ProposalDocuments"),_elementBase.GetGridLoopQuery("D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5","ProposalDocuments",ISpace), ref ISpace);
-base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ProposalDocuments"",""Select * from Proof..[D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
-{
-    iSpace.GetLoopExpressionData(""ProposalDocuments"",ref ISpace);
-}
-
-foreach(var gridChild in ISpace[""ProposalDocuments""].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-");
 }
 if(ISpace["MF_d1_ProjectProposalID"].Value=="")
 {
