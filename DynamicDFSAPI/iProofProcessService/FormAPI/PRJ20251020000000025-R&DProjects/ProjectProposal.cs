@@ -181,7 +181,7 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("282f122c-129c-3f66-2802-e500377eb9b5","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+												     @"028B1EFF-34A8-4D44-BF39-06CE99DF7C67"),
 			
 						
 			     new Triplet<string, string, string>("f503cb55-6d72-d4d5-8857-a65ba2925360","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
@@ -1637,7 +1637,8 @@ iSpace.SetGridData(result46a6879a4dfd54d138c96438be62af60,resulte94499bc4a5f3d1c
 iSpace.UpdateGridBindDetails("CopiDetails",resulte94499bc4a5f3d1caf8ae6389d08f460);
 ISpace["Message"].Value=@"Success:Deleted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:Deleted Successfully"";");
-
+ISpace["UI_DeleteDialog"].HideDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].HideDialog=true;;");
 }
 catch(Exception ex)
 {
@@ -1725,6 +1726,18 @@ ISpace["MFG_d2_AdditionalID"].Value = result4D70F9F762964C9DBE1764DD6765B7EB[0];
 }
 else{
 ISpace["MFG_d2_UpdatedOn"].Value = null;ISpace["MFG_d2_MemberType"].Value = null;ISpace["MFG_d2_AdditionalName"].Value = null;ISpace["MFG_d2_Departmentid"].Value = null;ISpace["MFG_d2_AdditionalType"].Value = null;ISpace["MFG_d2_UpdatedBy"].Value = null;ISpace["MFG_d2_ExternalDesignation"].Value = null;ISpace["MFG_d2_ExternalFacultyName"].Value = null;ISpace["MFG_d2_DesignationID"].Value = null;ISpace["MFG_d2_ExternalInstituteName"].Value = null;ISpace["MFG_d2_ProjectDetailsID"].Value = null;ISpace["MFG_d2_ExternalEmailId"].Value = null;ISpace["MFG_d2_ExternalContactNo"].Value = null;ISpace["MFG_d2_AdditionalID"].Value = null;
+}
+if(ISpace["MFG_d2_MemberType"].Value=="1")
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_MemberType""].Value==""1"")");
+ISpace["MFG_d2_ExternalInstituteName"].Visible="false";ISpace["MFG_d2_ExternalEmailId"].Visible="false";ISpace["MFG_d2_ExternalContactNo"].Visible="false";ISpace["MFG_d2_ExternalDesignation"].Visible="false";ISpace["MFG_d2_ExternalFacultyName"].Visible="false";ISpace["MFG_d2_AdditionalName"].Visible="true";ISpace["MFG_d2_Departmentid"].Visible="true";ISpace["MFG_d2_AdditionalType"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""MFG_d2_ExternalInstituteName""].Visible=""false"";ISpace[""MFG_d2_ExternalEmailId""].Visible=""false"";ISpace[""MFG_d2_ExternalContactNo""].Visible=""false"";ISpace[""MFG_d2_ExternalDesignation""].Visible=""false"";ISpace[""MFG_d2_ExternalFacultyName""].Visible=""false"";ISpace[""MFG_d2_AdditionalName""].Visible=""true"";ISpace[""MFG_d2_Departmentid""].Visible=""true"";ISpace[""MFG_d2_AdditionalType""].Visible=""true"";");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["MFG_d2_ExternalInstituteName"].Visible="true";ISpace["MFG_d2_ExternalEmailId"].Visible="true";ISpace["MFG_d2_ExternalContactNo"].Visible="true";ISpace["MFG_d2_ExternalDesignation"].Visible="true";ISpace["MFG_d2_ExternalFacultyName"].Visible="true";ISpace["MFG_d2_AdditionalName"].Visible="false";ISpace["MFG_d2_Departmentid"].Visible="false";ISpace["MFG_d2_AdditionalType"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MFG_d2_ExternalInstituteName""].Visible=""true"";ISpace[""MFG_d2_ExternalEmailId""].Visible=""true"";ISpace[""MFG_d2_ExternalContactNo""].Visible=""true"";ISpace[""MFG_d2_ExternalDesignation""].Visible=""true"";ISpace[""MFG_d2_ExternalFacultyName""].Visible=""true"";ISpace[""MFG_d2_AdditionalName""].Visible=""false"";ISpace[""MFG_d2_Departmentid""].Visible=""false"";ISpace[""MFG_d2_AdditionalType""].Visible=""false"";");
 }
 }
 catch(Exception ex)
@@ -2553,7 +2566,8 @@ iSpace.SetGridData(result46a6879a4dfd54d138c96438be62af60,resulte94499bc4a5f3d1c
 iSpace.UpdateGridBindDetails("CopiDetails",resulte94499bc4a5f3d1caf8ae6389d08f460);
 ISpace["Message"].Value=@"Success:Deleted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:Deleted Successfully"";");
-
+ISpace["UI_DeleteDialog"].HideDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].HideDialog=true;;");
 }
 catch(Exception ex)
 {
