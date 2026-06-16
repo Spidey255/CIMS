@@ -1218,26 +1218,6 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
-private void SubscribeElementEvents_m_myproposals (ref Dictionary<string,ServiceElementData> ISpace)
-{
-IISpace iSpace = new ISpace();
-try
-{
-base.WriteDebugInfo(@"M_MyProposals-OnClick");
-if(1==1)
-{
-base.WriteDebugInfo(@"if(1==1)");
-ISpace["M_ProcessName"].Value="Project Proposal";
-base.WriteDebugInfo(@"ISpace[""M_ProcessName""].Value=""Project Proposal"";");
-ISpace["M_Status"].rElemData=iSpace.Reload(ISpace["M_Status"].Value,@"EXEC [GetProcessExplorerProcessesStatuses] 'Project Proposal'","3A103712-5244-4427-B2B6-1C4E046FD337");
-base.WriteDebugInfo(@"ISpace[""M_Status""].rElemData=iSpace.Reload(ISpace[""M_Status""].Value,@""EXEC [GetProcessExplorerProcessesStatuses] 'Project Proposal'"",""3A103712-5244-4427-B2B6-1C4E046FD337"");");
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 private void SubscribeElementEvents_m_status (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -1335,26 +1315,6 @@ ISpace["RedirectUrl"].Value="?PkActMId=6d06ae9b-b587-3c74-a747-3b1063ed2f0d&frmE
 base.WriteDebugInfo(@"
 ISpace[""RedirectUrl""].RedirectType=""R"";
 ISpace[""RedirectUrl""].Value=""?PkActMId=6d06ae9b-b587-3c74-a747-3b1063ed2f0d&frmElementId=E0AC6667-6D92-49AA-8F4D-01F473F2E426&PkPrMId=026e321e-9bb7-4c74-8615-3bbd7cc1b241&formVersionId=FA963D46-2D52-4A3E-8550-E878A2504252&Ver=0.0000&FormInstanceId=""+ISpace[""gv_instanceid""].Value;");
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-private void SubscribeElementEvents_m_myprojects (ref Dictionary<string,ServiceElementData> ISpace)
-{
-IISpace iSpace = new ISpace();
-try
-{
-base.WriteDebugInfo(@"M_MyProjects-OnClick");
-if(1==1)
-{
-base.WriteDebugInfo(@"if(1==1)");
-ISpace["M_ProcessName"].Value="Project Creation";
-base.WriteDebugInfo(@"ISpace[""M_ProcessName""].Value=""Project Creation"";");
-ISpace["M_Status"].rElemData=iSpace.Reload(ISpace["M_Status"].Value,@"EXEC [GetProcessExplorerProcessesStatuses] 'Project Proposal'","3A103712-5244-4427-B2B6-1C4E046FD337");
-base.WriteDebugInfo(@"ISpace[""M_Status""].rElemData=iSpace.Reload(ISpace[""M_Status""].Value,@""EXEC [GetProcessExplorerProcessesStatuses] 'Project Proposal'"",""3A103712-5244-4427-B2B6-1C4E046FD337"");");
 }
 }
 catch(Exception ex)
@@ -1469,10 +1429,6 @@ public override void ExecuteMethod
 {
 			SubscribeElementEvents_add(ref dfsParam);
 }
-		if(elementName.ToLower().Equals("m_myproposals"))
-{
-			SubscribeElementEvents_m_myproposals(ref dfsParam);
-}
 		if(elementName.ToLower().Equals("m_createproject"))
 {
 			SubscribeElementEvents_m_createproject(ref dfsParam);
@@ -1480,10 +1436,6 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("pd_view"))
 {
 			SubscribeElementEvents_pd_view(ref dfsParam);
-}
-		if(elementName.ToLower().Equals("m_myprojects"))
-{
-			SubscribeElementEvents_m_myprojects(ref dfsParam);
 }
 		if(elementName.ToLower().Equals("mf_asset"))
 {
@@ -1579,6 +1531,8 @@ using System;
 								   new Triplet<string, short, short?>("PD_V1_ProjectType",6,
 														   -1),
 								   new Triplet<string, short, short?>("PD_V1_SanctionedValue",9,
+														   -1),
+								   new Triplet<string, short, short?>("PD_V1_Type",13,
 														   -1),
 								}
 			},

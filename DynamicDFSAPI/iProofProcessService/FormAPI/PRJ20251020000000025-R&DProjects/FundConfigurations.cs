@@ -1516,7 +1516,10 @@ if(ISpace["MF_FundTypeId"].Value==1)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_FundTypeId""].Value==1)");
 base.WriteDebugInfo(@"#MF_DistrubitionDetails[Rows]");
-iSpace.GetLoopExpressionData("MF_DistrubitionDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("MF_DistrubitionDetails","Select * from Proof..[] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("MF_DistrubitionDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["MF_DistrubitionDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -1540,7 +1543,10 @@ ISpace["MF_InsertCount"].Value = null;
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("MF_DistrubitionDetails","",_objectFactory.GetGridRPP("MF_DistrubitionDetails"),_elementBase.GetGridLoopQuery("","MF_DistrubitionDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""MF_DistrubitionDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""MF_DistrubitionDetails"",""Select * from Proof..[] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""MF_DistrubitionDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""MF_DistrubitionDetails""].Child)
 {foreach(var gridrow in gridChild.Child)

@@ -37,8 +37,8 @@ namespace CPS.Proof.DFSExtension
         /// A <see cref="Dictionary{S,O}"/> that holds the Query Results.
         /// </param>
         /// <returns>Execution Status</returns>
-        Status ExecuteQuery(string query, 
-            string connectionString,
+        Status ExecuteQuery(string connectionString, 
+            string query,
                 out Dictionary<short, object> queryResults);
 
 
@@ -93,6 +93,8 @@ namespace CPS.Proof.DFSExtension
 
          Status SaveForkedInstanceData(SlotToken token, string insertQuery,
             string parentinstanceid,string processactivitymapid);
+
+        bool GetGridLoopData(string query, out DataTable queryResult);
 
     }
 

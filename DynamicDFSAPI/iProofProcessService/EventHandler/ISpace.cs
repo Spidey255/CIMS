@@ -641,6 +641,131 @@ namespace CPS.Proof.DFSExtension
             }
         }
 
+         public bool GetGridTableRows(string gridName,string gridQuery, 
+            ref Dictionary<string, ServiceElementData> ISpace)
+        {
+            IExternalQueryController externalQueryController = null;
+
+            DataTable queryResults = null;
+
+            _log.Debug("Entering GetGridTableRows Method");
+
+            try
+            {
+
+                externalQueryController=ObjectManager.Acquire<IExternalQueryController>();
+
+                var hasRows = externalQueryController.GetGridLoopData
+                    (gridQuery, out queryResults);
+
+                if (hasRows)
+                {
+
+                    SetLoopGridDataSource(gridName,
+                                queryResults, ref  ISpace);
+                }
+
+                return hasRows;
+            }
+            catch (Exception ex)
+            {
+                _log.Error("Error in GetGridTableRows Method", ex);
+
+                return false;
+            }
+            finally
+            {
+                if (externalQueryController != null)
+                    ObjectManager.Release<IExternalQueryController>(externalQueryController);
+
+                _log.Debug("Exiting GetGridTableRows Method");
+            }
+        }
+
+         private bool SetLoopGridDataSource(string gridName,
+            DataTable queryresult, ref Dictionary<string, ServiceElementData> ISpace)
+        {
+
+
+            try
+            {
+
+                ServiceElementData serviceElementData = null;
+
+                if (ISpace.ContainsKey(gridName))
+                {
+                    serviceElementData = ISpace[gridName];
+                }
+                else
+
+                    serviceElementData = new ServiceElementData { ElementName = gridName };
+
+                serviceElementData.Child = new List<ServiceElementData>();
+
+                short rowsequence = 1;
+
+                if (queryresult != null)
+                    foreach (DataRow row in queryresult.Rows)
+                    {
+
+                        var rowItem = new ServiceElementData();
+
+                        rowItem.Child = new List<ServiceElementData>();
+
+                        if (row.Table.Columns.Contains("RowId") &&
+                                    row["RowId"] != DBNull.Value &&
+                                        !string.IsNullOrWhiteSpace(row["RowId"].ToString()))
+                            rowItem.RwId = row["RowId"].ToString();
+                        else
+                            rowItem.RwId = Guid.NewGuid().ToString();                                                                
+
+                            
+
+                        foreach (DataColumn column in row.Table.Columns)
+                        {
+
+                            var gridcolumn = new ServiceElementData();
+
+                            gridcolumn.ElementName = row[column] as string;
+
+                            gridcolumn.Value=row[column];
+
+                            rowItem.Child.Add(gridcolumn);
+                        }
+
+                      
+
+                        rowItem.SEQ = rowsequence;
+
+                        serviceElementData.Child.Add(rowItem);
+
+                        rowsequence++;
+                    }
+
+                if (ISpace == null)
+                    ISpace = new Dictionary<string, ServiceElementData>();
+
+                if (ISpace.ContainsKey(gridName))
+                {
+                    ISpace[gridName] = serviceElementData;
+                }
+                else
+                {
+                    ISpace.Add(gridName, serviceElementData);
+                }
+
+                return true;
+            }
+            catch (Exception ex)
+            {
+                _log.Error("Error in  SetLoopGridDataSource", ex);
+                
+                return false;
+
+            }
+        }
+
+
         public void GetLoopExpressionData(string gridName, ref Dictionary<string, ServiceElementData> ISpace)
         {
             _log.Debug("Entering GetLoopExpressionData");

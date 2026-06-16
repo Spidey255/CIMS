@@ -2311,7 +2311,10 @@ base.WriteDebugInfo(@"ISpace[""Subject""].Value=""Temporary Advance"";");
 ISpace["SetDestinationTo"].Value=ISpace["M_DestinationActivityId"].Value;
 base.WriteDebugInfo(@"ISpace[""SetDestinationTo""].Value=ISpace[""M_DestinationActivityId""].Value;");
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -2335,7 +2338,10 @@ ISpace["M_UpdateCount"].Value = null;
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -2366,7 +2372,10 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 base.WriteDebugInfo(@"#MG_DcoumentDetails[Rows]");
-iSpace.GetLoopExpressionData("MG_DcoumentDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("MG_DcoumentDetails","Select * from Proof..[744177F0-C5DD-4666-BE31-646818F67196] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("MG_DcoumentDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["MG_DcoumentDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -2406,7 +2415,10 @@ return;");
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_DcoumentDetails","744177F0-C5DD-4666-BE31-646818F67196",_objectFactory.GetGridRPP("MG_DcoumentDetails"),_elementBase.GetGridLoopQuery("744177F0-C5DD-4666-BE31-646818F67196","MG_DcoumentDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""MG_DcoumentDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""MG_DcoumentDetails"",""Select * from Proof..[744177F0-C5DD-4666-BE31-646818F67196] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""MG_DcoumentDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""MG_DcoumentDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -2840,7 +2852,10 @@ if(ISpace["MFG_P3_FundTypeId"].Value=="1")
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_P3_FundTypeId""].Value==""1"")");
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -2874,7 +2889,10 @@ return;");
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -2918,7 +2936,10 @@ iSpace.SetGridData(resultA8D19C29F512446883DE4C86EF7F0E8F,resultBDF250C27A244A8E
 iSpace.UpdateGridBindDetails("ReimbursementFundDetails",resultBDF250C27A244A8EB094E340FDE4659C);
 }
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -2938,7 +2959,10 @@ base.WriteDebugInfo(@"
 ISpace[""MG_P3_Packageprocessmapid""].Value=ISpace[""M_PackageProcessMapId""].Value;");
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -3273,7 +3297,10 @@ ISpace["AssignToUser"].Value="";
 base.WriteDebugInfo(@"ISpace[""AssignToUser""].Value="""";");
 }
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -3305,7 +3332,10 @@ ISpace["M_UpdateCount"].Value = null;
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -3549,7 +3579,10 @@ if(ISpace["MFG_P3_FundTypeId"].Value=="1")
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_P3_FundTypeId""].Value==""1"")");
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -3583,7 +3616,10 @@ return;");
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -3627,7 +3663,10 @@ iSpace.SetGridData(resultA8D19C29F512446883DE4C86EF7F0E8F,resultBDF250C27A244A8E
 iSpace.UpdateGridBindDetails("ReimbursementFundDetails",resultBDF250C27A244A8EB094E340FDE4659C);
 }
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -3647,7 +3686,10 @@ base.WriteDebugInfo(@"
 ISpace[""MG_P3_Packageprocessmapid""].Value=ISpace[""M_PackageProcessMapId""].Value;");
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -3870,7 +3912,10 @@ ISpace["AssignToUser"].Value="";
 base.WriteDebugInfo(@"ISpace[""AssignToUser""].Value="""";");
 }
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -3902,7 +3947,10 @@ ISpace["M_UpdateCount"].Value = null;
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -4146,7 +4194,10 @@ if(ISpace["MFG_P3_FundTypeId"].Value=="1")
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_P3_FundTypeId""].Value==""1"")");
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -4180,7 +4231,10 @@ return;");
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -4224,7 +4278,10 @@ iSpace.SetGridData(resultA8D19C29F512446883DE4C86EF7F0E8F,resultBDF250C27A244A8E
 iSpace.UpdateGridBindDetails("ReimbursementFundDetails",resultBDF250C27A244A8EB094E340FDE4659C);
 }
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -4244,7 +4301,10 @@ base.WriteDebugInfo(@"
 ISpace[""MG_P3_Packageprocessmapid""].Value=ISpace[""M_PackageProcessMapId""].Value;");
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -4467,7 +4527,10 @@ ISpace["AssignToUser"].Value="";
 base.WriteDebugInfo(@"ISpace[""AssignToUser""].Value="""";");
 }
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -4499,7 +4562,10 @@ ISpace["M_UpdateCount"].Value = null;
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -4743,7 +4809,10 @@ if(ISpace["MFG_P3_FundTypeId"].Value=="1")
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_P3_FundTypeId""].Value==""1"")");
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -4777,7 +4846,10 @@ return;");
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -4821,7 +4893,10 @@ iSpace.SetGridData(resultA8D19C29F512446883DE4C86EF7F0E8F,resultBDF250C27A244A8E
 iSpace.UpdateGridBindDetails("ReimbursementFundDetails",resultBDF250C27A244A8EB094E340FDE4659C);
 }
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -4841,7 +4916,10 @@ base.WriteDebugInfo(@"
 ISpace[""MG_P3_Packageprocessmapid""].Value=ISpace[""M_PackageProcessMapId""].Value;");
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -5064,7 +5142,10 @@ ISpace["AssignToUser"].Value="";
 base.WriteDebugInfo(@"ISpace[""AssignToUser""].Value="""";");
 }
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -5096,14 +5177,20 @@ ISpace["M_UpdateCount"].Value = null;
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
  {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
 ");
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -5135,7 +5222,10 @@ ISpace["M_UpdateCount"].Value = null;
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -5379,7 +5469,10 @@ if(ISpace["MFG_P3_FundTypeId"].Value=="1")
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_P3_FundTypeId""].Value==""1"")");
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -5413,7 +5506,10 @@ return;");
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -5457,7 +5553,10 @@ iSpace.SetGridData(resultA8D19C29F512446883DE4C86EF7F0E8F,resultBDF250C27A244A8E
 iSpace.UpdateGridBindDetails("ReimbursementFundDetails",resultBDF250C27A244A8EB094E340FDE4659C);
 }
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -5477,7 +5576,10 @@ base.WriteDebugInfo(@"
 ISpace[""MG_P3_Packageprocessmapid""].Value=ISpace[""M_PackageProcessMapId""].Value;");
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -5690,7 +5792,10 @@ ISpace["AssignToUser"].Value="";
 base.WriteDebugInfo(@"ISpace[""AssignToUser""].Value="""";");
 }
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -5742,7 +5847,10 @@ ISpace["M_UpdateCount"].Value = null;
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -5773,7 +5881,10 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 base.WriteDebugInfo(@"#MG_DcoumentDetails[Rows]");
-iSpace.GetLoopExpressionData("MG_DcoumentDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("MG_DcoumentDetails","Select * from Proof..[744177F0-C5DD-4666-BE31-646818F67196] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("MG_DcoumentDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["MG_DcoumentDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -5813,7 +5924,10 @@ return;");
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_DcoumentDetails","744177F0-C5DD-4666-BE31-646818F67196",_objectFactory.GetGridRPP("MG_DcoumentDetails"),_elementBase.GetGridLoopQuery("744177F0-C5DD-4666-BE31-646818F67196","MG_DcoumentDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""MG_DcoumentDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""MG_DcoumentDetails"",""Select * from Proof..[744177F0-C5DD-4666-BE31-646818F67196] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""MG_DcoumentDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""MG_DcoumentDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -6027,7 +6141,10 @@ if(ISpace["MFG_P3_FundTypeId"].Value=="1")
 {
 base.WriteDebugInfo(@"if(ISpace[""MFG_P3_FundTypeId""].Value==""1"")");
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -6061,7 +6178,10 @@ return;");
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -6105,7 +6225,10 @@ iSpace.SetGridData(resultA8D19C29F512446883DE4C86EF7F0E8F,resultBDF250C27A244A8E
 iSpace.UpdateGridBindDetails("ReimbursementFundDetails",resultBDF250C27A244A8EB094E340FDE4659C);
 }
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -6125,7 +6248,10 @@ base.WriteDebugInfo(@"
 ISpace[""MG_P3_Packageprocessmapid""].Value=ISpace[""M_PackageProcessMapId""].Value;");
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -6420,7 +6546,10 @@ ISpace["AssignToUser"].Value="";
 base.WriteDebugInfo(@"ISpace[""AssignToUser""].Value="""";");
 }
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -6452,14 +6581,20 @@ ISpace["M_UpdateCount"].Value = null;
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
  {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
 ");
 base.WriteDebugInfo(@"#ReimbursementFundDetails[Rows]");
-iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+if (!iSpace.GetGridTableRows("ReimbursementFundDetails","Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ReimbursementFundDetails",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ReimbursementFundDetails"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -6491,7 +6626,10 @@ ISpace["M_UpdateCount"].Value = null;
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ReimbursementFundDetails","00D69CC2-E6EC-4412-B2A9-14E57A96FB5C",_objectFactory.GetGridRPP("ReimbursementFundDetails"),_elementBase.GetGridLoopQuery("00D69CC2-E6EC-4412-B2A9-14E57A96FB5C","ReimbursementFundDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReimbursementFundDetails"",""Select * from Proof..[00D69CC2-E6EC-4412-B2A9-14E57A96FB5C] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ReimbursementFundDetails"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ReimbursementFundDetails""].Child)
 {foreach(var gridrow in gridChild.Child)

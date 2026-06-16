@@ -1906,7 +1906,10 @@ return;");
 }
 }
 base.WriteDebugInfo(@"#ProposalDocuments[Rows]");
-iSpace.GetLoopExpressionData("ProposalDocuments",ref ISpace);
+if (!iSpace.GetGridTableRows("ProposalDocuments","Select * from Proof..[D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ProposalDocuments",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ProposalDocuments"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -1930,7 +1933,10 @@ return;");
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ProposalDocuments","D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5",_objectFactory.GetGridRPP("ProposalDocuments"),_elementBase.GetGridLoopQuery("D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5","ProposalDocuments",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ProposalDocuments"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ProposalDocuments"",""Select * from Proof..[D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ProposalDocuments"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ProposalDocuments""].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -2816,7 +2822,10 @@ return;");
 }
 }
 base.WriteDebugInfo(@"#ProposalDocuments[Rows]");
-iSpace.GetLoopExpressionData("ProposalDocuments",ref ISpace);
+if (!iSpace.GetGridTableRows("ProposalDocuments","Select * from Proof..[D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+{
+    iSpace.GetLoopExpressionData("ProposalDocuments",ref ISpace);
+}
 
 foreach(var gridChild in ISpace["ProposalDocuments"].Child)
 {foreach(var gridrow in gridChild.Child)
@@ -2840,7 +2849,10 @@ return;");
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("ProposalDocuments","D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5",_objectFactory.GetGridRPP("ProposalDocuments"),_elementBase.GetGridLoopQuery("D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5","ProposalDocuments",ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetLoopExpressionData(""ProposalDocuments"",ref ISpace);
+base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ProposalDocuments"",""Select * from Proof..[D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
+{
+    iSpace.GetLoopExpressionData(""ProposalDocuments"",ref ISpace);
+}
 
 foreach(var gridChild in ISpace[""ProposalDocuments""].Child)
 {foreach(var gridrow in gridChild.Child)

@@ -118,5 +118,8 @@ namespace CPS.Proof.DFSExtension
         Status AddNewInstance(string forkId, 
             string parentInstanceId,string processactivitymapid,string slotId,ForkedProcess forkedProcess);
 
+         bool GetGridTableRows(string gridName, string gridQuery,
+            ref Dictionary<string, ServiceElementData> ISpace);
+
     }
 }
