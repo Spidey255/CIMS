@@ -357,7 +357,7 @@ namespace CPS.Proof.DFSExtension
                         return 0;
                 }
                   //8 represents DateTime
-                if (dataType == 9)
+                if (dataType == 9 || dataType == 10)
                 {
                     if (obj != null && obj.ToString() != "")
                         return obj.ToString();

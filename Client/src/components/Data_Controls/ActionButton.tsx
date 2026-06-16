@@ -324,6 +324,10 @@ const ActionButton: React.FC<ActionButtonProps> = ({
             new URLSearchParams(queryString)
           );
 
+	if(params?.FormInstanceId){
+            usePageStore.getState().setFormInstanceId(params.FormInstanceId || null);
+          }
+
           const page = pages.find(
             (p) => p.ProcessActivityMapId === params.PkActMId
           );
