@@ -1,4 +1,5 @@
 // Innovace Intech Solution Pvt Ltd
+
 import { useGridStore } from "../../store/useGridStore";
 import { useGeneralStore } from "../../store/useStore";
 import { useUserStore } from "../../store/useUserStore";
@@ -20,13 +21,13 @@ export async function resusableOnChange(element: UIElement) {
   if (element.Action == "OnChange" && element.BindingDetail) {
     try {
       const slotId =
-  useUserStore.getState().slotId ||
-  sessionStorage.getItem("accessToken");
+        useUserStore.getState().slotId ||
+        sessionStorage.getItem("accessToken");
 
-const activePage = usePageStore.getState().activePage;
+      const activePage = usePageStore.getState().activePage;
 
-const formInstanceId =
-  usePageStore.getState().formInstanceId;
+      const formInstanceId =
+        usePageStore.getState().formInstanceId;
 
       if (!element["BindingDetail"]) return console.log("No BindingDetail Found");
 
@@ -34,7 +35,7 @@ const formInstanceId =
 
       if (!bindingDetails.length) return console.log("No Content in BindingDetail");
 
-     
+
       const savedFormInstanceId = await saveGridRow({
         element,
         formInstanceId,
@@ -51,72 +52,72 @@ const formInstanceId =
       const method = details.HttpVerb;
 
       const params = details.Params
-              ? (JSON.parse(details.Params) as IActionParams[])
-              : [];
-      
-            let elementIds = params.map((p) => p.ElementName);
-      
-            if (element.ElementName.includes("+")) {
-              const [id, rwId] = element.ElementName.split("+");
-              const rowId = `${id}+${rwId}`;
-              elementIds = params.map((p) => `${rowId}+${p.ElementName}`);
-            }
-      
-            const edtMap = params.reduce((acc, p) => {
-              acc[p.ElementName] = p.EDT;
-              return acc;
-            }, {} as Record<string, number | null>);
-      
-            const storeState = useGeneralStore.getState().state;
-      
-            const getActualElementName = (name: string) =>
-              name.includes("+") ? name.split("+").pop()! : name;
-      
-            const actualNameMap: Record<string, IGlobalStateValues> = {};
-      
-            Object.keys(storeState).forEach((key) => {
-              const actual = getActualElementName(key);
-              actualNameMap[actual] = storeState[key];
-            });
-      
-            const fetchedStateValues = elementIds.reduce((acc, id) => {
-              // Full key when clicked from grid row
-              if (element.ElementName.includes("+")) {
-                const fullKey = id; // TaskStep+UUID+TaskStep_RowId
-      
-                acc[id.split("+")[2]] =
-                  storeState[fullKey]?.value ??
-                  "";
-              } else {
-                // Non-grid normal flow (UNCHANGED)
-                const elementId = id;
-                acc[elementId] =
-                  actualNameMap[elementId]?.value ??
-                  "";
-              }
-      
-              return acc;
-            }, {} as Record<string, TValue | undefined>);
-      
-      
-            const stateParams = Object.entries(fetchedStateValues).map(
-              ([id, value]) => ({
-                ElementName: id,
-                Value: value,
-                EDT: edtMap[id] ?? null,
-              })
-            );
-      
-            const MF_d2_DocId = sessionStorage.getItem('MF_d2_DocId') || '';
-      
-            // Update the element in stateParams
-            const updatedStateParams = stateParams.map(item => {
-              if (item.ElementName === 'MF_d1_invoice_id') {
-                return { ...item, Value: MF_d2_DocId }; // replace Value
-              }
-              return item;
-            })
-      
+        ? (JSON.parse(details.Params) as IActionParams[])
+        : [];
+
+      let elementIds = params.map((p) => p.ElementName);
+
+      if (element.ElementName.includes("+")) {
+        const [id, rwId] = element.ElementName.split("+");
+        const rowId = `${id}+${rwId}`;
+        elementIds = params.map((p) => `${rowId}+${p.ElementName}`);
+      }
+
+      const edtMap = params.reduce((acc, p) => {
+        acc[p.ElementName] = p.EDT;
+        return acc;
+      }, {} as Record<string, number | null>);
+
+      const storeState = useGeneralStore.getState().state;
+
+      const getActualElementName = (name: string) =>
+        name.includes("+") ? name.split("+").pop()! : name;
+
+      const actualNameMap: Record<string, IGlobalStateValues> = {};
+
+      Object.keys(storeState).forEach((key) => {
+        const actual = getActualElementName(key);
+        actualNameMap[actual] = storeState[key];
+      });
+
+      const fetchedStateValues = elementIds.reduce((acc, id) => {
+        // Full key when clicked from grid row
+        if (element.ElementName.includes("+")) {
+          const fullKey = id; // TaskStep+UUID+TaskStep_RowId
+
+          acc[id.split("+")[2]] =
+            storeState[fullKey]?.value ??
+            "";
+        } else {
+          // Non-grid normal flow (UNCHANGED)
+          const elementId = id;
+          acc[elementId] =
+            actualNameMap[elementId]?.value ??
+            "";
+        }
+
+        return acc;
+      }, {} as Record<string, TValue | undefined>);
+
+
+      const stateParams = Object.entries(fetchedStateValues).map(
+        ([id, value]) => ({
+          ElementName: id,
+          Value: value,
+          EDT: edtMap[id] ?? null,
+        })
+      );
+
+      const MF_d2_DocId = sessionStorage.getItem('MF_d2_DocId') || '';
+
+      // Update the element in stateParams
+      const updatedStateParams = stateParams.map(item => {
+        if (item.ElementName === 'MF_d1_invoice_id') {
+          return { ...item, Value: MF_d2_DocId }; // replace Value
+        }
+        return item;
+      })
+
 
       const postData = {
         SlotId: slotId,
@@ -205,46 +206,60 @@ const formInstanceId =
       });
 
       // GRID STATE UPDATE
-      data.Rows.filter((f) => f["Child"] && f["Child"].length).forEach((m) => {
-        if (m["ElementName"]) {
-          const elementMapper =
-            useGridStore.getState().gridElementMapper[m.ElementName];
+      data.Rows
+        .filter((f) => Array.isArray(f["Child"]))
+        .forEach((m) => {
+          if (m["ElementName"]) {
+            const elementMapper =
+              useGridStore.getState().gridElementMapper[m.ElementName];
 
-          m.Child?.map((row) => {
-            row.Child?.forEach((rowData) => {
-              // Dynamically update grid state based on element structure
-              updateState[
-                `${elementMapper.elementName}+${row.RwId}+${rowData.ElementName}`
-              ] = {
-                value: (typeof rowData["Value"] !== "object"
-                  ? rowData["Value"]
-                  : "") as string,
-              };
+            if (!elementMapper) {
+              console.warn(
+                "Grid mapper not found for:",
+                m.ElementName
+              );
+              return;
+            }
+
+            m.Child?.map((row) => {
+              row.Child?.forEach((rowData) => {
+                // Dynamically update grid state based on element structure
+                updateState[
+                  `${elementMapper.elementName}+${row.RwId}+${rowData.ElementName}`
+                ] = {
+                  value: (typeof rowData["Value"] !== "object"
+                    ? rowData["Value"]
+                    : "") as string,
+                };
+              });
             });
-          });
 
-          const { setGridDynamicState, setPagination } =
-            useGridStore.getState();
-          // Call dynamic grid state update
-          // setGridDynamicState(elementMapper.uiElementId, m?.Child!);
-          // setPagination(elementMapper.uiElementId, {
-          //   currentPage: 1,
-          //   pageSize: element["RowsPerPage"] || 5,
-          //   totalItems: m["TotalRecords"] || 0,
-          //   fromRowIndex: m["RecordsFrom"] || 0,
-          //   toRowIndex: m["RecordsTo"] || 0,
-          // });
+            const { setGridDynamicState, setPagination } =
+              useGridStore.getState();
+            // Call dynamic grid state update
+            // setGridDynamicState(elementMapper.uiElementId, m?.Child!);
+            // setPagination(elementMapper.uiElementId, {
+            //   currentPage: 1,
+            //   pageSize: element["RowsPerPage"] || 5,
+            //   totalItems: m["TotalRecords"] || 0,
+            //   fromRowIndex: m["RecordsFrom"] || 0,
+            //   toRowIndex: m["RecordsTo"] || 0,
+            // });
 
-          setGridDynamicState(elementMapper.uiElementId, m.Child!);
-          setPagination(elementMapper.uiElementId, {
-            currentPage: 1,
-            pageSize: m?.PageCount || 5,
-            totalItems: m.Child?.length || 0,
-            fromRowIndex: m.RecordsFrom || 0,
-            toRowIndex: m.RecordsTo || 0,
-          });
-        }
-      });
+            // setGridDynamicState(elementMapper.uiElementId, m.Child!);
+            setGridDynamicState(
+              elementMapper.uiElementId,
+              m.Child || []
+            );
+            setPagination(elementMapper.uiElementId, {
+              currentPage: 1,
+              pageSize: m?.PageCount || 5,
+              totalItems: m.Child?.length || 0,
+              fromRowIndex: m.RecordsFrom || 0,
+              toRowIndex: m.RecordsTo || 0,
+            });
+          }
+        });
 
       // Update the general store dynamically
       useGeneralStore.getState().updateInitialState(updateState);
