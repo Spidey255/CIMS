@@ -156,7 +156,7 @@ namespace CPS.Proof.DFSExtension
 												     @"062C4298-5FB2-4C83-877D-A1D5795686CF"),
 			
 						
-			     new Triplet<string, string, string>("1dec4860-8af0-2955-103c-c33e70a3693b","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+			     new Triplet<string, string, string>("4967d2ab-4f5d-45e7-1f44-a1f300508733","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
@@ -164,8 +164,8 @@ namespace CPS.Proof.DFSExtension
 												     @"BDF7896C-4676-4008-BC64-2C45896293B5"),
 			
 						
-			     new Triplet<string, string, string>("1dec4860-8af0-2955-103c-c33e70a3693b","List View Grid Binding For Project Proposal",
-												     @"23d626be-34a2-1938-8ea1-8cb78d7f1be0"),
+			     new Triplet<string, string, string>("4967d2ab-4f5d-45e7-1f44-a1f300508733","Load Project Proposal Details",
+												     @"0429d560-d100-3a28-bdfd-bd0143de5ba7"),
 			
 			
 			
@@ -214,10 +214,7 @@ namespace CPS.Proof.DFSExtension
 			     new Tuple<string, int>("ProjectListActiveProjectspr",1000),
 			
 						
-			     new Tuple<string, int>("MG_ProposalDetails",500),
-			
-						
-			     new Tuple<string, int>("MG_ProposalDetails",500),
+			     new Tuple<string, int>("MG_ProjectProposalDetails",5),
 			
 						
 		};
@@ -771,6 +768,123 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
                      
+                                    case "0429d560-d100-3a28-bdfd-bd0143de5ba7":
+                    {
+                     
+                                     gInsertQuery=@"
+		
+		DECLARE  @TBL_0429d560d1003a28bdfdbd0143de5ba7 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PP_ProjectDetailsID] VARCHAR(MAX)	, [PP_ProjectNo] VARCHAR(MAX)	, [PP_Department] VARCHAR(MAX)	, [PP_PI] VARCHAR(MAX)	, [PP_CoPI] VARCHAR(MAX)	, [PP_ProjectType] VARCHAR(MAX)	, [PP_Agency] VARCHAR(MAX)	, [PP_FinancialYear] VARCHAR(MAX)	, [PP_SanctionedValue] DECIMAL(18,2)	, [PP_Type] VARCHAR(MAX)){0}INSERT INTO [0429d560-d100-3a28-bdfd-bd0143de5ba7](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PP_ProjectDetailsID,PP_ProjectNo,PP_Department,PP_PI,PP_CoPI,PP_ProjectType,PP_Agency,PP_FinancialYear,PP_SanctionedValue,PP_Type)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PP_ProjectDetailsID,TDT.PP_ProjectNo,TDT.PP_Department,TDT.PP_PI,TDT.PP_CoPI,TDT.PP_ProjectType,TDT.PP_Agency,TDT.PP_FinancialYear,TDT.PP_SanctionedValue,TDT.PP_Type FROM @TBL_0429d560d1003a28bdfdbd0143de5ba7 TDT
+							LEFT JOIN [0429d560-d100-3a28-bdfd-bd0143de5ba7] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PP_ProjectDetailsID=TDT.PP_ProjectDetailsID,PP_ProjectNo=TDT.PP_ProjectNo,PP_Department=TDT.PP_Department,PP_PI=TDT.PP_PI,PP_CoPI=TDT.PP_CoPI,PP_ProjectType=TDT.PP_ProjectType,PP_Agency=TDT.PP_Agency,PP_FinancialYear=TDT.PP_FinancialYear,PP_SanctionedValue=TDT.PP_SanctionedValue,PP_Type=TDT.PP_Type FROM @TBL_0429d560d1003a28bdfdbd0143de5ba7 TDT
+							JOIN [0429d560-d100-3a28-bdfd-bd0143de5ba7] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
+
+                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PP_ProjectDetailsID,PP_ProjectNo,PP_Department,PP_PI,PP_CoPI,PP_ProjectType,PP_Agency,PP_FinancialYear,PP_SanctionedValue,PP_Type";
+
+                                     tempInsertQuery=@"INSERT INTO @TBL_0429d560d1003a28bdfdbd0143de5ba7(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PP_ProjectDetailsID,PP_ProjectNo,PP_Department,PP_PI,PP_CoPI,PP_ProjectType,PP_Agency,PP_FinancialYear,PP_SanctionedValue,PP_Type)VALUES({0});";
+                                     
+
+                            splitcols = colList.Split(',');
+
+                            if(splitcols.Length<=0)
+                                return null;
+
+                            var parentObject = JObject.Parse(formJsonData)["Child"];
+
+                            for (int i = 0; i < ((JArray)parentObject).Count; i++)
+                            {
+
+                            JObject childObject = (JObject)parentObject[i];
+
+                            var gridRow = childObject["Child"];
+
+
+                        
+                            foreach (var gcol in splitcols)
+                            {
+                                if (gcol == "InstanceId")
+                                {
+                                    colValues += "'" + instanceId + "',";
+
+                                    continue;
+
+                                }
+
+                                else if (gcol == "ProcessActivityMapId")
+                                {
+                                    colValues += "'" + processActivityMapId + "',";
+                                    continue;
+                            }
+
+                            else if (gcol == "GridId")
+                            {
+                                    colValues += "'" + gridId + "',";
+                                continue;
+                            }                               
+                            else if(gcol=="Sequence")
+                            {
+                                colValues += childObject["SEQ"]+",";
+                                continue;
+                            }
+                             else if(gcol=="RowId")
+                            {
+                                colValues +="'" + childObject["RwId"]+"',";
+                                continue;
+                            }
+
+                            bool isFound = false;
+
+                            foreach (var gitem in gridRow)
+                            {                               
+
+                                if (gitem["ElementName"].ToString() == gcol)
+                                {
+                                    isFound = true;
+
+                                    if (gitem["Value"] == null)
+                                    {
+                                        colValues += "null,";
+                                        break;
+                                    }
+
+                                    switch(Convert.ToInt32(gitem["EDT"]))
+                                    {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
+                                        case 8:
+                                        case 9:
+                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                                break;
+
+                                        default:
+                                                    if(gitem["Value"].ToString()=="")
+
+                                                        colValues +=  "NULL,";
+                                                    else
+                                                    colValues += gitem["Value"].ToString() + ",";
+                                            break;
+                                    }                                    
+                                }                                 
+                            }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+                                        
+                                    }
+                            
+                        }
+                                 colValues=colValues.Remove(colValues.Length - 1);
+
+                                 bulkInsertQuery=bulkInsertQuery+ string.Format(tempInsertQuery, colValues);
+
+                                 colValues=string.Empty;
+                        }
+                        }
+                        break;
+                     
                                  
                  }       
                 
@@ -1018,6 +1132,107 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
+                                              case "0429d560-d100-3a28-bdfd-bd0143de5ba7":
+                    {
+                     
+                            gInsertQuery=@"
+		
+		DECLARE  @TBL_0429d560d1003a28bdfdbd0143de5ba7 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PP_ProjectDetailsID] VARCHAR(MAX)	, [PP_ProjectNo] VARCHAR(MAX)	, [PP_Department] VARCHAR(MAX)	, [PP_PI] VARCHAR(MAX)	, [PP_CoPI] VARCHAR(MAX)	, [PP_ProjectType] VARCHAR(MAX)	, [PP_Agency] VARCHAR(MAX)	, [PP_FinancialYear] VARCHAR(MAX)	, [PP_SanctionedValue] DECIMAL(18,2)	, [PP_Type] VARCHAR(MAX)){0}INSERT INTO [0429d560-d100-3a28-bdfd-bd0143de5ba7](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PP_ProjectDetailsID,PP_ProjectNo,PP_Department,PP_PI,PP_CoPI,PP_ProjectType,PP_Agency,PP_FinancialYear,PP_SanctionedValue,PP_Type)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PP_ProjectDetailsID,TDT.PP_ProjectNo,TDT.PP_Department,TDT.PP_PI,TDT.PP_CoPI,TDT.PP_ProjectType,TDT.PP_Agency,TDT.PP_FinancialYear,TDT.PP_SanctionedValue,TDT.PP_Type FROM @TBL_0429d560d1003a28bdfdbd0143de5ba7 TDT
+							LEFT JOIN [0429d560-d100-3a28-bdfd-bd0143de5ba7] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PP_ProjectDetailsID=TDT.PP_ProjectDetailsID,PP_ProjectNo=TDT.PP_ProjectNo,PP_Department=TDT.PP_Department,PP_PI=TDT.PP_PI,PP_CoPI=TDT.PP_CoPI,PP_ProjectType=TDT.PP_ProjectType,PP_Agency=TDT.PP_Agency,PP_FinancialYear=TDT.PP_FinancialYear,PP_SanctionedValue=TDT.PP_SanctionedValue,PP_Type=TDT.PP_Type FROM @TBL_0429d560d1003a28bdfdbd0143de5ba7 TDT
+							JOIN [0429d560-d100-3a28-bdfd-bd0143de5ba7] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
+
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PP_ProjectDetailsID,PP_ProjectNo,PP_Department,PP_PI,PP_CoPI,PP_ProjectType,PP_Agency,PP_FinancialYear,PP_SanctionedValue,PP_Type";
+
+                            tempInsertQuery=@"INSERT INTO @TBL_0429d560d1003a28bdfdbd0143de5ba7(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PP_ProjectDetailsID,PP_ProjectNo,PP_Department,PP_PI,PP_CoPI,PP_ProjectType,PP_Agency,PP_FinancialYear,PP_SanctionedValue,PP_Type)VALUES({0});";
+
+                            splitcols = colList.Split(',');
+
+                            if (splitcols.Length <= 0)
+                                return null;
+
+                            foreach (var gridChild in gridData[gridName].Child)
+                            {                            
+                                                                                         
+
+
+                                foreach (var gcol in splitcols)
+                                {
+                                    if (gcol == "InstanceId")
+                                    {
+                                        colValues += "'" + instanceId + "',";
+
+                                        continue;
+
+                                    }
+
+                                    else if (gcol == "ProcessActivityMapId")
+                                    {
+                                        colValues += "'" + processActivityMapId + "',";
+                                        continue;
+                                    }
+
+                                    else if (gcol == "GridId")
+                                    {
+                                        colValues += "'" + gridId + "',";
+                                        continue;
+                                    }
+                                    else if (gcol == "Sequence")
+                                    {
+                                        colValues += gridChild.SEQ + ",";
+                                        continue;
+                                    }
+                                    else if (gcol == "RowId")
+                                    {
+                                        colValues += "'" + gridChild.RwId + "',";
+                                        continue;
+                                    }
+
+                                    bool isFound = false;
+
+                                    foreach (var gridrow in gridChild.Child)
+                                    {
+
+                                        if (gridrow.ElementName == gcol)
+                                        {
+                                            isFound = true;
+
+                                            if (gridrow.Value == null)
+                                            {
+                                                colValues += "null,";
+                                                break;
+                                            }
+
+                                            switch (Convert.ToInt32(gridrow.EDT))
+                                            {
+                                                case 8:
+                                                case 9:
+                                                    colValues += "'" + gridrow.Value.ToString() + "',";
+                                                    break;
+
+                                                default:
+                                                    colValues += gridrow.Value.ToString() + ",";
+                                                    break;
+                                            }
+                                        }
+                                    }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+
+                                    }
+
+                                }
+                                colValues = colValues.Remove(colValues.Length - 1);
+
+                                bulkInsertQuery = bulkInsertQuery + string.Format(tempInsertQuery, colValues);
+                            }
+                        }
+                        break;
+
                                           }
 
                          
@@ -1106,19 +1321,19 @@ if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
 
-var querySource1dec48608af02955103cc33e70a3693b =GetQueryExpressionDataSource("1dec4860-8af0-2955-103c-c33e70a3693b");
+var querySource4967d2ab4f5d45e71f44a1f300508733 =GetQueryExpressionDataSource("4967d2ab-4f5d-45e7-1f44-a1f300508733");
 
-DataTable result1dec48608af02955103cc33e70a3693b=iSpace.SetGridDataSource(querySource1dec48608af02955103cc33e70a3693b, _objectFactory.GetGridRPP("MG_ProposalDetails"),@"EXEC dbo.[GetProjectExplorerDetails] 2,'" + ISpace["F_ProjectDetailsId"].Value + @"','" + ISpace["gv_username"].Value + @"','" + ISpace["M_Status"].Value + @"'");
+DataTable result4967d2ab4f5d45e71f44a1f300508733=iSpace.SetGridDataSource(querySource4967d2ab4f5d45e71f44a1f300508733, _objectFactory.GetGridRPP("MG_ProjectProposalDetails"),@"EXEC dbo.[GetProjectExplorerDetails] 2,'" + ISpace["F_ProjectDetailsId"].Value + @"','" + ISpace["gv_username"].Value + @"','" + ISpace["M_Status"].Value + @"'");
 
-iSpace.InsertGridBindDetails("MG_ProposalDetails","11",querySource1dec48608af02955103cc33e70a3693b,"EXEC dbo.[GetProjectExplorerDetails] 2,'" + ISpace["F_ProjectDetailsId"].Value + @"','" + ISpace["gv_username"].Value + @"','" + ISpace["M_Status"].Value + @"'",_objectFactory.GetGridRPP("MG_ProposalDetails"));
+iSpace.InsertGridBindDetails("MG_ProjectProposalDetails","11",querySource4967d2ab4f5d45e71f44a1f300508733,"EXEC dbo.[GetProjectExplorerDetails] 2,'" + ISpace["F_ProjectDetailsId"].Value + @"','" + ISpace["gv_username"].Value + @"','" + ISpace["M_Status"].Value + @"'",_objectFactory.GetGridRPP("MG_ProjectProposalDetails"));
 
-base.WriteDebugInfo(@"var querySource1dec48608af02955103cc33e70a3693b =GetQueryExpressionDataSource(""1dec4860-8af0-2955-103c-c33e70a3693b"");DataTable result1dec48608af02955103cc33e70a3693b=iSpace.SetGridDataSource(querySource1dec48608af02955103cc33e70a3693b, _objectFactory.GetGridRPP(""MG_ProposalDetails""),@""EXEC dbo.[GetProjectExplorerDetails] 2,'"" + ISpace[""F_ProjectDetailsId""].Value + @""','"" + ISpace[""gv_username""].Value + @""','"" + ISpace[""M_Status""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_ProposalDetails"",""11"",querySource1dec48608af02955103cc33e70a3693b,""EXEC dbo.[GetProjectExplorerDetails] 2,'"" + ISpace[""F_ProjectDetailsId""].Value + @""','"" + ISpace[""gv_username""].Value + @""','"" + ISpace[""M_Status""].Value + @""'"",_objectFactory.GetGridRPP(""MG_ProposalDetails""));");
+base.WriteDebugInfo(@"var querySource4967d2ab4f5d45e71f44a1f300508733 =GetQueryExpressionDataSource(""4967d2ab-4f5d-45e7-1f44-a1f300508733"");DataTable result4967d2ab4f5d45e71f44a1f300508733=iSpace.SetGridDataSource(querySource4967d2ab4f5d45e71f44a1f300508733, _objectFactory.GetGridRPP(""MG_ProjectProposalDetails""),@""EXEC dbo.[GetProjectExplorerDetails] 2,'"" + ISpace[""F_ProjectDetailsId""].Value + @""','"" + ISpace[""gv_username""].Value + @""','"" + ISpace[""M_Status""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_ProjectProposalDetails"",""11"",querySource4967d2ab4f5d45e71f44a1f300508733,""EXEC dbo.[GetProjectExplorerDetails] 2,'"" + ISpace[""F_ProjectDetailsId""].Value + @""','"" + ISpace[""gv_username""].Value + @""','"" + ISpace[""M_Status""].Value + @""'"",_objectFactory.GetGridRPP(""MG_ProjectProposalDetails""));");
 base.WriteDebugInfo(@"");
 
 
-List<Triplet<string, short, short?>> result3a37ec513aa8d128a92450a4faf29053=acdataIspace34CF8FAF7574478F9C4AA65F98E4D18A.GetQueryExpressionBindings("3a37ec51-3aa8-d128-a924-50a4faf29053");
-iSpace.SetGridData(result1dec48608af02955103cc33e70a3693b,result3a37ec513aa8d128a92450a4faf29053,"MG_ProposalDetails",ref ISpace);
-iSpace.UpdateGridBindDetails("MG_ProposalDetails",result3a37ec513aa8d128a92450a4faf29053);
+List<Triplet<string, short, short?>> result4173c13929717f559c2bebe2d5b9617c=acdataIspace34CF8FAF7574478F9C4AA65F98E4D18A.GetQueryExpressionBindings("4173c139-2971-7f55-9c2b-ebe2d5b9617c");
+iSpace.SetGridData(result4967d2ab4f5d45e71f44a1f300508733,result4173c13929717f559c2bebe2d5b9617c,"MG_ProjectProposalDetails",ref ISpace);
+iSpace.UpdateGridBindDetails("MG_ProjectProposalDetails",result4173c13929717f559c2bebe2d5b9617c);
 }
 if(1==1)
 {
@@ -1227,19 +1442,19 @@ if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
 
-var querySource1dec48608af02955103cc33e70a3693b =GetQueryExpressionDataSource("1dec4860-8af0-2955-103c-c33e70a3693b");
+var querySource4967d2ab4f5d45e71f44a1f300508733 =GetQueryExpressionDataSource("4967d2ab-4f5d-45e7-1f44-a1f300508733");
 
-DataTable result1dec48608af02955103cc33e70a3693b=iSpace.SetGridDataSource(querySource1dec48608af02955103cc33e70a3693b, _objectFactory.GetGridRPP("MG_ProposalDetails"),@"EXEC dbo.[GetProjectExplorerDetails] 2,'" + ISpace["F_ProjectDetailsId"].Value + @"','" + ISpace["gv_username"].Value + @"','" + ISpace["M_Status"].Value + @"'");
+DataTable result4967d2ab4f5d45e71f44a1f300508733=iSpace.SetGridDataSource(querySource4967d2ab4f5d45e71f44a1f300508733, _objectFactory.GetGridRPP("MG_ProjectProposalDetails"),@"EXEC dbo.[GetProjectExplorerDetails] 2,'" + ISpace["F_ProjectDetailsId"].Value + @"','" + ISpace["gv_username"].Value + @"','" + ISpace["M_Status"].Value + @"'");
 
-iSpace.InsertGridBindDetails("MG_ProposalDetails","11",querySource1dec48608af02955103cc33e70a3693b,"EXEC dbo.[GetProjectExplorerDetails] 2,'" + ISpace["F_ProjectDetailsId"].Value + @"','" + ISpace["gv_username"].Value + @"','" + ISpace["M_Status"].Value + @"'",_objectFactory.GetGridRPP("MG_ProposalDetails"));
+iSpace.InsertGridBindDetails("MG_ProjectProposalDetails","11",querySource4967d2ab4f5d45e71f44a1f300508733,"EXEC dbo.[GetProjectExplorerDetails] 2,'" + ISpace["F_ProjectDetailsId"].Value + @"','" + ISpace["gv_username"].Value + @"','" + ISpace["M_Status"].Value + @"'",_objectFactory.GetGridRPP("MG_ProjectProposalDetails"));
 
-base.WriteDebugInfo(@"var querySource1dec48608af02955103cc33e70a3693b =GetQueryExpressionDataSource(""1dec4860-8af0-2955-103c-c33e70a3693b"");DataTable result1dec48608af02955103cc33e70a3693b=iSpace.SetGridDataSource(querySource1dec48608af02955103cc33e70a3693b, _objectFactory.GetGridRPP(""MG_ProposalDetails""),@""EXEC dbo.[GetProjectExplorerDetails] 2,'"" + ISpace[""F_ProjectDetailsId""].Value + @""','"" + ISpace[""gv_username""].Value + @""','"" + ISpace[""M_Status""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_ProposalDetails"",""11"",querySource1dec48608af02955103cc33e70a3693b,""EXEC dbo.[GetProjectExplorerDetails] 2,'"" + ISpace[""F_ProjectDetailsId""].Value + @""','"" + ISpace[""gv_username""].Value + @""','"" + ISpace[""M_Status""].Value + @""'"",_objectFactory.GetGridRPP(""MG_ProposalDetails""));");
+base.WriteDebugInfo(@"var querySource4967d2ab4f5d45e71f44a1f300508733 =GetQueryExpressionDataSource(""4967d2ab-4f5d-45e7-1f44-a1f300508733"");DataTable result4967d2ab4f5d45e71f44a1f300508733=iSpace.SetGridDataSource(querySource4967d2ab4f5d45e71f44a1f300508733, _objectFactory.GetGridRPP(""MG_ProjectProposalDetails""),@""EXEC dbo.[GetProjectExplorerDetails] 2,'"" + ISpace[""F_ProjectDetailsId""].Value + @""','"" + ISpace[""gv_username""].Value + @""','"" + ISpace[""M_Status""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_ProjectProposalDetails"",""11"",querySource4967d2ab4f5d45e71f44a1f300508733,""EXEC dbo.[GetProjectExplorerDetails] 2,'"" + ISpace[""F_ProjectDetailsId""].Value + @""','"" + ISpace[""gv_username""].Value + @""','"" + ISpace[""M_Status""].Value + @""'"",_objectFactory.GetGridRPP(""MG_ProjectProposalDetails""));");
 base.WriteDebugInfo(@"");
 
 
-List<Triplet<string, short, short?>> result3a37ec513aa8d128a92450a4faf29053=acdataIspace34CF8FAF7574478F9C4AA65F98E4D18A.GetQueryExpressionBindings("3a37ec51-3aa8-d128-a924-50a4faf29053");
-iSpace.SetGridData(result1dec48608af02955103cc33e70a3693b,result3a37ec513aa8d128a92450a4faf29053,"MG_ProposalDetails",ref ISpace);
-iSpace.UpdateGridBindDetails("MG_ProposalDetails",result3a37ec513aa8d128a92450a4faf29053);
+List<Triplet<string, short, short?>> result4173c13929717f559c2bebe2d5b9617c=acdataIspace34CF8FAF7574478F9C4AA65F98E4D18A.GetQueryExpressionBindings("4173c139-2971-7f55-9c2b-ebe2d5b9617c");
+iSpace.SetGridData(result4967d2ab4f5d45e71f44a1f300508733,result4173c13929717f559c2bebe2d5b9617c,"MG_ProjectProposalDetails",ref ISpace);
+iSpace.UpdateGridBindDetails("MG_ProjectProposalDetails",result4173c13929717f559c2bebe2d5b9617c);
 }
 }
 catch(Exception ex)
@@ -1299,17 +1514,17 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
-private void SubscribeElementEvents_pd_view (ref Dictionary<string,ServiceElementData> ISpace)
+private void SubscribeElementEvents_pp_view (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
 try
 {
-base.WriteDebugInfo(@"PD_View-OnClick");
+base.WriteDebugInfo(@"PP_View-OnClick");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-ISpace["MF_ProposalId"].Value=ISpace["PD_V1_ProjectDetailsID"].Value;
-base.WriteDebugInfo(@"ISpace[""MF_ProposalId""].Value=ISpace[""PD_V1_ProjectDetailsID""].Value;");
+ISpace["MF_ProposalId"].Value=ISpace["PP_ProjectDetailsID"].Value;
+base.WriteDebugInfo(@"ISpace[""MF_ProposalId""].Value=ISpace[""PP_ProjectDetailsID""].Value;");
 
 ISpace["RedirectUrl"].RedirectType="R";
 ISpace["RedirectUrl"].Value="?PkActMId=6d06ae9b-b587-3c74-a747-3b1063ed2f0d&frmElementId=E0AC6667-6D92-49AA-8F4D-01F473F2E426&PkPrMId=026e321e-9bb7-4c74-8615-3bbd7cc1b241&formVersionId=FA963D46-2D52-4A3E-8550-E878A2504252&Ver=0.0000&FormInstanceId="+ISpace["MF_ProposalId"].Value;
@@ -1434,9 +1649,9 @@ public override void ExecuteMethod
 {
 			SubscribeElementEvents_m_createproject(ref dfsParam);
 }
-		if(elementName.ToLower().Equals("pd_view"))
+		if(elementName.ToLower().Equals("pp_view"))
 {
-			SubscribeElementEvents_pd_view(ref dfsParam);
+			SubscribeElementEvents_pp_view(ref dfsParam);
 }
 		if(elementName.ToLower().Equals("mf_asset"))
 {
@@ -1509,31 +1724,31 @@ using System;
 														   -1),
 								}
 			},
-							{"3a37ec51-3aa8-d128-a924-50a4faf29053", 
+							{"4173c139-2971-7f55-9c2b-ebe2d5b9617c", 
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("PD_V1_Agency",7,
+								   new Triplet<string, short, short?>("PP_Agency",7,
 														   -1),
-								   new Triplet<string, short, short?>("PD_V1_CoPI",5,
+								   new Triplet<string, short, short?>("PP_CoPI",5,
 														   -1),
-								   new Triplet<string, short, short?>("PD_V1_Department",3,
+								   new Triplet<string, short, short?>("PP_Department",3,
 														   -1),
-								   new Triplet<string, short, short?>("PD_V1_FinancialYear",8,
+								   new Triplet<string, short, short?>("PP_FinancialYear",8,
 														   -1),
-								   new Triplet<string, short, short?>("PD_V1_PI",4,
+								   new Triplet<string, short, short?>("PP_PI",4,
 														   -1),
-								   new Triplet<string, short, short?>("PD_V1_ProjectDetailsID",0,
+								   new Triplet<string, short, short?>("PP_ProjectDetailsID",0,
 														   -1),
-								   new Triplet<string, short, short?>("PD_V1_ProjectNo",2,
+								   new Triplet<string, short, short?>("PP_ProjectNo",2,
 														   -1),
-								   new Triplet<string, short, short?>("PD_V1_ProjectTitle",1,
+								   new Triplet<string, short, short?>("PP_ProjectTitle",1,
 														   -1),
-								   new Triplet<string, short, short?>("PD_V1_ProjectType",6,
+								   new Triplet<string, short, short?>("PP_ProjectType",6,
 														   -1),
-								   new Triplet<string, short, short?>("PD_V1_SanctionedValue",9,
+								   new Triplet<string, short, short?>("PP_SanctionedValue",9,
 														   -1),
-								   new Triplet<string, short, short?>("PD_V1_Type",13,
+								   new Triplet<string, short, short?>("PP_Type",13,
 														   -1),
 								}
 			},
