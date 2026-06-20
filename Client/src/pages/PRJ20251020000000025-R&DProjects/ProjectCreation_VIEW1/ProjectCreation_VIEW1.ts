@@ -34,7 +34,7 @@ export const DataElementsData = [
     "Bindable": false,
     "Action": "FormOnLoad",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"MF_d10_FundReceiptMode\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_BudgetHead\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year10\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_ExchangeRate\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_PrincipalInvestigator\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year3\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"ExternalCoPiGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectCode\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"ManpowerGrid\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MG_d82_DocumentName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d109_OverallEquipmentcost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_RecurringValidation\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_Duration\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_EmployeeBasicInfoId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectStatus\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectproposalID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_No_OfManpowerPosition\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_JustiifcationbyHoD\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_HRAPercentage\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_SerialNo\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_ProjectDetailsID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectCategoryID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_NonRecurringAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d154_TotalPerMonth\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year8\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_ExternalEmailId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_TotalCost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year4\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_Overhead\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_RateinINR\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_AdditionalName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_FromDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MF_d10_IfExtended\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_ProjectRefNo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"RDDocumentGrid\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MG_d109_EquipmentName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_BudgetAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d154_SerialNo\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MG_d28_Year9\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_IsActive\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"EquipmentGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year11\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_ToDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d55_DesignationID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ExtendedDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d109_TotalEquipmentcost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_SanctionedDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d28_BudgetID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_RDOfficeComments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_ManpowerPosition\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_IsSubmitted\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MG_d154_RatePerMonth\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d145_OverallTotalCost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"EquipmentGrid\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MG_d55_ExternalInstituteName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_ExternalContactNo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_SchemeID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_ExternalFacultyName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_IfManpower\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_DepartmentID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d109_Quantity\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_ProjectName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_Sector\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"m_currency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_SanctionedNumber\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ActualEndDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"BudgetAllocation\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MF_d10_DocumentComments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d109_EquipmentBudget\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_InstanceId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"ManpowerGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year1\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d154_Duration\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_FundingAgency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year5\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d82_DocumentID\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MG_d154_TotalMonths\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_IfEquipment\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_Designation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_ExternalDesignation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_HRAPerMonth\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year7\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year12\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"RDDocumentGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year6\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_AdditionalType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Reappropriation\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_FinancialYearID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UI_HideRow\",\"Value\":\"\",\"EDT\":-1},{\"ElementName\":\"MF_d19_OverallAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_IsExternalIns\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_ActualDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d28_Justiifcation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_RecurringAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_Departmentid\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year2\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_Description\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectBudget\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_BudgetTotalAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"BudgetAllocation_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_YearMonth\",\"Value\":\"\",\"EDT\":9}]}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"MF_d10_FundReceiptMode\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_BudgetHead\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year10\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_ExchangeRate\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_PrincipalInvestigator\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year3\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"ExternalCoPiGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectCode\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"ManpowerGrid\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MG_d82_DocumentName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d109_OverallEquipmentcost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_RecurringValidation\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_Duration\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_EmployeeBasicInfoId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectStatus\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_BudgetDetailsId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectproposalID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_No_OfManpowerPosition\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_JustiifcationbyHoD\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_HRAPercentage\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_SerialNo\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_ProjectDetailsID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectCategoryID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_NonRecurringAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_EmployeeCode\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_TotalPerMonth\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year8\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_ExternalEmailId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_TotalCost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year4\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_Overhead\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_RateinINR\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_AdditionalName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_FromDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MF_d10_IfExtended\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_ProjectRefNo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"RDDocumentGrid\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MG_d109_EquipmentName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_BudgetAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d154_SerialNo\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MG_d28_Year9\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_IsActive\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"EquipmentGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year11\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_ToDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d55_DesignationID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ExtendedDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d109_TotalEquipmentcost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_SanctionedDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d28_BudgetID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_RDOfficeComments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_ManpowerPosition\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_IsSubmitted\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MG_d154_RatePerMonth\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d145_OverallTotalCost\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"EquipmentGrid\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MG_d55_ExternalInstituteName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_ExternalContactNo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_SchemeID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_ExternalFacultyName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_IfManpower\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_DepartmentID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d109_Quantity\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_ProjectName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_Sector\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"m_currency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_SanctionedNumber\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ActualEndDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"BudgetAllocation\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MF_d10_DocumentComments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d109_EquipmentBudget\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_InstanceId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"ManpowerGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year1\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d154_Duration\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_FundingAgency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year5\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d82_DocumentID\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MG_d154_TotalMonths\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_IfEquipment\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_Designation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_ExternalDesignation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d154_HRAPerMonth\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year7\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year12\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"RDDocumentGrid_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year6\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_AdditionalType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Reappropriation\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_FinancialYearID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UI_HideRow\",\"Value\":\"\",\"EDT\":-1},{\"ElementName\":\"MF_d19_OverallAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_IsExternalIns\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_EmpDeptCode\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ActualDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d28_Justiifcation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_RecurringAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_Departmentid\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year2\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d109_Description\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectBudget\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_BudgetTotalAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"BudgetAllocation_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_YearMonth\",\"Value\":\"\",\"EDT\":9}]}]",
     "DCaption": "",
     "__idx": 0,
     "_id": "93CFDE26-D3EC-4073-8B9F-C943C17365AA_1_0",
@@ -521,7 +521,7 @@ export const DataElementsData = [
                     "MergeRow": "",
                     "Action": "OnChange",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_InstanceId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year10\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year3\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectCategoryID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year8\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year4\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year9\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year11\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_DesignationID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_RDOfficeComments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_Sector\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"m_currency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year1\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_FundingAgency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year5\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year7\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year12\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year6\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FinancialYearID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_IsExternalIns\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d55_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year2\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_ProjectBudget\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_InstanceId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year10\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year3\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_ProjectStatus\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectDetailsID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectCategoryID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year8\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year4\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year9\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year11\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_DesignationID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_RDOfficeComments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_Sector\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"m_currency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year1\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_FundingAgency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year5\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year7\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year12\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year6\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FinancialYearID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_IsExternalIns\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d55_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year2\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_ProjectBudget\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                     "EDT": 9,
                     "DCaption": "Project Proposal",
                     "DHelpText": "",
@@ -939,6 +939,10 @@ export const DataElementsData = [
                                   {
                                     "Mandatory": true,
                                     "Span": false
+                                  },
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
                                   }
                                 ],
                                 "__idx": 71,
@@ -980,6 +984,10 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  },
                                   {
                                     "Mandatory": true,
                                     "Span": false
@@ -1027,6 +1035,10 @@ export const DataElementsData = [
                                   {
                                     "Mandatory": true,
                                     "Span": false
+                                  },
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
                                   }
                                 ],
                                 "__idx": 73,
@@ -1071,6 +1083,10 @@ export const DataElementsData = [
                                   {
                                     "Mandatory": true,
                                     "Span": false
+                                  },
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
                                   }
                                 ],
                                 "__idx": 74,
@@ -1112,6 +1128,12 @@ export const DataElementsData = [
                                 "DCaption": "Project Name",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 75,
                                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_76_75",
                                 "children": []
@@ -1152,6 +1174,10 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  },
                                   {
                                     "Mandatory": true,
                                     "Span": false
@@ -1250,6 +1276,10 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  },
                                   {
                                     "Mandatory": true,
                                     "Span": false
@@ -1458,6 +1488,12 @@ export const DataElementsData = [
                                 "DCaption": "Project Budget",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 80,
                                 "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_81_80",
                                 "children": []
@@ -1584,6 +1620,10 @@ export const DataElementsData = [
                                   {
                                     "Mandatory": true,
                                     "Span": false
+                                  },
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
                                   }
                                 ],
                                 "__idx": 83,
@@ -1625,6 +1665,12 @@ export const DataElementsData = [
                                 "DCaption": "Year Month",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "ElementControlProperty": [
+                                  {
+                                    "Mandatory": true,
+                                    "Span": false
+                                  }
+                                ],
                                 "__idx": 84,
                                 "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_85_84",
                                 "children": []
@@ -2308,7 +2354,7 @@ export const DataElementsData = [
                                     "MergeRow": "",
                                     "Action": "OnChange",
                                     "IsSaveWidget": 0,
-                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                                     "EDT": 3,
                                     "DCaption": "Budget Amount",
                                     "DHelpText": "",
@@ -3026,6 +3072,82 @@ export const DataElementsData = [
                                     "__idx": 158,
                                     "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_159_158",
                                     "children": []
+                                  },
+                                  {
+                                    "VersionName": "Medium",
+                                    "Id": 160,
+                                    "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                                    "ShowCaption": true,
+                                    "Fontbold": false,
+                                    "FontItalic": false,
+                                    "FontOverline": false,
+                                    "FontStrikeout": false,
+                                    "FontUnderline": false,
+                                    "Depth": 9,
+                                    "ElementId": "62bcaa8a-abfb-4a1e-716b-4ddd0d457700",
+                                    "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                                    "Sequence": 27,
+                                    "ElementName": "MG_d28_RecurringValidation",
+                                    "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+                                    "ControlType": "NumericTextBox",
+                                    "Wrap": 4,
+                                    "ClearFix": false,
+                                    "RenderType": 15,
+                                    "OnDemandLoad": false,
+                                    "ControlId": 2,
+                                    "DisplayName": "MG_d28_RecurringValidation",
+                                    "Searchable": false,
+                                    "Bindable": false,
+                                    "HeaderTemplate": "",
+                                    "MergeRow": "",
+                                    "IsSaveWidget": 0,
+                                    "BindingDetail": "",
+                                    "EDT": 5,
+                                    "DCaption": "",
+                                    "DHelpText": "",
+                                    "DToolTip": "",
+                                    "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+                                    "__idx": 159,
+                                    "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_160_159",
+                                    "children": []
+                                  },
+                                  {
+                                    "VersionName": "Medium",
+                                    "Id": 161,
+                                    "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                                    "ShowCaption": true,
+                                    "Fontbold": false,
+                                    "FontItalic": false,
+                                    "FontOverline": false,
+                                    "FontStrikeout": false,
+                                    "FontUnderline": false,
+                                    "Depth": 9,
+                                    "Width": 1,
+                                    "ElementId": "77b3c293-580c-7348-09ab-8daf50018cbb",
+                                    "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                                    "Sequence": 28,
+                                    "ElementName": "MG_d28_BudgetDetailsId",
+                                    "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+                                    "ControlType": "TextBox",
+                                    "Wrap": 4,
+                                    "IsMultiline": false,
+                                    "ClearFix": false,
+                                    "RenderType": 1,
+                                    "OnDemandLoad": false,
+                                    "ControlId": 1,
+                                    "DisplayName": "MG_d28_BudgetDetailsId",
+                                    "Searchable": false,
+                                    "Bindable": false,
+                                    "HeaderTemplate": "",
+                                    "MergeRow": "",
+                                    "IsSaveWidget": 0,
+                                    "BindingDetail": "",
+                                    "EDT": 9,
+                                    "DCaption": "MG_d28_BudgetDetailsId",
+                                    "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+                                    "__idx": 160,
+                                    "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_161_160",
+                                    "children": []
                                   }
                                 ]
                               }
@@ -3152,7 +3274,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 160,
+                                    "Id": 162,
                                     "uielementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3167,7 +3289,7 @@ export const DataElementsData = [
                                     "CurrValue": 10,
                                     "ElementId": "",
                                     "UIElementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
-                                    "Sequence": 27,
+                                    "Sequence": 29,
                                     "ElementName": "UI_Panel Body",
                                     "ParentElementId": "22e356c0-fe95-3b3a-0e71-e822f8beaf9b",
                                     "ControlType": "Panel Body",
@@ -3186,12 +3308,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 159,
-                                    "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_160_159",
+                                    "__idx": 161,
+                                    "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_162_161",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 196,
+                                        "Id": 198,
                                         "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -3225,12 +3347,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 195,
-                                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_196_195",
+                                        "__idx": 197,
+                                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_198_197",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 200,
+                                            "Id": 202,
                                             "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -3262,13 +3384,13 @@ export const DataElementsData = [
                                             "DCaption": "Non Recurring Amount",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 199,
-                                            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_200_199",
+                                            "__idx": 201,
+                                            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 201,
+                                            "Id": 203,
                                             "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -3300,13 +3422,13 @@ export const DataElementsData = [
                                             "DCaption": "Recurring Amount",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 200,
-                                            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_201_200",
+                                            "__idx": 202,
+                                            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_203_202",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 202,
+                                            "Id": 204,
                                             "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -3338,8 +3460,8 @@ export const DataElementsData = [
                                             "DCaption": "Budget Total Amount",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 201,
-                                            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
+                                            "__idx": 203,
+                                            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_204_203",
                                             "children": []
                                           }
                                         ]
@@ -3582,8 +3704,9 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "HeaderTemplate": "",
                                 "MergeRow": "",
+                                "Action": "OnAfterRowAdding",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                                 "EDT": 12,
                                 "GM": "Inline",
                                 "DCaption": "dbo.ProjectManpowerDetails",
@@ -3684,7 +3807,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 161,
+                                    "Id": 163,
                                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3695,7 +3818,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "5285B70D-5B83-4F75-A850-3E617E40E7D9",
                                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                    "Sequence": 30,
+                                    "Sequence": 32,
                                     "ElementName": "ManpowerGrid_Sequence",
                                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                     "ControlType": "NumericTextBox",
@@ -3716,13 +3839,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                    "__idx": 160,
-                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_161_160",
+                                    "__idx": 162,
+                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 162,
+                                    "Id": 164,
                                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3733,7 +3856,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "A4F77944-8E4B-471E-A29B-D7359C1BB9A0",
                                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                    "Sequence": 31,
+                                    "Sequence": 33,
                                     "ElementName": "ManpowerGrid_RowId",
                                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                     "ControlType": "TextBox",
@@ -3755,13 +3878,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                    "__idx": 161,
-                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_162_161",
+                                    "__idx": 163,
+                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 163,
+                                    "Id": 165,
                                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3772,7 +3895,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "4A54EE4A-8033-433E-A262-EAE16B91D184",
                                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                    "Sequence": 33,
+                                    "Sequence": 35,
                                     "ElementName": "MG_d154_SerialNo",
                                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                     "ControlType": "NumericTextBox",
@@ -3793,13 +3916,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                    "__idx": 162,
-                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
+                                    "__idx": 164,
+                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 164,
+                                    "Id": 166,
                                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3810,7 +3933,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "6FDF7003-B6F4-4F73-89BA-91BC0B5B34D7",
                                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                    "Sequence": 34,
+                                    "Sequence": 36,
                                     "ElementName": "MG_d154_ManpowerPosition",
                                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                     "ControlType": "NumericTextBox",
@@ -3831,13 +3954,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                    "__idx": 163,
-                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
+                                    "__idx": 165,
+                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 165,
+                                    "Id": 167,
                                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3848,7 +3971,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "A51D4C70-271F-4F32-9DAF-7DBB8D46FB5D",
                                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                    "Sequence": 35,
+                                    "Sequence": 37,
                                     "ElementName": "MG_d154_No_OfManpowerPosition",
                                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                     "ControlType": "NumericTextBox",
@@ -3869,13 +3992,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                    "__idx": 164,
-                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
+                                    "__idx": 166,
+                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 166,
+                                    "Id": 168,
                                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3886,7 +4009,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "3B11CAC8-43EE-4FD6-9F2E-008EF0074946",
                                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                    "Sequence": 36,
+                                    "Sequence": 38,
                                     "ElementName": "MG_d154_Duration",
                                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                     "ControlType": "NumericTextBox",
@@ -3908,13 +4031,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                    "__idx": 165,
-                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
+                                    "__idx": 167,
+                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 167,
+                                    "Id": 169,
                                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3925,7 +4048,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "325FA7B8-1704-4FC7-9EFE-2AE193F97E0F",
                                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                    "Sequence": 37,
+                                    "Sequence": 39,
                                     "ElementName": "MG_d154_RatePerMonth",
                                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                     "ControlType": "NumericTextBox",
@@ -3947,13 +4070,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                    "__idx": 166,
-                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
+                                    "__idx": 168,
+                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 168,
+                                    "Id": 170,
                                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3964,7 +4087,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "7F62D03F-5E15-4712-B881-BE1D159A7EC0",
                                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                    "Sequence": 38,
+                                    "Sequence": 40,
                                     "ElementName": "MG_d154_HRAPercentage",
                                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                     "ControlType": "NumericTextBox",
@@ -3986,13 +4109,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                    "__idx": 167,
-                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
+                                    "__idx": 169,
+                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 169,
+                                    "Id": 171,
                                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -4003,7 +4126,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "7E9C4ECC-B641-4540-95AE-745DCD75D555",
                                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                    "Sequence": 39,
+                                    "Sequence": 41,
                                     "ElementName": "MG_d154_HRAPerMonth",
                                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                     "ControlType": "NumericTextBox",
@@ -4025,13 +4148,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                    "__idx": 168,
-                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
+                                    "__idx": 170,
+                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 170,
+                                    "Id": 172,
                                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -4042,13 +4165,13 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "A0F18415-6016-4457-A4DC-6B30AC4E16E2",
                                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                    "Sequence": 40,
+                                    "Sequence": 42,
                                     "ElementName": "MG_d154_TotalPerMonth",
                                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                     "ControlType": "NumericTextBox",
                                     "Wrap": 4,
                                     "ClearFix": false,
-                                    "RenderType": 15,
+                                    "RenderType": 16,
                                     "OnDemandLoad": false,
                                     "ControlId": 2,
                                     "DisplayName": "MG_d154_TotalPerMonth",
@@ -4063,13 +4186,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                    "__idx": 169,
-                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
+                                    "__idx": 171,
+                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 171,
+                                    "Id": 173,
                                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -4080,7 +4203,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "14C18238-7D10-48C5-81B3-469473AA36E7",
                                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                    "Sequence": 41,
+                                    "Sequence": 43,
                                     "ElementName": "MG_d154_TotalMonths",
                                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                     "ControlType": "NumericTextBox",
@@ -4102,13 +4225,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                    "__idx": 170,
-                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
+                                    "__idx": 172,
+                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 172,
+                                    "Id": 174,
                                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -4119,13 +4242,13 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "0551E82F-D576-41B7-A722-5BF512C5612E",
                                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                    "Sequence": 42,
+                                    "Sequence": 44,
                                     "ElementName": "MG_d154_TotalCost",
                                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                     "ControlType": "NumericTextBox",
                                     "Wrap": 4,
                                     "ClearFix": false,
-                                    "RenderType": 15,
+                                    "RenderType": 16,
                                     "OnDemandLoad": false,
                                     "ControlId": 2,
                                     "DisplayName": "MG_d154_TotalCost",
@@ -4140,13 +4263,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                    "__idx": 171,
-                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
+                                    "__idx": 173,
+                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 173,
+                                    "Id": 175,
                                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -4158,7 +4281,7 @@ export const DataElementsData = [
                                     "Width": 1,
                                     "ElementId": "4109BCDB-C542-4F5E-A90A-261FA5B6EF5C",
                                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                    "Sequence": 43,
+                                    "Sequence": 45,
                                     "ElementName": "MG_d154_Comments",
                                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                     "ControlType": "TextBox",
@@ -4180,13 +4303,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                    "__idx": 172,
-                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
+                                    "__idx": 174,
+                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_175_174",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 174,
+                                    "Id": 176,
                                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -4198,7 +4321,7 @@ export const DataElementsData = [
                                     "Width": 1,
                                     "ElementId": "4005C300-026A-41AE-A770-640B77DEC2AA",
                                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                    "Sequence": 44,
+                                    "Sequence": 46,
                                     "ElementName": "Edit_ManpowerGrid",
                                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                     "ControlType": "ActionButton",
@@ -4218,8 +4341,8 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                    "__idx": 173,
-                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
+                                    "__idx": 175,
+                                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_176_175",
                                     "children": []
                                   }
                                 ]
@@ -4347,7 +4470,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 175,
+                                    "Id": 177,
                                     "uielementid": "ed9afaee-314c-023f-3099-d207312c2bde",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -4362,7 +4485,7 @@ export const DataElementsData = [
                                     "CurrValue": 10,
                                     "ElementId": "",
                                     "UIElementid": "ed9afaee-314c-023f-3099-d207312c2bde",
-                                    "Sequence": 45,
+                                    "Sequence": 47,
                                     "ElementName": "UI_Panel Body",
                                     "ParentElementId": "5f1fbbd0-d362-421d-d3ff-178db90496cb",
                                     "ControlType": "Panel Body",
@@ -4381,12 +4504,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 174,
-                                    "_id": "ed9afaee-314c-023f-3099-d207312c2bde_175_174",
+                                    "__idx": 176,
+                                    "_id": "ed9afaee-314c-023f-3099-d207312c2bde_177_176",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 197,
+                                        "Id": 199,
                                         "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -4420,12 +4543,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 196,
-                                        "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_197_196",
+                                        "__idx": 198,
+                                        "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_199_198",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 203,
+                                            "Id": 205,
                                             "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -4442,7 +4565,7 @@ export const DataElementsData = [
                                             "ControlType": "NumericTextBox",
                                             "Wrap": 4,
                                             "ClearFix": false,
-                                            "RenderType": 15,
+                                            "RenderType": 16,
                                             "OnDemandLoad": false,
                                             "ControlId": 2,
                                             "DisplayName": "MF_ManPowerTotal",
@@ -4456,8 +4579,8 @@ export const DataElementsData = [
                                             "DCaption": "Manpower Total",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 202,
-                                            "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_203_202",
+                                            "__idx": 204,
+                                            "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_205_204",
                                             "children": []
                                           }
                                         ]
@@ -4658,8 +4781,9 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "HeaderTemplate": "",
                                 "MergeRow": "",
+                                "Action": "OnAfterRowAdding",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                                 "EDT": 12,
                                 "GM": "Inline",
                                 "DCaption": "dbo.ProjectEquipmentDetails",
@@ -4760,7 +4884,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 176,
+                                    "Id": 178,
                                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -4771,7 +4895,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "E714159A-2EA5-4B1F-B76F-47AF1782E72E",
                                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                    "Sequence": 48,
+                                    "Sequence": 50,
                                     "ElementName": "EquipmentGrid_Sequence",
                                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                     "ControlType": "NumericTextBox",
@@ -4792,13 +4916,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                    "__idx": 175,
-                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_176_175",
+                                    "__idx": 177,
+                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 177,
+                                    "Id": 179,
                                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -4809,7 +4933,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "5D693B84-4B3C-4E27-BA8A-746B5B5D447E",
                                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                    "Sequence": 49,
+                                    "Sequence": 51,
                                     "ElementName": "EquipmentGrid_RowId",
                                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                     "ControlType": "TextBox",
@@ -4831,13 +4955,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                    "__idx": 176,
-                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_177_176",
+                                    "__idx": 178,
+                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 178,
+                                    "Id": 180,
                                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -4848,7 +4972,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "74CB28BD-0A05-41A6-BEAC-BAD08EEFD1B4",
                                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                    "Sequence": 51,
+                                    "Sequence": 53,
                                     "ElementName": "MG_d109_SerialNo",
                                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                     "ControlType": "NumericTextBox",
@@ -4869,13 +4993,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                    "__idx": 177,
-                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
+                                    "__idx": 179,
+                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 179,
+                                    "Id": 181,
                                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -4886,7 +5010,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "14B54AEC-3441-4A80-B808-AAB14C3D727E",
                                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                    "Sequence": 52,
+                                    "Sequence": 54,
                                     "ElementName": "MG_d109_EquipmentName",
                                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                     "ControlType": "TextBox",
@@ -4908,13 +5032,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                    "__idx": 178,
-                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
+                                    "__idx": 180,
+                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 180,
+                                    "Id": 182,
                                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -4925,7 +5049,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "13785B0C-4768-4915-8E17-868B6BDBCF2B",
                                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                    "Sequence": 53,
+                                    "Sequence": 55,
                                     "ElementName": "MG_d109_Description",
                                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                     "ControlType": "TextBox",
@@ -4947,13 +5071,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                    "__idx": 179,
-                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
+                                    "__idx": 181,
+                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 181,
+                                    "Id": 183,
                                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -4964,7 +5088,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "408D121E-3EB2-449E-9501-CAC7DC07F5CB",
                                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                    "Sequence": 54,
+                                    "Sequence": 56,
                                     "ElementName": "MG_d109_Quantity",
                                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                     "ControlType": "NumericTextBox",
@@ -4986,13 +5110,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                    "__idx": 180,
-                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
+                                    "__idx": 182,
+                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 182,
+                                    "Id": 184,
                                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -5003,7 +5127,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "25D86941-4C81-4A42-B966-7CFF8CA120DC",
                                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                    "Sequence": 55,
+                                    "Sequence": 57,
                                     "ElementName": "MG_d109_RateinINR",
                                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                     "ControlType": "NumericTextBox",
@@ -5025,13 +5149,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                    "__idx": 181,
-                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
+                                    "__idx": 183,
+                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 183,
+                                    "Id": 185,
                                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -5042,7 +5166,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "3B9AC87E-863C-4602-9A9A-EB07673A8998",
                                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                    "Sequence": 56,
+                                    "Sequence": 58,
                                     "ElementName": "MG_d109_TotalEquipmentcost",
                                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                     "ControlType": "NumericTextBox",
@@ -5063,13 +5187,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                    "__idx": 182,
-                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
+                                    "__idx": 184,
+                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 184,
+                                    "Id": 186,
                                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -5080,7 +5204,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "F010F917-75BC-4DD9-9B88-D3C784F81676",
                                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                    "Sequence": 57,
+                                    "Sequence": 59,
                                     "ElementName": "MG_d109_EquipmentBudget",
                                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                     "ControlType": "NumericTextBox",
@@ -5101,13 +5225,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                    "__idx": 183,
-                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
+                                    "__idx": 185,
+                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 185,
+                                    "Id": 187,
                                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -5118,7 +5242,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
                                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                    "Sequence": 58,
+                                    "Sequence": 60,
                                     "ElementName": "MG_d109_IsActive",
                                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                     "ControlType": "CheckBox",
@@ -5138,13 +5262,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                    "__idx": 184,
-                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
+                                    "__idx": 186,
+                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_187_186",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 186,
+                                    "Id": 188,
                                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -5155,7 +5279,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
                                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                    "Sequence": 59,
+                                    "Sequence": 61,
                                     "ElementName": "MG_d109_OverallEquipmentcost",
                                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                     "ControlType": "NumericTextBox",
@@ -5176,8 +5300,8 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                    "__idx": 185,
-                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
+                                    "__idx": 187,
+                                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_188_187",
                                     "children": []
                                   }
                                 ]
@@ -5305,7 +5429,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 187,
+                                    "Id": 189,
                                     "uielementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -5320,7 +5444,7 @@ export const DataElementsData = [
                                     "CurrValue": 10,
                                     "ElementId": "",
                                     "UIElementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
-                                    "Sequence": 60,
+                                    "Sequence": 62,
                                     "ElementName": "UI_Panel Body",
                                     "ParentElementId": "c0daf60a-5656-584e-06b9-95e7070c518e",
                                     "ControlType": "Panel Body",
@@ -5339,12 +5463,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 186,
-                                    "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_187_186",
+                                    "__idx": 188,
+                                    "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_189_188",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 198,
+                                        "Id": 200,
                                         "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -5378,12 +5502,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 197,
-                                        "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_198_197",
+                                        "__idx": 199,
+                                        "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_200_199",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 204,
+                                            "Id": 206,
                                             "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -5400,7 +5524,7 @@ export const DataElementsData = [
                                             "ControlType": "NumericTextBox",
                                             "Wrap": 4,
                                             "ClearFix": false,
-                                            "RenderType": 15,
+                                            "RenderType": 16,
                                             "OnDemandLoad": false,
                                             "ControlId": 2,
                                             "DisplayName": "MF_EquipmentTotal",
@@ -5414,8 +5538,8 @@ export const DataElementsData = [
                                             "DCaption": "Equipment Total",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 203,
-                                            "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_204_203",
+                                            "__idx": 205,
+                                            "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_206_205",
                                             "children": []
                                           }
                                         ]
@@ -6429,7 +6553,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 188,
+                                    "Id": 190,
                                     "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -6440,7 +6564,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "FB1C8B10-F240-4A81-BEFA-83B2EB9608D4",
                                     "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                                    "Sequence": 63,
+                                    "Sequence": 65,
                                     "ElementName": "RDDocumentGrid_Sequence",
                                     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                                     "ControlType": "NumericTextBox",
@@ -6461,13 +6585,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                                    "__idx": 187,
-                                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_188_187",
+                                    "__idx": 189,
+                                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 189,
+                                    "Id": 191,
                                     "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -6478,7 +6602,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "27819A84-AF88-4AFD-9109-9227D4CA7B13",
                                     "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                                    "Sequence": 64,
+                                    "Sequence": 66,
                                     "ElementName": "RDDocumentGrid_RowId",
                                     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                                     "ControlType": "TextBox",
@@ -6500,13 +6624,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                                    "__idx": 188,
-                                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_189_188",
+                                    "__idx": 190,
+                                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 190,
+                                    "Id": 192,
                                     "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -6517,7 +6641,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "A634C53C-FDF1-43DC-8BA3-19DBAE083989",
                                     "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                                    "Sequence": 66,
+                                    "Sequence": 68,
                                     "ElementName": "MG_d82_DocumentName",
                                     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                                     "ControlType": "TextBox",
@@ -6539,13 +6663,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                                    "__idx": 189,
-                                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
+                                    "__idx": 191,
+                                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 191,
+                                    "Id": 193,
                                     "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -6556,7 +6680,7 @@ export const DataElementsData = [
                                     "Depth": 9,
                                     "ElementId": "D62563E5-2F3A-4B3A-825D-3F111D094FB2",
                                     "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                                    "Sequence": 67,
+                                    "Sequence": 69,
                                     "ElementName": "MG_d82_DocumentID",
                                     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                                     "ControlType": "NumericTextBox",
@@ -6583,13 +6707,13 @@ export const DataElementsData = [
                                       }
                                     ],
                                     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                                    "__idx": 190,
-                                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
+                                    "__idx": 192,
+                                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_193_192",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 192,
+                                    "Id": 194,
                                     "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -6601,7 +6725,7 @@ export const DataElementsData = [
                                     "Width": 1,
                                     "ElementId": "A7F87FB1-F3D8-447A-9E05-275E22C2D9FC",
                                     "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                                    "Sequence": 68,
+                                    "Sequence": 70,
                                     "ElementName": "Edit_RDDocumentGrid",
                                     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                                     "ControlType": "ActionButton",
@@ -6621,8 +6745,8 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                                    "__idx": 191,
-                                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
+                                    "__idx": 193,
+                                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_194_193",
                                     "children": []
                                   }
                                 ]
@@ -6750,7 +6874,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 193,
+                                    "Id": 195,
                                     "uielementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -6765,7 +6889,7 @@ export const DataElementsData = [
                                     "CurrValue": 10,
                                     "ElementId": "",
                                     "UIElementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
-                                    "Sequence": 69,
+                                    "Sequence": 71,
                                     "ElementName": "UI_Panel Body",
                                     "ParentElementId": "4fb8e731-8e77-460f-64bb-d5e398222222",
                                     "ControlType": "Panel Body",
@@ -6784,12 +6908,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 192,
-                                    "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_193_192",
+                                    "__idx": 194,
+                                    "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_195_194",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 199,
+                                        "Id": 201,
                                         "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -6823,12 +6947,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 198,
-                                        "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_199_198",
+                                        "__idx": 200,
+                                        "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_201_200",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 205,
+                                            "Id": 207,
                                             "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -6861,8 +6985,8 @@ export const DataElementsData = [
                                             "DCaption": "Document Comments",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 204,
-                                            "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_205_204",
+                                            "__idx": 206,
+                                            "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_207_206",
                                             "children": []
                                           }
                                         ]
@@ -8150,7 +8274,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 194,
+                                    "Id": 196,
                                     "uielementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -8162,7 +8286,7 @@ export const DataElementsData = [
                                     "Css": "form-select form-select",
                                     "ElementId": "d20e38b8-b229-09da-343d-5cf38b41907e",
                                     "UIElementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
-                                    "Sequence": 70,
+                                    "Sequence": 72,
                                     "ElementName": "M_MoveTo",
                                     "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                                     "ControlType": "ComboBox",
@@ -8182,8 +8306,8 @@ export const DataElementsData = [
                                     "DCaption": "Next Action",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 193,
-                                    "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_194_193",
+                                    "__idx": 195,
+                                    "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_196_195",
                                     "children": []
                                   }
                                 ]
@@ -8229,7 +8353,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 195,
+                                    "Id": 197,
                                     "uielementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -8241,7 +8365,7 @@ export const DataElementsData = [
                                     "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
                                     "ElementId": "F726FB8F-7647-42FE-ADF5-EC340FE1F186",
                                     "UIElementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
-                                    "Sequence": 71,
+                                    "Sequence": 73,
                                     "ElementName": "SubmitForm",
                                     "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                                     "ControlType": "ActionButton",
@@ -8261,8 +8385,8 @@ export const DataElementsData = [
                                     "DCaption": "Submit",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 194,
-                                    "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_195_194",
+                                    "__idx": 196,
+                                    "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_197_196",
                                     "children": []
                                   }
                                 ]
@@ -8763,7 +8887,7 @@ export const DataElementsData = [
                 "MergeRow": "",
                 "Action": "OnChange",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_InstanceId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year10\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year3\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectCategoryID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year8\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year4\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year9\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year11\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_DesignationID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_RDOfficeComments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_Sector\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"m_currency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year1\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_FundingAgency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year5\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year7\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year12\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year6\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FinancialYearID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_IsExternalIns\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d55_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year2\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_ProjectBudget\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_InstanceId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year10\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year3\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_ProjectStatus\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectDetailsID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectCategoryID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year8\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year4\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year9\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year11\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_DesignationID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_RDOfficeComments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_Sector\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"m_currency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year1\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_FundingAgency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year5\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year7\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year12\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year6\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FinancialYearID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_IsExternalIns\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d55_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year2\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_ProjectBudget\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                 "EDT": 9,
                 "DCaption": "Project Proposal",
                 "DHelpText": "",
@@ -9181,6 +9305,10 @@ export const DataElementsData = [
                               {
                                 "Mandatory": true,
                                 "Span": false
+                              },
+                              {
+                                "Mandatory": true,
+                                "Span": false
                               }
                             ],
                             "__idx": 71,
@@ -9222,6 +9350,10 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              },
                               {
                                 "Mandatory": true,
                                 "Span": false
@@ -9269,6 +9401,10 @@ export const DataElementsData = [
                               {
                                 "Mandatory": true,
                                 "Span": false
+                              },
+                              {
+                                "Mandatory": true,
+                                "Span": false
                               }
                             ],
                             "__idx": 73,
@@ -9313,6 +9449,10 @@ export const DataElementsData = [
                               {
                                 "Mandatory": true,
                                 "Span": false
+                              },
+                              {
+                                "Mandatory": true,
+                                "Span": false
                               }
                             ],
                             "__idx": 74,
@@ -9354,6 +9494,12 @@ export const DataElementsData = [
                             "DCaption": "Project Name",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 75,
                             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_76_75",
                             "children": []
@@ -9394,6 +9540,10 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              },
                               {
                                 "Mandatory": true,
                                 "Span": false
@@ -9492,6 +9642,10 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              },
                               {
                                 "Mandatory": true,
                                 "Span": false
@@ -9700,6 +9854,12 @@ export const DataElementsData = [
                             "DCaption": "Project Budget",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 80,
                             "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_81_80",
                             "children": []
@@ -9826,6 +9986,10 @@ export const DataElementsData = [
                               {
                                 "Mandatory": true,
                                 "Span": false
+                              },
+                              {
+                                "Mandatory": true,
+                                "Span": false
                               }
                             ],
                             "__idx": 83,
@@ -9867,6 +10031,12 @@ export const DataElementsData = [
                             "DCaption": "Year Month",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "ElementControlProperty": [
+                              {
+                                "Mandatory": true,
+                                "Span": false
+                              }
+                            ],
                             "__idx": 84,
                             "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_85_84",
                             "children": []
@@ -10550,7 +10720,7 @@ export const DataElementsData = [
                                 "MergeRow": "",
                                 "Action": "OnChange",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                                 "EDT": 3,
                                 "DCaption": "Budget Amount",
                                 "DHelpText": "",
@@ -11268,6 +11438,82 @@ export const DataElementsData = [
                                 "__idx": 158,
                                 "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_159_158",
                                 "children": []
+                              },
+                              {
+                                "VersionName": "Medium",
+                                "Id": 160,
+                                "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                                "ShowCaption": true,
+                                "Fontbold": false,
+                                "FontItalic": false,
+                                "FontOverline": false,
+                                "FontStrikeout": false,
+                                "FontUnderline": false,
+                                "Depth": 9,
+                                "ElementId": "62bcaa8a-abfb-4a1e-716b-4ddd0d457700",
+                                "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                                "Sequence": 27,
+                                "ElementName": "MG_d28_RecurringValidation",
+                                "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+                                "ControlType": "NumericTextBox",
+                                "Wrap": 4,
+                                "ClearFix": false,
+                                "RenderType": 15,
+                                "OnDemandLoad": false,
+                                "ControlId": 2,
+                                "DisplayName": "MG_d28_RecurringValidation",
+                                "Searchable": false,
+                                "Bindable": false,
+                                "HeaderTemplate": "",
+                                "MergeRow": "",
+                                "IsSaveWidget": 0,
+                                "BindingDetail": "",
+                                "EDT": 5,
+                                "DCaption": "",
+                                "DHelpText": "",
+                                "DToolTip": "",
+                                "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+                                "__idx": 159,
+                                "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_160_159",
+                                "children": []
+                              },
+                              {
+                                "VersionName": "Medium",
+                                "Id": 161,
+                                "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                                "ShowCaption": true,
+                                "Fontbold": false,
+                                "FontItalic": false,
+                                "FontOverline": false,
+                                "FontStrikeout": false,
+                                "FontUnderline": false,
+                                "Depth": 9,
+                                "Width": 1,
+                                "ElementId": "77b3c293-580c-7348-09ab-8daf50018cbb",
+                                "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                                "Sequence": 28,
+                                "ElementName": "MG_d28_BudgetDetailsId",
+                                "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+                                "ControlType": "TextBox",
+                                "Wrap": 4,
+                                "IsMultiline": false,
+                                "ClearFix": false,
+                                "RenderType": 1,
+                                "OnDemandLoad": false,
+                                "ControlId": 1,
+                                "DisplayName": "MG_d28_BudgetDetailsId",
+                                "Searchable": false,
+                                "Bindable": false,
+                                "HeaderTemplate": "",
+                                "MergeRow": "",
+                                "IsSaveWidget": 0,
+                                "BindingDetail": "",
+                                "EDT": 9,
+                                "DCaption": "MG_d28_BudgetDetailsId",
+                                "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+                                "__idx": 160,
+                                "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_161_160",
+                                "children": []
                               }
                             ]
                           }
@@ -11394,7 +11640,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 160,
+                                "Id": 162,
                                 "uielementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -11409,7 +11655,7 @@ export const DataElementsData = [
                                 "CurrValue": 10,
                                 "ElementId": "",
                                 "UIElementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
-                                "Sequence": 27,
+                                "Sequence": 29,
                                 "ElementName": "UI_Panel Body",
                                 "ParentElementId": "22e356c0-fe95-3b3a-0e71-e822f8beaf9b",
                                 "ControlType": "Panel Body",
@@ -11428,12 +11674,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 159,
-                                "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_160_159",
+                                "__idx": 161,
+                                "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_162_161",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 196,
+                                    "Id": 198,
                                     "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -11467,12 +11713,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 195,
-                                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_196_195",
+                                    "__idx": 197,
+                                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_198_197",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 200,
+                                        "Id": 202,
                                         "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -11504,13 +11750,13 @@ export const DataElementsData = [
                                         "DCaption": "Non Recurring Amount",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 199,
-                                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_200_199",
+                                        "__idx": 201,
+                                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 201,
+                                        "Id": 203,
                                         "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -11542,13 +11788,13 @@ export const DataElementsData = [
                                         "DCaption": "Recurring Amount",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 200,
-                                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_201_200",
+                                        "__idx": 202,
+                                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_203_202",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 202,
+                                        "Id": 204,
                                         "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -11580,8 +11826,8 @@ export const DataElementsData = [
                                         "DCaption": "Budget Total Amount",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 201,
-                                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
+                                        "__idx": 203,
+                                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_204_203",
                                         "children": []
                                       }
                                     ]
@@ -11824,8 +12070,9 @@ export const DataElementsData = [
                             "Bindable": false,
                             "HeaderTemplate": "",
                             "MergeRow": "",
+                            "Action": "OnAfterRowAdding",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                             "EDT": 12,
                             "GM": "Inline",
                             "DCaption": "dbo.ProjectManpowerDetails",
@@ -11926,7 +12173,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 161,
+                                "Id": 163,
                                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -11937,7 +12184,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "5285B70D-5B83-4F75-A850-3E617E40E7D9",
                                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                "Sequence": 30,
+                                "Sequence": 32,
                                 "ElementName": "ManpowerGrid_Sequence",
                                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                 "ControlType": "NumericTextBox",
@@ -11958,13 +12205,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                "__idx": 160,
-                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_161_160",
+                                "__idx": 162,
+                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 162,
+                                "Id": 164,
                                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -11975,7 +12222,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "A4F77944-8E4B-471E-A29B-D7359C1BB9A0",
                                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                "Sequence": 31,
+                                "Sequence": 33,
                                 "ElementName": "ManpowerGrid_RowId",
                                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                 "ControlType": "TextBox",
@@ -11997,13 +12244,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                "__idx": 161,
-                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_162_161",
+                                "__idx": 163,
+                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 163,
+                                "Id": 165,
                                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12014,7 +12261,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "4A54EE4A-8033-433E-A262-EAE16B91D184",
                                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                "Sequence": 33,
+                                "Sequence": 35,
                                 "ElementName": "MG_d154_SerialNo",
                                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                 "ControlType": "NumericTextBox",
@@ -12035,13 +12282,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                "__idx": 162,
-                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
+                                "__idx": 164,
+                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 164,
+                                "Id": 166,
                                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12052,7 +12299,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "6FDF7003-B6F4-4F73-89BA-91BC0B5B34D7",
                                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                "Sequence": 34,
+                                "Sequence": 36,
                                 "ElementName": "MG_d154_ManpowerPosition",
                                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                 "ControlType": "NumericTextBox",
@@ -12073,13 +12320,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                "__idx": 163,
-                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
+                                "__idx": 165,
+                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 165,
+                                "Id": 167,
                                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12090,7 +12337,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "A51D4C70-271F-4F32-9DAF-7DBB8D46FB5D",
                                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                "Sequence": 35,
+                                "Sequence": 37,
                                 "ElementName": "MG_d154_No_OfManpowerPosition",
                                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                 "ControlType": "NumericTextBox",
@@ -12111,13 +12358,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                "__idx": 164,
-                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
+                                "__idx": 166,
+                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 166,
+                                "Id": 168,
                                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12128,7 +12375,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "3B11CAC8-43EE-4FD6-9F2E-008EF0074946",
                                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                "Sequence": 36,
+                                "Sequence": 38,
                                 "ElementName": "MG_d154_Duration",
                                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                 "ControlType": "NumericTextBox",
@@ -12150,13 +12397,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                "__idx": 165,
-                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
+                                "__idx": 167,
+                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 167,
+                                "Id": 169,
                                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12167,7 +12414,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "325FA7B8-1704-4FC7-9EFE-2AE193F97E0F",
                                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                "Sequence": 37,
+                                "Sequence": 39,
                                 "ElementName": "MG_d154_RatePerMonth",
                                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                 "ControlType": "NumericTextBox",
@@ -12189,13 +12436,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                "__idx": 166,
-                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
+                                "__idx": 168,
+                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 168,
+                                "Id": 170,
                                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12206,7 +12453,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "7F62D03F-5E15-4712-B881-BE1D159A7EC0",
                                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                "Sequence": 38,
+                                "Sequence": 40,
                                 "ElementName": "MG_d154_HRAPercentage",
                                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                 "ControlType": "NumericTextBox",
@@ -12228,13 +12475,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                "__idx": 167,
-                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
+                                "__idx": 169,
+                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 169,
+                                "Id": 171,
                                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12245,7 +12492,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "7E9C4ECC-B641-4540-95AE-745DCD75D555",
                                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                "Sequence": 39,
+                                "Sequence": 41,
                                 "ElementName": "MG_d154_HRAPerMonth",
                                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                 "ControlType": "NumericTextBox",
@@ -12267,13 +12514,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                "__idx": 168,
-                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
+                                "__idx": 170,
+                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 170,
+                                "Id": 172,
                                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12284,13 +12531,13 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "A0F18415-6016-4457-A4DC-6B30AC4E16E2",
                                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                "Sequence": 40,
+                                "Sequence": 42,
                                 "ElementName": "MG_d154_TotalPerMonth",
                                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                 "ControlType": "NumericTextBox",
                                 "Wrap": 4,
                                 "ClearFix": false,
-                                "RenderType": 15,
+                                "RenderType": 16,
                                 "OnDemandLoad": false,
                                 "ControlId": 2,
                                 "DisplayName": "MG_d154_TotalPerMonth",
@@ -12305,13 +12552,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                "__idx": 169,
-                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
+                                "__idx": 171,
+                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 171,
+                                "Id": 173,
                                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12322,7 +12569,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "14C18238-7D10-48C5-81B3-469473AA36E7",
                                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                "Sequence": 41,
+                                "Sequence": 43,
                                 "ElementName": "MG_d154_TotalMonths",
                                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                 "ControlType": "NumericTextBox",
@@ -12344,13 +12591,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                "__idx": 170,
-                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
+                                "__idx": 172,
+                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 172,
+                                "Id": 174,
                                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12361,13 +12608,13 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "0551E82F-D576-41B7-A722-5BF512C5612E",
                                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                "Sequence": 42,
+                                "Sequence": 44,
                                 "ElementName": "MG_d154_TotalCost",
                                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                 "ControlType": "NumericTextBox",
                                 "Wrap": 4,
                                 "ClearFix": false,
-                                "RenderType": 15,
+                                "RenderType": 16,
                                 "OnDemandLoad": false,
                                 "ControlId": 2,
                                 "DisplayName": "MG_d154_TotalCost",
@@ -12382,13 +12629,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                "__idx": 171,
-                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
+                                "__idx": 173,
+                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 173,
+                                "Id": 175,
                                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12400,7 +12647,7 @@ export const DataElementsData = [
                                 "Width": 1,
                                 "ElementId": "4109BCDB-C542-4F5E-A90A-261FA5B6EF5C",
                                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                "Sequence": 43,
+                                "Sequence": 45,
                                 "ElementName": "MG_d154_Comments",
                                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                 "ControlType": "TextBox",
@@ -12422,13 +12669,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                "__idx": 172,
-                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
+                                "__idx": 174,
+                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_175_174",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 174,
+                                "Id": 176,
                                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12440,7 +12687,7 @@ export const DataElementsData = [
                                 "Width": 1,
                                 "ElementId": "4005C300-026A-41AE-A770-640B77DEC2AA",
                                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                                "Sequence": 44,
+                                "Sequence": 46,
                                 "ElementName": "Edit_ManpowerGrid",
                                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                                 "ControlType": "ActionButton",
@@ -12460,8 +12707,8 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                                "__idx": 173,
-                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
+                                "__idx": 175,
+                                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_176_175",
                                 "children": []
                               }
                             ]
@@ -12589,7 +12836,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 175,
+                                "Id": 177,
                                 "uielementid": "ed9afaee-314c-023f-3099-d207312c2bde",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12604,7 +12851,7 @@ export const DataElementsData = [
                                 "CurrValue": 10,
                                 "ElementId": "",
                                 "UIElementid": "ed9afaee-314c-023f-3099-d207312c2bde",
-                                "Sequence": 45,
+                                "Sequence": 47,
                                 "ElementName": "UI_Panel Body",
                                 "ParentElementId": "5f1fbbd0-d362-421d-d3ff-178db90496cb",
                                 "ControlType": "Panel Body",
@@ -12623,12 +12870,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 174,
-                                "_id": "ed9afaee-314c-023f-3099-d207312c2bde_175_174",
+                                "__idx": 176,
+                                "_id": "ed9afaee-314c-023f-3099-d207312c2bde_177_176",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 197,
+                                    "Id": 199,
                                     "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -12662,12 +12909,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 196,
-                                    "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_197_196",
+                                    "__idx": 198,
+                                    "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_199_198",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 203,
+                                        "Id": 205,
                                         "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -12684,7 +12931,7 @@ export const DataElementsData = [
                                         "ControlType": "NumericTextBox",
                                         "Wrap": 4,
                                         "ClearFix": false,
-                                        "RenderType": 15,
+                                        "RenderType": 16,
                                         "OnDemandLoad": false,
                                         "ControlId": 2,
                                         "DisplayName": "MF_ManPowerTotal",
@@ -12698,8 +12945,8 @@ export const DataElementsData = [
                                         "DCaption": "Manpower Total",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 202,
-                                        "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_203_202",
+                                        "__idx": 204,
+                                        "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_205_204",
                                         "children": []
                                       }
                                     ]
@@ -12900,8 +13147,9 @@ export const DataElementsData = [
                             "Bindable": false,
                             "HeaderTemplate": "",
                             "MergeRow": "",
+                            "Action": "OnAfterRowAdding",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                             "EDT": 12,
                             "GM": "Inline",
                             "DCaption": "dbo.ProjectEquipmentDetails",
@@ -13002,7 +13250,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 176,
+                                "Id": 178,
                                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -13013,7 +13261,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "E714159A-2EA5-4B1F-B76F-47AF1782E72E",
                                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                "Sequence": 48,
+                                "Sequence": 50,
                                 "ElementName": "EquipmentGrid_Sequence",
                                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                 "ControlType": "NumericTextBox",
@@ -13034,13 +13282,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                "__idx": 175,
-                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_176_175",
+                                "__idx": 177,
+                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 177,
+                                "Id": 179,
                                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -13051,7 +13299,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "5D693B84-4B3C-4E27-BA8A-746B5B5D447E",
                                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                "Sequence": 49,
+                                "Sequence": 51,
                                 "ElementName": "EquipmentGrid_RowId",
                                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                 "ControlType": "TextBox",
@@ -13073,13 +13321,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                "__idx": 176,
-                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_177_176",
+                                "__idx": 178,
+                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 178,
+                                "Id": 180,
                                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -13090,7 +13338,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "74CB28BD-0A05-41A6-BEAC-BAD08EEFD1B4",
                                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                "Sequence": 51,
+                                "Sequence": 53,
                                 "ElementName": "MG_d109_SerialNo",
                                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                 "ControlType": "NumericTextBox",
@@ -13111,13 +13359,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                "__idx": 177,
-                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
+                                "__idx": 179,
+                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 179,
+                                "Id": 181,
                                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -13128,7 +13376,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "14B54AEC-3441-4A80-B808-AAB14C3D727E",
                                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                "Sequence": 52,
+                                "Sequence": 54,
                                 "ElementName": "MG_d109_EquipmentName",
                                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                 "ControlType": "TextBox",
@@ -13150,13 +13398,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                "__idx": 178,
-                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
+                                "__idx": 180,
+                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 180,
+                                "Id": 182,
                                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -13167,7 +13415,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "13785B0C-4768-4915-8E17-868B6BDBCF2B",
                                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                "Sequence": 53,
+                                "Sequence": 55,
                                 "ElementName": "MG_d109_Description",
                                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                 "ControlType": "TextBox",
@@ -13189,13 +13437,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                "__idx": 179,
-                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
+                                "__idx": 181,
+                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 181,
+                                "Id": 183,
                                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -13206,7 +13454,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "408D121E-3EB2-449E-9501-CAC7DC07F5CB",
                                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                "Sequence": 54,
+                                "Sequence": 56,
                                 "ElementName": "MG_d109_Quantity",
                                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                 "ControlType": "NumericTextBox",
@@ -13228,13 +13476,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                "__idx": 180,
-                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
+                                "__idx": 182,
+                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 182,
+                                "Id": 184,
                                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -13245,7 +13493,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "25D86941-4C81-4A42-B966-7CFF8CA120DC",
                                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                "Sequence": 55,
+                                "Sequence": 57,
                                 "ElementName": "MG_d109_RateinINR",
                                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                 "ControlType": "NumericTextBox",
@@ -13267,13 +13515,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                "__idx": 181,
-                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
+                                "__idx": 183,
+                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 183,
+                                "Id": 185,
                                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -13284,7 +13532,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "3B9AC87E-863C-4602-9A9A-EB07673A8998",
                                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                "Sequence": 56,
+                                "Sequence": 58,
                                 "ElementName": "MG_d109_TotalEquipmentcost",
                                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                 "ControlType": "NumericTextBox",
@@ -13305,13 +13553,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                "__idx": 182,
-                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
+                                "__idx": 184,
+                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 184,
+                                "Id": 186,
                                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -13322,7 +13570,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "F010F917-75BC-4DD9-9B88-D3C784F81676",
                                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                "Sequence": 57,
+                                "Sequence": 59,
                                 "ElementName": "MG_d109_EquipmentBudget",
                                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                 "ControlType": "NumericTextBox",
@@ -13343,13 +13591,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                "__idx": 183,
-                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
+                                "__idx": 185,
+                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 185,
+                                "Id": 187,
                                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -13360,7 +13608,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
                                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                "Sequence": 58,
+                                "Sequence": 60,
                                 "ElementName": "MG_d109_IsActive",
                                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                 "ControlType": "CheckBox",
@@ -13380,13 +13628,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                "__idx": 184,
-                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
+                                "__idx": 186,
+                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_187_186",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 186,
+                                "Id": 188,
                                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -13397,7 +13645,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
                                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                                "Sequence": 59,
+                                "Sequence": 61,
                                 "ElementName": "MG_d109_OverallEquipmentcost",
                                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                                 "ControlType": "NumericTextBox",
@@ -13418,8 +13666,8 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                                "__idx": 185,
-                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
+                                "__idx": 187,
+                                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_188_187",
                                 "children": []
                               }
                             ]
@@ -13547,7 +13795,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 187,
+                                "Id": 189,
                                 "uielementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -13562,7 +13810,7 @@ export const DataElementsData = [
                                 "CurrValue": 10,
                                 "ElementId": "",
                                 "UIElementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
-                                "Sequence": 60,
+                                "Sequence": 62,
                                 "ElementName": "UI_Panel Body",
                                 "ParentElementId": "c0daf60a-5656-584e-06b9-95e7070c518e",
                                 "ControlType": "Panel Body",
@@ -13581,12 +13829,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 186,
-                                "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_187_186",
+                                "__idx": 188,
+                                "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_189_188",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 198,
+                                    "Id": 200,
                                     "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -13620,12 +13868,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 197,
-                                    "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_198_197",
+                                    "__idx": 199,
+                                    "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_200_199",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 204,
+                                        "Id": 206,
                                         "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -13642,7 +13890,7 @@ export const DataElementsData = [
                                         "ControlType": "NumericTextBox",
                                         "Wrap": 4,
                                         "ClearFix": false,
-                                        "RenderType": 15,
+                                        "RenderType": 16,
                                         "OnDemandLoad": false,
                                         "ControlId": 2,
                                         "DisplayName": "MF_EquipmentTotal",
@@ -13656,8 +13904,8 @@ export const DataElementsData = [
                                         "DCaption": "Equipment Total",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 203,
-                                        "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_204_203",
+                                        "__idx": 205,
+                                        "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_206_205",
                                         "children": []
                                       }
                                     ]
@@ -14671,7 +14919,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 188,
+                                "Id": 190,
                                 "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -14682,7 +14930,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "FB1C8B10-F240-4A81-BEFA-83B2EB9608D4",
                                 "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                                "Sequence": 63,
+                                "Sequence": 65,
                                 "ElementName": "RDDocumentGrid_Sequence",
                                 "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                                 "ControlType": "NumericTextBox",
@@ -14703,13 +14951,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                                "__idx": 187,
-                                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_188_187",
+                                "__idx": 189,
+                                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 189,
+                                "Id": 191,
                                 "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -14720,7 +14968,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "27819A84-AF88-4AFD-9109-9227D4CA7B13",
                                 "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                                "Sequence": 64,
+                                "Sequence": 66,
                                 "ElementName": "RDDocumentGrid_RowId",
                                 "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                                 "ControlType": "TextBox",
@@ -14742,13 +14990,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                                "__idx": 188,
-                                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_189_188",
+                                "__idx": 190,
+                                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 190,
+                                "Id": 192,
                                 "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -14759,7 +15007,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "A634C53C-FDF1-43DC-8BA3-19DBAE083989",
                                 "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                                "Sequence": 66,
+                                "Sequence": 68,
                                 "ElementName": "MG_d82_DocumentName",
                                 "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                                 "ControlType": "TextBox",
@@ -14781,13 +15029,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                                "__idx": 189,
-                                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
+                                "__idx": 191,
+                                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 191,
+                                "Id": 193,
                                 "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -14798,7 +15046,7 @@ export const DataElementsData = [
                                 "Depth": 9,
                                 "ElementId": "D62563E5-2F3A-4B3A-825D-3F111D094FB2",
                                 "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                                "Sequence": 67,
+                                "Sequence": 69,
                                 "ElementName": "MG_d82_DocumentID",
                                 "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                                 "ControlType": "NumericTextBox",
@@ -14825,13 +15073,13 @@ export const DataElementsData = [
                                   }
                                 ],
                                 "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                                "__idx": 190,
-                                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
+                                "__idx": 192,
+                                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_193_192",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 192,
+                                "Id": 194,
                                 "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -14843,7 +15091,7 @@ export const DataElementsData = [
                                 "Width": 1,
                                 "ElementId": "A7F87FB1-F3D8-447A-9E05-275E22C2D9FC",
                                 "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                                "Sequence": 68,
+                                "Sequence": 70,
                                 "ElementName": "Edit_RDDocumentGrid",
                                 "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                                 "ControlType": "ActionButton",
@@ -14863,8 +15111,8 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                                "__idx": 191,
-                                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
+                                "__idx": 193,
+                                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_194_193",
                                 "children": []
                               }
                             ]
@@ -14992,7 +15240,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 193,
+                                "Id": 195,
                                 "uielementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -15007,7 +15255,7 @@ export const DataElementsData = [
                                 "CurrValue": 10,
                                 "ElementId": "",
                                 "UIElementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
-                                "Sequence": 69,
+                                "Sequence": 71,
                                 "ElementName": "UI_Panel Body",
                                 "ParentElementId": "4fb8e731-8e77-460f-64bb-d5e398222222",
                                 "ControlType": "Panel Body",
@@ -15026,12 +15274,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 192,
-                                "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_193_192",
+                                "__idx": 194,
+                                "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_195_194",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 199,
+                                    "Id": 201,
                                     "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -15065,12 +15313,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 198,
-                                    "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_199_198",
+                                    "__idx": 200,
+                                    "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_201_200",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 205,
+                                        "Id": 207,
                                         "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -15103,8 +15351,8 @@ export const DataElementsData = [
                                         "DCaption": "Document Comments",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 204,
-                                        "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_205_204",
+                                        "__idx": 206,
+                                        "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_207_206",
                                         "children": []
                                       }
                                     ]
@@ -16392,7 +16640,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 194,
+                                "Id": 196,
                                 "uielementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -16404,7 +16652,7 @@ export const DataElementsData = [
                                 "Css": "form-select form-select",
                                 "ElementId": "d20e38b8-b229-09da-343d-5cf38b41907e",
                                 "UIElementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
-                                "Sequence": 70,
+                                "Sequence": 72,
                                 "ElementName": "M_MoveTo",
                                 "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                                 "ControlType": "ComboBox",
@@ -16424,8 +16672,8 @@ export const DataElementsData = [
                                 "DCaption": "Next Action",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 193,
-                                "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_194_193",
+                                "__idx": 195,
+                                "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_196_195",
                                 "children": []
                               }
                             ]
@@ -16471,7 +16719,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 195,
+                                "Id": 197,
                                 "uielementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -16483,7 +16731,7 @@ export const DataElementsData = [
                                 "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
                                 "ElementId": "F726FB8F-7647-42FE-ADF5-EC340FE1F186",
                                 "UIElementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
-                                "Sequence": 71,
+                                "Sequence": 73,
                                 "ElementName": "SubmitForm",
                                 "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                                 "ControlType": "ActionButton",
@@ -16503,8 +16751,8 @@ export const DataElementsData = [
                                 "DCaption": "Submit",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 194,
-                                "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_195_194",
+                                "__idx": 196,
+                                "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_197_196",
                                 "children": []
                               }
                             ]
@@ -16923,7 +17171,7 @@ export const DataElementsData = [
             "MergeRow": "",
             "Action": "OnChange",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_InstanceId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year10\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year3\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectCategoryID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year8\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year4\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year9\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year11\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_DesignationID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_RDOfficeComments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_Sector\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"m_currency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year1\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_FundingAgency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year5\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year7\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year12\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year6\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FinancialYearID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_IsExternalIns\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d55_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year2\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_ProjectBudget\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_InstanceId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year10\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year3\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_ProjectStatus\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectDetailsID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectCategoryID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year8\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year4\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year9\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year11\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_DesignationID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_RDOfficeComments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_Sector\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"m_currency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year1\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_FundingAgency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year5\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year7\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year12\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year6\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FinancialYearID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_IsExternalIns\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d55_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year2\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_ProjectBudget\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
             "EDT": 9,
             "DCaption": "Project Proposal",
             "DHelpText": "",
@@ -17341,6 +17589,10 @@ export const DataElementsData = [
                           {
                             "Mandatory": true,
                             "Span": false
+                          },
+                          {
+                            "Mandatory": true,
+                            "Span": false
                           }
                         ],
                         "__idx": 71,
@@ -17382,6 +17634,10 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          },
                           {
                             "Mandatory": true,
                             "Span": false
@@ -17429,6 +17685,10 @@ export const DataElementsData = [
                           {
                             "Mandatory": true,
                             "Span": false
+                          },
+                          {
+                            "Mandatory": true,
+                            "Span": false
                           }
                         ],
                         "__idx": 73,
@@ -17473,6 +17733,10 @@ export const DataElementsData = [
                           {
                             "Mandatory": true,
                             "Span": false
+                          },
+                          {
+                            "Mandatory": true,
+                            "Span": false
                           }
                         ],
                         "__idx": 74,
@@ -17514,6 +17778,12 @@ export const DataElementsData = [
                         "DCaption": "Project Name",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 75,
                         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_76_75",
                         "children": []
@@ -17554,6 +17824,10 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          },
                           {
                             "Mandatory": true,
                             "Span": false
@@ -17652,6 +17926,10 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          },
                           {
                             "Mandatory": true,
                             "Span": false
@@ -17860,6 +18138,12 @@ export const DataElementsData = [
                         "DCaption": "Project Budget",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 80,
                         "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_81_80",
                         "children": []
@@ -17986,6 +18270,10 @@ export const DataElementsData = [
                           {
                             "Mandatory": true,
                             "Span": false
+                          },
+                          {
+                            "Mandatory": true,
+                            "Span": false
                           }
                         ],
                         "__idx": 83,
@@ -18027,6 +18315,12 @@ export const DataElementsData = [
                         "DCaption": "Year Month",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "ElementControlProperty": [
+                          {
+                            "Mandatory": true,
+                            "Span": false
+                          }
+                        ],
                         "__idx": 84,
                         "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_85_84",
                         "children": []
@@ -18710,7 +19004,7 @@ export const DataElementsData = [
                             "MergeRow": "",
                             "Action": "OnChange",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                             "EDT": 3,
                             "DCaption": "Budget Amount",
                             "DHelpText": "",
@@ -19428,6 +19722,82 @@ export const DataElementsData = [
                             "__idx": 158,
                             "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_159_158",
                             "children": []
+                          },
+                          {
+                            "VersionName": "Medium",
+                            "Id": 160,
+                            "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                            "ShowCaption": true,
+                            "Fontbold": false,
+                            "FontItalic": false,
+                            "FontOverline": false,
+                            "FontStrikeout": false,
+                            "FontUnderline": false,
+                            "Depth": 9,
+                            "ElementId": "62bcaa8a-abfb-4a1e-716b-4ddd0d457700",
+                            "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                            "Sequence": 27,
+                            "ElementName": "MG_d28_RecurringValidation",
+                            "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+                            "ControlType": "NumericTextBox",
+                            "Wrap": 4,
+                            "ClearFix": false,
+                            "RenderType": 15,
+                            "OnDemandLoad": false,
+                            "ControlId": 2,
+                            "DisplayName": "MG_d28_RecurringValidation",
+                            "Searchable": false,
+                            "Bindable": false,
+                            "HeaderTemplate": "",
+                            "MergeRow": "",
+                            "IsSaveWidget": 0,
+                            "BindingDetail": "",
+                            "EDT": 5,
+                            "DCaption": "",
+                            "DHelpText": "",
+                            "DToolTip": "",
+                            "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+                            "__idx": 159,
+                            "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_160_159",
+                            "children": []
+                          },
+                          {
+                            "VersionName": "Medium",
+                            "Id": 161,
+                            "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                            "ShowCaption": true,
+                            "Fontbold": false,
+                            "FontItalic": false,
+                            "FontOverline": false,
+                            "FontStrikeout": false,
+                            "FontUnderline": false,
+                            "Depth": 9,
+                            "Width": 1,
+                            "ElementId": "77b3c293-580c-7348-09ab-8daf50018cbb",
+                            "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                            "Sequence": 28,
+                            "ElementName": "MG_d28_BudgetDetailsId",
+                            "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+                            "ControlType": "TextBox",
+                            "Wrap": 4,
+                            "IsMultiline": false,
+                            "ClearFix": false,
+                            "RenderType": 1,
+                            "OnDemandLoad": false,
+                            "ControlId": 1,
+                            "DisplayName": "MG_d28_BudgetDetailsId",
+                            "Searchable": false,
+                            "Bindable": false,
+                            "HeaderTemplate": "",
+                            "MergeRow": "",
+                            "IsSaveWidget": 0,
+                            "BindingDetail": "",
+                            "EDT": 9,
+                            "DCaption": "MG_d28_BudgetDetailsId",
+                            "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+                            "__idx": 160,
+                            "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_161_160",
+                            "children": []
                           }
                         ]
                       }
@@ -19554,7 +19924,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 160,
+                            "Id": 162,
                             "uielementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -19569,7 +19939,7 @@ export const DataElementsData = [
                             "CurrValue": 10,
                             "ElementId": "",
                             "UIElementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
-                            "Sequence": 27,
+                            "Sequence": 29,
                             "ElementName": "UI_Panel Body",
                             "ParentElementId": "22e356c0-fe95-3b3a-0e71-e822f8beaf9b",
                             "ControlType": "Panel Body",
@@ -19588,12 +19958,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 159,
-                            "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_160_159",
+                            "__idx": 161,
+                            "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_162_161",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 196,
+                                "Id": 198,
                                 "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -19627,12 +19997,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 195,
-                                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_196_195",
+                                "__idx": 197,
+                                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_198_197",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 200,
+                                    "Id": 202,
                                     "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -19664,13 +20034,13 @@ export const DataElementsData = [
                                     "DCaption": "Non Recurring Amount",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 199,
-                                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_200_199",
+                                    "__idx": 201,
+                                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 201,
+                                    "Id": 203,
                                     "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -19702,13 +20072,13 @@ export const DataElementsData = [
                                     "DCaption": "Recurring Amount",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 200,
-                                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_201_200",
+                                    "__idx": 202,
+                                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_203_202",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 202,
+                                    "Id": 204,
                                     "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -19740,8 +20110,8 @@ export const DataElementsData = [
                                     "DCaption": "Budget Total Amount",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 201,
-                                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
+                                    "__idx": 203,
+                                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_204_203",
                                     "children": []
                                   }
                                 ]
@@ -19984,8 +20354,9 @@ export const DataElementsData = [
                         "Bindable": false,
                         "HeaderTemplate": "",
                         "MergeRow": "",
+                        "Action": "OnAfterRowAdding",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                         "EDT": 12,
                         "GM": "Inline",
                         "DCaption": "dbo.ProjectManpowerDetails",
@@ -20086,7 +20457,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 161,
+                            "Id": 163,
                             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20097,7 +20468,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "5285B70D-5B83-4F75-A850-3E617E40E7D9",
                             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                            "Sequence": 30,
+                            "Sequence": 32,
                             "ElementName": "ManpowerGrid_Sequence",
                             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                             "ControlType": "NumericTextBox",
@@ -20118,13 +20489,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                            "__idx": 160,
-                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_161_160",
+                            "__idx": 162,
+                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 162,
+                            "Id": 164,
                             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20135,7 +20506,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "A4F77944-8E4B-471E-A29B-D7359C1BB9A0",
                             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                            "Sequence": 31,
+                            "Sequence": 33,
                             "ElementName": "ManpowerGrid_RowId",
                             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                             "ControlType": "TextBox",
@@ -20157,13 +20528,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                            "__idx": 161,
-                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_162_161",
+                            "__idx": 163,
+                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 163,
+                            "Id": 165,
                             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20174,7 +20545,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "4A54EE4A-8033-433E-A262-EAE16B91D184",
                             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                            "Sequence": 33,
+                            "Sequence": 35,
                             "ElementName": "MG_d154_SerialNo",
                             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                             "ControlType": "NumericTextBox",
@@ -20195,13 +20566,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                            "__idx": 162,
-                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
+                            "__idx": 164,
+                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 164,
+                            "Id": 166,
                             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20212,7 +20583,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "6FDF7003-B6F4-4F73-89BA-91BC0B5B34D7",
                             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                            "Sequence": 34,
+                            "Sequence": 36,
                             "ElementName": "MG_d154_ManpowerPosition",
                             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                             "ControlType": "NumericTextBox",
@@ -20233,13 +20604,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                            "__idx": 163,
-                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
+                            "__idx": 165,
+                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 165,
+                            "Id": 167,
                             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20250,7 +20621,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "A51D4C70-271F-4F32-9DAF-7DBB8D46FB5D",
                             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                            "Sequence": 35,
+                            "Sequence": 37,
                             "ElementName": "MG_d154_No_OfManpowerPosition",
                             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                             "ControlType": "NumericTextBox",
@@ -20271,13 +20642,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                            "__idx": 164,
-                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
+                            "__idx": 166,
+                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 166,
+                            "Id": 168,
                             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20288,7 +20659,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "3B11CAC8-43EE-4FD6-9F2E-008EF0074946",
                             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                            "Sequence": 36,
+                            "Sequence": 38,
                             "ElementName": "MG_d154_Duration",
                             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                             "ControlType": "NumericTextBox",
@@ -20310,13 +20681,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                            "__idx": 165,
-                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
+                            "__idx": 167,
+                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 167,
+                            "Id": 169,
                             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20327,7 +20698,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "325FA7B8-1704-4FC7-9EFE-2AE193F97E0F",
                             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                            "Sequence": 37,
+                            "Sequence": 39,
                             "ElementName": "MG_d154_RatePerMonth",
                             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                             "ControlType": "NumericTextBox",
@@ -20349,13 +20720,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                            "__idx": 166,
-                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
+                            "__idx": 168,
+                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 168,
+                            "Id": 170,
                             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20366,7 +20737,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "7F62D03F-5E15-4712-B881-BE1D159A7EC0",
                             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                            "Sequence": 38,
+                            "Sequence": 40,
                             "ElementName": "MG_d154_HRAPercentage",
                             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                             "ControlType": "NumericTextBox",
@@ -20388,13 +20759,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                            "__idx": 167,
-                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
+                            "__idx": 169,
+                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 169,
+                            "Id": 171,
                             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20405,7 +20776,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "7E9C4ECC-B641-4540-95AE-745DCD75D555",
                             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                            "Sequence": 39,
+                            "Sequence": 41,
                             "ElementName": "MG_d154_HRAPerMonth",
                             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                             "ControlType": "NumericTextBox",
@@ -20427,13 +20798,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                            "__idx": 168,
-                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
+                            "__idx": 170,
+                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 170,
+                            "Id": 172,
                             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20444,13 +20815,13 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "A0F18415-6016-4457-A4DC-6B30AC4E16E2",
                             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                            "Sequence": 40,
+                            "Sequence": 42,
                             "ElementName": "MG_d154_TotalPerMonth",
                             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                             "ControlType": "NumericTextBox",
                             "Wrap": 4,
                             "ClearFix": false,
-                            "RenderType": 15,
+                            "RenderType": 16,
                             "OnDemandLoad": false,
                             "ControlId": 2,
                             "DisplayName": "MG_d154_TotalPerMonth",
@@ -20465,13 +20836,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                            "__idx": 169,
-                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
+                            "__idx": 171,
+                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 171,
+                            "Id": 173,
                             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20482,7 +20853,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "14C18238-7D10-48C5-81B3-469473AA36E7",
                             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                            "Sequence": 41,
+                            "Sequence": 43,
                             "ElementName": "MG_d154_TotalMonths",
                             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                             "ControlType": "NumericTextBox",
@@ -20504,13 +20875,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                            "__idx": 170,
-                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
+                            "__idx": 172,
+                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 172,
+                            "Id": 174,
                             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20521,13 +20892,13 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "0551E82F-D576-41B7-A722-5BF512C5612E",
                             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                            "Sequence": 42,
+                            "Sequence": 44,
                             "ElementName": "MG_d154_TotalCost",
                             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                             "ControlType": "NumericTextBox",
                             "Wrap": 4,
                             "ClearFix": false,
-                            "RenderType": 15,
+                            "RenderType": 16,
                             "OnDemandLoad": false,
                             "ControlId": 2,
                             "DisplayName": "MG_d154_TotalCost",
@@ -20542,13 +20913,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                            "__idx": 171,
-                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
+                            "__idx": 173,
+                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 173,
+                            "Id": 175,
                             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20560,7 +20931,7 @@ export const DataElementsData = [
                             "Width": 1,
                             "ElementId": "4109BCDB-C542-4F5E-A90A-261FA5B6EF5C",
                             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                            "Sequence": 43,
+                            "Sequence": 45,
                             "ElementName": "MG_d154_Comments",
                             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                             "ControlType": "TextBox",
@@ -20582,13 +20953,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                            "__idx": 172,
-                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
+                            "__idx": 174,
+                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_175_174",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 174,
+                            "Id": 176,
                             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20600,7 +20971,7 @@ export const DataElementsData = [
                             "Width": 1,
                             "ElementId": "4005C300-026A-41AE-A770-640B77DEC2AA",
                             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                            "Sequence": 44,
+                            "Sequence": 46,
                             "ElementName": "Edit_ManpowerGrid",
                             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                             "ControlType": "ActionButton",
@@ -20620,8 +20991,8 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                            "__idx": 173,
-                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
+                            "__idx": 175,
+                            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_176_175",
                             "children": []
                           }
                         ]
@@ -20749,7 +21120,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 175,
+                            "Id": 177,
                             "uielementid": "ed9afaee-314c-023f-3099-d207312c2bde",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20764,7 +21135,7 @@ export const DataElementsData = [
                             "CurrValue": 10,
                             "ElementId": "",
                             "UIElementid": "ed9afaee-314c-023f-3099-d207312c2bde",
-                            "Sequence": 45,
+                            "Sequence": 47,
                             "ElementName": "UI_Panel Body",
                             "ParentElementId": "5f1fbbd0-d362-421d-d3ff-178db90496cb",
                             "ControlType": "Panel Body",
@@ -20783,12 +21154,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 174,
-                            "_id": "ed9afaee-314c-023f-3099-d207312c2bde_175_174",
+                            "__idx": 176,
+                            "_id": "ed9afaee-314c-023f-3099-d207312c2bde_177_176",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 197,
+                                "Id": 199,
                                 "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -20822,12 +21193,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 196,
-                                "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_197_196",
+                                "__idx": 198,
+                                "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_199_198",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 203,
+                                    "Id": 205,
                                     "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -20844,7 +21215,7 @@ export const DataElementsData = [
                                     "ControlType": "NumericTextBox",
                                     "Wrap": 4,
                                     "ClearFix": false,
-                                    "RenderType": 15,
+                                    "RenderType": 16,
                                     "OnDemandLoad": false,
                                     "ControlId": 2,
                                     "DisplayName": "MF_ManPowerTotal",
@@ -20858,8 +21229,8 @@ export const DataElementsData = [
                                     "DCaption": "Manpower Total",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 202,
-                                    "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_203_202",
+                                    "__idx": 204,
+                                    "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_205_204",
                                     "children": []
                                   }
                                 ]
@@ -21060,8 +21431,9 @@ export const DataElementsData = [
                         "Bindable": false,
                         "HeaderTemplate": "",
                         "MergeRow": "",
+                        "Action": "OnAfterRowAdding",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                         "EDT": 12,
                         "GM": "Inline",
                         "DCaption": "dbo.ProjectEquipmentDetails",
@@ -21162,7 +21534,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 176,
+                            "Id": 178,
                             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -21173,7 +21545,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "E714159A-2EA5-4B1F-B76F-47AF1782E72E",
                             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                            "Sequence": 48,
+                            "Sequence": 50,
                             "ElementName": "EquipmentGrid_Sequence",
                             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                             "ControlType": "NumericTextBox",
@@ -21194,13 +21566,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                            "__idx": 175,
-                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_176_175",
+                            "__idx": 177,
+                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 177,
+                            "Id": 179,
                             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -21211,7 +21583,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "5D693B84-4B3C-4E27-BA8A-746B5B5D447E",
                             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                            "Sequence": 49,
+                            "Sequence": 51,
                             "ElementName": "EquipmentGrid_RowId",
                             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                             "ControlType": "TextBox",
@@ -21233,13 +21605,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                            "__idx": 176,
-                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_177_176",
+                            "__idx": 178,
+                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 178,
+                            "Id": 180,
                             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -21250,7 +21622,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "74CB28BD-0A05-41A6-BEAC-BAD08EEFD1B4",
                             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                            "Sequence": 51,
+                            "Sequence": 53,
                             "ElementName": "MG_d109_SerialNo",
                             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                             "ControlType": "NumericTextBox",
@@ -21271,13 +21643,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                            "__idx": 177,
-                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
+                            "__idx": 179,
+                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 179,
+                            "Id": 181,
                             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -21288,7 +21660,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "14B54AEC-3441-4A80-B808-AAB14C3D727E",
                             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                            "Sequence": 52,
+                            "Sequence": 54,
                             "ElementName": "MG_d109_EquipmentName",
                             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                             "ControlType": "TextBox",
@@ -21310,13 +21682,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                            "__idx": 178,
-                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
+                            "__idx": 180,
+                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 180,
+                            "Id": 182,
                             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -21327,7 +21699,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "13785B0C-4768-4915-8E17-868B6BDBCF2B",
                             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                            "Sequence": 53,
+                            "Sequence": 55,
                             "ElementName": "MG_d109_Description",
                             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                             "ControlType": "TextBox",
@@ -21349,13 +21721,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                            "__idx": 179,
-                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
+                            "__idx": 181,
+                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 181,
+                            "Id": 183,
                             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -21366,7 +21738,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "408D121E-3EB2-449E-9501-CAC7DC07F5CB",
                             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                            "Sequence": 54,
+                            "Sequence": 56,
                             "ElementName": "MG_d109_Quantity",
                             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                             "ControlType": "NumericTextBox",
@@ -21388,13 +21760,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                            "__idx": 180,
-                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
+                            "__idx": 182,
+                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 182,
+                            "Id": 184,
                             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -21405,7 +21777,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "25D86941-4C81-4A42-B966-7CFF8CA120DC",
                             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                            "Sequence": 55,
+                            "Sequence": 57,
                             "ElementName": "MG_d109_RateinINR",
                             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                             "ControlType": "NumericTextBox",
@@ -21427,13 +21799,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                            "__idx": 181,
-                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
+                            "__idx": 183,
+                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 183,
+                            "Id": 185,
                             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -21444,7 +21816,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "3B9AC87E-863C-4602-9A9A-EB07673A8998",
                             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                            "Sequence": 56,
+                            "Sequence": 58,
                             "ElementName": "MG_d109_TotalEquipmentcost",
                             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                             "ControlType": "NumericTextBox",
@@ -21465,13 +21837,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                            "__idx": 182,
-                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
+                            "__idx": 184,
+                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 184,
+                            "Id": 186,
                             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -21482,7 +21854,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "F010F917-75BC-4DD9-9B88-D3C784F81676",
                             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                            "Sequence": 57,
+                            "Sequence": 59,
                             "ElementName": "MG_d109_EquipmentBudget",
                             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                             "ControlType": "NumericTextBox",
@@ -21503,13 +21875,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                            "__idx": 183,
-                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
+                            "__idx": 185,
+                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 185,
+                            "Id": 187,
                             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -21520,7 +21892,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
                             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                            "Sequence": 58,
+                            "Sequence": 60,
                             "ElementName": "MG_d109_IsActive",
                             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                             "ControlType": "CheckBox",
@@ -21540,13 +21912,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                            "__idx": 184,
-                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
+                            "__idx": 186,
+                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_187_186",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 186,
+                            "Id": 188,
                             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -21557,7 +21929,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
                             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                            "Sequence": 59,
+                            "Sequence": 61,
                             "ElementName": "MG_d109_OverallEquipmentcost",
                             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                             "ControlType": "NumericTextBox",
@@ -21578,8 +21950,8 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                            "__idx": 185,
-                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
+                            "__idx": 187,
+                            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_188_187",
                             "children": []
                           }
                         ]
@@ -21707,7 +22079,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 187,
+                            "Id": 189,
                             "uielementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -21722,7 +22094,7 @@ export const DataElementsData = [
                             "CurrValue": 10,
                             "ElementId": "",
                             "UIElementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
-                            "Sequence": 60,
+                            "Sequence": 62,
                             "ElementName": "UI_Panel Body",
                             "ParentElementId": "c0daf60a-5656-584e-06b9-95e7070c518e",
                             "ControlType": "Panel Body",
@@ -21741,12 +22113,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 186,
-                            "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_187_186",
+                            "__idx": 188,
+                            "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_189_188",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 198,
+                                "Id": 200,
                                 "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -21780,12 +22152,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 197,
-                                "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_198_197",
+                                "__idx": 199,
+                                "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_200_199",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 204,
+                                    "Id": 206,
                                     "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -21802,7 +22174,7 @@ export const DataElementsData = [
                                     "ControlType": "NumericTextBox",
                                     "Wrap": 4,
                                     "ClearFix": false,
-                                    "RenderType": 15,
+                                    "RenderType": 16,
                                     "OnDemandLoad": false,
                                     "ControlId": 2,
                                     "DisplayName": "MF_EquipmentTotal",
@@ -21816,8 +22188,8 @@ export const DataElementsData = [
                                     "DCaption": "Equipment Total",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 203,
-                                    "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_204_203",
+                                    "__idx": 205,
+                                    "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_206_205",
                                     "children": []
                                   }
                                 ]
@@ -22831,7 +23203,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 188,
+                            "Id": 190,
                             "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -22842,7 +23214,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "FB1C8B10-F240-4A81-BEFA-83B2EB9608D4",
                             "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                            "Sequence": 63,
+                            "Sequence": 65,
                             "ElementName": "RDDocumentGrid_Sequence",
                             "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                             "ControlType": "NumericTextBox",
@@ -22863,13 +23235,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                            "__idx": 187,
-                            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_188_187",
+                            "__idx": 189,
+                            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 189,
+                            "Id": 191,
                             "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -22880,7 +23252,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "27819A84-AF88-4AFD-9109-9227D4CA7B13",
                             "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                            "Sequence": 64,
+                            "Sequence": 66,
                             "ElementName": "RDDocumentGrid_RowId",
                             "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                             "ControlType": "TextBox",
@@ -22902,13 +23274,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                            "__idx": 188,
-                            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_189_188",
+                            "__idx": 190,
+                            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 190,
+                            "Id": 192,
                             "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -22919,7 +23291,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "A634C53C-FDF1-43DC-8BA3-19DBAE083989",
                             "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                            "Sequence": 66,
+                            "Sequence": 68,
                             "ElementName": "MG_d82_DocumentName",
                             "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                             "ControlType": "TextBox",
@@ -22941,13 +23313,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                            "__idx": 189,
-                            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
+                            "__idx": 191,
+                            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 191,
+                            "Id": 193,
                             "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -22958,7 +23330,7 @@ export const DataElementsData = [
                             "Depth": 9,
                             "ElementId": "D62563E5-2F3A-4B3A-825D-3F111D094FB2",
                             "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                            "Sequence": 67,
+                            "Sequence": 69,
                             "ElementName": "MG_d82_DocumentID",
                             "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                             "ControlType": "NumericTextBox",
@@ -22985,13 +23357,13 @@ export const DataElementsData = [
                               }
                             ],
                             "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                            "__idx": 190,
-                            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
+                            "__idx": 192,
+                            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_193_192",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 192,
+                            "Id": 194,
                             "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -23003,7 +23375,7 @@ export const DataElementsData = [
                             "Width": 1,
                             "ElementId": "A7F87FB1-F3D8-447A-9E05-275E22C2D9FC",
                             "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                            "Sequence": 68,
+                            "Sequence": 70,
                             "ElementName": "Edit_RDDocumentGrid",
                             "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                             "ControlType": "ActionButton",
@@ -23023,8 +23395,8 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                            "__idx": 191,
-                            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
+                            "__idx": 193,
+                            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_194_193",
                             "children": []
                           }
                         ]
@@ -23152,7 +23524,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 193,
+                            "Id": 195,
                             "uielementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -23167,7 +23539,7 @@ export const DataElementsData = [
                             "CurrValue": 10,
                             "ElementId": "",
                             "UIElementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
-                            "Sequence": 69,
+                            "Sequence": 71,
                             "ElementName": "UI_Panel Body",
                             "ParentElementId": "4fb8e731-8e77-460f-64bb-d5e398222222",
                             "ControlType": "Panel Body",
@@ -23186,12 +23558,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 192,
-                            "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_193_192",
+                            "__idx": 194,
+                            "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_195_194",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 199,
+                                "Id": 201,
                                 "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -23225,12 +23597,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 198,
-                                "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_199_198",
+                                "__idx": 200,
+                                "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_201_200",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 205,
+                                    "Id": 207,
                                     "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -23263,8 +23635,8 @@ export const DataElementsData = [
                                     "DCaption": "Document Comments",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 204,
-                                    "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_205_204",
+                                    "__idx": 206,
+                                    "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_207_206",
                                     "children": []
                                   }
                                 ]
@@ -24552,7 +24924,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 194,
+                            "Id": 196,
                             "uielementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -24564,7 +24936,7 @@ export const DataElementsData = [
                             "Css": "form-select form-select",
                             "ElementId": "d20e38b8-b229-09da-343d-5cf38b41907e",
                             "UIElementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
-                            "Sequence": 70,
+                            "Sequence": 72,
                             "ElementName": "M_MoveTo",
                             "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                             "ControlType": "ComboBox",
@@ -24584,8 +24956,8 @@ export const DataElementsData = [
                             "DCaption": "Next Action",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 193,
-                            "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_194_193",
+                            "__idx": 195,
+                            "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_196_195",
                             "children": []
                           }
                         ]
@@ -24631,7 +25003,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 195,
+                            "Id": 197,
                             "uielementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -24643,7 +25015,7 @@ export const DataElementsData = [
                             "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
                             "ElementId": "F726FB8F-7647-42FE-ADF5-EC340FE1F186",
                             "UIElementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
-                            "Sequence": 71,
+                            "Sequence": 73,
                             "ElementName": "SubmitForm",
                             "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                             "ControlType": "ActionButton",
@@ -24663,8 +25035,8 @@ export const DataElementsData = [
                             "DCaption": "Submit",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 194,
-                            "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_195_194",
+                            "__idx": 196,
+                            "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_197_196",
                             "children": []
                           }
                         ]
@@ -24959,7 +25331,7 @@ export const DataElementsData = [
         "MergeRow": "",
         "Action": "OnChange",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_InstanceId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year10\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year3\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectCategoryID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year8\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year4\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year9\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year11\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_DesignationID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_RDOfficeComments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_Sector\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"m_currency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year1\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_FundingAgency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year5\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year7\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year12\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year6\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FinancialYearID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_IsExternalIns\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d55_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year2\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_ProjectBudget\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_InstanceId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year10\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year3\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_ProjectStatus\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectDetailsID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectCategoryID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year8\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year4\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year9\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year11\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_DesignationID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_RDOfficeComments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_Sector\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"m_currency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year1\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_FundingAgency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year5\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year7\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year12\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year6\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FinancialYearID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_IsExternalIns\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d55_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year2\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_ProjectBudget\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
         "EDT": 9,
         "DCaption": "Project Proposal",
         "DHelpText": "",
@@ -25336,6 +25708,10 @@ export const DataElementsData = [
                       {
                         "Mandatory": true,
                         "Span": false
+                      },
+                      {
+                        "Mandatory": true,
+                        "Span": false
                       }
                     ],
                     "__idx": 71,
@@ -25377,6 +25753,10 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      },
                       {
                         "Mandatory": true,
                         "Span": false
@@ -25424,6 +25804,10 @@ export const DataElementsData = [
                       {
                         "Mandatory": true,
                         "Span": false
+                      },
+                      {
+                        "Mandatory": true,
+                        "Span": false
                       }
                     ],
                     "__idx": 73,
@@ -25468,6 +25852,10 @@ export const DataElementsData = [
                       {
                         "Mandatory": true,
                         "Span": false
+                      },
+                      {
+                        "Mandatory": true,
+                        "Span": false
                       }
                     ],
                     "__idx": 74,
@@ -25509,6 +25897,12 @@ export const DataElementsData = [
                     "DCaption": "Project Name",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 75,
                     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_76_75",
                     "children": []
@@ -25549,6 +25943,10 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      },
                       {
                         "Mandatory": true,
                         "Span": false
@@ -25647,6 +26045,10 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      },
                       {
                         "Mandatory": true,
                         "Span": false
@@ -25855,6 +26257,12 @@ export const DataElementsData = [
                     "DCaption": "Project Budget",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 80,
                     "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_81_80",
                     "children": []
@@ -25981,6 +26389,10 @@ export const DataElementsData = [
                       {
                         "Mandatory": true,
                         "Span": false
+                      },
+                      {
+                        "Mandatory": true,
+                        "Span": false
                       }
                     ],
                     "__idx": 83,
@@ -26022,6 +26434,12 @@ export const DataElementsData = [
                     "DCaption": "Year Month",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "ElementControlProperty": [
+                      {
+                        "Mandatory": true,
+                        "Span": false
+                      }
+                    ],
                     "__idx": 84,
                     "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_85_84",
                     "children": []
@@ -26664,7 +27082,7 @@ export const DataElementsData = [
                         "MergeRow": "",
                         "Action": "OnChange",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                         "EDT": 3,
                         "DCaption": "Budget Amount",
                         "DHelpText": "",
@@ -27382,6 +27800,82 @@ export const DataElementsData = [
                         "__idx": 158,
                         "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_159_158",
                         "children": []
+                      },
+                      {
+                        "VersionName": "Medium",
+                        "Id": 160,
+                        "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                        "ShowCaption": true,
+                        "Fontbold": false,
+                        "FontItalic": false,
+                        "FontOverline": false,
+                        "FontStrikeout": false,
+                        "FontUnderline": false,
+                        "Depth": 9,
+                        "ElementId": "62bcaa8a-abfb-4a1e-716b-4ddd0d457700",
+                        "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                        "Sequence": 27,
+                        "ElementName": "MG_d28_RecurringValidation",
+                        "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+                        "ControlType": "NumericTextBox",
+                        "Wrap": 4,
+                        "ClearFix": false,
+                        "RenderType": 15,
+                        "OnDemandLoad": false,
+                        "ControlId": 2,
+                        "DisplayName": "MG_d28_RecurringValidation",
+                        "Searchable": false,
+                        "Bindable": false,
+                        "HeaderTemplate": "",
+                        "MergeRow": "",
+                        "IsSaveWidget": 0,
+                        "BindingDetail": "",
+                        "EDT": 5,
+                        "DCaption": "",
+                        "DHelpText": "",
+                        "DToolTip": "",
+                        "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+                        "__idx": 159,
+                        "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_160_159",
+                        "children": []
+                      },
+                      {
+                        "VersionName": "Medium",
+                        "Id": 161,
+                        "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                        "ShowCaption": true,
+                        "Fontbold": false,
+                        "FontItalic": false,
+                        "FontOverline": false,
+                        "FontStrikeout": false,
+                        "FontUnderline": false,
+                        "Depth": 9,
+                        "Width": 1,
+                        "ElementId": "77b3c293-580c-7348-09ab-8daf50018cbb",
+                        "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                        "Sequence": 28,
+                        "ElementName": "MG_d28_BudgetDetailsId",
+                        "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+                        "ControlType": "TextBox",
+                        "Wrap": 4,
+                        "IsMultiline": false,
+                        "ClearFix": false,
+                        "RenderType": 1,
+                        "OnDemandLoad": false,
+                        "ControlId": 1,
+                        "DisplayName": "MG_d28_BudgetDetailsId",
+                        "Searchable": false,
+                        "Bindable": false,
+                        "HeaderTemplate": "",
+                        "MergeRow": "",
+                        "IsSaveWidget": 0,
+                        "BindingDetail": "",
+                        "EDT": 9,
+                        "DCaption": "MG_d28_BudgetDetailsId",
+                        "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+                        "__idx": 160,
+                        "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_161_160",
+                        "children": []
                       }
                     ]
                   }
@@ -27508,7 +28002,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 160,
+                        "Id": 162,
                         "uielementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -27523,7 +28017,7 @@ export const DataElementsData = [
                         "CurrValue": 10,
                         "ElementId": "",
                         "UIElementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
-                        "Sequence": 27,
+                        "Sequence": 29,
                         "ElementName": "UI_Panel Body",
                         "ParentElementId": "22e356c0-fe95-3b3a-0e71-e822f8beaf9b",
                         "ControlType": "Panel Body",
@@ -27542,12 +28036,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 159,
-                        "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_160_159",
+                        "__idx": 161,
+                        "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_162_161",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 196,
+                            "Id": 198,
                             "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -27581,12 +28075,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 195,
-                            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_196_195",
+                            "__idx": 197,
+                            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_198_197",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 200,
+                                "Id": 202,
                                 "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -27618,13 +28112,13 @@ export const DataElementsData = [
                                 "DCaption": "Non Recurring Amount",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 199,
-                                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_200_199",
+                                "__idx": 201,
+                                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 201,
+                                "Id": 203,
                                 "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -27656,13 +28150,13 @@ export const DataElementsData = [
                                 "DCaption": "Recurring Amount",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 200,
-                                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_201_200",
+                                "__idx": 202,
+                                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_203_202",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 202,
+                                "Id": 204,
                                 "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -27694,8 +28188,8 @@ export const DataElementsData = [
                                 "DCaption": "Budget Total Amount",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 201,
-                                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
+                                "__idx": 203,
+                                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_204_203",
                                 "children": []
                               }
                             ]
@@ -27938,8 +28432,9 @@ export const DataElementsData = [
                     "Bindable": false,
                     "HeaderTemplate": "",
                     "MergeRow": "",
+                    "Action": "OnAfterRowAdding",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                     "EDT": 12,
                     "GM": "Inline",
                     "DCaption": "dbo.ProjectManpowerDetails",
@@ -28040,7 +28535,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 161,
+                        "Id": 163,
                         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -28051,7 +28546,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "5285B70D-5B83-4F75-A850-3E617E40E7D9",
                         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                        "Sequence": 30,
+                        "Sequence": 32,
                         "ElementName": "ManpowerGrid_Sequence",
                         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                         "ControlType": "NumericTextBox",
@@ -28072,13 +28567,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                        "__idx": 160,
-                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_161_160",
+                        "__idx": 162,
+                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 162,
+                        "Id": 164,
                         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -28089,7 +28584,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "A4F77944-8E4B-471E-A29B-D7359C1BB9A0",
                         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                        "Sequence": 31,
+                        "Sequence": 33,
                         "ElementName": "ManpowerGrid_RowId",
                         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                         "ControlType": "TextBox",
@@ -28111,13 +28606,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                        "__idx": 161,
-                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_162_161",
+                        "__idx": 163,
+                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 163,
+                        "Id": 165,
                         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -28128,7 +28623,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "4A54EE4A-8033-433E-A262-EAE16B91D184",
                         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                        "Sequence": 33,
+                        "Sequence": 35,
                         "ElementName": "MG_d154_SerialNo",
                         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                         "ControlType": "NumericTextBox",
@@ -28149,13 +28644,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                        "__idx": 162,
-                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
+                        "__idx": 164,
+                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 164,
+                        "Id": 166,
                         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -28166,7 +28661,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "6FDF7003-B6F4-4F73-89BA-91BC0B5B34D7",
                         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                        "Sequence": 34,
+                        "Sequence": 36,
                         "ElementName": "MG_d154_ManpowerPosition",
                         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                         "ControlType": "NumericTextBox",
@@ -28187,13 +28682,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                        "__idx": 163,
-                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
+                        "__idx": 165,
+                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 165,
+                        "Id": 167,
                         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -28204,7 +28699,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "A51D4C70-271F-4F32-9DAF-7DBB8D46FB5D",
                         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                        "Sequence": 35,
+                        "Sequence": 37,
                         "ElementName": "MG_d154_No_OfManpowerPosition",
                         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                         "ControlType": "NumericTextBox",
@@ -28225,13 +28720,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                        "__idx": 164,
-                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
+                        "__idx": 166,
+                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 166,
+                        "Id": 168,
                         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -28242,7 +28737,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "3B11CAC8-43EE-4FD6-9F2E-008EF0074946",
                         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                        "Sequence": 36,
+                        "Sequence": 38,
                         "ElementName": "MG_d154_Duration",
                         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                         "ControlType": "NumericTextBox",
@@ -28264,13 +28759,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                        "__idx": 165,
-                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
+                        "__idx": 167,
+                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 167,
+                        "Id": 169,
                         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -28281,7 +28776,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "325FA7B8-1704-4FC7-9EFE-2AE193F97E0F",
                         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                        "Sequence": 37,
+                        "Sequence": 39,
                         "ElementName": "MG_d154_RatePerMonth",
                         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                         "ControlType": "NumericTextBox",
@@ -28303,13 +28798,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                        "__idx": 166,
-                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
+                        "__idx": 168,
+                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 168,
+                        "Id": 170,
                         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -28320,7 +28815,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "7F62D03F-5E15-4712-B881-BE1D159A7EC0",
                         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                        "Sequence": 38,
+                        "Sequence": 40,
                         "ElementName": "MG_d154_HRAPercentage",
                         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                         "ControlType": "NumericTextBox",
@@ -28342,13 +28837,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                        "__idx": 167,
-                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
+                        "__idx": 169,
+                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 169,
+                        "Id": 171,
                         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -28359,7 +28854,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "7E9C4ECC-B641-4540-95AE-745DCD75D555",
                         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                        "Sequence": 39,
+                        "Sequence": 41,
                         "ElementName": "MG_d154_HRAPerMonth",
                         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                         "ControlType": "NumericTextBox",
@@ -28381,13 +28876,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                        "__idx": 168,
-                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
+                        "__idx": 170,
+                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 170,
+                        "Id": 172,
                         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -28398,13 +28893,13 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "A0F18415-6016-4457-A4DC-6B30AC4E16E2",
                         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                        "Sequence": 40,
+                        "Sequence": 42,
                         "ElementName": "MG_d154_TotalPerMonth",
                         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                         "ControlType": "NumericTextBox",
                         "Wrap": 4,
                         "ClearFix": false,
-                        "RenderType": 15,
+                        "RenderType": 16,
                         "OnDemandLoad": false,
                         "ControlId": 2,
                         "DisplayName": "MG_d154_TotalPerMonth",
@@ -28419,13 +28914,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                        "__idx": 169,
-                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
+                        "__idx": 171,
+                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 171,
+                        "Id": 173,
                         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -28436,7 +28931,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "14C18238-7D10-48C5-81B3-469473AA36E7",
                         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                        "Sequence": 41,
+                        "Sequence": 43,
                         "ElementName": "MG_d154_TotalMonths",
                         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                         "ControlType": "NumericTextBox",
@@ -28458,13 +28953,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                        "__idx": 170,
-                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
+                        "__idx": 172,
+                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 172,
+                        "Id": 174,
                         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -28475,13 +28970,13 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "0551E82F-D576-41B7-A722-5BF512C5612E",
                         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                        "Sequence": 42,
+                        "Sequence": 44,
                         "ElementName": "MG_d154_TotalCost",
                         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                         "ControlType": "NumericTextBox",
                         "Wrap": 4,
                         "ClearFix": false,
-                        "RenderType": 15,
+                        "RenderType": 16,
                         "OnDemandLoad": false,
                         "ControlId": 2,
                         "DisplayName": "MG_d154_TotalCost",
@@ -28496,13 +28991,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                        "__idx": 171,
-                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
+                        "__idx": 173,
+                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 173,
+                        "Id": 175,
                         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -28514,7 +29009,7 @@ export const DataElementsData = [
                         "Width": 1,
                         "ElementId": "4109BCDB-C542-4F5E-A90A-261FA5B6EF5C",
                         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                        "Sequence": 43,
+                        "Sequence": 45,
                         "ElementName": "MG_d154_Comments",
                         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                         "ControlType": "TextBox",
@@ -28536,13 +29031,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                        "__idx": 172,
-                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
+                        "__idx": 174,
+                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_175_174",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 174,
+                        "Id": 176,
                         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -28554,7 +29049,7 @@ export const DataElementsData = [
                         "Width": 1,
                         "ElementId": "4005C300-026A-41AE-A770-640B77DEC2AA",
                         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                        "Sequence": 44,
+                        "Sequence": 46,
                         "ElementName": "Edit_ManpowerGrid",
                         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                         "ControlType": "ActionButton",
@@ -28574,8 +29069,8 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                        "__idx": 173,
-                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
+                        "__idx": 175,
+                        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_176_175",
                         "children": []
                       }
                     ]
@@ -28703,7 +29198,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 175,
+                        "Id": 177,
                         "uielementid": "ed9afaee-314c-023f-3099-d207312c2bde",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -28718,7 +29213,7 @@ export const DataElementsData = [
                         "CurrValue": 10,
                         "ElementId": "",
                         "UIElementid": "ed9afaee-314c-023f-3099-d207312c2bde",
-                        "Sequence": 45,
+                        "Sequence": 47,
                         "ElementName": "UI_Panel Body",
                         "ParentElementId": "5f1fbbd0-d362-421d-d3ff-178db90496cb",
                         "ControlType": "Panel Body",
@@ -28737,12 +29232,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 174,
-                        "_id": "ed9afaee-314c-023f-3099-d207312c2bde_175_174",
+                        "__idx": 176,
+                        "_id": "ed9afaee-314c-023f-3099-d207312c2bde_177_176",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 197,
+                            "Id": 199,
                             "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -28776,12 +29271,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 196,
-                            "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_197_196",
+                            "__idx": 198,
+                            "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_199_198",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 203,
+                                "Id": 205,
                                 "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -28798,7 +29293,7 @@ export const DataElementsData = [
                                 "ControlType": "NumericTextBox",
                                 "Wrap": 4,
                                 "ClearFix": false,
-                                "RenderType": 15,
+                                "RenderType": 16,
                                 "OnDemandLoad": false,
                                 "ControlId": 2,
                                 "DisplayName": "MF_ManPowerTotal",
@@ -28812,8 +29307,8 @@ export const DataElementsData = [
                                 "DCaption": "Manpower Total",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 202,
-                                "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_203_202",
+                                "__idx": 204,
+                                "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_205_204",
                                 "children": []
                               }
                             ]
@@ -29014,8 +29509,9 @@ export const DataElementsData = [
                     "Bindable": false,
                     "HeaderTemplate": "",
                     "MergeRow": "",
+                    "Action": "OnAfterRowAdding",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                     "EDT": 12,
                     "GM": "Inline",
                     "DCaption": "dbo.ProjectEquipmentDetails",
@@ -29116,7 +29612,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 176,
+                        "Id": 178,
                         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -29127,7 +29623,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "E714159A-2EA5-4B1F-B76F-47AF1782E72E",
                         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                        "Sequence": 48,
+                        "Sequence": 50,
                         "ElementName": "EquipmentGrid_Sequence",
                         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                         "ControlType": "NumericTextBox",
@@ -29148,13 +29644,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                        "__idx": 175,
-                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_176_175",
+                        "__idx": 177,
+                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 177,
+                        "Id": 179,
                         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -29165,7 +29661,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "5D693B84-4B3C-4E27-BA8A-746B5B5D447E",
                         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                        "Sequence": 49,
+                        "Sequence": 51,
                         "ElementName": "EquipmentGrid_RowId",
                         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                         "ControlType": "TextBox",
@@ -29187,13 +29683,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                        "__idx": 176,
-                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_177_176",
+                        "__idx": 178,
+                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 178,
+                        "Id": 180,
                         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -29204,7 +29700,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "74CB28BD-0A05-41A6-BEAC-BAD08EEFD1B4",
                         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                        "Sequence": 51,
+                        "Sequence": 53,
                         "ElementName": "MG_d109_SerialNo",
                         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                         "ControlType": "NumericTextBox",
@@ -29225,13 +29721,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                        "__idx": 177,
-                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
+                        "__idx": 179,
+                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 179,
+                        "Id": 181,
                         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -29242,7 +29738,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "14B54AEC-3441-4A80-B808-AAB14C3D727E",
                         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                        "Sequence": 52,
+                        "Sequence": 54,
                         "ElementName": "MG_d109_EquipmentName",
                         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                         "ControlType": "TextBox",
@@ -29264,13 +29760,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                        "__idx": 178,
-                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
+                        "__idx": 180,
+                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 180,
+                        "Id": 182,
                         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -29281,7 +29777,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "13785B0C-4768-4915-8E17-868B6BDBCF2B",
                         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                        "Sequence": 53,
+                        "Sequence": 55,
                         "ElementName": "MG_d109_Description",
                         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                         "ControlType": "TextBox",
@@ -29303,13 +29799,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                        "__idx": 179,
-                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
+                        "__idx": 181,
+                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 181,
+                        "Id": 183,
                         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -29320,7 +29816,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "408D121E-3EB2-449E-9501-CAC7DC07F5CB",
                         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                        "Sequence": 54,
+                        "Sequence": 56,
                         "ElementName": "MG_d109_Quantity",
                         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                         "ControlType": "NumericTextBox",
@@ -29342,13 +29838,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                        "__idx": 180,
-                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
+                        "__idx": 182,
+                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 182,
+                        "Id": 184,
                         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -29359,7 +29855,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "25D86941-4C81-4A42-B966-7CFF8CA120DC",
                         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                        "Sequence": 55,
+                        "Sequence": 57,
                         "ElementName": "MG_d109_RateinINR",
                         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                         "ControlType": "NumericTextBox",
@@ -29381,13 +29877,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                        "__idx": 181,
-                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
+                        "__idx": 183,
+                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 183,
+                        "Id": 185,
                         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -29398,7 +29894,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "3B9AC87E-863C-4602-9A9A-EB07673A8998",
                         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                        "Sequence": 56,
+                        "Sequence": 58,
                         "ElementName": "MG_d109_TotalEquipmentcost",
                         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                         "ControlType": "NumericTextBox",
@@ -29419,13 +29915,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                        "__idx": 182,
-                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
+                        "__idx": 184,
+                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 184,
+                        "Id": 186,
                         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -29436,7 +29932,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "F010F917-75BC-4DD9-9B88-D3C784F81676",
                         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                        "Sequence": 57,
+                        "Sequence": 59,
                         "ElementName": "MG_d109_EquipmentBudget",
                         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                         "ControlType": "NumericTextBox",
@@ -29457,13 +29953,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                        "__idx": 183,
-                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
+                        "__idx": 185,
+                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 185,
+                        "Id": 187,
                         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -29474,7 +29970,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
                         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                        "Sequence": 58,
+                        "Sequence": 60,
                         "ElementName": "MG_d109_IsActive",
                         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                         "ControlType": "CheckBox",
@@ -29494,13 +29990,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                        "__idx": 184,
-                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
+                        "__idx": 186,
+                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_187_186",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 186,
+                        "Id": 188,
                         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -29511,7 +30007,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
                         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                        "Sequence": 59,
+                        "Sequence": 61,
                         "ElementName": "MG_d109_OverallEquipmentcost",
                         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                         "ControlType": "NumericTextBox",
@@ -29532,8 +30028,8 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                        "__idx": 185,
-                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
+                        "__idx": 187,
+                        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_188_187",
                         "children": []
                       }
                     ]
@@ -29661,7 +30157,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 187,
+                        "Id": 189,
                         "uielementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -29676,7 +30172,7 @@ export const DataElementsData = [
                         "CurrValue": 10,
                         "ElementId": "",
                         "UIElementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
-                        "Sequence": 60,
+                        "Sequence": 62,
                         "ElementName": "UI_Panel Body",
                         "ParentElementId": "c0daf60a-5656-584e-06b9-95e7070c518e",
                         "ControlType": "Panel Body",
@@ -29695,12 +30191,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 186,
-                        "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_187_186",
+                        "__idx": 188,
+                        "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_189_188",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 198,
+                            "Id": 200,
                             "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -29734,12 +30230,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 197,
-                            "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_198_197",
+                            "__idx": 199,
+                            "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_200_199",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 204,
+                                "Id": 206,
                                 "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -29756,7 +30252,7 @@ export const DataElementsData = [
                                 "ControlType": "NumericTextBox",
                                 "Wrap": 4,
                                 "ClearFix": false,
-                                "RenderType": 15,
+                                "RenderType": 16,
                                 "OnDemandLoad": false,
                                 "ControlId": 2,
                                 "DisplayName": "MF_EquipmentTotal",
@@ -29770,8 +30266,8 @@ export const DataElementsData = [
                                 "DCaption": "Equipment Total",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 203,
-                                "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_204_203",
+                                "__idx": 205,
+                                "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_206_205",
                                 "children": []
                               }
                             ]
@@ -30785,7 +31281,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 188,
+                        "Id": 190,
                         "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -30796,7 +31292,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "FB1C8B10-F240-4A81-BEFA-83B2EB9608D4",
                         "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                        "Sequence": 63,
+                        "Sequence": 65,
                         "ElementName": "RDDocumentGrid_Sequence",
                         "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                         "ControlType": "NumericTextBox",
@@ -30817,13 +31313,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                        "__idx": 187,
-                        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_188_187",
+                        "__idx": 189,
+                        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 189,
+                        "Id": 191,
                         "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -30834,7 +31330,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "27819A84-AF88-4AFD-9109-9227D4CA7B13",
                         "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                        "Sequence": 64,
+                        "Sequence": 66,
                         "ElementName": "RDDocumentGrid_RowId",
                         "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                         "ControlType": "TextBox",
@@ -30856,13 +31352,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                        "__idx": 188,
-                        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_189_188",
+                        "__idx": 190,
+                        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 190,
+                        "Id": 192,
                         "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -30873,7 +31369,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "A634C53C-FDF1-43DC-8BA3-19DBAE083989",
                         "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                        "Sequence": 66,
+                        "Sequence": 68,
                         "ElementName": "MG_d82_DocumentName",
                         "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                         "ControlType": "TextBox",
@@ -30895,13 +31391,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                        "__idx": 189,
-                        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
+                        "__idx": 191,
+                        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 191,
+                        "Id": 193,
                         "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -30912,7 +31408,7 @@ export const DataElementsData = [
                         "Depth": 9,
                         "ElementId": "D62563E5-2F3A-4B3A-825D-3F111D094FB2",
                         "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                        "Sequence": 67,
+                        "Sequence": 69,
                         "ElementName": "MG_d82_DocumentID",
                         "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                         "ControlType": "NumericTextBox",
@@ -30939,13 +31435,13 @@ export const DataElementsData = [
                           }
                         ],
                         "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                        "__idx": 190,
-                        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
+                        "__idx": 192,
+                        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_193_192",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 192,
+                        "Id": 194,
                         "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -30957,7 +31453,7 @@ export const DataElementsData = [
                         "Width": 1,
                         "ElementId": "A7F87FB1-F3D8-447A-9E05-275E22C2D9FC",
                         "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                        "Sequence": 68,
+                        "Sequence": 70,
                         "ElementName": "Edit_RDDocumentGrid",
                         "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                         "ControlType": "ActionButton",
@@ -30977,8 +31473,8 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                        "__idx": 191,
-                        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
+                        "__idx": 193,
+                        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_194_193",
                         "children": []
                       }
                     ]
@@ -31106,7 +31602,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 193,
+                        "Id": 195,
                         "uielementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -31121,7 +31617,7 @@ export const DataElementsData = [
                         "CurrValue": 10,
                         "ElementId": "",
                         "UIElementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
-                        "Sequence": 69,
+                        "Sequence": 71,
                         "ElementName": "UI_Panel Body",
                         "ParentElementId": "4fb8e731-8e77-460f-64bb-d5e398222222",
                         "ControlType": "Panel Body",
@@ -31140,12 +31636,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 192,
-                        "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_193_192",
+                        "__idx": 194,
+                        "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_195_194",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 199,
+                            "Id": 201,
                             "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -31179,12 +31675,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 198,
-                            "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_199_198",
+                            "__idx": 200,
+                            "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_201_200",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 205,
+                                "Id": 207,
                                 "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -31217,8 +31713,8 @@ export const DataElementsData = [
                                 "DCaption": "Document Comments",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 204,
-                                "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_205_204",
+                                "__idx": 206,
+                                "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_207_206",
                                 "children": []
                               }
                             ]
@@ -32424,7 +32920,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 194,
+                        "Id": 196,
                         "uielementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -32436,7 +32932,7 @@ export const DataElementsData = [
                         "Css": "form-select form-select",
                         "ElementId": "d20e38b8-b229-09da-343d-5cf38b41907e",
                         "UIElementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
-                        "Sequence": 70,
+                        "Sequence": 72,
                         "ElementName": "M_MoveTo",
                         "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                         "ControlType": "ComboBox",
@@ -32456,8 +32952,8 @@ export const DataElementsData = [
                         "DCaption": "Next Action",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 193,
-                        "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_194_193",
+                        "__idx": 195,
+                        "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_196_195",
                         "children": []
                       }
                     ]
@@ -32503,7 +32999,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 195,
+                        "Id": 197,
                         "uielementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -32515,7 +33011,7 @@ export const DataElementsData = [
                         "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
                         "ElementId": "F726FB8F-7647-42FE-ADF5-EC340FE1F186",
                         "UIElementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
-                        "Sequence": 71,
+                        "Sequence": 73,
                         "ElementName": "SubmitForm",
                         "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                         "ControlType": "ActionButton",
@@ -32535,8 +33031,8 @@ export const DataElementsData = [
                         "DCaption": "Submit",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 194,
-                        "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_195_194",
+                        "__idx": 196,
+                        "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_197_196",
                         "children": []
                       }
                     ]
@@ -32709,7 +33205,7 @@ export const DataElementsData = [
     "MergeRow": "",
     "Action": "OnChange",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_InstanceId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year10\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year3\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectCategoryID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year8\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year4\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year9\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year11\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_DesignationID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_RDOfficeComments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_Sector\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"m_currency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year1\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_FundingAgency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year5\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year7\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year12\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year6\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FinancialYearID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_IsExternalIns\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d55_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year2\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_ProjectBudget\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_InstanceId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year10\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year3\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_ProjectStatus\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectproposalID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectDetailsID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectCategoryID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year8\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalEmailId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year4\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year9\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year11\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_DesignationID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_BudgetID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_RDOfficeComments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalInstituteName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalContactNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d55_ExternalFacultyName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_ProjectName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_Sector\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"m_currency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year1\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_FundingAgency\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year5\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_ExternalDesignation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year7\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year12\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_Year6\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d55_AdditionalType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FinancialYearID\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_IsExternalIns\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d55_Departmentid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d28_Year2\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_ProjectBudget\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
     "EDT": 9,
     "DCaption": "Project Proposal",
     "DHelpText": "",
@@ -33045,6 +33541,10 @@ export const DataElementsData = [
                   {
                     "Mandatory": true,
                     "Span": false
+                  },
+                  {
+                    "Mandatory": true,
+                    "Span": false
                   }
                 ],
                 "__idx": 71,
@@ -33086,6 +33586,10 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  },
                   {
                     "Mandatory": true,
                     "Span": false
@@ -33133,6 +33637,10 @@ export const DataElementsData = [
                   {
                     "Mandatory": true,
                     "Span": false
+                  },
+                  {
+                    "Mandatory": true,
+                    "Span": false
                   }
                 ],
                 "__idx": 73,
@@ -33177,6 +33685,10 @@ export const DataElementsData = [
                   {
                     "Mandatory": true,
                     "Span": false
+                  },
+                  {
+                    "Mandatory": true,
+                    "Span": false
                   }
                 ],
                 "__idx": 74,
@@ -33218,6 +33730,12 @@ export const DataElementsData = [
                 "DCaption": "Project Name",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "__idx": 75,
                 "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_76_75",
                 "children": []
@@ -33258,6 +33776,10 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  },
                   {
                     "Mandatory": true,
                     "Span": false
@@ -33356,6 +33878,10 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  },
                   {
                     "Mandatory": true,
                     "Span": false
@@ -33564,6 +34090,12 @@ export const DataElementsData = [
                 "DCaption": "Project Budget",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "__idx": 80,
                 "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_81_80",
                 "children": []
@@ -33690,6 +34222,10 @@ export const DataElementsData = [
                   {
                     "Mandatory": true,
                     "Span": false
+                  },
+                  {
+                    "Mandatory": true,
+                    "Span": false
                   }
                 ],
                 "__idx": 83,
@@ -33731,6 +34267,12 @@ export const DataElementsData = [
                 "DCaption": "Year Month",
                 "DHelpText": "",
                 "DToolTip": "",
+                "ElementControlProperty": [
+                  {
+                    "Mandatory": true,
+                    "Span": false
+                  }
+                ],
                 "__idx": 84,
                 "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_85_84",
                 "children": []
@@ -34332,7 +34874,7 @@ export const DataElementsData = [
                     "MergeRow": "",
                     "Action": "OnChange",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                     "EDT": 3,
                     "DCaption": "Budget Amount",
                     "DHelpText": "",
@@ -35050,6 +35592,82 @@ export const DataElementsData = [
                     "__idx": 158,
                     "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_159_158",
                     "children": []
+                  },
+                  {
+                    "VersionName": "Medium",
+                    "Id": 160,
+                    "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                    "ShowCaption": true,
+                    "Fontbold": false,
+                    "FontItalic": false,
+                    "FontOverline": false,
+                    "FontStrikeout": false,
+                    "FontUnderline": false,
+                    "Depth": 9,
+                    "ElementId": "62bcaa8a-abfb-4a1e-716b-4ddd0d457700",
+                    "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                    "Sequence": 27,
+                    "ElementName": "MG_d28_RecurringValidation",
+                    "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+                    "ControlType": "NumericTextBox",
+                    "Wrap": 4,
+                    "ClearFix": false,
+                    "RenderType": 15,
+                    "OnDemandLoad": false,
+                    "ControlId": 2,
+                    "DisplayName": "MG_d28_RecurringValidation",
+                    "Searchable": false,
+                    "Bindable": false,
+                    "HeaderTemplate": "",
+                    "MergeRow": "",
+                    "IsSaveWidget": 0,
+                    "BindingDetail": "",
+                    "EDT": 5,
+                    "DCaption": "",
+                    "DHelpText": "",
+                    "DToolTip": "",
+                    "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+                    "__idx": 159,
+                    "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_160_159",
+                    "children": []
+                  },
+                  {
+                    "VersionName": "Medium",
+                    "Id": 161,
+                    "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                    "ShowCaption": true,
+                    "Fontbold": false,
+                    "FontItalic": false,
+                    "FontOverline": false,
+                    "FontStrikeout": false,
+                    "FontUnderline": false,
+                    "Depth": 9,
+                    "Width": 1,
+                    "ElementId": "77b3c293-580c-7348-09ab-8daf50018cbb",
+                    "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                    "Sequence": 28,
+                    "ElementName": "MG_d28_BudgetDetailsId",
+                    "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+                    "ControlType": "TextBox",
+                    "Wrap": 4,
+                    "IsMultiline": false,
+                    "ClearFix": false,
+                    "RenderType": 1,
+                    "OnDemandLoad": false,
+                    "ControlId": 1,
+                    "DisplayName": "MG_d28_BudgetDetailsId",
+                    "Searchable": false,
+                    "Bindable": false,
+                    "HeaderTemplate": "",
+                    "MergeRow": "",
+                    "IsSaveWidget": 0,
+                    "BindingDetail": "",
+                    "EDT": 9,
+                    "DCaption": "MG_d28_BudgetDetailsId",
+                    "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+                    "__idx": 160,
+                    "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_161_160",
+                    "children": []
                   }
                 ]
               }
@@ -35176,7 +35794,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 160,
+                    "Id": 162,
                     "uielementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -35191,7 +35809,7 @@ export const DataElementsData = [
                     "CurrValue": 10,
                     "ElementId": "",
                     "UIElementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
-                    "Sequence": 27,
+                    "Sequence": 29,
                     "ElementName": "UI_Panel Body",
                     "ParentElementId": "22e356c0-fe95-3b3a-0e71-e822f8beaf9b",
                     "ControlType": "Panel Body",
@@ -35210,12 +35828,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 159,
-                    "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_160_159",
+                    "__idx": 161,
+                    "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_162_161",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 196,
+                        "Id": 198,
                         "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -35249,12 +35867,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 195,
-                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_196_195",
+                        "__idx": 197,
+                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_198_197",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 200,
+                            "Id": 202,
                             "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -35286,13 +35904,13 @@ export const DataElementsData = [
                             "DCaption": "Non Recurring Amount",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 199,
-                            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_200_199",
+                            "__idx": 201,
+                            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 201,
+                            "Id": 203,
                             "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -35324,13 +35942,13 @@ export const DataElementsData = [
                             "DCaption": "Recurring Amount",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 200,
-                            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_201_200",
+                            "__idx": 202,
+                            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_203_202",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 202,
+                            "Id": 204,
                             "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -35362,8 +35980,8 @@ export const DataElementsData = [
                             "DCaption": "Budget Total Amount",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 201,
-                            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
+                            "__idx": 203,
+                            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_204_203",
                             "children": []
                           }
                         ]
@@ -35606,8 +36224,9 @@ export const DataElementsData = [
                 "Bindable": false,
                 "HeaderTemplate": "",
                 "MergeRow": "",
+                "Action": "OnAfterRowAdding",
                 "IsSaveWidget": 0,
-                "BindingDetail": "",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                 "EDT": 12,
                 "GM": "Inline",
                 "DCaption": "dbo.ProjectManpowerDetails",
@@ -35708,7 +36327,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 161,
+                    "Id": 163,
                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -35719,7 +36338,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "5285B70D-5B83-4F75-A850-3E617E40E7D9",
                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                    "Sequence": 30,
+                    "Sequence": 32,
                     "ElementName": "ManpowerGrid_Sequence",
                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                     "ControlType": "NumericTextBox",
@@ -35740,13 +36359,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                    "__idx": 160,
-                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_161_160",
+                    "__idx": 162,
+                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 162,
+                    "Id": 164,
                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -35757,7 +36376,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "A4F77944-8E4B-471E-A29B-D7359C1BB9A0",
                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                    "Sequence": 31,
+                    "Sequence": 33,
                     "ElementName": "ManpowerGrid_RowId",
                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                     "ControlType": "TextBox",
@@ -35779,13 +36398,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                    "__idx": 161,
-                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_162_161",
+                    "__idx": 163,
+                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 163,
+                    "Id": 165,
                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -35796,7 +36415,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "4A54EE4A-8033-433E-A262-EAE16B91D184",
                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                    "Sequence": 33,
+                    "Sequence": 35,
                     "ElementName": "MG_d154_SerialNo",
                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                     "ControlType": "NumericTextBox",
@@ -35817,13 +36436,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                    "__idx": 162,
-                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
+                    "__idx": 164,
+                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 164,
+                    "Id": 166,
                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -35834,7 +36453,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "6FDF7003-B6F4-4F73-89BA-91BC0B5B34D7",
                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                    "Sequence": 34,
+                    "Sequence": 36,
                     "ElementName": "MG_d154_ManpowerPosition",
                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                     "ControlType": "NumericTextBox",
@@ -35855,13 +36474,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                    "__idx": 163,
-                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
+                    "__idx": 165,
+                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 165,
+                    "Id": 167,
                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -35872,7 +36491,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "A51D4C70-271F-4F32-9DAF-7DBB8D46FB5D",
                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                    "Sequence": 35,
+                    "Sequence": 37,
                     "ElementName": "MG_d154_No_OfManpowerPosition",
                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                     "ControlType": "NumericTextBox",
@@ -35893,13 +36512,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                    "__idx": 164,
-                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
+                    "__idx": 166,
+                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 166,
+                    "Id": 168,
                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -35910,7 +36529,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "3B11CAC8-43EE-4FD6-9F2E-008EF0074946",
                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                    "Sequence": 36,
+                    "Sequence": 38,
                     "ElementName": "MG_d154_Duration",
                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                     "ControlType": "NumericTextBox",
@@ -35932,13 +36551,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                    "__idx": 165,
-                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
+                    "__idx": 167,
+                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 167,
+                    "Id": 169,
                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -35949,7 +36568,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "325FA7B8-1704-4FC7-9EFE-2AE193F97E0F",
                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                    "Sequence": 37,
+                    "Sequence": 39,
                     "ElementName": "MG_d154_RatePerMonth",
                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                     "ControlType": "NumericTextBox",
@@ -35971,13 +36590,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                    "__idx": 166,
-                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
+                    "__idx": 168,
+                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 168,
+                    "Id": 170,
                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -35988,7 +36607,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "7F62D03F-5E15-4712-B881-BE1D159A7EC0",
                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                    "Sequence": 38,
+                    "Sequence": 40,
                     "ElementName": "MG_d154_HRAPercentage",
                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                     "ControlType": "NumericTextBox",
@@ -36010,13 +36629,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                    "__idx": 167,
-                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
+                    "__idx": 169,
+                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 169,
+                    "Id": 171,
                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -36027,7 +36646,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "7E9C4ECC-B641-4540-95AE-745DCD75D555",
                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                    "Sequence": 39,
+                    "Sequence": 41,
                     "ElementName": "MG_d154_HRAPerMonth",
                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                     "ControlType": "NumericTextBox",
@@ -36049,13 +36668,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                    "__idx": 168,
-                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
+                    "__idx": 170,
+                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 170,
+                    "Id": 172,
                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -36066,13 +36685,13 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "A0F18415-6016-4457-A4DC-6B30AC4E16E2",
                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                    "Sequence": 40,
+                    "Sequence": 42,
                     "ElementName": "MG_d154_TotalPerMonth",
                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                     "ControlType": "NumericTextBox",
                     "Wrap": 4,
                     "ClearFix": false,
-                    "RenderType": 15,
+                    "RenderType": 16,
                     "OnDemandLoad": false,
                     "ControlId": 2,
                     "DisplayName": "MG_d154_TotalPerMonth",
@@ -36087,13 +36706,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                    "__idx": 169,
-                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
+                    "__idx": 171,
+                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 171,
+                    "Id": 173,
                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -36104,7 +36723,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "14C18238-7D10-48C5-81B3-469473AA36E7",
                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                    "Sequence": 41,
+                    "Sequence": 43,
                     "ElementName": "MG_d154_TotalMonths",
                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                     "ControlType": "NumericTextBox",
@@ -36126,13 +36745,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                    "__idx": 170,
-                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
+                    "__idx": 172,
+                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 172,
+                    "Id": 174,
                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -36143,13 +36762,13 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "0551E82F-D576-41B7-A722-5BF512C5612E",
                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                    "Sequence": 42,
+                    "Sequence": 44,
                     "ElementName": "MG_d154_TotalCost",
                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                     "ControlType": "NumericTextBox",
                     "Wrap": 4,
                     "ClearFix": false,
-                    "RenderType": 15,
+                    "RenderType": 16,
                     "OnDemandLoad": false,
                     "ControlId": 2,
                     "DisplayName": "MG_d154_TotalCost",
@@ -36164,13 +36783,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                    "__idx": 171,
-                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
+                    "__idx": 173,
+                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 173,
+                    "Id": 175,
                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -36182,7 +36801,7 @@ export const DataElementsData = [
                     "Width": 1,
                     "ElementId": "4109BCDB-C542-4F5E-A90A-261FA5B6EF5C",
                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                    "Sequence": 43,
+                    "Sequence": 45,
                     "ElementName": "MG_d154_Comments",
                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                     "ControlType": "TextBox",
@@ -36204,13 +36823,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                    "__idx": 172,
-                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
+                    "__idx": 174,
+                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_175_174",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 174,
+                    "Id": 176,
                     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -36222,7 +36841,7 @@ export const DataElementsData = [
                     "Width": 1,
                     "ElementId": "4005C300-026A-41AE-A770-640B77DEC2AA",
                     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                    "Sequence": 44,
+                    "Sequence": 46,
                     "ElementName": "Edit_ManpowerGrid",
                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                     "ControlType": "ActionButton",
@@ -36242,8 +36861,8 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                    "__idx": 173,
-                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
+                    "__idx": 175,
+                    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_176_175",
                     "children": []
                   }
                 ]
@@ -36371,7 +36990,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 175,
+                    "Id": 177,
                     "uielementid": "ed9afaee-314c-023f-3099-d207312c2bde",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -36386,7 +37005,7 @@ export const DataElementsData = [
                     "CurrValue": 10,
                     "ElementId": "",
                     "UIElementid": "ed9afaee-314c-023f-3099-d207312c2bde",
-                    "Sequence": 45,
+                    "Sequence": 47,
                     "ElementName": "UI_Panel Body",
                     "ParentElementId": "5f1fbbd0-d362-421d-d3ff-178db90496cb",
                     "ControlType": "Panel Body",
@@ -36405,12 +37024,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 174,
-                    "_id": "ed9afaee-314c-023f-3099-d207312c2bde_175_174",
+                    "__idx": 176,
+                    "_id": "ed9afaee-314c-023f-3099-d207312c2bde_177_176",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 197,
+                        "Id": 199,
                         "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -36444,12 +37063,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 196,
-                        "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_197_196",
+                        "__idx": 198,
+                        "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_199_198",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 203,
+                            "Id": 205,
                             "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -36466,7 +37085,7 @@ export const DataElementsData = [
                             "ControlType": "NumericTextBox",
                             "Wrap": 4,
                             "ClearFix": false,
-                            "RenderType": 15,
+                            "RenderType": 16,
                             "OnDemandLoad": false,
                             "ControlId": 2,
                             "DisplayName": "MF_ManPowerTotal",
@@ -36480,8 +37099,8 @@ export const DataElementsData = [
                             "DCaption": "Manpower Total",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 202,
-                            "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_203_202",
+                            "__idx": 204,
+                            "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_205_204",
                             "children": []
                           }
                         ]
@@ -36682,8 +37301,9 @@ export const DataElementsData = [
                 "Bindable": false,
                 "HeaderTemplate": "",
                 "MergeRow": "",
+                "Action": "OnAfterRowAdding",
                 "IsSaveWidget": 0,
-                "BindingDetail": "",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                 "EDT": 12,
                 "GM": "Inline",
                 "DCaption": "dbo.ProjectEquipmentDetails",
@@ -36784,7 +37404,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 176,
+                    "Id": 178,
                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -36795,7 +37415,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "E714159A-2EA5-4B1F-B76F-47AF1782E72E",
                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                    "Sequence": 48,
+                    "Sequence": 50,
                     "ElementName": "EquipmentGrid_Sequence",
                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                     "ControlType": "NumericTextBox",
@@ -36816,13 +37436,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                    "__idx": 175,
-                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_176_175",
+                    "__idx": 177,
+                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 177,
+                    "Id": 179,
                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -36833,7 +37453,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "5D693B84-4B3C-4E27-BA8A-746B5B5D447E",
                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                    "Sequence": 49,
+                    "Sequence": 51,
                     "ElementName": "EquipmentGrid_RowId",
                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                     "ControlType": "TextBox",
@@ -36855,13 +37475,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                    "__idx": 176,
-                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_177_176",
+                    "__idx": 178,
+                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 178,
+                    "Id": 180,
                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -36872,7 +37492,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "74CB28BD-0A05-41A6-BEAC-BAD08EEFD1B4",
                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                    "Sequence": 51,
+                    "Sequence": 53,
                     "ElementName": "MG_d109_SerialNo",
                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                     "ControlType": "NumericTextBox",
@@ -36893,13 +37513,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                    "__idx": 177,
-                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
+                    "__idx": 179,
+                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 179,
+                    "Id": 181,
                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -36910,7 +37530,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "14B54AEC-3441-4A80-B808-AAB14C3D727E",
                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                    "Sequence": 52,
+                    "Sequence": 54,
                     "ElementName": "MG_d109_EquipmentName",
                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                     "ControlType": "TextBox",
@@ -36932,13 +37552,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                    "__idx": 178,
-                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
+                    "__idx": 180,
+                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 180,
+                    "Id": 182,
                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -36949,7 +37569,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "13785B0C-4768-4915-8E17-868B6BDBCF2B",
                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                    "Sequence": 53,
+                    "Sequence": 55,
                     "ElementName": "MG_d109_Description",
                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                     "ControlType": "TextBox",
@@ -36971,13 +37591,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                    "__idx": 179,
-                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
+                    "__idx": 181,
+                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 181,
+                    "Id": 183,
                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -36988,7 +37608,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "408D121E-3EB2-449E-9501-CAC7DC07F5CB",
                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                    "Sequence": 54,
+                    "Sequence": 56,
                     "ElementName": "MG_d109_Quantity",
                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                     "ControlType": "NumericTextBox",
@@ -37010,13 +37630,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                    "__idx": 180,
-                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
+                    "__idx": 182,
+                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 182,
+                    "Id": 184,
                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -37027,7 +37647,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "25D86941-4C81-4A42-B966-7CFF8CA120DC",
                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                    "Sequence": 55,
+                    "Sequence": 57,
                     "ElementName": "MG_d109_RateinINR",
                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                     "ControlType": "NumericTextBox",
@@ -37049,13 +37669,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                    "__idx": 181,
-                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
+                    "__idx": 183,
+                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 183,
+                    "Id": 185,
                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -37066,7 +37686,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "3B9AC87E-863C-4602-9A9A-EB07673A8998",
                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                    "Sequence": 56,
+                    "Sequence": 58,
                     "ElementName": "MG_d109_TotalEquipmentcost",
                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                     "ControlType": "NumericTextBox",
@@ -37087,13 +37707,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                    "__idx": 182,
-                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
+                    "__idx": 184,
+                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 184,
+                    "Id": 186,
                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -37104,7 +37724,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "F010F917-75BC-4DD9-9B88-D3C784F81676",
                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                    "Sequence": 57,
+                    "Sequence": 59,
                     "ElementName": "MG_d109_EquipmentBudget",
                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                     "ControlType": "NumericTextBox",
@@ -37125,13 +37745,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                    "__idx": 183,
-                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
+                    "__idx": 185,
+                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 185,
+                    "Id": 187,
                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -37142,7 +37762,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                    "Sequence": 58,
+                    "Sequence": 60,
                     "ElementName": "MG_d109_IsActive",
                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                     "ControlType": "CheckBox",
@@ -37162,13 +37782,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                    "__idx": 184,
-                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
+                    "__idx": 186,
+                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_187_186",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 186,
+                    "Id": 188,
                     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -37179,7 +37799,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
                     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                    "Sequence": 59,
+                    "Sequence": 61,
                     "ElementName": "MG_d109_OverallEquipmentcost",
                     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                     "ControlType": "NumericTextBox",
@@ -37200,8 +37820,8 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                    "__idx": 185,
-                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
+                    "__idx": 187,
+                    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_188_187",
                     "children": []
                   }
                 ]
@@ -37329,7 +37949,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 187,
+                    "Id": 189,
                     "uielementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -37344,7 +37964,7 @@ export const DataElementsData = [
                     "CurrValue": 10,
                     "ElementId": "",
                     "UIElementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
-                    "Sequence": 60,
+                    "Sequence": 62,
                     "ElementName": "UI_Panel Body",
                     "ParentElementId": "c0daf60a-5656-584e-06b9-95e7070c518e",
                     "ControlType": "Panel Body",
@@ -37363,12 +37983,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 186,
-                    "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_187_186",
+                    "__idx": 188,
+                    "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_189_188",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 198,
+                        "Id": 200,
                         "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -37402,12 +38022,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 197,
-                        "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_198_197",
+                        "__idx": 199,
+                        "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_200_199",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 204,
+                            "Id": 206,
                             "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -37424,7 +38044,7 @@ export const DataElementsData = [
                             "ControlType": "NumericTextBox",
                             "Wrap": 4,
                             "ClearFix": false,
-                            "RenderType": 15,
+                            "RenderType": 16,
                             "OnDemandLoad": false,
                             "ControlId": 2,
                             "DisplayName": "MF_EquipmentTotal",
@@ -37438,8 +38058,8 @@ export const DataElementsData = [
                             "DCaption": "Equipment Total",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 203,
-                            "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_204_203",
+                            "__idx": 205,
+                            "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_206_205",
                             "children": []
                           }
                         ]
@@ -38453,7 +39073,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 188,
+                    "Id": 190,
                     "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -38464,7 +39084,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "FB1C8B10-F240-4A81-BEFA-83B2EB9608D4",
                     "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                    "Sequence": 63,
+                    "Sequence": 65,
                     "ElementName": "RDDocumentGrid_Sequence",
                     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                     "ControlType": "NumericTextBox",
@@ -38485,13 +39105,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                    "__idx": 187,
-                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_188_187",
+                    "__idx": 189,
+                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 189,
+                    "Id": 191,
                     "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -38502,7 +39122,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "27819A84-AF88-4AFD-9109-9227D4CA7B13",
                     "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                    "Sequence": 64,
+                    "Sequence": 66,
                     "ElementName": "RDDocumentGrid_RowId",
                     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                     "ControlType": "TextBox",
@@ -38524,13 +39144,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                    "__idx": 188,
-                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_189_188",
+                    "__idx": 190,
+                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 190,
+                    "Id": 192,
                     "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -38541,7 +39161,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "A634C53C-FDF1-43DC-8BA3-19DBAE083989",
                     "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                    "Sequence": 66,
+                    "Sequence": 68,
                     "ElementName": "MG_d82_DocumentName",
                     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                     "ControlType": "TextBox",
@@ -38563,13 +39183,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                    "__idx": 189,
-                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
+                    "__idx": 191,
+                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 191,
+                    "Id": 193,
                     "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -38580,7 +39200,7 @@ export const DataElementsData = [
                     "Depth": 9,
                     "ElementId": "D62563E5-2F3A-4B3A-825D-3F111D094FB2",
                     "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                    "Sequence": 67,
+                    "Sequence": 69,
                     "ElementName": "MG_d82_DocumentID",
                     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                     "ControlType": "NumericTextBox",
@@ -38607,13 +39227,13 @@ export const DataElementsData = [
                       }
                     ],
                     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                    "__idx": 190,
-                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
+                    "__idx": 192,
+                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_193_192",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 192,
+                    "Id": 194,
                     "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -38625,7 +39245,7 @@ export const DataElementsData = [
                     "Width": 1,
                     "ElementId": "A7F87FB1-F3D8-447A-9E05-275E22C2D9FC",
                     "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                    "Sequence": 68,
+                    "Sequence": 70,
                     "ElementName": "Edit_RDDocumentGrid",
                     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                     "ControlType": "ActionButton",
@@ -38645,8 +39265,8 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                    "__idx": 191,
-                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
+                    "__idx": 193,
+                    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_194_193",
                     "children": []
                   }
                 ]
@@ -38774,7 +39394,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 193,
+                    "Id": 195,
                     "uielementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -38789,7 +39409,7 @@ export const DataElementsData = [
                     "CurrValue": 10,
                     "ElementId": "",
                     "UIElementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
-                    "Sequence": 69,
+                    "Sequence": 71,
                     "ElementName": "UI_Panel Body",
                     "ParentElementId": "4fb8e731-8e77-460f-64bb-d5e398222222",
                     "ControlType": "Panel Body",
@@ -38808,12 +39428,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 192,
-                    "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_193_192",
+                    "__idx": 194,
+                    "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_195_194",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 199,
+                        "Id": 201,
                         "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -38847,12 +39467,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 198,
-                        "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_199_198",
+                        "__idx": 200,
+                        "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_201_200",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 205,
+                            "Id": 207,
                             "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -38885,8 +39505,8 @@ export const DataElementsData = [
                             "DCaption": "Document Comments",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 204,
-                            "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_205_204",
+                            "__idx": 206,
+                            "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_207_206",
                             "children": []
                           }
                         ]
@@ -40010,7 +40630,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 194,
+                    "Id": 196,
                     "uielementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -40022,7 +40642,7 @@ export const DataElementsData = [
                     "Css": "form-select form-select",
                     "ElementId": "d20e38b8-b229-09da-343d-5cf38b41907e",
                     "UIElementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
-                    "Sequence": 70,
+                    "Sequence": 72,
                     "ElementName": "M_MoveTo",
                     "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                     "ControlType": "ComboBox",
@@ -40042,8 +40662,8 @@ export const DataElementsData = [
                     "DCaption": "Next Action",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 193,
-                    "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_194_193",
+                    "__idx": 195,
+                    "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_196_195",
                     "children": []
                   }
                 ]
@@ -40089,7 +40709,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 195,
+                    "Id": 197,
                     "uielementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -40101,7 +40721,7 @@ export const DataElementsData = [
                     "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
                     "ElementId": "F726FB8F-7647-42FE-ADF5-EC340FE1F186",
                     "UIElementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
-                    "Sequence": 71,
+                    "Sequence": 73,
                     "ElementName": "SubmitForm",
                     "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                     "ControlType": "ActionButton",
@@ -40121,8 +40741,8 @@ export const DataElementsData = [
                     "DCaption": "Submit",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 194,
-                    "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_195_194",
+                    "__idx": 196,
+                    "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_197_196",
                     "children": []
                   }
                 ]
@@ -40415,6 +41035,10 @@ export const DataElementsData = [
               {
                 "Mandatory": true,
                 "Span": false
+              },
+              {
+                "Mandatory": true,
+                "Span": false
               }
             ],
             "__idx": 71,
@@ -40456,6 +41080,10 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              },
               {
                 "Mandatory": true,
                 "Span": false
@@ -40503,6 +41131,10 @@ export const DataElementsData = [
               {
                 "Mandatory": true,
                 "Span": false
+              },
+              {
+                "Mandatory": true,
+                "Span": false
               }
             ],
             "__idx": 73,
@@ -40547,6 +41179,10 @@ export const DataElementsData = [
               {
                 "Mandatory": true,
                 "Span": false
+              },
+              {
+                "Mandatory": true,
+                "Span": false
               }
             ],
             "__idx": 74,
@@ -40588,6 +41224,12 @@ export const DataElementsData = [
             "DCaption": "Project Name",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "__idx": 75,
             "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_76_75",
             "children": []
@@ -40628,6 +41270,10 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              },
               {
                 "Mandatory": true,
                 "Span": false
@@ -40726,6 +41372,10 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              },
               {
                 "Mandatory": true,
                 "Span": false
@@ -40934,6 +41584,12 @@ export const DataElementsData = [
             "DCaption": "Project Budget",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "__idx": 80,
             "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_81_80",
             "children": []
@@ -41060,6 +41716,10 @@ export const DataElementsData = [
               {
                 "Mandatory": true,
                 "Span": false
+              },
+              {
+                "Mandatory": true,
+                "Span": false
               }
             ],
             "__idx": 83,
@@ -41101,6 +41761,12 @@ export const DataElementsData = [
             "DCaption": "Year Month",
             "DHelpText": "",
             "DToolTip": "",
+            "ElementControlProperty": [
+              {
+                "Mandatory": true,
+                "Span": false
+              }
+            ],
             "__idx": 84,
             "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_85_84",
             "children": []
@@ -41661,7 +42327,7 @@ export const DataElementsData = [
                 "MergeRow": "",
                 "Action": "OnChange",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                 "EDT": 3,
                 "DCaption": "Budget Amount",
                 "DHelpText": "",
@@ -42379,6 +43045,82 @@ export const DataElementsData = [
                 "__idx": 158,
                 "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_159_158",
                 "children": []
+              },
+              {
+                "VersionName": "Medium",
+                "Id": 160,
+                "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                "ShowCaption": true,
+                "Fontbold": false,
+                "FontItalic": false,
+                "FontOverline": false,
+                "FontStrikeout": false,
+                "FontUnderline": false,
+                "Depth": 9,
+                "ElementId": "62bcaa8a-abfb-4a1e-716b-4ddd0d457700",
+                "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                "Sequence": 27,
+                "ElementName": "MG_d28_RecurringValidation",
+                "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+                "ControlType": "NumericTextBox",
+                "Wrap": 4,
+                "ClearFix": false,
+                "RenderType": 15,
+                "OnDemandLoad": false,
+                "ControlId": 2,
+                "DisplayName": "MG_d28_RecurringValidation",
+                "Searchable": false,
+                "Bindable": false,
+                "HeaderTemplate": "",
+                "MergeRow": "",
+                "IsSaveWidget": 0,
+                "BindingDetail": "",
+                "EDT": 5,
+                "DCaption": "",
+                "DHelpText": "",
+                "DToolTip": "",
+                "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+                "__idx": 159,
+                "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_160_159",
+                "children": []
+              },
+              {
+                "VersionName": "Medium",
+                "Id": 161,
+                "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                "ShowCaption": true,
+                "Fontbold": false,
+                "FontItalic": false,
+                "FontOverline": false,
+                "FontStrikeout": false,
+                "FontUnderline": false,
+                "Depth": 9,
+                "Width": 1,
+                "ElementId": "77b3c293-580c-7348-09ab-8daf50018cbb",
+                "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+                "Sequence": 28,
+                "ElementName": "MG_d28_BudgetDetailsId",
+                "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+                "ControlType": "TextBox",
+                "Wrap": 4,
+                "IsMultiline": false,
+                "ClearFix": false,
+                "RenderType": 1,
+                "OnDemandLoad": false,
+                "ControlId": 1,
+                "DisplayName": "MG_d28_BudgetDetailsId",
+                "Searchable": false,
+                "Bindable": false,
+                "HeaderTemplate": "",
+                "MergeRow": "",
+                "IsSaveWidget": 0,
+                "BindingDetail": "",
+                "EDT": 9,
+                "DCaption": "MG_d28_BudgetDetailsId",
+                "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+                "__idx": 160,
+                "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_161_160",
+                "children": []
               }
             ]
           }
@@ -42505,7 +43247,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 160,
+                "Id": 162,
                 "uielementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -42520,7 +43262,7 @@ export const DataElementsData = [
                 "CurrValue": 10,
                 "ElementId": "",
                 "UIElementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
-                "Sequence": 27,
+                "Sequence": 29,
                 "ElementName": "UI_Panel Body",
                 "ParentElementId": "22e356c0-fe95-3b3a-0e71-e822f8beaf9b",
                 "ControlType": "Panel Body",
@@ -42539,12 +43281,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 159,
-                "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_160_159",
+                "__idx": 161,
+                "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_162_161",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 196,
+                    "Id": 198,
                     "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -42578,12 +43320,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 195,
-                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_196_195",
+                    "__idx": 197,
+                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_198_197",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 200,
+                        "Id": 202,
                         "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -42615,13 +43357,13 @@ export const DataElementsData = [
                         "DCaption": "Non Recurring Amount",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 199,
-                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_200_199",
+                        "__idx": 201,
+                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 201,
+                        "Id": 203,
                         "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -42653,13 +43395,13 @@ export const DataElementsData = [
                         "DCaption": "Recurring Amount",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 200,
-                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_201_200",
+                        "__idx": 202,
+                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_203_202",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 202,
+                        "Id": 204,
                         "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -42691,8 +43433,8 @@ export const DataElementsData = [
                         "DCaption": "Budget Total Amount",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 201,
-                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
+                        "__idx": 203,
+                        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_204_203",
                         "children": []
                       }
                     ]
@@ -42894,8 +43636,9 @@ export const DataElementsData = [
             "Bindable": false,
             "HeaderTemplate": "",
             "MergeRow": "",
+            "Action": "OnAfterRowAdding",
             "IsSaveWidget": 0,
-            "BindingDetail": "",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
             "EDT": 12,
             "GM": "Inline",
             "DCaption": "dbo.ProjectManpowerDetails",
@@ -42996,7 +43739,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 161,
+                "Id": 163,
                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43007,7 +43750,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "5285B70D-5B83-4F75-A850-3E617E40E7D9",
                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                "Sequence": 30,
+                "Sequence": 32,
                 "ElementName": "ManpowerGrid_Sequence",
                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                 "ControlType": "NumericTextBox",
@@ -43028,13 +43771,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                "__idx": 160,
-                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_161_160",
+                "__idx": 162,
+                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 162,
+                "Id": 164,
                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43045,7 +43788,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "A4F77944-8E4B-471E-A29B-D7359C1BB9A0",
                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                "Sequence": 31,
+                "Sequence": 33,
                 "ElementName": "ManpowerGrid_RowId",
                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                 "ControlType": "TextBox",
@@ -43067,13 +43810,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                "__idx": 161,
-                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_162_161",
+                "__idx": 163,
+                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 163,
+                "Id": 165,
                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43084,7 +43827,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "4A54EE4A-8033-433E-A262-EAE16B91D184",
                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                "Sequence": 33,
+                "Sequence": 35,
                 "ElementName": "MG_d154_SerialNo",
                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                 "ControlType": "NumericTextBox",
@@ -43105,13 +43848,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                "__idx": 162,
-                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
+                "__idx": 164,
+                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 164,
+                "Id": 166,
                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43122,7 +43865,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "6FDF7003-B6F4-4F73-89BA-91BC0B5B34D7",
                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                "Sequence": 34,
+                "Sequence": 36,
                 "ElementName": "MG_d154_ManpowerPosition",
                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                 "ControlType": "NumericTextBox",
@@ -43143,13 +43886,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                "__idx": 163,
-                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
+                "__idx": 165,
+                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 165,
+                "Id": 167,
                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43160,7 +43903,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "A51D4C70-271F-4F32-9DAF-7DBB8D46FB5D",
                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                "Sequence": 35,
+                "Sequence": 37,
                 "ElementName": "MG_d154_No_OfManpowerPosition",
                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                 "ControlType": "NumericTextBox",
@@ -43181,13 +43924,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                "__idx": 164,
-                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
+                "__idx": 166,
+                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 166,
+                "Id": 168,
                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43198,7 +43941,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "3B11CAC8-43EE-4FD6-9F2E-008EF0074946",
                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                "Sequence": 36,
+                "Sequence": 38,
                 "ElementName": "MG_d154_Duration",
                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                 "ControlType": "NumericTextBox",
@@ -43220,13 +43963,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                "__idx": 165,
-                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
+                "__idx": 167,
+                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 167,
+                "Id": 169,
                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43237,7 +43980,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "325FA7B8-1704-4FC7-9EFE-2AE193F97E0F",
                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                "Sequence": 37,
+                "Sequence": 39,
                 "ElementName": "MG_d154_RatePerMonth",
                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                 "ControlType": "NumericTextBox",
@@ -43259,13 +44002,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                "__idx": 166,
-                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
+                "__idx": 168,
+                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 168,
+                "Id": 170,
                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43276,7 +44019,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "7F62D03F-5E15-4712-B881-BE1D159A7EC0",
                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                "Sequence": 38,
+                "Sequence": 40,
                 "ElementName": "MG_d154_HRAPercentage",
                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                 "ControlType": "NumericTextBox",
@@ -43298,13 +44041,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                "__idx": 167,
-                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
+                "__idx": 169,
+                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 169,
+                "Id": 171,
                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43315,7 +44058,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "7E9C4ECC-B641-4540-95AE-745DCD75D555",
                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                "Sequence": 39,
+                "Sequence": 41,
                 "ElementName": "MG_d154_HRAPerMonth",
                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                 "ControlType": "NumericTextBox",
@@ -43337,13 +44080,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                "__idx": 168,
-                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
+                "__idx": 170,
+                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 170,
+                "Id": 172,
                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43354,13 +44097,13 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "A0F18415-6016-4457-A4DC-6B30AC4E16E2",
                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                "Sequence": 40,
+                "Sequence": 42,
                 "ElementName": "MG_d154_TotalPerMonth",
                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                 "ControlType": "NumericTextBox",
                 "Wrap": 4,
                 "ClearFix": false,
-                "RenderType": 15,
+                "RenderType": 16,
                 "OnDemandLoad": false,
                 "ControlId": 2,
                 "DisplayName": "MG_d154_TotalPerMonth",
@@ -43375,13 +44118,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                "__idx": 169,
-                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
+                "__idx": 171,
+                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 171,
+                "Id": 173,
                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43392,7 +44135,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "14C18238-7D10-48C5-81B3-469473AA36E7",
                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                "Sequence": 41,
+                "Sequence": 43,
                 "ElementName": "MG_d154_TotalMonths",
                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                 "ControlType": "NumericTextBox",
@@ -43414,13 +44157,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                "__idx": 170,
-                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
+                "__idx": 172,
+                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 172,
+                "Id": 174,
                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43431,13 +44174,13 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "0551E82F-D576-41B7-A722-5BF512C5612E",
                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                "Sequence": 42,
+                "Sequence": 44,
                 "ElementName": "MG_d154_TotalCost",
                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                 "ControlType": "NumericTextBox",
                 "Wrap": 4,
                 "ClearFix": false,
-                "RenderType": 15,
+                "RenderType": 16,
                 "OnDemandLoad": false,
                 "ControlId": 2,
                 "DisplayName": "MG_d154_TotalCost",
@@ -43452,13 +44195,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                "__idx": 171,
-                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
+                "__idx": 173,
+                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 173,
+                "Id": 175,
                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43470,7 +44213,7 @@ export const DataElementsData = [
                 "Width": 1,
                 "ElementId": "4109BCDB-C542-4F5E-A90A-261FA5B6EF5C",
                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                "Sequence": 43,
+                "Sequence": 45,
                 "ElementName": "MG_d154_Comments",
                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                 "ControlType": "TextBox",
@@ -43492,13 +44235,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                "__idx": 172,
-                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
+                "__idx": 174,
+                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_175_174",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 174,
+                "Id": 176,
                 "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43510,7 +44253,7 @@ export const DataElementsData = [
                 "Width": 1,
                 "ElementId": "4005C300-026A-41AE-A770-640B77DEC2AA",
                 "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-                "Sequence": 44,
+                "Sequence": 46,
                 "ElementName": "Edit_ManpowerGrid",
                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
                 "ControlType": "ActionButton",
@@ -43530,8 +44273,8 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-                "__idx": 173,
-                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
+                "__idx": 175,
+                "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_176_175",
                 "children": []
               }
             ]
@@ -43659,7 +44402,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 175,
+                "Id": 177,
                 "uielementid": "ed9afaee-314c-023f-3099-d207312c2bde",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43674,7 +44417,7 @@ export const DataElementsData = [
                 "CurrValue": 10,
                 "ElementId": "",
                 "UIElementid": "ed9afaee-314c-023f-3099-d207312c2bde",
-                "Sequence": 45,
+                "Sequence": 47,
                 "ElementName": "UI_Panel Body",
                 "ParentElementId": "5f1fbbd0-d362-421d-d3ff-178db90496cb",
                 "ControlType": "Panel Body",
@@ -43693,12 +44436,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 174,
-                "_id": "ed9afaee-314c-023f-3099-d207312c2bde_175_174",
+                "__idx": 176,
+                "_id": "ed9afaee-314c-023f-3099-d207312c2bde_177_176",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 197,
+                    "Id": 199,
                     "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -43732,12 +44475,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 196,
-                    "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_197_196",
+                    "__idx": 198,
+                    "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_199_198",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 203,
+                        "Id": 205,
                         "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -43754,7 +44497,7 @@ export const DataElementsData = [
                         "ControlType": "NumericTextBox",
                         "Wrap": 4,
                         "ClearFix": false,
-                        "RenderType": 15,
+                        "RenderType": 16,
                         "OnDemandLoad": false,
                         "ControlId": 2,
                         "DisplayName": "MF_ManPowerTotal",
@@ -43768,8 +44511,8 @@ export const DataElementsData = [
                         "DCaption": "Manpower Total",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 202,
-                        "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_203_202",
+                        "__idx": 204,
+                        "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_205_204",
                         "children": []
                       }
                     ]
@@ -43970,8 +44713,9 @@ export const DataElementsData = [
             "Bindable": false,
             "HeaderTemplate": "",
             "MergeRow": "",
+            "Action": "OnAfterRowAdding",
             "IsSaveWidget": 0,
-            "BindingDetail": "",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
             "EDT": 12,
             "GM": "Inline",
             "DCaption": "dbo.ProjectEquipmentDetails",
@@ -44072,7 +44816,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 176,
+                "Id": 178,
                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -44083,7 +44827,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "E714159A-2EA5-4B1F-B76F-47AF1782E72E",
                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                "Sequence": 48,
+                "Sequence": 50,
                 "ElementName": "EquipmentGrid_Sequence",
                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                 "ControlType": "NumericTextBox",
@@ -44104,13 +44848,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                "__idx": 175,
-                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_176_175",
+                "__idx": 177,
+                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 177,
+                "Id": 179,
                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -44121,7 +44865,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "5D693B84-4B3C-4E27-BA8A-746B5B5D447E",
                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                "Sequence": 49,
+                "Sequence": 51,
                 "ElementName": "EquipmentGrid_RowId",
                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                 "ControlType": "TextBox",
@@ -44143,13 +44887,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                "__idx": 176,
-                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_177_176",
+                "__idx": 178,
+                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 178,
+                "Id": 180,
                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -44160,7 +44904,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "74CB28BD-0A05-41A6-BEAC-BAD08EEFD1B4",
                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                "Sequence": 51,
+                "Sequence": 53,
                 "ElementName": "MG_d109_SerialNo",
                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                 "ControlType": "NumericTextBox",
@@ -44181,13 +44925,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                "__idx": 177,
-                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
+                "__idx": 179,
+                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 179,
+                "Id": 181,
                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -44198,7 +44942,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "14B54AEC-3441-4A80-B808-AAB14C3D727E",
                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                "Sequence": 52,
+                "Sequence": 54,
                 "ElementName": "MG_d109_EquipmentName",
                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                 "ControlType": "TextBox",
@@ -44220,13 +44964,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                "__idx": 178,
-                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
+                "__idx": 180,
+                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 180,
+                "Id": 182,
                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -44237,7 +44981,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "13785B0C-4768-4915-8E17-868B6BDBCF2B",
                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                "Sequence": 53,
+                "Sequence": 55,
                 "ElementName": "MG_d109_Description",
                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                 "ControlType": "TextBox",
@@ -44259,13 +45003,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                "__idx": 179,
-                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
+                "__idx": 181,
+                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 181,
+                "Id": 183,
                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -44276,7 +45020,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "408D121E-3EB2-449E-9501-CAC7DC07F5CB",
                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                "Sequence": 54,
+                "Sequence": 56,
                 "ElementName": "MG_d109_Quantity",
                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                 "ControlType": "NumericTextBox",
@@ -44298,13 +45042,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                "__idx": 180,
-                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
+                "__idx": 182,
+                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 182,
+                "Id": 184,
                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -44315,7 +45059,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "25D86941-4C81-4A42-B966-7CFF8CA120DC",
                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                "Sequence": 55,
+                "Sequence": 57,
                 "ElementName": "MG_d109_RateinINR",
                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                 "ControlType": "NumericTextBox",
@@ -44337,13 +45081,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                "__idx": 181,
-                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
+                "__idx": 183,
+                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 183,
+                "Id": 185,
                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -44354,7 +45098,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "3B9AC87E-863C-4602-9A9A-EB07673A8998",
                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                "Sequence": 56,
+                "Sequence": 58,
                 "ElementName": "MG_d109_TotalEquipmentcost",
                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                 "ControlType": "NumericTextBox",
@@ -44375,13 +45119,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                "__idx": 182,
-                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
+                "__idx": 184,
+                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 184,
+                "Id": 186,
                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -44392,7 +45136,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "F010F917-75BC-4DD9-9B88-D3C784F81676",
                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                "Sequence": 57,
+                "Sequence": 59,
                 "ElementName": "MG_d109_EquipmentBudget",
                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                 "ControlType": "NumericTextBox",
@@ -44413,13 +45157,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                "__idx": 183,
-                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
+                "__idx": 185,
+                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 185,
+                "Id": 187,
                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -44430,7 +45174,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                "Sequence": 58,
+                "Sequence": 60,
                 "ElementName": "MG_d109_IsActive",
                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                 "ControlType": "CheckBox",
@@ -44450,13 +45194,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                "__idx": 184,
-                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
+                "__idx": 186,
+                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_187_186",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 186,
+                "Id": 188,
                 "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -44467,7 +45211,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
                 "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-                "Sequence": 59,
+                "Sequence": 61,
                 "ElementName": "MG_d109_OverallEquipmentcost",
                 "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
                 "ControlType": "NumericTextBox",
@@ -44488,8 +45232,8 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-                "__idx": 185,
-                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
+                "__idx": 187,
+                "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_188_187",
                 "children": []
               }
             ]
@@ -44617,7 +45361,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 187,
+                "Id": 189,
                 "uielementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -44632,7 +45376,7 @@ export const DataElementsData = [
                 "CurrValue": 10,
                 "ElementId": "",
                 "UIElementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
-                "Sequence": 60,
+                "Sequence": 62,
                 "ElementName": "UI_Panel Body",
                 "ParentElementId": "c0daf60a-5656-584e-06b9-95e7070c518e",
                 "ControlType": "Panel Body",
@@ -44651,12 +45395,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 186,
-                "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_187_186",
+                "__idx": 188,
+                "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_189_188",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 198,
+                    "Id": 200,
                     "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -44690,12 +45434,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 197,
-                    "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_198_197",
+                    "__idx": 199,
+                    "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_200_199",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 204,
+                        "Id": 206,
                         "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -44712,7 +45456,7 @@ export const DataElementsData = [
                         "ControlType": "NumericTextBox",
                         "Wrap": 4,
                         "ClearFix": false,
-                        "RenderType": 15,
+                        "RenderType": 16,
                         "OnDemandLoad": false,
                         "ControlId": 2,
                         "DisplayName": "MF_EquipmentTotal",
@@ -44726,8 +45470,8 @@ export const DataElementsData = [
                         "DCaption": "Equipment Total",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 203,
-                        "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_204_203",
+                        "__idx": 205,
+                        "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_206_205",
                         "children": []
                       }
                     ]
@@ -45659,7 +46403,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 188,
+                "Id": 190,
                 "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -45670,7 +46414,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "FB1C8B10-F240-4A81-BEFA-83B2EB9608D4",
                 "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                "Sequence": 63,
+                "Sequence": 65,
                 "ElementName": "RDDocumentGrid_Sequence",
                 "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                 "ControlType": "NumericTextBox",
@@ -45691,13 +46435,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                "__idx": 187,
-                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_188_187",
+                "__idx": 189,
+                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 189,
+                "Id": 191,
                 "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -45708,7 +46452,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "27819A84-AF88-4AFD-9109-9227D4CA7B13",
                 "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                "Sequence": 64,
+                "Sequence": 66,
                 "ElementName": "RDDocumentGrid_RowId",
                 "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                 "ControlType": "TextBox",
@@ -45730,13 +46474,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                "__idx": 188,
-                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_189_188",
+                "__idx": 190,
+                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 190,
+                "Id": 192,
                 "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -45747,7 +46491,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "A634C53C-FDF1-43DC-8BA3-19DBAE083989",
                 "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                "Sequence": 66,
+                "Sequence": 68,
                 "ElementName": "MG_d82_DocumentName",
                 "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                 "ControlType": "TextBox",
@@ -45769,13 +46513,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                "__idx": 189,
-                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
+                "__idx": 191,
+                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 191,
+                "Id": 193,
                 "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -45786,7 +46530,7 @@ export const DataElementsData = [
                 "Depth": 9,
                 "ElementId": "D62563E5-2F3A-4B3A-825D-3F111D094FB2",
                 "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                "Sequence": 67,
+                "Sequence": 69,
                 "ElementName": "MG_d82_DocumentID",
                 "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                 "ControlType": "NumericTextBox",
@@ -45813,13 +46557,13 @@ export const DataElementsData = [
                   }
                 ],
                 "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                "__idx": 190,
-                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
+                "__idx": 192,
+                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_193_192",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 192,
+                "Id": 194,
                 "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -45831,7 +46575,7 @@ export const DataElementsData = [
                 "Width": 1,
                 "ElementId": "A7F87FB1-F3D8-447A-9E05-275E22C2D9FC",
                 "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-                "Sequence": 68,
+                "Sequence": 70,
                 "ElementName": "Edit_RDDocumentGrid",
                 "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
                 "ControlType": "ActionButton",
@@ -45851,8 +46595,8 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-                "__idx": 191,
-                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
+                "__idx": 193,
+                "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_194_193",
                 "children": []
               }
             ]
@@ -45980,7 +46724,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 193,
+                "Id": 195,
                 "uielementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -45995,7 +46739,7 @@ export const DataElementsData = [
                 "CurrValue": 10,
                 "ElementId": "",
                 "UIElementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
-                "Sequence": 69,
+                "Sequence": 71,
                 "ElementName": "UI_Panel Body",
                 "ParentElementId": "4fb8e731-8e77-460f-64bb-d5e398222222",
                 "ControlType": "Panel Body",
@@ -46014,12 +46758,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 192,
-                "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_193_192",
+                "__idx": 194,
+                "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_195_194",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 199,
+                    "Id": 201,
                     "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -46053,12 +46797,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 198,
-                    "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_199_198",
+                    "__idx": 200,
+                    "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_201_200",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 205,
+                        "Id": 207,
                         "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -46091,8 +46835,8 @@ export const DataElementsData = [
                         "DCaption": "Document Comments",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 204,
-                        "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_205_204",
+                        "__idx": 206,
+                        "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_207_206",
                         "children": []
                       }
                     ]
@@ -47134,7 +47878,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 194,
+                "Id": 196,
                 "uielementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -47146,7 +47890,7 @@ export const DataElementsData = [
                 "Css": "form-select form-select",
                 "ElementId": "d20e38b8-b229-09da-343d-5cf38b41907e",
                 "UIElementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
-                "Sequence": 70,
+                "Sequence": 72,
                 "ElementName": "M_MoveTo",
                 "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                 "ControlType": "ComboBox",
@@ -47166,8 +47910,8 @@ export const DataElementsData = [
                 "DCaption": "Next Action",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 193,
-                "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_194_193",
+                "__idx": 195,
+                "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_196_195",
                 "children": []
               }
             ]
@@ -47213,7 +47957,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 195,
+                "Id": 197,
                 "uielementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -47225,7 +47969,7 @@ export const DataElementsData = [
                 "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
                 "ElementId": "F726FB8F-7647-42FE-ADF5-EC340FE1F186",
                 "UIElementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
-                "Sequence": 71,
+                "Sequence": 73,
                 "ElementName": "SubmitForm",
                 "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                 "ControlType": "ActionButton",
@@ -47245,8 +47989,8 @@ export const DataElementsData = [
                 "DCaption": "Submit",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 194,
-                "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_195_194",
+                "__idx": 196,
+                "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_197_196",
                 "children": []
               }
             ]
@@ -47457,6 +48201,10 @@ export const DataElementsData = [
           {
             "Mandatory": true,
             "Span": false
+          },
+          {
+            "Mandatory": true,
+            "Span": false
           }
         ],
         "__idx": 71,
@@ -47498,6 +48246,10 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          },
           {
             "Mandatory": true,
             "Span": false
@@ -47545,6 +48297,10 @@ export const DataElementsData = [
           {
             "Mandatory": true,
             "Span": false
+          },
+          {
+            "Mandatory": true,
+            "Span": false
           }
         ],
         "__idx": 73,
@@ -47589,6 +48345,10 @@ export const DataElementsData = [
           {
             "Mandatory": true,
             "Span": false
+          },
+          {
+            "Mandatory": true,
+            "Span": false
           }
         ],
         "__idx": 74,
@@ -47630,6 +48390,12 @@ export const DataElementsData = [
         "DCaption": "Project Name",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "__idx": 75,
         "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_76_75",
         "children": []
@@ -47670,6 +48436,10 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          },
           {
             "Mandatory": true,
             "Span": false
@@ -47768,6 +48538,10 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          },
           {
             "Mandatory": true,
             "Span": false
@@ -47935,6 +48709,12 @@ export const DataElementsData = [
         "DCaption": "Project Budget",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "__idx": 80,
         "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_81_80",
         "children": []
@@ -48061,6 +48841,10 @@ export const DataElementsData = [
           {
             "Mandatory": true,
             "Span": false
+          },
+          {
+            "Mandatory": true,
+            "Span": false
           }
         ],
         "__idx": 83,
@@ -48102,6 +48886,12 @@ export const DataElementsData = [
         "DCaption": "Year Month",
         "DHelpText": "",
         "DToolTip": "",
+        "ElementControlProperty": [
+          {
+            "Mandatory": true,
+            "Span": false
+          }
+        ],
         "__idx": 84,
         "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_85_84",
         "children": []
@@ -48621,7 +49411,7 @@ export const DataElementsData = [
             "MergeRow": "",
             "Action": "OnChange",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
             "EDT": 3,
             "DCaption": "Budget Amount",
             "DHelpText": "",
@@ -49339,6 +50129,82 @@ export const DataElementsData = [
             "__idx": 158,
             "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_159_158",
             "children": []
+          },
+          {
+            "VersionName": "Medium",
+            "Id": 160,
+            "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+            "ShowCaption": true,
+            "Fontbold": false,
+            "FontItalic": false,
+            "FontOverline": false,
+            "FontStrikeout": false,
+            "FontUnderline": false,
+            "Depth": 9,
+            "ElementId": "62bcaa8a-abfb-4a1e-716b-4ddd0d457700",
+            "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+            "Sequence": 27,
+            "ElementName": "MG_d28_RecurringValidation",
+            "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+            "ControlType": "NumericTextBox",
+            "Wrap": 4,
+            "ClearFix": false,
+            "RenderType": 15,
+            "OnDemandLoad": false,
+            "ControlId": 2,
+            "DisplayName": "MG_d28_RecurringValidation",
+            "Searchable": false,
+            "Bindable": false,
+            "HeaderTemplate": "",
+            "MergeRow": "",
+            "IsSaveWidget": 0,
+            "BindingDetail": "",
+            "EDT": 5,
+            "DCaption": "",
+            "DHelpText": "",
+            "DToolTip": "",
+            "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+            "__idx": 159,
+            "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_160_159",
+            "children": []
+          },
+          {
+            "VersionName": "Medium",
+            "Id": 161,
+            "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+            "ShowCaption": true,
+            "Fontbold": false,
+            "FontItalic": false,
+            "FontOverline": false,
+            "FontStrikeout": false,
+            "FontUnderline": false,
+            "Depth": 9,
+            "Width": 1,
+            "ElementId": "77b3c293-580c-7348-09ab-8daf50018cbb",
+            "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+            "Sequence": 28,
+            "ElementName": "MG_d28_BudgetDetailsId",
+            "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+            "ControlType": "TextBox",
+            "Wrap": 4,
+            "IsMultiline": false,
+            "ClearFix": false,
+            "RenderType": 1,
+            "OnDemandLoad": false,
+            "ControlId": 1,
+            "DisplayName": "MG_d28_BudgetDetailsId",
+            "Searchable": false,
+            "Bindable": false,
+            "HeaderTemplate": "",
+            "MergeRow": "",
+            "IsSaveWidget": 0,
+            "BindingDetail": "",
+            "EDT": 9,
+            "DCaption": "MG_d28_BudgetDetailsId",
+            "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+            "__idx": 160,
+            "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_161_160",
+            "children": []
           }
         ]
       }
@@ -49424,7 +50290,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 160,
+            "Id": 162,
             "uielementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -49439,7 +50305,7 @@ export const DataElementsData = [
             "CurrValue": 10,
             "ElementId": "",
             "UIElementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
-            "Sequence": 27,
+            "Sequence": 29,
             "ElementName": "UI_Panel Body",
             "ParentElementId": "22e356c0-fe95-3b3a-0e71-e822f8beaf9b",
             "ControlType": "Panel Body",
@@ -49458,12 +50324,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 159,
-            "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_160_159",
+            "__idx": 161,
+            "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_162_161",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 196,
+                "Id": 198,
                 "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -49497,12 +50363,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 195,
-                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_196_195",
+                "__idx": 197,
+                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_198_197",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 200,
+                    "Id": 202,
                     "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -49534,13 +50400,13 @@ export const DataElementsData = [
                     "DCaption": "Non Recurring Amount",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 199,
-                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_200_199",
+                    "__idx": 201,
+                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 201,
+                    "Id": 203,
                     "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -49572,13 +50438,13 @@ export const DataElementsData = [
                     "DCaption": "Recurring Amount",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 200,
-                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_201_200",
+                    "__idx": 202,
+                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_203_202",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 202,
+                    "Id": 204,
                     "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -49610,8 +50476,8 @@ export const DataElementsData = [
                     "DCaption": "Budget Total Amount",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 201,
-                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
+                    "__idx": 203,
+                    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_204_203",
                     "children": []
                   }
                 ]
@@ -49772,8 +50638,9 @@ export const DataElementsData = [
         "Bindable": false,
         "HeaderTemplate": "",
         "MergeRow": "",
+        "Action": "OnAfterRowAdding",
         "IsSaveWidget": 0,
-        "BindingDetail": "",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
         "EDT": 12,
         "GM": "Inline",
         "DCaption": "dbo.ProjectManpowerDetails",
@@ -49874,7 +50741,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 161,
+            "Id": 163,
             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
             "ShowCaption": true,
             "Fontbold": false,
@@ -49885,7 +50752,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "5285B70D-5B83-4F75-A850-3E617E40E7D9",
             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-            "Sequence": 30,
+            "Sequence": 32,
             "ElementName": "ManpowerGrid_Sequence",
             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
             "ControlType": "NumericTextBox",
@@ -49906,13 +50773,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-            "__idx": 160,
-            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_161_160",
+            "__idx": 162,
+            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 162,
+            "Id": 164,
             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
             "ShowCaption": true,
             "Fontbold": false,
@@ -49923,7 +50790,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "A4F77944-8E4B-471E-A29B-D7359C1BB9A0",
             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-            "Sequence": 31,
+            "Sequence": 33,
             "ElementName": "ManpowerGrid_RowId",
             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
             "ControlType": "TextBox",
@@ -49945,13 +50812,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-            "__idx": 161,
-            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_162_161",
+            "__idx": 163,
+            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 163,
+            "Id": 165,
             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
             "ShowCaption": true,
             "Fontbold": false,
@@ -49962,7 +50829,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "4A54EE4A-8033-433E-A262-EAE16B91D184",
             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-            "Sequence": 33,
+            "Sequence": 35,
             "ElementName": "MG_d154_SerialNo",
             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
             "ControlType": "NumericTextBox",
@@ -49983,13 +50850,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-            "__idx": 162,
-            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
+            "__idx": 164,
+            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 164,
+            "Id": 166,
             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50000,7 +50867,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "6FDF7003-B6F4-4F73-89BA-91BC0B5B34D7",
             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-            "Sequence": 34,
+            "Sequence": 36,
             "ElementName": "MG_d154_ManpowerPosition",
             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
             "ControlType": "NumericTextBox",
@@ -50021,13 +50888,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-            "__idx": 163,
-            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
+            "__idx": 165,
+            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 165,
+            "Id": 167,
             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50038,7 +50905,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "A51D4C70-271F-4F32-9DAF-7DBB8D46FB5D",
             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-            "Sequence": 35,
+            "Sequence": 37,
             "ElementName": "MG_d154_No_OfManpowerPosition",
             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
             "ControlType": "NumericTextBox",
@@ -50059,13 +50926,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-            "__idx": 164,
-            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
+            "__idx": 166,
+            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 166,
+            "Id": 168,
             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50076,7 +50943,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "3B11CAC8-43EE-4FD6-9F2E-008EF0074946",
             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-            "Sequence": 36,
+            "Sequence": 38,
             "ElementName": "MG_d154_Duration",
             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
             "ControlType": "NumericTextBox",
@@ -50098,13 +50965,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-            "__idx": 165,
-            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
+            "__idx": 167,
+            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 167,
+            "Id": 169,
             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50115,7 +50982,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "325FA7B8-1704-4FC7-9EFE-2AE193F97E0F",
             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-            "Sequence": 37,
+            "Sequence": 39,
             "ElementName": "MG_d154_RatePerMonth",
             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
             "ControlType": "NumericTextBox",
@@ -50137,13 +51004,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-            "__idx": 166,
-            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
+            "__idx": 168,
+            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 168,
+            "Id": 170,
             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50154,7 +51021,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "7F62D03F-5E15-4712-B881-BE1D159A7EC0",
             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-            "Sequence": 38,
+            "Sequence": 40,
             "ElementName": "MG_d154_HRAPercentage",
             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
             "ControlType": "NumericTextBox",
@@ -50176,13 +51043,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-            "__idx": 167,
-            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
+            "__idx": 169,
+            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 169,
+            "Id": 171,
             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50193,7 +51060,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "7E9C4ECC-B641-4540-95AE-745DCD75D555",
             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-            "Sequence": 39,
+            "Sequence": 41,
             "ElementName": "MG_d154_HRAPerMonth",
             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
             "ControlType": "NumericTextBox",
@@ -50215,13 +51082,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-            "__idx": 168,
-            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
+            "__idx": 170,
+            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 170,
+            "Id": 172,
             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50232,13 +51099,13 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "A0F18415-6016-4457-A4DC-6B30AC4E16E2",
             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-            "Sequence": 40,
+            "Sequence": 42,
             "ElementName": "MG_d154_TotalPerMonth",
             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
             "ControlType": "NumericTextBox",
             "Wrap": 4,
             "ClearFix": false,
-            "RenderType": 15,
+            "RenderType": 16,
             "OnDemandLoad": false,
             "ControlId": 2,
             "DisplayName": "MG_d154_TotalPerMonth",
@@ -50253,13 +51120,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-            "__idx": 169,
-            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
+            "__idx": 171,
+            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 171,
+            "Id": 173,
             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50270,7 +51137,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "14C18238-7D10-48C5-81B3-469473AA36E7",
             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-            "Sequence": 41,
+            "Sequence": 43,
             "ElementName": "MG_d154_TotalMonths",
             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
             "ControlType": "NumericTextBox",
@@ -50292,13 +51159,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-            "__idx": 170,
-            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
+            "__idx": 172,
+            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 172,
+            "Id": 174,
             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50309,13 +51176,13 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "0551E82F-D576-41B7-A722-5BF512C5612E",
             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-            "Sequence": 42,
+            "Sequence": 44,
             "ElementName": "MG_d154_TotalCost",
             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
             "ControlType": "NumericTextBox",
             "Wrap": 4,
             "ClearFix": false,
-            "RenderType": 15,
+            "RenderType": 16,
             "OnDemandLoad": false,
             "ControlId": 2,
             "DisplayName": "MG_d154_TotalCost",
@@ -50330,13 +51197,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-            "__idx": 171,
-            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
+            "__idx": 173,
+            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 173,
+            "Id": 175,
             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50348,7 +51215,7 @@ export const DataElementsData = [
             "Width": 1,
             "ElementId": "4109BCDB-C542-4F5E-A90A-261FA5B6EF5C",
             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-            "Sequence": 43,
+            "Sequence": 45,
             "ElementName": "MG_d154_Comments",
             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
             "ControlType": "TextBox",
@@ -50370,13 +51237,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-            "__idx": 172,
-            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
+            "__idx": 174,
+            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_175_174",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 174,
+            "Id": 176,
             "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50388,7 +51255,7 @@ export const DataElementsData = [
             "Width": 1,
             "ElementId": "4005C300-026A-41AE-A770-640B77DEC2AA",
             "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-            "Sequence": 44,
+            "Sequence": 46,
             "ElementName": "Edit_ManpowerGrid",
             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
             "ControlType": "ActionButton",
@@ -50408,8 +51275,8 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-            "__idx": 173,
-            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
+            "__idx": 175,
+            "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_176_175",
             "children": []
           }
         ]
@@ -50496,7 +51363,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 175,
+            "Id": 177,
             "uielementid": "ed9afaee-314c-023f-3099-d207312c2bde",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50511,7 +51378,7 @@ export const DataElementsData = [
             "CurrValue": 10,
             "ElementId": "",
             "UIElementid": "ed9afaee-314c-023f-3099-d207312c2bde",
-            "Sequence": 45,
+            "Sequence": 47,
             "ElementName": "UI_Panel Body",
             "ParentElementId": "5f1fbbd0-d362-421d-d3ff-178db90496cb",
             "ControlType": "Panel Body",
@@ -50530,12 +51397,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 174,
-            "_id": "ed9afaee-314c-023f-3099-d207312c2bde_175_174",
+            "__idx": 176,
+            "_id": "ed9afaee-314c-023f-3099-d207312c2bde_177_176",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 197,
+                "Id": 199,
                 "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -50569,12 +51436,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 196,
-                "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_197_196",
+                "__idx": 198,
+                "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_199_198",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 203,
+                    "Id": 205,
                     "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -50591,7 +51458,7 @@ export const DataElementsData = [
                     "ControlType": "NumericTextBox",
                     "Wrap": 4,
                     "ClearFix": false,
-                    "RenderType": 15,
+                    "RenderType": 16,
                     "OnDemandLoad": false,
                     "ControlId": 2,
                     "DisplayName": "MF_ManPowerTotal",
@@ -50605,8 +51472,8 @@ export const DataElementsData = [
                     "DCaption": "Manpower Total",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 202,
-                    "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_203_202",
+                    "__idx": 204,
+                    "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_205_204",
                     "children": []
                   }
                 ]
@@ -50766,8 +51633,9 @@ export const DataElementsData = [
         "Bindable": false,
         "HeaderTemplate": "",
         "MergeRow": "",
+        "Action": "OnAfterRowAdding",
         "IsSaveWidget": 0,
-        "BindingDetail": "",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
         "EDT": 12,
         "GM": "Inline",
         "DCaption": "dbo.ProjectEquipmentDetails",
@@ -50868,7 +51736,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 176,
+            "Id": 178,
             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50879,7 +51747,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "E714159A-2EA5-4B1F-B76F-47AF1782E72E",
             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-            "Sequence": 48,
+            "Sequence": 50,
             "ElementName": "EquipmentGrid_Sequence",
             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
             "ControlType": "NumericTextBox",
@@ -50900,13 +51768,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-            "__idx": 175,
-            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_176_175",
+            "__idx": 177,
+            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 177,
+            "Id": 179,
             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50917,7 +51785,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "5D693B84-4B3C-4E27-BA8A-746B5B5D447E",
             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-            "Sequence": 49,
+            "Sequence": 51,
             "ElementName": "EquipmentGrid_RowId",
             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
             "ControlType": "TextBox",
@@ -50939,13 +51807,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-            "__idx": 176,
-            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_177_176",
+            "__idx": 178,
+            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 178,
+            "Id": 180,
             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50956,7 +51824,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "74CB28BD-0A05-41A6-BEAC-BAD08EEFD1B4",
             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-            "Sequence": 51,
+            "Sequence": 53,
             "ElementName": "MG_d109_SerialNo",
             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
             "ControlType": "NumericTextBox",
@@ -50977,13 +51845,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-            "__idx": 177,
-            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
+            "__idx": 179,
+            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 179,
+            "Id": 181,
             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
             "ShowCaption": true,
             "Fontbold": false,
@@ -50994,7 +51862,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "14B54AEC-3441-4A80-B808-AAB14C3D727E",
             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-            "Sequence": 52,
+            "Sequence": 54,
             "ElementName": "MG_d109_EquipmentName",
             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
             "ControlType": "TextBox",
@@ -51016,13 +51884,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-            "__idx": 178,
-            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
+            "__idx": 180,
+            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 180,
+            "Id": 182,
             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
             "ShowCaption": true,
             "Fontbold": false,
@@ -51033,7 +51901,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "13785B0C-4768-4915-8E17-868B6BDBCF2B",
             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-            "Sequence": 53,
+            "Sequence": 55,
             "ElementName": "MG_d109_Description",
             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
             "ControlType": "TextBox",
@@ -51055,13 +51923,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-            "__idx": 179,
-            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
+            "__idx": 181,
+            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 181,
+            "Id": 183,
             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
             "ShowCaption": true,
             "Fontbold": false,
@@ -51072,7 +51940,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "408D121E-3EB2-449E-9501-CAC7DC07F5CB",
             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-            "Sequence": 54,
+            "Sequence": 56,
             "ElementName": "MG_d109_Quantity",
             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
             "ControlType": "NumericTextBox",
@@ -51094,13 +51962,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-            "__idx": 180,
-            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
+            "__idx": 182,
+            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 182,
+            "Id": 184,
             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
             "ShowCaption": true,
             "Fontbold": false,
@@ -51111,7 +51979,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "25D86941-4C81-4A42-B966-7CFF8CA120DC",
             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-            "Sequence": 55,
+            "Sequence": 57,
             "ElementName": "MG_d109_RateinINR",
             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
             "ControlType": "NumericTextBox",
@@ -51133,13 +52001,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-            "__idx": 181,
-            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
+            "__idx": 183,
+            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 183,
+            "Id": 185,
             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
             "ShowCaption": true,
             "Fontbold": false,
@@ -51150,7 +52018,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "3B9AC87E-863C-4602-9A9A-EB07673A8998",
             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-            "Sequence": 56,
+            "Sequence": 58,
             "ElementName": "MG_d109_TotalEquipmentcost",
             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
             "ControlType": "NumericTextBox",
@@ -51171,13 +52039,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-            "__idx": 182,
-            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
+            "__idx": 184,
+            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 184,
+            "Id": 186,
             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
             "ShowCaption": true,
             "Fontbold": false,
@@ -51188,7 +52056,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "F010F917-75BC-4DD9-9B88-D3C784F81676",
             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-            "Sequence": 57,
+            "Sequence": 59,
             "ElementName": "MG_d109_EquipmentBudget",
             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
             "ControlType": "NumericTextBox",
@@ -51209,13 +52077,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-            "__idx": 183,
-            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
+            "__idx": 185,
+            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 185,
+            "Id": 187,
             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
             "ShowCaption": true,
             "Fontbold": false,
@@ -51226,7 +52094,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-            "Sequence": 58,
+            "Sequence": 60,
             "ElementName": "MG_d109_IsActive",
             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
             "ControlType": "CheckBox",
@@ -51246,13 +52114,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-            "__idx": 184,
-            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
+            "__idx": 186,
+            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_187_186",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 186,
+            "Id": 188,
             "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
             "ShowCaption": true,
             "Fontbold": false,
@@ -51263,7 +52131,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
             "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-            "Sequence": 59,
+            "Sequence": 61,
             "ElementName": "MG_d109_OverallEquipmentcost",
             "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
             "ControlType": "NumericTextBox",
@@ -51284,8 +52152,8 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-            "__idx": 185,
-            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
+            "__idx": 187,
+            "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_188_187",
             "children": []
           }
         ]
@@ -51372,7 +52240,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 187,
+            "Id": 189,
             "uielementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
             "ShowCaption": true,
             "Fontbold": false,
@@ -51387,7 +52255,7 @@ export const DataElementsData = [
             "CurrValue": 10,
             "ElementId": "",
             "UIElementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
-            "Sequence": 60,
+            "Sequence": 62,
             "ElementName": "UI_Panel Body",
             "ParentElementId": "c0daf60a-5656-584e-06b9-95e7070c518e",
             "ControlType": "Panel Body",
@@ -51406,12 +52274,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 186,
-            "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_187_186",
+            "__idx": 188,
+            "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_189_188",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 198,
+                "Id": 200,
                 "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -51445,12 +52313,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 197,
-                "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_198_197",
+                "__idx": 199,
+                "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_200_199",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 204,
+                    "Id": 206,
                     "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -51467,7 +52335,7 @@ export const DataElementsData = [
                     "ControlType": "NumericTextBox",
                     "Wrap": 4,
                     "ClearFix": false,
-                    "RenderType": 15,
+                    "RenderType": 16,
                     "OnDemandLoad": false,
                     "ControlId": 2,
                     "DisplayName": "MF_EquipmentTotal",
@@ -51481,8 +52349,8 @@ export const DataElementsData = [
                     "DCaption": "Equipment Total",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 203,
-                    "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_204_203",
+                    "__idx": 205,
+                    "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_206_205",
                     "children": []
                   }
                 ]
@@ -52330,7 +53198,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 188,
+            "Id": 190,
             "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
             "ShowCaption": true,
             "Fontbold": false,
@@ -52341,7 +53209,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "FB1C8B10-F240-4A81-BEFA-83B2EB9608D4",
             "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-            "Sequence": 63,
+            "Sequence": 65,
             "ElementName": "RDDocumentGrid_Sequence",
             "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
             "ControlType": "NumericTextBox",
@@ -52362,13 +53230,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-            "__idx": 187,
-            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_188_187",
+            "__idx": 189,
+            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 189,
+            "Id": 191,
             "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
             "ShowCaption": true,
             "Fontbold": false,
@@ -52379,7 +53247,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "27819A84-AF88-4AFD-9109-9227D4CA7B13",
             "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-            "Sequence": 64,
+            "Sequence": 66,
             "ElementName": "RDDocumentGrid_RowId",
             "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
             "ControlType": "TextBox",
@@ -52401,13 +53269,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-            "__idx": 188,
-            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_189_188",
+            "__idx": 190,
+            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 190,
+            "Id": 192,
             "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
             "ShowCaption": true,
             "Fontbold": false,
@@ -52418,7 +53286,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "A634C53C-FDF1-43DC-8BA3-19DBAE083989",
             "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-            "Sequence": 66,
+            "Sequence": 68,
             "ElementName": "MG_d82_DocumentName",
             "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
             "ControlType": "TextBox",
@@ -52440,13 +53308,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-            "__idx": 189,
-            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
+            "__idx": 191,
+            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 191,
+            "Id": 193,
             "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
             "ShowCaption": true,
             "Fontbold": false,
@@ -52457,7 +53325,7 @@ export const DataElementsData = [
             "Depth": 9,
             "ElementId": "D62563E5-2F3A-4B3A-825D-3F111D094FB2",
             "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-            "Sequence": 67,
+            "Sequence": 69,
             "ElementName": "MG_d82_DocumentID",
             "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
             "ControlType": "NumericTextBox",
@@ -52484,13 +53352,13 @@ export const DataElementsData = [
               }
             ],
             "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-            "__idx": 190,
-            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
+            "__idx": 192,
+            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_193_192",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 192,
+            "Id": 194,
             "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
             "ShowCaption": true,
             "Fontbold": false,
@@ -52502,7 +53370,7 @@ export const DataElementsData = [
             "Width": 1,
             "ElementId": "A7F87FB1-F3D8-447A-9E05-275E22C2D9FC",
             "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-            "Sequence": 68,
+            "Sequence": 70,
             "ElementName": "Edit_RDDocumentGrid",
             "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
             "ControlType": "ActionButton",
@@ -52522,8 +53390,8 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-            "__idx": 191,
-            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
+            "__idx": 193,
+            "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_194_193",
             "children": []
           }
         ]
@@ -52610,7 +53478,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 193,
+            "Id": 195,
             "uielementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -52625,7 +53493,7 @@ export const DataElementsData = [
             "CurrValue": 10,
             "ElementId": "",
             "UIElementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
-            "Sequence": 69,
+            "Sequence": 71,
             "ElementName": "UI_Panel Body",
             "ParentElementId": "4fb8e731-8e77-460f-64bb-d5e398222222",
             "ControlType": "Panel Body",
@@ -52644,12 +53512,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 192,
-            "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_193_192",
+            "__idx": 194,
+            "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_195_194",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 199,
+                "Id": 201,
                 "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -52683,12 +53551,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 198,
-                "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_199_198",
+                "__idx": 200,
+                "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_201_200",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 205,
+                    "Id": 207,
                     "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -52721,8 +53589,8 @@ export const DataElementsData = [
                     "DCaption": "Document Comments",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 204,
-                    "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_205_204",
+                    "__idx": 206,
+                    "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_207_206",
                     "children": []
                   }
                 ]
@@ -53558,7 +54426,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 194,
+            "Id": 196,
             "uielementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
             "ShowCaption": true,
             "Fontbold": false,
@@ -53570,7 +54438,7 @@ export const DataElementsData = [
             "Css": "form-select form-select",
             "ElementId": "d20e38b8-b229-09da-343d-5cf38b41907e",
             "UIElementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
-            "Sequence": 70,
+            "Sequence": 72,
             "ElementName": "M_MoveTo",
             "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
             "ControlType": "ComboBox",
@@ -53590,8 +54458,8 @@ export const DataElementsData = [
             "DCaption": "Next Action",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 193,
-            "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_194_193",
+            "__idx": 195,
+            "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_196_195",
             "children": []
           }
         ]
@@ -53637,7 +54505,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 195,
+            "Id": 197,
             "uielementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
             "ShowCaption": true,
             "Fontbold": false,
@@ -53649,7 +54517,7 @@ export const DataElementsData = [
             "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
             "ElementId": "F726FB8F-7647-42FE-ADF5-EC340FE1F186",
             "UIElementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
-            "Sequence": 71,
+            "Sequence": 73,
             "ElementName": "SubmitForm",
             "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
             "ControlType": "ActionButton",
@@ -53669,8 +54537,8 @@ export const DataElementsData = [
             "DCaption": "Submit",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 194,
-            "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_195_194",
+            "__idx": 196,
+            "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_197_196",
             "children": []
           }
         ]
@@ -53759,6 +54627,10 @@ export const DataElementsData = [
       {
         "Mandatory": true,
         "Span": false
+      },
+      {
+        "Mandatory": true,
+        "Span": false
       }
     ],
     "__idx": 71,
@@ -53800,6 +54672,10 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      },
       {
         "Mandatory": true,
         "Span": false
@@ -53847,6 +54723,10 @@ export const DataElementsData = [
       {
         "Mandatory": true,
         "Span": false
+      },
+      {
+        "Mandatory": true,
+        "Span": false
       }
     ],
     "__idx": 73,
@@ -53891,6 +54771,10 @@ export const DataElementsData = [
       {
         "Mandatory": true,
         "Span": false
+      },
+      {
+        "Mandatory": true,
+        "Span": false
       }
     ],
     "__idx": 74,
@@ -53932,6 +54816,12 @@ export const DataElementsData = [
     "DCaption": "Project Name",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "__idx": 75,
     "_id": "4DC31208-F2E0-4D02-938D-8224F08D38B0_76_75",
     "children": []
@@ -53972,6 +54862,10 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      },
       {
         "Mandatory": true,
         "Span": false
@@ -54073,6 +54967,10 @@ export const DataElementsData = [
       {
         "Mandatory": true,
         "Span": false
+      },
+      {
+        "Mandatory": true,
+        "Span": false
       }
     ],
     "__idx": 78,
@@ -54155,6 +55053,12 @@ export const DataElementsData = [
     "DCaption": "Project Budget",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "__idx": 80,
     "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_81_80",
     "children": []
@@ -54281,6 +55185,10 @@ export const DataElementsData = [
       {
         "Mandatory": true,
         "Span": false
+      },
+      {
+        "Mandatory": true,
+        "Span": false
       }
     ],
     "__idx": 83,
@@ -54322,6 +55230,12 @@ export const DataElementsData = [
     "DCaption": "Year Month",
     "DHelpText": "",
     "DToolTip": "",
+    "ElementControlProperty": [
+      {
+        "Mandatory": true,
+        "Span": false
+      }
+    ],
     "__idx": 84,
     "_id": "7882455b-b4c8-74a3-351c-77e14838cd60_85_84",
     "children": []
@@ -54798,7 +55712,7 @@ export const DataElementsData = [
         "MergeRow": "",
         "Action": "OnChange",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
         "EDT": 3,
         "DCaption": "Budget Amount",
         "DHelpText": "",
@@ -55516,6 +56430,82 @@ export const DataElementsData = [
         "__idx": 158,
         "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_159_158",
         "children": []
+      },
+      {
+        "VersionName": "Medium",
+        "Id": 160,
+        "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+        "ShowCaption": true,
+        "Fontbold": false,
+        "FontItalic": false,
+        "FontOverline": false,
+        "FontStrikeout": false,
+        "FontUnderline": false,
+        "Depth": 9,
+        "ElementId": "62bcaa8a-abfb-4a1e-716b-4ddd0d457700",
+        "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+        "Sequence": 27,
+        "ElementName": "MG_d28_RecurringValidation",
+        "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+        "ControlType": "NumericTextBox",
+        "Wrap": 4,
+        "ClearFix": false,
+        "RenderType": 15,
+        "OnDemandLoad": false,
+        "ControlId": 2,
+        "DisplayName": "MG_d28_RecurringValidation",
+        "Searchable": false,
+        "Bindable": false,
+        "HeaderTemplate": "",
+        "MergeRow": "",
+        "IsSaveWidget": 0,
+        "BindingDetail": "",
+        "EDT": 5,
+        "DCaption": "",
+        "DHelpText": "",
+        "DToolTip": "",
+        "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+        "__idx": 159,
+        "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_160_159",
+        "children": []
+      },
+      {
+        "VersionName": "Medium",
+        "Id": 161,
+        "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+        "ShowCaption": true,
+        "Fontbold": false,
+        "FontItalic": false,
+        "FontOverline": false,
+        "FontStrikeout": false,
+        "FontUnderline": false,
+        "Depth": 9,
+        "Width": 1,
+        "ElementId": "77b3c293-580c-7348-09ab-8daf50018cbb",
+        "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+        "Sequence": 28,
+        "ElementName": "MG_d28_BudgetDetailsId",
+        "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+        "ControlType": "TextBox",
+        "Wrap": 4,
+        "IsMultiline": false,
+        "ClearFix": false,
+        "RenderType": 1,
+        "OnDemandLoad": false,
+        "ControlId": 1,
+        "DisplayName": "MG_d28_BudgetDetailsId",
+        "Searchable": false,
+        "Bindable": false,
+        "HeaderTemplate": "",
+        "MergeRow": "",
+        "IsSaveWidget": 0,
+        "BindingDetail": "",
+        "EDT": 9,
+        "DCaption": "MG_d28_BudgetDetailsId",
+        "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+        "__idx": 160,
+        "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_161_160",
+        "children": []
       }
     ]
   },
@@ -55560,7 +56550,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 160,
+        "Id": 162,
         "uielementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -55575,7 +56565,7 @@ export const DataElementsData = [
         "CurrValue": 10,
         "ElementId": "",
         "UIElementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
-        "Sequence": 27,
+        "Sequence": 29,
         "ElementName": "UI_Panel Body",
         "ParentElementId": "22e356c0-fe95-3b3a-0e71-e822f8beaf9b",
         "ControlType": "Panel Body",
@@ -55594,12 +56584,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 159,
-        "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_160_159",
+        "__idx": 161,
+        "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_162_161",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 196,
+            "Id": 198,
             "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
             "ShowCaption": true,
             "Fontbold": false,
@@ -55633,12 +56623,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 195,
-            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_196_195",
+            "__idx": 197,
+            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_198_197",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 200,
+                "Id": 202,
                 "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -55670,13 +56660,13 @@ export const DataElementsData = [
                 "DCaption": "Non Recurring Amount",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 199,
-                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_200_199",
+                "__idx": 201,
+                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 201,
+                "Id": 203,
                 "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -55708,13 +56698,13 @@ export const DataElementsData = [
                 "DCaption": "Recurring Amount",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 200,
-                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_201_200",
+                "__idx": 202,
+                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_203_202",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 202,
+                "Id": 204,
                 "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -55746,8 +56736,8 @@ export const DataElementsData = [
                 "DCaption": "Budget Total Amount",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 201,
-                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
+                "__idx": 203,
+                "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_204_203",
                 "children": []
               }
             ]
@@ -55865,8 +56855,9 @@ export const DataElementsData = [
     "Bindable": false,
     "HeaderTemplate": "",
     "MergeRow": "",
+    "Action": "OnAfterRowAdding",
     "IsSaveWidget": 0,
-    "BindingDetail": "",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
     "EDT": 12,
     "GM": "Inline",
     "DCaption": "dbo.ProjectManpowerDetails",
@@ -55967,7 +56958,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 161,
+        "Id": 163,
         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
         "ShowCaption": true,
         "Fontbold": false,
@@ -55978,7 +56969,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "5285B70D-5B83-4F75-A850-3E617E40E7D9",
         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-        "Sequence": 30,
+        "Sequence": 32,
         "ElementName": "ManpowerGrid_Sequence",
         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
         "ControlType": "NumericTextBox",
@@ -55999,13 +56990,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-        "__idx": 160,
-        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_161_160",
+        "__idx": 162,
+        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 162,
+        "Id": 164,
         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56016,7 +57007,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "A4F77944-8E4B-471E-A29B-D7359C1BB9A0",
         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-        "Sequence": 31,
+        "Sequence": 33,
         "ElementName": "ManpowerGrid_RowId",
         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
         "ControlType": "TextBox",
@@ -56038,13 +57029,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-        "__idx": 161,
-        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_162_161",
+        "__idx": 163,
+        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 163,
+        "Id": 165,
         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56055,7 +57046,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "4A54EE4A-8033-433E-A262-EAE16B91D184",
         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-        "Sequence": 33,
+        "Sequence": 35,
         "ElementName": "MG_d154_SerialNo",
         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
         "ControlType": "NumericTextBox",
@@ -56076,13 +57067,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-        "__idx": 162,
-        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
+        "__idx": 164,
+        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 164,
+        "Id": 166,
         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56093,7 +57084,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "6FDF7003-B6F4-4F73-89BA-91BC0B5B34D7",
         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-        "Sequence": 34,
+        "Sequence": 36,
         "ElementName": "MG_d154_ManpowerPosition",
         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
         "ControlType": "NumericTextBox",
@@ -56114,13 +57105,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-        "__idx": 163,
-        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
+        "__idx": 165,
+        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 165,
+        "Id": 167,
         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56131,7 +57122,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "A51D4C70-271F-4F32-9DAF-7DBB8D46FB5D",
         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-        "Sequence": 35,
+        "Sequence": 37,
         "ElementName": "MG_d154_No_OfManpowerPosition",
         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
         "ControlType": "NumericTextBox",
@@ -56152,13 +57143,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-        "__idx": 164,
-        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
+        "__idx": 166,
+        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 166,
+        "Id": 168,
         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56169,7 +57160,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "3B11CAC8-43EE-4FD6-9F2E-008EF0074946",
         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-        "Sequence": 36,
+        "Sequence": 38,
         "ElementName": "MG_d154_Duration",
         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
         "ControlType": "NumericTextBox",
@@ -56191,13 +57182,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-        "__idx": 165,
-        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
+        "__idx": 167,
+        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 167,
+        "Id": 169,
         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56208,7 +57199,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "325FA7B8-1704-4FC7-9EFE-2AE193F97E0F",
         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-        "Sequence": 37,
+        "Sequence": 39,
         "ElementName": "MG_d154_RatePerMonth",
         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
         "ControlType": "NumericTextBox",
@@ -56230,13 +57221,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-        "__idx": 166,
-        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
+        "__idx": 168,
+        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 168,
+        "Id": 170,
         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56247,7 +57238,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "7F62D03F-5E15-4712-B881-BE1D159A7EC0",
         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-        "Sequence": 38,
+        "Sequence": 40,
         "ElementName": "MG_d154_HRAPercentage",
         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
         "ControlType": "NumericTextBox",
@@ -56269,13 +57260,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-        "__idx": 167,
-        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
+        "__idx": 169,
+        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 169,
+        "Id": 171,
         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56286,7 +57277,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "7E9C4ECC-B641-4540-95AE-745DCD75D555",
         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-        "Sequence": 39,
+        "Sequence": 41,
         "ElementName": "MG_d154_HRAPerMonth",
         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
         "ControlType": "NumericTextBox",
@@ -56308,13 +57299,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-        "__idx": 168,
-        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
+        "__idx": 170,
+        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 170,
+        "Id": 172,
         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56325,13 +57316,13 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "A0F18415-6016-4457-A4DC-6B30AC4E16E2",
         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-        "Sequence": 40,
+        "Sequence": 42,
         "ElementName": "MG_d154_TotalPerMonth",
         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
         "ControlType": "NumericTextBox",
         "Wrap": 4,
         "ClearFix": false,
-        "RenderType": 15,
+        "RenderType": 16,
         "OnDemandLoad": false,
         "ControlId": 2,
         "DisplayName": "MG_d154_TotalPerMonth",
@@ -56346,13 +57337,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-        "__idx": 169,
-        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
+        "__idx": 171,
+        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 171,
+        "Id": 173,
         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56363,7 +57354,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "14C18238-7D10-48C5-81B3-469473AA36E7",
         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-        "Sequence": 41,
+        "Sequence": 43,
         "ElementName": "MG_d154_TotalMonths",
         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
         "ControlType": "NumericTextBox",
@@ -56385,13 +57376,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-        "__idx": 170,
-        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
+        "__idx": 172,
+        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 172,
+        "Id": 174,
         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56402,13 +57393,13 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "0551E82F-D576-41B7-A722-5BF512C5612E",
         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-        "Sequence": 42,
+        "Sequence": 44,
         "ElementName": "MG_d154_TotalCost",
         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
         "ControlType": "NumericTextBox",
         "Wrap": 4,
         "ClearFix": false,
-        "RenderType": 15,
+        "RenderType": 16,
         "OnDemandLoad": false,
         "ControlId": 2,
         "DisplayName": "MG_d154_TotalCost",
@@ -56423,13 +57414,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-        "__idx": 171,
-        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
+        "__idx": 173,
+        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 173,
+        "Id": 175,
         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56441,7 +57432,7 @@ export const DataElementsData = [
         "Width": 1,
         "ElementId": "4109BCDB-C542-4F5E-A90A-261FA5B6EF5C",
         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-        "Sequence": 43,
+        "Sequence": 45,
         "ElementName": "MG_d154_Comments",
         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
         "ControlType": "TextBox",
@@ -56463,13 +57454,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-        "__idx": 172,
-        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
+        "__idx": 174,
+        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_175_174",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 174,
+        "Id": 176,
         "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56481,7 +57472,7 @@ export const DataElementsData = [
         "Width": 1,
         "ElementId": "4005C300-026A-41AE-A770-640B77DEC2AA",
         "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-        "Sequence": 44,
+        "Sequence": 46,
         "ElementName": "Edit_ManpowerGrid",
         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
         "ControlType": "ActionButton",
@@ -56501,8 +57492,8 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-        "__idx": 173,
-        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
+        "__idx": 175,
+        "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_176_175",
         "children": []
       }
     ]
@@ -56548,7 +57539,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 175,
+        "Id": 177,
         "uielementid": "ed9afaee-314c-023f-3099-d207312c2bde",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56563,7 +57554,7 @@ export const DataElementsData = [
         "CurrValue": 10,
         "ElementId": "",
         "UIElementid": "ed9afaee-314c-023f-3099-d207312c2bde",
-        "Sequence": 45,
+        "Sequence": 47,
         "ElementName": "UI_Panel Body",
         "ParentElementId": "5f1fbbd0-d362-421d-d3ff-178db90496cb",
         "ControlType": "Panel Body",
@@ -56582,12 +57573,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 174,
-        "_id": "ed9afaee-314c-023f-3099-d207312c2bde_175_174",
+        "__idx": 176,
+        "_id": "ed9afaee-314c-023f-3099-d207312c2bde_177_176",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 197,
+            "Id": 199,
             "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
             "ShowCaption": true,
             "Fontbold": false,
@@ -56621,12 +57612,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 196,
-            "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_197_196",
+            "__idx": 198,
+            "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_199_198",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 203,
+                "Id": 205,
                 "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -56643,7 +57634,7 @@ export const DataElementsData = [
                 "ControlType": "NumericTextBox",
                 "Wrap": 4,
                 "ClearFix": false,
-                "RenderType": 15,
+                "RenderType": 16,
                 "OnDemandLoad": false,
                 "ControlId": 2,
                 "DisplayName": "MF_ManPowerTotal",
@@ -56657,8 +57648,8 @@ export const DataElementsData = [
                 "DCaption": "Manpower Total",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 202,
-                "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_203_202",
+                "__idx": 204,
+                "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_205_204",
                 "children": []
               }
             ]
@@ -56775,8 +57766,9 @@ export const DataElementsData = [
     "Bindable": false,
     "HeaderTemplate": "",
     "MergeRow": "",
+    "Action": "OnAfterRowAdding",
     "IsSaveWidget": 0,
-    "BindingDetail": "",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
     "EDT": 12,
     "GM": "Inline",
     "DCaption": "dbo.ProjectEquipmentDetails",
@@ -56877,7 +57869,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 176,
+        "Id": 178,
         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56888,7 +57880,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "E714159A-2EA5-4B1F-B76F-47AF1782E72E",
         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-        "Sequence": 48,
+        "Sequence": 50,
         "ElementName": "EquipmentGrid_Sequence",
         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
         "ControlType": "NumericTextBox",
@@ -56909,13 +57901,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-        "__idx": 175,
-        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_176_175",
+        "__idx": 177,
+        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 177,
+        "Id": 179,
         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56926,7 +57918,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "5D693B84-4B3C-4E27-BA8A-746B5B5D447E",
         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-        "Sequence": 49,
+        "Sequence": 51,
         "ElementName": "EquipmentGrid_RowId",
         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
         "ControlType": "TextBox",
@@ -56948,13 +57940,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-        "__idx": 176,
-        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_177_176",
+        "__idx": 178,
+        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 178,
+        "Id": 180,
         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
         "ShowCaption": true,
         "Fontbold": false,
@@ -56965,7 +57957,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "74CB28BD-0A05-41A6-BEAC-BAD08EEFD1B4",
         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-        "Sequence": 51,
+        "Sequence": 53,
         "ElementName": "MG_d109_SerialNo",
         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
         "ControlType": "NumericTextBox",
@@ -56986,13 +57978,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-        "__idx": 177,
-        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
+        "__idx": 179,
+        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 179,
+        "Id": 181,
         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
         "ShowCaption": true,
         "Fontbold": false,
@@ -57003,7 +57995,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "14B54AEC-3441-4A80-B808-AAB14C3D727E",
         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-        "Sequence": 52,
+        "Sequence": 54,
         "ElementName": "MG_d109_EquipmentName",
         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
         "ControlType": "TextBox",
@@ -57025,13 +58017,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-        "__idx": 178,
-        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
+        "__idx": 180,
+        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 180,
+        "Id": 182,
         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
         "ShowCaption": true,
         "Fontbold": false,
@@ -57042,7 +58034,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "13785B0C-4768-4915-8E17-868B6BDBCF2B",
         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-        "Sequence": 53,
+        "Sequence": 55,
         "ElementName": "MG_d109_Description",
         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
         "ControlType": "TextBox",
@@ -57064,13 +58056,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-        "__idx": 179,
-        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
+        "__idx": 181,
+        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 181,
+        "Id": 183,
         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
         "ShowCaption": true,
         "Fontbold": false,
@@ -57081,7 +58073,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "408D121E-3EB2-449E-9501-CAC7DC07F5CB",
         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-        "Sequence": 54,
+        "Sequence": 56,
         "ElementName": "MG_d109_Quantity",
         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
         "ControlType": "NumericTextBox",
@@ -57103,13 +58095,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-        "__idx": 180,
-        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
+        "__idx": 182,
+        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 182,
+        "Id": 184,
         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
         "ShowCaption": true,
         "Fontbold": false,
@@ -57120,7 +58112,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "25D86941-4C81-4A42-B966-7CFF8CA120DC",
         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-        "Sequence": 55,
+        "Sequence": 57,
         "ElementName": "MG_d109_RateinINR",
         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
         "ControlType": "NumericTextBox",
@@ -57142,13 +58134,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-        "__idx": 181,
-        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
+        "__idx": 183,
+        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 183,
+        "Id": 185,
         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
         "ShowCaption": true,
         "Fontbold": false,
@@ -57159,7 +58151,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "3B9AC87E-863C-4602-9A9A-EB07673A8998",
         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-        "Sequence": 56,
+        "Sequence": 58,
         "ElementName": "MG_d109_TotalEquipmentcost",
         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
         "ControlType": "NumericTextBox",
@@ -57180,13 +58172,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-        "__idx": 182,
-        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
+        "__idx": 184,
+        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 184,
+        "Id": 186,
         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
         "ShowCaption": true,
         "Fontbold": false,
@@ -57197,7 +58189,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "F010F917-75BC-4DD9-9B88-D3C784F81676",
         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-        "Sequence": 57,
+        "Sequence": 59,
         "ElementName": "MG_d109_EquipmentBudget",
         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
         "ControlType": "NumericTextBox",
@@ -57218,13 +58210,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-        "__idx": 183,
-        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
+        "__idx": 185,
+        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 185,
+        "Id": 187,
         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
         "ShowCaption": true,
         "Fontbold": false,
@@ -57235,7 +58227,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-        "Sequence": 58,
+        "Sequence": 60,
         "ElementName": "MG_d109_IsActive",
         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
         "ControlType": "CheckBox",
@@ -57255,13 +58247,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-        "__idx": 184,
-        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
+        "__idx": 186,
+        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_187_186",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 186,
+        "Id": 188,
         "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
         "ShowCaption": true,
         "Fontbold": false,
@@ -57272,7 +58264,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
         "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-        "Sequence": 59,
+        "Sequence": 61,
         "ElementName": "MG_d109_OverallEquipmentcost",
         "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
         "ControlType": "NumericTextBox",
@@ -57293,8 +58285,8 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-        "__idx": 185,
-        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
+        "__idx": 187,
+        "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_188_187",
         "children": []
       }
     ]
@@ -57340,7 +58332,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 187,
+        "Id": 189,
         "uielementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
         "ShowCaption": true,
         "Fontbold": false,
@@ -57355,7 +58347,7 @@ export const DataElementsData = [
         "CurrValue": 10,
         "ElementId": "",
         "UIElementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
-        "Sequence": 60,
+        "Sequence": 62,
         "ElementName": "UI_Panel Body",
         "ParentElementId": "c0daf60a-5656-584e-06b9-95e7070c518e",
         "ControlType": "Panel Body",
@@ -57374,12 +58366,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 186,
-        "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_187_186",
+        "__idx": 188,
+        "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_189_188",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 198,
+            "Id": 200,
             "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
             "ShowCaption": true,
             "Fontbold": false,
@@ -57413,12 +58405,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 197,
-            "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_198_197",
+            "__idx": 199,
+            "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_200_199",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 204,
+                "Id": 206,
                 "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -57435,7 +58427,7 @@ export const DataElementsData = [
                 "ControlType": "NumericTextBox",
                 "Wrap": 4,
                 "ClearFix": false,
-                "RenderType": 15,
+                "RenderType": 16,
                 "OnDemandLoad": false,
                 "ControlId": 2,
                 "DisplayName": "MF_EquipmentTotal",
@@ -57449,8 +58441,8 @@ export const DataElementsData = [
                 "DCaption": "Equipment Total",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 203,
-                "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_204_203",
+                "__idx": 205,
+                "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_206_205",
                 "children": []
               }
             ]
@@ -58054,7 +59046,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 188,
+        "Id": 190,
         "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
         "ShowCaption": true,
         "Fontbold": false,
@@ -58065,7 +59057,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "FB1C8B10-F240-4A81-BEFA-83B2EB9608D4",
         "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-        "Sequence": 63,
+        "Sequence": 65,
         "ElementName": "RDDocumentGrid_Sequence",
         "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
         "ControlType": "NumericTextBox",
@@ -58086,13 +59078,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-        "__idx": 187,
-        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_188_187",
+        "__idx": 189,
+        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 189,
+        "Id": 191,
         "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
         "ShowCaption": true,
         "Fontbold": false,
@@ -58103,7 +59095,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "27819A84-AF88-4AFD-9109-9227D4CA7B13",
         "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-        "Sequence": 64,
+        "Sequence": 66,
         "ElementName": "RDDocumentGrid_RowId",
         "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
         "ControlType": "TextBox",
@@ -58125,13 +59117,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-        "__idx": 188,
-        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_189_188",
+        "__idx": 190,
+        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 190,
+        "Id": 192,
         "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
         "ShowCaption": true,
         "Fontbold": false,
@@ -58142,7 +59134,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "A634C53C-FDF1-43DC-8BA3-19DBAE083989",
         "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-        "Sequence": 66,
+        "Sequence": 68,
         "ElementName": "MG_d82_DocumentName",
         "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
         "ControlType": "TextBox",
@@ -58164,13 +59156,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-        "__idx": 189,
-        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
+        "__idx": 191,
+        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 191,
+        "Id": 193,
         "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
         "ShowCaption": true,
         "Fontbold": false,
@@ -58181,7 +59173,7 @@ export const DataElementsData = [
         "Depth": 9,
         "ElementId": "D62563E5-2F3A-4B3A-825D-3F111D094FB2",
         "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-        "Sequence": 67,
+        "Sequence": 69,
         "ElementName": "MG_d82_DocumentID",
         "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
         "ControlType": "NumericTextBox",
@@ -58208,13 +59200,13 @@ export const DataElementsData = [
           }
         ],
         "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-        "__idx": 190,
-        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
+        "__idx": 192,
+        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_193_192",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 192,
+        "Id": 194,
         "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
         "ShowCaption": true,
         "Fontbold": false,
@@ -58226,7 +59218,7 @@ export const DataElementsData = [
         "Width": 1,
         "ElementId": "A7F87FB1-F3D8-447A-9E05-275E22C2D9FC",
         "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-        "Sequence": 68,
+        "Sequence": 70,
         "ElementName": "Edit_RDDocumentGrid",
         "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
         "ControlType": "ActionButton",
@@ -58246,8 +59238,8 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-        "__idx": 191,
-        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
+        "__idx": 193,
+        "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_194_193",
         "children": []
       }
     ]
@@ -58293,7 +59285,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 193,
+        "Id": 195,
         "uielementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -58308,7 +59300,7 @@ export const DataElementsData = [
         "CurrValue": 10,
         "ElementId": "",
         "UIElementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
-        "Sequence": 69,
+        "Sequence": 71,
         "ElementName": "UI_Panel Body",
         "ParentElementId": "4fb8e731-8e77-460f-64bb-d5e398222222",
         "ControlType": "Panel Body",
@@ -58327,12 +59319,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 192,
-        "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_193_192",
+        "__idx": 194,
+        "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_195_194",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 199,
+            "Id": 201,
             "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
             "ShowCaption": true,
             "Fontbold": false,
@@ -58366,12 +59358,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 198,
-            "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_199_198",
+            "__idx": 200,
+            "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_201_200",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 205,
+                "Id": 207,
                 "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -58404,8 +59396,8 @@ export const DataElementsData = [
                 "DCaption": "Document Comments",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 204,
-                "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_205_204",
+                "__idx": 206,
+                "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_207_206",
                 "children": []
               }
             ]
@@ -58959,7 +59951,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 194,
+        "Id": 196,
         "uielementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
         "ShowCaption": true,
         "Fontbold": false,
@@ -58971,7 +59963,7 @@ export const DataElementsData = [
         "Css": "form-select form-select",
         "ElementId": "d20e38b8-b229-09da-343d-5cf38b41907e",
         "UIElementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
-        "Sequence": 70,
+        "Sequence": 72,
         "ElementName": "M_MoveTo",
         "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
         "ControlType": "ComboBox",
@@ -58991,8 +59983,8 @@ export const DataElementsData = [
         "DCaption": "Next Action",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 193,
-        "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_194_193",
+        "__idx": 195,
+        "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_196_195",
         "children": []
       }
     ]
@@ -59038,7 +60030,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 195,
+        "Id": 197,
         "uielementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
         "ShowCaption": true,
         "Fontbold": false,
@@ -59050,7 +60042,7 @@ export const DataElementsData = [
         "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
         "ElementId": "F726FB8F-7647-42FE-ADF5-EC340FE1F186",
         "UIElementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
-        "Sequence": 71,
+        "Sequence": 73,
         "ElementName": "SubmitForm",
         "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
         "ControlType": "ActionButton",
@@ -59070,8 +60062,8 @@ export const DataElementsData = [
         "DCaption": "Submit",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 194,
-        "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_195_194",
+        "__idx": 196,
+        "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_197_196",
         "children": []
       }
     ]
@@ -59261,7 +60253,7 @@ export const DataElementsData = [
     "MergeRow": "",
     "Action": "OnChange",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d28_RecurringValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_d10_NonRecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d28_BudgetAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"BudgetAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MF_d10_RecurringAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d10_BudgetTotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
     "EDT": 3,
     "DCaption": "Budget Amount",
     "DHelpText": "",
@@ -59983,6 +60975,82 @@ export const DataElementsData = [
   {
     "VersionName": "Medium",
     "Id": 160,
+    "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+    "ShowCaption": true,
+    "Fontbold": false,
+    "FontItalic": false,
+    "FontOverline": false,
+    "FontStrikeout": false,
+    "FontUnderline": false,
+    "Depth": 9,
+    "ElementId": "62bcaa8a-abfb-4a1e-716b-4ddd0d457700",
+    "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+    "Sequence": 27,
+    "ElementName": "MG_d28_RecurringValidation",
+    "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+    "ControlType": "NumericTextBox",
+    "Wrap": 4,
+    "ClearFix": false,
+    "RenderType": 15,
+    "OnDemandLoad": false,
+    "ControlId": 2,
+    "DisplayName": "MG_d28_RecurringValidation",
+    "Searchable": false,
+    "Bindable": false,
+    "HeaderTemplate": "",
+    "MergeRow": "",
+    "IsSaveWidget": 0,
+    "BindingDetail": "",
+    "EDT": 5,
+    "DCaption": "",
+    "DHelpText": "",
+    "DToolTip": "",
+    "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+    "__idx": 159,
+    "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_160_159",
+    "children": []
+  },
+  {
+    "VersionName": "Medium",
+    "Id": 161,
+    "uielementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+    "ShowCaption": true,
+    "Fontbold": false,
+    "FontItalic": false,
+    "FontOverline": false,
+    "FontStrikeout": false,
+    "FontUnderline": false,
+    "Depth": 9,
+    "Width": 1,
+    "ElementId": "77b3c293-580c-7348-09ab-8daf50018cbb",
+    "UIElementid": "a8fc7453-9de3-a9f7-3993-bebe5201767c",
+    "Sequence": 28,
+    "ElementName": "MG_d28_BudgetDetailsId",
+    "ParentElementId": "B73036BB-FE7D-4B0D-998A-985294F8FC5B",
+    "ControlType": "TextBox",
+    "Wrap": 4,
+    "IsMultiline": false,
+    "ClearFix": false,
+    "RenderType": 1,
+    "OnDemandLoad": false,
+    "ControlId": 1,
+    "DisplayName": "MG_d28_BudgetDetailsId",
+    "Searchable": false,
+    "Bindable": false,
+    "HeaderTemplate": "",
+    "MergeRow": "",
+    "IsSaveWidget": 0,
+    "BindingDetail": "",
+    "EDT": 9,
+    "DCaption": "MG_d28_BudgetDetailsId",
+    "GridParent": "06F585A2-269F-4A3C-9D42-F63E905AF44C",
+    "__idx": 160,
+    "_id": "a8fc7453-9de3-a9f7-3993-bebe5201767c_161_160",
+    "children": []
+  },
+  {
+    "VersionName": "Medium",
+    "Id": 162,
     "uielementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -59997,7 +61065,7 @@ export const DataElementsData = [
     "CurrValue": 10,
     "ElementId": "",
     "UIElementid": "eb7a1a57-1c91-a51f-181e-c4a2475444e6",
-    "Sequence": 27,
+    "Sequence": 29,
     "ElementName": "UI_Panel Body",
     "ParentElementId": "22e356c0-fe95-3b3a-0e71-e822f8beaf9b",
     "ControlType": "Panel Body",
@@ -60016,12 +61084,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 159,
-    "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_160_159",
+    "__idx": 161,
+    "_id": "eb7a1a57-1c91-a51f-181e-c4a2475444e6_162_161",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 196,
+        "Id": 198,
         "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
         "ShowCaption": true,
         "Fontbold": false,
@@ -60055,12 +61123,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 195,
-        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_196_195",
+        "__idx": 197,
+        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_198_197",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 200,
+            "Id": 202,
             "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
             "ShowCaption": true,
             "Fontbold": false,
@@ -60092,13 +61160,13 @@ export const DataElementsData = [
             "DCaption": "Non Recurring Amount",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 199,
-            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_200_199",
+            "__idx": 201,
+            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 201,
+            "Id": 203,
             "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
             "ShowCaption": true,
             "Fontbold": false,
@@ -60130,13 +61198,13 @@ export const DataElementsData = [
             "DCaption": "Recurring Amount",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 200,
-            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_201_200",
+            "__idx": 202,
+            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_203_202",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 202,
+            "Id": 204,
             "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
             "ShowCaption": true,
             "Fontbold": false,
@@ -60168,8 +61236,8 @@ export const DataElementsData = [
             "DCaption": "Budget Total Amount",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 201,
-            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
+            "__idx": 203,
+            "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_204_203",
             "children": []
           }
         ]
@@ -60178,7 +61246,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 161,
+    "Id": 163,
     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60189,7 +61257,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "5285B70D-5B83-4F75-A850-3E617E40E7D9",
     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-    "Sequence": 30,
+    "Sequence": 32,
     "ElementName": "ManpowerGrid_Sequence",
     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
     "ControlType": "NumericTextBox",
@@ -60210,13 +61278,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-    "__idx": 160,
-    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_161_160",
+    "__idx": 162,
+    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 162,
+    "Id": 164,
     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60227,7 +61295,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "A4F77944-8E4B-471E-A29B-D7359C1BB9A0",
     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-    "Sequence": 31,
+    "Sequence": 33,
     "ElementName": "ManpowerGrid_RowId",
     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
     "ControlType": "TextBox",
@@ -60249,13 +61317,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-    "__idx": 161,
-    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_162_161",
+    "__idx": 163,
+    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 163,
+    "Id": 165,
     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60266,7 +61334,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "4A54EE4A-8033-433E-A262-EAE16B91D184",
     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-    "Sequence": 33,
+    "Sequence": 35,
     "ElementName": "MG_d154_SerialNo",
     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
     "ControlType": "NumericTextBox",
@@ -60287,13 +61355,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-    "__idx": 162,
-    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_163_162",
+    "__idx": 164,
+    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 164,
+    "Id": 166,
     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60304,7 +61372,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "6FDF7003-B6F4-4F73-89BA-91BC0B5B34D7",
     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-    "Sequence": 34,
+    "Sequence": 36,
     "ElementName": "MG_d154_ManpowerPosition",
     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
     "ControlType": "NumericTextBox",
@@ -60325,13 +61393,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-    "__idx": 163,
-    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_164_163",
+    "__idx": 165,
+    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 165,
+    "Id": 167,
     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60342,7 +61410,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "A51D4C70-271F-4F32-9DAF-7DBB8D46FB5D",
     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-    "Sequence": 35,
+    "Sequence": 37,
     "ElementName": "MG_d154_No_OfManpowerPosition",
     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
     "ControlType": "NumericTextBox",
@@ -60363,13 +61431,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-    "__idx": 164,
-    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_165_164",
+    "__idx": 166,
+    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 166,
+    "Id": 168,
     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60380,7 +61448,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "3B11CAC8-43EE-4FD6-9F2E-008EF0074946",
     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-    "Sequence": 36,
+    "Sequence": 38,
     "ElementName": "MG_d154_Duration",
     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
     "ControlType": "NumericTextBox",
@@ -60402,13 +61470,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-    "__idx": 165,
-    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_166_165",
+    "__idx": 167,
+    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 167,
+    "Id": 169,
     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60419,7 +61487,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "325FA7B8-1704-4FC7-9EFE-2AE193F97E0F",
     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-    "Sequence": 37,
+    "Sequence": 39,
     "ElementName": "MG_d154_RatePerMonth",
     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
     "ControlType": "NumericTextBox",
@@ -60441,13 +61509,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-    "__idx": 166,
-    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_167_166",
+    "__idx": 168,
+    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 168,
+    "Id": 170,
     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60458,7 +61526,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "7F62D03F-5E15-4712-B881-BE1D159A7EC0",
     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-    "Sequence": 38,
+    "Sequence": 40,
     "ElementName": "MG_d154_HRAPercentage",
     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
     "ControlType": "NumericTextBox",
@@ -60480,13 +61548,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-    "__idx": 167,
-    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_168_167",
+    "__idx": 169,
+    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 169,
+    "Id": 171,
     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60497,7 +61565,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "7E9C4ECC-B641-4540-95AE-745DCD75D555",
     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-    "Sequence": 39,
+    "Sequence": 41,
     "ElementName": "MG_d154_HRAPerMonth",
     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
     "ControlType": "NumericTextBox",
@@ -60519,13 +61587,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-    "__idx": 168,
-    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_169_168",
+    "__idx": 170,
+    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 170,
+    "Id": 172,
     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60536,13 +61604,13 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "A0F18415-6016-4457-A4DC-6B30AC4E16E2",
     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-    "Sequence": 40,
+    "Sequence": 42,
     "ElementName": "MG_d154_TotalPerMonth",
     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
     "ControlType": "NumericTextBox",
     "Wrap": 4,
     "ClearFix": false,
-    "RenderType": 15,
+    "RenderType": 16,
     "OnDemandLoad": false,
     "ControlId": 2,
     "DisplayName": "MG_d154_TotalPerMonth",
@@ -60557,13 +61625,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-    "__idx": 169,
-    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_170_169",
+    "__idx": 171,
+    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 171,
+    "Id": 173,
     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60574,7 +61642,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "14C18238-7D10-48C5-81B3-469473AA36E7",
     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-    "Sequence": 41,
+    "Sequence": 43,
     "ElementName": "MG_d154_TotalMonths",
     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
     "ControlType": "NumericTextBox",
@@ -60596,13 +61664,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-    "__idx": 170,
-    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_171_170",
+    "__idx": 172,
+    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 172,
+    "Id": 174,
     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60613,13 +61681,13 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "0551E82F-D576-41B7-A722-5BF512C5612E",
     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-    "Sequence": 42,
+    "Sequence": 44,
     "ElementName": "MG_d154_TotalCost",
     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
     "ControlType": "NumericTextBox",
     "Wrap": 4,
     "ClearFix": false,
-    "RenderType": 15,
+    "RenderType": 16,
     "OnDemandLoad": false,
     "ControlId": 2,
     "DisplayName": "MG_d154_TotalCost",
@@ -60634,13 +61702,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-    "__idx": 171,
-    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_172_171",
+    "__idx": 173,
+    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 173,
+    "Id": 175,
     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60652,7 +61720,7 @@ export const DataElementsData = [
     "Width": 1,
     "ElementId": "4109BCDB-C542-4F5E-A90A-261FA5B6EF5C",
     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-    "Sequence": 43,
+    "Sequence": 45,
     "ElementName": "MG_d154_Comments",
     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
     "ControlType": "TextBox",
@@ -60674,13 +61742,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-    "__idx": 172,
-    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_173_172",
+    "__idx": 174,
+    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_175_174",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 174,
+    "Id": 176,
     "uielementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60692,7 +61760,7 @@ export const DataElementsData = [
     "Width": 1,
     "ElementId": "4005C300-026A-41AE-A770-640B77DEC2AA",
     "UIElementid": "9167c115-1125-94c4-1e53-7f6d83d8c616",
-    "Sequence": 44,
+    "Sequence": 46,
     "ElementName": "Edit_ManpowerGrid",
     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
     "ControlType": "ActionButton",
@@ -60712,13 +61780,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
-    "__idx": 173,
-    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_174_173",
+    "__idx": 175,
+    "_id": "9167c115-1125-94c4-1e53-7f6d83d8c616_176_175",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 175,
+    "Id": 177,
     "uielementid": "ed9afaee-314c-023f-3099-d207312c2bde",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60733,7 +61801,7 @@ export const DataElementsData = [
     "CurrValue": 10,
     "ElementId": "",
     "UIElementid": "ed9afaee-314c-023f-3099-d207312c2bde",
-    "Sequence": 45,
+    "Sequence": 47,
     "ElementName": "UI_Panel Body",
     "ParentElementId": "5f1fbbd0-d362-421d-d3ff-178db90496cb",
     "ControlType": "Panel Body",
@@ -60752,12 +61820,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 174,
-    "_id": "ed9afaee-314c-023f-3099-d207312c2bde_175_174",
+    "__idx": 176,
+    "_id": "ed9afaee-314c-023f-3099-d207312c2bde_177_176",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 197,
+        "Id": 199,
         "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
         "ShowCaption": true,
         "Fontbold": false,
@@ -60791,12 +61859,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 196,
-        "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_197_196",
+        "__idx": 198,
+        "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_199_198",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 203,
+            "Id": 205,
             "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
             "ShowCaption": true,
             "Fontbold": false,
@@ -60813,7 +61881,7 @@ export const DataElementsData = [
             "ControlType": "NumericTextBox",
             "Wrap": 4,
             "ClearFix": false,
-            "RenderType": 15,
+            "RenderType": 16,
             "OnDemandLoad": false,
             "ControlId": 2,
             "DisplayName": "MF_ManPowerTotal",
@@ -60827,8 +61895,8 @@ export const DataElementsData = [
             "DCaption": "Manpower Total",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 202,
-            "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_203_202",
+            "__idx": 204,
+            "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_205_204",
             "children": []
           }
         ]
@@ -60837,7 +61905,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 176,
+    "Id": 178,
     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60848,7 +61916,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "E714159A-2EA5-4B1F-B76F-47AF1782E72E",
     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-    "Sequence": 48,
+    "Sequence": 50,
     "ElementName": "EquipmentGrid_Sequence",
     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
     "ControlType": "NumericTextBox",
@@ -60869,13 +61937,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-    "__idx": 175,
-    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_176_175",
+    "__idx": 177,
+    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 177,
+    "Id": 179,
     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60886,7 +61954,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "5D693B84-4B3C-4E27-BA8A-746B5B5D447E",
     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-    "Sequence": 49,
+    "Sequence": 51,
     "ElementName": "EquipmentGrid_RowId",
     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
     "ControlType": "TextBox",
@@ -60908,13 +61976,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-    "__idx": 176,
-    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_177_176",
+    "__idx": 178,
+    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 178,
+    "Id": 180,
     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60925,7 +61993,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "74CB28BD-0A05-41A6-BEAC-BAD08EEFD1B4",
     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-    "Sequence": 51,
+    "Sequence": 53,
     "ElementName": "MG_d109_SerialNo",
     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
     "ControlType": "NumericTextBox",
@@ -60946,13 +62014,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-    "__idx": 177,
-    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_178_177",
+    "__idx": 179,
+    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 179,
+    "Id": 181,
     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
     "ShowCaption": true,
     "Fontbold": false,
@@ -60963,7 +62031,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "14B54AEC-3441-4A80-B808-AAB14C3D727E",
     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-    "Sequence": 52,
+    "Sequence": 54,
     "ElementName": "MG_d109_EquipmentName",
     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
     "ControlType": "TextBox",
@@ -60985,13 +62053,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-    "__idx": 178,
-    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_179_178",
+    "__idx": 180,
+    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 180,
+    "Id": 182,
     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61002,7 +62070,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "13785B0C-4768-4915-8E17-868B6BDBCF2B",
     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-    "Sequence": 53,
+    "Sequence": 55,
     "ElementName": "MG_d109_Description",
     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
     "ControlType": "TextBox",
@@ -61024,13 +62092,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-    "__idx": 179,
-    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_180_179",
+    "__idx": 181,
+    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 181,
+    "Id": 183,
     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61041,7 +62109,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "408D121E-3EB2-449E-9501-CAC7DC07F5CB",
     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-    "Sequence": 54,
+    "Sequence": 56,
     "ElementName": "MG_d109_Quantity",
     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
     "ControlType": "NumericTextBox",
@@ -61063,13 +62131,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-    "__idx": 180,
-    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_181_180",
+    "__idx": 182,
+    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 182,
+    "Id": 184,
     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61080,7 +62148,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "25D86941-4C81-4A42-B966-7CFF8CA120DC",
     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-    "Sequence": 55,
+    "Sequence": 57,
     "ElementName": "MG_d109_RateinINR",
     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
     "ControlType": "NumericTextBox",
@@ -61102,13 +62170,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-    "__idx": 181,
-    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_182_181",
+    "__idx": 183,
+    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 183,
+    "Id": 185,
     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61119,7 +62187,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "3B9AC87E-863C-4602-9A9A-EB07673A8998",
     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-    "Sequence": 56,
+    "Sequence": 58,
     "ElementName": "MG_d109_TotalEquipmentcost",
     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
     "ControlType": "NumericTextBox",
@@ -61140,13 +62208,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-    "__idx": 182,
-    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_183_182",
+    "__idx": 184,
+    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 184,
+    "Id": 186,
     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61157,7 +62225,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "F010F917-75BC-4DD9-9B88-D3C784F81676",
     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-    "Sequence": 57,
+    "Sequence": 59,
     "ElementName": "MG_d109_EquipmentBudget",
     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
     "ControlType": "NumericTextBox",
@@ -61178,13 +62246,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-    "__idx": 183,
-    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_184_183",
+    "__idx": 185,
+    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 185,
+    "Id": 187,
     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61195,7 +62263,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-    "Sequence": 58,
+    "Sequence": 60,
     "ElementName": "MG_d109_IsActive",
     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
     "ControlType": "CheckBox",
@@ -61215,13 +62283,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-    "__idx": 184,
-    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_185_184",
+    "__idx": 186,
+    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_187_186",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 186,
+    "Id": 188,
     "uielementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61232,7 +62300,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
     "UIElementid": "e1a47e79-086d-31a9-a1cf-2e09664ff96f",
-    "Sequence": 59,
+    "Sequence": 61,
     "ElementName": "MG_d109_OverallEquipmentcost",
     "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
     "ControlType": "NumericTextBox",
@@ -61253,13 +62321,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "b4e74df0-bfc4-1505-dfa7-455c8110910f",
-    "__idx": 185,
-    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_186_185",
+    "__idx": 187,
+    "_id": "e1a47e79-086d-31a9-a1cf-2e09664ff96f_188_187",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 187,
+    "Id": 189,
     "uielementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61274,7 +62342,7 @@ export const DataElementsData = [
     "CurrValue": 10,
     "ElementId": "",
     "UIElementid": "4d48a83f-a1a8-003d-15f2-98b048a64d5d",
-    "Sequence": 60,
+    "Sequence": 62,
     "ElementName": "UI_Panel Body",
     "ParentElementId": "c0daf60a-5656-584e-06b9-95e7070c518e",
     "ControlType": "Panel Body",
@@ -61293,12 +62361,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 186,
-    "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_187_186",
+    "__idx": 188,
+    "_id": "4d48a83f-a1a8-003d-15f2-98b048a64d5d_189_188",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 198,
+        "Id": 200,
         "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
         "ShowCaption": true,
         "Fontbold": false,
@@ -61332,12 +62400,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 197,
-        "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_198_197",
+        "__idx": 199,
+        "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_200_199",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 204,
+            "Id": 206,
             "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
             "ShowCaption": true,
             "Fontbold": false,
@@ -61354,7 +62422,7 @@ export const DataElementsData = [
             "ControlType": "NumericTextBox",
             "Wrap": 4,
             "ClearFix": false,
-            "RenderType": 15,
+            "RenderType": 16,
             "OnDemandLoad": false,
             "ControlId": 2,
             "DisplayName": "MF_EquipmentTotal",
@@ -61368,8 +62436,8 @@ export const DataElementsData = [
             "DCaption": "Equipment Total",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 203,
-            "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_204_203",
+            "__idx": 205,
+            "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_206_205",
             "children": []
           }
         ]
@@ -61378,7 +62446,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 188,
+    "Id": 190,
     "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61389,7 +62457,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "FB1C8B10-F240-4A81-BEFA-83B2EB9608D4",
     "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-    "Sequence": 63,
+    "Sequence": 65,
     "ElementName": "RDDocumentGrid_Sequence",
     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
     "ControlType": "NumericTextBox",
@@ -61410,13 +62478,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-    "__idx": 187,
-    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_188_187",
+    "__idx": 189,
+    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 189,
+    "Id": 191,
     "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61427,7 +62495,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "27819A84-AF88-4AFD-9109-9227D4CA7B13",
     "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-    "Sequence": 64,
+    "Sequence": 66,
     "ElementName": "RDDocumentGrid_RowId",
     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
     "ControlType": "TextBox",
@@ -61449,13 +62517,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-    "__idx": 188,
-    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_189_188",
+    "__idx": 190,
+    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 190,
+    "Id": 192,
     "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61466,7 +62534,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "A634C53C-FDF1-43DC-8BA3-19DBAE083989",
     "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-    "Sequence": 66,
+    "Sequence": 68,
     "ElementName": "MG_d82_DocumentName",
     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
     "ControlType": "TextBox",
@@ -61488,13 +62556,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-    "__idx": 189,
-    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_190_189",
+    "__idx": 191,
+    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 191,
+    "Id": 193,
     "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61505,7 +62573,7 @@ export const DataElementsData = [
     "Depth": 9,
     "ElementId": "D62563E5-2F3A-4B3A-825D-3F111D094FB2",
     "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-    "Sequence": 67,
+    "Sequence": 69,
     "ElementName": "MG_d82_DocumentID",
     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
     "ControlType": "NumericTextBox",
@@ -61532,13 +62600,13 @@ export const DataElementsData = [
       }
     ],
     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-    "__idx": 190,
-    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_191_190",
+    "__idx": 192,
+    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_193_192",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 192,
+    "Id": 194,
     "uielementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61550,7 +62618,7 @@ export const DataElementsData = [
     "Width": 1,
     "ElementId": "A7F87FB1-F3D8-447A-9E05-275E22C2D9FC",
     "UIElementid": "bd438e33-a065-2f26-6222-16182fb3d6e7",
-    "Sequence": 68,
+    "Sequence": 70,
     "ElementName": "Edit_RDDocumentGrid",
     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
     "ControlType": "ActionButton",
@@ -61570,13 +62638,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "6abe9595-d5b1-2f8c-1377-09e7bf721994",
-    "__idx": 191,
-    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_192_191",
+    "__idx": 193,
+    "_id": "bd438e33-a065-2f26-6222-16182fb3d6e7_194_193",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 193,
+    "Id": 195,
     "uielementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61591,7 +62659,7 @@ export const DataElementsData = [
     "CurrValue": 10,
     "ElementId": "",
     "UIElementid": "3637735d-af44-3be3-375c-ef5968cbc3a6",
-    "Sequence": 69,
+    "Sequence": 71,
     "ElementName": "UI_Panel Body",
     "ParentElementId": "4fb8e731-8e77-460f-64bb-d5e398222222",
     "ControlType": "Panel Body",
@@ -61610,12 +62678,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 192,
-    "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_193_192",
+    "__idx": 194,
+    "_id": "3637735d-af44-3be3-375c-ef5968cbc3a6_195_194",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 199,
+        "Id": 201,
         "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
         "ShowCaption": true,
         "Fontbold": false,
@@ -61649,12 +62717,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 198,
-        "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_199_198",
+        "__idx": 200,
+        "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_201_200",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 205,
+            "Id": 207,
             "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
             "ShowCaption": true,
             "Fontbold": false,
@@ -61687,8 +62755,8 @@ export const DataElementsData = [
             "DCaption": "Document Comments",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 204,
-            "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_205_204",
+            "__idx": 206,
+            "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_207_206",
             "children": []
           }
         ]
@@ -61697,7 +62765,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 194,
+    "Id": 196,
     "uielementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61709,7 +62777,7 @@ export const DataElementsData = [
     "Css": "form-select form-select",
     "ElementId": "d20e38b8-b229-09da-343d-5cf38b41907e",
     "UIElementid": "f0889dde-cb68-f109-60c2-13203ed34c2a",
-    "Sequence": 70,
+    "Sequence": 72,
     "ElementName": "M_MoveTo",
     "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
     "ControlType": "ComboBox",
@@ -61729,13 +62797,13 @@ export const DataElementsData = [
     "DCaption": "Next Action",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 193,
-    "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_194_193",
+    "__idx": 195,
+    "_id": "f0889dde-cb68-f109-60c2-13203ed34c2a_196_195",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 195,
+    "Id": 197,
     "uielementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61747,7 +62815,7 @@ export const DataElementsData = [
     "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
     "ElementId": "F726FB8F-7647-42FE-ADF5-EC340FE1F186",
     "UIElementid": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d",
-    "Sequence": 71,
+    "Sequence": 73,
     "ElementName": "SubmitForm",
     "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
     "ControlType": "ActionButton",
@@ -61767,13 +62835,13 @@ export const DataElementsData = [
     "DCaption": "Submit",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 194,
-    "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_195_194",
+    "__idx": 196,
+    "_id": "349fd1ef-9d03-2aaa-bb88-39e2bfbac81d_197_196",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 196,
+    "Id": 198,
     "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61807,12 +62875,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 195,
-    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_196_195",
+    "__idx": 197,
+    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_198_197",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 200,
+        "Id": 202,
         "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
         "ShowCaption": true,
         "Fontbold": false,
@@ -61844,13 +62912,13 @@ export const DataElementsData = [
         "DCaption": "Non Recurring Amount",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 199,
-        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_200_199",
+        "__idx": 201,
+        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 201,
+        "Id": 203,
         "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
         "ShowCaption": true,
         "Fontbold": false,
@@ -61882,13 +62950,13 @@ export const DataElementsData = [
         "DCaption": "Recurring Amount",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 200,
-        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_201_200",
+        "__idx": 202,
+        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_203_202",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 202,
+        "Id": 204,
         "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
         "ShowCaption": true,
         "Fontbold": false,
@@ -61920,15 +62988,15 @@ export const DataElementsData = [
         "DCaption": "Budget Total Amount",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 201,
-        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
+        "__idx": 203,
+        "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_204_203",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 197,
+    "Id": 199,
     "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
     "ShowCaption": true,
     "Fontbold": false,
@@ -61962,12 +63030,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 196,
-    "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_197_196",
+    "__idx": 198,
+    "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_199_198",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 203,
+        "Id": 205,
         "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
         "ShowCaption": true,
         "Fontbold": false,
@@ -61984,7 +63052,7 @@ export const DataElementsData = [
         "ControlType": "NumericTextBox",
         "Wrap": 4,
         "ClearFix": false,
-        "RenderType": 15,
+        "RenderType": 16,
         "OnDemandLoad": false,
         "ControlId": 2,
         "DisplayName": "MF_ManPowerTotal",
@@ -61998,15 +63066,15 @@ export const DataElementsData = [
         "DCaption": "Manpower Total",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 202,
-        "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_203_202",
+        "__idx": 204,
+        "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_205_204",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 198,
+    "Id": 200,
     "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
     "ShowCaption": true,
     "Fontbold": false,
@@ -62040,12 +63108,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 197,
-    "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_198_197",
+    "__idx": 199,
+    "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_200_199",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 204,
+        "Id": 206,
         "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
         "ShowCaption": true,
         "Fontbold": false,
@@ -62062,7 +63130,7 @@ export const DataElementsData = [
         "ControlType": "NumericTextBox",
         "Wrap": 4,
         "ClearFix": false,
-        "RenderType": 15,
+        "RenderType": 16,
         "OnDemandLoad": false,
         "ControlId": 2,
         "DisplayName": "MF_EquipmentTotal",
@@ -62076,15 +63144,15 @@ export const DataElementsData = [
         "DCaption": "Equipment Total",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 203,
-        "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_204_203",
+        "__idx": 205,
+        "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_206_205",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 199,
+    "Id": 201,
     "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
     "ShowCaption": true,
     "Fontbold": false,
@@ -62118,12 +63186,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 198,
-    "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_199_198",
+    "__idx": 200,
+    "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_201_200",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 205,
+        "Id": 207,
         "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
         "ShowCaption": true,
         "Fontbold": false,
@@ -62156,15 +63224,15 @@ export const DataElementsData = [
         "DCaption": "Document Comments",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 204,
-        "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_205_204",
+        "__idx": 206,
+        "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_207_206",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 200,
+    "Id": 202,
     "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
     "ShowCaption": true,
     "Fontbold": false,
@@ -62196,13 +63264,13 @@ export const DataElementsData = [
     "DCaption": "Non Recurring Amount",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 199,
-    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_200_199",
+    "__idx": 201,
+    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 201,
+    "Id": 203,
     "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
     "ShowCaption": true,
     "Fontbold": false,
@@ -62234,13 +63302,13 @@ export const DataElementsData = [
     "DCaption": "Recurring Amount",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 200,
-    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_201_200",
+    "__idx": 202,
+    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_203_202",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 202,
+    "Id": 204,
     "uielementid": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9",
     "ShowCaption": true,
     "Fontbold": false,
@@ -62272,13 +63340,13 @@ export const DataElementsData = [
     "DCaption": "Budget Total Amount",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 201,
-    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_202_201",
+    "__idx": 203,
+    "_id": "250BF548-6130-41E9-B4A2-B6F05DBCEEF9_204_203",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 203,
+    "Id": 205,
     "uielementid": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9",
     "ShowCaption": true,
     "Fontbold": false,
@@ -62295,7 +63363,7 @@ export const DataElementsData = [
     "ControlType": "NumericTextBox",
     "Wrap": 4,
     "ClearFix": false,
-    "RenderType": 15,
+    "RenderType": 16,
     "OnDemandLoad": false,
     "ControlId": 2,
     "DisplayName": "MF_ManPowerTotal",
@@ -62309,13 +63377,13 @@ export const DataElementsData = [
     "DCaption": "Manpower Total",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 202,
-    "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_203_202",
+    "__idx": 204,
+    "_id": "809CFC49-83C2-4ED5-90DE-6C27AD742DC9_205_204",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 204,
+    "Id": 206,
     "uielementid": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef",
     "ShowCaption": true,
     "Fontbold": false,
@@ -62332,7 +63400,7 @@ export const DataElementsData = [
     "ControlType": "NumericTextBox",
     "Wrap": 4,
     "ClearFix": false,
-    "RenderType": 15,
+    "RenderType": 16,
     "OnDemandLoad": false,
     "ControlId": 2,
     "DisplayName": "MF_EquipmentTotal",
@@ -62346,13 +63414,13 @@ export const DataElementsData = [
     "DCaption": "Equipment Total",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 203,
-    "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_204_203",
+    "__idx": 205,
+    "_id": "601d1ea3-ce8e-bd51-1af0-5b120b59cbef_206_205",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 205,
+    "Id": 207,
     "uielementid": "C8470EFB-0F06-4C3B-9B72-44728127A2E1",
     "ShowCaption": true,
     "Fontbold": false,
@@ -62385,8 +63453,8 @@ export const DataElementsData = [
     "DCaption": "Document Comments",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 204,
-    "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_205_204",
+    "__idx": 206,
+    "_id": "C8470EFB-0F06-4C3B-9B72-44728127A2E1_207_206",
     "children": []
   }
 ];
