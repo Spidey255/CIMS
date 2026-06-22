@@ -353,7 +353,7 @@ const ActionButton: React.FC<ActionButtonProps> = ({
       // GRID STATE UPDATE (UNCHANGED)
       // ==============================
       data.Rows
-        .filter((f) => f.Child && f.Child.length)
+        .filter((f) => Array.isArray(f["Child"]))
         .forEach((m) => {
           if (!m.ElementName) return;
 
