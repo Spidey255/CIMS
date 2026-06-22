@@ -220,6 +220,10 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
+			     new Triplet<string, string, string>("5c6a584d-a4e2-b467-f6c2-c66f0c409f6c","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
+			
+						
 			     new Triplet<string, string, string>("f9231ef6-c778-e031-aeb2-2f8be33e4ca2","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -254,6 +258,10 @@ namespace CPS.Proof.DFSExtension
 						
 			     new Triplet<string, string, string>("8D9E2480-7B9A-4810-A517-2F25677BF216","Load Grid By IdRequiredDocuments",
 												     @"A3BB2140-4053-4558-9363-3BA1B526BD0A"),
+			
+						
+			     new Triplet<string, string, string>("5c6a584d-a4e2-b467-f6c2-c66f0c409f6c","Load History Details Based On Form Load",
+												     @"99ae5d17-b4b2-d238-11a3-a33c1b7f516b"),
 			
 			
 			
@@ -1284,6 +1292,107 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
+                                              case "99ae5d17-b4b2-d238-11a3-a33c1b7f516b":
+                    {
+                     
+                            gInsertQuery=@"
+		
+		DECLARE  @TBL_99ae5d17b4b2d23811a3a33c1b7f516b AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [99ae5d17-b4b2-d238-11a3-a33c1b7f516b](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.C_Stepfrom,TDT.C_StepTo,TDT.C_Comments,TDT.C_User,TDT.C_DateofComments FROM @TBL_99ae5d17b4b2d23811a3a33c1b7f516b TDT
+							LEFT JOIN [99ae5d17-b4b2-d238-11a3-a33c1b7f516b] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_99ae5d17b4b2d23811a3a33c1b7f516b TDT
+							JOIN [99ae5d17-b4b2-d238-11a3-a33c1b7f516b] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
+
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments";
+
+                            tempInsertQuery=@"INSERT INTO @TBL_99ae5d17b4b2d23811a3a33c1b7f516b(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)VALUES({0});";
+
+                            splitcols = colList.Split(',');
+
+                            if (splitcols.Length <= 0)
+                                return null;
+
+                            foreach (var gridChild in gridData[gridName].Child)
+                            {                            
+                                                                                         
+
+
+                                foreach (var gcol in splitcols)
+                                {
+                                    if (gcol == "InstanceId")
+                                    {
+                                        colValues += "'" + instanceId + "',";
+
+                                        continue;
+
+                                    }
+
+                                    else if (gcol == "ProcessActivityMapId")
+                                    {
+                                        colValues += "'" + processActivityMapId + "',";
+                                        continue;
+                                    }
+
+                                    else if (gcol == "GridId")
+                                    {
+                                        colValues += "'" + gridId + "',";
+                                        continue;
+                                    }
+                                    else if (gcol == "Sequence")
+                                    {
+                                        colValues += gridChild.SEQ + ",";
+                                        continue;
+                                    }
+                                    else if (gcol == "RowId")
+                                    {
+                                        colValues += "'" + gridChild.RwId + "',";
+                                        continue;
+                                    }
+
+                                    bool isFound = false;
+
+                                    foreach (var gridrow in gridChild.Child)
+                                    {
+
+                                        if (gridrow.ElementName == gcol)
+                                        {
+                                            isFound = true;
+
+                                            if (gridrow.Value == null)
+                                            {
+                                                colValues += "null,";
+                                                break;
+                                            }
+
+                                            switch (Convert.ToInt32(gridrow.EDT))
+                                            {
+                                                case 8:
+                                                case 9:
+                                                    colValues += "'" + gridrow.Value.ToString() + "',";
+                                                    break;
+
+                                                default:
+                                                    colValues += gridrow.Value.ToString() + ",";
+                                                    break;
+                                            }
+                                        }
+                                    }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+
+                                    }
+
+                                }
+                                colValues = colValues.Remove(colValues.Length - 1);
+
+                                bulkInsertQuery = bulkInsertQuery + string.Format(tempInsertQuery, colValues);
+                            }
+                        }
+                        break;
+
                                               case "D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5":
                     {
                      
@@ -1400,107 +1509,6 @@ namespace CPS.Proof.DFSExtension
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d4_UpdatedBy,MG_d4_DocumentId,MG_d4_UpdatedOn,MG_d4_ProjectproposalID,MG_d4_Document,MG_d4_DocumentName,MG_d4_Categorymapid";
 
                             tempInsertQuery=@"INSERT INTO @TBL_A3BB21404053455893633BA1B526BD0A(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d4_UpdatedBy,MG_d4_DocumentId,MG_d4_UpdatedOn,MG_d4_ProjectproposalID,MG_d4_Document,MG_d4_DocumentName,MG_d4_Categorymapid)VALUES({0});";
-
-                            splitcols = colList.Split(',');
-
-                            if (splitcols.Length <= 0)
-                                return null;
-
-                            foreach (var gridChild in gridData[gridName].Child)
-                            {                            
-                                                                                         
-
-
-                                foreach (var gcol in splitcols)
-                                {
-                                    if (gcol == "InstanceId")
-                                    {
-                                        colValues += "'" + instanceId + "',";
-
-                                        continue;
-
-                                    }
-
-                                    else if (gcol == "ProcessActivityMapId")
-                                    {
-                                        colValues += "'" + processActivityMapId + "',";
-                                        continue;
-                                    }
-
-                                    else if (gcol == "GridId")
-                                    {
-                                        colValues += "'" + gridId + "',";
-                                        continue;
-                                    }
-                                    else if (gcol == "Sequence")
-                                    {
-                                        colValues += gridChild.SEQ + ",";
-                                        continue;
-                                    }
-                                    else if (gcol == "RowId")
-                                    {
-                                        colValues += "'" + gridChild.RwId + "',";
-                                        continue;
-                                    }
-
-                                    bool isFound = false;
-
-                                    foreach (var gridrow in gridChild.Child)
-                                    {
-
-                                        if (gridrow.ElementName == gcol)
-                                        {
-                                            isFound = true;
-
-                                            if (gridrow.Value == null)
-                                            {
-                                                colValues += "null,";
-                                                break;
-                                            }
-
-                                            switch (Convert.ToInt32(gridrow.EDT))
-                                            {
-                                                case 8:
-                                                case 9:
-                                                    colValues += "'" + gridrow.Value.ToString() + "',";
-                                                    break;
-
-                                                default:
-                                                    colValues += gridrow.Value.ToString() + ",";
-                                                    break;
-                                            }
-                                        }
-                                    }
-
-                                    if (!isFound)
-                                    {
-                                        colValues += "null,";
-
-                                    }
-
-                                }
-                                colValues = colValues.Remove(colValues.Length - 1);
-
-                                bulkInsertQuery = bulkInsertQuery + string.Format(tempInsertQuery, colValues);
-                            }
-                        }
-                        break;
-
-                                              case "99ae5d17-b4b2-d238-11a3-a33c1b7f516b":
-                    {
-                     
-                            gInsertQuery=@"
-		
-		DECLARE  @TBL_99ae5d17b4b2d23811a3a33c1b7f516b AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [99ae5d17-b4b2-d238-11a3-a33c1b7f516b](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.C_Stepfrom,TDT.C_StepTo,TDT.C_Comments,TDT.C_User,TDT.C_DateofComments FROM @TBL_99ae5d17b4b2d23811a3a33c1b7f516b TDT
-							LEFT JOIN [99ae5d17-b4b2-d238-11a3-a33c1b7f516b] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_99ae5d17b4b2d23811a3a33c1b7f516b TDT
-							JOIN [99ae5d17-b4b2-d238-11a3-a33c1b7f516b] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
-
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments";
-
-                            tempInsertQuery=@"INSERT INTO @TBL_99ae5d17b4b2d23811a3a33c1b7f516b(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)VALUES({0});";
 
                             splitcols = colList.Split(',');
 
@@ -2436,6 +2444,42 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""FA963D46-2D52-4A3E-8
 ISpace[""UI_InvisibleRow""].Visible=""false"";
 }");
 }
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+
+var querySource5c6a584da4e2b467f6c2c66f0c409f6c =GetQueryExpressionDataSource("5c6a584d-a4e2-b467-f6c2-c66f0c409f6c");
+
+DataTable result5c6a584da4e2b467f6c2c66f0c409f6c=iSpace.SetGridDataSource(querySource5c6a584da4e2b467f6c2c66f0c409f6c, _objectFactory.GetGridRPP("MG_Comments"),@"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("MG_Comments","11",querySource5c6a584da4e2b467f6c2c66f0c409f6c,"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("MG_Comments"));
+
+base.WriteDebugInfo(@"var querySource5c6a584da4e2b467f6c2c66f0c409f6c =GetQueryExpressionDataSource(""5c6a584d-a4e2-b467-f6c2-c66f0c409f6c"");DataTable result5c6a584da4e2b467f6c2c66f0c409f6c=iSpace.SetGridDataSource(querySource5c6a584da4e2b467f6c2c66f0c409f6c, _objectFactory.GetGridRPP(""MG_Comments""),@""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_Comments"",""11"",querySource5c6a584da4e2b467f6c2c66f0c409f6c,""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""MG_Comments""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result803558a97e53bd55f2b553d65d8b0305=acdataIspaceF692D0262B48418C9285DBD42DAC5F26.GetQueryExpressionBindings("803558a9-7e53-bd55-f2b5-53d65d8b0305");
+iSpace.SetGridData(result5c6a584da4e2b467f6c2c66f0c409f6c,result803558a97e53bd55f2b553d65d8b0305,"MG_Comments",ref ISpace);
+iSpace.UpdateGridBindDetails("MG_Comments",result803558a97e53bd55f2b553d65d8b0305);
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_m_history (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_History-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
+}
 }
 catch(Exception ex)
 {
@@ -2615,6 +2659,10 @@ public override void ExecuteMethod
 }
 	if(methodName.ToLower().Equals("onclick"))
 {
+		if(elementName.ToLower().Equals("m_history"))
+{
+			SubscribeElementEvents_m_history(ref dfsParam);
+}
 		if(elementName.ToLower().Equals("submitform"))
 {
 			SubscribeElementEvents_submitform(ref dfsParam);
@@ -2660,6 +2708,24 @@ base.WriteDebugInfo(@"ISpace[""MF_d1_FinancialYearID""].Man=true;ISpace[""MF_d1_
 
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+
+var querySource5c6a584da4e2b467f6c2c66f0c409f6c =GetQueryExpressionDataSource("5c6a584d-a4e2-b467-f6c2-c66f0c409f6c");
+
+DataTable result5c6a584da4e2b467f6c2c66f0c409f6c=iSpace.SetGridDataSource(querySource5c6a584da4e2b467f6c2c66f0c409f6c, _objectFactory.GetGridRPP("MG_Comments"),@"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("MG_Comments","11",querySource5c6a584da4e2b467f6c2c66f0c409f6c,"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("MG_Comments"));
+
+base.WriteDebugInfo(@"var querySource5c6a584da4e2b467f6c2c66f0c409f6c =GetQueryExpressionDataSource(""5c6a584d-a4e2-b467-f6c2-c66f0c409f6c"");DataTable result5c6a584da4e2b467f6c2c66f0c409f6c=iSpace.SetGridDataSource(querySource5c6a584da4e2b467f6c2c66f0c409f6c, _objectFactory.GetGridRPP(""MG_Comments""),@""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_Comments"",""11"",querySource5c6a584da4e2b467f6c2c66f0c409f6c,""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""MG_Comments""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result803558a97e53bd55f2b553d65d8b0305=acdataIspace2D400E54E6D143C798243831B9AD8F32.GetQueryExpressionBindings("803558a9-7e53-bd55-f2b5-53d65d8b0305");
+iSpace.SetGridData(result5c6a584da4e2b467f6c2c66f0c409f6c,result803558a97e53bd55f2b553d65d8b0305,"MG_Comments",ref ISpace);
+iSpace.UpdateGridBindDetails("MG_Comments",result803558a97e53bd55f2b553d65d8b0305);
+}
 }
 catch(Exception ex)
 {
@@ -2903,6 +2969,24 @@ else
 base.WriteDebugInfo(@"else");
 ISpace["MFG_d2_ExternalInstituteName"].Visible="true";ISpace["MFG_d2_ExternalEmailId"].Visible="true";ISpace["MFG_d2_ExternalContactNo"].Visible="true";ISpace["MFG_d2_ExternalDesignation"].Visible="true";ISpace["MFG_d2_ExternalFacultyName"].Visible="true";ISpace["MFG_d2_AdditionalName"].Visible="false";ISpace["MFG_d2_Departmentid"].Visible="false";ISpace["MFG_d2_AdditionalType"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""MFG_d2_ExternalInstituteName""].Visible=""true"";ISpace[""MFG_d2_ExternalEmailId""].Visible=""true"";ISpace[""MFG_d2_ExternalContactNo""].Visible=""true"";ISpace[""MFG_d2_ExternalDesignation""].Visible=""true"";ISpace[""MFG_d2_ExternalFacultyName""].Visible=""true"";ISpace[""MFG_d2_AdditionalName""].Visible=""false"";ISpace[""MFG_d2_Departmentid""].Visible=""false"";ISpace[""MFG_d2_AdditionalType""].Visible=""false"";");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_m_history (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_History-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
 }
 }
 catch(Exception ex)
@@ -3417,6 +3501,10 @@ public override void ExecuteMethod
 {
 			SubscribeElementEvents_edit_copidetails(ref dfsParam);
 }
+		if(elementName.ToLower().Equals("m_history"))
+{
+			SubscribeElementEvents_m_history(ref dfsParam);
+}
 		if(elementName.ToLower().Equals("delete_copidetails"))
 {
 			SubscribeElementEvents_delete_copidetails(ref dfsParam);
@@ -3798,6 +3886,22 @@ using System;
 														   -1),
 								}
 			},
+							{"803558a9-7e53-bd55-f2b5-53d65d8b0305", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("C_Comments",5,
+														   -1),
+								   new Triplet<string, short, short?>("C_DateofComments",4,
+														   -1),
+								   new Triplet<string, short, short?>("C_Stepfrom",1,
+														   -1),
+								   new Triplet<string, short, short?>("C_StepTo",2,
+														   -1),
+								   new Triplet<string, short, short?>("C_User",3,
+														   -1),
+								}
+			},
 							{"e94499bc-4a5f-3d1c-af8a-e6389d08f460", 
 				
 				new List<Triplet<string, short, short?>> {
@@ -4017,6 +4121,22 @@ using System;
 								   new Triplet<string, short, short?>("MG_d4_DocumentId",2,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d4_DocumentName",1,
+														   -1),
+								}
+			},
+							{"803558a9-7e53-bd55-f2b5-53d65d8b0305", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("C_Comments",5,
+														   -1),
+								   new Triplet<string, short, short?>("C_DateofComments",4,
+														   -1),
+								   new Triplet<string, short, short?>("C_Stepfrom",1,
+														   -1),
+								   new Triplet<string, short, short?>("C_StepTo",2,
+														   -1),
+								   new Triplet<string, short, short?>("C_User",3,
 														   -1),
 								}
 			},
