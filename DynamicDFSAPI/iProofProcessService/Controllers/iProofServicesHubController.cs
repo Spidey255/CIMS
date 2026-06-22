@@ -589,6 +589,28 @@ namespace CPS.Proof.DFSExtension
 
                      if(refParams["IsCancelled"].Value==false)   
                     {
+                        if(!refParams.ContainsKey("Comments"))
+                        {
+                            ServiceElementData serviceElementData = new ServiceElementData();
+
+                            serviceElementData.ElementName = "Comments";
+
+                            serviceElementData.Value = null;
+
+                            refParams.Add("Comments", serviceElementData);
+                        }
+
+                        if (!refParams.ContainsKey("Subject"))
+                        {
+                            ServiceElementData serviceElementData = new ServiceElementData();
+
+                            serviceElementData.ElementName = "Subject";
+
+                            serviceElementData.Value = null;
+
+                            refParams.Add("Subject", serviceElementData);
+                        }
+
                         status=common.SubmitInstance(token, 
                             context.FormInstanceId, context, ref refParams);
                     }

@@ -609,9 +609,14 @@ namespace CPS.Proof.DFSExtension
                 //Create transaction instance of type TransactionObject
                 pageContext.TransactionObject = transactionBase.CreateTransactionInstance();
 
-                 pageContext.KeyElements = new Dictionary<string, string> {
-                                    { "Subject", refParams["Subject"].Value.ToString() }
-                            };
+                  pageContext.KeyElements = new Dictionary<string, string>
+                    {
+                        { "Subject", refParams["Subject"].Value },
+
+                        { "Comments", refParams["Comments"].Value }
+
+                    };
+
 
                 var InstanceContext = new FormInstanceInfo
                 {
