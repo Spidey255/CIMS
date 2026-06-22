@@ -5766,9 +5766,9 @@ using System;
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("DateOfRemarks",3,
-														   -1),
 								   new Triplet<string, short, short?>("ActivityName",1,
+														   -1),
+								   new Triplet<string, short, short?>("DateOfRemarks",3,
 														   -1),
 								   new Triplet<string, short, short?>("Remarks",4,
 														   -1),
