@@ -1,4 +1,5 @@
 // Innovace Intech Solution Pvt Ltd
+// Innovace Intech Solution Pvt Ltd
 
 import { config } from "../constants/config";
 import type { IDocumentSettings, TDevice, TElementControlProperty } from "../constants/types";
@@ -24,11 +25,71 @@ export const transformArray = (array: Record<string, unknown>[]) => {
   });
 };
 
+// export const getExtensionFromBase64 = (mimePart: string): string | null => {
+//   const mimeType = mimePart.match(/data:(.*?);base64/);
+
+//   if (mimeType && mimeType[1]) {
+//     const mime = mimeType[1] as keyof typeof mimeToExt;
+
+//     const mimeToExt: Record<string, string> = {
+//       // Images
+//       "image/jpeg": "jpg",
+//       "image/png": "png",
+//       "image/gif": "gif",
+//       "image/bmp": "bmp",
+//       "image/webp": "webp",
+//       "image/svg+xml": "svg",
+//       "image/tiff": "tiff",
+//       "image/x-icon": "ico",
+
+//       // Documents
+//       "application/pdf": "pdf",
+//       "text/plain": "txt",
+//       "application/msword": "doc",
+//       "application/vnd.openxmlformats-officedocument.wordprocessingml.document":
+//         "docx",
+//       "application/vnd.ms-excel": "xls",
+//       "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet":
+//         "xlsx",
+//       "application/vnd.ms-powerpoint": "ppt",
+//       "application/vnd.openxmlformats-officedocument.presentationml.presentation":
+//         "pptx",
+//       "application/rtf": "rtf",
+//       "application/vnd.oasis.opendocument.text": "odt",
+//       "application/vnd.oasis.opendocument.spreadsheet": "ods",
+
+//       // Audio
+//       "audio/mpeg": "mp3",
+//       "audio/wav": "wav",
+//       "audio/ogg": "ogg",
+//       "audio/webm": "weba",
+//       "audio/aac": "aac",
+
+//       // Video
+//       "video/mp4": "mp4",
+//       "video/x-msvideo": "avi",
+//       "video/x-matroska": "mkv",
+//       "video/webm": "webm",
+//       "video/quicktime": "mov",
+//     };
+
+//     return mimeToExt[mime] || null;
+//   }
+
+//   return null;
+// };
+
+
 export const getExtensionFromBase64 = (mimePart: string): string | null => {
-  const mimeType = mimePart.match(/data:(.*?);base64/);
+  const mimeType = mimePart.match(/data:(.*?);base64,?/);
 
   if (mimeType && mimeType[1]) {
-    const mime = mimeType[1] as keyof typeof mimeToExt;
+    let mime = mimeType[1];
+
+    // normalize common mismatch
+    if (mime === "image/jpg") {
+      mime = "image/jpeg";
+    }
 
     const mimeToExt: Record<string, string> = {
       // Images
@@ -77,7 +138,6 @@ export const getExtensionFromBase64 = (mimePart: string): string | null => {
 
   return null;
 };
-
 export const downloadFile = (fileName: string, base64: string) => {
   const link = document.createElement("a");
   link.href = base64;
