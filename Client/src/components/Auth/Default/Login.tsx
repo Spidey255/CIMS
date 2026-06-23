@@ -6,7 +6,7 @@ import { useUserStore } from "../../../store/useUserStore";
 import type { IOnActionResponse } from "../../../constants/types";
 import { useNavigate } from "react-router-dom";
 import { config } from "../../../constants/config";
-import { getWorkSpaces, getWorkspaceMenu } from "@/helpers/workspaceHelper";
+import { getWorkSpaces,getWorkspaceMenu } from "@/helpers/workspaceHelper";
 
 const Login: React.FC = () => {
   const [credentials, setCredentials] = useState({
@@ -71,25 +71,25 @@ const Login: React.FC = () => {
 
       sessionStorage.setItem("accessToken", slotToken);
       localStorage.setItem("token", slotToken);
-      localStorage.setItem("displayName", response?.TokenDetail?.displayName || '');
+       localStorage.setItem("displayName", response?.TokenDetail?.displayName || '');
       localStorage.setItem("roleNames", response?.TokenDetail?.roleNames || '');
       setSlotId(slotToken);
 
 
-      const workspaces = await getWorkSpaces(slotToken);
-      if (workspaces.length > 0) {
-        const firstWorkspace = workspaces[0];
+       const workspaces = await getWorkSpaces(slotToken);
+  if (workspaces.length > 0) {
+    const firstWorkspace = workspaces[0];
 
-        const menu = await getWorkspaceMenu(
-          slotToken,
-          firstWorkspace.portalGroupId
-        );
+    const menu = await getWorkspaceMenu(
+      slotToken,
+      firstWorkspace.portalGroupId
+    );
 
-        if (menu?.length && menu[0]?.path) {
-          navigate("/" + menu[0].path);
-        }
-      }
-
+    if (menu?.length && menu[0]?.path) {
+      navigate("/" + menu[0].path);
+    } 
+  } 
+      
     } catch (err) {
       const message =
         typeof err === "object" && err !== null && "message" in err
@@ -103,12 +103,6 @@ const Login: React.FC = () => {
       setIsSubmitting(false);
       setIsAuthenticating(false);
     }
-  };
-
-
-  const handleOktaLogin = () => {
-    window.location.href =
-      "https://digivista-test.vertiv.com/api/Home/login";
   };
 
   return (
@@ -234,8 +228,6 @@ const Login: React.FC = () => {
           >
             {isSubmitting ? "Signing In..." : "Sign In"}
           </button>
-
-
         </form>
 
         {/* Footer */}
@@ -250,25 +242,6 @@ const Login: React.FC = () => {
           </span>
 
         </div>
-
-        <div className="d-flex align-items-center my-3">
-          <hr className="flex-grow-1" />
-          <span className="px-2 text-muted small">OR</span>
-          <hr className="flex-grow-1" />
-        </div>
-
-        <button
-          type="button"
-          onClick={handleOktaLogin}
-          className="btn btn-outline-orange w-100 fw-semibold"
-          style={{
-            height: 44,
-            borderRadius: 8,
-          }}
-        >
-          <i className="ph ph-shield-check me-2"></i>
-          Sign In with Okta
-        </button>
       </div>
     </div>
   );
@@ -276,3 +249,4 @@ const Login: React.FC = () => {
 };
 
 export default Login;
+ 

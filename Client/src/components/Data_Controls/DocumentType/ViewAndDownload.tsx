@@ -1,4 +1,5 @@
 // Innovace Intech Solution Pvt Ltd
+// Innovace Intech Solution Pvt Ltd
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import type { UIElement } from "@/constants/types";
 import { useGeneralStore } from "@/store/useStore";
@@ -44,6 +45,7 @@ const ViewAndDownload: React.FC<{
         if (extension) {
           // setFileType(extension);
           setBase64Data(data[0].value);
+          
         }
 
         // setDocumentData({ documentId: data[1].key, documentNo: data[1].value });
@@ -92,18 +94,18 @@ const ViewAndDownload: React.FC<{
               </span>
               <div className="input-group-btn">
                 <a
-                  className="btn btn-default dropdown-toggle btn-icon"
+                  className="btn btn-default btn-icon"
                   title="Download"
                   onClick={handleDownloadFile}
                 >
-                  <i className="fa fa-download"></i>
+                  <i className="ph ph-download"></i>
                 </a>
                 <a
-                  className="btn btn-default dropdown-toggle btn-icon"
+                  className="btn btn-default btn-icon"
                   title="View"
                   onClick={() => setIsModalOpen(true)}
                 >
-                  <i className="fa fa-eye"></i>
+                  <i className="ph ph-arrow-square-out"></i>
                 </a>
 
                 <div style={{ display: "none" }}>

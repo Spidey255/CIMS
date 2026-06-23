@@ -6,10 +6,7 @@ import GlobalLoader from "@/components/Loader/GlobalLoader";
 import Inbox from "@/components/Inbox/Inbox";
 import SessionTimeoutModal from "@/components/Internal/SessionTimeoutModal";
 
-import LoginPage from "@/components/Auth/Okta/OktawithNormalAuth";
-    import CreateAccount from "@/components/Auth/Okta/CreateAccount";
-    import ForgotPassword from "@/components/Auth/Okta/ForgotPassword";
-    import OktaCallback from "@/components/Auth/Okta/OktaCallback";
+import LoginPage from "@/components/Auth/Default/Login";
 
 
 import MainLayout from "@/layout/SideBar/MainLayout";
@@ -164,9 +161,7 @@ const App: React.FC = () => {
           {/* ? AUTH ROUTES (UNCHANGED) */}
           <Route element={<PublicRoute />}>
             <Route path="/login" element={<LoginPage />} />
-             <Route path="/create-account" element={<CreateAccount />} />
-                <Route path="/forgot-password" element={<ForgotPassword />} />
-                <Route path="/okta-callback" element={<OktaCallback />} />
+            
           </Route>
 
           {/* ?? PUBLIC PAGES WITH DYNAMIC SIDEBAR */}
