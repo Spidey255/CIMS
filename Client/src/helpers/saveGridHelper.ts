@@ -134,7 +134,7 @@ export const saveForm = async ({
 
       const Action = "FormSave";
 
-        const formattedData = Object.entries(state)
+       const formattedData = Object.entries(state)
   .filter(([key]) => !key.includes("+"))
   .map(([key, field]: any) => ({
     ElementName: key,
