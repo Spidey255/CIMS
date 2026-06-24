@@ -68,6 +68,9 @@ const TempAdvance_Registrar = React.lazy(() =>
 const TravelRequest_RDOfficeverification = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_RDOfficeverification")
   );
+const Reimbursement_Start = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/Reimbursement_Start")
+  );
 const TravelSettlement_RDOfficeverification = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/TravelSettlement_RDOfficeverification")
   );
@@ -213,6 +216,7 @@ const App: React.FC = () => {
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequest_PIInitiation" element={<TravelRequest_PIInitiation />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TempAdvance_Registrar" element={<TempAdvance_Registrar />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequest_RDOfficeverification" element={<TravelRequest_RDOfficeverification />} />
+              <Route path="/PRJ20251020000000025-R&DProjects/Reimbursement_Start" element={<Reimbursement_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelSettlement_RDOfficeverification" element={<TravelSettlement_RDOfficeverification />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelSettlement_ARRD" element={<TravelSettlement_ARRD />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_ReadOnly" element={<ProjectProposal_ReadOnly />} />
