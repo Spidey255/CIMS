@@ -134,20 +134,22 @@ export const saveForm = async ({
 
       const Action = "FormSave";
 
-       const formattedData = Object.entries(state)
-        .filter(([key]) => !key.includes("+"))
-        .map(([key, field]: any) => ({
-          ElementName: key,
-          Value:  state[key]?.EDT === 1 && typeof field?.value === "string"
+        const formattedData = Object.entries(state)
+  .filter(([key]) => !key.includes("+"))
+  .map(([key, field]: any) => ({
+    ElementName: key,
+    Value:
+      state[key]?.EDT === 0 && field?.value === ""
+        ? false
+        : state[key]?.EDT === 1 && typeof field?.value === "string"
         ? field?.value.split("#")[0]
         : field?.value,
-          EDT:
-            state[key]?.EDT ??
-            edtMap[key] ??
-            uiElementState[key]?.EDT ??
-            9,
-        }));
-
+    EDT:
+      state[key]?.EDT ??
+      edtMap[key] ??
+      uiElementState[key]?.EDT ??
+      9,
+  }));
 
       const FormData = [
         {
