@@ -34,7 +34,7 @@ export const DataElementsData = [
     "Bindable": false,
     "Action": "FormOnLoad",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"Subject\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_MoveTo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UI_HideRow\",\"Value\":\"\",\"EDT\":-1}]}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UI_InvisibleRow\",\"Value\":\"\",\"EDT\":-1},{\"ElementName\":\"Subject\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_MoveTo\",\"Value\":\"\",\"EDT\":9}]}]",
     "DCaption": "",
     "__idx": 0,
     "_id": "CA9E5587-FC9E-41DB-BE69-C8852CA3DDB8_1_0",
@@ -3311,7 +3311,7 @@ export const DataElementsData = [
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 206,
+                                        "Id": 205,
                                         "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -3345,12 +3345,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 205,
-                                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_206_205",
+                                        "__idx": 204,
+                                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_205_204",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 213,
+                                            "Id": 212,
                                             "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -3382,13 +3382,13 @@ export const DataElementsData = [
                                             "DCaption": "Non Recurring Amount",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 212,
-                                            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
+                                            "__idx": 211,
+                                            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_212_211",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 214,
+                                            "Id": 213,
                                             "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -3420,13 +3420,13 @@ export const DataElementsData = [
                                             "DCaption": "Recurring Amount",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 213,
-                                            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
+                                            "__idx": 212,
+                                            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 215,
+                                            "Id": 214,
                                             "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -3458,8 +3458,8 @@ export const DataElementsData = [
                                             "DCaption": "Budget Total Amount",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 214,
-                                            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_215_214",
+                                            "__idx": 213,
+                                            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
                                             "children": []
                                           }
                                         ]
@@ -3835,7 +3835,7 @@ export const DataElementsData = [
                                     "DCaption": "",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                     "__idx": 170,
                                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_171_170",
                                     "children": []
@@ -3874,7 +3874,7 @@ export const DataElementsData = [
                                     "DCaption": "",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                     "__idx": 171,
                                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_172_171",
                                     "children": []
@@ -3912,7 +3912,7 @@ export const DataElementsData = [
                                     "DCaption": "SerialNo",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                     "__idx": 172,
                                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_173_172",
                                     "children": []
@@ -3933,24 +3933,24 @@ export const DataElementsData = [
                                     "Sequence": 36,
                                     "ElementName": "MG_d154_ManpowerPosition",
                                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
-                                    "ControlType": "NumericTextBox",
+                                    "ControlType": "ComboBox",
                                     "Wrap": 4,
                                     "ClearFix": false,
-                                    "RenderType": 16,
+                                    "RenderType": 12,
                                     "OnDemandLoad": false,
-                                    "ControlId": 2,
+                                    "ControlId": 5,
                                     "DisplayName": "MG_d154_ManpowerPosition",
                                     "Searchable": false,
                                     "Bindable": false,
                                     "HeaderTemplate": "",
                                     "MergeRow": "",
                                     "IsSaveWidget": 0,
-                                    "BindingDetail": "",
-                                    "EDT": 5,
+                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_ManpowerPosition\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                    "EDT": 9,
                                     "DCaption": "Manpower Position",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                     "__idx": 173,
                                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_174_173",
                                     "children": []
@@ -3988,7 +3988,7 @@ export const DataElementsData = [
                                     "DCaption": "No Of Manpower Position",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                     "__idx": 174,
                                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_175_174",
                                     "children": []
@@ -4026,7 +4026,7 @@ export const DataElementsData = [
                                     "DCaption": "Duration",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                     "__idx": 175,
                                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_176_175",
                                     "children": []
@@ -4064,7 +4064,7 @@ export const DataElementsData = [
                                     "DCaption": "Rate Per Month",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                     "__idx": 176,
                                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_177_176",
                                     "children": []
@@ -4102,7 +4102,7 @@ export const DataElementsData = [
                                     "DCaption": "HRA Percentage",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                     "__idx": 177,
                                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_178_177",
                                     "children": []
@@ -4140,7 +4140,7 @@ export const DataElementsData = [
                                     "DCaption": "HRA Per Month",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                     "__idx": 178,
                                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_179_178",
                                     "children": []
@@ -4178,7 +4178,7 @@ export const DataElementsData = [
                                     "DCaption": "Total Per Month",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                     "__idx": 179,
                                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_180_179",
                                     "children": []
@@ -4216,7 +4216,7 @@ export const DataElementsData = [
                                     "DCaption": "Total Months",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                     "__idx": 180,
                                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_181_180",
                                     "children": []
@@ -4254,7 +4254,7 @@ export const DataElementsData = [
                                     "DCaption": "Total Cost",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                     "__idx": 181,
                                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_182_181",
                                     "children": []
@@ -4294,7 +4294,7 @@ export const DataElementsData = [
                                     "DCaption": "Comments",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                     "__idx": 182,
                                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_183_182",
                                     "children": []
@@ -4332,7 +4332,7 @@ export const DataElementsData = [
                                     "DCaption": "Edit",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                     "__idx": 183,
                                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_184_183",
                                     "children": []
@@ -4501,7 +4501,7 @@ export const DataElementsData = [
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 207,
+                                        "Id": 206,
                                         "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -4535,12 +4535,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 206,
-                                        "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_207_206",
+                                        "__idx": 205,
+                                        "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_206_205",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 216,
+                                            "Id": 215,
                                             "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -4571,8 +4571,8 @@ export const DataElementsData = [
                                             "DCaption": "Manpower Total",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 215,
-                                            "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_216_215",
+                                            "__idx": 214,
+                                            "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_215_214",
                                             "children": []
                                           }
                                         ]
@@ -5229,43 +5229,6 @@ export const DataElementsData = [
                                     "FontStrikeout": false,
                                     "FontUnderline": false,
                                     "Depth": 9,
-                                    "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
-                                    "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-                                    "Sequence": 60,
-                                    "ElementName": "MG_d109_IsActive",
-                                    "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
-                                    "ControlType": "CheckBox",
-                                    "Wrap": 4,
-                                    "ClearFix": false,
-                                    "OnDemandLoad": false,
-                                    "ControlId": 3,
-                                    "DisplayName": "MG_d109_IsActive",
-                                    "Searchable": false,
-                                    "Bindable": false,
-                                    "HeaderTemplate": "",
-                                    "MergeRow": "",
-                                    "IsSaveWidget": 0,
-                                    "BindingDetail": "",
-                                    "EDT": 0,
-                                    "DCaption": "Is Active",
-                                    "DHelpText": "",
-                                    "DToolTip": "",
-                                    "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-                                    "__idx": 194,
-                                    "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
-                                    "children": []
-                                  },
-                                  {
-                                    "VersionName": "Medium",
-                                    "Id": 196,
-                                    "uielementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-                                    "ShowCaption": true,
-                                    "Fontbold": false,
-                                    "FontItalic": false,
-                                    "FontOverline": false,
-                                    "FontStrikeout": false,
-                                    "FontUnderline": false,
-                                    "Depth": 9,
                                     "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
                                     "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
                                     "Sequence": 61,
@@ -5289,8 +5252,8 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-                                    "__idx": 195,
-                                    "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_196_195",
+                                    "__idx": 194,
+                                    "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
                                     "children": []
                                   }
                                 ]
@@ -5418,7 +5381,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 197,
+                                    "Id": 196,
                                     "uielementid": "9FD84F23-85AC-4927-8F96-BDA29EDC344C",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -5452,12 +5415,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 196,
-                                    "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_197_196",
+                                    "__idx": 195,
+                                    "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_196_195",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 208,
+                                        "Id": 207,
                                         "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -5491,12 +5454,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 207,
-                                        "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_208_207",
+                                        "__idx": 206,
+                                        "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_207_206",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 217,
+                                            "Id": 216,
                                             "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -5527,8 +5490,8 @@ export const DataElementsData = [
                                             "DCaption": "Equipment Total",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 216,
-                                            "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_217_216",
+                                            "__idx": 215,
+                                            "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_216_215",
                                             "children": []
                                           }
                                         ]
@@ -6542,7 +6505,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 198,
+                                    "Id": 197,
                                     "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -6574,13 +6537,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                                    "__idx": 197,
-                                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
+                                    "__idx": 196,
+                                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_197_196",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 199,
+                                    "Id": 198,
                                     "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -6613,13 +6576,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                                    "__idx": 198,
-                                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
+                                    "__idx": 197,
+                                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 200,
+                                    "Id": 199,
                                     "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -6652,13 +6615,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                                    "__idx": 199,
-                                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
+                                    "__idx": 198,
+                                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 201,
+                                    "Id": 200,
                                     "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -6672,12 +6635,13 @@ export const DataElementsData = [
                                     "Sequence": 69,
                                     "ElementName": "MG_d82_DocumentID",
                                     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
-                                    "ControlType": "NumericTextBox",
+                                    "ControlType": "DocumentType",
                                     "Wrap": 4,
+                                    "DocumentSettings": "[{\"Size\":null,\"AllowedTypes\":null}]",
                                     "ClearFix": false,
                                     "RenderType": 15,
                                     "OnDemandLoad": false,
-                                    "ControlId": 2,
+                                    "ControlId": 8,
                                     "DisplayName": "MG_d82_DocumentID",
                                     "Searchable": false,
                                     "Bindable": false,
@@ -6685,7 +6649,7 @@ export const DataElementsData = [
                                     "MergeRow": "",
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "EDT": 5,
+                                    "EDT": 1,
                                     "DCaption": "Document",
                                     "DHelpText": "",
                                     "DToolTip": "",
@@ -6696,13 +6660,13 @@ export const DataElementsData = [
                                       }
                                     ],
                                     "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                                    "__idx": 200,
-                                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
+                                    "__idx": 199,
+                                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 202,
+                                    "Id": 201,
                                     "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -6734,8 +6698,8 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                                    "__idx": 201,
-                                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_202_201",
+                                    "__idx": 200,
+                                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
                                     "children": []
                                   }
                                 ]
@@ -6863,7 +6827,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 203,
+                                    "Id": 202,
                                     "uielementid": "DB9A59D1-158E-4236-92F6-33592770E11E",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -6897,12 +6861,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 202,
-                                    "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_203_202",
+                                    "__idx": 201,
+                                    "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_202_201",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 209,
+                                        "Id": 208,
                                         "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -6936,12 +6900,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 208,
-                                        "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_209_208",
+                                        "__idx": 207,
+                                        "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_208_207",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 218,
+                                            "Id": 217,
                                             "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -6974,8 +6938,8 @@ export const DataElementsData = [
                                             "DCaption": "Document Comments",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 217,
-                                            "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_218_217",
+                                            "__idx": 216,
+                                            "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_217_216",
                                             "children": []
                                           }
                                         ]
@@ -7107,7 +7071,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 204,
+                                    "Id": 203,
                                     "uielementid": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401",
                                     "ShowCaption": true,
                                     "BorderStyle": 1,
@@ -7142,12 +7106,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 203,
-                                    "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_204_203",
+                                    "__idx": 202,
+                                    "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_203_202",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 210,
+                                        "Id": 209,
                                         "uielementid": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -7180,12 +7144,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 209,
-                                        "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_210_209",
+                                        "__idx": 208,
+                                        "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_209_208",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 219,
+                                            "Id": 218,
                                             "uielementid": "4E6C65B8-0E15-40B8-B074-F2C7041AC461",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -7221,15 +7185,15 @@ export const DataElementsData = [
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
                                             "UCaption": "Next Action",
-                                            "__idx": 218,
-                                            "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_219_218",
+                                            "__idx": 217,
+                                            "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_218_217",
                                             "children": []
                                           }
                                         ]
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 211,
+                                        "Id": 210,
                                         "uielementid": "51715C96-77C0-4AC0-B2A9-641A09D46453",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -7262,15 +7226,15 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 210,
-                                        "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_211_210",
+                                        "__idx": 209,
+                                        "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_210_209",
                                         "children": []
                                       }
                                     ]
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 205,
+                                    "Id": 204,
                                     "uielementid": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -7304,12 +7268,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 204,
-                                    "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_205_204",
+                                    "__idx": 203,
+                                    "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_204_203",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 212,
+                                        "Id": 211,
                                         "uielementid": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -7343,12 +7307,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 211,
-                                        "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_212_211",
+                                        "__idx": 210,
+                                        "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_211_210",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 220,
+                                            "Id": 219,
                                             "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -7382,12 +7346,12 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 219,
-                                            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_220_219",
+                                            "__idx": 218,
+                                            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_219_218",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 222,
+                                                "Id": 221,
                                                 "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -7420,13 +7384,13 @@ export const DataElementsData = [
                                                 "DCaption": "Next Action",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "__idx": 221,
-                                                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
+                                                "__idx": 220,
+                                                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_221_220",
                                                 "children": []
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 223,
+                                                "Id": 222,
                                                 "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -7443,7 +7407,7 @@ export const DataElementsData = [
                                                 "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                                                 "ControlType": "TextBox",
                                                 "Wrap": 12,
-                                                "IsMultiline": false,
+                                                "IsMultiline": true,
                                                 "ClearFix": false,
                                                 "RenderType": 1,
                                                 "OnDemandLoad": false,
@@ -7459,15 +7423,15 @@ export const DataElementsData = [
                                                 "DCaption": "Comments",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "__idx": 222,
-                                                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_223_222",
+                                                "__idx": 221,
+                                                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
                                                 "children": []
                                               }
                                             ]
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 221,
+                                            "Id": 220,
                                             "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -7501,12 +7465,12 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 220,
-                                            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_221_220",
+                                            "__idx": 219,
+                                            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_220_219",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 224,
+                                                "Id": 223,
                                                 "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -7538,13 +7502,13 @@ export const DataElementsData = [
                                                 "DCaption": "Submit",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "__idx": 223,
-                                                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
+                                                "__idx": 222,
+                                                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_223_222",
                                                 "children": []
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 225,
+                                                "Id": 224,
                                                 "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -7576,8 +7540,8 @@ export const DataElementsData = [
                                                 "DCaption": "History",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "__idx": 224,
-                                                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_225_224",
+                                                "__idx": 223,
+                                                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
                                                 "children": []
                                               }
                                             ]
@@ -12373,7 +12337,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 206,
+                                    "Id": 205,
                                     "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -12407,12 +12371,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 205,
-                                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_206_205",
+                                    "__idx": 204,
+                                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_205_204",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 213,
+                                        "Id": 212,
                                         "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -12444,13 +12408,13 @@ export const DataElementsData = [
                                         "DCaption": "Non Recurring Amount",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 212,
-                                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
+                                        "__idx": 211,
+                                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_212_211",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 214,
+                                        "Id": 213,
                                         "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -12482,13 +12446,13 @@ export const DataElementsData = [
                                         "DCaption": "Recurring Amount",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 213,
-                                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
+                                        "__idx": 212,
+                                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 215,
+                                        "Id": 214,
                                         "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -12520,8 +12484,8 @@ export const DataElementsData = [
                                         "DCaption": "Budget Total Amount",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 214,
-                                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_215_214",
+                                        "__idx": 213,
+                                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
                                         "children": []
                                       }
                                     ]
@@ -12897,7 +12861,7 @@ export const DataElementsData = [
                                 "DCaption": "",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                 "__idx": 170,
                                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_171_170",
                                 "children": []
@@ -12936,7 +12900,7 @@ export const DataElementsData = [
                                 "DCaption": "",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                 "__idx": 171,
                                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_172_171",
                                 "children": []
@@ -12974,7 +12938,7 @@ export const DataElementsData = [
                                 "DCaption": "SerialNo",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                 "__idx": 172,
                                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_173_172",
                                 "children": []
@@ -12995,24 +12959,24 @@ export const DataElementsData = [
                                 "Sequence": 36,
                                 "ElementName": "MG_d154_ManpowerPosition",
                                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
-                                "ControlType": "NumericTextBox",
+                                "ControlType": "ComboBox",
                                 "Wrap": 4,
                                 "ClearFix": false,
-                                "RenderType": 16,
+                                "RenderType": 12,
                                 "OnDemandLoad": false,
-                                "ControlId": 2,
+                                "ControlId": 5,
                                 "DisplayName": "MG_d154_ManpowerPosition",
                                 "Searchable": false,
                                 "Bindable": false,
                                 "HeaderTemplate": "",
                                 "MergeRow": "",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "",
-                                "EDT": 5,
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_ManpowerPosition\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                "EDT": 9,
                                 "DCaption": "Manpower Position",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                 "__idx": 173,
                                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_174_173",
                                 "children": []
@@ -13050,7 +13014,7 @@ export const DataElementsData = [
                                 "DCaption": "No Of Manpower Position",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                 "__idx": 174,
                                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_175_174",
                                 "children": []
@@ -13088,7 +13052,7 @@ export const DataElementsData = [
                                 "DCaption": "Duration",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                 "__idx": 175,
                                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_176_175",
                                 "children": []
@@ -13126,7 +13090,7 @@ export const DataElementsData = [
                                 "DCaption": "Rate Per Month",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                 "__idx": 176,
                                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_177_176",
                                 "children": []
@@ -13164,7 +13128,7 @@ export const DataElementsData = [
                                 "DCaption": "HRA Percentage",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                 "__idx": 177,
                                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_178_177",
                                 "children": []
@@ -13202,7 +13166,7 @@ export const DataElementsData = [
                                 "DCaption": "HRA Per Month",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                 "__idx": 178,
                                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_179_178",
                                 "children": []
@@ -13240,7 +13204,7 @@ export const DataElementsData = [
                                 "DCaption": "Total Per Month",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                 "__idx": 179,
                                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_180_179",
                                 "children": []
@@ -13278,7 +13242,7 @@ export const DataElementsData = [
                                 "DCaption": "Total Months",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                 "__idx": 180,
                                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_181_180",
                                 "children": []
@@ -13316,7 +13280,7 @@ export const DataElementsData = [
                                 "DCaption": "Total Cost",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                 "__idx": 181,
                                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_182_181",
                                 "children": []
@@ -13356,7 +13320,7 @@ export const DataElementsData = [
                                 "DCaption": "Comments",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                 "__idx": 182,
                                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_183_182",
                                 "children": []
@@ -13394,7 +13358,7 @@ export const DataElementsData = [
                                 "DCaption": "Edit",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                                 "__idx": 183,
                                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_184_183",
                                 "children": []
@@ -13563,7 +13527,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 207,
+                                    "Id": 206,
                                     "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -13597,12 +13561,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 206,
-                                    "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_207_206",
+                                    "__idx": 205,
+                                    "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_206_205",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 216,
+                                        "Id": 215,
                                         "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -13633,8 +13597,8 @@ export const DataElementsData = [
                                         "DCaption": "Manpower Total",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 215,
-                                        "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_216_215",
+                                        "__idx": 214,
+                                        "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_215_214",
                                         "children": []
                                       }
                                     ]
@@ -14291,43 +14255,6 @@ export const DataElementsData = [
                                 "FontStrikeout": false,
                                 "FontUnderline": false,
                                 "Depth": 9,
-                                "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
-                                "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-                                "Sequence": 60,
-                                "ElementName": "MG_d109_IsActive",
-                                "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
-                                "ControlType": "CheckBox",
-                                "Wrap": 4,
-                                "ClearFix": false,
-                                "OnDemandLoad": false,
-                                "ControlId": 3,
-                                "DisplayName": "MG_d109_IsActive",
-                                "Searchable": false,
-                                "Bindable": false,
-                                "HeaderTemplate": "",
-                                "MergeRow": "",
-                                "IsSaveWidget": 0,
-                                "BindingDetail": "",
-                                "EDT": 0,
-                                "DCaption": "Is Active",
-                                "DHelpText": "",
-                                "DToolTip": "",
-                                "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-                                "__idx": 194,
-                                "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
-                                "children": []
-                              },
-                              {
-                                "VersionName": "Medium",
-                                "Id": 196,
-                                "uielementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-                                "ShowCaption": true,
-                                "Fontbold": false,
-                                "FontItalic": false,
-                                "FontOverline": false,
-                                "FontStrikeout": false,
-                                "FontUnderline": false,
-                                "Depth": 9,
                                 "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
                                 "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
                                 "Sequence": 61,
@@ -14351,8 +14278,8 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-                                "__idx": 195,
-                                "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_196_195",
+                                "__idx": 194,
+                                "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
                                 "children": []
                               }
                             ]
@@ -14480,7 +14407,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 197,
+                                "Id": 196,
                                 "uielementid": "9FD84F23-85AC-4927-8F96-BDA29EDC344C",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -14514,12 +14441,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 196,
-                                "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_197_196",
+                                "__idx": 195,
+                                "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_196_195",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 208,
+                                    "Id": 207,
                                     "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -14553,12 +14480,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 207,
-                                    "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_208_207",
+                                    "__idx": 206,
+                                    "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_207_206",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 217,
+                                        "Id": 216,
                                         "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -14589,8 +14516,8 @@ export const DataElementsData = [
                                         "DCaption": "Equipment Total",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 216,
-                                        "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_217_216",
+                                        "__idx": 215,
+                                        "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_216_215",
                                         "children": []
                                       }
                                     ]
@@ -15604,7 +15531,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 198,
+                                "Id": 197,
                                 "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -15636,13 +15563,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                                "__idx": 197,
-                                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
+                                "__idx": 196,
+                                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_197_196",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 199,
+                                "Id": 198,
                                 "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -15675,13 +15602,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                                "__idx": 198,
-                                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
+                                "__idx": 197,
+                                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 200,
+                                "Id": 199,
                                 "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -15714,13 +15641,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                                "__idx": 199,
-                                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
+                                "__idx": 198,
+                                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 201,
+                                "Id": 200,
                                 "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -15734,12 +15661,13 @@ export const DataElementsData = [
                                 "Sequence": 69,
                                 "ElementName": "MG_d82_DocumentID",
                                 "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
-                                "ControlType": "NumericTextBox",
+                                "ControlType": "DocumentType",
                                 "Wrap": 4,
+                                "DocumentSettings": "[{\"Size\":null,\"AllowedTypes\":null}]",
                                 "ClearFix": false,
                                 "RenderType": 15,
                                 "OnDemandLoad": false,
-                                "ControlId": 2,
+                                "ControlId": 8,
                                 "DisplayName": "MG_d82_DocumentID",
                                 "Searchable": false,
                                 "Bindable": false,
@@ -15747,7 +15675,7 @@ export const DataElementsData = [
                                 "MergeRow": "",
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "EDT": 5,
+                                "EDT": 1,
                                 "DCaption": "Document",
                                 "DHelpText": "",
                                 "DToolTip": "",
@@ -15758,13 +15686,13 @@ export const DataElementsData = [
                                   }
                                 ],
                                 "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                                "__idx": 200,
-                                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
+                                "__idx": 199,
+                                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 202,
+                                "Id": 201,
                                 "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -15796,8 +15724,8 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                                "__idx": 201,
-                                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_202_201",
+                                "__idx": 200,
+                                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
                                 "children": []
                               }
                             ]
@@ -15925,7 +15853,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 203,
+                                "Id": 202,
                                 "uielementid": "DB9A59D1-158E-4236-92F6-33592770E11E",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -15959,12 +15887,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 202,
-                                "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_203_202",
+                                "__idx": 201,
+                                "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_202_201",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 209,
+                                    "Id": 208,
                                     "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -15998,12 +15926,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 208,
-                                    "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_209_208",
+                                    "__idx": 207,
+                                    "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_208_207",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 218,
+                                        "Id": 217,
                                         "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -16036,8 +15964,8 @@ export const DataElementsData = [
                                         "DCaption": "Document Comments",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 217,
-                                        "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_218_217",
+                                        "__idx": 216,
+                                        "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_217_216",
                                         "children": []
                                       }
                                     ]
@@ -16169,7 +16097,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 204,
+                                "Id": 203,
                                 "uielementid": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401",
                                 "ShowCaption": true,
                                 "BorderStyle": 1,
@@ -16204,12 +16132,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 203,
-                                "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_204_203",
+                                "__idx": 202,
+                                "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_203_202",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 210,
+                                    "Id": 209,
                                     "uielementid": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -16242,12 +16170,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 209,
-                                    "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_210_209",
+                                    "__idx": 208,
+                                    "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_209_208",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 219,
+                                        "Id": 218,
                                         "uielementid": "4E6C65B8-0E15-40B8-B074-F2C7041AC461",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -16283,15 +16211,15 @@ export const DataElementsData = [
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
                                         "UCaption": "Next Action",
-                                        "__idx": 218,
-                                        "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_219_218",
+                                        "__idx": 217,
+                                        "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_218_217",
                                         "children": []
                                       }
                                     ]
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 211,
+                                    "Id": 210,
                                     "uielementid": "51715C96-77C0-4AC0-B2A9-641A09D46453",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -16324,15 +16252,15 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 210,
-                                    "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_211_210",
+                                    "__idx": 209,
+                                    "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_210_209",
                                     "children": []
                                   }
                                 ]
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 205,
+                                "Id": 204,
                                 "uielementid": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -16366,12 +16294,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 204,
-                                "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_205_204",
+                                "__idx": 203,
+                                "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_204_203",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 212,
+                                    "Id": 211,
                                     "uielementid": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -16405,12 +16333,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 211,
-                                    "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_212_211",
+                                    "__idx": 210,
+                                    "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_211_210",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 220,
+                                        "Id": 219,
                                         "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -16444,12 +16372,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 219,
-                                        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_220_219",
+                                        "__idx": 218,
+                                        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_219_218",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 222,
+                                            "Id": 221,
                                             "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -16482,13 +16410,13 @@ export const DataElementsData = [
                                             "DCaption": "Next Action",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 221,
-                                            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
+                                            "__idx": 220,
+                                            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_221_220",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 223,
+                                            "Id": 222,
                                             "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -16505,7 +16433,7 @@ export const DataElementsData = [
                                             "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                                             "ControlType": "TextBox",
                                             "Wrap": 12,
-                                            "IsMultiline": false,
+                                            "IsMultiline": true,
                                             "ClearFix": false,
                                             "RenderType": 1,
                                             "OnDemandLoad": false,
@@ -16521,15 +16449,15 @@ export const DataElementsData = [
                                             "DCaption": "Comments",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 222,
-                                            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_223_222",
+                                            "__idx": 221,
+                                            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
                                             "children": []
                                           }
                                         ]
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 221,
+                                        "Id": 220,
                                         "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -16563,12 +16491,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 220,
-                                        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_221_220",
+                                        "__idx": 219,
+                                        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_220_219",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 224,
+                                            "Id": 223,
                                             "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -16600,13 +16528,13 @@ export const DataElementsData = [
                                             "DCaption": "Submit",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 223,
-                                            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
+                                            "__idx": 222,
+                                            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_223_222",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 225,
+                                            "Id": 224,
                                             "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -16638,8 +16566,8 @@ export const DataElementsData = [
                                             "DCaption": "History",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 224,
-                                            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_225_224",
+                                            "__idx": 223,
+                                            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
                                             "children": []
                                           }
                                         ]
@@ -21353,7 +21281,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 206,
+                                "Id": 205,
                                 "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -21387,12 +21315,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 205,
-                                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_206_205",
+                                "__idx": 204,
+                                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_205_204",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 213,
+                                    "Id": 212,
                                     "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -21424,13 +21352,13 @@ export const DataElementsData = [
                                     "DCaption": "Non Recurring Amount",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 212,
-                                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
+                                    "__idx": 211,
+                                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_212_211",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 214,
+                                    "Id": 213,
                                     "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -21462,13 +21390,13 @@ export const DataElementsData = [
                                     "DCaption": "Recurring Amount",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 213,
-                                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
+                                    "__idx": 212,
+                                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 215,
+                                    "Id": 214,
                                     "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -21500,8 +21428,8 @@ export const DataElementsData = [
                                     "DCaption": "Budget Total Amount",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 214,
-                                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_215_214",
+                                    "__idx": 213,
+                                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
                                     "children": []
                                   }
                                 ]
@@ -21877,7 +21805,7 @@ export const DataElementsData = [
                             "DCaption": "",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                             "__idx": 170,
                             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_171_170",
                             "children": []
@@ -21916,7 +21844,7 @@ export const DataElementsData = [
                             "DCaption": "",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                             "__idx": 171,
                             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_172_171",
                             "children": []
@@ -21954,7 +21882,7 @@ export const DataElementsData = [
                             "DCaption": "SerialNo",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                             "__idx": 172,
                             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_173_172",
                             "children": []
@@ -21975,24 +21903,24 @@ export const DataElementsData = [
                             "Sequence": 36,
                             "ElementName": "MG_d154_ManpowerPosition",
                             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
-                            "ControlType": "NumericTextBox",
+                            "ControlType": "ComboBox",
                             "Wrap": 4,
                             "ClearFix": false,
-                            "RenderType": 16,
+                            "RenderType": 12,
                             "OnDemandLoad": false,
-                            "ControlId": 2,
+                            "ControlId": 5,
                             "DisplayName": "MG_d154_ManpowerPosition",
                             "Searchable": false,
                             "Bindable": false,
                             "HeaderTemplate": "",
                             "MergeRow": "",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "",
-                            "EDT": 5,
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_ManpowerPosition\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                            "EDT": 9,
                             "DCaption": "Manpower Position",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                             "__idx": 173,
                             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_174_173",
                             "children": []
@@ -22030,7 +21958,7 @@ export const DataElementsData = [
                             "DCaption": "No Of Manpower Position",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                             "__idx": 174,
                             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_175_174",
                             "children": []
@@ -22068,7 +21996,7 @@ export const DataElementsData = [
                             "DCaption": "Duration",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                             "__idx": 175,
                             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_176_175",
                             "children": []
@@ -22106,7 +22034,7 @@ export const DataElementsData = [
                             "DCaption": "Rate Per Month",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                             "__idx": 176,
                             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_177_176",
                             "children": []
@@ -22144,7 +22072,7 @@ export const DataElementsData = [
                             "DCaption": "HRA Percentage",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                             "__idx": 177,
                             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_178_177",
                             "children": []
@@ -22182,7 +22110,7 @@ export const DataElementsData = [
                             "DCaption": "HRA Per Month",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                             "__idx": 178,
                             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_179_178",
                             "children": []
@@ -22220,7 +22148,7 @@ export const DataElementsData = [
                             "DCaption": "Total Per Month",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                             "__idx": 179,
                             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_180_179",
                             "children": []
@@ -22258,7 +22186,7 @@ export const DataElementsData = [
                             "DCaption": "Total Months",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                             "__idx": 180,
                             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_181_180",
                             "children": []
@@ -22296,7 +22224,7 @@ export const DataElementsData = [
                             "DCaption": "Total Cost",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                             "__idx": 181,
                             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_182_181",
                             "children": []
@@ -22336,7 +22264,7 @@ export const DataElementsData = [
                             "DCaption": "Comments",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                             "__idx": 182,
                             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_183_182",
                             "children": []
@@ -22374,7 +22302,7 @@ export const DataElementsData = [
                             "DCaption": "Edit",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                             "__idx": 183,
                             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_184_183",
                             "children": []
@@ -22543,7 +22471,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 207,
+                                "Id": 206,
                                 "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -22577,12 +22505,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 206,
-                                "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_207_206",
+                                "__idx": 205,
+                                "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_206_205",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 216,
+                                    "Id": 215,
                                     "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -22613,8 +22541,8 @@ export const DataElementsData = [
                                     "DCaption": "Manpower Total",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 215,
-                                    "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_216_215",
+                                    "__idx": 214,
+                                    "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_215_214",
                                     "children": []
                                   }
                                 ]
@@ -23271,43 +23199,6 @@ export const DataElementsData = [
                             "FontStrikeout": false,
                             "FontUnderline": false,
                             "Depth": 9,
-                            "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
-                            "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-                            "Sequence": 60,
-                            "ElementName": "MG_d109_IsActive",
-                            "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
-                            "ControlType": "CheckBox",
-                            "Wrap": 4,
-                            "ClearFix": false,
-                            "OnDemandLoad": false,
-                            "ControlId": 3,
-                            "DisplayName": "MG_d109_IsActive",
-                            "Searchable": false,
-                            "Bindable": false,
-                            "HeaderTemplate": "",
-                            "MergeRow": "",
-                            "IsSaveWidget": 0,
-                            "BindingDetail": "",
-                            "EDT": 0,
-                            "DCaption": "Is Active",
-                            "DHelpText": "",
-                            "DToolTip": "",
-                            "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-                            "__idx": 194,
-                            "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
-                            "children": []
-                          },
-                          {
-                            "VersionName": "Medium",
-                            "Id": 196,
-                            "uielementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-                            "ShowCaption": true,
-                            "Fontbold": false,
-                            "FontItalic": false,
-                            "FontOverline": false,
-                            "FontStrikeout": false,
-                            "FontUnderline": false,
-                            "Depth": 9,
                             "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
                             "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
                             "Sequence": 61,
@@ -23331,8 +23222,8 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-                            "__idx": 195,
-                            "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_196_195",
+                            "__idx": 194,
+                            "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
                             "children": []
                           }
                         ]
@@ -23460,7 +23351,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 197,
+                            "Id": 196,
                             "uielementid": "9FD84F23-85AC-4927-8F96-BDA29EDC344C",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -23494,12 +23385,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 196,
-                            "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_197_196",
+                            "__idx": 195,
+                            "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_196_195",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 208,
+                                "Id": 207,
                                 "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -23533,12 +23424,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 207,
-                                "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_208_207",
+                                "__idx": 206,
+                                "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_207_206",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 217,
+                                    "Id": 216,
                                     "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -23569,8 +23460,8 @@ export const DataElementsData = [
                                     "DCaption": "Equipment Total",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 216,
-                                    "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_217_216",
+                                    "__idx": 215,
+                                    "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_216_215",
                                     "children": []
                                   }
                                 ]
@@ -24584,7 +24475,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 198,
+                            "Id": 197,
                             "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -24616,13 +24507,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                            "__idx": 197,
-                            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
+                            "__idx": 196,
+                            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_197_196",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 199,
+                            "Id": 198,
                             "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -24655,13 +24546,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                            "__idx": 198,
-                            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
+                            "__idx": 197,
+                            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 200,
+                            "Id": 199,
                             "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -24694,13 +24585,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                            "__idx": 199,
-                            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
+                            "__idx": 198,
+                            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 201,
+                            "Id": 200,
                             "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -24714,12 +24605,13 @@ export const DataElementsData = [
                             "Sequence": 69,
                             "ElementName": "MG_d82_DocumentID",
                             "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
-                            "ControlType": "NumericTextBox",
+                            "ControlType": "DocumentType",
                             "Wrap": 4,
+                            "DocumentSettings": "[{\"Size\":null,\"AllowedTypes\":null}]",
                             "ClearFix": false,
                             "RenderType": 15,
                             "OnDemandLoad": false,
-                            "ControlId": 2,
+                            "ControlId": 8,
                             "DisplayName": "MG_d82_DocumentID",
                             "Searchable": false,
                             "Bindable": false,
@@ -24727,7 +24619,7 @@ export const DataElementsData = [
                             "MergeRow": "",
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "EDT": 5,
+                            "EDT": 1,
                             "DCaption": "Document",
                             "DHelpText": "",
                             "DToolTip": "",
@@ -24738,13 +24630,13 @@ export const DataElementsData = [
                               }
                             ],
                             "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                            "__idx": 200,
-                            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
+                            "__idx": 199,
+                            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 202,
+                            "Id": 201,
                             "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -24776,8 +24668,8 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                            "__idx": 201,
-                            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_202_201",
+                            "__idx": 200,
+                            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
                             "children": []
                           }
                         ]
@@ -24905,7 +24797,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 203,
+                            "Id": 202,
                             "uielementid": "DB9A59D1-158E-4236-92F6-33592770E11E",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -24939,12 +24831,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 202,
-                            "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_203_202",
+                            "__idx": 201,
+                            "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_202_201",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 209,
+                                "Id": 208,
                                 "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -24978,12 +24870,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 208,
-                                "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_209_208",
+                                "__idx": 207,
+                                "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_208_207",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 218,
+                                    "Id": 217,
                                     "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -25016,8 +24908,8 @@ export const DataElementsData = [
                                     "DCaption": "Document Comments",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 217,
-                                    "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_218_217",
+                                    "__idx": 216,
+                                    "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_217_216",
                                     "children": []
                                   }
                                 ]
@@ -25149,7 +25041,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 204,
+                            "Id": 203,
                             "uielementid": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401",
                             "ShowCaption": true,
                             "BorderStyle": 1,
@@ -25184,12 +25076,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 203,
-                            "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_204_203",
+                            "__idx": 202,
+                            "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_203_202",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 210,
+                                "Id": 209,
                                 "uielementid": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -25222,12 +25114,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 209,
-                                "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_210_209",
+                                "__idx": 208,
+                                "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_209_208",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 219,
+                                    "Id": 218,
                                     "uielementid": "4E6C65B8-0E15-40B8-B074-F2C7041AC461",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -25263,15 +25155,15 @@ export const DataElementsData = [
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
                                     "UCaption": "Next Action",
-                                    "__idx": 218,
-                                    "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_219_218",
+                                    "__idx": 217,
+                                    "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_218_217",
                                     "children": []
                                   }
                                 ]
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 211,
+                                "Id": 210,
                                 "uielementid": "51715C96-77C0-4AC0-B2A9-641A09D46453",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -25304,15 +25196,15 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 210,
-                                "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_211_210",
+                                "__idx": 209,
+                                "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_210_209",
                                 "children": []
                               }
                             ]
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 205,
+                            "Id": 204,
                             "uielementid": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -25346,12 +25238,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 204,
-                            "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_205_204",
+                            "__idx": 203,
+                            "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_204_203",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 212,
+                                "Id": 211,
                                 "uielementid": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -25385,12 +25277,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 211,
-                                "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_212_211",
+                                "__idx": 210,
+                                "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_211_210",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 220,
+                                    "Id": 219,
                                     "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -25424,12 +25316,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 219,
-                                    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_220_219",
+                                    "__idx": 218,
+                                    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_219_218",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 222,
+                                        "Id": 221,
                                         "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -25462,13 +25354,13 @@ export const DataElementsData = [
                                         "DCaption": "Next Action",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 221,
-                                        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
+                                        "__idx": 220,
+                                        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_221_220",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 223,
+                                        "Id": 222,
                                         "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -25485,7 +25377,7 @@ export const DataElementsData = [
                                         "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                                         "ControlType": "TextBox",
                                         "Wrap": 12,
-                                        "IsMultiline": false,
+                                        "IsMultiline": true,
                                         "ClearFix": false,
                                         "RenderType": 1,
                                         "OnDemandLoad": false,
@@ -25501,15 +25393,15 @@ export const DataElementsData = [
                                         "DCaption": "Comments",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 222,
-                                        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_223_222",
+                                        "__idx": 221,
+                                        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
                                         "children": []
                                       }
                                     ]
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 221,
+                                    "Id": 220,
                                     "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -25543,12 +25435,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 220,
-                                    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_221_220",
+                                    "__idx": 219,
+                                    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_220_219",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 224,
+                                        "Id": 223,
                                         "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -25580,13 +25472,13 @@ export const DataElementsData = [
                                         "DCaption": "Submit",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 223,
-                                        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
+                                        "__idx": 222,
+                                        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_223_222",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 225,
+                                        "Id": 224,
                                         "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -25618,8 +25510,8 @@ export const DataElementsData = [
                                         "DCaption": "History",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 224,
-                                        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_225_224",
+                                        "__idx": 223,
+                                        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
                                         "children": []
                                       }
                                     ]
@@ -30086,7 +29978,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 206,
+                            "Id": 205,
                             "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -30120,12 +30012,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 205,
-                            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_206_205",
+                            "__idx": 204,
+                            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_205_204",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 213,
+                                "Id": 212,
                                 "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -30157,13 +30049,13 @@ export const DataElementsData = [
                                 "DCaption": "Non Recurring Amount",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 212,
-                                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
+                                "__idx": 211,
+                                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_212_211",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 214,
+                                "Id": 213,
                                 "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -30195,13 +30087,13 @@ export const DataElementsData = [
                                 "DCaption": "Recurring Amount",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 213,
-                                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
+                                "__idx": 212,
+                                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 215,
+                                "Id": 214,
                                 "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -30233,8 +30125,8 @@ export const DataElementsData = [
                                 "DCaption": "Budget Total Amount",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 214,
-                                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_215_214",
+                                "__idx": 213,
+                                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
                                 "children": []
                               }
                             ]
@@ -30610,7 +30502,7 @@ export const DataElementsData = [
                         "DCaption": "",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                         "__idx": 170,
                         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_171_170",
                         "children": []
@@ -30649,7 +30541,7 @@ export const DataElementsData = [
                         "DCaption": "",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                         "__idx": 171,
                         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_172_171",
                         "children": []
@@ -30687,7 +30579,7 @@ export const DataElementsData = [
                         "DCaption": "SerialNo",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                         "__idx": 172,
                         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_173_172",
                         "children": []
@@ -30708,24 +30600,24 @@ export const DataElementsData = [
                         "Sequence": 36,
                         "ElementName": "MG_d154_ManpowerPosition",
                         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
-                        "ControlType": "NumericTextBox",
+                        "ControlType": "ComboBox",
                         "Wrap": 4,
                         "ClearFix": false,
-                        "RenderType": 16,
+                        "RenderType": 12,
                         "OnDemandLoad": false,
-                        "ControlId": 2,
+                        "ControlId": 5,
                         "DisplayName": "MG_d154_ManpowerPosition",
                         "Searchable": false,
                         "Bindable": false,
                         "HeaderTemplate": "",
                         "MergeRow": "",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "",
-                        "EDT": 5,
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_ManpowerPosition\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                        "EDT": 9,
                         "DCaption": "Manpower Position",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                         "__idx": 173,
                         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_174_173",
                         "children": []
@@ -30763,7 +30655,7 @@ export const DataElementsData = [
                         "DCaption": "No Of Manpower Position",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                         "__idx": 174,
                         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_175_174",
                         "children": []
@@ -30801,7 +30693,7 @@ export const DataElementsData = [
                         "DCaption": "Duration",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                         "__idx": 175,
                         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_176_175",
                         "children": []
@@ -30839,7 +30731,7 @@ export const DataElementsData = [
                         "DCaption": "Rate Per Month",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                         "__idx": 176,
                         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_177_176",
                         "children": []
@@ -30877,7 +30769,7 @@ export const DataElementsData = [
                         "DCaption": "HRA Percentage",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                         "__idx": 177,
                         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_178_177",
                         "children": []
@@ -30915,7 +30807,7 @@ export const DataElementsData = [
                         "DCaption": "HRA Per Month",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                         "__idx": 178,
                         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_179_178",
                         "children": []
@@ -30953,7 +30845,7 @@ export const DataElementsData = [
                         "DCaption": "Total Per Month",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                         "__idx": 179,
                         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_180_179",
                         "children": []
@@ -30991,7 +30883,7 @@ export const DataElementsData = [
                         "DCaption": "Total Months",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                         "__idx": 180,
                         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_181_180",
                         "children": []
@@ -31029,7 +30921,7 @@ export const DataElementsData = [
                         "DCaption": "Total Cost",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                         "__idx": 181,
                         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_182_181",
                         "children": []
@@ -31069,7 +30961,7 @@ export const DataElementsData = [
                         "DCaption": "Comments",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                         "__idx": 182,
                         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_183_182",
                         "children": []
@@ -31107,7 +30999,7 @@ export const DataElementsData = [
                         "DCaption": "Edit",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                         "__idx": 183,
                         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_184_183",
                         "children": []
@@ -31276,7 +31168,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 207,
+                            "Id": 206,
                             "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -31310,12 +31202,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 206,
-                            "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_207_206",
+                            "__idx": 205,
+                            "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_206_205",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 216,
+                                "Id": 215,
                                 "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -31346,8 +31238,8 @@ export const DataElementsData = [
                                 "DCaption": "Manpower Total",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 215,
-                                "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_216_215",
+                                "__idx": 214,
+                                "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_215_214",
                                 "children": []
                               }
                             ]
@@ -32004,43 +31896,6 @@ export const DataElementsData = [
                         "FontStrikeout": false,
                         "FontUnderline": false,
                         "Depth": 9,
-                        "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
-                        "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-                        "Sequence": 60,
-                        "ElementName": "MG_d109_IsActive",
-                        "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
-                        "ControlType": "CheckBox",
-                        "Wrap": 4,
-                        "ClearFix": false,
-                        "OnDemandLoad": false,
-                        "ControlId": 3,
-                        "DisplayName": "MG_d109_IsActive",
-                        "Searchable": false,
-                        "Bindable": false,
-                        "HeaderTemplate": "",
-                        "MergeRow": "",
-                        "IsSaveWidget": 0,
-                        "BindingDetail": "",
-                        "EDT": 0,
-                        "DCaption": "Is Active",
-                        "DHelpText": "",
-                        "DToolTip": "",
-                        "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-                        "__idx": 194,
-                        "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
-                        "children": []
-                      },
-                      {
-                        "VersionName": "Medium",
-                        "Id": 196,
-                        "uielementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-                        "ShowCaption": true,
-                        "Fontbold": false,
-                        "FontItalic": false,
-                        "FontOverline": false,
-                        "FontStrikeout": false,
-                        "FontUnderline": false,
-                        "Depth": 9,
                         "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
                         "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
                         "Sequence": 61,
@@ -32064,8 +31919,8 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-                        "__idx": 195,
-                        "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_196_195",
+                        "__idx": 194,
+                        "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
                         "children": []
                       }
                     ]
@@ -32193,7 +32048,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 197,
+                        "Id": 196,
                         "uielementid": "9FD84F23-85AC-4927-8F96-BDA29EDC344C",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -32227,12 +32082,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 196,
-                        "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_197_196",
+                        "__idx": 195,
+                        "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_196_195",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 208,
+                            "Id": 207,
                             "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -32266,12 +32121,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 207,
-                            "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_208_207",
+                            "__idx": 206,
+                            "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_207_206",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 217,
+                                "Id": 216,
                                 "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -32302,8 +32157,8 @@ export const DataElementsData = [
                                 "DCaption": "Equipment Total",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 216,
-                                "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_217_216",
+                                "__idx": 215,
+                                "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_216_215",
                                 "children": []
                               }
                             ]
@@ -33317,7 +33172,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 198,
+                        "Id": 197,
                         "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -33349,13 +33204,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                        "__idx": 197,
-                        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
+                        "__idx": 196,
+                        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_197_196",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 199,
+                        "Id": 198,
                         "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -33388,13 +33243,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                        "__idx": 198,
-                        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
+                        "__idx": 197,
+                        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 200,
+                        "Id": 199,
                         "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -33427,13 +33282,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                        "__idx": 199,
-                        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
+                        "__idx": 198,
+                        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 201,
+                        "Id": 200,
                         "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -33447,12 +33302,13 @@ export const DataElementsData = [
                         "Sequence": 69,
                         "ElementName": "MG_d82_DocumentID",
                         "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
-                        "ControlType": "NumericTextBox",
+                        "ControlType": "DocumentType",
                         "Wrap": 4,
+                        "DocumentSettings": "[{\"Size\":null,\"AllowedTypes\":null}]",
                         "ClearFix": false,
                         "RenderType": 15,
                         "OnDemandLoad": false,
-                        "ControlId": 2,
+                        "ControlId": 8,
                         "DisplayName": "MG_d82_DocumentID",
                         "Searchable": false,
                         "Bindable": false,
@@ -33460,7 +33316,7 @@ export const DataElementsData = [
                         "MergeRow": "",
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "EDT": 5,
+                        "EDT": 1,
                         "DCaption": "Document",
                         "DHelpText": "",
                         "DToolTip": "",
@@ -33471,13 +33327,13 @@ export const DataElementsData = [
                           }
                         ],
                         "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                        "__idx": 200,
-                        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
+                        "__idx": 199,
+                        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 202,
+                        "Id": 201,
                         "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -33509,8 +33365,8 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                        "__idx": 201,
-                        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_202_201",
+                        "__idx": 200,
+                        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
                         "children": []
                       }
                     ]
@@ -33638,7 +33494,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 203,
+                        "Id": 202,
                         "uielementid": "DB9A59D1-158E-4236-92F6-33592770E11E",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -33672,12 +33528,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 202,
-                        "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_203_202",
+                        "__idx": 201,
+                        "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_202_201",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 209,
+                            "Id": 208,
                             "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -33711,12 +33567,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 208,
-                            "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_209_208",
+                            "__idx": 207,
+                            "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_208_207",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 218,
+                                "Id": 217,
                                 "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -33749,8 +33605,8 @@ export const DataElementsData = [
                                 "DCaption": "Document Comments",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 217,
-                                "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_218_217",
+                                "__idx": 216,
+                                "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_217_216",
                                 "children": []
                               }
                             ]
@@ -33882,7 +33738,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 204,
+                        "Id": 203,
                         "uielementid": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401",
                         "ShowCaption": true,
                         "BorderStyle": 1,
@@ -33917,12 +33773,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 203,
-                        "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_204_203",
+                        "__idx": 202,
+                        "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_203_202",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 210,
+                            "Id": 209,
                             "uielementid": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -33955,12 +33811,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 209,
-                            "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_210_209",
+                            "__idx": 208,
+                            "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_209_208",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 219,
+                                "Id": 218,
                                 "uielementid": "4E6C65B8-0E15-40B8-B074-F2C7041AC461",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -33996,15 +33852,15 @@ export const DataElementsData = [
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
                                 "UCaption": "Next Action",
-                                "__idx": 218,
-                                "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_219_218",
+                                "__idx": 217,
+                                "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_218_217",
                                 "children": []
                               }
                             ]
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 211,
+                            "Id": 210,
                             "uielementid": "51715C96-77C0-4AC0-B2A9-641A09D46453",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -34037,15 +33893,15 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 210,
-                            "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_211_210",
+                            "__idx": 209,
+                            "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_210_209",
                             "children": []
                           }
                         ]
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 205,
+                        "Id": 204,
                         "uielementid": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -34079,12 +33935,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 204,
-                        "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_205_204",
+                        "__idx": 203,
+                        "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_204_203",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 212,
+                            "Id": 211,
                             "uielementid": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -34118,12 +33974,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 211,
-                            "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_212_211",
+                            "__idx": 210,
+                            "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_211_210",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 220,
+                                "Id": 219,
                                 "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -34157,12 +34013,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 219,
-                                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_220_219",
+                                "__idx": 218,
+                                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_219_218",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 222,
+                                    "Id": 221,
                                     "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -34195,13 +34051,13 @@ export const DataElementsData = [
                                     "DCaption": "Next Action",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 221,
-                                    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
+                                    "__idx": 220,
+                                    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_221_220",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 223,
+                                    "Id": 222,
                                     "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -34218,7 +34074,7 @@ export const DataElementsData = [
                                     "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                                     "ControlType": "TextBox",
                                     "Wrap": 12,
-                                    "IsMultiline": false,
+                                    "IsMultiline": true,
                                     "ClearFix": false,
                                     "RenderType": 1,
                                     "OnDemandLoad": false,
@@ -34234,15 +34090,15 @@ export const DataElementsData = [
                                     "DCaption": "Comments",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 222,
-                                    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_223_222",
+                                    "__idx": 221,
+                                    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
                                     "children": []
                                   }
                                 ]
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 221,
+                                "Id": 220,
                                 "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -34276,12 +34132,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 220,
-                                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_221_220",
+                                "__idx": 219,
+                                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_220_219",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 224,
+                                    "Id": 223,
                                     "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -34313,13 +34169,13 @@ export const DataElementsData = [
                                     "DCaption": "Submit",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 223,
-                                    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
+                                    "__idx": 222,
+                                    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_223_222",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 225,
+                                    "Id": 224,
                                     "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -34351,8 +34207,8 @@ export const DataElementsData = [
                                     "DCaption": "History",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 224,
-                                    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_225_224",
+                                    "__idx": 223,
+                                    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
                                     "children": []
                                   }
                                 ]
@@ -38532,7 +38388,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 206,
+                        "Id": 205,
                         "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -38566,12 +38422,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 205,
-                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_206_205",
+                        "__idx": 204,
+                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_205_204",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 213,
+                            "Id": 212,
                             "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -38603,13 +38459,13 @@ export const DataElementsData = [
                             "DCaption": "Non Recurring Amount",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 212,
-                            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
+                            "__idx": 211,
+                            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_212_211",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 214,
+                            "Id": 213,
                             "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -38641,13 +38497,13 @@ export const DataElementsData = [
                             "DCaption": "Recurring Amount",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 213,
-                            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
+                            "__idx": 212,
+                            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 215,
+                            "Id": 214,
                             "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -38679,8 +38535,8 @@ export const DataElementsData = [
                             "DCaption": "Budget Total Amount",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 214,
-                            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_215_214",
+                            "__idx": 213,
+                            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
                             "children": []
                           }
                         ]
@@ -39056,7 +38912,7 @@ export const DataElementsData = [
                     "DCaption": "",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                     "__idx": 170,
                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_171_170",
                     "children": []
@@ -39095,7 +38951,7 @@ export const DataElementsData = [
                     "DCaption": "",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                     "__idx": 171,
                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_172_171",
                     "children": []
@@ -39133,7 +38989,7 @@ export const DataElementsData = [
                     "DCaption": "SerialNo",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                     "__idx": 172,
                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_173_172",
                     "children": []
@@ -39154,24 +39010,24 @@ export const DataElementsData = [
                     "Sequence": 36,
                     "ElementName": "MG_d154_ManpowerPosition",
                     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
-                    "ControlType": "NumericTextBox",
+                    "ControlType": "ComboBox",
                     "Wrap": 4,
                     "ClearFix": false,
-                    "RenderType": 16,
+                    "RenderType": 12,
                     "OnDemandLoad": false,
-                    "ControlId": 2,
+                    "ControlId": 5,
                     "DisplayName": "MG_d154_ManpowerPosition",
                     "Searchable": false,
                     "Bindable": false,
                     "HeaderTemplate": "",
                     "MergeRow": "",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "",
-                    "EDT": 5,
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_ManpowerPosition\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                    "EDT": 9,
                     "DCaption": "Manpower Position",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                     "__idx": 173,
                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_174_173",
                     "children": []
@@ -39209,7 +39065,7 @@ export const DataElementsData = [
                     "DCaption": "No Of Manpower Position",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                     "__idx": 174,
                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_175_174",
                     "children": []
@@ -39247,7 +39103,7 @@ export const DataElementsData = [
                     "DCaption": "Duration",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                     "__idx": 175,
                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_176_175",
                     "children": []
@@ -39285,7 +39141,7 @@ export const DataElementsData = [
                     "DCaption": "Rate Per Month",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                     "__idx": 176,
                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_177_176",
                     "children": []
@@ -39323,7 +39179,7 @@ export const DataElementsData = [
                     "DCaption": "HRA Percentage",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                     "__idx": 177,
                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_178_177",
                     "children": []
@@ -39361,7 +39217,7 @@ export const DataElementsData = [
                     "DCaption": "HRA Per Month",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                     "__idx": 178,
                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_179_178",
                     "children": []
@@ -39399,7 +39255,7 @@ export const DataElementsData = [
                     "DCaption": "Total Per Month",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                     "__idx": 179,
                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_180_179",
                     "children": []
@@ -39437,7 +39293,7 @@ export const DataElementsData = [
                     "DCaption": "Total Months",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                     "__idx": 180,
                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_181_180",
                     "children": []
@@ -39475,7 +39331,7 @@ export const DataElementsData = [
                     "DCaption": "Total Cost",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                     "__idx": 181,
                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_182_181",
                     "children": []
@@ -39515,7 +39371,7 @@ export const DataElementsData = [
                     "DCaption": "Comments",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                     "__idx": 182,
                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_183_182",
                     "children": []
@@ -39553,7 +39409,7 @@ export const DataElementsData = [
                     "DCaption": "Edit",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                     "__idx": 183,
                     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_184_183",
                     "children": []
@@ -39722,7 +39578,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 207,
+                        "Id": 206,
                         "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -39756,12 +39612,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 206,
-                        "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_207_206",
+                        "__idx": 205,
+                        "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_206_205",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 216,
+                            "Id": 215,
                             "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -39792,8 +39648,8 @@ export const DataElementsData = [
                             "DCaption": "Manpower Total",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 215,
-                            "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_216_215",
+                            "__idx": 214,
+                            "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_215_214",
                             "children": []
                           }
                         ]
@@ -40450,43 +40306,6 @@ export const DataElementsData = [
                     "FontStrikeout": false,
                     "FontUnderline": false,
                     "Depth": 9,
-                    "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
-                    "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-                    "Sequence": 60,
-                    "ElementName": "MG_d109_IsActive",
-                    "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
-                    "ControlType": "CheckBox",
-                    "Wrap": 4,
-                    "ClearFix": false,
-                    "OnDemandLoad": false,
-                    "ControlId": 3,
-                    "DisplayName": "MG_d109_IsActive",
-                    "Searchable": false,
-                    "Bindable": false,
-                    "HeaderTemplate": "",
-                    "MergeRow": "",
-                    "IsSaveWidget": 0,
-                    "BindingDetail": "",
-                    "EDT": 0,
-                    "DCaption": "Is Active",
-                    "DHelpText": "",
-                    "DToolTip": "",
-                    "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-                    "__idx": 194,
-                    "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
-                    "children": []
-                  },
-                  {
-                    "VersionName": "Medium",
-                    "Id": 196,
-                    "uielementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-                    "ShowCaption": true,
-                    "Fontbold": false,
-                    "FontItalic": false,
-                    "FontOverline": false,
-                    "FontStrikeout": false,
-                    "FontUnderline": false,
-                    "Depth": 9,
                     "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
                     "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
                     "Sequence": 61,
@@ -40510,8 +40329,8 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-                    "__idx": 195,
-                    "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_196_195",
+                    "__idx": 194,
+                    "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
                     "children": []
                   }
                 ]
@@ -40639,7 +40458,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 197,
+                    "Id": 196,
                     "uielementid": "9FD84F23-85AC-4927-8F96-BDA29EDC344C",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -40673,12 +40492,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 196,
-                    "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_197_196",
+                    "__idx": 195,
+                    "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_196_195",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 208,
+                        "Id": 207,
                         "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -40712,12 +40531,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 207,
-                        "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_208_207",
+                        "__idx": 206,
+                        "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_207_206",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 217,
+                            "Id": 216,
                             "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -40748,8 +40567,8 @@ export const DataElementsData = [
                             "DCaption": "Equipment Total",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 216,
-                            "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_217_216",
+                            "__idx": 215,
+                            "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_216_215",
                             "children": []
                           }
                         ]
@@ -41763,7 +41582,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 198,
+                    "Id": 197,
                     "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -41795,13 +41614,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                    "__idx": 197,
-                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
+                    "__idx": 196,
+                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_197_196",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 199,
+                    "Id": 198,
                     "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -41834,13 +41653,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                    "__idx": 198,
-                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
+                    "__idx": 197,
+                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 200,
+                    "Id": 199,
                     "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -41873,13 +41692,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                    "__idx": 199,
-                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
+                    "__idx": 198,
+                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 201,
+                    "Id": 200,
                     "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -41893,12 +41712,13 @@ export const DataElementsData = [
                     "Sequence": 69,
                     "ElementName": "MG_d82_DocumentID",
                     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
-                    "ControlType": "NumericTextBox",
+                    "ControlType": "DocumentType",
                     "Wrap": 4,
+                    "DocumentSettings": "[{\"Size\":null,\"AllowedTypes\":null}]",
                     "ClearFix": false,
                     "RenderType": 15,
                     "OnDemandLoad": false,
-                    "ControlId": 2,
+                    "ControlId": 8,
                     "DisplayName": "MG_d82_DocumentID",
                     "Searchable": false,
                     "Bindable": false,
@@ -41906,7 +41726,7 @@ export const DataElementsData = [
                     "MergeRow": "",
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "EDT": 5,
+                    "EDT": 1,
                     "DCaption": "Document",
                     "DHelpText": "",
                     "DToolTip": "",
@@ -41917,13 +41737,13 @@ export const DataElementsData = [
                       }
                     ],
                     "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                    "__idx": 200,
-                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
+                    "__idx": 199,
+                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 202,
+                    "Id": 201,
                     "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -41955,8 +41775,8 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                    "__idx": 201,
-                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_202_201",
+                    "__idx": 200,
+                    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
                     "children": []
                   }
                 ]
@@ -42084,7 +41904,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 203,
+                    "Id": 202,
                     "uielementid": "DB9A59D1-158E-4236-92F6-33592770E11E",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -42118,12 +41938,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 202,
-                    "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_203_202",
+                    "__idx": 201,
+                    "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_202_201",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 209,
+                        "Id": 208,
                         "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -42157,12 +41977,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 208,
-                        "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_209_208",
+                        "__idx": 207,
+                        "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_208_207",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 218,
+                            "Id": 217,
                             "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -42195,8 +42015,8 @@ export const DataElementsData = [
                             "DCaption": "Document Comments",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 217,
-                            "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_218_217",
+                            "__idx": 216,
+                            "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_217_216",
                             "children": []
                           }
                         ]
@@ -42328,7 +42148,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 204,
+                    "Id": 203,
                     "uielementid": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401",
                     "ShowCaption": true,
                     "BorderStyle": 1,
@@ -42363,12 +42183,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 203,
-                    "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_204_203",
+                    "__idx": 202,
+                    "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_203_202",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 210,
+                        "Id": 209,
                         "uielementid": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -42401,12 +42221,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 209,
-                        "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_210_209",
+                        "__idx": 208,
+                        "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_209_208",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 219,
+                            "Id": 218,
                             "uielementid": "4E6C65B8-0E15-40B8-B074-F2C7041AC461",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -42442,15 +42262,15 @@ export const DataElementsData = [
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
                             "UCaption": "Next Action",
-                            "__idx": 218,
-                            "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_219_218",
+                            "__idx": 217,
+                            "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_218_217",
                             "children": []
                           }
                         ]
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 211,
+                        "Id": 210,
                         "uielementid": "51715C96-77C0-4AC0-B2A9-641A09D46453",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -42483,15 +42303,15 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 210,
-                        "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_211_210",
+                        "__idx": 209,
+                        "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_210_209",
                         "children": []
                       }
                     ]
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 205,
+                    "Id": 204,
                     "uielementid": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -42525,12 +42345,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 204,
-                    "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_205_204",
+                    "__idx": 203,
+                    "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_204_203",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 212,
+                        "Id": 211,
                         "uielementid": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -42564,12 +42384,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 211,
-                        "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_212_211",
+                        "__idx": 210,
+                        "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_211_210",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 220,
+                            "Id": 219,
                             "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -42603,12 +42423,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 219,
-                            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_220_219",
+                            "__idx": 218,
+                            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_219_218",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 222,
+                                "Id": 221,
                                 "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -42641,13 +42461,13 @@ export const DataElementsData = [
                                 "DCaption": "Next Action",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 221,
-                                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
+                                "__idx": 220,
+                                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_221_220",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 223,
+                                "Id": 222,
                                 "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -42664,7 +42484,7 @@ export const DataElementsData = [
                                 "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                                 "ControlType": "TextBox",
                                 "Wrap": 12,
-                                "IsMultiline": false,
+                                "IsMultiline": true,
                                 "ClearFix": false,
                                 "RenderType": 1,
                                 "OnDemandLoad": false,
@@ -42680,15 +42500,15 @@ export const DataElementsData = [
                                 "DCaption": "Comments",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 222,
-                                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_223_222",
+                                "__idx": 221,
+                                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
                                 "children": []
                               }
                             ]
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 221,
+                            "Id": 220,
                             "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -42722,12 +42542,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 220,
-                            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_221_220",
+                            "__idx": 219,
+                            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_220_219",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 224,
+                                "Id": 223,
                                 "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -42759,13 +42579,13 @@ export const DataElementsData = [
                                 "DCaption": "Submit",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 223,
-                                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
+                                "__idx": 222,
+                                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_223_222",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 225,
+                                "Id": 224,
                                 "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -42797,8 +42617,8 @@ export const DataElementsData = [
                                 "DCaption": "History",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 224,
-                                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_225_224",
+                                "__idx": 223,
+                                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
                                 "children": []
                               }
                             ]
@@ -46480,7 +46300,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 206,
+                    "Id": 205,
                     "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -46514,12 +46334,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 205,
-                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_206_205",
+                    "__idx": 204,
+                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_205_204",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 213,
+                        "Id": 212,
                         "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -46551,13 +46371,13 @@ export const DataElementsData = [
                         "DCaption": "Non Recurring Amount",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 212,
-                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
+                        "__idx": 211,
+                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_212_211",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 214,
+                        "Id": 213,
                         "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -46589,13 +46409,13 @@ export const DataElementsData = [
                         "DCaption": "Recurring Amount",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 213,
-                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
+                        "__idx": 212,
+                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 215,
+                        "Id": 214,
                         "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -46627,8 +46447,8 @@ export const DataElementsData = [
                         "DCaption": "Budget Total Amount",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 214,
-                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_215_214",
+                        "__idx": 213,
+                        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
                         "children": []
                       }
                     ]
@@ -46963,7 +46783,7 @@ export const DataElementsData = [
                 "DCaption": "",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                 "__idx": 170,
                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_171_170",
                 "children": []
@@ -47002,7 +46822,7 @@ export const DataElementsData = [
                 "DCaption": "",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                 "__idx": 171,
                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_172_171",
                 "children": []
@@ -47040,7 +46860,7 @@ export const DataElementsData = [
                 "DCaption": "SerialNo",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                 "__idx": 172,
                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_173_172",
                 "children": []
@@ -47061,24 +46881,24 @@ export const DataElementsData = [
                 "Sequence": 36,
                 "ElementName": "MG_d154_ManpowerPosition",
                 "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
-                "ControlType": "NumericTextBox",
+                "ControlType": "ComboBox",
                 "Wrap": 4,
                 "ClearFix": false,
-                "RenderType": 16,
+                "RenderType": 12,
                 "OnDemandLoad": false,
-                "ControlId": 2,
+                "ControlId": 5,
                 "DisplayName": "MG_d154_ManpowerPosition",
                 "Searchable": false,
                 "Bindable": false,
                 "HeaderTemplate": "",
                 "MergeRow": "",
                 "IsSaveWidget": 0,
-                "BindingDetail": "",
-                "EDT": 5,
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_ManpowerPosition\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                "EDT": 9,
                 "DCaption": "Manpower Position",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                 "__idx": 173,
                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_174_173",
                 "children": []
@@ -47116,7 +46936,7 @@ export const DataElementsData = [
                 "DCaption": "No Of Manpower Position",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                 "__idx": 174,
                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_175_174",
                 "children": []
@@ -47154,7 +46974,7 @@ export const DataElementsData = [
                 "DCaption": "Duration",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                 "__idx": 175,
                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_176_175",
                 "children": []
@@ -47192,7 +47012,7 @@ export const DataElementsData = [
                 "DCaption": "Rate Per Month",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                 "__idx": 176,
                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_177_176",
                 "children": []
@@ -47230,7 +47050,7 @@ export const DataElementsData = [
                 "DCaption": "HRA Percentage",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                 "__idx": 177,
                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_178_177",
                 "children": []
@@ -47268,7 +47088,7 @@ export const DataElementsData = [
                 "DCaption": "HRA Per Month",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                 "__idx": 178,
                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_179_178",
                 "children": []
@@ -47306,7 +47126,7 @@ export const DataElementsData = [
                 "DCaption": "Total Per Month",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                 "__idx": 179,
                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_180_179",
                 "children": []
@@ -47344,7 +47164,7 @@ export const DataElementsData = [
                 "DCaption": "Total Months",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                 "__idx": 180,
                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_181_180",
                 "children": []
@@ -47382,7 +47202,7 @@ export const DataElementsData = [
                 "DCaption": "Total Cost",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                 "__idx": 181,
                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_182_181",
                 "children": []
@@ -47422,7 +47242,7 @@ export const DataElementsData = [
                 "DCaption": "Comments",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                 "__idx": 182,
                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_183_182",
                 "children": []
@@ -47460,7 +47280,7 @@ export const DataElementsData = [
                 "DCaption": "Edit",
                 "DHelpText": "",
                 "DToolTip": "",
-                "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+                "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
                 "__idx": 183,
                 "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_184_183",
                 "children": []
@@ -47629,7 +47449,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 207,
+                    "Id": 206,
                     "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -47663,12 +47483,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 206,
-                    "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_207_206",
+                    "__idx": 205,
+                    "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_206_205",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 216,
+                        "Id": 215,
                         "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -47699,8 +47519,8 @@ export const DataElementsData = [
                         "DCaption": "Manpower Total",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 215,
-                        "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_216_215",
+                        "__idx": 214,
+                        "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_215_214",
                         "children": []
                       }
                     ]
@@ -48357,43 +48177,6 @@ export const DataElementsData = [
                 "FontStrikeout": false,
                 "FontUnderline": false,
                 "Depth": 9,
-                "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
-                "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-                "Sequence": 60,
-                "ElementName": "MG_d109_IsActive",
-                "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
-                "ControlType": "CheckBox",
-                "Wrap": 4,
-                "ClearFix": false,
-                "OnDemandLoad": false,
-                "ControlId": 3,
-                "DisplayName": "MG_d109_IsActive",
-                "Searchable": false,
-                "Bindable": false,
-                "HeaderTemplate": "",
-                "MergeRow": "",
-                "IsSaveWidget": 0,
-                "BindingDetail": "",
-                "EDT": 0,
-                "DCaption": "Is Active",
-                "DHelpText": "",
-                "DToolTip": "",
-                "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-                "__idx": 194,
-                "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
-                "children": []
-              },
-              {
-                "VersionName": "Medium",
-                "Id": 196,
-                "uielementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-                "ShowCaption": true,
-                "Fontbold": false,
-                "FontItalic": false,
-                "FontOverline": false,
-                "FontStrikeout": false,
-                "FontUnderline": false,
-                "Depth": 9,
                 "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
                 "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
                 "Sequence": 61,
@@ -48417,8 +48200,8 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-                "__idx": 195,
-                "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_196_195",
+                "__idx": 194,
+                "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
                 "children": []
               }
             ]
@@ -48546,7 +48329,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 197,
+                "Id": 196,
                 "uielementid": "9FD84F23-85AC-4927-8F96-BDA29EDC344C",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -48580,12 +48363,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 196,
-                "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_197_196",
+                "__idx": 195,
+                "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_196_195",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 208,
+                    "Id": 207,
                     "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -48619,12 +48402,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 207,
-                    "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_208_207",
+                    "__idx": 206,
+                    "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_207_206",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 217,
+                        "Id": 216,
                         "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -48655,8 +48438,8 @@ export const DataElementsData = [
                         "DCaption": "Equipment Total",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 216,
-                        "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_217_216",
+                        "__idx": 215,
+                        "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_216_215",
                         "children": []
                       }
                     ]
@@ -49588,7 +49371,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 198,
+                "Id": 197,
                 "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -49620,13 +49403,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                "__idx": 197,
-                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
+                "__idx": 196,
+                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_197_196",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 199,
+                "Id": 198,
                 "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -49659,13 +49442,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                "__idx": 198,
-                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
+                "__idx": 197,
+                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 200,
+                "Id": 199,
                 "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -49698,13 +49481,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                "__idx": 199,
-                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
+                "__idx": 198,
+                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 201,
+                "Id": 200,
                 "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -49718,12 +49501,13 @@ export const DataElementsData = [
                 "Sequence": 69,
                 "ElementName": "MG_d82_DocumentID",
                 "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
-                "ControlType": "NumericTextBox",
+                "ControlType": "DocumentType",
                 "Wrap": 4,
+                "DocumentSettings": "[{\"Size\":null,\"AllowedTypes\":null}]",
                 "ClearFix": false,
                 "RenderType": 15,
                 "OnDemandLoad": false,
-                "ControlId": 2,
+                "ControlId": 8,
                 "DisplayName": "MG_d82_DocumentID",
                 "Searchable": false,
                 "Bindable": false,
@@ -49731,7 +49515,7 @@ export const DataElementsData = [
                 "MergeRow": "",
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "EDT": 5,
+                "EDT": 1,
                 "DCaption": "Document",
                 "DHelpText": "",
                 "DToolTip": "",
@@ -49742,13 +49526,13 @@ export const DataElementsData = [
                   }
                 ],
                 "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                "__idx": 200,
-                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
+                "__idx": 199,
+                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 202,
+                "Id": 201,
                 "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -49780,8 +49564,8 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-                "__idx": 201,
-                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_202_201",
+                "__idx": 200,
+                "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
                 "children": []
               }
             ]
@@ -49909,7 +49693,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 203,
+                "Id": 202,
                 "uielementid": "DB9A59D1-158E-4236-92F6-33592770E11E",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -49943,12 +49727,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 202,
-                "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_203_202",
+                "__idx": 201,
+                "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_202_201",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 209,
+                    "Id": 208,
                     "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -49982,12 +49766,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 208,
-                    "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_209_208",
+                    "__idx": 207,
+                    "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_208_207",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 218,
+                        "Id": 217,
                         "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -50020,8 +49804,8 @@ export const DataElementsData = [
                         "DCaption": "Document Comments",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 217,
-                        "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_218_217",
+                        "__idx": 216,
+                        "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_217_216",
                         "children": []
                       }
                     ]
@@ -50153,7 +49937,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 204,
+                "Id": 203,
                 "uielementid": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401",
                 "ShowCaption": true,
                 "BorderStyle": 1,
@@ -50188,12 +49972,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 203,
-                "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_204_203",
+                "__idx": 202,
+                "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_203_202",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 210,
+                    "Id": 209,
                     "uielementid": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -50226,12 +50010,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 209,
-                    "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_210_209",
+                    "__idx": 208,
+                    "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_209_208",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 219,
+                        "Id": 218,
                         "uielementid": "4E6C65B8-0E15-40B8-B074-F2C7041AC461",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -50267,15 +50051,15 @@ export const DataElementsData = [
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
                         "UCaption": "Next Action",
-                        "__idx": 218,
-                        "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_219_218",
+                        "__idx": 217,
+                        "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_218_217",
                         "children": []
                       }
                     ]
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 211,
+                    "Id": 210,
                     "uielementid": "51715C96-77C0-4AC0-B2A9-641A09D46453",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -50308,15 +50092,15 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 210,
-                    "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_211_210",
+                    "__idx": 209,
+                    "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_210_209",
                     "children": []
                   }
                 ]
               },
               {
                 "VersionName": "Medium",
-                "Id": 205,
+                "Id": 204,
                 "uielementid": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -50350,12 +50134,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 204,
-                "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_205_204",
+                "__idx": 203,
+                "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_204_203",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 212,
+                    "Id": 211,
                     "uielementid": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -50389,12 +50173,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 211,
-                    "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_212_211",
+                    "__idx": 210,
+                    "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_211_210",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 220,
+                        "Id": 219,
                         "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -50428,12 +50212,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 219,
-                        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_220_219",
+                        "__idx": 218,
+                        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_219_218",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 222,
+                            "Id": 221,
                             "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -50466,13 +50250,13 @@ export const DataElementsData = [
                             "DCaption": "Next Action",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 221,
-                            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
+                            "__idx": 220,
+                            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_221_220",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 223,
+                            "Id": 222,
                             "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -50489,7 +50273,7 @@ export const DataElementsData = [
                             "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                             "ControlType": "TextBox",
                             "Wrap": 12,
-                            "IsMultiline": false,
+                            "IsMultiline": true,
                             "ClearFix": false,
                             "RenderType": 1,
                             "OnDemandLoad": false,
@@ -50505,15 +50289,15 @@ export const DataElementsData = [
                             "DCaption": "Comments",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 222,
-                            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_223_222",
+                            "__idx": 221,
+                            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
                             "children": []
                           }
                         ]
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 221,
+                        "Id": 220,
                         "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -50547,12 +50331,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 220,
-                        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_221_220",
+                        "__idx": 219,
+                        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_220_219",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 224,
+                            "Id": 223,
                             "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -50584,13 +50368,13 @@ export const DataElementsData = [
                             "DCaption": "Submit",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 223,
-                            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
+                            "__idx": 222,
+                            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_223_222",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 225,
+                            "Id": 224,
                             "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -50622,8 +50406,8 @@ export const DataElementsData = [
                             "DCaption": "History",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 224,
-                            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_225_224",
+                            "__idx": 223,
+                            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
                             "children": []
                           }
                         ]
@@ -53788,7 +53572,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 206,
+                "Id": 205,
                 "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -53822,12 +53606,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 205,
-                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_206_205",
+                "__idx": 204,
+                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_205_204",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 213,
+                    "Id": 212,
                     "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -53859,13 +53643,13 @@ export const DataElementsData = [
                     "DCaption": "Non Recurring Amount",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 212,
-                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
+                    "__idx": 211,
+                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_212_211",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 214,
+                    "Id": 213,
                     "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -53897,13 +53681,13 @@ export const DataElementsData = [
                     "DCaption": "Recurring Amount",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 213,
-                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
+                    "__idx": 212,
+                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 215,
+                    "Id": 214,
                     "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -53935,8 +53719,8 @@ export const DataElementsData = [
                     "DCaption": "Budget Total Amount",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 214,
-                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_215_214",
+                    "__idx": 213,
+                    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
                     "children": []
                   }
                 ]
@@ -54230,7 +54014,7 @@ export const DataElementsData = [
             "DCaption": "",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
             "__idx": 170,
             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_171_170",
             "children": []
@@ -54269,7 +54053,7 @@ export const DataElementsData = [
             "DCaption": "",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
             "__idx": 171,
             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_172_171",
             "children": []
@@ -54307,7 +54091,7 @@ export const DataElementsData = [
             "DCaption": "SerialNo",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
             "__idx": 172,
             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_173_172",
             "children": []
@@ -54328,24 +54112,24 @@ export const DataElementsData = [
             "Sequence": 36,
             "ElementName": "MG_d154_ManpowerPosition",
             "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
-            "ControlType": "NumericTextBox",
+            "ControlType": "ComboBox",
             "Wrap": 4,
             "ClearFix": false,
-            "RenderType": 16,
+            "RenderType": 12,
             "OnDemandLoad": false,
-            "ControlId": 2,
+            "ControlId": 5,
             "DisplayName": "MG_d154_ManpowerPosition",
             "Searchable": false,
             "Bindable": false,
             "HeaderTemplate": "",
             "MergeRow": "",
             "IsSaveWidget": 0,
-            "BindingDetail": "",
-            "EDT": 5,
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_ManpowerPosition\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+            "EDT": 9,
             "DCaption": "Manpower Position",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
             "__idx": 173,
             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_174_173",
             "children": []
@@ -54383,7 +54167,7 @@ export const DataElementsData = [
             "DCaption": "No Of Manpower Position",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
             "__idx": 174,
             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_175_174",
             "children": []
@@ -54421,7 +54205,7 @@ export const DataElementsData = [
             "DCaption": "Duration",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
             "__idx": 175,
             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_176_175",
             "children": []
@@ -54459,7 +54243,7 @@ export const DataElementsData = [
             "DCaption": "Rate Per Month",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
             "__idx": 176,
             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_177_176",
             "children": []
@@ -54497,7 +54281,7 @@ export const DataElementsData = [
             "DCaption": "HRA Percentage",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
             "__idx": 177,
             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_178_177",
             "children": []
@@ -54535,7 +54319,7 @@ export const DataElementsData = [
             "DCaption": "HRA Per Month",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
             "__idx": 178,
             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_179_178",
             "children": []
@@ -54573,7 +54357,7 @@ export const DataElementsData = [
             "DCaption": "Total Per Month",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
             "__idx": 179,
             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_180_179",
             "children": []
@@ -54611,7 +54395,7 @@ export const DataElementsData = [
             "DCaption": "Total Months",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
             "__idx": 180,
             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_181_180",
             "children": []
@@ -54649,7 +54433,7 @@ export const DataElementsData = [
             "DCaption": "Total Cost",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
             "__idx": 181,
             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_182_181",
             "children": []
@@ -54689,7 +54473,7 @@ export const DataElementsData = [
             "DCaption": "Comments",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
             "__idx": 182,
             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_183_182",
             "children": []
@@ -54727,7 +54511,7 @@ export const DataElementsData = [
             "DCaption": "Edit",
             "DHelpText": "",
             "DToolTip": "",
-            "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+            "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
             "__idx": 183,
             "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_184_183",
             "children": []
@@ -54855,7 +54639,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 207,
+                "Id": 206,
                 "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -54889,12 +54673,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 206,
-                "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_207_206",
+                "__idx": 205,
+                "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_206_205",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 216,
+                    "Id": 215,
                     "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -54925,8 +54709,8 @@ export const DataElementsData = [
                     "DCaption": "Manpower Total",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 215,
-                    "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_216_215",
+                    "__idx": 214,
+                    "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_215_214",
                     "children": []
                   }
                 ]
@@ -55542,43 +55326,6 @@ export const DataElementsData = [
             "FontStrikeout": false,
             "FontUnderline": false,
             "Depth": 9,
-            "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
-            "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-            "Sequence": 60,
-            "ElementName": "MG_d109_IsActive",
-            "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
-            "ControlType": "CheckBox",
-            "Wrap": 4,
-            "ClearFix": false,
-            "OnDemandLoad": false,
-            "ControlId": 3,
-            "DisplayName": "MG_d109_IsActive",
-            "Searchable": false,
-            "Bindable": false,
-            "HeaderTemplate": "",
-            "MergeRow": "",
-            "IsSaveWidget": 0,
-            "BindingDetail": "",
-            "EDT": 0,
-            "DCaption": "Is Active",
-            "DHelpText": "",
-            "DToolTip": "",
-            "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-            "__idx": 194,
-            "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
-            "children": []
-          },
-          {
-            "VersionName": "Medium",
-            "Id": 196,
-            "uielementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-            "ShowCaption": true,
-            "Fontbold": false,
-            "FontItalic": false,
-            "FontOverline": false,
-            "FontStrikeout": false,
-            "FontUnderline": false,
-            "Depth": 9,
             "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
             "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
             "Sequence": 61,
@@ -55602,8 +55349,8 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-            "__idx": 195,
-            "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_196_195",
+            "__idx": 194,
+            "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
             "children": []
           }
         ]
@@ -55690,7 +55437,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 197,
+            "Id": 196,
             "uielementid": "9FD84F23-85AC-4927-8F96-BDA29EDC344C",
             "ShowCaption": true,
             "Fontbold": false,
@@ -55724,12 +55471,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 196,
-            "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_197_196",
+            "__idx": 195,
+            "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_196_195",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 208,
+                "Id": 207,
                 "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -55763,12 +55510,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 207,
-                "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_208_207",
+                "__idx": 206,
+                "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_207_206",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 217,
+                    "Id": 216,
                     "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -55799,8 +55546,8 @@ export const DataElementsData = [
                     "DCaption": "Equipment Total",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 216,
-                    "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_217_216",
+                    "__idx": 215,
+                    "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_216_215",
                     "children": []
                   }
                 ]
@@ -56648,7 +56395,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 198,
+            "Id": 197,
             "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
             "ShowCaption": true,
             "Fontbold": false,
@@ -56680,13 +56427,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-            "__idx": 197,
-            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
+            "__idx": 196,
+            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_197_196",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 199,
+            "Id": 198,
             "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
             "ShowCaption": true,
             "Fontbold": false,
@@ -56719,13 +56466,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-            "__idx": 198,
-            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
+            "__idx": 197,
+            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 200,
+            "Id": 199,
             "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
             "ShowCaption": true,
             "Fontbold": false,
@@ -56758,13 +56505,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-            "__idx": 199,
-            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
+            "__idx": 198,
+            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 201,
+            "Id": 200,
             "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
             "ShowCaption": true,
             "Fontbold": false,
@@ -56778,12 +56525,13 @@ export const DataElementsData = [
             "Sequence": 69,
             "ElementName": "MG_d82_DocumentID",
             "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
-            "ControlType": "NumericTextBox",
+            "ControlType": "DocumentType",
             "Wrap": 4,
+            "DocumentSettings": "[{\"Size\":null,\"AllowedTypes\":null}]",
             "ClearFix": false,
             "RenderType": 15,
             "OnDemandLoad": false,
-            "ControlId": 2,
+            "ControlId": 8,
             "DisplayName": "MG_d82_DocumentID",
             "Searchable": false,
             "Bindable": false,
@@ -56791,7 +56539,7 @@ export const DataElementsData = [
             "MergeRow": "",
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "EDT": 5,
+            "EDT": 1,
             "DCaption": "Document",
             "DHelpText": "",
             "DToolTip": "",
@@ -56802,13 +56550,13 @@ export const DataElementsData = [
               }
             ],
             "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-            "__idx": 200,
-            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
+            "__idx": 199,
+            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 202,
+            "Id": 201,
             "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
             "ShowCaption": true,
             "Fontbold": false,
@@ -56840,8 +56588,8 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-            "__idx": 201,
-            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_202_201",
+            "__idx": 200,
+            "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
             "children": []
           }
         ]
@@ -56928,7 +56676,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 203,
+            "Id": 202,
             "uielementid": "DB9A59D1-158E-4236-92F6-33592770E11E",
             "ShowCaption": true,
             "Fontbold": false,
@@ -56962,12 +56710,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 202,
-            "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_203_202",
+            "__idx": 201,
+            "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_202_201",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 209,
+                "Id": 208,
                 "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -57001,12 +56749,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 208,
-                "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_209_208",
+                "__idx": 207,
+                "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_208_207",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 218,
+                    "Id": 217,
                     "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -57039,8 +56787,8 @@ export const DataElementsData = [
                     "DCaption": "Document Comments",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 217,
-                    "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_218_217",
+                    "__idx": 216,
+                    "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_217_216",
                     "children": []
                   }
                 ]
@@ -57131,7 +56879,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 204,
+            "Id": 203,
             "uielementid": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401",
             "ShowCaption": true,
             "BorderStyle": 1,
@@ -57166,12 +56914,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 203,
-            "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_204_203",
+            "__idx": 202,
+            "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_203_202",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 210,
+                "Id": 209,
                 "uielementid": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -57204,12 +56952,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 209,
-                "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_210_209",
+                "__idx": 208,
+                "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_209_208",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 219,
+                    "Id": 218,
                     "uielementid": "4E6C65B8-0E15-40B8-B074-F2C7041AC461",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -57245,15 +56993,15 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "UCaption": "Next Action",
-                    "__idx": 218,
-                    "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_219_218",
+                    "__idx": 217,
+                    "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_218_217",
                     "children": []
                   }
                 ]
               },
               {
                 "VersionName": "Medium",
-                "Id": 211,
+                "Id": 210,
                 "uielementid": "51715C96-77C0-4AC0-B2A9-641A09D46453",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -57286,15 +57034,15 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 210,
-                "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_211_210",
+                "__idx": 209,
+                "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_210_209",
                 "children": []
               }
             ]
           },
           {
             "VersionName": "Medium",
-            "Id": 205,
+            "Id": 204,
             "uielementid": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF",
             "ShowCaption": true,
             "Fontbold": false,
@@ -57328,12 +57076,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 204,
-            "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_205_204",
+            "__idx": 203,
+            "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_204_203",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 212,
+                "Id": 211,
                 "uielementid": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -57367,12 +57115,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 211,
-                "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_212_211",
+                "__idx": 210,
+                "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_211_210",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 220,
+                    "Id": 219,
                     "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -57406,12 +57154,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 219,
-                    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_220_219",
+                    "__idx": 218,
+                    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_219_218",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 222,
+                        "Id": 221,
                         "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -57444,13 +57192,13 @@ export const DataElementsData = [
                         "DCaption": "Next Action",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 221,
-                        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
+                        "__idx": 220,
+                        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_221_220",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 223,
+                        "Id": 222,
                         "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -57467,7 +57215,7 @@ export const DataElementsData = [
                         "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                         "ControlType": "TextBox",
                         "Wrap": 12,
-                        "IsMultiline": false,
+                        "IsMultiline": true,
                         "ClearFix": false,
                         "RenderType": 1,
                         "OnDemandLoad": false,
@@ -57483,15 +57231,15 @@ export const DataElementsData = [
                         "DCaption": "Comments",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 222,
-                        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_223_222",
+                        "__idx": 221,
+                        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
                         "children": []
                       }
                     ]
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 221,
+                    "Id": 220,
                     "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -57525,12 +57273,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 220,
-                    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_221_220",
+                    "__idx": 219,
+                    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_220_219",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 224,
+                        "Id": 223,
                         "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -57562,13 +57310,13 @@ export const DataElementsData = [
                         "DCaption": "Submit",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 223,
-                        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
+                        "__idx": 222,
+                        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_223_222",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 225,
+                        "Id": 224,
                         "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -57600,8 +57348,8 @@ export const DataElementsData = [
                         "DCaption": "History",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 224,
-                        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_225_224",
+                        "__idx": 223,
+                        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
                         "children": []
                       }
                     ]
@@ -60355,7 +60103,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 206,
+            "Id": 205,
             "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
             "ShowCaption": true,
             "Fontbold": false,
@@ -60389,12 +60137,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 205,
-            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_206_205",
+            "__idx": 204,
+            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_205_204",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 213,
+                "Id": 212,
                 "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -60426,13 +60174,13 @@ export const DataElementsData = [
                 "DCaption": "Non Recurring Amount",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 212,
-                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
+                "__idx": 211,
+                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_212_211",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 214,
+                "Id": 213,
                 "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -60464,13 +60212,13 @@ export const DataElementsData = [
                 "DCaption": "Recurring Amount",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 213,
-                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
+                "__idx": 212,
+                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 215,
+                "Id": 214,
                 "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -60502,8 +60250,8 @@ export const DataElementsData = [
                 "DCaption": "Budget Total Amount",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 214,
-                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_215_214",
+                "__idx": 213,
+                "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
                 "children": []
               }
             ]
@@ -60754,7 +60502,7 @@ export const DataElementsData = [
         "DCaption": "",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
         "__idx": 170,
         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_171_170",
         "children": []
@@ -60793,7 +60541,7 @@ export const DataElementsData = [
         "DCaption": "",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
         "__idx": 171,
         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_172_171",
         "children": []
@@ -60831,7 +60579,7 @@ export const DataElementsData = [
         "DCaption": "SerialNo",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
         "__idx": 172,
         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_173_172",
         "children": []
@@ -60852,24 +60600,24 @@ export const DataElementsData = [
         "Sequence": 36,
         "ElementName": "MG_d154_ManpowerPosition",
         "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
-        "ControlType": "NumericTextBox",
+        "ControlType": "ComboBox",
         "Wrap": 4,
         "ClearFix": false,
-        "RenderType": 16,
+        "RenderType": 12,
         "OnDemandLoad": false,
-        "ControlId": 2,
+        "ControlId": 5,
         "DisplayName": "MG_d154_ManpowerPosition",
         "Searchable": false,
         "Bindable": false,
         "HeaderTemplate": "",
         "MergeRow": "",
         "IsSaveWidget": 0,
-        "BindingDetail": "",
-        "EDT": 5,
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_ManpowerPosition\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+        "EDT": 9,
         "DCaption": "Manpower Position",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
         "__idx": 173,
         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_174_173",
         "children": []
@@ -60907,7 +60655,7 @@ export const DataElementsData = [
         "DCaption": "No Of Manpower Position",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
         "__idx": 174,
         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_175_174",
         "children": []
@@ -60945,7 +60693,7 @@ export const DataElementsData = [
         "DCaption": "Duration",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
         "__idx": 175,
         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_176_175",
         "children": []
@@ -60983,7 +60731,7 @@ export const DataElementsData = [
         "DCaption": "Rate Per Month",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
         "__idx": 176,
         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_177_176",
         "children": []
@@ -61021,7 +60769,7 @@ export const DataElementsData = [
         "DCaption": "HRA Percentage",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
         "__idx": 177,
         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_178_177",
         "children": []
@@ -61059,7 +60807,7 @@ export const DataElementsData = [
         "DCaption": "HRA Per Month",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
         "__idx": 178,
         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_179_178",
         "children": []
@@ -61097,7 +60845,7 @@ export const DataElementsData = [
         "DCaption": "Total Per Month",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
         "__idx": 179,
         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_180_179",
         "children": []
@@ -61135,7 +60883,7 @@ export const DataElementsData = [
         "DCaption": "Total Months",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
         "__idx": 180,
         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_181_180",
         "children": []
@@ -61173,7 +60921,7 @@ export const DataElementsData = [
         "DCaption": "Total Cost",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
         "__idx": 181,
         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_182_181",
         "children": []
@@ -61213,7 +60961,7 @@ export const DataElementsData = [
         "DCaption": "Comments",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
         "__idx": 182,
         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_183_182",
         "children": []
@@ -61251,7 +60999,7 @@ export const DataElementsData = [
         "DCaption": "Edit",
         "DHelpText": "",
         "DToolTip": "",
-        "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+        "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
         "__idx": 183,
         "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_184_183",
         "children": []
@@ -61338,7 +61086,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 207,
+            "Id": 206,
             "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
             "ShowCaption": true,
             "Fontbold": false,
@@ -61372,12 +61120,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 206,
-            "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_207_206",
+            "__idx": 205,
+            "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_206_205",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 216,
+                "Id": 215,
                 "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -61408,8 +61156,8 @@ export const DataElementsData = [
                 "DCaption": "Manpower Total",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 215,
-                "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_216_215",
+                "__idx": 214,
+                "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_215_214",
                 "children": []
               }
             ]
@@ -61982,43 +61730,6 @@ export const DataElementsData = [
         "FontStrikeout": false,
         "FontUnderline": false,
         "Depth": 9,
-        "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
-        "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-        "Sequence": 60,
-        "ElementName": "MG_d109_IsActive",
-        "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
-        "ControlType": "CheckBox",
-        "Wrap": 4,
-        "ClearFix": false,
-        "OnDemandLoad": false,
-        "ControlId": 3,
-        "DisplayName": "MG_d109_IsActive",
-        "Searchable": false,
-        "Bindable": false,
-        "HeaderTemplate": "",
-        "MergeRow": "",
-        "IsSaveWidget": 0,
-        "BindingDetail": "",
-        "EDT": 0,
-        "DCaption": "Is Active",
-        "DHelpText": "",
-        "DToolTip": "",
-        "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-        "__idx": 194,
-        "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
-        "children": []
-      },
-      {
-        "VersionName": "Medium",
-        "Id": 196,
-        "uielementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-        "ShowCaption": true,
-        "Fontbold": false,
-        "FontItalic": false,
-        "FontOverline": false,
-        "FontStrikeout": false,
-        "FontUnderline": false,
-        "Depth": 9,
         "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
         "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
         "Sequence": 61,
@@ -62042,8 +61753,8 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-        "__idx": 195,
-        "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_196_195",
+        "__idx": 194,
+        "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
         "children": []
       }
     ]
@@ -62089,7 +61800,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 197,
+        "Id": 196,
         "uielementid": "9FD84F23-85AC-4927-8F96-BDA29EDC344C",
         "ShowCaption": true,
         "Fontbold": false,
@@ -62123,12 +61834,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 196,
-        "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_197_196",
+        "__idx": 195,
+        "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_196_195",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 208,
+            "Id": 207,
             "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
             "ShowCaption": true,
             "Fontbold": false,
@@ -62162,12 +61873,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 207,
-            "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_208_207",
+            "__idx": 206,
+            "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_207_206",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 217,
+                "Id": 216,
                 "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -62198,8 +61909,8 @@ export const DataElementsData = [
                 "DCaption": "Equipment Total",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 216,
-                "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_217_216",
+                "__idx": 215,
+                "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_216_215",
                 "children": []
               }
             ]
@@ -62803,7 +62514,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 198,
+        "Id": 197,
         "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
         "ShowCaption": true,
         "Fontbold": false,
@@ -62835,13 +62546,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-        "__idx": 197,
-        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
+        "__idx": 196,
+        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_197_196",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 199,
+        "Id": 198,
         "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
         "ShowCaption": true,
         "Fontbold": false,
@@ -62874,13 +62585,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-        "__idx": 198,
-        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
+        "__idx": 197,
+        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 200,
+        "Id": 199,
         "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
         "ShowCaption": true,
         "Fontbold": false,
@@ -62913,13 +62624,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-        "__idx": 199,
-        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
+        "__idx": 198,
+        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 201,
+        "Id": 200,
         "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
         "ShowCaption": true,
         "Fontbold": false,
@@ -62933,12 +62644,13 @@ export const DataElementsData = [
         "Sequence": 69,
         "ElementName": "MG_d82_DocumentID",
         "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
-        "ControlType": "NumericTextBox",
+        "ControlType": "DocumentType",
         "Wrap": 4,
+        "DocumentSettings": "[{\"Size\":null,\"AllowedTypes\":null}]",
         "ClearFix": false,
         "RenderType": 15,
         "OnDemandLoad": false,
-        "ControlId": 2,
+        "ControlId": 8,
         "DisplayName": "MG_d82_DocumentID",
         "Searchable": false,
         "Bindable": false,
@@ -62946,7 +62658,7 @@ export const DataElementsData = [
         "MergeRow": "",
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "EDT": 5,
+        "EDT": 1,
         "DCaption": "Document",
         "DHelpText": "",
         "DToolTip": "",
@@ -62957,13 +62669,13 @@ export const DataElementsData = [
           }
         ],
         "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-        "__idx": 200,
-        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
+        "__idx": 199,
+        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 202,
+        "Id": 201,
         "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
         "ShowCaption": true,
         "Fontbold": false,
@@ -62995,8 +62707,8 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-        "__idx": 201,
-        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_202_201",
+        "__idx": 200,
+        "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
         "children": []
       }
     ]
@@ -63042,7 +62754,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 203,
+        "Id": 202,
         "uielementid": "DB9A59D1-158E-4236-92F6-33592770E11E",
         "ShowCaption": true,
         "Fontbold": false,
@@ -63076,12 +62788,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 202,
-        "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_203_202",
+        "__idx": 201,
+        "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_202_201",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 209,
+            "Id": 208,
             "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
             "ShowCaption": true,
             "Fontbold": false,
@@ -63115,12 +62827,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 208,
-            "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_209_208",
+            "__idx": 207,
+            "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_208_207",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 218,
+                "Id": 217,
                 "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -63153,8 +62865,8 @@ export const DataElementsData = [
                 "DCaption": "Document Comments",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 217,
-                "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_218_217",
+                "__idx": 216,
+                "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_217_216",
                 "children": []
               }
             ]
@@ -63204,7 +62916,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 204,
+        "Id": 203,
         "uielementid": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401",
         "ShowCaption": true,
         "BorderStyle": 1,
@@ -63239,12 +62951,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 203,
-        "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_204_203",
+        "__idx": 202,
+        "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_203_202",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 210,
+            "Id": 209,
             "uielementid": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB",
             "ShowCaption": true,
             "Fontbold": false,
@@ -63277,12 +62989,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 209,
-            "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_210_209",
+            "__idx": 208,
+            "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_209_208",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 219,
+                "Id": 218,
                 "uielementid": "4E6C65B8-0E15-40B8-B074-F2C7041AC461",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -63318,15 +63030,15 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "UCaption": "Next Action",
-                "__idx": 218,
-                "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_219_218",
+                "__idx": 217,
+                "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_218_217",
                 "children": []
               }
             ]
           },
           {
             "VersionName": "Medium",
-            "Id": 211,
+            "Id": 210,
             "uielementid": "51715C96-77C0-4AC0-B2A9-641A09D46453",
             "ShowCaption": true,
             "Fontbold": false,
@@ -63359,15 +63071,15 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 210,
-            "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_211_210",
+            "__idx": 209,
+            "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_210_209",
             "children": []
           }
         ]
       },
       {
         "VersionName": "Medium",
-        "Id": 205,
+        "Id": 204,
         "uielementid": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF",
         "ShowCaption": true,
         "Fontbold": false,
@@ -63401,12 +63113,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 204,
-        "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_205_204",
+        "__idx": 203,
+        "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_204_203",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 212,
+            "Id": 211,
             "uielementid": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -63440,12 +63152,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 211,
-            "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_212_211",
+            "__idx": 210,
+            "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_211_210",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 220,
+                "Id": 219,
                 "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -63479,12 +63191,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 219,
-                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_220_219",
+                "__idx": 218,
+                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_219_218",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 222,
+                    "Id": 221,
                     "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -63517,13 +63229,13 @@ export const DataElementsData = [
                     "DCaption": "Next Action",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 221,
-                    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
+                    "__idx": 220,
+                    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_221_220",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 223,
+                    "Id": 222,
                     "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -63540,7 +63252,7 @@ export const DataElementsData = [
                     "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                     "ControlType": "TextBox",
                     "Wrap": 12,
-                    "IsMultiline": false,
+                    "IsMultiline": true,
                     "ClearFix": false,
                     "RenderType": 1,
                     "OnDemandLoad": false,
@@ -63556,15 +63268,15 @@ export const DataElementsData = [
                     "DCaption": "Comments",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 222,
-                    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_223_222",
+                    "__idx": 221,
+                    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
                     "children": []
                   }
                 ]
               },
               {
                 "VersionName": "Medium",
-                "Id": 221,
+                "Id": 220,
                 "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -63598,12 +63310,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 220,
-                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_221_220",
+                "__idx": 219,
+                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_220_219",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 224,
+                    "Id": 223,
                     "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -63635,13 +63347,13 @@ export const DataElementsData = [
                     "DCaption": "Submit",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 223,
-                    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
+                    "__idx": 222,
+                    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_223_222",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 225,
+                    "Id": 224,
                     "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -63673,8 +63385,8 @@ export const DataElementsData = [
                     "DCaption": "History",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 224,
-                    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_225_224",
+                    "__idx": 223,
+                    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
                     "children": []
                   }
                 ]
@@ -65243,7 +64955,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 206,
+        "Id": 205,
         "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
         "ShowCaption": true,
         "Fontbold": false,
@@ -65277,12 +64989,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 205,
-        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_206_205",
+        "__idx": 204,
+        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_205_204",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 213,
+            "Id": 212,
             "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
             "ShowCaption": true,
             "Fontbold": false,
@@ -65314,13 +65026,13 @@ export const DataElementsData = [
             "DCaption": "Non Recurring Amount",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 212,
-            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
+            "__idx": 211,
+            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_212_211",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 214,
+            "Id": 213,
             "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
             "ShowCaption": true,
             "Fontbold": false,
@@ -65352,13 +65064,13 @@ export const DataElementsData = [
             "DCaption": "Recurring Amount",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 213,
-            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
+            "__idx": 212,
+            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 215,
+            "Id": 214,
             "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
             "ShowCaption": true,
             "Fontbold": false,
@@ -65390,8 +65102,8 @@ export const DataElementsData = [
             "DCaption": "Budget Total Amount",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 214,
-            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_215_214",
+            "__idx": 213,
+            "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
             "children": []
           }
         ]
@@ -65431,7 +65143,7 @@ export const DataElementsData = [
     "DCaption": "",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
     "__idx": 170,
     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_171_170",
     "children": []
@@ -65470,7 +65182,7 @@ export const DataElementsData = [
     "DCaption": "",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
     "__idx": 171,
     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_172_171",
     "children": []
@@ -65508,7 +65220,7 @@ export const DataElementsData = [
     "DCaption": "SerialNo",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
     "__idx": 172,
     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_173_172",
     "children": []
@@ -65529,24 +65241,24 @@ export const DataElementsData = [
     "Sequence": 36,
     "ElementName": "MG_d154_ManpowerPosition",
     "ParentElementId": "25683F52-E21A-4CE3-9196-7BCFA640A94B",
-    "ControlType": "NumericTextBox",
+    "ControlType": "ComboBox",
     "Wrap": 4,
     "ClearFix": false,
-    "RenderType": 16,
+    "RenderType": 12,
     "OnDemandLoad": false,
-    "ControlId": 2,
+    "ControlId": 5,
     "DisplayName": "MG_d154_ManpowerPosition",
     "Searchable": false,
     "Bindable": false,
     "HeaderTemplate": "",
     "MergeRow": "",
     "IsSaveWidget": 0,
-    "BindingDetail": "",
-    "EDT": 5,
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_ManpowerPosition\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+    "EDT": 9,
     "DCaption": "Manpower Position",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
     "__idx": 173,
     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_174_173",
     "children": []
@@ -65584,7 +65296,7 @@ export const DataElementsData = [
     "DCaption": "No Of Manpower Position",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
     "__idx": 174,
     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_175_174",
     "children": []
@@ -65622,7 +65334,7 @@ export const DataElementsData = [
     "DCaption": "Duration",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
     "__idx": 175,
     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_176_175",
     "children": []
@@ -65660,7 +65372,7 @@ export const DataElementsData = [
     "DCaption": "Rate Per Month",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
     "__idx": 176,
     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_177_176",
     "children": []
@@ -65698,7 +65410,7 @@ export const DataElementsData = [
     "DCaption": "HRA Percentage",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
     "__idx": 177,
     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_178_177",
     "children": []
@@ -65736,7 +65448,7 @@ export const DataElementsData = [
     "DCaption": "HRA Per Month",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
     "__idx": 178,
     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_179_178",
     "children": []
@@ -65774,7 +65486,7 @@ export const DataElementsData = [
     "DCaption": "Total Per Month",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
     "__idx": 179,
     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_180_179",
     "children": []
@@ -65812,7 +65524,7 @@ export const DataElementsData = [
     "DCaption": "Total Months",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
     "__idx": 180,
     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_181_180",
     "children": []
@@ -65850,7 +65562,7 @@ export const DataElementsData = [
     "DCaption": "Total Cost",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
     "__idx": 181,
     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_182_181",
     "children": []
@@ -65890,7 +65602,7 @@ export const DataElementsData = [
     "DCaption": "Comments",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
     "__idx": 182,
     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_183_182",
     "children": []
@@ -65928,7 +65640,7 @@ export const DataElementsData = [
     "DCaption": "Edit",
     "DHelpText": "",
     "DToolTip": "",
-    "GridParent": "2380abca-74d9-ebdc-8ddd-f18a5f8cb8d3",
+    "GridParent": "4B4149C9-CE9F-4E76-9B5A-603D0F99169D",
     "__idx": 183,
     "_id": "02991964-DF71-4ABA-AF91-54F82A3A7A91_184_183",
     "children": []
@@ -65974,7 +65686,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 207,
+        "Id": 206,
         "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
         "ShowCaption": true,
         "Fontbold": false,
@@ -66008,12 +65720,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 206,
-        "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_207_206",
+        "__idx": 205,
+        "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_206_205",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 216,
+            "Id": 215,
             "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
             "ShowCaption": true,
             "Fontbold": false,
@@ -66044,8 +65756,8 @@ export const DataElementsData = [
             "DCaption": "Manpower Total",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 215,
-            "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_216_215",
+            "__idx": 214,
+            "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_215_214",
             "children": []
           }
         ]
@@ -66408,43 +66120,6 @@ export const DataElementsData = [
     "FontStrikeout": false,
     "FontUnderline": false,
     "Depth": 9,
-    "ElementId": "C0B9FBB5-AAEA-457E-9F9F-054B18DEE01F",
-    "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-    "Sequence": 60,
-    "ElementName": "MG_d109_IsActive",
-    "ParentElementId": "08F73C4A-3B94-4327-8859-B98388D1C9CD",
-    "ControlType": "CheckBox",
-    "Wrap": 4,
-    "ClearFix": false,
-    "OnDemandLoad": false,
-    "ControlId": 3,
-    "DisplayName": "MG_d109_IsActive",
-    "Searchable": false,
-    "Bindable": false,
-    "HeaderTemplate": "",
-    "MergeRow": "",
-    "IsSaveWidget": 0,
-    "BindingDetail": "",
-    "EDT": 0,
-    "DCaption": "Is Active",
-    "DHelpText": "",
-    "DToolTip": "",
-    "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-    "__idx": 194,
-    "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
-    "children": []
-  },
-  {
-    "VersionName": "Medium",
-    "Id": 196,
-    "uielementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
-    "ShowCaption": true,
-    "Fontbold": false,
-    "FontItalic": false,
-    "FontOverline": false,
-    "FontStrikeout": false,
-    "FontUnderline": false,
-    "Depth": 9,
     "ElementId": "BD1BE012-F993-483E-96B2-231B76D32F35",
     "UIElementid": "64C6F310-6595-4F60-BBEA-39587CC551FF",
     "Sequence": 61,
@@ -66468,13 +66143,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "0673AB8F-C19B-43CF-8414-F73595045147",
-    "__idx": 195,
-    "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_196_195",
+    "__idx": 194,
+    "_id": "64C6F310-6595-4F60-BBEA-39587CC551FF_195_194",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 197,
+    "Id": 196,
     "uielementid": "9FD84F23-85AC-4927-8F96-BDA29EDC344C",
     "ShowCaption": true,
     "Fontbold": false,
@@ -66508,12 +66183,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 196,
-    "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_197_196",
+    "__idx": 195,
+    "_id": "9FD84F23-85AC-4927-8F96-BDA29EDC344C_196_195",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 208,
+        "Id": 207,
         "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
         "ShowCaption": true,
         "Fontbold": false,
@@ -66547,12 +66222,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 207,
-        "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_208_207",
+        "__idx": 206,
+        "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_207_206",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 217,
+            "Id": 216,
             "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
             "ShowCaption": true,
             "Fontbold": false,
@@ -66583,8 +66258,8 @@ export const DataElementsData = [
             "DCaption": "Equipment Total",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 216,
-            "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_217_216",
+            "__idx": 215,
+            "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_216_215",
             "children": []
           }
         ]
@@ -66593,7 +66268,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 198,
+    "Id": 197,
     "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
     "ShowCaption": true,
     "Fontbold": false,
@@ -66625,13 +66300,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-    "__idx": 197,
-    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
+    "__idx": 196,
+    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_197_196",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 199,
+    "Id": 198,
     "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
     "ShowCaption": true,
     "Fontbold": false,
@@ -66664,13 +66339,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-    "__idx": 198,
-    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
+    "__idx": 197,
+    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_198_197",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 200,
+    "Id": 199,
     "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
     "ShowCaption": true,
     "Fontbold": false,
@@ -66703,13 +66378,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-    "__idx": 199,
-    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
+    "__idx": 198,
+    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_199_198",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 201,
+    "Id": 200,
     "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
     "ShowCaption": true,
     "Fontbold": false,
@@ -66723,12 +66398,13 @@ export const DataElementsData = [
     "Sequence": 69,
     "ElementName": "MG_d82_DocumentID",
     "ParentElementId": "6677BAB3-659A-4A96-9067-5D365F60CB62",
-    "ControlType": "NumericTextBox",
+    "ControlType": "DocumentType",
     "Wrap": 4,
+    "DocumentSettings": "[{\"Size\":null,\"AllowedTypes\":null}]",
     "ClearFix": false,
     "RenderType": 15,
     "OnDemandLoad": false,
-    "ControlId": 2,
+    "ControlId": 8,
     "DisplayName": "MG_d82_DocumentID",
     "Searchable": false,
     "Bindable": false,
@@ -66736,7 +66412,7 @@ export const DataElementsData = [
     "MergeRow": "",
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "EDT": 5,
+    "EDT": 1,
     "DCaption": "Document",
     "DHelpText": "",
     "DToolTip": "",
@@ -66747,13 +66423,13 @@ export const DataElementsData = [
       }
     ],
     "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-    "__idx": 200,
-    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
+    "__idx": 199,
+    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_200_199",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 202,
+    "Id": 201,
     "uielementid": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652",
     "ShowCaption": true,
     "Fontbold": false,
@@ -66785,13 +66461,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "4B5A9D35-3C71-40F8-83A0-3CE741A68C91",
-    "__idx": 201,
-    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_202_201",
+    "__idx": 200,
+    "_id": "0A5AB6F6-E7BD-4DA3-890B-3C21DD18A652_201_200",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 203,
+    "Id": 202,
     "uielementid": "DB9A59D1-158E-4236-92F6-33592770E11E",
     "ShowCaption": true,
     "Fontbold": false,
@@ -66825,12 +66501,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 202,
-    "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_203_202",
+    "__idx": 201,
+    "_id": "DB9A59D1-158E-4236-92F6-33592770E11E_202_201",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 209,
+        "Id": 208,
         "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
         "ShowCaption": true,
         "Fontbold": false,
@@ -66864,12 +66540,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 208,
-        "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_209_208",
+        "__idx": 207,
+        "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_208_207",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 218,
+            "Id": 217,
             "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
             "ShowCaption": true,
             "Fontbold": false,
@@ -66902,8 +66578,8 @@ export const DataElementsData = [
             "DCaption": "Document Comments",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 217,
-            "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_218_217",
+            "__idx": 216,
+            "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_217_216",
             "children": []
           }
         ]
@@ -66912,7 +66588,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 204,
+    "Id": 203,
     "uielementid": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401",
     "ShowCaption": true,
     "BorderStyle": 1,
@@ -66947,12 +66623,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 203,
-    "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_204_203",
+    "__idx": 202,
+    "_id": "3F7F1601-4EB6-4D8E-9C2A-5E6122C69401_203_202",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 210,
+        "Id": 209,
         "uielementid": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB",
         "ShowCaption": true,
         "Fontbold": false,
@@ -66985,12 +66661,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 209,
-        "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_210_209",
+        "__idx": 208,
+        "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_209_208",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 219,
+            "Id": 218,
             "uielementid": "4E6C65B8-0E15-40B8-B074-F2C7041AC461",
             "ShowCaption": true,
             "Fontbold": false,
@@ -67026,15 +66702,15 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "UCaption": "Next Action",
-            "__idx": 218,
-            "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_219_218",
+            "__idx": 217,
+            "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_218_217",
             "children": []
           }
         ]
       },
       {
         "VersionName": "Medium",
-        "Id": 211,
+        "Id": 210,
         "uielementid": "51715C96-77C0-4AC0-B2A9-641A09D46453",
         "ShowCaption": true,
         "Fontbold": false,
@@ -67067,15 +66743,15 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 210,
-        "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_211_210",
+        "__idx": 209,
+        "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_210_209",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 205,
+    "Id": 204,
     "uielementid": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF",
     "ShowCaption": true,
     "Fontbold": false,
@@ -67109,12 +66785,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 204,
-    "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_205_204",
+    "__idx": 203,
+    "_id": "CB4EB02C-447C-49E3-BF53-C2BD66F0EBEF_204_203",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 212,
+        "Id": 211,
         "uielementid": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -67148,12 +66824,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 211,
-        "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_212_211",
+        "__idx": 210,
+        "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_211_210",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 220,
+            "Id": 219,
             "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
             "ShowCaption": true,
             "Fontbold": false,
@@ -67187,12 +66863,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 219,
-            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_220_219",
+            "__idx": 218,
+            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_219_218",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 222,
+                "Id": 221,
                 "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -67225,13 +66901,13 @@ export const DataElementsData = [
                 "DCaption": "Next Action",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 221,
-                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
+                "__idx": 220,
+                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_221_220",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 223,
+                "Id": 222,
                 "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -67248,7 +66924,7 @@ export const DataElementsData = [
                 "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
                 "ControlType": "TextBox",
                 "Wrap": 12,
-                "IsMultiline": false,
+                "IsMultiline": true,
                 "ClearFix": false,
                 "RenderType": 1,
                 "OnDemandLoad": false,
@@ -67264,15 +66940,15 @@ export const DataElementsData = [
                 "DCaption": "Comments",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 222,
-                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_223_222",
+                "__idx": 221,
+                "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
                 "children": []
               }
             ]
           },
           {
             "VersionName": "Medium",
-            "Id": 221,
+            "Id": 220,
             "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
             "ShowCaption": true,
             "Fontbold": false,
@@ -67306,12 +66982,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 220,
-            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_221_220",
+            "__idx": 219,
+            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_220_219",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 224,
+                "Id": 223,
                 "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -67343,13 +67019,13 @@ export const DataElementsData = [
                 "DCaption": "Submit",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 223,
-                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
+                "__idx": 222,
+                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_223_222",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 225,
+                "Id": 224,
                 "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -67381,8 +67057,8 @@ export const DataElementsData = [
                 "DCaption": "History",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 224,
-                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_225_224",
+                "__idx": 223,
+                "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
                 "children": []
               }
             ]
@@ -67393,7 +67069,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 206,
+    "Id": 205,
     "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
     "ShowCaption": true,
     "Fontbold": false,
@@ -67427,12 +67103,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 205,
-    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_206_205",
+    "__idx": 204,
+    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_205_204",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 213,
+        "Id": 212,
         "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
         "ShowCaption": true,
         "Fontbold": false,
@@ -67464,13 +67140,13 @@ export const DataElementsData = [
         "DCaption": "Non Recurring Amount",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 212,
-        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
+        "__idx": 211,
+        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_212_211",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 214,
+        "Id": 213,
         "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
         "ShowCaption": true,
         "Fontbold": false,
@@ -67502,13 +67178,13 @@ export const DataElementsData = [
         "DCaption": "Recurring Amount",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 213,
-        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
+        "__idx": 212,
+        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 215,
+        "Id": 214,
         "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
         "ShowCaption": true,
         "Fontbold": false,
@@ -67540,15 +67216,15 @@ export const DataElementsData = [
         "DCaption": "Budget Total Amount",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 214,
-        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_215_214",
+        "__idx": 213,
+        "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 207,
+    "Id": 206,
     "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
     "ShowCaption": true,
     "Fontbold": false,
@@ -67582,12 +67258,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 206,
-    "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_207_206",
+    "__idx": 205,
+    "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_206_205",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 216,
+        "Id": 215,
         "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
         "ShowCaption": true,
         "Fontbold": false,
@@ -67618,15 +67294,15 @@ export const DataElementsData = [
         "DCaption": "Manpower Total",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 215,
-        "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_216_215",
+        "__idx": 214,
+        "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_215_214",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 208,
+    "Id": 207,
     "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
     "ShowCaption": true,
     "Fontbold": false,
@@ -67660,12 +67336,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 207,
-    "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_208_207",
+    "__idx": 206,
+    "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_207_206",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 217,
+        "Id": 216,
         "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
         "ShowCaption": true,
         "Fontbold": false,
@@ -67696,15 +67372,15 @@ export const DataElementsData = [
         "DCaption": "Equipment Total",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 216,
-        "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_217_216",
+        "__idx": 215,
+        "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_216_215",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 209,
+    "Id": 208,
     "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
     "ShowCaption": true,
     "Fontbold": false,
@@ -67738,12 +67414,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 208,
-    "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_209_208",
+    "__idx": 207,
+    "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_208_207",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 218,
+        "Id": 217,
         "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
         "ShowCaption": true,
         "Fontbold": false,
@@ -67776,15 +67452,15 @@ export const DataElementsData = [
         "DCaption": "Document Comments",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 217,
-        "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_218_217",
+        "__idx": 216,
+        "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_217_216",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 210,
+    "Id": 209,
     "uielementid": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB",
     "ShowCaption": true,
     "Fontbold": false,
@@ -67817,12 +67493,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 209,
-    "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_210_209",
+    "__idx": 208,
+    "_id": "5A5E43B4-CE37-4CD6-8026-0DF6968E8BAB_209_208",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 219,
+        "Id": 218,
         "uielementid": "4E6C65B8-0E15-40B8-B074-F2C7041AC461",
         "ShowCaption": true,
         "Fontbold": false,
@@ -67858,15 +67534,15 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "UCaption": "Next Action",
-        "__idx": 218,
-        "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_219_218",
+        "__idx": 217,
+        "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_218_217",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 211,
+    "Id": 210,
     "uielementid": "51715C96-77C0-4AC0-B2A9-641A09D46453",
     "ShowCaption": true,
     "Fontbold": false,
@@ -67899,13 +67575,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 210,
-    "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_211_210",
+    "__idx": 209,
+    "_id": "51715C96-77C0-4AC0-B2A9-641A09D46453_210_209",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 212,
+    "Id": 211,
     "uielementid": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -67939,12 +67615,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 211,
-    "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_212_211",
+    "__idx": 210,
+    "_id": "7EA990BB-46E1-4EFA-86EE-58E667C09FAE_211_210",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 220,
+        "Id": 219,
         "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
         "ShowCaption": true,
         "Fontbold": false,
@@ -67978,12 +67654,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 219,
-        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_220_219",
+        "__idx": 218,
+        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_219_218",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 222,
+            "Id": 221,
             "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
             "ShowCaption": true,
             "Fontbold": false,
@@ -68016,13 +67692,13 @@ export const DataElementsData = [
             "DCaption": "Next Action",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 221,
-            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
+            "__idx": 220,
+            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_221_220",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 223,
+            "Id": 222,
             "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
             "ShowCaption": true,
             "Fontbold": false,
@@ -68039,7 +67715,7 @@ export const DataElementsData = [
             "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
             "ControlType": "TextBox",
             "Wrap": 12,
-            "IsMultiline": false,
+            "IsMultiline": true,
             "ClearFix": false,
             "RenderType": 1,
             "OnDemandLoad": false,
@@ -68055,15 +67731,15 @@ export const DataElementsData = [
             "DCaption": "Comments",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 222,
-            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_223_222",
+            "__idx": 221,
+            "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
             "children": []
           }
         ]
       },
       {
         "VersionName": "Medium",
-        "Id": 221,
+        "Id": 220,
         "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
         "ShowCaption": true,
         "Fontbold": false,
@@ -68097,12 +67773,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 220,
-        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_221_220",
+        "__idx": 219,
+        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_220_219",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 224,
+            "Id": 223,
             "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
             "ShowCaption": true,
             "Fontbold": false,
@@ -68134,13 +67810,13 @@ export const DataElementsData = [
             "DCaption": "Submit",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 223,
-            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
+            "__idx": 222,
+            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_223_222",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 225,
+            "Id": 224,
             "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
             "ShowCaption": true,
             "Fontbold": false,
@@ -68172,8 +67848,8 @@ export const DataElementsData = [
             "DCaption": "History",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 224,
-            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_225_224",
+            "__idx": 223,
+            "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
             "children": []
           }
         ]
@@ -68182,7 +67858,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 213,
+    "Id": 212,
     "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68214,13 +67890,13 @@ export const DataElementsData = [
     "DCaption": "Non Recurring Amount",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 212,
-    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
+    "__idx": 211,
+    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_212_211",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 214,
+    "Id": 213,
     "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68252,13 +67928,13 @@ export const DataElementsData = [
     "DCaption": "Recurring Amount",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 213,
-    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
+    "__idx": 212,
+    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_213_212",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 215,
+    "Id": 214,
     "uielementid": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68290,13 +67966,13 @@ export const DataElementsData = [
     "DCaption": "Budget Total Amount",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 214,
-    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_215_214",
+    "__idx": 213,
+    "_id": "2984E3EE-A1D8-4369-ABDB-5C33A0057D63_214_213",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 216,
+    "Id": 215,
     "uielementid": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68327,13 +68003,13 @@ export const DataElementsData = [
     "DCaption": "Manpower Total",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 215,
-    "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_216_215",
+    "__idx": 214,
+    "_id": "0AD038C3-C8F7-4892-9D20-7D632A09AAB0_215_214",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 217,
+    "Id": 216,
     "uielementid": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68364,13 +68040,13 @@ export const DataElementsData = [
     "DCaption": "Equipment Total",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 216,
-    "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_217_216",
+    "__idx": 215,
+    "_id": "E8D5DFC5-C8DE-4B42-B0CD-6E868F7A2F8B_216_215",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 218,
+    "Id": 217,
     "uielementid": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68403,13 +68079,13 @@ export const DataElementsData = [
     "DCaption": "Document Comments",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 217,
-    "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_218_217",
+    "__idx": 216,
+    "_id": "293CFB84-1542-4DF5-9D47-B9654FEE1A8F_217_216",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 219,
+    "Id": 218,
     "uielementid": "4E6C65B8-0E15-40B8-B074-F2C7041AC461",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68445,13 +68121,13 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "UCaption": "Next Action",
-    "__idx": 218,
-    "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_219_218",
+    "__idx": 217,
+    "_id": "4E6C65B8-0E15-40B8-B074-F2C7041AC461_218_217",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 220,
+    "Id": 219,
     "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68485,12 +68161,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 219,
-    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_220_219",
+    "__idx": 218,
+    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_219_218",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 222,
+        "Id": 221,
         "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
         "ShowCaption": true,
         "Fontbold": false,
@@ -68523,13 +68199,13 @@ export const DataElementsData = [
         "DCaption": "Next Action",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 221,
-        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
+        "__idx": 220,
+        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_221_220",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 223,
+        "Id": 222,
         "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
         "ShowCaption": true,
         "Fontbold": false,
@@ -68546,7 +68222,7 @@ export const DataElementsData = [
         "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
         "ControlType": "TextBox",
         "Wrap": 12,
-        "IsMultiline": false,
+        "IsMultiline": true,
         "ClearFix": false,
         "RenderType": 1,
         "OnDemandLoad": false,
@@ -68562,15 +68238,15 @@ export const DataElementsData = [
         "DCaption": "Comments",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 222,
-        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_223_222",
+        "__idx": 221,
+        "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 221,
+    "Id": 220,
     "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68604,12 +68280,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 220,
-    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_221_220",
+    "__idx": 219,
+    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_220_219",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 224,
+        "Id": 223,
         "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
         "ShowCaption": true,
         "Fontbold": false,
@@ -68641,13 +68317,13 @@ export const DataElementsData = [
         "DCaption": "Submit",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 223,
-        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
+        "__idx": 222,
+        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_223_222",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 225,
+        "Id": 224,
         "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
         "ShowCaption": true,
         "Fontbold": false,
@@ -68679,15 +68355,15 @@ export const DataElementsData = [
         "DCaption": "History",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 224,
-        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_225_224",
+        "__idx": 223,
+        "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 222,
+    "Id": 221,
     "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68720,13 +68396,13 @@ export const DataElementsData = [
     "DCaption": "Next Action",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 221,
-    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
+    "__idx": 220,
+    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_221_220",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 223,
+    "Id": 222,
     "uielementid": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68743,7 +68419,7 @@ export const DataElementsData = [
     "ParentElementId": "7F2113FD-876A-41F4-BEAC-881CA7D38469",
     "ControlType": "TextBox",
     "Wrap": 12,
-    "IsMultiline": false,
+    "IsMultiline": true,
     "ClearFix": false,
     "RenderType": 1,
     "OnDemandLoad": false,
@@ -68759,13 +68435,13 @@ export const DataElementsData = [
     "DCaption": "Comments",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 222,
-    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_223_222",
+    "__idx": 221,
+    "_id": "3D2F1FCF-52FF-4A36-9AF2-FF9A77D5A574_222_221",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 224,
+    "Id": 223,
     "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68797,13 +68473,13 @@ export const DataElementsData = [
     "DCaption": "Submit",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 223,
-    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
+    "__idx": 222,
+    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_223_222",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 225,
+    "Id": 224,
     "uielementid": "197BE8ED-9280-4A43-9B1E-A3A298A29477",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68835,8 +68511,8 @@ export const DataElementsData = [
     "DCaption": "History",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 224,
-    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_225_224",
+    "__idx": 223,
+    "_id": "197BE8ED-9280-4A43-9B1E-A3A298A29477_224_223",
     "children": []
   }
 ];
