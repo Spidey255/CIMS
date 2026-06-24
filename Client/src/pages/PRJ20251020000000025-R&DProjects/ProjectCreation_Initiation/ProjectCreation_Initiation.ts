@@ -34,7 +34,7 @@ export const DataElementsData = [
     "Bindable": false,
     "Action": "FormOnLoad",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"MG_d28_BudgetHead\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year10\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_PrincipalInvestigator\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year3\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"ManpowerGrid\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MG_d28_RecurringValidation\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_Duration\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_EmployeeBasicInfoId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectStatus\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_BudgetDetailsId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectproposalID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectDetailsID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectCategoryID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_NonRecurringAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_EmployeeCode\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year8\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_ExternalEmailId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year4\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d82_DocumentID\",\"Value\":null,\"EDT\":1},{\"ElementName\":\"MG_d55_AdditionalName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"RDDocumentGrid\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MG_d28_BudgetAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"UI_InvisibleRow\",\"Value\":\"\",\"EDT\":-1},{\"ElementName\":\"MG_d28_Year9\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year11\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_DesignationID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_SanctionedDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MG_d28_BudgetID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_RDOfficeComments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"EquipmentGrid\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MG_d55_ExternalInstituteName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_ExternalContactNo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_SchemeID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_ExternalFacultyName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_IfManpower\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_DepartmentID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_Sector\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"m_currency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_SanctionedNumber\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"Subject\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"BudgetAllocation\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MF_d10_InstanceId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year1\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_FundingAgency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year5\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_IfEquipment\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_Designation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d55_ExternalDesignation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year7\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year12\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d28_Year6\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_AdditionalType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_FinancialYearID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_IsExternalIns\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_EmpDeptCode\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_RecurringAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_d55_Departmentid\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d28_Year2\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_ProjectBudget\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_BudgetTotalAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"BudgetAllocation_RowId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_YearMonth\",\"Value\":\"\",\"EDT\":9}]}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"MF_d10_PrincipalInvestigator\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"ManpowerGrid\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MF_d10_Duration\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_d10_EmployeeBasicInfoId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectStatus\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectproposalID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectDetailsID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectCategoryID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_NonRecurringAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_EmployeeCode\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_d82_DocumentID\",\"Value\":null,\"EDT\":1},{\"ElementName\":\"RDDocumentGrid\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MG_d28_BudgetAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"UI_InvisibleRow\",\"Value\":\"\",\"EDT\":-1},{\"ElementName\":\"MF_d10_SanctionedDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"EquipmentGrid\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MF_d10_SchemeID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_IfManpower\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_DepartmentID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_ProjectName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_Sector\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"m_currency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_SanctionedNumber\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"Subject\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"BudgetAllocation\",\"Value\":\"\",\"EDT\":12},{\"ElementName\":\"MF_d10_InstanceId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_FundingAgency\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_IfEquipment\",\"Value\":\"\",\"EDT\":0},{\"ElementName\":\"MF_d10_Designation\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_FinancialYearID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_EmpDeptCode\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_d10_RecurringAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_ProjectBudget\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_BudgetTotalAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MF_d10_YearMonth\",\"Value\":\"\",\"EDT\":9}]}]",
     "DCaption": "",
     "__idx": 0,
     "_id": "93CFDE26-D3EC-4073-8B9F-C943C17365AA_1_0",
@@ -1225,16 +1225,6 @@ export const DataElementsData = [
                                   {
                                     "Mandatory": true,
                                     "Span": false
-                                  },
-                                  {
-                                    "Enable": false,
-                                    "Visible": false,
-                                    "Span": false
-                                  },
-                                  {
-                                    "Enable": true,
-                                    "Visible": true,
-                                    "Span": false
                                   }
                                 ],
                                 "__idx": 79,
@@ -1610,8 +1600,9 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "HeaderTemplate": "",
                                 "MergeRow": "",
+                                "Action": "OnChange",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FromDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ToDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_YearMonth\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                 "EDT": 5,
                                 "DCaption": "Duration",
                                 "DHelpText": "",
@@ -3709,9 +3700,8 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "HeaderTemplate": "",
                                 "MergeRow": "",
-                                "Action": "OnAfterRowAdding",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                "BindingDetail": "",
                                 "EDT": 12,
                                 "GM": "Inline",
                                 "DCaption": "dbo.ProjectManpowerDetails",
@@ -4789,9 +4779,8 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "HeaderTemplate": "",
                                 "MergeRow": "",
-                                "Action": "OnAfterRowAdding",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                "BindingDetail": "",
                                 "EDT": 12,
                                 "GM": "Inline",
                                 "DCaption": "dbo.ProjectEquipmentDetails",
@@ -9386,16 +9375,6 @@ export const DataElementsData = [
                               {
                                 "Mandatory": true,
                                 "Span": false
-                              },
-                              {
-                                "Enable": false,
-                                "Visible": false,
-                                "Span": false
-                              },
-                              {
-                                "Enable": true,
-                                "Visible": true,
-                                "Span": false
                               }
                             ],
                             "__idx": 79,
@@ -9771,8 +9750,9 @@ export const DataElementsData = [
                             "Bindable": false,
                             "HeaderTemplate": "",
                             "MergeRow": "",
+                            "Action": "OnChange",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FromDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ToDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_YearMonth\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                             "EDT": 5,
                             "DCaption": "Duration",
                             "DHelpText": "",
@@ -11870,9 +11850,8 @@ export const DataElementsData = [
                             "Bindable": false,
                             "HeaderTemplate": "",
                             "MergeRow": "",
-                            "Action": "OnAfterRowAdding",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                            "BindingDetail": "",
                             "EDT": 12,
                             "GM": "Inline",
                             "DCaption": "dbo.ProjectManpowerDetails",
@@ -12950,9 +12929,8 @@ export const DataElementsData = [
                             "Bindable": false,
                             "HeaderTemplate": "",
                             "MergeRow": "",
-                            "Action": "OnAfterRowAdding",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                            "BindingDetail": "",
                             "EDT": 12,
                             "GM": "Inline",
                             "DCaption": "dbo.ProjectEquipmentDetails",
@@ -17465,16 +17443,6 @@ export const DataElementsData = [
                           {
                             "Mandatory": true,
                             "Span": false
-                          },
-                          {
-                            "Enable": false,
-                            "Visible": false,
-                            "Span": false
-                          },
-                          {
-                            "Enable": true,
-                            "Visible": true,
-                            "Span": false
                           }
                         ],
                         "__idx": 79,
@@ -17850,8 +17818,9 @@ export const DataElementsData = [
                         "Bindable": false,
                         "HeaderTemplate": "",
                         "MergeRow": "",
+                        "Action": "OnChange",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FromDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ToDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_YearMonth\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                         "EDT": 5,
                         "DCaption": "Duration",
                         "DHelpText": "",
@@ -19949,9 +19918,8 @@ export const DataElementsData = [
                         "Bindable": false,
                         "HeaderTemplate": "",
                         "MergeRow": "",
-                        "Action": "OnAfterRowAdding",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                        "BindingDetail": "",
                         "EDT": 12,
                         "GM": "Inline",
                         "DCaption": "dbo.ProjectManpowerDetails",
@@ -21029,9 +20997,8 @@ export const DataElementsData = [
                         "Bindable": false,
                         "HeaderTemplate": "",
                         "MergeRow": "",
-                        "Action": "OnAfterRowAdding",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                        "BindingDetail": "",
                         "EDT": 12,
                         "GM": "Inline",
                         "DCaption": "dbo.ProjectEquipmentDetails",
@@ -25339,16 +25306,6 @@ export const DataElementsData = [
                       {
                         "Mandatory": true,
                         "Span": false
-                      },
-                      {
-                        "Enable": false,
-                        "Visible": false,
-                        "Span": false
-                      },
-                      {
-                        "Enable": true,
-                        "Visible": true,
-                        "Span": false
                       }
                     ],
                     "__idx": 79,
@@ -25724,8 +25681,9 @@ export const DataElementsData = [
                     "Bindable": false,
                     "HeaderTemplate": "",
                     "MergeRow": "",
+                    "Action": "OnChange",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FromDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ToDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_YearMonth\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                     "EDT": 5,
                     "DCaption": "Duration",
                     "DHelpText": "",
@@ -27782,9 +27740,8 @@ export const DataElementsData = [
                     "Bindable": false,
                     "HeaderTemplate": "",
                     "MergeRow": "",
-                    "Action": "OnAfterRowAdding",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                    "BindingDetail": "",
                     "EDT": 12,
                     "GM": "Inline",
                     "DCaption": "dbo.ProjectManpowerDetails",
@@ -28862,9 +28819,8 @@ export const DataElementsData = [
                     "Bindable": false,
                     "HeaderTemplate": "",
                     "MergeRow": "",
-                    "Action": "OnAfterRowAdding",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                    "BindingDetail": "",
                     "EDT": 12,
                     "GM": "Inline",
                     "DCaption": "dbo.ProjectEquipmentDetails",
@@ -32968,16 +32924,6 @@ export const DataElementsData = [
                   {
                     "Mandatory": true,
                     "Span": false
-                  },
-                  {
-                    "Enable": false,
-                    "Visible": false,
-                    "Span": false
-                  },
-                  {
-                    "Enable": true,
-                    "Visible": true,
-                    "Span": false
                   }
                 ],
                 "__idx": 79,
@@ -33353,8 +33299,9 @@ export const DataElementsData = [
                 "Bindable": false,
                 "HeaderTemplate": "",
                 "MergeRow": "",
+                "Action": "OnChange",
                 "IsSaveWidget": 0,
-                "BindingDetail": "",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FromDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ToDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_YearMonth\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                 "EDT": 5,
                 "DCaption": "Duration",
                 "DHelpText": "",
@@ -35370,9 +35317,8 @@ export const DataElementsData = [
                 "Bindable": false,
                 "HeaderTemplate": "",
                 "MergeRow": "",
-                "Action": "OnAfterRowAdding",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                "BindingDetail": "",
                 "EDT": 12,
                 "GM": "Inline",
                 "DCaption": "dbo.ProjectManpowerDetails",
@@ -36450,9 +36396,8 @@ export const DataElementsData = [
                 "Bindable": false,
                 "HeaderTemplate": "",
                 "MergeRow": "",
-                "Action": "OnAfterRowAdding",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                "BindingDetail": "",
                 "EDT": 12,
                 "GM": "Inline",
                 "DCaption": "dbo.ProjectEquipmentDetails",
@@ -39733,16 +39678,6 @@ export const DataElementsData = [
               {
                 "Mandatory": true,
                 "Span": false
-              },
-              {
-                "Enable": false,
-                "Visible": false,
-                "Span": false
-              },
-              {
-                "Enable": true,
-                "Visible": true,
-                "Span": false
               }
             ],
             "__idx": 79,
@@ -40118,8 +40053,9 @@ export const DataElementsData = [
             "Bindable": false,
             "HeaderTemplate": "",
             "MergeRow": "",
+            "Action": "OnChange",
             "IsSaveWidget": 0,
-            "BindingDetail": "",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FromDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ToDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_YearMonth\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
             "EDT": 5,
             "DCaption": "Duration",
             "DHelpText": "",
@@ -42053,9 +41989,8 @@ export const DataElementsData = [
             "Bindable": false,
             "HeaderTemplate": "",
             "MergeRow": "",
-            "Action": "OnAfterRowAdding",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+            "BindingDetail": "",
             "EDT": 12,
             "GM": "Inline",
             "DCaption": "dbo.ProjectManpowerDetails",
@@ -43133,9 +43068,8 @@ export const DataElementsData = [
             "Bindable": false,
             "HeaderTemplate": "",
             "MergeRow": "",
-            "Action": "OnAfterRowAdding",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+            "BindingDetail": "",
             "EDT": 12,
             "GM": "Inline",
             "DCaption": "dbo.ProjectEquipmentDetails",
@@ -46252,16 +46186,6 @@ export const DataElementsData = [
           {
             "Mandatory": true,
             "Span": false
-          },
-          {
-            "Enable": false,
-            "Visible": false,
-            "Span": false
-          },
-          {
-            "Enable": true,
-            "Visible": true,
-            "Span": false
           }
         ],
         "__idx": 79,
@@ -46596,8 +46520,9 @@ export const DataElementsData = [
         "Bindable": false,
         "HeaderTemplate": "",
         "MergeRow": "",
+        "Action": "OnChange",
         "IsSaveWidget": 0,
-        "BindingDetail": "",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FromDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ToDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_YearMonth\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
         "EDT": 5,
         "DCaption": "Duration",
         "DHelpText": "",
@@ -48408,9 +48333,8 @@ export const DataElementsData = [
         "Bindable": false,
         "HeaderTemplate": "",
         "MergeRow": "",
-        "Action": "OnAfterRowAdding",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+        "BindingDetail": "",
         "EDT": 12,
         "GM": "Inline",
         "DCaption": "dbo.ProjectManpowerDetails",
@@ -49406,9 +49330,8 @@ export const DataElementsData = [
         "Bindable": false,
         "HeaderTemplate": "",
         "MergeRow": "",
-        "Action": "OnAfterRowAdding",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+        "BindingDetail": "",
         "EDT": 12,
         "GM": "Inline",
         "DCaption": "dbo.ProjectEquipmentDetails",
@@ -52196,16 +52119,6 @@ export const DataElementsData = [
       {
         "Mandatory": true,
         "Span": false
-      },
-      {
-        "Enable": false,
-        "Visible": false,
-        "Span": false
-      },
-      {
-        "Enable": true,
-        "Visible": true,
-        "Span": false
       }
     ],
     "__idx": 79,
@@ -52458,8 +52371,9 @@ export const DataElementsData = [
     "Bindable": false,
     "HeaderTemplate": "",
     "MergeRow": "",
+    "Action": "OnChange",
     "IsSaveWidget": 0,
-    "BindingDetail": "",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_d10_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_FromDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ToDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d10_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d10_YearMonth\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
     "EDT": 5,
     "DCaption": "Duration",
     "DHelpText": "",
@@ -54143,9 +54057,8 @@ export const DataElementsData = [
     "Bindable": false,
     "HeaderTemplate": "",
     "MergeRow": "",
-    "Action": "OnAfterRowAdding",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d154_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+    "BindingDetail": "",
     "EDT": 12,
     "GM": "Inline",
     "DCaption": "dbo.ProjectManpowerDetails",
@@ -55057,9 +54970,8 @@ export const DataElementsData = [
     "Bindable": false,
     "HeaderTemplate": "",
     "MergeRow": "",
-    "Action": "OnAfterRowAdding",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MG_d109_SerialNo\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_Counter\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+    "BindingDetail": "",
     "EDT": 12,
     "GM": "Inline",
     "DCaption": "dbo.ProjectEquipmentDetails",
