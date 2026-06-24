@@ -34,7 +34,7 @@ export const DataElementsData = [
     "Bindable": false,
     "Action": "FormOnLoad",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"Subject\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_MoveTo\",\"Value\":\"\",\"EDT\":9}]}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"Subject\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_MoveTo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UI_HideRow\",\"Value\":\"\",\"EDT\":-1}]}]",
     "DCaption": "",
     "__idx": 0,
     "_id": "CA43F858-63FC-44CB-82F4-E5658983EA8A_1_0",

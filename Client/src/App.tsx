@@ -14,46 +14,126 @@ import { SidebarProvider } from "@/layout/SideBar/SidebarContext";
 
 import { useUserStore } from "@/store/useUserStore";
 
-import ProjectReimbursement_RDoffice from "@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_RDoffice";
-import TravelRequest_Registrar from "@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_Registrar";
-import ProjectFundInstallment_AdditionalDetails from "@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_AdditionalDetails";
-import ProjectCreation_AdditionalDetails from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreation_AdditionalDetails";
-import ProjectsExplorer_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start";
-import TravelRequest_ARRD from "@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_ARRD";
-import TempAdvance_RDoffice from "@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_RDoffice";
-import ProjectReimbursement_Registrar from "@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_Registrar";
-import TempAdvance_PIInitiation from "@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_PIInitiation";
-import ProjectProposal_Start from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_Start";
-import TravelSettlement_PIInitiation from "@/pages/PRJ20251020000000025-R&DProjects/TravelSettlement_PIInitiation";
-import ProjectCreation_Initiation from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreation_Initiation";
-import TempAdvance_RDofficepayment from "@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_RDofficepayment";
-import ProjectCreation_HOD from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreation_HOD";
-import TempAdvance_AdditionalDetails from "@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_AdditionalDetails";
-import TravelRequest_PIInitiation from "@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_PIInitiation";
-import TempAdvance_Registrar from "@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_Registrar";
-import TravelRequest_RDOfficeverification from "@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_RDOfficeverification";
-import TravelSettlement_RDOfficeverification from "@/pages/PRJ20251020000000025-R&DProjects/TravelSettlement_RDOfficeverification";
-import TravelSettlement_ARRD from "@/pages/PRJ20251020000000025-R&DProjects/TravelSettlement_ARRD";
-import ProjectProposal_ReadOnly from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_ReadOnly";
-import ProjectCreation_View from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreation_View";
-import FundConfigurations_Start from "@/pages/PRJ20251020000000025-R&DProjects/FundConfigurations_Start";
-import ProjectCreation_RANDDOFFICE from "@/pages/PRJ20251020000000025-R&DProjects/ProjectCreation_RANDDOFFICE";
-import ProjectFundInstallment_HOD from "@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_HOD";
-import TempAdvance_DeanRD from "@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_DeanRD";
-import ProjectReimbursement_PIInitiation from "@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_PIInitiation";
-import CommitmentSpentDetails_Start from "@/pages/PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start";
-import ProjectProposal_View from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_View";
-import TravelRequest_RDOfficePayments from "@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_RDOfficePayments";
-import TravelRequest_AdditionalDetails from "@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_AdditionalDetails";
-import ProjectFundInstallment_RDOffice from "@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_RDOffice";
-import ProjectProposal_Additional from "@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_Additional";
-import TaskSummaryWithFilters_Start from "@/pages/PRJ20251020000000025-R&DProjects/TaskSummaryWithFilters_Start";
-import TravelRequest_RDDean from "@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_RDDean";
-import ProjectFundInstallment_PIInitiation from "@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_PIInitiation";
-import ProjectReimbursement_AdditionalDetails from "@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_AdditionalDetails";
-import ProjectReimbursement_DeanRD from "@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_DeanRD";
-import TempAdvance_ARRD from "@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_ARRD";
-import ProjectReimbursement_ARRD from "@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_ARRD";
+const ProjectReimbursement_RDoffice = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_RDoffice")
+  );
+const TravelRequest_Registrar = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_Registrar")
+  );
+const ProjectFundInstallment_AdditionalDetails = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_AdditionalDetails")
+  );
+const ProjectCreation_AdditionalDetails = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectCreation_AdditionalDetails")
+  );
+const ProjectsExplorer_Start = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start")
+  );
+const TravelRequest_ARRD = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_ARRD")
+  );
+const TempAdvance_RDoffice = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_RDoffice")
+  );
+const ProjectReimbursement_Registrar = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_Registrar")
+  );
+const TempAdvance_PIInitiation = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_PIInitiation")
+  );
+const ProjectProposal_Start = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_Start")
+  );
+const TravelSettlement_PIInitiation = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TravelSettlement_PIInitiation")
+  );
+const ProjectCreation_Initiation = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectCreation_Initiation")
+  );
+const TempAdvance_RDofficepayment = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_RDofficepayment")
+  );
+const ProjectCreation_HOD = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectCreation_HOD")
+  );
+const TempAdvance_AdditionalDetails = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_AdditionalDetails")
+  );
+const TravelRequest_PIInitiation = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_PIInitiation")
+  );
+const TempAdvance_Registrar = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_Registrar")
+  );
+const TravelRequest_RDOfficeverification = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_RDOfficeverification")
+  );
+const TravelSettlement_RDOfficeverification = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TravelSettlement_RDOfficeverification")
+  );
+const TravelSettlement_ARRD = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TravelSettlement_ARRD")
+  );
+const ProjectProposal_ReadOnly = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_ReadOnly")
+  );
+const ProjectCreation_View = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectCreation_View")
+  );
+const FundConfigurations_Start = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/FundConfigurations_Start")
+  );
+const ProjectCreation_RANDDOFFICE = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectCreation_RANDDOFFICE")
+  );
+const ProjectFundInstallment_HOD = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_HOD")
+  );
+const TempAdvance_DeanRD = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_DeanRD")
+  );
+const ProjectReimbursement_PIInitiation = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_PIInitiation")
+  );
+const CommitmentSpentDetails_Start = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start")
+  );
+const ProjectProposal_View = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_View")
+  );
+const TravelRequest_RDOfficePayments = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_RDOfficePayments")
+  );
+const TravelRequest_AdditionalDetails = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_AdditionalDetails")
+  );
+const ProjectFundInstallment_RDOffice = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_RDOffice")
+  );
+const ProjectProposal_Additional = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_Additional")
+  );
+const TaskSummaryWithFilters_Start = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TaskSummaryWithFilters_Start")
+  );
+const TravelRequest_RDDean = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_RDDean")
+  );
+const ProjectFundInstallment_PIInitiation = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_PIInitiation")
+  );
+const ProjectReimbursement_AdditionalDetails = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_AdditionalDetails")
+  );
+const ProjectReimbursement_DeanRD = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_DeanRD")
+  );
+const TempAdvance_ARRD = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TempAdvance_ARRD")
+  );
+const ProjectReimbursement_ARRD = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_ARRD")
+  );
 
 
 const hasAccessToken = (): boolean => {
@@ -87,7 +167,7 @@ const PublicRoute: React.FC = () => {
   return <Outlet />;
 };
 
-/* ?? NEW: Dynamic Layout ONLY for public pages */
+/* 🔥 NEW: Dynamic Layout ONLY for public pages */
 
 
 const App: React.FC = () => {
@@ -108,7 +188,7 @@ const App: React.FC = () => {
       <Router basename="/CIMS">
         <Routes>
 
-          {/* ? PROTECTED ROUTES (UNCHANGED) */}
+          {/* ✅ PROTECTED ROUTES (UNCHANGED) */}
           <Route element={<ProtectedRoute />}>
             <Route element={
               <SidebarProvider>
@@ -160,13 +240,13 @@ const App: React.FC = () => {
             </Route>
           </Route>
 
-          {/* ? AUTH ROUTES (UNCHANGED) */}
+          {/* ✅ AUTH ROUTES (UNCHANGED) */}
           <Route element={<PublicRoute />}>
             <Route path="/login" element={<LoginPage />} />
             
           </Route>
 
-          {/* ?? PUBLIC PAGES WITH DYNAMIC SIDEBAR */}
+          {/* 🔥 PUBLIC PAGES WITH DYNAMIC SIDEBAR */}
             
 
           <Route path="*" element={<NotFound />} />
