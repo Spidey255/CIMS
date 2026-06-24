@@ -60,6 +60,7 @@ jobs:
         working-directory: Client
         run: npm run build
         env:
+	  NODE_OPTIONS: "--max-old-space-size=8192"
           CI: false
           VITE_BASE_URL: ${{ secrets.VITE_BASE_URL }}
           VITE_AUTH_URL: ${{ secrets.VITE_AUTH_URL }}
