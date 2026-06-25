@@ -167,7 +167,7 @@ const PublicRoute: React.FC = () => {
   return <Outlet />;
 };
 
-/* 🔥 NEW: Dynamic Layout ONLY for public pages */
+/* ?? NEW: Dynamic Layout ONLY for public pages */
 
 
 const App: React.FC = () => {
@@ -188,7 +188,7 @@ const App: React.FC = () => {
       <Router basename="/CIMS">
         <Routes>
 
-          {/* ✅ PROTECTED ROUTES (UNCHANGED) */}
+          {/* ? PROTECTED ROUTES (UNCHANGED) */}
           <Route element={<ProtectedRoute />}>
             <Route element={
               <SidebarProvider>
@@ -240,13 +240,13 @@ const App: React.FC = () => {
             </Route>
           </Route>
 
-          {/* ✅ AUTH ROUTES (UNCHANGED) */}
+          {/* ? AUTH ROUTES (UNCHANGED) */}
           <Route element={<PublicRoute />}>
             <Route path="/login" element={<LoginPage />} />
             
           </Route>
 
-          {/* 🔥 PUBLIC PAGES WITH DYNAMIC SIDEBAR */}
+          {/* ?? PUBLIC PAGES WITH DYNAMIC SIDEBAR */}
             
 
           <Route path="*" element={<NotFound />} />

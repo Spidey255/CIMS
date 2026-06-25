@@ -15,7 +15,7 @@ export const componentsMap: { [key: string]: React.FC<any> } = {
   1: TextBox,
   2: NumericTextBox,
   3: CheckBox,
-  12: ComboBox,
+  5: ComboBox,
   7: DateTimePicker,
   8: DocumentType,
   9: ActionButton
