@@ -160,6 +160,10 @@ namespace CPS.Proof.DFSExtension
 												     @"028B1EFF-34A8-4D44-BF39-06CE99DF7C67"),
 			
 						
+			     new Triplet<string, string, string>("fc9385e0-be8b-9893-ddc2-d81ce337a491","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
+			
+						
 			     new Triplet<string, string, string>("490A453A-6852-4615-B83B-173BC38F190B","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
@@ -230,6 +234,10 @@ namespace CPS.Proof.DFSExtension
 						
 			     new Triplet<string, string, string>("B8A2A58C-91CA-4FD4-B326-9652593DD27B","Load Remarks Details",
 												     @"8B4BCD21-9BD3-4278-AA2C-99F30B18BC32"),
+			
+						
+			     new Triplet<string, string, string>("fc9385e0-be8b-9893-ddc2-d81ce337a491","Load History Details Based On Form Load",
+												     @"97c72782-b716-b2cd-caba-bef246e1dab6"),
 			
 						
 			     new Triplet<string, string, string>("490A453A-6852-4615-B83B-173BC38F190B","Grid BindingF",
@@ -1114,16 +1122,16 @@ namespace CPS.Proof.DFSExtension
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_97c72782b716b2cdcababef246e1dab6 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT){0}INSERT INTO [97c72782-b716-b2cd-caba-bef246e1dab6](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
+		DECLARE  @TBL_97c72782b716b2cdcababef246e1dab6 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [97c72782-b716-b2cd-caba-bef246e1dab6](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.C_Stepfrom,TDT.C_StepTo,TDT.C_Comments,TDT.C_User,TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
 							LEFT JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
 							JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
-                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence";
+                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments";
 
-                                     tempInsertQuery=@"INSERT INTO @TBL_97c72782b716b2cdcababef246e1dab6(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence)VALUES({0});";
+                                     tempInsertQuery=@"INSERT INTO @TBL_97c72782b716b2cdcababef246e1dab6(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)VALUES({0});";
                                      
 
                             splitcols = colList.Split(',');
@@ -1680,16 +1688,16 @@ namespace CPS.Proof.DFSExtension
                      
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_97c72782b716b2cdcababef246e1dab6 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT){0}INSERT INTO [97c72782-b716-b2cd-caba-bef246e1dab6](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
+		DECLARE  @TBL_97c72782b716b2cdcababef246e1dab6 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [97c72782-b716-b2cd-caba-bef246e1dab6](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.C_Stepfrom,TDT.C_StepTo,TDT.C_Comments,TDT.C_User,TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
 							LEFT JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
 							JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence";
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments";
 
-                            tempInsertQuery=@"INSERT INTO @TBL_97c72782b716b2cdcababef246e1dab6(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence)VALUES({0});";
+                            tempInsertQuery=@"INSERT INTO @TBL_97c72782b716b2cdcababef246e1dab6(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)VALUES({0});";
 
                             splitcols = colList.Split(',');
 
@@ -3173,6 +3181,10 @@ base.WriteDebugInfo(@"");
 List<Triplet<string, short, short?>> result4ACD680C9EAE4FDBA4A3FC5C4D353701=acdataIspaceFF2ED87620AB4F5DB62B385405DFB900.GetQueryExpressionBindings("4ACD680C-9EAE-4FDB-A4A3-FC5C4D353701");
 iSpace.SetGridData(resultB8A2A58C91CA4FD4B3269652593DD27B,result4ACD680C9EAE4FDBA4A3FC5C4D353701,"MG_RemarksDetails",ref ISpace);
 iSpace.UpdateGridBindDetails("MG_RemarksDetails",result4ACD680C9EAE4FDBA4A3FC5C4D353701);
+ISpace["Comments"].Value="";
+base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
+ISpace["M_MoveTo"].Value="";
+base.WriteDebugInfo(@"ISpace[""M_MoveTo""].Value="""";");
 }
 catch(Exception ex)
 {
@@ -3520,6 +3532,42 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_m_history (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_History-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
+}
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+
+var querySourcefc9385e0be8b9893ddc2d81ce337a491 =GetQueryExpressionDataSource("fc9385e0-be8b-9893-ddc2-d81ce337a491");
+
+DataTable resultfc9385e0be8b9893ddc2d81ce337a491=iSpace.SetGridDataSource(querySourcefc9385e0be8b9893ddc2d81ce337a491, _objectFactory.GetGridRPP("MG_Comments"),@"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("MG_Comments","11",querySourcefc9385e0be8b9893ddc2d81ce337a491,"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("MG_Comments"));
+
+base.WriteDebugInfo(@"var querySourcefc9385e0be8b9893ddc2d81ce337a491 =GetQueryExpressionDataSource(""fc9385e0-be8b-9893-ddc2-d81ce337a491"");DataTable resultfc9385e0be8b9893ddc2d81ce337a491=iSpace.SetGridDataSource(querySourcefc9385e0be8b9893ddc2d81ce337a491, _objectFactory.GetGridRPP(""MG_Comments""),@""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_Comments"",""11"",querySourcefc9385e0be8b9893ddc2d81ce337a491,""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""MG_Comments""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> resultb5b67bd83405b1007a48e1e328275325=acdataIspaceFF2ED87620AB4F5DB62B385405DFB900.GetQueryExpressionBindings("b5b67bd8-3405-b100-7a48-e1e328275325");
+iSpace.SetGridData(resultfc9385e0be8b9893ddc2d81ce337a491,resultb5b67bd83405b1007a48e1e328275325,"MG_Comments",ref ISpace);
+iSpace.UpdateGridBindDetails("MG_Comments",resultb5b67bd83405b1007a48e1e328275325);
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 public override void ExecuteMethod
 	(string methodName, string elementName,
 		ref Dictionary<string, ServiceElementData> dfsParam)
@@ -3540,6 +3588,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("submitform"))
 {
 			SubscribeElementEvents_submitform(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("m_history"))
+{
+			SubscribeElementEvents_m_history(ref dfsParam);
 }
 }
 }
@@ -3641,6 +3693,10 @@ base.WriteDebugInfo(@"");
 List<Triplet<string, short, short?>> result4ACD680C9EAE4FDBA4A3FC5C4D353701=acdataIspace2B40E332984042E38DDC002EAFAA05FA.GetQueryExpressionBindings("4ACD680C-9EAE-4FDB-A4A3-FC5C4D353701");
 iSpace.SetGridData(resultB8A2A58C91CA4FD4B3269652593DD27B,result4ACD680C9EAE4FDBA4A3FC5C4D353701,"MG_RemarksDetails",ref ISpace);
 iSpace.UpdateGridBindDetails("MG_RemarksDetails",result4ACD680C9EAE4FDBA4A3FC5C4D353701);
+ISpace["Comments"].Value="";
+base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
+ISpace["M_MoveTo"].Value="";
+base.WriteDebugInfo(@"ISpace[""M_MoveTo""].Value="""";");
 }
 catch(Exception ex)
 {
@@ -4540,6 +4596,42 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_m_history (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_History-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
+}
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+
+var querySourcefc9385e0be8b9893ddc2d81ce337a491 =GetQueryExpressionDataSource("fc9385e0-be8b-9893-ddc2-d81ce337a491");
+
+DataTable resultfc9385e0be8b9893ddc2d81ce337a491=iSpace.SetGridDataSource(querySourcefc9385e0be8b9893ddc2d81ce337a491, _objectFactory.GetGridRPP("MG_Comments"),@"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("MG_Comments","11",querySourcefc9385e0be8b9893ddc2d81ce337a491,"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("MG_Comments"));
+
+base.WriteDebugInfo(@"var querySourcefc9385e0be8b9893ddc2d81ce337a491 =GetQueryExpressionDataSource(""fc9385e0-be8b-9893-ddc2-d81ce337a491"");DataTable resultfc9385e0be8b9893ddc2d81ce337a491=iSpace.SetGridDataSource(querySourcefc9385e0be8b9893ddc2d81ce337a491, _objectFactory.GetGridRPP(""MG_Comments""),@""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_Comments"",""11"",querySourcefc9385e0be8b9893ddc2d81ce337a491,""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""MG_Comments""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> resultb5b67bd83405b1007a48e1e328275325=acdataIspace2B40E332984042E38DDC002EAFAA05FA.GetQueryExpressionBindings("b5b67bd8-3405-b100-7a48-e1e328275325");
+iSpace.SetGridData(resultfc9385e0be8b9893ddc2d81ce337a491,resultb5b67bd83405b1007a48e1e328275325,"MG_Comments",ref ISpace);
+iSpace.UpdateGridBindDetails("MG_Comments",resultb5b67bd83405b1007a48e1e328275325);
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_edit_receiptsplitup (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -4671,6 +4763,10 @@ public override void ExecuteMethod
 {
 			SubscribeElementEvents_delete(ref dfsParam);
 }
+		if(elementName.ToLower().Equals("m_history"))
+{
+			SubscribeElementEvents_m_history(ref dfsParam);
+}
 		if(elementName.ToLower().Equals("edit_receiptsplitup"))
 {
 			SubscribeElementEvents_edit_receiptsplitup(ref dfsParam);
@@ -4761,6 +4857,10 @@ base.WriteDebugInfo(@"");
 List<Triplet<string, short, short?>> result4ACD680C9EAE4FDBA4A3FC5C4D353701=acdataIspace537084A67B724CBEA0A2057049686345.GetQueryExpressionBindings("4ACD680C-9EAE-4FDB-A4A3-FC5C4D353701");
 iSpace.SetGridData(resultB8A2A58C91CA4FD4B3269652593DD27B,result4ACD680C9EAE4FDBA4A3FC5C4D353701,"MG_RemarksDetails",ref ISpace);
 iSpace.UpdateGridBindDetails("MG_RemarksDetails",result4ACD680C9EAE4FDBA4A3FC5C4D353701);
+ISpace["Comments"].Value="";
+base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
+ISpace["M_MoveTo"].Value="";
+base.WriteDebugInfo(@"ISpace[""M_MoveTo""].Value="""";");
 }
 catch(Exception ex)
 {
@@ -5088,6 +5188,42 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_m_history (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_History-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
+}
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+
+var querySourcefc9385e0be8b9893ddc2d81ce337a491 =GetQueryExpressionDataSource("fc9385e0-be8b-9893-ddc2-d81ce337a491");
+
+DataTable resultfc9385e0be8b9893ddc2d81ce337a491=iSpace.SetGridDataSource(querySourcefc9385e0be8b9893ddc2d81ce337a491, _objectFactory.GetGridRPP("MG_Comments"),@"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("MG_Comments","11",querySourcefc9385e0be8b9893ddc2d81ce337a491,"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("MG_Comments"));
+
+base.WriteDebugInfo(@"var querySourcefc9385e0be8b9893ddc2d81ce337a491 =GetQueryExpressionDataSource(""fc9385e0-be8b-9893-ddc2-d81ce337a491"");DataTable resultfc9385e0be8b9893ddc2d81ce337a491=iSpace.SetGridDataSource(querySourcefc9385e0be8b9893ddc2d81ce337a491, _objectFactory.GetGridRPP(""MG_Comments""),@""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_Comments"",""11"",querySourcefc9385e0be8b9893ddc2d81ce337a491,""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""MG_Comments""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> resultb5b67bd83405b1007a48e1e328275325=acdataIspace537084A67B724CBEA0A2057049686345.GetQueryExpressionBindings("b5b67bd8-3405-b100-7a48-e1e328275325");
+iSpace.SetGridData(resultfc9385e0be8b9893ddc2d81ce337a491,resultb5b67bd83405b1007a48e1e328275325,"MG_Comments",ref ISpace);
+iSpace.UpdateGridBindDetails("MG_Comments",resultb5b67bd83405b1007a48e1e328275325);
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 public override void ExecuteMethod
 	(string methodName, string elementName,
 		ref Dictionary<string, ServiceElementData> dfsParam)
@@ -5108,6 +5244,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("submitform"))
 {
 			SubscribeElementEvents_submitform(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("m_history"))
+{
+			SubscribeElementEvents_m_history(ref dfsParam);
 }
 }
 }
@@ -5370,6 +5510,22 @@ using System;
 														   -1),
 								}
 			},
+							{"b5b67bd8-3405-b100-7a48-e1e328275325", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("C_Comments",5,
+														   -1),
+								   new Triplet<string, short, short?>("C_DateofComments",4,
+														   -1),
+								   new Triplet<string, short, short?>("C_Stepfrom",1,
+														   -1),
+								   new Triplet<string, short, short?>("C_StepTo",2,
+														   -1),
+								   new Triplet<string, short, short?>("C_User",3,
+														   -1),
+								}
+			},
 					};	
 
 	
@@ -5543,6 +5699,22 @@ using System;
 								   new Triplet<string, short, short?>("A_OverallSantionedAmount",5,
 														   -1),
 								   new Triplet<string, short, short?>("MG_AvailableAmount",4,
+														   -1),
+								}
+			},
+							{"b5b67bd8-3405-b100-7a48-e1e328275325", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("C_Comments",5,
+														   -1),
+								   new Triplet<string, short, short?>("C_DateofComments",4,
+														   -1),
+								   new Triplet<string, short, short?>("C_Stepfrom",1,
+														   -1),
+								   new Triplet<string, short, short?>("C_StepTo",2,
+														   -1),
+								   new Triplet<string, short, short?>("C_User",3,
 														   -1),
 								}
 			},
@@ -5993,6 +6165,22 @@ using System;
 								   new Triplet<string, short, short?>("RemarksId",0,
 														   -1),
 								   new Triplet<string, short, short?>("UserName",2,
+														   -1),
+								}
+			},
+							{"b5b67bd8-3405-b100-7a48-e1e328275325", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("C_Comments",5,
+														   -1),
+								   new Triplet<string, short, short?>("C_DateofComments",4,
+														   -1),
+								   new Triplet<string, short, short?>("C_Stepfrom",1,
+														   -1),
+								   new Triplet<string, short, short?>("C_StepTo",2,
+														   -1),
+								   new Triplet<string, short, short?>("C_User",3,
 														   -1),
 								}
 			},

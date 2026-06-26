@@ -286,7 +286,7 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("MF_d10_ProjectproposalID","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
-												     @"EXEC [GetProjectproposalDetails] 1,'@MF_d10_InstanceId','@MF_d10_EmployeeBasicInfoId'"),
+												     @"EXEC [GetProjectproposalDetails] 1,'@MF_d10_ProjectDetailsID','@MF_d10_EmployeeBasicInfoId'"),
 			
 						
 			     new Triplet<string, string, string>("MF_d10_ProjectCategoryID","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
