@@ -8,6 +8,5 @@ jobs:
     uses: ./.github/workflows/dotnet.yml
     secrets: inherit
   deploy-react:
-    needs: deploy-dotnet
     uses: ./.github/workflows/react.yml
     secrets: inherit
