@@ -1,0 +1,90 @@
+name: React App Deployment
+on:
+  workflow_call:
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        working-directory: Client
+        run: npm ci
+
+      - name: Build React App
+        working-directory: Client
+        run: npm run build
+        env:
+          CI: false
+          NODE_OPTIONS: --max-old-space-size=4096
+          VITE_BASE_URL: ${{ secrets.VITE_BASE_URL }}
+          VITE_AUTH_URL: ${{ secrets.VITE_AUTH_URL }}
+          VITE_DOCUMENT_SERVICE_URL: ${{ secrets.VITE_DOCUMENT_SERVICE_URL }}
+          VITE_BASE_EXECUTION_URL: ${{ secrets.VITE_BASE_EXECUTION_URL }}
+          VITE_INBOX_SETTING_ID: ${{ secrets.VITE_INBOX_SETTING_ID }}
+          VITE_URL: ${{ secrets.VITE_URL }}
+
+      - name: Install OpenVPN & sshpass
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y openvpn sshpass
+
+      - name: Create VPN Config & Credentials
+        run: |
+          echo "${{ secrets.VPN_CONFIG }}" > vpn.ovpn
+          printf '%s\n%s\n' "${{ secrets.VPN_USERNAME }}" "${{ secrets.VPN_PASSWORD }}" > vpn-auth.txt
+          chmod 600 vpn.ovpn vpn-auth.txt
+
+      - name: Connect VPN
+        run: |
+          sudo openvpn \
+            --config vpn.ovpn \
+            --auth-user-pass vpn-auth.txt \
+            --daemon \
+            --log /tmp/openvpn.log
+
+      - name: Wait for VPN tunnel
+        run: |
+          for i in $(seq 1 60); do
+            VPN_IFACE=$(ip link show | awk -F': ' '/^[0-9]+: (tun|tap)/{print $2}' | head -1)
+            if [ -n "$VPN_IFACE" ]; then
+              echo "VPN interface detected: $VPN_IFACE"
+              break
+            fi
+            echo "Waiting for VPN interface... ($i/60)"
+            sleep 2
+          done
+          if [ -z "$VPN_IFACE" ]; then
+            echo "--- OpenVPN log ---"
+            sudo cat /tmp/openvpn.log
+            exit 1
+          fi
+
+      - name: Verify VPN Connectivity
+        run: ping -c 4 ${{ secrets.SERVER_IP }}
+
+      - name: Clear old React files
+        run: |
+          sshpass -p "${{ secrets.SERVER_PASSWORD }}" \
+            ssh -o StrictHostKeyChecking=no \
+            ${{ secrets.SERVER_USER }}@${{ secrets.SERVER_IP }} \
+            "rm -rf /home/Share/Presentations/CIMS/* && echo 'Old React files cleared'"
+
+      - name: Deploy React Build
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USER }}
+          password: ${{ secrets.SERVER_PASSWORD }}
+          source: "Client/dist/*"
+          target: /home/Share/Presentations/CIMS
+          strip_components: 2
+
+      - name: Cleanup VPN Secrets
+        if: always()
+        run: rm -f vpn.ovpn vpn-auth.txt

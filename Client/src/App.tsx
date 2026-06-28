@@ -113,9 +113,6 @@ const ProjectFundInstallment_RDOffice = React.lazy(() =>
 const ProjectProposal_Additional = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_Additional")
   );
-const TaskSummaryWithFilters_Start = React.lazy(() =>
-    import("@/pages/PRJ20251020000000025-R&DProjects/TaskSummaryWithFilters_Start")
-  );
 const TravelRequest_RDDean = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_RDDean")
   );
@@ -228,7 +225,6 @@ const App: React.FC = () => {
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequest_AdditionalDetails" element={<TravelRequest_AdditionalDetails />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_RDOffice" element={<ProjectFundInstallment_RDOffice />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_Additional" element={<ProjectProposal_Additional />} />
-              <Route path="/PRJ20251020000000025-R&DProjects/TaskSummaryWithFilters_Start" element={<TaskSummaryWithFilters_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequest_RDDean" element={<TravelRequest_RDDean />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_PIInitiation" element={<ProjectFundInstallment_PIInitiation />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursement_AdditionalDetails" element={<ProjectReimbursement_AdditionalDetails />} />
