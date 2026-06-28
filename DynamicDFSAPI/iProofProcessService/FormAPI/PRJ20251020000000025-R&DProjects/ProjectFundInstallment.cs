@@ -173,7 +173,7 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("658407BF-CBFF-443B-AA60-4C126BC8B3CE","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"300A3A31-6181-43BC-865F-73BE07692674"),
+												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
 						
 			     new Triplet<string, string, string>("3B027C62-1634-4105-BF4D-15B3AA014207","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
