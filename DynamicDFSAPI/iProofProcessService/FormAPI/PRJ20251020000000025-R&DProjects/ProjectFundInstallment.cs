@@ -153,7 +153,7 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("A5DC1822-50F5-461F-AA7F-4043FAB5724D","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"300A3A31-6181-43BC-865F-73BE07692674"),
+												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
 						
 			     new Triplet<string, string, string>("3A06B075-E487-4835-B114-FD3DF7DAC69D","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
@@ -2645,12 +2645,12 @@ base.WriteDebugInfo(@"ISpace[""Instanceid""].Value=Guid.NewGuid().ToString();");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-base.WriteDebugInfo(@"exec GetMySponsoredProjects 6,'#ProjectCode',''");
+base.WriteDebugInfo(@"EXEC [GetMySponsoredProjects] 6,'#ProjectCode',''");
 
 var querySource3B027C6216344105BF4D15B3AA014207 =GetQueryExpressionDataSource("3B027C62-1634-4105-BF4D-15B3AA014207");
-Dictionary<short,object> result3B027C6216344105BF4D15B3AA014207=iSpace.ExecuteQuery(querySource3B027C6216344105BF4D15B3AA014207,@"execGetMySponsoredProjects 6,'" + ISpace["ProjectCode"].Value + @"',''",false);
+Dictionary<short,object> result3B027C6216344105BF4D15B3AA014207=iSpace.ExecuteQuery(querySource3B027C6216344105BF4D15B3AA014207,@"EXEC [GetMySponsoredProjects] 6,'" + ISpace["ProjectCode"].Value + @"',''",false);
 
-base.WriteDebugInfo(@"var querySource3B027C6216344105BF4D15B3AA014207 =GetQueryExpressionDataSource(""3B027C62-1634-4105-BF4D-15B3AA014207"");Dictionary<short,object> result3B027C6216344105BF4D15B3AA014207=iSpace.ExecuteQuery(querySource3B027C6216344105BF4D15B3AA014207,@""execGetMySponsoredProjects 6,'"" + ISpace[""ProjectCode""].Value + @""',''"",false);");
+base.WriteDebugInfo(@"var querySource3B027C6216344105BF4D15B3AA014207 =GetQueryExpressionDataSource(""3B027C62-1634-4105-BF4D-15B3AA014207"");Dictionary<short,object> result3B027C6216344105BF4D15B3AA014207=iSpace.ExecuteQuery(querySource3B027C6216344105BF4D15B3AA014207,@""EXEC [GetMySponsoredProjects] 6,'"" + ISpace[""ProjectCode""].Value + @""',''"",false);");
 base.WriteDebugInfo(@"");
 
 if((result3B027C6216344105BF4D15B3AA014207!=null) && (result3B027C6216344105BF4D15B3AA014207.Count!=0))
@@ -4101,12 +4101,12 @@ base.WriteDebugInfo(@"ISpace[""Instanceid""].Value=Guid.NewGuid().ToString();");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
-base.WriteDebugInfo(@"exec GetMySponsoredProjects 6,'#ProjectCode',''");
+base.WriteDebugInfo(@"EXEC [GetMySponsoredProjects] 6,'#ProjectCode',''");
 
 var querySource3B027C6216344105BF4D15B3AA014207 =GetQueryExpressionDataSource("3B027C62-1634-4105-BF4D-15B3AA014207");
-Dictionary<short,object> result3B027C6216344105BF4D15B3AA014207=iSpace.ExecuteQuery(querySource3B027C6216344105BF4D15B3AA014207,@"execGetMySponsoredProjects 6,'" + ISpace["ProjectCode"].Value + @"',''",false);
+Dictionary<short,object> result3B027C6216344105BF4D15B3AA014207=iSpace.ExecuteQuery(querySource3B027C6216344105BF4D15B3AA014207,@"EXEC [GetMySponsoredProjects] 6,'" + ISpace["ProjectCode"].Value + @"',''",false);
 
-base.WriteDebugInfo(@"var querySource3B027C6216344105BF4D15B3AA014207 =GetQueryExpressionDataSource(""3B027C62-1634-4105-BF4D-15B3AA014207"");Dictionary<short,object> result3B027C6216344105BF4D15B3AA014207=iSpace.ExecuteQuery(querySource3B027C6216344105BF4D15B3AA014207,@""execGetMySponsoredProjects 6,'"" + ISpace[""ProjectCode""].Value + @""',''"",false);");
+base.WriteDebugInfo(@"var querySource3B027C6216344105BF4D15B3AA014207 =GetQueryExpressionDataSource(""3B027C62-1634-4105-BF4D-15B3AA014207"");Dictionary<short,object> result3B027C6216344105BF4D15B3AA014207=iSpace.ExecuteQuery(querySource3B027C6216344105BF4D15B3AA014207,@""EXEC [GetMySponsoredProjects] 6,'"" + ISpace[""ProjectCode""].Value + @""',''"",false);");
 base.WriteDebugInfo(@"");
 
 if((result3B027C6216344105BF4D15B3AA014207!=null) && (result3B027C6216344105BF4D15B3AA014207.Count!=0))
