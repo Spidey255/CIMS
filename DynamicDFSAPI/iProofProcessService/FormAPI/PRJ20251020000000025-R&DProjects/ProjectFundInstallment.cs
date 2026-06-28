@@ -1910,6 +1910,18 @@ base.WriteDebugInfo(@"");
 List<Triplet<string, short, short?>> result4ACD680C9EAE4FDBA4A3FC5C4D353701=acdataIspaceDDBF52926EF44C37B72AE6DCFFBF7B02.GetQueryExpressionBindings("4ACD680C-9EAE-4FDB-A4A3-FC5C4D353701");
 iSpace.SetGridData(resultB8A2A58C91CA4FD4B3269652593DD27B,result4ACD680C9EAE4FDBA4A3FC5C4D353701,"MG_RemarksDetails",ref ISpace);
 iSpace.UpdateGridBindDetails("MG_RemarksDetails",result4ACD680C9EAE4FDBA4A3FC5C4D353701);
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+if(ISpace["FormVersionId"].Value=="B1CB93DB-7B9C-4661-BE11-02ED3BFD5725")
+{
+ISpace["UI_InvisibleRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-BE11-02ED3BFD5725"")
+{
+ISpace[""UI_InvisibleRow""].Visible=""false"";
+}");
+}
 }
 catch(Exception ex)
 {
@@ -2774,8 +2786,8 @@ return;");
 if(ISpace["MF_P1_ReceiptDate"].Value<ISpace["C_FC_StartDate_15"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_ReceiptDate""].Value<ISpace[""C_FC_StartDate_15""].Value)");
-ISpace["Message"].Value=@"SUCCESS:Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date"";");
+ISpace["Message"].Value=@"ERROR:Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date"";");
 ISpace["MF_P1_ReceiptDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MF_P1_ReceiptDate""].Value=null;");
 ISpace["IsCancelled"].Value = true; 
@@ -2788,8 +2800,8 @@ return;");
 if(ISpace["MF_P1_ReceiptDate"].Value>=ISpace["C_FC_EndDate"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_ReceiptDate""].Value>=ISpace[""C_FC_EndDate""].Value)");
-ISpace["Message"].Value=@"WARNING:Fund Installment Date should be less than Closing Date  or Actual End Date";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""WARNING:Fund Installment Date should be less than Closing Date  or Actual End Date"";");
+ISpace["Message"].Value=@"ERROR:Fund Installment Date should be less than Closing Date  or Actual End Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Fund Installment Date should be less than Closing Date  or Actual End Date"";");
 ISpace["MF_P1_ReceiptDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MF_P1_ReceiptDate""].Value=null;");
 ISpace["IsCancelled"].Value = true; 
@@ -3185,6 +3197,18 @@ ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 ISpace["M_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_MoveTo""].Value="""";");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+if(ISpace["FormVersionId"].Value=="B1CB93DB-7B9C-4661-BE11-02ED3BFD5725")
+{
+ISpace["UI_InvisibleRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-BE11-02ED3BFD5725"")
+{
+ISpace[""UI_InvisibleRow""].Visible=""false"";
+}");
+}
 }
 catch(Exception ex)
 {
@@ -3697,6 +3721,18 @@ ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 ISpace["M_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_MoveTo""].Value="""";");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+if(ISpace["FormVersionId"].Value=="B1CB93DB-7B9C-4661-BE11-02ED3BFD5725")
+{
+ISpace["UI_InvisibleRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-BE11-02ED3BFD5725"")
+{
+ISpace[""UI_InvisibleRow""].Visible=""false"";
+}");
+}
 }
 catch(Exception ex)
 {
@@ -4354,8 +4390,8 @@ return;");
 if(ISpace["MF_P1_ReceiptDate"].Value<ISpace["C_FC_StartDate_15"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_ReceiptDate""].Value<ISpace[""C_FC_StartDate_15""].Value)");
-ISpace["Message"].Value=@"SUCCESS:Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date"";");
+ISpace["Message"].Value=@"ERROR:Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Fund Installment Date should be greater than or equal to Starting Date or Actual Start Date"";");
 ISpace["MF_P1_ReceiptDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MF_P1_ReceiptDate""].Value=null;");
 ISpace["IsCancelled"].Value = true; 
@@ -4368,8 +4404,8 @@ return;");
 if(ISpace["MF_P1_ReceiptDate"].Value>=ISpace["C_FC_EndDate"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_ReceiptDate""].Value>=ISpace[""C_FC_EndDate""].Value)");
-ISpace["Message"].Value=@"WARNING:Fund Installment Date should be less than Closing Date  or Actual End Date";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""WARNING:Fund Installment Date should be less than Closing Date  or Actual End Date"";");
+ISpace["Message"].Value=@"ERROR:Fund Installment Date should be less than Closing Date  or Actual End Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Fund Installment Date should be less than Closing Date  or Actual End Date"";");
 ISpace["MF_P1_ReceiptDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MF_P1_ReceiptDate""].Value=null;");
 ISpace["IsCancelled"].Value = true; 
@@ -4861,6 +4897,18 @@ ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 ISpace["M_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_MoveTo""].Value="""";");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+if(ISpace["FormVersionId"].Value=="B1CB93DB-7B9C-4661-BE11-02ED3BFD5725")
+{
+ISpace["UI_InvisibleRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-BE11-02ED3BFD5725"")
+{
+ISpace[""UI_InvisibleRow""].Visible=""false"";
+}");
+}
 }
 catch(Exception ex)
 {
