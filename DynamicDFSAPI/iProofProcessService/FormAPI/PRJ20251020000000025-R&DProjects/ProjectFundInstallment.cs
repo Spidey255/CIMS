@@ -196,19 +196,7 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
-			     new Triplet<string, string, string>("b25829de-0dac-f553-841b-af18f5d427f5","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
-			     new Triplet<string, string, string>("0B4B727A-F2FC-49FD-ADAE-2CCF203DB052","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
 			     new Triplet<string, string, string>("8ededcfe-5ada-cbe6-9029-76086059adc4","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
-			     new Triplet<string, string, string>("DE3FD546-5790-40D2-8E8A-EB9179B047C4","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
@@ -217,10 +205,6 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("dbd67128-b3fd-6fe2-32e3-a8d6e1f86bde","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
-			
-						
-			     new Triplet<string, string, string>("F8133204-4D25-45DD-90C1-B4DD31CFF7F4","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
@@ -1940,8 +1924,8 @@ base.WriteDebugInfo(@"if(1==1)");
 if(ISpace["MF_P1_ReceiptAmount"].Value==0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_ReceiptAmount""].Value==0)");
-ISpace["Message"].Value=@"Please Enter the Amount";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Amount"";");
+ISpace["Message"].Value=@"ERROR:Please Enter the Amount";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Please Enter the Amount"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -1952,8 +1936,8 @@ return;");
 if((ISpace["MF_P1_ReceiptDate"].Value == null))
 {
 base.WriteDebugInfo(@"if((ISpace[""MF_P1_ReceiptDate""].Value == null))");
-ISpace["Message"].Value=@"Please Enter the Date";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Date"";");
+ISpace["Message"].Value=@"ERROR:Please Enter the Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Please Enter the Date"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -1964,8 +1948,8 @@ return;");
 if(1==2)
 {
 base.WriteDebugInfo(@"if(1==2)");
-ISpace["Message"].Value=@"Please Enter the Transfer Type";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Transfer Type"";");
+ISpace["Message"].Value=@"ERROR:Please Enter the Transfer Type";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Please Enter the Transfer Type"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -2040,8 +2024,8 @@ base.WriteDebugInfo(@"if(1==1)");
 if(ISpace["MF_P1_ReceiptAmount"].Value!=ISpace["R_TotalSplitUpAmount"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_ReceiptAmount""].Value!=ISpace[""R_TotalSplitUpAmount""].Value)");
-ISpace["Message"].Value=@"Split Up total should be equal to Fund Installment Amount";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Split Up total should be equal to Fund Installment Amount"";");
+ISpace["Message"].Value=@"ERROR:Split Up total should be equal to Fund Installment Amount";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Split Up total should be equal to Fund Installment Amount"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -2050,78 +2034,11 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-base.WriteDebugInfo(@"#ReceiptSplitUp[Rows]");
-if (!iSpace.GetGridTableRows("ReceiptSplitUp","Select * from Proof..[249EF445-9B49-4EF9-8045-46BD1E6FF8ED] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+if(1==1)
 {
-    iSpace.GetLoopExpressionData("ReceiptSplitUp",ref ISpace);
-}
-
-foreach(var gridChild in ISpace["ReceiptSplitUp"].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-
-
-
-ISpace["M_Amount"].Value=ISpace["MG_R2_Amount"].Value;
-base.WriteDebugInfo(@"
-
-ISpace[""M_Amount""].Value=ISpace[""MG_R2_Amount""].Value;");
-
-
-ISpace["M_Budgetid"].Value=ISpace["MG_R2_BudgetId"].Value;
-base.WriteDebugInfo(@"
-
-ISpace[""M_Budgetid""].Value=ISpace[""MG_R2_BudgetId""].Value;");
-base.WriteDebugInfo(@"exec ValidateBudgetHeadAmount '#C_FC_ProjectNo_15','#M_Budgetid','#M_Amount'");
-
-var querySourceF81332044D2545DD90C1B4DD31CFF7F4 =GetQueryExpressionDataSource("F8133204-4D25-45DD-90C1-B4DD31CFF7F4");
-Dictionary<short,object> resultF81332044D2545DD90C1B4DD31CFF7F4=iSpace.ExecuteQuery(querySourceF81332044D2545DD90C1B4DD31CFF7F4,@"exec ValidateBudgetHeadAmount '" + ISpace["C_FC_ProjectNo_15"].Value + @"','" + ISpace["M_Budgetid"].Value + @"','" + ISpace["M_Amount"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySourceF81332044D2545DD90C1B4DD31CFF7F4 =GetQueryExpressionDataSource(""F8133204-4D25-45DD-90C1-B4DD31CFF7F4"");Dictionary<short,object> resultF81332044D2545DD90C1B4DD31CFF7F4=iSpace.ExecuteQuery(querySourceF81332044D2545DD90C1B4DD31CFF7F4,@""exec ValidateBudgetHeadAmount '"" + ISpace[""C_FC_ProjectNo_15""].Value + @""','"" + ISpace[""M_Budgetid""].Value + @""','"" + ISpace[""M_Amount""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((resultF81332044D2545DD90C1B4DD31CFF7F4!=null) && (resultF81332044D2545DD90C1B4DD31CFF7F4.Count!=0))
-{
-if(resultF81332044D2545DD90C1B4DD31CFF7F4.ContainsKey(0))
-ISpace["M_BudgetErr"].Value = resultF81332044D2545DD90C1B4DD31CFF7F4[0];
-if(resultF81332044D2545DD90C1B4DD31CFF7F4.ContainsKey(1))
-ISpace["M_BudgetErrMsg"].Value = resultF81332044D2545DD90C1B4DD31CFF7F4[1];
-}
-else{
-ISpace["M_BudgetErr"].Value = null;ISpace["M_BudgetErrMsg"].Value = null;
-}
-
-if(
-ISpace["M_BudgetErr"].Value==1)
-{
-base.WriteDebugInfo(@"
-if(
-ISpace[""M_BudgetErr""].Value==1)");
-ISpace["Message"].Value=String.Format(@"{0}",ISpace["M_BudgetErrMsg"].Value);
-base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""M_BudgetErrMsg""].Value);");
-ISpace["IsCancelled"].Value = true; 
-
-return;
-base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
-
-return;");
-}
-}
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",ISpace), ref ISpace);
-base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReceiptSplitUp"",""Select * from Proof..[249EF445-9B49-4EF9-8045-46BD1E6FF8ED] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
-{
-    iSpace.GetLoopExpressionData(""ReceiptSplitUp"",ref ISpace);
-}
-
-foreach(var gridChild in ISpace[""ReceiptSplitUp""].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-");
-if(ISpace["M_SaveDomainData"].Value==1 || 1==1)
-{
-base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1 || 1==1)");
-ISpace["MF_P1_Status"].Value="A";
-base.WriteDebugInfo(@"ISpace[""MF_P1_Status""].Value=""A"";");
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["MF_P1_Status"].Value="S";
+base.WriteDebugInfo(@"ISpace[""MF_P1_Status""].Value=""S"";");
 base.WriteDebugInfo(@"EXEC UpsertProjectReceipts '#MF_P1_ReceiptsId','#MF_P1_TransferReferenceBankId','#MF_P1_ReceiptDate','#MF_P1_ReceiptNo','#UC_EmployeeBaicInfoId','#MF_P1_Status','#MF_P1_TransferReferenceDate','#MF_P1_TransferReferenceBranch','#MF_P1_UpdatedBy','#MF_P1_TransferType','#C_FC_ProjectNo_15'");
 
 var querySource8ededcfe5adacbe6902976086059adc4 =GetQueryExpressionDataSource("8ededcfe-5ada-cbe6-9029-76086059adc4");
@@ -2212,132 +2129,9 @@ foreach(var gridChild in ISpace[""MG_DcoumentDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
  {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
 ");
-base.WriteDebugInfo(@"EXEC UpsertCreateProjectDetails '#MF_ProjectDetailsID','#MF_P1_ActualDate','#MF_P1_ActualEndDate'");
-
-var querySourceb25829de0dacf553841baf18f5d427f5 =GetQueryExpressionDataSource("b25829de-0dac-f553-841b-af18f5d427f5");
-Dictionary<short,object> resultb25829de0dacf553841baf18f5d427f5=iSpace.ExecuteQuery(querySourceb25829de0dacf553841baf18f5d427f5,@"EXEC UpsertCreateProjectDetails '" + ISpace["MF_ProjectDetailsID"].Value + @"','" + ISpace["MF_P1_ActualDate"].Value + @"','" + ISpace["MF_P1_ActualEndDate"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySourceb25829de0dacf553841baf18f5d427f5 =GetQueryExpressionDataSource(""b25829de-0dac-f553-841b-af18f5d427f5"");Dictionary<short,object> resultb25829de0dacf553841baf18f5d427f5=iSpace.ExecuteQuery(querySourceb25829de0dacf553841baf18f5d427f5,@""EXEC UpsertCreateProjectDetails '"" + ISpace[""MF_ProjectDetailsID""].Value + @""','"" + ISpace[""MF_P1_ActualDate""].Value + @""','"" + ISpace[""MF_P1_ActualEndDate""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((resultb25829de0dacf553841baf18f5d427f5!=null) && (resultb25829de0dacf553841baf18f5d427f5.Count!=0))
-{
-if(resultb25829de0dacf553841baf18f5d427f5.ContainsKey(0))
-ISpace["ExecutionMessage"].Value = resultb25829de0dacf553841baf18f5d427f5[0];
+ISpace["Message"].Value=@"SUCCESS:Submitted Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Submitted Successfully"";");
 }
-else{
-ISpace["ExecutionMessage"].Value = null;
-}
-base.WriteDebugInfo(@"exec UpdateOverHeadSplitData '#C_FC_ProjectNo_15','#MF_P1_ReceiptsId','@@gv_ProcessMapId'");
-
-var querySourceDE3FD546579040D28E8AEB9179B047C4 =GetQueryExpressionDataSource("DE3FD546-5790-40D2-8E8A-EB9179B047C4");
-Dictionary<short,object> resultDE3FD546579040D28E8AEB9179B047C4=iSpace.ExecuteQuery(querySourceDE3FD546579040D28E8AEB9179B047C4,@"exec UpdateOverHeadSplitData '" + ISpace["C_FC_ProjectNo_15"].Value + @"','" + ISpace["MF_P1_ReceiptsId"].Value + @"','" + ISpace["gv_processmapid"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySourceDE3FD546579040D28E8AEB9179B047C4 =GetQueryExpressionDataSource(""DE3FD546-5790-40D2-8E8A-EB9179B047C4"");Dictionary<short,object> resultDE3FD546579040D28E8AEB9179B047C4=iSpace.ExecuteQuery(querySourceDE3FD546579040D28E8AEB9179B047C4,@""exec UpdateOverHeadSplitData '"" + ISpace[""C_FC_ProjectNo_15""].Value + @""','"" + ISpace[""MF_P1_ReceiptsId""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((resultDE3FD546579040D28E8AEB9179B047C4!=null) && (resultDE3FD546579040D28E8AEB9179B047C4.Count!=0))
-{
-if(resultDE3FD546579040D28E8AEB9179B047C4.ContainsKey(0))
-ISpace["Subject"].Value = resultDE3FD546579040D28E8AEB9179B047C4[0];
-}
-else{
-ISpace["Subject"].Value = null;
-}
-base.WriteDebugInfo(@"EXEC [UpsertProjectBudgetDetails] 4,'#C_FC_ProjectNo_15','#MF_P1_ReceiptsId'");
-
-var querySource0B4B727AF2FC49FDADAE2CCF203DB052 =GetQueryExpressionDataSource("0B4B727A-F2FC-49FD-ADAE-2CCF203DB052");
-Dictionary<short,object> result0B4B727AF2FC49FDADAE2CCF203DB052=iSpace.ExecuteQuery(querySource0B4B727AF2FC49FDADAE2CCF203DB052,@"EXEC [UpsertProjectBudgetDetails] 4,'" + ISpace["C_FC_ProjectNo_15"].Value + @"','" + ISpace["MF_P1_ReceiptsId"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySource0B4B727AF2FC49FDADAE2CCF203DB052 =GetQueryExpressionDataSource(""0B4B727A-F2FC-49FD-ADAE-2CCF203DB052"");Dictionary<short,object> result0B4B727AF2FC49FDADAE2CCF203DB052=iSpace.ExecuteQuery(querySource0B4B727AF2FC49FDADAE2CCF203DB052,@""EXEC [UpsertProjectBudgetDetails] 4,'"" + ISpace[""C_FC_ProjectNo_15""].Value + @""','"" + ISpace[""MF_P1_ReceiptsId""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((result0B4B727AF2FC49FDADAE2CCF203DB052!=null) && (result0B4B727AF2FC49FDADAE2CCF203DB052.Count!=0))
-{
-if(result0B4B727AF2FC49FDADAE2CCF203DB052.ContainsKey(0))
-ISpace["Subject"].Value = result0B4B727AF2FC49FDADAE2CCF203DB052[0];
-}
-else{
-ISpace["Subject"].Value = null;
-}
-}
-base.WriteDebugInfo(@"#MG_DcoumentDetails[Rows]");
-if (!iSpace.GetGridTableRows("MG_DcoumentDetails","Select * from Proof..[C2287754-790E-4853-A5A7-64772676D00E] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
-{
-    iSpace.GetLoopExpressionData("MG_DcoumentDetails",ref ISpace);
-}
-
-foreach(var gridChild in ISpace["MG_DcoumentDetails"].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-
-
-if(
-ISpace["M_DocumentName"].Value=="")
-{
-base.WriteDebugInfo(@"
-if(
-ISpace[""M_DocumentName""].Value=="""")");
-ISpace["Message"].Value=@"Document Name should be Mandatory";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Document Name should be Mandatory"";");
-ISpace["IsCancelled"].Value = true; 
-
-return;
-base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
-
-return;");
-}
-
-if(
-IsNullOrEmpty(ISpace["M_UploadDcoument"].Value))
-{
-base.WriteDebugInfo(@"
-if(
-IsNullOrEmpty(ISpace[""M_UploadDcoument""].Value))");
-ISpace["Message"].Value=@"Upload Document should be mandatory";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Upload Document should be mandatory"";");
-ISpace["IsCancelled"].Value = true; 
-
-return;
-base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
-
-return;");
-}
-}
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_DcoumentDetails","C2287754-790E-4853-A5A7-64772676D00E",_objectFactory.GetGridRPP("MG_DcoumentDetails"),_elementBase.GetGridLoopQuery("C2287754-790E-4853-A5A7-64772676D00E","MG_DcoumentDetails",ISpace), ref ISpace);
-base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""MG_DcoumentDetails"",""Select * from Proof..[C2287754-790E-4853-A5A7-64772676D00E] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
-{
-    iSpace.GetLoopExpressionData(""MG_DcoumentDetails"",ref ISpace);
-}
-
-foreach(var gridChild in ISpace[""MG_DcoumentDetails""].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-");
-ISpace["SetDestinationTo"].Value=ISpace["M_DestinationActivityId"].Value;
-base.WriteDebugInfo(@"ISpace[""SetDestinationTo""].Value=ISpace[""M_DestinationActivityId""].Value;");
-if(1==1)
-{
-base.WriteDebugInfo(@"if(1==1)");
-ISpace["M_Status"].Value="Pending";
-base.WriteDebugInfo(@"ISpace[""M_Status""].Value=""Pending"";");
-}
-ISpace["Message"].Value=@"Submitted Successfully";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Submitted Successfully"";");
-
-var querySourceB8A2A58C91CA4FD4B3269652593DD27B =GetQueryExpressionDataSource("B8A2A58C-91CA-4FD4-B326-9652593DD27B");
-
-DataTable resultB8A2A58C91CA4FD4B3269652593DD27B=iSpace.SetGridDataSource(querySourceB8A2A58C91CA4FD4B3269652593DD27B, _objectFactory.GetGridRPP("MG_RemarksDetails"),@"EXEC GetRemarks '" + ISpace["Instanceid"].Value + @"'");
-
-iSpace.InsertGridBindDetails("MG_RemarksDetails","11",querySourceB8A2A58C91CA4FD4B3269652593DD27B,"EXEC GetRemarks '" + ISpace["Instanceid"].Value + @"'",_objectFactory.GetGridRPP("MG_RemarksDetails"));
-
-base.WriteDebugInfo(@"var querySourceB8A2A58C91CA4FD4B3269652593DD27B =GetQueryExpressionDataSource(""B8A2A58C-91CA-4FD4-B326-9652593DD27B"");DataTable resultB8A2A58C91CA4FD4B3269652593DD27B=iSpace.SetGridDataSource(querySourceB8A2A58C91CA4FD4B3269652593DD27B, _objectFactory.GetGridRPP(""MG_RemarksDetails""),@""EXEC GetRemarks '"" + ISpace[""Instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_RemarksDetails"",""11"",querySourceB8A2A58C91CA4FD4B3269652593DD27B,""EXEC GetRemarks '"" + ISpace[""Instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""MG_RemarksDetails""));");
-base.WriteDebugInfo(@"");
-
-
-List<Triplet<string, short, short?>> result4ACD680C9EAE4FDBA4A3FC5C4D353701=acdataIspaceDDBF52926EF44C37B72AE6DCFFBF7B02.GetQueryExpressionBindings("4ACD680C-9EAE-4FDB-A4A3-FC5C4D353701");
-iSpace.SetGridData(resultB8A2A58C91CA4FD4B3269652593DD27B,result4ACD680C9EAE4FDBA4A3FC5C4D353701,"MG_RemarksDetails",ref ISpace);
-iSpace.UpdateGridBindDetails("MG_RemarksDetails",result4ACD680C9EAE4FDBA4A3FC5C4D353701);
 }
 catch(Exception ex)
 {
@@ -2663,6 +2457,8 @@ ISpace["FRValues"].Value = result3B027C6216344105BF4D15B3AA014207[1];
 else{
 ISpace["MF_P1_ReceiptNo"].Value = null;ISpace["FRValues"].Value = null;
 }
+ISpace["Subject"].Value=ISpace["MF_P1_ReceiptNo"].Value;
+base.WriteDebugInfo(@"ISpace[""Subject""].Value=ISpace[""MF_P1_ReceiptNo""].Value;");
 }
 if(ISpace["FRValues"].Value=="1")
 {
@@ -3233,78 +3029,11 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 
 return;");
 }
-base.WriteDebugInfo(@"#ReceiptSplitUp[Rows]");
-if (!iSpace.GetGridTableRows("ReceiptSplitUp","Select * from Proof..[249EF445-9B49-4EF9-8045-46BD1E6FF8ED] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+if(1==1)
 {
-    iSpace.GetLoopExpressionData("ReceiptSplitUp",ref ISpace);
-}
-
-foreach(var gridChild in ISpace["ReceiptSplitUp"].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-
-
-
-ISpace["M_Amount"].Value=ISpace["MG_R2_Amount"].Value;
-base.WriteDebugInfo(@"
-
-ISpace[""M_Amount""].Value=ISpace[""MG_R2_Amount""].Value;");
-
-
-ISpace["M_Budgetid"].Value=ISpace["MG_R2_BudgetId"].Value;
-base.WriteDebugInfo(@"
-
-ISpace[""M_Budgetid""].Value=ISpace[""MG_R2_BudgetId""].Value;");
-base.WriteDebugInfo(@"exec ValidateBudgetHeadAmount '#C_FC_ProjectNo_15','#M_Budgetid','#M_Amount'");
-
-var querySourceF81332044D2545DD90C1B4DD31CFF7F4 =GetQueryExpressionDataSource("F8133204-4D25-45DD-90C1-B4DD31CFF7F4");
-Dictionary<short,object> resultF81332044D2545DD90C1B4DD31CFF7F4=iSpace.ExecuteQuery(querySourceF81332044D2545DD90C1B4DD31CFF7F4,@"exec ValidateBudgetHeadAmount '" + ISpace["C_FC_ProjectNo_15"].Value + @"','" + ISpace["M_Budgetid"].Value + @"','" + ISpace["M_Amount"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySourceF81332044D2545DD90C1B4DD31CFF7F4 =GetQueryExpressionDataSource(""F8133204-4D25-45DD-90C1-B4DD31CFF7F4"");Dictionary<short,object> resultF81332044D2545DD90C1B4DD31CFF7F4=iSpace.ExecuteQuery(querySourceF81332044D2545DD90C1B4DD31CFF7F4,@""exec ValidateBudgetHeadAmount '"" + ISpace[""C_FC_ProjectNo_15""].Value + @""','"" + ISpace[""M_Budgetid""].Value + @""','"" + ISpace[""M_Amount""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((resultF81332044D2545DD90C1B4DD31CFF7F4!=null) && (resultF81332044D2545DD90C1B4DD31CFF7F4.Count!=0))
-{
-if(resultF81332044D2545DD90C1B4DD31CFF7F4.ContainsKey(0))
-ISpace["M_BudgetErr"].Value = resultF81332044D2545DD90C1B4DD31CFF7F4[0];
-if(resultF81332044D2545DD90C1B4DD31CFF7F4.ContainsKey(1))
-ISpace["M_BudgetErrMsg"].Value = resultF81332044D2545DD90C1B4DD31CFF7F4[1];
-}
-else{
-ISpace["M_BudgetErr"].Value = null;ISpace["M_BudgetErrMsg"].Value = null;
-}
-
-if(
-ISpace["M_BudgetErr"].Value==1)
-{
-base.WriteDebugInfo(@"
-if(
-ISpace[""M_BudgetErr""].Value==1)");
-ISpace["Message"].Value=String.Format(@"{0}",ISpace["M_BudgetErrMsg"].Value);
-base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""M_BudgetErrMsg""].Value);");
-ISpace["IsCancelled"].Value = true; 
-
-return;
-base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
-
-return;");
-}
-}
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",ISpace), ref ISpace);
-base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReceiptSplitUp"",""Select * from Proof..[249EF445-9B49-4EF9-8045-46BD1E6FF8ED] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
-{
-    iSpace.GetLoopExpressionData(""ReceiptSplitUp"",ref ISpace);
-}
-
-foreach(var gridChild in ISpace[""ReceiptSplitUp""].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-");
-if(ISpace["M_SaveDomainData"].Value==1 || 1==1)
-{
-base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1 || 1==1)");
-ISpace["MF_P1_Status"].Value="A";
-base.WriteDebugInfo(@"ISpace[""MF_P1_Status""].Value=""A"";");
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["MF_P1_Status"].Value="S";
+base.WriteDebugInfo(@"ISpace[""MF_P1_Status""].Value=""S"";");
 base.WriteDebugInfo(@"EXEC UpsertProjectReceipts '#MF_P1_ReceiptsId','#MF_P1_TransferReferenceBankId','#MF_P1_ReceiptDate','#MF_P1_ReceiptNo','#UC_EmployeeBaicInfoId','#MF_P1_Status','#MF_P1_TransferReferenceDate','#MF_P1_TransferReferenceBranch','#MF_P1_UpdatedBy','#MF_P1_TransferType','#C_FC_ProjectNo_15'");
 
 var querySource8ededcfe5adacbe6902976086059adc4 =GetQueryExpressionDataSource("8ededcfe-5ada-cbe6-9029-76086059adc4");
@@ -3395,54 +3124,8 @@ foreach(var gridChild in ISpace[""MG_DcoumentDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
  {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
 ");
-base.WriteDebugInfo(@"EXEC UpsertCreateProjectDetails '#MF_ProjectDetailsID','#MF_P1_ActualDate','#MF_P1_ActualEndDate'");
-
-var querySourceb25829de0dacf553841baf18f5d427f5 =GetQueryExpressionDataSource("b25829de-0dac-f553-841b-af18f5d427f5");
-Dictionary<short,object> resultb25829de0dacf553841baf18f5d427f5=iSpace.ExecuteQuery(querySourceb25829de0dacf553841baf18f5d427f5,@"EXEC UpsertCreateProjectDetails '" + ISpace["MF_ProjectDetailsID"].Value + @"','" + ISpace["MF_P1_ActualDate"].Value + @"','" + ISpace["MF_P1_ActualEndDate"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySourceb25829de0dacf553841baf18f5d427f5 =GetQueryExpressionDataSource(""b25829de-0dac-f553-841b-af18f5d427f5"");Dictionary<short,object> resultb25829de0dacf553841baf18f5d427f5=iSpace.ExecuteQuery(querySourceb25829de0dacf553841baf18f5d427f5,@""EXEC UpsertCreateProjectDetails '"" + ISpace[""MF_ProjectDetailsID""].Value + @""','"" + ISpace[""MF_P1_ActualDate""].Value + @""','"" + ISpace[""MF_P1_ActualEndDate""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((resultb25829de0dacf553841baf18f5d427f5!=null) && (resultb25829de0dacf553841baf18f5d427f5.Count!=0))
-{
-if(resultb25829de0dacf553841baf18f5d427f5.ContainsKey(0))
-ISpace["ExecutionMessage"].Value = resultb25829de0dacf553841baf18f5d427f5[0];
-}
-else{
-ISpace["ExecutionMessage"].Value = null;
-}
-base.WriteDebugInfo(@"exec UpdateOverHeadSplitData '#C_FC_ProjectNo_15','#MF_P1_ReceiptsId','@@gv_ProcessMapId'");
-
-var querySourceDE3FD546579040D28E8AEB9179B047C4 =GetQueryExpressionDataSource("DE3FD546-5790-40D2-8E8A-EB9179B047C4");
-Dictionary<short,object> resultDE3FD546579040D28E8AEB9179B047C4=iSpace.ExecuteQuery(querySourceDE3FD546579040D28E8AEB9179B047C4,@"exec UpdateOverHeadSplitData '" + ISpace["C_FC_ProjectNo_15"].Value + @"','" + ISpace["MF_P1_ReceiptsId"].Value + @"','" + ISpace["gv_processmapid"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySourceDE3FD546579040D28E8AEB9179B047C4 =GetQueryExpressionDataSource(""DE3FD546-5790-40D2-8E8A-EB9179B047C4"");Dictionary<short,object> resultDE3FD546579040D28E8AEB9179B047C4=iSpace.ExecuteQuery(querySourceDE3FD546579040D28E8AEB9179B047C4,@""exec UpdateOverHeadSplitData '"" + ISpace[""C_FC_ProjectNo_15""].Value + @""','"" + ISpace[""MF_P1_ReceiptsId""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((resultDE3FD546579040D28E8AEB9179B047C4!=null) && (resultDE3FD546579040D28E8AEB9179B047C4.Count!=0))
-{
-if(resultDE3FD546579040D28E8AEB9179B047C4.ContainsKey(0))
-ISpace["Subject"].Value = resultDE3FD546579040D28E8AEB9179B047C4[0];
-}
-else{
-ISpace["Subject"].Value = null;
-}
-base.WriteDebugInfo(@"EXEC [UpsertProjectBudgetDetails] 4,'#C_FC_ProjectNo_15','#MF_P1_ReceiptsId'");
-
-var querySource0B4B727AF2FC49FDADAE2CCF203DB052 =GetQueryExpressionDataSource("0B4B727A-F2FC-49FD-ADAE-2CCF203DB052");
-Dictionary<short,object> result0B4B727AF2FC49FDADAE2CCF203DB052=iSpace.ExecuteQuery(querySource0B4B727AF2FC49FDADAE2CCF203DB052,@"EXEC [UpsertProjectBudgetDetails] 4,'" + ISpace["C_FC_ProjectNo_15"].Value + @"','" + ISpace["MF_P1_ReceiptsId"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySource0B4B727AF2FC49FDADAE2CCF203DB052 =GetQueryExpressionDataSource(""0B4B727A-F2FC-49FD-ADAE-2CCF203DB052"");Dictionary<short,object> result0B4B727AF2FC49FDADAE2CCF203DB052=iSpace.ExecuteQuery(querySource0B4B727AF2FC49FDADAE2CCF203DB052,@""EXEC [UpsertProjectBudgetDetails] 4,'"" + ISpace[""C_FC_ProjectNo_15""].Value + @""','"" + ISpace[""MF_P1_ReceiptsId""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((result0B4B727AF2FC49FDADAE2CCF203DB052!=null) && (result0B4B727AF2FC49FDADAE2CCF203DB052.Count!=0))
-{
-if(result0B4B727AF2FC49FDADAE2CCF203DB052.ContainsKey(0))
-ISpace["Subject"].Value = result0B4B727AF2FC49FDADAE2CCF203DB052[0];
-}
-else{
-ISpace["Subject"].Value = null;
-}
+ISpace["Message"].Value=@"SUCCESS:Submitted Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Submitted Successfully"";");
 }
 if(ISpace["M_IsflowReturned"].Value==1)
 {
@@ -3751,8 +3434,8 @@ base.WriteDebugInfo(@"if(1==1)");
 if(ISpace["MF_P1_ReceiptAmount"].Value==0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_ReceiptAmount""].Value==0)");
-ISpace["Message"].Value=@"Please Enter the Amount";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Amount"";");
+ISpace["Message"].Value=@"ERROR:Please Enter the Amount";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Please Enter the Amount"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -3763,8 +3446,8 @@ return;");
 if((ISpace["MF_P1_ReceiptDate"].Value == null))
 {
 base.WriteDebugInfo(@"if((ISpace[""MF_P1_ReceiptDate""].Value == null))");
-ISpace["Message"].Value=@"Please Enter the Date";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Date"";");
+ISpace["Message"].Value=@"ERROR:Please Enter the Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Please Enter the Date"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -3775,8 +3458,8 @@ return;");
 if(1==2)
 {
 base.WriteDebugInfo(@"if(1==2)");
-ISpace["Message"].Value=@"Please Enter the Transfer Type";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Transfer Type"";");
+ISpace["Message"].Value=@"ERROR:Please Enter the Transfer Type";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Please Enter the Transfer Type"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -3851,8 +3534,8 @@ base.WriteDebugInfo(@"if(1==1)");
 if(ISpace["MF_P1_ReceiptAmount"].Value!=ISpace["R_TotalSplitUpAmount"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_ReceiptAmount""].Value!=ISpace[""R_TotalSplitUpAmount""].Value)");
-ISpace["Message"].Value=@"Split Up total should be equal to Fund Installment Amount";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Split Up total should be equal to Fund Installment Amount"";");
+ISpace["Message"].Value=@"ERROR:Split Up total should be equal to Fund Installment Amount";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Split Up total should be equal to Fund Installment Amount"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -4119,6 +3802,8 @@ ISpace["FRValues"].Value = result3B027C6216344105BF4D15B3AA014207[1];
 else{
 ISpace["MF_P1_ReceiptNo"].Value = null;ISpace["FRValues"].Value = null;
 }
+ISpace["Subject"].Value=ISpace["MF_P1_ReceiptNo"].Value;
+base.WriteDebugInfo(@"ISpace[""Subject""].Value=ISpace[""MF_P1_ReceiptNo""].Value;");
 }
 if(ISpace["FRValues"].Value=="1")
 {
@@ -4933,78 +4618,11 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 
 return;");
 }
-base.WriteDebugInfo(@"#ReceiptSplitUp[Rows]");
-if (!iSpace.GetGridTableRows("ReceiptSplitUp","Select * from Proof..[249EF445-9B49-4EF9-8045-46BD1E6FF8ED] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace))
+if(1==1)
 {
-    iSpace.GetLoopExpressionData("ReceiptSplitUp",ref ISpace);
-}
-
-foreach(var gridChild in ISpace["ReceiptSplitUp"].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-
-
-
-ISpace["M_Amount"].Value=ISpace["MG_R2_Amount"].Value;
-base.WriteDebugInfo(@"
-
-ISpace[""M_Amount""].Value=ISpace[""MG_R2_Amount""].Value;");
-
-
-ISpace["M_Budgetid"].Value=ISpace["MG_R2_BudgetId"].Value;
-base.WriteDebugInfo(@"
-
-ISpace[""M_Budgetid""].Value=ISpace[""MG_R2_BudgetId""].Value;");
-base.WriteDebugInfo(@"exec ValidateBudgetHeadAmount '#C_FC_ProjectNo_15','#M_Budgetid','#M_Amount'");
-
-var querySourceF81332044D2545DD90C1B4DD31CFF7F4 =GetQueryExpressionDataSource("F8133204-4D25-45DD-90C1-B4DD31CFF7F4");
-Dictionary<short,object> resultF81332044D2545DD90C1B4DD31CFF7F4=iSpace.ExecuteQuery(querySourceF81332044D2545DD90C1B4DD31CFF7F4,@"exec ValidateBudgetHeadAmount '" + ISpace["C_FC_ProjectNo_15"].Value + @"','" + ISpace["M_Budgetid"].Value + @"','" + ISpace["M_Amount"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySourceF81332044D2545DD90C1B4DD31CFF7F4 =GetQueryExpressionDataSource(""F8133204-4D25-45DD-90C1-B4DD31CFF7F4"");Dictionary<short,object> resultF81332044D2545DD90C1B4DD31CFF7F4=iSpace.ExecuteQuery(querySourceF81332044D2545DD90C1B4DD31CFF7F4,@""exec ValidateBudgetHeadAmount '"" + ISpace[""C_FC_ProjectNo_15""].Value + @""','"" + ISpace[""M_Budgetid""].Value + @""','"" + ISpace[""M_Amount""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((resultF81332044D2545DD90C1B4DD31CFF7F4!=null) && (resultF81332044D2545DD90C1B4DD31CFF7F4.Count!=0))
-{
-if(resultF81332044D2545DD90C1B4DD31CFF7F4.ContainsKey(0))
-ISpace["M_BudgetErr"].Value = resultF81332044D2545DD90C1B4DD31CFF7F4[0];
-if(resultF81332044D2545DD90C1B4DD31CFF7F4.ContainsKey(1))
-ISpace["M_BudgetErrMsg"].Value = resultF81332044D2545DD90C1B4DD31CFF7F4[1];
-}
-else{
-ISpace["M_BudgetErr"].Value = null;ISpace["M_BudgetErrMsg"].Value = null;
-}
-
-if(
-ISpace["M_BudgetErr"].Value==1)
-{
-base.WriteDebugInfo(@"
-if(
-ISpace[""M_BudgetErr""].Value==1)");
-ISpace["Message"].Value=String.Format(@"{0}",ISpace["M_BudgetErrMsg"].Value);
-base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""M_BudgetErrMsg""].Value);");
-ISpace["IsCancelled"].Value = true; 
-
-return;
-base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
-
-return;");
-}
-}
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",ISpace), ref ISpace);
-base.WriteDebugInfo(@"if (!iSpace.GetGridTableRows(""ReceiptSplitUp"",""Select * from Proof..[249EF445-9B49-4EF9-8045-46BD1E6FF8ED] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace))
-{
-    iSpace.GetLoopExpressionData(""ReceiptSplitUp"",ref ISpace);
-}
-
-foreach(var gridChild in ISpace[""ReceiptSplitUp""].Child)
-{foreach(var gridrow in gridChild.Child)
- {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
-");
-if(ISpace["M_SaveDomainData"].Value==1 || 1==1)
-{
-base.WriteDebugInfo(@"if(ISpace[""M_SaveDomainData""].Value==1 || 1==1)");
-ISpace["MF_P1_Status"].Value="A";
-base.WriteDebugInfo(@"ISpace[""MF_P1_Status""].Value=""A"";");
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["MF_P1_Status"].Value="S";
+base.WriteDebugInfo(@"ISpace[""MF_P1_Status""].Value=""S"";");
 base.WriteDebugInfo(@"EXEC UpsertProjectReceipts '#MF_P1_ReceiptsId','#MF_P1_TransferReferenceBankId','#MF_P1_ReceiptDate','#MF_P1_ReceiptNo','#UC_EmployeeBaicInfoId','#MF_P1_Status','#MF_P1_TransferReferenceDate','#MF_P1_TransferReferenceBranch','#MF_P1_UpdatedBy','#MF_P1_TransferType','#C_FC_ProjectNo_15'");
 
 var querySource8ededcfe5adacbe6902976086059adc4 =GetQueryExpressionDataSource("8ededcfe-5ada-cbe6-9029-76086059adc4");
@@ -5095,54 +4713,8 @@ foreach(var gridChild in ISpace[""MG_DcoumentDetails""].Child)
 {foreach(var gridrow in gridChild.Child)
  {  if (!ISpace.ContainsKey(gridrow.ElementName)) { var gridcolumn = new ServiceElementData();  gridcolumn.ElementName = gridrow.ElementName; gridcolumn.Value = gridrow.Value;  ISpace.Add(gridrow.ElementName, gridcolumn); } else ISpace[gridrow.ElementName].Value = gridrow.Value; } 
 ");
-base.WriteDebugInfo(@"EXEC UpsertCreateProjectDetails '#MF_ProjectDetailsID','#MF_P1_ActualDate','#MF_P1_ActualEndDate'");
-
-var querySourceb25829de0dacf553841baf18f5d427f5 =GetQueryExpressionDataSource("b25829de-0dac-f553-841b-af18f5d427f5");
-Dictionary<short,object> resultb25829de0dacf553841baf18f5d427f5=iSpace.ExecuteQuery(querySourceb25829de0dacf553841baf18f5d427f5,@"EXEC UpsertCreateProjectDetails '" + ISpace["MF_ProjectDetailsID"].Value + @"','" + ISpace["MF_P1_ActualDate"].Value + @"','" + ISpace["MF_P1_ActualEndDate"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySourceb25829de0dacf553841baf18f5d427f5 =GetQueryExpressionDataSource(""b25829de-0dac-f553-841b-af18f5d427f5"");Dictionary<short,object> resultb25829de0dacf553841baf18f5d427f5=iSpace.ExecuteQuery(querySourceb25829de0dacf553841baf18f5d427f5,@""EXEC UpsertCreateProjectDetails '"" + ISpace[""MF_ProjectDetailsID""].Value + @""','"" + ISpace[""MF_P1_ActualDate""].Value + @""','"" + ISpace[""MF_P1_ActualEndDate""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((resultb25829de0dacf553841baf18f5d427f5!=null) && (resultb25829de0dacf553841baf18f5d427f5.Count!=0))
-{
-if(resultb25829de0dacf553841baf18f5d427f5.ContainsKey(0))
-ISpace["ExecutionMessage"].Value = resultb25829de0dacf553841baf18f5d427f5[0];
-}
-else{
-ISpace["ExecutionMessage"].Value = null;
-}
-base.WriteDebugInfo(@"exec UpdateOverHeadSplitData '#C_FC_ProjectNo_15','#MF_P1_ReceiptsId','@@gv_ProcessMapId'");
-
-var querySourceDE3FD546579040D28E8AEB9179B047C4 =GetQueryExpressionDataSource("DE3FD546-5790-40D2-8E8A-EB9179B047C4");
-Dictionary<short,object> resultDE3FD546579040D28E8AEB9179B047C4=iSpace.ExecuteQuery(querySourceDE3FD546579040D28E8AEB9179B047C4,@"exec UpdateOverHeadSplitData '" + ISpace["C_FC_ProjectNo_15"].Value + @"','" + ISpace["MF_P1_ReceiptsId"].Value + @"','" + ISpace["gv_processmapid"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySourceDE3FD546579040D28E8AEB9179B047C4 =GetQueryExpressionDataSource(""DE3FD546-5790-40D2-8E8A-EB9179B047C4"");Dictionary<short,object> resultDE3FD546579040D28E8AEB9179B047C4=iSpace.ExecuteQuery(querySourceDE3FD546579040D28E8AEB9179B047C4,@""exec UpdateOverHeadSplitData '"" + ISpace[""C_FC_ProjectNo_15""].Value + @""','"" + ISpace[""MF_P1_ReceiptsId""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((resultDE3FD546579040D28E8AEB9179B047C4!=null) && (resultDE3FD546579040D28E8AEB9179B047C4.Count!=0))
-{
-if(resultDE3FD546579040D28E8AEB9179B047C4.ContainsKey(0))
-ISpace["Subject"].Value = resultDE3FD546579040D28E8AEB9179B047C4[0];
-}
-else{
-ISpace["Subject"].Value = null;
-}
-base.WriteDebugInfo(@"EXEC [UpsertProjectBudgetDetails] 4,'#C_FC_ProjectNo_15','#MF_P1_ReceiptsId'");
-
-var querySource0B4B727AF2FC49FDADAE2CCF203DB052 =GetQueryExpressionDataSource("0B4B727A-F2FC-49FD-ADAE-2CCF203DB052");
-Dictionary<short,object> result0B4B727AF2FC49FDADAE2CCF203DB052=iSpace.ExecuteQuery(querySource0B4B727AF2FC49FDADAE2CCF203DB052,@"EXEC [UpsertProjectBudgetDetails] 4,'" + ISpace["C_FC_ProjectNo_15"].Value + @"','" + ISpace["MF_P1_ReceiptsId"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySource0B4B727AF2FC49FDADAE2CCF203DB052 =GetQueryExpressionDataSource(""0B4B727A-F2FC-49FD-ADAE-2CCF203DB052"");Dictionary<short,object> result0B4B727AF2FC49FDADAE2CCF203DB052=iSpace.ExecuteQuery(querySource0B4B727AF2FC49FDADAE2CCF203DB052,@""EXEC [UpsertProjectBudgetDetails] 4,'"" + ISpace[""C_FC_ProjectNo_15""].Value + @""','"" + ISpace[""MF_P1_ReceiptsId""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((result0B4B727AF2FC49FDADAE2CCF203DB052!=null) && (result0B4B727AF2FC49FDADAE2CCF203DB052.Count!=0))
-{
-if(result0B4B727AF2FC49FDADAE2CCF203DB052.ContainsKey(0))
-ISpace["Subject"].Value = result0B4B727AF2FC49FDADAE2CCF203DB052[0];
-}
-else{
-ISpace["Subject"].Value = null;
-}
+ISpace["Message"].Value=@"SUCCESS:Submitted Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Submitted Successfully"";");
 }
 if(ISpace["M_IsflowReturned"].Value==1)
 {
