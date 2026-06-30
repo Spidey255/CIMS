@@ -34,7 +34,7 @@ export const DataElementsData = [
     "Bindable": false,
     "Action": "FormOnLoad",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"MFG_R2_ReceiptSplitUpId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_UpdatedBy\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"RemarksId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_TransferReferenceBankId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_R2_UpdatedOn\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"M_InstanceId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_ReceiptsId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UC_DOJ\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_R2_UpdatedBy\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_R2_Amount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"C_FC_Category_15\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_R2_ReceiptSplitUpId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_TransferReferenceNumber\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_R2_Amount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_R2_ReceiptsId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_R2_BudgetId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_TransferType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_ReceiptNo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UC_DOR\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_TransferReferenceDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"UserName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_ReceiptDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MF_P1_ProjectDetailsId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"DateOfRemarks\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"M_ActivityName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_R2_UpdatedOn\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"M_NextStage\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_SourceActivityMapId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UC_PhoneNumber\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UC_EmailId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UC_DOB\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_Remarks\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_R2_ReceiptsId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"Subject\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"Instanceid\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"HODUSERID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UC_Paylevel\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_IsSourceStep\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_P1_TransferReferenceBranch\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"Remarks\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"AssignToUser\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_UpdatedOn\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"M_MoveTo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_PackageProcessMapId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_Status\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_R2_BudgetId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_ReceiptAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_R2_UpdatedBy\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"UC_Grade\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"ActivityName\",\"Value\":\"\",\"EDT\":9}]}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteFormLoad\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":[{\"ElementName\":\"MFG_R2_ReceiptSplitUpId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_UpdatedBy\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"RemarksId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_TransferReferenceBankId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_R2_UpdatedOn\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"M_InstanceId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_ReceiptsId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UC_DOJ\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_R2_UpdatedBy\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"Comments\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_R2_Amount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"C_FC_Category_15\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_R2_ReceiptSplitUpId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_TransferReferenceNumber\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_R2_Amount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_R2_ReceiptsId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_R2_BudgetId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_TransferType\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_ReceiptNo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UI_InvisibleRow\",\"Value\":\"\",\"EDT\":-1},{\"ElementName\":\"UC_DOR\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_TransferReferenceDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"UserName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_ReceiptDate\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"MF_P1_ProjectDetailsId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"DateOfRemarks\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"M_ActivityName\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_R2_UpdatedOn\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"M_NextStage\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_SourceActivityMapId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UC_PhoneNumber\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UC_EmailId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UC_DOB\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_Remarks\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MFG_R2_ReceiptsId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"Subject\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"Instanceid\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"HODUSERID\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"UC_Paylevel\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_IsSourceStep\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"MF_P1_TransferReferenceBranch\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"Remarks\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"AssignToUser\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_UpdatedOn\",\"Value\":\"\",\"EDT\":8},{\"ElementName\":\"M_MoveTo\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"M_PackageProcessMapId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_Status\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MG_R2_BudgetId\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"MF_P1_ReceiptAmount\",\"Value\":null,\"EDT\":3},{\"ElementName\":\"MG_R2_UpdatedBy\",\"Value\":null,\"EDT\":5},{\"ElementName\":\"UC_Grade\",\"Value\":\"\",\"EDT\":9},{\"ElementName\":\"ActivityName\",\"Value\":\"\",\"EDT\":9}]}]",
     "DCaption": "",
     "__idx": 0,
     "_id": "0C8541B3-EA96-4A7F-B512-FA0126AE1199_1_0",
@@ -161,7 +161,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 23,
+                "Id": 22,
                 "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -195,12 +195,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 22,
-                "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_23_22",
+                "__idx": 21,
+                "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_22_21",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 44,
+                    "Id": 49,
                     "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -233,13 +233,13 @@ export const DataElementsData = [
                     "DCaption": "Employee Id",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 43,
-                    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_44_43",
+                    "__idx": 48,
+                    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_49_48",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 45,
+                    "Id": 50,
                     "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -272,13 +272,13 @@ export const DataElementsData = [
                     "DCaption": "Employee Name",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 44,
-                    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_45_44",
+                    "__idx": 49,
+                    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_50_49",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 46,
+                    "Id": 51,
                     "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -311,13 +311,13 @@ export const DataElementsData = [
                     "DCaption": "Designation",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 45,
-                    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_46_45",
+                    "__idx": 50,
+                    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_51_50",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 47,
+                    "Id": 52,
                     "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -350,15 +350,15 @@ export const DataElementsData = [
                     "DCaption": "Department",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 46,
-                    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_47_46",
+                    "__idx": 51,
+                    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_52_51",
                     "children": []
                   }
                 ]
               },
               {
                 "VersionName": "Medium",
-                "Id": 24,
+                "Id": 23,
                 "uielementid": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -392,8 +392,8 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 23,
-                "_id": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD_24_23",
+                "__idx": 22,
+                "_id": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD_23_22",
                 "children": []
               }
             ]
@@ -480,7 +480,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 25,
+                "Id": 24,
                 "uielementid": "8FEA8240-7016-42F3-B614-DC90CA28A213",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -514,12 +514,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 24,
-                "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_25_24",
+                "__idx": 23,
+                "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_24_23",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 48,
+                    "Id": 53,
                     "uielementid": "8FEA8240-7016-42F3-B614-DC90CA28A213",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -547,13 +547,13 @@ export const DataElementsData = [
                     "MergeRow": "",
                     "Action": "OnChange",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                     "EDT": 9,
                     "DCaption": "Sanctioned Project Number",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 47,
-                    "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_48_47",
+                    "__idx": 52,
+                    "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_53_52",
                     "children": []
                   }
                 ]
@@ -601,7 +601,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 26,
+                "Id": 25,
                 "uielementid": "856B243C-AB46-4C50-8A2C-C34E7AA194EA",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -635,12 +635,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 25,
-                "_id": "856B243C-AB46-4C50-8A2C-C34E7AA194EA_26_25",
+                "__idx": 24,
+                "_id": "856B243C-AB46-4C50-8A2C-C34E7AA194EA_25_24",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 49,
+                    "Id": 54,
                     "uielementid": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -674,12 +674,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 48,
-                    "_id": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F_49_48",
+                    "__idx": 53,
+                    "_id": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F_54_53",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 69,
+                        "Id": 74,
                         "uielementid": "1CA1DF06-57FA-42A9-9D80-70836540BA06",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -713,12 +713,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 68,
-                        "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_69_68",
+                        "__idx": 73,
+                        "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_74_73",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 87,
+                            "Id": 92,
                             "uielementid": "0B168B00-008D-4750-9372-547D14EA5D78",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -754,13 +754,13 @@ export const DataElementsData = [
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
                             "UCaption": "Project Information",
-                            "__idx": 86,
-                            "_id": "0B168B00-008D-4750-9372-547D14EA5D78_87_86",
+                            "__idx": 91,
+                            "_id": "0B168B00-008D-4750-9372-547D14EA5D78_92_91",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 88,
+                            "Id": 93,
                             "uielementid": "5FABFD91-84EE-457E-A01E-FD284E5D083A",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -794,15 +794,15 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 87,
-                            "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_88_87",
+                            "__idx": 92,
+                            "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_93_92",
                             "children": []
                           }
                         ]
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 70,
+                        "Id": 75,
                         "uielementid": "67B99F6B-1727-49CC-A01E-2054296BCAD7",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -836,12 +836,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 69,
-                        "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_70_69",
+                        "__idx": 74,
+                        "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_75_74",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 89,
+                            "Id": 94,
                             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -875,12 +875,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 88,
-                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_89_88",
+                            "__idx": 93,
+                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_94_93",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 109,
+                                "Id": 114,
                                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -913,13 +913,13 @@ export const DataElementsData = [
                                 "DCaption": "Sanctioned Project Name",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 108,
-                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_109_108",
+                                "__idx": 113,
+                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 110,
+                                "Id": 115,
                                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -952,13 +952,13 @@ export const DataElementsData = [
                                 "DCaption": "Agency Code",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 109,
-                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_110_109",
+                                "__idx": 114,
+                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 111,
+                                "Id": 116,
                                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -991,13 +991,13 @@ export const DataElementsData = [
                                 "DCaption": "Category",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 110,
-                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_111_110",
+                                "__idx": 115,
+                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 112,
+                                "Id": 117,
                                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -1026,18 +1026,18 @@ export const DataElementsData = [
                                 "MergeRow": "",
                                 "Action": "OnChange",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                                 "EDT": 9,
                                 "DCaption": "Sanctioned No",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 111,
-                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_112_111",
+                                "__idx": 116,
+                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 113,
+                                "Id": 118,
                                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -1069,13 +1069,13 @@ export const DataElementsData = [
                                 "DCaption": "Sanctioned Date",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 112,
-                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_113_112",
+                                "__idx": 117,
+                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 114,
+                                "Id": 119,
                                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -1107,13 +1107,13 @@ export const DataElementsData = [
                                 "DCaption": "Sanctioned Amount",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 113,
-                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
+                                "__idx": 118,
+                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_119_118",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 115,
+                                "Id": 120,
                                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -1145,13 +1145,13 @@ export const DataElementsData = [
                                 "DCaption": "Start Date",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 114,
-                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
+                                "__idx": 119,
+                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 116,
+                                "Id": 121,
                                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -1183,13 +1183,13 @@ export const DataElementsData = [
                                 "DCaption": "End Date",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 115,
-                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
+                                "__idx": 120,
+                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 117,
+                                "Id": 122,
                                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -1221,8 +1221,8 @@ export const DataElementsData = [
                                 "DCaption": "Available Amount",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 116,
-                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
+                                "__idx": 121,
+                                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_122_121",
                                 "children": []
                               }
                             ]
@@ -1231,7 +1231,7 @@ export const DataElementsData = [
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 71,
+                        "Id": 76,
                         "uielementid": "99147C2A-2072-4712-ABDC-B969A5DD6A89",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -1265,12 +1265,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 70,
-                        "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_71_70",
+                        "__idx": 75,
+                        "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_76_75",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 90,
+                            "Id": 95,
                             "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -1304,12 +1304,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 89,
-                            "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_90_89",
+                            "__idx": 94,
+                            "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_95_94",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 118,
+                                "Id": 123,
                                 "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -1341,13 +1341,13 @@ export const DataElementsData = [
                                 "DCaption": "Actual Start Date",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 117,
-                                "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_118_117",
+                                "__idx": 122,
+                                "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 119,
+                                "Id": 124,
                                 "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -1389,8 +1389,8 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 118,
-                                "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_119_118",
+                                "__idx": 123,
+                                "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
                                 "children": []
                               }
                             ]
@@ -1444,7 +1444,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 27,
+                "Id": 26,
                 "uielementid": "46EB9B6C-719A-4E03-88D8-86F4062E3A45",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -1478,12 +1478,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 26,
-                "_id": "46EB9B6C-719A-4E03-88D8-86F4062E3A45_27_26",
+                "__idx": 25,
+                "_id": "46EB9B6C-719A-4E03-88D8-86F4062E3A45_26_25",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 50,
+                    "Id": 55,
                     "uielementid": "D0DF120F-C213-48A2-9B4C-AF2F7D166169",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -1517,12 +1517,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 49,
-                    "_id": "D0DF120F-C213-48A2-9B4C-AF2F7D166169_50_49",
+                    "__idx": 54,
+                    "_id": "D0DF120F-C213-48A2-9B4C-AF2F7D166169_55_54",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 72,
+                        "Id": 77,
                         "uielementid": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -1556,12 +1556,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 71,
-                        "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_72_71",
+                        "__idx": 76,
+                        "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_77_76",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 91,
+                            "Id": 96,
                             "uielementid": "255A5CD9-8822-4862-936D-2E7ED1F1BD50",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -1597,13 +1597,13 @@ export const DataElementsData = [
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
                             "UCaption": "Fund Installment Details",
-                            "__idx": 90,
-                            "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_91_90",
+                            "__idx": 95,
+                            "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_96_95",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 92,
+                            "Id": 97,
                             "uielementid": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -1636,15 +1636,15 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 91,
-                            "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_92_91",
+                            "__idx": 96,
+                            "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_97_96",
                             "children": []
                           }
                         ]
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 73,
+                        "Id": 78,
                         "uielementid": "749D3334-9C41-470F-97DF-2BA7F4283B3F",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -1678,12 +1678,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 72,
-                        "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_73_72",
+                        "__idx": 77,
+                        "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_78_77",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 93,
+                            "Id": 98,
                             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -1717,12 +1717,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 92,
-                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_93_92",
+                            "__idx": 97,
+                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_98_97",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 120,
+                                "Id": 125,
                                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -1768,13 +1768,13 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 119,
-                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_120_119",
+                                "__idx": 124,
+                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 121,
+                                "Id": 126,
                                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -1820,13 +1820,13 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 120,
-                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_121_120",
+                                "__idx": 125,
+                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 122,
+                                "Id": 127,
                                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -1868,13 +1868,13 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 121,
-                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_122_121",
+                                "__idx": 126,
+                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 123,
+                                "Id": 128,
                                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -1916,13 +1916,13 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 122,
-                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_123_122",
+                                "__idx": 127,
+                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_128_127",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 124,
+                                "Id": 129,
                                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -1963,13 +1963,13 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 123,
-                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_124_123",
+                                "__idx": 128,
+                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_129_128",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 125,
+                                "Id": 130,
                                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -2011,13 +2011,13 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 124,
-                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
+                                "__idx": 129,
+                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_130_129",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 126,
+                                "Id": 131,
                                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -2059,13 +2059,13 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 125,
-                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
+                                "__idx": 130,
+                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 127,
+                                "Id": 132,
                                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -2106,8 +2106,8 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 126,
-                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
+                                "__idx": 131,
+                                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_132_131",
                                 "children": []
                               }
                             ]
@@ -2161,7 +2161,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 28,
+                "Id": 27,
                 "uielementid": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -2195,12 +2195,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 27,
-                "_id": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D_28_27",
+                "__idx": 26,
+                "_id": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D_27_26",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 51,
+                    "Id": 56,
                     "uielementid": "31F38CD6-6BEA-4BC4-8B26-493F1977A981",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -2234,12 +2234,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 50,
-                    "_id": "31F38CD6-6BEA-4BC4-8B26-493F1977A981_51_50",
+                    "__idx": 55,
+                    "_id": "31F38CD6-6BEA-4BC4-8B26-493F1977A981_56_55",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 74,
+                        "Id": 79,
                         "uielementid": "3DC05163-B9D7-4A7C-858D-2A4006282CCB",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -2273,12 +2273,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 73,
-                        "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_74_73",
+                        "__idx": 78,
+                        "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_79_78",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 94,
+                            "Id": 99,
                             "uielementid": "34F57298-4365-45D8-B9FD-5C4B8C6544E3",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -2314,13 +2314,13 @@ export const DataElementsData = [
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
                             "UCaption": "Split Up of Fund Installment",
-                            "__idx": 93,
-                            "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_94_93",
+                            "__idx": 98,
+                            "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_99_98",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 95,
+                            "Id": 100,
                             "uielementid": "97461361-3474-48BD-B47B-2DD78F64392B",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -2353,15 +2353,15 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 94,
-                            "_id": "97461361-3474-48BD-B47B-2DD78F64392B_95_94",
+                            "__idx": 99,
+                            "_id": "97461361-3474-48BD-B47B-2DD78F64392B_100_99",
                             "children": []
                           }
                         ]
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 75,
+                        "Id": 80,
                         "uielementid": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -2395,12 +2395,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 74,
-                        "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_75_74",
+                        "__idx": 79,
+                        "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_80_79",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 96,
+                            "Id": 101,
                             "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -2434,12 +2434,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 95,
-                            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_96_95",
+                            "__idx": 100,
+                            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_101_100",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 128,
+                                "Id": 133,
                                 "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -2485,13 +2485,13 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 127,
-                                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_128_127",
+                                "__idx": 132,
+                                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_133_132",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 129,
+                                "Id": 134,
                                 "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -2537,13 +2537,13 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 128,
-                                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_129_128",
+                                "__idx": 133,
+                                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_134_133",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 130,
+                                "Id": 135,
                                 "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -2575,13 +2575,13 @@ export const DataElementsData = [
                                 "DCaption": "Save",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 129,
-                                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_130_129",
+                                "__idx": 134,
+                                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_135_134",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 131,
+                                "Id": 136,
                                 "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -2613,8 +2613,8 @@ export const DataElementsData = [
                                 "DCaption": "View Budget Details",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 130,
-                                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_131_130",
+                                "__idx": 135,
+                                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_136_135",
                                 "children": []
                               }
                             ]
@@ -2623,7 +2623,7 @@ export const DataElementsData = [
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 76,
+                        "Id": 81,
                         "uielementid": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -2657,12 +2657,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 75,
-                        "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_76_75",
+                        "__idx": 80,
+                        "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_81_80",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 97,
+                            "Id": 102,
                             "uielementid": "C7CF6D22-62CA-459D-8312-8022F934D311",
                             "TabIndex": -1,
                             "ShowCaption": false,
@@ -2698,12 +2698,12 @@ export const DataElementsData = [
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
                             "DCaption": "",
-                            "__idx": 96,
-                            "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_97_96",
+                            "__idx": 101,
+                            "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_102_101",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 132,
+                                "Id": 137,
                                 "uielementid": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -2737,13 +2737,13 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 131,
-                                "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_132_131",
+                                "__idx": 136,
+                                "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 133,
+                                "Id": 138,
                                 "uielementid": "6B9CB23A-420F-421E-B39A-47785DBDABB4",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -2776,13 +2776,13 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 132,
-                                "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_133_132",
+                                "__idx": 137,
+                                "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 134,
+                                "Id": 139,
                                 "WidgetId": "249EF445-9B49-4EF9-8045-46BD1E6FF8ED",
                                 "uielementid": "C7CF6D22-62CA-459D-8312-8022F934D311",
                                 "WidgetName": "ProjectFundInstallment_ReceiptSplitUp_AdditionalDetails.Json",
@@ -2817,8 +2817,8 @@ export const DataElementsData = [
                                 "DCaption": "",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 133,
-                                "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_134_133",
+                                "__idx": 138,
+                                "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_139_138",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
@@ -3337,7 +3337,7 @@ export const DataElementsData = [
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 135,
+                                "Id": 140,
                                 "uielementid": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -3371,13 +3371,13 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 134,
-                                "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_135_134",
+                                "__idx": 139,
+                                "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 136,
+                                "Id": 141,
                                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                 "TabIndex": -1,
                                 "ShowCaption": false,
@@ -3412,12 +3412,12 @@ export const DataElementsData = [
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
                                 "DCaption": "",
-                                "__idx": 135,
-                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_136_135",
+                                "__idx": 140,
+                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 141,
+                                    "Id": 146,
                                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3446,13 +3446,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                    "__idx": 140,
-                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
+                                    "__idx": 145,
+                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 142,
+                                    "Id": 147,
                                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3482,13 +3482,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                    "__idx": 141,
-                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_142_141",
+                                    "__idx": 146,
+                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 143,
+                                    "Id": 148,
                                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3528,13 +3528,13 @@ export const DataElementsData = [
                                       }
                                     ],
                                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                    "__idx": 142,
-                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_143_142",
+                                    "__idx": 147,
+                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 144,
+                                    "Id": 149,
                                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3574,13 +3574,13 @@ export const DataElementsData = [
                                       }
                                     ],
                                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                    "__idx": 143,
-                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_144_143",
+                                    "__idx": 148,
+                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 145,
+                                    "Id": 150,
                                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3619,13 +3619,13 @@ export const DataElementsData = [
                                       }
                                     ],
                                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                    "__idx": 144,
-                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_145_144",
+                                    "__idx": 149,
+                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 146,
+                                    "Id": 151,
                                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3665,13 +3665,13 @@ export const DataElementsData = [
                                       }
                                     ],
                                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                    "__idx": 145,
-                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
+                                    "__idx": 150,
+                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_151_150",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 147,
+                                    "Id": 152,
                                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3710,13 +3710,13 @@ export const DataElementsData = [
                                       }
                                     ],
                                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                    "__idx": 146,
-                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
+                                    "__idx": 151,
+                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_152_151",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 148,
+                                    "Id": 153,
                                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3755,13 +3755,13 @@ export const DataElementsData = [
                                       }
                                     ],
                                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                    "__idx": 147,
-                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
+                                    "__idx": 152,
+                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 149,
+                                    "Id": 154,
                                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3796,13 +3796,13 @@ export const DataElementsData = [
                                       }
                                     ],
                                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                    "__idx": 148,
-                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
+                                    "__idx": 153,
+                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_154_153",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 150,
+                                    "Id": 155,
                                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -3837,8 +3837,8 @@ export const DataElementsData = [
                                       }
                                     ],
                                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                    "__idx": 149,
-                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
+                                    "__idx": 154,
+                                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_155_154",
                                     "children": []
                                   }
                                 ]
@@ -3894,7 +3894,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 29,
+                "Id": 28,
                 "uielementid": "69C14AD1-4D01-4C59-9329-309CD11792BC",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -3928,12 +3928,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 28,
-                "_id": "69C14AD1-4D01-4C59-9329-309CD11792BC_29_28",
+                "__idx": 27,
+                "_id": "69C14AD1-4D01-4C59-9329-309CD11792BC_28_27",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 52,
+                    "Id": 57,
                     "uielementid": "09678F54-644C-42B0-8E43-28997A14ED3D",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -3967,12 +3967,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 51,
-                    "_id": "09678F54-644C-42B0-8E43-28997A14ED3D_52_51",
+                    "__idx": 56,
+                    "_id": "09678F54-644C-42B0-8E43-28997A14ED3D_57_56",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 77,
+                        "Id": 82,
                         "uielementid": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -4006,12 +4006,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 76,
-                        "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_77_76",
+                        "__idx": 81,
+                        "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_82_81",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 98,
+                            "Id": 103,
                             "uielementid": "840D2A86-98D9-4239-8536-663ECAA70414",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -4047,13 +4047,13 @@ export const DataElementsData = [
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
                             "UCaption": "Summary",
-                            "__idx": 97,
-                            "_id": "840D2A86-98D9-4239-8536-663ECAA70414_98_97",
+                            "__idx": 102,
+                            "_id": "840D2A86-98D9-4239-8536-663ECAA70414_103_102",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 99,
+                            "Id": 104,
                             "uielementid": "FB3FE2D0-870B-481F-86C1-1BA1667188B9",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -4086,15 +4086,15 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 98,
-                            "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_99_98",
+                            "__idx": 103,
+                            "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_104_103",
                             "children": []
                           }
                         ]
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 78,
+                        "Id": 83,
                         "uielementid": "917C4E99-F72F-4705-81DE-F66EB877C500",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -4128,12 +4128,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 77,
-                        "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_78_77",
+                        "__idx": 82,
+                        "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_83_82",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 100,
+                            "Id": 105,
                             "uielementid": "C1717B28-7611-445B-9745-4CF46D7A390C",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -4167,12 +4167,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 99,
-                            "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_100_99",
+                            "__idx": 104,
+                            "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_105_104",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 137,
+                                "Id": 142,
                                 "uielementid": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -4206,12 +4206,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 136,
-                                "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_137_136",
+                                "__idx": 141,
+                                "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 151,
+                                    "Id": 156,
                                     "uielementid": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -4245,12 +4245,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 150,
-                                    "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_151_150",
+                                    "__idx": 155,
+                                    "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 157,
+                                        "Id": 162,
                                         "uielementid": "659D47FF-B282-4438-A53A-A7ACA37F740F",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -4284,12 +4284,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 156,
-                                        "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_157_156",
+                                        "__idx": 161,
+                                        "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 159,
+                                            "Id": 164,
                                             "uielementid": "1C5C4175-1245-45B0-8B04-6F7056984FFE",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -4323,12 +4323,12 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 158,
-                                            "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_159_158",
+                                            "__idx": 163,
+                                            "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 161,
+                                                "Id": 166,
                                                 "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -4362,12 +4362,12 @@ export const DataElementsData = [
                                                 "Bindable": false,
                                                 "IsSaveWidget": 0,
                                                 "BindingDetail": "",
-                                                "__idx": 160,
-                                                "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_161_160",
+                                                "__idx": 165,
+                                                "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                                                 "children": [
                                                   {
                                                     "VersionName": "Medium",
-                                                    "Id": 163,
+                                                    "Id": 168,
                                                     "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                                                     "ShowCaption": true,
                                                     "Fontbold": false,
@@ -4399,8 +4399,8 @@ export const DataElementsData = [
                                                     "DCaption": "Balance Fund Installment Amount",
                                                     "DHelpText": "",
                                                     "DToolTip": "",
-                                                    "__idx": 162,
-                                                    "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_163_162",
+                                                    "__idx": 167,
+                                                    "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_168_167",
                                                     "children": []
                                                   }
                                                 ]
@@ -4415,7 +4415,7 @@ export const DataElementsData = [
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 138,
+                                "Id": 143,
                                 "uielementid": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -4449,12 +4449,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 137,
-                                "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_138_137",
+                                "__idx": 142,
+                                "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 152,
+                                    "Id": 157,
                                     "uielementid": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -4488,12 +4488,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 151,
-                                    "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_152_151",
+                                    "__idx": 156,
+                                    "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 158,
+                                        "Id": 163,
                                         "uielementid": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -4527,12 +4527,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 157,
-                                        "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_158_157",
+                                        "__idx": 162,
+                                        "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 160,
+                                            "Id": 165,
                                             "uielementid": "C99BC49F-B3F1-4200-9C0F-1528B298E082",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -4566,12 +4566,12 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 159,
-                                            "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_160_159",
+                                            "__idx": 164,
+                                            "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 162,
+                                                "Id": 167,
                                                 "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -4605,12 +4605,12 @@ export const DataElementsData = [
                                                 "Bindable": false,
                                                 "IsSaveWidget": 0,
                                                 "BindingDetail": "",
-                                                "__idx": 161,
-                                                "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_162_161",
+                                                "__idx": 166,
+                                                "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                                                 "children": [
                                                   {
                                                     "VersionName": "Medium",
-                                                    "Id": 164,
+                                                    "Id": 169,
                                                     "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                                                     "ShowCaption": true,
                                                     "Fontbold": false,
@@ -4642,8 +4642,8 @@ export const DataElementsData = [
                                                     "DCaption": "Split Up Total",
                                                     "DHelpText": "",
                                                     "DToolTip": "",
-                                                    "__idx": 163,
-                                                    "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_164_163",
+                                                    "__idx": 168,
+                                                    "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_169_168",
                                                     "children": []
                                                   }
                                                 ]
@@ -4662,7 +4662,7 @@ export const DataElementsData = [
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 79,
+                        "Id": 84,
                         "uielementid": "530F4791-43BB-498A-920D-7093BD174467",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -4696,8 +4696,8 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 78,
-                        "_id": "530F4791-43BB-498A-920D-7093BD174467_79_78",
+                        "__idx": 83,
+                        "_id": "530F4791-43BB-498A-920D-7093BD174467_84_83",
                         "children": []
                       }
                     ]
@@ -4747,7 +4747,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 30,
+                "Id": 29,
                 "uielementid": "46091F7F-014D-4DDC-AD9D-974B1E4002B5",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -4781,12 +4781,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 29,
-                "_id": "46091F7F-014D-4DDC-AD9D-974B1E4002B5_30_29",
+                "__idx": 28,
+                "_id": "46091F7F-014D-4DDC-AD9D-974B1E4002B5_29_28",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 53,
+                    "Id": 58,
                     "uielementid": "B285AA75-D49B-4D92-99CA-A489113EA4E4",
                     "TabIndex": -1,
                     "ShowCaption": false,
@@ -4821,12 +4821,12 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "DCaption": "",
-                    "__idx": 52,
-                    "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_53_52",
+                    "__idx": 57,
+                    "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_58_57",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 80,
+                        "Id": 85,
                         "uielementid": "66453106-78BB-46CF-B15A-89BC68114F1E",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -4860,13 +4860,13 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 79,
-                        "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_80_79",
+                        "__idx": 84,
+                        "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_85_84",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 81,
+                        "Id": 86,
                         "uielementid": "90341255-31D0-46BE-9FD8-3F03D54B5388",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -4900,13 +4900,13 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 80,
-                        "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_81_80",
+                        "__idx": 85,
+                        "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_86_85",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 82,
+                        "Id": 87,
                         "WidgetId": "C2287754-790E-4853-A5A7-64772676D00E",
                         "uielementid": "B285AA75-D49B-4D92-99CA-A489113EA4E4",
                         "ShowCaption": true,
@@ -4941,13 +4941,13 @@ export const DataElementsData = [
                         "DCaption": "",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 81,
-                        "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_82_81",
+                        "__idx": 86,
+                        "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_87_86",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 83,
+                        "Id": 88,
                         "uielementid": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -4980,13 +4980,13 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 82,
-                        "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_83_82",
+                        "__idx": 87,
+                        "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_88_87",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 84,
+                        "Id": 89,
                         "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                         "TabIndex": -1,
                         "ShowCaption": false,
@@ -5021,12 +5021,12 @@ export const DataElementsData = [
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
                         "DCaption": "",
-                        "__idx": 83,
-                        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_84_83",
+                        "__idx": 88,
+                        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_89_88",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 101,
+                            "Id": 106,
                             "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -5055,13 +5055,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                            "__idx": 100,
-                            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_101_100",
+                            "__idx": 105,
+                            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_106_105",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 102,
+                            "Id": 107,
                             "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -5091,13 +5091,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                            "__idx": 101,
-                            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_102_101",
+                            "__idx": 106,
+                            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_107_106",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 103,
+                            "Id": 108,
                             "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -5128,13 +5128,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                            "__idx": 102,
-                            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_103_102",
+                            "__idx": 107,
+                            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_108_107",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 104,
+                            "Id": 109,
                             "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -5164,13 +5164,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                            "__idx": 103,
-                            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_104_103",
+                            "__idx": 108,
+                            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_109_108",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 105,
+                            "Id": 110,
                             "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -5200,8 +5200,8 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                            "__idx": 104,
-                            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_105_104",
+                            "__idx": 109,
+                            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_110_109",
                             "children": []
                           }
                         ]
@@ -5253,7 +5253,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 31,
+                "Id": 30,
                 "uielementid": "0DD3C9A1-7792-46A1-AE80-5240D67771C7",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -5287,12 +5287,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 30,
-                "_id": "0DD3C9A1-7792-46A1-AE80-5240D67771C7_31_30",
+                "__idx": 29,
+                "_id": "0DD3C9A1-7792-46A1-AE80-5240D67771C7_30_29",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 54,
+                    "Id": 59,
                     "uielementid": "97388DDE-3223-499A-B2CB-FE3C761AEA03",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -5326,12 +5326,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 53,
-                    "_id": "97388DDE-3223-499A-B2CB-FE3C761AEA03_54_53",
+                    "__idx": 58,
+                    "_id": "97388DDE-3223-499A-B2CB-FE3C761AEA03_59_58",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 85,
+                        "Id": 90,
                         "uielementid": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -5365,12 +5365,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 84,
-                        "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_85_84",
+                        "__idx": 89,
+                        "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_90_89",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 106,
+                            "Id": 111,
                             "uielementid": "F5B358B1-AC61-4100-BC6C-167FC7340D30",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -5406,13 +5406,13 @@ export const DataElementsData = [
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
                             "UCaption": "Next Action",
-                            "__idx": 105,
-                            "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_106_105",
+                            "__idx": 110,
+                            "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_111_110",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 107,
+                            "Id": 112,
                             "uielementid": "3528E434-EF97-461F-8CB4-FF31848A097F",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -5445,15 +5445,15 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 106,
-                            "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_107_106",
+                            "__idx": 111,
+                            "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_112_111",
                             "children": []
                           }
                         ]
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 86,
+                        "Id": 91,
                         "uielementid": "8B846853-9923-40F7-9C01-1A529703585B",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -5487,12 +5487,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 85,
-                        "_id": "8B846853-9923-40F7-9C01-1A529703585B_86_85",
+                        "__idx": 90,
+                        "_id": "8B846853-9923-40F7-9C01-1A529703585B_91_90",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 108,
+                            "Id": 113,
                             "uielementid": "5D7C36E7-F6E3-4898-8573-06D2021C39BB",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -5526,12 +5526,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 107,
-                            "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_108_107",
+                            "__idx": 112,
+                            "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_113_112",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 139,
+                                "Id": 144,
                                 "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -5565,12 +5565,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 138,
-                                "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_139_138",
+                                "__idx": 143,
+                                "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 153,
+                                    "Id": 158,
                                     "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -5598,7 +5598,7 @@ export const DataElementsData = [
                                     "MergeRow": "",
                                     "Action": "OnChange",
                                     "IsSaveWidget": 0,
-                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"M_FieldMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"SetDestinationTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveToValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_RemarksMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_NextStage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsflowReturned\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_SourceActivityMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_SaveDomainData\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Currentlevel\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsCancelReject\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                     "EDT": 9,
                                     "DCaption": "Move To",
                                     "DHelpText": "",
@@ -5609,13 +5609,13 @@ export const DataElementsData = [
                                         "Span": false
                                       }
                                     ],
-                                    "__idx": 152,
-                                    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_153_152",
+                                    "__idx": 157,
+                                    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_158_157",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 154,
+                                    "Id": 159,
                                     "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -5648,15 +5648,15 @@ export const DataElementsData = [
                                     "DCaption": "Comments",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 153,
-                                    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_154_153",
+                                    "__idx": 158,
+                                    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_159_158",
                                     "children": []
                                   }
                                 ]
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 140,
+                                "Id": 145,
                                 "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -5690,12 +5690,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 139,
-                                "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_140_139",
+                                "__idx": 144,
+                                "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 155,
+                                    "Id": 160,
                                     "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -5722,18 +5722,18 @@ export const DataElementsData = [
                                     "MergeRow": "",
                                     "Action": "OnClick",
                                     "IsSaveWidget": 0,
-                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"RemarksId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UserName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"DateOfRemarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_UpdatedBy\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_ReceiptSplitUpId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_DocumentDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"RedirectUrl\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"M_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                                     "EDT": 10,
                                     "DCaption": "Submit",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 154,
-                                    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_155_154",
+                                    "__idx": 159,
+                                    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_160_159",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 156,
+                                    "Id": 161,
                                     "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -5765,8 +5765,8 @@ export const DataElementsData = [
                                     "DCaption": "History",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 155,
-                                    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_156_155",
+                                    "__idx": 160,
+                                    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_161_160",
                                     "children": []
                                   }
                                 ]
@@ -5865,7 +5865,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 32,
+                "Id": 31,
                 "uielementid": "AD7A0985-D773-4505-B214-3753D81629B6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -5899,13 +5899,13 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 31,
-                "_id": "AD7A0985-D773-4505-B214-3753D81629B6_32_31",
+                "__idx": 30,
+                "_id": "AD7A0985-D773-4505-B214-3753D81629B6_31_30",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 33,
+                "Id": 32,
                 "uielementid": "FB487F2B-EAF1-43AD-B348-B06B39371ABA",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -5938,13 +5938,13 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 32,
-                "_id": "FB487F2B-EAF1-43AD-B348-B06B39371ABA_33_32",
+                "__idx": 31,
+                "_id": "FB487F2B-EAF1-43AD-B348-B06B39371ABA_32_31",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 34,
+                "Id": 33,
                 "WidgetId": "9A0E4095-1BE8-44D4-97FB-822ADA862E58",
                 "uielementid": "72E0A4D3-8271-4927-87B9-390811B882D9",
                 "ShowCaption": true,
@@ -5978,13 +5978,13 @@ export const DataElementsData = [
                 "DCaption": "",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 33,
-                "_id": "72E0A4D3-8271-4927-87B9-390811B882D9_34_33",
+                "__idx": 32,
+                "_id": "72E0A4D3-8271-4927-87B9-390811B882D9_33_32",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 35,
+                "Id": 34,
                 "uielementid": "2D875F54-F45D-496C-AD6B-92D9B9846E36",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -6018,13 +6018,13 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 34,
-                "_id": "2D875F54-F45D-496C-AD6B-92D9B9846E36_35_34",
+                "__idx": 33,
+                "_id": "2D875F54-F45D-496C-AD6B-92D9B9846E36_34_33",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 36,
+                "Id": 35,
                 "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
                 "TabIndex": -1,
                 "ShowCaption": false,
@@ -6059,12 +6059,12 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "DCaption": "",
-                "__idx": 35,
-                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_36_35",
+                "__idx": 34,
+                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_35_34",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 55,
+                    "Id": 60,
                     "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -6093,13 +6093,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-                    "__idx": 54,
-                    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_55_54",
+                    "__idx": 59,
+                    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_60_59",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 56,
+                    "Id": 61,
                     "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -6129,13 +6129,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-                    "__idx": 55,
-                    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_56_55",
+                    "__idx": 60,
+                    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_61_60",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 57,
+                    "Id": 62,
                     "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -6165,13 +6165,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-                    "__idx": 56,
-                    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_57_56",
+                    "__idx": 61,
+                    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_62_61",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 58,
+                    "Id": 63,
                     "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -6201,13 +6201,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-                    "__idx": 57,
-                    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_58_57",
+                    "__idx": 62,
+                    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_63_62",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 59,
+                    "Id": 64,
                     "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -6236,13 +6236,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-                    "__idx": 58,
-                    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_59_58",
+                    "__idx": 63,
+                    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_64_63",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 60,
+                    "Id": 65,
                     "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -6271,13 +6271,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-                    "__idx": 59,
-                    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_60_59",
+                    "__idx": 64,
+                    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_65_64",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 61,
+                    "Id": 66,
                     "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -6306,8 +6306,8 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-                    "__idx": 60,
-                    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_61_60",
+                    "__idx": 65,
+                    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_66_65",
                     "children": []
                   }
                 ]
@@ -6327,7 +6327,7 @@ export const DataElementsData = [
         "FontStrikeout": false,
         "FontUnderline": false,
         "Depth": 2,
-        "Css": "modal fade in CustomConfirmDialog",
+        "Css": "modal fade in CustomConfirmDialog conf_diag",
         "IsBadge": false,
         "MaxValue": 100,
         "CurrValue": 10,
@@ -6358,7 +6358,7 @@ export const DataElementsData = [
           {
             "VersionName": "Medium",
             "Id": 18,
-            "uielementid": "12E9ACFC-EA06-41F0-864C-56AB4242C92C",
+            "uielementid": "f40488b3-2895-b981-ad1f-c24aa99b40a2",
             "ShowCaption": true,
             "Fontbold": false,
             "FontItalic": false,
@@ -6366,18 +6366,16 @@ export const DataElementsData = [
             "FontStrikeout": false,
             "FontUnderline": false,
             "Depth": 3,
-            "Css": "label label-default",
             "IsBadge": false,
             "MaxValue": 100,
             "CurrValue": 10,
-            "LabelType": "Default",
             "ElementId": "",
-            "UIElementid": "12E9ACFC-EA06-41F0-864C-56AB4242C92C",
+            "UIElementid": "f40488b3-2895-b981-ad1f-c24aa99b40a2",
             "Sequence": 11,
-            "ElementName": "UI_Are sure want to delete",
+            "ElementName": "UI_Row",
             "ParentElementId": "65640807-7FEC-4B06-B4F0-B498E2ED8D3C",
-            "ControlType": "Label",
-            "uielementtypeid": 17,
+            "ControlType": "Row",
+            "uielementtypeid": 11,
             "Wrap": 12,
             "EnableDFS": false,
             "ClearFix": false,
@@ -6387,19 +6385,62 @@ export const DataElementsData = [
             "Buttons": false,
             "Legend": false,
             "NavigationNumbers": false,
-            "ControlId": 27,
+            "ControlId": 23,
             "Searchable": false,
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "__idx": 17,
-            "_id": "12E9ACFC-EA06-41F0-864C-56AB4242C92C_18_17",
-            "children": []
+            "_id": "f40488b3-2895-b981-ad1f-c24aa99b40a2_18_17",
+            "children": [
+              {
+                "VersionName": "Medium",
+                "Id": 36,
+                "uielementid": "12E9ACFC-EA06-41F0-864C-56AB4242C92C",
+                "ShowCaption": true,
+                "FontSize": 15,
+                "Fontbold": false,
+                "FontItalic": false,
+                "FontOverline": false,
+                "FontStrikeout": false,
+                "FontUnderline": false,
+                "Depth": 4,
+                "Css": "label label-default",
+                "IsBadge": false,
+                "MaxValue": 100,
+                "CurrValue": 10,
+                "LabelType": "Default",
+                "ElementId": "",
+                "UIElementid": "12E9ACFC-EA06-41F0-864C-56AB4242C92C",
+                "Sequence": 15,
+                "ElementName": "UI_Are sure want to delete",
+                "ParentElementId": "f40488b3-2895-b981-ad1f-c24aa99b40a2",
+                "ControlType": "Label",
+                "uielementtypeid": 17,
+                "Wrap": 12,
+                "EnableDFS": false,
+                "ClearFix": false,
+                "OnDemandLoad": false,
+                "IsLastStep": false,
+                "EnableValidation": false,
+                "Buttons": false,
+                "Legend": false,
+                "NavigationNumbers": false,
+                "ControlId": 27,
+                "Searchable": false,
+                "Bindable": false,
+                "IsSaveWidget": 0,
+                "BindingDetail": "",
+                "__idx": 35,
+                "_id": "12E9ACFC-EA06-41F0-864C-56AB4242C92C_36_35",
+                "children": []
+              }
+            ]
           },
           {
             "VersionName": "Medium",
             "Id": 19,
-            "uielementid": "71740417-6F9D-4EE9-8F19-6A2D0A225A47",
+            "uielementid": "6ab3094c-42ec-df3f-43d7-79441d249115",
             "ShowCaption": true,
             "Fontbold": false,
             "FontItalic": false,
@@ -6407,19 +6448,18 @@ export const DataElementsData = [
             "FontStrikeout": false,
             "FontUnderline": false,
             "Depth": 3,
-            "Css": "btn btn-info btn-xs",
             "IsBadge": false,
             "MaxValue": 100,
             "CurrValue": 10,
             "ElementId": "",
-            "UIElementid": "71740417-6F9D-4EE9-8F19-6A2D0A225A47",
+            "UIElementid": "6ab3094c-42ec-df3f-43d7-79441d249115",
             "Sequence": 12,
-            "ElementName": "UI_Yes",
+            "ElementName": "UI_Row",
             "ParentElementId": "65640807-7FEC-4B06-B4F0-B498E2ED8D3C",
-            "ControlType": "UI Button",
-            "uielementtypeid": 56,
+            "ControlType": "Row",
+            "uielementtypeid": 11,
             "Wrap": 12,
-            "EnableDFS": true,
+            "EnableDFS": false,
             "ClearFix": false,
             "OnDemandLoad": false,
             "IsLastStep": false,
@@ -6427,54 +6467,95 @@ export const DataElementsData = [
             "Buttons": false,
             "Legend": false,
             "NavigationNumbers": false,
-            "ControlId": 64,
+            "ControlId": 23,
             "Searchable": false,
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "__idx": 18,
-            "_id": "71740417-6F9D-4EE9-8F19-6A2D0A225A47_19_18",
-            "children": []
-          },
-          {
-            "VersionName": "Medium",
-            "Id": 20,
-            "uielementid": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41",
-            "ShowCaption": true,
-            "Fontbold": false,
-            "FontItalic": false,
-            "FontOverline": false,
-            "FontStrikeout": false,
-            "FontUnderline": false,
-            "Depth": 3,
-            "Css": "btn btn-info btn-xs",
-            "IsBadge": false,
-            "MaxValue": 100,
-            "CurrValue": 10,
-            "ElementId": "",
-            "UIElementid": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41",
-            "Sequence": 13,
-            "ElementName": "UI_No",
-            "ParentElementId": "65640807-7FEC-4B06-B4F0-B498E2ED8D3C",
-            "ControlType": "UI Button",
-            "uielementtypeid": 56,
-            "Wrap": 12,
-            "EnableDFS": true,
-            "ClearFix": false,
-            "OnDemandLoad": false,
-            "IsLastStep": false,
-            "EnableValidation": false,
-            "Buttons": false,
-            "Legend": false,
-            "NavigationNumbers": false,
-            "ControlId": 64,
-            "Searchable": false,
-            "Bindable": false,
-            "IsSaveWidget": 0,
-            "BindingDetail": "",
-            "__idx": 19,
-            "_id": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41_20_19",
-            "children": []
+            "_id": "6ab3094c-42ec-df3f-43d7-79441d249115_19_18",
+            "children": [
+              {
+                "VersionName": "Medium",
+                "Id": 37,
+                "uielementid": "71740417-6F9D-4EE9-8F19-6A2D0A225A47",
+                "ShowCaption": true,
+                "Fontbold": false,
+                "FontItalic": false,
+                "FontOverline": false,
+                "FontStrikeout": false,
+                "FontUnderline": false,
+                "Depth": 4,
+                "Css": "btn btn-danger btn-xs",
+                "IsBadge": false,
+                "MaxValue": 100,
+                "CurrValue": 10,
+                "ElementId": "",
+                "UIElementid": "71740417-6F9D-4EE9-8F19-6A2D0A225A47",
+                "Sequence": 16,
+                "ElementName": "UI_Yes",
+                "ParentElementId": "6ab3094c-42ec-df3f-43d7-79441d249115",
+                "ControlType": "UI Button",
+                "uielementtypeid": 56,
+                "Wrap": 6,
+                "EnableDFS": true,
+                "ClearFix": false,
+                "OnDemandLoad": false,
+                "IsLastStep": false,
+                "EnableValidation": false,
+                "Buttons": false,
+                "Legend": false,
+                "NavigationNumbers": false,
+                "ControlId": 64,
+                "Searchable": false,
+                "Bindable": false,
+                "IsSaveWidget": 0,
+                "BindingDetail": "",
+                "__idx": 36,
+                "_id": "71740417-6F9D-4EE9-8F19-6A2D0A225A47_37_36",
+                "children": []
+              },
+              {
+                "VersionName": "Medium",
+                "Id": 38,
+                "uielementid": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41",
+                "ShowCaption": true,
+                "Fontbold": false,
+                "FontItalic": false,
+                "FontOverline": false,
+                "FontStrikeout": false,
+                "FontUnderline": false,
+                "Depth": 4,
+                "Css": "btn btn-info btn-xs",
+                "IsBadge": false,
+                "MaxValue": 100,
+                "CurrValue": 10,
+                "ElementId": "",
+                "UIElementid": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41",
+                "Sequence": 17,
+                "ElementName": "UI_No",
+                "ParentElementId": "6ab3094c-42ec-df3f-43d7-79441d249115",
+                "ControlType": "UI Button",
+                "uielementtypeid": 56,
+                "Wrap": 6,
+                "EnableDFS": true,
+                "ClearFix": false,
+                "OnDemandLoad": false,
+                "IsLastStep": false,
+                "EnableValidation": false,
+                "Buttons": false,
+                "Legend": false,
+                "NavigationNumbers": false,
+                "ControlId": 64,
+                "Searchable": false,
+                "Bindable": false,
+                "IsSaveWidget": 0,
+                "BindingDetail": "",
+                "__idx": 37,
+                "_id": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41_38_37",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -6519,7 +6600,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 21,
+            "Id": 20,
             "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -6534,7 +6615,7 @@ export const DataElementsData = [
             "CurrValue": 10,
             "ElementId": "",
             "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
-            "Sequence": 14,
+            "Sequence": 13,
             "ElementName": "UI_InvisibleRow",
             "ParentElementId": "A2BBDDB3-FD24-42A6-B85D-36790BB660DD",
             "ControlType": "Row",
@@ -6553,12 +6634,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 20,
-            "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_21_20",
+            "__idx": 19,
+            "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_20_19",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 37,
+                "Id": 39,
                 "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -6570,7 +6651,7 @@ export const DataElementsData = [
                 "Css": "form-control input-lg",
                 "ElementId": "C9A73308-6B3B-4E61-B69F-419CABCC583C",
                 "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
-                "Sequence": 15,
+                "Sequence": 18,
                 "ElementName": "UC_EmployeeBaicInfoId",
                 "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
                 "ControlType": "TextBox",
@@ -6597,13 +6678,13 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 36,
-                "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_37_36",
+                "__idx": 38,
+                "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_39_38",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 38,
+                "Id": 40,
                 "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -6614,7 +6695,7 @@ export const DataElementsData = [
                 "Depth": 4,
                 "ElementId": "9B31A3F5-A5AA-4EE1-B30A-E780CBB23346",
                 "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
-                "Sequence": 16,
+                "Sequence": 19,
                 "ElementName": "MF_P1_ReceiptsId",
                 "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
                 "ControlType": "TextBox",
@@ -6645,8 +6726,120 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 37,
-                "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_38_37",
+                "__idx": 39,
+                "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_40_39",
+                "children": []
+              },
+              {
+                "VersionName": "Medium",
+                "Id": 41,
+                "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+                "ShowCaption": true,
+                "Fontbold": false,
+                "FontItalic": false,
+                "FontOverline": false,
+                "FontStrikeout": false,
+                "FontUnderline": false,
+                "Depth": 4,
+                "ElementId": "1500BA80-B637-4F4F-ACB3-7C3B34CDF50E",
+                "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+                "Sequence": 20,
+                "ElementName": "Subject",
+                "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
+                "ControlType": "TextBox",
+                "Wrap": 4,
+                "IsMultiline": true,
+                "ClearFix": false,
+                "RenderType": 1,
+                "OnDemandLoad": false,
+                "ControlId": 1,
+                "DisplayName": "Subject",
+                "Searchable": false,
+                "Bindable": false,
+                "HeaderTemplate": "",
+                "MergeRow": "",
+                "IsSaveWidget": 0,
+                "BindingDetail": "",
+                "EDT": 9,
+                "DCaption": "",
+                "DHelpText": "",
+                "DToolTip": "",
+                "__idx": 40,
+                "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_41_40",
+                "children": []
+              },
+              {
+                "VersionName": "Medium",
+                "Id": 42,
+                "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+                "ShowCaption": true,
+                "Fontbold": false,
+                "FontItalic": false,
+                "FontOverline": false,
+                "FontStrikeout": false,
+                "FontUnderline": false,
+                "Depth": 4,
+                "ElementId": "3C1E7AE2-D67A-4D07-8C18-096F8274CC37",
+                "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+                "Sequence": 21,
+                "ElementName": "ProjectCode",
+                "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
+                "ControlType": "TextBox",
+                "Wrap": 4,
+                "IsMultiline": false,
+                "ClearFix": false,
+                "RenderType": 1,
+                "OnDemandLoad": false,
+                "ControlId": 1,
+                "DisplayName": "ProjectCode",
+                "Searchable": false,
+                "Bindable": false,
+                "HeaderTemplate": "",
+                "MergeRow": "",
+                "IsSaveWidget": 0,
+                "BindingDetail": "",
+                "EDT": 9,
+                "DCaption": "",
+                "DHelpText": "",
+                "DToolTip": "",
+                "__idx": 41,
+                "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_42_41",
+                "children": []
+              },
+              {
+                "VersionName": "Medium",
+                "Id": 43,
+                "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+                "ShowCaption": true,
+                "Fontbold": false,
+                "FontItalic": false,
+                "FontOverline": false,
+                "FontStrikeout": false,
+                "FontUnderline": false,
+                "Depth": 4,
+                "ElementId": "c496497f-5d0e-e0d0-06dc-5b020cc22058",
+                "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+                "Sequence": 22,
+                "ElementName": "M_FlowType",
+                "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
+                "ControlType": "TextBox",
+                "Wrap": 4,
+                "IsMultiline": false,
+                "ClearFix": false,
+                "RenderType": 1,
+                "OnDemandLoad": false,
+                "ControlId": 1,
+                "DisplayName": "M_FlowType",
+                "Searchable": false,
+                "Bindable": false,
+                "HeaderTemplate": "",
+                "MergeRow": "",
+                "IsSaveWidget": 0,
+                "BindingDetail": "",
+                "EDT": 9,
+                "DCaption": "M_FlowType",
+                "__idx": 42,
+                "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_43_42",
                 "children": []
               }
             ]
@@ -6694,7 +6887,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 22,
+            "Id": 21,
             "uielementid": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
             "TabIndex": -1,
             "ShowCaption": false,
@@ -6709,7 +6902,7 @@ export const DataElementsData = [
             "CurrValue": 10,
             "ElementId": "",
             "UIElementid": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
-            "Sequence": 15,
+            "Sequence": 14,
             "ElementName": "UI_MG_Comments Header",
             "ParentElementId": "D26C046D-FD5F-4B2E-B031-C8051F19949F",
             "ControlType": "Column",
@@ -6729,12 +6922,12 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "DCaption": "",
-            "__idx": 21,
-            "_id": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F_22_21",
+            "__idx": 20,
+            "_id": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F_21_20",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 39,
+                "Id": 44,
                 "uielementid": "0B55DFD1-2410-4AE4-9504-B06D014378C6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -6749,7 +6942,7 @@ export const DataElementsData = [
                 "CurrValue": 10,
                 "ElementId": "",
                 "UIElementid": "0B55DFD1-2410-4AE4-9504-B06D014378C6",
-                "Sequence": 17,
+                "Sequence": 23,
                 "ElementName": "UI_Grid Header",
                 "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
                 "ControlType": "Grid Header",
@@ -6768,13 +6961,13 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 38,
-                "_id": "0B55DFD1-2410-4AE4-9504-B06D014378C6_39_38",
+                "__idx": 43,
+                "_id": "0B55DFD1-2410-4AE4-9504-B06D014378C6_44_43",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 40,
+                "Id": 45,
                 "uielementid": "C9BB7C58-7A52-4144-89EC-E828E0D7B908",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -6788,7 +6981,7 @@ export const DataElementsData = [
                 "CurrValue": 10,
                 "ElementId": "",
                 "UIElementid": "C9BB7C58-7A52-4144-89EC-E828E0D7B908",
-                "Sequence": 18,
+                "Sequence": 24,
                 "ElementName": "UI_Grid Search bar",
                 "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
                 "ControlType": "Grid Search bar",
@@ -6807,13 +7000,13 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 39,
-                "_id": "C9BB7C58-7A52-4144-89EC-E828E0D7B908_40_39",
+                "__idx": 44,
+                "_id": "C9BB7C58-7A52-4144-89EC-E828E0D7B908_45_44",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 41,
+                "Id": 46,
                 "WidgetId": "97c72782-b716-b2cd-caba-bef246e1dab6",
                 "uielementid": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
                 "ShowCaption": true,
@@ -6825,7 +7018,7 @@ export const DataElementsData = [
                 "Depth": 4,
                 "ElementId": "97c72782-b716-b2cd-caba-bef246e1dab6",
                 "UIElementid": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
-                "Sequence": 19,
+                "Sequence": 25,
                 "ElementName": "MG_Comments",
                 "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
                 "ControlType": "Grid",
@@ -6847,13 +7040,13 @@ export const DataElementsData = [
                 "DCaption": "",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 40,
-                "_id": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F_41_40",
+                "__idx": 45,
+                "_id": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F_46_45",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 42,
+                "Id": 47,
                 "uielementid": "BD56103A-3552-4850-B1D0-36AD88502675",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -6868,7 +7061,7 @@ export const DataElementsData = [
                 "CurrValue": 10,
                 "ElementId": "",
                 "UIElementid": "BD56103A-3552-4850-B1D0-36AD88502675",
-                "Sequence": 20,
+                "Sequence": 26,
                 "ElementName": "UI_Grid Footer",
                 "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
                 "ControlType": "Grid Footer",
@@ -6887,13 +7080,13 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 41,
-                "_id": "BD56103A-3552-4850-B1D0-36AD88502675_42_41",
+                "__idx": 46,
+                "_id": "BD56103A-3552-4850-B1D0-36AD88502675_47_46",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 43,
+                "Id": 48,
                 "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
                 "TabIndex": -1,
                 "ShowCaption": false,
@@ -6908,7 +7101,7 @@ export const DataElementsData = [
                 "CurrValue": 10,
                 "ElementId": "",
                 "UIElementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
-                "Sequence": 21,
+                "Sequence": 27,
                 "ElementName": "UI_GridColumns",
                 "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
                 "ControlType": "Column",
@@ -6928,12 +7121,12 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "DCaption": "",
-                "__idx": 42,
-                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_43_42",
+                "__idx": 47,
+                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_48_47",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 62,
+                    "Id": 67,
                     "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -6965,13 +7158,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-                    "__idx": 61,
-                    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_62_61",
+                    "__idx": 66,
+                    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_67_66",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 63,
+                    "Id": 68,
                     "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -7004,13 +7197,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-                    "__idx": 62,
-                    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_63_62",
+                    "__idx": 67,
+                    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_68_67",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 64,
+                    "Id": 69,
                     "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -7043,13 +7236,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-                    "__idx": 63,
-                    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_64_63",
+                    "__idx": 68,
+                    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_69_68",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 65,
+                    "Id": 70,
                     "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -7082,13 +7275,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-                    "__idx": 64,
-                    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_65_64",
+                    "__idx": 69,
+                    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_70_69",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 66,
+                    "Id": 71,
                     "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -7121,13 +7314,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-                    "__idx": 65,
-                    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_66_65",
+                    "__idx": 70,
+                    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_71_70",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 67,
+                    "Id": 72,
                     "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -7160,13 +7353,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-                    "__idx": 66,
-                    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_67_66",
+                    "__idx": 71,
+                    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_72_71",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 68,
+                    "Id": 73,
                     "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -7198,8 +7391,8 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-                    "__idx": 67,
-                    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_68_67",
+                    "__idx": 72,
+                    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_73_72",
                     "children": []
                   }
                 ]
@@ -7332,7 +7525,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 23,
+            "Id": 22,
             "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
             "ShowCaption": true,
             "Fontbold": false,
@@ -7366,12 +7559,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 22,
-            "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_23_22",
+            "__idx": 21,
+            "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_22_21",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 44,
+                "Id": 49,
                 "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -7404,13 +7597,13 @@ export const DataElementsData = [
                 "DCaption": "Employee Id",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 43,
-                "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_44_43",
+                "__idx": 48,
+                "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_49_48",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 45,
+                "Id": 50,
                 "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -7443,13 +7636,13 @@ export const DataElementsData = [
                 "DCaption": "Employee Name",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 44,
-                "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_45_44",
+                "__idx": 49,
+                "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_50_49",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 46,
+                "Id": 51,
                 "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -7482,13 +7675,13 @@ export const DataElementsData = [
                 "DCaption": "Designation",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 45,
-                "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_46_45",
+                "__idx": 50,
+                "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_51_50",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 47,
+                "Id": 52,
                 "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -7521,15 +7714,15 @@ export const DataElementsData = [
                 "DCaption": "Department",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 46,
-                "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_47_46",
+                "__idx": 51,
+                "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_52_51",
                 "children": []
               }
             ]
           },
           {
             "VersionName": "Medium",
-            "Id": 24,
+            "Id": 23,
             "uielementid": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD",
             "ShowCaption": true,
             "Fontbold": false,
@@ -7563,8 +7756,8 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 23,
-            "_id": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD_24_23",
+            "__idx": 22,
+            "_id": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD_23_22",
             "children": []
           }
         ]
@@ -7651,7 +7844,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 25,
+            "Id": 24,
             "uielementid": "8FEA8240-7016-42F3-B614-DC90CA28A213",
             "ShowCaption": true,
             "Fontbold": false,
@@ -7685,12 +7878,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 24,
-            "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_25_24",
+            "__idx": 23,
+            "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_24_23",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 48,
+                "Id": 53,
                 "uielementid": "8FEA8240-7016-42F3-B614-DC90CA28A213",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -7718,13 +7911,13 @@ export const DataElementsData = [
                 "MergeRow": "",
                 "Action": "OnChange",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                 "EDT": 9,
                 "DCaption": "Sanctioned Project Number",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 47,
-                "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_48_47",
+                "__idx": 52,
+                "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_53_52",
                 "children": []
               }
             ]
@@ -7772,7 +7965,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 26,
+            "Id": 25,
             "uielementid": "856B243C-AB46-4C50-8A2C-C34E7AA194EA",
             "ShowCaption": true,
             "Fontbold": false,
@@ -7806,12 +7999,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 25,
-            "_id": "856B243C-AB46-4C50-8A2C-C34E7AA194EA_26_25",
+            "__idx": 24,
+            "_id": "856B243C-AB46-4C50-8A2C-C34E7AA194EA_25_24",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 49,
+                "Id": 54,
                 "uielementid": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -7845,12 +8038,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 48,
-                "_id": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F_49_48",
+                "__idx": 53,
+                "_id": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F_54_53",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 69,
+                    "Id": 74,
                     "uielementid": "1CA1DF06-57FA-42A9-9D80-70836540BA06",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -7884,12 +8077,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 68,
-                    "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_69_68",
+                    "__idx": 73,
+                    "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_74_73",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 87,
+                        "Id": 92,
                         "uielementid": "0B168B00-008D-4750-9372-547D14EA5D78",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -7925,13 +8118,13 @@ export const DataElementsData = [
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
                         "UCaption": "Project Information",
-                        "__idx": 86,
-                        "_id": "0B168B00-008D-4750-9372-547D14EA5D78_87_86",
+                        "__idx": 91,
+                        "_id": "0B168B00-008D-4750-9372-547D14EA5D78_92_91",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 88,
+                        "Id": 93,
                         "uielementid": "5FABFD91-84EE-457E-A01E-FD284E5D083A",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -7965,15 +8158,15 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 87,
-                        "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_88_87",
+                        "__idx": 92,
+                        "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_93_92",
                         "children": []
                       }
                     ]
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 70,
+                    "Id": 75,
                     "uielementid": "67B99F6B-1727-49CC-A01E-2054296BCAD7",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -8007,12 +8200,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 69,
-                    "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_70_69",
+                    "__idx": 74,
+                    "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_75_74",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 89,
+                        "Id": 94,
                         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -8046,12 +8239,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 88,
-                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_89_88",
+                        "__idx": 93,
+                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_94_93",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 109,
+                            "Id": 114,
                             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -8084,13 +8277,13 @@ export const DataElementsData = [
                             "DCaption": "Sanctioned Project Name",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 108,
-                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_109_108",
+                            "__idx": 113,
+                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 110,
+                            "Id": 115,
                             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -8123,13 +8316,13 @@ export const DataElementsData = [
                             "DCaption": "Agency Code",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 109,
-                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_110_109",
+                            "__idx": 114,
+                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 111,
+                            "Id": 116,
                             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -8162,13 +8355,13 @@ export const DataElementsData = [
                             "DCaption": "Category",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 110,
-                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_111_110",
+                            "__idx": 115,
+                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 112,
+                            "Id": 117,
                             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -8197,18 +8390,18 @@ export const DataElementsData = [
                             "MergeRow": "",
                             "Action": "OnChange",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                             "EDT": 9,
                             "DCaption": "Sanctioned No",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 111,
-                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_112_111",
+                            "__idx": 116,
+                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 113,
+                            "Id": 118,
                             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -8240,13 +8433,13 @@ export const DataElementsData = [
                             "DCaption": "Sanctioned Date",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 112,
-                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_113_112",
+                            "__idx": 117,
+                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 114,
+                            "Id": 119,
                             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -8278,13 +8471,13 @@ export const DataElementsData = [
                             "DCaption": "Sanctioned Amount",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 113,
-                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
+                            "__idx": 118,
+                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_119_118",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 115,
+                            "Id": 120,
                             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -8316,13 +8509,13 @@ export const DataElementsData = [
                             "DCaption": "Start Date",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 114,
-                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
+                            "__idx": 119,
+                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 116,
+                            "Id": 121,
                             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -8354,13 +8547,13 @@ export const DataElementsData = [
                             "DCaption": "End Date",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 115,
-                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
+                            "__idx": 120,
+                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 117,
+                            "Id": 122,
                             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -8392,8 +8585,8 @@ export const DataElementsData = [
                             "DCaption": "Available Amount",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 116,
-                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
+                            "__idx": 121,
+                            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_122_121",
                             "children": []
                           }
                         ]
@@ -8402,7 +8595,7 @@ export const DataElementsData = [
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 71,
+                    "Id": 76,
                     "uielementid": "99147C2A-2072-4712-ABDC-B969A5DD6A89",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -8436,12 +8629,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 70,
-                    "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_71_70",
+                    "__idx": 75,
+                    "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_76_75",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 90,
+                        "Id": 95,
                         "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -8475,12 +8668,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 89,
-                        "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_90_89",
+                        "__idx": 94,
+                        "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_95_94",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 118,
+                            "Id": 123,
                             "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -8512,13 +8705,13 @@ export const DataElementsData = [
                             "DCaption": "Actual Start Date",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 117,
-                            "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_118_117",
+                            "__idx": 122,
+                            "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 119,
+                            "Id": 124,
                             "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -8560,8 +8753,8 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
-                            "__idx": 118,
-                            "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_119_118",
+                            "__idx": 123,
+                            "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
                             "children": []
                           }
                         ]
@@ -8615,7 +8808,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 27,
+            "Id": 26,
             "uielementid": "46EB9B6C-719A-4E03-88D8-86F4062E3A45",
             "ShowCaption": true,
             "Fontbold": false,
@@ -8649,12 +8842,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 26,
-            "_id": "46EB9B6C-719A-4E03-88D8-86F4062E3A45_27_26",
+            "__idx": 25,
+            "_id": "46EB9B6C-719A-4E03-88D8-86F4062E3A45_26_25",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 50,
+                "Id": 55,
                 "uielementid": "D0DF120F-C213-48A2-9B4C-AF2F7D166169",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -8688,12 +8881,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 49,
-                "_id": "D0DF120F-C213-48A2-9B4C-AF2F7D166169_50_49",
+                "__idx": 54,
+                "_id": "D0DF120F-C213-48A2-9B4C-AF2F7D166169_55_54",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 72,
+                    "Id": 77,
                     "uielementid": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -8727,12 +8920,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 71,
-                    "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_72_71",
+                    "__idx": 76,
+                    "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_77_76",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 91,
+                        "Id": 96,
                         "uielementid": "255A5CD9-8822-4862-936D-2E7ED1F1BD50",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -8768,13 +8961,13 @@ export const DataElementsData = [
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
                         "UCaption": "Fund Installment Details",
-                        "__idx": 90,
-                        "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_91_90",
+                        "__idx": 95,
+                        "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_96_95",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 92,
+                        "Id": 97,
                         "uielementid": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -8807,15 +9000,15 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 91,
-                        "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_92_91",
+                        "__idx": 96,
+                        "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_97_96",
                         "children": []
                       }
                     ]
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 73,
+                    "Id": 78,
                     "uielementid": "749D3334-9C41-470F-97DF-2BA7F4283B3F",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -8849,12 +9042,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 72,
-                    "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_73_72",
+                    "__idx": 77,
+                    "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_78_77",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 93,
+                        "Id": 98,
                         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -8888,12 +9081,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 92,
-                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_93_92",
+                        "__idx": 97,
+                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_98_97",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 120,
+                            "Id": 125,
                             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -8939,13 +9132,13 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
-                            "__idx": 119,
-                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_120_119",
+                            "__idx": 124,
+                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 121,
+                            "Id": 126,
                             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -8991,13 +9184,13 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
-                            "__idx": 120,
-                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_121_120",
+                            "__idx": 125,
+                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 122,
+                            "Id": 127,
                             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -9039,13 +9232,13 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
-                            "__idx": 121,
-                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_122_121",
+                            "__idx": 126,
+                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 123,
+                            "Id": 128,
                             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -9087,13 +9280,13 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
-                            "__idx": 122,
-                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_123_122",
+                            "__idx": 127,
+                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_128_127",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 124,
+                            "Id": 129,
                             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -9134,13 +9327,13 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
-                            "__idx": 123,
-                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_124_123",
+                            "__idx": 128,
+                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_129_128",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 125,
+                            "Id": 130,
                             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -9182,13 +9375,13 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
-                            "__idx": 124,
-                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
+                            "__idx": 129,
+                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_130_129",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 126,
+                            "Id": 131,
                             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -9230,13 +9423,13 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
-                            "__idx": 125,
-                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
+                            "__idx": 130,
+                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 127,
+                            "Id": 132,
                             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -9277,8 +9470,8 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
-                            "__idx": 126,
-                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
+                            "__idx": 131,
+                            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_132_131",
                             "children": []
                           }
                         ]
@@ -9332,7 +9525,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 28,
+            "Id": 27,
             "uielementid": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D",
             "ShowCaption": true,
             "Fontbold": false,
@@ -9366,12 +9559,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 27,
-            "_id": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D_28_27",
+            "__idx": 26,
+            "_id": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D_27_26",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 51,
+                "Id": 56,
                 "uielementid": "31F38CD6-6BEA-4BC4-8B26-493F1977A981",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -9405,12 +9598,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 50,
-                "_id": "31F38CD6-6BEA-4BC4-8B26-493F1977A981_51_50",
+                "__idx": 55,
+                "_id": "31F38CD6-6BEA-4BC4-8B26-493F1977A981_56_55",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 74,
+                    "Id": 79,
                     "uielementid": "3DC05163-B9D7-4A7C-858D-2A4006282CCB",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -9444,12 +9637,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 73,
-                    "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_74_73",
+                    "__idx": 78,
+                    "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_79_78",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 94,
+                        "Id": 99,
                         "uielementid": "34F57298-4365-45D8-B9FD-5C4B8C6544E3",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -9485,13 +9678,13 @@ export const DataElementsData = [
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
                         "UCaption": "Split Up of Fund Installment",
-                        "__idx": 93,
-                        "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_94_93",
+                        "__idx": 98,
+                        "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_99_98",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 95,
+                        "Id": 100,
                         "uielementid": "97461361-3474-48BD-B47B-2DD78F64392B",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -9524,15 +9717,15 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 94,
-                        "_id": "97461361-3474-48BD-B47B-2DD78F64392B_95_94",
+                        "__idx": 99,
+                        "_id": "97461361-3474-48BD-B47B-2DD78F64392B_100_99",
                         "children": []
                       }
                     ]
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 75,
+                    "Id": 80,
                     "uielementid": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -9566,12 +9759,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 74,
-                    "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_75_74",
+                    "__idx": 79,
+                    "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_80_79",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 96,
+                        "Id": 101,
                         "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -9605,12 +9798,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 95,
-                        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_96_95",
+                        "__idx": 100,
+                        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_101_100",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 128,
+                            "Id": 133,
                             "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -9656,13 +9849,13 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
-                            "__idx": 127,
-                            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_128_127",
+                            "__idx": 132,
+                            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_133_132",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 129,
+                            "Id": 134,
                             "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -9708,13 +9901,13 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
-                            "__idx": 128,
-                            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_129_128",
+                            "__idx": 133,
+                            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_134_133",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 130,
+                            "Id": 135,
                             "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -9746,13 +9939,13 @@ export const DataElementsData = [
                             "DCaption": "Save",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 129,
-                            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_130_129",
+                            "__idx": 134,
+                            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_135_134",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 131,
+                            "Id": 136,
                             "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -9784,8 +9977,8 @@ export const DataElementsData = [
                             "DCaption": "View Budget Details",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 130,
-                            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_131_130",
+                            "__idx": 135,
+                            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_136_135",
                             "children": []
                           }
                         ]
@@ -9794,7 +9987,7 @@ export const DataElementsData = [
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 76,
+                    "Id": 81,
                     "uielementid": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -9828,12 +10021,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 75,
-                    "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_76_75",
+                    "__idx": 80,
+                    "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_81_80",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 97,
+                        "Id": 102,
                         "uielementid": "C7CF6D22-62CA-459D-8312-8022F934D311",
                         "TabIndex": -1,
                         "ShowCaption": false,
@@ -9869,12 +10062,12 @@ export const DataElementsData = [
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
                         "DCaption": "",
-                        "__idx": 96,
-                        "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_97_96",
+                        "__idx": 101,
+                        "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_102_101",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 132,
+                            "Id": 137,
                             "uielementid": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -9908,13 +10101,13 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 131,
-                            "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_132_131",
+                            "__idx": 136,
+                            "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 133,
+                            "Id": 138,
                             "uielementid": "6B9CB23A-420F-421E-B39A-47785DBDABB4",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -9947,13 +10140,13 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 132,
-                            "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_133_132",
+                            "__idx": 137,
+                            "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 134,
+                            "Id": 139,
                             "WidgetId": "249EF445-9B49-4EF9-8045-46BD1E6FF8ED",
                             "uielementid": "C7CF6D22-62CA-459D-8312-8022F934D311",
                             "WidgetName": "ProjectFundInstallment_ReceiptSplitUp_AdditionalDetails.Json",
@@ -9988,8 +10181,8 @@ export const DataElementsData = [
                             "DCaption": "",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 133,
-                            "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_134_133",
+                            "__idx": 138,
+                            "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_139_138",
                             "children": [
                               {
                                 "VersionName": "Medium",
@@ -10508,7 +10701,7 @@ export const DataElementsData = [
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 135,
+                            "Id": 140,
                             "uielementid": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -10542,13 +10735,13 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 134,
-                            "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_135_134",
+                            "__idx": 139,
+                            "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 136,
+                            "Id": 141,
                             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                             "TabIndex": -1,
                             "ShowCaption": false,
@@ -10583,12 +10776,12 @@ export const DataElementsData = [
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
                             "DCaption": "",
-                            "__idx": 135,
-                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_136_135",
+                            "__idx": 140,
+                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 141,
+                                "Id": 146,
                                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -10617,13 +10810,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                "__idx": 140,
-                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
+                                "__idx": 145,
+                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 142,
+                                "Id": 147,
                                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -10653,13 +10846,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                "__idx": 141,
-                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_142_141",
+                                "__idx": 146,
+                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 143,
+                                "Id": 148,
                                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -10699,13 +10892,13 @@ export const DataElementsData = [
                                   }
                                 ],
                                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                "__idx": 142,
-                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_143_142",
+                                "__idx": 147,
+                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 144,
+                                "Id": 149,
                                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -10745,13 +10938,13 @@ export const DataElementsData = [
                                   }
                                 ],
                                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                "__idx": 143,
-                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_144_143",
+                                "__idx": 148,
+                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 145,
+                                "Id": 150,
                                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -10790,13 +10983,13 @@ export const DataElementsData = [
                                   }
                                 ],
                                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                "__idx": 144,
-                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_145_144",
+                                "__idx": 149,
+                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 146,
+                                "Id": 151,
                                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -10836,13 +11029,13 @@ export const DataElementsData = [
                                   }
                                 ],
                                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                "__idx": 145,
-                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
+                                "__idx": 150,
+                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_151_150",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 147,
+                                "Id": 152,
                                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -10881,13 +11074,13 @@ export const DataElementsData = [
                                   }
                                 ],
                                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                "__idx": 146,
-                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
+                                "__idx": 151,
+                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_152_151",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 148,
+                                "Id": 153,
                                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -10926,13 +11119,13 @@ export const DataElementsData = [
                                   }
                                 ],
                                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                "__idx": 147,
-                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
+                                "__idx": 152,
+                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 149,
+                                "Id": 154,
                                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -10967,13 +11160,13 @@ export const DataElementsData = [
                                   }
                                 ],
                                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                "__idx": 148,
-                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
+                                "__idx": 153,
+                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_154_153",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 150,
+                                "Id": 155,
                                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -11008,8 +11201,8 @@ export const DataElementsData = [
                                   }
                                 ],
                                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                                "__idx": 149,
-                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
+                                "__idx": 154,
+                                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_155_154",
                                 "children": []
                               }
                             ]
@@ -11065,7 +11258,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 29,
+            "Id": 28,
             "uielementid": "69C14AD1-4D01-4C59-9329-309CD11792BC",
             "ShowCaption": true,
             "Fontbold": false,
@@ -11099,12 +11292,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 28,
-            "_id": "69C14AD1-4D01-4C59-9329-309CD11792BC_29_28",
+            "__idx": 27,
+            "_id": "69C14AD1-4D01-4C59-9329-309CD11792BC_28_27",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 52,
+                "Id": 57,
                 "uielementid": "09678F54-644C-42B0-8E43-28997A14ED3D",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -11138,12 +11331,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 51,
-                "_id": "09678F54-644C-42B0-8E43-28997A14ED3D_52_51",
+                "__idx": 56,
+                "_id": "09678F54-644C-42B0-8E43-28997A14ED3D_57_56",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 77,
+                    "Id": 82,
                     "uielementid": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -11177,12 +11370,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 76,
-                    "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_77_76",
+                    "__idx": 81,
+                    "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_82_81",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 98,
+                        "Id": 103,
                         "uielementid": "840D2A86-98D9-4239-8536-663ECAA70414",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -11218,13 +11411,13 @@ export const DataElementsData = [
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
                         "UCaption": "Summary",
-                        "__idx": 97,
-                        "_id": "840D2A86-98D9-4239-8536-663ECAA70414_98_97",
+                        "__idx": 102,
+                        "_id": "840D2A86-98D9-4239-8536-663ECAA70414_103_102",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 99,
+                        "Id": 104,
                         "uielementid": "FB3FE2D0-870B-481F-86C1-1BA1667188B9",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -11257,15 +11450,15 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 98,
-                        "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_99_98",
+                        "__idx": 103,
+                        "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_104_103",
                         "children": []
                       }
                     ]
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 78,
+                    "Id": 83,
                     "uielementid": "917C4E99-F72F-4705-81DE-F66EB877C500",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -11299,12 +11492,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 77,
-                    "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_78_77",
+                    "__idx": 82,
+                    "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_83_82",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 100,
+                        "Id": 105,
                         "uielementid": "C1717B28-7611-445B-9745-4CF46D7A390C",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -11338,12 +11531,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 99,
-                        "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_100_99",
+                        "__idx": 104,
+                        "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_105_104",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 137,
+                            "Id": 142,
                             "uielementid": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -11377,12 +11570,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 136,
-                            "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_137_136",
+                            "__idx": 141,
+                            "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 151,
+                                "Id": 156,
                                 "uielementid": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -11416,12 +11609,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 150,
-                                "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_151_150",
+                                "__idx": 155,
+                                "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 157,
+                                    "Id": 162,
                                     "uielementid": "659D47FF-B282-4438-A53A-A7ACA37F740F",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -11455,12 +11648,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 156,
-                                    "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_157_156",
+                                    "__idx": 161,
+                                    "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 159,
+                                        "Id": 164,
                                         "uielementid": "1C5C4175-1245-45B0-8B04-6F7056984FFE",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -11494,12 +11687,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 158,
-                                        "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_159_158",
+                                        "__idx": 163,
+                                        "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 161,
+                                            "Id": 166,
                                             "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -11533,12 +11726,12 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 160,
-                                            "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_161_160",
+                                            "__idx": 165,
+                                            "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 163,
+                                                "Id": 168,
                                                 "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -11570,8 +11763,8 @@ export const DataElementsData = [
                                                 "DCaption": "Balance Fund Installment Amount",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "__idx": 162,
-                                                "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_163_162",
+                                                "__idx": 167,
+                                                "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_168_167",
                                                 "children": []
                                               }
                                             ]
@@ -11586,7 +11779,7 @@ export const DataElementsData = [
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 138,
+                            "Id": 143,
                             "uielementid": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -11620,12 +11813,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 137,
-                            "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_138_137",
+                            "__idx": 142,
+                            "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 152,
+                                "Id": 157,
                                 "uielementid": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -11659,12 +11852,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 151,
-                                "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_152_151",
+                                "__idx": 156,
+                                "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 158,
+                                    "Id": 163,
                                     "uielementid": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -11698,12 +11891,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 157,
-                                    "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_158_157",
+                                    "__idx": 162,
+                                    "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 160,
+                                        "Id": 165,
                                         "uielementid": "C99BC49F-B3F1-4200-9C0F-1528B298E082",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -11737,12 +11930,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 159,
-                                        "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_160_159",
+                                        "__idx": 164,
+                                        "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 162,
+                                            "Id": 167,
                                             "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -11776,12 +11969,12 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 161,
-                                            "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_162_161",
+                                            "__idx": 166,
+                                            "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 164,
+                                                "Id": 169,
                                                 "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -11813,8 +12006,8 @@ export const DataElementsData = [
                                                 "DCaption": "Split Up Total",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "__idx": 163,
-                                                "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_164_163",
+                                                "__idx": 168,
+                                                "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_169_168",
                                                 "children": []
                                               }
                                             ]
@@ -11833,7 +12026,7 @@ export const DataElementsData = [
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 79,
+                    "Id": 84,
                     "uielementid": "530F4791-43BB-498A-920D-7093BD174467",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -11867,8 +12060,8 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 78,
-                    "_id": "530F4791-43BB-498A-920D-7093BD174467_79_78",
+                    "__idx": 83,
+                    "_id": "530F4791-43BB-498A-920D-7093BD174467_84_83",
                     "children": []
                   }
                 ]
@@ -11918,7 +12111,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 30,
+            "Id": 29,
             "uielementid": "46091F7F-014D-4DDC-AD9D-974B1E4002B5",
             "ShowCaption": true,
             "Fontbold": false,
@@ -11952,12 +12145,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 29,
-            "_id": "46091F7F-014D-4DDC-AD9D-974B1E4002B5_30_29",
+            "__idx": 28,
+            "_id": "46091F7F-014D-4DDC-AD9D-974B1E4002B5_29_28",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 53,
+                "Id": 58,
                 "uielementid": "B285AA75-D49B-4D92-99CA-A489113EA4E4",
                 "TabIndex": -1,
                 "ShowCaption": false,
@@ -11992,12 +12185,12 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "DCaption": "",
-                "__idx": 52,
-                "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_53_52",
+                "__idx": 57,
+                "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_58_57",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 80,
+                    "Id": 85,
                     "uielementid": "66453106-78BB-46CF-B15A-89BC68114F1E",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -12031,13 +12224,13 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 79,
-                    "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_80_79",
+                    "__idx": 84,
+                    "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_85_84",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 81,
+                    "Id": 86,
                     "uielementid": "90341255-31D0-46BE-9FD8-3F03D54B5388",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -12071,13 +12264,13 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 80,
-                    "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_81_80",
+                    "__idx": 85,
+                    "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_86_85",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 82,
+                    "Id": 87,
                     "WidgetId": "C2287754-790E-4853-A5A7-64772676D00E",
                     "uielementid": "B285AA75-D49B-4D92-99CA-A489113EA4E4",
                     "ShowCaption": true,
@@ -12112,13 +12305,13 @@ export const DataElementsData = [
                     "DCaption": "",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 81,
-                    "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_82_81",
+                    "__idx": 86,
+                    "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_87_86",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 83,
+                    "Id": 88,
                     "uielementid": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -12151,13 +12344,13 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 82,
-                    "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_83_82",
+                    "__idx": 87,
+                    "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_88_87",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 84,
+                    "Id": 89,
                     "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                     "TabIndex": -1,
                     "ShowCaption": false,
@@ -12192,12 +12385,12 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "DCaption": "",
-                    "__idx": 83,
-                    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_84_83",
+                    "__idx": 88,
+                    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_89_88",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 101,
+                        "Id": 106,
                         "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -12226,13 +12419,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                        "__idx": 100,
-                        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_101_100",
+                        "__idx": 105,
+                        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_106_105",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 102,
+                        "Id": 107,
                         "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -12262,13 +12455,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                        "__idx": 101,
-                        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_102_101",
+                        "__idx": 106,
+                        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_107_106",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 103,
+                        "Id": 108,
                         "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -12299,13 +12492,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                        "__idx": 102,
-                        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_103_102",
+                        "__idx": 107,
+                        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_108_107",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 104,
+                        "Id": 109,
                         "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -12335,13 +12528,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                        "__idx": 103,
-                        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_104_103",
+                        "__idx": 108,
+                        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_109_108",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 105,
+                        "Id": 110,
                         "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -12371,8 +12564,8 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                        "__idx": 104,
-                        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_105_104",
+                        "__idx": 109,
+                        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_110_109",
                         "children": []
                       }
                     ]
@@ -12424,7 +12617,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 31,
+            "Id": 30,
             "uielementid": "0DD3C9A1-7792-46A1-AE80-5240D67771C7",
             "ShowCaption": true,
             "Fontbold": false,
@@ -12458,12 +12651,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 30,
-            "_id": "0DD3C9A1-7792-46A1-AE80-5240D67771C7_31_30",
+            "__idx": 29,
+            "_id": "0DD3C9A1-7792-46A1-AE80-5240D67771C7_30_29",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 54,
+                "Id": 59,
                 "uielementid": "97388DDE-3223-499A-B2CB-FE3C761AEA03",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -12497,12 +12690,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 53,
-                "_id": "97388DDE-3223-499A-B2CB-FE3C761AEA03_54_53",
+                "__idx": 58,
+                "_id": "97388DDE-3223-499A-B2CB-FE3C761AEA03_59_58",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 85,
+                    "Id": 90,
                     "uielementid": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -12536,12 +12729,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 84,
-                    "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_85_84",
+                    "__idx": 89,
+                    "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_90_89",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 106,
+                        "Id": 111,
                         "uielementid": "F5B358B1-AC61-4100-BC6C-167FC7340D30",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -12577,13 +12770,13 @@ export const DataElementsData = [
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
                         "UCaption": "Next Action",
-                        "__idx": 105,
-                        "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_106_105",
+                        "__idx": 110,
+                        "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_111_110",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 107,
+                        "Id": 112,
                         "uielementid": "3528E434-EF97-461F-8CB4-FF31848A097F",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -12616,15 +12809,15 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 106,
-                        "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_107_106",
+                        "__idx": 111,
+                        "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_112_111",
                         "children": []
                       }
                     ]
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 86,
+                    "Id": 91,
                     "uielementid": "8B846853-9923-40F7-9C01-1A529703585B",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -12658,12 +12851,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 85,
-                    "_id": "8B846853-9923-40F7-9C01-1A529703585B_86_85",
+                    "__idx": 90,
+                    "_id": "8B846853-9923-40F7-9C01-1A529703585B_91_90",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 108,
+                        "Id": 113,
                         "uielementid": "5D7C36E7-F6E3-4898-8573-06D2021C39BB",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -12697,12 +12890,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 107,
-                        "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_108_107",
+                        "__idx": 112,
+                        "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_113_112",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 139,
+                            "Id": 144,
                             "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -12736,12 +12929,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 138,
-                            "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_139_138",
+                            "__idx": 143,
+                            "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 153,
+                                "Id": 158,
                                 "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12769,7 +12962,7 @@ export const DataElementsData = [
                                 "MergeRow": "",
                                 "Action": "OnChange",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"M_FieldMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"SetDestinationTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveToValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_RemarksMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_NextStage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsflowReturned\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_SourceActivityMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_SaveDomainData\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Currentlevel\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsCancelReject\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                 "EDT": 9,
                                 "DCaption": "Move To",
                                 "DHelpText": "",
@@ -12780,13 +12973,13 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 152,
-                                "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_153_152",
+                                "__idx": 157,
+                                "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_158_157",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 154,
+                                "Id": 159,
                                 "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12819,15 +13012,15 @@ export const DataElementsData = [
                                 "DCaption": "Comments",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 153,
-                                "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_154_153",
+                                "__idx": 158,
+                                "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_159_158",
                                 "children": []
                               }
                             ]
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 140,
+                            "Id": 145,
                             "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -12861,12 +13054,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 139,
-                            "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_140_139",
+                            "__idx": 144,
+                            "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 155,
+                                "Id": 160,
                                 "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12893,18 +13086,18 @@ export const DataElementsData = [
                                 "MergeRow": "",
                                 "Action": "OnClick",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"RemarksId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UserName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"DateOfRemarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_UpdatedBy\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_ReceiptSplitUpId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_DocumentDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"RedirectUrl\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"M_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                                 "EDT": 10,
                                 "DCaption": "Submit",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 154,
-                                "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_155_154",
+                                "__idx": 159,
+                                "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_160_159",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 156,
+                                "Id": 161,
                                 "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -12936,8 +13129,8 @@ export const DataElementsData = [
                                 "DCaption": "History",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 155,
-                                "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_156_155",
+                                "__idx": 160,
+                                "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_161_160",
                                 "children": []
                               }
                             ]
@@ -13036,7 +13229,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 32,
+            "Id": 31,
             "uielementid": "AD7A0985-D773-4505-B214-3753D81629B6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -13070,13 +13263,13 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 31,
-            "_id": "AD7A0985-D773-4505-B214-3753D81629B6_32_31",
+            "__idx": 30,
+            "_id": "AD7A0985-D773-4505-B214-3753D81629B6_31_30",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 33,
+            "Id": 32,
             "uielementid": "FB487F2B-EAF1-43AD-B348-B06B39371ABA",
             "ShowCaption": true,
             "Fontbold": false,
@@ -13109,13 +13302,13 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 32,
-            "_id": "FB487F2B-EAF1-43AD-B348-B06B39371ABA_33_32",
+            "__idx": 31,
+            "_id": "FB487F2B-EAF1-43AD-B348-B06B39371ABA_32_31",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 34,
+            "Id": 33,
             "WidgetId": "9A0E4095-1BE8-44D4-97FB-822ADA862E58",
             "uielementid": "72E0A4D3-8271-4927-87B9-390811B882D9",
             "ShowCaption": true,
@@ -13149,13 +13342,13 @@ export const DataElementsData = [
             "DCaption": "",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 33,
-            "_id": "72E0A4D3-8271-4927-87B9-390811B882D9_34_33",
+            "__idx": 32,
+            "_id": "72E0A4D3-8271-4927-87B9-390811B882D9_33_32",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 35,
+            "Id": 34,
             "uielementid": "2D875F54-F45D-496C-AD6B-92D9B9846E36",
             "ShowCaption": true,
             "Fontbold": false,
@@ -13189,13 +13382,13 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 34,
-            "_id": "2D875F54-F45D-496C-AD6B-92D9B9846E36_35_34",
+            "__idx": 33,
+            "_id": "2D875F54-F45D-496C-AD6B-92D9B9846E36_34_33",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 36,
+            "Id": 35,
             "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
             "TabIndex": -1,
             "ShowCaption": false,
@@ -13230,12 +13423,12 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "DCaption": "",
-            "__idx": 35,
-            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_36_35",
+            "__idx": 34,
+            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_35_34",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 55,
+                "Id": 60,
                 "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -13264,13 +13457,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-                "__idx": 54,
-                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_55_54",
+                "__idx": 59,
+                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_60_59",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 56,
+                "Id": 61,
                 "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -13300,13 +13493,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-                "__idx": 55,
-                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_56_55",
+                "__idx": 60,
+                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_61_60",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 57,
+                "Id": 62,
                 "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -13336,13 +13529,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-                "__idx": 56,
-                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_57_56",
+                "__idx": 61,
+                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_62_61",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 58,
+                "Id": 63,
                 "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -13372,13 +13565,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-                "__idx": 57,
-                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_58_57",
+                "__idx": 62,
+                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_63_62",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 59,
+                "Id": 64,
                 "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -13407,13 +13600,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-                "__idx": 58,
-                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_59_58",
+                "__idx": 63,
+                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_64_63",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 60,
+                "Id": 65,
                 "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -13442,13 +13635,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-                "__idx": 59,
-                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_60_59",
+                "__idx": 64,
+                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_65_64",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 61,
+                "Id": 66,
                 "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -13477,8 +13670,8 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-                "__idx": 60,
-                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_61_60",
+                "__idx": 65,
+                "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_66_65",
                 "children": []
               }
             ]
@@ -13498,7 +13691,7 @@ export const DataElementsData = [
     "FontStrikeout": false,
     "FontUnderline": false,
     "Depth": 2,
-    "Css": "modal fade in CustomConfirmDialog",
+    "Css": "modal fade in CustomConfirmDialog conf_diag",
     "IsBadge": false,
     "MaxValue": 100,
     "CurrValue": 10,
@@ -13529,7 +13722,7 @@ export const DataElementsData = [
       {
         "VersionName": "Medium",
         "Id": 18,
-        "uielementid": "12E9ACFC-EA06-41F0-864C-56AB4242C92C",
+        "uielementid": "f40488b3-2895-b981-ad1f-c24aa99b40a2",
         "ShowCaption": true,
         "Fontbold": false,
         "FontItalic": false,
@@ -13537,18 +13730,16 @@ export const DataElementsData = [
         "FontStrikeout": false,
         "FontUnderline": false,
         "Depth": 3,
-        "Css": "label label-default",
         "IsBadge": false,
         "MaxValue": 100,
         "CurrValue": 10,
-        "LabelType": "Default",
         "ElementId": "",
-        "UIElementid": "12E9ACFC-EA06-41F0-864C-56AB4242C92C",
+        "UIElementid": "f40488b3-2895-b981-ad1f-c24aa99b40a2",
         "Sequence": 11,
-        "ElementName": "UI_Are sure want to delete",
+        "ElementName": "UI_Row",
         "ParentElementId": "65640807-7FEC-4B06-B4F0-B498E2ED8D3C",
-        "ControlType": "Label",
-        "uielementtypeid": 17,
+        "ControlType": "Row",
+        "uielementtypeid": 11,
         "Wrap": 12,
         "EnableDFS": false,
         "ClearFix": false,
@@ -13558,19 +13749,62 @@ export const DataElementsData = [
         "Buttons": false,
         "Legend": false,
         "NavigationNumbers": false,
-        "ControlId": 27,
+        "ControlId": 23,
         "Searchable": false,
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "__idx": 17,
-        "_id": "12E9ACFC-EA06-41F0-864C-56AB4242C92C_18_17",
-        "children": []
+        "_id": "f40488b3-2895-b981-ad1f-c24aa99b40a2_18_17",
+        "children": [
+          {
+            "VersionName": "Medium",
+            "Id": 36,
+            "uielementid": "12E9ACFC-EA06-41F0-864C-56AB4242C92C",
+            "ShowCaption": true,
+            "FontSize": 15,
+            "Fontbold": false,
+            "FontItalic": false,
+            "FontOverline": false,
+            "FontStrikeout": false,
+            "FontUnderline": false,
+            "Depth": 4,
+            "Css": "label label-default",
+            "IsBadge": false,
+            "MaxValue": 100,
+            "CurrValue": 10,
+            "LabelType": "Default",
+            "ElementId": "",
+            "UIElementid": "12E9ACFC-EA06-41F0-864C-56AB4242C92C",
+            "Sequence": 15,
+            "ElementName": "UI_Are sure want to delete",
+            "ParentElementId": "f40488b3-2895-b981-ad1f-c24aa99b40a2",
+            "ControlType": "Label",
+            "uielementtypeid": 17,
+            "Wrap": 12,
+            "EnableDFS": false,
+            "ClearFix": false,
+            "OnDemandLoad": false,
+            "IsLastStep": false,
+            "EnableValidation": false,
+            "Buttons": false,
+            "Legend": false,
+            "NavigationNumbers": false,
+            "ControlId": 27,
+            "Searchable": false,
+            "Bindable": false,
+            "IsSaveWidget": 0,
+            "BindingDetail": "",
+            "__idx": 35,
+            "_id": "12E9ACFC-EA06-41F0-864C-56AB4242C92C_36_35",
+            "children": []
+          }
+        ]
       },
       {
         "VersionName": "Medium",
         "Id": 19,
-        "uielementid": "71740417-6F9D-4EE9-8F19-6A2D0A225A47",
+        "uielementid": "6ab3094c-42ec-df3f-43d7-79441d249115",
         "ShowCaption": true,
         "Fontbold": false,
         "FontItalic": false,
@@ -13578,19 +13812,18 @@ export const DataElementsData = [
         "FontStrikeout": false,
         "FontUnderline": false,
         "Depth": 3,
-        "Css": "btn btn-info btn-xs",
         "IsBadge": false,
         "MaxValue": 100,
         "CurrValue": 10,
         "ElementId": "",
-        "UIElementid": "71740417-6F9D-4EE9-8F19-6A2D0A225A47",
+        "UIElementid": "6ab3094c-42ec-df3f-43d7-79441d249115",
         "Sequence": 12,
-        "ElementName": "UI_Yes",
+        "ElementName": "UI_Row",
         "ParentElementId": "65640807-7FEC-4B06-B4F0-B498E2ED8D3C",
-        "ControlType": "UI Button",
-        "uielementtypeid": 56,
+        "ControlType": "Row",
+        "uielementtypeid": 11,
         "Wrap": 12,
-        "EnableDFS": true,
+        "EnableDFS": false,
         "ClearFix": false,
         "OnDemandLoad": false,
         "IsLastStep": false,
@@ -13598,54 +13831,95 @@ export const DataElementsData = [
         "Buttons": false,
         "Legend": false,
         "NavigationNumbers": false,
-        "ControlId": 64,
+        "ControlId": 23,
         "Searchable": false,
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "__idx": 18,
-        "_id": "71740417-6F9D-4EE9-8F19-6A2D0A225A47_19_18",
-        "children": []
-      },
-      {
-        "VersionName": "Medium",
-        "Id": 20,
-        "uielementid": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41",
-        "ShowCaption": true,
-        "Fontbold": false,
-        "FontItalic": false,
-        "FontOverline": false,
-        "FontStrikeout": false,
-        "FontUnderline": false,
-        "Depth": 3,
-        "Css": "btn btn-info btn-xs",
-        "IsBadge": false,
-        "MaxValue": 100,
-        "CurrValue": 10,
-        "ElementId": "",
-        "UIElementid": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41",
-        "Sequence": 13,
-        "ElementName": "UI_No",
-        "ParentElementId": "65640807-7FEC-4B06-B4F0-B498E2ED8D3C",
-        "ControlType": "UI Button",
-        "uielementtypeid": 56,
-        "Wrap": 12,
-        "EnableDFS": true,
-        "ClearFix": false,
-        "OnDemandLoad": false,
-        "IsLastStep": false,
-        "EnableValidation": false,
-        "Buttons": false,
-        "Legend": false,
-        "NavigationNumbers": false,
-        "ControlId": 64,
-        "Searchable": false,
-        "Bindable": false,
-        "IsSaveWidget": 0,
-        "BindingDetail": "",
-        "__idx": 19,
-        "_id": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41_20_19",
-        "children": []
+        "_id": "6ab3094c-42ec-df3f-43d7-79441d249115_19_18",
+        "children": [
+          {
+            "VersionName": "Medium",
+            "Id": 37,
+            "uielementid": "71740417-6F9D-4EE9-8F19-6A2D0A225A47",
+            "ShowCaption": true,
+            "Fontbold": false,
+            "FontItalic": false,
+            "FontOverline": false,
+            "FontStrikeout": false,
+            "FontUnderline": false,
+            "Depth": 4,
+            "Css": "btn btn-danger btn-xs",
+            "IsBadge": false,
+            "MaxValue": 100,
+            "CurrValue": 10,
+            "ElementId": "",
+            "UIElementid": "71740417-6F9D-4EE9-8F19-6A2D0A225A47",
+            "Sequence": 16,
+            "ElementName": "UI_Yes",
+            "ParentElementId": "6ab3094c-42ec-df3f-43d7-79441d249115",
+            "ControlType": "UI Button",
+            "uielementtypeid": 56,
+            "Wrap": 6,
+            "EnableDFS": true,
+            "ClearFix": false,
+            "OnDemandLoad": false,
+            "IsLastStep": false,
+            "EnableValidation": false,
+            "Buttons": false,
+            "Legend": false,
+            "NavigationNumbers": false,
+            "ControlId": 64,
+            "Searchable": false,
+            "Bindable": false,
+            "IsSaveWidget": 0,
+            "BindingDetail": "",
+            "__idx": 36,
+            "_id": "71740417-6F9D-4EE9-8F19-6A2D0A225A47_37_36",
+            "children": []
+          },
+          {
+            "VersionName": "Medium",
+            "Id": 38,
+            "uielementid": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41",
+            "ShowCaption": true,
+            "Fontbold": false,
+            "FontItalic": false,
+            "FontOverline": false,
+            "FontStrikeout": false,
+            "FontUnderline": false,
+            "Depth": 4,
+            "Css": "btn btn-info btn-xs",
+            "IsBadge": false,
+            "MaxValue": 100,
+            "CurrValue": 10,
+            "ElementId": "",
+            "UIElementid": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41",
+            "Sequence": 17,
+            "ElementName": "UI_No",
+            "ParentElementId": "6ab3094c-42ec-df3f-43d7-79441d249115",
+            "ControlType": "UI Button",
+            "uielementtypeid": 56,
+            "Wrap": 6,
+            "EnableDFS": true,
+            "ClearFix": false,
+            "OnDemandLoad": false,
+            "IsLastStep": false,
+            "EnableValidation": false,
+            "Buttons": false,
+            "Legend": false,
+            "NavigationNumbers": false,
+            "ControlId": 64,
+            "Searchable": false,
+            "Bindable": false,
+            "IsSaveWidget": 0,
+            "BindingDetail": "",
+            "__idx": 37,
+            "_id": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41_38_37",
+            "children": []
+          }
+        ]
       }
     ]
   },
@@ -13690,7 +13964,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 21,
+        "Id": 20,
         "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -13705,7 +13979,7 @@ export const DataElementsData = [
         "CurrValue": 10,
         "ElementId": "",
         "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
-        "Sequence": 14,
+        "Sequence": 13,
         "ElementName": "UI_InvisibleRow",
         "ParentElementId": "A2BBDDB3-FD24-42A6-B85D-36790BB660DD",
         "ControlType": "Row",
@@ -13724,12 +13998,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 20,
-        "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_21_20",
+        "__idx": 19,
+        "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_20_19",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 37,
+            "Id": 39,
             "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -13741,7 +14015,7 @@ export const DataElementsData = [
             "Css": "form-control input-lg",
             "ElementId": "C9A73308-6B3B-4E61-B69F-419CABCC583C",
             "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
-            "Sequence": 15,
+            "Sequence": 18,
             "ElementName": "UC_EmployeeBaicInfoId",
             "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
             "ControlType": "TextBox",
@@ -13768,13 +14042,13 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 36,
-            "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_37_36",
+            "__idx": 38,
+            "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_39_38",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 38,
+            "Id": 40,
             "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -13785,7 +14059,7 @@ export const DataElementsData = [
             "Depth": 4,
             "ElementId": "9B31A3F5-A5AA-4EE1-B30A-E780CBB23346",
             "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
-            "Sequence": 16,
+            "Sequence": 19,
             "ElementName": "MF_P1_ReceiptsId",
             "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
             "ControlType": "TextBox",
@@ -13816,8 +14090,120 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 37,
-            "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_38_37",
+            "__idx": 39,
+            "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_40_39",
+            "children": []
+          },
+          {
+            "VersionName": "Medium",
+            "Id": 41,
+            "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+            "ShowCaption": true,
+            "Fontbold": false,
+            "FontItalic": false,
+            "FontOverline": false,
+            "FontStrikeout": false,
+            "FontUnderline": false,
+            "Depth": 4,
+            "ElementId": "1500BA80-B637-4F4F-ACB3-7C3B34CDF50E",
+            "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+            "Sequence": 20,
+            "ElementName": "Subject",
+            "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
+            "ControlType": "TextBox",
+            "Wrap": 4,
+            "IsMultiline": true,
+            "ClearFix": false,
+            "RenderType": 1,
+            "OnDemandLoad": false,
+            "ControlId": 1,
+            "DisplayName": "Subject",
+            "Searchable": false,
+            "Bindable": false,
+            "HeaderTemplate": "",
+            "MergeRow": "",
+            "IsSaveWidget": 0,
+            "BindingDetail": "",
+            "EDT": 9,
+            "DCaption": "",
+            "DHelpText": "",
+            "DToolTip": "",
+            "__idx": 40,
+            "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_41_40",
+            "children": []
+          },
+          {
+            "VersionName": "Medium",
+            "Id": 42,
+            "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+            "ShowCaption": true,
+            "Fontbold": false,
+            "FontItalic": false,
+            "FontOverline": false,
+            "FontStrikeout": false,
+            "FontUnderline": false,
+            "Depth": 4,
+            "ElementId": "3C1E7AE2-D67A-4D07-8C18-096F8274CC37",
+            "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+            "Sequence": 21,
+            "ElementName": "ProjectCode",
+            "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
+            "ControlType": "TextBox",
+            "Wrap": 4,
+            "IsMultiline": false,
+            "ClearFix": false,
+            "RenderType": 1,
+            "OnDemandLoad": false,
+            "ControlId": 1,
+            "DisplayName": "ProjectCode",
+            "Searchable": false,
+            "Bindable": false,
+            "HeaderTemplate": "",
+            "MergeRow": "",
+            "IsSaveWidget": 0,
+            "BindingDetail": "",
+            "EDT": 9,
+            "DCaption": "",
+            "DHelpText": "",
+            "DToolTip": "",
+            "__idx": 41,
+            "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_42_41",
+            "children": []
+          },
+          {
+            "VersionName": "Medium",
+            "Id": 43,
+            "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+            "ShowCaption": true,
+            "Fontbold": false,
+            "FontItalic": false,
+            "FontOverline": false,
+            "FontStrikeout": false,
+            "FontUnderline": false,
+            "Depth": 4,
+            "ElementId": "c496497f-5d0e-e0d0-06dc-5b020cc22058",
+            "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+            "Sequence": 22,
+            "ElementName": "M_FlowType",
+            "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
+            "ControlType": "TextBox",
+            "Wrap": 4,
+            "IsMultiline": false,
+            "ClearFix": false,
+            "RenderType": 1,
+            "OnDemandLoad": false,
+            "ControlId": 1,
+            "DisplayName": "M_FlowType",
+            "Searchable": false,
+            "Bindable": false,
+            "HeaderTemplate": "",
+            "MergeRow": "",
+            "IsSaveWidget": 0,
+            "BindingDetail": "",
+            "EDT": 9,
+            "DCaption": "M_FlowType",
+            "__idx": 42,
+            "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_43_42",
             "children": []
           }
         ]
@@ -13865,7 +14251,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 22,
+        "Id": 21,
         "uielementid": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
         "TabIndex": -1,
         "ShowCaption": false,
@@ -13880,7 +14266,7 @@ export const DataElementsData = [
         "CurrValue": 10,
         "ElementId": "",
         "UIElementid": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
-        "Sequence": 15,
+        "Sequence": 14,
         "ElementName": "UI_MG_Comments Header",
         "ParentElementId": "D26C046D-FD5F-4B2E-B031-C8051F19949F",
         "ControlType": "Column",
@@ -13900,12 +14286,12 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "DCaption": "",
-        "__idx": 21,
-        "_id": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F_22_21",
+        "__idx": 20,
+        "_id": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F_21_20",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 39,
+            "Id": 44,
             "uielementid": "0B55DFD1-2410-4AE4-9504-B06D014378C6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -13920,7 +14306,7 @@ export const DataElementsData = [
             "CurrValue": 10,
             "ElementId": "",
             "UIElementid": "0B55DFD1-2410-4AE4-9504-B06D014378C6",
-            "Sequence": 17,
+            "Sequence": 23,
             "ElementName": "UI_Grid Header",
             "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
             "ControlType": "Grid Header",
@@ -13939,13 +14325,13 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 38,
-            "_id": "0B55DFD1-2410-4AE4-9504-B06D014378C6_39_38",
+            "__idx": 43,
+            "_id": "0B55DFD1-2410-4AE4-9504-B06D014378C6_44_43",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 40,
+            "Id": 45,
             "uielementid": "C9BB7C58-7A52-4144-89EC-E828E0D7B908",
             "ShowCaption": true,
             "Fontbold": false,
@@ -13959,7 +14345,7 @@ export const DataElementsData = [
             "CurrValue": 10,
             "ElementId": "",
             "UIElementid": "C9BB7C58-7A52-4144-89EC-E828E0D7B908",
-            "Sequence": 18,
+            "Sequence": 24,
             "ElementName": "UI_Grid Search bar",
             "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
             "ControlType": "Grid Search bar",
@@ -13978,13 +14364,13 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 39,
-            "_id": "C9BB7C58-7A52-4144-89EC-E828E0D7B908_40_39",
+            "__idx": 44,
+            "_id": "C9BB7C58-7A52-4144-89EC-E828E0D7B908_45_44",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 41,
+            "Id": 46,
             "WidgetId": "97c72782-b716-b2cd-caba-bef246e1dab6",
             "uielementid": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
             "ShowCaption": true,
@@ -13996,7 +14382,7 @@ export const DataElementsData = [
             "Depth": 4,
             "ElementId": "97c72782-b716-b2cd-caba-bef246e1dab6",
             "UIElementid": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
-            "Sequence": 19,
+            "Sequence": 25,
             "ElementName": "MG_Comments",
             "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
             "ControlType": "Grid",
@@ -14018,13 +14404,13 @@ export const DataElementsData = [
             "DCaption": "",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 40,
-            "_id": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F_41_40",
+            "__idx": 45,
+            "_id": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F_46_45",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 42,
+            "Id": 47,
             "uielementid": "BD56103A-3552-4850-B1D0-36AD88502675",
             "ShowCaption": true,
             "Fontbold": false,
@@ -14039,7 +14425,7 @@ export const DataElementsData = [
             "CurrValue": 10,
             "ElementId": "",
             "UIElementid": "BD56103A-3552-4850-B1D0-36AD88502675",
-            "Sequence": 20,
+            "Sequence": 26,
             "ElementName": "UI_Grid Footer",
             "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
             "ControlType": "Grid Footer",
@@ -14058,13 +14444,13 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 41,
-            "_id": "BD56103A-3552-4850-B1D0-36AD88502675_42_41",
+            "__idx": 46,
+            "_id": "BD56103A-3552-4850-B1D0-36AD88502675_47_46",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 43,
+            "Id": 48,
             "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
             "TabIndex": -1,
             "ShowCaption": false,
@@ -14079,7 +14465,7 @@ export const DataElementsData = [
             "CurrValue": 10,
             "ElementId": "",
             "UIElementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
-            "Sequence": 21,
+            "Sequence": 27,
             "ElementName": "UI_GridColumns",
             "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
             "ControlType": "Column",
@@ -14099,12 +14485,12 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "DCaption": "",
-            "__idx": 42,
-            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_43_42",
+            "__idx": 47,
+            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_48_47",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 62,
+                "Id": 67,
                 "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -14136,13 +14522,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-                "__idx": 61,
-                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_62_61",
+                "__idx": 66,
+                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_67_66",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 63,
+                "Id": 68,
                 "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -14175,13 +14561,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-                "__idx": 62,
-                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_63_62",
+                "__idx": 67,
+                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_68_67",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 64,
+                "Id": 69,
                 "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -14214,13 +14600,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-                "__idx": 63,
-                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_64_63",
+                "__idx": 68,
+                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_69_68",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 65,
+                "Id": 70,
                 "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -14253,13 +14639,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-                "__idx": 64,
-                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_65_64",
+                "__idx": 69,
+                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_70_69",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 66,
+                "Id": 71,
                 "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -14292,13 +14678,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-                "__idx": 65,
-                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_66_65",
+                "__idx": 70,
+                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_71_70",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 67,
+                "Id": 72,
                 "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -14331,13 +14717,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-                "__idx": 66,
-                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_67_66",
+                "__idx": 71,
+                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_72_71",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 68,
+                "Id": 73,
                 "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -14369,8 +14755,8 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-                "__idx": 67,
-                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_68_67",
+                "__idx": 72,
+                "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_73_72",
                 "children": []
               }
             ]
@@ -14462,7 +14848,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 23,
+        "Id": 22,
         "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
         "ShowCaption": true,
         "Fontbold": false,
@@ -14496,12 +14882,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 22,
-        "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_23_22",
+        "__idx": 21,
+        "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_22_21",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 44,
+            "Id": 49,
             "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
             "ShowCaption": true,
             "Fontbold": false,
@@ -14534,13 +14920,13 @@ export const DataElementsData = [
             "DCaption": "Employee Id",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 43,
-            "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_44_43",
+            "__idx": 48,
+            "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_49_48",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 45,
+            "Id": 50,
             "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
             "ShowCaption": true,
             "Fontbold": false,
@@ -14573,13 +14959,13 @@ export const DataElementsData = [
             "DCaption": "Employee Name",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 44,
-            "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_45_44",
+            "__idx": 49,
+            "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_50_49",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 46,
+            "Id": 51,
             "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
             "ShowCaption": true,
             "Fontbold": false,
@@ -14612,13 +14998,13 @@ export const DataElementsData = [
             "DCaption": "Designation",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 45,
-            "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_46_45",
+            "__idx": 50,
+            "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_51_50",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 47,
+            "Id": 52,
             "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
             "ShowCaption": true,
             "Fontbold": false,
@@ -14651,15 +15037,15 @@ export const DataElementsData = [
             "DCaption": "Department",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 46,
-            "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_47_46",
+            "__idx": 51,
+            "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_52_51",
             "children": []
           }
         ]
       },
       {
         "VersionName": "Medium",
-        "Id": 24,
+        "Id": 23,
         "uielementid": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD",
         "ShowCaption": true,
         "Fontbold": false,
@@ -14693,8 +15079,8 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 23,
-        "_id": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD_24_23",
+        "__idx": 22,
+        "_id": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD_23_22",
         "children": []
       }
     ]
@@ -14740,7 +15126,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 25,
+        "Id": 24,
         "uielementid": "8FEA8240-7016-42F3-B614-DC90CA28A213",
         "ShowCaption": true,
         "Fontbold": false,
@@ -14774,12 +15160,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 24,
-        "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_25_24",
+        "__idx": 23,
+        "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_24_23",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 48,
+            "Id": 53,
             "uielementid": "8FEA8240-7016-42F3-B614-DC90CA28A213",
             "ShowCaption": true,
             "Fontbold": false,
@@ -14807,13 +15193,13 @@ export const DataElementsData = [
             "MergeRow": "",
             "Action": "OnChange",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
             "EDT": 9,
             "DCaption": "Sanctioned Project Number",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 47,
-            "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_48_47",
+            "__idx": 52,
+            "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_53_52",
             "children": []
           }
         ]
@@ -14861,7 +15247,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 26,
+        "Id": 25,
         "uielementid": "856B243C-AB46-4C50-8A2C-C34E7AA194EA",
         "ShowCaption": true,
         "Fontbold": false,
@@ -14895,12 +15281,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 25,
-        "_id": "856B243C-AB46-4C50-8A2C-C34E7AA194EA_26_25",
+        "__idx": 24,
+        "_id": "856B243C-AB46-4C50-8A2C-C34E7AA194EA_25_24",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 49,
+            "Id": 54,
             "uielementid": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F",
             "ShowCaption": true,
             "Fontbold": false,
@@ -14934,12 +15320,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 48,
-            "_id": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F_49_48",
+            "__idx": 53,
+            "_id": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F_54_53",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 69,
+                "Id": 74,
                 "uielementid": "1CA1DF06-57FA-42A9-9D80-70836540BA06",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -14973,12 +15359,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 68,
-                "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_69_68",
+                "__idx": 73,
+                "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_74_73",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 87,
+                    "Id": 92,
                     "uielementid": "0B168B00-008D-4750-9372-547D14EA5D78",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -15014,13 +15400,13 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "UCaption": "Project Information",
-                    "__idx": 86,
-                    "_id": "0B168B00-008D-4750-9372-547D14EA5D78_87_86",
+                    "__idx": 91,
+                    "_id": "0B168B00-008D-4750-9372-547D14EA5D78_92_91",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 88,
+                    "Id": 93,
                     "uielementid": "5FABFD91-84EE-457E-A01E-FD284E5D083A",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -15054,15 +15440,15 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 87,
-                    "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_88_87",
+                    "__idx": 92,
+                    "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_93_92",
                     "children": []
                   }
                 ]
               },
               {
                 "VersionName": "Medium",
-                "Id": 70,
+                "Id": 75,
                 "uielementid": "67B99F6B-1727-49CC-A01E-2054296BCAD7",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -15096,12 +15482,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 69,
-                "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_70_69",
+                "__idx": 74,
+                "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_75_74",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 89,
+                    "Id": 94,
                     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -15135,12 +15521,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 88,
-                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_89_88",
+                    "__idx": 93,
+                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_94_93",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 109,
+                        "Id": 114,
                         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -15173,13 +15559,13 @@ export const DataElementsData = [
                         "DCaption": "Sanctioned Project Name",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 108,
-                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_109_108",
+                        "__idx": 113,
+                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 110,
+                        "Id": 115,
                         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -15212,13 +15598,13 @@ export const DataElementsData = [
                         "DCaption": "Agency Code",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 109,
-                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_110_109",
+                        "__idx": 114,
+                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 111,
+                        "Id": 116,
                         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -15251,13 +15637,13 @@ export const DataElementsData = [
                         "DCaption": "Category",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 110,
-                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_111_110",
+                        "__idx": 115,
+                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 112,
+                        "Id": 117,
                         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -15286,18 +15672,18 @@ export const DataElementsData = [
                         "MergeRow": "",
                         "Action": "OnChange",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                         "EDT": 9,
                         "DCaption": "Sanctioned No",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 111,
-                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_112_111",
+                        "__idx": 116,
+                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 113,
+                        "Id": 118,
                         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -15329,13 +15715,13 @@ export const DataElementsData = [
                         "DCaption": "Sanctioned Date",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 112,
-                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_113_112",
+                        "__idx": 117,
+                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 114,
+                        "Id": 119,
                         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -15367,13 +15753,13 @@ export const DataElementsData = [
                         "DCaption": "Sanctioned Amount",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 113,
-                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
+                        "__idx": 118,
+                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_119_118",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 115,
+                        "Id": 120,
                         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -15405,13 +15791,13 @@ export const DataElementsData = [
                         "DCaption": "Start Date",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 114,
-                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
+                        "__idx": 119,
+                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 116,
+                        "Id": 121,
                         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -15443,13 +15829,13 @@ export const DataElementsData = [
                         "DCaption": "End Date",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 115,
-                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
+                        "__idx": 120,
+                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 117,
+                        "Id": 122,
                         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -15481,8 +15867,8 @@ export const DataElementsData = [
                         "DCaption": "Available Amount",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 116,
-                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
+                        "__idx": 121,
+                        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_122_121",
                         "children": []
                       }
                     ]
@@ -15491,7 +15877,7 @@ export const DataElementsData = [
               },
               {
                 "VersionName": "Medium",
-                "Id": 71,
+                "Id": 76,
                 "uielementid": "99147C2A-2072-4712-ABDC-B969A5DD6A89",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -15525,12 +15911,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 70,
-                "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_71_70",
+                "__idx": 75,
+                "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_76_75",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 90,
+                    "Id": 95,
                     "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -15564,12 +15950,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 89,
-                    "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_90_89",
+                    "__idx": 94,
+                    "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_95_94",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 118,
+                        "Id": 123,
                         "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -15601,13 +15987,13 @@ export const DataElementsData = [
                         "DCaption": "Actual Start Date",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 117,
-                        "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_118_117",
+                        "__idx": 122,
+                        "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 119,
+                        "Id": 124,
                         "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -15649,8 +16035,8 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
-                        "__idx": 118,
-                        "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_119_118",
+                        "__idx": 123,
+                        "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
                         "children": []
                       }
                     ]
@@ -15704,7 +16090,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 27,
+        "Id": 26,
         "uielementid": "46EB9B6C-719A-4E03-88D8-86F4062E3A45",
         "ShowCaption": true,
         "Fontbold": false,
@@ -15738,12 +16124,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 26,
-        "_id": "46EB9B6C-719A-4E03-88D8-86F4062E3A45_27_26",
+        "__idx": 25,
+        "_id": "46EB9B6C-719A-4E03-88D8-86F4062E3A45_26_25",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 50,
+            "Id": 55,
             "uielementid": "D0DF120F-C213-48A2-9B4C-AF2F7D166169",
             "ShowCaption": true,
             "Fontbold": false,
@@ -15777,12 +16163,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 49,
-            "_id": "D0DF120F-C213-48A2-9B4C-AF2F7D166169_50_49",
+            "__idx": 54,
+            "_id": "D0DF120F-C213-48A2-9B4C-AF2F7D166169_55_54",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 72,
+                "Id": 77,
                 "uielementid": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -15816,12 +16202,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 71,
-                "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_72_71",
+                "__idx": 76,
+                "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_77_76",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 91,
+                    "Id": 96,
                     "uielementid": "255A5CD9-8822-4862-936D-2E7ED1F1BD50",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -15857,13 +16243,13 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "UCaption": "Fund Installment Details",
-                    "__idx": 90,
-                    "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_91_90",
+                    "__idx": 95,
+                    "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_96_95",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 92,
+                    "Id": 97,
                     "uielementid": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -15896,15 +16282,15 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 91,
-                    "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_92_91",
+                    "__idx": 96,
+                    "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_97_96",
                     "children": []
                   }
                 ]
               },
               {
                 "VersionName": "Medium",
-                "Id": 73,
+                "Id": 78,
                 "uielementid": "749D3334-9C41-470F-97DF-2BA7F4283B3F",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -15938,12 +16324,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 72,
-                "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_73_72",
+                "__idx": 77,
+                "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_78_77",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 93,
+                    "Id": 98,
                     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -15977,12 +16363,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 92,
-                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_93_92",
+                    "__idx": 97,
+                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_98_97",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 120,
+                        "Id": 125,
                         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -16028,13 +16414,13 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
-                        "__idx": 119,
-                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_120_119",
+                        "__idx": 124,
+                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 121,
+                        "Id": 126,
                         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -16080,13 +16466,13 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
-                        "__idx": 120,
-                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_121_120",
+                        "__idx": 125,
+                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 122,
+                        "Id": 127,
                         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -16128,13 +16514,13 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
-                        "__idx": 121,
-                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_122_121",
+                        "__idx": 126,
+                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 123,
+                        "Id": 128,
                         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -16176,13 +16562,13 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
-                        "__idx": 122,
-                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_123_122",
+                        "__idx": 127,
+                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_128_127",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 124,
+                        "Id": 129,
                         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -16223,13 +16609,13 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
-                        "__idx": 123,
-                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_124_123",
+                        "__idx": 128,
+                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_129_128",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 125,
+                        "Id": 130,
                         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -16271,13 +16657,13 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
-                        "__idx": 124,
-                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
+                        "__idx": 129,
+                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_130_129",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 126,
+                        "Id": 131,
                         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -16319,13 +16705,13 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
-                        "__idx": 125,
-                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
+                        "__idx": 130,
+                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 127,
+                        "Id": 132,
                         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -16366,8 +16752,8 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
-                        "__idx": 126,
-                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
+                        "__idx": 131,
+                        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_132_131",
                         "children": []
                       }
                     ]
@@ -16421,7 +16807,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 28,
+        "Id": 27,
         "uielementid": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D",
         "ShowCaption": true,
         "Fontbold": false,
@@ -16455,12 +16841,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 27,
-        "_id": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D_28_27",
+        "__idx": 26,
+        "_id": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D_27_26",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 51,
+            "Id": 56,
             "uielementid": "31F38CD6-6BEA-4BC4-8B26-493F1977A981",
             "ShowCaption": true,
             "Fontbold": false,
@@ -16494,12 +16880,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 50,
-            "_id": "31F38CD6-6BEA-4BC4-8B26-493F1977A981_51_50",
+            "__idx": 55,
+            "_id": "31F38CD6-6BEA-4BC4-8B26-493F1977A981_56_55",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 74,
+                "Id": 79,
                 "uielementid": "3DC05163-B9D7-4A7C-858D-2A4006282CCB",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -16533,12 +16919,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 73,
-                "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_74_73",
+                "__idx": 78,
+                "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_79_78",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 94,
+                    "Id": 99,
                     "uielementid": "34F57298-4365-45D8-B9FD-5C4B8C6544E3",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -16574,13 +16960,13 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "UCaption": "Split Up of Fund Installment",
-                    "__idx": 93,
-                    "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_94_93",
+                    "__idx": 98,
+                    "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_99_98",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 95,
+                    "Id": 100,
                     "uielementid": "97461361-3474-48BD-B47B-2DD78F64392B",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -16613,15 +16999,15 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 94,
-                    "_id": "97461361-3474-48BD-B47B-2DD78F64392B_95_94",
+                    "__idx": 99,
+                    "_id": "97461361-3474-48BD-B47B-2DD78F64392B_100_99",
                     "children": []
                   }
                 ]
               },
               {
                 "VersionName": "Medium",
-                "Id": 75,
+                "Id": 80,
                 "uielementid": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -16655,12 +17041,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 74,
-                "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_75_74",
+                "__idx": 79,
+                "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_80_79",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 96,
+                    "Id": 101,
                     "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -16694,12 +17080,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 95,
-                    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_96_95",
+                    "__idx": 100,
+                    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_101_100",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 128,
+                        "Id": 133,
                         "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -16745,13 +17131,13 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
-                        "__idx": 127,
-                        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_128_127",
+                        "__idx": 132,
+                        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_133_132",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 129,
+                        "Id": 134,
                         "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -16797,13 +17183,13 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
-                        "__idx": 128,
-                        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_129_128",
+                        "__idx": 133,
+                        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_134_133",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 130,
+                        "Id": 135,
                         "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -16835,13 +17221,13 @@ export const DataElementsData = [
                         "DCaption": "Save",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 129,
-                        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_130_129",
+                        "__idx": 134,
+                        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_135_134",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 131,
+                        "Id": 136,
                         "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -16873,8 +17259,8 @@ export const DataElementsData = [
                         "DCaption": "View Budget Details",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 130,
-                        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_131_130",
+                        "__idx": 135,
+                        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_136_135",
                         "children": []
                       }
                     ]
@@ -16883,7 +17269,7 @@ export const DataElementsData = [
               },
               {
                 "VersionName": "Medium",
-                "Id": 76,
+                "Id": 81,
                 "uielementid": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -16917,12 +17303,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 75,
-                "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_76_75",
+                "__idx": 80,
+                "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_81_80",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 97,
+                    "Id": 102,
                     "uielementid": "C7CF6D22-62CA-459D-8312-8022F934D311",
                     "TabIndex": -1,
                     "ShowCaption": false,
@@ -16958,12 +17344,12 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "DCaption": "",
-                    "__idx": 96,
-                    "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_97_96",
+                    "__idx": 101,
+                    "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_102_101",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 132,
+                        "Id": 137,
                         "uielementid": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -16997,13 +17383,13 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 131,
-                        "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_132_131",
+                        "__idx": 136,
+                        "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 133,
+                        "Id": 138,
                         "uielementid": "6B9CB23A-420F-421E-B39A-47785DBDABB4",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -17036,13 +17422,13 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 132,
-                        "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_133_132",
+                        "__idx": 137,
+                        "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 134,
+                        "Id": 139,
                         "WidgetId": "249EF445-9B49-4EF9-8045-46BD1E6FF8ED",
                         "uielementid": "C7CF6D22-62CA-459D-8312-8022F934D311",
                         "WidgetName": "ProjectFundInstallment_ReceiptSplitUp_AdditionalDetails.Json",
@@ -17077,8 +17463,8 @@ export const DataElementsData = [
                         "DCaption": "",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 133,
-                        "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_134_133",
+                        "__idx": 138,
+                        "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_139_138",
                         "children": [
                           {
                             "VersionName": "Medium",
@@ -17597,7 +17983,7 @@ export const DataElementsData = [
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 135,
+                        "Id": 140,
                         "uielementid": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -17631,13 +18017,13 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 134,
-                        "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_135_134",
+                        "__idx": 139,
+                        "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 136,
+                        "Id": 141,
                         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                         "TabIndex": -1,
                         "ShowCaption": false,
@@ -17672,12 +18058,12 @@ export const DataElementsData = [
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
                         "DCaption": "",
-                        "__idx": 135,
-                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_136_135",
+                        "__idx": 140,
+                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 141,
+                            "Id": 146,
                             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -17706,13 +18092,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                            "__idx": 140,
-                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
+                            "__idx": 145,
+                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 142,
+                            "Id": 147,
                             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -17742,13 +18128,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                            "__idx": 141,
-                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_142_141",
+                            "__idx": 146,
+                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 143,
+                            "Id": 148,
                             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -17788,13 +18174,13 @@ export const DataElementsData = [
                               }
                             ],
                             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                            "__idx": 142,
-                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_143_142",
+                            "__idx": 147,
+                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 144,
+                            "Id": 149,
                             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -17834,13 +18220,13 @@ export const DataElementsData = [
                               }
                             ],
                             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                            "__idx": 143,
-                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_144_143",
+                            "__idx": 148,
+                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 145,
+                            "Id": 150,
                             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -17879,13 +18265,13 @@ export const DataElementsData = [
                               }
                             ],
                             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                            "__idx": 144,
-                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_145_144",
+                            "__idx": 149,
+                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 146,
+                            "Id": 151,
                             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -17925,13 +18311,13 @@ export const DataElementsData = [
                               }
                             ],
                             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                            "__idx": 145,
-                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
+                            "__idx": 150,
+                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_151_150",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 147,
+                            "Id": 152,
                             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -17970,13 +18356,13 @@ export const DataElementsData = [
                               }
                             ],
                             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                            "__idx": 146,
-                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
+                            "__idx": 151,
+                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_152_151",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 148,
+                            "Id": 153,
                             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -18015,13 +18401,13 @@ export const DataElementsData = [
                               }
                             ],
                             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                            "__idx": 147,
-                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
+                            "__idx": 152,
+                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 149,
+                            "Id": 154,
                             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -18056,13 +18442,13 @@ export const DataElementsData = [
                               }
                             ],
                             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                            "__idx": 148,
-                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
+                            "__idx": 153,
+                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_154_153",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 150,
+                            "Id": 155,
                             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -18097,8 +18483,8 @@ export const DataElementsData = [
                               }
                             ],
                             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                            "__idx": 149,
-                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
+                            "__idx": 154,
+                            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_155_154",
                             "children": []
                           }
                         ]
@@ -18154,7 +18540,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 29,
+        "Id": 28,
         "uielementid": "69C14AD1-4D01-4C59-9329-309CD11792BC",
         "ShowCaption": true,
         "Fontbold": false,
@@ -18188,12 +18574,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 28,
-        "_id": "69C14AD1-4D01-4C59-9329-309CD11792BC_29_28",
+        "__idx": 27,
+        "_id": "69C14AD1-4D01-4C59-9329-309CD11792BC_28_27",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 52,
+            "Id": 57,
             "uielementid": "09678F54-644C-42B0-8E43-28997A14ED3D",
             "ShowCaption": true,
             "Fontbold": false,
@@ -18227,12 +18613,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 51,
-            "_id": "09678F54-644C-42B0-8E43-28997A14ED3D_52_51",
+            "__idx": 56,
+            "_id": "09678F54-644C-42B0-8E43-28997A14ED3D_57_56",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 77,
+                "Id": 82,
                 "uielementid": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -18266,12 +18652,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 76,
-                "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_77_76",
+                "__idx": 81,
+                "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_82_81",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 98,
+                    "Id": 103,
                     "uielementid": "840D2A86-98D9-4239-8536-663ECAA70414",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -18307,13 +18693,13 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "UCaption": "Summary",
-                    "__idx": 97,
-                    "_id": "840D2A86-98D9-4239-8536-663ECAA70414_98_97",
+                    "__idx": 102,
+                    "_id": "840D2A86-98D9-4239-8536-663ECAA70414_103_102",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 99,
+                    "Id": 104,
                     "uielementid": "FB3FE2D0-870B-481F-86C1-1BA1667188B9",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -18346,15 +18732,15 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 98,
-                    "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_99_98",
+                    "__idx": 103,
+                    "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_104_103",
                     "children": []
                   }
                 ]
               },
               {
                 "VersionName": "Medium",
-                "Id": 78,
+                "Id": 83,
                 "uielementid": "917C4E99-F72F-4705-81DE-F66EB877C500",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -18388,12 +18774,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 77,
-                "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_78_77",
+                "__idx": 82,
+                "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_83_82",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 100,
+                    "Id": 105,
                     "uielementid": "C1717B28-7611-445B-9745-4CF46D7A390C",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -18427,12 +18813,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 99,
-                    "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_100_99",
+                    "__idx": 104,
+                    "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_105_104",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 137,
+                        "Id": 142,
                         "uielementid": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -18466,12 +18852,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 136,
-                        "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_137_136",
+                        "__idx": 141,
+                        "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 151,
+                            "Id": 156,
                             "uielementid": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -18505,12 +18891,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 150,
-                            "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_151_150",
+                            "__idx": 155,
+                            "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 157,
+                                "Id": 162,
                                 "uielementid": "659D47FF-B282-4438-A53A-A7ACA37F740F",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -18544,12 +18930,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 156,
-                                "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_157_156",
+                                "__idx": 161,
+                                "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 159,
+                                    "Id": 164,
                                     "uielementid": "1C5C4175-1245-45B0-8B04-6F7056984FFE",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -18583,12 +18969,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 158,
-                                    "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_159_158",
+                                    "__idx": 163,
+                                    "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 161,
+                                        "Id": 166,
                                         "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -18622,12 +19008,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 160,
-                                        "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_161_160",
+                                        "__idx": 165,
+                                        "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 163,
+                                            "Id": 168,
                                             "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -18659,8 +19045,8 @@ export const DataElementsData = [
                                             "DCaption": "Balance Fund Installment Amount",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 162,
-                                            "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_163_162",
+                                            "__idx": 167,
+                                            "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_168_167",
                                             "children": []
                                           }
                                         ]
@@ -18675,7 +19061,7 @@ export const DataElementsData = [
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 138,
+                        "Id": 143,
                         "uielementid": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -18709,12 +19095,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 137,
-                        "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_138_137",
+                        "__idx": 142,
+                        "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 152,
+                            "Id": 157,
                             "uielementid": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -18748,12 +19134,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 151,
-                            "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_152_151",
+                            "__idx": 156,
+                            "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 158,
+                                "Id": 163,
                                 "uielementid": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -18787,12 +19173,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 157,
-                                "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_158_157",
+                                "__idx": 162,
+                                "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 160,
+                                    "Id": 165,
                                     "uielementid": "C99BC49F-B3F1-4200-9C0F-1528B298E082",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -18826,12 +19212,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 159,
-                                    "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_160_159",
+                                    "__idx": 164,
+                                    "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 162,
+                                        "Id": 167,
                                         "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -18865,12 +19251,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 161,
-                                        "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_162_161",
+                                        "__idx": 166,
+                                        "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 164,
+                                            "Id": 169,
                                             "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -18902,8 +19288,8 @@ export const DataElementsData = [
                                             "DCaption": "Split Up Total",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 163,
-                                            "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_164_163",
+                                            "__idx": 168,
+                                            "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_169_168",
                                             "children": []
                                           }
                                         ]
@@ -18922,7 +19308,7 @@ export const DataElementsData = [
               },
               {
                 "VersionName": "Medium",
-                "Id": 79,
+                "Id": 84,
                 "uielementid": "530F4791-43BB-498A-920D-7093BD174467",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -18956,8 +19342,8 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 78,
-                "_id": "530F4791-43BB-498A-920D-7093BD174467_79_78",
+                "__idx": 83,
+                "_id": "530F4791-43BB-498A-920D-7093BD174467_84_83",
                 "children": []
               }
             ]
@@ -19007,7 +19393,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 30,
+        "Id": 29,
         "uielementid": "46091F7F-014D-4DDC-AD9D-974B1E4002B5",
         "ShowCaption": true,
         "Fontbold": false,
@@ -19041,12 +19427,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 29,
-        "_id": "46091F7F-014D-4DDC-AD9D-974B1E4002B5_30_29",
+        "__idx": 28,
+        "_id": "46091F7F-014D-4DDC-AD9D-974B1E4002B5_29_28",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 53,
+            "Id": 58,
             "uielementid": "B285AA75-D49B-4D92-99CA-A489113EA4E4",
             "TabIndex": -1,
             "ShowCaption": false,
@@ -19081,12 +19467,12 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "DCaption": "",
-            "__idx": 52,
-            "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_53_52",
+            "__idx": 57,
+            "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_58_57",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 80,
+                "Id": 85,
                 "uielementid": "66453106-78BB-46CF-B15A-89BC68114F1E",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -19120,13 +19506,13 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 79,
-                "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_80_79",
+                "__idx": 84,
+                "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_85_84",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 81,
+                "Id": 86,
                 "uielementid": "90341255-31D0-46BE-9FD8-3F03D54B5388",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -19160,13 +19546,13 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 80,
-                "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_81_80",
+                "__idx": 85,
+                "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_86_85",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 82,
+                "Id": 87,
                 "WidgetId": "C2287754-790E-4853-A5A7-64772676D00E",
                 "uielementid": "B285AA75-D49B-4D92-99CA-A489113EA4E4",
                 "ShowCaption": true,
@@ -19201,13 +19587,13 @@ export const DataElementsData = [
                 "DCaption": "",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 81,
-                "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_82_81",
+                "__idx": 86,
+                "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_87_86",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 83,
+                "Id": 88,
                 "uielementid": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -19240,13 +19626,13 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 82,
-                "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_83_82",
+                "__idx": 87,
+                "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_88_87",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 84,
+                "Id": 89,
                 "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                 "TabIndex": -1,
                 "ShowCaption": false,
@@ -19281,12 +19667,12 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "DCaption": "",
-                "__idx": 83,
-                "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_84_83",
+                "__idx": 88,
+                "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_89_88",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 101,
+                    "Id": 106,
                     "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -19315,13 +19701,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                    "__idx": 100,
-                    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_101_100",
+                    "__idx": 105,
+                    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_106_105",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 102,
+                    "Id": 107,
                     "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -19351,13 +19737,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                    "__idx": 101,
-                    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_102_101",
+                    "__idx": 106,
+                    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_107_106",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 103,
+                    "Id": 108,
                     "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -19388,13 +19774,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                    "__idx": 102,
-                    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_103_102",
+                    "__idx": 107,
+                    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_108_107",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 104,
+                    "Id": 109,
                     "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -19424,13 +19810,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                    "__idx": 103,
-                    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_104_103",
+                    "__idx": 108,
+                    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_109_108",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 105,
+                    "Id": 110,
                     "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -19460,8 +19846,8 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                    "__idx": 104,
-                    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_105_104",
+                    "__idx": 109,
+                    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_110_109",
                     "children": []
                   }
                 ]
@@ -19513,7 +19899,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 31,
+        "Id": 30,
         "uielementid": "0DD3C9A1-7792-46A1-AE80-5240D67771C7",
         "ShowCaption": true,
         "Fontbold": false,
@@ -19547,12 +19933,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 30,
-        "_id": "0DD3C9A1-7792-46A1-AE80-5240D67771C7_31_30",
+        "__idx": 29,
+        "_id": "0DD3C9A1-7792-46A1-AE80-5240D67771C7_30_29",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 54,
+            "Id": 59,
             "uielementid": "97388DDE-3223-499A-B2CB-FE3C761AEA03",
             "ShowCaption": true,
             "Fontbold": false,
@@ -19586,12 +19972,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 53,
-            "_id": "97388DDE-3223-499A-B2CB-FE3C761AEA03_54_53",
+            "__idx": 58,
+            "_id": "97388DDE-3223-499A-B2CB-FE3C761AEA03_59_58",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 85,
+                "Id": 90,
                 "uielementid": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -19625,12 +20011,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 84,
-                "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_85_84",
+                "__idx": 89,
+                "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_90_89",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 106,
+                    "Id": 111,
                     "uielementid": "F5B358B1-AC61-4100-BC6C-167FC7340D30",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -19666,13 +20052,13 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "UCaption": "Next Action",
-                    "__idx": 105,
-                    "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_106_105",
+                    "__idx": 110,
+                    "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_111_110",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 107,
+                    "Id": 112,
                     "uielementid": "3528E434-EF97-461F-8CB4-FF31848A097F",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -19705,15 +20091,15 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 106,
-                    "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_107_106",
+                    "__idx": 111,
+                    "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_112_111",
                     "children": []
                   }
                 ]
               },
               {
                 "VersionName": "Medium",
-                "Id": 86,
+                "Id": 91,
                 "uielementid": "8B846853-9923-40F7-9C01-1A529703585B",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -19747,12 +20133,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 85,
-                "_id": "8B846853-9923-40F7-9C01-1A529703585B_86_85",
+                "__idx": 90,
+                "_id": "8B846853-9923-40F7-9C01-1A529703585B_91_90",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 108,
+                    "Id": 113,
                     "uielementid": "5D7C36E7-F6E3-4898-8573-06D2021C39BB",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -19786,12 +20172,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 107,
-                    "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_108_107",
+                    "__idx": 112,
+                    "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_113_112",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 139,
+                        "Id": 144,
                         "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -19825,12 +20211,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 138,
-                        "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_139_138",
+                        "__idx": 143,
+                        "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 153,
+                            "Id": 158,
                             "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -19858,7 +20244,7 @@ export const DataElementsData = [
                             "MergeRow": "",
                             "Action": "OnChange",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"M_FieldMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"SetDestinationTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveToValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_RemarksMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_NextStage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsflowReturned\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_SourceActivityMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_SaveDomainData\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Currentlevel\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsCancelReject\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                             "EDT": 9,
                             "DCaption": "Move To",
                             "DHelpText": "",
@@ -19869,13 +20255,13 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
-                            "__idx": 152,
-                            "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_153_152",
+                            "__idx": 157,
+                            "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_158_157",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 154,
+                            "Id": 159,
                             "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -19908,15 +20294,15 @@ export const DataElementsData = [
                             "DCaption": "Comments",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 153,
-                            "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_154_153",
+                            "__idx": 158,
+                            "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_159_158",
                             "children": []
                           }
                         ]
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 140,
+                        "Id": 145,
                         "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -19950,12 +20336,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 139,
-                        "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_140_139",
+                        "__idx": 144,
+                        "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 155,
+                            "Id": 160,
                             "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -19982,18 +20368,18 @@ export const DataElementsData = [
                             "MergeRow": "",
                             "Action": "OnClick",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"RemarksId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UserName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"DateOfRemarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_UpdatedBy\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_ReceiptSplitUpId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_DocumentDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"RedirectUrl\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"M_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                             "EDT": 10,
                             "DCaption": "Submit",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 154,
-                            "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_155_154",
+                            "__idx": 159,
+                            "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_160_159",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 156,
+                            "Id": 161,
                             "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -20025,8 +20411,8 @@ export const DataElementsData = [
                             "DCaption": "History",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 155,
-                            "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_156_155",
+                            "__idx": 160,
+                            "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_161_160",
                             "children": []
                           }
                         ]
@@ -20084,7 +20470,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 32,
+        "Id": 31,
         "uielementid": "AD7A0985-D773-4505-B214-3753D81629B6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -20118,13 +20504,13 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 31,
-        "_id": "AD7A0985-D773-4505-B214-3753D81629B6_32_31",
+        "__idx": 30,
+        "_id": "AD7A0985-D773-4505-B214-3753D81629B6_31_30",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 33,
+        "Id": 32,
         "uielementid": "FB487F2B-EAF1-43AD-B348-B06B39371ABA",
         "ShowCaption": true,
         "Fontbold": false,
@@ -20157,13 +20543,13 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 32,
-        "_id": "FB487F2B-EAF1-43AD-B348-B06B39371ABA_33_32",
+        "__idx": 31,
+        "_id": "FB487F2B-EAF1-43AD-B348-B06B39371ABA_32_31",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 34,
+        "Id": 33,
         "WidgetId": "9A0E4095-1BE8-44D4-97FB-822ADA862E58",
         "uielementid": "72E0A4D3-8271-4927-87B9-390811B882D9",
         "ShowCaption": true,
@@ -20197,13 +20583,13 @@ export const DataElementsData = [
         "DCaption": "",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 33,
-        "_id": "72E0A4D3-8271-4927-87B9-390811B882D9_34_33",
+        "__idx": 32,
+        "_id": "72E0A4D3-8271-4927-87B9-390811B882D9_33_32",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 35,
+        "Id": 34,
         "uielementid": "2D875F54-F45D-496C-AD6B-92D9B9846E36",
         "ShowCaption": true,
         "Fontbold": false,
@@ -20237,13 +20623,13 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 34,
-        "_id": "2D875F54-F45D-496C-AD6B-92D9B9846E36_35_34",
+        "__idx": 33,
+        "_id": "2D875F54-F45D-496C-AD6B-92D9B9846E36_34_33",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 36,
+        "Id": 35,
         "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
         "TabIndex": -1,
         "ShowCaption": false,
@@ -20278,12 +20664,12 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "DCaption": "",
-        "__idx": 35,
-        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_36_35",
+        "__idx": 34,
+        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_35_34",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 55,
+            "Id": 60,
             "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
             "ShowCaption": true,
             "Fontbold": false,
@@ -20312,13 +20698,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-            "__idx": 54,
-            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_55_54",
+            "__idx": 59,
+            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_60_59",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 56,
+            "Id": 61,
             "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
             "ShowCaption": true,
             "Fontbold": false,
@@ -20348,13 +20734,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-            "__idx": 55,
-            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_56_55",
+            "__idx": 60,
+            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_61_60",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 57,
+            "Id": 62,
             "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
             "ShowCaption": true,
             "Fontbold": false,
@@ -20384,13 +20770,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-            "__idx": 56,
-            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_57_56",
+            "__idx": 61,
+            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_62_61",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 58,
+            "Id": 63,
             "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
             "ShowCaption": true,
             "Fontbold": false,
@@ -20420,13 +20806,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-            "__idx": 57,
-            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_58_57",
+            "__idx": 62,
+            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_63_62",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 59,
+            "Id": 64,
             "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
             "ShowCaption": true,
             "Fontbold": false,
@@ -20455,13 +20841,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-            "__idx": 58,
-            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_59_58",
+            "__idx": 63,
+            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_64_63",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 60,
+            "Id": 65,
             "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
             "ShowCaption": true,
             "Fontbold": false,
@@ -20490,13 +20876,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-            "__idx": 59,
-            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_60_59",
+            "__idx": 64,
+            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_65_64",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 61,
+            "Id": 66,
             "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
             "ShowCaption": true,
             "Fontbold": false,
@@ -20525,8 +20911,8 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-            "__idx": 60,
-            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_61_60",
+            "__idx": 65,
+            "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_66_65",
             "children": []
           }
         ]
@@ -20536,7 +20922,7 @@ export const DataElementsData = [
   {
     "VersionName": "Medium",
     "Id": 18,
-    "uielementid": "12E9ACFC-EA06-41F0-864C-56AB4242C92C",
+    "uielementid": "f40488b3-2895-b981-ad1f-c24aa99b40a2",
     "ShowCaption": true,
     "Fontbold": false,
     "FontItalic": false,
@@ -20544,18 +20930,16 @@ export const DataElementsData = [
     "FontStrikeout": false,
     "FontUnderline": false,
     "Depth": 3,
-    "Css": "label label-default",
     "IsBadge": false,
     "MaxValue": 100,
     "CurrValue": 10,
-    "LabelType": "Default",
     "ElementId": "",
-    "UIElementid": "12E9ACFC-EA06-41F0-864C-56AB4242C92C",
+    "UIElementid": "f40488b3-2895-b981-ad1f-c24aa99b40a2",
     "Sequence": 11,
-    "ElementName": "UI_Are sure want to delete",
+    "ElementName": "UI_Row",
     "ParentElementId": "65640807-7FEC-4B06-B4F0-B498E2ED8D3C",
-    "ControlType": "Label",
-    "uielementtypeid": 17,
+    "ControlType": "Row",
+    "uielementtypeid": 11,
     "Wrap": 12,
     "EnableDFS": false,
     "ClearFix": false,
@@ -20565,19 +20949,62 @@ export const DataElementsData = [
     "Buttons": false,
     "Legend": false,
     "NavigationNumbers": false,
-    "ControlId": 27,
+    "ControlId": 23,
     "Searchable": false,
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "__idx": 17,
-    "_id": "12E9ACFC-EA06-41F0-864C-56AB4242C92C_18_17",
-    "children": []
+    "_id": "f40488b3-2895-b981-ad1f-c24aa99b40a2_18_17",
+    "children": [
+      {
+        "VersionName": "Medium",
+        "Id": 36,
+        "uielementid": "12E9ACFC-EA06-41F0-864C-56AB4242C92C",
+        "ShowCaption": true,
+        "FontSize": 15,
+        "Fontbold": false,
+        "FontItalic": false,
+        "FontOverline": false,
+        "FontStrikeout": false,
+        "FontUnderline": false,
+        "Depth": 4,
+        "Css": "label label-default",
+        "IsBadge": false,
+        "MaxValue": 100,
+        "CurrValue": 10,
+        "LabelType": "Default",
+        "ElementId": "",
+        "UIElementid": "12E9ACFC-EA06-41F0-864C-56AB4242C92C",
+        "Sequence": 15,
+        "ElementName": "UI_Are sure want to delete",
+        "ParentElementId": "f40488b3-2895-b981-ad1f-c24aa99b40a2",
+        "ControlType": "Label",
+        "uielementtypeid": 17,
+        "Wrap": 12,
+        "EnableDFS": false,
+        "ClearFix": false,
+        "OnDemandLoad": false,
+        "IsLastStep": false,
+        "EnableValidation": false,
+        "Buttons": false,
+        "Legend": false,
+        "NavigationNumbers": false,
+        "ControlId": 27,
+        "Searchable": false,
+        "Bindable": false,
+        "IsSaveWidget": 0,
+        "BindingDetail": "",
+        "__idx": 35,
+        "_id": "12E9ACFC-EA06-41F0-864C-56AB4242C92C_36_35",
+        "children": []
+      }
+    ]
   },
   {
     "VersionName": "Medium",
     "Id": 19,
-    "uielementid": "71740417-6F9D-4EE9-8F19-6A2D0A225A47",
+    "uielementid": "6ab3094c-42ec-df3f-43d7-79441d249115",
     "ShowCaption": true,
     "Fontbold": false,
     "FontItalic": false,
@@ -20585,19 +21012,18 @@ export const DataElementsData = [
     "FontStrikeout": false,
     "FontUnderline": false,
     "Depth": 3,
-    "Css": "btn btn-info btn-xs",
     "IsBadge": false,
     "MaxValue": 100,
     "CurrValue": 10,
     "ElementId": "",
-    "UIElementid": "71740417-6F9D-4EE9-8F19-6A2D0A225A47",
+    "UIElementid": "6ab3094c-42ec-df3f-43d7-79441d249115",
     "Sequence": 12,
-    "ElementName": "UI_Yes",
+    "ElementName": "UI_Row",
     "ParentElementId": "65640807-7FEC-4B06-B4F0-B498E2ED8D3C",
-    "ControlType": "UI Button",
-    "uielementtypeid": 56,
+    "ControlType": "Row",
+    "uielementtypeid": 11,
     "Wrap": 12,
-    "EnableDFS": true,
+    "EnableDFS": false,
     "ClearFix": false,
     "OnDemandLoad": false,
     "IsLastStep": false,
@@ -20605,58 +21031,99 @@ export const DataElementsData = [
     "Buttons": false,
     "Legend": false,
     "NavigationNumbers": false,
-    "ControlId": 64,
+    "ControlId": 23,
     "Searchable": false,
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "__idx": 18,
-    "_id": "71740417-6F9D-4EE9-8F19-6A2D0A225A47_19_18",
-    "children": []
+    "_id": "6ab3094c-42ec-df3f-43d7-79441d249115_19_18",
+    "children": [
+      {
+        "VersionName": "Medium",
+        "Id": 37,
+        "uielementid": "71740417-6F9D-4EE9-8F19-6A2D0A225A47",
+        "ShowCaption": true,
+        "Fontbold": false,
+        "FontItalic": false,
+        "FontOverline": false,
+        "FontStrikeout": false,
+        "FontUnderline": false,
+        "Depth": 4,
+        "Css": "btn btn-danger btn-xs",
+        "IsBadge": false,
+        "MaxValue": 100,
+        "CurrValue": 10,
+        "ElementId": "",
+        "UIElementid": "71740417-6F9D-4EE9-8F19-6A2D0A225A47",
+        "Sequence": 16,
+        "ElementName": "UI_Yes",
+        "ParentElementId": "6ab3094c-42ec-df3f-43d7-79441d249115",
+        "ControlType": "UI Button",
+        "uielementtypeid": 56,
+        "Wrap": 6,
+        "EnableDFS": true,
+        "ClearFix": false,
+        "OnDemandLoad": false,
+        "IsLastStep": false,
+        "EnableValidation": false,
+        "Buttons": false,
+        "Legend": false,
+        "NavigationNumbers": false,
+        "ControlId": 64,
+        "Searchable": false,
+        "Bindable": false,
+        "IsSaveWidget": 0,
+        "BindingDetail": "",
+        "__idx": 36,
+        "_id": "71740417-6F9D-4EE9-8F19-6A2D0A225A47_37_36",
+        "children": []
+      },
+      {
+        "VersionName": "Medium",
+        "Id": 38,
+        "uielementid": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41",
+        "ShowCaption": true,
+        "Fontbold": false,
+        "FontItalic": false,
+        "FontOverline": false,
+        "FontStrikeout": false,
+        "FontUnderline": false,
+        "Depth": 4,
+        "Css": "btn btn-info btn-xs",
+        "IsBadge": false,
+        "MaxValue": 100,
+        "CurrValue": 10,
+        "ElementId": "",
+        "UIElementid": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41",
+        "Sequence": 17,
+        "ElementName": "UI_No",
+        "ParentElementId": "6ab3094c-42ec-df3f-43d7-79441d249115",
+        "ControlType": "UI Button",
+        "uielementtypeid": 56,
+        "Wrap": 6,
+        "EnableDFS": true,
+        "ClearFix": false,
+        "OnDemandLoad": false,
+        "IsLastStep": false,
+        "EnableValidation": false,
+        "Buttons": false,
+        "Legend": false,
+        "NavigationNumbers": false,
+        "ControlId": 64,
+        "Searchable": false,
+        "Bindable": false,
+        "IsSaveWidget": 0,
+        "BindingDetail": "",
+        "__idx": 37,
+        "_id": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41_38_37",
+        "children": []
+      }
+    ]
   },
   {
     "VersionName": "Medium",
     "Id": 20,
-    "uielementid": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41",
-    "ShowCaption": true,
-    "Fontbold": false,
-    "FontItalic": false,
-    "FontOverline": false,
-    "FontStrikeout": false,
-    "FontUnderline": false,
-    "Depth": 3,
-    "Css": "btn btn-info btn-xs",
-    "IsBadge": false,
-    "MaxValue": 100,
-    "CurrValue": 10,
-    "ElementId": "",
-    "UIElementid": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41",
-    "Sequence": 13,
-    "ElementName": "UI_No",
-    "ParentElementId": "65640807-7FEC-4B06-B4F0-B498E2ED8D3C",
-    "ControlType": "UI Button",
-    "uielementtypeid": 56,
-    "Wrap": 12,
-    "EnableDFS": true,
-    "ClearFix": false,
-    "OnDemandLoad": false,
-    "IsLastStep": false,
-    "EnableValidation": false,
-    "Buttons": false,
-    "Legend": false,
-    "NavigationNumbers": false,
-    "ControlId": 64,
-    "Searchable": false,
-    "Bindable": false,
-    "IsSaveWidget": 0,
-    "BindingDetail": "",
-    "__idx": 19,
-    "_id": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41_20_19",
-    "children": []
-  },
-  {
-    "VersionName": "Medium",
-    "Id": 21,
     "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -20671,7 +21138,7 @@ export const DataElementsData = [
     "CurrValue": 10,
     "ElementId": "",
     "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
-    "Sequence": 14,
+    "Sequence": 13,
     "ElementName": "UI_InvisibleRow",
     "ParentElementId": "A2BBDDB3-FD24-42A6-B85D-36790BB660DD",
     "ControlType": "Row",
@@ -20690,12 +21157,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 20,
-    "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_21_20",
+    "__idx": 19,
+    "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_20_19",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 37,
+        "Id": 39,
         "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -20707,7 +21174,7 @@ export const DataElementsData = [
         "Css": "form-control input-lg",
         "ElementId": "C9A73308-6B3B-4E61-B69F-419CABCC583C",
         "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
-        "Sequence": 15,
+        "Sequence": 18,
         "ElementName": "UC_EmployeeBaicInfoId",
         "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
         "ControlType": "TextBox",
@@ -20734,13 +21201,13 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 36,
-        "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_37_36",
+        "__idx": 38,
+        "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_39_38",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 38,
+        "Id": 40,
         "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -20751,7 +21218,7 @@ export const DataElementsData = [
         "Depth": 4,
         "ElementId": "9B31A3F5-A5AA-4EE1-B30A-E780CBB23346",
         "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
-        "Sequence": 16,
+        "Sequence": 19,
         "ElementName": "MF_P1_ReceiptsId",
         "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
         "ControlType": "TextBox",
@@ -20782,15 +21249,127 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 37,
-        "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_38_37",
+        "__idx": 39,
+        "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_40_39",
+        "children": []
+      },
+      {
+        "VersionName": "Medium",
+        "Id": 41,
+        "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+        "ShowCaption": true,
+        "Fontbold": false,
+        "FontItalic": false,
+        "FontOverline": false,
+        "FontStrikeout": false,
+        "FontUnderline": false,
+        "Depth": 4,
+        "ElementId": "1500BA80-B637-4F4F-ACB3-7C3B34CDF50E",
+        "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+        "Sequence": 20,
+        "ElementName": "Subject",
+        "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
+        "ControlType": "TextBox",
+        "Wrap": 4,
+        "IsMultiline": true,
+        "ClearFix": false,
+        "RenderType": 1,
+        "OnDemandLoad": false,
+        "ControlId": 1,
+        "DisplayName": "Subject",
+        "Searchable": false,
+        "Bindable": false,
+        "HeaderTemplate": "",
+        "MergeRow": "",
+        "IsSaveWidget": 0,
+        "BindingDetail": "",
+        "EDT": 9,
+        "DCaption": "",
+        "DHelpText": "",
+        "DToolTip": "",
+        "__idx": 40,
+        "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_41_40",
+        "children": []
+      },
+      {
+        "VersionName": "Medium",
+        "Id": 42,
+        "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+        "ShowCaption": true,
+        "Fontbold": false,
+        "FontItalic": false,
+        "FontOverline": false,
+        "FontStrikeout": false,
+        "FontUnderline": false,
+        "Depth": 4,
+        "ElementId": "3C1E7AE2-D67A-4D07-8C18-096F8274CC37",
+        "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+        "Sequence": 21,
+        "ElementName": "ProjectCode",
+        "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
+        "ControlType": "TextBox",
+        "Wrap": 4,
+        "IsMultiline": false,
+        "ClearFix": false,
+        "RenderType": 1,
+        "OnDemandLoad": false,
+        "ControlId": 1,
+        "DisplayName": "ProjectCode",
+        "Searchable": false,
+        "Bindable": false,
+        "HeaderTemplate": "",
+        "MergeRow": "",
+        "IsSaveWidget": 0,
+        "BindingDetail": "",
+        "EDT": 9,
+        "DCaption": "",
+        "DHelpText": "",
+        "DToolTip": "",
+        "__idx": 41,
+        "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_42_41",
+        "children": []
+      },
+      {
+        "VersionName": "Medium",
+        "Id": 43,
+        "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+        "ShowCaption": true,
+        "Fontbold": false,
+        "FontItalic": false,
+        "FontOverline": false,
+        "FontStrikeout": false,
+        "FontUnderline": false,
+        "Depth": 4,
+        "ElementId": "c496497f-5d0e-e0d0-06dc-5b020cc22058",
+        "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+        "Sequence": 22,
+        "ElementName": "M_FlowType",
+        "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
+        "ControlType": "TextBox",
+        "Wrap": 4,
+        "IsMultiline": false,
+        "ClearFix": false,
+        "RenderType": 1,
+        "OnDemandLoad": false,
+        "ControlId": 1,
+        "DisplayName": "M_FlowType",
+        "Searchable": false,
+        "Bindable": false,
+        "HeaderTemplate": "",
+        "MergeRow": "",
+        "IsSaveWidget": 0,
+        "BindingDetail": "",
+        "EDT": 9,
+        "DCaption": "M_FlowType",
+        "__idx": 42,
+        "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_43_42",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 22,
+    "Id": 21,
     "uielementid": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
     "TabIndex": -1,
     "ShowCaption": false,
@@ -20805,7 +21384,7 @@ export const DataElementsData = [
     "CurrValue": 10,
     "ElementId": "",
     "UIElementid": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
-    "Sequence": 15,
+    "Sequence": 14,
     "ElementName": "UI_MG_Comments Header",
     "ParentElementId": "D26C046D-FD5F-4B2E-B031-C8051F19949F",
     "ControlType": "Column",
@@ -20825,12 +21404,12 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "DCaption": "",
-    "__idx": 21,
-    "_id": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F_22_21",
+    "__idx": 20,
+    "_id": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F_21_20",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 39,
+        "Id": 44,
         "uielementid": "0B55DFD1-2410-4AE4-9504-B06D014378C6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -20845,7 +21424,7 @@ export const DataElementsData = [
         "CurrValue": 10,
         "ElementId": "",
         "UIElementid": "0B55DFD1-2410-4AE4-9504-B06D014378C6",
-        "Sequence": 17,
+        "Sequence": 23,
         "ElementName": "UI_Grid Header",
         "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
         "ControlType": "Grid Header",
@@ -20864,13 +21443,13 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 38,
-        "_id": "0B55DFD1-2410-4AE4-9504-B06D014378C6_39_38",
+        "__idx": 43,
+        "_id": "0B55DFD1-2410-4AE4-9504-B06D014378C6_44_43",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 40,
+        "Id": 45,
         "uielementid": "C9BB7C58-7A52-4144-89EC-E828E0D7B908",
         "ShowCaption": true,
         "Fontbold": false,
@@ -20884,7 +21463,7 @@ export const DataElementsData = [
         "CurrValue": 10,
         "ElementId": "",
         "UIElementid": "C9BB7C58-7A52-4144-89EC-E828E0D7B908",
-        "Sequence": 18,
+        "Sequence": 24,
         "ElementName": "UI_Grid Search bar",
         "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
         "ControlType": "Grid Search bar",
@@ -20903,13 +21482,13 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 39,
-        "_id": "C9BB7C58-7A52-4144-89EC-E828E0D7B908_40_39",
+        "__idx": 44,
+        "_id": "C9BB7C58-7A52-4144-89EC-E828E0D7B908_45_44",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 41,
+        "Id": 46,
         "WidgetId": "97c72782-b716-b2cd-caba-bef246e1dab6",
         "uielementid": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
         "ShowCaption": true,
@@ -20921,7 +21500,7 @@ export const DataElementsData = [
         "Depth": 4,
         "ElementId": "97c72782-b716-b2cd-caba-bef246e1dab6",
         "UIElementid": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
-        "Sequence": 19,
+        "Sequence": 25,
         "ElementName": "MG_Comments",
         "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
         "ControlType": "Grid",
@@ -20943,13 +21522,13 @@ export const DataElementsData = [
         "DCaption": "",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 40,
-        "_id": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F_41_40",
+        "__idx": 45,
+        "_id": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F_46_45",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 42,
+        "Id": 47,
         "uielementid": "BD56103A-3552-4850-B1D0-36AD88502675",
         "ShowCaption": true,
         "Fontbold": false,
@@ -20964,7 +21543,7 @@ export const DataElementsData = [
         "CurrValue": 10,
         "ElementId": "",
         "UIElementid": "BD56103A-3552-4850-B1D0-36AD88502675",
-        "Sequence": 20,
+        "Sequence": 26,
         "ElementName": "UI_Grid Footer",
         "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
         "ControlType": "Grid Footer",
@@ -20983,13 +21562,13 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 41,
-        "_id": "BD56103A-3552-4850-B1D0-36AD88502675_42_41",
+        "__idx": 46,
+        "_id": "BD56103A-3552-4850-B1D0-36AD88502675_47_46",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 43,
+        "Id": 48,
         "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
         "TabIndex": -1,
         "ShowCaption": false,
@@ -21004,7 +21583,7 @@ export const DataElementsData = [
         "CurrValue": 10,
         "ElementId": "",
         "UIElementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
-        "Sequence": 21,
+        "Sequence": 27,
         "ElementName": "UI_GridColumns",
         "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
         "ControlType": "Column",
@@ -21024,12 +21603,12 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "DCaption": "",
-        "__idx": 42,
-        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_43_42",
+        "__idx": 47,
+        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_48_47",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 62,
+            "Id": 67,
             "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -21061,13 +21640,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-            "__idx": 61,
-            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_62_61",
+            "__idx": 66,
+            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_67_66",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 63,
+            "Id": 68,
             "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -21100,13 +21679,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-            "__idx": 62,
-            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_63_62",
+            "__idx": 67,
+            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_68_67",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 64,
+            "Id": 69,
             "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -21139,13 +21718,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-            "__idx": 63,
-            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_64_63",
+            "__idx": 68,
+            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_69_68",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 65,
+            "Id": 70,
             "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -21178,13 +21757,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-            "__idx": 64,
-            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_65_64",
+            "__idx": 69,
+            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_70_69",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 66,
+            "Id": 71,
             "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -21217,13 +21796,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-            "__idx": 65,
-            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_66_65",
+            "__idx": 70,
+            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_71_70",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 67,
+            "Id": 72,
             "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -21256,13 +21835,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-            "__idx": 66,
-            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_67_66",
+            "__idx": 71,
+            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_72_71",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 68,
+            "Id": 73,
             "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -21294,8 +21873,8 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-            "__idx": 67,
-            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_68_67",
+            "__idx": 72,
+            "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_73_72",
             "children": []
           }
         ]
@@ -21304,7 +21883,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 23,
+    "Id": 22,
     "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
     "ShowCaption": true,
     "Fontbold": false,
@@ -21338,12 +21917,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 22,
-    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_23_22",
+    "__idx": 21,
+    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_22_21",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 44,
+        "Id": 49,
         "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
         "ShowCaption": true,
         "Fontbold": false,
@@ -21376,13 +21955,13 @@ export const DataElementsData = [
         "DCaption": "Employee Id",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 43,
-        "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_44_43",
+        "__idx": 48,
+        "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_49_48",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 45,
+        "Id": 50,
         "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
         "ShowCaption": true,
         "Fontbold": false,
@@ -21415,13 +21994,13 @@ export const DataElementsData = [
         "DCaption": "Employee Name",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 44,
-        "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_45_44",
+        "__idx": 49,
+        "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_50_49",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 46,
+        "Id": 51,
         "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
         "ShowCaption": true,
         "Fontbold": false,
@@ -21454,13 +22033,13 @@ export const DataElementsData = [
         "DCaption": "Designation",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 45,
-        "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_46_45",
+        "__idx": 50,
+        "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_51_50",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 47,
+        "Id": 52,
         "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
         "ShowCaption": true,
         "Fontbold": false,
@@ -21493,15 +22072,15 @@ export const DataElementsData = [
         "DCaption": "Department",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 46,
-        "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_47_46",
+        "__idx": 51,
+        "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_52_51",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 24,
+    "Id": 23,
     "uielementid": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD",
     "ShowCaption": true,
     "Fontbold": false,
@@ -21535,13 +22114,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 23,
-    "_id": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD_24_23",
+    "__idx": 22,
+    "_id": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD_23_22",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 25,
+    "Id": 24,
     "uielementid": "8FEA8240-7016-42F3-B614-DC90CA28A213",
     "ShowCaption": true,
     "Fontbold": false,
@@ -21575,12 +22154,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 24,
-    "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_25_24",
+    "__idx": 23,
+    "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_24_23",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 48,
+        "Id": 53,
         "uielementid": "8FEA8240-7016-42F3-B614-DC90CA28A213",
         "ShowCaption": true,
         "Fontbold": false,
@@ -21608,20 +22187,20 @@ export const DataElementsData = [
         "MergeRow": "",
         "Action": "OnChange",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
         "EDT": 9,
         "DCaption": "Sanctioned Project Number",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 47,
-        "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_48_47",
+        "__idx": 52,
+        "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_53_52",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 26,
+    "Id": 25,
     "uielementid": "856B243C-AB46-4C50-8A2C-C34E7AA194EA",
     "ShowCaption": true,
     "Fontbold": false,
@@ -21655,12 +22234,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 25,
-    "_id": "856B243C-AB46-4C50-8A2C-C34E7AA194EA_26_25",
+    "__idx": 24,
+    "_id": "856B243C-AB46-4C50-8A2C-C34E7AA194EA_25_24",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 49,
+        "Id": 54,
         "uielementid": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F",
         "ShowCaption": true,
         "Fontbold": false,
@@ -21694,12 +22273,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 48,
-        "_id": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F_49_48",
+        "__idx": 53,
+        "_id": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F_54_53",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 69,
+            "Id": 74,
             "uielementid": "1CA1DF06-57FA-42A9-9D80-70836540BA06",
             "ShowCaption": true,
             "Fontbold": false,
@@ -21733,12 +22312,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 68,
-            "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_69_68",
+            "__idx": 73,
+            "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_74_73",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 87,
+                "Id": 92,
                 "uielementid": "0B168B00-008D-4750-9372-547D14EA5D78",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -21774,13 +22353,13 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "UCaption": "Project Information",
-                "__idx": 86,
-                "_id": "0B168B00-008D-4750-9372-547D14EA5D78_87_86",
+                "__idx": 91,
+                "_id": "0B168B00-008D-4750-9372-547D14EA5D78_92_91",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 88,
+                "Id": 93,
                 "uielementid": "5FABFD91-84EE-457E-A01E-FD284E5D083A",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -21814,15 +22393,15 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 87,
-                "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_88_87",
+                "__idx": 92,
+                "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_93_92",
                 "children": []
               }
             ]
           },
           {
             "VersionName": "Medium",
-            "Id": 70,
+            "Id": 75,
             "uielementid": "67B99F6B-1727-49CC-A01E-2054296BCAD7",
             "ShowCaption": true,
             "Fontbold": false,
@@ -21856,12 +22435,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 69,
-            "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_70_69",
+            "__idx": 74,
+            "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_75_74",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 89,
+                "Id": 94,
                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -21895,12 +22474,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 88,
-                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_89_88",
+                "__idx": 93,
+                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_94_93",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 109,
+                    "Id": 114,
                     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -21933,13 +22512,13 @@ export const DataElementsData = [
                     "DCaption": "Sanctioned Project Name",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 108,
-                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_109_108",
+                    "__idx": 113,
+                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 110,
+                    "Id": 115,
                     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -21972,13 +22551,13 @@ export const DataElementsData = [
                     "DCaption": "Agency Code",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 109,
-                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_110_109",
+                    "__idx": 114,
+                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 111,
+                    "Id": 116,
                     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -22011,13 +22590,13 @@ export const DataElementsData = [
                     "DCaption": "Category",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 110,
-                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_111_110",
+                    "__idx": 115,
+                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 112,
+                    "Id": 117,
                     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -22046,18 +22625,18 @@ export const DataElementsData = [
                     "MergeRow": "",
                     "Action": "OnChange",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                     "EDT": 9,
                     "DCaption": "Sanctioned No",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 111,
-                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_112_111",
+                    "__idx": 116,
+                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 113,
+                    "Id": 118,
                     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -22089,13 +22668,13 @@ export const DataElementsData = [
                     "DCaption": "Sanctioned Date",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 112,
-                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_113_112",
+                    "__idx": 117,
+                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 114,
+                    "Id": 119,
                     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -22127,13 +22706,13 @@ export const DataElementsData = [
                     "DCaption": "Sanctioned Amount",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 113,
-                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
+                    "__idx": 118,
+                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_119_118",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 115,
+                    "Id": 120,
                     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -22165,13 +22744,13 @@ export const DataElementsData = [
                     "DCaption": "Start Date",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 114,
-                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
+                    "__idx": 119,
+                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 116,
+                    "Id": 121,
                     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -22203,13 +22782,13 @@ export const DataElementsData = [
                     "DCaption": "End Date",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 115,
-                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
+                    "__idx": 120,
+                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 117,
+                    "Id": 122,
                     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -22241,8 +22820,8 @@ export const DataElementsData = [
                     "DCaption": "Available Amount",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 116,
-                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
+                    "__idx": 121,
+                    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_122_121",
                     "children": []
                   }
                 ]
@@ -22251,7 +22830,7 @@ export const DataElementsData = [
           },
           {
             "VersionName": "Medium",
-            "Id": 71,
+            "Id": 76,
             "uielementid": "99147C2A-2072-4712-ABDC-B969A5DD6A89",
             "ShowCaption": true,
             "Fontbold": false,
@@ -22285,12 +22864,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 70,
-            "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_71_70",
+            "__idx": 75,
+            "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_76_75",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 90,
+                "Id": 95,
                 "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -22324,12 +22903,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 89,
-                "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_90_89",
+                "__idx": 94,
+                "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_95_94",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 118,
+                    "Id": 123,
                     "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -22361,13 +22940,13 @@ export const DataElementsData = [
                     "DCaption": "Actual Start Date",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 117,
-                    "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_118_117",
+                    "__idx": 122,
+                    "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 119,
+                    "Id": 124,
                     "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -22409,8 +22988,8 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
-                    "__idx": 118,
-                    "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_119_118",
+                    "__idx": 123,
+                    "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
                     "children": []
                   }
                 ]
@@ -22423,7 +23002,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 27,
+    "Id": 26,
     "uielementid": "46EB9B6C-719A-4E03-88D8-86F4062E3A45",
     "ShowCaption": true,
     "Fontbold": false,
@@ -22457,12 +23036,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 26,
-    "_id": "46EB9B6C-719A-4E03-88D8-86F4062E3A45_27_26",
+    "__idx": 25,
+    "_id": "46EB9B6C-719A-4E03-88D8-86F4062E3A45_26_25",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 50,
+        "Id": 55,
         "uielementid": "D0DF120F-C213-48A2-9B4C-AF2F7D166169",
         "ShowCaption": true,
         "Fontbold": false,
@@ -22496,12 +23075,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 49,
-        "_id": "D0DF120F-C213-48A2-9B4C-AF2F7D166169_50_49",
+        "__idx": 54,
+        "_id": "D0DF120F-C213-48A2-9B4C-AF2F7D166169_55_54",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 72,
+            "Id": 77,
             "uielementid": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326",
             "ShowCaption": true,
             "Fontbold": false,
@@ -22535,12 +23114,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 71,
-            "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_72_71",
+            "__idx": 76,
+            "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_77_76",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 91,
+                "Id": 96,
                 "uielementid": "255A5CD9-8822-4862-936D-2E7ED1F1BD50",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -22576,13 +23155,13 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "UCaption": "Fund Installment Details",
-                "__idx": 90,
-                "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_91_90",
+                "__idx": 95,
+                "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_96_95",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 92,
+                "Id": 97,
                 "uielementid": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -22615,15 +23194,15 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 91,
-                "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_92_91",
+                "__idx": 96,
+                "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_97_96",
                 "children": []
               }
             ]
           },
           {
             "VersionName": "Medium",
-            "Id": 73,
+            "Id": 78,
             "uielementid": "749D3334-9C41-470F-97DF-2BA7F4283B3F",
             "ShowCaption": true,
             "Fontbold": false,
@@ -22657,12 +23236,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 72,
-            "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_73_72",
+            "__idx": 77,
+            "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_78_77",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 93,
+                "Id": 98,
                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -22696,12 +23275,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 92,
-                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_93_92",
+                "__idx": 97,
+                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_98_97",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 120,
+                    "Id": 125,
                     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -22747,13 +23326,13 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
-                    "__idx": 119,
-                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_120_119",
+                    "__idx": 124,
+                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 121,
+                    "Id": 126,
                     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -22799,13 +23378,13 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
-                    "__idx": 120,
-                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_121_120",
+                    "__idx": 125,
+                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 122,
+                    "Id": 127,
                     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -22847,13 +23426,13 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
-                    "__idx": 121,
-                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_122_121",
+                    "__idx": 126,
+                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 123,
+                    "Id": 128,
                     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -22895,13 +23474,13 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
-                    "__idx": 122,
-                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_123_122",
+                    "__idx": 127,
+                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_128_127",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 124,
+                    "Id": 129,
                     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -22942,13 +23521,13 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
-                    "__idx": 123,
-                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_124_123",
+                    "__idx": 128,
+                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_129_128",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 125,
+                    "Id": 130,
                     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -22990,13 +23569,13 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
-                    "__idx": 124,
-                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
+                    "__idx": 129,
+                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_130_129",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 126,
+                    "Id": 131,
                     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -23038,13 +23617,13 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
-                    "__idx": 125,
-                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
+                    "__idx": 130,
+                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 127,
+                    "Id": 132,
                     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -23085,8 +23664,8 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
-                    "__idx": 126,
-                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
+                    "__idx": 131,
+                    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_132_131",
                     "children": []
                   }
                 ]
@@ -23099,7 +23678,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 28,
+    "Id": 27,
     "uielementid": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D",
     "ShowCaption": true,
     "Fontbold": false,
@@ -23133,12 +23712,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 27,
-    "_id": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D_28_27",
+    "__idx": 26,
+    "_id": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D_27_26",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 51,
+        "Id": 56,
         "uielementid": "31F38CD6-6BEA-4BC4-8B26-493F1977A981",
         "ShowCaption": true,
         "Fontbold": false,
@@ -23172,12 +23751,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 50,
-        "_id": "31F38CD6-6BEA-4BC4-8B26-493F1977A981_51_50",
+        "__idx": 55,
+        "_id": "31F38CD6-6BEA-4BC4-8B26-493F1977A981_56_55",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 74,
+            "Id": 79,
             "uielementid": "3DC05163-B9D7-4A7C-858D-2A4006282CCB",
             "ShowCaption": true,
             "Fontbold": false,
@@ -23211,12 +23790,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 73,
-            "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_74_73",
+            "__idx": 78,
+            "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_79_78",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 94,
+                "Id": 99,
                 "uielementid": "34F57298-4365-45D8-B9FD-5C4B8C6544E3",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -23252,13 +23831,13 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "UCaption": "Split Up of Fund Installment",
-                "__idx": 93,
-                "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_94_93",
+                "__idx": 98,
+                "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_99_98",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 95,
+                "Id": 100,
                 "uielementid": "97461361-3474-48BD-B47B-2DD78F64392B",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -23291,15 +23870,15 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 94,
-                "_id": "97461361-3474-48BD-B47B-2DD78F64392B_95_94",
+                "__idx": 99,
+                "_id": "97461361-3474-48BD-B47B-2DD78F64392B_100_99",
                 "children": []
               }
             ]
           },
           {
             "VersionName": "Medium",
-            "Id": 75,
+            "Id": 80,
             "uielementid": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E",
             "ShowCaption": true,
             "Fontbold": false,
@@ -23333,12 +23912,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 74,
-            "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_75_74",
+            "__idx": 79,
+            "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_80_79",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 96,
+                "Id": 101,
                 "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -23372,12 +23951,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 95,
-                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_96_95",
+                "__idx": 100,
+                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_101_100",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 128,
+                    "Id": 133,
                     "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -23423,13 +24002,13 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
-                    "__idx": 127,
-                    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_128_127",
+                    "__idx": 132,
+                    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_133_132",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 129,
+                    "Id": 134,
                     "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -23475,13 +24054,13 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
-                    "__idx": 128,
-                    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_129_128",
+                    "__idx": 133,
+                    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_134_133",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 130,
+                    "Id": 135,
                     "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -23513,13 +24092,13 @@ export const DataElementsData = [
                     "DCaption": "Save",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 129,
-                    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_130_129",
+                    "__idx": 134,
+                    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_135_134",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 131,
+                    "Id": 136,
                     "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -23551,8 +24130,8 @@ export const DataElementsData = [
                     "DCaption": "View Budget Details",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 130,
-                    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_131_130",
+                    "__idx": 135,
+                    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_136_135",
                     "children": []
                   }
                 ]
@@ -23561,7 +24140,7 @@ export const DataElementsData = [
           },
           {
             "VersionName": "Medium",
-            "Id": 76,
+            "Id": 81,
             "uielementid": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05",
             "ShowCaption": true,
             "Fontbold": false,
@@ -23595,12 +24174,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 75,
-            "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_76_75",
+            "__idx": 80,
+            "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_81_80",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 97,
+                "Id": 102,
                 "uielementid": "C7CF6D22-62CA-459D-8312-8022F934D311",
                 "TabIndex": -1,
                 "ShowCaption": false,
@@ -23636,12 +24215,12 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "DCaption": "",
-                "__idx": 96,
-                "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_97_96",
+                "__idx": 101,
+                "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_102_101",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 132,
+                    "Id": 137,
                     "uielementid": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -23675,13 +24254,13 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 131,
-                    "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_132_131",
+                    "__idx": 136,
+                    "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 133,
+                    "Id": 138,
                     "uielementid": "6B9CB23A-420F-421E-B39A-47785DBDABB4",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -23714,13 +24293,13 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 132,
-                    "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_133_132",
+                    "__idx": 137,
+                    "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 134,
+                    "Id": 139,
                     "WidgetId": "249EF445-9B49-4EF9-8045-46BD1E6FF8ED",
                     "uielementid": "C7CF6D22-62CA-459D-8312-8022F934D311",
                     "WidgetName": "ProjectFundInstallment_ReceiptSplitUp_AdditionalDetails.Json",
@@ -23755,8 +24334,8 @@ export const DataElementsData = [
                     "DCaption": "",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 133,
-                    "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_134_133",
+                    "__idx": 138,
+                    "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_139_138",
                     "children": [
                       {
                         "VersionName": "Medium",
@@ -24275,7 +24854,7 @@ export const DataElementsData = [
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 135,
+                    "Id": 140,
                     "uielementid": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -24309,13 +24888,13 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 134,
-                    "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_135_134",
+                    "__idx": 139,
+                    "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 136,
+                    "Id": 141,
                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                     "TabIndex": -1,
                     "ShowCaption": false,
@@ -24350,12 +24929,12 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "DCaption": "",
-                    "__idx": 135,
-                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_136_135",
+                    "__idx": 140,
+                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 141,
+                        "Id": 146,
                         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -24384,13 +24963,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                        "__idx": 140,
-                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
+                        "__idx": 145,
+                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 142,
+                        "Id": 147,
                         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -24420,13 +24999,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                        "__idx": 141,
-                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_142_141",
+                        "__idx": 146,
+                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 143,
+                        "Id": 148,
                         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -24466,13 +25045,13 @@ export const DataElementsData = [
                           }
                         ],
                         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                        "__idx": 142,
-                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_143_142",
+                        "__idx": 147,
+                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 144,
+                        "Id": 149,
                         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -24512,13 +25091,13 @@ export const DataElementsData = [
                           }
                         ],
                         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                        "__idx": 143,
-                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_144_143",
+                        "__idx": 148,
+                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 145,
+                        "Id": 150,
                         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -24557,13 +25136,13 @@ export const DataElementsData = [
                           }
                         ],
                         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                        "__idx": 144,
-                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_145_144",
+                        "__idx": 149,
+                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 146,
+                        "Id": 151,
                         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -24603,13 +25182,13 @@ export const DataElementsData = [
                           }
                         ],
                         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                        "__idx": 145,
-                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
+                        "__idx": 150,
+                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_151_150",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 147,
+                        "Id": 152,
                         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -24648,13 +25227,13 @@ export const DataElementsData = [
                           }
                         ],
                         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                        "__idx": 146,
-                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
+                        "__idx": 151,
+                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_152_151",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 148,
+                        "Id": 153,
                         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -24693,13 +25272,13 @@ export const DataElementsData = [
                           }
                         ],
                         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                        "__idx": 147,
-                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
+                        "__idx": 152,
+                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 149,
+                        "Id": 154,
                         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -24734,13 +25313,13 @@ export const DataElementsData = [
                           }
                         ],
                         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                        "__idx": 148,
-                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
+                        "__idx": 153,
+                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_154_153",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 150,
+                        "Id": 155,
                         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -24775,8 +25354,8 @@ export const DataElementsData = [
                           }
                         ],
                         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                        "__idx": 149,
-                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
+                        "__idx": 154,
+                        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_155_154",
                         "children": []
                       }
                     ]
@@ -24791,7 +25370,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 29,
+    "Id": 28,
     "uielementid": "69C14AD1-4D01-4C59-9329-309CD11792BC",
     "ShowCaption": true,
     "Fontbold": false,
@@ -24825,12 +25404,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 28,
-    "_id": "69C14AD1-4D01-4C59-9329-309CD11792BC_29_28",
+    "__idx": 27,
+    "_id": "69C14AD1-4D01-4C59-9329-309CD11792BC_28_27",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 52,
+        "Id": 57,
         "uielementid": "09678F54-644C-42B0-8E43-28997A14ED3D",
         "ShowCaption": true,
         "Fontbold": false,
@@ -24864,12 +25443,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 51,
-        "_id": "09678F54-644C-42B0-8E43-28997A14ED3D_52_51",
+        "__idx": 56,
+        "_id": "09678F54-644C-42B0-8E43-28997A14ED3D_57_56",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 77,
+            "Id": 82,
             "uielementid": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9",
             "ShowCaption": true,
             "Fontbold": false,
@@ -24903,12 +25482,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 76,
-            "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_77_76",
+            "__idx": 81,
+            "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_82_81",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 98,
+                "Id": 103,
                 "uielementid": "840D2A86-98D9-4239-8536-663ECAA70414",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -24944,13 +25523,13 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "UCaption": "Summary",
-                "__idx": 97,
-                "_id": "840D2A86-98D9-4239-8536-663ECAA70414_98_97",
+                "__idx": 102,
+                "_id": "840D2A86-98D9-4239-8536-663ECAA70414_103_102",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 99,
+                "Id": 104,
                 "uielementid": "FB3FE2D0-870B-481F-86C1-1BA1667188B9",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -24983,15 +25562,15 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 98,
-                "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_99_98",
+                "__idx": 103,
+                "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_104_103",
                 "children": []
               }
             ]
           },
           {
             "VersionName": "Medium",
-            "Id": 78,
+            "Id": 83,
             "uielementid": "917C4E99-F72F-4705-81DE-F66EB877C500",
             "ShowCaption": true,
             "Fontbold": false,
@@ -25025,12 +25604,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 77,
-            "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_78_77",
+            "__idx": 82,
+            "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_83_82",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 100,
+                "Id": 105,
                 "uielementid": "C1717B28-7611-445B-9745-4CF46D7A390C",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -25064,12 +25643,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 99,
-                "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_100_99",
+                "__idx": 104,
+                "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_105_104",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 137,
+                    "Id": 142,
                     "uielementid": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -25103,12 +25682,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 136,
-                    "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_137_136",
+                    "__idx": 141,
+                    "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 151,
+                        "Id": 156,
                         "uielementid": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -25142,12 +25721,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 150,
-                        "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_151_150",
+                        "__idx": 155,
+                        "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 157,
+                            "Id": 162,
                             "uielementid": "659D47FF-B282-4438-A53A-A7ACA37F740F",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -25181,12 +25760,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 156,
-                            "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_157_156",
+                            "__idx": 161,
+                            "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 159,
+                                "Id": 164,
                                 "uielementid": "1C5C4175-1245-45B0-8B04-6F7056984FFE",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -25220,12 +25799,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 158,
-                                "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_159_158",
+                                "__idx": 163,
+                                "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 161,
+                                    "Id": 166,
                                     "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -25259,12 +25838,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 160,
-                                    "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_161_160",
+                                    "__idx": 165,
+                                    "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 163,
+                                        "Id": 168,
                                         "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -25296,8 +25875,8 @@ export const DataElementsData = [
                                         "DCaption": "Balance Fund Installment Amount",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 162,
-                                        "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_163_162",
+                                        "__idx": 167,
+                                        "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_168_167",
                                         "children": []
                                       }
                                     ]
@@ -25312,7 +25891,7 @@ export const DataElementsData = [
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 138,
+                    "Id": 143,
                     "uielementid": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -25346,12 +25925,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 137,
-                    "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_138_137",
+                    "__idx": 142,
+                    "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 152,
+                        "Id": 157,
                         "uielementid": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -25385,12 +25964,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 151,
-                        "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_152_151",
+                        "__idx": 156,
+                        "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 158,
+                            "Id": 163,
                             "uielementid": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -25424,12 +26003,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 157,
-                            "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_158_157",
+                            "__idx": 162,
+                            "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 160,
+                                "Id": 165,
                                 "uielementid": "C99BC49F-B3F1-4200-9C0F-1528B298E082",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -25463,12 +26042,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 159,
-                                "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_160_159",
+                                "__idx": 164,
+                                "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 162,
+                                    "Id": 167,
                                     "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -25502,12 +26081,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 161,
-                                    "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_162_161",
+                                    "__idx": 166,
+                                    "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 164,
+                                        "Id": 169,
                                         "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -25539,8 +26118,8 @@ export const DataElementsData = [
                                         "DCaption": "Split Up Total",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 163,
-                                        "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_164_163",
+                                        "__idx": 168,
+                                        "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_169_168",
                                         "children": []
                                       }
                                     ]
@@ -25559,7 +26138,7 @@ export const DataElementsData = [
           },
           {
             "VersionName": "Medium",
-            "Id": 79,
+            "Id": 84,
             "uielementid": "530F4791-43BB-498A-920D-7093BD174467",
             "ShowCaption": true,
             "Fontbold": false,
@@ -25593,8 +26172,8 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 78,
-            "_id": "530F4791-43BB-498A-920D-7093BD174467_79_78",
+            "__idx": 83,
+            "_id": "530F4791-43BB-498A-920D-7093BD174467_84_83",
             "children": []
           }
         ]
@@ -25603,7 +26182,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 30,
+    "Id": 29,
     "uielementid": "46091F7F-014D-4DDC-AD9D-974B1E4002B5",
     "ShowCaption": true,
     "Fontbold": false,
@@ -25637,12 +26216,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 29,
-    "_id": "46091F7F-014D-4DDC-AD9D-974B1E4002B5_30_29",
+    "__idx": 28,
+    "_id": "46091F7F-014D-4DDC-AD9D-974B1E4002B5_29_28",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 53,
+        "Id": 58,
         "uielementid": "B285AA75-D49B-4D92-99CA-A489113EA4E4",
         "TabIndex": -1,
         "ShowCaption": false,
@@ -25677,12 +26256,12 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "DCaption": "",
-        "__idx": 52,
-        "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_53_52",
+        "__idx": 57,
+        "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_58_57",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 80,
+            "Id": 85,
             "uielementid": "66453106-78BB-46CF-B15A-89BC68114F1E",
             "ShowCaption": true,
             "Fontbold": false,
@@ -25716,13 +26295,13 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 79,
-            "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_80_79",
+            "__idx": 84,
+            "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_85_84",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 81,
+            "Id": 86,
             "uielementid": "90341255-31D0-46BE-9FD8-3F03D54B5388",
             "ShowCaption": true,
             "Fontbold": false,
@@ -25756,13 +26335,13 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 80,
-            "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_81_80",
+            "__idx": 85,
+            "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_86_85",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 82,
+            "Id": 87,
             "WidgetId": "C2287754-790E-4853-A5A7-64772676D00E",
             "uielementid": "B285AA75-D49B-4D92-99CA-A489113EA4E4",
             "ShowCaption": true,
@@ -25797,13 +26376,13 @@ export const DataElementsData = [
             "DCaption": "",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 81,
-            "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_82_81",
+            "__idx": 86,
+            "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_87_86",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 83,
+            "Id": 88,
             "uielementid": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0",
             "ShowCaption": true,
             "Fontbold": false,
@@ -25836,13 +26415,13 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 82,
-            "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_83_82",
+            "__idx": 87,
+            "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_88_87",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 84,
+            "Id": 89,
             "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
             "TabIndex": -1,
             "ShowCaption": false,
@@ -25877,12 +26456,12 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "DCaption": "",
-            "__idx": 83,
-            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_84_83",
+            "__idx": 88,
+            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_89_88",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 101,
+                "Id": 106,
                 "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -25911,13 +26490,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                "__idx": 100,
-                "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_101_100",
+                "__idx": 105,
+                "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_106_105",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 102,
+                "Id": 107,
                 "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -25947,13 +26526,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                "__idx": 101,
-                "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_102_101",
+                "__idx": 106,
+                "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_107_106",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 103,
+                "Id": 108,
                 "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -25984,13 +26563,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                "__idx": 102,
-                "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_103_102",
+                "__idx": 107,
+                "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_108_107",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 104,
+                "Id": 109,
                 "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -26020,13 +26599,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                "__idx": 103,
-                "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_104_103",
+                "__idx": 108,
+                "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_109_108",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 105,
+                "Id": 110,
                 "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -26056,8 +26635,8 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-                "__idx": 104,
-                "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_105_104",
+                "__idx": 109,
+                "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_110_109",
                 "children": []
               }
             ]
@@ -26068,7 +26647,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 31,
+    "Id": 30,
     "uielementid": "0DD3C9A1-7792-46A1-AE80-5240D67771C7",
     "ShowCaption": true,
     "Fontbold": false,
@@ -26102,12 +26681,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 30,
-    "_id": "0DD3C9A1-7792-46A1-AE80-5240D67771C7_31_30",
+    "__idx": 29,
+    "_id": "0DD3C9A1-7792-46A1-AE80-5240D67771C7_30_29",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 54,
+        "Id": 59,
         "uielementid": "97388DDE-3223-499A-B2CB-FE3C761AEA03",
         "ShowCaption": true,
         "Fontbold": false,
@@ -26141,12 +26720,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 53,
-        "_id": "97388DDE-3223-499A-B2CB-FE3C761AEA03_54_53",
+        "__idx": 58,
+        "_id": "97388DDE-3223-499A-B2CB-FE3C761AEA03_59_58",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 85,
+            "Id": 90,
             "uielementid": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428",
             "ShowCaption": true,
             "Fontbold": false,
@@ -26180,12 +26759,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 84,
-            "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_85_84",
+            "__idx": 89,
+            "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_90_89",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 106,
+                "Id": 111,
                 "uielementid": "F5B358B1-AC61-4100-BC6C-167FC7340D30",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -26221,13 +26800,13 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "UCaption": "Next Action",
-                "__idx": 105,
-                "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_106_105",
+                "__idx": 110,
+                "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_111_110",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 107,
+                "Id": 112,
                 "uielementid": "3528E434-EF97-461F-8CB4-FF31848A097F",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -26260,15 +26839,15 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 106,
-                "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_107_106",
+                "__idx": 111,
+                "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_112_111",
                 "children": []
               }
             ]
           },
           {
             "VersionName": "Medium",
-            "Id": 86,
+            "Id": 91,
             "uielementid": "8B846853-9923-40F7-9C01-1A529703585B",
             "ShowCaption": true,
             "Fontbold": false,
@@ -26302,12 +26881,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 85,
-            "_id": "8B846853-9923-40F7-9C01-1A529703585B_86_85",
+            "__idx": 90,
+            "_id": "8B846853-9923-40F7-9C01-1A529703585B_91_90",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 108,
+                "Id": 113,
                 "uielementid": "5D7C36E7-F6E3-4898-8573-06D2021C39BB",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -26341,12 +26920,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 107,
-                "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_108_107",
+                "__idx": 112,
+                "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_113_112",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 139,
+                    "Id": 144,
                     "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -26380,12 +26959,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 138,
-                    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_139_138",
+                    "__idx": 143,
+                    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 153,
+                        "Id": 158,
                         "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -26413,7 +26992,7 @@ export const DataElementsData = [
                         "MergeRow": "",
                         "Action": "OnChange",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"M_FieldMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"SetDestinationTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveToValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_RemarksMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_NextStage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsflowReturned\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_SourceActivityMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_SaveDomainData\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Currentlevel\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsCancelReject\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                         "EDT": 9,
                         "DCaption": "Move To",
                         "DHelpText": "",
@@ -26424,13 +27003,13 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
-                        "__idx": 152,
-                        "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_153_152",
+                        "__idx": 157,
+                        "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_158_157",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 154,
+                        "Id": 159,
                         "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -26463,15 +27042,15 @@ export const DataElementsData = [
                         "DCaption": "Comments",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 153,
-                        "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_154_153",
+                        "__idx": 158,
+                        "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_159_158",
                         "children": []
                       }
                     ]
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 140,
+                    "Id": 145,
                     "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -26505,12 +27084,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 139,
-                    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_140_139",
+                    "__idx": 144,
+                    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 155,
+                        "Id": 160,
                         "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -26537,18 +27116,18 @@ export const DataElementsData = [
                         "MergeRow": "",
                         "Action": "OnClick",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"RemarksId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UserName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"DateOfRemarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_UpdatedBy\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_ReceiptSplitUpId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_DocumentDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"RedirectUrl\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"M_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                         "EDT": 10,
                         "DCaption": "Submit",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 154,
-                        "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_155_154",
+                        "__idx": 159,
+                        "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_160_159",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 156,
+                        "Id": 161,
                         "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -26580,8 +27159,8 @@ export const DataElementsData = [
                         "DCaption": "History",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 155,
-                        "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_156_155",
+                        "__idx": 160,
+                        "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_161_160",
                         "children": []
                       }
                     ]
@@ -26596,7 +27175,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 32,
+    "Id": 31,
     "uielementid": "AD7A0985-D773-4505-B214-3753D81629B6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -26630,13 +27209,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 31,
-    "_id": "AD7A0985-D773-4505-B214-3753D81629B6_32_31",
+    "__idx": 30,
+    "_id": "AD7A0985-D773-4505-B214-3753D81629B6_31_30",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 33,
+    "Id": 32,
     "uielementid": "FB487F2B-EAF1-43AD-B348-B06B39371ABA",
     "ShowCaption": true,
     "Fontbold": false,
@@ -26669,13 +27248,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 32,
-    "_id": "FB487F2B-EAF1-43AD-B348-B06B39371ABA_33_32",
+    "__idx": 31,
+    "_id": "FB487F2B-EAF1-43AD-B348-B06B39371ABA_32_31",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 34,
+    "Id": 33,
     "WidgetId": "9A0E4095-1BE8-44D4-97FB-822ADA862E58",
     "uielementid": "72E0A4D3-8271-4927-87B9-390811B882D9",
     "ShowCaption": true,
@@ -26709,13 +27288,13 @@ export const DataElementsData = [
     "DCaption": "",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 33,
-    "_id": "72E0A4D3-8271-4927-87B9-390811B882D9_34_33",
+    "__idx": 32,
+    "_id": "72E0A4D3-8271-4927-87B9-390811B882D9_33_32",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 35,
+    "Id": 34,
     "uielementid": "2D875F54-F45D-496C-AD6B-92D9B9846E36",
     "ShowCaption": true,
     "Fontbold": false,
@@ -26749,13 +27328,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 34,
-    "_id": "2D875F54-F45D-496C-AD6B-92D9B9846E36_35_34",
+    "__idx": 33,
+    "_id": "2D875F54-F45D-496C-AD6B-92D9B9846E36_34_33",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 36,
+    "Id": 35,
     "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
     "TabIndex": -1,
     "ShowCaption": false,
@@ -26790,12 +27369,12 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "DCaption": "",
-    "__idx": 35,
-    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_36_35",
+    "__idx": 34,
+    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_35_34",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 55,
+        "Id": 60,
         "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
         "ShowCaption": true,
         "Fontbold": false,
@@ -26824,13 +27403,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-        "__idx": 54,
-        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_55_54",
+        "__idx": 59,
+        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_60_59",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 56,
+        "Id": 61,
         "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
         "ShowCaption": true,
         "Fontbold": false,
@@ -26860,13 +27439,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-        "__idx": 55,
-        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_56_55",
+        "__idx": 60,
+        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_61_60",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 57,
+        "Id": 62,
         "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
         "ShowCaption": true,
         "Fontbold": false,
@@ -26896,13 +27475,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-        "__idx": 56,
-        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_57_56",
+        "__idx": 61,
+        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_62_61",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 58,
+        "Id": 63,
         "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
         "ShowCaption": true,
         "Fontbold": false,
@@ -26932,13 +27511,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-        "__idx": 57,
-        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_58_57",
+        "__idx": 62,
+        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_63_62",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 59,
+        "Id": 64,
         "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
         "ShowCaption": true,
         "Fontbold": false,
@@ -26967,13 +27546,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-        "__idx": 58,
-        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_59_58",
+        "__idx": 63,
+        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_64_63",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 60,
+        "Id": 65,
         "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
         "ShowCaption": true,
         "Fontbold": false,
@@ -27002,13 +27581,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-        "__idx": 59,
-        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_60_59",
+        "__idx": 64,
+        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_65_64",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 61,
+        "Id": 66,
         "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
         "ShowCaption": true,
         "Fontbold": false,
@@ -27037,15 +27616,137 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-        "__idx": 60,
-        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_61_60",
+        "__idx": 65,
+        "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_66_65",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
+    "Id": 36,
+    "uielementid": "12E9ACFC-EA06-41F0-864C-56AB4242C92C",
+    "ShowCaption": true,
+    "FontSize": 15,
+    "Fontbold": false,
+    "FontItalic": false,
+    "FontOverline": false,
+    "FontStrikeout": false,
+    "FontUnderline": false,
+    "Depth": 4,
+    "Css": "label label-default",
+    "IsBadge": false,
+    "MaxValue": 100,
+    "CurrValue": 10,
+    "LabelType": "Default",
+    "ElementId": "",
+    "UIElementid": "12E9ACFC-EA06-41F0-864C-56AB4242C92C",
+    "Sequence": 15,
+    "ElementName": "UI_Are sure want to delete",
+    "ParentElementId": "f40488b3-2895-b981-ad1f-c24aa99b40a2",
+    "ControlType": "Label",
+    "uielementtypeid": 17,
+    "Wrap": 12,
+    "EnableDFS": false,
+    "ClearFix": false,
+    "OnDemandLoad": false,
+    "IsLastStep": false,
+    "EnableValidation": false,
+    "Buttons": false,
+    "Legend": false,
+    "NavigationNumbers": false,
+    "ControlId": 27,
+    "Searchable": false,
+    "Bindable": false,
+    "IsSaveWidget": 0,
+    "BindingDetail": "",
+    "__idx": 35,
+    "_id": "12E9ACFC-EA06-41F0-864C-56AB4242C92C_36_35",
+    "children": []
+  },
+  {
+    "VersionName": "Medium",
     "Id": 37,
+    "uielementid": "71740417-6F9D-4EE9-8F19-6A2D0A225A47",
+    "ShowCaption": true,
+    "Fontbold": false,
+    "FontItalic": false,
+    "FontOverline": false,
+    "FontStrikeout": false,
+    "FontUnderline": false,
+    "Depth": 4,
+    "Css": "btn btn-danger btn-xs",
+    "IsBadge": false,
+    "MaxValue": 100,
+    "CurrValue": 10,
+    "ElementId": "",
+    "UIElementid": "71740417-6F9D-4EE9-8F19-6A2D0A225A47",
+    "Sequence": 16,
+    "ElementName": "UI_Yes",
+    "ParentElementId": "6ab3094c-42ec-df3f-43d7-79441d249115",
+    "ControlType": "UI Button",
+    "uielementtypeid": 56,
+    "Wrap": 6,
+    "EnableDFS": true,
+    "ClearFix": false,
+    "OnDemandLoad": false,
+    "IsLastStep": false,
+    "EnableValidation": false,
+    "Buttons": false,
+    "Legend": false,
+    "NavigationNumbers": false,
+    "ControlId": 64,
+    "Searchable": false,
+    "Bindable": false,
+    "IsSaveWidget": 0,
+    "BindingDetail": "",
+    "__idx": 36,
+    "_id": "71740417-6F9D-4EE9-8F19-6A2D0A225A47_37_36",
+    "children": []
+  },
+  {
+    "VersionName": "Medium",
+    "Id": 38,
+    "uielementid": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41",
+    "ShowCaption": true,
+    "Fontbold": false,
+    "FontItalic": false,
+    "FontOverline": false,
+    "FontStrikeout": false,
+    "FontUnderline": false,
+    "Depth": 4,
+    "Css": "btn btn-info btn-xs",
+    "IsBadge": false,
+    "MaxValue": 100,
+    "CurrValue": 10,
+    "ElementId": "",
+    "UIElementid": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41",
+    "Sequence": 17,
+    "ElementName": "UI_No",
+    "ParentElementId": "6ab3094c-42ec-df3f-43d7-79441d249115",
+    "ControlType": "UI Button",
+    "uielementtypeid": 56,
+    "Wrap": 6,
+    "EnableDFS": true,
+    "ClearFix": false,
+    "OnDemandLoad": false,
+    "IsLastStep": false,
+    "EnableValidation": false,
+    "Buttons": false,
+    "Legend": false,
+    "NavigationNumbers": false,
+    "ControlId": 64,
+    "Searchable": false,
+    "Bindable": false,
+    "IsSaveWidget": 0,
+    "BindingDetail": "",
+    "__idx": 37,
+    "_id": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41_38_37",
+    "children": []
+  },
+  {
+    "VersionName": "Medium",
+    "Id": 39,
     "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -27057,7 +27758,7 @@ export const DataElementsData = [
     "Css": "form-control input-lg",
     "ElementId": "C9A73308-6B3B-4E61-B69F-419CABCC583C",
     "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
-    "Sequence": 15,
+    "Sequence": 18,
     "ElementName": "UC_EmployeeBaicInfoId",
     "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
     "ControlType": "TextBox",
@@ -27084,13 +27785,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 36,
-    "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_37_36",
+    "__idx": 38,
+    "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_39_38",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 38,
+    "Id": 40,
     "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -27101,7 +27802,7 @@ export const DataElementsData = [
     "Depth": 4,
     "ElementId": "9B31A3F5-A5AA-4EE1-B30A-E780CBB23346",
     "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
-    "Sequence": 16,
+    "Sequence": 19,
     "ElementName": "MF_P1_ReceiptsId",
     "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
     "ControlType": "TextBox",
@@ -27132,13 +27833,125 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 37,
-    "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_38_37",
+    "__idx": 39,
+    "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_40_39",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 39,
+    "Id": 41,
+    "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+    "ShowCaption": true,
+    "Fontbold": false,
+    "FontItalic": false,
+    "FontOverline": false,
+    "FontStrikeout": false,
+    "FontUnderline": false,
+    "Depth": 4,
+    "ElementId": "1500BA80-B637-4F4F-ACB3-7C3B34CDF50E",
+    "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+    "Sequence": 20,
+    "ElementName": "Subject",
+    "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
+    "ControlType": "TextBox",
+    "Wrap": 4,
+    "IsMultiline": true,
+    "ClearFix": false,
+    "RenderType": 1,
+    "OnDemandLoad": false,
+    "ControlId": 1,
+    "DisplayName": "Subject",
+    "Searchable": false,
+    "Bindable": false,
+    "HeaderTemplate": "",
+    "MergeRow": "",
+    "IsSaveWidget": 0,
+    "BindingDetail": "",
+    "EDT": 9,
+    "DCaption": "",
+    "DHelpText": "",
+    "DToolTip": "",
+    "__idx": 40,
+    "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_41_40",
+    "children": []
+  },
+  {
+    "VersionName": "Medium",
+    "Id": 42,
+    "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+    "ShowCaption": true,
+    "Fontbold": false,
+    "FontItalic": false,
+    "FontOverline": false,
+    "FontStrikeout": false,
+    "FontUnderline": false,
+    "Depth": 4,
+    "ElementId": "3C1E7AE2-D67A-4D07-8C18-096F8274CC37",
+    "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+    "Sequence": 21,
+    "ElementName": "ProjectCode",
+    "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
+    "ControlType": "TextBox",
+    "Wrap": 4,
+    "IsMultiline": false,
+    "ClearFix": false,
+    "RenderType": 1,
+    "OnDemandLoad": false,
+    "ControlId": 1,
+    "DisplayName": "ProjectCode",
+    "Searchable": false,
+    "Bindable": false,
+    "HeaderTemplate": "",
+    "MergeRow": "",
+    "IsSaveWidget": 0,
+    "BindingDetail": "",
+    "EDT": 9,
+    "DCaption": "",
+    "DHelpText": "",
+    "DToolTip": "",
+    "__idx": 41,
+    "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_42_41",
+    "children": []
+  },
+  {
+    "VersionName": "Medium",
+    "Id": 43,
+    "uielementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+    "ShowCaption": true,
+    "Fontbold": false,
+    "FontItalic": false,
+    "FontOverline": false,
+    "FontStrikeout": false,
+    "FontUnderline": false,
+    "Depth": 4,
+    "ElementId": "c496497f-5d0e-e0d0-06dc-5b020cc22058",
+    "UIElementid": "39BBC959-9D53-4443-B5BF-42423887F1CE",
+    "Sequence": 22,
+    "ElementName": "M_FlowType",
+    "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
+    "ControlType": "TextBox",
+    "Wrap": 4,
+    "IsMultiline": false,
+    "ClearFix": false,
+    "RenderType": 1,
+    "OnDemandLoad": false,
+    "ControlId": 1,
+    "DisplayName": "M_FlowType",
+    "Searchable": false,
+    "Bindable": false,
+    "HeaderTemplate": "",
+    "MergeRow": "",
+    "IsSaveWidget": 0,
+    "BindingDetail": "",
+    "EDT": 9,
+    "DCaption": "M_FlowType",
+    "__idx": 42,
+    "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_43_42",
+    "children": []
+  },
+  {
+    "VersionName": "Medium",
+    "Id": 44,
     "uielementid": "0B55DFD1-2410-4AE4-9504-B06D014378C6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -27153,7 +27966,7 @@ export const DataElementsData = [
     "CurrValue": 10,
     "ElementId": "",
     "UIElementid": "0B55DFD1-2410-4AE4-9504-B06D014378C6",
-    "Sequence": 17,
+    "Sequence": 23,
     "ElementName": "UI_Grid Header",
     "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
     "ControlType": "Grid Header",
@@ -27172,13 +27985,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 38,
-    "_id": "0B55DFD1-2410-4AE4-9504-B06D014378C6_39_38",
+    "__idx": 43,
+    "_id": "0B55DFD1-2410-4AE4-9504-B06D014378C6_44_43",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 40,
+    "Id": 45,
     "uielementid": "C9BB7C58-7A52-4144-89EC-E828E0D7B908",
     "ShowCaption": true,
     "Fontbold": false,
@@ -27192,7 +28005,7 @@ export const DataElementsData = [
     "CurrValue": 10,
     "ElementId": "",
     "UIElementid": "C9BB7C58-7A52-4144-89EC-E828E0D7B908",
-    "Sequence": 18,
+    "Sequence": 24,
     "ElementName": "UI_Grid Search bar",
     "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
     "ControlType": "Grid Search bar",
@@ -27211,13 +28024,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 39,
-    "_id": "C9BB7C58-7A52-4144-89EC-E828E0D7B908_40_39",
+    "__idx": 44,
+    "_id": "C9BB7C58-7A52-4144-89EC-E828E0D7B908_45_44",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 41,
+    "Id": 46,
     "WidgetId": "97c72782-b716-b2cd-caba-bef246e1dab6",
     "uielementid": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
     "ShowCaption": true,
@@ -27229,7 +28042,7 @@ export const DataElementsData = [
     "Depth": 4,
     "ElementId": "97c72782-b716-b2cd-caba-bef246e1dab6",
     "UIElementid": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
-    "Sequence": 19,
+    "Sequence": 25,
     "ElementName": "MG_Comments",
     "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
     "ControlType": "Grid",
@@ -27251,13 +28064,13 @@ export const DataElementsData = [
     "DCaption": "",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 40,
-    "_id": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F_41_40",
+    "__idx": 45,
+    "_id": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F_46_45",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 42,
+    "Id": 47,
     "uielementid": "BD56103A-3552-4850-B1D0-36AD88502675",
     "ShowCaption": true,
     "Fontbold": false,
@@ -27272,7 +28085,7 @@ export const DataElementsData = [
     "CurrValue": 10,
     "ElementId": "",
     "UIElementid": "BD56103A-3552-4850-B1D0-36AD88502675",
-    "Sequence": 20,
+    "Sequence": 26,
     "ElementName": "UI_Grid Footer",
     "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
     "ControlType": "Grid Footer",
@@ -27291,13 +28104,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 41,
-    "_id": "BD56103A-3552-4850-B1D0-36AD88502675_42_41",
+    "__idx": 46,
+    "_id": "BD56103A-3552-4850-B1D0-36AD88502675_47_46",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 43,
+    "Id": 48,
     "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
     "TabIndex": -1,
     "ShowCaption": false,
@@ -27312,7 +28125,7 @@ export const DataElementsData = [
     "CurrValue": 10,
     "ElementId": "",
     "UIElementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
-    "Sequence": 21,
+    "Sequence": 27,
     "ElementName": "UI_GridColumns",
     "ParentElementId": "EE57718A-5695-471C-9E55-4A2AAE0DCA8F",
     "ControlType": "Column",
@@ -27332,12 +28145,12 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "DCaption": "",
-    "__idx": 42,
-    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_43_42",
+    "__idx": 47,
+    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_48_47",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 62,
+        "Id": 67,
         "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -27369,13 +28182,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-        "__idx": 61,
-        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_62_61",
+        "__idx": 66,
+        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_67_66",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 63,
+        "Id": 68,
         "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -27408,13 +28221,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-        "__idx": 62,
-        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_63_62",
+        "__idx": 67,
+        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_68_67",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 64,
+        "Id": 69,
         "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -27447,13 +28260,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-        "__idx": 63,
-        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_64_63",
+        "__idx": 68,
+        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_69_68",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 65,
+        "Id": 70,
         "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -27486,13 +28299,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-        "__idx": 64,
-        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_65_64",
+        "__idx": 69,
+        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_70_69",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 66,
+        "Id": 71,
         "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -27525,13 +28338,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-        "__idx": 65,
-        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_66_65",
+        "__idx": 70,
+        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_71_70",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 67,
+        "Id": 72,
         "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -27564,13 +28377,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-        "__idx": 66,
-        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_67_66",
+        "__idx": 71,
+        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_72_71",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 68,
+        "Id": 73,
         "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -27602,15 +28415,15 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-        "__idx": 67,
-        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_68_67",
+        "__idx": 72,
+        "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_73_72",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 44,
+    "Id": 49,
     "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
     "ShowCaption": true,
     "Fontbold": false,
@@ -27643,13 +28456,13 @@ export const DataElementsData = [
     "DCaption": "Employee Id",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 43,
-    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_44_43",
+    "__idx": 48,
+    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_49_48",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 45,
+    "Id": 50,
     "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
     "ShowCaption": true,
     "Fontbold": false,
@@ -27682,13 +28495,13 @@ export const DataElementsData = [
     "DCaption": "Employee Name",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 44,
-    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_45_44",
+    "__idx": 49,
+    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_50_49",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 46,
+    "Id": 51,
     "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
     "ShowCaption": true,
     "Fontbold": false,
@@ -27721,13 +28534,13 @@ export const DataElementsData = [
     "DCaption": "Designation",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 45,
-    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_46_45",
+    "__idx": 50,
+    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_51_50",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 47,
+    "Id": 52,
     "uielementid": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66",
     "ShowCaption": true,
     "Fontbold": false,
@@ -27760,13 +28573,13 @@ export const DataElementsData = [
     "DCaption": "Department",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 46,
-    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_47_46",
+    "__idx": 51,
+    "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_52_51",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 48,
+    "Id": 53,
     "uielementid": "8FEA8240-7016-42F3-B614-DC90CA28A213",
     "ShowCaption": true,
     "Fontbold": false,
@@ -27794,18 +28607,18 @@ export const DataElementsData = [
     "MergeRow": "",
     "Action": "OnChange",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
     "EDT": 9,
     "DCaption": "Sanctioned Project Number",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 47,
-    "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_48_47",
+    "__idx": 52,
+    "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_53_52",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 49,
+    "Id": 54,
     "uielementid": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F",
     "ShowCaption": true,
     "Fontbold": false,
@@ -27839,12 +28652,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 48,
-    "_id": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F_49_48",
+    "__idx": 53,
+    "_id": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F_54_53",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 69,
+        "Id": 74,
         "uielementid": "1CA1DF06-57FA-42A9-9D80-70836540BA06",
         "ShowCaption": true,
         "Fontbold": false,
@@ -27878,12 +28691,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 68,
-        "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_69_68",
+        "__idx": 73,
+        "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_74_73",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 87,
+            "Id": 92,
             "uielementid": "0B168B00-008D-4750-9372-547D14EA5D78",
             "ShowCaption": true,
             "Fontbold": false,
@@ -27919,13 +28732,13 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "UCaption": "Project Information",
-            "__idx": 86,
-            "_id": "0B168B00-008D-4750-9372-547D14EA5D78_87_86",
+            "__idx": 91,
+            "_id": "0B168B00-008D-4750-9372-547D14EA5D78_92_91",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 88,
+            "Id": 93,
             "uielementid": "5FABFD91-84EE-457E-A01E-FD284E5D083A",
             "ShowCaption": true,
             "Fontbold": false,
@@ -27959,15 +28772,15 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 87,
-            "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_88_87",
+            "__idx": 92,
+            "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_93_92",
             "children": []
           }
         ]
       },
       {
         "VersionName": "Medium",
-        "Id": 70,
+        "Id": 75,
         "uielementid": "67B99F6B-1727-49CC-A01E-2054296BCAD7",
         "ShowCaption": true,
         "Fontbold": false,
@@ -28001,12 +28814,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 69,
-        "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_70_69",
+        "__idx": 74,
+        "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_75_74",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 89,
+            "Id": 94,
             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
             "ShowCaption": true,
             "Fontbold": false,
@@ -28040,12 +28853,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 88,
-            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_89_88",
+            "__idx": 93,
+            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_94_93",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 109,
+                "Id": 114,
                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -28078,13 +28891,13 @@ export const DataElementsData = [
                 "DCaption": "Sanctioned Project Name",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 108,
-                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_109_108",
+                "__idx": 113,
+                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 110,
+                "Id": 115,
                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -28117,13 +28930,13 @@ export const DataElementsData = [
                 "DCaption": "Agency Code",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 109,
-                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_110_109",
+                "__idx": 114,
+                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 111,
+                "Id": 116,
                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -28156,13 +28969,13 @@ export const DataElementsData = [
                 "DCaption": "Category",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 110,
-                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_111_110",
+                "__idx": 115,
+                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 112,
+                "Id": 117,
                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -28191,18 +29004,18 @@ export const DataElementsData = [
                 "MergeRow": "",
                 "Action": "OnChange",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                 "EDT": 9,
                 "DCaption": "Sanctioned No",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 111,
-                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_112_111",
+                "__idx": 116,
+                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 113,
+                "Id": 118,
                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -28234,13 +29047,13 @@ export const DataElementsData = [
                 "DCaption": "Sanctioned Date",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 112,
-                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_113_112",
+                "__idx": 117,
+                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 114,
+                "Id": 119,
                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -28272,13 +29085,13 @@ export const DataElementsData = [
                 "DCaption": "Sanctioned Amount",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 113,
-                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
+                "__idx": 118,
+                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_119_118",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 115,
+                "Id": 120,
                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -28310,13 +29123,13 @@ export const DataElementsData = [
                 "DCaption": "Start Date",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 114,
-                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
+                "__idx": 119,
+                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 116,
+                "Id": 121,
                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -28348,13 +29161,13 @@ export const DataElementsData = [
                 "DCaption": "End Date",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 115,
-                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
+                "__idx": 120,
+                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 117,
+                "Id": 122,
                 "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -28386,8 +29199,8 @@ export const DataElementsData = [
                 "DCaption": "Available Amount",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 116,
-                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
+                "__idx": 121,
+                "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_122_121",
                 "children": []
               }
             ]
@@ -28396,7 +29209,7 @@ export const DataElementsData = [
       },
       {
         "VersionName": "Medium",
-        "Id": 71,
+        "Id": 76,
         "uielementid": "99147C2A-2072-4712-ABDC-B969A5DD6A89",
         "ShowCaption": true,
         "Fontbold": false,
@@ -28430,12 +29243,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 70,
-        "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_71_70",
+        "__idx": 75,
+        "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_76_75",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 90,
+            "Id": 95,
             "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
             "ShowCaption": true,
             "Fontbold": false,
@@ -28469,12 +29282,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 89,
-            "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_90_89",
+            "__idx": 94,
+            "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_95_94",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 118,
+                "Id": 123,
                 "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -28506,13 +29319,13 @@ export const DataElementsData = [
                 "DCaption": "Actual Start Date",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 117,
-                "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_118_117",
+                "__idx": 122,
+                "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 119,
+                "Id": 124,
                 "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -28554,8 +29367,8 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 118,
-                "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_119_118",
+                "__idx": 123,
+                "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
                 "children": []
               }
             ]
@@ -28566,7 +29379,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 50,
+    "Id": 55,
     "uielementid": "D0DF120F-C213-48A2-9B4C-AF2F7D166169",
     "ShowCaption": true,
     "Fontbold": false,
@@ -28600,12 +29413,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 49,
-    "_id": "D0DF120F-C213-48A2-9B4C-AF2F7D166169_50_49",
+    "__idx": 54,
+    "_id": "D0DF120F-C213-48A2-9B4C-AF2F7D166169_55_54",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 72,
+        "Id": 77,
         "uielementid": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326",
         "ShowCaption": true,
         "Fontbold": false,
@@ -28639,12 +29452,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 71,
-        "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_72_71",
+        "__idx": 76,
+        "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_77_76",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 91,
+            "Id": 96,
             "uielementid": "255A5CD9-8822-4862-936D-2E7ED1F1BD50",
             "ShowCaption": true,
             "Fontbold": false,
@@ -28680,13 +29493,13 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "UCaption": "Fund Installment Details",
-            "__idx": 90,
-            "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_91_90",
+            "__idx": 95,
+            "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_96_95",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 92,
+            "Id": 97,
             "uielementid": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7",
             "ShowCaption": true,
             "Fontbold": false,
@@ -28719,15 +29532,15 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 91,
-            "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_92_91",
+            "__idx": 96,
+            "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_97_96",
             "children": []
           }
         ]
       },
       {
         "VersionName": "Medium",
-        "Id": 73,
+        "Id": 78,
         "uielementid": "749D3334-9C41-470F-97DF-2BA7F4283B3F",
         "ShowCaption": true,
         "Fontbold": false,
@@ -28761,12 +29574,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 72,
-        "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_73_72",
+        "__idx": 77,
+        "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_78_77",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 93,
+            "Id": 98,
             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
             "ShowCaption": true,
             "Fontbold": false,
@@ -28800,12 +29613,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 92,
-            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_93_92",
+            "__idx": 97,
+            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_98_97",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 120,
+                "Id": 125,
                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -28851,13 +29664,13 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 119,
-                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_120_119",
+                "__idx": 124,
+                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 121,
+                "Id": 126,
                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -28903,13 +29716,13 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 120,
-                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_121_120",
+                "__idx": 125,
+                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 122,
+                "Id": 127,
                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -28951,13 +29764,13 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 121,
-                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_122_121",
+                "__idx": 126,
+                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 123,
+                "Id": 128,
                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -28999,13 +29812,13 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 122,
-                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_123_122",
+                "__idx": 127,
+                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_128_127",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 124,
+                "Id": 129,
                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -29046,13 +29859,13 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 123,
-                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_124_123",
+                "__idx": 128,
+                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_129_128",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 125,
+                "Id": 130,
                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -29094,13 +29907,13 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 124,
-                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
+                "__idx": 129,
+                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_130_129",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 126,
+                "Id": 131,
                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -29142,13 +29955,13 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 125,
-                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
+                "__idx": 130,
+                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 127,
+                "Id": 132,
                 "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -29189,8 +30002,8 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 126,
-                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
+                "__idx": 131,
+                "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_132_131",
                 "children": []
               }
             ]
@@ -29201,7 +30014,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 51,
+    "Id": 56,
     "uielementid": "31F38CD6-6BEA-4BC4-8B26-493F1977A981",
     "ShowCaption": true,
     "Fontbold": false,
@@ -29235,12 +30048,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 50,
-    "_id": "31F38CD6-6BEA-4BC4-8B26-493F1977A981_51_50",
+    "__idx": 55,
+    "_id": "31F38CD6-6BEA-4BC4-8B26-493F1977A981_56_55",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 74,
+        "Id": 79,
         "uielementid": "3DC05163-B9D7-4A7C-858D-2A4006282CCB",
         "ShowCaption": true,
         "Fontbold": false,
@@ -29274,12 +30087,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 73,
-        "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_74_73",
+        "__idx": 78,
+        "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_79_78",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 94,
+            "Id": 99,
             "uielementid": "34F57298-4365-45D8-B9FD-5C4B8C6544E3",
             "ShowCaption": true,
             "Fontbold": false,
@@ -29315,13 +30128,13 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "UCaption": "Split Up of Fund Installment",
-            "__idx": 93,
-            "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_94_93",
+            "__idx": 98,
+            "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_99_98",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 95,
+            "Id": 100,
             "uielementid": "97461361-3474-48BD-B47B-2DD78F64392B",
             "ShowCaption": true,
             "Fontbold": false,
@@ -29354,15 +30167,15 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 94,
-            "_id": "97461361-3474-48BD-B47B-2DD78F64392B_95_94",
+            "__idx": 99,
+            "_id": "97461361-3474-48BD-B47B-2DD78F64392B_100_99",
             "children": []
           }
         ]
       },
       {
         "VersionName": "Medium",
-        "Id": 75,
+        "Id": 80,
         "uielementid": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E",
         "ShowCaption": true,
         "Fontbold": false,
@@ -29396,12 +30209,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 74,
-        "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_75_74",
+        "__idx": 79,
+        "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_80_79",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 96,
+            "Id": 101,
             "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
             "ShowCaption": true,
             "Fontbold": false,
@@ -29435,12 +30248,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 95,
-            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_96_95",
+            "__idx": 100,
+            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_101_100",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 128,
+                "Id": 133,
                 "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -29486,13 +30299,13 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 127,
-                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_128_127",
+                "__idx": 132,
+                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_133_132",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 129,
+                "Id": 134,
                 "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -29538,13 +30351,13 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 128,
-                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_129_128",
+                "__idx": 133,
+                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_134_133",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 130,
+                "Id": 135,
                 "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -29576,13 +30389,13 @@ export const DataElementsData = [
                 "DCaption": "Save",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 129,
-                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_130_129",
+                "__idx": 134,
+                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_135_134",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 131,
+                "Id": 136,
                 "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -29614,8 +30427,8 @@ export const DataElementsData = [
                 "DCaption": "View Budget Details",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 130,
-                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_131_130",
+                "__idx": 135,
+                "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_136_135",
                 "children": []
               }
             ]
@@ -29624,7 +30437,7 @@ export const DataElementsData = [
       },
       {
         "VersionName": "Medium",
-        "Id": 76,
+        "Id": 81,
         "uielementid": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05",
         "ShowCaption": true,
         "Fontbold": false,
@@ -29658,12 +30471,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 75,
-        "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_76_75",
+        "__idx": 80,
+        "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_81_80",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 97,
+            "Id": 102,
             "uielementid": "C7CF6D22-62CA-459D-8312-8022F934D311",
             "TabIndex": -1,
             "ShowCaption": false,
@@ -29699,12 +30512,12 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "DCaption": "",
-            "__idx": 96,
-            "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_97_96",
+            "__idx": 101,
+            "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_102_101",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 132,
+                "Id": 137,
                 "uielementid": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -29738,13 +30551,13 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 131,
-                "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_132_131",
+                "__idx": 136,
+                "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 133,
+                "Id": 138,
                 "uielementid": "6B9CB23A-420F-421E-B39A-47785DBDABB4",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -29777,13 +30590,13 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 132,
-                "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_133_132",
+                "__idx": 137,
+                "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 134,
+                "Id": 139,
                 "WidgetId": "249EF445-9B49-4EF9-8045-46BD1E6FF8ED",
                 "uielementid": "C7CF6D22-62CA-459D-8312-8022F934D311",
                 "WidgetName": "ProjectFundInstallment_ReceiptSplitUp_AdditionalDetails.Json",
@@ -29818,8 +30631,8 @@ export const DataElementsData = [
                 "DCaption": "",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 133,
-                "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_134_133",
+                "__idx": 138,
+                "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_139_138",
                 "children": [
                   {
                     "VersionName": "Medium",
@@ -30338,7 +31151,7 @@ export const DataElementsData = [
               },
               {
                 "VersionName": "Medium",
-                "Id": 135,
+                "Id": 140,
                 "uielementid": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -30372,13 +31185,13 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 134,
-                "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_135_134",
+                "__idx": 139,
+                "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 136,
+                "Id": 141,
                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                 "TabIndex": -1,
                 "ShowCaption": false,
@@ -30413,12 +31226,12 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "DCaption": "",
-                "__idx": 135,
-                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_136_135",
+                "__idx": 140,
+                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 141,
+                    "Id": 146,
                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -30447,13 +31260,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                    "__idx": 140,
-                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
+                    "__idx": 145,
+                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 142,
+                    "Id": 147,
                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -30483,13 +31296,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                    "__idx": 141,
-                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_142_141",
+                    "__idx": 146,
+                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 143,
+                    "Id": 148,
                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -30529,13 +31342,13 @@ export const DataElementsData = [
                       }
                     ],
                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                    "__idx": 142,
-                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_143_142",
+                    "__idx": 147,
+                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 144,
+                    "Id": 149,
                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -30575,13 +31388,13 @@ export const DataElementsData = [
                       }
                     ],
                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                    "__idx": 143,
-                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_144_143",
+                    "__idx": 148,
+                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 145,
+                    "Id": 150,
                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -30620,13 +31433,13 @@ export const DataElementsData = [
                       }
                     ],
                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                    "__idx": 144,
-                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_145_144",
+                    "__idx": 149,
+                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 146,
+                    "Id": 151,
                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -30666,13 +31479,13 @@ export const DataElementsData = [
                       }
                     ],
                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                    "__idx": 145,
-                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
+                    "__idx": 150,
+                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_151_150",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 147,
+                    "Id": 152,
                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -30711,13 +31524,13 @@ export const DataElementsData = [
                       }
                     ],
                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                    "__idx": 146,
-                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
+                    "__idx": 151,
+                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_152_151",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 148,
+                    "Id": 153,
                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -30756,13 +31569,13 @@ export const DataElementsData = [
                       }
                     ],
                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                    "__idx": 147,
-                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
+                    "__idx": 152,
+                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 149,
+                    "Id": 154,
                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -30797,13 +31610,13 @@ export const DataElementsData = [
                       }
                     ],
                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                    "__idx": 148,
-                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
+                    "__idx": 153,
+                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_154_153",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 150,
+                    "Id": 155,
                     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -30838,8 +31651,8 @@ export const DataElementsData = [
                       }
                     ],
                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                    "__idx": 149,
-                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
+                    "__idx": 154,
+                    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_155_154",
                     "children": []
                   }
                 ]
@@ -30852,7 +31665,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 52,
+    "Id": 57,
     "uielementid": "09678F54-644C-42B0-8E43-28997A14ED3D",
     "ShowCaption": true,
     "Fontbold": false,
@@ -30886,12 +31699,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 51,
-    "_id": "09678F54-644C-42B0-8E43-28997A14ED3D_52_51",
+    "__idx": 56,
+    "_id": "09678F54-644C-42B0-8E43-28997A14ED3D_57_56",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 77,
+        "Id": 82,
         "uielementid": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9",
         "ShowCaption": true,
         "Fontbold": false,
@@ -30925,12 +31738,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 76,
-        "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_77_76",
+        "__idx": 81,
+        "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_82_81",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 98,
+            "Id": 103,
             "uielementid": "840D2A86-98D9-4239-8536-663ECAA70414",
             "ShowCaption": true,
             "Fontbold": false,
@@ -30966,13 +31779,13 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "UCaption": "Summary",
-            "__idx": 97,
-            "_id": "840D2A86-98D9-4239-8536-663ECAA70414_98_97",
+            "__idx": 102,
+            "_id": "840D2A86-98D9-4239-8536-663ECAA70414_103_102",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 99,
+            "Id": 104,
             "uielementid": "FB3FE2D0-870B-481F-86C1-1BA1667188B9",
             "ShowCaption": true,
             "Fontbold": false,
@@ -31005,15 +31818,15 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 98,
-            "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_99_98",
+            "__idx": 103,
+            "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_104_103",
             "children": []
           }
         ]
       },
       {
         "VersionName": "Medium",
-        "Id": 78,
+        "Id": 83,
         "uielementid": "917C4E99-F72F-4705-81DE-F66EB877C500",
         "ShowCaption": true,
         "Fontbold": false,
@@ -31047,12 +31860,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 77,
-        "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_78_77",
+        "__idx": 82,
+        "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_83_82",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 100,
+            "Id": 105,
             "uielementid": "C1717B28-7611-445B-9745-4CF46D7A390C",
             "ShowCaption": true,
             "Fontbold": false,
@@ -31086,12 +31899,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 99,
-            "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_100_99",
+            "__idx": 104,
+            "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_105_104",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 137,
+                "Id": 142,
                 "uielementid": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -31125,12 +31938,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 136,
-                "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_137_136",
+                "__idx": 141,
+                "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 151,
+                    "Id": 156,
                     "uielementid": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -31164,12 +31977,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 150,
-                    "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_151_150",
+                    "__idx": 155,
+                    "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 157,
+                        "Id": 162,
                         "uielementid": "659D47FF-B282-4438-A53A-A7ACA37F740F",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -31203,12 +32016,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 156,
-                        "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_157_156",
+                        "__idx": 161,
+                        "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 159,
+                            "Id": 164,
                             "uielementid": "1C5C4175-1245-45B0-8B04-6F7056984FFE",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -31242,12 +32055,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 158,
-                            "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_159_158",
+                            "__idx": 163,
+                            "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 161,
+                                "Id": 166,
                                 "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -31281,12 +32094,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 160,
-                                "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_161_160",
+                                "__idx": 165,
+                                "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 163,
+                                    "Id": 168,
                                     "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -31318,8 +32131,8 @@ export const DataElementsData = [
                                     "DCaption": "Balance Fund Installment Amount",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 162,
-                                    "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_163_162",
+                                    "__idx": 167,
+                                    "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_168_167",
                                     "children": []
                                   }
                                 ]
@@ -31334,7 +32147,7 @@ export const DataElementsData = [
               },
               {
                 "VersionName": "Medium",
-                "Id": 138,
+                "Id": 143,
                 "uielementid": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -31368,12 +32181,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 137,
-                "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_138_137",
+                "__idx": 142,
+                "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 152,
+                    "Id": 157,
                     "uielementid": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -31407,12 +32220,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 151,
-                    "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_152_151",
+                    "__idx": 156,
+                    "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 158,
+                        "Id": 163,
                         "uielementid": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -31446,12 +32259,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 157,
-                        "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_158_157",
+                        "__idx": 162,
+                        "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 160,
+                            "Id": 165,
                             "uielementid": "C99BC49F-B3F1-4200-9C0F-1528B298E082",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -31485,12 +32298,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 159,
-                            "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_160_159",
+                            "__idx": 164,
+                            "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 162,
+                                "Id": 167,
                                 "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -31524,12 +32337,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 161,
-                                "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_162_161",
+                                "__idx": 166,
+                                "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 164,
+                                    "Id": 169,
                                     "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -31561,8 +32374,8 @@ export const DataElementsData = [
                                     "DCaption": "Split Up Total",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 163,
-                                    "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_164_163",
+                                    "__idx": 168,
+                                    "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_169_168",
                                     "children": []
                                   }
                                 ]
@@ -31581,7 +32394,7 @@ export const DataElementsData = [
       },
       {
         "VersionName": "Medium",
-        "Id": 79,
+        "Id": 84,
         "uielementid": "530F4791-43BB-498A-920D-7093BD174467",
         "ShowCaption": true,
         "Fontbold": false,
@@ -31615,15 +32428,15 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 78,
-        "_id": "530F4791-43BB-498A-920D-7093BD174467_79_78",
+        "__idx": 83,
+        "_id": "530F4791-43BB-498A-920D-7093BD174467_84_83",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 53,
+    "Id": 58,
     "uielementid": "B285AA75-D49B-4D92-99CA-A489113EA4E4",
     "TabIndex": -1,
     "ShowCaption": false,
@@ -31658,12 +32471,12 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "DCaption": "",
-    "__idx": 52,
-    "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_53_52",
+    "__idx": 57,
+    "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_58_57",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 80,
+        "Id": 85,
         "uielementid": "66453106-78BB-46CF-B15A-89BC68114F1E",
         "ShowCaption": true,
         "Fontbold": false,
@@ -31697,13 +32510,13 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 79,
-        "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_80_79",
+        "__idx": 84,
+        "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_85_84",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 81,
+        "Id": 86,
         "uielementid": "90341255-31D0-46BE-9FD8-3F03D54B5388",
         "ShowCaption": true,
         "Fontbold": false,
@@ -31737,13 +32550,13 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 80,
-        "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_81_80",
+        "__idx": 85,
+        "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_86_85",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 82,
+        "Id": 87,
         "WidgetId": "C2287754-790E-4853-A5A7-64772676D00E",
         "uielementid": "B285AA75-D49B-4D92-99CA-A489113EA4E4",
         "ShowCaption": true,
@@ -31778,13 +32591,13 @@ export const DataElementsData = [
         "DCaption": "",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 81,
-        "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_82_81",
+        "__idx": 86,
+        "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_87_86",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 83,
+        "Id": 88,
         "uielementid": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0",
         "ShowCaption": true,
         "Fontbold": false,
@@ -31817,13 +32630,13 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 82,
-        "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_83_82",
+        "__idx": 87,
+        "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_88_87",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 84,
+        "Id": 89,
         "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
         "TabIndex": -1,
         "ShowCaption": false,
@@ -31858,12 +32671,12 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "DCaption": "",
-        "__idx": 83,
-        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_84_83",
+        "__idx": 88,
+        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_89_88",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 101,
+            "Id": 106,
             "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -31892,13 +32705,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-            "__idx": 100,
-            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_101_100",
+            "__idx": 105,
+            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_106_105",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 102,
+            "Id": 107,
             "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -31928,13 +32741,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-            "__idx": 101,
-            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_102_101",
+            "__idx": 106,
+            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_107_106",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 103,
+            "Id": 108,
             "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -31965,13 +32778,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-            "__idx": 102,
-            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_103_102",
+            "__idx": 107,
+            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_108_107",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 104,
+            "Id": 109,
             "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -32001,13 +32814,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-            "__idx": 103,
-            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_104_103",
+            "__idx": 108,
+            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_109_108",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 105,
+            "Id": 110,
             "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -32037,8 +32850,8 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-            "__idx": 104,
-            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_105_104",
+            "__idx": 109,
+            "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_110_109",
             "children": []
           }
         ]
@@ -32047,7 +32860,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 54,
+    "Id": 59,
     "uielementid": "97388DDE-3223-499A-B2CB-FE3C761AEA03",
     "ShowCaption": true,
     "Fontbold": false,
@@ -32081,12 +32894,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 53,
-    "_id": "97388DDE-3223-499A-B2CB-FE3C761AEA03_54_53",
+    "__idx": 58,
+    "_id": "97388DDE-3223-499A-B2CB-FE3C761AEA03_59_58",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 85,
+        "Id": 90,
         "uielementid": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428",
         "ShowCaption": true,
         "Fontbold": false,
@@ -32120,12 +32933,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 84,
-        "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_85_84",
+        "__idx": 89,
+        "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_90_89",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 106,
+            "Id": 111,
             "uielementid": "F5B358B1-AC61-4100-BC6C-167FC7340D30",
             "ShowCaption": true,
             "Fontbold": false,
@@ -32161,13 +32974,13 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "UCaption": "Next Action",
-            "__idx": 105,
-            "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_106_105",
+            "__idx": 110,
+            "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_111_110",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 107,
+            "Id": 112,
             "uielementid": "3528E434-EF97-461F-8CB4-FF31848A097F",
             "ShowCaption": true,
             "Fontbold": false,
@@ -32200,15 +33013,15 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 106,
-            "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_107_106",
+            "__idx": 111,
+            "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_112_111",
             "children": []
           }
         ]
       },
       {
         "VersionName": "Medium",
-        "Id": 86,
+        "Id": 91,
         "uielementid": "8B846853-9923-40F7-9C01-1A529703585B",
         "ShowCaption": true,
         "Fontbold": false,
@@ -32242,12 +33055,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 85,
-        "_id": "8B846853-9923-40F7-9C01-1A529703585B_86_85",
+        "__idx": 90,
+        "_id": "8B846853-9923-40F7-9C01-1A529703585B_91_90",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 108,
+            "Id": 113,
             "uielementid": "5D7C36E7-F6E3-4898-8573-06D2021C39BB",
             "ShowCaption": true,
             "Fontbold": false,
@@ -32281,12 +33094,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 107,
-            "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_108_107",
+            "__idx": 112,
+            "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_113_112",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 139,
+                "Id": 144,
                 "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -32320,12 +33133,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 138,
-                "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_139_138",
+                "__idx": 143,
+                "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 153,
+                    "Id": 158,
                     "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -32353,7 +33166,7 @@ export const DataElementsData = [
                     "MergeRow": "",
                     "Action": "OnChange",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"M_FieldMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"SetDestinationTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveToValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_RemarksMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_NextStage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsflowReturned\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_SourceActivityMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_SaveDomainData\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Currentlevel\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsCancelReject\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                     "EDT": 9,
                     "DCaption": "Move To",
                     "DHelpText": "",
@@ -32364,13 +33177,13 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
-                    "__idx": 152,
-                    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_153_152",
+                    "__idx": 157,
+                    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_158_157",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 154,
+                    "Id": 159,
                     "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -32403,15 +33216,15 @@ export const DataElementsData = [
                     "DCaption": "Comments",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 153,
-                    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_154_153",
+                    "__idx": 158,
+                    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_159_158",
                     "children": []
                   }
                 ]
               },
               {
                 "VersionName": "Medium",
-                "Id": 140,
+                "Id": 145,
                 "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -32445,12 +33258,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 139,
-                "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_140_139",
+                "__idx": 144,
+                "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 155,
+                    "Id": 160,
                     "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -32477,18 +33290,18 @@ export const DataElementsData = [
                     "MergeRow": "",
                     "Action": "OnClick",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"RemarksId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UserName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"DateOfRemarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_UpdatedBy\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_ReceiptSplitUpId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_DocumentDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"RedirectUrl\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"M_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                     "EDT": 10,
                     "DCaption": "Submit",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 154,
-                    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_155_154",
+                    "__idx": 159,
+                    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_160_159",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 156,
+                    "Id": 161,
                     "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -32520,8 +33333,8 @@ export const DataElementsData = [
                     "DCaption": "History",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 155,
-                    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_156_155",
+                    "__idx": 160,
+                    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_161_160",
                     "children": []
                   }
                 ]
@@ -32534,7 +33347,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 55,
+    "Id": 60,
     "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
     "ShowCaption": true,
     "Fontbold": false,
@@ -32563,13 +33376,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-    "__idx": 54,
-    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_55_54",
+    "__idx": 59,
+    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_60_59",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 56,
+    "Id": 61,
     "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
     "ShowCaption": true,
     "Fontbold": false,
@@ -32599,13 +33412,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-    "__idx": 55,
-    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_56_55",
+    "__idx": 60,
+    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_61_60",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 57,
+    "Id": 62,
     "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
     "ShowCaption": true,
     "Fontbold": false,
@@ -32635,13 +33448,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-    "__idx": 56,
-    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_57_56",
+    "__idx": 61,
+    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_62_61",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 58,
+    "Id": 63,
     "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
     "ShowCaption": true,
     "Fontbold": false,
@@ -32671,13 +33484,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-    "__idx": 57,
-    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_58_57",
+    "__idx": 62,
+    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_63_62",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 59,
+    "Id": 64,
     "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
     "ShowCaption": true,
     "Fontbold": false,
@@ -32706,13 +33519,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-    "__idx": 58,
-    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_59_58",
+    "__idx": 63,
+    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_64_63",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 60,
+    "Id": 65,
     "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
     "ShowCaption": true,
     "Fontbold": false,
@@ -32741,13 +33554,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-    "__idx": 59,
-    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_60_59",
+    "__idx": 64,
+    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_65_64",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 61,
+    "Id": 66,
     "uielementid": "F83260CB-6C2A-4B17-9E68-79537CFEE04D",
     "ShowCaption": true,
     "Fontbold": false,
@@ -32776,13 +33589,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "80592D98-EA6E-47D5-B51F-8ED1D09E26F8",
-    "__idx": 60,
-    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_61_60",
+    "__idx": 65,
+    "_id": "F83260CB-6C2A-4B17-9E68-79537CFEE04D_66_65",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 62,
+    "Id": 67,
     "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -32814,13 +33627,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-    "__idx": 61,
-    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_62_61",
+    "__idx": 66,
+    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_67_66",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 63,
+    "Id": 68,
     "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -32853,13 +33666,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-    "__idx": 62,
-    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_63_62",
+    "__idx": 67,
+    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_68_67",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 64,
+    "Id": 69,
     "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -32892,13 +33705,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-    "__idx": 63,
-    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_64_63",
+    "__idx": 68,
+    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_69_68",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 65,
+    "Id": 70,
     "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -32931,13 +33744,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-    "__idx": 64,
-    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_65_64",
+    "__idx": 69,
+    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_70_69",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 66,
+    "Id": 71,
     "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -32970,13 +33783,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-    "__idx": 65,
-    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_66_65",
+    "__idx": 70,
+    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_71_70",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 67,
+    "Id": 72,
     "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -33009,13 +33822,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-    "__idx": 66,
-    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_67_66",
+    "__idx": 71,
+    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_72_71",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 68,
+    "Id": 73,
     "uielementid": "53EAE349-CB78-420E-9257-AFFC0DDE36EE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -33047,13 +33860,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "e5328bae-cd87-faf6-ff23-e23a4f60081e",
-    "__idx": 67,
-    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_68_67",
+    "__idx": 72,
+    "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_73_72",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 69,
+    "Id": 74,
     "uielementid": "1CA1DF06-57FA-42A9-9D80-70836540BA06",
     "ShowCaption": true,
     "Fontbold": false,
@@ -33087,12 +33900,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 68,
-    "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_69_68",
+    "__idx": 73,
+    "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_74_73",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 87,
+        "Id": 92,
         "uielementid": "0B168B00-008D-4750-9372-547D14EA5D78",
         "ShowCaption": true,
         "Fontbold": false,
@@ -33128,13 +33941,13 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "UCaption": "Project Information",
-        "__idx": 86,
-        "_id": "0B168B00-008D-4750-9372-547D14EA5D78_87_86",
+        "__idx": 91,
+        "_id": "0B168B00-008D-4750-9372-547D14EA5D78_92_91",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 88,
+        "Id": 93,
         "uielementid": "5FABFD91-84EE-457E-A01E-FD284E5D083A",
         "ShowCaption": true,
         "Fontbold": false,
@@ -33168,15 +33981,15 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 87,
-        "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_88_87",
+        "__idx": 92,
+        "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_93_92",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 70,
+    "Id": 75,
     "uielementid": "67B99F6B-1727-49CC-A01E-2054296BCAD7",
     "ShowCaption": true,
     "Fontbold": false,
@@ -33210,12 +34023,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 69,
-    "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_70_69",
+    "__idx": 74,
+    "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_75_74",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 89,
+        "Id": 94,
         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
         "ShowCaption": true,
         "Fontbold": false,
@@ -33249,12 +34062,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 88,
-        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_89_88",
+        "__idx": 93,
+        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_94_93",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 109,
+            "Id": 114,
             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
             "ShowCaption": true,
             "Fontbold": false,
@@ -33287,13 +34100,13 @@ export const DataElementsData = [
             "DCaption": "Sanctioned Project Name",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 108,
-            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_109_108",
+            "__idx": 113,
+            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 110,
+            "Id": 115,
             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
             "ShowCaption": true,
             "Fontbold": false,
@@ -33326,13 +34139,13 @@ export const DataElementsData = [
             "DCaption": "Agency Code",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 109,
-            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_110_109",
+            "__idx": 114,
+            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 111,
+            "Id": 116,
             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
             "ShowCaption": true,
             "Fontbold": false,
@@ -33365,13 +34178,13 @@ export const DataElementsData = [
             "DCaption": "Category",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 110,
-            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_111_110",
+            "__idx": 115,
+            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 112,
+            "Id": 117,
             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
             "ShowCaption": true,
             "Fontbold": false,
@@ -33400,18 +34213,18 @@ export const DataElementsData = [
             "MergeRow": "",
             "Action": "OnChange",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
             "EDT": 9,
             "DCaption": "Sanctioned No",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 111,
-            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_112_111",
+            "__idx": 116,
+            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 113,
+            "Id": 118,
             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
             "ShowCaption": true,
             "Fontbold": false,
@@ -33443,13 +34256,13 @@ export const DataElementsData = [
             "DCaption": "Sanctioned Date",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 112,
-            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_113_112",
+            "__idx": 117,
+            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 114,
+            "Id": 119,
             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
             "ShowCaption": true,
             "Fontbold": false,
@@ -33481,13 +34294,13 @@ export const DataElementsData = [
             "DCaption": "Sanctioned Amount",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 113,
-            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
+            "__idx": 118,
+            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_119_118",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 115,
+            "Id": 120,
             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
             "ShowCaption": true,
             "Fontbold": false,
@@ -33519,13 +34332,13 @@ export const DataElementsData = [
             "DCaption": "Start Date",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 114,
-            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
+            "__idx": 119,
+            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 116,
+            "Id": 121,
             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
             "ShowCaption": true,
             "Fontbold": false,
@@ -33557,13 +34370,13 @@ export const DataElementsData = [
             "DCaption": "End Date",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 115,
-            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
+            "__idx": 120,
+            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 117,
+            "Id": 122,
             "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
             "ShowCaption": true,
             "Fontbold": false,
@@ -33595,8 +34408,8 @@ export const DataElementsData = [
             "DCaption": "Available Amount",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 116,
-            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
+            "__idx": 121,
+            "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_122_121",
             "children": []
           }
         ]
@@ -33605,7 +34418,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 71,
+    "Id": 76,
     "uielementid": "99147C2A-2072-4712-ABDC-B969A5DD6A89",
     "ShowCaption": true,
     "Fontbold": false,
@@ -33639,12 +34452,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 70,
-    "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_71_70",
+    "__idx": 75,
+    "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_76_75",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 90,
+        "Id": 95,
         "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
         "ShowCaption": true,
         "Fontbold": false,
@@ -33678,12 +34491,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 89,
-        "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_90_89",
+        "__idx": 94,
+        "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_95_94",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 118,
+            "Id": 123,
             "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
             "ShowCaption": true,
             "Fontbold": false,
@@ -33715,13 +34528,13 @@ export const DataElementsData = [
             "DCaption": "Actual Start Date",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 117,
-            "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_118_117",
+            "__idx": 122,
+            "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 119,
+            "Id": 124,
             "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
             "ShowCaption": true,
             "Fontbold": false,
@@ -33763,8 +34576,8 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 118,
-            "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_119_118",
+            "__idx": 123,
+            "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
             "children": []
           }
         ]
@@ -33773,7 +34586,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 72,
+    "Id": 77,
     "uielementid": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326",
     "ShowCaption": true,
     "Fontbold": false,
@@ -33807,12 +34620,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 71,
-    "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_72_71",
+    "__idx": 76,
+    "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_77_76",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 91,
+        "Id": 96,
         "uielementid": "255A5CD9-8822-4862-936D-2E7ED1F1BD50",
         "ShowCaption": true,
         "Fontbold": false,
@@ -33848,13 +34661,13 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "UCaption": "Fund Installment Details",
-        "__idx": 90,
-        "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_91_90",
+        "__idx": 95,
+        "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_96_95",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 92,
+        "Id": 97,
         "uielementid": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7",
         "ShowCaption": true,
         "Fontbold": false,
@@ -33887,15 +34700,15 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 91,
-        "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_92_91",
+        "__idx": 96,
+        "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_97_96",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 73,
+    "Id": 78,
     "uielementid": "749D3334-9C41-470F-97DF-2BA7F4283B3F",
     "ShowCaption": true,
     "Fontbold": false,
@@ -33929,12 +34742,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 72,
-    "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_73_72",
+    "__idx": 77,
+    "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_78_77",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 93,
+        "Id": 98,
         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
         "ShowCaption": true,
         "Fontbold": false,
@@ -33968,12 +34781,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 92,
-        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_93_92",
+        "__idx": 97,
+        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_98_97",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 120,
+            "Id": 125,
             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
             "ShowCaption": true,
             "Fontbold": false,
@@ -34019,13 +34832,13 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 119,
-            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_120_119",
+            "__idx": 124,
+            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 121,
+            "Id": 126,
             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
             "ShowCaption": true,
             "Fontbold": false,
@@ -34071,13 +34884,13 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 120,
-            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_121_120",
+            "__idx": 125,
+            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 122,
+            "Id": 127,
             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
             "ShowCaption": true,
             "Fontbold": false,
@@ -34119,13 +34932,13 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 121,
-            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_122_121",
+            "__idx": 126,
+            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 123,
+            "Id": 128,
             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
             "ShowCaption": true,
             "Fontbold": false,
@@ -34167,13 +34980,13 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 122,
-            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_123_122",
+            "__idx": 127,
+            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_128_127",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 124,
+            "Id": 129,
             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
             "ShowCaption": true,
             "Fontbold": false,
@@ -34214,13 +35027,13 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 123,
-            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_124_123",
+            "__idx": 128,
+            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_129_128",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 125,
+            "Id": 130,
             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
             "ShowCaption": true,
             "Fontbold": false,
@@ -34262,13 +35075,13 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 124,
-            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
+            "__idx": 129,
+            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_130_129",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 126,
+            "Id": 131,
             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
             "ShowCaption": true,
             "Fontbold": false,
@@ -34310,13 +35123,13 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 125,
-            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
+            "__idx": 130,
+            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 127,
+            "Id": 132,
             "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
             "ShowCaption": true,
             "Fontbold": false,
@@ -34357,8 +35170,8 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 126,
-            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
+            "__idx": 131,
+            "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_132_131",
             "children": []
           }
         ]
@@ -34367,7 +35180,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 74,
+    "Id": 79,
     "uielementid": "3DC05163-B9D7-4A7C-858D-2A4006282CCB",
     "ShowCaption": true,
     "Fontbold": false,
@@ -34401,12 +35214,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 73,
-    "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_74_73",
+    "__idx": 78,
+    "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_79_78",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 94,
+        "Id": 99,
         "uielementid": "34F57298-4365-45D8-B9FD-5C4B8C6544E3",
         "ShowCaption": true,
         "Fontbold": false,
@@ -34442,13 +35255,13 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "UCaption": "Split Up of Fund Installment",
-        "__idx": 93,
-        "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_94_93",
+        "__idx": 98,
+        "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_99_98",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 95,
+        "Id": 100,
         "uielementid": "97461361-3474-48BD-B47B-2DD78F64392B",
         "ShowCaption": true,
         "Fontbold": false,
@@ -34481,15 +35294,15 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 94,
-        "_id": "97461361-3474-48BD-B47B-2DD78F64392B_95_94",
+        "__idx": 99,
+        "_id": "97461361-3474-48BD-B47B-2DD78F64392B_100_99",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 75,
+    "Id": 80,
     "uielementid": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E",
     "ShowCaption": true,
     "Fontbold": false,
@@ -34523,12 +35336,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 74,
-    "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_75_74",
+    "__idx": 79,
+    "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_80_79",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 96,
+        "Id": 101,
         "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
         "ShowCaption": true,
         "Fontbold": false,
@@ -34562,12 +35375,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 95,
-        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_96_95",
+        "__idx": 100,
+        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_101_100",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 128,
+            "Id": 133,
             "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
             "ShowCaption": true,
             "Fontbold": false,
@@ -34613,13 +35426,13 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 127,
-            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_128_127",
+            "__idx": 132,
+            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_133_132",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 129,
+            "Id": 134,
             "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
             "ShowCaption": true,
             "Fontbold": false,
@@ -34665,13 +35478,13 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 128,
-            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_129_128",
+            "__idx": 133,
+            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_134_133",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 130,
+            "Id": 135,
             "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
             "ShowCaption": true,
             "Fontbold": false,
@@ -34703,13 +35516,13 @@ export const DataElementsData = [
             "DCaption": "Save",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 129,
-            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_130_129",
+            "__idx": 134,
+            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_135_134",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 131,
+            "Id": 136,
             "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
             "ShowCaption": true,
             "Fontbold": false,
@@ -34741,8 +35554,8 @@ export const DataElementsData = [
             "DCaption": "View Budget Details",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 130,
-            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_131_130",
+            "__idx": 135,
+            "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_136_135",
             "children": []
           }
         ]
@@ -34751,7 +35564,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 76,
+    "Id": 81,
     "uielementid": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05",
     "ShowCaption": true,
     "Fontbold": false,
@@ -34785,12 +35598,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 75,
-    "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_76_75",
+    "__idx": 80,
+    "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_81_80",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 97,
+        "Id": 102,
         "uielementid": "C7CF6D22-62CA-459D-8312-8022F934D311",
         "TabIndex": -1,
         "ShowCaption": false,
@@ -34826,12 +35639,12 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "DCaption": "",
-        "__idx": 96,
-        "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_97_96",
+        "__idx": 101,
+        "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_102_101",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 132,
+            "Id": 137,
             "uielementid": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880",
             "ShowCaption": true,
             "Fontbold": false,
@@ -34865,13 +35678,13 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 131,
-            "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_132_131",
+            "__idx": 136,
+            "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 133,
+            "Id": 138,
             "uielementid": "6B9CB23A-420F-421E-B39A-47785DBDABB4",
             "ShowCaption": true,
             "Fontbold": false,
@@ -34904,13 +35717,13 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 132,
-            "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_133_132",
+            "__idx": 137,
+            "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 134,
+            "Id": 139,
             "WidgetId": "249EF445-9B49-4EF9-8045-46BD1E6FF8ED",
             "uielementid": "C7CF6D22-62CA-459D-8312-8022F934D311",
             "WidgetName": "ProjectFundInstallment_ReceiptSplitUp_AdditionalDetails.Json",
@@ -34945,8 +35758,8 @@ export const DataElementsData = [
             "DCaption": "",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 133,
-            "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_134_133",
+            "__idx": 138,
+            "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_139_138",
             "children": [
               {
                 "VersionName": "Medium",
@@ -35465,7 +36278,7 @@ export const DataElementsData = [
           },
           {
             "VersionName": "Medium",
-            "Id": 135,
+            "Id": 140,
             "uielementid": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -35499,13 +36312,13 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 134,
-            "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_135_134",
+            "__idx": 139,
+            "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 136,
+            "Id": 141,
             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
             "TabIndex": -1,
             "ShowCaption": false,
@@ -35540,12 +36353,12 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "DCaption": "",
-            "__idx": 135,
-            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_136_135",
+            "__idx": 140,
+            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 141,
+                "Id": 146,
                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -35574,13 +36387,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                "__idx": 140,
-                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
+                "__idx": 145,
+                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 142,
+                "Id": 147,
                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -35610,13 +36423,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                "__idx": 141,
-                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_142_141",
+                "__idx": 146,
+                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 143,
+                "Id": 148,
                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -35656,13 +36469,13 @@ export const DataElementsData = [
                   }
                 ],
                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                "__idx": 142,
-                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_143_142",
+                "__idx": 147,
+                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 144,
+                "Id": 149,
                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -35702,13 +36515,13 @@ export const DataElementsData = [
                   }
                 ],
                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                "__idx": 143,
-                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_144_143",
+                "__idx": 148,
+                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 145,
+                "Id": 150,
                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -35747,13 +36560,13 @@ export const DataElementsData = [
                   }
                 ],
                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                "__idx": 144,
-                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_145_144",
+                "__idx": 149,
+                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 146,
+                "Id": 151,
                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -35793,13 +36606,13 @@ export const DataElementsData = [
                   }
                 ],
                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                "__idx": 145,
-                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
+                "__idx": 150,
+                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_151_150",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 147,
+                "Id": 152,
                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -35838,13 +36651,13 @@ export const DataElementsData = [
                   }
                 ],
                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                "__idx": 146,
-                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
+                "__idx": 151,
+                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_152_151",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 148,
+                "Id": 153,
                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -35883,13 +36696,13 @@ export const DataElementsData = [
                   }
                 ],
                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                "__idx": 147,
-                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
+                "__idx": 152,
+                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 149,
+                "Id": 154,
                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -35924,13 +36737,13 @@ export const DataElementsData = [
                   }
                 ],
                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                "__idx": 148,
-                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
+                "__idx": 153,
+                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_154_153",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 150,
+                "Id": 155,
                 "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -35965,8 +36778,8 @@ export const DataElementsData = [
                   }
                 ],
                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-                "__idx": 149,
-                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
+                "__idx": 154,
+                "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_155_154",
                 "children": []
               }
             ]
@@ -35977,7 +36790,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 77,
+    "Id": 82,
     "uielementid": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9",
     "ShowCaption": true,
     "Fontbold": false,
@@ -36011,12 +36824,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 76,
-    "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_77_76",
+    "__idx": 81,
+    "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_82_81",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 98,
+        "Id": 103,
         "uielementid": "840D2A86-98D9-4239-8536-663ECAA70414",
         "ShowCaption": true,
         "Fontbold": false,
@@ -36052,13 +36865,13 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "UCaption": "Summary",
-        "__idx": 97,
-        "_id": "840D2A86-98D9-4239-8536-663ECAA70414_98_97",
+        "__idx": 102,
+        "_id": "840D2A86-98D9-4239-8536-663ECAA70414_103_102",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 99,
+        "Id": 104,
         "uielementid": "FB3FE2D0-870B-481F-86C1-1BA1667188B9",
         "ShowCaption": true,
         "Fontbold": false,
@@ -36091,15 +36904,15 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 98,
-        "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_99_98",
+        "__idx": 103,
+        "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_104_103",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 78,
+    "Id": 83,
     "uielementid": "917C4E99-F72F-4705-81DE-F66EB877C500",
     "ShowCaption": true,
     "Fontbold": false,
@@ -36133,12 +36946,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 77,
-    "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_78_77",
+    "__idx": 82,
+    "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_83_82",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 100,
+        "Id": 105,
         "uielementid": "C1717B28-7611-445B-9745-4CF46D7A390C",
         "ShowCaption": true,
         "Fontbold": false,
@@ -36172,12 +36985,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 99,
-        "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_100_99",
+        "__idx": 104,
+        "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_105_104",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 137,
+            "Id": 142,
             "uielementid": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586",
             "ShowCaption": true,
             "Fontbold": false,
@@ -36211,12 +37024,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 136,
-            "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_137_136",
+            "__idx": 141,
+            "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 151,
+                "Id": 156,
                 "uielementid": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -36250,12 +37063,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 150,
-                "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_151_150",
+                "__idx": 155,
+                "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 157,
+                    "Id": 162,
                     "uielementid": "659D47FF-B282-4438-A53A-A7ACA37F740F",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -36289,12 +37102,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 156,
-                    "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_157_156",
+                    "__idx": 161,
+                    "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 159,
+                        "Id": 164,
                         "uielementid": "1C5C4175-1245-45B0-8B04-6F7056984FFE",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -36328,12 +37141,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 158,
-                        "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_159_158",
+                        "__idx": 163,
+                        "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 161,
+                            "Id": 166,
                             "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -36367,12 +37180,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 160,
-                            "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_161_160",
+                            "__idx": 165,
+                            "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 163,
+                                "Id": 168,
                                 "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -36404,8 +37217,8 @@ export const DataElementsData = [
                                 "DCaption": "Balance Fund Installment Amount",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 162,
-                                "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_163_162",
+                                "__idx": 167,
+                                "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_168_167",
                                 "children": []
                               }
                             ]
@@ -36420,7 +37233,7 @@ export const DataElementsData = [
           },
           {
             "VersionName": "Medium",
-            "Id": 138,
+            "Id": 143,
             "uielementid": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94",
             "ShowCaption": true,
             "Fontbold": false,
@@ -36454,12 +37267,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 137,
-            "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_138_137",
+            "__idx": 142,
+            "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 152,
+                "Id": 157,
                 "uielementid": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -36493,12 +37306,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 151,
-                "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_152_151",
+                "__idx": 156,
+                "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 158,
+                    "Id": 163,
                     "uielementid": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -36532,12 +37345,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 157,
-                    "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_158_157",
+                    "__idx": 162,
+                    "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 160,
+                        "Id": 165,
                         "uielementid": "C99BC49F-B3F1-4200-9C0F-1528B298E082",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -36571,12 +37384,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 159,
-                        "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_160_159",
+                        "__idx": 164,
+                        "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 162,
+                            "Id": 167,
                             "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -36610,12 +37423,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 161,
-                            "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_162_161",
+                            "__idx": 166,
+                            "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 164,
+                                "Id": 169,
                                 "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -36647,8 +37460,8 @@ export const DataElementsData = [
                                 "DCaption": "Split Up Total",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 163,
-                                "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_164_163",
+                                "__idx": 168,
+                                "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_169_168",
                                 "children": []
                               }
                             ]
@@ -36667,7 +37480,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 79,
+    "Id": 84,
     "uielementid": "530F4791-43BB-498A-920D-7093BD174467",
     "ShowCaption": true,
     "Fontbold": false,
@@ -36701,13 +37514,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 78,
-    "_id": "530F4791-43BB-498A-920D-7093BD174467_79_78",
+    "__idx": 83,
+    "_id": "530F4791-43BB-498A-920D-7093BD174467_84_83",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 80,
+    "Id": 85,
     "uielementid": "66453106-78BB-46CF-B15A-89BC68114F1E",
     "ShowCaption": true,
     "Fontbold": false,
@@ -36741,13 +37554,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 79,
-    "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_80_79",
+    "__idx": 84,
+    "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_85_84",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 81,
+    "Id": 86,
     "uielementid": "90341255-31D0-46BE-9FD8-3F03D54B5388",
     "ShowCaption": true,
     "Fontbold": false,
@@ -36781,13 +37594,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 80,
-    "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_81_80",
+    "__idx": 85,
+    "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_86_85",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 82,
+    "Id": 87,
     "WidgetId": "C2287754-790E-4853-A5A7-64772676D00E",
     "uielementid": "B285AA75-D49B-4D92-99CA-A489113EA4E4",
     "ShowCaption": true,
@@ -36822,13 +37635,13 @@ export const DataElementsData = [
     "DCaption": "",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 81,
-    "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_82_81",
+    "__idx": 86,
+    "_id": "B285AA75-D49B-4D92-99CA-A489113EA4E4_87_86",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 83,
+    "Id": 88,
     "uielementid": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0",
     "ShowCaption": true,
     "Fontbold": false,
@@ -36861,13 +37674,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 82,
-    "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_83_82",
+    "__idx": 87,
+    "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_88_87",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 84,
+    "Id": 89,
     "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
     "TabIndex": -1,
     "ShowCaption": false,
@@ -36902,12 +37715,12 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "DCaption": "",
-    "__idx": 83,
-    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_84_83",
+    "__idx": 88,
+    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_89_88",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 101,
+        "Id": 106,
         "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -36936,13 +37749,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-        "__idx": 100,
-        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_101_100",
+        "__idx": 105,
+        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_106_105",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 102,
+        "Id": 107,
         "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -36972,13 +37785,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-        "__idx": 101,
-        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_102_101",
+        "__idx": 106,
+        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_107_106",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 103,
+        "Id": 108,
         "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -37009,13 +37822,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-        "__idx": 102,
-        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_103_102",
+        "__idx": 107,
+        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_108_107",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 104,
+        "Id": 109,
         "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -37045,13 +37858,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-        "__idx": 103,
-        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_104_103",
+        "__idx": 108,
+        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_109_108",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 105,
+        "Id": 110,
         "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -37081,15 +37894,15 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-        "__idx": 104,
-        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_105_104",
+        "__idx": 109,
+        "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_110_109",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 85,
+    "Id": 90,
     "uielementid": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428",
     "ShowCaption": true,
     "Fontbold": false,
@@ -37123,12 +37936,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 84,
-    "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_85_84",
+    "__idx": 89,
+    "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_90_89",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 106,
+        "Id": 111,
         "uielementid": "F5B358B1-AC61-4100-BC6C-167FC7340D30",
         "ShowCaption": true,
         "Fontbold": false,
@@ -37164,13 +37977,13 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "UCaption": "Next Action",
-        "__idx": 105,
-        "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_106_105",
+        "__idx": 110,
+        "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_111_110",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 107,
+        "Id": 112,
         "uielementid": "3528E434-EF97-461F-8CB4-FF31848A097F",
         "ShowCaption": true,
         "Fontbold": false,
@@ -37203,15 +38016,15 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 106,
-        "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_107_106",
+        "__idx": 111,
+        "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_112_111",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 86,
+    "Id": 91,
     "uielementid": "8B846853-9923-40F7-9C01-1A529703585B",
     "ShowCaption": true,
     "Fontbold": false,
@@ -37245,12 +38058,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 85,
-    "_id": "8B846853-9923-40F7-9C01-1A529703585B_86_85",
+    "__idx": 90,
+    "_id": "8B846853-9923-40F7-9C01-1A529703585B_91_90",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 108,
+        "Id": 113,
         "uielementid": "5D7C36E7-F6E3-4898-8573-06D2021C39BB",
         "ShowCaption": true,
         "Fontbold": false,
@@ -37284,12 +38097,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 107,
-        "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_108_107",
+        "__idx": 112,
+        "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_113_112",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 139,
+            "Id": 144,
             "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
             "ShowCaption": true,
             "Fontbold": false,
@@ -37323,12 +38136,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 138,
-            "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_139_138",
+            "__idx": 143,
+            "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 153,
+                "Id": 158,
                 "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -37356,7 +38169,7 @@ export const DataElementsData = [
                 "MergeRow": "",
                 "Action": "OnChange",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"M_FieldMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"SetDestinationTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveToValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_RemarksMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_NextStage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsflowReturned\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_SourceActivityMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_SaveDomainData\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Currentlevel\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsCancelReject\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                 "EDT": 9,
                 "DCaption": "Move To",
                 "DHelpText": "",
@@ -37367,13 +38180,13 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 152,
-                "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_153_152",
+                "__idx": 157,
+                "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_158_157",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 154,
+                "Id": 159,
                 "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -37406,15 +38219,15 @@ export const DataElementsData = [
                 "DCaption": "Comments",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 153,
-                "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_154_153",
+                "__idx": 158,
+                "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_159_158",
                 "children": []
               }
             ]
           },
           {
             "VersionName": "Medium",
-            "Id": 140,
+            "Id": 145,
             "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -37448,12 +38261,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 139,
-            "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_140_139",
+            "__idx": 144,
+            "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 155,
+                "Id": 160,
                 "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -37480,18 +38293,18 @@ export const DataElementsData = [
                 "MergeRow": "",
                 "Action": "OnClick",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"RemarksId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UserName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"DateOfRemarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_UpdatedBy\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_ReceiptSplitUpId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_DocumentDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"RedirectUrl\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"M_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
                 "EDT": 10,
                 "DCaption": "Submit",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 154,
-                "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_155_154",
+                "__idx": 159,
+                "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_160_159",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 156,
+                "Id": 161,
                 "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -37523,8 +38336,8 @@ export const DataElementsData = [
                 "DCaption": "History",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 155,
-                "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_156_155",
+                "__idx": 160,
+                "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_161_160",
                 "children": []
               }
             ]
@@ -37535,7 +38348,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 87,
+    "Id": 92,
     "uielementid": "0B168B00-008D-4750-9372-547D14EA5D78",
     "ShowCaption": true,
     "Fontbold": false,
@@ -37571,13 +38384,13 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "UCaption": "Project Information",
-    "__idx": 86,
-    "_id": "0B168B00-008D-4750-9372-547D14EA5D78_87_86",
+    "__idx": 91,
+    "_id": "0B168B00-008D-4750-9372-547D14EA5D78_92_91",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 88,
+    "Id": 93,
     "uielementid": "5FABFD91-84EE-457E-A01E-FD284E5D083A",
     "ShowCaption": true,
     "Fontbold": false,
@@ -37611,13 +38424,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 87,
-    "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_88_87",
+    "__idx": 92,
+    "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_93_92",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 89,
+    "Id": 94,
     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
     "ShowCaption": true,
     "Fontbold": false,
@@ -37651,12 +38464,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 88,
-    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_89_88",
+    "__idx": 93,
+    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_94_93",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 109,
+        "Id": 114,
         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
         "ShowCaption": true,
         "Fontbold": false,
@@ -37689,13 +38502,13 @@ export const DataElementsData = [
         "DCaption": "Sanctioned Project Name",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 108,
-        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_109_108",
+        "__idx": 113,
+        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 110,
+        "Id": 115,
         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
         "ShowCaption": true,
         "Fontbold": false,
@@ -37728,13 +38541,13 @@ export const DataElementsData = [
         "DCaption": "Agency Code",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 109,
-        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_110_109",
+        "__idx": 114,
+        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 111,
+        "Id": 116,
         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
         "ShowCaption": true,
         "Fontbold": false,
@@ -37767,13 +38580,13 @@ export const DataElementsData = [
         "DCaption": "Category",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 110,
-        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_111_110",
+        "__idx": 115,
+        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 112,
+        "Id": 117,
         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
         "ShowCaption": true,
         "Fontbold": false,
@@ -37802,18 +38615,18 @@ export const DataElementsData = [
         "MergeRow": "",
         "Action": "OnChange",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
         "EDT": 9,
         "DCaption": "Sanctioned No",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 111,
-        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_112_111",
+        "__idx": 116,
+        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 113,
+        "Id": 118,
         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
         "ShowCaption": true,
         "Fontbold": false,
@@ -37845,13 +38658,13 @@ export const DataElementsData = [
         "DCaption": "Sanctioned Date",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 112,
-        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_113_112",
+        "__idx": 117,
+        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 114,
+        "Id": 119,
         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
         "ShowCaption": true,
         "Fontbold": false,
@@ -37883,13 +38696,13 @@ export const DataElementsData = [
         "DCaption": "Sanctioned Amount",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 113,
-        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
+        "__idx": 118,
+        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_119_118",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 115,
+        "Id": 120,
         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
         "ShowCaption": true,
         "Fontbold": false,
@@ -37921,13 +38734,13 @@ export const DataElementsData = [
         "DCaption": "Start Date",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 114,
-        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
+        "__idx": 119,
+        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 116,
+        "Id": 121,
         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
         "ShowCaption": true,
         "Fontbold": false,
@@ -37959,13 +38772,13 @@ export const DataElementsData = [
         "DCaption": "End Date",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 115,
-        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
+        "__idx": 120,
+        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 117,
+        "Id": 122,
         "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
         "ShowCaption": true,
         "Fontbold": false,
@@ -37997,15 +38810,15 @@ export const DataElementsData = [
         "DCaption": "Available Amount",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 116,
-        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
+        "__idx": 121,
+        "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_122_121",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 90,
+    "Id": 95,
     "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
     "ShowCaption": true,
     "Fontbold": false,
@@ -38039,12 +38852,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 89,
-    "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_90_89",
+    "__idx": 94,
+    "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_95_94",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 118,
+        "Id": 123,
         "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
         "ShowCaption": true,
         "Fontbold": false,
@@ -38076,13 +38889,13 @@ export const DataElementsData = [
         "DCaption": "Actual Start Date",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 117,
-        "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_118_117",
+        "__idx": 122,
+        "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 119,
+        "Id": 124,
         "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
         "ShowCaption": true,
         "Fontbold": false,
@@ -38124,15 +38937,15 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 118,
-        "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_119_118",
+        "__idx": 123,
+        "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 91,
+    "Id": 96,
     "uielementid": "255A5CD9-8822-4862-936D-2E7ED1F1BD50",
     "ShowCaption": true,
     "Fontbold": false,
@@ -38168,13 +38981,13 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "UCaption": "Fund Installment Details",
-    "__idx": 90,
-    "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_91_90",
+    "__idx": 95,
+    "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_96_95",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 92,
+    "Id": 97,
     "uielementid": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7",
     "ShowCaption": true,
     "Fontbold": false,
@@ -38207,13 +39020,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 91,
-    "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_92_91",
+    "__idx": 96,
+    "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_97_96",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 93,
+    "Id": 98,
     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
     "ShowCaption": true,
     "Fontbold": false,
@@ -38247,12 +39060,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 92,
-    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_93_92",
+    "__idx": 97,
+    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_98_97",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 120,
+        "Id": 125,
         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
         "ShowCaption": true,
         "Fontbold": false,
@@ -38298,13 +39111,13 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 119,
-        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_120_119",
+        "__idx": 124,
+        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 121,
+        "Id": 126,
         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
         "ShowCaption": true,
         "Fontbold": false,
@@ -38350,13 +39163,13 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 120,
-        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_121_120",
+        "__idx": 125,
+        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 122,
+        "Id": 127,
         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
         "ShowCaption": true,
         "Fontbold": false,
@@ -38398,13 +39211,13 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 121,
-        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_122_121",
+        "__idx": 126,
+        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 123,
+        "Id": 128,
         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
         "ShowCaption": true,
         "Fontbold": false,
@@ -38446,13 +39259,13 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 122,
-        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_123_122",
+        "__idx": 127,
+        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_128_127",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 124,
+        "Id": 129,
         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
         "ShowCaption": true,
         "Fontbold": false,
@@ -38493,13 +39306,13 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 123,
-        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_124_123",
+        "__idx": 128,
+        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_129_128",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 125,
+        "Id": 130,
         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
         "ShowCaption": true,
         "Fontbold": false,
@@ -38541,13 +39354,13 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 124,
-        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
+        "__idx": 129,
+        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_130_129",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 126,
+        "Id": 131,
         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
         "ShowCaption": true,
         "Fontbold": false,
@@ -38589,13 +39402,13 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 125,
-        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
+        "__idx": 130,
+        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 127,
+        "Id": 132,
         "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
         "ShowCaption": true,
         "Fontbold": false,
@@ -38636,15 +39449,15 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 126,
-        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
+        "__idx": 131,
+        "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_132_131",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 94,
+    "Id": 99,
     "uielementid": "34F57298-4365-45D8-B9FD-5C4B8C6544E3",
     "ShowCaption": true,
     "Fontbold": false,
@@ -38680,13 +39493,13 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "UCaption": "Split Up of Fund Installment",
-    "__idx": 93,
-    "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_94_93",
+    "__idx": 98,
+    "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_99_98",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 95,
+    "Id": 100,
     "uielementid": "97461361-3474-48BD-B47B-2DD78F64392B",
     "ShowCaption": true,
     "Fontbold": false,
@@ -38719,13 +39532,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 94,
-    "_id": "97461361-3474-48BD-B47B-2DD78F64392B_95_94",
+    "__idx": 99,
+    "_id": "97461361-3474-48BD-B47B-2DD78F64392B_100_99",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 96,
+    "Id": 101,
     "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
     "ShowCaption": true,
     "Fontbold": false,
@@ -38759,12 +39572,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 95,
-    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_96_95",
+    "__idx": 100,
+    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_101_100",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 128,
+        "Id": 133,
         "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
         "ShowCaption": true,
         "Fontbold": false,
@@ -38810,13 +39623,13 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 127,
-        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_128_127",
+        "__idx": 132,
+        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_133_132",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 129,
+        "Id": 134,
         "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
         "ShowCaption": true,
         "Fontbold": false,
@@ -38862,13 +39675,13 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 128,
-        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_129_128",
+        "__idx": 133,
+        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_134_133",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 130,
+        "Id": 135,
         "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
         "ShowCaption": true,
         "Fontbold": false,
@@ -38900,13 +39713,13 @@ export const DataElementsData = [
         "DCaption": "Save",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 129,
-        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_130_129",
+        "__idx": 134,
+        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_135_134",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 131,
+        "Id": 136,
         "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
         "ShowCaption": true,
         "Fontbold": false,
@@ -38938,15 +39751,15 @@ export const DataElementsData = [
         "DCaption": "View Budget Details",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 130,
-        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_131_130",
+        "__idx": 135,
+        "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_136_135",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 97,
+    "Id": 102,
     "uielementid": "C7CF6D22-62CA-459D-8312-8022F934D311",
     "TabIndex": -1,
     "ShowCaption": false,
@@ -38982,12 +39795,12 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "DCaption": "",
-    "__idx": 96,
-    "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_97_96",
+    "__idx": 101,
+    "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_102_101",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 132,
+        "Id": 137,
         "uielementid": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880",
         "ShowCaption": true,
         "Fontbold": false,
@@ -39021,13 +39834,13 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 131,
-        "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_132_131",
+        "__idx": 136,
+        "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 133,
+        "Id": 138,
         "uielementid": "6B9CB23A-420F-421E-B39A-47785DBDABB4",
         "ShowCaption": true,
         "Fontbold": false,
@@ -39060,13 +39873,13 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 132,
-        "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_133_132",
+        "__idx": 137,
+        "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 134,
+        "Id": 139,
         "WidgetId": "249EF445-9B49-4EF9-8045-46BD1E6FF8ED",
         "uielementid": "C7CF6D22-62CA-459D-8312-8022F934D311",
         "WidgetName": "ProjectFundInstallment_ReceiptSplitUp_AdditionalDetails.Json",
@@ -39101,8 +39914,8 @@ export const DataElementsData = [
         "DCaption": "",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 133,
-        "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_134_133",
+        "__idx": 138,
+        "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_139_138",
         "children": [
           {
             "VersionName": "Medium",
@@ -39621,7 +40434,7 @@ export const DataElementsData = [
       },
       {
         "VersionName": "Medium",
-        "Id": 135,
+        "Id": 140,
         "uielementid": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -39655,13 +40468,13 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 134,
-        "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_135_134",
+        "__idx": 139,
+        "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 136,
+        "Id": 141,
         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
         "TabIndex": -1,
         "ShowCaption": false,
@@ -39696,12 +40509,12 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "DCaption": "",
-        "__idx": 135,
-        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_136_135",
+        "__idx": 140,
+        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 141,
+            "Id": 146,
             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -39730,13 +40543,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-            "__idx": 140,
-            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
+            "__idx": 145,
+            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 142,
+            "Id": 147,
             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -39766,13 +40579,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-            "__idx": 141,
-            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_142_141",
+            "__idx": 146,
+            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 143,
+            "Id": 148,
             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -39812,13 +40625,13 @@ export const DataElementsData = [
               }
             ],
             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-            "__idx": 142,
-            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_143_142",
+            "__idx": 147,
+            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 144,
+            "Id": 149,
             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -39858,13 +40671,13 @@ export const DataElementsData = [
               }
             ],
             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-            "__idx": 143,
-            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_144_143",
+            "__idx": 148,
+            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 145,
+            "Id": 150,
             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -39903,13 +40716,13 @@ export const DataElementsData = [
               }
             ],
             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-            "__idx": 144,
-            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_145_144",
+            "__idx": 149,
+            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 146,
+            "Id": 151,
             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -39949,13 +40762,13 @@ export const DataElementsData = [
               }
             ],
             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-            "__idx": 145,
-            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
+            "__idx": 150,
+            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_151_150",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 147,
+            "Id": 152,
             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -39994,13 +40807,13 @@ export const DataElementsData = [
               }
             ],
             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-            "__idx": 146,
-            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
+            "__idx": 151,
+            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_152_151",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 148,
+            "Id": 153,
             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -40039,13 +40852,13 @@ export const DataElementsData = [
               }
             ],
             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-            "__idx": 147,
-            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
+            "__idx": 152,
+            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 149,
+            "Id": 154,
             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -40080,13 +40893,13 @@ export const DataElementsData = [
               }
             ],
             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-            "__idx": 148,
-            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
+            "__idx": 153,
+            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_154_153",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 150,
+            "Id": 155,
             "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -40121,8 +40934,8 @@ export const DataElementsData = [
               }
             ],
             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-            "__idx": 149,
-            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
+            "__idx": 154,
+            "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_155_154",
             "children": []
           }
         ]
@@ -40131,7 +40944,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 98,
+    "Id": 103,
     "uielementid": "840D2A86-98D9-4239-8536-663ECAA70414",
     "ShowCaption": true,
     "Fontbold": false,
@@ -40167,13 +40980,13 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "UCaption": "Summary",
-    "__idx": 97,
-    "_id": "840D2A86-98D9-4239-8536-663ECAA70414_98_97",
+    "__idx": 102,
+    "_id": "840D2A86-98D9-4239-8536-663ECAA70414_103_102",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 99,
+    "Id": 104,
     "uielementid": "FB3FE2D0-870B-481F-86C1-1BA1667188B9",
     "ShowCaption": true,
     "Fontbold": false,
@@ -40206,13 +41019,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 98,
-    "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_99_98",
+    "__idx": 103,
+    "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_104_103",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 100,
+    "Id": 105,
     "uielementid": "C1717B28-7611-445B-9745-4CF46D7A390C",
     "ShowCaption": true,
     "Fontbold": false,
@@ -40246,12 +41059,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 99,
-    "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_100_99",
+    "__idx": 104,
+    "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_105_104",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 137,
+        "Id": 142,
         "uielementid": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586",
         "ShowCaption": true,
         "Fontbold": false,
@@ -40285,12 +41098,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 136,
-        "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_137_136",
+        "__idx": 141,
+        "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 151,
+            "Id": 156,
             "uielementid": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9",
             "ShowCaption": true,
             "Fontbold": false,
@@ -40324,12 +41137,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 150,
-            "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_151_150",
+            "__idx": 155,
+            "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 157,
+                "Id": 162,
                 "uielementid": "659D47FF-B282-4438-A53A-A7ACA37F740F",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -40363,12 +41176,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 156,
-                "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_157_156",
+                "__idx": 161,
+                "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 159,
+                    "Id": 164,
                     "uielementid": "1C5C4175-1245-45B0-8B04-6F7056984FFE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -40402,12 +41215,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 158,
-                    "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_159_158",
+                    "__idx": 163,
+                    "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 161,
+                        "Id": 166,
                         "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -40441,12 +41254,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 160,
-                        "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_161_160",
+                        "__idx": 165,
+                        "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 163,
+                            "Id": 168,
                             "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -40478,8 +41291,8 @@ export const DataElementsData = [
                             "DCaption": "Balance Fund Installment Amount",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 162,
-                            "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_163_162",
+                            "__idx": 167,
+                            "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_168_167",
                             "children": []
                           }
                         ]
@@ -40494,7 +41307,7 @@ export const DataElementsData = [
       },
       {
         "VersionName": "Medium",
-        "Id": 138,
+        "Id": 143,
         "uielementid": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94",
         "ShowCaption": true,
         "Fontbold": false,
@@ -40528,12 +41341,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 137,
-        "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_138_137",
+        "__idx": 142,
+        "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 152,
+            "Id": 157,
             "uielementid": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA",
             "ShowCaption": true,
             "Fontbold": false,
@@ -40567,12 +41380,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 151,
-            "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_152_151",
+            "__idx": 156,
+            "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 158,
+                "Id": 163,
                 "uielementid": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -40606,12 +41419,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 157,
-                "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_158_157",
+                "__idx": 162,
+                "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 160,
+                    "Id": 165,
                     "uielementid": "C99BC49F-B3F1-4200-9C0F-1528B298E082",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -40645,12 +41458,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 159,
-                    "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_160_159",
+                    "__idx": 164,
+                    "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 162,
+                        "Id": 167,
                         "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -40684,12 +41497,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 161,
-                        "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_162_161",
+                        "__idx": 166,
+                        "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 164,
+                            "Id": 169,
                             "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -40721,8 +41534,8 @@ export const DataElementsData = [
                             "DCaption": "Split Up Total",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 163,
-                            "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_164_163",
+                            "__idx": 168,
+                            "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_169_168",
                             "children": []
                           }
                         ]
@@ -40739,7 +41552,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 101,
+    "Id": 106,
     "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -40768,13 +41581,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-    "__idx": 100,
-    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_101_100",
+    "__idx": 105,
+    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_106_105",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 102,
+    "Id": 107,
     "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -40804,13 +41617,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-    "__idx": 101,
-    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_102_101",
+    "__idx": 106,
+    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_107_106",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 103,
+    "Id": 108,
     "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -40841,13 +41654,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-    "__idx": 102,
-    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_103_102",
+    "__idx": 107,
+    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_108_107",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 104,
+    "Id": 109,
     "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -40877,13 +41690,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-    "__idx": 103,
-    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_104_103",
+    "__idx": 108,
+    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_109_108",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 105,
+    "Id": 110,
     "uielementid": "F6D51B16-2EEF-4957-BF79-A4B0621504DE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -40913,13 +41726,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "903a5680-2282-88eb-20c8-696b8be669a8",
-    "__idx": 104,
-    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_105_104",
+    "__idx": 109,
+    "_id": "F6D51B16-2EEF-4957-BF79-A4B0621504DE_110_109",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 106,
+    "Id": 111,
     "uielementid": "F5B358B1-AC61-4100-BC6C-167FC7340D30",
     "ShowCaption": true,
     "Fontbold": false,
@@ -40955,13 +41768,13 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "UCaption": "Next Action",
-    "__idx": 105,
-    "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_106_105",
+    "__idx": 110,
+    "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_111_110",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 107,
+    "Id": 112,
     "uielementid": "3528E434-EF97-461F-8CB4-FF31848A097F",
     "ShowCaption": true,
     "Fontbold": false,
@@ -40994,13 +41807,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 106,
-    "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_107_106",
+    "__idx": 111,
+    "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_112_111",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 108,
+    "Id": 113,
     "uielementid": "5D7C36E7-F6E3-4898-8573-06D2021C39BB",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41034,12 +41847,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 107,
-    "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_108_107",
+    "__idx": 112,
+    "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_113_112",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 139,
+        "Id": 144,
         "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
         "ShowCaption": true,
         "Fontbold": false,
@@ -41073,12 +41886,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 138,
-        "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_139_138",
+        "__idx": 143,
+        "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 153,
+            "Id": 158,
             "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
             "ShowCaption": true,
             "Fontbold": false,
@@ -41106,7 +41919,7 @@ export const DataElementsData = [
             "MergeRow": "",
             "Action": "OnChange",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"M_FieldMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"SetDestinationTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveToValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_RemarksMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_NextStage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsflowReturned\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_SourceActivityMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_SaveDomainData\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Currentlevel\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsCancelReject\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
             "EDT": 9,
             "DCaption": "Move To",
             "DHelpText": "",
@@ -41117,13 +41930,13 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 152,
-            "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_153_152",
+            "__idx": 157,
+            "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_158_157",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 154,
+            "Id": 159,
             "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
             "ShowCaption": true,
             "Fontbold": false,
@@ -41156,15 +41969,15 @@ export const DataElementsData = [
             "DCaption": "Comments",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 153,
-            "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_154_153",
+            "__idx": 158,
+            "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_159_158",
             "children": []
           }
         ]
       },
       {
         "VersionName": "Medium",
-        "Id": 140,
+        "Id": 145,
         "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -41198,12 +42011,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 139,
-        "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_140_139",
+        "__idx": 144,
+        "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 155,
+            "Id": 160,
             "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -41230,18 +42043,18 @@ export const DataElementsData = [
             "MergeRow": "",
             "Action": "OnClick",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"RemarksId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UserName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"DateOfRemarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_UpdatedBy\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_ReceiptSplitUpId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_DocumentDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"RedirectUrl\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"M_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
             "EDT": 10,
             "DCaption": "Submit",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 154,
-            "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_155_154",
+            "__idx": 159,
+            "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_160_159",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 156,
+            "Id": 161,
             "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
             "ShowCaption": true,
             "Fontbold": false,
@@ -41273,8 +42086,8 @@ export const DataElementsData = [
             "DCaption": "History",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 155,
-            "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_156_155",
+            "__idx": 160,
+            "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_161_160",
             "children": []
           }
         ]
@@ -41283,7 +42096,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 109,
+    "Id": 114,
     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41316,13 +42129,13 @@ export const DataElementsData = [
     "DCaption": "Sanctioned Project Name",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 108,
-    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_109_108",
+    "__idx": 113,
+    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 110,
+    "Id": 115,
     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41355,13 +42168,13 @@ export const DataElementsData = [
     "DCaption": "Agency Code",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 109,
-    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_110_109",
+    "__idx": 114,
+    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 111,
+    "Id": 116,
     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41394,13 +42207,13 @@ export const DataElementsData = [
     "DCaption": "Category",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 110,
-    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_111_110",
+    "__idx": 115,
+    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 112,
+    "Id": 117,
     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41429,18 +42242,18 @@ export const DataElementsData = [
     "MergeRow": "",
     "Action": "OnChange",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_ActualEndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"A_OverallSantionedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_StartDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_YearMonth\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"R_ReceiptAmountValidation\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedValue_15\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ProjectCode\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"R_ReceiptAmountBalance\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_ProjectDetailsID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"FRValues\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceNumber\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_EndDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ActualDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_SanctionNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectName_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetID\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"A_BudgetClaimedAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_SanctionedDate_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"ReceiptSplitUp\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_AgencyCode_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_AvailableAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_Duration\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
     "EDT": 9,
     "DCaption": "Sanctioned No",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 111,
-    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_112_111",
+    "__idx": 116,
+    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 113,
+    "Id": 118,
     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41472,13 +42285,13 @@ export const DataElementsData = [
     "DCaption": "Sanctioned Date",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 112,
-    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_113_112",
+    "__idx": 117,
+    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 114,
+    "Id": 119,
     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41510,13 +42323,13 @@ export const DataElementsData = [
     "DCaption": "Sanctioned Amount",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 113,
-    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_114_113",
+    "__idx": 118,
+    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_119_118",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 115,
+    "Id": 120,
     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41548,13 +42361,13 @@ export const DataElementsData = [
     "DCaption": "Start Date",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 114,
-    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_115_114",
+    "__idx": 119,
+    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 116,
+    "Id": 121,
     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41586,13 +42399,13 @@ export const DataElementsData = [
     "DCaption": "End Date",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 115,
-    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_116_115",
+    "__idx": 120,
+    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 117,
+    "Id": 122,
     "uielementid": "FADCE077-BC7F-48A1-90F1-C65C09403D24",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41624,13 +42437,13 @@ export const DataElementsData = [
     "DCaption": "Available Amount",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 116,
-    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_117_116",
+    "__idx": 121,
+    "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_122_121",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 118,
+    "Id": 123,
     "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41662,13 +42475,13 @@ export const DataElementsData = [
     "DCaption": "Actual Start Date",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 117,
-    "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_118_117",
+    "__idx": 122,
+    "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 119,
+    "Id": 124,
     "uielementid": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41710,13 +42523,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 118,
-    "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_119_118",
+    "__idx": 123,
+    "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 120,
+    "Id": 125,
     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41762,13 +42575,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 119,
-    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_120_119",
+    "__idx": 124,
+    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 121,
+    "Id": 126,
     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41814,13 +42627,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 120,
-    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_121_120",
+    "__idx": 125,
+    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 122,
+    "Id": 127,
     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41862,13 +42675,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 121,
-    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_122_121",
+    "__idx": 126,
+    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 123,
+    "Id": 128,
     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41910,13 +42723,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 122,
-    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_123_122",
+    "__idx": 127,
+    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_128_127",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 124,
+    "Id": 129,
     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
     "ShowCaption": true,
     "Fontbold": false,
@@ -41957,13 +42770,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 123,
-    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_124_123",
+    "__idx": 128,
+    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_129_128",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 125,
+    "Id": 130,
     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
     "ShowCaption": true,
     "Fontbold": false,
@@ -42005,13 +42818,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 124,
-    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_125_124",
+    "__idx": 129,
+    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_130_129",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 126,
+    "Id": 131,
     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
     "ShowCaption": true,
     "Fontbold": false,
@@ -42053,13 +42866,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 125,
-    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
+    "__idx": 130,
+    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 127,
+    "Id": 132,
     "uielementid": "756C5ACB-3962-4749-9642-6629C6DC9573",
     "ShowCaption": true,
     "Fontbold": false,
@@ -42100,13 +42913,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 126,
-    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_127_126",
+    "__idx": 131,
+    "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_132_131",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 128,
+    "Id": 133,
     "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
     "ShowCaption": true,
     "Fontbold": false,
@@ -42152,13 +42965,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 127,
-    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_128_127",
+    "__idx": 132,
+    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_133_132",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 129,
+    "Id": 134,
     "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
     "ShowCaption": true,
     "Fontbold": false,
@@ -42204,13 +43017,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 128,
-    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_129_128",
+    "__idx": 133,
+    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_134_133",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 130,
+    "Id": 135,
     "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
     "ShowCaption": true,
     "Fontbold": false,
@@ -42242,13 +43055,13 @@ export const DataElementsData = [
     "DCaption": "Save",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 129,
-    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_130_129",
+    "__idx": 134,
+    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_135_134",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 131,
+    "Id": 136,
     "uielementid": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D",
     "ShowCaption": true,
     "Fontbold": false,
@@ -42280,13 +43093,13 @@ export const DataElementsData = [
     "DCaption": "View Budget Details",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 130,
-    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_131_130",
+    "__idx": 135,
+    "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_136_135",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 132,
+    "Id": 137,
     "uielementid": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880",
     "ShowCaption": true,
     "Fontbold": false,
@@ -42320,13 +43133,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 131,
-    "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_132_131",
+    "__idx": 136,
+    "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 133,
+    "Id": 138,
     "uielementid": "6B9CB23A-420F-421E-B39A-47785DBDABB4",
     "ShowCaption": true,
     "Fontbold": false,
@@ -42359,13 +43172,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 132,
-    "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_133_132",
+    "__idx": 137,
+    "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 134,
+    "Id": 139,
     "WidgetId": "249EF445-9B49-4EF9-8045-46BD1E6FF8ED",
     "uielementid": "C7CF6D22-62CA-459D-8312-8022F934D311",
     "WidgetName": "ProjectFundInstallment_ReceiptSplitUp_AdditionalDetails.Json",
@@ -42400,8 +43213,8 @@ export const DataElementsData = [
     "DCaption": "",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 133,
-    "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_134_133",
+    "__idx": 138,
+    "_id": "C7CF6D22-62CA-459D-8312-8022F934D311_139_138",
     "children": [
       {
         "VersionName": "Medium",
@@ -42920,7 +43733,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 135,
+    "Id": 140,
     "uielementid": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -42954,13 +43767,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 134,
-    "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_135_134",
+    "__idx": 139,
+    "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 136,
+    "Id": 141,
     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
     "TabIndex": -1,
     "ShowCaption": false,
@@ -42995,12 +43808,12 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "DCaption": "",
-    "__idx": 135,
-    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_136_135",
+    "__idx": 140,
+    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 141,
+        "Id": 146,
         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -43029,13 +43842,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-        "__idx": 140,
-        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
+        "__idx": 145,
+        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 142,
+        "Id": 147,
         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -43065,13 +43878,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-        "__idx": 141,
-        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_142_141",
+        "__idx": 146,
+        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 143,
+        "Id": 148,
         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -43111,13 +43924,13 @@ export const DataElementsData = [
           }
         ],
         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-        "__idx": 142,
-        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_143_142",
+        "__idx": 147,
+        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 144,
+        "Id": 149,
         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -43157,13 +43970,13 @@ export const DataElementsData = [
           }
         ],
         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-        "__idx": 143,
-        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_144_143",
+        "__idx": 148,
+        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 145,
+        "Id": 150,
         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -43202,13 +44015,13 @@ export const DataElementsData = [
           }
         ],
         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-        "__idx": 144,
-        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_145_144",
+        "__idx": 149,
+        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 146,
+        "Id": 151,
         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -43248,13 +44061,13 @@ export const DataElementsData = [
           }
         ],
         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-        "__idx": 145,
-        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
+        "__idx": 150,
+        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_151_150",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 147,
+        "Id": 152,
         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -43293,13 +44106,13 @@ export const DataElementsData = [
           }
         ],
         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-        "__idx": 146,
-        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
+        "__idx": 151,
+        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_152_151",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 148,
+        "Id": 153,
         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -43338,13 +44151,13 @@ export const DataElementsData = [
           }
         ],
         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-        "__idx": 147,
-        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
+        "__idx": 152,
+        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 149,
+        "Id": 154,
         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -43379,13 +44192,13 @@ export const DataElementsData = [
           }
         ],
         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-        "__idx": 148,
-        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
+        "__idx": 153,
+        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_154_153",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 150,
+        "Id": 155,
         "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -43420,15 +44233,15 @@ export const DataElementsData = [
           }
         ],
         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-        "__idx": 149,
-        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
+        "__idx": 154,
+        "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_155_154",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 137,
+    "Id": 142,
     "uielementid": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586",
     "ShowCaption": true,
     "Fontbold": false,
@@ -43462,12 +44275,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 136,
-    "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_137_136",
+    "__idx": 141,
+    "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 151,
+        "Id": 156,
         "uielementid": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9",
         "ShowCaption": true,
         "Fontbold": false,
@@ -43501,12 +44314,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 150,
-        "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_151_150",
+        "__idx": 155,
+        "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 157,
+            "Id": 162,
             "uielementid": "659D47FF-B282-4438-A53A-A7ACA37F740F",
             "ShowCaption": true,
             "Fontbold": false,
@@ -43540,12 +44353,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 156,
-            "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_157_156",
+            "__idx": 161,
+            "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 159,
+                "Id": 164,
                 "uielementid": "1C5C4175-1245-45B0-8B04-6F7056984FFE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43579,12 +44392,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 158,
-                "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_159_158",
+                "__idx": 163,
+                "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 161,
+                    "Id": 166,
                     "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -43618,12 +44431,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 160,
-                    "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_161_160",
+                    "__idx": 165,
+                    "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 163,
+                        "Id": 168,
                         "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -43655,8 +44468,8 @@ export const DataElementsData = [
                         "DCaption": "Balance Fund Installment Amount",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 162,
-                        "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_163_162",
+                        "__idx": 167,
+                        "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_168_167",
                         "children": []
                       }
                     ]
@@ -43671,7 +44484,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 138,
+    "Id": 143,
     "uielementid": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94",
     "ShowCaption": true,
     "Fontbold": false,
@@ -43705,12 +44518,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 137,
-    "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_138_137",
+    "__idx": 142,
+    "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 152,
+        "Id": 157,
         "uielementid": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA",
         "ShowCaption": true,
         "Fontbold": false,
@@ -43744,12 +44557,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 151,
-        "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_152_151",
+        "__idx": 156,
+        "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 158,
+            "Id": 163,
             "uielementid": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7",
             "ShowCaption": true,
             "Fontbold": false,
@@ -43783,12 +44596,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 157,
-            "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_158_157",
+            "__idx": 162,
+            "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 160,
+                "Id": 165,
                 "uielementid": "C99BC49F-B3F1-4200-9C0F-1528B298E082",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -43822,12 +44635,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 159,
-                "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_160_159",
+                "__idx": 164,
+                "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 162,
+                    "Id": 167,
                     "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -43861,12 +44674,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 161,
-                    "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_162_161",
+                    "__idx": 166,
+                    "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 164,
+                        "Id": 169,
                         "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -43898,8 +44711,8 @@ export const DataElementsData = [
                         "DCaption": "Split Up Total",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 163,
-                        "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_164_163",
+                        "__idx": 168,
+                        "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_169_168",
                         "children": []
                       }
                     ]
@@ -43914,7 +44727,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 139,
+    "Id": 144,
     "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
     "ShowCaption": true,
     "Fontbold": false,
@@ -43948,12 +44761,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 138,
-    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_139_138",
+    "__idx": 143,
+    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 153,
+        "Id": 158,
         "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
         "ShowCaption": true,
         "Fontbold": false,
@@ -43981,7 +44794,7 @@ export const DataElementsData = [
         "MergeRow": "",
         "Action": "OnChange",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"M_FieldMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"SetDestinationTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveToValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_RemarksMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_NextStage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsflowReturned\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_SourceActivityMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_SaveDomainData\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Currentlevel\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsCancelReject\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
         "EDT": 9,
         "DCaption": "Move To",
         "DHelpText": "",
@@ -43992,13 +44805,13 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 152,
-        "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_153_152",
+        "__idx": 157,
+        "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_158_157",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 154,
+        "Id": 159,
         "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
         "ShowCaption": true,
         "Fontbold": false,
@@ -44031,15 +44844,15 @@ export const DataElementsData = [
         "DCaption": "Comments",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 153,
-        "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_154_153",
+        "__idx": 158,
+        "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_159_158",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 140,
+    "Id": 145,
     "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -44073,12 +44886,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 139,
-    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_140_139",
+    "__idx": 144,
+    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 155,
+        "Id": 160,
         "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -44105,18 +44918,18 @@ export const DataElementsData = [
         "MergeRow": "",
         "Action": "OnClick",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"RemarksId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UserName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"DateOfRemarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_UpdatedBy\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_ReceiptSplitUpId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_DocumentDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"RedirectUrl\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"M_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
         "EDT": 10,
         "DCaption": "Submit",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 154,
-        "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_155_154",
+        "__idx": 159,
+        "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_160_159",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 156,
+        "Id": 161,
         "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
         "ShowCaption": true,
         "Fontbold": false,
@@ -44148,15 +44961,15 @@ export const DataElementsData = [
         "DCaption": "History",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 155,
-        "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_156_155",
+        "__idx": 160,
+        "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_161_160",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 141,
+    "Id": 146,
     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -44185,13 +44998,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-    "__idx": 140,
-    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_141_140",
+    "__idx": 145,
+    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 142,
+    "Id": 147,
     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -44221,13 +45034,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-    "__idx": 141,
-    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_142_141",
+    "__idx": 146,
+    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 143,
+    "Id": 148,
     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -44267,13 +45080,13 @@ export const DataElementsData = [
       }
     ],
     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-    "__idx": 142,
-    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_143_142",
+    "__idx": 147,
+    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 144,
+    "Id": 149,
     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -44313,13 +45126,13 @@ export const DataElementsData = [
       }
     ],
     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-    "__idx": 143,
-    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_144_143",
+    "__idx": 148,
+    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 145,
+    "Id": 150,
     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -44358,13 +45171,13 @@ export const DataElementsData = [
       }
     ],
     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-    "__idx": 144,
-    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_145_144",
+    "__idx": 149,
+    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 146,
+    "Id": 151,
     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -44404,13 +45217,13 @@ export const DataElementsData = [
       }
     ],
     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-    "__idx": 145,
-    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_146_145",
+    "__idx": 150,
+    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_151_150",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 147,
+    "Id": 152,
     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -44449,13 +45262,13 @@ export const DataElementsData = [
       }
     ],
     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-    "__idx": 146,
-    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_147_146",
+    "__idx": 151,
+    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_152_151",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 148,
+    "Id": 153,
     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -44494,13 +45307,13 @@ export const DataElementsData = [
       }
     ],
     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-    "__idx": 147,
-    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_148_147",
+    "__idx": 152,
+    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 149,
+    "Id": 154,
     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -44535,13 +45348,13 @@ export const DataElementsData = [
       }
     ],
     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-    "__idx": 148,
-    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_149_148",
+    "__idx": 153,
+    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_154_153",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 150,
+    "Id": 155,
     "uielementid": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -44576,13 +45389,13 @@ export const DataElementsData = [
       }
     ],
     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
-    "__idx": 149,
-    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_150_149",
+    "__idx": 154,
+    "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_155_154",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 151,
+    "Id": 156,
     "uielementid": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9",
     "ShowCaption": true,
     "Fontbold": false,
@@ -44616,12 +45429,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 150,
-    "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_151_150",
+    "__idx": 155,
+    "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 157,
+        "Id": 162,
         "uielementid": "659D47FF-B282-4438-A53A-A7ACA37F740F",
         "ShowCaption": true,
         "Fontbold": false,
@@ -44655,12 +45468,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 156,
-        "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_157_156",
+        "__idx": 161,
+        "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 159,
+            "Id": 164,
             "uielementid": "1C5C4175-1245-45B0-8B04-6F7056984FFE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -44694,12 +45507,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 158,
-            "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_159_158",
+            "__idx": 163,
+            "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 161,
+                "Id": 166,
                 "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -44733,12 +45546,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 160,
-                "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_161_160",
+                "__idx": 165,
+                "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 163,
+                    "Id": 168,
                     "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -44770,8 +45583,8 @@ export const DataElementsData = [
                     "DCaption": "Balance Fund Installment Amount",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 162,
-                    "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_163_162",
+                    "__idx": 167,
+                    "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_168_167",
                     "children": []
                   }
                 ]
@@ -44784,7 +45597,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 152,
+    "Id": 157,
     "uielementid": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA",
     "ShowCaption": true,
     "Fontbold": false,
@@ -44818,12 +45631,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 151,
-    "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_152_151",
+    "__idx": 156,
+    "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 158,
+        "Id": 163,
         "uielementid": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7",
         "ShowCaption": true,
         "Fontbold": false,
@@ -44857,12 +45670,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 157,
-        "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_158_157",
+        "__idx": 162,
+        "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 160,
+            "Id": 165,
             "uielementid": "C99BC49F-B3F1-4200-9C0F-1528B298E082",
             "ShowCaption": true,
             "Fontbold": false,
@@ -44896,12 +45709,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 159,
-            "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_160_159",
+            "__idx": 164,
+            "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 162,
+                "Id": 167,
                 "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -44935,12 +45748,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 161,
-                "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_162_161",
+                "__idx": 166,
+                "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 164,
+                    "Id": 169,
                     "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -44972,8 +45785,8 @@ export const DataElementsData = [
                     "DCaption": "Split Up Total",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 163,
-                    "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_164_163",
+                    "__idx": 168,
+                    "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_169_168",
                     "children": []
                   }
                 ]
@@ -44986,7 +45799,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 153,
+    "Id": 158,
     "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
     "ShowCaption": true,
     "Fontbold": false,
@@ -45014,7 +45827,7 @@ export const DataElementsData = [
     "MergeRow": "",
     "Action": "OnChange",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"C_FC_Category_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"M_FieldMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"SetDestinationTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveToValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_RemarksMandatory\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_NextStage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsflowReturned\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_SourceActivityMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_SaveDomainData\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_Currentlevel\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_IsCancelReject\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
     "EDT": 9,
     "DCaption": "Move To",
     "DHelpText": "",
@@ -45025,13 +45838,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 152,
-    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_153_152",
+    "__idx": 157,
+    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_158_157",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 154,
+    "Id": 159,
     "uielementid": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C",
     "ShowCaption": true,
     "Fontbold": false,
@@ -45064,13 +45877,13 @@ export const DataElementsData = [
     "DCaption": "Comments",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 153,
-    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_154_153",
+    "__idx": 158,
+    "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_159_158",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 155,
+    "Id": 160,
     "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -45097,18 +45910,18 @@ export const DataElementsData = [
     "MergeRow": "",
     "Action": "OnClick",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"RemarksId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UserName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"DateOfRemarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Instanceid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Remarks\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"ActivityName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"MF_P1_UpdatedBy\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBankId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_ReceiptSplitUpId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_P1_TransferType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_P1_ReceiptDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"R_TotalSplitUpAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"M_DocumentDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_TransferReferenceBranch\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UC_EmployeeBaicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"RedirectUrl\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"C_FC_ProjectNo_15\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_DocumentName\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"M_UploadDcoument\\\",\\\"Value\\\":null,\\\"EDT\\\":1},{\\\"ElementName\\\":\\\"M_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_Status\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_R2_BudgetId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_P1_ReceiptAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3}]\"}]",
     "EDT": 10,
     "DCaption": "Submit",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 154,
-    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_155_154",
+    "__idx": 159,
+    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_160_159",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 156,
+    "Id": 161,
     "uielementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
     "ShowCaption": true,
     "Fontbold": false,
@@ -45140,13 +45953,13 @@ export const DataElementsData = [
     "DCaption": "History",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 155,
-    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_156_155",
+    "__idx": 160,
+    "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_161_160",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 157,
+    "Id": 162,
     "uielementid": "659D47FF-B282-4438-A53A-A7ACA37F740F",
     "ShowCaption": true,
     "Fontbold": false,
@@ -45180,12 +45993,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 156,
-    "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_157_156",
+    "__idx": 161,
+    "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 159,
+        "Id": 164,
         "uielementid": "1C5C4175-1245-45B0-8B04-6F7056984FFE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -45219,12 +46032,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 158,
-        "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_159_158",
+        "__idx": 163,
+        "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 161,
+            "Id": 166,
             "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
             "ShowCaption": true,
             "Fontbold": false,
@@ -45258,12 +46071,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 160,
-            "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_161_160",
+            "__idx": 165,
+            "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 163,
+                "Id": 168,
                 "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -45295,8 +46108,8 @@ export const DataElementsData = [
                 "DCaption": "Balance Fund Installment Amount",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 162,
-                "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_163_162",
+                "__idx": 167,
+                "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_168_167",
                 "children": []
               }
             ]
@@ -45307,7 +46120,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 158,
+    "Id": 163,
     "uielementid": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7",
     "ShowCaption": true,
     "Fontbold": false,
@@ -45341,12 +46154,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 157,
-    "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_158_157",
+    "__idx": 162,
+    "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 160,
+        "Id": 165,
         "uielementid": "C99BC49F-B3F1-4200-9C0F-1528B298E082",
         "ShowCaption": true,
         "Fontbold": false,
@@ -45380,12 +46193,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 159,
-        "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_160_159",
+        "__idx": 164,
+        "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 162,
+            "Id": 167,
             "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
             "ShowCaption": true,
             "Fontbold": false,
@@ -45419,12 +46232,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 161,
-            "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_162_161",
+            "__idx": 166,
+            "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 164,
+                "Id": 169,
                 "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -45456,8 +46269,8 @@ export const DataElementsData = [
                 "DCaption": "Split Up Total",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 163,
-                "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_164_163",
+                "__idx": 168,
+                "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_169_168",
                 "children": []
               }
             ]
@@ -45468,7 +46281,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 159,
+    "Id": 164,
     "uielementid": "1C5C4175-1245-45B0-8B04-6F7056984FFE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -45502,12 +46315,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 158,
-    "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_159_158",
+    "__idx": 163,
+    "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 161,
+        "Id": 166,
         "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
         "ShowCaption": true,
         "Fontbold": false,
@@ -45541,12 +46354,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 160,
-        "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_161_160",
+        "__idx": 165,
+        "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 163,
+            "Id": 168,
             "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
             "ShowCaption": true,
             "Fontbold": false,
@@ -45578,8 +46391,8 @@ export const DataElementsData = [
             "DCaption": "Balance Fund Installment Amount",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 162,
-            "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_163_162",
+            "__idx": 167,
+            "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_168_167",
             "children": []
           }
         ]
@@ -45588,7 +46401,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 160,
+    "Id": 165,
     "uielementid": "C99BC49F-B3F1-4200-9C0F-1528B298E082",
     "ShowCaption": true,
     "Fontbold": false,
@@ -45622,12 +46435,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 159,
-    "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_160_159",
+    "__idx": 164,
+    "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 162,
+        "Id": 167,
         "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
         "ShowCaption": true,
         "Fontbold": false,
@@ -45661,12 +46474,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 161,
-        "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_162_161",
+        "__idx": 166,
+        "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 164,
+            "Id": 169,
             "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
             "ShowCaption": true,
             "Fontbold": false,
@@ -45698,8 +46511,8 @@ export const DataElementsData = [
             "DCaption": "Split Up Total",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 163,
-            "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_164_163",
+            "__idx": 168,
+            "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_169_168",
             "children": []
           }
         ]
@@ -45708,7 +46521,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 161,
+    "Id": 166,
     "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
     "ShowCaption": true,
     "Fontbold": false,
@@ -45742,12 +46555,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 160,
-    "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_161_160",
+    "__idx": 165,
+    "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 163,
+        "Id": 168,
         "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
         "ShowCaption": true,
         "Fontbold": false,
@@ -45779,15 +46592,15 @@ export const DataElementsData = [
         "DCaption": "Balance Fund Installment Amount",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 162,
-        "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_163_162",
+        "__idx": 167,
+        "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_168_167",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 162,
+    "Id": 167,
     "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
     "ShowCaption": true,
     "Fontbold": false,
@@ -45821,12 +46634,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 161,
-    "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_162_161",
+    "__idx": 166,
+    "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 164,
+        "Id": 169,
         "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
         "ShowCaption": true,
         "Fontbold": false,
@@ -45858,15 +46671,15 @@ export const DataElementsData = [
         "DCaption": "Split Up Total",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 163,
-        "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_164_163",
+        "__idx": 168,
+        "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_169_168",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 163,
+    "Id": 168,
     "uielementid": "B05B089F-443B-4529-89E1-D6A2E892ED18",
     "ShowCaption": true,
     "Fontbold": false,
@@ -45898,13 +46711,13 @@ export const DataElementsData = [
     "DCaption": "Balance Fund Installment Amount",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 162,
-    "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_163_162",
+    "__idx": 167,
+    "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_168_167",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 164,
+    "Id": 169,
     "uielementid": "A6DB5F2E-F289-44FC-B154-37EB6D221B12",
     "ShowCaption": true,
     "Fontbold": false,
@@ -45936,8 +46749,8 @@ export const DataElementsData = [
     "DCaption": "Split Up Total",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 163,
-    "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_164_163",
+    "__idx": 168,
+    "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_169_168",
     "children": []
   }
 ];
