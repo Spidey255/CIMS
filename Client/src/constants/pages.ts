@@ -1,6 +1,6 @@
 // Innovace Intech Solution Pvt Ltd
 // ⚠️ AUTO-GENERATED FILE – DO NOT EDIT
-// Generated on 2026-06-30T02:09:12.758Z
+// Generated on 2026-06-30T05:57:40.883Z
 
 export const pages = [
   {
@@ -14,6 +14,12 @@ export const pages = [
     "ProcessActivityMapId": "A6341F06-0394-4CAA-88D0-B7B36027AF06",
     "ProcessName": "TravelRequest",
     "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequest_Registrar"
+  },
+  {
+    "PackageProcessMapId": "08c9de00-05b0-4b62-aa5e-1dbada1b9158",
+    "ProcessActivityMapId": "585BA2B8-3E75-4DAB-B50B-10D8320CE414",
+    "ProcessName": "ProjectOverview",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectOverview_Start"
   },
   {
     "PackageProcessMapId": "64C42232-67DB-43B8-8B68-4468FE0DD17F",
@@ -200,12 +206,6 @@ export const pages = [
     "ProcessActivityMapId": "2D400E54-E6D1-43C7-9824-3831B9AD8F32",
     "ProcessName": "ProjectProposal",
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectProposal_Additional"
-  },
-  {
-    "PackageProcessMapId": "29765AAA-A994-40D8-A9EB-93EB92E6EFAB",
-    "ProcessActivityMapId": "2EC40310-88B9-4E21-AD43-FA1B94EBF785",
-    "ProcessName": "TaskSummaryWithFilters",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/TaskSummaryWithFilters_Start"
   },
   {
     "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",

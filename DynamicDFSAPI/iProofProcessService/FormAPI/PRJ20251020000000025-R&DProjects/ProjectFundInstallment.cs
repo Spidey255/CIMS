@@ -1888,20 +1888,6 @@ base.WriteDebugInfo(@"if(1==1)");
 ISpace["MF_P1_ReceiptAmount"].Man=true;ISpace["MF_P1_ProjectDetailsId"].Man=true;ISpace["MF_P1_ReceiptDate"].Man=true;ISpace["MFG_R2_Amount"].Man=true;ISpace["MFG_R2_BudgetId"].Man=true;
 base.WriteDebugInfo(@"ISpace[""MF_P1_ReceiptAmount""].Man=true;ISpace[""MF_P1_ProjectDetailsId""].Man=true;ISpace[""MF_P1_ReceiptDate""].Man=true;ISpace[""MFG_R2_Amount""].Man=true;ISpace[""MFG_R2_BudgetId""].Man=true;");
 }
-
-var querySourceB8A2A58C91CA4FD4B3269652593DD27B =GetQueryExpressionDataSource("B8A2A58C-91CA-4FD4-B326-9652593DD27B");
-
-DataTable resultB8A2A58C91CA4FD4B3269652593DD27B=iSpace.SetGridDataSource(querySourceB8A2A58C91CA4FD4B3269652593DD27B, _objectFactory.GetGridRPP("MG_RemarksDetails"),@"EXEC GetRemarks '" + ISpace["Instanceid"].Value + @"'");
-
-iSpace.InsertGridBindDetails("MG_RemarksDetails","11",querySourceB8A2A58C91CA4FD4B3269652593DD27B,"EXEC GetRemarks '" + ISpace["Instanceid"].Value + @"'",_objectFactory.GetGridRPP("MG_RemarksDetails"));
-
-base.WriteDebugInfo(@"var querySourceB8A2A58C91CA4FD4B3269652593DD27B =GetQueryExpressionDataSource(""B8A2A58C-91CA-4FD4-B326-9652593DD27B"");DataTable resultB8A2A58C91CA4FD4B3269652593DD27B=iSpace.SetGridDataSource(querySourceB8A2A58C91CA4FD4B3269652593DD27B, _objectFactory.GetGridRPP(""MG_RemarksDetails""),@""EXEC GetRemarks '"" + ISpace[""Instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_RemarksDetails"",""11"",querySourceB8A2A58C91CA4FD4B3269652593DD27B,""EXEC GetRemarks '"" + ISpace[""Instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""MG_RemarksDetails""));");
-base.WriteDebugInfo(@"");
-
-
-List<Triplet<string, short, short?>> result4ACD680C9EAE4FDBA4A3FC5C4D353701=acdataIspaceDDBF52926EF44C37B72AE6DCFFBF7B02.GetQueryExpressionBindings("4ACD680C-9EAE-4FDB-A4A3-FC5C4D353701");
-iSpace.SetGridData(resultB8A2A58C91CA4FD4B3269652593DD27B,result4ACD680C9EAE4FDBA4A3FC5C4D353701,"MG_RemarksDetails",ref ISpace);
-iSpace.UpdateGridBindDetails("MG_RemarksDetails",result4ACD680C9EAE4FDBA4A3FC5C4D353701);
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
