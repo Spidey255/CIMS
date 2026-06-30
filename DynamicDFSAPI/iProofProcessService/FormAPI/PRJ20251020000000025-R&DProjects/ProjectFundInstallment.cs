@@ -2324,8 +2324,6 @@ else{
 ISpace["R_ReceiptAmountValidation"].Value = null;
 }
 }
-ISpace["Subject"].Value=ISpace["C_FC_ProjectName_15"].Value;
-base.WriteDebugInfo(@"ISpace[""Subject""].Value=ISpace[""C_FC_ProjectName_15""].Value;");
 ISpace["MFG_R2_BudgetId"].rElemData=iSpace.Reload(ISpace["MFG_R2_BudgetId"].Value,@"EXEC SP_GetBudgetDetails  '" + ISpace["C_FC_ProjectNo_15"].Value + @"'","3A103712-5244-4427-B2B6-1C4E046FD337");
 base.WriteDebugInfo(@"ISpace[""MFG_R2_BudgetId""].rElemData=iSpace.Reload(ISpace[""MFG_R2_BudgetId""].Value,@""EXEC SP_GetBudgetDetails  '"" + ISpace[""C_FC_ProjectNo_15""].Value + @""'"",""3A103712-5244-4427-B2B6-1C4E046FD337"");");
 ISpace["M_MoveTo"].rElemData=iSpace.Reload(ISpace["M_MoveTo"].Value,@"EXEC GetNextStep '" + ISpace["MF_P1_ReceiptsId"].Value + @"','" + ISpace["M_FlowType"].Value + @"'","24F5D845-D560-4FC1-B284-00FB19DFB96F");
@@ -3528,8 +3526,6 @@ else{
 ISpace["R_ReceiptAmountValidation"].Value = null;
 }
 }
-ISpace["Subject"].Value=ISpace["C_FC_ProjectName_15"].Value;
-base.WriteDebugInfo(@"ISpace[""Subject""].Value=ISpace[""C_FC_ProjectName_15""].Value;");
 ISpace["MFG_R2_BudgetId"].rElemData=iSpace.Reload(ISpace["MFG_R2_BudgetId"].Value,@"EXEC SP_GetBudgetDetails  '" + ISpace["C_FC_ProjectNo_15"].Value + @"'","3A103712-5244-4427-B2B6-1C4E046FD337");
 base.WriteDebugInfo(@"ISpace[""MFG_R2_BudgetId""].rElemData=iSpace.Reload(ISpace[""MFG_R2_BudgetId""].Value,@""EXEC SP_GetBudgetDetails  '"" + ISpace[""C_FC_ProjectNo_15""].Value + @""'"",""3A103712-5244-4427-B2B6-1C4E046FD337"");");
 ISpace["M_MoveTo"].rElemData=iSpace.Reload(ISpace["M_MoveTo"].Value,@"EXEC GetNextStep '" + ISpace["MF_P1_ReceiptsId"].Value + @"','" + ISpace["M_FlowType"].Value + @"'","24F5D845-D560-4FC1-B284-00FB19DFB96F");
@@ -3760,8 +3756,6 @@ else{
 ISpace["R_ReceiptAmountValidation"].Value = null;
 }
 }
-ISpace["Subject"].Value=ISpace["C_FC_ProjectName_15"].Value;
-base.WriteDebugInfo(@"ISpace[""Subject""].Value=ISpace[""C_FC_ProjectName_15""].Value;");
 ISpace["MFG_R2_BudgetId"].rElemData=iSpace.Reload(ISpace["MFG_R2_BudgetId"].Value,@"EXEC SP_GetBudgetDetails  '" + ISpace["C_FC_ProjectNo_15"].Value + @"'","3A103712-5244-4427-B2B6-1C4E046FD337");
 base.WriteDebugInfo(@"ISpace[""MFG_R2_BudgetId""].rElemData=iSpace.Reload(ISpace[""MFG_R2_BudgetId""].Value,@""EXEC SP_GetBudgetDetails  '"" + ISpace[""C_FC_ProjectNo_15""].Value + @""'"",""3A103712-5244-4427-B2B6-1C4E046FD337"");");
 ISpace["M_MoveTo"].rElemData=iSpace.Reload(ISpace["M_MoveTo"].Value,@"EXEC GetNextStep '" + ISpace["MF_P1_ReceiptsId"].Value + @"','" + ISpace["M_FlowType"].Value + @"'","24F5D845-D560-4FC1-B284-00FB19DFB96F");
