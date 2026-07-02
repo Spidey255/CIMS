@@ -2363,6 +2363,20 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_fwfm_projectno (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"FWFM_ProjectNo-OnChange");
+ISpace["FWFM_BudgetHead"].rElemData=iSpace.Reload(ISpace["FWFM_BudgetHead"].Value,@"Exec SP_GetDistrubitionDetails 5,'" + ISpace["PFMF_PackageProcessMapId"].Value + @"','" + ISpace["FWFM_FundType"].Value + @"','','','','','" + ISpace["FWFM_ProjectNo"].Value + @"'","9ADED37B-CD11-426B-AF16-DEAC75685EF5");
+base.WriteDebugInfo(@"ISpace[""FWFM_BudgetHead""].rElemData=iSpace.Reload(ISpace[""FWFM_BudgetHead""].Value,@""Exec SP_GetDistrubitionDetails 5,'"" + ISpace[""PFMF_PackageProcessMapId""].Value + @""','"" + ISpace[""FWFM_FundType""].Value + @""','','','','','"" + ISpace[""FWFM_ProjectNo""].Value + @""'"",""9ADED37B-CD11-426B-AF16-DEAC75685EF5"");");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_pfm_yes (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -2407,6 +2421,32 @@ ISpace["PFM_FundDetailsId"].Value="";
 base.WriteDebugInfo(@"ISpace[""PFM_FundDetailsId""].Value="""";");
 ISpace["UI_DeleteDialog"].HideDialog=true;;
 base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].HideDialog=true;;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_fwab_projectno (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"FWAB_ProjectNo-OnChange");
+
+var querySourceE8CDF3599A114739A9979B7F3B8E3BA0 =GetQueryExpressionDataSource("E8CDF359-9A11-4739-A997-9B7F3B8E3BA0");
+
+DataTable resultE8CDF3599A114739A9979B7F3B8E3BA0=iSpace.SetGridDataSource(querySourceE8CDF3599A114739A9979B7F3B8E3BA0, _objectFactory.GetGridRPP("MG_AvailableBudget"),@"EXEC [GetProjectBudgetInformation] '" + ISpace["FWFM_ProjectNo"].Value + @"'");
+
+iSpace.InsertGridBindDetails("MG_AvailableBudget","11",querySourceE8CDF3599A114739A9979B7F3B8E3BA0,"EXEC [GetProjectBudgetInformation] '" + ISpace["FWFM_ProjectNo"].Value + @"'",_objectFactory.GetGridRPP("MG_AvailableBudget"));
+
+base.WriteDebugInfo(@"var querySourceE8CDF3599A114739A9979B7F3B8E3BA0 =GetQueryExpressionDataSource(""E8CDF359-9A11-4739-A997-9B7F3B8E3BA0"");DataTable resultE8CDF3599A114739A9979B7F3B8E3BA0=iSpace.SetGridDataSource(querySourceE8CDF3599A114739A9979B7F3B8E3BA0, _objectFactory.GetGridRPP(""MG_AvailableBudget""),@""EXEC [GetProjectBudgetInformation] '"" + ISpace[""FWFM_ProjectNo""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_AvailableBudget"",""11"",querySourceE8CDF3599A114739A9979B7F3B8E3BA0,""EXEC [GetProjectBudgetInformation] '"" + ISpace[""FWFM_ProjectNo""].Value + @""'"",_objectFactory.GetGridRPP(""MG_AvailableBudget""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result17166BB134FE401CA6BE6657FD12BA43=acdataIspaceF66E6A92393A4A498F4478FD095E0597.GetQueryExpressionBindings("17166BB1-34FE-401C-A6BE-6657FD12BA43");
+iSpace.SetGridData(resultE8CDF3599A114739A9979B7F3B8E3BA0,result17166BB134FE401CA6BE6657FD12BA43,"MG_AvailableBudget",ref ISpace);
+iSpace.UpdateGridBindDetails("MG_AvailableBudget",result17166BB134FE401CA6BE6657FD12BA43);
 }
 catch(Exception ex)
 {
@@ -2864,6 +2904,14 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("fwfm_fundtype"))
     {
     			SubscribeElementEvents_fwfm_fundtype(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("fwfm_projectno"))
+    {
+    			SubscribeElementEvents_fwfm_projectno(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("fwab_projectno"))
+    {
+    			SubscribeElementEvents_fwab_projectno(ref dfsParam);
     }
 		if(elementName.ToLower().Equals("wmf_moveto"))
     {

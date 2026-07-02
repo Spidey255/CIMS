@@ -111,18 +111,18 @@ namespace CPS.Proof.DFSExtension
                                             virtualpageinstance._objectFactory = objectFactoryCommitmentSpentDetails;
                                             break;
 
-                                     case "84777088-B51C-45AA-8BBA-D24FBDEF26E9":   var  objectFactoryFundConfigurations=new FundConfigurationsObjectFactory();
-                                             virtualpageinstance = objectFactoryFundConfigurations.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-
-                                            virtualpageinstance._objectFactory = objectFactoryFundConfigurations;
-                                            break;
-
                                      case "b92107f7-28a5-49d0-8b7f-312c4826dd60":   var  objectFactoryProjectCreation=new ProjectCreationObjectFactory();
                                              virtualpageinstance = objectFactoryProjectCreation.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
 
                                             virtualpageinstance._objectFactory = objectFactoryProjectCreation;
+                                            break;
+
+                                     case "84777088-B51C-45AA-8BBA-D24FBDEF26E9":   var  objectFactoryFundConfigurations=new FundConfigurationsObjectFactory();
+                                             virtualpageinstance = objectFactoryFundConfigurations.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+
+                                            virtualpageinstance._objectFactory = objectFactoryFundConfigurations;
                                             break;
 
                                      case "36447555-6c49-45cd-8563-426f536ebf74":   var  objectFactoryProjectReimbursementNew=new ProjectReimbursementNewObjectFactory();
@@ -485,16 +485,16 @@ namespace CPS.Proof.DFSExtension
                                             virtualpageinstance._objectFactory = objectFactoryCommitmentSpentDetails;
                                             break;
 
-                                     case "84777088-B51C-45AA-8BBA-D24FBDEF26E9":   var  objectFactoryFundConfigurations=new FundConfigurationsObjectFactory();
-                                             virtualpageinstance = objectFactoryFundConfigurations.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-                                            virtualpageinstance._objectFactory = objectFactoryFundConfigurations;
-                                            break;
-
                                      case "b92107f7-28a5-49d0-8b7f-312c4826dd60":   var  objectFactoryProjectCreation=new ProjectCreationObjectFactory();
                                              virtualpageinstance = objectFactoryProjectCreation.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
                                             virtualpageinstance._objectFactory = objectFactoryProjectCreation;
+                                            break;
+
+                                     case "84777088-B51C-45AA-8BBA-D24FBDEF26E9":   var  objectFactoryFundConfigurations=new FundConfigurationsObjectFactory();
+                                             virtualpageinstance = objectFactoryFundConfigurations.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+                                            virtualpageinstance._objectFactory = objectFactoryFundConfigurations;
                                             break;
 
                                      case "36447555-6c49-45cd-8563-426f536ebf74":   var  objectFactoryProjectReimbursementNew=new ProjectReimbursementNewObjectFactory();
@@ -785,11 +785,11 @@ namespace CPS.Proof.DFSExtension
                                             break;
                    
                                     
-                    case "84777088-B51C-45AA-8BBA-D24FBDEF26E9":   
+                    case "b92107f7-28a5-49d0-8b7f-312c4826dd60":   
                                              foreach (var item in context.Params)
                                              {
-                                            var  objectFactoryFundConfigurations=new FundConfigurationsObjectFactory();
-                                             combosource = objectFactoryFundConfigurations.GetComboDataSource
+                                            var  objectFactoryProjectCreation=new ProjectCreationObjectFactory();
+                                             combosource = objectFactoryProjectCreation.GetComboDataSource
                                                         (item.ElementName);  
                                              if (combosource != null)
                                 break;
@@ -797,11 +797,11 @@ namespace CPS.Proof.DFSExtension
                                             break;
                    
                                     
-                    case "b92107f7-28a5-49d0-8b7f-312c4826dd60":   
+                    case "84777088-B51C-45AA-8BBA-D24FBDEF26E9":   
                                              foreach (var item in context.Params)
                                              {
-                                            var  objectFactoryProjectCreation=new ProjectCreationObjectFactory();
-                                             combosource = objectFactoryProjectCreation.GetComboDataSource
+                                            var  objectFactoryFundConfigurations=new FundConfigurationsObjectFactory();
+                                             combosource = objectFactoryFundConfigurations.GetComboDataSource
                                                         (item.ElementName);  
                                              if (combosource != null)
                                 break;
@@ -1064,21 +1064,6 @@ namespace CPS.Proof.DFSExtension
 
                                             break;
 
-                                     case "84777088-B51C-45AA-8BBA-D24FBDEF26E9":    var elementFactoryFundConfigurations=new FundConfigurationsDataElementFactory();       
-                                           
-                                             if(context.Action=="GridSave")
-                                            {
-                                                insertQuery = elementFactoryFundConfigurations.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId,token.UMID, formjsonData);
-                                            }
-                                            else
-                                            {
-                                                insertQuery=elementFactoryFundConfigurations.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId, token.UMID, formjsonData);
-                                            }
-
-                                            break;
-
                                      case "b92107f7-28a5-49d0-8b7f-312c4826dd60":    var elementFactoryProjectCreation=new ProjectCreationDataElementFactory();       
                                            
                                              if(context.Action=="GridSave")
@@ -1089,6 +1074,21 @@ namespace CPS.Proof.DFSExtension
                                             else
                                             {
                                                 insertQuery=elementFactoryProjectCreation.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId, token.UMID, formjsonData);
+                                            }
+
+                                            break;
+
+                                     case "84777088-B51C-45AA-8BBA-D24FBDEF26E9":    var elementFactoryFundConfigurations=new FundConfigurationsDataElementFactory();       
+                                           
+                                             if(context.Action=="GridSave")
+                                            {
+                                                insertQuery = elementFactoryFundConfigurations.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId,token.UMID, formjsonData);
+                                            }
+                                            else
+                                            {
+                                                insertQuery=elementFactoryFundConfigurations.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
                                                     context.WidgetId, token.UMID, formjsonData);
                                             }
 
