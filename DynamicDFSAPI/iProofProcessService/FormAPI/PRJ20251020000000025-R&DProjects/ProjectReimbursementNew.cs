@@ -2436,11 +2436,11 @@ base.WriteDebugInfo(@"FWAB_ProjectNo-OnChange");
 
 var querySourceE8CDF3599A114739A9979B7F3B8E3BA0 =GetQueryExpressionDataSource("E8CDF359-9A11-4739-A997-9B7F3B8E3BA0");
 
-DataTable resultE8CDF3599A114739A9979B7F3B8E3BA0=iSpace.SetGridDataSource(querySourceE8CDF3599A114739A9979B7F3B8E3BA0, _objectFactory.GetGridRPP("MG_AvailableBudget"),@"EXEC [GetProjectBudgetInformation] '" + ISpace["FWFM_ProjectNo"].Value + @"'");
+DataTable resultE8CDF3599A114739A9979B7F3B8E3BA0=iSpace.SetGridDataSource(querySourceE8CDF3599A114739A9979B7F3B8E3BA0, _objectFactory.GetGridRPP("MG_AvailableBudget"),@"EXEC [GetProjectBudgetInformation] '" + ISpace["FWAB_ProjectNo"].Value + @"'");
 
-iSpace.InsertGridBindDetails("MG_AvailableBudget","11",querySourceE8CDF3599A114739A9979B7F3B8E3BA0,"EXEC [GetProjectBudgetInformation] '" + ISpace["FWFM_ProjectNo"].Value + @"'",_objectFactory.GetGridRPP("MG_AvailableBudget"));
+iSpace.InsertGridBindDetails("MG_AvailableBudget","11",querySourceE8CDF3599A114739A9979B7F3B8E3BA0,"EXEC [GetProjectBudgetInformation] '" + ISpace["FWAB_ProjectNo"].Value + @"'",_objectFactory.GetGridRPP("MG_AvailableBudget"));
 
-base.WriteDebugInfo(@"var querySourceE8CDF3599A114739A9979B7F3B8E3BA0 =GetQueryExpressionDataSource(""E8CDF359-9A11-4739-A997-9B7F3B8E3BA0"");DataTable resultE8CDF3599A114739A9979B7F3B8E3BA0=iSpace.SetGridDataSource(querySourceE8CDF3599A114739A9979B7F3B8E3BA0, _objectFactory.GetGridRPP(""MG_AvailableBudget""),@""EXEC [GetProjectBudgetInformation] '"" + ISpace[""FWFM_ProjectNo""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_AvailableBudget"",""11"",querySourceE8CDF3599A114739A9979B7F3B8E3BA0,""EXEC [GetProjectBudgetInformation] '"" + ISpace[""FWFM_ProjectNo""].Value + @""'"",_objectFactory.GetGridRPP(""MG_AvailableBudget""));");
+base.WriteDebugInfo(@"var querySourceE8CDF3599A114739A9979B7F3B8E3BA0 =GetQueryExpressionDataSource(""E8CDF359-9A11-4739-A997-9B7F3B8E3BA0"");DataTable resultE8CDF3599A114739A9979B7F3B8E3BA0=iSpace.SetGridDataSource(querySourceE8CDF3599A114739A9979B7F3B8E3BA0, _objectFactory.GetGridRPP(""MG_AvailableBudget""),@""EXEC [GetProjectBudgetInformation] '"" + ISpace[""FWAB_ProjectNo""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_AvailableBudget"",""11"",querySourceE8CDF3599A114739A9979B7F3B8E3BA0,""EXEC [GetProjectBudgetInformation] '"" + ISpace[""FWAB_ProjectNo""].Value + @""'"",_objectFactory.GetGridRPP(""MG_AvailableBudget""));");
 base.WriteDebugInfo(@"");
 
 
