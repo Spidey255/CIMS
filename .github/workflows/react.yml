@@ -21,7 +21,7 @@ jobs:
         run: npm run build
         env:
           CI: false
-          NODE_OPTIONS: --max-old-space-size=4096
+          NODE_OPTIONS: --max-old-space-size=8192
           VITE_BASE_URL: ${{ secrets.VITE_BASE_URL }}
           VITE_AUTH_URL: ${{ secrets.VITE_AUTH_URL }}
           VITE_DOCUMENT_SERVICE_URL: ${{ secrets.VITE_DOCUMENT_SERVICE_URL }}

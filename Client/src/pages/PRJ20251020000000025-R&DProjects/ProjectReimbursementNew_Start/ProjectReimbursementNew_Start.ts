@@ -465,7 +465,7 @@ export const DataElementsData = [
                     "MergeRow": "",
                     "Action": "OnClick",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Initiatedon\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ApplicationStatus\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedOn\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_InitatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"WMF_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d1_Initiatedon\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ApplicationStatus\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedOn\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_InitatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                     "EDT": 10,
                     "DCaption": "",
                     "DHelpText": "",
@@ -827,7 +827,7 @@ export const DataElementsData = [
                             "MergeRow": "",
                             "Action": "OnChange",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"UI_PurchaseRow\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":-1},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"UI_PurchaseRow\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":-1},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                             "EDT": 9,
                             "DCaption": "ReimbursementType",
                             "DHelpText": "",
@@ -940,7 +940,7 @@ export const DataElementsData = [
                                 "HeaderTemplate": "",
                                 "MergeRow": "",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                                 "EDT": 9,
                                 "DCaption": "SubClassification",
                                 "DHelpText": "",
@@ -1578,7 +1578,7 @@ export const DataElementsData = [
                                 "MergeRow": "",
                                 "Action": "OnClick",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                                 "EDT": 10,
                                 "DCaption": "Save",
                                 "DHelpText": "",
@@ -2127,7 +2127,7 @@ export const DataElementsData = [
                                             "MergeRow": "",
                                             "Action": "OnClick",
                                             "IsSaveWidget": 0,
-                                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
                                             "EDT": 10,
                                             "DCaption": "",
                                             "DHelpText": "",
@@ -2635,7 +2635,7 @@ export const DataElementsData = [
                                     "MergeRow": "",
                                     "Action": "OnClick",
                                     "IsSaveWidget": 0,
-                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
                                     "EDT": 10,
                                     "DCaption": "",
                                     "DHelpText": "",
@@ -2707,6 +2707,7 @@ export const DataElementsData = [
                 "FontStrikeout": false,
                 "FontUnderline": false,
                 "Depth": 4,
+                "Css": "content grid_view box_panel_w m-auto",
                 "IsBadge": false,
                 "MaxValue": 100,
                 "CurrValue": 10,
@@ -3092,7 +3093,7 @@ export const DataElementsData = [
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 163,
+                                            "Id": 165,
                                             "uielementid": "39FABFBB-26CF-416F-97FA-08D97D2F27DE",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -3126,12 +3127,12 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 162,
-                                            "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_163_162",
+                                            "__idx": 164,
+                                            "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_165_164",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 172,
+                                                "Id": 174,
                                                 "uielementid": "3AB5C838-BD93-43F4-A1D9-05484E879AC9",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -3165,12 +3166,12 @@ export const DataElementsData = [
                                                 "Bindable": false,
                                                 "IsSaveWidget": 0,
                                                 "BindingDetail": "",
-                                                "__idx": 171,
-                                                "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_172_171",
+                                                "__idx": 173,
+                                                "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_174_173",
                                                 "children": [
                                                   {
                                                     "VersionName": "Medium",
-                                                    "Id": 188,
+                                                    "Id": 190,
                                                     "uielementid": "1136ED65-12BA-4966-96CD-C9143A44C878",
                                                     "ShowCaption": true,
                                                     "Fontbold": false,
@@ -3204,12 +3205,12 @@ export const DataElementsData = [
                                                     "Bindable": false,
                                                     "IsSaveWidget": 0,
                                                     "BindingDetail": "",
-                                                    "__idx": 187,
-                                                    "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_188_187",
+                                                    "__idx": 189,
+                                                    "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_190_189",
                                                     "children": [
                                                       {
                                                         "VersionName": "Medium",
-                                                        "Id": 194,
+                                                        "Id": 196,
                                                         "uielementid": "CFA7E90D-6305-4D2C-965C-BAC0058881A4",
                                                         "ShowCaption": true,
                                                         "Fontbold": false,
@@ -3244,8 +3245,8 @@ export const DataElementsData = [
                                                         "Bindable": false,
                                                         "IsSaveWidget": 0,
                                                         "BindingDetail": "",
-                                                        "__idx": 193,
-                                                        "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_194_193",
+                                                        "__idx": 195,
+                                                        "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_196_195",
                                                         "children": []
                                                       }
                                                     ]
@@ -3254,7 +3255,7 @@ export const DataElementsData = [
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 173,
+                                                "Id": 175,
                                                 "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -3288,12 +3289,12 @@ export const DataElementsData = [
                                                 "Bindable": false,
                                                 "IsSaveWidget": 0,
                                                 "BindingDetail": "",
-                                                "__idx": 172,
-                                                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_173_172",
+                                                "__idx": 174,
+                                                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_175_174",
                                                 "children": [
                                                   {
                                                     "VersionName": "Medium",
-                                                    "Id": 189,
+                                                    "Id": 191,
                                                     "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                                     "ShowCaption": true,
                                                     "Fontbold": false,
@@ -3322,18 +3323,18 @@ export const DataElementsData = [
                                                     "MergeRow": "",
                                                     "Action": "OnChange",
                                                     "IsSaveWidget": 0,
-                                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                                     "EDT": 9,
                                                     "DCaption": "Fund Type",
                                                     "DHelpText": "",
                                                     "DToolTip": "",
-                                                    "__idx": 188,
-                                                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_189_188",
+                                                    "__idx": 190,
+                                                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_191_190",
                                                     "children": []
                                                   },
                                                   {
                                                     "VersionName": "Medium",
-                                                    "Id": 190,
+                                                    "Id": 192,
                                                     "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                                     "ShowCaption": true,
                                                     "Fontbold": false,
@@ -3366,15 +3367,15 @@ export const DataElementsData = [
                                                     "DCaption": "",
                                                     "DHelpText": "",
                                                     "DToolTip": "",
-                                                    "__idx": 189,
-                                                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_190_189",
+                                                    "__idx": 191,
+                                                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_192_191",
                                                     "children": []
                                                   }
                                                 ]
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 174,
+                                                "Id": 176,
                                                 "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -3408,12 +3409,12 @@ export const DataElementsData = [
                                                 "Bindable": false,
                                                 "IsSaveWidget": 0,
                                                 "BindingDetail": "",
-                                                "__idx": 173,
-                                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_174_173",
+                                                "__idx": 175,
+                                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_176_175",
                                                 "children": [
                                                   {
                                                     "VersionName": "Medium",
-                                                    "Id": 191,
+                                                    "Id": 193,
                                                     "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                                     "ShowCaption": true,
                                                     "Fontbold": false,
@@ -3441,7 +3442,7 @@ export const DataElementsData = [
                                                     "HeaderTemplate": "",
                                                     "MergeRow": "",
                                                     "IsSaveWidget": 0,
-                                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                                                     "EDT": 9,
                                                     "DCaption": "Project No",
                                                     "DHelpText": "",
@@ -3460,13 +3461,13 @@ export const DataElementsData = [
                                                         "Span": false
                                                       }
                                                     ],
-                                                    "__idx": 190,
-                                                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_191_190",
+                                                    "__idx": 192,
+                                                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
                                                     "children": []
                                                   },
                                                   {
                                                     "VersionName": "Medium",
-                                                    "Id": 192,
+                                                    "Id": 194,
                                                     "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                                     "ShowCaption": true,
                                                     "Fontbold": false,
@@ -3493,7 +3494,7 @@ export const DataElementsData = [
                                                     "HeaderTemplate": "",
                                                     "MergeRow": "",
                                                     "IsSaveWidget": 0,
-                                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                                                     "EDT": 9,
                                                     "DCaption": "Budget Head",
                                                     "DHelpText": "",
@@ -3512,13 +3513,13 @@ export const DataElementsData = [
                                                         "Span": false
                                                       }
                                                     ],
-                                                    "__idx": 191,
-                                                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_192_191",
+                                                    "__idx": 193,
+                                                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_194_193",
                                                     "children": []
                                                   },
                                                   {
                                                     "VersionName": "Medium",
-                                                    "Id": 193,
+                                                    "Id": 195,
                                                     "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                                     "ShowCaption": true,
                                                     "Fontbold": false,
@@ -3557,8 +3558,8 @@ export const DataElementsData = [
                                                         "Span": false
                                                       }
                                                     ],
-                                                    "__idx": 192,
-                                                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
+                                                    "__idx": 194,
+                                                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_195_194",
                                                     "children": []
                                                   }
                                                 ]
@@ -3608,7 +3609,7 @@ export const DataElementsData = [
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 164,
+                                            "Id": 166,
                                             "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -3642,12 +3643,12 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 163,
-                                            "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_164_163",
+                                            "__idx": 165,
+                                            "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_166_165",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 175,
+                                                "Id": 177,
                                                 "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -3675,13 +3676,13 @@ export const DataElementsData = [
                                                 "MergeRow": "",
                                                 "Action": "OnClick",
                                                 "IsSaveWidget": 0,
-                                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                                 "EDT": 10,
                                                 "DCaption": "Save",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "__idx": 174,
-                                                "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_175_174",
+                                                "__idx": 176,
+                                                "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_177_176",
                                                 "children": []
                                               }
                                             ]
@@ -3772,7 +3773,7 @@ export const DataElementsData = [
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 165,
+                                            "Id": 167,
                                             "uielementid": "C384C16A-B336-4F07-B97A-3108FA636C23",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -3805,13 +3806,13 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 164,
-                                            "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_165_164",
+                                            "__idx": 166,
+                                            "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_167_166",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 166,
+                                            "Id": 168,
                                             "uielementid": "D276129E-A997-4544-80BB-8FFB081B169E",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -3844,13 +3845,13 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 165,
-                                            "_id": "D276129E-A997-4544-80BB-8FFB081B169E_166_165",
+                                            "__idx": 167,
+                                            "_id": "D276129E-A997-4544-80BB-8FFB081B169E_168_167",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 167,
+                                            "Id": 169,
                                             "WidgetId": "825B4680-DEA2-4E2E-861A-965DE912D14B",
                                             "uielementid": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
                                             "WidgetName": "ProjectReimbursementNew_MG_FundAllocation_Start.Json",
@@ -3885,8 +3886,8 @@ export const DataElementsData = [
                                             "DCaption": "",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 166,
-                                            "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_167_166",
+                                            "__idx": 168,
+                                            "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_169_168",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
@@ -4484,7 +4485,7 @@ export const DataElementsData = [
                                                                     "MergeRow": "",
                                                                     "Action": "OnClick",
                                                                     "IsSaveWidget": 0,
-                                                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
+                                                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                                                                     "EDT": 10,
                                                                     "DCaption": "Delete",
                                                                     "DHelpText": "",
@@ -4508,7 +4509,7 @@ export const DataElementsData = [
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 168,
+                                            "Id": 170,
                                             "uielementid": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -4542,13 +4543,13 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 167,
-                                            "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_168_167",
+                                            "__idx": 169,
+                                            "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_170_169",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 169,
+                                            "Id": 171,
                                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                             "TabIndex": -1,
                                             "ShowCaption": false,
@@ -4583,12 +4584,12 @@ export const DataElementsData = [
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
                                             "DCaption": "",
-                                            "__idx": 168,
-                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_169_168",
+                                            "__idx": 170,
+                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_171_170",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 176,
+                                                "Id": 178,
                                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -4621,13 +4622,13 @@ export const DataElementsData = [
                                                 "DHelpText": "",
                                                 "DToolTip": "",
                                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                                "__idx": 175,
-                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_176_175",
+                                                "__idx": 177,
+                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
                                                 "children": []
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 177,
+                                                "Id": 179,
                                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -4661,13 +4662,13 @@ export const DataElementsData = [
                                                 "DHelpText": "",
                                                 "DToolTip": "",
                                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                                "__idx": 176,
-                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_177_176",
+                                                "__idx": 178,
+                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
                                                 "children": []
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 178,
+                                                "Id": 180,
                                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -4701,13 +4702,13 @@ export const DataElementsData = [
                                                 "DHelpText": "",
                                                 "DToolTip": "",
                                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                                "__idx": 177,
-                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
+                                                "__idx": 179,
+                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
                                                 "children": []
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 179,
+                                                "Id": 181,
                                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -4741,13 +4742,13 @@ export const DataElementsData = [
                                                 "DHelpText": "",
                                                 "DToolTip": "",
                                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                                "__idx": 178,
-                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
+                                                "__idx": 180,
+                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
                                                 "children": []
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 180,
+                                                "Id": 182,
                                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -4781,13 +4782,13 @@ export const DataElementsData = [
                                                 "DHelpText": "",
                                                 "DToolTip": "",
                                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                                "__idx": 179,
-                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
+                                                "__idx": 181,
+                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
                                                 "children": []
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 181,
+                                                "Id": 183,
                                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -4821,13 +4822,13 @@ export const DataElementsData = [
                                                 "DHelpText": "",
                                                 "DToolTip": "",
                                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                                "__idx": 180,
-                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
+                                                "__idx": 182,
+                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
                                                 "children": []
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 182,
+                                                "Id": 184,
                                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -4861,13 +4862,13 @@ export const DataElementsData = [
                                                 "DHelpText": "",
                                                 "DToolTip": "",
                                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                                "__idx": 181,
-                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
+                                                "__idx": 183,
+                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
                                                 "children": []
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 183,
+                                                "Id": 185,
                                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -4900,13 +4901,13 @@ export const DataElementsData = [
                                                 "DHelpText": "",
                                                 "DToolTip": "",
                                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                                "__idx": 182,
-                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
+                                                "__idx": 184,
+                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_185_184",
                                                 "children": []
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 184,
+                                                "Id": 186,
                                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -4940,8 +4941,8 @@ export const DataElementsData = [
                                                 "DHelpText": "",
                                                 "DToolTip": "",
                                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                                "__idx": 183,
-                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
+                                                "__idx": 185,
+                                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_186_185",
                                                 "children": []
                                               }
                                             ]
@@ -5550,7 +5551,7 @@ export const DataElementsData = [
                             "HeaderTemplate": "",
                             "MergeRow": "",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWAB_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWAB_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                             "EDT": 9,
                             "DCaption": "Project No",
                             "DHelpText": "",
@@ -7110,7 +7111,45 @@ export const DataElementsData = [
                                     "BindingDetail": "",
                                     "__idx": 145,
                                     "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_146_145",
-                                    "children": []
+                                    "children": [
+                                      {
+                                        "VersionName": "Medium",
+                                        "Id": 160,
+                                        "uielementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+                                        "ShowCaption": true,
+                                        "Fontbold": false,
+                                        "FontItalic": false,
+                                        "FontOverline": false,
+                                        "FontStrikeout": false,
+                                        "FontUnderline": false,
+                                        "Depth": 10,
+                                        "ElementId": "9053F95D-21B2-4F30-B024-69996C688281",
+                                        "UIElementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+                                        "Sequence": 14,
+                                        "ElementName": "MF_d1_TotalAmount",
+                                        "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+                                        "ControlType": "NumericTextBox",
+                                        "Wrap": 4,
+                                        "ClearFix": false,
+                                        "RenderType": 15,
+                                        "OnDemandLoad": false,
+                                        "ControlId": 2,
+                                        "DisplayName": "MF_d1_TotalAmount",
+                                        "Searchable": false,
+                                        "Bindable": false,
+                                        "HeaderTemplate": "",
+                                        "MergeRow": "",
+                                        "IsSaveWidget": 0,
+                                        "BindingDetail": "",
+                                        "EDT": 3,
+                                        "DCaption": "TotalAmount",
+                                        "DHelpText": "",
+                                        "DToolTip": "",
+                                        "__idx": 159,
+                                        "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_160_159",
+                                        "children": []
+                                      }
+                                    ]
                                   }
                                 ]
                               },
@@ -7191,7 +7230,45 @@ export const DataElementsData = [
                                     "BindingDetail": "",
                                     "__idx": 146,
                                     "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_147_146",
-                                    "children": []
+                                    "children": [
+                                      {
+                                        "VersionName": "Medium",
+                                        "Id": 161,
+                                        "uielementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+                                        "ShowCaption": true,
+                                        "Fontbold": false,
+                                        "FontItalic": false,
+                                        "FontOverline": false,
+                                        "FontStrikeout": false,
+                                        "FontUnderline": false,
+                                        "Depth": 10,
+                                        "ElementId": "c6639126-079e-3cc4-51a3-81a8a475ae8d",
+                                        "UIElementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+                                        "Sequence": 15,
+                                        "ElementName": "MF_FundTotal",
+                                        "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+                                        "ControlType": "NumericTextBox",
+                                        "Wrap": 4,
+                                        "ClearFix": false,
+                                        "RenderType": 15,
+                                        "OnDemandLoad": false,
+                                        "ControlId": 2,
+                                        "DisplayName": "MF_FundTotal",
+                                        "Searchable": false,
+                                        "Bindable": false,
+                                        "HeaderTemplate": "",
+                                        "MergeRow": "",
+                                        "IsSaveWidget": 0,
+                                        "BindingDetail": "",
+                                        "EDT": 3,
+                                        "DCaption": "Split up Total",
+                                        "DHelpText": "",
+                                        "DToolTip": "",
+                                        "__idx": 160,
+                                        "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_161_160",
+                                        "children": []
+                                      }
+                                    ]
                                   }
                                 ]
                               }
@@ -7439,7 +7516,7 @@ export const DataElementsData = [
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 160,
+                                        "Id": 162,
                                         "uielementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -7455,7 +7532,7 @@ export const DataElementsData = [
                                         "HeadingType": "h6",
                                         "ElementId": "",
                                         "UIElementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
-                                        "Sequence": 14,
+                                        "Sequence": 16,
                                         "ElementName": "UI_Next Action",
                                         "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
                                         "ControlType": "Header",
@@ -7475,13 +7552,13 @@ export const DataElementsData = [
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
                                         "UCaption": "Next Action",
-                                        "__idx": 159,
-                                        "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_160_159",
+                                        "__idx": 161,
+                                        "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_162_161",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 161,
+                                        "Id": 163,
                                         "uielementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -7495,7 +7572,7 @@ export const DataElementsData = [
                                         "CurrValue": 10,
                                         "ElementId": "",
                                         "UIElementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
-                                        "Sequence": 15,
+                                        "Sequence": 17,
                                         "ElementName": "UI_Right Pane",
                                         "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
                                         "ControlType": "Right Pane",
@@ -7514,8 +7591,8 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 160,
-                                        "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_161_160",
+                                        "__idx": 162,
+                                        "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_163_162",
                                         "children": []
                                       }
                                     ]
@@ -7561,7 +7638,7 @@ export const DataElementsData = [
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 162,
+                                        "Id": 164,
                                         "uielementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -7576,7 +7653,7 @@ export const DataElementsData = [
                                         "CurrValue": 10,
                                         "ElementId": "",
                                         "UIElementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
-                                        "Sequence": 16,
+                                        "Sequence": 18,
                                         "ElementName": "UI_Row",
                                         "ParentElementId": "3CBF0DA3-A6F7-4647-A23B-E77DC87B3E90",
                                         "ControlType": "Row",
@@ -7595,12 +7672,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 161,
-                                        "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_162_161",
+                                        "__idx": 163,
+                                        "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_164_163",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 170,
+                                            "Id": 172,
                                             "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -7634,12 +7711,12 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 169,
-                                            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_170_169",
+                                            "__idx": 171,
+                                            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_172_171",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 185,
+                                                "Id": 187,
                                                 "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -7679,21 +7756,21 @@ export const DataElementsData = [
                                                     "Span": false
                                                   },
                                                   {
-                                                    "Visible": true,
+                                                    "Visible": false,
                                                     "Span": false
                                                   },
                                                   {
-                                                    "Visible": false,
+                                                    "Visible": true,
                                                     "Span": false
                                                   }
                                                 ],
-                                                "__idx": 184,
-                                                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_185_184",
+                                                "__idx": 186,
+                                                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_187_186",
                                                 "children": []
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 186,
+                                                "Id": 188,
                                                 "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -7727,15 +7804,15 @@ export const DataElementsData = [
                                                 "DCaption": "Comment",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "__idx": 185,
-                                                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_186_185",
+                                                "__idx": 187,
+                                                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_188_187",
                                                 "children": []
                                               }
                                             ]
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 171,
+                                            "Id": 173,
                                             "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -7769,12 +7846,12 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 170,
-                                            "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_171_170",
+                                            "__idx": 172,
+                                            "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_173_172",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 187,
+                                                "Id": 189,
                                                 "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -7808,16 +7885,16 @@ export const DataElementsData = [
                                                 "DToolTip": "",
                                                 "ElementControlProperty": [
                                                   {
-                                                    "Visible": true,
+                                                    "Visible": false,
                                                     "Span": false
                                                   },
                                                   {
-                                                    "Visible": false,
+                                                    "Visible": true,
                                                     "Span": false
                                                   }
                                                 ],
-                                                "__idx": 186,
-                                                "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_187_186",
+                                                "__idx": 188,
+                                                "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_189_188",
                                                 "children": []
                                               }
                                             ]
@@ -9227,7 +9304,7 @@ export const DataElementsData = [
                 "MergeRow": "",
                 "Action": "OnClick",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Initiatedon\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ApplicationStatus\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedOn\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_InitatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"WMF_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d1_Initiatedon\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ApplicationStatus\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedOn\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_InitatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                 "EDT": 10,
                 "DCaption": "",
                 "DHelpText": "",
@@ -9589,7 +9666,7 @@ export const DataElementsData = [
                         "MergeRow": "",
                         "Action": "OnChange",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"UI_PurchaseRow\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":-1},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"UI_PurchaseRow\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":-1},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                         "EDT": 9,
                         "DCaption": "ReimbursementType",
                         "DHelpText": "",
@@ -9702,7 +9779,7 @@ export const DataElementsData = [
                             "HeaderTemplate": "",
                             "MergeRow": "",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                             "EDT": 9,
                             "DCaption": "SubClassification",
                             "DHelpText": "",
@@ -10340,7 +10417,7 @@ export const DataElementsData = [
                             "MergeRow": "",
                             "Action": "OnClick",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                             "EDT": 10,
                             "DCaption": "Save",
                             "DHelpText": "",
@@ -10889,7 +10966,7 @@ export const DataElementsData = [
                                         "MergeRow": "",
                                         "Action": "OnClick",
                                         "IsSaveWidget": 0,
-                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
                                         "EDT": 10,
                                         "DCaption": "",
                                         "DHelpText": "",
@@ -11397,7 +11474,7 @@ export const DataElementsData = [
                                 "MergeRow": "",
                                 "Action": "OnClick",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
                                 "EDT": 10,
                                 "DCaption": "",
                                 "DHelpText": "",
@@ -11469,6 +11546,7 @@ export const DataElementsData = [
             "FontStrikeout": false,
             "FontUnderline": false,
             "Depth": 4,
+            "Css": "content grid_view box_panel_w m-auto",
             "IsBadge": false,
             "MaxValue": 100,
             "CurrValue": 10,
@@ -11854,7 +11932,7 @@ export const DataElementsData = [
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 163,
+                                        "Id": 165,
                                         "uielementid": "39FABFBB-26CF-416F-97FA-08D97D2F27DE",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -11888,12 +11966,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 162,
-                                        "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_163_162",
+                                        "__idx": 164,
+                                        "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_165_164",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 172,
+                                            "Id": 174,
                                             "uielementid": "3AB5C838-BD93-43F4-A1D9-05484E879AC9",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -11927,12 +12005,12 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 171,
-                                            "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_172_171",
+                                            "__idx": 173,
+                                            "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_174_173",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 188,
+                                                "Id": 190,
                                                 "uielementid": "1136ED65-12BA-4966-96CD-C9143A44C878",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -11966,12 +12044,12 @@ export const DataElementsData = [
                                                 "Bindable": false,
                                                 "IsSaveWidget": 0,
                                                 "BindingDetail": "",
-                                                "__idx": 187,
-                                                "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_188_187",
+                                                "__idx": 189,
+                                                "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_190_189",
                                                 "children": [
                                                   {
                                                     "VersionName": "Medium",
-                                                    "Id": 194,
+                                                    "Id": 196,
                                                     "uielementid": "CFA7E90D-6305-4D2C-965C-BAC0058881A4",
                                                     "ShowCaption": true,
                                                     "Fontbold": false,
@@ -12006,8 +12084,8 @@ export const DataElementsData = [
                                                     "Bindable": false,
                                                     "IsSaveWidget": 0,
                                                     "BindingDetail": "",
-                                                    "__idx": 193,
-                                                    "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_194_193",
+                                                    "__idx": 195,
+                                                    "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_196_195",
                                                     "children": []
                                                   }
                                                 ]
@@ -12016,7 +12094,7 @@ export const DataElementsData = [
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 173,
+                                            "Id": 175,
                                             "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -12050,12 +12128,12 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 172,
-                                            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_173_172",
+                                            "__idx": 174,
+                                            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_175_174",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 189,
+                                                "Id": 191,
                                                 "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -12084,18 +12162,18 @@ export const DataElementsData = [
                                                 "MergeRow": "",
                                                 "Action": "OnChange",
                                                 "IsSaveWidget": 0,
-                                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                                 "EDT": 9,
                                                 "DCaption": "Fund Type",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "__idx": 188,
-                                                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_189_188",
+                                                "__idx": 190,
+                                                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_191_190",
                                                 "children": []
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 190,
+                                                "Id": 192,
                                                 "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -12128,15 +12206,15 @@ export const DataElementsData = [
                                                 "DCaption": "",
                                                 "DHelpText": "",
                                                 "DToolTip": "",
-                                                "__idx": 189,
-                                                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_190_189",
+                                                "__idx": 191,
+                                                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_192_191",
                                                 "children": []
                                               }
                                             ]
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 174,
+                                            "Id": 176,
                                             "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -12170,12 +12248,12 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 173,
-                                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_174_173",
+                                            "__idx": 175,
+                                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_176_175",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 191,
+                                                "Id": 193,
                                                 "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -12203,7 +12281,7 @@ export const DataElementsData = [
                                                 "HeaderTemplate": "",
                                                 "MergeRow": "",
                                                 "IsSaveWidget": 0,
-                                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                                                 "EDT": 9,
                                                 "DCaption": "Project No",
                                                 "DHelpText": "",
@@ -12222,13 +12300,13 @@ export const DataElementsData = [
                                                     "Span": false
                                                   }
                                                 ],
-                                                "__idx": 190,
-                                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_191_190",
+                                                "__idx": 192,
+                                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
                                                 "children": []
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 192,
+                                                "Id": 194,
                                                 "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -12255,7 +12333,7 @@ export const DataElementsData = [
                                                 "HeaderTemplate": "",
                                                 "MergeRow": "",
                                                 "IsSaveWidget": 0,
-                                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                                                 "EDT": 9,
                                                 "DCaption": "Budget Head",
                                                 "DHelpText": "",
@@ -12274,13 +12352,13 @@ export const DataElementsData = [
                                                     "Span": false
                                                   }
                                                 ],
-                                                "__idx": 191,
-                                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_192_191",
+                                                "__idx": 193,
+                                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_194_193",
                                                 "children": []
                                               },
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 193,
+                                                "Id": 195,
                                                 "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -12319,8 +12397,8 @@ export const DataElementsData = [
                                                     "Span": false
                                                   }
                                                 ],
-                                                "__idx": 192,
-                                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
+                                                "__idx": 194,
+                                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_195_194",
                                                 "children": []
                                               }
                                             ]
@@ -12370,7 +12448,7 @@ export const DataElementsData = [
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 164,
+                                        "Id": 166,
                                         "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -12404,12 +12482,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 163,
-                                        "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_164_163",
+                                        "__idx": 165,
+                                        "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_166_165",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 175,
+                                            "Id": 177,
                                             "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -12437,13 +12515,13 @@ export const DataElementsData = [
                                             "MergeRow": "",
                                             "Action": "OnClick",
                                             "IsSaveWidget": 0,
-                                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                             "EDT": 10,
                                             "DCaption": "Save",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 174,
-                                            "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_175_174",
+                                            "__idx": 176,
+                                            "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_177_176",
                                             "children": []
                                           }
                                         ]
@@ -12534,7 +12612,7 @@ export const DataElementsData = [
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 165,
+                                        "Id": 167,
                                         "uielementid": "C384C16A-B336-4F07-B97A-3108FA636C23",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -12567,13 +12645,13 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 164,
-                                        "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_165_164",
+                                        "__idx": 166,
+                                        "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_167_166",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 166,
+                                        "Id": 168,
                                         "uielementid": "D276129E-A997-4544-80BB-8FFB081B169E",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -12606,13 +12684,13 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 165,
-                                        "_id": "D276129E-A997-4544-80BB-8FFB081B169E_166_165",
+                                        "__idx": 167,
+                                        "_id": "D276129E-A997-4544-80BB-8FFB081B169E_168_167",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 167,
+                                        "Id": 169,
                                         "WidgetId": "825B4680-DEA2-4E2E-861A-965DE912D14B",
                                         "uielementid": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
                                         "WidgetName": "ProjectReimbursementNew_MG_FundAllocation_Start.Json",
@@ -12647,8 +12725,8 @@ export const DataElementsData = [
                                         "DCaption": "",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 166,
-                                        "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_167_166",
+                                        "__idx": 168,
+                                        "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_169_168",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
@@ -13246,7 +13324,7 @@ export const DataElementsData = [
                                                                 "MergeRow": "",
                                                                 "Action": "OnClick",
                                                                 "IsSaveWidget": 0,
-                                                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
+                                                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                                                                 "EDT": 10,
                                                                 "DCaption": "Delete",
                                                                 "DHelpText": "",
@@ -13270,7 +13348,7 @@ export const DataElementsData = [
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 168,
+                                        "Id": 170,
                                         "uielementid": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -13304,13 +13382,13 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 167,
-                                        "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_168_167",
+                                        "__idx": 169,
+                                        "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_170_169",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 169,
+                                        "Id": 171,
                                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                         "TabIndex": -1,
                                         "ShowCaption": false,
@@ -13345,12 +13423,12 @@ export const DataElementsData = [
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
                                         "DCaption": "",
-                                        "__idx": 168,
-                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_169_168",
+                                        "__idx": 170,
+                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_171_170",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 176,
+                                            "Id": 178,
                                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -13383,13 +13461,13 @@ export const DataElementsData = [
                                             "DHelpText": "",
                                             "DToolTip": "",
                                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                            "__idx": 175,
-                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_176_175",
+                                            "__idx": 177,
+                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 177,
+                                            "Id": 179,
                                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -13423,13 +13501,13 @@ export const DataElementsData = [
                                             "DHelpText": "",
                                             "DToolTip": "",
                                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                            "__idx": 176,
-                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_177_176",
+                                            "__idx": 178,
+                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 178,
+                                            "Id": 180,
                                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -13463,13 +13541,13 @@ export const DataElementsData = [
                                             "DHelpText": "",
                                             "DToolTip": "",
                                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                            "__idx": 177,
-                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
+                                            "__idx": 179,
+                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 179,
+                                            "Id": 181,
                                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -13503,13 +13581,13 @@ export const DataElementsData = [
                                             "DHelpText": "",
                                             "DToolTip": "",
                                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                            "__idx": 178,
-                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
+                                            "__idx": 180,
+                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 180,
+                                            "Id": 182,
                                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -13543,13 +13621,13 @@ export const DataElementsData = [
                                             "DHelpText": "",
                                             "DToolTip": "",
                                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                            "__idx": 179,
-                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
+                                            "__idx": 181,
+                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 181,
+                                            "Id": 183,
                                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -13583,13 +13661,13 @@ export const DataElementsData = [
                                             "DHelpText": "",
                                             "DToolTip": "",
                                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                            "__idx": 180,
-                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
+                                            "__idx": 182,
+                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 182,
+                                            "Id": 184,
                                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -13623,13 +13701,13 @@ export const DataElementsData = [
                                             "DHelpText": "",
                                             "DToolTip": "",
                                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                            "__idx": 181,
-                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
+                                            "__idx": 183,
+                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 183,
+                                            "Id": 185,
                                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -13662,13 +13740,13 @@ export const DataElementsData = [
                                             "DHelpText": "",
                                             "DToolTip": "",
                                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                            "__idx": 182,
-                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
+                                            "__idx": 184,
+                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_185_184",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 184,
+                                            "Id": 186,
                                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -13702,8 +13780,8 @@ export const DataElementsData = [
                                             "DHelpText": "",
                                             "DToolTip": "",
                                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                            "__idx": 183,
-                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
+                                            "__idx": 185,
+                                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_186_185",
                                             "children": []
                                           }
                                         ]
@@ -14312,7 +14390,7 @@ export const DataElementsData = [
                         "HeaderTemplate": "",
                         "MergeRow": "",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWAB_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWAB_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                         "EDT": 9,
                         "DCaption": "Project No",
                         "DHelpText": "",
@@ -15872,7 +15950,45 @@ export const DataElementsData = [
                                 "BindingDetail": "",
                                 "__idx": 145,
                                 "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_146_145",
-                                "children": []
+                                "children": [
+                                  {
+                                    "VersionName": "Medium",
+                                    "Id": 160,
+                                    "uielementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+                                    "ShowCaption": true,
+                                    "Fontbold": false,
+                                    "FontItalic": false,
+                                    "FontOverline": false,
+                                    "FontStrikeout": false,
+                                    "FontUnderline": false,
+                                    "Depth": 10,
+                                    "ElementId": "9053F95D-21B2-4F30-B024-69996C688281",
+                                    "UIElementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+                                    "Sequence": 14,
+                                    "ElementName": "MF_d1_TotalAmount",
+                                    "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+                                    "ControlType": "NumericTextBox",
+                                    "Wrap": 4,
+                                    "ClearFix": false,
+                                    "RenderType": 15,
+                                    "OnDemandLoad": false,
+                                    "ControlId": 2,
+                                    "DisplayName": "MF_d1_TotalAmount",
+                                    "Searchable": false,
+                                    "Bindable": false,
+                                    "HeaderTemplate": "",
+                                    "MergeRow": "",
+                                    "IsSaveWidget": 0,
+                                    "BindingDetail": "",
+                                    "EDT": 3,
+                                    "DCaption": "TotalAmount",
+                                    "DHelpText": "",
+                                    "DToolTip": "",
+                                    "__idx": 159,
+                                    "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_160_159",
+                                    "children": []
+                                  }
+                                ]
                               }
                             ]
                           },
@@ -15953,7 +16069,45 @@ export const DataElementsData = [
                                 "BindingDetail": "",
                                 "__idx": 146,
                                 "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_147_146",
-                                "children": []
+                                "children": [
+                                  {
+                                    "VersionName": "Medium",
+                                    "Id": 161,
+                                    "uielementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+                                    "ShowCaption": true,
+                                    "Fontbold": false,
+                                    "FontItalic": false,
+                                    "FontOverline": false,
+                                    "FontStrikeout": false,
+                                    "FontUnderline": false,
+                                    "Depth": 10,
+                                    "ElementId": "c6639126-079e-3cc4-51a3-81a8a475ae8d",
+                                    "UIElementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+                                    "Sequence": 15,
+                                    "ElementName": "MF_FundTotal",
+                                    "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+                                    "ControlType": "NumericTextBox",
+                                    "Wrap": 4,
+                                    "ClearFix": false,
+                                    "RenderType": 15,
+                                    "OnDemandLoad": false,
+                                    "ControlId": 2,
+                                    "DisplayName": "MF_FundTotal",
+                                    "Searchable": false,
+                                    "Bindable": false,
+                                    "HeaderTemplate": "",
+                                    "MergeRow": "",
+                                    "IsSaveWidget": 0,
+                                    "BindingDetail": "",
+                                    "EDT": 3,
+                                    "DCaption": "Split up Total",
+                                    "DHelpText": "",
+                                    "DToolTip": "",
+                                    "__idx": 160,
+                                    "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_161_160",
+                                    "children": []
+                                  }
+                                ]
                               }
                             ]
                           }
@@ -16201,7 +16355,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 160,
+                                    "Id": 162,
                                     "uielementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -16217,7 +16371,7 @@ export const DataElementsData = [
                                     "HeadingType": "h6",
                                     "ElementId": "",
                                     "UIElementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
-                                    "Sequence": 14,
+                                    "Sequence": 16,
                                     "ElementName": "UI_Next Action",
                                     "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
                                     "ControlType": "Header",
@@ -16237,13 +16391,13 @@ export const DataElementsData = [
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
                                     "UCaption": "Next Action",
-                                    "__idx": 159,
-                                    "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_160_159",
+                                    "__idx": 161,
+                                    "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_162_161",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 161,
+                                    "Id": 163,
                                     "uielementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -16257,7 +16411,7 @@ export const DataElementsData = [
                                     "CurrValue": 10,
                                     "ElementId": "",
                                     "UIElementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
-                                    "Sequence": 15,
+                                    "Sequence": 17,
                                     "ElementName": "UI_Right Pane",
                                     "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
                                     "ControlType": "Right Pane",
@@ -16276,8 +16430,8 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 160,
-                                    "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_161_160",
+                                    "__idx": 162,
+                                    "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_163_162",
                                     "children": []
                                   }
                                 ]
@@ -16323,7 +16477,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 162,
+                                    "Id": 164,
                                     "uielementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -16338,7 +16492,7 @@ export const DataElementsData = [
                                     "CurrValue": 10,
                                     "ElementId": "",
                                     "UIElementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
-                                    "Sequence": 16,
+                                    "Sequence": 18,
                                     "ElementName": "UI_Row",
                                     "ParentElementId": "3CBF0DA3-A6F7-4647-A23B-E77DC87B3E90",
                                     "ControlType": "Row",
@@ -16357,12 +16511,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 161,
-                                    "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_162_161",
+                                    "__idx": 163,
+                                    "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_164_163",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 170,
+                                        "Id": 172,
                                         "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -16396,12 +16550,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 169,
-                                        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_170_169",
+                                        "__idx": 171,
+                                        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_172_171",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 185,
+                                            "Id": 187,
                                             "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -16441,21 +16595,21 @@ export const DataElementsData = [
                                                 "Span": false
                                               },
                                               {
-                                                "Visible": true,
+                                                "Visible": false,
                                                 "Span": false
                                               },
                                               {
-                                                "Visible": false,
+                                                "Visible": true,
                                                 "Span": false
                                               }
                                             ],
-                                            "__idx": 184,
-                                            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_185_184",
+                                            "__idx": 186,
+                                            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_187_186",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 186,
+                                            "Id": 188,
                                             "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -16489,15 +16643,15 @@ export const DataElementsData = [
                                             "DCaption": "Comment",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 185,
-                                            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_186_185",
+                                            "__idx": 187,
+                                            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_188_187",
                                             "children": []
                                           }
                                         ]
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 171,
+                                        "Id": 173,
                                         "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -16531,12 +16685,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 170,
-                                        "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_171_170",
+                                        "__idx": 172,
+                                        "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_173_172",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 187,
+                                            "Id": 189,
                                             "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -16570,16 +16724,16 @@ export const DataElementsData = [
                                             "DToolTip": "",
                                             "ElementControlProperty": [
                                               {
-                                                "Visible": true,
+                                                "Visible": false,
                                                 "Span": false
                                               },
                                               {
-                                                "Visible": false,
+                                                "Visible": true,
                                                 "Span": false
                                               }
                                             ],
-                                            "__idx": 186,
-                                            "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_187_186",
+                                            "__idx": 188,
+                                            "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_189_188",
                                             "children": []
                                           }
                                         ]
@@ -17948,7 +18102,7 @@ export const DataElementsData = [
             "MergeRow": "",
             "Action": "OnClick",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Initiatedon\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ApplicationStatus\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedOn\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_InitatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"WMF_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d1_Initiatedon\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ApplicationStatus\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedOn\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_InitatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
             "EDT": 10,
             "DCaption": "",
             "DHelpText": "",
@@ -18269,7 +18423,7 @@ export const DataElementsData = [
                     "MergeRow": "",
                     "Action": "OnChange",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"UI_PurchaseRow\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":-1},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"UI_PurchaseRow\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":-1},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                     "EDT": 9,
                     "DCaption": "ReimbursementType",
                     "DHelpText": "",
@@ -18382,7 +18536,7 @@ export const DataElementsData = [
                         "HeaderTemplate": "",
                         "MergeRow": "",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                         "EDT": 9,
                         "DCaption": "SubClassification",
                         "DHelpText": "",
@@ -19020,7 +19174,7 @@ export const DataElementsData = [
                         "MergeRow": "",
                         "Action": "OnClick",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                         "EDT": 10,
                         "DCaption": "Save",
                         "DHelpText": "",
@@ -19569,7 +19723,7 @@ export const DataElementsData = [
                                     "MergeRow": "",
                                     "Action": "OnClick",
                                     "IsSaveWidget": 0,
-                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
                                     "EDT": 10,
                                     "DCaption": "",
                                     "DHelpText": "",
@@ -20077,7 +20231,7 @@ export const DataElementsData = [
                             "MergeRow": "",
                             "Action": "OnClick",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
                             "EDT": 10,
                             "DCaption": "",
                             "DHelpText": "",
@@ -20149,6 +20303,7 @@ export const DataElementsData = [
         "FontStrikeout": false,
         "FontUnderline": false,
         "Depth": 4,
+        "Css": "content grid_view box_panel_w m-auto",
         "IsBadge": false,
         "MaxValue": 100,
         "CurrValue": 10,
@@ -20534,7 +20689,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 163,
+                                    "Id": 165,
                                     "uielementid": "39FABFBB-26CF-416F-97FA-08D97D2F27DE",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -20568,12 +20723,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 162,
-                                    "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_163_162",
+                                    "__idx": 164,
+                                    "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_165_164",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 172,
+                                        "Id": 174,
                                         "uielementid": "3AB5C838-BD93-43F4-A1D9-05484E879AC9",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -20607,12 +20762,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 171,
-                                        "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_172_171",
+                                        "__idx": 173,
+                                        "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_174_173",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 188,
+                                            "Id": 190,
                                             "uielementid": "1136ED65-12BA-4966-96CD-C9143A44C878",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -20646,12 +20801,12 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 187,
-                                            "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_188_187",
+                                            "__idx": 189,
+                                            "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_190_189",
                                             "children": [
                                               {
                                                 "VersionName": "Medium",
-                                                "Id": 194,
+                                                "Id": 196,
                                                 "uielementid": "CFA7E90D-6305-4D2C-965C-BAC0058881A4",
                                                 "ShowCaption": true,
                                                 "Fontbold": false,
@@ -20686,8 +20841,8 @@ export const DataElementsData = [
                                                 "Bindable": false,
                                                 "IsSaveWidget": 0,
                                                 "BindingDetail": "",
-                                                "__idx": 193,
-                                                "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_194_193",
+                                                "__idx": 195,
+                                                "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_196_195",
                                                 "children": []
                                               }
                                             ]
@@ -20696,7 +20851,7 @@ export const DataElementsData = [
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 173,
+                                        "Id": 175,
                                         "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -20730,12 +20885,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 172,
-                                        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_173_172",
+                                        "__idx": 174,
+                                        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_175_174",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 189,
+                                            "Id": 191,
                                             "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -20764,18 +20919,18 @@ export const DataElementsData = [
                                             "MergeRow": "",
                                             "Action": "OnChange",
                                             "IsSaveWidget": 0,
-                                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                             "EDT": 9,
                                             "DCaption": "Fund Type",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 188,
-                                            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_189_188",
+                                            "__idx": 190,
+                                            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_191_190",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 190,
+                                            "Id": 192,
                                             "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -20808,15 +20963,15 @@ export const DataElementsData = [
                                             "DCaption": "",
                                             "DHelpText": "",
                                             "DToolTip": "",
-                                            "__idx": 189,
-                                            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_190_189",
+                                            "__idx": 191,
+                                            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_192_191",
                                             "children": []
                                           }
                                         ]
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 174,
+                                        "Id": 176,
                                         "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -20850,12 +21005,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 173,
-                                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_174_173",
+                                        "__idx": 175,
+                                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_176_175",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 191,
+                                            "Id": 193,
                                             "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -20883,7 +21038,7 @@ export const DataElementsData = [
                                             "HeaderTemplate": "",
                                             "MergeRow": "",
                                             "IsSaveWidget": 0,
-                                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                                             "EDT": 9,
                                             "DCaption": "Project No",
                                             "DHelpText": "",
@@ -20902,13 +21057,13 @@ export const DataElementsData = [
                                                 "Span": false
                                               }
                                             ],
-                                            "__idx": 190,
-                                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_191_190",
+                                            "__idx": 192,
+                                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 192,
+                                            "Id": 194,
                                             "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -20935,7 +21090,7 @@ export const DataElementsData = [
                                             "HeaderTemplate": "",
                                             "MergeRow": "",
                                             "IsSaveWidget": 0,
-                                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                                             "EDT": 9,
                                             "DCaption": "Budget Head",
                                             "DHelpText": "",
@@ -20954,13 +21109,13 @@ export const DataElementsData = [
                                                 "Span": false
                                               }
                                             ],
-                                            "__idx": 191,
-                                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_192_191",
+                                            "__idx": 193,
+                                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_194_193",
                                             "children": []
                                           },
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 193,
+                                            "Id": 195,
                                             "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -20999,8 +21154,8 @@ export const DataElementsData = [
                                                 "Span": false
                                               }
                                             ],
-                                            "__idx": 192,
-                                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
+                                            "__idx": 194,
+                                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_195_194",
                                             "children": []
                                           }
                                         ]
@@ -21050,7 +21205,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 164,
+                                    "Id": 166,
                                     "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -21084,12 +21239,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 163,
-                                    "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_164_163",
+                                    "__idx": 165,
+                                    "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_166_165",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 175,
+                                        "Id": 177,
                                         "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -21117,13 +21272,13 @@ export const DataElementsData = [
                                         "MergeRow": "",
                                         "Action": "OnClick",
                                         "IsSaveWidget": 0,
-                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                         "EDT": 10,
                                         "DCaption": "Save",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 174,
-                                        "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_175_174",
+                                        "__idx": 176,
+                                        "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_177_176",
                                         "children": []
                                       }
                                     ]
@@ -21214,7 +21369,7 @@ export const DataElementsData = [
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 165,
+                                    "Id": 167,
                                     "uielementid": "C384C16A-B336-4F07-B97A-3108FA636C23",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -21247,13 +21402,13 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 164,
-                                    "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_165_164",
+                                    "__idx": 166,
+                                    "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_167_166",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 166,
+                                    "Id": 168,
                                     "uielementid": "D276129E-A997-4544-80BB-8FFB081B169E",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -21286,13 +21441,13 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 165,
-                                    "_id": "D276129E-A997-4544-80BB-8FFB081B169E_166_165",
+                                    "__idx": 167,
+                                    "_id": "D276129E-A997-4544-80BB-8FFB081B169E_168_167",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 167,
+                                    "Id": 169,
                                     "WidgetId": "825B4680-DEA2-4E2E-861A-965DE912D14B",
                                     "uielementid": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
                                     "WidgetName": "ProjectReimbursementNew_MG_FundAllocation_Start.Json",
@@ -21327,8 +21482,8 @@ export const DataElementsData = [
                                     "DCaption": "",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 166,
-                                    "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_167_166",
+                                    "__idx": 168,
+                                    "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_169_168",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
@@ -21926,7 +22081,7 @@ export const DataElementsData = [
                                                             "MergeRow": "",
                                                             "Action": "OnClick",
                                                             "IsSaveWidget": 0,
-                                                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
+                                                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                                                             "EDT": 10,
                                                             "DCaption": "Delete",
                                                             "DHelpText": "",
@@ -21950,7 +22105,7 @@ export const DataElementsData = [
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 168,
+                                    "Id": 170,
                                     "uielementid": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -21984,13 +22139,13 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 167,
-                                    "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_168_167",
+                                    "__idx": 169,
+                                    "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_170_169",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 169,
+                                    "Id": 171,
                                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                     "TabIndex": -1,
                                     "ShowCaption": false,
@@ -22025,12 +22180,12 @@ export const DataElementsData = [
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
                                     "DCaption": "",
-                                    "__idx": 168,
-                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_169_168",
+                                    "__idx": 170,
+                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_171_170",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 176,
+                                        "Id": 178,
                                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -22063,13 +22218,13 @@ export const DataElementsData = [
                                         "DHelpText": "",
                                         "DToolTip": "",
                                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                        "__idx": 175,
-                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_176_175",
+                                        "__idx": 177,
+                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 177,
+                                        "Id": 179,
                                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -22103,13 +22258,13 @@ export const DataElementsData = [
                                         "DHelpText": "",
                                         "DToolTip": "",
                                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                        "__idx": 176,
-                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_177_176",
+                                        "__idx": 178,
+                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 178,
+                                        "Id": 180,
                                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -22143,13 +22298,13 @@ export const DataElementsData = [
                                         "DHelpText": "",
                                         "DToolTip": "",
                                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                        "__idx": 177,
-                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
+                                        "__idx": 179,
+                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 179,
+                                        "Id": 181,
                                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -22183,13 +22338,13 @@ export const DataElementsData = [
                                         "DHelpText": "",
                                         "DToolTip": "",
                                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                        "__idx": 178,
-                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
+                                        "__idx": 180,
+                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 180,
+                                        "Id": 182,
                                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -22223,13 +22378,13 @@ export const DataElementsData = [
                                         "DHelpText": "",
                                         "DToolTip": "",
                                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                        "__idx": 179,
-                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
+                                        "__idx": 181,
+                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 181,
+                                        "Id": 183,
                                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -22263,13 +22418,13 @@ export const DataElementsData = [
                                         "DHelpText": "",
                                         "DToolTip": "",
                                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                        "__idx": 180,
-                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
+                                        "__idx": 182,
+                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 182,
+                                        "Id": 184,
                                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -22303,13 +22458,13 @@ export const DataElementsData = [
                                         "DHelpText": "",
                                         "DToolTip": "",
                                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                        "__idx": 181,
-                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
+                                        "__idx": 183,
+                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 183,
+                                        "Id": 185,
                                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -22342,13 +22497,13 @@ export const DataElementsData = [
                                         "DHelpText": "",
                                         "DToolTip": "",
                                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                        "__idx": 182,
-                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
+                                        "__idx": 184,
+                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_185_184",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 184,
+                                        "Id": 186,
                                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -22382,8 +22537,8 @@ export const DataElementsData = [
                                         "DHelpText": "",
                                         "DToolTip": "",
                                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                        "__idx": 183,
-                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
+                                        "__idx": 185,
+                                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_186_185",
                                         "children": []
                                       }
                                     ]
@@ -22992,7 +23147,7 @@ export const DataElementsData = [
                     "HeaderTemplate": "",
                     "MergeRow": "",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWAB_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWAB_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                     "EDT": 9,
                     "DCaption": "Project No",
                     "DHelpText": "",
@@ -24552,7 +24707,45 @@ export const DataElementsData = [
                             "BindingDetail": "",
                             "__idx": 145,
                             "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_146_145",
-                            "children": []
+                            "children": [
+                              {
+                                "VersionName": "Medium",
+                                "Id": 160,
+                                "uielementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+                                "ShowCaption": true,
+                                "Fontbold": false,
+                                "FontItalic": false,
+                                "FontOverline": false,
+                                "FontStrikeout": false,
+                                "FontUnderline": false,
+                                "Depth": 10,
+                                "ElementId": "9053F95D-21B2-4F30-B024-69996C688281",
+                                "UIElementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+                                "Sequence": 14,
+                                "ElementName": "MF_d1_TotalAmount",
+                                "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+                                "ControlType": "NumericTextBox",
+                                "Wrap": 4,
+                                "ClearFix": false,
+                                "RenderType": 15,
+                                "OnDemandLoad": false,
+                                "ControlId": 2,
+                                "DisplayName": "MF_d1_TotalAmount",
+                                "Searchable": false,
+                                "Bindable": false,
+                                "HeaderTemplate": "",
+                                "MergeRow": "",
+                                "IsSaveWidget": 0,
+                                "BindingDetail": "",
+                                "EDT": 3,
+                                "DCaption": "TotalAmount",
+                                "DHelpText": "",
+                                "DToolTip": "",
+                                "__idx": 159,
+                                "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_160_159",
+                                "children": []
+                              }
+                            ]
                           }
                         ]
                       },
@@ -24633,7 +24826,45 @@ export const DataElementsData = [
                             "BindingDetail": "",
                             "__idx": 146,
                             "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_147_146",
-                            "children": []
+                            "children": [
+                              {
+                                "VersionName": "Medium",
+                                "Id": 161,
+                                "uielementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+                                "ShowCaption": true,
+                                "Fontbold": false,
+                                "FontItalic": false,
+                                "FontOverline": false,
+                                "FontStrikeout": false,
+                                "FontUnderline": false,
+                                "Depth": 10,
+                                "ElementId": "c6639126-079e-3cc4-51a3-81a8a475ae8d",
+                                "UIElementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+                                "Sequence": 15,
+                                "ElementName": "MF_FundTotal",
+                                "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+                                "ControlType": "NumericTextBox",
+                                "Wrap": 4,
+                                "ClearFix": false,
+                                "RenderType": 15,
+                                "OnDemandLoad": false,
+                                "ControlId": 2,
+                                "DisplayName": "MF_FundTotal",
+                                "Searchable": false,
+                                "Bindable": false,
+                                "HeaderTemplate": "",
+                                "MergeRow": "",
+                                "IsSaveWidget": 0,
+                                "BindingDetail": "",
+                                "EDT": 3,
+                                "DCaption": "Split up Total",
+                                "DHelpText": "",
+                                "DToolTip": "",
+                                "__idx": 160,
+                                "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_161_160",
+                                "children": []
+                              }
+                            ]
                           }
                         ]
                       }
@@ -24881,7 +25112,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 160,
+                                "Id": 162,
                                 "uielementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -24897,7 +25128,7 @@ export const DataElementsData = [
                                 "HeadingType": "h6",
                                 "ElementId": "",
                                 "UIElementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
-                                "Sequence": 14,
+                                "Sequence": 16,
                                 "ElementName": "UI_Next Action",
                                 "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
                                 "ControlType": "Header",
@@ -24917,13 +25148,13 @@ export const DataElementsData = [
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
                                 "UCaption": "Next Action",
-                                "__idx": 159,
-                                "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_160_159",
+                                "__idx": 161,
+                                "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_162_161",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 161,
+                                "Id": 163,
                                 "uielementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -24937,7 +25168,7 @@ export const DataElementsData = [
                                 "CurrValue": 10,
                                 "ElementId": "",
                                 "UIElementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
-                                "Sequence": 15,
+                                "Sequence": 17,
                                 "ElementName": "UI_Right Pane",
                                 "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
                                 "ControlType": "Right Pane",
@@ -24956,8 +25187,8 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 160,
-                                "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_161_160",
+                                "__idx": 162,
+                                "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_163_162",
                                 "children": []
                               }
                             ]
@@ -25003,7 +25234,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 162,
+                                "Id": 164,
                                 "uielementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -25018,7 +25249,7 @@ export const DataElementsData = [
                                 "CurrValue": 10,
                                 "ElementId": "",
                                 "UIElementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
-                                "Sequence": 16,
+                                "Sequence": 18,
                                 "ElementName": "UI_Row",
                                 "ParentElementId": "3CBF0DA3-A6F7-4647-A23B-E77DC87B3E90",
                                 "ControlType": "Row",
@@ -25037,12 +25268,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 161,
-                                "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_162_161",
+                                "__idx": 163,
+                                "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_164_163",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 170,
+                                    "Id": 172,
                                     "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -25076,12 +25307,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 169,
-                                    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_170_169",
+                                    "__idx": 171,
+                                    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_172_171",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 185,
+                                        "Id": 187,
                                         "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -25121,21 +25352,21 @@ export const DataElementsData = [
                                             "Span": false
                                           },
                                           {
-                                            "Visible": true,
+                                            "Visible": false,
                                             "Span": false
                                           },
                                           {
-                                            "Visible": false,
+                                            "Visible": true,
                                             "Span": false
                                           }
                                         ],
-                                        "__idx": 184,
-                                        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_185_184",
+                                        "__idx": 186,
+                                        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_187_186",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 186,
+                                        "Id": 188,
                                         "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -25169,15 +25400,15 @@ export const DataElementsData = [
                                         "DCaption": "Comment",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 185,
-                                        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_186_185",
+                                        "__idx": 187,
+                                        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_188_187",
                                         "children": []
                                       }
                                     ]
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 171,
+                                    "Id": 173,
                                     "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -25211,12 +25442,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 170,
-                                    "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_171_170",
+                                    "__idx": 172,
+                                    "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_173_172",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 187,
+                                        "Id": 189,
                                         "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -25250,16 +25481,16 @@ export const DataElementsData = [
                                         "DToolTip": "",
                                         "ElementControlProperty": [
                                           {
-                                            "Visible": true,
+                                            "Visible": false,
                                             "Span": false
                                           },
                                           {
-                                            "Visible": false,
+                                            "Visible": true,
                                             "Span": false
                                           }
                                         ],
-                                        "__idx": 186,
-                                        "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_187_186",
+                                        "__idx": 188,
+                                        "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_189_188",
                                         "children": []
                                       }
                                     ]
@@ -26546,7 +26777,7 @@ export const DataElementsData = [
         "MergeRow": "",
         "Action": "OnClick",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Initiatedon\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ApplicationStatus\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedOn\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_InitatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"WMF_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d1_Initiatedon\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ApplicationStatus\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedOn\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_InitatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
         "EDT": 10,
         "DCaption": "",
         "DHelpText": "",
@@ -26826,7 +27057,7 @@ export const DataElementsData = [
                 "MergeRow": "",
                 "Action": "OnChange",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"UI_PurchaseRow\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":-1},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"UI_PurchaseRow\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":-1},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                 "EDT": 9,
                 "DCaption": "ReimbursementType",
                 "DHelpText": "",
@@ -26939,7 +27170,7 @@ export const DataElementsData = [
                     "HeaderTemplate": "",
                     "MergeRow": "",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                     "EDT": 9,
                     "DCaption": "SubClassification",
                     "DHelpText": "",
@@ -27536,7 +27767,7 @@ export const DataElementsData = [
                     "MergeRow": "",
                     "Action": "OnClick",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                     "EDT": 10,
                     "DCaption": "Save",
                     "DHelpText": "",
@@ -28085,7 +28316,7 @@ export const DataElementsData = [
                                 "MergeRow": "",
                                 "Action": "OnClick",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
                                 "EDT": 10,
                                 "DCaption": "",
                                 "DHelpText": "",
@@ -28593,7 +28824,7 @@ export const DataElementsData = [
                         "MergeRow": "",
                         "Action": "OnClick",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
                         "EDT": 10,
                         "DCaption": "",
                         "DHelpText": "",
@@ -28624,6 +28855,7 @@ export const DataElementsData = [
     "FontStrikeout": false,
     "FontUnderline": false,
     "Depth": 4,
+    "Css": "content grid_view box_panel_w m-auto",
     "IsBadge": false,
     "MaxValue": 100,
     "CurrValue": 10,
@@ -29009,7 +29241,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 163,
+                                "Id": 165,
                                 "uielementid": "39FABFBB-26CF-416F-97FA-08D97D2F27DE",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -29043,12 +29275,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 162,
-                                "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_163_162",
+                                "__idx": 164,
+                                "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_165_164",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 172,
+                                    "Id": 174,
                                     "uielementid": "3AB5C838-BD93-43F4-A1D9-05484E879AC9",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -29082,12 +29314,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 171,
-                                    "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_172_171",
+                                    "__idx": 173,
+                                    "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_174_173",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 188,
+                                        "Id": 190,
                                         "uielementid": "1136ED65-12BA-4966-96CD-C9143A44C878",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -29121,12 +29353,12 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 187,
-                                        "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_188_187",
+                                        "__idx": 189,
+                                        "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_190_189",
                                         "children": [
                                           {
                                             "VersionName": "Medium",
-                                            "Id": 194,
+                                            "Id": 196,
                                             "uielementid": "CFA7E90D-6305-4D2C-965C-BAC0058881A4",
                                             "ShowCaption": true,
                                             "Fontbold": false,
@@ -29161,8 +29393,8 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
-                                            "__idx": 193,
-                                            "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_194_193",
+                                            "__idx": 195,
+                                            "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_196_195",
                                             "children": []
                                           }
                                         ]
@@ -29171,7 +29403,7 @@ export const DataElementsData = [
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 173,
+                                    "Id": 175,
                                     "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -29205,12 +29437,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 172,
-                                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_173_172",
+                                    "__idx": 174,
+                                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_175_174",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 189,
+                                        "Id": 191,
                                         "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -29239,18 +29471,18 @@ export const DataElementsData = [
                                         "MergeRow": "",
                                         "Action": "OnChange",
                                         "IsSaveWidget": 0,
-                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                         "EDT": 9,
                                         "DCaption": "Fund Type",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 188,
-                                        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_189_188",
+                                        "__idx": 190,
+                                        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_191_190",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 190,
+                                        "Id": 192,
                                         "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -29283,15 +29515,15 @@ export const DataElementsData = [
                                         "DCaption": "",
                                         "DHelpText": "",
                                         "DToolTip": "",
-                                        "__idx": 189,
-                                        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_190_189",
+                                        "__idx": 191,
+                                        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_192_191",
                                         "children": []
                                       }
                                     ]
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 174,
+                                    "Id": 176,
                                     "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -29325,12 +29557,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 173,
-                                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_174_173",
+                                    "__idx": 175,
+                                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_176_175",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 191,
+                                        "Id": 193,
                                         "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -29358,7 +29590,7 @@ export const DataElementsData = [
                                         "HeaderTemplate": "",
                                         "MergeRow": "",
                                         "IsSaveWidget": 0,
-                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                                         "EDT": 9,
                                         "DCaption": "Project No",
                                         "DHelpText": "",
@@ -29377,13 +29609,13 @@ export const DataElementsData = [
                                             "Span": false
                                           }
                                         ],
-                                        "__idx": 190,
-                                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_191_190",
+                                        "__idx": 192,
+                                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 192,
+                                        "Id": 194,
                                         "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -29410,7 +29642,7 @@ export const DataElementsData = [
                                         "HeaderTemplate": "",
                                         "MergeRow": "",
                                         "IsSaveWidget": 0,
-                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                                         "EDT": 9,
                                         "DCaption": "Budget Head",
                                         "DHelpText": "",
@@ -29429,13 +29661,13 @@ export const DataElementsData = [
                                             "Span": false
                                           }
                                         ],
-                                        "__idx": 191,
-                                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_192_191",
+                                        "__idx": 193,
+                                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_194_193",
                                         "children": []
                                       },
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 193,
+                                        "Id": 195,
                                         "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -29474,8 +29706,8 @@ export const DataElementsData = [
                                             "Span": false
                                           }
                                         ],
-                                        "__idx": 192,
-                                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
+                                        "__idx": 194,
+                                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_195_194",
                                         "children": []
                                       }
                                     ]
@@ -29525,7 +29757,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 164,
+                                "Id": 166,
                                 "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -29559,12 +29791,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 163,
-                                "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_164_163",
+                                "__idx": 165,
+                                "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_166_165",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 175,
+                                    "Id": 177,
                                     "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -29592,13 +29824,13 @@ export const DataElementsData = [
                                     "MergeRow": "",
                                     "Action": "OnClick",
                                     "IsSaveWidget": 0,
-                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                     "EDT": 10,
                                     "DCaption": "Save",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 174,
-                                    "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_175_174",
+                                    "__idx": 176,
+                                    "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_177_176",
                                     "children": []
                                   }
                                 ]
@@ -29689,7 +29921,7 @@ export const DataElementsData = [
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 165,
+                                "Id": 167,
                                 "uielementid": "C384C16A-B336-4F07-B97A-3108FA636C23",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -29722,13 +29954,13 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 164,
-                                "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_165_164",
+                                "__idx": 166,
+                                "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_167_166",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 166,
+                                "Id": 168,
                                 "uielementid": "D276129E-A997-4544-80BB-8FFB081B169E",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -29761,13 +29993,13 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 165,
-                                "_id": "D276129E-A997-4544-80BB-8FFB081B169E_166_165",
+                                "__idx": 167,
+                                "_id": "D276129E-A997-4544-80BB-8FFB081B169E_168_167",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 167,
+                                "Id": 169,
                                 "WidgetId": "825B4680-DEA2-4E2E-861A-965DE912D14B",
                                 "uielementid": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
                                 "WidgetName": "ProjectReimbursementNew_MG_FundAllocation_Start.Json",
@@ -29802,8 +30034,8 @@ export const DataElementsData = [
                                 "DCaption": "",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 166,
-                                "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_167_166",
+                                "__idx": 168,
+                                "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_169_168",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
@@ -30401,7 +30633,7 @@ export const DataElementsData = [
                                                         "MergeRow": "",
                                                         "Action": "OnClick",
                                                         "IsSaveWidget": 0,
-                                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
+                                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                                                         "EDT": 10,
                                                         "DCaption": "Delete",
                                                         "DHelpText": "",
@@ -30425,7 +30657,7 @@ export const DataElementsData = [
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 168,
+                                "Id": 170,
                                 "uielementid": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -30459,13 +30691,13 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 167,
-                                "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_168_167",
+                                "__idx": 169,
+                                "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_170_169",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 169,
+                                "Id": 171,
                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                 "TabIndex": -1,
                                 "ShowCaption": false,
@@ -30500,12 +30732,12 @@ export const DataElementsData = [
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
                                 "DCaption": "",
-                                "__idx": 168,
-                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_169_168",
+                                "__idx": 170,
+                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_171_170",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 176,
+                                    "Id": 178,
                                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -30538,13 +30770,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                    "__idx": 175,
-                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_176_175",
+                                    "__idx": 177,
+                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 177,
+                                    "Id": 179,
                                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -30578,13 +30810,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                    "__idx": 176,
-                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_177_176",
+                                    "__idx": 178,
+                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 178,
+                                    "Id": 180,
                                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -30618,13 +30850,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                    "__idx": 177,
-                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
+                                    "__idx": 179,
+                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 179,
+                                    "Id": 181,
                                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -30658,13 +30890,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                    "__idx": 178,
-                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
+                                    "__idx": 180,
+                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 180,
+                                    "Id": 182,
                                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -30698,13 +30930,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                    "__idx": 179,
-                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
+                                    "__idx": 181,
+                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 181,
+                                    "Id": 183,
                                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -30738,13 +30970,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                    "__idx": 180,
-                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
+                                    "__idx": 182,
+                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 182,
+                                    "Id": 184,
                                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -30778,13 +31010,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                    "__idx": 181,
-                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
+                                    "__idx": 183,
+                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 183,
+                                    "Id": 185,
                                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -30817,13 +31049,13 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                    "__idx": 182,
-                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
+                                    "__idx": 184,
+                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_185_184",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 184,
+                                    "Id": 186,
                                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -30857,8 +31089,8 @@ export const DataElementsData = [
                                     "DHelpText": "",
                                     "DToolTip": "",
                                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                    "__idx": 183,
-                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
+                                    "__idx": 185,
+                                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_186_185",
                                     "children": []
                                   }
                                 ]
@@ -31467,7 +31699,7 @@ export const DataElementsData = [
                 "HeaderTemplate": "",
                 "MergeRow": "",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWAB_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWAB_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                 "EDT": 9,
                 "DCaption": "Project No",
                 "DHelpText": "",
@@ -32986,7 +33218,45 @@ export const DataElementsData = [
                         "BindingDetail": "",
                         "__idx": 145,
                         "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_146_145",
-                        "children": []
+                        "children": [
+                          {
+                            "VersionName": "Medium",
+                            "Id": 160,
+                            "uielementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+                            "ShowCaption": true,
+                            "Fontbold": false,
+                            "FontItalic": false,
+                            "FontOverline": false,
+                            "FontStrikeout": false,
+                            "FontUnderline": false,
+                            "Depth": 10,
+                            "ElementId": "9053F95D-21B2-4F30-B024-69996C688281",
+                            "UIElementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+                            "Sequence": 14,
+                            "ElementName": "MF_d1_TotalAmount",
+                            "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+                            "ControlType": "NumericTextBox",
+                            "Wrap": 4,
+                            "ClearFix": false,
+                            "RenderType": 15,
+                            "OnDemandLoad": false,
+                            "ControlId": 2,
+                            "DisplayName": "MF_d1_TotalAmount",
+                            "Searchable": false,
+                            "Bindable": false,
+                            "HeaderTemplate": "",
+                            "MergeRow": "",
+                            "IsSaveWidget": 0,
+                            "BindingDetail": "",
+                            "EDT": 3,
+                            "DCaption": "TotalAmount",
+                            "DHelpText": "",
+                            "DToolTip": "",
+                            "__idx": 159,
+                            "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_160_159",
+                            "children": []
+                          }
+                        ]
                       }
                     ]
                   },
@@ -33067,7 +33337,45 @@ export const DataElementsData = [
                         "BindingDetail": "",
                         "__idx": 146,
                         "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_147_146",
-                        "children": []
+                        "children": [
+                          {
+                            "VersionName": "Medium",
+                            "Id": 161,
+                            "uielementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+                            "ShowCaption": true,
+                            "Fontbold": false,
+                            "FontItalic": false,
+                            "FontOverline": false,
+                            "FontStrikeout": false,
+                            "FontUnderline": false,
+                            "Depth": 10,
+                            "ElementId": "c6639126-079e-3cc4-51a3-81a8a475ae8d",
+                            "UIElementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+                            "Sequence": 15,
+                            "ElementName": "MF_FundTotal",
+                            "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+                            "ControlType": "NumericTextBox",
+                            "Wrap": 4,
+                            "ClearFix": false,
+                            "RenderType": 15,
+                            "OnDemandLoad": false,
+                            "ControlId": 2,
+                            "DisplayName": "MF_FundTotal",
+                            "Searchable": false,
+                            "Bindable": false,
+                            "HeaderTemplate": "",
+                            "MergeRow": "",
+                            "IsSaveWidget": 0,
+                            "BindingDetail": "",
+                            "EDT": 3,
+                            "DCaption": "Split up Total",
+                            "DHelpText": "",
+                            "DToolTip": "",
+                            "__idx": 160,
+                            "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_161_160",
+                            "children": []
+                          }
+                        ]
                       }
                     ]
                   }
@@ -33315,7 +33623,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 160,
+                            "Id": 162,
                             "uielementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -33331,7 +33639,7 @@ export const DataElementsData = [
                             "HeadingType": "h6",
                             "ElementId": "",
                             "UIElementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
-                            "Sequence": 14,
+                            "Sequence": 16,
                             "ElementName": "UI_Next Action",
                             "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
                             "ControlType": "Header",
@@ -33351,13 +33659,13 @@ export const DataElementsData = [
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
                             "UCaption": "Next Action",
-                            "__idx": 159,
-                            "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_160_159",
+                            "__idx": 161,
+                            "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_162_161",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 161,
+                            "Id": 163,
                             "uielementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -33371,7 +33679,7 @@ export const DataElementsData = [
                             "CurrValue": 10,
                             "ElementId": "",
                             "UIElementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
-                            "Sequence": 15,
+                            "Sequence": 17,
                             "ElementName": "UI_Right Pane",
                             "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
                             "ControlType": "Right Pane",
@@ -33390,8 +33698,8 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 160,
-                            "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_161_160",
+                            "__idx": 162,
+                            "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_163_162",
                             "children": []
                           }
                         ]
@@ -33437,7 +33745,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 162,
+                            "Id": 164,
                             "uielementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -33452,7 +33760,7 @@ export const DataElementsData = [
                             "CurrValue": 10,
                             "ElementId": "",
                             "UIElementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
-                            "Sequence": 16,
+                            "Sequence": 18,
                             "ElementName": "UI_Row",
                             "ParentElementId": "3CBF0DA3-A6F7-4647-A23B-E77DC87B3E90",
                             "ControlType": "Row",
@@ -33471,12 +33779,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 161,
-                            "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_162_161",
+                            "__idx": 163,
+                            "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_164_163",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 170,
+                                "Id": 172,
                                 "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -33510,12 +33818,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 169,
-                                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_170_169",
+                                "__idx": 171,
+                                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_172_171",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 185,
+                                    "Id": 187,
                                     "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -33555,21 +33863,21 @@ export const DataElementsData = [
                                         "Span": false
                                       },
                                       {
-                                        "Visible": true,
+                                        "Visible": false,
                                         "Span": false
                                       },
                                       {
-                                        "Visible": false,
+                                        "Visible": true,
                                         "Span": false
                                       }
                                     ],
-                                    "__idx": 184,
-                                    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_185_184",
+                                    "__idx": 186,
+                                    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_187_186",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 186,
+                                    "Id": 188,
                                     "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -33603,15 +33911,15 @@ export const DataElementsData = [
                                     "DCaption": "Comment",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 185,
-                                    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_186_185",
+                                    "__idx": 187,
+                                    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_188_187",
                                     "children": []
                                   }
                                 ]
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 171,
+                                "Id": 173,
                                 "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -33645,12 +33953,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 170,
-                                "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_171_170",
+                                "__idx": 172,
+                                "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_173_172",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 187,
+                                    "Id": 189,
                                     "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -33684,16 +33992,16 @@ export const DataElementsData = [
                                     "DToolTip": "",
                                     "ElementControlProperty": [
                                       {
-                                        "Visible": true,
+                                        "Visible": false,
                                         "Span": false
                                       },
                                       {
-                                        "Visible": false,
+                                        "Visible": true,
                                         "Span": false
                                       }
                                     ],
-                                    "__idx": 186,
-                                    "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_187_186",
+                                    "__idx": 188,
+                                    "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_189_188",
                                     "children": []
                                   }
                                 ]
@@ -34817,7 +35125,7 @@ export const DataElementsData = [
     "MergeRow": "",
     "Action": "OnClick",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Initiatedon\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ApplicationStatus\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedOn\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_InitatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"WMF_MoveTo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"ExecutionMessage\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_d1_Initiatedon\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ApplicationStatus\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedOn\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FlowType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_EmployeeBasicInfoId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_UpdatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_InitatedBy\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
     "EDT": 10,
     "DCaption": "",
     "DHelpText": "",
@@ -35056,7 +35364,7 @@ export const DataElementsData = [
             "MergeRow": "",
             "Action": "OnChange",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"UI_PurchaseRow\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":-1},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"UI_PurchaseRow\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":-1},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
             "EDT": 9,
             "DCaption": "ReimbursementType",
             "DHelpText": "",
@@ -35169,7 +35477,7 @@ export const DataElementsData = [
                 "HeaderTemplate": "",
                 "MergeRow": "",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                 "EDT": 9,
                 "DCaption": "SubClassification",
                 "DHelpText": "",
@@ -35725,7 +36033,7 @@ export const DataElementsData = [
                 "MergeRow": "",
                 "Action": "OnClick",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
                 "EDT": 10,
                 "DCaption": "Save",
                 "DHelpText": "",
@@ -36274,7 +36582,7 @@ export const DataElementsData = [
                             "MergeRow": "",
                             "Action": "OnClick",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
                             "EDT": 10,
                             "DCaption": "",
                             "DHelpText": "",
@@ -36782,7 +37090,7 @@ export const DataElementsData = [
                     "MergeRow": "",
                     "Action": "OnClick",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
                     "EDT": 10,
                     "DCaption": "",
                     "DHelpText": "",
@@ -37158,7 +37466,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 163,
+                            "Id": 165,
                             "uielementid": "39FABFBB-26CF-416F-97FA-08D97D2F27DE",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -37192,12 +37500,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 162,
-                            "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_163_162",
+                            "__idx": 164,
+                            "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_165_164",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 172,
+                                "Id": 174,
                                 "uielementid": "3AB5C838-BD93-43F4-A1D9-05484E879AC9",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -37231,12 +37539,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 171,
-                                "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_172_171",
+                                "__idx": 173,
+                                "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_174_173",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 188,
+                                    "Id": 190,
                                     "uielementid": "1136ED65-12BA-4966-96CD-C9143A44C878",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -37270,12 +37578,12 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 187,
-                                    "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_188_187",
+                                    "__idx": 189,
+                                    "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_190_189",
                                     "children": [
                                       {
                                         "VersionName": "Medium",
-                                        "Id": 194,
+                                        "Id": 196,
                                         "uielementid": "CFA7E90D-6305-4D2C-965C-BAC0058881A4",
                                         "ShowCaption": true,
                                         "Fontbold": false,
@@ -37310,8 +37618,8 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
-                                        "__idx": 193,
-                                        "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_194_193",
+                                        "__idx": 195,
+                                        "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_196_195",
                                         "children": []
                                       }
                                     ]
@@ -37320,7 +37628,7 @@ export const DataElementsData = [
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 173,
+                                "Id": 175,
                                 "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -37354,12 +37662,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 172,
-                                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_173_172",
+                                "__idx": 174,
+                                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_175_174",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 189,
+                                    "Id": 191,
                                     "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -37388,18 +37696,18 @@ export const DataElementsData = [
                                     "MergeRow": "",
                                     "Action": "OnChange",
                                     "IsSaveWidget": 0,
-                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                     "EDT": 9,
                                     "DCaption": "Fund Type",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 188,
-                                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_189_188",
+                                    "__idx": 190,
+                                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_191_190",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 190,
+                                    "Id": 192,
                                     "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -37432,15 +37740,15 @@ export const DataElementsData = [
                                     "DCaption": "",
                                     "DHelpText": "",
                                     "DToolTip": "",
-                                    "__idx": 189,
-                                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_190_189",
+                                    "__idx": 191,
+                                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_192_191",
                                     "children": []
                                   }
                                 ]
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 174,
+                                "Id": 176,
                                 "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -37474,12 +37782,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 173,
-                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_174_173",
+                                "__idx": 175,
+                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_176_175",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 191,
+                                    "Id": 193,
                                     "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -37507,7 +37815,7 @@ export const DataElementsData = [
                                     "HeaderTemplate": "",
                                     "MergeRow": "",
                                     "IsSaveWidget": 0,
-                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                                     "EDT": 9,
                                     "DCaption": "Project No",
                                     "DHelpText": "",
@@ -37526,13 +37834,13 @@ export const DataElementsData = [
                                         "Span": false
                                       }
                                     ],
-                                    "__idx": 190,
-                                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_191_190",
+                                    "__idx": 192,
+                                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 192,
+                                    "Id": 194,
                                     "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -37559,7 +37867,7 @@ export const DataElementsData = [
                                     "HeaderTemplate": "",
                                     "MergeRow": "",
                                     "IsSaveWidget": 0,
-                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                                     "EDT": 9,
                                     "DCaption": "Budget Head",
                                     "DHelpText": "",
@@ -37578,13 +37886,13 @@ export const DataElementsData = [
                                         "Span": false
                                       }
                                     ],
-                                    "__idx": 191,
-                                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_192_191",
+                                    "__idx": 193,
+                                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_194_193",
                                     "children": []
                                   },
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 193,
+                                    "Id": 195,
                                     "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -37623,8 +37931,8 @@ export const DataElementsData = [
                                         "Span": false
                                       }
                                     ],
-                                    "__idx": 192,
-                                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
+                                    "__idx": 194,
+                                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_195_194",
                                     "children": []
                                   }
                                 ]
@@ -37674,7 +37982,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 164,
+                            "Id": 166,
                             "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -37708,12 +38016,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 163,
-                            "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_164_163",
+                            "__idx": 165,
+                            "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_166_165",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 175,
+                                "Id": 177,
                                 "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -37741,13 +38049,13 @@ export const DataElementsData = [
                                 "MergeRow": "",
                                 "Action": "OnClick",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                 "EDT": 10,
                                 "DCaption": "Save",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 174,
-                                "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_175_174",
+                                "__idx": 176,
+                                "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_177_176",
                                 "children": []
                               }
                             ]
@@ -37838,7 +38146,7 @@ export const DataElementsData = [
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 165,
+                            "Id": 167,
                             "uielementid": "C384C16A-B336-4F07-B97A-3108FA636C23",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -37871,13 +38179,13 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 164,
-                            "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_165_164",
+                            "__idx": 166,
+                            "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_167_166",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 166,
+                            "Id": 168,
                             "uielementid": "D276129E-A997-4544-80BB-8FFB081B169E",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -37910,13 +38218,13 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 165,
-                            "_id": "D276129E-A997-4544-80BB-8FFB081B169E_166_165",
+                            "__idx": 167,
+                            "_id": "D276129E-A997-4544-80BB-8FFB081B169E_168_167",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 167,
+                            "Id": 169,
                             "WidgetId": "825B4680-DEA2-4E2E-861A-965DE912D14B",
                             "uielementid": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
                             "WidgetName": "ProjectReimbursementNew_MG_FundAllocation_Start.Json",
@@ -37951,8 +38259,8 @@ export const DataElementsData = [
                             "DCaption": "",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 166,
-                            "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_167_166",
+                            "__idx": 168,
+                            "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_169_168",
                             "children": [
                               {
                                 "VersionName": "Medium",
@@ -38550,7 +38858,7 @@ export const DataElementsData = [
                                                     "MergeRow": "",
                                                     "Action": "OnClick",
                                                     "IsSaveWidget": 0,
-                                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
+                                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                                                     "EDT": 10,
                                                     "DCaption": "Delete",
                                                     "DHelpText": "",
@@ -38574,7 +38882,7 @@ export const DataElementsData = [
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 168,
+                            "Id": 170,
                             "uielementid": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -38608,13 +38916,13 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 167,
-                            "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_168_167",
+                            "__idx": 169,
+                            "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_170_169",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 169,
+                            "Id": 171,
                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                             "TabIndex": -1,
                             "ShowCaption": false,
@@ -38649,12 +38957,12 @@ export const DataElementsData = [
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
                             "DCaption": "",
-                            "__idx": 168,
-                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_169_168",
+                            "__idx": 170,
+                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_171_170",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 176,
+                                "Id": 178,
                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -38687,13 +38995,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                "__idx": 175,
-                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_176_175",
+                                "__idx": 177,
+                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 177,
+                                "Id": 179,
                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -38727,13 +39035,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                "__idx": 176,
-                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_177_176",
+                                "__idx": 178,
+                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 178,
+                                "Id": 180,
                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -38767,13 +39075,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                "__idx": 177,
-                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
+                                "__idx": 179,
+                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 179,
+                                "Id": 181,
                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -38807,13 +39115,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                "__idx": 178,
-                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
+                                "__idx": 180,
+                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 180,
+                                "Id": 182,
                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -38847,13 +39155,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                "__idx": 179,
-                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
+                                "__idx": 181,
+                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 181,
+                                "Id": 183,
                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -38887,13 +39195,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                "__idx": 180,
-                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
+                                "__idx": 182,
+                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 182,
+                                "Id": 184,
                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -38927,13 +39235,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                "__idx": 181,
-                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
+                                "__idx": 183,
+                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 183,
+                                "Id": 185,
                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -38966,13 +39274,13 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                "__idx": 182,
-                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
+                                "__idx": 184,
+                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_185_184",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 184,
+                                "Id": 186,
                                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -39006,8 +39314,8 @@ export const DataElementsData = [
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                                "__idx": 183,
-                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
+                                "__idx": 185,
+                                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_186_185",
                                 "children": []
                               }
                             ]
@@ -39616,7 +39924,7 @@ export const DataElementsData = [
             "HeaderTemplate": "",
             "MergeRow": "",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWAB_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWAB_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
             "EDT": 9,
             "DCaption": "Project No",
             "DHelpText": "",
@@ -41094,7 +41402,45 @@ export const DataElementsData = [
                     "BindingDetail": "",
                     "__idx": 145,
                     "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_146_145",
-                    "children": []
+                    "children": [
+                      {
+                        "VersionName": "Medium",
+                        "Id": 160,
+                        "uielementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+                        "ShowCaption": true,
+                        "Fontbold": false,
+                        "FontItalic": false,
+                        "FontOverline": false,
+                        "FontStrikeout": false,
+                        "FontUnderline": false,
+                        "Depth": 10,
+                        "ElementId": "9053F95D-21B2-4F30-B024-69996C688281",
+                        "UIElementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+                        "Sequence": 14,
+                        "ElementName": "MF_d1_TotalAmount",
+                        "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+                        "ControlType": "NumericTextBox",
+                        "Wrap": 4,
+                        "ClearFix": false,
+                        "RenderType": 15,
+                        "OnDemandLoad": false,
+                        "ControlId": 2,
+                        "DisplayName": "MF_d1_TotalAmount",
+                        "Searchable": false,
+                        "Bindable": false,
+                        "HeaderTemplate": "",
+                        "MergeRow": "",
+                        "IsSaveWidget": 0,
+                        "BindingDetail": "",
+                        "EDT": 3,
+                        "DCaption": "TotalAmount",
+                        "DHelpText": "",
+                        "DToolTip": "",
+                        "__idx": 159,
+                        "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_160_159",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               },
@@ -41175,7 +41521,45 @@ export const DataElementsData = [
                     "BindingDetail": "",
                     "__idx": 146,
                     "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_147_146",
-                    "children": []
+                    "children": [
+                      {
+                        "VersionName": "Medium",
+                        "Id": 161,
+                        "uielementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+                        "ShowCaption": true,
+                        "Fontbold": false,
+                        "FontItalic": false,
+                        "FontOverline": false,
+                        "FontStrikeout": false,
+                        "FontUnderline": false,
+                        "Depth": 10,
+                        "ElementId": "c6639126-079e-3cc4-51a3-81a8a475ae8d",
+                        "UIElementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+                        "Sequence": 15,
+                        "ElementName": "MF_FundTotal",
+                        "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+                        "ControlType": "NumericTextBox",
+                        "Wrap": 4,
+                        "ClearFix": false,
+                        "RenderType": 15,
+                        "OnDemandLoad": false,
+                        "ControlId": 2,
+                        "DisplayName": "MF_FundTotal",
+                        "Searchable": false,
+                        "Bindable": false,
+                        "HeaderTemplate": "",
+                        "MergeRow": "",
+                        "IsSaveWidget": 0,
+                        "BindingDetail": "",
+                        "EDT": 3,
+                        "DCaption": "Split up Total",
+                        "DHelpText": "",
+                        "DToolTip": "",
+                        "__idx": 160,
+                        "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_161_160",
+                        "children": []
+                      }
+                    ]
                   }
                 ]
               }
@@ -41382,7 +41766,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 160,
+                        "Id": 162,
                         "uielementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -41398,7 +41782,7 @@ export const DataElementsData = [
                         "HeadingType": "h6",
                         "ElementId": "",
                         "UIElementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
-                        "Sequence": 14,
+                        "Sequence": 16,
                         "ElementName": "UI_Next Action",
                         "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
                         "ControlType": "Header",
@@ -41418,13 +41802,13 @@ export const DataElementsData = [
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
                         "UCaption": "Next Action",
-                        "__idx": 159,
-                        "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_160_159",
+                        "__idx": 161,
+                        "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_162_161",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 161,
+                        "Id": 163,
                         "uielementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -41438,7 +41822,7 @@ export const DataElementsData = [
                         "CurrValue": 10,
                         "ElementId": "",
                         "UIElementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
-                        "Sequence": 15,
+                        "Sequence": 17,
                         "ElementName": "UI_Right Pane",
                         "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
                         "ControlType": "Right Pane",
@@ -41457,8 +41841,8 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 160,
-                        "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_161_160",
+                        "__idx": 162,
+                        "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_163_162",
                         "children": []
                       }
                     ]
@@ -41504,7 +41888,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 162,
+                        "Id": 164,
                         "uielementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -41519,7 +41903,7 @@ export const DataElementsData = [
                         "CurrValue": 10,
                         "ElementId": "",
                         "UIElementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
-                        "Sequence": 16,
+                        "Sequence": 18,
                         "ElementName": "UI_Row",
                         "ParentElementId": "3CBF0DA3-A6F7-4647-A23B-E77DC87B3E90",
                         "ControlType": "Row",
@@ -41538,12 +41922,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 161,
-                        "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_162_161",
+                        "__idx": 163,
+                        "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_164_163",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 170,
+                            "Id": 172,
                             "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -41577,12 +41961,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 169,
-                            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_170_169",
+                            "__idx": 171,
+                            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_172_171",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 185,
+                                "Id": 187,
                                 "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -41622,21 +42006,21 @@ export const DataElementsData = [
                                     "Span": false
                                   },
                                   {
-                                    "Visible": true,
+                                    "Visible": false,
                                     "Span": false
                                   },
                                   {
-                                    "Visible": false,
+                                    "Visible": true,
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 184,
-                                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_185_184",
+                                "__idx": 186,
+                                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_187_186",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 186,
+                                "Id": 188,
                                 "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -41670,15 +42054,15 @@ export const DataElementsData = [
                                 "DCaption": "Comment",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 185,
-                                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_186_185",
+                                "__idx": 187,
+                                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_188_187",
                                 "children": []
                               }
                             ]
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 171,
+                            "Id": 173,
                             "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -41712,12 +42096,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 170,
-                            "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_171_170",
+                            "__idx": 172,
+                            "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_173_172",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 187,
+                                "Id": 189,
                                 "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -41751,16 +42135,16 @@ export const DataElementsData = [
                                 "DToolTip": "",
                                 "ElementControlProperty": [
                                   {
-                                    "Visible": true,
+                                    "Visible": false,
                                     "Span": false
                                   },
                                   {
-                                    "Visible": false,
+                                    "Visible": true,
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 186,
-                                "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_187_186",
+                                "__idx": 188,
+                                "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_189_188",
                                 "children": []
                               }
                             ]
@@ -42844,7 +43228,7 @@ export const DataElementsData = [
         "MergeRow": "",
         "Action": "OnChange",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"UI_PurchaseRow\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":-1},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"UI_PurchaseRow\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":-1},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
         "EDT": 9,
         "DCaption": "ReimbursementType",
         "DHelpText": "",
@@ -42957,7 +43341,7 @@ export const DataElementsData = [
             "HeaderTemplate": "",
             "MergeRow": "",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
             "EDT": 9,
             "DCaption": "SubClassification",
             "DHelpText": "",
@@ -43472,7 +43856,7 @@ export const DataElementsData = [
             "MergeRow": "",
             "Action": "OnClick",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
             "EDT": 10,
             "DCaption": "Save",
             "DHelpText": "",
@@ -44021,7 +44405,7 @@ export const DataElementsData = [
                         "MergeRow": "",
                         "Action": "OnClick",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
                         "EDT": 10,
                         "DCaption": "",
                         "DHelpText": "",
@@ -44529,7 +44913,7 @@ export const DataElementsData = [
                 "MergeRow": "",
                 "Action": "OnClick",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
                 "EDT": 10,
                 "DCaption": "",
                 "DHelpText": "",
@@ -44864,7 +45248,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 163,
+                        "Id": 165,
                         "uielementid": "39FABFBB-26CF-416F-97FA-08D97D2F27DE",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -44898,12 +45282,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 162,
-                        "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_163_162",
+                        "__idx": 164,
+                        "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_165_164",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 172,
+                            "Id": 174,
                             "uielementid": "3AB5C838-BD93-43F4-A1D9-05484E879AC9",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -44937,12 +45321,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 171,
-                            "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_172_171",
+                            "__idx": 173,
+                            "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_174_173",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 188,
+                                "Id": 190,
                                 "uielementid": "1136ED65-12BA-4966-96CD-C9143A44C878",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -44976,12 +45360,12 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 187,
-                                "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_188_187",
+                                "__idx": 189,
+                                "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_190_189",
                                 "children": [
                                   {
                                     "VersionName": "Medium",
-                                    "Id": 194,
+                                    "Id": 196,
                                     "uielementid": "CFA7E90D-6305-4D2C-965C-BAC0058881A4",
                                     "ShowCaption": true,
                                     "Fontbold": false,
@@ -45016,8 +45400,8 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
-                                    "__idx": 193,
-                                    "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_194_193",
+                                    "__idx": 195,
+                                    "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_196_195",
                                     "children": []
                                   }
                                 ]
@@ -45026,7 +45410,7 @@ export const DataElementsData = [
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 173,
+                            "Id": 175,
                             "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -45060,12 +45444,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 172,
-                            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_173_172",
+                            "__idx": 174,
+                            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_175_174",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 189,
+                                "Id": 191,
                                 "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -45094,18 +45478,18 @@ export const DataElementsData = [
                                 "MergeRow": "",
                                 "Action": "OnChange",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                                 "EDT": 9,
                                 "DCaption": "Fund Type",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 188,
-                                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_189_188",
+                                "__idx": 190,
+                                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_191_190",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 190,
+                                "Id": 192,
                                 "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -45138,15 +45522,15 @@ export const DataElementsData = [
                                 "DCaption": "",
                                 "DHelpText": "",
                                 "DToolTip": "",
-                                "__idx": 189,
-                                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_190_189",
+                                "__idx": 191,
+                                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_192_191",
                                 "children": []
                               }
                             ]
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 174,
+                            "Id": 176,
                             "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -45180,12 +45564,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 173,
-                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_174_173",
+                            "__idx": 175,
+                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_176_175",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 191,
+                                "Id": 193,
                                 "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -45213,7 +45597,7 @@ export const DataElementsData = [
                                 "HeaderTemplate": "",
                                 "MergeRow": "",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                                 "EDT": 9,
                                 "DCaption": "Project No",
                                 "DHelpText": "",
@@ -45232,13 +45616,13 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 190,
-                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_191_190",
+                                "__idx": 192,
+                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 192,
+                                "Id": 194,
                                 "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -45265,7 +45649,7 @@ export const DataElementsData = [
                                 "HeaderTemplate": "",
                                 "MergeRow": "",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                                 "EDT": 9,
                                 "DCaption": "Budget Head",
                                 "DHelpText": "",
@@ -45284,13 +45668,13 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 191,
-                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_192_191",
+                                "__idx": 193,
+                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_194_193",
                                 "children": []
                               },
                               {
                                 "VersionName": "Medium",
-                                "Id": 193,
+                                "Id": 195,
                                 "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -45329,8 +45713,8 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
-                                "__idx": 192,
-                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
+                                "__idx": 194,
+                                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_195_194",
                                 "children": []
                               }
                             ]
@@ -45380,7 +45764,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 164,
+                        "Id": 166,
                         "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -45414,12 +45798,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 163,
-                        "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_164_163",
+                        "__idx": 165,
+                        "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_166_165",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 175,
+                            "Id": 177,
                             "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -45447,13 +45831,13 @@ export const DataElementsData = [
                             "MergeRow": "",
                             "Action": "OnClick",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                             "EDT": 10,
                             "DCaption": "Save",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 174,
-                            "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_175_174",
+                            "__idx": 176,
+                            "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_177_176",
                             "children": []
                           }
                         ]
@@ -45544,7 +45928,7 @@ export const DataElementsData = [
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 165,
+                        "Id": 167,
                         "uielementid": "C384C16A-B336-4F07-B97A-3108FA636C23",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -45577,13 +45961,13 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 164,
-                        "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_165_164",
+                        "__idx": 166,
+                        "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_167_166",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 166,
+                        "Id": 168,
                         "uielementid": "D276129E-A997-4544-80BB-8FFB081B169E",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -45616,13 +46000,13 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 165,
-                        "_id": "D276129E-A997-4544-80BB-8FFB081B169E_166_165",
+                        "__idx": 167,
+                        "_id": "D276129E-A997-4544-80BB-8FFB081B169E_168_167",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 167,
+                        "Id": 169,
                         "WidgetId": "825B4680-DEA2-4E2E-861A-965DE912D14B",
                         "uielementid": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
                         "WidgetName": "ProjectReimbursementNew_MG_FundAllocation_Start.Json",
@@ -45657,8 +46041,8 @@ export const DataElementsData = [
                         "DCaption": "",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 166,
-                        "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_167_166",
+                        "__idx": 168,
+                        "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_169_168",
                         "children": [
                           {
                             "VersionName": "Medium",
@@ -46256,7 +46640,7 @@ export const DataElementsData = [
                                                 "MergeRow": "",
                                                 "Action": "OnClick",
                                                 "IsSaveWidget": 0,
-                                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
+                                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                                                 "EDT": 10,
                                                 "DCaption": "Delete",
                                                 "DHelpText": "",
@@ -46280,7 +46664,7 @@ export const DataElementsData = [
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 168,
+                        "Id": 170,
                         "uielementid": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -46314,13 +46698,13 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 167,
-                        "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_168_167",
+                        "__idx": 169,
+                        "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_170_169",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 169,
+                        "Id": 171,
                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                         "TabIndex": -1,
                         "ShowCaption": false,
@@ -46355,12 +46739,12 @@ export const DataElementsData = [
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
                         "DCaption": "",
-                        "__idx": 168,
-                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_169_168",
+                        "__idx": 170,
+                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_171_170",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 176,
+                            "Id": 178,
                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -46393,13 +46777,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                            "__idx": 175,
-                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_176_175",
+                            "__idx": 177,
+                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 177,
+                            "Id": 179,
                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -46433,13 +46817,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                            "__idx": 176,
-                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_177_176",
+                            "__idx": 178,
+                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 178,
+                            "Id": 180,
                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -46473,13 +46857,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                            "__idx": 177,
-                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
+                            "__idx": 179,
+                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 179,
+                            "Id": 181,
                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -46513,13 +46897,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                            "__idx": 178,
-                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
+                            "__idx": 180,
+                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 180,
+                            "Id": 182,
                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -46553,13 +46937,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                            "__idx": 179,
-                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
+                            "__idx": 181,
+                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 181,
+                            "Id": 183,
                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -46593,13 +46977,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                            "__idx": 180,
-                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
+                            "__idx": 182,
+                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 182,
+                            "Id": 184,
                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -46633,13 +47017,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                            "__idx": 181,
-                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
+                            "__idx": 183,
+                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 183,
+                            "Id": 185,
                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -46672,13 +47056,13 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                            "__idx": 182,
-                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
+                            "__idx": 184,
+                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_185_184",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 184,
+                            "Id": 186,
                             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -46712,8 +47096,8 @@ export const DataElementsData = [
                             "DHelpText": "",
                             "DToolTip": "",
                             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                            "__idx": 183,
-                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
+                            "__idx": 185,
+                            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_186_185",
                             "children": []
                           }
                         ]
@@ -47281,7 +47665,7 @@ export const DataElementsData = [
         "HeaderTemplate": "",
         "MergeRow": "",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWAB_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWAB_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
         "EDT": 9,
         "DCaption": "Project No",
         "DHelpText": "",
@@ -48636,7 +49020,45 @@ export const DataElementsData = [
                 "BindingDetail": "",
                 "__idx": 145,
                 "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_146_145",
-                "children": []
+                "children": [
+                  {
+                    "VersionName": "Medium",
+                    "Id": 160,
+                    "uielementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+                    "ShowCaption": true,
+                    "Fontbold": false,
+                    "FontItalic": false,
+                    "FontOverline": false,
+                    "FontStrikeout": false,
+                    "FontUnderline": false,
+                    "Depth": 10,
+                    "ElementId": "9053F95D-21B2-4F30-B024-69996C688281",
+                    "UIElementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+                    "Sequence": 14,
+                    "ElementName": "MF_d1_TotalAmount",
+                    "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+                    "ControlType": "NumericTextBox",
+                    "Wrap": 4,
+                    "ClearFix": false,
+                    "RenderType": 15,
+                    "OnDemandLoad": false,
+                    "ControlId": 2,
+                    "DisplayName": "MF_d1_TotalAmount",
+                    "Searchable": false,
+                    "Bindable": false,
+                    "HeaderTemplate": "",
+                    "MergeRow": "",
+                    "IsSaveWidget": 0,
+                    "BindingDetail": "",
+                    "EDT": 3,
+                    "DCaption": "TotalAmount",
+                    "DHelpText": "",
+                    "DToolTip": "",
+                    "__idx": 159,
+                    "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_160_159",
+                    "children": []
+                  }
+                ]
               }
             ]
           },
@@ -48717,7 +49139,45 @@ export const DataElementsData = [
                 "BindingDetail": "",
                 "__idx": 146,
                 "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_147_146",
-                "children": []
+                "children": [
+                  {
+                    "VersionName": "Medium",
+                    "Id": 161,
+                    "uielementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+                    "ShowCaption": true,
+                    "Fontbold": false,
+                    "FontItalic": false,
+                    "FontOverline": false,
+                    "FontStrikeout": false,
+                    "FontUnderline": false,
+                    "Depth": 10,
+                    "ElementId": "c6639126-079e-3cc4-51a3-81a8a475ae8d",
+                    "UIElementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+                    "Sequence": 15,
+                    "ElementName": "MF_FundTotal",
+                    "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+                    "ControlType": "NumericTextBox",
+                    "Wrap": 4,
+                    "ClearFix": false,
+                    "RenderType": 15,
+                    "OnDemandLoad": false,
+                    "ControlId": 2,
+                    "DisplayName": "MF_FundTotal",
+                    "Searchable": false,
+                    "Bindable": false,
+                    "HeaderTemplate": "",
+                    "MergeRow": "",
+                    "IsSaveWidget": 0,
+                    "BindingDetail": "",
+                    "EDT": 3,
+                    "DCaption": "Split up Total",
+                    "DHelpText": "",
+                    "DToolTip": "",
+                    "__idx": 160,
+                    "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_161_160",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
@@ -48883,7 +49343,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 160,
+                    "Id": 162,
                     "uielementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -48899,7 +49359,7 @@ export const DataElementsData = [
                     "HeadingType": "h6",
                     "ElementId": "",
                     "UIElementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
-                    "Sequence": 14,
+                    "Sequence": 16,
                     "ElementName": "UI_Next Action",
                     "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
                     "ControlType": "Header",
@@ -48919,13 +49379,13 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "UCaption": "Next Action",
-                    "__idx": 159,
-                    "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_160_159",
+                    "__idx": 161,
+                    "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_162_161",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 161,
+                    "Id": 163,
                     "uielementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -48939,7 +49399,7 @@ export const DataElementsData = [
                     "CurrValue": 10,
                     "ElementId": "",
                     "UIElementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
-                    "Sequence": 15,
+                    "Sequence": 17,
                     "ElementName": "UI_Right Pane",
                     "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
                     "ControlType": "Right Pane",
@@ -48958,8 +49418,8 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 160,
-                    "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_161_160",
+                    "__idx": 162,
+                    "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_163_162",
                     "children": []
                   }
                 ]
@@ -49005,7 +49465,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 162,
+                    "Id": 164,
                     "uielementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -49020,7 +49480,7 @@ export const DataElementsData = [
                     "CurrValue": 10,
                     "ElementId": "",
                     "UIElementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
-                    "Sequence": 16,
+                    "Sequence": 18,
                     "ElementName": "UI_Row",
                     "ParentElementId": "3CBF0DA3-A6F7-4647-A23B-E77DC87B3E90",
                     "ControlType": "Row",
@@ -49039,12 +49499,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 161,
-                    "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_162_161",
+                    "__idx": 163,
+                    "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_164_163",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 170,
+                        "Id": 172,
                         "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -49078,12 +49538,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 169,
-                        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_170_169",
+                        "__idx": 171,
+                        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_172_171",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 185,
+                            "Id": 187,
                             "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -49123,21 +49583,21 @@ export const DataElementsData = [
                                 "Span": false
                               },
                               {
-                                "Visible": true,
+                                "Visible": false,
                                 "Span": false
                               },
                               {
-                                "Visible": false,
+                                "Visible": true,
                                 "Span": false
                               }
                             ],
-                            "__idx": 184,
-                            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_185_184",
+                            "__idx": 186,
+                            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_187_186",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 186,
+                            "Id": 188,
                             "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -49171,15 +49631,15 @@ export const DataElementsData = [
                             "DCaption": "Comment",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 185,
-                            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_186_185",
+                            "__idx": 187,
+                            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_188_187",
                             "children": []
                           }
                         ]
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 171,
+                        "Id": 173,
                         "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -49213,12 +49673,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 170,
-                        "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_171_170",
+                        "__idx": 172,
+                        "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_173_172",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 187,
+                            "Id": 189,
                             "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -49252,16 +49712,16 @@ export const DataElementsData = [
                             "DToolTip": "",
                             "ElementControlProperty": [
                               {
-                                "Visible": true,
+                                "Visible": false,
                                 "Span": false
                               },
                               {
-                                "Visible": false,
+                                "Visible": true,
                                 "Span": false
                               }
                             ],
-                            "__idx": 186,
-                            "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_187_186",
+                            "__idx": 188,
+                            "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_189_188",
                             "children": []
                           }
                         ]
@@ -50025,7 +50485,7 @@ export const DataElementsData = [
     "MergeRow": "",
     "Action": "OnChange",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"UI_PurchaseRow\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":-1},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"UI_PurchaseRow\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":-1},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_ReimbursementType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
     "EDT": 9,
     "DCaption": "ReimbursementType",
     "DHelpText": "",
@@ -50138,7 +50598,7 @@ export const DataElementsData = [
         "HeaderTemplate": "",
         "MergeRow": "",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
         "EDT": 9,
         "DCaption": "SubClassification",
         "DHelpText": "",
@@ -50612,7 +51072,7 @@ export const DataElementsData = [
         "MergeRow": "",
         "Action": "OnClick",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
         "EDT": 10,
         "DCaption": "Save",
         "DHelpText": "",
@@ -51120,7 +51580,7 @@ export const DataElementsData = [
                     "MergeRow": "",
                     "Action": "OnClick",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
                     "EDT": 10,
                     "DCaption": "",
                     "DHelpText": "",
@@ -51628,7 +52088,7 @@ export const DataElementsData = [
             "MergeRow": "",
             "Action": "OnClick",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
             "EDT": 10,
             "DCaption": "",
             "DHelpText": "",
@@ -51922,7 +52382,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 163,
+                    "Id": 165,
                     "uielementid": "39FABFBB-26CF-416F-97FA-08D97D2F27DE",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -51956,12 +52416,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 162,
-                    "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_163_162",
+                    "__idx": 164,
+                    "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_165_164",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 172,
+                        "Id": 174,
                         "uielementid": "3AB5C838-BD93-43F4-A1D9-05484E879AC9",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -51995,12 +52455,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 171,
-                        "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_172_171",
+                        "__idx": 173,
+                        "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_174_173",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 188,
+                            "Id": 190,
                             "uielementid": "1136ED65-12BA-4966-96CD-C9143A44C878",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -52034,12 +52494,12 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 187,
-                            "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_188_187",
+                            "__idx": 189,
+                            "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_190_189",
                             "children": [
                               {
                                 "VersionName": "Medium",
-                                "Id": 194,
+                                "Id": 196,
                                 "uielementid": "CFA7E90D-6305-4D2C-965C-BAC0058881A4",
                                 "ShowCaption": true,
                                 "Fontbold": false,
@@ -52074,8 +52534,8 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
-                                "__idx": 193,
-                                "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_194_193",
+                                "__idx": 195,
+                                "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_196_195",
                                 "children": []
                               }
                             ]
@@ -52084,7 +52544,7 @@ export const DataElementsData = [
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 173,
+                        "Id": 175,
                         "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -52118,12 +52578,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 172,
-                        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_173_172",
+                        "__idx": 174,
+                        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_175_174",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 189,
+                            "Id": 191,
                             "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -52152,18 +52612,18 @@ export const DataElementsData = [
                             "MergeRow": "",
                             "Action": "OnChange",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                             "EDT": 9,
                             "DCaption": "Fund Type",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 188,
-                            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_189_188",
+                            "__idx": 190,
+                            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_191_190",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 190,
+                            "Id": 192,
                             "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -52196,15 +52656,15 @@ export const DataElementsData = [
                             "DCaption": "",
                             "DHelpText": "",
                             "DToolTip": "",
-                            "__idx": 189,
-                            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_190_189",
+                            "__idx": 191,
+                            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_192_191",
                             "children": []
                           }
                         ]
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 174,
+                        "Id": 176,
                         "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -52238,12 +52698,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 173,
-                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_174_173",
+                        "__idx": 175,
+                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_176_175",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 191,
+                            "Id": 193,
                             "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -52271,7 +52731,7 @@ export const DataElementsData = [
                             "HeaderTemplate": "",
                             "MergeRow": "",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                             "EDT": 9,
                             "DCaption": "Project No",
                             "DHelpText": "",
@@ -52290,13 +52750,13 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
-                            "__idx": 190,
-                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_191_190",
+                            "__idx": 192,
+                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 192,
+                            "Id": 194,
                             "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -52323,7 +52783,7 @@ export const DataElementsData = [
                             "HeaderTemplate": "",
                             "MergeRow": "",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                             "EDT": 9,
                             "DCaption": "Budget Head",
                             "DHelpText": "",
@@ -52342,13 +52802,13 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
-                            "__idx": 191,
-                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_192_191",
+                            "__idx": 193,
+                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_194_193",
                             "children": []
                           },
                           {
                             "VersionName": "Medium",
-                            "Id": 193,
+                            "Id": 195,
                             "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -52387,8 +52847,8 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
-                            "__idx": 192,
-                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
+                            "__idx": 194,
+                            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_195_194",
                             "children": []
                           }
                         ]
@@ -52438,7 +52898,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 164,
+                    "Id": 166,
                     "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -52472,12 +52932,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 163,
-                    "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_164_163",
+                    "__idx": 165,
+                    "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_166_165",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 175,
+                        "Id": 177,
                         "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -52505,13 +52965,13 @@ export const DataElementsData = [
                         "MergeRow": "",
                         "Action": "OnClick",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                         "EDT": 10,
                         "DCaption": "Save",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 174,
-                        "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_175_174",
+                        "__idx": 176,
+                        "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_177_176",
                         "children": []
                       }
                     ]
@@ -52602,7 +53062,7 @@ export const DataElementsData = [
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 165,
+                    "Id": 167,
                     "uielementid": "C384C16A-B336-4F07-B97A-3108FA636C23",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -52635,13 +53095,13 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 164,
-                    "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_165_164",
+                    "__idx": 166,
+                    "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_167_166",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 166,
+                    "Id": 168,
                     "uielementid": "D276129E-A997-4544-80BB-8FFB081B169E",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -52674,13 +53134,13 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 165,
-                    "_id": "D276129E-A997-4544-80BB-8FFB081B169E_166_165",
+                    "__idx": 167,
+                    "_id": "D276129E-A997-4544-80BB-8FFB081B169E_168_167",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 167,
+                    "Id": 169,
                     "WidgetId": "825B4680-DEA2-4E2E-861A-965DE912D14B",
                     "uielementid": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
                     "WidgetName": "ProjectReimbursementNew_MG_FundAllocation_Start.Json",
@@ -52715,8 +53175,8 @@ export const DataElementsData = [
                     "DCaption": "",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 166,
-                    "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_167_166",
+                    "__idx": 168,
+                    "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_169_168",
                     "children": [
                       {
                         "VersionName": "Medium",
@@ -53314,7 +53774,7 @@ export const DataElementsData = [
                                             "MergeRow": "",
                                             "Action": "OnClick",
                                             "IsSaveWidget": 0,
-                                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
+                                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                                             "EDT": 10,
                                             "DCaption": "Delete",
                                             "DHelpText": "",
@@ -53338,7 +53798,7 @@ export const DataElementsData = [
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 168,
+                    "Id": 170,
                     "uielementid": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -53372,13 +53832,13 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 167,
-                    "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_168_167",
+                    "__idx": 169,
+                    "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_170_169",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 169,
+                    "Id": 171,
                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                     "TabIndex": -1,
                     "ShowCaption": false,
@@ -53413,12 +53873,12 @@ export const DataElementsData = [
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
                     "DCaption": "",
-                    "__idx": 168,
-                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_169_168",
+                    "__idx": 170,
+                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_171_170",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 176,
+                        "Id": 178,
                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -53451,13 +53911,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                        "__idx": 175,
-                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_176_175",
+                        "__idx": 177,
+                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 177,
+                        "Id": 179,
                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -53491,13 +53951,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                        "__idx": 176,
-                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_177_176",
+                        "__idx": 178,
+                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 178,
+                        "Id": 180,
                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -53531,13 +53991,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                        "__idx": 177,
-                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
+                        "__idx": 179,
+                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 179,
+                        "Id": 181,
                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -53571,13 +54031,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                        "__idx": 178,
-                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
+                        "__idx": 180,
+                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 180,
+                        "Id": 182,
                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -53611,13 +54071,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                        "__idx": 179,
-                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
+                        "__idx": 181,
+                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 181,
+                        "Id": 183,
                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -53651,13 +54111,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                        "__idx": 180,
-                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
+                        "__idx": 182,
+                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 182,
+                        "Id": 184,
                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -53691,13 +54151,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                        "__idx": 181,
-                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
+                        "__idx": 183,
+                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 183,
+                        "Id": 185,
                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -53730,13 +54190,13 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                        "__idx": 182,
-                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
+                        "__idx": 184,
+                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_185_184",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 184,
+                        "Id": 186,
                         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -53770,8 +54230,8 @@ export const DataElementsData = [
                         "DHelpText": "",
                         "DToolTip": "",
                         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                        "__idx": 183,
-                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
+                        "__idx": 185,
+                        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_186_185",
                         "children": []
                       }
                     ]
@@ -54257,7 +54717,7 @@ export const DataElementsData = [
     "HeaderTemplate": "",
     "MergeRow": "",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWAB_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWAB_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
     "EDT": 9,
     "DCaption": "Project No",
     "DHelpText": "",
@@ -55178,7 +55638,45 @@ export const DataElementsData = [
             "BindingDetail": "",
             "__idx": 145,
             "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_146_145",
-            "children": []
+            "children": [
+              {
+                "VersionName": "Medium",
+                "Id": 160,
+                "uielementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+                "ShowCaption": true,
+                "Fontbold": false,
+                "FontItalic": false,
+                "FontOverline": false,
+                "FontStrikeout": false,
+                "FontUnderline": false,
+                "Depth": 10,
+                "ElementId": "9053F95D-21B2-4F30-B024-69996C688281",
+                "UIElementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+                "Sequence": 14,
+                "ElementName": "MF_d1_TotalAmount",
+                "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+                "ControlType": "NumericTextBox",
+                "Wrap": 4,
+                "ClearFix": false,
+                "RenderType": 15,
+                "OnDemandLoad": false,
+                "ControlId": 2,
+                "DisplayName": "MF_d1_TotalAmount",
+                "Searchable": false,
+                "Bindable": false,
+                "HeaderTemplate": "",
+                "MergeRow": "",
+                "IsSaveWidget": 0,
+                "BindingDetail": "",
+                "EDT": 3,
+                "DCaption": "TotalAmount",
+                "DHelpText": "",
+                "DToolTip": "",
+                "__idx": 159,
+                "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_160_159",
+                "children": []
+              }
+            ]
           }
         ]
       },
@@ -55259,7 +55757,45 @@ export const DataElementsData = [
             "BindingDetail": "",
             "__idx": 146,
             "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_147_146",
-            "children": []
+            "children": [
+              {
+                "VersionName": "Medium",
+                "Id": 161,
+                "uielementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+                "ShowCaption": true,
+                "Fontbold": false,
+                "FontItalic": false,
+                "FontOverline": false,
+                "FontStrikeout": false,
+                "FontUnderline": false,
+                "Depth": 10,
+                "ElementId": "c6639126-079e-3cc4-51a3-81a8a475ae8d",
+                "UIElementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+                "Sequence": 15,
+                "ElementName": "MF_FundTotal",
+                "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+                "ControlType": "NumericTextBox",
+                "Wrap": 4,
+                "ClearFix": false,
+                "RenderType": 15,
+                "OnDemandLoad": false,
+                "ControlId": 2,
+                "DisplayName": "MF_FundTotal",
+                "Searchable": false,
+                "Bindable": false,
+                "HeaderTemplate": "",
+                "MergeRow": "",
+                "IsSaveWidget": 0,
+                "BindingDetail": "",
+                "EDT": 3,
+                "DCaption": "Split up Total",
+                "DHelpText": "",
+                "DToolTip": "",
+                "__idx": 160,
+                "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_161_160",
+                "children": []
+              }
+            ]
           }
         ]
       }
@@ -55384,7 +55920,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 160,
+                "Id": 162,
                 "uielementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -55400,7 +55936,7 @@ export const DataElementsData = [
                 "HeadingType": "h6",
                 "ElementId": "",
                 "UIElementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
-                "Sequence": 14,
+                "Sequence": 16,
                 "ElementName": "UI_Next Action",
                 "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
                 "ControlType": "Header",
@@ -55420,13 +55956,13 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "UCaption": "Next Action",
-                "__idx": 159,
-                "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_160_159",
+                "__idx": 161,
+                "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_162_161",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 161,
+                "Id": 163,
                 "uielementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -55440,7 +55976,7 @@ export const DataElementsData = [
                 "CurrValue": 10,
                 "ElementId": "",
                 "UIElementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
-                "Sequence": 15,
+                "Sequence": 17,
                 "ElementName": "UI_Right Pane",
                 "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
                 "ControlType": "Right Pane",
@@ -55459,8 +55995,8 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 160,
-                "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_161_160",
+                "__idx": 162,
+                "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_163_162",
                 "children": []
               }
             ]
@@ -55506,7 +56042,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 162,
+                "Id": 164,
                 "uielementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -55521,7 +56057,7 @@ export const DataElementsData = [
                 "CurrValue": 10,
                 "ElementId": "",
                 "UIElementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
-                "Sequence": 16,
+                "Sequence": 18,
                 "ElementName": "UI_Row",
                 "ParentElementId": "3CBF0DA3-A6F7-4647-A23B-E77DC87B3E90",
                 "ControlType": "Row",
@@ -55540,12 +56076,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 161,
-                "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_162_161",
+                "__idx": 163,
+                "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_164_163",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 170,
+                    "Id": 172,
                     "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -55579,12 +56115,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 169,
-                    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_170_169",
+                    "__idx": 171,
+                    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_172_171",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 185,
+                        "Id": 187,
                         "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -55624,21 +56160,21 @@ export const DataElementsData = [
                             "Span": false
                           },
                           {
-                            "Visible": true,
+                            "Visible": false,
                             "Span": false
                           },
                           {
-                            "Visible": false,
+                            "Visible": true,
                             "Span": false
                           }
                         ],
-                        "__idx": 184,
-                        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_185_184",
+                        "__idx": 186,
+                        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_187_186",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 186,
+                        "Id": 188,
                         "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -55672,15 +56208,15 @@ export const DataElementsData = [
                         "DCaption": "Comment",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 185,
-                        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_186_185",
+                        "__idx": 187,
+                        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_188_187",
                         "children": []
                       }
                     ]
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 171,
+                    "Id": 173,
                     "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -55714,12 +56250,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 170,
-                    "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_171_170",
+                    "__idx": 172,
+                    "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_173_172",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 187,
+                        "Id": 189,
                         "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -55753,16 +56289,16 @@ export const DataElementsData = [
                         "DToolTip": "",
                         "ElementControlProperty": [
                           {
-                            "Visible": true,
+                            "Visible": false,
                             "Span": false
                           },
                           {
-                            "Visible": false,
+                            "Visible": true,
                             "Span": false
                           }
                         ],
-                        "__idx": 186,
-                        "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_187_186",
+                        "__idx": 188,
+                        "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_189_188",
                         "children": []
                       }
                     ]
@@ -56320,7 +56856,7 @@ export const DataElementsData = [
     "HeaderTemplate": "",
     "MergeRow": "",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_SubClassification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_Classification\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
     "EDT": 9,
     "DCaption": "SubClassification",
     "DHelpText": "",
@@ -56671,7 +57207,7 @@ export const DataElementsData = [
     "MergeRow": "",
     "Action": "OnClick",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"BillDetails_Sequence\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"growid\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MFG_d2_BillNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MFG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"MFG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_d2_ItemDescription\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"MFG_d2_BillDate\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":8},{\\\"ElementName\\\":\\\"MG_d2_BillDocument\\\",\\\"Value\\\":null,\\\"EDT\\\":5}]\"}]",
     "EDT": 10,
     "DCaption": "Save",
     "DHelpText": "",
@@ -57137,7 +57673,7 @@ export const DataElementsData = [
                 "MergeRow": "",
                 "Action": "OnClick",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
                 "EDT": 10,
                 "DCaption": "",
                 "DHelpText": "",
@@ -57645,7 +58181,7 @@ export const DataElementsData = [
         "MergeRow": "",
         "Action": "OnClick",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
         "EDT": 10,
         "DCaption": "",
         "DHelpText": "",
@@ -57898,7 +58434,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 163,
+                "Id": 165,
                 "uielementid": "39FABFBB-26CF-416F-97FA-08D97D2F27DE",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -57932,12 +58468,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 162,
-                "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_163_162",
+                "__idx": 164,
+                "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_165_164",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 172,
+                    "Id": 174,
                     "uielementid": "3AB5C838-BD93-43F4-A1D9-05484E879AC9",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -57971,12 +58507,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 171,
-                    "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_172_171",
+                    "__idx": 173,
+                    "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_174_173",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 188,
+                        "Id": 190,
                         "uielementid": "1136ED65-12BA-4966-96CD-C9143A44C878",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -58010,12 +58546,12 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 187,
-                        "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_188_187",
+                        "__idx": 189,
+                        "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_190_189",
                         "children": [
                           {
                             "VersionName": "Medium",
-                            "Id": 194,
+                            "Id": 196,
                             "uielementid": "CFA7E90D-6305-4D2C-965C-BAC0058881A4",
                             "ShowCaption": true,
                             "Fontbold": false,
@@ -58050,8 +58586,8 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
-                            "__idx": 193,
-                            "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_194_193",
+                            "__idx": 195,
+                            "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_196_195",
                             "children": []
                           }
                         ]
@@ -58060,7 +58596,7 @@ export const DataElementsData = [
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 173,
+                    "Id": 175,
                     "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -58094,12 +58630,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 172,
-                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_173_172",
+                    "__idx": 174,
+                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_175_174",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 189,
+                        "Id": 191,
                         "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -58128,18 +58664,18 @@ export const DataElementsData = [
                         "MergeRow": "",
                         "Action": "OnChange",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                         "EDT": 9,
                         "DCaption": "Fund Type",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 188,
-                        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_189_188",
+                        "__idx": 190,
+                        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_191_190",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 190,
+                        "Id": 192,
                         "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -58172,15 +58708,15 @@ export const DataElementsData = [
                         "DCaption": "",
                         "DHelpText": "",
                         "DToolTip": "",
-                        "__idx": 189,
-                        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_190_189",
+                        "__idx": 191,
+                        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_192_191",
                         "children": []
                       }
                     ]
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 174,
+                    "Id": 176,
                     "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -58214,12 +58750,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 173,
-                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_174_173",
+                    "__idx": 175,
+                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_176_175",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 191,
+                        "Id": 193,
                         "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -58247,7 +58783,7 @@ export const DataElementsData = [
                         "HeaderTemplate": "",
                         "MergeRow": "",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                         "EDT": 9,
                         "DCaption": "Project No",
                         "DHelpText": "",
@@ -58266,13 +58802,13 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
-                        "__idx": 190,
-                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_191_190",
+                        "__idx": 192,
+                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 192,
+                        "Id": 194,
                         "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -58299,7 +58835,7 @@ export const DataElementsData = [
                         "HeaderTemplate": "",
                         "MergeRow": "",
                         "IsSaveWidget": 0,
-                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                         "EDT": 9,
                         "DCaption": "Budget Head",
                         "DHelpText": "",
@@ -58318,13 +58854,13 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
-                        "__idx": 191,
-                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_192_191",
+                        "__idx": 193,
+                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_194_193",
                         "children": []
                       },
                       {
                         "VersionName": "Medium",
-                        "Id": 193,
+                        "Id": 195,
                         "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -58363,8 +58899,8 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
-                        "__idx": 192,
-                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
+                        "__idx": 194,
+                        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_195_194",
                         "children": []
                       }
                     ]
@@ -58414,7 +58950,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 164,
+                "Id": 166,
                 "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -58448,12 +58984,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 163,
-                "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_164_163",
+                "__idx": 165,
+                "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_166_165",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 175,
+                    "Id": 177,
                     "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -58481,13 +59017,13 @@ export const DataElementsData = [
                     "MergeRow": "",
                     "Action": "OnClick",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                     "EDT": 10,
                     "DCaption": "Save",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 174,
-                    "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_175_174",
+                    "__idx": 176,
+                    "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_177_176",
                     "children": []
                   }
                 ]
@@ -58578,7 +59114,7 @@ export const DataElementsData = [
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 165,
+                "Id": 167,
                 "uielementid": "C384C16A-B336-4F07-B97A-3108FA636C23",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -58611,13 +59147,13 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 164,
-                "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_165_164",
+                "__idx": 166,
+                "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_167_166",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 166,
+                "Id": 168,
                 "uielementid": "D276129E-A997-4544-80BB-8FFB081B169E",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -58650,13 +59186,13 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 165,
-                "_id": "D276129E-A997-4544-80BB-8FFB081B169E_166_165",
+                "__idx": 167,
+                "_id": "D276129E-A997-4544-80BB-8FFB081B169E_168_167",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 167,
+                "Id": 169,
                 "WidgetId": "825B4680-DEA2-4E2E-861A-965DE912D14B",
                 "uielementid": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
                 "WidgetName": "ProjectReimbursementNew_MG_FundAllocation_Start.Json",
@@ -58691,8 +59227,8 @@ export const DataElementsData = [
                 "DCaption": "",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 166,
-                "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_167_166",
+                "__idx": 168,
+                "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_169_168",
                 "children": [
                   {
                     "VersionName": "Medium",
@@ -59290,7 +59826,7 @@ export const DataElementsData = [
                                         "MergeRow": "",
                                         "Action": "OnClick",
                                         "IsSaveWidget": 0,
-                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
+                                        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                                         "EDT": 10,
                                         "DCaption": "Delete",
                                         "DHelpText": "",
@@ -59314,7 +59850,7 @@ export const DataElementsData = [
               },
               {
                 "VersionName": "Medium",
-                "Id": 168,
+                "Id": 170,
                 "uielementid": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -59348,13 +59884,13 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 167,
-                "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_168_167",
+                "__idx": 169,
+                "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_170_169",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 169,
+                "Id": 171,
                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                 "TabIndex": -1,
                 "ShowCaption": false,
@@ -59389,12 +59925,12 @@ export const DataElementsData = [
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
                 "DCaption": "",
-                "__idx": 168,
-                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_169_168",
+                "__idx": 170,
+                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_171_170",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 176,
+                    "Id": 178,
                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -59427,13 +59963,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                    "__idx": 175,
-                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_176_175",
+                    "__idx": 177,
+                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 177,
+                    "Id": 179,
                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -59467,13 +60003,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                    "__idx": 176,
-                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_177_176",
+                    "__idx": 178,
+                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 178,
+                    "Id": 180,
                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -59507,13 +60043,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                    "__idx": 177,
-                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
+                    "__idx": 179,
+                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 179,
+                    "Id": 181,
                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -59547,13 +60083,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                    "__idx": 178,
-                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
+                    "__idx": 180,
+                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 180,
+                    "Id": 182,
                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -59587,13 +60123,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                    "__idx": 179,
-                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
+                    "__idx": 181,
+                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 181,
+                    "Id": 183,
                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -59627,13 +60163,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                    "__idx": 180,
-                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
+                    "__idx": 182,
+                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 182,
+                    "Id": 184,
                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -59667,13 +60203,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                    "__idx": 181,
-                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
+                    "__idx": 183,
+                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 183,
+                    "Id": 185,
                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -59706,13 +60242,13 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                    "__idx": 182,
-                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
+                    "__idx": 184,
+                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_185_184",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 184,
+                    "Id": 186,
                     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -59746,8 +60282,8 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                    "__idx": 183,
-                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
+                    "__idx": 185,
+                    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_186_185",
                     "children": []
                   }
                 ]
@@ -60790,7 +61326,45 @@ export const DataElementsData = [
         "BindingDetail": "",
         "__idx": 145,
         "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_146_145",
-        "children": []
+        "children": [
+          {
+            "VersionName": "Medium",
+            "Id": 160,
+            "uielementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+            "ShowCaption": true,
+            "Fontbold": false,
+            "FontItalic": false,
+            "FontOverline": false,
+            "FontStrikeout": false,
+            "FontUnderline": false,
+            "Depth": 10,
+            "ElementId": "9053F95D-21B2-4F30-B024-69996C688281",
+            "UIElementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+            "Sequence": 14,
+            "ElementName": "MF_d1_TotalAmount",
+            "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+            "ControlType": "NumericTextBox",
+            "Wrap": 4,
+            "ClearFix": false,
+            "RenderType": 15,
+            "OnDemandLoad": false,
+            "ControlId": 2,
+            "DisplayName": "MF_d1_TotalAmount",
+            "Searchable": false,
+            "Bindable": false,
+            "HeaderTemplate": "",
+            "MergeRow": "",
+            "IsSaveWidget": 0,
+            "BindingDetail": "",
+            "EDT": 3,
+            "DCaption": "TotalAmount",
+            "DHelpText": "",
+            "DToolTip": "",
+            "__idx": 159,
+            "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_160_159",
+            "children": []
+          }
+        ]
       }
     ]
   },
@@ -60871,7 +61445,45 @@ export const DataElementsData = [
         "BindingDetail": "",
         "__idx": 146,
         "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_147_146",
-        "children": []
+        "children": [
+          {
+            "VersionName": "Medium",
+            "Id": 161,
+            "uielementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+            "ShowCaption": true,
+            "Fontbold": false,
+            "FontItalic": false,
+            "FontOverline": false,
+            "FontStrikeout": false,
+            "FontUnderline": false,
+            "Depth": 10,
+            "ElementId": "c6639126-079e-3cc4-51a3-81a8a475ae8d",
+            "UIElementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+            "Sequence": 15,
+            "ElementName": "MF_FundTotal",
+            "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+            "ControlType": "NumericTextBox",
+            "Wrap": 4,
+            "ClearFix": false,
+            "RenderType": 15,
+            "OnDemandLoad": false,
+            "ControlId": 2,
+            "DisplayName": "MF_FundTotal",
+            "Searchable": false,
+            "Bindable": false,
+            "HeaderTemplate": "",
+            "MergeRow": "",
+            "IsSaveWidget": 0,
+            "BindingDetail": "",
+            "EDT": 3,
+            "DCaption": "Split up Total",
+            "DHelpText": "",
+            "DToolTip": "",
+            "__idx": 160,
+            "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_161_160",
+            "children": []
+          }
+        ]
       }
     ]
   },
@@ -60955,7 +61567,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 160,
+            "Id": 162,
             "uielementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
             "ShowCaption": true,
             "Fontbold": false,
@@ -60971,7 +61583,7 @@ export const DataElementsData = [
             "HeadingType": "h6",
             "ElementId": "",
             "UIElementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
-            "Sequence": 14,
+            "Sequence": 16,
             "ElementName": "UI_Next Action",
             "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
             "ControlType": "Header",
@@ -60991,13 +61603,13 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "UCaption": "Next Action",
-            "__idx": 159,
-            "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_160_159",
+            "__idx": 161,
+            "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_162_161",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 161,
+            "Id": 163,
             "uielementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
             "ShowCaption": true,
             "Fontbold": false,
@@ -61011,7 +61623,7 @@ export const DataElementsData = [
             "CurrValue": 10,
             "ElementId": "",
             "UIElementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
-            "Sequence": 15,
+            "Sequence": 17,
             "ElementName": "UI_Right Pane",
             "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
             "ControlType": "Right Pane",
@@ -61030,8 +61642,8 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 160,
-            "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_161_160",
+            "__idx": 162,
+            "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_163_162",
             "children": []
           }
         ]
@@ -61077,7 +61689,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 162,
+            "Id": 164,
             "uielementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
             "ShowCaption": true,
             "Fontbold": false,
@@ -61092,7 +61704,7 @@ export const DataElementsData = [
             "CurrValue": 10,
             "ElementId": "",
             "UIElementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
-            "Sequence": 16,
+            "Sequence": 18,
             "ElementName": "UI_Row",
             "ParentElementId": "3CBF0DA3-A6F7-4647-A23B-E77DC87B3E90",
             "ControlType": "Row",
@@ -61111,12 +61723,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 161,
-            "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_162_161",
+            "__idx": 163,
+            "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_164_163",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 170,
+                "Id": 172,
                 "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -61150,12 +61762,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 169,
-                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_170_169",
+                "__idx": 171,
+                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_172_171",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 185,
+                    "Id": 187,
                     "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -61195,21 +61807,21 @@ export const DataElementsData = [
                         "Span": false
                       },
                       {
-                        "Visible": true,
+                        "Visible": false,
                         "Span": false
                       },
                       {
-                        "Visible": false,
+                        "Visible": true,
                         "Span": false
                       }
                     ],
-                    "__idx": 184,
-                    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_185_184",
+                    "__idx": 186,
+                    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_187_186",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 186,
+                    "Id": 188,
                     "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -61243,15 +61855,15 @@ export const DataElementsData = [
                     "DCaption": "Comment",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 185,
-                    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_186_185",
+                    "__idx": 187,
+                    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_188_187",
                     "children": []
                   }
                 ]
               },
               {
                 "VersionName": "Medium",
-                "Id": 171,
+                "Id": 173,
                 "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -61285,12 +61897,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 170,
-                "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_171_170",
+                "__idx": 172,
+                "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_173_172",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 187,
+                    "Id": 189,
                     "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -61324,16 +61936,16 @@ export const DataElementsData = [
                     "DToolTip": "",
                     "ElementControlProperty": [
                       {
-                        "Visible": true,
+                        "Visible": false,
                         "Span": false
                       },
                       {
-                        "Visible": false,
+                        "Visible": true,
                         "Span": false
                       }
                     ],
-                    "__idx": 186,
-                    "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_187_186",
+                    "__idx": 188,
+                    "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_189_188",
                     "children": []
                   }
                 ]
@@ -62116,7 +62728,7 @@ export const DataElementsData = [
     "MergeRow": "",
     "Action": "OnClick",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_d1_TotalAmount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_d2_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_BillDeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0},{\\\"ElementName\\\":\\\"MG_d2_ReimbursementDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_DeleteRowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"BillDetails\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12}]\"}]",
     "EDT": 10,
     "DCaption": "",
     "DHelpText": "",
@@ -62328,7 +62940,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 163,
+            "Id": 165,
             "uielementid": "39FABFBB-26CF-416F-97FA-08D97D2F27DE",
             "ShowCaption": true,
             "Fontbold": false,
@@ -62362,12 +62974,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 162,
-            "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_163_162",
+            "__idx": 164,
+            "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_165_164",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 172,
+                "Id": 174,
                 "uielementid": "3AB5C838-BD93-43F4-A1D9-05484E879AC9",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -62401,12 +63013,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 171,
-                "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_172_171",
+                "__idx": 173,
+                "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_174_173",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 188,
+                    "Id": 190,
                     "uielementid": "1136ED65-12BA-4966-96CD-C9143A44C878",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -62440,12 +63052,12 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 187,
-                    "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_188_187",
+                    "__idx": 189,
+                    "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_190_189",
                     "children": [
                       {
                         "VersionName": "Medium",
-                        "Id": 194,
+                        "Id": 196,
                         "uielementid": "CFA7E90D-6305-4D2C-965C-BAC0058881A4",
                         "ShowCaption": true,
                         "Fontbold": false,
@@ -62480,8 +63092,8 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
-                        "__idx": 193,
-                        "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_194_193",
+                        "__idx": 195,
+                        "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_196_195",
                         "children": []
                       }
                     ]
@@ -62490,7 +63102,7 @@ export const DataElementsData = [
               },
               {
                 "VersionName": "Medium",
-                "Id": 173,
+                "Id": 175,
                 "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -62524,12 +63136,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 172,
-                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_173_172",
+                "__idx": 174,
+                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_175_174",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 189,
+                    "Id": 191,
                     "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -62558,18 +63170,18 @@ export const DataElementsData = [
                     "MergeRow": "",
                     "Action": "OnChange",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                     "EDT": 9,
                     "DCaption": "Fund Type",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 188,
-                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_189_188",
+                    "__idx": 190,
+                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_191_190",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 190,
+                    "Id": 192,
                     "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -62602,15 +63214,15 @@ export const DataElementsData = [
                     "DCaption": "",
                     "DHelpText": "",
                     "DToolTip": "",
-                    "__idx": 189,
-                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_190_189",
+                    "__idx": 191,
+                    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_192_191",
                     "children": []
                   }
                 ]
               },
               {
                 "VersionName": "Medium",
-                "Id": 174,
+                "Id": 176,
                 "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -62644,12 +63256,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 173,
-                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_174_173",
+                "__idx": 175,
+                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_176_175",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 191,
+                    "Id": 193,
                     "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -62677,7 +63289,7 @@ export const DataElementsData = [
                     "HeaderTemplate": "",
                     "MergeRow": "",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                     "EDT": 9,
                     "DCaption": "Project No",
                     "DHelpText": "",
@@ -62696,13 +63308,13 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
-                    "__idx": 190,
-                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_191_190",
+                    "__idx": 192,
+                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 192,
+                    "Id": 194,
                     "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -62729,7 +63341,7 @@ export const DataElementsData = [
                     "HeaderTemplate": "",
                     "MergeRow": "",
                     "IsSaveWidget": 0,
-                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                     "EDT": 9,
                     "DCaption": "Budget Head",
                     "DHelpText": "",
@@ -62748,13 +63360,13 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
-                    "__idx": 191,
-                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_192_191",
+                    "__idx": 193,
+                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_194_193",
                     "children": []
                   },
                   {
                     "VersionName": "Medium",
-                    "Id": 193,
+                    "Id": 195,
                     "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -62793,8 +63405,8 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
-                    "__idx": 192,
-                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
+                    "__idx": 194,
+                    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_195_194",
                     "children": []
                   }
                 ]
@@ -62844,7 +63456,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 164,
+            "Id": 166,
             "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
             "ShowCaption": true,
             "Fontbold": false,
@@ -62878,12 +63490,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 163,
-            "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_164_163",
+            "__idx": 165,
+            "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_166_165",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 175,
+                "Id": 177,
                 "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -62911,13 +63523,13 @@ export const DataElementsData = [
                 "MergeRow": "",
                 "Action": "OnClick",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                 "EDT": 10,
                 "DCaption": "Save",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 174,
-                "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_175_174",
+                "__idx": 176,
+                "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_177_176",
                 "children": []
               }
             ]
@@ -63008,7 +63620,7 @@ export const DataElementsData = [
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 165,
+            "Id": 167,
             "uielementid": "C384C16A-B336-4F07-B97A-3108FA636C23",
             "ShowCaption": true,
             "Fontbold": false,
@@ -63041,13 +63653,13 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 164,
-            "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_165_164",
+            "__idx": 166,
+            "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_167_166",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 166,
+            "Id": 168,
             "uielementid": "D276129E-A997-4544-80BB-8FFB081B169E",
             "ShowCaption": true,
             "Fontbold": false,
@@ -63080,13 +63692,13 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 165,
-            "_id": "D276129E-A997-4544-80BB-8FFB081B169E_166_165",
+            "__idx": 167,
+            "_id": "D276129E-A997-4544-80BB-8FFB081B169E_168_167",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 167,
+            "Id": 169,
             "WidgetId": "825B4680-DEA2-4E2E-861A-965DE912D14B",
             "uielementid": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
             "WidgetName": "ProjectReimbursementNew_MG_FundAllocation_Start.Json",
@@ -63121,8 +63733,8 @@ export const DataElementsData = [
             "DCaption": "",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 166,
-            "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_167_166",
+            "__idx": 168,
+            "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_169_168",
             "children": [
               {
                 "VersionName": "Medium",
@@ -63720,7 +64332,7 @@ export const DataElementsData = [
                                     "MergeRow": "",
                                     "Action": "OnClick",
                                     "IsSaveWidget": 0,
-                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
+                                    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                                     "EDT": 10,
                                     "DCaption": "Delete",
                                     "DHelpText": "",
@@ -63744,7 +64356,7 @@ export const DataElementsData = [
           },
           {
             "VersionName": "Medium",
-            "Id": 168,
+            "Id": 170,
             "uielementid": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3",
             "ShowCaption": true,
             "Fontbold": false,
@@ -63778,13 +64390,13 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 167,
-            "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_168_167",
+            "__idx": 169,
+            "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_170_169",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 169,
+            "Id": 171,
             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
             "TabIndex": -1,
             "ShowCaption": false,
@@ -63819,12 +64431,12 @@ export const DataElementsData = [
             "IsSaveWidget": 0,
             "BindingDetail": "",
             "DCaption": "",
-            "__idx": 168,
-            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_169_168",
+            "__idx": 170,
+            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_171_170",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 176,
+                "Id": 178,
                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -63857,13 +64469,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                "__idx": 175,
-                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_176_175",
+                "__idx": 177,
+                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 177,
+                "Id": 179,
                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -63897,13 +64509,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                "__idx": 176,
-                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_177_176",
+                "__idx": 178,
+                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 178,
+                "Id": 180,
                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -63937,13 +64549,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                "__idx": 177,
-                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
+                "__idx": 179,
+                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 179,
+                "Id": 181,
                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -63977,13 +64589,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                "__idx": 178,
-                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
+                "__idx": 180,
+                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 180,
+                "Id": 182,
                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -64017,13 +64629,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                "__idx": 179,
-                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
+                "__idx": 181,
+                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 181,
+                "Id": 183,
                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -64057,13 +64669,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                "__idx": 180,
-                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
+                "__idx": 182,
+                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 182,
+                "Id": 184,
                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -64097,13 +64709,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                "__idx": 181,
-                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
+                "__idx": 183,
+                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 183,
+                "Id": 185,
                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -64136,13 +64748,13 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                "__idx": 182,
-                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
+                "__idx": 184,
+                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_185_184",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 184,
+                "Id": 186,
                 "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -64176,8 +64788,8 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-                "__idx": 183,
-                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
+                "__idx": 185,
+                "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_186_185",
                 "children": []
               }
             ]
@@ -64937,7 +65549,45 @@ export const DataElementsData = [
     "BindingDetail": "",
     "__idx": 145,
     "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_146_145",
-    "children": []
+    "children": [
+      {
+        "VersionName": "Medium",
+        "Id": 160,
+        "uielementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+        "ShowCaption": true,
+        "Fontbold": false,
+        "FontItalic": false,
+        "FontOverline": false,
+        "FontStrikeout": false,
+        "FontUnderline": false,
+        "Depth": 10,
+        "ElementId": "9053F95D-21B2-4F30-B024-69996C688281",
+        "UIElementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+        "Sequence": 14,
+        "ElementName": "MF_d1_TotalAmount",
+        "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+        "ControlType": "NumericTextBox",
+        "Wrap": 4,
+        "ClearFix": false,
+        "RenderType": 15,
+        "OnDemandLoad": false,
+        "ControlId": 2,
+        "DisplayName": "MF_d1_TotalAmount",
+        "Searchable": false,
+        "Bindable": false,
+        "HeaderTemplate": "",
+        "MergeRow": "",
+        "IsSaveWidget": 0,
+        "BindingDetail": "",
+        "EDT": 3,
+        "DCaption": "TotalAmount",
+        "DHelpText": "",
+        "DToolTip": "",
+        "__idx": 159,
+        "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_160_159",
+        "children": []
+      }
+    ]
   },
   {
     "VersionName": "Medium",
@@ -64977,7 +65627,45 @@ export const DataElementsData = [
     "BindingDetail": "",
     "__idx": 146,
     "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_147_146",
-    "children": []
+    "children": [
+      {
+        "VersionName": "Medium",
+        "Id": 161,
+        "uielementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+        "ShowCaption": true,
+        "Fontbold": false,
+        "FontItalic": false,
+        "FontOverline": false,
+        "FontStrikeout": false,
+        "FontUnderline": false,
+        "Depth": 10,
+        "ElementId": "c6639126-079e-3cc4-51a3-81a8a475ae8d",
+        "UIElementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+        "Sequence": 15,
+        "ElementName": "MF_FundTotal",
+        "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+        "ControlType": "NumericTextBox",
+        "Wrap": 4,
+        "ClearFix": false,
+        "RenderType": 15,
+        "OnDemandLoad": false,
+        "ControlId": 2,
+        "DisplayName": "MF_FundTotal",
+        "Searchable": false,
+        "Bindable": false,
+        "HeaderTemplate": "",
+        "MergeRow": "",
+        "IsSaveWidget": 0,
+        "BindingDetail": "",
+        "EDT": 3,
+        "DCaption": "Split up Total",
+        "DHelpText": "",
+        "DToolTip": "",
+        "__idx": 160,
+        "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_161_160",
+        "children": []
+      }
+    ]
   },
   {
     "VersionName": "Medium",
@@ -65020,7 +65708,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 160,
+        "Id": 162,
         "uielementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
         "ShowCaption": true,
         "Fontbold": false,
@@ -65036,7 +65724,7 @@ export const DataElementsData = [
         "HeadingType": "h6",
         "ElementId": "",
         "UIElementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
-        "Sequence": 14,
+        "Sequence": 16,
         "ElementName": "UI_Next Action",
         "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
         "ControlType": "Header",
@@ -65056,13 +65744,13 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "UCaption": "Next Action",
-        "__idx": 159,
-        "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_160_159",
+        "__idx": 161,
+        "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_162_161",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 161,
+        "Id": 163,
         "uielementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
         "ShowCaption": true,
         "Fontbold": false,
@@ -65076,7 +65764,7 @@ export const DataElementsData = [
         "CurrValue": 10,
         "ElementId": "",
         "UIElementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
-        "Sequence": 15,
+        "Sequence": 17,
         "ElementName": "UI_Right Pane",
         "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
         "ControlType": "Right Pane",
@@ -65095,8 +65783,8 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 160,
-        "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_161_160",
+        "__idx": 162,
+        "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_163_162",
         "children": []
       }
     ]
@@ -65142,7 +65830,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 162,
+        "Id": 164,
         "uielementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
         "ShowCaption": true,
         "Fontbold": false,
@@ -65157,7 +65845,7 @@ export const DataElementsData = [
         "CurrValue": 10,
         "ElementId": "",
         "UIElementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
-        "Sequence": 16,
+        "Sequence": 18,
         "ElementName": "UI_Row",
         "ParentElementId": "3CBF0DA3-A6F7-4647-A23B-E77DC87B3E90",
         "ControlType": "Row",
@@ -65176,12 +65864,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 161,
-        "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_162_161",
+        "__idx": 163,
+        "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_164_163",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 170,
+            "Id": 172,
             "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
             "ShowCaption": true,
             "Fontbold": false,
@@ -65215,12 +65903,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 169,
-            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_170_169",
+            "__idx": 171,
+            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_172_171",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 185,
+                "Id": 187,
                 "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -65260,21 +65948,21 @@ export const DataElementsData = [
                     "Span": false
                   },
                   {
-                    "Visible": true,
+                    "Visible": false,
                     "Span": false
                   },
                   {
-                    "Visible": false,
+                    "Visible": true,
                     "Span": false
                   }
                 ],
-                "__idx": 184,
-                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_185_184",
+                "__idx": 186,
+                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_187_186",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 186,
+                "Id": 188,
                 "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -65308,15 +65996,15 @@ export const DataElementsData = [
                 "DCaption": "Comment",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 185,
-                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_186_185",
+                "__idx": 187,
+                "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_188_187",
                 "children": []
               }
             ]
           },
           {
             "VersionName": "Medium",
-            "Id": 171,
+            "Id": 173,
             "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
             "ShowCaption": true,
             "Fontbold": false,
@@ -65350,12 +66038,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 170,
-            "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_171_170",
+            "__idx": 172,
+            "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_173_172",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 187,
+                "Id": 189,
                 "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -65389,16 +66077,16 @@ export const DataElementsData = [
                 "DToolTip": "",
                 "ElementControlProperty": [
                   {
-                    "Visible": true,
+                    "Visible": false,
                     "Span": false
                   },
                   {
-                    "Visible": false,
+                    "Visible": true,
                     "Span": false
                   }
                 ],
-                "__idx": 186,
-                "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_187_186",
+                "__idx": 188,
+                "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_189_188",
                 "children": []
               }
             ]
@@ -65569,7 +66257,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 163,
+        "Id": 165,
         "uielementid": "39FABFBB-26CF-416F-97FA-08D97D2F27DE",
         "ShowCaption": true,
         "Fontbold": false,
@@ -65603,12 +66291,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 162,
-        "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_163_162",
+        "__idx": 164,
+        "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_165_164",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 172,
+            "Id": 174,
             "uielementid": "3AB5C838-BD93-43F4-A1D9-05484E879AC9",
             "ShowCaption": true,
             "Fontbold": false,
@@ -65642,12 +66330,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 171,
-            "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_172_171",
+            "__idx": 173,
+            "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_174_173",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 188,
+                "Id": 190,
                 "uielementid": "1136ED65-12BA-4966-96CD-C9143A44C878",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -65681,12 +66369,12 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 187,
-                "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_188_187",
+                "__idx": 189,
+                "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_190_189",
                 "children": [
                   {
                     "VersionName": "Medium",
-                    "Id": 194,
+                    "Id": 196,
                     "uielementid": "CFA7E90D-6305-4D2C-965C-BAC0058881A4",
                     "ShowCaption": true,
                     "Fontbold": false,
@@ -65721,8 +66409,8 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
-                    "__idx": 193,
-                    "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_194_193",
+                    "__idx": 195,
+                    "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_196_195",
                     "children": []
                   }
                 ]
@@ -65731,7 +66419,7 @@ export const DataElementsData = [
           },
           {
             "VersionName": "Medium",
-            "Id": 173,
+            "Id": 175,
             "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
             "ShowCaption": true,
             "Fontbold": false,
@@ -65765,12 +66453,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 172,
-            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_173_172",
+            "__idx": 174,
+            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_175_174",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 189,
+                "Id": 191,
                 "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -65799,18 +66487,18 @@ export const DataElementsData = [
                 "MergeRow": "",
                 "Action": "OnChange",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
                 "EDT": 9,
                 "DCaption": "Fund Type",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 188,
-                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_189_188",
+                "__idx": 190,
+                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_191_190",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 190,
+                "Id": 192,
                 "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -65843,15 +66531,15 @@ export const DataElementsData = [
                 "DCaption": "",
                 "DHelpText": "",
                 "DToolTip": "",
-                "__idx": 189,
-                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_190_189",
+                "__idx": 191,
+                "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_192_191",
                 "children": []
               }
             ]
           },
           {
             "VersionName": "Medium",
-            "Id": 174,
+            "Id": 176,
             "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
             "ShowCaption": true,
             "Fontbold": false,
@@ -65885,12 +66573,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 173,
-            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_174_173",
+            "__idx": 175,
+            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_176_175",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 191,
+                "Id": 193,
                 "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -65918,7 +66606,7 @@ export const DataElementsData = [
                 "HeaderTemplate": "",
                 "MergeRow": "",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                 "EDT": 9,
                 "DCaption": "Project No",
                 "DHelpText": "",
@@ -65937,13 +66625,13 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 190,
-                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_191_190",
+                "__idx": 192,
+                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 192,
+                "Id": 194,
                 "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -65970,7 +66658,7 @@ export const DataElementsData = [
                 "HeaderTemplate": "",
                 "MergeRow": "",
                 "IsSaveWidget": 0,
-                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
                 "EDT": 9,
                 "DCaption": "Budget Head",
                 "DHelpText": "",
@@ -65989,13 +66677,13 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 191,
-                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_192_191",
+                "__idx": 193,
+                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_194_193",
                 "children": []
               },
               {
                 "VersionName": "Medium",
-                "Id": 193,
+                "Id": 195,
                 "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -66034,8 +66722,8 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
-                "__idx": 192,
-                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
+                "__idx": 194,
+                "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_195_194",
                 "children": []
               }
             ]
@@ -66085,7 +66773,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 164,
+        "Id": 166,
         "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
         "ShowCaption": true,
         "Fontbold": false,
@@ -66119,12 +66807,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 163,
-        "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_164_163",
+        "__idx": 165,
+        "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_166_165",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 175,
+            "Id": 177,
             "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
             "ShowCaption": true,
             "Fontbold": false,
@@ -66152,13 +66840,13 @@ export const DataElementsData = [
             "MergeRow": "",
             "Action": "OnClick",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
             "EDT": 10,
             "DCaption": "Save",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 174,
-            "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_175_174",
+            "__idx": 176,
+            "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_177_176",
             "children": []
           }
         ]
@@ -66208,7 +66896,7 @@ export const DataElementsData = [
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 165,
+        "Id": 167,
         "uielementid": "C384C16A-B336-4F07-B97A-3108FA636C23",
         "ShowCaption": true,
         "Fontbold": false,
@@ -66241,13 +66929,13 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 164,
-        "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_165_164",
+        "__idx": 166,
+        "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_167_166",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 166,
+        "Id": 168,
         "uielementid": "D276129E-A997-4544-80BB-8FFB081B169E",
         "ShowCaption": true,
         "Fontbold": false,
@@ -66280,13 +66968,13 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 165,
-        "_id": "D276129E-A997-4544-80BB-8FFB081B169E_166_165",
+        "__idx": 167,
+        "_id": "D276129E-A997-4544-80BB-8FFB081B169E_168_167",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 167,
+        "Id": 169,
         "WidgetId": "825B4680-DEA2-4E2E-861A-965DE912D14B",
         "uielementid": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
         "WidgetName": "ProjectReimbursementNew_MG_FundAllocation_Start.Json",
@@ -66321,8 +67009,8 @@ export const DataElementsData = [
         "DCaption": "",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 166,
-        "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_167_166",
+        "__idx": 168,
+        "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_169_168",
         "children": [
           {
             "VersionName": "Medium",
@@ -66920,7 +67608,7 @@ export const DataElementsData = [
                                 "MergeRow": "",
                                 "Action": "OnClick",
                                 "IsSaveWidget": 0,
-                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
+                                "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                                 "EDT": 10,
                                 "DCaption": "Delete",
                                 "DHelpText": "",
@@ -66944,7 +67632,7 @@ export const DataElementsData = [
       },
       {
         "VersionName": "Medium",
-        "Id": 168,
+        "Id": 170,
         "uielementid": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3",
         "ShowCaption": true,
         "Fontbold": false,
@@ -66978,13 +67666,13 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 167,
-        "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_168_167",
+        "__idx": 169,
+        "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_170_169",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 169,
+        "Id": 171,
         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
         "TabIndex": -1,
         "ShowCaption": false,
@@ -67019,12 +67707,12 @@ export const DataElementsData = [
         "IsSaveWidget": 0,
         "BindingDetail": "",
         "DCaption": "",
-        "__idx": 168,
-        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_169_168",
+        "__idx": 170,
+        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_171_170",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 176,
+            "Id": 178,
             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
             "ShowCaption": true,
             "Fontbold": false,
@@ -67057,13 +67745,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-            "__idx": 175,
-            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_176_175",
+            "__idx": 177,
+            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 177,
+            "Id": 179,
             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
             "ShowCaption": true,
             "Fontbold": false,
@@ -67097,13 +67785,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-            "__idx": 176,
-            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_177_176",
+            "__idx": 178,
+            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 178,
+            "Id": 180,
             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
             "ShowCaption": true,
             "Fontbold": false,
@@ -67137,13 +67825,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-            "__idx": 177,
-            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
+            "__idx": 179,
+            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 179,
+            "Id": 181,
             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
             "ShowCaption": true,
             "Fontbold": false,
@@ -67177,13 +67865,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-            "__idx": 178,
-            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
+            "__idx": 180,
+            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 180,
+            "Id": 182,
             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
             "ShowCaption": true,
             "Fontbold": false,
@@ -67217,13 +67905,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-            "__idx": 179,
-            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
+            "__idx": 181,
+            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 181,
+            "Id": 183,
             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
             "ShowCaption": true,
             "Fontbold": false,
@@ -67257,13 +67945,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-            "__idx": 180,
-            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
+            "__idx": 182,
+            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 182,
+            "Id": 184,
             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
             "ShowCaption": true,
             "Fontbold": false,
@@ -67297,13 +67985,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-            "__idx": 181,
-            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
+            "__idx": 183,
+            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 183,
+            "Id": 185,
             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
             "ShowCaption": true,
             "Fontbold": false,
@@ -67336,13 +68024,13 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-            "__idx": 182,
-            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
+            "__idx": 184,
+            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_185_184",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 184,
+            "Id": 186,
             "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
             "ShowCaption": true,
             "Fontbold": false,
@@ -67376,8 +68064,8 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-            "__idx": 183,
-            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
+            "__idx": 185,
+            "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_186_185",
             "children": []
           }
         ]
@@ -67546,6 +68234,80 @@ export const DataElementsData = [
   {
     "VersionName": "Medium",
     "Id": 160,
+    "uielementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+    "ShowCaption": true,
+    "Fontbold": false,
+    "FontItalic": false,
+    "FontOverline": false,
+    "FontStrikeout": false,
+    "FontUnderline": false,
+    "Depth": 10,
+    "ElementId": "9053F95D-21B2-4F30-B024-69996C688281",
+    "UIElementid": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb",
+    "Sequence": 14,
+    "ElementName": "MF_d1_TotalAmount",
+    "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+    "ControlType": "NumericTextBox",
+    "Wrap": 4,
+    "ClearFix": false,
+    "RenderType": 15,
+    "OnDemandLoad": false,
+    "ControlId": 2,
+    "DisplayName": "MF_d1_TotalAmount",
+    "Searchable": false,
+    "Bindable": false,
+    "HeaderTemplate": "",
+    "MergeRow": "",
+    "IsSaveWidget": 0,
+    "BindingDetail": "",
+    "EDT": 3,
+    "DCaption": "TotalAmount",
+    "DHelpText": "",
+    "DToolTip": "",
+    "__idx": 159,
+    "_id": "7e13c5f9-2b64-819b-f2fa-2d3c2dcbbbfb_160_159",
+    "children": []
+  },
+  {
+    "VersionName": "Medium",
+    "Id": 161,
+    "uielementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+    "ShowCaption": true,
+    "Fontbold": false,
+    "FontItalic": false,
+    "FontOverline": false,
+    "FontStrikeout": false,
+    "FontUnderline": false,
+    "Depth": 10,
+    "ElementId": "c6639126-079e-3cc4-51a3-81a8a475ae8d",
+    "UIElementid": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474",
+    "Sequence": 15,
+    "ElementName": "MF_FundTotal",
+    "ParentElementId": "7580ABE2-1059-4AB0-AC76-04DE981561BA",
+    "ControlType": "NumericTextBox",
+    "Wrap": 4,
+    "ClearFix": false,
+    "RenderType": 15,
+    "OnDemandLoad": false,
+    "ControlId": 2,
+    "DisplayName": "MF_FundTotal",
+    "Searchable": false,
+    "Bindable": false,
+    "HeaderTemplate": "",
+    "MergeRow": "",
+    "IsSaveWidget": 0,
+    "BindingDetail": "",
+    "EDT": 3,
+    "DCaption": "Split up Total",
+    "DHelpText": "",
+    "DToolTip": "",
+    "__idx": 160,
+    "_id": "3849e2d1-51e3-a0a7-76cb-e976aa9a0474_161_160",
+    "children": []
+  },
+  {
+    "VersionName": "Medium",
+    "Id": 162,
     "uielementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
     "ShowCaption": true,
     "Fontbold": false,
@@ -67561,7 +68323,7 @@ export const DataElementsData = [
     "HeadingType": "h6",
     "ElementId": "",
     "UIElementid": "79ABDE07-09A8-49F1-91A6-88677A03AD2B",
-    "Sequence": 14,
+    "Sequence": 16,
     "ElementName": "UI_Next Action",
     "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
     "ControlType": "Header",
@@ -67581,13 +68343,13 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "UCaption": "Next Action",
-    "__idx": 159,
-    "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_160_159",
+    "__idx": 161,
+    "_id": "79ABDE07-09A8-49F1-91A6-88677A03AD2B_162_161",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 161,
+    "Id": 163,
     "uielementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
     "ShowCaption": true,
     "Fontbold": false,
@@ -67601,7 +68363,7 @@ export const DataElementsData = [
     "CurrValue": 10,
     "ElementId": "",
     "UIElementid": "54CF574D-6CA3-446D-9B5C-035258FF9BC5",
-    "Sequence": 15,
+    "Sequence": 17,
     "ElementName": "UI_Right Pane",
     "ParentElementId": "85049AE2-09E1-4A4C-BF46-04F92414318E",
     "ControlType": "Right Pane",
@@ -67620,13 +68382,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 160,
-    "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_161_160",
+    "__idx": 162,
+    "_id": "54CF574D-6CA3-446D-9B5C-035258FF9BC5_163_162",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 162,
+    "Id": 164,
     "uielementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
     "ShowCaption": true,
     "Fontbold": false,
@@ -67641,7 +68403,7 @@ export const DataElementsData = [
     "CurrValue": 10,
     "ElementId": "",
     "UIElementid": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580",
-    "Sequence": 16,
+    "Sequence": 18,
     "ElementName": "UI_Row",
     "ParentElementId": "3CBF0DA3-A6F7-4647-A23B-E77DC87B3E90",
     "ControlType": "Row",
@@ -67660,12 +68422,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 161,
-    "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_162_161",
+    "__idx": 163,
+    "_id": "CFFE45D1-5F60-4A2B-8C55-D685D6D76580_164_163",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 170,
+        "Id": 172,
         "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
         "ShowCaption": true,
         "Fontbold": false,
@@ -67699,12 +68461,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 169,
-        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_170_169",
+        "__idx": 171,
+        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_172_171",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 185,
+            "Id": 187,
             "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
             "ShowCaption": true,
             "Fontbold": false,
@@ -67744,21 +68506,21 @@ export const DataElementsData = [
                 "Span": false
               },
               {
-                "Visible": true,
+                "Visible": false,
                 "Span": false
               },
               {
-                "Visible": false,
+                "Visible": true,
                 "Span": false
               }
             ],
-            "__idx": 184,
-            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_185_184",
+            "__idx": 186,
+            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_187_186",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 186,
+            "Id": 188,
             "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
             "ShowCaption": true,
             "Fontbold": false,
@@ -67792,15 +68554,15 @@ export const DataElementsData = [
             "DCaption": "Comment",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 185,
-            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_186_185",
+            "__idx": 187,
+            "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_188_187",
             "children": []
           }
         ]
       },
       {
         "VersionName": "Medium",
-        "Id": 171,
+        "Id": 173,
         "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
         "ShowCaption": true,
         "Fontbold": false,
@@ -67834,12 +68596,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 170,
-        "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_171_170",
+        "__idx": 172,
+        "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_173_172",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 187,
+            "Id": 189,
             "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
             "ShowCaption": true,
             "Fontbold": false,
@@ -67873,16 +68635,16 @@ export const DataElementsData = [
             "DToolTip": "",
             "ElementControlProperty": [
               {
-                "Visible": true,
+                "Visible": false,
                 "Span": false
               },
               {
-                "Visible": false,
+                "Visible": true,
                 "Span": false
               }
             ],
-            "__idx": 186,
-            "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_187_186",
+            "__idx": 188,
+            "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_189_188",
             "children": []
           }
         ]
@@ -67891,7 +68653,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 163,
+    "Id": 165,
     "uielementid": "39FABFBB-26CF-416F-97FA-08D97D2F27DE",
     "ShowCaption": true,
     "Fontbold": false,
@@ -67925,12 +68687,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 162,
-    "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_163_162",
+    "__idx": 164,
+    "_id": "39FABFBB-26CF-416F-97FA-08D97D2F27DE_165_164",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 172,
+        "Id": 174,
         "uielementid": "3AB5C838-BD93-43F4-A1D9-05484E879AC9",
         "ShowCaption": true,
         "Fontbold": false,
@@ -67964,12 +68726,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 171,
-        "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_172_171",
+        "__idx": 173,
+        "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_174_173",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 188,
+            "Id": 190,
             "uielementid": "1136ED65-12BA-4966-96CD-C9143A44C878",
             "ShowCaption": true,
             "Fontbold": false,
@@ -68003,12 +68765,12 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 187,
-            "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_188_187",
+            "__idx": 189,
+            "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_190_189",
             "children": [
               {
                 "VersionName": "Medium",
-                "Id": 194,
+                "Id": 196,
                 "uielementid": "CFA7E90D-6305-4D2C-965C-BAC0058881A4",
                 "ShowCaption": true,
                 "Fontbold": false,
@@ -68043,8 +68805,8 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
-                "__idx": 193,
-                "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_194_193",
+                "__idx": 195,
+                "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_196_195",
                 "children": []
               }
             ]
@@ -68053,7 +68815,7 @@ export const DataElementsData = [
       },
       {
         "VersionName": "Medium",
-        "Id": 173,
+        "Id": 175,
         "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
         "ShowCaption": true,
         "Fontbold": false,
@@ -68087,12 +68849,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 172,
-        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_173_172",
+        "__idx": 174,
+        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_175_174",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 189,
+            "Id": 191,
             "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
             "ShowCaption": true,
             "Fontbold": false,
@@ -68121,18 +68883,18 @@ export const DataElementsData = [
             "MergeRow": "",
             "Action": "OnChange",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
             "EDT": 9,
             "DCaption": "Fund Type",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 188,
-            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_189_188",
+            "__idx": 190,
+            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_191_190",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 190,
+            "Id": 192,
             "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
             "ShowCaption": true,
             "Fontbold": false,
@@ -68165,15 +68927,15 @@ export const DataElementsData = [
             "DCaption": "",
             "DHelpText": "",
             "DToolTip": "",
-            "__idx": 189,
-            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_190_189",
+            "__idx": 191,
+            "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_192_191",
             "children": []
           }
         ]
       },
       {
         "VersionName": "Medium",
-        "Id": 174,
+        "Id": 176,
         "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
         "ShowCaption": true,
         "Fontbold": false,
@@ -68207,12 +68969,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 173,
-        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_174_173",
+        "__idx": 175,
+        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_176_175",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 191,
+            "Id": 193,
             "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
             "ShowCaption": true,
             "Fontbold": false,
@@ -68240,7 +69002,7 @@ export const DataElementsData = [
             "HeaderTemplate": "",
             "MergeRow": "",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
             "EDT": 9,
             "DCaption": "Project No",
             "DHelpText": "",
@@ -68259,13 +69021,13 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 190,
-            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_191_190",
+            "__idx": 192,
+            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 192,
+            "Id": 194,
             "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
             "ShowCaption": true,
             "Fontbold": false,
@@ -68292,7 +69054,7 @@ export const DataElementsData = [
             "HeaderTemplate": "",
             "MergeRow": "",
             "IsSaveWidget": 0,
-            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
             "EDT": 9,
             "DCaption": "Budget Head",
             "DHelpText": "",
@@ -68311,13 +69073,13 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 191,
-            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_192_191",
+            "__idx": 193,
+            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_194_193",
             "children": []
           },
           {
             "VersionName": "Medium",
-            "Id": 193,
+            "Id": 195,
             "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
             "ShowCaption": true,
             "Fontbold": false,
@@ -68356,8 +69118,8 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
-            "__idx": 192,
-            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
+            "__idx": 194,
+            "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_195_194",
             "children": []
           }
         ]
@@ -68366,7 +69128,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 164,
+    "Id": 166,
     "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68400,12 +69162,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 163,
-    "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_164_163",
+    "__idx": 165,
+    "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_166_165",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 175,
+        "Id": 177,
         "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
         "ShowCaption": true,
         "Fontbold": false,
@@ -68433,20 +69195,20 @@ export const DataElementsData = [
         "MergeRow": "",
         "Action": "OnClick",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
         "EDT": 10,
         "DCaption": "Save",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 174,
-        "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_175_174",
+        "__idx": 176,
+        "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_177_176",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 165,
+    "Id": 167,
     "uielementid": "C384C16A-B336-4F07-B97A-3108FA636C23",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68479,13 +69241,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 164,
-    "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_165_164",
+    "__idx": 166,
+    "_id": "C384C16A-B336-4F07-B97A-3108FA636C23_167_166",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 166,
+    "Id": 168,
     "uielementid": "D276129E-A997-4544-80BB-8FFB081B169E",
     "ShowCaption": true,
     "Fontbold": false,
@@ -68518,13 +69280,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 165,
-    "_id": "D276129E-A997-4544-80BB-8FFB081B169E_166_165",
+    "__idx": 167,
+    "_id": "D276129E-A997-4544-80BB-8FFB081B169E_168_167",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 167,
+    "Id": 169,
     "WidgetId": "825B4680-DEA2-4E2E-861A-965DE912D14B",
     "uielementid": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
     "WidgetName": "ProjectReimbursementNew_MG_FundAllocation_Start.Json",
@@ -68559,8 +69321,8 @@ export const DataElementsData = [
     "DCaption": "",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 166,
-    "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_167_166",
+    "__idx": 168,
+    "_id": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2_169_168",
     "children": [
       {
         "VersionName": "Medium",
@@ -69158,7 +69920,7 @@ export const DataElementsData = [
                             "MergeRow": "",
                             "Action": "OnClick",
                             "IsSaveWidget": 0,
-                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
+                            "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"UI_DeleteDialog\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":0}]\"}]",
                             "EDT": 10,
                             "DCaption": "Delete",
                             "DHelpText": "",
@@ -69182,7 +69944,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 168,
+    "Id": 170,
     "uielementid": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3",
     "ShowCaption": true,
     "Fontbold": false,
@@ -69216,13 +69978,13 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 167,
-    "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_168_167",
+    "__idx": 169,
+    "_id": "F0EF54A0-925D-40A3-9CE6-14F3C0E1C1D3_170_169",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 169,
+    "Id": 171,
     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
     "TabIndex": -1,
     "ShowCaption": false,
@@ -69257,12 +70019,12 @@ export const DataElementsData = [
     "IsSaveWidget": 0,
     "BindingDetail": "",
     "DCaption": "",
-    "__idx": 168,
-    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_169_168",
+    "__idx": 170,
+    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_171_170",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 176,
+        "Id": 178,
         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
         "ShowCaption": true,
         "Fontbold": false,
@@ -69295,13 +70057,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-        "__idx": 175,
-        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_176_175",
+        "__idx": 177,
+        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 177,
+        "Id": 179,
         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
         "ShowCaption": true,
         "Fontbold": false,
@@ -69335,13 +70097,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-        "__idx": 176,
-        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_177_176",
+        "__idx": 178,
+        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 178,
+        "Id": 180,
         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
         "ShowCaption": true,
         "Fontbold": false,
@@ -69375,13 +70137,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-        "__idx": 177,
-        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
+        "__idx": 179,
+        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 179,
+        "Id": 181,
         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
         "ShowCaption": true,
         "Fontbold": false,
@@ -69415,13 +70177,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-        "__idx": 178,
-        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
+        "__idx": 180,
+        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 180,
+        "Id": 182,
         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
         "ShowCaption": true,
         "Fontbold": false,
@@ -69455,13 +70217,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-        "__idx": 179,
-        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
+        "__idx": 181,
+        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 181,
+        "Id": 183,
         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
         "ShowCaption": true,
         "Fontbold": false,
@@ -69495,13 +70257,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-        "__idx": 180,
-        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
+        "__idx": 182,
+        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 182,
+        "Id": 184,
         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
         "ShowCaption": true,
         "Fontbold": false,
@@ -69535,13 +70297,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-        "__idx": 181,
-        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
+        "__idx": 183,
+        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 183,
+        "Id": 185,
         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
         "ShowCaption": true,
         "Fontbold": false,
@@ -69574,13 +70336,13 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-        "__idx": 182,
-        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
+        "__idx": 184,
+        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_185_184",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 184,
+        "Id": 186,
         "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
         "ShowCaption": true,
         "Fontbold": false,
@@ -69614,15 +70376,15 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-        "__idx": 183,
-        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
+        "__idx": 185,
+        "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_186_185",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 170,
+    "Id": 172,
     "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
     "ShowCaption": true,
     "Fontbold": false,
@@ -69656,12 +70418,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 169,
-    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_170_169",
+    "__idx": 171,
+    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_172_171",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 185,
+        "Id": 187,
         "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
         "ShowCaption": true,
         "Fontbold": false,
@@ -69701,21 +70463,21 @@ export const DataElementsData = [
             "Span": false
           },
           {
-            "Visible": true,
+            "Visible": false,
             "Span": false
           },
           {
-            "Visible": false,
+            "Visible": true,
             "Span": false
           }
         ],
-        "__idx": 184,
-        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_185_184",
+        "__idx": 186,
+        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_187_186",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 186,
+        "Id": 188,
         "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
         "ShowCaption": true,
         "Fontbold": false,
@@ -69749,15 +70511,15 @@ export const DataElementsData = [
         "DCaption": "Comment",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 185,
-        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_186_185",
+        "__idx": 187,
+        "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_188_187",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 171,
+    "Id": 173,
     "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
     "ShowCaption": true,
     "Fontbold": false,
@@ -69791,12 +70553,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 170,
-    "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_171_170",
+    "__idx": 172,
+    "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_173_172",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 187,
+        "Id": 189,
         "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
         "ShowCaption": true,
         "Fontbold": false,
@@ -69830,23 +70592,23 @@ export const DataElementsData = [
         "DToolTip": "",
         "ElementControlProperty": [
           {
-            "Visible": true,
+            "Visible": false,
             "Span": false
           },
           {
-            "Visible": false,
+            "Visible": true,
             "Span": false
           }
         ],
-        "__idx": 186,
-        "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_187_186",
+        "__idx": 188,
+        "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_189_188",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 172,
+    "Id": 174,
     "uielementid": "3AB5C838-BD93-43F4-A1D9-05484E879AC9",
     "ShowCaption": true,
     "Fontbold": false,
@@ -69880,12 +70642,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 171,
-    "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_172_171",
+    "__idx": 173,
+    "_id": "3AB5C838-BD93-43F4-A1D9-05484E879AC9_174_173",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 188,
+        "Id": 190,
         "uielementid": "1136ED65-12BA-4966-96CD-C9143A44C878",
         "ShowCaption": true,
         "Fontbold": false,
@@ -69919,12 +70681,12 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 187,
-        "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_188_187",
+        "__idx": 189,
+        "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_190_189",
         "children": [
           {
             "VersionName": "Medium",
-            "Id": 194,
+            "Id": 196,
             "uielementid": "CFA7E90D-6305-4D2C-965C-BAC0058881A4",
             "ShowCaption": true,
             "Fontbold": false,
@@ -69959,8 +70721,8 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
-            "__idx": 193,
-            "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_194_193",
+            "__idx": 195,
+            "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_196_195",
             "children": []
           }
         ]
@@ -69969,7 +70731,7 @@ export const DataElementsData = [
   },
   {
     "VersionName": "Medium",
-    "Id": 173,
+    "Id": 175,
     "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70003,12 +70765,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 172,
-    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_173_172",
+    "__idx": 174,
+    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_175_174",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 189,
+        "Id": 191,
         "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
         "ShowCaption": true,
         "Fontbold": false,
@@ -70037,18 +70799,18 @@ export const DataElementsData = [
         "MergeRow": "",
         "Action": "OnChange",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
         "EDT": 9,
         "DCaption": "Fund Type",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 188,
-        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_189_188",
+        "__idx": 190,
+        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_191_190",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 190,
+        "Id": 192,
         "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
         "ShowCaption": true,
         "Fontbold": false,
@@ -70081,15 +70843,15 @@ export const DataElementsData = [
         "DCaption": "",
         "DHelpText": "",
         "DToolTip": "",
-        "__idx": 189,
-        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_190_189",
+        "__idx": 191,
+        "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_192_191",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 174,
+    "Id": 176,
     "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70123,12 +70885,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 173,
-    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_174_173",
+    "__idx": 175,
+    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_176_175",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 191,
+        "Id": 193,
         "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
         "ShowCaption": true,
         "Fontbold": false,
@@ -70156,7 +70918,7 @@ export const DataElementsData = [
         "HeaderTemplate": "",
         "MergeRow": "",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
         "EDT": 9,
         "DCaption": "Project No",
         "DHelpText": "",
@@ -70175,13 +70937,13 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 190,
-        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_191_190",
+        "__idx": 192,
+        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 192,
+        "Id": 194,
         "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
         "ShowCaption": true,
         "Fontbold": false,
@@ -70208,7 +70970,7 @@ export const DataElementsData = [
         "HeaderTemplate": "",
         "MergeRow": "",
         "IsSaveWidget": 0,
-        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+        "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
         "EDT": 9,
         "DCaption": "Budget Head",
         "DHelpText": "",
@@ -70227,13 +70989,13 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 191,
-        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_192_191",
+        "__idx": 193,
+        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_194_193",
         "children": []
       },
       {
         "VersionName": "Medium",
-        "Id": 193,
+        "Id": 195,
         "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
         "ShowCaption": true,
         "Fontbold": false,
@@ -70272,15 +71034,15 @@ export const DataElementsData = [
             "Span": false
           }
         ],
-        "__idx": 192,
-        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
+        "__idx": 194,
+        "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_195_194",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 175,
+    "Id": 177,
     "uielementid": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70308,18 +71070,18 @@ export const DataElementsData = [
     "MergeRow": "",
     "Action": "OnClick",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFM_ErrId\\\",\\\"Value\\\":null,\\\"EDT\\\":5},{\\\"ElementName\\\":\\\"PFA_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"MG_FundAllocation_RowId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MF_FundTotal\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundTypeValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHeadValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"PFM_ErrMsg\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"MG_FundAllocation\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":12},{\\\"ElementName\\\":\\\"PFA_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNoValue\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFA_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundDetailsId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
     "EDT": 10,
     "DCaption": "Save",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 174,
-    "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_175_174",
+    "__idx": 176,
+    "_id": "5517D5AF-AE37-4FD7-BC80-1765B7414CFF_177_176",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 176,
+    "Id": 178,
     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70352,13 +71114,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-    "__idx": 175,
-    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_176_175",
+    "__idx": 177,
+    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 177,
+    "Id": 179,
     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70392,13 +71154,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-    "__idx": 176,
-    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_177_176",
+    "__idx": 178,
+    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 178,
+    "Id": 180,
     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70432,13 +71194,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-    "__idx": 177,
-    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_178_177",
+    "__idx": 179,
+    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 179,
+    "Id": 181,
     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70472,13 +71234,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-    "__idx": 178,
-    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_179_178",
+    "__idx": 180,
+    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 180,
+    "Id": 182,
     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70512,13 +71274,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-    "__idx": 179,
-    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_180_179",
+    "__idx": 181,
+    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 181,
+    "Id": 183,
     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70552,13 +71314,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-    "__idx": 180,
-    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_181_180",
+    "__idx": 182,
+    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 182,
+    "Id": 184,
     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70592,13 +71354,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-    "__idx": 181,
-    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_182_181",
+    "__idx": 183,
+    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 183,
+    "Id": 185,
     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70631,13 +71393,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-    "__idx": 182,
-    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_183_182",
+    "__idx": 184,
+    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_185_184",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 184,
+    "Id": 186,
     "uielementid": "821D34C2-0DF8-4BE4-83D0-9121516118A0",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70671,13 +71433,13 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "3D1FBB9C-1D9D-4BD5-A3AD-3344727D95D2",
-    "__idx": 183,
-    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_184_183",
+    "__idx": 185,
+    "_id": "821D34C2-0DF8-4BE4-83D0-9121516118A0_186_185",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 185,
+    "Id": 187,
     "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70717,21 +71479,21 @@ export const DataElementsData = [
         "Span": false
       },
       {
-        "Visible": true,
+        "Visible": false,
         "Span": false
       },
       {
-        "Visible": false,
+        "Visible": true,
         "Span": false
       }
     ],
-    "__idx": 184,
-    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_185_184",
+    "__idx": 186,
+    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_187_186",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 186,
+    "Id": 188,
     "uielementid": "22338272-FC50-4B39-8012-DBCB2CBDBD57",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70765,13 +71527,13 @@ export const DataElementsData = [
     "DCaption": "Comment",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 185,
-    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_186_185",
+    "__idx": 187,
+    "_id": "22338272-FC50-4B39-8012-DBCB2CBDBD57_188_187",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 187,
+    "Id": 189,
     "uielementid": "E571127E-A131-4641-B66E-CCE654BF1E81",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70805,21 +71567,21 @@ export const DataElementsData = [
     "DToolTip": "",
     "ElementControlProperty": [
       {
-        "Visible": true,
+        "Visible": false,
         "Span": false
       },
       {
-        "Visible": false,
+        "Visible": true,
         "Span": false
       }
     ],
-    "__idx": 186,
-    "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_187_186",
+    "__idx": 188,
+    "_id": "E571127E-A131-4641-B66E-CCE654BF1E81_189_188",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 188,
+    "Id": 190,
     "uielementid": "1136ED65-12BA-4966-96CD-C9143A44C878",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70853,12 +71615,12 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 187,
-    "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_188_187",
+    "__idx": 189,
+    "_id": "1136ED65-12BA-4966-96CD-C9143A44C878_190_189",
     "children": [
       {
         "VersionName": "Medium",
-        "Id": 194,
+        "Id": 196,
         "uielementid": "CFA7E90D-6305-4D2C-965C-BAC0058881A4",
         "ShowCaption": true,
         "Fontbold": false,
@@ -70893,15 +71655,15 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
-        "__idx": 193,
-        "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_194_193",
+        "__idx": 195,
+        "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_196_195",
         "children": []
       }
     ]
   },
   {
     "VersionName": "Medium",
-    "Id": 189,
+    "Id": 191,
     "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70930,18 +71692,18 @@ export const DataElementsData = [
     "MergeRow": "",
     "Action": "OnChange",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\",\"Params\":\"[{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_Amount\\\",\\\"Value\\\":null,\\\"EDT\\\":3},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"}]",
     "EDT": 9,
     "DCaption": "Fund Type",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 188,
-    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_189_188",
+    "__idx": 190,
+    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_191_190",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 190,
+    "Id": 192,
     "uielementid": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135",
     "ShowCaption": true,
     "Fontbold": false,
@@ -70974,13 +71736,13 @@ export const DataElementsData = [
     "DCaption": "",
     "DHelpText": "",
     "DToolTip": "",
-    "__idx": 189,
-    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_190_189",
+    "__idx": 191,
+    "_id": "5854F0F9-CE14-4D26-AEC4-57B9AF6C1135_192_191",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 191,
+    "Id": 193,
     "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
     "ShowCaption": true,
     "Fontbold": false,
@@ -71008,7 +71770,7 @@ export const DataElementsData = [
     "HeaderTemplate": "",
     "MergeRow": "",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_UserId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
     "EDT": 9,
     "DCaption": "Project No",
     "DHelpText": "",
@@ -71027,13 +71789,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 190,
-    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_191_190",
+    "__idx": 192,
+    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 192,
+    "Id": 194,
     "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
     "ShowCaption": true,
     "Fontbold": false,
@@ -71060,7 +71822,7 @@ export const DataElementsData = [
     "HeaderTemplate": "",
     "MergeRow": "",
     "IsSaveWidget": 0,
-    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
+    "BindingDetail": "[{\"Endpoint\":\"~\\/iProofServicesHub\\/GetComboDetails\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnLoad\",\"Params\":\"[{\\\"ElementName\\\":\\\"Subject\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"Comments\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_BudgetHead\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_FundType\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"FWFM_ProjectNo\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9},{\\\"ElementName\\\":\\\"PFMF_PackageProcessMapId\\\",\\\"Value\\\":\\\"\\\",\\\"EDT\\\":9}]\"},{\"Endpoint\":\"~\\/iProofServicesHub\\/ExecuteMultiRequest\",\"HttpVerb\":\"Post\",\"Port\":\"5009\",\"Action\":\"OnChange\"}]",
     "EDT": 9,
     "DCaption": "Budget Head",
     "DHelpText": "",
@@ -71079,13 +71841,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 191,
-    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_192_191",
+    "__idx": 193,
+    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_194_193",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 193,
+    "Id": 195,
     "uielementid": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED",
     "ShowCaption": true,
     "Fontbold": false,
@@ -71124,13 +71886,13 @@ export const DataElementsData = [
         "Span": false
       }
     ],
-    "__idx": 192,
-    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_193_192",
+    "__idx": 194,
+    "_id": "A7739DBD-2AD4-4B2F-ADDB-F229D7AA1CED_195_194",
     "children": []
   },
   {
     "VersionName": "Medium",
-    "Id": 194,
+    "Id": 196,
     "uielementid": "CFA7E90D-6305-4D2C-965C-BAC0058881A4",
     "ShowCaption": true,
     "Fontbold": false,
@@ -71165,8 +71927,8 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
-    "__idx": 193,
-    "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_194_193",
+    "__idx": 195,
+    "_id": "CFA7E90D-6305-4D2C-965C-BAC0058881A4_196_195",
     "children": []
   }
 ];
