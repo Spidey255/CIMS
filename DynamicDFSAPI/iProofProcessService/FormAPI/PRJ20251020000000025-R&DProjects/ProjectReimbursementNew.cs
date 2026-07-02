@@ -1879,17 +1879,17 @@ base.WriteDebugInfo(@"");
 List<Triplet<string, short, short?>> result8CFBA89A2F5D41AA8049CA173EA990A8=acdataIspaceF66E6A92393A4A498F4478FD095E0597.GetQueryExpressionBindings("8CFBA89A-2F5D-41AA-8049-CA173EA990A8");
 iSpace.SetGridData(result1BB628AB53BD42CE91494F869D7536C8,result8CFBA89A2F5D41AA8049CA173EA990A8,"WMG_CommentsHistory",ref ISpace);
 iSpace.UpdateGridBindDetails("WMG_CommentsHistory",result8CFBA89A2F5D41AA8049CA173EA990A8);
-else
-{
-base.WriteDebugInfo(@"else");
-ISpace["FWFM_BudgetHead"].Visible="true";ISpace["FWFM_ProjectNo"].Visible="true";
-base.WriteDebugInfo(@"ISpace[""FWFM_BudgetHead""].Visible=""true"";ISpace[""FWFM_ProjectNo""].Visible=""true"";");
-}
 if(ISpace["FWFM_FundType"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""FWFM_FundType""].Value=="""")");
 ISpace["FWFM_BudgetHead"].Visible="false";ISpace["FWFM_ProjectNo"].Visible="false";ISpace["FWFM_Amount"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""FWFM_BudgetHead""].Visible=""false"";ISpace[""FWFM_ProjectNo""].Visible=""false"";ISpace[""FWFM_Amount""].Visible=""false"";");
+}
+if(ISpace["FWFM_FundType"].Value=="1" || ISpace["FWFM_FundType"].Value=="3")
+{
+base.WriteDebugInfo(@"if(ISpace[""FWFM_FundType""].Value==""1"" || ISpace[""FWFM_FundType""].Value==""3"")");
+ISpace["FWFM_BudgetHead"].Visible="true";ISpace["FWFM_ProjectNo"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""FWFM_BudgetHead""].Visible=""true"";ISpace[""FWFM_ProjectNo""].Visible=""true"";");
 }
 ISpace["PFMF_PackageProcessMapId"].Value=ISpace["gv_processmapid"].Value;
 base.WriteDebugInfo(@"ISpace[""PFMF_PackageProcessMapId""].Value=ISpace[""gv_processmapid""].Value;");
@@ -2257,17 +2257,17 @@ base.WriteDebugInfo(@"ISpace[""FWFM_BudgetHead""].Value="""";");
 ISpace["FWFM_ProjectNo"].Value="";
 base.WriteDebugInfo(@"ISpace[""FWFM_ProjectNo""].Value="""";");
 }
-else
-{
-base.WriteDebugInfo(@"else");
-ISpace["FWFM_BudgetHead"].Visible="true";ISpace["FWFM_ProjectNo"].Visible="true";
-base.WriteDebugInfo(@"ISpace[""FWFM_BudgetHead""].Visible=""true"";ISpace[""FWFM_ProjectNo""].Visible=""true"";");
-}
 if(ISpace["FWFM_FundType"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""FWFM_FundType""].Value=="""")");
 ISpace["FWFM_BudgetHead"].Visible="false";ISpace["FWFM_ProjectNo"].Visible="false";ISpace["FWFM_Amount"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""FWFM_BudgetHead""].Visible=""false"";ISpace[""FWFM_ProjectNo""].Visible=""false"";ISpace[""FWFM_Amount""].Visible=""false"";");
+}
+if(ISpace["FWFM_FundType"].Value=="1" || ISpace["FWFM_FundType"].Value=="3")
+{
+base.WriteDebugInfo(@"if(ISpace[""FWFM_FundType""].Value==""1"" || ISpace[""FWFM_FundType""].Value==""3"")");
+ISpace["FWFM_BudgetHead"].Visible="true";ISpace["FWFM_ProjectNo"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""FWFM_BudgetHead""].Visible=""true"";ISpace[""FWFM_ProjectNo""].Visible=""true"";");
 }
 }
 catch(Exception ex)
