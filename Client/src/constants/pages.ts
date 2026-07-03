@@ -1,6 +1,6 @@
 // Innovace Intech Solution Pvt Ltd
 // ⚠️ AUTO-GENERATED FILE – DO NOT EDIT
-// Generated on 2026-07-03T07:00:37.712Z
+// Generated on 2026-07-03T08:34:30.301Z
 
 export const pages = [
   {
@@ -14,6 +14,12 @@ export const pages = [
     "ProcessActivityMapId": "A6341F06-0394-4CAA-88D0-B7B36027AF06",
     "ProcessName": "TravelRequest",
     "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequest_Registrar"
+  },
+  {
+    "PackageProcessMapId": "bfcdccb2-7467-4308-a53d-7cab7b883529",
+    "ProcessActivityMapId": "F1E21952-3E9A-4F37-9C42-2F86E1775788",
+    "ProcessName": "TravelRequestNew",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequestNew_Start"
   },
   {
     "PackageProcessMapId": "36447555-6c49-45cd-8563-426f536ebf74",
@@ -46,6 +52,12 @@ export const pages = [
     "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequest_ARRD"
   },
   {
+    "PackageProcessMapId": "85014d12-a85b-4330-8d7f-29776cbda319",
+    "ProcessActivityMapId": "1D9F2FB8-7229-4AF1-A535-338A23491654",
+    "ProcessName": "TemporaryAdvanceNew",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_ARRandD"
+  },
+  {
     "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
     "ProcessActivityMapId": "1E274DA6-1515-4B96-B922-4B5CC5F2D423",
     "ProcessName": "TempAdvance",
@@ -74,6 +86,12 @@ export const pages = [
     "ProcessActivityMapId": "B3A49337-4C4B-42EC-9F9B-1C4C8B4E2E13",
     "ProcessName": "ProjectProposal",
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectProposal_Start"
+  },
+  {
+    "PackageProcessMapId": "85014d12-a85b-4330-8d7f-29776cbda319",
+    "ProcessActivityMapId": "B4D82C89-3C76-4D0A-AE78-7B32FD572B8F",
+    "ProcessName": "TemporaryAdvanceNew",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_DeanRandD"
   },
   {
     "PackageProcessMapId": "AC69E996-4AE4-4D34-829F-4DFC7F63582C",
@@ -172,10 +190,22 @@ export const pages = [
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectCreation_RANDDOFFICE"
   },
   {
+    "PackageProcessMapId": "85014d12-a85b-4330-8d7f-29776cbda319",
+    "ProcessActivityMapId": "B7191F83-99C7-433E-8CAC-B4D23CA6AB2E",
+    "ProcessName": "TemporaryAdvanceNew",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_RandDOffice"
+  },
+  {
     "PackageProcessMapId": "64C42232-67DB-43B8-8B68-4468FE0DD17F",
     "ProcessActivityMapId": "537084A6-7B72-4CBE-A0A2-057049686345",
     "ProcessName": "ProjectFundInstallment",
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectFundInstallment_HOD"
+  },
+  {
+    "PackageProcessMapId": "85014d12-a85b-4330-8d7f-29776cbda319",
+    "ProcessActivityMapId": "560A61B0-D0D9-4566-B1E9-4190F008BC9E",
+    "ProcessName": "TemporaryAdvanceNew",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_Registrar"
   },
   {
     "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
@@ -202,10 +232,22 @@ export const pages = [
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectProposal_View"
   },
   {
+    "PackageProcessMapId": "85014d12-a85b-4330-8d7f-29776cbda319",
+    "ProcessActivityMapId": "A8D5026A-49FD-44A0-BEBE-AA595B40C453",
+    "ProcessName": "TemporaryAdvanceNew",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_Start"
+  },
+  {
     "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",
     "ProcessActivityMapId": "B26F9122-89B2-4163-B938-37AD78E21338",
     "ProcessName": "TravelRequest",
     "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequest_RDOfficePayments"
+  },
+  {
+    "PackageProcessMapId": "bfcdccb2-7467-4308-a53d-7cab7b883529",
+    "ProcessActivityMapId": "34A8F37F-24BF-4316-826B-DF78EE6E8579",
+    "ProcessName": "TravelRequestNew",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequestNew_RandDOffice"
   },
   {
     "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",

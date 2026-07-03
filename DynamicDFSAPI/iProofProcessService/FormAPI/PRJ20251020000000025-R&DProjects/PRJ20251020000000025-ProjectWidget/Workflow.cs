@@ -13,49 +13,49 @@ namespace CPS.Proof.DFSExtension
 	using System.Linq;
 	
 	
-	public partial class CommitmentSpentDetailsProcessMetadata : ExtensionProcessBase
+	public partial class WorkflowProcessMetadata : ExtensionProcessBase
 	{		
 
         public override long PackageId
         {
-            get { return 30303; }
+            get { return 30304; }
         }
 
         public override string PackageName
         {
-            get { return "PRJ20251020000000025-R&D Projects"; }
+            get { return "PRJ20251020000000025-Project Widget"; }
         }
 
 		public override string PackageDescription
         {
-            get { return "The Research & Consultancy (R&C) Projects Module is designed to manage the complete lifecycle of institutional research and consultancy projects, from proposal submission to project closure. It enables faculty, research scholars, and departments to create, submit, and track project proposals, budgets, approvals, funding sources, and progress reports within a structured digital workflow. The module supports collaboration across departments, monitors financial utilization against sanctioned budgets, and ensures compliance with institutional and external funding guidelines."; }
+            get { return "Project Widget"; }
         }
 
         public override string ProcessId
         {
-            get { return "C12B87A0-C375-4057-B0BA-64B4C80E77F9"; }
+            get { return "625B1F37-DEE5-40D3-9361-5E014866245C"; }
         }
 
         public override string ProcessName
         {
-            get { return "CommitmentSpentDetails"; }
+            get { return "Workflow"; }
         }
 
 		public override string ProcessDescription
         {
-            get { return "Commitment Spent Details"; }
+            get { return "Workflow"; }
         }
 
         public override ProcessType ProcessType
         {
-            get { return ProcessType.RuleBased; }
+            get { return ProcessType.Widget; }
         }
 
       
 
 		public override string FileGroupId
         {
-            get { return "7EADC0EB-F718-4236-831D-51ED9DD6B47E"; }
+            get { return "C8BA2E2C-CB74-4616-9139-B32125B1C0A1"; }
         } 
 
 		public override string FileGroup
@@ -65,7 +65,7 @@ namespace CPS.Proof.DFSExtension
 		
         public override string PackageProcessMapId
         {
-            get {return "C12B87A0-C375-4057-B0BA-64B4C80E77F9";}
+            get {return "625B1F37-DEE5-40D3-9361-5E014866245C";}
         }
 
 		public override byte ProcessInstanceMode
@@ -76,7 +76,7 @@ namespace CPS.Proof.DFSExtension
 		public override string MasterFormId
         {
             get {  
-				   return "DA3904EF-0E60-44D0-943E-2E97494B15C8";	}
+				   return "D4D4D705-F820-486F-A99B-8E9EAAACF080";	}
         }
 			
         public override string Comments => throw new NotImplementedException();
@@ -98,7 +98,7 @@ namespace CPS.Proof.DFSExtension
 	using CPS.Proof.DFSExtension;
 	
 
-	public partial class CommitmentSpentDetailsObjectFactory  : ExtObjectFactoryBase
+	public partial class WorkflowObjectFactory  : ExtObjectFactoryBase
     {		
        	
 		
@@ -132,7 +132,7 @@ namespace CPS.Proof.DFSExtension
 
 		//public override IExtBaseMetaData GetProcessInstance(string packageProcessMapId)
        // {
-        //    return (IExtBaseMetaData)new CommitmentSpentDetailsProcessMetadata();
+        //    return (IExtBaseMetaData)new WorkflowProcessMetadata();
         //}
 	
 
@@ -140,12 +140,16 @@ namespace CPS.Proof.DFSExtension
 		private List<Triplet<string, string, string>> queryExpressionData = new List<Triplet<string, string, string>>
 		{
 	  			
-			     new Triplet<string, string, string>("D81D3EDF-DDF6-4F81-A44C-3C2187BB3EBA","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
-												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			     new Triplet<string, string, string>("6de18807-eac7-2fe0-13b2-6280fe1e5657","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
 						
-			     new Triplet<string, string, string>("D81D3EDF-DDF6-4F81-A44C-3C2187BB3EBA","Load ProjectCommitmentSpentDetails",
-												     @"9CC97541-CC4E-4D16-A92F-2FA4A6460E7B"),
+			     new Triplet<string, string, string>("b2cc58cd-f143-4865-d06a-b3f668910216","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
+			
+						
+			     new Triplet<string, string, string>("6de18807-eac7-2fe0-13b2-6280fe1e5657","Load Comments",
+												     @"51e1dee3-de7b-e2ef-823a-43252ad068f0"),
 			
 			
 			
@@ -157,8 +161,8 @@ namespace CPS.Proof.DFSExtension
 
 		
 	  			
-			     new Triplet<string, string, string>("MF_ProjectNo","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
-												     @"EXEC GetProjectExtensionDetails 1,'@MF_UserName'"),
+			     new Triplet<string, string, string>("WMF_MoveTo","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAX4svK5cDYCPw2sEhYNSLVUgHvT8EwteQ6Cu6POiqivUqpEh16s8+yjMECvtOIho/Hsxg7bNByVU=",
+												     @"EXEC GetNextStep '@WMF_InstanceId','@WMF_FlowType'"),
 			
 						
 		};
@@ -183,7 +187,7 @@ namespace CPS.Proof.DFSExtension
 		{
 		
 	  			
-			     new Tuple<string, int>("MG_CommitmentDetails",50),
+			     new Tuple<string, int>("WMG_CommentsHistory",100),
 			
 						
 		};
@@ -223,8 +227,8 @@ namespace CPS.Proof.DFSExtension
 
 			switch(processActivityMapId)	
 				{
-											case "C74E1FE0-A9E3-4B09-A184-6D1DC9CE7B0F":
-							virtualInstance=new ISpaceC74E1FE0A9E34B09A1846D1DC9CE7B0F();
+											case "728FC96D-3626-4EDB-A4B6-3BD68D14069E":
+							virtualInstance=new ISpace728FC96D36264EDBA4B63BD68D14069E();
 							break;
 					
 					
@@ -279,7 +283,7 @@ namespace CPS.Proof.DFSExtension
     using Newtonsoft.Json.Linq;
 	
 
-	public partial class CommitmentSpentDetailsDataElementFactory  : ExtElementBase
+	public partial class WorkflowDataElementFactory  : ExtElementBase
     {
 
      /// <summary>
@@ -288,7 +292,7 @@ namespace CPS.Proof.DFSExtension
         /// </summary>
         private readonly ILog _sysLog;
 
-        public CommitmentSpentDetailsDataElementFactory()
+        public WorkflowDataElementFactory()
         {
             _sysLog = LogManager.GetLogger(GetType());
         }			
@@ -319,13 +323,13 @@ namespace CPS.Proof.DFSExtension
 
                
                 
-                                      case "DA3904EF-0E60-44D0-943E-2E97494B15C8":
+                                      case "D4D4D705-F820-486F-A99B-8E9EAAACF080":
                     {
                      
-                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [DA3904EF-0E60-44D0-943E-2E97494B15C8] WHERE InstanceId='{0}') BEGIN INSERT INTO [DA3904EF-0E60-44D0-943E-2E97494B15C8](ProcessActivityMapId,FormId,ExecutionMessage,ExecutionStatus,Subject,SetDestinationTo,MF_ProjectDetailsId,SLATime,MF_ProjectNo,MF_UserName,InstanceId)
-							VALUES( {3}) END ELSE BEGIN UPDATE [DA3904EF-0E60-44D0-943E-2E97494B15C8]SET {4}WHERE InstanceId='{0}'END ";
+                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [D4D4D705-F820-486F-A99B-8E9EAAACF080] WHERE InstanceId='{0}') BEGIN INSERT INTO [D4D4D705-F820-486F-A99B-8E9EAAACF080](ProcessActivityMapId,FormId,WMF_IsInFlow,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,WMF_MoveTo,Comments,FlowType,WMF_InstanceId,InstanceId)
+							VALUES( {3}) END ELSE BEGIN UPDATE [D4D4D705-F820-486F-A99B-8E9EAAACF080]SET {4}WHERE InstanceId='{0}'END ";
 
-                                     colList=@"ProcessActivityMapId,FormId,ExecutionMessage,ExecutionStatus,Subject,SetDestinationTo,MF_ProjectDetailsId,SLATime,MF_ProjectNo,MF_UserName,InstanceId";
+                                     colList=@"ProcessActivityMapId,FormId,WMF_IsInFlow,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,WMF_MoveTo,Comments,FlowType,WMF_InstanceId,InstanceId";
                                     
                      
                             splitcols = colList.Split(',');
@@ -503,21 +507,21 @@ namespace CPS.Proof.DFSExtension
 
                 
                  
-                                      case "9CC97541-CC4E-4D16-A92F-2FA4A6460E7B":
+                                      case "51e1dee3-de7b-e2ef-823a-43252ad068f0":
                     {
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_9CC97541CC4E4D16A92F2FA4A6460E7B AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_BudgetName] VARCHAR(MAX)	, [MG_Balance] DECIMAL(18,2)	, [MG_ReceivedAmount] DECIMAL(18,2)	, [MG_Commitment] DECIMAL(18,2)	, [MG_Spent] DECIMAL(18,2)	, [MG_YetToReceive] DECIMAL(18,2)	, [MG_SanctionedAmount] DECIMAL(18,2)){0}INSERT INTO [9CC97541-CC4E-4D16-A92F-2FA4A6460E7B](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_BudgetName,MG_Balance,MG_ReceivedAmount,MG_Commitment,MG_Spent,MG_YetToReceive,MG_SanctionedAmount)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_BudgetName,TDT.MG_Balance,TDT.MG_ReceivedAmount,TDT.MG_Commitment,TDT.MG_Spent,TDT.MG_YetToReceive,TDT.MG_SanctionedAmount FROM @TBL_9CC97541CC4E4D16A92F2FA4A6460E7B TDT
-							LEFT JOIN [9CC97541-CC4E-4D16-A92F-2FA4A6460E7B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_BudgetName=TDT.MG_BudgetName,MG_Balance=TDT.MG_Balance,MG_ReceivedAmount=TDT.MG_ReceivedAmount,MG_Commitment=TDT.MG_Commitment,MG_Spent=TDT.MG_Spent,MG_YetToReceive=TDT.MG_YetToReceive,MG_SanctionedAmount=TDT.MG_SanctionedAmount FROM @TBL_9CC97541CC4E4D16A92F2FA4A6460E7B TDT
-							JOIN [9CC97541-CC4E-4D16-A92F-2FA4A6460E7B] DT  WITH(NOLOCK)
+		DECLARE  @TBL_51e1dee3de7be2ef823a43252ad068f0 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [WMC_StepFrom] VARCHAR(MAX)	, [WMC_StepTo] VARCHAR(MAX)	, [WMC_Comments] VARCHAR(MAX)	, [WMC_User] VARCHAR(MAX)	, [WMC_DateofComments] DATETIME){0}INSERT INTO [51e1dee3-de7b-e2ef-823a-43252ad068f0](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,WMC_StepFrom,WMC_StepTo,WMC_Comments,WMC_User,WMC_DateofComments)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.WMC_StepFrom,TDT.WMC_StepTo,TDT.WMC_Comments,TDT.WMC_User,TDT.WMC_DateofComments FROM @TBL_51e1dee3de7be2ef823a43252ad068f0 TDT
+							LEFT JOIN [51e1dee3-de7b-e2ef-823a-43252ad068f0] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,WMC_StepFrom=TDT.WMC_StepFrom,WMC_StepTo=TDT.WMC_StepTo,WMC_Comments=TDT.WMC_Comments,WMC_User=TDT.WMC_User,WMC_DateofComments=TDT.WMC_DateofComments FROM @TBL_51e1dee3de7be2ef823a43252ad068f0 TDT
+							JOIN [51e1dee3-de7b-e2ef-823a-43252ad068f0] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
-                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_BudgetName,MG_Balance,MG_ReceivedAmount,MG_Commitment,MG_Spent,MG_YetToReceive,MG_SanctionedAmount";
+                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,WMC_StepFrom,WMC_StepTo,WMC_Comments,WMC_User,WMC_DateofComments";
 
-                                     tempInsertQuery=@"INSERT INTO @TBL_9CC97541CC4E4D16A92F2FA4A6460E7B(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_BudgetName,MG_Balance,MG_ReceivedAmount,MG_Commitment,MG_Spent,MG_YetToReceive,MG_SanctionedAmount)VALUES({0});";
+                                     tempInsertQuery=@"INSERT INTO @TBL_51e1dee3de7be2ef823a43252ad068f0(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,WMC_StepFrom,WMC_StepTo,WMC_Comments,WMC_User,WMC_DateofComments)VALUES({0});";
                                      
 
                             splitcols = colList.Split(',');
@@ -665,21 +669,21 @@ namespace CPS.Proof.DFSExtension
                 {
                      
 
-                                         case "9CC97541-CC4E-4D16-A92F-2FA4A6460E7B":
+                                         case "51e1dee3-de7b-e2ef-823a-43252ad068f0":
                     {
                      
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_9CC97541CC4E4D16A92F2FA4A6460E7B AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_BudgetName] VARCHAR(MAX)	, [MG_Balance] DECIMAL(18,2)	, [MG_ReceivedAmount] DECIMAL(18,2)	, [MG_Commitment] DECIMAL(18,2)	, [MG_Spent] DECIMAL(18,2)	, [MG_YetToReceive] DECIMAL(18,2)	, [MG_SanctionedAmount] DECIMAL(18,2)){0}INSERT INTO [9CC97541-CC4E-4D16-A92F-2FA4A6460E7B](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_BudgetName,MG_Balance,MG_ReceivedAmount,MG_Commitment,MG_Spent,MG_YetToReceive,MG_SanctionedAmount)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_BudgetName,TDT.MG_Balance,TDT.MG_ReceivedAmount,TDT.MG_Commitment,TDT.MG_Spent,TDT.MG_YetToReceive,TDT.MG_SanctionedAmount FROM @TBL_9CC97541CC4E4D16A92F2FA4A6460E7B TDT
-							LEFT JOIN [9CC97541-CC4E-4D16-A92F-2FA4A6460E7B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_BudgetName=TDT.MG_BudgetName,MG_Balance=TDT.MG_Balance,MG_ReceivedAmount=TDT.MG_ReceivedAmount,MG_Commitment=TDT.MG_Commitment,MG_Spent=TDT.MG_Spent,MG_YetToReceive=TDT.MG_YetToReceive,MG_SanctionedAmount=TDT.MG_SanctionedAmount FROM @TBL_9CC97541CC4E4D16A92F2FA4A6460E7B TDT
-							JOIN [9CC97541-CC4E-4D16-A92F-2FA4A6460E7B] DT  WITH(NOLOCK)
+		DECLARE  @TBL_51e1dee3de7be2ef823a43252ad068f0 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [WMC_StepFrom] VARCHAR(MAX)	, [WMC_StepTo] VARCHAR(MAX)	, [WMC_Comments] VARCHAR(MAX)	, [WMC_User] VARCHAR(MAX)	, [WMC_DateofComments] DATETIME){0}INSERT INTO [51e1dee3-de7b-e2ef-823a-43252ad068f0](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,WMC_StepFrom,WMC_StepTo,WMC_Comments,WMC_User,WMC_DateofComments)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.WMC_StepFrom,TDT.WMC_StepTo,TDT.WMC_Comments,TDT.WMC_User,TDT.WMC_DateofComments FROM @TBL_51e1dee3de7be2ef823a43252ad068f0 TDT
+							LEFT JOIN [51e1dee3-de7b-e2ef-823a-43252ad068f0] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,WMC_StepFrom=TDT.WMC_StepFrom,WMC_StepTo=TDT.WMC_StepTo,WMC_Comments=TDT.WMC_Comments,WMC_User=TDT.WMC_User,WMC_DateofComments=TDT.WMC_DateofComments FROM @TBL_51e1dee3de7be2ef823a43252ad068f0 TDT
+							JOIN [51e1dee3-de7b-e2ef-823a-43252ad068f0] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_BudgetName,MG_Balance,MG_ReceivedAmount,MG_Commitment,MG_Spent,MG_YetToReceive,MG_SanctionedAmount";
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,WMC_StepFrom,WMC_StepTo,WMC_Comments,WMC_User,WMC_DateofComments";
 
-                            tempInsertQuery=@"INSERT INTO @TBL_9CC97541CC4E4D16A92F2FA4A6460E7B(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_BudgetName,MG_Balance,MG_ReceivedAmount,MG_Commitment,MG_Spent,MG_YetToReceive,MG_SanctionedAmount)VALUES({0});";
+                            tempInsertQuery=@"INSERT INTO @TBL_51e1dee3de7be2ef823a43252ad068f0(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,WMC_StepFrom,WMC_StepTo,WMC_Comments,WMC_User,WMC_DateofComments)VALUES({0});";
 
                             splitcols = colList.Split(',');
 
@@ -794,76 +798,116 @@ using System;
 using CPS.Proof.DFSExtension;
 using System.Linq;using System.Data;
 using System.Runtime.CompilerServices;
-public class ISpaceC74E1FE0A9E34B09A1846D1DC9CE7B0F : VirtualForm
+public class ISpace728FC96D36264EDBA4B63BD68D14069E : VirtualForm
 {
 IISpace iSpace = new ISpace();
-AcDataISpaceC74E1FE0A9E34B09A1846D1DC9CE7B0F acdataIspaceC74E1FE0A9E34B09A1846D1DC9CE7B0F=new AcDataISpaceC74E1FE0A9E34B09A1846D1DC9CE7B0F();
+AcDataISpace728FC96D36264EDBA4B63BD68D14069E acdataIspace728FC96D36264EDBA4B63BD68D14069E=new AcDataISpace728FC96D36264EDBA4B63BD68D14069E();
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
 {
 base.WriteDebugInfo(@"Root-OnAfterFormLoad");
-if(ISpace["MF_ProjectNo"].Value!="")
-{
-base.WriteDebugInfo(@"if(ISpace[""MF_ProjectNo""].Value!="""")");
-ISpace["MF_ProjectDetailsId"].Visible="false";ISpace["MF_ProjectDetailsId"].Enbl="false";ISpace["MF_ProjectNo"].Visible="false";ISpace["MF_ProjectNo"].Enbl="false";
-base.WriteDebugInfo(@"ISpace[""MF_ProjectDetailsId""].Visible=""false"";ISpace[""MF_ProjectDetailsId""].Enbl=""false"";ISpace[""MF_ProjectNo""].Visible=""false"";ISpace[""MF_ProjectNo""].Enbl=""false"";");
-}
-ISpace["MG_BudgetName"].Enbl="false";
-base.WriteDebugInfo(@"ISpace[""MG_BudgetName""].Enbl=""false"";");
-ISpace["MF_UserName"].Value=ISpace["gv_username"].Value;
-base.WriteDebugInfo(@"ISpace[""MF_UserName""].Value=ISpace[""gv_username""].Value;");
-ISpace["MF_ProjectNo"].rElemData=iSpace.Reload(ISpace["MF_ProjectNo"].Value,@"EXEC GetProjectExtensionDetails 1,'" + ISpace["MF_UserName"].Value + @"'","3A103712-5244-4427-B2B6-1C4E046FD337");
-base.WriteDebugInfo(@"ISpace[""MF_ProjectNo""].rElemData=iSpace.Reload(ISpace[""MF_ProjectNo""].Value,@""EXEC GetProjectExtensionDetails 1,'"" + ISpace[""MF_UserName""].Value + @""'"",""3A103712-5244-4427-B2B6-1C4E046FD337"");");
-ISpace["MF_UserName"].Visible="false";
-base.WriteDebugInfo(@"ISpace[""MF_UserName""].Visible=""false"";");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
+ISpace["WMF_InstanceId"].Value=ISpace["gv_instanceid"].Value;
+base.WriteDebugInfo(@"ISpace[""WMF_InstanceId""].Value=ISpace[""gv_instanceid""].Value;");
+if(ISpace["FormVersionId"].Value=="D2CEABD5-3181-469E-AECE-B2E0F2399816")
+{
+ISpace["UI_ApprovalHideRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""D2CEABD5-3181-469E-AECE-B2E0F2399816"")
+{
+ISpace[""UI_ApprovalHideRow""].Visible=""false"";
+}");
+}
+if(ISpace["FlowType"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value=="""")");
+ISpace["WMF_IsInFlow"].Value=0;
+base.WriteDebugInfo(@"ISpace[""WMF_IsInFlow""].Value=0;");
+base.WriteDebugInfo(@"EXEC [GetInstanceInFlow] '@@gv_InstanceId'");
 
-var querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA =GetQueryExpressionDataSource("D81D3EDF-DDF6-4F81-A44C-3C2187BB3EBA");
+var querySourceb2cc58cdf1434865d06ab3f668910216 =GetQueryExpressionDataSource("b2cc58cd-f143-4865-d06a-b3f668910216");
+Dictionary<short,object> resultb2cc58cdf1434865d06ab3f668910216=iSpace.ExecuteQuery(querySourceb2cc58cdf1434865d06ab3f668910216,@"EXEC [GetInstanceInFlow] '" + ISpace["gv_instanceid"].Value + @"'",false);
 
-DataTable resultD81D3EDFDDF64F81A44C3C2187BB3EBA=iSpace.SetGridDataSource(querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA, _objectFactory.GetGridRPP("MG_CommitmentDetails"),@"EXEC GetProjectBudgetInformation '" + ISpace["MF_ProjectNo"].Value + @"'");
+base.WriteDebugInfo(@"var querySourceb2cc58cdf1434865d06ab3f668910216 =GetQueryExpressionDataSource(""b2cc58cd-f143-4865-d06a-b3f668910216"");Dictionary<short,object> resultb2cc58cdf1434865d06ab3f668910216=iSpace.ExecuteQuery(querySourceb2cc58cdf1434865d06ab3f668910216,@""EXEC [GetInstanceInFlow] '"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
 
-iSpace.InsertGridBindDetails("MG_CommitmentDetails","11",querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA,"EXEC GetProjectBudgetInformation '" + ISpace["MF_ProjectNo"].Value + @"'",_objectFactory.GetGridRPP("MG_CommitmentDetails"));
+if((resultb2cc58cdf1434865d06ab3f668910216!=null) && (resultb2cc58cdf1434865d06ab3f668910216.Count!=0))
+{
+if(resultb2cc58cdf1434865d06ab3f668910216.ContainsKey(0))
+ISpace["WMF_IsInFlow"].Value = resultb2cc58cdf1434865d06ab3f668910216[0];
+}
+else{
+ISpace["WMF_IsInFlow"].Value = null;
+}
+if(ISpace["WMF_IsInFlow"].Value==1)
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_IsInFlow""].Value==1)");
+ISpace["WMF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WMF_FlowType""].Value=""APPROVE"";");
+ISpace["WMF_MoveTo"].Visible="true";ISpace["WMF_History"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""true"";ISpace[""WMF_History""].Visible=""true"";");
+}
+if(ISpace["WMF_IsInFlow"].Value!=1)
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_IsInFlow""].Value!=1)");
+ISpace["WMF_MoveTo"].Visible="false";ISpace["WMF_History"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""false"";ISpace[""WMF_History""].Visible=""false"";");
+}
+}
+ISpace["WMF_MoveTo"].Man=true;
+base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Man=true;");
 
-base.WriteDebugInfo(@"var querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA =GetQueryExpressionDataSource(""D81D3EDF-DDF6-4F81-A44C-3C2187BB3EBA"");DataTable resultD81D3EDFDDF64F81A44C3C2187BB3EBA=iSpace.SetGridDataSource(querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA, _objectFactory.GetGridRPP(""MG_CommitmentDetails""),@""EXEC GetProjectBudgetInformation '"" + ISpace[""MF_ProjectNo""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_CommitmentDetails"",""11"",querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA,""EXEC GetProjectBudgetInformation '"" + ISpace[""MF_ProjectNo""].Value + @""'"",_objectFactory.GetGridRPP(""MG_CommitmentDetails""));");
+var querySource6de18807eac72fe013b26280fe1e5657 =GetQueryExpressionDataSource("6de18807-eac7-2fe0-13b2-6280fe1e5657");
+
+DataTable result6de18807eac72fe013b26280fe1e5657=iSpace.SetGridDataSource(querySource6de18807eac72fe013b26280fe1e5657, _objectFactory.GetGridRPP("WMG_CommentsHistory"),@"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("WMG_CommentsHistory","11",querySource6de18807eac72fe013b26280fe1e5657,"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("WMG_CommentsHistory"));
+
+base.WriteDebugInfo(@"var querySource6de18807eac72fe013b26280fe1e5657 =GetQueryExpressionDataSource(""6de18807-eac7-2fe0-13b2-6280fe1e5657"");DataTable result6de18807eac72fe013b26280fe1e5657=iSpace.SetGridDataSource(querySource6de18807eac72fe013b26280fe1e5657, _objectFactory.GetGridRPP(""WMG_CommentsHistory""),@""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""WMG_CommentsHistory"",""11"",querySource6de18807eac72fe013b26280fe1e5657,""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""WMG_CommentsHistory""));");
 base.WriteDebugInfo(@"");
 
 
-List<Triplet<string, short, short?>> resultDA94EEF131BE409C9029B9039A450EB2=acdataIspaceC74E1FE0A9E34B09A1846D1DC9CE7B0F.GetQueryExpressionBindings("DA94EEF1-31BE-409C-9029-B9039A450EB2");
-iSpace.SetGridData(resultD81D3EDFDDF64F81A44C3C2187BB3EBA,resultDA94EEF131BE409C9029B9039A450EB2,"MG_CommitmentDetails",ref ISpace);
-iSpace.UpdateGridBindDetails("MG_CommitmentDetails",resultDA94EEF131BE409C9029B9039A450EB2);
-}
+List<Triplet<string, short, short?>> result18ed625df6e21cabb92353bbe89589f8=acdataIspace728FC96D36264EDBA4B63BD68D14069E.GetQueryExpressionBindings("18ed625d-f6e2-1cab-b923-53bbe89589f8");
+iSpace.SetGridData(result6de18807eac72fe013b26280fe1e5657,result18ed625df6e21cabb92353bbe89589f8,"WMG_CommentsHistory",ref ISpace);
+iSpace.UpdateGridBindDetails("WMG_CommentsHistory",result18ed625df6e21cabb92353bbe89589f8);
 }
 catch(Exception ex)
 {
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
-private void SubscribeElementEvents_mf_projectno (ref Dictionary<string,ServiceElementData> ISpace)
+private void SubscribeElementEvents_wmf_moveto (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
 try
 {
-base.WriteDebugInfo(@"MF_ProjectNo-OnChange");
-if(1==1)
+base.WriteDebugInfo(@"WMF_MoveTo-OnChange");
+if(ISpace["WMF_MoveTo"].Value=="APPROVE")
 {
-base.WriteDebugInfo(@"if(1==1)");
-
-var querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA =GetQueryExpressionDataSource("D81D3EDF-DDF6-4F81-A44C-3C2187BB3EBA");
-
-DataTable resultD81D3EDFDDF64F81A44C3C2187BB3EBA=iSpace.SetGridDataSource(querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA, _objectFactory.GetGridRPP("MG_CommitmentDetails"),@"EXEC GetProjectBudgetInformation '" + ISpace["MF_ProjectNo"].Value + @"'");
-
-iSpace.InsertGridBindDetails("MG_CommitmentDetails","11",querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA,"EXEC GetProjectBudgetInformation '" + ISpace["MF_ProjectNo"].Value + @"'",_objectFactory.GetGridRPP("MG_CommitmentDetails"));
-
-base.WriteDebugInfo(@"var querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA =GetQueryExpressionDataSource(""D81D3EDF-DDF6-4F81-A44C-3C2187BB3EBA"");DataTable resultD81D3EDFDDF64F81A44C3C2187BB3EBA=iSpace.SetGridDataSource(querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA, _objectFactory.GetGridRPP(""MG_CommitmentDetails""),@""EXEC GetProjectBudgetInformation '"" + ISpace[""MF_ProjectNo""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_CommitmentDetails"",""11"",querySourceD81D3EDFDDF64F81A44C3C2187BB3EBA,""EXEC GetProjectBudgetInformation '"" + ISpace[""MF_ProjectNo""].Value + @""'"",_objectFactory.GetGridRPP(""MG_CommitmentDetails""));");
-base.WriteDebugInfo(@"");
-
-
-List<Triplet<string, short, short?>> resultDA94EEF131BE409C9029B9039A450EB2=acdataIspaceC74E1FE0A9E34B09A1846D1DC9CE7B0F.GetQueryExpressionBindings("DA94EEF1-31BE-409C-9029-B9039A450EB2");
-iSpace.SetGridData(resultD81D3EDFDDF64F81A44C3C2187BB3EBA,resultDA94EEF131BE409C9029B9039A450EB2,"MG_CommitmentDetails",ref ISpace);
-iSpace.UpdateGridBindDetails("MG_CommitmentDetails",resultDA94EEF131BE409C9029B9039A450EB2);
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""APPROVE"")");
+ISpace["FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""APPROVE"";");
+ISpace["Comments"].Man=false;
+base.WriteDebugInfo(@"ISpace[""Comments""].Man=false;");
+}
+if(ISpace["WMF_MoveTo"].Value=="RETURN")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""RETURN"")");
+ISpace["FlowType"].Value="RETURN";
+base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""RETURN"";");
+ISpace["Comments"].Man=true;
+base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
+}
+if(ISpace["WMF_MoveTo"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""REJECT"")");
+ISpace["FlowType"].Value="REJECT";
+base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""REJECT"";");
+ISpace["Comments"].Man=true;
+base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
 }
 catch(Exception ex)
@@ -881,9 +925,9 @@ public override void ExecuteMethod
 }
 	if(methodName.ToLower().Equals("onchange"))
 {
-		if(elementName.ToLower().Equals("mf_projectno"))
+		if(elementName.ToLower().Equals("wmf_moveto"))
     {
-    			SubscribeElementEvents_mf_projectno(ref dfsParam);
+    			SubscribeElementEvents_wmf_moveto(ref dfsParam);
     }
 }
 	if(methodName.ToLower().Equals("onclick"))
@@ -910,30 +954,26 @@ using System;
     using System.Linq;	
 
 
-	public partial class AcDataISpaceC74E1FE0A9E34B09A1846D1DC9CE7B0F  : ExtensionActivityBase
+	public partial class AcDataISpace728FC96D36264EDBA4B63BD68D14069E  : ExtensionActivityBase
 	{		
 		
 		
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
-							{"DA94EEF1-31BE-409C-9029-B9039A450EB2", 
+							{"18ed625d-f6e2-1cab-b923-53bbe89589f8", 
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("MG_Balance",6,
+								   new Triplet<string, short, short?>("WMC_StepTo",2,
 														   -1),
-								   new Triplet<string, short, short?>("MG_YetToReceive",2,
+								   new Triplet<string, short, short?>("WMC_StepFrom",1,
 														   -1),
-								   new Triplet<string, short, short?>("MG_ReceivedAmount",3,
+								   new Triplet<string, short, short?>("WMC_User",3,
 														   -1),
-								   new Triplet<string, short, short?>("MG_Spent",5,
+								   new Triplet<string, short, short?>("WMC_DateofComments",4,
 														   -1),
-								   new Triplet<string, short, short?>("MG_Commitment",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_SanctionedAmount",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_BudgetName",0,
+								   new Triplet<string, short, short?>("WMC_Comments",5,
 														   -1),
 								}
 			},
@@ -943,20 +983,20 @@ using System;
 
 		private Dictionary<string,string> formVersionList =new Dictionary<string,string> 
 		{
-							{"09EF60AC-9E86-4DAB-96AE-E730E741C7BC", "Medium"},
+							{"D2CEABD5-3181-469E-AECE-B2E0F2399816", "Medium"},
 					};	
 
 		
 		private Dictionary<string,string> formVersionLayoutList =new Dictionary<string,string> 
 		{
-							{"C9E33DFF-159B-4DF1-925A-F087599E4287", ""},
-							{"8AC2DA6A-8E76-4368-AB5C-3CD95AF50814", ""},
-							{"09EF60AC-9E86-4DAB-96AE-E730E741C7BC", ""},
-							{"B08E7170-7E08-4AE2-9FA6-4C8D42A8FC82", ""},
-							{"0C802C28-C6DF-4614-BF12-D867D7BD0840", ""},
-							{"C399C82D-9A27-4843-BFFD-4FC3CBC35031", ""},
-							{"FF5844A0-8538-4EFA-B394-509AFA7C0BF4", ""},
-							{"04E9CEBB-27D3-42EB-B287-6BB898A2654C", ""},
+							{"3026E65B-71E1-4B5F-8FF5-C458F2870DE8", ""},
+							{"223E1A0A-6E22-4DD1-BBE9-619E20FB113C", ""},
+							{"D2CEABD5-3181-469E-AECE-B2E0F2399816", ""},
+							{"7E61638B-AF87-4340-A657-716362702CD3", ""},
+							{"872272FC-4E2F-4813-9685-D0E96ACB3E81", ""},
+							{"A879F208-A727-4564-8973-B6DBAE66075A", ""},
+							{"3F182157-7E52-415A-8FCE-48F3CC1FDCE2", ""},
+							{"0CE3AE52-5EA8-4EF0-8A94-C024B5B5F26E", ""},
 					};	
 
 		
