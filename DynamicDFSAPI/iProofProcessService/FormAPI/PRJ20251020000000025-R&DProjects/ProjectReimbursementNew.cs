@@ -2711,6 +2711,14 @@ ISpace["PFM_ErrId"].Value = result7965F232BCCC495BA03ABBB242CA1F4D[0];
 else{
 ISpace["PFM_ErrId"].Value = null;
 }
+ISpace["Message"].Value=@"Success: Submitted Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="Project Reimbursement New?PkActMId=F66E6A92-393A-4A49-8F44-78FD095E0597&frmElementId=7580ABE2-1059-4AB0-AC76-04DE981561BA&PkPrMId=36447555-6c49-45cd-8563-426f536ebf74&formVersionId=73B8AA02-9DDD-4205-8CCE-3A640B657727&Ver=0.0000";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""Project Reimbursement New?PkActMId=F66E6A92-393A-4A49-8F44-78FD095E0597&frmElementId=7580ABE2-1059-4AB0-AC76-04DE981561BA&PkPrMId=36447555-6c49-45cd-8563-426f536ebf74&formVersionId=73B8AA02-9DDD-4205-8CCE-3A640B657727&Ver=0.0000"";");
 }
 catch(Exception ex)
 {
