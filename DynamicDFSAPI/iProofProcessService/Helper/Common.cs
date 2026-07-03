@@ -613,7 +613,9 @@ namespace CPS.Proof.DFSExtension
                     {
                         { "Subject", refParams["Subject"].Value },
 
-                        { "Comments", refParams["Comments"].Value }
+                        { "Comments", refParams["Comments"].Value },
+
+                         { "WF_FlowType", refParams["WF_FlowType"].Value }
 
                     };
 
