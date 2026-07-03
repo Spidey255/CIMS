@@ -2392,8 +2392,6 @@ ISpace["R_ReceiptAmountBalance"].Value=null;
 base.WriteDebugInfo(@"ISpace[""R_ReceiptAmountBalance""].Value=null;");
 ISpace["R_TotalSplitUpAmount"].Value=null;
 base.WriteDebugInfo(@"ISpace[""R_TotalSplitUpAmount""].Value=null;");
-ISpace["Instanceid"].Value=Guid.NewGuid().ToString();
-base.WriteDebugInfo(@"ISpace[""Instanceid""].Value=Guid.NewGuid().ToString();");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
@@ -3574,8 +3572,6 @@ ISpace["R_ReceiptAmountBalance"].Value=null;
 base.WriteDebugInfo(@"ISpace[""R_ReceiptAmountBalance""].Value=null;");
 ISpace["R_TotalSplitUpAmount"].Value=null;
 base.WriteDebugInfo(@"ISpace[""R_TotalSplitUpAmount""].Value=null;");
-ISpace["Instanceid"].Value=Guid.NewGuid().ToString();
-base.WriteDebugInfo(@"ISpace[""Instanceid""].Value=Guid.NewGuid().ToString();");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");

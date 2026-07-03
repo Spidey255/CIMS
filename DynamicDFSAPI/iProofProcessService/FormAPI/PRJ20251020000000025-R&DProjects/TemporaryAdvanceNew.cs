@@ -140,7 +140,19 @@ namespace CPS.Proof.DFSExtension
 		private List<Triplet<string, string, string>> queryExpressionData = new List<Triplet<string, string, string>>
 		{
 	  			
+			     new Triplet<string, string, string>("8ac4323c-e2ed-a641-43dc-a0a21b55f2e5","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("cd3fb793-f256-4854-1919-6ff9147e285e","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"028B1EFF-34A8-4D44-BF39-06CE99DF7C67"),
+			
+						
 			     new Triplet<string, string, string>("EB161B00-391D-4550-B14F-AE0BBFEDB121","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("a336918c-9118-7c39-9978-85844c207f84","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
@@ -426,10 +438,10 @@ namespace CPS.Proof.DFSExtension
                                       case "744F780C-12D2-41D3-9084-6E903A527934":
                     {
                      
-                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [744F780C-12D2-41D3-9084-6E903A527934] WHERE InstanceId='{0}') BEGIN INSERT INTO [744F780C-12D2-41D3-9084-6E903A527934](ProcessActivityMapId,FormId,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,MF_EmployeeId,MF_EmployeeName,MF_Designation,MF_Department,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d2_AdvanceFormId,MF_d2_EmployeeBasicInfoId,MF_d2_TotalAmount,MF_d2_Initiatedon,MF_d2_InitatedBy,MF_d2_ApplicationStatus,MF_d2_UpdatedBy,MF_d2_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,InstanceId,WMF_IsInFlow,WMF_MoveTo,Comments,FlowType,WMF_InstanceId)
+                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [744F780C-12D2-41D3-9084-6E903A527934] WHERE InstanceId='{0}') BEGIN INSERT INTO [744F780C-12D2-41D3-9084-6E903A527934](ProcessActivityMapId,FormId,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d2_AdvanceFormId,MF_d2_EmployeeBasicInfoId,MF_d2_TotalAmount,MF_d2_Initiatedon,MF_d2_InitatedBy,MF_d2_ApplicationStatus,MF_d2_UpdatedBy,MF_d2_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,InstanceId,WMF_IsInFlow,WMF_MoveTo,Comments,FlowType,WMF_InstanceId,UC_EmployeeId,UC_EmployeeName,UC_Designation,UC_Department,MF_FundTotal,TA_refNo,UC_DOB,UC_PhoneNumber,UC_DOJ,UC_EmailId,UC_Name,UC_Paylevel,UC_Grade,UC_DOR,UC_EmployeeBasicInfoId,MF_ErrId,MF_ErrMsg,MF_IsAdvance)
 							VALUES( {3}) END ELSE BEGIN UPDATE [744F780C-12D2-41D3-9084-6E903A527934]SET {4}WHERE InstanceId='{0}'END ";
 
-                                     colList=@"ProcessActivityMapId,FormId,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,MF_EmployeeId,MF_EmployeeName,MF_Designation,MF_Department,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d2_AdvanceFormId,MF_d2_EmployeeBasicInfoId,MF_d2_TotalAmount,MF_d2_Initiatedon,MF_d2_InitatedBy,MF_d2_ApplicationStatus,MF_d2_UpdatedBy,MF_d2_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,InstanceId,WMF_IsInFlow,WMF_MoveTo,Comments,FlowType,WMF_InstanceId";
+                                     colList=@"ProcessActivityMapId,FormId,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d2_AdvanceFormId,MF_d2_EmployeeBasicInfoId,MF_d2_TotalAmount,MF_d2_Initiatedon,MF_d2_InitatedBy,MF_d2_ApplicationStatus,MF_d2_UpdatedBy,MF_d2_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,InstanceId,WMF_IsInFlow,WMF_MoveTo,Comments,FlowType,WMF_InstanceId,UC_EmployeeId,UC_EmployeeName,UC_Designation,UC_Department,MF_FundTotal,TA_refNo,UC_DOB,UC_PhoneNumber,UC_DOJ,UC_EmailId,UC_Name,UC_Paylevel,UC_Grade,UC_DOR,UC_EmployeeBasicInfoId,MF_ErrId,MF_ErrMsg,MF_IsAdvance";
                                     
                      
                             splitcols = colList.Split(',');
@@ -1439,21 +1451,21 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
-                                              case "331FE6C6-9B84-4AE8-9DD4-AD780298EEAE":
+                                              case "F02A7F6F-1659-4623-8B7E-1C2330D6485E":
                     {
                      
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_331FE6C69B844AE89DD4AD780298EEAE AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PFA_FundType] VARCHAR(MAX)	, [PFA_FundTypeValue] VARCHAR(MAX)	, [PFA_ProjectNo] VARCHAR(MAX)	, [PFA_ProjectNoValue] VARCHAR(MAX)	, [PFA_BudgetHead] VARCHAR(MAX)	, [PFA_BudgetHeadValue] VARCHAR(MAX)	, [PFA_Amount] DECIMAL(18,2)	, [PFA_FundDetailsId] VARCHAR(MAX)){0}INSERT INTO [331FE6C6-9B84-4AE8-9DD4-AD780298EEAE](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PFA_FundType,TDT.PFA_FundTypeValue,TDT.PFA_ProjectNo,TDT.PFA_ProjectNoValue,TDT.PFA_BudgetHead,TDT.PFA_BudgetHeadValue,TDT.PFA_Amount,TDT.PFA_FundDetailsId FROM @TBL_331FE6C69B844AE89DD4AD780298EEAE TDT
-							LEFT JOIN [331FE6C6-9B84-4AE8-9DD4-AD780298EEAE] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PFA_FundType=TDT.PFA_FundType,PFA_FundTypeValue=TDT.PFA_FundTypeValue,PFA_ProjectNo=TDT.PFA_ProjectNo,PFA_ProjectNoValue=TDT.PFA_ProjectNoValue,PFA_BudgetHead=TDT.PFA_BudgetHead,PFA_BudgetHeadValue=TDT.PFA_BudgetHeadValue,PFA_Amount=TDT.PFA_Amount,PFA_FundDetailsId=TDT.PFA_FundDetailsId FROM @TBL_331FE6C69B844AE89DD4AD780298EEAE TDT
-							JOIN [331FE6C6-9B84-4AE8-9DD4-AD780298EEAE] DT  WITH(NOLOCK)
+		DECLARE  @TBL_F02A7F6F165946238B7E1C2330D6485E AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PAB_BudgetName] VARCHAR(MAX)	, [PAB_SanctionedAmount] DECIMAL(18,2)	, [PAB_YetToRecieve] DECIMAL(18,2)	, [PAB_RecievedAmount] DECIMAL(18,2)	, [PAB_Commitment] DECIMAL(18,2)	, [PAB_Spent] DECIMAL(18,2)	, [PAB_Balance] DECIMAL(18,2)){0}INSERT INTO [F02A7F6F-1659-4623-8B7E-1C2330D6485E](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PAB_BudgetName,TDT.PAB_SanctionedAmount,TDT.PAB_YetToRecieve,TDT.PAB_RecievedAmount,TDT.PAB_Commitment,TDT.PAB_Spent,TDT.PAB_Balance FROM @TBL_F02A7F6F165946238B7E1C2330D6485E TDT
+							LEFT JOIN [F02A7F6F-1659-4623-8B7E-1C2330D6485E] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PAB_BudgetName=TDT.PAB_BudgetName,PAB_SanctionedAmount=TDT.PAB_SanctionedAmount,PAB_YetToRecieve=TDT.PAB_YetToRecieve,PAB_RecievedAmount=TDT.PAB_RecievedAmount,PAB_Commitment=TDT.PAB_Commitment,PAB_Spent=TDT.PAB_Spent,PAB_Balance=TDT.PAB_Balance FROM @TBL_F02A7F6F165946238B7E1C2330D6485E TDT
+							JOIN [F02A7F6F-1659-4623-8B7E-1C2330D6485E] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId";
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance";
 
-                            tempInsertQuery=@"INSERT INTO @TBL_331FE6C69B844AE89DD4AD780298EEAE(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId)VALUES({0});";
+                            tempInsertQuery=@"INSERT INTO @TBL_F02A7F6F165946238B7E1C2330D6485E(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)VALUES({0});";
 
                             splitcols = colList.Split(',');
 
@@ -1540,21 +1552,21 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
-                                              case "F02A7F6F-1659-4623-8B7E-1C2330D6485E":
+                                              case "331FE6C6-9B84-4AE8-9DD4-AD780298EEAE":
                     {
                      
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_F02A7F6F165946238B7E1C2330D6485E AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PAB_BudgetName] VARCHAR(MAX)	, [PAB_SanctionedAmount] DECIMAL(18,2)	, [PAB_YetToRecieve] DECIMAL(18,2)	, [PAB_RecievedAmount] DECIMAL(18,2)	, [PAB_Commitment] DECIMAL(18,2)	, [PAB_Spent] DECIMAL(18,2)	, [PAB_Balance] DECIMAL(18,2)){0}INSERT INTO [F02A7F6F-1659-4623-8B7E-1C2330D6485E](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PAB_BudgetName,TDT.PAB_SanctionedAmount,TDT.PAB_YetToRecieve,TDT.PAB_RecievedAmount,TDT.PAB_Commitment,TDT.PAB_Spent,TDT.PAB_Balance FROM @TBL_F02A7F6F165946238B7E1C2330D6485E TDT
-							LEFT JOIN [F02A7F6F-1659-4623-8B7E-1C2330D6485E] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PAB_BudgetName=TDT.PAB_BudgetName,PAB_SanctionedAmount=TDT.PAB_SanctionedAmount,PAB_YetToRecieve=TDT.PAB_YetToRecieve,PAB_RecievedAmount=TDT.PAB_RecievedAmount,PAB_Commitment=TDT.PAB_Commitment,PAB_Spent=TDT.PAB_Spent,PAB_Balance=TDT.PAB_Balance FROM @TBL_F02A7F6F165946238B7E1C2330D6485E TDT
-							JOIN [F02A7F6F-1659-4623-8B7E-1C2330D6485E] DT  WITH(NOLOCK)
+		DECLARE  @TBL_331FE6C69B844AE89DD4AD780298EEAE AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PFA_FundType] VARCHAR(MAX)	, [PFA_FundTypeValue] VARCHAR(MAX)	, [PFA_ProjectNo] VARCHAR(MAX)	, [PFA_ProjectNoValue] VARCHAR(MAX)	, [PFA_BudgetHead] VARCHAR(MAX)	, [PFA_BudgetHeadValue] VARCHAR(MAX)	, [PFA_Amount] DECIMAL(18,2)	, [PFA_FundDetailsId] VARCHAR(MAX)){0}INSERT INTO [331FE6C6-9B84-4AE8-9DD4-AD780298EEAE](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PFA_FundType,TDT.PFA_FundTypeValue,TDT.PFA_ProjectNo,TDT.PFA_ProjectNoValue,TDT.PFA_BudgetHead,TDT.PFA_BudgetHeadValue,TDT.PFA_Amount,TDT.PFA_FundDetailsId FROM @TBL_331FE6C69B844AE89DD4AD780298EEAE TDT
+							LEFT JOIN [331FE6C6-9B84-4AE8-9DD4-AD780298EEAE] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PFA_FundType=TDT.PFA_FundType,PFA_FundTypeValue=TDT.PFA_FundTypeValue,PFA_ProjectNo=TDT.PFA_ProjectNo,PFA_ProjectNoValue=TDT.PFA_ProjectNoValue,PFA_BudgetHead=TDT.PFA_BudgetHead,PFA_BudgetHeadValue=TDT.PFA_BudgetHeadValue,PFA_Amount=TDT.PFA_Amount,PFA_FundDetailsId=TDT.PFA_FundDetailsId FROM @TBL_331FE6C69B844AE89DD4AD780298EEAE TDT
+							JOIN [331FE6C6-9B84-4AE8-9DD4-AD780298EEAE] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance";
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId";
 
-                            tempInsertQuery=@"INSERT INTO @TBL_F02A7F6F165946238B7E1C2330D6485E(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)VALUES({0});";
+                            tempInsertQuery=@"INSERT INTO @TBL_331FE6C69B844AE89DD4AD780298EEAE(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId)VALUES({0});";
 
                             splitcols = colList.Split(',');
 
@@ -1919,6 +1931,66 @@ List<Triplet<string, short, short?>> result3C6C0407FD5F467BA72788C4152BA19E=acda
 iSpace.SetGridData(result60809728D8A94589B22D48DE6409B547,result3C6C0407FD5F467BA72788C4152BA19E,"AdvanceRequestDetails",ref ISpace);
 iSpace.UpdateGridBindDetails("AdvanceRequestDetails",result3C6C0407FD5F467BA72788C4152BA19E);
 }
+base.WriteDebugInfo(@"EXEC [GetEmployeeUserContextDetails] '@@gv_UserId'");
+
+var querySourcecd3fb793f256485419196ff9147e285e =GetQueryExpressionDataSource("cd3fb793-f256-4854-1919-6ff9147e285e");
+Dictionary<short,object> resultcd3fb793f256485419196ff9147e285e=iSpace.ExecuteQuery(querySourcecd3fb793f256485419196ff9147e285e,@"EXEC [GetEmployeeUserContextDetails] '" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcecd3fb793f256485419196ff9147e285e =GetQueryExpressionDataSource(""cd3fb793-f256-4854-1919-6ff9147e285e"");Dictionary<short,object> resultcd3fb793f256485419196ff9147e285e=iSpace.ExecuteQuery(querySourcecd3fb793f256485419196ff9147e285e,@""EXEC [GetEmployeeUserContextDetails] '"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultcd3fb793f256485419196ff9147e285e!=null) && (resultcd3fb793f256485419196ff9147e285e.Count!=0))
+{
+if(resultcd3fb793f256485419196ff9147e285e.ContainsKey(1))
+ISpace["UC_EmployeeId"].Value = resultcd3fb793f256485419196ff9147e285e[1];
+if(resultcd3fb793f256485419196ff9147e285e.ContainsKey(10))
+ISpace["UC_DOR"].Value = resultcd3fb793f256485419196ff9147e285e[10];
+if(resultcd3fb793f256485419196ff9147e285e.ContainsKey(2))
+ISpace["UC_Grade"].Value = resultcd3fb793f256485419196ff9147e285e[2];
+if(resultcd3fb793f256485419196ff9147e285e.ContainsKey(7))
+ISpace["UC_Designation"].Value = resultcd3fb793f256485419196ff9147e285e[7];
+if(resultcd3fb793f256485419196ff9147e285e.ContainsKey(9))
+ISpace["UC_DOB"].Value = resultcd3fb793f256485419196ff9147e285e[9];
+if(resultcd3fb793f256485419196ff9147e285e.ContainsKey(3))
+ISpace["UC_EmailId"].Value = resultcd3fb793f256485419196ff9147e285e[3];
+if(resultcd3fb793f256485419196ff9147e285e.ContainsKey(4))
+ISpace["UC_DOJ"].Value = resultcd3fb793f256485419196ff9147e285e[4];
+if(resultcd3fb793f256485419196ff9147e285e.ContainsKey(0))
+ISpace["UC_EmployeeBasicInfoId"].Value = resultcd3fb793f256485419196ff9147e285e[0];
+if(resultcd3fb793f256485419196ff9147e285e.ContainsKey(6))
+ISpace["UC_Department"].Value = resultcd3fb793f256485419196ff9147e285e[6];
+if(resultcd3fb793f256485419196ff9147e285e.ContainsKey(12))
+ISpace["UC_Name"].Value = resultcd3fb793f256485419196ff9147e285e[12];
+if(resultcd3fb793f256485419196ff9147e285e.ContainsKey(11))
+ISpace["UC_EmployeeName"].Value = resultcd3fb793f256485419196ff9147e285e[11];
+}
+else{
+ISpace["UC_EmployeeId"].Value = null;ISpace["UC_DOR"].Value = null;ISpace["UC_Grade"].Value = null;ISpace["UC_Designation"].Value = null;ISpace["UC_DOB"].Value = null;ISpace["UC_EmailId"].Value = null;ISpace["UC_DOJ"].Value = null;ISpace["UC_EmployeeBasicInfoId"].Value = null;ISpace["UC_Department"].Value = null;ISpace["UC_Name"].Value = null;ISpace["UC_EmployeeName"].Value = null;
+}
+ISpace["MF_IsAdvance"].Value=false;
+base.WriteDebugInfo(@"ISpace[""MF_IsAdvance""].Value=false;");
+ISpace["MG_d1_Amount"].Man=true;ISpace["MG_d1_ItemDescription"].Man=true;ISpace["MG_d1_ExpenseDetails"].Man=true;
+base.WriteDebugInfo(@"ISpace[""MG_d1_Amount""].Man=true;ISpace[""MG_d1_ItemDescription""].Man=true;ISpace[""MG_d1_ExpenseDetails""].Man=true;");
+base.WriteDebugInfo(@"EXEC GenerateRef 1");
+
+var querySource8ac4323ce2eda64143dca0a21b55f2e5 =GetQueryExpressionDataSource("8ac4323c-e2ed-a641-43dc-a0a21b55f2e5");
+Dictionary<short,object> result8ac4323ce2eda64143dca0a21b55f2e5=iSpace.ExecuteQuery(querySource8ac4323ce2eda64143dca0a21b55f2e5,@"EXECGenerateRef 1",false);
+
+base.WriteDebugInfo(@"var querySource8ac4323ce2eda64143dca0a21b55f2e5 =GetQueryExpressionDataSource(""8ac4323c-e2ed-a641-43dc-a0a21b55f2e5"");Dictionary<short,object> result8ac4323ce2eda64143dca0a21b55f2e5=iSpace.ExecuteQuery(querySource8ac4323ce2eda64143dca0a21b55f2e5,@""EXECGenerateRef 1"",false);");
+base.WriteDebugInfo(@"");
+
+if((result8ac4323ce2eda64143dca0a21b55f2e5!=null) && (result8ac4323ce2eda64143dca0a21b55f2e5.Count!=0))
+{
+if(result8ac4323ce2eda64143dca0a21b55f2e5.ContainsKey(0))
+ISpace["Subject"].Value = result8ac4323ce2eda64143dca0a21b55f2e5[0];
+if(result8ac4323ce2eda64143dca0a21b55f2e5.ContainsKey(0))
+ISpace["TA_refNo"].Value = result8ac4323ce2eda64143dca0a21b55f2e5[0];
+}
+else{
+ISpace["Subject"].Value = null;ISpace["TA_refNo"].Value = null;
+}
+ISpace["Message"].Value=@"Success: Submitted Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
 }
 catch(Exception ex)
 {
@@ -2023,12 +2095,56 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"SubmitForm-OnClick");
-base.WriteDebugInfo(@"EXEC InnovaceNoCode..[FormSave_744F780C-12D2-41D3-9084-6E903A527934]   '@@gv_InstanceId','@@gv_ActivityMapId','85014d12-a85b-4330-8d7f-29776cbda319','#MF_d2_AdvanceFormId','#MF_d2_EmployeeBasicInfoId',#MF_d2_TotalAmount,'#MF_d2_Initiatedon','#MF_d2_InitatedBy','#MF_d2_ApplicationStatus','#MF_d2_UpdatedBy','#MF_d2_UpdatedOn'");
+if(ISpace["FlowType"].Value=="APPROVE")
+{
+base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""APPROVE"")");
+if(ISpace["WMF_MoveTo"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
+ISpace["Message"].Value=@"Error:Please Select Next Action";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Please Select Next Action"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
+if(ISpace["FlowType"].Value=="RETURN" || ISpace["FlowType"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""RETURN"" || ISpace[""FlowType""].Value==""REJECT"")");
+if(ISpace["WMF_MoveTo"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
+ISpace["Message"].Value=@"Error:Please Select Next Action";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Please Select Next Action"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["Comments"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""Comments""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please Enter Comments";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please Enter Comments"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
+base.WriteDebugInfo(@"EXEC InnovaceNoCode..[FormSave_744F780C-12D2-41D3-9084-6E903A527934]   '@@gv_InstanceId','@@gv_ActivityMapId','85014d12-a85b-4330-8d7f-29776cbda319','#MF_d2_AdvanceFormId','#MF_d2_EmployeeBasicInfoId',#MF_d2_TotalAmount,'#MF_d2_Initiatedon','#MF_d2_InitatedBy','#MF_d2_ApplicationStatus','#MF_d2_UpdatedBy','#MF_d2_UpdatedOn','#TA_refNo','#MF_IsAdvance'");
 
 var querySource29CE51BC9310456E84FAC3692433C21E =GetQueryExpressionDataSource("29CE51BC-9310-456E-84FA-C3692433C21E");
-Dictionary<short,object> result29CE51BC9310456E84FAC3692433C21E=iSpace.ExecuteQuery(querySource29CE51BC9310456E84FAC3692433C21E,@"EXEC InnovaceNoCode..[FormSave_744F780C-12D2-41D3-9084-6E903A527934]   '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','85014d12-a85b-4330-8d7f-29776cbda319','" + ISpace["MF_d2_AdvanceFormId"].Value + @"','" + ISpace["MF_d2_EmployeeBasicInfoId"].Value + @"'," + ISpace["MF_d2_TotalAmount"].Value + @",'" + ISpace["MF_d2_Initiatedon"].Value + @"','" + ISpace["MF_d2_InitatedBy"].Value + @"','" + ISpace["MF_d2_ApplicationStatus"].Value + @"','" + ISpace["MF_d2_UpdatedBy"].Value + @"','" + ISpace["MF_d2_UpdatedOn"].Value + @"'",false);
+Dictionary<short,object> result29CE51BC9310456E84FAC3692433C21E=iSpace.ExecuteQuery(querySource29CE51BC9310456E84FAC3692433C21E,@"EXEC InnovaceNoCode..[FormSave_744F780C-12D2-41D3-9084-6E903A527934]   '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','85014d12-a85b-4330-8d7f-29776cbda319','" + ISpace["MF_d2_AdvanceFormId"].Value + @"','" + ISpace["MF_d2_EmployeeBasicInfoId"].Value + @"'," + ISpace["MF_d2_TotalAmount"].Value + @",'" + ISpace["MF_d2_Initiatedon"].Value + @"','" + ISpace["MF_d2_InitatedBy"].Value + @"','" + ISpace["MF_d2_ApplicationStatus"].Value + @"','" + ISpace["MF_d2_UpdatedBy"].Value + @"','" + ISpace["MF_d2_UpdatedOn"].Value + @"','" + ISpace["TA_refNo"].Value + @"','" + ISpace["MF_IsAdvance"].Value + @"'",false);
 
-base.WriteDebugInfo(@"var querySource29CE51BC9310456E84FAC3692433C21E =GetQueryExpressionDataSource(""29CE51BC-9310-456E-84FA-C3692433C21E"");Dictionary<short,object> result29CE51BC9310456E84FAC3692433C21E=iSpace.ExecuteQuery(querySource29CE51BC9310456E84FAC3692433C21E,@""EXEC InnovaceNoCode..[FormSave_744F780C-12D2-41D3-9084-6E903A527934]   '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','85014d12-a85b-4330-8d7f-29776cbda319','"" + ISpace[""MF_d2_AdvanceFormId""].Value + @""','"" + ISpace[""MF_d2_EmployeeBasicInfoId""].Value + @""',"" + ISpace[""MF_d2_TotalAmount""].Value + @"",'"" + ISpace[""MF_d2_Initiatedon""].Value + @""','"" + ISpace[""MF_d2_InitatedBy""].Value + @""','"" + ISpace[""MF_d2_ApplicationStatus""].Value + @""','"" + ISpace[""MF_d2_UpdatedBy""].Value + @""','"" + ISpace[""MF_d2_UpdatedOn""].Value + @""'"",false);");
+base.WriteDebugInfo(@"var querySource29CE51BC9310456E84FAC3692433C21E =GetQueryExpressionDataSource(""29CE51BC-9310-456E-84FA-C3692433C21E"");Dictionary<short,object> result29CE51BC9310456E84FAC3692433C21E=iSpace.ExecuteQuery(querySource29CE51BC9310456E84FAC3692433C21E,@""EXEC InnovaceNoCode..[FormSave_744F780C-12D2-41D3-9084-6E903A527934]   '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','85014d12-a85b-4330-8d7f-29776cbda319','"" + ISpace[""MF_d2_AdvanceFormId""].Value + @""','"" + ISpace[""MF_d2_EmployeeBasicInfoId""].Value + @""',"" + ISpace[""MF_d2_TotalAmount""].Value + @"",'"" + ISpace[""MF_d2_Initiatedon""].Value + @""','"" + ISpace[""MF_d2_InitatedBy""].Value + @""','"" + ISpace[""MF_d2_ApplicationStatus""].Value + @""','"" + ISpace[""MF_d2_UpdatedBy""].Value + @""','"" + ISpace[""MF_d2_UpdatedOn""].Value + @""','"" + ISpace[""TA_refNo""].Value + @""','"" + ISpace[""MF_IsAdvance""].Value + @""'"",false);");
 base.WriteDebugInfo(@"");
 
 if((result29CE51BC9310456E84FAC3692433C21E!=null) && (result29CE51BC9310456E84FAC3692433C21E.Count!=0))
@@ -2055,6 +2171,36 @@ ISpace["ExecutionMessage"].Value = resultB6975CE7CE564E4DB7CC2B1863890CE7[0];
 else{
 ISpace["ExecutionMessage"].Value = null;
 }
+if(ISpace["MF_ErrId"].Value==1)
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_ErrId""].Value==1)");
+ISpace["Message"].Value=String.Format(@"{0}",ISpace["MF_ErrMsg"].Value);
+base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""MF_ErrMsg""].Value);");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+base.WriteDebugInfo(@"EXEC [UpsertProjectFundAllocation] '@@gv_InstanceId','@@gv_ProcessMapId','@@gv_UserId'");
+
+var querySource8C55982FEE834AF1A356390DE5D2877F =GetQueryExpressionDataSource("8C55982F-EE83-4AF1-A356-390DE5D2877F");
+Dictionary<short,object> result8C55982FEE834AF1A356390DE5D2877F=iSpace.ExecuteQuery(querySource8C55982FEE834AF1A356390DE5D2877F,@"EXEC [UpsertProjectFundAllocation] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_processmapid"].Value + @"','" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource8C55982FEE834AF1A356390DE5D2877F =GetQueryExpressionDataSource(""8C55982F-EE83-4AF1-A356-390DE5D2877F"");Dictionary<short,object> result8C55982FEE834AF1A356390DE5D2877F=iSpace.ExecuteQuery(querySource8C55982FEE834AF1A356390DE5D2877F,@""EXEC [UpsertProjectFundAllocation] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""','"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result8C55982FEE834AF1A356390DE5D2877F!=null) && (result8C55982FEE834AF1A356390DE5D2877F.Count!=0))
+{
+if(result8C55982FEE834AF1A356390DE5D2877F.ContainsKey(0))
+ISpace["PFM_ErrId"].Value = result8C55982FEE834AF1A356390DE5D2877F[0];
+}
+else{
+ISpace["PFM_ErrId"].Value = null;
+}
+ISpace["Message"].Value=@"Success: Submitted Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
 }
 catch(Exception ex)
 {
@@ -2105,6 +2251,22 @@ ISpace["PFM_FundDetailsId"].Value="";
 base.WriteDebugInfo(@"ISpace[""PFM_FundDetailsId""].Value="""";");
 ISpace["UI_DeleteDialog"].HideDialog=true;;
 base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].HideDialog=true;;");
+base.WriteDebugInfo(@"EXEC [GetFundSum] '@@gv_InstanceId'");
+
+var querySourcea336918c91187c39997885844c207f84 =GetQueryExpressionDataSource("a336918c-9118-7c39-9978-85844c207f84");
+Dictionary<short,object> resulta336918c91187c39997885844c207f84=iSpace.ExecuteQuery(querySourcea336918c91187c39997885844c207f84,@"EXEC [GetFundSum] '" + ISpace["gv_instanceid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcea336918c91187c39997885844c207f84 =GetQueryExpressionDataSource(""a336918c-9118-7c39-9978-85844c207f84"");Dictionary<short,object> resulta336918c91187c39997885844c207f84=iSpace.ExecuteQuery(querySourcea336918c91187c39997885844c207f84,@""EXEC [GetFundSum] '"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resulta336918c91187c39997885844c207f84!=null) && (resulta336918c91187c39997885844c207f84.Count!=0))
+{
+if(resulta336918c91187c39997885844c207f84.ContainsKey(0))
+ISpace["MF_FundTotal"].Value = resulta336918c91187c39997885844c207f84[0];
+}
+else{
+ISpace["MF_FundTotal"].Value = null;
+}
 }
 catch(Exception ex)
 {
@@ -2139,6 +2301,22 @@ base.WriteDebugInfo(@"if(ISpace[""FWFM_FundType""].Value=="""")");
 ISpace["FWFM_BudgetHead"].Visible="false";ISpace["FWFM_ProjectNo"].Visible="false";ISpace["FWFM_Amount"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""FWFM_BudgetHead""].Visible=""false"";ISpace[""FWFM_ProjectNo""].Visible=""false"";ISpace[""FWFM_Amount""].Visible=""false"";");
 }
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mg_d1_amount (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MG_d1_Amount-OnChange");
+object MG_d1_Amount=iSpace.Sum("[0337B98B-59FA-46DC-87A0-89AA288D41AC]","MG_d1_Amount","",ISpace["gv_instanceid"].Value);
+ISpace["MF_d2_TotalAmount"].Value=Convert.ChangeType(MG_d1_Amount, MG_d1_Amount.GetType());;
+base.WriteDebugInfo(@"object MG_d1_Amount=iSpace.Sum(""[0337B98B-59FA-46DC-87A0-89AA288D41AC]"",""MG_d1_Amount"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_d2_TotalAmount""].Value=Convert.ChangeType(MG_d1_Amount, MG_d1_Amount.GetType());;");
 }
 catch(Exception ex)
 {
@@ -2335,6 +2513,22 @@ base.WriteDebugInfo(@"");
 List<Triplet<string, short, short?>> result1724FDC9047B45B8BCFEDD14A7738AD2=acdataIspaceA8D5026A49FD44A0BEBEAA595B40C453.GetQueryExpressionBindings("1724FDC9-047B-45B8-BCFE-DD14A7738AD2");
 iSpace.SetGridData(result705F1E2B47054D8E8B6512AD847DCF29,result1724FDC9047B45B8BCFEDD14A7738AD2,"MG_FundAllocation",ref ISpace);
 iSpace.UpdateGridBindDetails("MG_FundAllocation",result1724FDC9047B45B8BCFEDD14A7738AD2);
+base.WriteDebugInfo(@"EXEC [GetFundSum] '@@gv_InstanceId'");
+
+var querySourcea336918c91187c39997885844c207f84 =GetQueryExpressionDataSource("a336918c-9118-7c39-9978-85844c207f84");
+Dictionary<short,object> resulta336918c91187c39997885844c207f84=iSpace.ExecuteQuery(querySourcea336918c91187c39997885844c207f84,@"EXEC [GetFundSum] '" + ISpace["gv_instanceid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcea336918c91187c39997885844c207f84 =GetQueryExpressionDataSource(""a336918c-9118-7c39-9978-85844c207f84"");Dictionary<short,object> resulta336918c91187c39997885844c207f84=iSpace.ExecuteQuery(querySourcea336918c91187c39997885844c207f84,@""EXEC [GetFundSum] '"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resulta336918c91187c39997885844c207f84!=null) && (resulta336918c91187c39997885844c207f84.Count!=0))
+{
+if(resulta336918c91187c39997885844c207f84.ContainsKey(0))
+ISpace["MF_FundTotal"].Value = resulta336918c91187c39997885844c207f84[0];
+}
+else{
+ISpace["MF_FundTotal"].Value = null;
+}
 }
 catch(Exception ex)
 {
@@ -2382,6 +2576,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("fwfm_fundtype"))
     {
     			SubscribeElementEvents_fwfm_fundtype(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mg_d1_amount"))
+    {
+    			SubscribeElementEvents_mg_d1_amount(ref dfsParam);
     }
 		if(elementName.ToLower().Equals("wmf_moveto"))
     {
