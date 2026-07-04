@@ -90,7 +90,14 @@ namespace CPS.Proof.DFSExtension
                 switch(context.PackageProcessMapId)
                 {
             
-                                      case "B219A0EA-0254-4F69-B989-B681DD475183":   var  objectFactoryProjectsExplorer=new ProjectsExplorerObjectFactory();
+                                      case "0CC7EA0F-1DD0-4053-9D0E-E7EF819021D7":   var  objectFactoryTempAdvanceExplorer=new TempAdvanceExplorerObjectFactory();
+                                             virtualpageinstance = objectFactoryTempAdvanceExplorer.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+
+                                            virtualpageinstance._objectFactory = objectFactoryTempAdvanceExplorer;
+                                            break;
+
+                                     case "B219A0EA-0254-4F69-B989-B681DD475183":   var  objectFactoryProjectsExplorer=new ProjectsExplorerObjectFactory();
                                              virtualpageinstance = objectFactoryProjectsExplorer.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
 
@@ -502,7 +509,13 @@ namespace CPS.Proof.DFSExtension
                 switch(context.PackageProcessMapId)
                 {
             
-                                      case "B219A0EA-0254-4F69-B989-B681DD475183":   var  objectFactoryProjectsExplorer=new ProjectsExplorerObjectFactory();
+                                      case "0CC7EA0F-1DD0-4053-9D0E-E7EF819021D7":   var  objectFactoryTempAdvanceExplorer=new TempAdvanceExplorerObjectFactory();
+                                             virtualpageinstance = objectFactoryTempAdvanceExplorer.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+                                            virtualpageinstance._objectFactory = objectFactoryTempAdvanceExplorer;
+                                            break;
+
+                                     case "B219A0EA-0254-4F69-B989-B681DD475183":   var  objectFactoryProjectsExplorer=new ProjectsExplorerObjectFactory();
                                              virtualpageinstance = objectFactoryProjectsExplorer.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
                                             virtualpageinstance._objectFactory = objectFactoryProjectsExplorer;
@@ -825,6 +838,18 @@ namespace CPS.Proof.DFSExtension
                 {
             
                                      
+                    case "0CC7EA0F-1DD0-4053-9D0E-E7EF819021D7":   
+                                             foreach (var item in context.Params)
+                                             {
+                                            var  objectFactoryTempAdvanceExplorer=new TempAdvanceExplorerObjectFactory();
+                                             combosource = objectFactoryTempAdvanceExplorer.GetComboDataSource
+                                                        (item.ElementName);  
+                                             if (combosource != null)
+                                break;
+                                             }
+                                            break;
+                   
+                                    
                     case "B219A0EA-0254-4F69-B989-B681DD475183":   
                                              foreach (var item in context.Params)
                                              {
@@ -1155,7 +1180,22 @@ namespace CPS.Proof.DFSExtension
                 switch(context.PackageProcessMapId)
                 {
             
-                                      case "B219A0EA-0254-4F69-B989-B681DD475183":    var elementFactoryProjectsExplorer=new ProjectsExplorerDataElementFactory();       
+                                      case "0CC7EA0F-1DD0-4053-9D0E-E7EF819021D7":    var elementFactoryTempAdvanceExplorer=new TempAdvanceExplorerDataElementFactory();       
+                                           
+                                             if(context.Action=="GridSave")
+                                            {
+                                                insertQuery = elementFactoryTempAdvanceExplorer.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId,token.UMID, formjsonData);
+                                            }
+                                            else
+                                            {
+                                                insertQuery=elementFactoryTempAdvanceExplorer.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId, token.UMID, formjsonData);
+                                            }
+
+                                            break;
+
+                                     case "B219A0EA-0254-4F69-B989-B681DD475183":    var elementFactoryProjectsExplorer=new ProjectsExplorerDataElementFactory();       
                                            
                                              if(context.Action=="GridSave")
                                             {

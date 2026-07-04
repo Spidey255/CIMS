@@ -200,6 +200,9 @@ const ProjectFundInstallment_PIInitiation = React.lazy(() =>
 const ProjectReimbursement_AdditionalDetails = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_AdditionalDetails")
   );
+const TempAdvanceExplorer_Start = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/PRJ20251020000000025-ProjectScreensNew/TempAdvanceExplorer_Start")
+  );
 const ProjectReimbursement_DeanRD = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursement_DeanRD")
   );
@@ -335,6 +338,7 @@ const App: React.FC = () => {
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequestNew_Registrar" element={<TravelRequestNew_Registrar />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_PIInitiation" element={<ProjectFundInstallment_PIInitiation />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursement_AdditionalDetails" element={<ProjectReimbursement_AdditionalDetails />} />
+              <Route path="/PRJ20251020000000025-R&DProjects/PRJ20251020000000025-ProjectScreensNew/TempAdvanceExplorer_Start" element={<TempAdvanceExplorer_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursement_DeanRD" element={<ProjectReimbursement_DeanRD />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TempAdvance_ARRD" element={<TempAdvance_ARRD />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursement_ARRD" element={<ProjectReimbursement_ARRD />} />
