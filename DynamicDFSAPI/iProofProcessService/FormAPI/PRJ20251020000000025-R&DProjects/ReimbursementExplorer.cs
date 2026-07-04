@@ -161,6 +161,14 @@ namespace CPS.Proof.DFSExtension
 
 		
 	  			
+			     new Triplet<string, string, string>("MF_ProjectRefNo","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetProjectNoCombo 1,'@@gv_UserId'"),
+			
+						
+			     new Triplet<string, string, string>("MF_Status","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetStatusCombo"),
+			
+						
 		};
 		
 		public override Tuple<string, string> GetComboDataSource(string ElementName)

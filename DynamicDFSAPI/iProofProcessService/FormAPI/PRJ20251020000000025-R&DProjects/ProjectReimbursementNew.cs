@@ -196,6 +196,10 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
+			     new Triplet<string, string, string>("2d9488fa-20cb-2a80-d604-56eb53ef3388","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
 			     new Triplet<string, string, string>("c59af1e7-b900-f235-1cf6-fe28ffacab95","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -217,6 +221,10 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("0E725B17-ADFE-430B-9899-F601BC212A72","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("64450c6c-7665-dcbd-e24f-b71719674bf8","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
@@ -486,10 +494,10 @@ namespace CPS.Proof.DFSExtension
                                       case "7580ABE2-1059-4AB0-AC76-04DE981561BA":
                     {
                      
-                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [7580ABE2-1059-4AB0-AC76-04DE981561BA] WHERE InstanceId='{0}') BEGIN INSERT INTO [7580ABE2-1059-4AB0-AC76-04DE981561BA](ProcessActivityMapId,FormId,MF_d1_ReimbursementId,MF_d1_EmployeeBasicInfoId,MF_d1_TotalAmount,MF_d1_Initiatedon,MF_d1_InitatedBy,MF_d1_ApplicationStatus,MF_d1_ReimbursementType,MF_d1_Classification,MF_d1_SubClassification,MF_d1_UpdatedBy,MF_d1_UpdatedOn,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,InstanceId,UC_EmployeeId,UC_EmployeeName,UC_Designation,UC_Department,MF_ErrId,MF_DeleteRowId,MF_ErrMsg,UC_DOB,UC_PhoneNumber,UC_DOJ,UC_EmailId,UC_Name,UC_PayLevel,UC_Grade,UC_DOR,UC_EmployeeBasicInfoId,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,WMF_InstanceId,WMF_IsInFlow,WMF_MoveTo,Comments,MF_BillTotal,MF_FundTotal,WF_FlowType)
+                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [7580ABE2-1059-4AB0-AC76-04DE981561BA] WHERE InstanceId='{0}') BEGIN INSERT INTO [7580ABE2-1059-4AB0-AC76-04DE981561BA](ProcessActivityMapId,FormId,MF_d1_ReimbursementId,MF_d1_EmployeeBasicInfoId,MF_d1_TotalAmount,MF_d1_Initiatedon,MF_d1_InitatedBy,MF_d1_ApplicationStatus,MF_d1_ReimbursementType,MF_d1_Classification,MF_d1_SubClassification,MF_d1_UpdatedBy,MF_d1_UpdatedOn,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,InstanceId,UC_EmployeeId,UC_EmployeeName,UC_Designation,UC_Department,MF_ErrId,MF_DeleteRowId,MF_ErrMsg,UC_DOB,UC_PhoneNumber,UC_DOJ,UC_EmailId,UC_Name,UC_PayLevel,UC_Grade,UC_DOR,UC_EmployeeBasicInfoId,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,WMF_InstanceId,WMF_IsInFlow,WMF_MoveTo,Comments,MF_BillTotal,MF_FundTotal,WF_FlowType,MF_RefNo)
 							VALUES( {3}) END ELSE BEGIN UPDATE [7580ABE2-1059-4AB0-AC76-04DE981561BA]SET {4}WHERE InstanceId='{0}'END ";
 
-                                     colList=@"ProcessActivityMapId,FormId,MF_d1_ReimbursementId,MF_d1_EmployeeBasicInfoId,MF_d1_TotalAmount,MF_d1_Initiatedon,MF_d1_InitatedBy,MF_d1_ApplicationStatus,MF_d1_ReimbursementType,MF_d1_Classification,MF_d1_SubClassification,MF_d1_UpdatedBy,MF_d1_UpdatedOn,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,InstanceId,UC_EmployeeId,UC_EmployeeName,UC_Designation,UC_Department,MF_ErrId,MF_DeleteRowId,MF_ErrMsg,UC_DOB,UC_PhoneNumber,UC_DOJ,UC_EmailId,UC_Name,UC_PayLevel,UC_Grade,UC_DOR,UC_EmployeeBasicInfoId,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,WMF_InstanceId,WMF_IsInFlow,WMF_MoveTo,Comments,MF_BillTotal,MF_FundTotal,WF_FlowType";
+                                     colList=@"ProcessActivityMapId,FormId,MF_d1_ReimbursementId,MF_d1_EmployeeBasicInfoId,MF_d1_TotalAmount,MF_d1_Initiatedon,MF_d1_InitatedBy,MF_d1_ApplicationStatus,MF_d1_ReimbursementType,MF_d1_Classification,MF_d1_SubClassification,MF_d1_UpdatedBy,MF_d1_UpdatedOn,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,InstanceId,UC_EmployeeId,UC_EmployeeName,UC_Designation,UC_Department,MF_ErrId,MF_DeleteRowId,MF_ErrMsg,UC_DOB,UC_PhoneNumber,UC_DOJ,UC_EmailId,UC_Name,UC_PayLevel,UC_Grade,UC_DOR,UC_EmployeeBasicInfoId,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,WMF_InstanceId,WMF_IsInFlow,WMF_MoveTo,Comments,MF_BillTotal,MF_FundTotal,WF_FlowType,MF_RefNo";
                                     
                      
                             splitcols = colList.Split(',');
@@ -1891,6 +1899,10 @@ base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""false"";ISpace[""WMF_Hist
 }
 ISpace["WMF_MoveTo"].Man=true;
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Man=true;");
+ISpace["WMF_MoveTo"].Value="";
+base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Value="""";");
+ISpace["Comments"].Value="";
+base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 
 var querySource1BB628AB53BD42CE91494F869D7536C8 =GetQueryExpressionDataSource("1BB628AB-53BD-42CE-9149-4F869D7536C8");
 
@@ -2066,6 +2078,28 @@ ISpace["MF_d1_Classification"].Value="";
 base.WriteDebugInfo(@"ISpace[""MF_d1_Classification""].Value="""";");
 ISpace["MF_d1_SubClassification"].Value="";
 base.WriteDebugInfo(@"ISpace[""MF_d1_SubClassification""].Value="""";");
+}
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"Exec [GenerateRef] 2");
+
+var querySource2d9488fa20cb2a80d60456eb53ef3388 =GetQueryExpressionDataSource("2d9488fa-20cb-2a80-d604-56eb53ef3388");
+Dictionary<short,object> result2d9488fa20cb2a80d60456eb53ef3388=iSpace.ExecuteQuery(querySource2d9488fa20cb2a80d60456eb53ef3388,@"Exec[GenerateRef] 2",false);
+
+base.WriteDebugInfo(@"var querySource2d9488fa20cb2a80d60456eb53ef3388 =GetQueryExpressionDataSource(""2d9488fa-20cb-2a80-d604-56eb53ef3388"");Dictionary<short,object> result2d9488fa20cb2a80d60456eb53ef3388=iSpace.ExecuteQuery(querySource2d9488fa20cb2a80d60456eb53ef3388,@""Exec[GenerateRef] 2"",false);");
+base.WriteDebugInfo(@"");
+
+if((result2d9488fa20cb2a80d60456eb53ef3388!=null) && (result2d9488fa20cb2a80d60456eb53ef3388.Count!=0))
+{
+if(result2d9488fa20cb2a80d60456eb53ef3388.ContainsKey(0))
+ISpace["Subject"].Value = result2d9488fa20cb2a80d60456eb53ef3388[0];
+if(result2d9488fa20cb2a80d60456eb53ef3388.ContainsKey(0))
+ISpace["MF_RefNo"].Value = result2d9488fa20cb2a80d60456eb53ef3388[0];
+}
+else{
+ISpace["Subject"].Value = null;ISpace["MF_RefNo"].Value = null;
+}
 }
 }
 catch(Exception ex)
@@ -3107,6 +3141,10 @@ base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""false"";ISpace[""WMF_Hist
 }
 ISpace["WMF_MoveTo"].Man=true;
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Man=true;");
+ISpace["WMF_MoveTo"].Value="";
+base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Value="""";");
+ISpace["Comments"].Value="";
+base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 
 var querySource1BB628AB53BD42CE91494F869D7536C8 =GetQueryExpressionDataSource("1BB628AB-53BD-42CE-9149-4F869D7536C8");
 
@@ -3269,6 +3307,40 @@ ISpace["RedirectUrl"].Value="/Inbox";
 base.WriteDebugInfo(@"
 ISpace[""RedirectUrl""].RedirectType=""R"";
 ISpace[""RedirectUrl""].Value=""/Inbox"";");
+if(ISpace["WF_FlowType"].Value=="RETURN"|| ISpace["WF_FlowType"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN""|| ISpace[""WF_FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"EXEC [UpdateReimbursementStatus] '@@gv_InstanceId','@@gv_UserId','#WF_FlowType'");
+
+var querySource64450c6c7665dcbde24fb71719674bf8 =GetQueryExpressionDataSource("64450c6c-7665-dcbd-e24f-b71719674bf8");
+Dictionary<short,object> result64450c6c7665dcbde24fb71719674bf8=iSpace.ExecuteQuery(querySource64450c6c7665dcbde24fb71719674bf8,@"EXEC [UpdateReimbursementStatus] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_userid"].Value + @"','" + ISpace["WF_FlowType"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource64450c6c7665dcbde24fb71719674bf8 =GetQueryExpressionDataSource(""64450c6c-7665-dcbd-e24f-b71719674bf8"");Dictionary<short,object> result64450c6c7665dcbde24fb71719674bf8=iSpace.ExecuteQuery(querySource64450c6c7665dcbde24fb71719674bf8,@""EXEC [UpdateReimbursementStatus] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_userid""].Value + @""','"" + ISpace[""WF_FlowType""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result64450c6c7665dcbde24fb71719674bf8!=null) && (result64450c6c7665dcbde24fb71719674bf8.Count!=0))
+{
+if(result64450c6c7665dcbde24fb71719674bf8.ContainsKey(0))
+ISpace["MF_ErrId"].Value = result64450c6c7665dcbde24fb71719674bf8[0];
+}
+else{
+ISpace["MF_ErrId"].Value = null;
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_wmf_history (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"WMF_History-OnClick");
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
 }
 catch(Exception ex)
 {
@@ -3295,6 +3367,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("submitform"))
 {
 			SubscribeElementEvents_submitform(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("wmf_history"))
+{
+			SubscribeElementEvents_wmf_history(ref dfsParam);
 }
 }
 }
@@ -3369,6 +3445,10 @@ base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""false"";ISpace[""WMF_Hist
 }
 ISpace["WMF_MoveTo"].Man=true;
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Man=true;");
+ISpace["WMF_MoveTo"].Value="";
+base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Value="""";");
+ISpace["Comments"].Value="";
+base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 
 var querySource1BB628AB53BD42CE91494F869D7536C8 =GetQueryExpressionDataSource("1BB628AB-53BD-42CE-9149-4F869D7536C8");
 
@@ -3531,6 +3611,40 @@ ISpace["RedirectUrl"].Value="/Inbox";
 base.WriteDebugInfo(@"
 ISpace[""RedirectUrl""].RedirectType=""R"";
 ISpace[""RedirectUrl""].Value=""/Inbox"";");
+if(ISpace["WF_FlowType"].Value=="RETURN"|| ISpace["WF_FlowType"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN""|| ISpace[""WF_FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"EXEC [UpdateReimbursementStatus] '@@gv_InstanceId','@@gv_UserId','#WF_FlowType'");
+
+var querySource64450c6c7665dcbde24fb71719674bf8 =GetQueryExpressionDataSource("64450c6c-7665-dcbd-e24f-b71719674bf8");
+Dictionary<short,object> result64450c6c7665dcbde24fb71719674bf8=iSpace.ExecuteQuery(querySource64450c6c7665dcbde24fb71719674bf8,@"EXEC [UpdateReimbursementStatus] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_userid"].Value + @"','" + ISpace["WF_FlowType"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource64450c6c7665dcbde24fb71719674bf8 =GetQueryExpressionDataSource(""64450c6c-7665-dcbd-e24f-b71719674bf8"");Dictionary<short,object> result64450c6c7665dcbde24fb71719674bf8=iSpace.ExecuteQuery(querySource64450c6c7665dcbde24fb71719674bf8,@""EXEC [UpdateReimbursementStatus] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_userid""].Value + @""','"" + ISpace[""WF_FlowType""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result64450c6c7665dcbde24fb71719674bf8!=null) && (result64450c6c7665dcbde24fb71719674bf8.Count!=0))
+{
+if(result64450c6c7665dcbde24fb71719674bf8.ContainsKey(0))
+ISpace["MF_ErrId"].Value = result64450c6c7665dcbde24fb71719674bf8[0];
+}
+else{
+ISpace["MF_ErrId"].Value = null;
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_wmf_history (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"WMF_History-OnClick");
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
 }
 catch(Exception ex)
 {
@@ -3557,6 +3671,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("submitform"))
 {
 			SubscribeElementEvents_submitform(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("wmf_history"))
+{
+			SubscribeElementEvents_wmf_history(ref dfsParam);
 }
 }
 }
@@ -3631,6 +3749,10 @@ base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""false"";ISpace[""WMF_Hist
 }
 ISpace["WMF_MoveTo"].Man=true;
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Man=true;");
+ISpace["WMF_MoveTo"].Value="";
+base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Value="""";");
+ISpace["Comments"].Value="";
+base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 
 var querySource1BB628AB53BD42CE91494F869D7536C8 =GetQueryExpressionDataSource("1BB628AB-53BD-42CE-9149-4F869D7536C8");
 
@@ -3793,6 +3915,40 @@ ISpace["RedirectUrl"].Value="/Inbox";
 base.WriteDebugInfo(@"
 ISpace[""RedirectUrl""].RedirectType=""R"";
 ISpace[""RedirectUrl""].Value=""/Inbox"";");
+if(ISpace["WF_FlowType"].Value=="RETURN"|| ISpace["WF_FlowType"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN""|| ISpace[""WF_FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"EXEC [UpdateReimbursementStatus] '@@gv_InstanceId','@@gv_UserId','#WF_FlowType'");
+
+var querySource64450c6c7665dcbde24fb71719674bf8 =GetQueryExpressionDataSource("64450c6c-7665-dcbd-e24f-b71719674bf8");
+Dictionary<short,object> result64450c6c7665dcbde24fb71719674bf8=iSpace.ExecuteQuery(querySource64450c6c7665dcbde24fb71719674bf8,@"EXEC [UpdateReimbursementStatus] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_userid"].Value + @"','" + ISpace["WF_FlowType"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource64450c6c7665dcbde24fb71719674bf8 =GetQueryExpressionDataSource(""64450c6c-7665-dcbd-e24f-b71719674bf8"");Dictionary<short,object> result64450c6c7665dcbde24fb71719674bf8=iSpace.ExecuteQuery(querySource64450c6c7665dcbde24fb71719674bf8,@""EXEC [UpdateReimbursementStatus] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_userid""].Value + @""','"" + ISpace[""WF_FlowType""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result64450c6c7665dcbde24fb71719674bf8!=null) && (result64450c6c7665dcbde24fb71719674bf8.Count!=0))
+{
+if(result64450c6c7665dcbde24fb71719674bf8.ContainsKey(0))
+ISpace["MF_ErrId"].Value = result64450c6c7665dcbde24fb71719674bf8[0];
+}
+else{
+ISpace["MF_ErrId"].Value = null;
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_wmf_history (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"WMF_History-OnClick");
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
 }
 catch(Exception ex)
 {
@@ -3819,6 +3975,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("submitform"))
 {
 			SubscribeElementEvents_submitform(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("wmf_history"))
+{
+			SubscribeElementEvents_wmf_history(ref dfsParam);
 }
 }
 }
@@ -3893,6 +4053,10 @@ base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""false"";ISpace[""WMF_Hist
 }
 ISpace["WMF_MoveTo"].Man=true;
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Man=true;");
+ISpace["WMF_MoveTo"].Value="";
+base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Value="""";");
+ISpace["Comments"].Value="";
+base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 
 var querySource1BB628AB53BD42CE91494F869D7536C8 =GetQueryExpressionDataSource("1BB628AB-53BD-42CE-9149-4F869D7536C8");
 
@@ -4058,12 +4222,12 @@ ISpace[""RedirectUrl""].Value=""/Inbox"";");
 if(ISpace["WF_FlowType"].Value=="APPROVE")
 {
 base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
-base.WriteDebugInfo(@"EXEC [UpdateReimbursementStatus] '@@gv_InstanceId','@@gv_UserId'");
+base.WriteDebugInfo(@"EXEC [UpdateReimbursementStatus] '@@gv_InstanceId','@@gv_UserId','#WF_FlowType'");
 
 var querySourcec59af1e7b900f2351cf6fe28ffacab95 =GetQueryExpressionDataSource("c59af1e7-b900-f235-1cf6-fe28ffacab95");
-Dictionary<short,object> resultc59af1e7b900f2351cf6fe28ffacab95=iSpace.ExecuteQuery(querySourcec59af1e7b900f2351cf6fe28ffacab95,@"EXEC [UpdateReimbursementStatus] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_userid"].Value + @"'",false);
+Dictionary<short,object> resultc59af1e7b900f2351cf6fe28ffacab95=iSpace.ExecuteQuery(querySourcec59af1e7b900f2351cf6fe28ffacab95,@"EXEC [UpdateReimbursementStatus] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_userid"].Value + @"','" + ISpace["WF_FlowType"].Value + @"'",false);
 
-base.WriteDebugInfo(@"var querySourcec59af1e7b900f2351cf6fe28ffacab95 =GetQueryExpressionDataSource(""c59af1e7-b900-f235-1cf6-fe28ffacab95"");Dictionary<short,object> resultc59af1e7b900f2351cf6fe28ffacab95=iSpace.ExecuteQuery(querySourcec59af1e7b900f2351cf6fe28ffacab95,@""EXEC [UpdateReimbursementStatus] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"var querySourcec59af1e7b900f2351cf6fe28ffacab95 =GetQueryExpressionDataSource(""c59af1e7-b900-f235-1cf6-fe28ffacab95"");Dictionary<short,object> resultc59af1e7b900f2351cf6fe28ffacab95=iSpace.ExecuteQuery(querySourcec59af1e7b900f2351cf6fe28ffacab95,@""EXEC [UpdateReimbursementStatus] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_userid""].Value + @""','"" + ISpace[""WF_FlowType""].Value + @""'"",false);");
 base.WriteDebugInfo(@"");
 
 if((resultc59af1e7b900f2351cf6fe28ffacab95!=null) && (resultc59af1e7b900f2351cf6fe28ffacab95.Count!=0))
@@ -4075,6 +4239,40 @@ else{
 ISpace["MF_ErrId"].Value = null;
 }
 }
+if(ISpace["WF_FlowType"].Value=="RETURN"|| ISpace["WF_FlowType"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN""|| ISpace[""WF_FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"EXEC [UpdateReimbursementStatus] '@@gv_InstanceId','@@gv_UserId','#WF_FlowType'");
+
+var querySource64450c6c7665dcbde24fb71719674bf8 =GetQueryExpressionDataSource("64450c6c-7665-dcbd-e24f-b71719674bf8");
+Dictionary<short,object> result64450c6c7665dcbde24fb71719674bf8=iSpace.ExecuteQuery(querySource64450c6c7665dcbde24fb71719674bf8,@"EXEC [UpdateReimbursementStatus] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_userid"].Value + @"','" + ISpace["WF_FlowType"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource64450c6c7665dcbde24fb71719674bf8 =GetQueryExpressionDataSource(""64450c6c-7665-dcbd-e24f-b71719674bf8"");Dictionary<short,object> result64450c6c7665dcbde24fb71719674bf8=iSpace.ExecuteQuery(querySource64450c6c7665dcbde24fb71719674bf8,@""EXEC [UpdateReimbursementStatus] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_userid""].Value + @""','"" + ISpace[""WF_FlowType""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result64450c6c7665dcbde24fb71719674bf8!=null) && (result64450c6c7665dcbde24fb71719674bf8.Count!=0))
+{
+if(result64450c6c7665dcbde24fb71719674bf8.ContainsKey(0))
+ISpace["MF_ErrId"].Value = result64450c6c7665dcbde24fb71719674bf8[0];
+}
+else{
+ISpace["MF_ErrId"].Value = null;
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_wmf_history (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"WMF_History-OnClick");
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
 }
 catch(Exception ex)
 {
@@ -4101,6 +4299,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("submitform"))
 {
 			SubscribeElementEvents_submitform(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("wmf_history"))
+{
+			SubscribeElementEvents_wmf_history(ref dfsParam);
 }
 }
 }
@@ -4175,6 +4377,10 @@ base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""false"";ISpace[""WMF_Hist
 }
 ISpace["WMF_MoveTo"].Man=true;
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Man=true;");
+ISpace["WMF_MoveTo"].Value="";
+base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Value="""";");
+ISpace["Comments"].Value="";
+base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 
 var querySource1BB628AB53BD42CE91494F869D7536C8 =GetQueryExpressionDataSource("1BB628AB-53BD-42CE-9149-4F869D7536C8");
 
@@ -4350,6 +4556,24 @@ ISpace["MF_d1_Classification"].Value="";
 base.WriteDebugInfo(@"ISpace[""MF_d1_Classification""].Value="""";");
 ISpace["MF_d1_SubClassification"].Value="";
 base.WriteDebugInfo(@"ISpace[""MF_d1_SubClassification""].Value="""";");
+}
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+if(ISpace["FormVersionId"].Value=="73B8AA02-9DDD-4205-8CCE-3A640B657727")
+{
+ISpace["UI_PFHideRow"].Visible="false";
+}if(ISpace["FormVersionId"].Value=="73B8AA02-9DDD-4205-8CCE-3A640B657727")
+{
+ISpace["UI_ApprovalHideRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""73B8AA02-9DDD-4205-8CCE-3A640B657727"")
+{
+ISpace[""UI_PFHideRow""].Visible=""false"";
+}if(ISpace[""FormVersionId""].Value==""73B8AA02-9DDD-4205-8CCE-3A640B657727"")
+{
+ISpace[""UI_ApprovalHideRow""].Visible=""false"";
+}");
 }
 }
 catch(Exception ex)
@@ -5035,6 +5259,46 @@ ISpace["RedirectUrl"].Value="?PkActMId=3F131441-D0E5-4A35-BADE-BBDC8C5190A1&frmE
 base.WriteDebugInfo(@"
 ISpace[""RedirectUrl""].RedirectType=""R"";
 ISpace[""RedirectUrl""].Value=""?PkActMId=3F131441-D0E5-4A35-BADE-BBDC8C5190A1&frmElementId=A2D043F8-4C87-4C0C-BB8B-FB2C64B24C44&PkPrMId=3A048090-0538-48F9-8870-AE1A37E0EDB9&formVersionId=EBFF27E0-9875-4D44-9674-9F00EBD7ABAD&Ver=0.0000"";");
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
+if(ISpace["WF_FlowType"].Value=="RETURN"|| ISpace["WF_FlowType"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN""|| ISpace[""WF_FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"EXEC [UpdateReimbursementStatus] '@@gv_InstanceId','@@gv_UserId','#WF_FlowType'");
+
+var querySource64450c6c7665dcbde24fb71719674bf8 =GetQueryExpressionDataSource("64450c6c-7665-dcbd-e24f-b71719674bf8");
+Dictionary<short,object> result64450c6c7665dcbde24fb71719674bf8=iSpace.ExecuteQuery(querySource64450c6c7665dcbde24fb71719674bf8,@"EXEC [UpdateReimbursementStatus] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_userid"].Value + @"','" + ISpace["WF_FlowType"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource64450c6c7665dcbde24fb71719674bf8 =GetQueryExpressionDataSource(""64450c6c-7665-dcbd-e24f-b71719674bf8"");Dictionary<short,object> result64450c6c7665dcbde24fb71719674bf8=iSpace.ExecuteQuery(querySource64450c6c7665dcbde24fb71719674bf8,@""EXEC [UpdateReimbursementStatus] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_userid""].Value + @""','"" + ISpace[""WF_FlowType""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result64450c6c7665dcbde24fb71719674bf8!=null) && (result64450c6c7665dcbde24fb71719674bf8.Count!=0))
+{
+if(result64450c6c7665dcbde24fb71719674bf8.ContainsKey(0))
+ISpace["MF_ErrId"].Value = result64450c6c7665dcbde24fb71719674bf8[0];
+}
+else{
+ISpace["MF_ErrId"].Value = null;
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_wmf_history (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"WMF_History-OnClick");
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
 }
 catch(Exception ex)
 {
@@ -5302,6 +5566,10 @@ public override void ExecuteMethod
 {
 			SubscribeElementEvents_submitform(ref dfsParam);
 }
+		if(elementName.ToLower().Equals("wmf_history"))
+{
+			SubscribeElementEvents_wmf_history(ref dfsParam);
+}
 		if(elementName.ToLower().Equals("mf_back"))
 {
 			SubscribeElementEvents_mf_back(ref dfsParam);
@@ -5377,6 +5645,24 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_mf_back (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MF_Back-OnClick");
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="?PkActMId=3F131441-D0E5-4A35-BADE-BBDC8C5190A1&frmElementId=A2D043F8-4C87-4C0C-BB8B-FB2C64B24C44&PkPrMId=3A048090-0538-48F9-8870-AE1A37E0EDB9&formVersionId=EBFF27E0-9875-4D44-9674-9F00EBD7ABAD&Ver=0.0000";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""?PkActMId=3F131441-D0E5-4A35-BADE-BBDC8C5190A1&frmElementId=A2D043F8-4C87-4C0C-BB8B-FB2C64B24C44&PkPrMId=3A048090-0538-48F9-8870-AE1A37E0EDB9&formVersionId=EBFF27E0-9875-4D44-9674-9F00EBD7ABAD&Ver=0.0000"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 public override void ExecuteMethod
 	(string methodName, string elementName,
 		ref Dictionary<string, ServiceElementData> dfsParam)
@@ -5390,6 +5676,10 @@ public override void ExecuteMethod
 }
 	if(methodName.ToLower().Equals("onclick"))
 {
+		if(elementName.ToLower().Equals("mf_back"))
+{
+			SubscribeElementEvents_mf_back(ref dfsParam);
+}
 }
 }
 }
