@@ -816,13 +816,13 @@ base.WriteDebugInfo(@"");
 
 if((result4a9a698cb4763eeff4f27fd4b9f8164b!=null) && (result4a9a698cb4763eeff4f27fd4b9f8164b.Count!=0))
 {
-if(result4a9a698cb4763eeff4f27fd4b9f8164b.ContainsKey(1))
-ISpace["MF_ProjectRefNo"].Value = result4a9a698cb4763eeff4f27fd4b9f8164b[1];
 if(result4a9a698cb4763eeff4f27fd4b9f8164b.ContainsKey(0))
 ISpace["MF_PendingCount"].Value = result4a9a698cb4763eeff4f27fd4b9f8164b[0];
+if(result4a9a698cb4763eeff4f27fd4b9f8164b.ContainsKey(1))
+ISpace["MF_CompletedCount"].Value = result4a9a698cb4763eeff4f27fd4b9f8164b[1];
 }
 else{
-ISpace["MF_ProjectRefNo"].Value = null;ISpace["MF_PendingCount"].Value = null;
+ISpace["MF_PendingCount"].Value = null;ISpace["MF_CompletedCount"].Value = null;
 }
 }
 if(1==1)
@@ -868,13 +868,13 @@ base.WriteDebugInfo(@"");
 
 if((result4a9a698cb4763eeff4f27fd4b9f8164b!=null) && (result4a9a698cb4763eeff4f27fd4b9f8164b.Count!=0))
 {
-if(result4a9a698cb4763eeff4f27fd4b9f8164b.ContainsKey(1))
-ISpace["MF_ProjectRefNo"].Value = result4a9a698cb4763eeff4f27fd4b9f8164b[1];
 if(result4a9a698cb4763eeff4f27fd4b9f8164b.ContainsKey(0))
 ISpace["MF_PendingCount"].Value = result4a9a698cb4763eeff4f27fd4b9f8164b[0];
+if(result4a9a698cb4763eeff4f27fd4b9f8164b.ContainsKey(1))
+ISpace["MF_CompletedCount"].Value = result4a9a698cb4763eeff4f27fd4b9f8164b[1];
 }
 else{
-ISpace["MF_ProjectRefNo"].Value = null;ISpace["MF_PendingCount"].Value = null;
+ISpace["MF_PendingCount"].Value = null;ISpace["MF_CompletedCount"].Value = null;
 }
 }
 if(1==1)
@@ -938,13 +938,13 @@ base.WriteDebugInfo(@"");
 
 if((result4a9a698cb4763eeff4f27fd4b9f8164b!=null) && (result4a9a698cb4763eeff4f27fd4b9f8164b.Count!=0))
 {
-if(result4a9a698cb4763eeff4f27fd4b9f8164b.ContainsKey(1))
-ISpace["MF_ProjectRefNo"].Value = result4a9a698cb4763eeff4f27fd4b9f8164b[1];
 if(result4a9a698cb4763eeff4f27fd4b9f8164b.ContainsKey(0))
 ISpace["MF_PendingCount"].Value = result4a9a698cb4763eeff4f27fd4b9f8164b[0];
+if(result4a9a698cb4763eeff4f27fd4b9f8164b.ContainsKey(1))
+ISpace["MF_CompletedCount"].Value = result4a9a698cb4763eeff4f27fd4b9f8164b[1];
 }
 else{
-ISpace["MF_ProjectRefNo"].Value = null;ISpace["MF_PendingCount"].Value = null;
+ISpace["MF_PendingCount"].Value = null;ISpace["MF_CompletedCount"].Value = null;
 }
 }
 if(1==1)
