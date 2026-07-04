@@ -50,6 +50,9 @@ const TravelRequest_ARRD = React.lazy(() =>
 const TravelSettlementNew_Start = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/TravelSettlementNew_Start")
   );
+const ProjectFundInstallment_View = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_View")
+  );
 const TemporaryAdvanceNew_ARRandD = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_ARRandD")
   );
@@ -76,6 +79,9 @@ const TemporaryAdvanceNew_DeanRandD = React.lazy(() =>
   );
 const TravelSettlement_PIInitiation = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/TravelSettlement_PIInitiation")
+  );
+const ProjectFundExplorer_Start = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectFundExplorer_Start")
   );
 const ProjectCreation_Initiation = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/ProjectCreation_Initiation")
@@ -264,6 +270,7 @@ const App: React.FC = () => {
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequestNew_ARRandD" element={<TravelRequestNew_ARRandD />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequest_ARRD" element={<TravelRequest_ARRD />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelSettlementNew_Start" element={<TravelSettlementNew_Start />} />
+              <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_View" element={<ProjectFundInstallment_View />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_ARRandD" element={<TemporaryAdvanceNew_ARRandD />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TempAdvance_RDoffice" element={<TempAdvance_RDoffice />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursementNew_ARRandD" element={<ProjectReimbursementNew_ARRandD />} />
@@ -273,6 +280,7 @@ const App: React.FC = () => {
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_Start" element={<ProjectProposal_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_DeanRandD" element={<TemporaryAdvanceNew_DeanRandD />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelSettlement_PIInitiation" element={<TravelSettlement_PIInitiation />} />
+              <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundExplorer_Start" element={<ProjectFundExplorer_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreation_Initiation" element={<ProjectCreation_Initiation />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TempAdvance_RDofficepayment" element={<TempAdvance_RDofficepayment />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreation_HOD" element={<ProjectCreation_HOD />} />

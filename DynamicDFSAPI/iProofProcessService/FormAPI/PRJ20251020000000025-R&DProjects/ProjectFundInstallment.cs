@@ -365,6 +365,10 @@ namespace CPS.Proof.DFSExtension
 							virtualInstance=new ISpace537084A67B724CBEA0A2057049686345();
 							break;
 					
+											case "1d2a9754-f9d8-747f-9a21-6341b89095ab":
+							virtualInstance=new ISpace1d2a9754f9d8747f9a216341b89095ab();
+							break;
+					
 					
 					default:
 						break;
@@ -2033,12 +2037,12 @@ if(1==1)
 base.WriteDebugInfo(@"if(1==1)");
 ISpace["MF_P1_Status"].Value="S";
 base.WriteDebugInfo(@"ISpace[""MF_P1_Status""].Value=""S"";");
-base.WriteDebugInfo(@"EXEC UpsertProjectReceipts '@@gv_InstanceId','#MF_P1_TransferReferenceBankId','#MF_P1_ReceiptDate','#MF_P1_ReceiptNo','#UC_EmployeeBaicInfoId','#MF_P1_Status','#MF_P1_TransferReferenceDate','#MF_P1_TransferReferenceBranch','#MF_P1_UpdatedBy','#MF_P1_TransferType','#C_FC_ProjectNo_15'");
+base.WriteDebugInfo(@"EXEC UpsertProjectReceipts '@@gv_InstanceId','#MF_P1_TransferReferenceBankId','#MF_P1_ReceiptDate','#MF_P1_ReceiptNo','#UC_EmployeeBaicInfoId','#MF_P1_Status','#MF_P1_TransferReferenceDate','#MF_P1_TransferReferenceBranch','#MF_P1_UpdatedBy','#MF_P1_TransferType','#C_FC_ProjectNo_15','#MF_P1_ReceiptAmount'");
 
 var querySource8ededcfe5adacbe6902976086059adc4 =GetQueryExpressionDataSource("8ededcfe-5ada-cbe6-9029-76086059adc4");
-Dictionary<short,object> result8ededcfe5adacbe6902976086059adc4=iSpace.ExecuteQuery(querySource8ededcfe5adacbe6902976086059adc4,@"EXEC UpsertProjectReceipts '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["MF_P1_TransferReferenceBankId"].Value + @"','" + ISpace["MF_P1_ReceiptDate"].Value + @"','" + ISpace["MF_P1_ReceiptNo"].Value + @"','" + ISpace["UC_EmployeeBaicInfoId"].Value + @"','" + ISpace["MF_P1_Status"].Value + @"','" + ISpace["MF_P1_TransferReferenceDate"].Value + @"','" + ISpace["MF_P1_TransferReferenceBranch"].Value + @"','" + ISpace["MF_P1_UpdatedBy"].Value + @"','" + ISpace["MF_P1_TransferType"].Value + @"','" + ISpace["C_FC_ProjectNo_15"].Value + @"'",false);
+Dictionary<short,object> result8ededcfe5adacbe6902976086059adc4=iSpace.ExecuteQuery(querySource8ededcfe5adacbe6902976086059adc4,@"EXEC UpsertProjectReceipts '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["MF_P1_TransferReferenceBankId"].Value + @"','" + ISpace["MF_P1_ReceiptDate"].Value + @"','" + ISpace["MF_P1_ReceiptNo"].Value + @"','" + ISpace["UC_EmployeeBaicInfoId"].Value + @"','" + ISpace["MF_P1_Status"].Value + @"','" + ISpace["MF_P1_TransferReferenceDate"].Value + @"','" + ISpace["MF_P1_TransferReferenceBranch"].Value + @"','" + ISpace["MF_P1_UpdatedBy"].Value + @"','" + ISpace["MF_P1_TransferType"].Value + @"','" + ISpace["C_FC_ProjectNo_15"].Value + @"','" + ISpace["MF_P1_ReceiptAmount"].Value + @"'",false);
 
-base.WriteDebugInfo(@"var querySource8ededcfe5adacbe6902976086059adc4 =GetQueryExpressionDataSource(""8ededcfe-5ada-cbe6-9029-76086059adc4"");Dictionary<short,object> result8ededcfe5adacbe6902976086059adc4=iSpace.ExecuteQuery(querySource8ededcfe5adacbe6902976086059adc4,@""EXEC UpsertProjectReceipts '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""MF_P1_TransferReferenceBankId""].Value + @""','"" + ISpace[""MF_P1_ReceiptDate""].Value + @""','"" + ISpace[""MF_P1_ReceiptNo""].Value + @""','"" + ISpace[""UC_EmployeeBaicInfoId""].Value + @""','"" + ISpace[""MF_P1_Status""].Value + @""','"" + ISpace[""MF_P1_TransferReferenceDate""].Value + @""','"" + ISpace[""MF_P1_TransferReferenceBranch""].Value + @""','"" + ISpace[""MF_P1_UpdatedBy""].Value + @""','"" + ISpace[""MF_P1_TransferType""].Value + @""','"" + ISpace[""C_FC_ProjectNo_15""].Value + @""'"",false);");
+base.WriteDebugInfo(@"var querySource8ededcfe5adacbe6902976086059adc4 =GetQueryExpressionDataSource(""8ededcfe-5ada-cbe6-9029-76086059adc4"");Dictionary<short,object> result8ededcfe5adacbe6902976086059adc4=iSpace.ExecuteQuery(querySource8ededcfe5adacbe6902976086059adc4,@""EXEC UpsertProjectReceipts '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""MF_P1_TransferReferenceBankId""].Value + @""','"" + ISpace[""MF_P1_ReceiptDate""].Value + @""','"" + ISpace[""MF_P1_ReceiptNo""].Value + @""','"" + ISpace[""UC_EmployeeBaicInfoId""].Value + @""','"" + ISpace[""MF_P1_Status""].Value + @""','"" + ISpace[""MF_P1_TransferReferenceDate""].Value + @""','"" + ISpace[""MF_P1_TransferReferenceBranch""].Value + @""','"" + ISpace[""MF_P1_UpdatedBy""].Value + @""','"" + ISpace[""MF_P1_TransferType""].Value + @""','"" + ISpace[""C_FC_ProjectNo_15""].Value + @""','"" + ISpace[""MF_P1_ReceiptAmount""].Value + @""'"",false);");
 base.WriteDebugInfo(@"");
 
 if((result8ededcfe5adacbe6902976086059adc4!=null) && (result8ededcfe5adacbe6902976086059adc4.Count!=0))
@@ -2091,6 +2095,16 @@ ISpace["ErrorId"].Value = null;
 }
 ISpace["Message"].Value=@"SUCCESS:Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Submitted Successfully"";");
+}
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="?PkActMId=391EB18F-A1B6-490F-B60C-D4572FE018AB&frmElementId=CB38069E-44DE-463F-BAA6-6EA818E0CA3F&PkPrMId=1C5D271E-9D4D-47A4-8622-C1DBD65C0B6A&formVersionId=F663CD0F-3CCA-46BE-86C9-2DA22AE05E9F&Ver=0.0000";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""?PkActMId=391EB18F-A1B6-490F-B60C-D4572FE018AB&frmElementId=CB38069E-44DE-463F-BAA6-6EA818E0CA3F&PkPrMId=1C5D271E-9D4D-47A4-8622-C1DBD65C0B6A&formVersionId=F663CD0F-3CCA-46BE-86C9-2DA22AE05E9F&Ver=0.0000"";");
 }
 }
 catch(Exception ex)
@@ -2446,8 +2460,8 @@ base.WriteDebugInfo(@"if(1==1)");
 if(ISpace["MF_P1_TransferReferenceDate"].Value>ISpace["MF_P1_ReceiptDate"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_TransferReferenceDate""].Value>ISpace[""MF_P1_ReceiptDate""].Value)");
-ISpace["Message"].Value=@"Transfer Date should be less than or equal to Fund Installment Date or Actual Date";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Transfer Date should be less than or equal to Fund Installment Date or Actual Date"";");
+ISpace["Message"].Value=@"Error:Transfer Date should be less than or equal to Fund Installment Date or Actual Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Transfer Date should be less than or equal to Fund Installment Date or Actual Date"";");
 ISpace["MF_P1_TransferReferenceDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MF_P1_TransferReferenceDate""].Value=null;");
 ISpace["IsCancelled"].Value = true; 
@@ -2457,6 +2471,28 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 
 return;");
 }
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mf_back (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MF_Back-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="?PkActMId=391EB18F-A1B6-490F-B60C-D4572FE018AB&frmElementId=CB38069E-44DE-463F-BAA6-6EA818E0CA3F&PkPrMId=1C5D271E-9D4D-47A4-8622-C1DBD65C0B6A&formVersionId=F663CD0F-3CCA-46BE-86C9-2DA22AE05E9F&Ver=0.0000";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""?PkActMId=391EB18F-A1B6-490F-B60C-D4572FE018AB&frmElementId=CB38069E-44DE-463F-BAA6-6EA818E0CA3F&PkPrMId=1C5D271E-9D4D-47A4-8622-C1DBD65C0B6A&formVersionId=F663CD0F-3CCA-46BE-86C9-2DA22AE05E9F&Ver=0.0000"";");
 }
 }
 catch(Exception ex)
@@ -2817,6 +2853,10 @@ public override void ExecuteMethod
 {
 			SubscribeElementEvents_availablebudgetclose(ref dfsParam);
 }
+		if(elementName.ToLower().Equals("mf_back"))
+{
+			SubscribeElementEvents_mf_back(ref dfsParam);
+}
 		if(elementName.ToLower().Equals("save_receiptsplitup"))
 {
 			SubscribeElementEvents_save_receiptsplitup(ref dfsParam);
@@ -2885,6 +2925,14 @@ ISpace["M_Remarks"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_Remarks""].Value="""";");
 ISpace["M_NextStage"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_NextStage""].Value="""";");
+if(ISpace["FormVersionId"].Value=="B1CB93DB-7B9C-4661-BE11-02ED3BFD5725")
+{
+ISpace["UI_InvisibleRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-BE11-02ED3BFD5725"")
+{
+ISpace[""UI_InvisibleRow""].Visible=""false"";
+}");
 ISpace["UC_PhoneNumber"].Visible="false";ISpace["UC_DOB"].Visible="false";ISpace["UC_DOR"].Visible="false";ISpace["UC_Paylevel"].Visible="false";ISpace["UC_EmailId"].Visible="false";ISpace["UC_Grade"].Visible="false";ISpace["UC_DOJ"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""UC_PhoneNumber""].Visible=""false"";ISpace[""UC_DOB""].Visible=""false"";ISpace[""UC_DOR""].Visible=""false"";ISpace[""UC_Paylevel""].Visible=""false"";ISpace[""UC_EmailId""].Visible=""false"";ISpace[""UC_Grade""].Visible=""false"";ISpace[""UC_DOJ""].Visible=""false"";");
 if(1==1)
@@ -2940,8 +2988,8 @@ base.WriteDebugInfo(@"SubmitForm-OnClick");
 if(ISpace["M_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
-ISpace["Message"].Value=@"Please select the value for Move To";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please select the value for Move To"";");
+ISpace["Message"].Value=@"Error:Please select the value for Move To";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Please select the value for Move To"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -3137,6 +3185,14 @@ ISpace["M_Remarks"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_Remarks""].Value="""";");
 ISpace["M_NextStage"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_NextStage""].Value="""";");
+if(ISpace["FormVersionId"].Value=="B1CB93DB-7B9C-4661-BE11-02ED3BFD5725")
+{
+ISpace["UI_InvisibleRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-BE11-02ED3BFD5725"")
+{
+ISpace[""UI_InvisibleRow""].Visible=""false"";
+}");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
@@ -3347,8 +3403,8 @@ return;");
 if(ISpace["M_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
-ISpace["Message"].Value=@"Please select the value for Move To";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please select the value for Move To"";");
+ISpace["Message"].Value=@"Error:Please select the value for Move To";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Please select the value for Move To"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -3361,12 +3417,12 @@ if(1==1)
 base.WriteDebugInfo(@"if(1==1)");
 ISpace["MF_P1_Status"].Value="S";
 base.WriteDebugInfo(@"ISpace[""MF_P1_Status""].Value=""S"";");
-base.WriteDebugInfo(@"EXEC UpsertProjectReceipts '@@gv_InstanceId','#MF_P1_TransferReferenceBankId','#MF_P1_ReceiptDate','#MF_P1_ReceiptNo','#UC_EmployeeBaicInfoId','#MF_P1_Status','#MF_P1_TransferReferenceDate','#MF_P1_TransferReferenceBranch','#MF_P1_UpdatedBy','#MF_P1_TransferType','#C_FC_ProjectNo_15'");
+base.WriteDebugInfo(@"EXEC UpsertProjectReceipts '@@gv_InstanceId','#MF_P1_TransferReferenceBankId','#MF_P1_ReceiptDate','#MF_P1_ReceiptNo','#UC_EmployeeBaicInfoId','#MF_P1_Status','#MF_P1_TransferReferenceDate','#MF_P1_TransferReferenceBranch','#MF_P1_UpdatedBy','#MF_P1_TransferType','#C_FC_ProjectNo_15','#MF_P1_ReceiptAmount'");
 
 var querySource8ededcfe5adacbe6902976086059adc4 =GetQueryExpressionDataSource("8ededcfe-5ada-cbe6-9029-76086059adc4");
-Dictionary<short,object> result8ededcfe5adacbe6902976086059adc4=iSpace.ExecuteQuery(querySource8ededcfe5adacbe6902976086059adc4,@"EXEC UpsertProjectReceipts '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["MF_P1_TransferReferenceBankId"].Value + @"','" + ISpace["MF_P1_ReceiptDate"].Value + @"','" + ISpace["MF_P1_ReceiptNo"].Value + @"','" + ISpace["UC_EmployeeBaicInfoId"].Value + @"','" + ISpace["MF_P1_Status"].Value + @"','" + ISpace["MF_P1_TransferReferenceDate"].Value + @"','" + ISpace["MF_P1_TransferReferenceBranch"].Value + @"','" + ISpace["MF_P1_UpdatedBy"].Value + @"','" + ISpace["MF_P1_TransferType"].Value + @"','" + ISpace["C_FC_ProjectNo_15"].Value + @"'",false);
+Dictionary<short,object> result8ededcfe5adacbe6902976086059adc4=iSpace.ExecuteQuery(querySource8ededcfe5adacbe6902976086059adc4,@"EXEC UpsertProjectReceipts '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["MF_P1_TransferReferenceBankId"].Value + @"','" + ISpace["MF_P1_ReceiptDate"].Value + @"','" + ISpace["MF_P1_ReceiptNo"].Value + @"','" + ISpace["UC_EmployeeBaicInfoId"].Value + @"','" + ISpace["MF_P1_Status"].Value + @"','" + ISpace["MF_P1_TransferReferenceDate"].Value + @"','" + ISpace["MF_P1_TransferReferenceBranch"].Value + @"','" + ISpace["MF_P1_UpdatedBy"].Value + @"','" + ISpace["MF_P1_TransferType"].Value + @"','" + ISpace["C_FC_ProjectNo_15"].Value + @"','" + ISpace["MF_P1_ReceiptAmount"].Value + @"'",false);
 
-base.WriteDebugInfo(@"var querySource8ededcfe5adacbe6902976086059adc4 =GetQueryExpressionDataSource(""8ededcfe-5ada-cbe6-9029-76086059adc4"");Dictionary<short,object> result8ededcfe5adacbe6902976086059adc4=iSpace.ExecuteQuery(querySource8ededcfe5adacbe6902976086059adc4,@""EXEC UpsertProjectReceipts '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""MF_P1_TransferReferenceBankId""].Value + @""','"" + ISpace[""MF_P1_ReceiptDate""].Value + @""','"" + ISpace[""MF_P1_ReceiptNo""].Value + @""','"" + ISpace[""UC_EmployeeBaicInfoId""].Value + @""','"" + ISpace[""MF_P1_Status""].Value + @""','"" + ISpace[""MF_P1_TransferReferenceDate""].Value + @""','"" + ISpace[""MF_P1_TransferReferenceBranch""].Value + @""','"" + ISpace[""MF_P1_UpdatedBy""].Value + @""','"" + ISpace[""MF_P1_TransferType""].Value + @""','"" + ISpace[""C_FC_ProjectNo_15""].Value + @""'"",false);");
+base.WriteDebugInfo(@"var querySource8ededcfe5adacbe6902976086059adc4 =GetQueryExpressionDataSource(""8ededcfe-5ada-cbe6-9029-76086059adc4"");Dictionary<short,object> result8ededcfe5adacbe6902976086059adc4=iSpace.ExecuteQuery(querySource8ededcfe5adacbe6902976086059adc4,@""EXEC UpsertProjectReceipts '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""MF_P1_TransferReferenceBankId""].Value + @""','"" + ISpace[""MF_P1_ReceiptDate""].Value + @""','"" + ISpace[""MF_P1_ReceiptNo""].Value + @""','"" + ISpace[""UC_EmployeeBaicInfoId""].Value + @""','"" + ISpace[""MF_P1_Status""].Value + @""','"" + ISpace[""MF_P1_TransferReferenceDate""].Value + @""','"" + ISpace[""MF_P1_TransferReferenceBranch""].Value + @""','"" + ISpace[""MF_P1_UpdatedBy""].Value + @""','"" + ISpace[""MF_P1_TransferType""].Value + @""','"" + ISpace[""C_FC_ProjectNo_15""].Value + @""','"" + ISpace[""MF_P1_ReceiptAmount""].Value + @""'"",false);");
 base.WriteDebugInfo(@"");
 
 if((result8ededcfe5adacbe6902976086059adc4!=null) && (result8ededcfe5adacbe6902976086059adc4.Count!=0))
@@ -3774,8 +3830,8 @@ base.WriteDebugInfo(@"if(1==1)");
 if(ISpace["MF_P1_TransferReferenceDate"].Value>ISpace["MF_P1_ReceiptDate"].Value)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_P1_TransferReferenceDate""].Value>ISpace[""MF_P1_ReceiptDate""].Value)");
-ISpace["Message"].Value=@"Transfer Date should be less than or equal to Fund Installment Date or Actual Date";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Transfer Date should be less than or equal to Fund Installment Date or Actual Date"";");
+ISpace["Message"].Value=@"Error:Transfer Date should be less than or equal to Fund Installment Date or Actual Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Transfer Date should be less than or equal to Fund Installment Date or Actual Date"";");
 ISpace["MF_P1_TransferReferenceDate"].Value=null;
 base.WriteDebugInfo(@"ISpace[""MF_P1_TransferReferenceDate""].Value=null;");
 ISpace["IsCancelled"].Value = true; 
@@ -4327,6 +4383,14 @@ ISpace["M_Remarks"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_Remarks""].Value="""";");
 ISpace["M_NextStage"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_NextStage""].Value="""";");
+if(ISpace["FormVersionId"].Value=="B1CB93DB-7B9C-4661-BE11-02ED3BFD5725")
+{
+ISpace["UI_InvisibleRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-BE11-02ED3BFD5725"")
+{
+ISpace[""UI_InvisibleRow""].Visible=""false"";
+}");
 ISpace["UC_PhoneNumber"].Visible="false";ISpace["UC_DOB"].Visible="false";ISpace["UC_DOR"].Visible="false";ISpace["UC_Paylevel"].Visible="false";ISpace["UC_EmailId"].Visible="false";ISpace["UC_Grade"].Visible="false";ISpace["UC_DOJ"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""UC_PhoneNumber""].Visible=""false"";ISpace[""UC_DOB""].Visible=""false"";ISpace[""UC_DOR""].Visible=""false"";ISpace[""UC_Paylevel""].Visible=""false"";ISpace[""UC_EmailId""].Visible=""false"";ISpace[""UC_Grade""].Visible=""false"";ISpace[""UC_DOJ""].Visible=""false"";");
 if(1==1)
@@ -4382,8 +4446,8 @@ base.WriteDebugInfo(@"SubmitForm-OnClick");
 if(ISpace["M_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
-ISpace["Message"].Value=@"Please select the value for Move To";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please select the value for Move To"";");
+ISpace["Message"].Value=@"Error:Please select the value for Move To";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Please select the value for Move To"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -4515,6 +4579,102 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("m_history"))
 {
 			SubscribeElementEvents_m_history(ref dfsParam);
+}
+}
+}
+}
+}
+namespace CPS.Proof.DFSExtension
+{
+
+using System.Collections.Generic;
+using System;
+using CPS.Proof.DFSExtension;
+using System.Linq;using System.Data;
+using System.Runtime.CompilerServices;
+public class ISpace1d2a9754f9d8747f9a216341b89095ab : VirtualForm
+{
+IISpace iSpace = new ISpace();
+AcDataISpace1d2a9754f9d8747f9a216341b89095ab acdataIspace1d2a9754f9d8747f9a216341b89095ab=new AcDataISpace1d2a9754f9d8747f9a216341b89095ab();
+private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
+{
+try
+{
+base.WriteDebugInfo(@"Root-OnAfterFormLoad");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+
+var querySourcefc9385e0be8b9893ddc2d81ce337a491 =GetQueryExpressionDataSource("fc9385e0-be8b-9893-ddc2-d81ce337a491");
+
+DataTable resultfc9385e0be8b9893ddc2d81ce337a491=iSpace.SetGridDataSource(querySourcefc9385e0be8b9893ddc2d81ce337a491, _objectFactory.GetGridRPP("MG_Comments"),@"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("MG_Comments","11",querySourcefc9385e0be8b9893ddc2d81ce337a491,"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("MG_Comments"));
+
+base.WriteDebugInfo(@"var querySourcefc9385e0be8b9893ddc2d81ce337a491 =GetQueryExpressionDataSource(""fc9385e0-be8b-9893-ddc2-d81ce337a491"");DataTable resultfc9385e0be8b9893ddc2d81ce337a491=iSpace.SetGridDataSource(querySourcefc9385e0be8b9893ddc2d81ce337a491, _objectFactory.GetGridRPP(""MG_Comments""),@""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_Comments"",""11"",querySourcefc9385e0be8b9893ddc2d81ce337a491,""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""MG_Comments""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> resultb5b67bd83405b1007a48e1e328275325=acdataIspace1d2a9754f9d8747f9a216341b89095ab.GetQueryExpressionBindings("b5b67bd8-3405-b100-7a48-e1e328275325");
+iSpace.SetGridData(resultfc9385e0be8b9893ddc2d81ce337a491,resultb5b67bd83405b1007a48e1e328275325,"MG_Comments",ref ISpace);
+iSpace.UpdateGridBindDetails("MG_Comments",resultb5b67bd83405b1007a48e1e328275325);
+}
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+if(ISpace["FormVersionId"].Value=="B1CB93DB-7B9C-4661-BE11-02ED3BFD5725")
+{
+ISpace["UI_InvisibleRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-BE11-02ED3BFD5725"")
+{
+ISpace[""UI_InvisibleRow""].Visible=""false"";
+}");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mf_back (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MF_Back-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="?PkActMId=391EB18F-A1B6-490F-B60C-D4572FE018AB&frmElementId=CB38069E-44DE-463F-BAA6-6EA818E0CA3F&PkPrMId=1C5D271E-9D4D-47A4-8622-C1DBD65C0B6A&formVersionId=F663CD0F-3CCA-46BE-86C9-2DA22AE05E9F&Ver=0.0000";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""?PkActMId=391EB18F-A1B6-490F-B60C-D4572FE018AB&frmElementId=CB38069E-44DE-463F-BAA6-6EA818E0CA3F&PkPrMId=1C5D271E-9D4D-47A4-8622-C1DBD65C0B6A&formVersionId=F663CD0F-3CCA-46BE-86C9-2DA22AE05E9F&Ver=0.0000"";");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+public override void ExecuteMethod
+	(string methodName, string elementName,
+		ref Dictionary<string, ServiceElementData> dfsParam)
+{
+	if(methodName.ToLower().Equals("formonload"))
+{
+			SubscribeFormEvents_root(ref dfsParam);
+}
+	if(methodName.ToLower().Equals("onchange"))
+{
+}
+	if(methodName.ToLower().Equals("onclick"))
+{
+		if(elementName.ToLower().Equals("mf_back"))
+{
+			SubscribeElementEvents_mf_back(ref dfsParam);
 }
 }
 }
@@ -5413,6 +5573,162 @@ using System;
 
 
 	public partial class AcDataISpace537084A67B724CBEA0A2057049686345  : ExtensionActivityBase
+	{		
+		
+		
+		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
+											new Dictionary<string,  List<Triplet<string, short, short?>>>
+		{
+							{"4ACD680C-9EAE-4FDB-A4A3-FC5C4D353701", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("DateOfRemarks",3,
+														   -1),
+								   new Triplet<string, short, short?>("ActivityName",1,
+														   -1),
+								   new Triplet<string, short, short?>("Remarks",4,
+														   -1),
+								   new Triplet<string, short, short?>("RemarksId",0,
+														   -1),
+								   new Triplet<string, short, short?>("UserName",2,
+														   -1),
+								}
+			},
+							{"b5b67bd8-3405-b100-7a48-e1e328275325", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("C_Comments",5,
+														   -1),
+								   new Triplet<string, short, short?>("C_Stepfrom",1,
+														   -1),
+								   new Triplet<string, short, short?>("C_DateofComments",4,
+														   -1),
+								   new Triplet<string, short, short?>("C_User",3,
+														   -1),
+								   new Triplet<string, short, short?>("C_StepTo",2,
+														   -1),
+								}
+			},
+					};	
+
+	
+
+		private Dictionary<string,string> formVersionList =new Dictionary<string,string> 
+		{
+							{"0481C68C-08AC-4DAC-BFF0-06A4EF027A88", "Mobile-Hybrid"},
+							{"7885C0A2-264B-4055-A2D0-B0D3D6927FF4", "Tab"},
+							{"B1CB93DB-7B9C-4661-BE11-02ED3BFD5725", "Medium"},
+					};	
+
+		
+		private Dictionary<string,string> formVersionLayoutList =new Dictionary<string,string> 
+		{
+							{"0481C68C-08AC-4DAC-BFF0-06A4EF027A88", ""},
+							{"7885C0A2-264B-4055-A2D0-B0D3D6927FF4", ""},
+							{"B1CB93DB-7B9C-4661-BE11-02ED3BFD5725", ""},
+							{"A04AACAE-3004-4D2D-BC78-73839968D39D", ""},
+							{"640C283B-38E9-4C7A-A237-CE1978ED1C51", ""},
+							{"E0738E17-715D-430D-9E81-C362B6C9B420", ""},
+							{"57F82DC6-5E93-477D-88EA-45127573FE4E", ""},
+							{"D9B3CA04-18F0-4441-8908-A9B5A672A9E7", ""},
+					};	
+
+		
+
+	
+	
+		
+		
+		public override  List<Triplet<string, short, short?>> GetQueryExpressionBindings(string expressionId)
+		{
+			if(string.IsNullOrWhiteSpace(expressionId))
+            {
+			  return null;				
+            }
+
+
+			if(queryExpressionBindings == null || queryExpressionBindings.Count <= 0)
+				return null;
+
+			return queryExpressionBindings[expressionId];
+		}
+
+		public override string GetValidFormVersionId(string formVersionId,ViewportTypes viewPort)
+		{	
+					
+			 if(formVersionList == null || formVersionList.Count <= 0)
+				return formVersionId;
+
+			if (formVersionList.Count == 1)
+                return formVersionList.FirstOrDefault().Key;  
+
+			
+
+			if ( !string.IsNullOrEmpty(formVersionId) &&  formVersionList.ContainsKey(formVersionId))
+            {
+                if (formVersionList.Any(x => x.Key == formVersionId && x.Value == viewPort.ToString()))
+                    return formVersionId;
+            }
+
+			var fallback= new List<string>{"Mobile","Tab","Medium","Large"};
+
+           switch (viewPort)
+            {
+                case ViewportTypes.Tab:
+                    fallback = new List<string> { "Tab", "Mobile", "Medium", "Large" };
+                    break;
+
+                case ViewportTypes.Medium:
+                    fallback = new List<string> { "Medium", "Tab", "Large", "Mobile" };
+                    break;
+
+                case ViewportTypes.Large:
+                    fallback = new List<string> { "Large", "Medium", "Tab", "Mobile" };
+                    break;
+            }
+
+           for (int i = 0; i < fallback.Count; i++)
+           {
+               if (formVersionList.Any(x => x.Value == fallback[i]))
+                   return formVersionList.Where(x => x.Value == fallback[i]).Select(y => y.Key).FirstOrDefault();
+           }
+
+		   return formVersionId;
+		}
+
+	
+
+		
+		
+		
+		
+		
+
+
+	}
+
+}
+		
+  
+
+
+
+
+
+
+
+namespace CPS.Proof.DFSExtension
+{
+	
+using System;
+    using System.Collections.Generic;    
+    using System.Text;	
+    using System.Linq;	
+
+
+	public partial class AcDataISpace1d2a9754f9d8747f9a216341b89095ab  : ExtensionActivityBase
 	{		
 		
 		
