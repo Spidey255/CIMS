@@ -438,10 +438,10 @@ namespace CPS.Proof.DFSExtension
                                       case "744F780C-12D2-41D3-9084-6E903A527934":
                     {
                      
-                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [744F780C-12D2-41D3-9084-6E903A527934] WHERE InstanceId='{0}') BEGIN INSERT INTO [744F780C-12D2-41D3-9084-6E903A527934](ProcessActivityMapId,FormId,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d2_AdvanceFormId,MF_d2_EmployeeBasicInfoId,MF_d2_TotalAmount,MF_d2_Initiatedon,MF_d2_InitatedBy,MF_d2_ApplicationStatus,MF_d2_UpdatedBy,MF_d2_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,InstanceId,WMF_IsInFlow,WMF_MoveTo,Comments,FlowType,WMF_InstanceId,UC_EmployeeId,UC_EmployeeName,UC_Designation,UC_Department,MF_FundTotal,TA_refNo,UC_DOB,UC_PhoneNumber,UC_DOJ,UC_EmailId,UC_Name,UC_Paylevel,UC_Grade,UC_DOR,UC_EmployeeBasicInfoId,MF_ErrId,MF_ErrMsg,MF_IsAdvance)
+                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [744F780C-12D2-41D3-9084-6E903A527934] WHERE InstanceId='{0}') BEGIN INSERT INTO [744F780C-12D2-41D3-9084-6E903A527934](ProcessActivityMapId,FormId,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d2_AdvanceFormId,MF_d2_EmployeeBasicInfoId,MF_d2_TotalAmount,MF_d2_Initiatedon,MF_d2_InitatedBy,MF_d2_ApplicationStatus,MF_d2_UpdatedBy,MF_d2_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,InstanceId,WMF_IsInFlow,WMF_MoveTo,Comments,WMF_InstanceId,UC_EmployeeId,UC_EmployeeName,UC_Designation,UC_Department,MF_FundTotal,TA_refNo,UC_DOB,UC_PhoneNumber,UC_DOJ,UC_EmailId,UC_Name,UC_Paylevel,UC_Grade,UC_DOR,UC_EmployeeBasicInfoId,MF_ErrId,MF_ErrMsg,MF_IsAdvance,WF_FlowType)
 							VALUES( {3}) END ELSE BEGIN UPDATE [744F780C-12D2-41D3-9084-6E903A527934]SET {4}WHERE InstanceId='{0}'END ";
 
-                                     colList=@"ProcessActivityMapId,FormId,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d2_AdvanceFormId,MF_d2_EmployeeBasicInfoId,MF_d2_TotalAmount,MF_d2_Initiatedon,MF_d2_InitatedBy,MF_d2_ApplicationStatus,MF_d2_UpdatedBy,MF_d2_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,InstanceId,WMF_IsInFlow,WMF_MoveTo,Comments,FlowType,WMF_InstanceId,UC_EmployeeId,UC_EmployeeName,UC_Designation,UC_Department,MF_FundTotal,TA_refNo,UC_DOB,UC_PhoneNumber,UC_DOJ,UC_EmailId,UC_Name,UC_Paylevel,UC_Grade,UC_DOR,UC_EmployeeBasicInfoId,MF_ErrId,MF_ErrMsg,MF_IsAdvance";
+                                     colList=@"ProcessActivityMapId,FormId,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d2_AdvanceFormId,MF_d2_EmployeeBasicInfoId,MF_d2_TotalAmount,MF_d2_Initiatedon,MF_d2_InitatedBy,MF_d2_ApplicationStatus,MF_d2_UpdatedBy,MF_d2_UpdatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,InstanceId,WMF_IsInFlow,WMF_MoveTo,Comments,WMF_InstanceId,UC_EmployeeId,UC_EmployeeName,UC_Designation,UC_Department,MF_FundTotal,TA_refNo,UC_DOB,UC_PhoneNumber,UC_DOJ,UC_EmailId,UC_Name,UC_Paylevel,UC_Grade,UC_DOR,UC_EmployeeBasicInfoId,MF_ErrId,MF_ErrMsg,MF_IsAdvance,WF_FlowType";
                                     
                      
                             splitcols = colList.Split(',');
@@ -1805,9 +1805,9 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""228701A8-2089-4481-B
 ISpace[""UI_ApprovalHideRow""].Visible=""false"";
 }");
 }
-if(ISpace["FlowType"].Value=="")
+if(ISpace["WF_FlowType"].Value=="")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value=="""")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value=="""")");
 ISpace["WMF_IsInFlow"].Value=0;
 base.WriteDebugInfo(@"ISpace[""WMF_IsInFlow""].Value=0;");
 base.WriteDebugInfo(@"EXEC [GetInstanceInFlow] '@@gv_InstanceId'");
@@ -1829,8 +1829,8 @@ ISpace["WMF_IsInFlow"].Value = null;
 if(ISpace["WMF_IsInFlow"].Value==1)
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_IsInFlow""].Value==1)");
-ISpace["WMF_FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""WMF_FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["WMF_History"].Visible="true";ISpace["WMF_MoveTo"].Visible="true";
 base.WriteDebugInfo(@"ISpace[""WMF_History""].Visible=""true"";ISpace[""WMF_MoveTo""].Visible=""true"";");
 }
@@ -2095,9 +2095,9 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"SubmitForm-OnClick");
-if(ISpace["FlowType"].Value=="APPROVE")
+if(ISpace["WF_FlowType"].Value=="APPROVE")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""APPROVE"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
@@ -2111,9 +2111,9 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-if(ISpace["FlowType"].Value=="RETURN" || ISpace["FlowType"].Value=="REJECT")
+if(ISpace["WF_FlowType"].Value=="RETURN" || ISpace["WF_FlowType"].Value=="REJECT")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""RETURN"" || ISpace[""FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN"" || ISpace[""WF_FlowType""].Value==""REJECT"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
@@ -2370,24 +2370,24 @@ base.WriteDebugInfo(@"WMF_MoveTo-OnChange");
 if(ISpace["WMF_MoveTo"].Value=="APPROVE")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""APPROVE"")");
-ISpace["FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["Comments"].Man=false;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=false;");
 }
 if(ISpace["WMF_MoveTo"].Value=="RETURN")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""RETURN"")");
-ISpace["FlowType"].Value="RETURN";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""RETURN"";");
+ISpace["WF_FlowType"].Value="RETURN";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""RETURN"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
 if(ISpace["WMF_MoveTo"].Value=="REJECT")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""REJECT"")");
-ISpace["FlowType"].Value="REJECT";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""REJECT"";");
+ISpace["WF_FlowType"].Value="REJECT";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""REJECT"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
