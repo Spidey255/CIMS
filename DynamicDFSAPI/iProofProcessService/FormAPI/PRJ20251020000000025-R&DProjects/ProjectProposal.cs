@@ -791,6 +791,123 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
                      
+                                    case "99ae5d17-b4b2-d238-11a3-a33c1b7f516b":
+                    {
+                     
+                                     gInsertQuery=@"
+		
+		DECLARE  @TBL_99ae5d17b4b2d23811a3a33c1b7f516b AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [99ae5d17-b4b2-d238-11a3-a33c1b7f516b](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.C_Stepfrom,TDT.C_StepTo,TDT.C_Comments,TDT.C_User,TDT.C_DateofComments FROM @TBL_99ae5d17b4b2d23811a3a33c1b7f516b TDT
+							LEFT JOIN [99ae5d17-b4b2-d238-11a3-a33c1b7f516b] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_99ae5d17b4b2d23811a3a33c1b7f516b TDT
+							JOIN [99ae5d17-b4b2-d238-11a3-a33c1b7f516b] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
+
+                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments";
+
+                                     tempInsertQuery=@"INSERT INTO @TBL_99ae5d17b4b2d23811a3a33c1b7f516b(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)VALUES({0});";
+                                     
+
+                            splitcols = colList.Split(',');
+
+                            if(splitcols.Length<=0)
+                                return null;
+
+                            var parentObject = JObject.Parse(formJsonData)["Child"];
+
+                            for (int i = 0; i < ((JArray)parentObject).Count; i++)
+                            {
+
+                            JObject childObject = (JObject)parentObject[i];
+
+                            var gridRow = childObject["Child"];
+
+
+                        
+                            foreach (var gcol in splitcols)
+                            {
+                                if (gcol == "InstanceId")
+                                {
+                                    colValues += "'" + instanceId + "',";
+
+                                    continue;
+
+                                }
+
+                                else if (gcol == "ProcessActivityMapId")
+                                {
+                                    colValues += "'" + processActivityMapId + "',";
+                                    continue;
+                            }
+
+                            else if (gcol == "GridId")
+                            {
+                                    colValues += "'" + gridId + "',";
+                                continue;
+                            }                               
+                            else if(gcol=="Sequence")
+                            {
+                                colValues += childObject["SEQ"]+",";
+                                continue;
+                            }
+                             else if(gcol=="RowId")
+                            {
+                                colValues +="'" + childObject["RwId"]+"',";
+                                continue;
+                            }
+
+                            bool isFound = false;
+
+                            foreach (var gitem in gridRow)
+                            {                               
+
+                                if (gitem["ElementName"].ToString() == gcol)
+                                {
+                                    isFound = true;
+
+                                    if (gitem["Value"] == null)
+                                    {
+                                        colValues += "null,";
+                                        break;
+                                    }
+
+                                    switch(Convert.ToInt32(gitem["EDT"]))
+                                    {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
+                                        case 8:
+                                        case 9:
+                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                                break;
+
+                                        default:
+                                                    if(gitem["Value"].ToString()=="")
+
+                                                        colValues +=  "NULL,";
+                                                    else
+                                                    colValues += gitem["Value"].ToString() + ",";
+                                            break;
+                                    }                                    
+                                }                                 
+                            }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+                                        
+                                    }
+                            
+                        }
+                                 colValues=colValues.Remove(colValues.Length - 1);
+
+                                 bulkInsertQuery=bulkInsertQuery+ string.Format(tempInsertQuery, colValues);
+
+                                 colValues=string.Empty;
+                        }
+                        }
+                        break;
+                     
                                     case "D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5":
                     {
                      
@@ -923,123 +1040,6 @@ namespace CPS.Proof.DFSExtension
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d4_UpdatedBy,MG_d4_DocumentId,MG_d4_UpdatedOn,MG_d4_ProjectproposalID,MG_d4_Document,MG_d4_DocumentName,MG_d4_Categorymapid";
 
                                      tempInsertQuery=@"INSERT INTO @TBL_A3BB21404053455893633BA1B526BD0A(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d4_UpdatedBy,MG_d4_DocumentId,MG_d4_UpdatedOn,MG_d4_ProjectproposalID,MG_d4_Document,MG_d4_DocumentName,MG_d4_Categorymapid)VALUES({0});";
-                                     
-
-                            splitcols = colList.Split(',');
-
-                            if(splitcols.Length<=0)
-                                return null;
-
-                            var parentObject = JObject.Parse(formJsonData)["Child"];
-
-                            for (int i = 0; i < ((JArray)parentObject).Count; i++)
-                            {
-
-                            JObject childObject = (JObject)parentObject[i];
-
-                            var gridRow = childObject["Child"];
-
-
-                        
-                            foreach (var gcol in splitcols)
-                            {
-                                if (gcol == "InstanceId")
-                                {
-                                    colValues += "'" + instanceId + "',";
-
-                                    continue;
-
-                                }
-
-                                else if (gcol == "ProcessActivityMapId")
-                                {
-                                    colValues += "'" + processActivityMapId + "',";
-                                    continue;
-                            }
-
-                            else if (gcol == "GridId")
-                            {
-                                    colValues += "'" + gridId + "',";
-                                continue;
-                            }                               
-                            else if(gcol=="Sequence")
-                            {
-                                colValues += childObject["SEQ"]+",";
-                                continue;
-                            }
-                             else if(gcol=="RowId")
-                            {
-                                colValues +="'" + childObject["RwId"]+"',";
-                                continue;
-                            }
-
-                            bool isFound = false;
-
-                            foreach (var gitem in gridRow)
-                            {                               
-
-                                if (gitem["ElementName"].ToString() == gcol)
-                                {
-                                    isFound = true;
-
-                                    if (gitem["Value"] == null)
-                                    {
-                                        colValues += "null,";
-                                        break;
-                                    }
-
-                                    switch(Convert.ToInt32(gitem["EDT"]))
-                                    {
-                                        case 0:
-                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
-												break; 
-                                        case 8:
-                                        case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
-                                                break;
-
-                                        default:
-                                                    if(gitem["Value"].ToString()=="")
-
-                                                        colValues +=  "NULL,";
-                                                    else
-                                                    colValues += gitem["Value"].ToString() + ",";
-                                            break;
-                                    }                                    
-                                }                                 
-                            }
-
-                                    if (!isFound)
-                                    {
-                                        colValues += "null,";
-                                        
-                                    }
-                            
-                        }
-                                 colValues=colValues.Remove(colValues.Length - 1);
-
-                                 bulkInsertQuery=bulkInsertQuery+ string.Format(tempInsertQuery, colValues);
-
-                                 colValues=string.Empty;
-                        }
-                        }
-                        break;
-                     
-                                    case "99ae5d17-b4b2-d238-11a3-a33c1b7f516b":
-                    {
-                     
-                                     gInsertQuery=@"
-		
-		DECLARE  @TBL_99ae5d17b4b2d23811a3a33c1b7f516b AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [99ae5d17-b4b2-d238-11a3-a33c1b7f516b](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.C_Stepfrom,TDT.C_StepTo,TDT.C_Comments,TDT.C_User,TDT.C_DateofComments FROM @TBL_99ae5d17b4b2d23811a3a33c1b7f516b TDT
-							LEFT JOIN [99ae5d17-b4b2-d238-11a3-a33c1b7f516b] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_99ae5d17b4b2d23811a3a33c1b7f516b TDT
-							JOIN [99ae5d17-b4b2-d238-11a3-a33c1b7f516b] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
-
-                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments";
-
-                                     tempInsertQuery=@"INSERT INTO @TBL_99ae5d17b4b2d23811a3a33c1b7f516b(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)VALUES({0});";
                                      
 
                             splitcols = colList.Split(',');
@@ -3670,53 +3670,41 @@ using System;
 
 								   new Triplet<string, short, short?>("CopiDetails_RowId",13,
 														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Departmentid",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
+														   -1),
 								   new Triplet<string, short, short?>("MG_AdditionalTypeValue",18,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_AdditionalID",0,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Departmentid",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
+								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
+								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",11,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
+								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",11,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
-														   -1),
-								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
-														   -1),
-								   new Triplet<string, short, short?>("MG_EmployeeName",16,
+								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
 														   -1),
 								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
 														   -1),
-								}
-			},
-							{"46a77cd6-70de-6252-e1d6-2429032e267f", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("MG_d4_Categorymapid",0,
+								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d4_DocumentId",2,
+								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d4_DocumentName",1,
+								   new Triplet<string, short, short?>("MG_EmployeeName",16,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
 														   -1),
 								}
 			},
@@ -3724,43 +3712,43 @@ using System;
 				
 				new List<Triplet<string, short, short?>> {
 
+								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",11,
+														   -1),
+								   new Triplet<string, short, short?>("MG_EmployeeName",16,
+														   -1),
+								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
+														   -1),
 								   new Triplet<string, short, short?>("CopiDetails_RowId",13,
 														   -1),
 								   new Triplet<string, short, short?>("MG_AdditionalTypeValue",18,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalID",0,
+								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
+								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
+								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_Departmentid",4,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",11,
+								   new Triplet<string, short, short?>("MG_d2_AdditionalID",0,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
 														   -1),
-								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
+								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
 														   -1),
-								   new Triplet<string, short, short?>("MG_EmployeeName",16,
+								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
 														   -1),
-								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
+								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
 														   -1),
 								}
 			},
@@ -3770,41 +3758,41 @@ using System;
 
 								   new Triplet<string, short, short?>("CopiDetails_RowId",13,
 														   -1),
-								   new Triplet<string, short, short?>("MG_AdditionalTypeValue",18,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalID",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
-														   -1),
 								   new Triplet<string, short, short?>("MG_d2_Departmentid",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",11,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
-														   -1),
-								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
+								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
 														   -1),
 								   new Triplet<string, short, short?>("MG_EmployeeName",16,
 														   -1),
-								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
+								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_AdditionalTypeValue",18,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalID",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
 														   -1),
 								}
 			},
@@ -3812,13 +3800,25 @@ using System;
 				
 				new List<Triplet<string, short, short?>> {
 
+								   new Triplet<string, short, short?>("MG_d3_ProposalDocumentID",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_MandatoryCheck",3,
+														   -1),
 								   new Triplet<string, short, short?>("MG_d3_DocumentName",1,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d3_DocumentProposalID",2,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d3_MandatoryCheck",3,
+								}
+			},
+							{"46a77cd6-70de-6252-e1d6-2429032e267f", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d4_Categorymapid",0,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d3_ProposalDocumentID",0,
+								   new Triplet<string, short, short?>("MG_d4_DocumentName",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d4_DocumentId",2,
 														   -1),
 								}
 			},
@@ -3944,27 +3944,15 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
-							{"46a77cd6-70de-6252-e1d6-2429032e267f", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("MG_d4_Categorymapid",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d4_DocumentId",2,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d4_DocumentName",1,
-														   -1),
-								}
-			},
 							{"803558a9-7e53-bd55-f2b5-53d65d8b0305", 
 				
 				new List<Triplet<string, short, short?>> {
 
 								   new Triplet<string, short, short?>("C_Comments",5,
 														   -1),
-								   new Triplet<string, short, short?>("C_DateofComments",4,
-														   -1),
 								   new Triplet<string, short, short?>("C_Stepfrom",1,
+														   -1),
+								   new Triplet<string, short, short?>("C_DateofComments",4,
 														   -1),
 								   new Triplet<string, short, short?>("C_StepTo",2,
 														   -1),
@@ -3978,41 +3966,53 @@ using System;
 
 								   new Triplet<string, short, short?>("CopiDetails_RowId",13,
 														   -1),
-								   new Triplet<string, short, short?>("MG_AdditionalTypeValue",18,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalID",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
-														   -1),
 								   new Triplet<string, short, short?>("MG_d2_Departmentid",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",11,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
-														   -1),
-								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
+								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
 														   -1),
 								   new Triplet<string, short, short?>("MG_EmployeeName",16,
 														   -1),
-								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
+								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_AdditionalTypeValue",18,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalID",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
+														   -1),
+								}
+			},
+							{"46a77cd6-70de-6252-e1d6-2429032e267f", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d4_Categorymapid",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d4_DocumentName",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d4_DocumentId",2,
 														   -1),
 								}
 			},
@@ -4138,71 +4138,15 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
-							{"2FAC01E5-8540-4425-AD01-42973E87B3C5", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("CopiDetails_RowId",13,
-														   -1),
-								   new Triplet<string, short, short?>("MG_AdditionalTypeValue",18,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalID",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Departmentid",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",11,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
-														   -1),
-								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
-														   -1),
-								   new Triplet<string, short, short?>("MG_EmployeeName",16,
-														   -1),
-								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
-														   -1),
-								}
-			},
-							{"46a77cd6-70de-6252-e1d6-2429032e267f", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("MG_d4_Categorymapid",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d4_DocumentId",2,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d4_DocumentName",1,
-														   -1),
-								}
-			},
 							{"803558a9-7e53-bd55-f2b5-53d65d8b0305", 
 				
 				new List<Triplet<string, short, short?>> {
 
 								   new Triplet<string, short, short?>("C_Comments",5,
 														   -1),
-								   new Triplet<string, short, short?>("C_DateofComments",4,
-														   -1),
 								   new Triplet<string, short, short?>("C_Stepfrom",1,
+														   -1),
+								   new Triplet<string, short, short?>("C_DateofComments",4,
 														   -1),
 								   new Triplet<string, short, short?>("C_StepTo",2,
 														   -1),
@@ -4210,11 +4154,19 @@ using System;
 														   -1),
 								}
 			},
-							{"BE604E66-309D-4989-879C-431B3984B4B4", 
+							{"2FAC01E5-8540-4425-AD01-42973E87B3C5", 
 				
 				new List<Triplet<string, short, short?>> {
 
 								   new Triplet<string, short, short?>("CopiDetails_RowId",13,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Departmentid",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
 														   -1),
 								   new Triplet<string, short, short?>("MG_AdditionalTypeValue",18,
 														   -1),
@@ -4222,35 +4174,71 @@ using System;
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
 														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",11,
+														   -1),
 								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
+														   -1),
+								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_EmployeeName",16,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
+														   -1),
+								}
+			},
+							{"BE604E66-309D-4989-879C-431B3984B4B4", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",11,
+														   -1),
+								   new Triplet<string, short, short?>("MG_EmployeeName",16,
+														   -1),
+								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
+														   -1),
+								   new Triplet<string, short, short?>("CopiDetails_RowId",13,
+														   -1),
+								   new Triplet<string, short, short?>("MG_AdditionalTypeValue",18,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_Departmentid",4,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",11,
+								   new Triplet<string, short, short?>("MG_d2_AdditionalID",0,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
 														   -1),
-								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
+								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
 														   -1),
-								   new Triplet<string, short, short?>("MG_EmployeeName",16,
+								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
 														   -1),
-								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
+								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
 														   -1),
 								}
 			},
@@ -4260,41 +4248,53 @@ using System;
 
 								   new Triplet<string, short, short?>("CopiDetails_RowId",13,
 														   -1),
-								   new Triplet<string, short, short?>("MG_AdditionalTypeValue",18,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalID",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
-														   -1),
 								   new Triplet<string, short, short?>("MG_d2_Departmentid",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",11,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
-														   -1),
-								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
+								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
 														   -1),
 								   new Triplet<string, short, short?>("MG_EmployeeName",16,
 														   -1),
-								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
+								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_AdditionalTypeValue",18,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalID",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
+														   -1),
+								}
+			},
+							{"46a77cd6-70de-6252-e1d6-2429032e267f", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d4_Categorymapid",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d4_DocumentName",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d4_DocumentId",2,
 														   -1),
 								}
 			},
@@ -4420,27 +4420,15 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
-							{"46a77cd6-70de-6252-e1d6-2429032e267f", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("MG_d4_Categorymapid",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d4_DocumentId",2,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d4_DocumentName",1,
-														   -1),
-								}
-			},
 							{"803558a9-7e53-bd55-f2b5-53d65d8b0305", 
 				
 				new List<Triplet<string, short, short?>> {
 
 								   new Triplet<string, short, short?>("C_Comments",5,
 														   -1),
-								   new Triplet<string, short, short?>("C_DateofComments",4,
-														   -1),
 								   new Triplet<string, short, short?>("C_Stepfrom",1,
+														   -1),
+								   new Triplet<string, short, short?>("C_DateofComments",4,
 														   -1),
 								   new Triplet<string, short, short?>("C_StepTo",2,
 														   -1),
@@ -4454,41 +4442,53 @@ using System;
 
 								   new Triplet<string, short, short?>("CopiDetails_RowId",13,
 														   -1),
-								   new Triplet<string, short, short?>("MG_AdditionalTypeValue",18,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalID",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
-														   -1),
 								   new Triplet<string, short, short?>("MG_d2_Departmentid",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",11,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
-														   -1),
-								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
+								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
 														   -1),
 								   new Triplet<string, short, short?>("MG_EmployeeName",16,
 														   -1),
-								   new Triplet<string, short, short?>("MG_MemberTypeValue",15,
+								   new Triplet<string, short, short?>("MG_EmployeeDepartment",17,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalType",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_AdditionalTypeValue",18,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalEmailId",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalID",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalContactNo",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalInstituteName",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ProjectDetailsID",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalFacultyName",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_DesignationID",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_MemberType",14,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_AdditionalName",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ExternalDesignation",8,
+														   -1),
+								}
+			},
+							{"46a77cd6-70de-6252-e1d6-2429032e267f", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d4_Categorymapid",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d4_DocumentName",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d4_DocumentId",2,
 														   -1),
 								}
 			},

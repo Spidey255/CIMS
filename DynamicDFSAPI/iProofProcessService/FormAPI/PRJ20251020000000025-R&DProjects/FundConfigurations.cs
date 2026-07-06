@@ -1645,15 +1645,15 @@ using System;
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("MG_BudgetHeadId",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_Description",6,
-														   -1),
-								   new Triplet<string, short, short?>("MG_MaxAmount",5,
+								   new Triplet<string, short, short?>("MG_ProjectOrOtherId",0,
 														   -1),
 								   new Triplet<string, short, short?>("MG_MaxPercentageUsage",4,
 														   -1),
-								   new Triplet<string, short, short?>("MG_ProjectOrOtherId",0,
+								   new Triplet<string, short, short?>("MG_MaxAmount",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_BudgetHeadId",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_Description",6,
 														   -1),
 								}
 			},

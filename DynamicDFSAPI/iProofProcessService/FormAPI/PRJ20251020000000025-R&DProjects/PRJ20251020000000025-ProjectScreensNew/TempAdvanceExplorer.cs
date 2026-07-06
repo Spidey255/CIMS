@@ -1055,13 +1055,13 @@ using System;
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("RD_ReceiptAmount",3,
-														   -1),
-								   new Triplet<string, short, short?>("RD_ReceiptDate",2,
-														   -1),
 								   new Triplet<string, short, short?>("RD_RefId",0,
 														   -1),
+								   new Triplet<string, short, short?>("RD_ReceiptAmount",3,
+														   -1),
 								   new Triplet<string, short, short?>("RD_RefNo",1,
+														   -1),
+								   new Triplet<string, short, short?>("RD_ReceiptDate",2,
 														   -1),
 								   new Triplet<string, short, short?>("RD_Status",4,
 														   -1),

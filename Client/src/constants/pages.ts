@@ -1,6 +1,6 @@
 // Innovace Intech Solution Pvt Ltd
 // ⚠️ AUTO-GENERATED FILE – DO NOT EDIT
-// Generated on 2026-07-06T06:54:23.421Z
+// Generated on 2026-07-06T14:17:15.348Z
 
 export const pages = [
   {
@@ -14,6 +14,12 @@ export const pages = [
     "ProcessActivityMapId": "01ABEB23-E635-437D-A24F-27342FB92C55",
     "ProcessName": "ProjectReimbursement",
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectReimbursement_RDoffice"
+  },
+  {
+    "PackageProcessMapId": "bfcdccb2-7467-4308-a53d-7cab7b883529",
+    "ProcessActivityMapId": "66993345-063b-9dc0-8b58-e3d322bd7e24",
+    "ProcessName": "TravelRequestNew",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequestNew_View"
   },
   {
     "PackageProcessMapId": "654C8734-EE30-4F33-B278-659E77BFDD71",

@@ -1063,11 +1063,11 @@ using System;
 														   -1),
 								   new Triplet<string, short, short?>("RD_ReceiptDate",2,
 														   -1),
-								   new Triplet<string, short, short?>("RD_RefId",0,
+								   new Triplet<string, short, short?>("RD_Status",4,
 														   -1),
 								   new Triplet<string, short, short?>("RD_RefNo",1,
 														   -1),
-								   new Triplet<string, short, short?>("RD_Status",4,
+								   new Triplet<string, short, short?>("RD_RefId",0,
 														   -1),
 								}
 			},

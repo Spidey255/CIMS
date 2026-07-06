@@ -180,6 +180,10 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
+			     new Triplet<string, string, string>("cb7a5d06-45d0-748a-c18f-bb48a35f9e4e","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
 			     new Triplet<string, string, string>("94A94EAC-1991-4463-9AD7-CC6F7445F90A","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -408,6 +412,10 @@ namespace CPS.Proof.DFSExtension
 				{
 											case "F1E21952-3E9A-4F37-9C42-2F86E1775788":
 							virtualInstance=new ISpaceF1E219523E9A4F379C422F86E1775788();
+							break;
+					
+											case "34A8F37F-24BF-4316-826B-DF78EE6E8579":
+							virtualInstance=new ISpace34A8F37F24BF4316826BDF78EE6E8579();
 							break;
 					
 					
@@ -1534,107 +1542,6 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
-                                              case "A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC":
-                    {
-                     
-                            gInsertQuery=@"
-		
-		DECLARE  @TBL_A2ABDF833F2048449175EC5BCC4B7DCC AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PAB_BudgetName] VARCHAR(MAX)	, [PAB_SanctionedAmount] DECIMAL(18,2)	, [PAB_YetToRecieve] DECIMAL(18,2)	, [PAB_RecievedAmount] DECIMAL(18,2)	, [PAB_Commitment] DECIMAL(18,2)	, [PAB_Spent] DECIMAL(18,2)	, [PAB_Balance] DECIMAL(18,2)){0}INSERT INTO [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PAB_BudgetName,TDT.PAB_SanctionedAmount,TDT.PAB_YetToRecieve,TDT.PAB_RecievedAmount,TDT.PAB_Commitment,TDT.PAB_Spent,TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
-							LEFT JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PAB_BudgetName=TDT.PAB_BudgetName,PAB_SanctionedAmount=TDT.PAB_SanctionedAmount,PAB_YetToRecieve=TDT.PAB_YetToRecieve,PAB_RecievedAmount=TDT.PAB_RecievedAmount,PAB_Commitment=TDT.PAB_Commitment,PAB_Spent=TDT.PAB_Spent,PAB_Balance=TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
-							JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
-
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance";
-
-                            tempInsertQuery=@"INSERT INTO @TBL_A2ABDF833F2048449175EC5BCC4B7DCC(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)VALUES({0});";
-
-                            splitcols = colList.Split(',');
-
-                            if (splitcols.Length <= 0)
-                                return null;
-
-                            foreach (var gridChild in gridData[gridName].Child)
-                            {                            
-                                                                                         
-
-
-                                foreach (var gcol in splitcols)
-                                {
-                                    if (gcol == "InstanceId")
-                                    {
-                                        colValues += "'" + instanceId + "',";
-
-                                        continue;
-
-                                    }
-
-                                    else if (gcol == "ProcessActivityMapId")
-                                    {
-                                        colValues += "'" + processActivityMapId + "',";
-                                        continue;
-                                    }
-
-                                    else if (gcol == "GridId")
-                                    {
-                                        colValues += "'" + gridId + "',";
-                                        continue;
-                                    }
-                                    else if (gcol == "Sequence")
-                                    {
-                                        colValues += gridChild.SEQ + ",";
-                                        continue;
-                                    }
-                                    else if (gcol == "RowId")
-                                    {
-                                        colValues += "'" + gridChild.RwId + "',";
-                                        continue;
-                                    }
-
-                                    bool isFound = false;
-
-                                    foreach (var gridrow in gridChild.Child)
-                                    {
-
-                                        if (gridrow.ElementName == gcol)
-                                        {
-                                            isFound = true;
-
-                                            if (gridrow.Value == null)
-                                            {
-                                                colValues += "null,";
-                                                break;
-                                            }
-
-                                            switch (Convert.ToInt32(gridrow.EDT))
-                                            {
-                                                case 8:
-                                                case 9:
-                                                    colValues += "'" + gridrow.Value.ToString() + "',";
-                                                    break;
-
-                                                default:
-                                                    colValues += gridrow.Value.ToString() + ",";
-                                                    break;
-                                            }
-                                        }
-                                    }
-
-                                    if (!isFound)
-                                    {
-                                        colValues += "null,";
-
-                                    }
-
-                                }
-                                colValues = colValues.Remove(colValues.Length - 1);
-
-                                bulkInsertQuery = bulkInsertQuery + string.Format(tempInsertQuery, colValues);
-                            }
-                        }
-                        break;
-
                                               case "93B856A5-0D32-4A27-8B58-5BFE5FF0162C":
                     {
                      
@@ -1938,6 +1845,107 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
+                                              case "A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC":
+                    {
+                     
+                            gInsertQuery=@"
+		
+		DECLARE  @TBL_A2ABDF833F2048449175EC5BCC4B7DCC AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PAB_BudgetName] VARCHAR(MAX)	, [PAB_SanctionedAmount] DECIMAL(18,2)	, [PAB_YetToRecieve] DECIMAL(18,2)	, [PAB_RecievedAmount] DECIMAL(18,2)	, [PAB_Commitment] DECIMAL(18,2)	, [PAB_Spent] DECIMAL(18,2)	, [PAB_Balance] DECIMAL(18,2)){0}INSERT INTO [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PAB_BudgetName,TDT.PAB_SanctionedAmount,TDT.PAB_YetToRecieve,TDT.PAB_RecievedAmount,TDT.PAB_Commitment,TDT.PAB_Spent,TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
+							LEFT JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PAB_BudgetName=TDT.PAB_BudgetName,PAB_SanctionedAmount=TDT.PAB_SanctionedAmount,PAB_YetToRecieve=TDT.PAB_YetToRecieve,PAB_RecievedAmount=TDT.PAB_RecievedAmount,PAB_Commitment=TDT.PAB_Commitment,PAB_Spent=TDT.PAB_Spent,PAB_Balance=TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
+							JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
+
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance";
+
+                            tempInsertQuery=@"INSERT INTO @TBL_A2ABDF833F2048449175EC5BCC4B7DCC(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)VALUES({0});";
+
+                            splitcols = colList.Split(',');
+
+                            if (splitcols.Length <= 0)
+                                return null;
+
+                            foreach (var gridChild in gridData[gridName].Child)
+                            {                            
+                                                                                         
+
+
+                                foreach (var gcol in splitcols)
+                                {
+                                    if (gcol == "InstanceId")
+                                    {
+                                        colValues += "'" + instanceId + "',";
+
+                                        continue;
+
+                                    }
+
+                                    else if (gcol == "ProcessActivityMapId")
+                                    {
+                                        colValues += "'" + processActivityMapId + "',";
+                                        continue;
+                                    }
+
+                                    else if (gcol == "GridId")
+                                    {
+                                        colValues += "'" + gridId + "',";
+                                        continue;
+                                    }
+                                    else if (gcol == "Sequence")
+                                    {
+                                        colValues += gridChild.SEQ + ",";
+                                        continue;
+                                    }
+                                    else if (gcol == "RowId")
+                                    {
+                                        colValues += "'" + gridChild.RwId + "',";
+                                        continue;
+                                    }
+
+                                    bool isFound = false;
+
+                                    foreach (var gridrow in gridChild.Child)
+                                    {
+
+                                        if (gridrow.ElementName == gcol)
+                                        {
+                                            isFound = true;
+
+                                            if (gridrow.Value == null)
+                                            {
+                                                colValues += "null,";
+                                                break;
+                                            }
+
+                                            switch (Convert.ToInt32(gridrow.EDT))
+                                            {
+                                                case 8:
+                                                case 9:
+                                                    colValues += "'" + gridrow.Value.ToString() + "',";
+                                                    break;
+
+                                                default:
+                                                    colValues += gridrow.Value.ToString() + ",";
+                                                    break;
+                                            }
+                                        }
+                                    }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+
+                                    }
+
+                                }
+                                colValues = colValues.Remove(colValues.Length - 1);
+
+                                bulkInsertQuery = bulkInsertQuery + string.Format(tempInsertQuery, colValues);
+                            }
+                        }
+                        break;
+
                                               case "281302FF-406D-4F35-B5E6-D8D09F04484C":
                     {
                      
@@ -2143,6 +2151,8 @@ base.WriteDebugInfo(@"if(ISpace[""FWFM_FundType""].Value=="""")");
 ISpace["FWFM_BudgetHead"].Visible="false";ISpace["FWFM_ProjectNo"].Visible="false";ISpace["FWFM_Amount"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""FWFM_BudgetHead""].Visible=""false"";ISpace[""FWFM_ProjectNo""].Visible=""false"";ISpace[""FWFM_Amount""].Visible=""false"";");
 }
+ISpace["PFMF_PackageProcessMapId"].Value=ISpace["gv_processmapid"].Value;
+base.WriteDebugInfo(@"ISpace[""PFMF_PackageProcessMapId""].Value=ISpace[""gv_processmapid""].Value;");
 
 var querySource698205C52C1A42F39D81823D3215AB11 =GetQueryExpressionDataSource("698205C5-2C1A-42F3-9D81-823D3215AB11");
 
@@ -2151,8 +2161,6 @@ DataTable result698205C52C1A42F39D81823D3215AB11=iSpace.SetGridDataSource(queryS
 iSpace.InsertGridBindDetails("WMG_CommentsHistory","11",querySource698205C52C1A42F39D81823D3215AB11,"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("WMG_CommentsHistory"));
 
 base.WriteDebugInfo(@"var querySource698205C52C1A42F39D81823D3215AB11 =GetQueryExpressionDataSource(""698205C5-2C1A-42F3-9D81-823D3215AB11"");DataTable result698205C52C1A42F39D81823D3215AB11=iSpace.SetGridDataSource(querySource698205C52C1A42F39D81823D3215AB11, _objectFactory.GetGridRPP(""WMG_CommentsHistory""),@""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""WMG_CommentsHistory"",""11"",querySource698205C52C1A42F39D81823D3215AB11,""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""WMG_CommentsHistory""));");
-ISpace["PFMF_PackageProcessMapId"].Value=ISpace["gv_processmapid"].Value;
-base.WriteDebugInfo(@"ISpace[""PFMF_PackageProcessMapId""].Value=ISpace[""gv_processmapid""].Value;");
 base.WriteDebugInfo(@"");
 
 
@@ -2267,6 +2275,70 @@ List<Triplet<string, short, short?>> resultA86C8422ADD944BAB612C8D9EDB841C5=acda
 iSpace.SetGridData(result22A090AD8607491EAEE23888BF931161,resultA86C8422ADD944BAB612C8D9EDB841C5,"AdvanceDetails",ref ISpace);
 iSpace.UpdateGridBindDetails("AdvanceDetails",resultA86C8422ADD944BAB612C8D9EDB841C5);
 }
+base.WriteDebugInfo(@"EXEC [GetEmployeeUserContextDetails] '@@gv_UserId'");
+
+var querySource3c3e1ff76c79c28ed6149890b238c224 =GetQueryExpressionDataSource("3c3e1ff7-6c79-c28e-d614-9890b238c224");
+Dictionary<short,object> result3c3e1ff76c79c28ed6149890b238c224=iSpace.ExecuteQuery(querySource3c3e1ff76c79c28ed6149890b238c224,@"EXEC [GetEmployeeUserContextDetails] '" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource3c3e1ff76c79c28ed6149890b238c224 =GetQueryExpressionDataSource(""3c3e1ff7-6c79-c28e-d614-9890b238c224"");Dictionary<short,object> result3c3e1ff76c79c28ed6149890b238c224=iSpace.ExecuteQuery(querySource3c3e1ff76c79c28ed6149890b238c224,@""EXEC [GetEmployeeUserContextDetails] '"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result3c3e1ff76c79c28ed6149890b238c224!=null) && (result3c3e1ff76c79c28ed6149890b238c224.Count!=0))
+{
+if(result3c3e1ff76c79c28ed6149890b238c224.ContainsKey(0))
+ISpace["UC_EmployeeBaicInfoId"].Value = result3c3e1ff76c79c28ed6149890b238c224[0];
+if(result3c3e1ff76c79c28ed6149890b238c224.ContainsKey(7))
+ISpace["UC_Designation"].Value = result3c3e1ff76c79c28ed6149890b238c224[7];
+if(result3c3e1ff76c79c28ed6149890b238c224.ContainsKey(10))
+ISpace["UC_DOR"].Value = result3c3e1ff76c79c28ed6149890b238c224[10];
+if(result3c3e1ff76c79c28ed6149890b238c224.ContainsKey(15))
+ISpace["UC_PhoneNumber"].Value = result3c3e1ff76c79c28ed6149890b238c224[15];
+if(result3c3e1ff76c79c28ed6149890b238c224.ContainsKey(6))
+ISpace["UC_Department"].Value = result3c3e1ff76c79c28ed6149890b238c224[6];
+if(result3c3e1ff76c79c28ed6149890b238c224.ContainsKey(2))
+ISpace["UC_Name"].Value = result3c3e1ff76c79c28ed6149890b238c224[2];
+if(result3c3e1ff76c79c28ed6149890b238c224.ContainsKey(3))
+ISpace["UC_EmailId"].Value = result3c3e1ff76c79c28ed6149890b238c224[3];
+if(result3c3e1ff76c79c28ed6149890b238c224.ContainsKey(12))
+ISpace["UC_Paylevel"].Value = result3c3e1ff76c79c28ed6149890b238c224[12];
+if(result3c3e1ff76c79c28ed6149890b238c224.ContainsKey(11))
+ISpace["UC_Grade"].Value = result3c3e1ff76c79c28ed6149890b238c224[11];
+if(result3c3e1ff76c79c28ed6149890b238c224.ContainsKey(4))
+ISpace["UC_DOJ"].Value = result3c3e1ff76c79c28ed6149890b238c224[4];
+if(result3c3e1ff76c79c28ed6149890b238c224.ContainsKey(9))
+ISpace["UC_DOB"].Value = result3c3e1ff76c79c28ed6149890b238c224[9];
+if(result3c3e1ff76c79c28ed6149890b238c224.ContainsKey(1))
+ISpace["UC_EmployeeId"].Value = result3c3e1ff76c79c28ed6149890b238c224[1];
+}
+else{
+ISpace["UC_EmployeeBaicInfoId"].Value = null;ISpace["UC_Designation"].Value = null;ISpace["UC_DOR"].Value = null;ISpace["UC_PhoneNumber"].Value = null;ISpace["UC_Department"].Value = null;ISpace["UC_Name"].Value = null;ISpace["UC_EmailId"].Value = null;ISpace["UC_Paylevel"].Value = null;ISpace["UC_Grade"].Value = null;ISpace["UC_DOJ"].Value = null;ISpace["UC_DOB"].Value = null;ISpace["UC_EmployeeId"].Value = null;
+}
+ISpace["MF_d1_TravelStatus"].Value="S";
+base.WriteDebugInfo(@"ISpace[""MF_d1_TravelStatus""].Value=""S"";");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["MF_d1_TravelType"].Man=true;ISpace["MFG_d3_FromDate"].Man=true;ISpace["MF_d1_TravelPlace"].Man=true;ISpace["MFG_d2_JourneyClass"].Man=true;ISpace["MFG_d2_Arrival"].Man=true;ISpace["MF_d1_JourneyPurpose"].Man=true;ISpace["MFG_d3_Amount"].Man=true;ISpace["MFG_d2_Amount"].Man=true;ISpace["MF_d1_AdvanceAmount"].Man=true;ISpace["MFG_d2_DepartureDate"].Man=true;ISpace["MFG_d3_OtherExpenditureType"].Man=true;ISpace["MFG_d2_ModeofJourney"].Man=true;ISpace["MFG_d2_Departure"].Man=true;ISpace["MF_d1_IsAdvanceRequired"].Man=true;ISpace["MFG_d2_ArrivalDate"].Man=true;ISpace["MFG_d3_ExpenditureType"].Man=true;ISpace["MFG_d3_ToDate"].Man=true;
+base.WriteDebugInfo(@"ISpace[""MF_d1_TravelType""].Man=true;ISpace[""MFG_d3_FromDate""].Man=true;ISpace[""MF_d1_TravelPlace""].Man=true;ISpace[""MFG_d2_JourneyClass""].Man=true;ISpace[""MFG_d2_Arrival""].Man=true;ISpace[""MF_d1_JourneyPurpose""].Man=true;ISpace[""MFG_d3_Amount""].Man=true;ISpace[""MFG_d2_Amount""].Man=true;ISpace[""MF_d1_AdvanceAmount""].Man=true;ISpace[""MFG_d2_DepartureDate""].Man=true;ISpace[""MFG_d3_OtherExpenditureType""].Man=true;ISpace[""MFG_d2_ModeofJourney""].Man=true;ISpace[""MFG_d2_Departure""].Man=true;ISpace[""MF_d1_IsAdvanceRequired""].Man=true;ISpace[""MFG_d2_ArrivalDate""].Man=true;ISpace[""MFG_d3_ExpenditureType""].Man=true;ISpace[""MFG_d3_ToDate""].Man=true;");
+}
+base.WriteDebugInfo(@"EXEC [GenerateRef] 3,'@@gv_UserId'");
+
+var querySourcecb7a5d0645d0748ac18fbb48a35f9e4e =GetQueryExpressionDataSource("cb7a5d06-45d0-748a-c18f-bb48a35f9e4e");
+Dictionary<short,object> resultcb7a5d0645d0748ac18fbb48a35f9e4e=iSpace.ExecuteQuery(querySourcecb7a5d0645d0748ac18fbb48a35f9e4e,@"EXEC[GenerateRef] 3,'" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcecb7a5d0645d0748ac18fbb48a35f9e4e =GetQueryExpressionDataSource(""cb7a5d06-45d0-748a-c18f-bb48a35f9e4e"");Dictionary<short,object> resultcb7a5d0645d0748ac18fbb48a35f9e4e=iSpace.ExecuteQuery(querySourcecb7a5d0645d0748ac18fbb48a35f9e4e,@""EXEC[GenerateRef] 3,'"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultcb7a5d0645d0748ac18fbb48a35f9e4e!=null) && (resultcb7a5d0645d0748ac18fbb48a35f9e4e.Count!=0))
+{
+if(resultcb7a5d0645d0748ac18fbb48a35f9e4e.ContainsKey(0))
+ISpace["Subject"].Value = resultcb7a5d0645d0748ac18fbb48a35f9e4e[0];
+if(resultcb7a5d0645d0748ac18fbb48a35f9e4e.ContainsKey(0))
+ISpace["MF_d1_ReferenceNo"].Value = resultcb7a5d0645d0748ac18fbb48a35f9e4e[0];
+}
+else{
+ISpace["Subject"].Value = null;ISpace["MF_d1_ReferenceNo"].Value = null;
+}
 }
 catch(Exception ex)
 {
@@ -2285,6 +2357,14 @@ var querySourceB39C99E949594231A55079A7280A86B2 =GetQueryExpressionDataSource("B
 Dictionary<short,object> resultB39C99E949594231A55079A7280A86B2=iSpace.ExecuteQuery(querySourceB39C99E949594231A55079A7280A86B2,@"EXEC [Upsert60e821d0-153e-94bb-1fef-2594b78625bd] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_processmapid"].Value + @"','" + ISpace["FWFM_FundDetailsId"].Value + @"','" + ISpace["FWFM_FundType"].Value + @"','" + ISpace["FWFM_ProjectNo"].Value + @"','" + ISpace["FWFM_BudgetHead"].Value + @"','" + ISpace["FWFM_Amount"].Value + @"'",false);
 
 base.WriteDebugInfo(@"var querySourceB39C99E949594231A55079A7280A86B2 =GetQueryExpressionDataSource(""B39C99E9-4959-4231-A550-79A7280A86B2"");Dictionary<short,object> resultB39C99E949594231A55079A7280A86B2=iSpace.ExecuteQuery(querySourceB39C99E949594231A55079A7280A86B2,@""EXEC [Upsert60e821d0-153e-94bb-1fef-2594b78625bd] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""','"" + ISpace[""FWFM_FundDetailsId""].Value + @""','"" + ISpace[""FWFM_FundType""].Value + @""','"" + ISpace[""FWFM_ProjectNo""].Value + @""','"" + ISpace[""FWFM_BudgetHead""].Value + @""','"" + ISpace[""FWFM_Amount""].Value + @""'"",false);");
+
+var querySourceB40457367C78448F8AD374D62A738672 =GetQueryExpressionDataSource("B4045736-7C78-448F-8AD3-74D62A738672");
+
+DataTable resultB40457367C78448F8AD374D62A738672=iSpace.SetGridDataSource(querySourceB40457367C78448F8AD374D62A738672, _objectFactory.GetGridRPP("MG_FundAllocation"),@"Exec [Get60e821d0-153e-94bb-1fef-2594b78625bd] '" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("MG_FundAllocation","11",querySourceB40457367C78448F8AD374D62A738672,"Exec [Get60e821d0-153e-94bb-1fef-2594b78625bd] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("MG_FundAllocation"));
+
+base.WriteDebugInfo(@"var querySourceB40457367C78448F8AD374D62A738672 =GetQueryExpressionDataSource(""B4045736-7C78-448F-8AD3-74D62A738672"");DataTable resultB40457367C78448F8AD374D62A738672=iSpace.SetGridDataSource(querySourceB40457367C78448F8AD374D62A738672, _objectFactory.GetGridRPP(""MG_FundAllocation""),@""Exec [Get60e821d0-153e-94bb-1fef-2594b78625bd] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_FundAllocation"",""11"",querySourceB40457367C78448F8AD374D62A738672,""Exec [Get60e821d0-153e-94bb-1fef-2594b78625bd] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""MG_FundAllocation""));");
 base.WriteDebugInfo(@"");
 
 if((resultB39C99E949594231A55079A7280A86B2!=null) && (resultB39C99E949594231A55079A7280A86B2.Count!=0))
@@ -2297,6 +2377,12 @@ ISpace["PFM_ErrMsg"].Value = resultB39C99E949594231A55079A7280A86B2[1];
 else{
 ISpace["PFM_ErrId"].Value = null;ISpace["PFM_ErrMsg"].Value = null;
 }
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result25891B7408F44F71BE6136CEA4C143EC=acdataIspaceF1E219523E9A4F379C422F86E1775788.GetQueryExpressionBindings("25891B74-08F4-4F71-BE61-36CEA4C143EC");
+iSpace.SetGridData(resultB40457367C78448F8AD374D62A738672,result25891B7408F44F71BE6136CEA4C143EC,"MG_FundAllocation",ref ISpace);
+iSpace.UpdateGridBindDetails("MG_FundAllocation",result25891B7408F44F71BE6136CEA4C143EC);
 ISpace["Message"].Value=String.Format(@"{0}",ISpace["PFM_ErrMsg"].Value);
 base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""PFM_ErrMsg""].Value);");
 if(ISpace["PFM_ErrId"].Value==1)
@@ -2323,20 +2409,22 @@ base.WriteDebugInfo(@"ISpace[""FWFM_BudgetHead""].Value="""";");
 ISpace["FWFM_Amount"].Value=0;
 base.WriteDebugInfo(@"ISpace[""FWFM_Amount""].Value=0;");
 }
+base.WriteDebugInfo(@"EXEC [GetFundSum] '@@gv_InstanceId'");
 
-var querySourceB40457367C78448F8AD374D62A738672 =GetQueryExpressionDataSource("B4045736-7C78-448F-8AD3-74D62A738672");
+var querySourcebbe4aa41de2bed94cedd90d80df7192f =GetQueryExpressionDataSource("bbe4aa41-de2b-ed94-cedd-90d80df7192f");
+Dictionary<short,object> resultbbe4aa41de2bed94cedd90d80df7192f=iSpace.ExecuteQuery(querySourcebbe4aa41de2bed94cedd90d80df7192f,@"EXEC [GetFundSum] '" + ISpace["gv_instanceid"].Value + @"'",false);
 
-DataTable resultB40457367C78448F8AD374D62A738672=iSpace.SetGridDataSource(querySourceB40457367C78448F8AD374D62A738672, _objectFactory.GetGridRPP("MG_FundAllocation"),@"Exec [Get60e821d0-153e-94bb-1fef-2594b78625bd] '" + ISpace["gv_instanceid"].Value + @"'");
-
-iSpace.InsertGridBindDetails("MG_FundAllocation","11",querySourceB40457367C78448F8AD374D62A738672,"Exec [Get60e821d0-153e-94bb-1fef-2594b78625bd] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("MG_FundAllocation"));
-
-base.WriteDebugInfo(@"var querySourceB40457367C78448F8AD374D62A738672 =GetQueryExpressionDataSource(""B4045736-7C78-448F-8AD3-74D62A738672"");DataTable resultB40457367C78448F8AD374D62A738672=iSpace.SetGridDataSource(querySourceB40457367C78448F8AD374D62A738672, _objectFactory.GetGridRPP(""MG_FundAllocation""),@""Exec [Get60e821d0-153e-94bb-1fef-2594b78625bd] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""MG_FundAllocation"",""11"",querySourceB40457367C78448F8AD374D62A738672,""Exec [Get60e821d0-153e-94bb-1fef-2594b78625bd] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""MG_FundAllocation""));");
+base.WriteDebugInfo(@"var querySourcebbe4aa41de2bed94cedd90d80df7192f =GetQueryExpressionDataSource(""bbe4aa41-de2b-ed94-cedd-90d80df7192f"");Dictionary<short,object> resultbbe4aa41de2bed94cedd90d80df7192f=iSpace.ExecuteQuery(querySourcebbe4aa41de2bed94cedd90d80df7192f,@""EXEC [GetFundSum] '"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
 base.WriteDebugInfo(@"");
 
-
-List<Triplet<string, short, short?>> result25891B7408F44F71BE6136CEA4C143EC=acdataIspaceF1E219523E9A4F379C422F86E1775788.GetQueryExpressionBindings("25891B74-08F4-4F71-BE61-36CEA4C143EC");
-iSpace.SetGridData(resultB40457367C78448F8AD374D62A738672,result25891B7408F44F71BE6136CEA4C143EC,"MG_FundAllocation",ref ISpace);
-iSpace.UpdateGridBindDetails("MG_FundAllocation",result25891B7408F44F71BE6136CEA4C143EC);
+if((resultbbe4aa41de2bed94cedd90d80df7192f!=null) && (resultbbe4aa41de2bed94cedd90d80df7192f.Count!=0))
+{
+if(resultbbe4aa41de2bed94cedd90d80df7192f.ContainsKey(0))
+ISpace["MF_FundTotal"].Value = resultbbe4aa41de2bed94cedd90d80df7192f[0];
+}
+else{
+ISpace["MF_FundTotal"].Value = null;
+}
 }
 catch(Exception ex)
 {
@@ -2365,6 +2453,34 @@ ISpace["PFM_ErrId"].Value = result94A94EAC199144639AD7CC6F7445F90A[0];
 else{
 ISpace["PFM_ErrId"].Value = null;
 }
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_wmf_history (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"WMF_History-OnClick");
+
+var querySource698205C52C1A42F39D81823D3215AB11 =GetQueryExpressionDataSource("698205C5-2C1A-42F3-9D81-823D3215AB11");
+
+DataTable result698205C52C1A42F39D81823D3215AB11=iSpace.SetGridDataSource(querySource698205C52C1A42F39D81823D3215AB11, _objectFactory.GetGridRPP("WMG_CommentsHistory"),@"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("WMG_CommentsHistory","11",querySource698205C52C1A42F39D81823D3215AB11,"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("WMG_CommentsHistory"));
+
+base.WriteDebugInfo(@"var querySource698205C52C1A42F39D81823D3215AB11 =GetQueryExpressionDataSource(""698205C5-2C1A-42F3-9D81-823D3215AB11"");DataTable result698205C52C1A42F39D81823D3215AB11=iSpace.SetGridDataSource(querySource698205C52C1A42F39D81823D3215AB11, _objectFactory.GetGridRPP(""WMG_CommentsHistory""),@""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""WMG_CommentsHistory"",""11"",querySource698205C52C1A42F39D81823D3215AB11,""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""WMG_CommentsHistory""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result794A7328890E42A3B11A5984B2D49196=acdataIspaceF1E219523E9A4F379C422F86E1775788.GetQueryExpressionBindings("794A7328-890E-42A3-B11A-5984B2D49196");
+iSpace.SetGridData(result698205C52C1A42F39D81823D3215AB11,result794A7328890E42A3B11A5984B2D49196,"WMG_CommentsHistory",ref ISpace);
+iSpace.UpdateGridBindDetails("WMG_CommentsHistory",result794A7328890E42A3B11A5984B2D49196);
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
 }
 catch(Exception ex)
 {
@@ -2415,6 +2531,22 @@ ISpace["PFM_FundDetailsId"].Value="";
 base.WriteDebugInfo(@"ISpace[""PFM_FundDetailsId""].Value="""";");
 ISpace["UI_DeleteDialog"].HideDialog=true;;
 base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].HideDialog=true;;");
+base.WriteDebugInfo(@"EXEC [GetFundSum] '@@gv_InstanceId'");
+
+var querySourcebbe4aa41de2bed94cedd90d80df7192f =GetQueryExpressionDataSource("bbe4aa41-de2b-ed94-cedd-90d80df7192f");
+Dictionary<short,object> resultbbe4aa41de2bed94cedd90d80df7192f=iSpace.ExecuteQuery(querySourcebbe4aa41de2bed94cedd90d80df7192f,@"EXEC [GetFundSum] '" + ISpace["gv_instanceid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcebbe4aa41de2bed94cedd90d80df7192f =GetQueryExpressionDataSource(""bbe4aa41-de2b-ed94-cedd-90d80df7192f"");Dictionary<short,object> resultbbe4aa41de2bed94cedd90d80df7192f=iSpace.ExecuteQuery(querySourcebbe4aa41de2bed94cedd90d80df7192f,@""EXEC [GetFundSum] '"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultbbe4aa41de2bed94cedd90d80df7192f!=null) && (resultbbe4aa41de2bed94cedd90d80df7192f.Count!=0))
+{
+if(resultbbe4aa41de2bed94cedd90d80df7192f.ContainsKey(0))
+ISpace["MF_FundTotal"].Value = resultbbe4aa41de2bed94cedd90d80df7192f[0];
+}
+else{
+ISpace["MF_FundTotal"].Value = null;
+}
 }
 catch(Exception ex)
 {
@@ -2443,6 +2575,90 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"Save_AdvanceDetails-OnClick");
+if(ISpace["MFG_d2_ModeofJourney"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_ModeofJourney""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please select the Mode of Journey";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please select the Mode of Journey"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MFG_d2_Departure"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_Departure""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please Enter the Departure";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please Enter the Departure"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if((ISpace["MFG_d2_DepartureDate"].Value == null))
+{
+base.WriteDebugInfo(@"if((ISpace[""MFG_d2_DepartureDate""].Value == null))");
+ISpace["Message"].Value=@"Error: Please select the Departure Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please select the Departure Date"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MFG_d2_Arrival"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_Arrival""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please Enter the Arrival";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please Enter the Arrival"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if((ISpace["MFG_d2_ArrivalDate"].Value == null))
+{
+base.WriteDebugInfo(@"if((ISpace[""MFG_d2_ArrivalDate""].Value == null))");
+ISpace["Message"].Value=@"Error: Please select the Arrival Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please select the Arrival Date"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MFG_d2_ArrivalDate"].Value<=ISpace["MFG_d2_DepartureDate"].Value)
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_ArrivalDate""].Value<=ISpace[""MFG_d2_DepartureDate""].Value)");
+ISpace["Message"].Value=@"Error: Arrival Date Should be greater than Departure Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Arrival Date Should be greater than Departure Date"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MFG_d2_Amount"].Value==0)
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_Amount""].Value==0)");
+ISpace["Message"].Value=@"Error: Please Enter the Amount";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please Enter the Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
 if(ISpace["growid"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""growid""].Value=="""")");
@@ -2613,6 +2829,74 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"SubmitForm-OnClick");
+if(ISpace["MF_d1_TravelType"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_TravelType""].Value=="""")");
+}
+if(ISpace["MF_d1_TravelPlace"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_TravelPlace""].Value=="""")");
+}
+if(ISpace["MF_d1_JourneyPurpose"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_JourneyPurpose""].Value=="""")");
+}
+if(ISpace["MF_d1_IsAdvanceRequired"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value=="""")");
+}
+if(ISpace["MF_d1_IsAdvanceRequired"].Value=="Yes")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value==""Yes"")");
+if(ISpace["MF_d1_AdvanceAmount"].Value==0)
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_AdvanceAmount""].Value==0)");
+}
+}
+if(ISpace["WF_FlowType"].Value=="APPROVE")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
+if(ISpace["WMF_MoveTo"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
+ISpace["Message"].Value=@"Error:Please Select Next Action";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Please Select Next Action"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
+if(ISpace["WF_FlowType"].Value=="RETURN" || ISpace["WF_FlowType"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN"" || ISpace[""WF_FlowType""].Value==""REJECT"")");
+if(ISpace["WMF_MoveTo"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
+ISpace["Message"].Value=@"Error:Please Select Next Action";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Please Select Next Action"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["Comments"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""Comments""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please Enter Comments";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please Enter Comments"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
 base.WriteDebugInfo(@"EXEC InnovaceNoCode..[FormSave_5D394C98-9AAB-4228-B011-FC8008C3247C]   '@@gv_InstanceId','@@gv_ActivityMapId','bfcdccb2-7467-4308-a53d-7cab7b883529','#MF_d1_TravelAdvanceID','#MF_d1_EmployeeBasicInfoId','#MF_d1_ReferenceNo','#MF_d1_JourneyPurpose','#MF_d1_TravelType','#MF_d1_TravelPlace','#MF_d1_IsAdvanceRequired','#MF_d1_PaymentRemittenceTo','#MF_d1_BeneficiaryName','#MF_d1_AccountNo','#MF_d1_BankName','#MF_d1_IFSCCode',#MF_d1_BankDocument,'#MF_d1_TransactionNo','#MF_d1_TransactionDate',#MF_d1_TotalAmount,#MF_d1_AdvanceAmount,'#MF_d1_TravelStatus',#MF_d1_TSAmount,'#MF_d1_TSStatus','#MF_d1_PITransactionNo','#MF_d1_PITransactionDate','#MF_d1_TSTransactionNo','#MF_d1_TSTransactionDate',#MF_d1_CreatedBy,'#MF_d1_CreatedOn'");
 
 var querySourceE182AF12DAED4644A9FC9AA3381897FF =GetQueryExpressionDataSource("E182AF12-DAED-4644-A9FC-9AA3381897FF");
@@ -2727,6 +3011,24 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
+base.WriteDebugInfo(@"EXEC [UpsertProjectFundAllocation] '@@gv_InstanceId','@@gv_ProcessMapId','@@gv_UserId'");
+
+var querySource94A94EAC199144639AD7CC6F7445F90A =GetQueryExpressionDataSource("94A94EAC-1991-4463-9AD7-CC6F7445F90A");
+Dictionary<short,object> result94A94EAC199144639AD7CC6F7445F90A=iSpace.ExecuteQuery(querySource94A94EAC199144639AD7CC6F7445F90A,@"EXEC [UpsertProjectFundAllocation] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_processmapid"].Value + @"','" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource94A94EAC199144639AD7CC6F7445F90A =GetQueryExpressionDataSource(""94A94EAC-1991-4463-9AD7-CC6F7445F90A"");Dictionary<short,object> result94A94EAC199144639AD7CC6F7445F90A=iSpace.ExecuteQuery(querySource94A94EAC199144639AD7CC6F7445F90A,@""EXEC [UpsertProjectFundAllocation] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""','"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result94A94EAC199144639AD7CC6F7445F90A!=null) && (result94A94EAC199144639AD7CC6F7445F90A.Count!=0))
+{
+if(result94A94EAC199144639AD7CC6F7445F90A.ContainsKey(0))
+ISpace["PFM_ErrId"].Value = result94A94EAC199144639AD7CC6F7445F90A[0];
+}
+else{
+ISpace["PFM_ErrId"].Value = null;
+}
+ISpace["Message"].Value=@"Success: Submitted Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
 }
 catch(Exception ex)
 {
@@ -2783,6 +3085,54 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"Save_ExpenseDetails-OnClick");
+if(ISpace["MFG_d3_ExpenditureType"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d3_ExpenditureType""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please select the Expenditure Type";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please select the Expenditure Type"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if((ISpace["MFG_d3_FromDate"].Value == null))
+{
+base.WriteDebugInfo(@"if((ISpace[""MFG_d3_FromDate""].Value == null))");
+ISpace["Message"].Value=@"Error: Please select the From Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please select the From Date"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if((ISpace["MFG_d3_ToDate"].Value == null))
+{
+base.WriteDebugInfo(@"if((ISpace[""MFG_d3_ToDate""].Value == null))");
+ISpace["Message"].Value=@"Error: Please select the To Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please select the To Date"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MFG_d3_Amount"].Value==0)
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d3_Amount""].Value==0)");
+ISpace["Message"].Value=@"Error: Please Enter the Amount";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please Enter the Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
 if(ISpace["growid"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""growid""].Value=="""")");
@@ -2853,6 +3203,30 @@ ISpace["MF_d1_TotalAmount"].Value=ISpace["MF_TotaTravellExpense"].Value+ISpace["
 base.WriteDebugInfo(@"ISpace[""MF_d1_TotalAmount""].Value=ISpace[""MF_TotaTravellExpense""].Value+ISpace[""MF_TotaTravellExpense""].Value;");
 ISpace["MF_EligibleAdavnce"].Value=ISpace["MF_d1_TotalAmount"].Value*0.9;
 base.WriteDebugInfo(@"ISpace[""MF_EligibleAdavnce""].Value=ISpace[""MF_d1_TotalAmount""].Value*0.9;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mf_d1_isadvancerequired (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MF_d1_IsAdvanceRequired-OnChange");
+if(ISpace["MF_d1_IsAdvanceRequired"].Value=="No")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value==""No"")");
+ISpace["MF_EligibleAdavnce"].Visible="false";ISpace["MF_d1_AdvanceAmount"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_EligibleAdavnce""].Visible=""false"";ISpace[""MF_d1_AdvanceAmount""].Visible=""false"";");
+}
+if(ISpace["MF_d1_IsAdvanceRequired"].Value=="Yes")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value==""Yes"")");
+ISpace["MF_EligibleAdavnce"].Visible="true";ISpace["MF_d1_AdvanceAmount"].Visible="true";ISpace["MF_d1_AdvanceAmount"].Man=true;
+base.WriteDebugInfo(@"ISpace[""MF_EligibleAdavnce""].Visible=""true"";ISpace[""MF_d1_AdvanceAmount""].Visible=""true"";ISpace[""MF_d1_AdvanceAmount""].Man=true;");
+}
 }
 catch(Exception ex)
 {
@@ -2981,6 +3355,30 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_mfg_d3_expendituretype (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MFG_d3_ExpenditureType-OnChange");
+if(ISpace["MFG_d3_ExpenditureType"].Value!="1045")
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d3_ExpenditureType""].Value!=""1045"")");
+ISpace["MFG_d3_OtherExpenditureType"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MFG_d3_OtherExpenditureType""].Visible=""false"";");
+}
+if(ISpace["MFG_d3_ExpenditureType"].Value=="1045")
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d3_ExpenditureType""].Value==""1045"")");
+ISpace["MFG_d3_OtherExpenditureType"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""MFG_d3_OtherExpenditureType""].Visible=""true"";");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_edit_expensedetails (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -3047,6 +3445,10 @@ public override void ExecuteMethod
     {
     			SubscribeElementEvents_mfg_d2_modeofjourney(ref dfsParam);
     }
+		if(elementName.ToLower().Equals("mf_d1_isadvancerequired"))
+    {
+    			SubscribeElementEvents_mf_d1_isadvancerequired(ref dfsParam);
+    }
 		if(elementName.ToLower().Equals("wmf_moveto"))
     {
     			SubscribeElementEvents_wmf_moveto(ref dfsParam);
@@ -3054,6 +3456,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("fwfm_fundtype"))
     {
     			SubscribeElementEvents_fwfm_fundtype(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mfg_d3_expendituretype"))
+    {
+    			SubscribeElementEvents_mfg_d3_expendituretype(ref dfsParam);
     }
 }
 	if(methodName.ToLower().Equals("onclick"))
@@ -3065,6 +3471,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("pfa_widgetsubmit"))
 {
 			SubscribeElementEvents_pfa_widgetsubmit(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("wmf_history"))
+{
+			SubscribeElementEvents_wmf_history(ref dfsParam);
 }
 		if(elementName.ToLower().Equals("pfm_yes"))
 {
@@ -3105,6 +3515,247 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("edit_expensedetails"))
 {
 			SubscribeElementEvents_edit_expensedetails(ref dfsParam);
+}
+}
+}
+}
+}
+namespace CPS.Proof.DFSExtension
+{
+
+using System.Collections.Generic;
+using System;
+using CPS.Proof.DFSExtension;
+using System.Linq;using System.Data;
+using System.Runtime.CompilerServices;
+public class ISpace34A8F37F24BF4316826BDF78EE6E8579 : VirtualForm
+{
+IISpace iSpace = new ISpace();
+AcDataISpace34A8F37F24BF4316826BDF78EE6E8579 acdataIspace34A8F37F24BF4316826BDF78EE6E8579=new AcDataISpace34A8F37F24BF4316826BDF78EE6E8579();
+private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
+{
+try
+{
+base.WriteDebugInfo(@"Root-OnAfterFormLoad");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["WMF_InstanceId"].Value=ISpace["gv_instanceid"].Value;
+base.WriteDebugInfo(@"ISpace[""WMF_InstanceId""].Value=ISpace[""gv_instanceid""].Value;");
+
+}
+if(ISpace["WF_FlowType"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value=="""")");
+ISpace["WMF_IsInFlow"].Value=0;
+base.WriteDebugInfo(@"ISpace[""WMF_IsInFlow""].Value=0;");
+base.WriteDebugInfo(@"EXEC [GetInstanceInFlow] '@@gv_InstanceId'");
+
+var querySource76804AA1305E4E7F895EB90B051455D5 =GetQueryExpressionDataSource("76804AA1-305E-4E7F-895E-B90B051455D5");
+Dictionary<short,object> result76804AA1305E4E7F895EB90B051455D5=iSpace.ExecuteQuery(querySource76804AA1305E4E7F895EB90B051455D5,@"EXEC [GetInstanceInFlow] '" + ISpace["gv_instanceid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource76804AA1305E4E7F895EB90B051455D5 =GetQueryExpressionDataSource(""76804AA1-305E-4E7F-895E-B90B051455D5"");Dictionary<short,object> result76804AA1305E4E7F895EB90B051455D5=iSpace.ExecuteQuery(querySource76804AA1305E4E7F895EB90B051455D5,@""EXEC [GetInstanceInFlow] '"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result76804AA1305E4E7F895EB90B051455D5!=null) && (result76804AA1305E4E7F895EB90B051455D5.Count!=0))
+{
+if(result76804AA1305E4E7F895EB90B051455D5.ContainsKey(0))
+ISpace["WMF_IsInFlow"].Value = result76804AA1305E4E7F895EB90B051455D5[0];
+}
+else{
+ISpace["WMF_IsInFlow"].Value = null;
+}
+if(ISpace["WMF_IsInFlow"].Value==1)
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_IsInFlow""].Value==1)");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
+ISpace["WMF_History"].Visible="true";ISpace["WMF_MoveTo"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""WMF_History""].Visible=""true"";ISpace[""WMF_MoveTo""].Visible=""true"";");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["WMF_History"].Visible="false";ISpace["WMF_MoveTo"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""WMF_History""].Visible=""false"";ISpace[""WMF_MoveTo""].Visible=""false"";");
+}
+}
+ISpace["WMF_MoveTo"].Man=true;
+base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Man=true;");
+
+var querySource698205C52C1A42F39D81823D3215AB11 =GetQueryExpressionDataSource("698205C5-2C1A-42F3-9D81-823D3215AB11");
+
+DataTable result698205C52C1A42F39D81823D3215AB11=iSpace.SetGridDataSource(querySource698205C52C1A42F39D81823D3215AB11, _objectFactory.GetGridRPP("WMG_CommentsHistory"),@"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("WMG_CommentsHistory","11",querySource698205C52C1A42F39D81823D3215AB11,"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("WMG_CommentsHistory"));
+
+base.WriteDebugInfo(@"var querySource698205C52C1A42F39D81823D3215AB11 =GetQueryExpressionDataSource(""698205C5-2C1A-42F3-9D81-823D3215AB11"");DataTable result698205C52C1A42F39D81823D3215AB11=iSpace.SetGridDataSource(querySource698205C52C1A42F39D81823D3215AB11, _objectFactory.GetGridRPP(""WMG_CommentsHistory""),@""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""WMG_CommentsHistory"",""11"",querySource698205C52C1A42F39D81823D3215AB11,""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""WMG_CommentsHistory""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result794A7328890E42A3B11A5984B2D49196=acdataIspace34A8F37F24BF4316826BDF78EE6E8579.GetQueryExpressionBindings("794A7328-890E-42A3-B11A-5984B2D49196");
+iSpace.SetGridData(result698205C52C1A42F39D81823D3215AB11,result794A7328890E42A3B11A5984B2D49196,"WMG_CommentsHistory",ref ISpace);
+iSpace.UpdateGridBindDetails("WMG_CommentsHistory",result794A7328890E42A3B11A5984B2D49196);
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_wmf_history (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"WMF_History-OnClick");
+
+var querySource698205C52C1A42F39D81823D3215AB11 =GetQueryExpressionDataSource("698205C5-2C1A-42F3-9D81-823D3215AB11");
+
+DataTable result698205C52C1A42F39D81823D3215AB11=iSpace.SetGridDataSource(querySource698205C52C1A42F39D81823D3215AB11, _objectFactory.GetGridRPP("WMG_CommentsHistory"),@"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("WMG_CommentsHistory","11",querySource698205C52C1A42F39D81823D3215AB11,"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("WMG_CommentsHistory"));
+
+base.WriteDebugInfo(@"var querySource698205C52C1A42F39D81823D3215AB11 =GetQueryExpressionDataSource(""698205C5-2C1A-42F3-9D81-823D3215AB11"");DataTable result698205C52C1A42F39D81823D3215AB11=iSpace.SetGridDataSource(querySource698205C52C1A42F39D81823D3215AB11, _objectFactory.GetGridRPP(""WMG_CommentsHistory""),@""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""WMG_CommentsHistory"",""11"",querySource698205C52C1A42F39D81823D3215AB11,""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""WMG_CommentsHistory""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result794A7328890E42A3B11A5984B2D49196=acdataIspace34A8F37F24BF4316826BDF78EE6E8579.GetQueryExpressionBindings("794A7328-890E-42A3-B11A-5984B2D49196");
+iSpace.SetGridData(result698205C52C1A42F39D81823D3215AB11,result794A7328890E42A3B11A5984B2D49196,"WMG_CommentsHistory",ref ISpace);
+iSpace.UpdateGridBindDetails("WMG_CommentsHistory",result794A7328890E42A3B11A5984B2D49196);
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_submitform (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"SubmitForm-OnClick");
+if(ISpace["WF_FlowType"].Value=="APPROVE")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
+if(ISpace["WMF_MoveTo"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
+ISpace["Message"].Value=@"Error:Please Select Next Action";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Please Select Next Action"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
+if(ISpace["WF_FlowType"].Value=="RETURN" || ISpace["WF_FlowType"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN"" || ISpace[""WF_FlowType""].Value==""REJECT"")");
+if(ISpace["WMF_MoveTo"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
+ISpace["Message"].Value=@"Error:Please Select Next Action";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Please Select Next Action"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["Comments"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""Comments""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please Enter Comments";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please Enter Comments"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
+ISpace["Message"].Value=@"Success: Submitted Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_wmf_moveto (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"WMF_MoveTo-OnChange");
+if(ISpace["WMF_MoveTo"].Value=="APPROVE")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""APPROVE"")");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
+ISpace["Comments"].Man=false;
+base.WriteDebugInfo(@"ISpace[""Comments""].Man=false;");
+}
+if(ISpace["WMF_MoveTo"].Value=="RETURN")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""RETURN"")");
+ISpace["WF_FlowType"].Value="RETURN";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""RETURN"";");
+ISpace["Comments"].Man=true;
+base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
+}
+if(ISpace["WMF_MoveTo"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""REJECT"")");
+ISpace["WF_FlowType"].Value="REJECT";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""REJECT"";");
+ISpace["Comments"].Man=true;
+base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+public override void ExecuteMethod
+	(string methodName, string elementName,
+		ref Dictionary<string, ServiceElementData> dfsParam)
+{
+	if(methodName.ToLower().Equals("formonload"))
+{
+			SubscribeFormEvents_root(ref dfsParam);
+}
+	if(methodName.ToLower().Equals("onchange"))
+{
+		if(elementName.ToLower().Equals("wmf_moveto"))
+    {
+    			SubscribeElementEvents_wmf_moveto(ref dfsParam);
+    }
+}
+	if(methodName.ToLower().Equals("onclick"))
+{
+		if(elementName.ToLower().Equals("wmf_history"))
+{
+			SubscribeElementEvents_wmf_history(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("submitform"))
+{
+			SubscribeElementEvents_submitform(ref dfsParam);
 }
 }
 }
@@ -3153,99 +3804,31 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
-							{"25891B74-08F4-4F71-BE61-36CEA4C143EC", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
-														   -1),
-								   new Triplet<string, short, short?>("PFA_Amount",11,
-														   -1),
-								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
-														   -1),
-								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
-														   -1),
-								   new Triplet<string, short, short?>("PFA_FundDetailsId",12,
-														   -1),
-								   new Triplet<string, short, short?>("PFA_FundType",5,
-														   -1),
-								   new Triplet<string, short, short?>("PFA_FundTypeValue",6,
-														   -1),
-								   new Triplet<string, short, short?>("PFA_ProjectNo",7,
-														   -1),
-								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
-														   -1),
-								}
-			},
-							{"79298EDC-7380-4DCA-BEFA-54D2D36D148A", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("ExpenseDetails_RowId",10,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_Amount",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_ExpenditureType",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_ExpenditureTypeID",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_FromDate",2,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_IsTravelRequest",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_OtherExpenditureType",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_ToDate",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_TravelAdvanceID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_UpdatedBy",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_UpdatedOn",6,
-														   -1),
-								}
-			},
-							{"794A7328-890E-42A3-B11A-5984B2D49196", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("WMC_Comments",5,
-														   -1),
-								   new Triplet<string, short, short?>("WMC_DateofComments",4,
-														   -1),
-								   new Triplet<string, short, short?>("WMC_StepFrom",1,
-														   -1),
-								   new Triplet<string, short, short?>("WMC_StepTo",2,
-														   -1),
-								   new Triplet<string, short, short?>("WMC_User",3,
-														   -1),
-								}
-			},
 							{"9E3B6B37-E973-48C3-8A15-8354D2CC4DEF", 
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("ExpenseDetails_RowId",10,
+								   new Triplet<string, short, short?>("MG_d3_UpdatedOn",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_OtherExpenditureType",8,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d3_Amount",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_TravelAdvanceID",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_FromDate",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_UpdatedBy",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_IsTravelRequest",9,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d3_ExpenditureType",7,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d3_ExpenditureTypeID",0,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d3_FromDate",2,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_IsTravelRequest",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_OtherExpenditureType",8,
-														   -1),
 								   new Triplet<string, short, short?>("MG_d3_ToDate",3,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d3_TravelAdvanceID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_UpdatedBy",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_UpdatedOn",6,
+								   new Triplet<string, short, short?>("ExpenseDetails_RowId",10,
 														   -1),
 								}
 			},
@@ -3253,145 +3836,37 @@ using System;
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("AdvanceDetails_RowId",16,
-														   -1),
 								   new Triplet<string, short, short?>("MG_d2_Amount",12,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Arrival",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ArrivalDate",6,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_ArrivalTime",7,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Departure",2,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DepartureDate",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DepartureTime",4,
+								   new Triplet<string, short, short?>("MG_d2_Arrival",5,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_IsTravelRequest",13,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_JourneyClass",9,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ModeofJourney",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_PNRNo",11,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Road",10,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_TADetailsID",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_TravelAdvanceID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",14,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",15,
-														   -1),
-								}
-			},
-							{"C2197382-0B39-42FF-967D-813A615854D1", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("ExpenseDetails_RowId",10,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_Amount",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_ExpenditureType",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_ExpenditureTypeID",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_FromDate",2,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_IsTravelRequest",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_OtherExpenditureType",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_ToDate",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_TravelAdvanceID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_UpdatedBy",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_UpdatedOn",6,
-														   -1),
-								}
-			},
-							{"D3F13653-5A71-4FF7-87CF-7CCF34A9151A", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("AdvanceDetails_RowId",16,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Amount",12,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Arrival",5,
+								   new Triplet<string, short, short?>("MG_d2_DepartureTime",4,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_ArrivalDate",6,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ArrivalTime",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Departure",2,
-														   -1),
 								   new Triplet<string, short, short?>("MG_d2_DepartureDate",3,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DepartureTime",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_IsTravelRequest",13,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_JourneyClass",9,
+								   new Triplet<string, short, short?>("MG_d2_TADetailsID",0,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_ModeofJourney",8,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_PNRNo",11,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Road",10,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_TADetailsID",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_TravelAdvanceID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",14,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",15,
-														   -1),
-								}
-			},
-							{"FAA6C5FB-3ED2-4177-8B27-6EA6EA73C8C5", 
-				
-				new List<Triplet<string, short, short?>> {
-
 								   new Triplet<string, short, short?>("AdvanceDetails_RowId",16,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Amount",12,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Arrival",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ArrivalDate",6,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ArrivalTime",7,
-														   -1),
 								   new Triplet<string, short, short?>("MG_d2_Departure",2,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DepartureDate",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DepartureTime",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_IsTravelRequest",13,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_JourneyClass",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ModeofJourney",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_PNRNo",11,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Road",10,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_TADetailsID",0,
+								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",14,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_TravelAdvanceID",1,
 														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",14,
+								   new Triplet<string, short, short?>("MG_d2_Road",10,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",15,
 														   -1),
@@ -3401,19 +3876,195 @@ using System;
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("PAB_Balance",6,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_BudgetName",0,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_Commitment",4,
+								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
 														   -1),
 								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
 														   -1),
-								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
-														   -1),
 								   new Triplet<string, short, short?>("PAB_Spent",5,
 														   -1),
-								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+								   new Triplet<string, short, short?>("PAB_Commitment",4,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_BudgetName",0,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Balance",6,
+														   -1),
+								}
+			},
+							{"79298EDC-7380-4DCA-BEFA-54D2D36D148A", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d3_IsTravelRequest",9,
+														   -1),
+								   new Triplet<string, short, short?>("ExpenseDetails_RowId",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_Amount",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_OtherExpenditureType",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_TravelAdvanceID",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_UpdatedOn",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_UpdatedBy",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_ExpenditureType",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_ToDate",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_ExpenditureTypeID",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_FromDate",2,
+														   -1),
+								}
+			},
+							{"FAA6C5FB-3ED2-4177-8B27-6EA6EA73C8C5", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d2_IsTravelRequest",13,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Amount",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ModeofJourney",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_JourneyClass",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_TADetailsID",0,
+														   -1),
+								   new Triplet<string, short, short?>("AdvanceDetails_RowId",16,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Departure",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_PNRNo",11,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ArrivalTime",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Arrival",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",14,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_TravelAdvanceID",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_DepartureDate",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Road",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ArrivalDate",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",15,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_DepartureTime",4,
+														   -1),
+								}
+			},
+							{"D3F13653-5A71-4FF7-87CF-7CCF34A9151A", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d2_Arrival",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Amount",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_DepartureDate",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ModeofJourney",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ArrivalDate",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_PNRNo",11,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",15,
+														   -1),
+								   new Triplet<string, short, short?>("AdvanceDetails_RowId",16,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",14,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_TADetailsID",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Departure",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ArrivalTime",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Road",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_TravelAdvanceID",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_IsTravelRequest",13,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_DepartureTime",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_JourneyClass",9,
+														   -1),
+								}
+			},
+							{"C2197382-0B39-42FF-967D-813A615854D1", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d3_IsTravelRequest",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_FromDate",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_Amount",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_ToDate",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_ExpenditureType",7,
+														   -1),
+								   new Triplet<string, short, short?>("ExpenseDetails_RowId",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_TravelAdvanceID",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_UpdatedBy",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_UpdatedOn",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_ExpenditureTypeID",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_OtherExpenditureType",8,
+														   -1),
+								}
+			},
+							{"25891B74-08F4-4F71-BE61-36CEA4C143EC", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("PFA_Amount",11,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundDetailsId",12,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundTypeValue",6,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_ProjectNo",7,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundType",5,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
+														   -1),
+								}
+			},
+							{"794A7328-890E-42A3-B11A-5984B2D49196", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("WMC_DateofComments",4,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_Comments",5,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_StepTo",2,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_User",3,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_StepFrom",1,
 														   -1),
 								}
 			},
@@ -3539,27 +4190,47 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
+							{"FCFC0853-8E66-474B-A676-F339F45380EF", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Spent",5,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Commitment",4,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_BudgetName",0,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Balance",6,
+														   -1),
+								}
+			},
 							{"25891B74-08F4-4F71-BE61-36CEA4C143EC", 
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
-														   -1),
 								   new Triplet<string, short, short?>("PFA_Amount",11,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
+								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_FundDetailsId",12,
-														   -1),
-								   new Triplet<string, short, short?>("PFA_FundType",5,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_FundTypeValue",6,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_ProjectNo",7,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
+								   new Triplet<string, short, short?>("PFA_FundType",5,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
 														   -1),
 								}
 			},
@@ -3567,35 +4238,15 @@ using System;
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("WMC_Comments",5,
-														   -1),
 								   new Triplet<string, short, short?>("WMC_DateofComments",4,
 														   -1),
-								   new Triplet<string, short, short?>("WMC_StepFrom",1,
+								   new Triplet<string, short, short?>("WMC_Comments",5,
 														   -1),
 								   new Triplet<string, short, short?>("WMC_StepTo",2,
 														   -1),
 								   new Triplet<string, short, short?>("WMC_User",3,
 														   -1),
-								}
-			},
-							{"FCFC0853-8E66-474B-A676-F339F45380EF", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("PAB_Balance",6,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_BudgetName",0,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_Commitment",4,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_Spent",5,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+								   new Triplet<string, short, short?>("WMC_StepFrom",1,
 														   -1),
 								}
 			},
@@ -3721,27 +4372,47 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
+							{"FCFC0853-8E66-474B-A676-F339F45380EF", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Spent",5,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Commitment",4,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_BudgetName",0,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Balance",6,
+														   -1),
+								}
+			},
 							{"25891B74-08F4-4F71-BE61-36CEA4C143EC", 
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
-														   -1),
 								   new Triplet<string, short, short?>("PFA_Amount",11,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
+								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_FundDetailsId",12,
-														   -1),
-								   new Triplet<string, short, short?>("PFA_FundType",5,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_FundTypeValue",6,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_ProjectNo",7,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
+								   new Triplet<string, short, short?>("PFA_FundType",5,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
 														   -1),
 								}
 			},
@@ -3749,35 +4420,15 @@ using System;
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("WMC_Comments",5,
-														   -1),
 								   new Triplet<string, short, short?>("WMC_DateofComments",4,
 														   -1),
-								   new Triplet<string, short, short?>("WMC_StepFrom",1,
+								   new Triplet<string, short, short?>("WMC_Comments",5,
 														   -1),
 								   new Triplet<string, short, short?>("WMC_StepTo",2,
 														   -1),
 								   new Triplet<string, short, short?>("WMC_User",3,
 														   -1),
-								}
-			},
-							{"FCFC0853-8E66-474B-A676-F339F45380EF", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("PAB_Balance",6,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_BudgetName",0,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_Commitment",4,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_Spent",5,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+								   new Triplet<string, short, short?>("WMC_StepFrom",1,
 														   -1),
 								}
 			},
@@ -3903,27 +4554,47 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
+							{"FCFC0853-8E66-474B-A676-F339F45380EF", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Spent",5,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Commitment",4,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_BudgetName",0,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Balance",6,
+														   -1),
+								}
+			},
 							{"25891B74-08F4-4F71-BE61-36CEA4C143EC", 
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
-														   -1),
 								   new Triplet<string, short, short?>("PFA_Amount",11,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
+								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_FundDetailsId",12,
-														   -1),
-								   new Triplet<string, short, short?>("PFA_FundType",5,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_FundTypeValue",6,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_ProjectNo",7,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
+								   new Triplet<string, short, short?>("PFA_FundType",5,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
 														   -1),
 								}
 			},
@@ -3931,35 +4602,15 @@ using System;
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("WMC_Comments",5,
-														   -1),
 								   new Triplet<string, short, short?>("WMC_DateofComments",4,
 														   -1),
-								   new Triplet<string, short, short?>("WMC_StepFrom",1,
+								   new Triplet<string, short, short?>("WMC_Comments",5,
 														   -1),
 								   new Triplet<string, short, short?>("WMC_StepTo",2,
 														   -1),
 								   new Triplet<string, short, short?>("WMC_User",3,
 														   -1),
-								}
-			},
-							{"FCFC0853-8E66-474B-A676-F339F45380EF", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("PAB_Balance",6,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_BudgetName",0,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_Commitment",4,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_Spent",5,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+								   new Triplet<string, short, short?>("WMC_StepFrom",1,
 														   -1),
 								}
 			},
@@ -4085,27 +4736,47 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
+							{"FCFC0853-8E66-474B-A676-F339F45380EF", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Spent",5,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Commitment",4,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_BudgetName",0,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Balance",6,
+														   -1),
+								}
+			},
 							{"25891B74-08F4-4F71-BE61-36CEA4C143EC", 
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
-														   -1),
 								   new Triplet<string, short, short?>("PFA_Amount",11,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
+								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_FundDetailsId",12,
-														   -1),
-								   new Triplet<string, short, short?>("PFA_FundType",5,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_FundTypeValue",6,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_ProjectNo",7,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
+								   new Triplet<string, short, short?>("PFA_FundType",5,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
 														   -1),
 								}
 			},
@@ -4113,35 +4784,15 @@ using System;
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("WMC_Comments",5,
-														   -1),
 								   new Triplet<string, short, short?>("WMC_DateofComments",4,
 														   -1),
-								   new Triplet<string, short, short?>("WMC_StepFrom",1,
+								   new Triplet<string, short, short?>("WMC_Comments",5,
 														   -1),
 								   new Triplet<string, short, short?>("WMC_StepTo",2,
 														   -1),
 								   new Triplet<string, short, short?>("WMC_User",3,
 														   -1),
-								}
-			},
-							{"FCFC0853-8E66-474B-A676-F339F45380EF", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("PAB_Balance",6,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_BudgetName",0,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_Commitment",4,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_Spent",5,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+								   new Triplet<string, short, short?>("WMC_StepFrom",1,
 														   -1),
 								}
 			},
@@ -4267,27 +4918,47 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
+							{"FCFC0853-8E66-474B-A676-F339F45380EF", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Spent",5,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Commitment",4,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_BudgetName",0,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Balance",6,
+														   -1),
+								}
+			},
 							{"25891B74-08F4-4F71-BE61-36CEA4C143EC", 
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
-														   -1),
 								   new Triplet<string, short, short?>("PFA_Amount",11,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
+								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_FundDetailsId",12,
-														   -1),
-								   new Triplet<string, short, short?>("PFA_FundType",5,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_FundTypeValue",6,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_ProjectNo",7,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
+								   new Triplet<string, short, short?>("PFA_FundType",5,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
 														   -1),
 								}
 			},
@@ -4295,35 +4966,15 @@ using System;
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("WMC_Comments",5,
-														   -1),
 								   new Triplet<string, short, short?>("WMC_DateofComments",4,
 														   -1),
-								   new Triplet<string, short, short?>("WMC_StepFrom",1,
+								   new Triplet<string, short, short?>("WMC_Comments",5,
 														   -1),
 								   new Triplet<string, short, short?>("WMC_StepTo",2,
 														   -1),
 								   new Triplet<string, short, short?>("WMC_User",3,
 														   -1),
-								}
-			},
-							{"FCFC0853-8E66-474B-A676-F339F45380EF", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("PAB_Balance",6,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_BudgetName",0,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_Commitment",4,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_Spent",5,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+								   new Triplet<string, short, short?>("WMC_StepFrom",1,
 														   -1),
 								}
 			},
@@ -4449,27 +5100,47 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
+							{"FCFC0853-8E66-474B-A676-F339F45380EF", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Spent",5,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Commitment",4,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_BudgetName",0,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Balance",6,
+														   -1),
+								}
+			},
 							{"25891B74-08F4-4F71-BE61-36CEA4C143EC", 
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
-														   -1),
 								   new Triplet<string, short, short?>("PFA_Amount",11,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
+								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_FundDetailsId",12,
-														   -1),
-								   new Triplet<string, short, short?>("PFA_FundType",5,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_FundTypeValue",6,
 														   -1),
 								   new Triplet<string, short, short?>("PFA_ProjectNo",7,
 														   -1),
-								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
+								   new Triplet<string, short, short?>("PFA_FundType",5,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
 														   -1),
 								}
 			},
@@ -4477,35 +5148,197 @@ using System;
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("WMC_Comments",5,
-														   -1),
 								   new Triplet<string, short, short?>("WMC_DateofComments",4,
 														   -1),
-								   new Triplet<string, short, short?>("WMC_StepFrom",1,
+								   new Triplet<string, short, short?>("WMC_Comments",5,
 														   -1),
 								   new Triplet<string, short, short?>("WMC_StepTo",2,
 														   -1),
 								   new Triplet<string, short, short?>("WMC_User",3,
 														   -1),
+								   new Triplet<string, short, short?>("WMC_StepFrom",1,
+														   -1),
 								}
 			},
+					};	
+
+	
+
+		private Dictionary<string,string> formVersionList =new Dictionary<string,string> 
+		{
+							{"48D9155C-42D2-4414-AF53-3D00D9908DD4", "Medium"},
+					};	
+
+		
+		private Dictionary<string,string> formVersionLayoutList =new Dictionary<string,string> 
+		{
+							{"8B5E7D64-27A5-47EC-AA51-6B0C9FE60F8B", ""},
+							{"C09BB3BF-5B1D-4159-A21D-D9F47B2384A3", ""},
+							{"48D9155C-42D2-4414-AF53-3D00D9908DD4", ""},
+							{"EAD3F27A-81C8-4887-9A84-B78392BE5185", ""},
+							{"DAF566B2-97D0-46E2-AE1C-6519FF641BC5", ""},
+							{"CBA147CF-E1CD-4D0A-9CDB-076831CC605E", ""},
+							{"A97604B2-DA94-49B4-993D-8CCCAF6FEA82", ""},
+							{"DAF433BE-67AC-476C-B3F4-C758B6AB75D5", ""},
+					};	
+
+		
+
+	
+	
+		
+		
+		public override  List<Triplet<string, short, short?>> GetQueryExpressionBindings(string expressionId)
+		{
+			if(string.IsNullOrWhiteSpace(expressionId))
+            {
+			  return null;				
+            }
+
+
+			if(queryExpressionBindings == null || queryExpressionBindings.Count <= 0)
+				return null;
+
+			return queryExpressionBindings[expressionId];
+		}
+
+		public override string GetValidFormVersionId(string formVersionId,ViewportTypes viewPort)
+		{	
+					
+			 if(formVersionList == null || formVersionList.Count <= 0)
+				return formVersionId;
+
+			if (formVersionList.Count == 1)
+                return formVersionList.FirstOrDefault().Key;  
+
+			
+
+			if ( !string.IsNullOrEmpty(formVersionId) &&  formVersionList.ContainsKey(formVersionId))
+            {
+                if (formVersionList.Any(x => x.Key == formVersionId && x.Value == viewPort.ToString()))
+                    return formVersionId;
+            }
+
+			var fallback= new List<string>{"Mobile","Tab","Medium","Large"};
+
+           switch (viewPort)
+            {
+                case ViewportTypes.Tab:
+                    fallback = new List<string> { "Tab", "Mobile", "Medium", "Large" };
+                    break;
+
+                case ViewportTypes.Medium:
+                    fallback = new List<string> { "Medium", "Tab", "Large", "Mobile" };
+                    break;
+
+                case ViewportTypes.Large:
+                    fallback = new List<string> { "Large", "Medium", "Tab", "Mobile" };
+                    break;
+            }
+
+           for (int i = 0; i < fallback.Count; i++)
+           {
+               if (formVersionList.Any(x => x.Value == fallback[i]))
+                   return formVersionList.Where(x => x.Value == fallback[i]).Select(y => y.Key).FirstOrDefault();
+           }
+
+		   return formVersionId;
+		}
+
+	
+
+		
+		
+		
+		
+		
+
+
+	}
+
+}
+		
+  
+
+
+
+
+
+
+
+namespace CPS.Proof.DFSExtension
+{
+	
+using System;
+    using System.Collections.Generic;    
+    using System.Text;	
+    using System.Linq;	
+
+
+	public partial class AcDataISpace66993345063b9dc08b58e3d322bd7e24  : ExtensionActivityBase
+	{		
+		
+		
+		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
+											new Dictionary<string,  List<Triplet<string, short, short?>>>
+		{
 							{"FCFC0853-8E66-474B-A676-F339F45380EF", 
 				
 				new List<Triplet<string, short, short?>> {
 
-								   new Triplet<string, short, short?>("PAB_Balance",6,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_BudgetName",0,
-														   -1),
-								   new Triplet<string, short, short?>("PAB_Commitment",4,
+								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
 														   -1),
 								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
 														   -1),
-								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
-														   -1),
 								   new Triplet<string, short, short?>("PAB_Spent",5,
 														   -1),
-								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+								   new Triplet<string, short, short?>("PAB_Commitment",4,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_BudgetName",0,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Balance",6,
+														   -1),
+								}
+			},
+							{"25891B74-08F4-4F71-BE61-36CEA4C143EC", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("PFA_Amount",11,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundDetailsId",12,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundTypeValue",6,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_ProjectNo",7,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundType",5,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
+														   -1),
+								}
+			},
+							{"794A7328-890E-42A3-B11A-5984B2D49196", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("WMC_DateofComments",4,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_Comments",5,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_StepTo",2,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_User",3,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_StepFrom",1,
 														   -1),
 								}
 			},
