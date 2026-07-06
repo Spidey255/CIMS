@@ -2129,9 +2129,9 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 
 return;");
 }
-if(c7728b05-456d-4ffb-83b7-59148f15d0f4==b4f94e3f-5166-403e-b184-08e1683594ab)
+if(ISpace["MF_d1_ProjectType"].Value=="450")
 {
-base.WriteDebugInfo(@"if(c7728b05-456d-4ffb-83b7-59148f15d0f4==b4f94e3f-5166-403e-b184-08e1683594ab)");
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_ProjectType""].Value==""450"")");
 if(ISpace["MF_d1_Currency"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_Currency""].Value=="""")");
