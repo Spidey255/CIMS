@@ -3598,6 +3598,12 @@ namespace CPS.Proof.DFSExtension
 namespace CPS.Proof.DFSExtension
 {
 }
+namespace CPS.Proof.DFSExtension
+{
+}
+namespace CPS.Proof.DFSExtension
+{
+}
 
   
 
@@ -4622,6 +4628,368 @@ using System;
 		private Dictionary<string,string> formVersionList =new Dictionary<string,string> 
 		{
 							{"5EC1F0DF-8850-4210-ADF0-87EF9BDCB734", "Medium"},
+					};	
+
+		
+		private Dictionary<string,string> formVersionLayoutList =new Dictionary<string,string> 
+		{
+							{"6B8F7AC6-2945-472D-918B-7EE8EFEC9CFF", ""},
+							{"E7CF988F-10DB-4E76-88DA-5380DC2D0B3C", ""},
+							{"5EC1F0DF-8850-4210-ADF0-87EF9BDCB734", ""},
+							{"67086EFC-9346-4452-9DEE-650784BB4279", ""},
+							{"D79C1C00-199A-4018-99D5-F84A6EF2AD0D", ""},
+							{"069F7E3F-8CBA-4933-93FC-F120509129D5", ""},
+							{"95E81058-EB69-47A0-9308-7A1575999EF2", ""},
+							{"5F920B82-7B74-4EE9-A3AF-B493DC082876", ""},
+					};	
+
+		
+
+	
+	
+		
+		
+		public override  List<Triplet<string, short, short?>> GetQueryExpressionBindings(string expressionId)
+		{
+			if(string.IsNullOrWhiteSpace(expressionId))
+            {
+			  return null;				
+            }
+
+
+			if(queryExpressionBindings == null || queryExpressionBindings.Count <= 0)
+				return null;
+
+			return queryExpressionBindings[expressionId];
+		}
+
+		public override string GetValidFormVersionId(string formVersionId,ViewportTypes viewPort)
+		{	
+					
+			 if(formVersionList == null || formVersionList.Count <= 0)
+				return formVersionId;
+
+			if (formVersionList.Count == 1)
+                return formVersionList.FirstOrDefault().Key;  
+
+			
+
+			if ( !string.IsNullOrEmpty(formVersionId) &&  formVersionList.ContainsKey(formVersionId))
+            {
+                if (formVersionList.Any(x => x.Key == formVersionId && x.Value == viewPort.ToString()))
+                    return formVersionId;
+            }
+
+			var fallback= new List<string>{"Mobile","Tab","Medium","Large"};
+
+           switch (viewPort)
+            {
+                case ViewportTypes.Tab:
+                    fallback = new List<string> { "Tab", "Mobile", "Medium", "Large" };
+                    break;
+
+                case ViewportTypes.Medium:
+                    fallback = new List<string> { "Medium", "Tab", "Large", "Mobile" };
+                    break;
+
+                case ViewportTypes.Large:
+                    fallback = new List<string> { "Large", "Medium", "Tab", "Mobile" };
+                    break;
+            }
+
+           for (int i = 0; i < fallback.Count; i++)
+           {
+               if (formVersionList.Any(x => x.Value == fallback[i]))
+                   return formVersionList.Where(x => x.Value == fallback[i]).Select(y => y.Key).FirstOrDefault();
+           }
+
+		   return formVersionId;
+		}
+
+	
+
+		
+		
+		
+		
+		
+
+
+	}
+
+}
+		
+  
+
+
+
+
+
+
+
+namespace CPS.Proof.DFSExtension
+{
+	
+using System;
+    using System.Collections.Generic;    
+    using System.Text;	
+    using System.Linq;	
+
+
+	public partial class AcDataISpacef75a82b65c5f91578e147521dd2a01f1  : ExtensionActivityBase
+	{		
+		
+		
+		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
+											new Dictionary<string,  List<Triplet<string, short, short?>>>
+		{
+							{"58EFF32D-D0CA-4464-8DB7-68C9010FA8B0", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_Amount",11,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundDetailsId",12,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundType",5,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundTypeValue",6,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_ProjectNo",7,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
+														   -1),
+								}
+			},
+							{"B30057A6-9D73-42DA-99B8-FDC3205833DE", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("WMC_Comments",5,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_DateofComments",4,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_StepFrom",1,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_StepTo",2,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_User",3,
+														   -1),
+								}
+			},
+							{"CE2E8B0B-AC9E-4593-9832-8D67B5873077", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("PAB_Balance",6,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_BudgetName",0,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Commitment",4,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Spent",5,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+														   -1),
+								}
+			},
+					};	
+
+	
+
+		private Dictionary<string,string> formVersionList =new Dictionary<string,string> 
+		{
+					};	
+
+		
+		private Dictionary<string,string> formVersionLayoutList =new Dictionary<string,string> 
+		{
+							{"6B8F7AC6-2945-472D-918B-7EE8EFEC9CFF", ""},
+							{"E7CF988F-10DB-4E76-88DA-5380DC2D0B3C", ""},
+							{"5EC1F0DF-8850-4210-ADF0-87EF9BDCB734", ""},
+							{"67086EFC-9346-4452-9DEE-650784BB4279", ""},
+							{"D79C1C00-199A-4018-99D5-F84A6EF2AD0D", ""},
+							{"069F7E3F-8CBA-4933-93FC-F120509129D5", ""},
+							{"95E81058-EB69-47A0-9308-7A1575999EF2", ""},
+							{"5F920B82-7B74-4EE9-A3AF-B493DC082876", ""},
+					};	
+
+		
+
+	
+	
+		
+		
+		public override  List<Triplet<string, short, short?>> GetQueryExpressionBindings(string expressionId)
+		{
+			if(string.IsNullOrWhiteSpace(expressionId))
+            {
+			  return null;				
+            }
+
+
+			if(queryExpressionBindings == null || queryExpressionBindings.Count <= 0)
+				return null;
+
+			return queryExpressionBindings[expressionId];
+		}
+
+		public override string GetValidFormVersionId(string formVersionId,ViewportTypes viewPort)
+		{	
+					
+			 if(formVersionList == null || formVersionList.Count <= 0)
+				return formVersionId;
+
+			if (formVersionList.Count == 1)
+                return formVersionList.FirstOrDefault().Key;  
+
+			
+
+			if ( !string.IsNullOrEmpty(formVersionId) &&  formVersionList.ContainsKey(formVersionId))
+            {
+                if (formVersionList.Any(x => x.Key == formVersionId && x.Value == viewPort.ToString()))
+                    return formVersionId;
+            }
+
+			var fallback= new List<string>{"Mobile","Tab","Medium","Large"};
+
+           switch (viewPort)
+            {
+                case ViewportTypes.Tab:
+                    fallback = new List<string> { "Tab", "Mobile", "Medium", "Large" };
+                    break;
+
+                case ViewportTypes.Medium:
+                    fallback = new List<string> { "Medium", "Tab", "Large", "Mobile" };
+                    break;
+
+                case ViewportTypes.Large:
+                    fallback = new List<string> { "Large", "Medium", "Tab", "Mobile" };
+                    break;
+            }
+
+           for (int i = 0; i < fallback.Count; i++)
+           {
+               if (formVersionList.Any(x => x.Value == fallback[i]))
+                   return formVersionList.Where(x => x.Value == fallback[i]).Select(y => y.Key).FirstOrDefault();
+           }
+
+		   return formVersionId;
+		}
+
+	
+
+		
+		
+		
+		
+		
+
+
+	}
+
+}
+		
+  
+
+
+
+
+
+
+
+namespace CPS.Proof.DFSExtension
+{
+	
+using System;
+    using System.Collections.Generic;    
+    using System.Text;	
+    using System.Linq;	
+
+
+	public partial class AcDataISpaceef50e1fb78ab345bf630ec77222127ca  : ExtensionActivityBase
+	{		
+		
+		
+		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
+											new Dictionary<string,  List<Triplet<string, short, short?>>>
+		{
+							{"58EFF32D-D0CA-4464-8DB7-68C9010FA8B0", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_Amount",11,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundDetailsId",12,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundType",5,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundTypeValue",6,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_ProjectNo",7,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
+														   -1),
+								}
+			},
+							{"B30057A6-9D73-42DA-99B8-FDC3205833DE", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("WMC_Comments",5,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_DateofComments",4,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_StepFrom",1,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_StepTo",2,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_User",3,
+														   -1),
+								}
+			},
+							{"CE2E8B0B-AC9E-4593-9832-8D67B5873077", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("PAB_Balance",6,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_BudgetName",0,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Commitment",4,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Spent",5,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+														   -1),
+								}
+			},
+					};	
+
+	
+
+		private Dictionary<string,string> formVersionList =new Dictionary<string,string> 
+		{
 					};	
 
 		

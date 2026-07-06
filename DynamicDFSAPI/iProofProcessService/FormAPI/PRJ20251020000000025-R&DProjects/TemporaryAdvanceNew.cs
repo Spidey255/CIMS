@@ -266,7 +266,7 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("WMF_MoveTo","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAX4svK5cDYCPw2sEhYNSLVUgHvT8EwteQ6Cu6POiqivUqpEh16s8+yjMECvtOIho/Hsxg7bNByVU=",
-												     @"EXEC GetNextStep '@WMF_InstanceId','@WMF_FlowType'"),
+												     @"EXEC GetNextStep '@WMF_InstanceId','@WF_FlowType'"),
 			
 						
 			     new Triplet<string, string, string>("FWFM_BudgetHead","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMA18yFT7KruzVDa0TqsqpOM+grujzoqor1KqRIderPPsozBAr7TiIaPx7MYO2zQclV",
@@ -377,6 +377,10 @@ namespace CPS.Proof.DFSExtension
 					
 											case "a07dd434-8e7d-1a40-f53e-b3d229e4f878":
 							virtualInstance=new ISpacea07dd4348e7d1a40f53eb3d229e4f878();
+							break;
+					
+											case "03b36fe2-406e-40c3-e807-49a3e2937922":
+							virtualInstance=new ISpace03b36fe2406e40c3e80749a3e2937922();
 							break;
 					
 					
@@ -1487,21 +1491,21 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
-                                              case "331FE6C6-9B84-4AE8-9DD4-AD780298EEAE":
+                                              case "F02A7F6F-1659-4623-8B7E-1C2330D6485E":
                     {
                      
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_331FE6C69B844AE89DD4AD780298EEAE AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PFA_FundType] VARCHAR(MAX)	, [PFA_FundTypeValue] VARCHAR(MAX)	, [PFA_ProjectNo] VARCHAR(MAX)	, [PFA_ProjectNoValue] VARCHAR(MAX)	, [PFA_BudgetHead] VARCHAR(MAX)	, [PFA_BudgetHeadValue] VARCHAR(MAX)	, [PFA_Amount] DECIMAL(18,2)	, [PFA_FundDetailsId] VARCHAR(MAX)){0}INSERT INTO [331FE6C6-9B84-4AE8-9DD4-AD780298EEAE](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PFA_FundType,TDT.PFA_FundTypeValue,TDT.PFA_ProjectNo,TDT.PFA_ProjectNoValue,TDT.PFA_BudgetHead,TDT.PFA_BudgetHeadValue,TDT.PFA_Amount,TDT.PFA_FundDetailsId FROM @TBL_331FE6C69B844AE89DD4AD780298EEAE TDT
-							LEFT JOIN [331FE6C6-9B84-4AE8-9DD4-AD780298EEAE] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PFA_FundType=TDT.PFA_FundType,PFA_FundTypeValue=TDT.PFA_FundTypeValue,PFA_ProjectNo=TDT.PFA_ProjectNo,PFA_ProjectNoValue=TDT.PFA_ProjectNoValue,PFA_BudgetHead=TDT.PFA_BudgetHead,PFA_BudgetHeadValue=TDT.PFA_BudgetHeadValue,PFA_Amount=TDT.PFA_Amount,PFA_FundDetailsId=TDT.PFA_FundDetailsId FROM @TBL_331FE6C69B844AE89DD4AD780298EEAE TDT
-							JOIN [331FE6C6-9B84-4AE8-9DD4-AD780298EEAE] DT  WITH(NOLOCK)
+		DECLARE  @TBL_F02A7F6F165946238B7E1C2330D6485E AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PAB_BudgetName] VARCHAR(MAX)	, [PAB_SanctionedAmount] DECIMAL(18,2)	, [PAB_YetToRecieve] DECIMAL(18,2)	, [PAB_RecievedAmount] DECIMAL(18,2)	, [PAB_Commitment] DECIMAL(18,2)	, [PAB_Spent] DECIMAL(18,2)	, [PAB_Balance] DECIMAL(18,2)){0}INSERT INTO [F02A7F6F-1659-4623-8B7E-1C2330D6485E](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PAB_BudgetName,TDT.PAB_SanctionedAmount,TDT.PAB_YetToRecieve,TDT.PAB_RecievedAmount,TDT.PAB_Commitment,TDT.PAB_Spent,TDT.PAB_Balance FROM @TBL_F02A7F6F165946238B7E1C2330D6485E TDT
+							LEFT JOIN [F02A7F6F-1659-4623-8B7E-1C2330D6485E] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PAB_BudgetName=TDT.PAB_BudgetName,PAB_SanctionedAmount=TDT.PAB_SanctionedAmount,PAB_YetToRecieve=TDT.PAB_YetToRecieve,PAB_RecievedAmount=TDT.PAB_RecievedAmount,PAB_Commitment=TDT.PAB_Commitment,PAB_Spent=TDT.PAB_Spent,PAB_Balance=TDT.PAB_Balance FROM @TBL_F02A7F6F165946238B7E1C2330D6485E TDT
+							JOIN [F02A7F6F-1659-4623-8B7E-1C2330D6485E] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId";
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance";
 
-                            tempInsertQuery=@"INSERT INTO @TBL_331FE6C69B844AE89DD4AD780298EEAE(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId)VALUES({0});";
+                            tempInsertQuery=@"INSERT INTO @TBL_F02A7F6F165946238B7E1C2330D6485E(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)VALUES({0});";
 
                             splitcols = colList.Split(',');
 
@@ -1588,21 +1592,21 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
-                                              case "F02A7F6F-1659-4623-8B7E-1C2330D6485E":
+                                              case "331FE6C6-9B84-4AE8-9DD4-AD780298EEAE":
                     {
                      
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_F02A7F6F165946238B7E1C2330D6485E AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PAB_BudgetName] VARCHAR(MAX)	, [PAB_SanctionedAmount] DECIMAL(18,2)	, [PAB_YetToRecieve] DECIMAL(18,2)	, [PAB_RecievedAmount] DECIMAL(18,2)	, [PAB_Commitment] DECIMAL(18,2)	, [PAB_Spent] DECIMAL(18,2)	, [PAB_Balance] DECIMAL(18,2)){0}INSERT INTO [F02A7F6F-1659-4623-8B7E-1C2330D6485E](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PAB_BudgetName,TDT.PAB_SanctionedAmount,TDT.PAB_YetToRecieve,TDT.PAB_RecievedAmount,TDT.PAB_Commitment,TDT.PAB_Spent,TDT.PAB_Balance FROM @TBL_F02A7F6F165946238B7E1C2330D6485E TDT
-							LEFT JOIN [F02A7F6F-1659-4623-8B7E-1C2330D6485E] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PAB_BudgetName=TDT.PAB_BudgetName,PAB_SanctionedAmount=TDT.PAB_SanctionedAmount,PAB_YetToRecieve=TDT.PAB_YetToRecieve,PAB_RecievedAmount=TDT.PAB_RecievedAmount,PAB_Commitment=TDT.PAB_Commitment,PAB_Spent=TDT.PAB_Spent,PAB_Balance=TDT.PAB_Balance FROM @TBL_F02A7F6F165946238B7E1C2330D6485E TDT
-							JOIN [F02A7F6F-1659-4623-8B7E-1C2330D6485E] DT  WITH(NOLOCK)
+		DECLARE  @TBL_331FE6C69B844AE89DD4AD780298EEAE AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PFA_FundType] VARCHAR(MAX)	, [PFA_FundTypeValue] VARCHAR(MAX)	, [PFA_ProjectNo] VARCHAR(MAX)	, [PFA_ProjectNoValue] VARCHAR(MAX)	, [PFA_BudgetHead] VARCHAR(MAX)	, [PFA_BudgetHeadValue] VARCHAR(MAX)	, [PFA_Amount] DECIMAL(18,2)	, [PFA_FundDetailsId] VARCHAR(MAX)){0}INSERT INTO [331FE6C6-9B84-4AE8-9DD4-AD780298EEAE](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PFA_FundType,TDT.PFA_FundTypeValue,TDT.PFA_ProjectNo,TDT.PFA_ProjectNoValue,TDT.PFA_BudgetHead,TDT.PFA_BudgetHeadValue,TDT.PFA_Amount,TDT.PFA_FundDetailsId FROM @TBL_331FE6C69B844AE89DD4AD780298EEAE TDT
+							LEFT JOIN [331FE6C6-9B84-4AE8-9DD4-AD780298EEAE] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PFA_FundType=TDT.PFA_FundType,PFA_FundTypeValue=TDT.PFA_FundTypeValue,PFA_ProjectNo=TDT.PFA_ProjectNo,PFA_ProjectNoValue=TDT.PFA_ProjectNoValue,PFA_BudgetHead=TDT.PFA_BudgetHead,PFA_BudgetHeadValue=TDT.PFA_BudgetHeadValue,PFA_Amount=TDT.PFA_Amount,PFA_FundDetailsId=TDT.PFA_FundDetailsId FROM @TBL_331FE6C69B844AE89DD4AD780298EEAE TDT
+							JOIN [331FE6C6-9B84-4AE8-9DD4-AD780298EEAE] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance";
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId";
 
-                            tempInsertQuery=@"INSERT INTO @TBL_F02A7F6F165946238B7E1C2330D6485E(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)VALUES({0});";
+                            tempInsertQuery=@"INSERT INTO @TBL_331FE6C69B844AE89DD4AD780298EEAE(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId)VALUES({0});";
 
                             splitcols = colList.Split(',');
 
@@ -3735,26 +3739,6 @@ else{
 ISpace["MF_ErrId"].Value = null;
 }
 }
-if(ISpace["WF_FlowType"].Value=="APPROVE")
-{
-base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
-base.WriteDebugInfo(@"EXEC [UpdateTemporaryAdvanceStatus] '@@gv_InstanceId','#WF_FlowType','@@gv_UserId'");
-
-var querySourcecee2ac3b0dc39e959e1ee293da8d4c69 =GetQueryExpressionDataSource("cee2ac3b-0dc3-9e95-9e1e-e293da8d4c69");
-Dictionary<short,object> resultcee2ac3b0dc39e959e1ee293da8d4c69=iSpace.ExecuteQuery(querySourcecee2ac3b0dc39e959e1ee293da8d4c69,@"EXEC [UpdateTemporaryAdvanceStatus] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["WF_FlowType"].Value + @"','" + ISpace["gv_userid"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySourcecee2ac3b0dc39e959e1ee293da8d4c69 =GetQueryExpressionDataSource(""cee2ac3b-0dc3-9e95-9e1e-e293da8d4c69"");Dictionary<short,object> resultcee2ac3b0dc39e959e1ee293da8d4c69=iSpace.ExecuteQuery(querySourcecee2ac3b0dc39e959e1ee293da8d4c69,@""EXEC [UpdateTemporaryAdvanceStatus] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""WF_FlowType""].Value + @""','"" + ISpace[""gv_userid""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((resultcee2ac3b0dc39e959e1ee293da8d4c69!=null) && (resultcee2ac3b0dc39e959e1ee293da8d4c69.Count!=0))
-{
-if(resultcee2ac3b0dc39e959e1ee293da8d4c69.ContainsKey(0))
-ISpace["MF_ErrId"].Value = resultcee2ac3b0dc39e959e1ee293da8d4c69[0];
-}
-else{
-ISpace["MF_ErrId"].Value = null;
-}
-}
 }
 catch(Exception ex)
 {
@@ -4881,6 +4865,298 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("mf_back"))
 {
 			SubscribeElementEvents_mf_back(ref dfsParam);
+}
+}
+}
+}
+}
+namespace CPS.Proof.DFSExtension
+{
+
+using System.Collections.Generic;
+using System;
+using CPS.Proof.DFSExtension;
+using System.Linq;using System.Data;
+using System.Runtime.CompilerServices;
+public class ISpace03b36fe2406e40c3e80749a3e2937922 : VirtualForm
+{
+IISpace iSpace = new ISpace();
+AcDataISpace03b36fe2406e40c3e80749a3e2937922 acdataIspace03b36fe2406e40c3e80749a3e2937922=new AcDataISpace03b36fe2406e40c3e80749a3e2937922();
+private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
+{
+try
+{
+base.WriteDebugInfo(@"Root-OnAfterFormLoad");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["WMF_InstanceId"].Value=ISpace["gv_instanceid"].Value;
+base.WriteDebugInfo(@"ISpace[""WMF_InstanceId""].Value=ISpace[""gv_instanceid""].Value;");
+if(ISpace["FormVersionId"].Value=="228701A8-2089-4481-B018-4BE30083D0D9")
+{
+ISpace["UI_ApprovalHideRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""228701A8-2089-4481-B018-4BE30083D0D9"")
+{
+ISpace[""UI_ApprovalHideRow""].Visible=""false"";
+}");
+}
+if(ISpace["WF_FlowType"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value=="""")");
+ISpace["WMF_IsInFlow"].Value=0;
+base.WriteDebugInfo(@"ISpace[""WMF_IsInFlow""].Value=0;");
+base.WriteDebugInfo(@"EXEC [GetInstanceInFlow] '@@gv_InstanceId'");
+
+var querySource28B5F25AB9D745C8AB83AB07D5048EAD =GetQueryExpressionDataSource("28B5F25A-B9D7-45C8-AB83-AB07D5048EAD");
+Dictionary<short,object> result28B5F25AB9D745C8AB83AB07D5048EAD=iSpace.ExecuteQuery(querySource28B5F25AB9D745C8AB83AB07D5048EAD,@"EXEC [GetInstanceInFlow] '" + ISpace["gv_instanceid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource28B5F25AB9D745C8AB83AB07D5048EAD =GetQueryExpressionDataSource(""28B5F25A-B9D7-45C8-AB83-AB07D5048EAD"");Dictionary<short,object> result28B5F25AB9D745C8AB83AB07D5048EAD=iSpace.ExecuteQuery(querySource28B5F25AB9D745C8AB83AB07D5048EAD,@""EXEC [GetInstanceInFlow] '"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result28B5F25AB9D745C8AB83AB07D5048EAD!=null) && (result28B5F25AB9D745C8AB83AB07D5048EAD.Count!=0))
+{
+if(result28B5F25AB9D745C8AB83AB07D5048EAD.ContainsKey(0))
+ISpace["WMF_IsInFlow"].Value = result28B5F25AB9D745C8AB83AB07D5048EAD[0];
+}
+else{
+ISpace["WMF_IsInFlow"].Value = null;
+}
+if(ISpace["WMF_IsInFlow"].Value==1)
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_IsInFlow""].Value==1)");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
+ISpace["WMF_History"].Visible="true";ISpace["WMF_MoveTo"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""WMF_History""].Visible=""true"";ISpace[""WMF_MoveTo""].Visible=""true"";");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["WMF_History"].Visible="false";ISpace["WMF_MoveTo"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""WMF_History""].Visible=""false"";ISpace[""WMF_MoveTo""].Visible=""false"";");
+}
+}
+ISpace["WMF_MoveTo"].Man=true;
+base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Man=true;");
+ISpace["WMF_MoveTo"].Value="";
+base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Value="""";");
+ISpace["Comments"].Value="";
+base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
+
+var querySource72ABBA101D3E4391BDBDEBBE0E2E0237 =GetQueryExpressionDataSource("72ABBA10-1D3E-4391-BDBD-EBBE0E2E0237");
+
+DataTable result72ABBA101D3E4391BDBDEBBE0E2E0237=iSpace.SetGridDataSource(querySource72ABBA101D3E4391BDBDEBBE0E2E0237, _objectFactory.GetGridRPP("WMG_CommentsHistory"),@"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("WMG_CommentsHistory","11",querySource72ABBA101D3E4391BDBDEBBE0E2E0237,"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("WMG_CommentsHistory"));
+
+base.WriteDebugInfo(@"var querySource72ABBA101D3E4391BDBDEBBE0E2E0237 =GetQueryExpressionDataSource(""72ABBA10-1D3E-4391-BDBD-EBBE0E2E0237"");DataTable result72ABBA101D3E4391BDBDEBBE0E2E0237=iSpace.SetGridDataSource(querySource72ABBA101D3E4391BDBDEBBE0E2E0237, _objectFactory.GetGridRPP(""WMG_CommentsHistory""),@""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""WMG_CommentsHistory"",""11"",querySource72ABBA101D3E4391BDBDEBBE0E2E0237,""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""WMG_CommentsHistory""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result6DA5E7991709406E85D09DC6581E03C3=acdataIspace03b36fe2406e40c3e80749a3e2937922.GetQueryExpressionBindings("6DA5E799-1709-406E-85D0-9DC6581E03C3");
+iSpace.SetGridData(result72ABBA101D3E4391BDBDEBBE0E2E0237,result6DA5E7991709406E85D09DC6581E03C3,"WMG_CommentsHistory",ref ISpace);
+iSpace.UpdateGridBindDetails("WMG_CommentsHistory",result6DA5E7991709406E85D09DC6581E03C3);
+ISpace["MF_IsAdvance"].Enbl="false";
+base.WriteDebugInfo(@"ISpace[""MF_IsAdvance""].Enbl=""false"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_wmf_history (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"WMF_History-OnClick");
+
+var querySource72ABBA101D3E4391BDBDEBBE0E2E0237 =GetQueryExpressionDataSource("72ABBA10-1D3E-4391-BDBD-EBBE0E2E0237");
+
+DataTable result72ABBA101D3E4391BDBDEBBE0E2E0237=iSpace.SetGridDataSource(querySource72ABBA101D3E4391BDBDEBBE0E2E0237, _objectFactory.GetGridRPP("WMG_CommentsHistory"),@"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("WMG_CommentsHistory","11",querySource72ABBA101D3E4391BDBDEBBE0E2E0237,"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("WMG_CommentsHistory"));
+
+base.WriteDebugInfo(@"var querySource72ABBA101D3E4391BDBDEBBE0E2E0237 =GetQueryExpressionDataSource(""72ABBA10-1D3E-4391-BDBD-EBBE0E2E0237"");DataTable result72ABBA101D3E4391BDBDEBBE0E2E0237=iSpace.SetGridDataSource(querySource72ABBA101D3E4391BDBDEBBE0E2E0237, _objectFactory.GetGridRPP(""WMG_CommentsHistory""),@""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""WMG_CommentsHistory"",""11"",querySource72ABBA101D3E4391BDBDEBBE0E2E0237,""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""WMG_CommentsHistory""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result6DA5E7991709406E85D09DC6581E03C3=acdataIspace03b36fe2406e40c3e80749a3e2937922.GetQueryExpressionBindings("6DA5E799-1709-406E-85D0-9DC6581E03C3");
+iSpace.SetGridData(result72ABBA101D3E4391BDBDEBBE0E2E0237,result6DA5E7991709406E85D09DC6581E03C3,"WMG_CommentsHistory",ref ISpace);
+iSpace.UpdateGridBindDetails("WMG_CommentsHistory",result6DA5E7991709406E85D09DC6581E03C3);
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_submitform (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"SubmitForm-OnClick");
+if(ISpace["WF_FlowType"].Value=="APPROVE")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
+if(ISpace["WMF_MoveTo"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
+ISpace["Message"].Value=@"Error:Please Select Next Action";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Please Select Next Action"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
+if(ISpace["WF_FlowType"].Value=="RETURN" || ISpace["WF_FlowType"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN"" || ISpace[""WF_FlowType""].Value==""REJECT"")");
+if(ISpace["WMF_MoveTo"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
+ISpace["Message"].Value=@"Error:Please Select Next Action";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Please Select Next Action"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["Comments"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""Comments""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please Enter Comments";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please Enter Comments"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
+ISpace["Message"].Value=@"Success: Submitted Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
+if(ISpace["WF_FlowType"].Value=="REJECT"||ISpace["WF_FlowType"].Value=="RETURN")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""REJECT""||ISpace[""WF_FlowType""].Value==""RETURN"")");
+base.WriteDebugInfo(@"EXEC [UpdateTemporaryAdvanceStatus] '@@gv_InstanceId','#WF_FlowType','@@gv_UserId'");
+
+var querySource4fc913b439b349cfb675a463ca4816fc =GetQueryExpressionDataSource("4fc913b4-39b3-49cf-b675-a463ca4816fc");
+Dictionary<short,object> result4fc913b439b349cfb675a463ca4816fc=iSpace.ExecuteQuery(querySource4fc913b439b349cfb675a463ca4816fc,@"EXEC [UpdateTemporaryAdvanceStatus] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["WF_FlowType"].Value + @"','" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource4fc913b439b349cfb675a463ca4816fc =GetQueryExpressionDataSource(""4fc913b4-39b3-49cf-b675-a463ca4816fc"");Dictionary<short,object> result4fc913b439b349cfb675a463ca4816fc=iSpace.ExecuteQuery(querySource4fc913b439b349cfb675a463ca4816fc,@""EXEC [UpdateTemporaryAdvanceStatus] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""WF_FlowType""].Value + @""','"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result4fc913b439b349cfb675a463ca4816fc!=null) && (result4fc913b439b349cfb675a463ca4816fc.Count!=0))
+{
+if(result4fc913b439b349cfb675a463ca4816fc.ContainsKey(0))
+ISpace["MF_ErrId"].Value = result4fc913b439b349cfb675a463ca4816fc[0];
+}
+else{
+ISpace["MF_ErrId"].Value = null;
+}
+}
+if(ISpace["WF_FlowType"].Value=="APPROVE")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
+base.WriteDebugInfo(@"EXEC [UpdateTemporaryAdvanceStatus] '@@gv_InstanceId','#WF_FlowType','@@gv_UserId'");
+
+var querySourcecee2ac3b0dc39e959e1ee293da8d4c69 =GetQueryExpressionDataSource("cee2ac3b-0dc3-9e95-9e1e-e293da8d4c69");
+Dictionary<short,object> resultcee2ac3b0dc39e959e1ee293da8d4c69=iSpace.ExecuteQuery(querySourcecee2ac3b0dc39e959e1ee293da8d4c69,@"EXEC [UpdateTemporaryAdvanceStatus] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["WF_FlowType"].Value + @"','" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcecee2ac3b0dc39e959e1ee293da8d4c69 =GetQueryExpressionDataSource(""cee2ac3b-0dc3-9e95-9e1e-e293da8d4c69"");Dictionary<short,object> resultcee2ac3b0dc39e959e1ee293da8d4c69=iSpace.ExecuteQuery(querySourcecee2ac3b0dc39e959e1ee293da8d4c69,@""EXEC [UpdateTemporaryAdvanceStatus] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""WF_FlowType""].Value + @""','"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultcee2ac3b0dc39e959e1ee293da8d4c69!=null) && (resultcee2ac3b0dc39e959e1ee293da8d4c69.Count!=0))
+{
+if(resultcee2ac3b0dc39e959e1ee293da8d4c69.ContainsKey(0))
+ISpace["MF_ErrId"].Value = resultcee2ac3b0dc39e959e1ee293da8d4c69[0];
+}
+else{
+ISpace["MF_ErrId"].Value = null;
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_wmf_moveto (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"WMF_MoveTo-OnChange");
+if(ISpace["WMF_MoveTo"].Value=="APPROVE")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""APPROVE"")");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
+ISpace["Comments"].Man=false;
+base.WriteDebugInfo(@"ISpace[""Comments""].Man=false;");
+}
+if(ISpace["WMF_MoveTo"].Value=="RETURN")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""RETURN"")");
+ISpace["WF_FlowType"].Value="RETURN";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""RETURN"";");
+ISpace["Comments"].Man=true;
+base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
+}
+if(ISpace["WMF_MoveTo"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""REJECT"")");
+ISpace["WF_FlowType"].Value="REJECT";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""REJECT"";");
+ISpace["Comments"].Man=true;
+base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+public override void ExecuteMethod
+	(string methodName, string elementName,
+		ref Dictionary<string, ServiceElementData> dfsParam)
+{
+	if(methodName.ToLower().Equals("formonload"))
+{
+			SubscribeFormEvents_root(ref dfsParam);
+}
+	if(methodName.ToLower().Equals("onchange"))
+{
+		if(elementName.ToLower().Equals("wmf_moveto"))
+    {
+    			SubscribeElementEvents_wmf_moveto(ref dfsParam);
+    }
+}
+	if(methodName.ToLower().Equals("onclick"))
+{
+		if(elementName.ToLower().Equals("wmf_history"))
+{
+			SubscribeElementEvents_wmf_history(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("submitform"))
+{
+			SubscribeElementEvents_submitform(ref dfsParam);
 }
 }
 }
@@ -6105,6 +6381,188 @@ using System;
 
 
 	public partial class AcDataISpacea07dd4348e7d1a40f53eb3d229e4f878  : ExtensionActivityBase
+	{		
+		
+		
+		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
+											new Dictionary<string,  List<Triplet<string, short, short?>>>
+		{
+							{"1724FDC9-047B-45B8-BCFE-DD14A7738AD2", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_Amount",11,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundDetailsId",12,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundType",5,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundTypeValue",6,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_ProjectNo",7,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
+														   -1),
+								}
+			},
+							{"6DA5E799-1709-406E-85D0-9DC6581E03C3", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("WMC_Comments",5,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_DateofComments",4,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_StepFrom",1,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_StepTo",2,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_User",3,
+														   -1),
+								}
+			},
+							{"E68499CC-18EA-4A0D-A7CA-6DCAB40CD25C", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("PAB_Balance",6,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_BudgetName",0,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Commitment",4,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Spent",5,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+														   -1),
+								}
+			},
+					};	
+
+	
+
+		private Dictionary<string,string> formVersionList =new Dictionary<string,string> 
+		{
+							{"228701A8-2089-4481-B018-4BE30083D0D9", "Medium"},
+					};	
+
+		
+		private Dictionary<string,string> formVersionLayoutList =new Dictionary<string,string> 
+		{
+							{"B7E068EE-2463-488C-B7BC-C3BBFC09B186", ""},
+							{"0BE40B2A-B940-4C15-9C4B-E4601D03D550", ""},
+							{"228701A8-2089-4481-B018-4BE30083D0D9", ""},
+							{"4DF1F6E4-026B-4FD6-9D7C-F333D11A03F1", ""},
+							{"1542763D-3220-4A1F-9722-096E22FE41E7", ""},
+							{"827211D5-FBC5-4F7B-8428-8185241C3202", ""},
+							{"7E070B18-F1B6-4A50-9292-A61EFE6597BE", ""},
+							{"0F5E7699-3AF1-4BD5-8E96-6025BA8386BD", ""},
+					};	
+
+		
+
+	
+	
+		
+		
+		public override  List<Triplet<string, short, short?>> GetQueryExpressionBindings(string expressionId)
+		{
+			if(string.IsNullOrWhiteSpace(expressionId))
+            {
+			  return null;				
+            }
+
+
+			if(queryExpressionBindings == null || queryExpressionBindings.Count <= 0)
+				return null;
+
+			return queryExpressionBindings[expressionId];
+		}
+
+		public override string GetValidFormVersionId(string formVersionId,ViewportTypes viewPort)
+		{	
+					
+			 if(formVersionList == null || formVersionList.Count <= 0)
+				return formVersionId;
+
+			if (formVersionList.Count == 1)
+                return formVersionList.FirstOrDefault().Key;  
+
+			
+
+			if ( !string.IsNullOrEmpty(formVersionId) &&  formVersionList.ContainsKey(formVersionId))
+            {
+                if (formVersionList.Any(x => x.Key == formVersionId && x.Value == viewPort.ToString()))
+                    return formVersionId;
+            }
+
+			var fallback= new List<string>{"Mobile","Tab","Medium","Large"};
+
+           switch (viewPort)
+            {
+                case ViewportTypes.Tab:
+                    fallback = new List<string> { "Tab", "Mobile", "Medium", "Large" };
+                    break;
+
+                case ViewportTypes.Medium:
+                    fallback = new List<string> { "Medium", "Tab", "Large", "Mobile" };
+                    break;
+
+                case ViewportTypes.Large:
+                    fallback = new List<string> { "Large", "Medium", "Tab", "Mobile" };
+                    break;
+            }
+
+           for (int i = 0; i < fallback.Count; i++)
+           {
+               if (formVersionList.Any(x => x.Value == fallback[i]))
+                   return formVersionList.Where(x => x.Value == fallback[i]).Select(y => y.Key).FirstOrDefault();
+           }
+
+		   return formVersionId;
+		}
+
+	
+
+		
+		
+		
+		
+		
+
+
+	}
+
+}
+		
+  
+
+
+
+
+
+
+
+namespace CPS.Proof.DFSExtension
+{
+	
+using System;
+    using System.Collections.Generic;    
+    using System.Text;	
+    using System.Linq;	
+
+
+	public partial class AcDataISpace03b36fe2406e40c3e80749a3e2937922  : ExtensionActivityBase
 	{		
 		
 		

@@ -294,7 +294,7 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("WMF_MoveTo","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAX4svK5cDYCPw2sEhYNSLVUgHvT8EwteQ6Cu6POiqivUqpEh16s8+yjMECvtOIho/Hsxg7bNByVU=",
-												     @"EXEC GetNextStep '@WMF_InstanceId','@WMF_FlowType'"),
+												     @"EXEC GetNextStep '@WMF_InstanceId','@WF_FlowType'"),
 			
 						
 		};
