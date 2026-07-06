@@ -1,6 +1,6 @@
 // Innovace Intech Solution Pvt Ltd
 // ⚠️ AUTO-GENERATED FILE – DO NOT EDIT
-// Generated on 2026-07-06T06:36:37.724Z
+// Generated on 2026-07-06T06:54:23.421Z
 
 export const pages = [
   {
@@ -160,6 +160,12 @@ export const pages = [
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectFundExplorer_Start"
   },
   {
+    "PackageProcessMapId": "d4b10079-b7a6-40d1-94ec-eb886005f33a",
+    "ProcessActivityMapId": "ef50e1fb-78ab-345b-f630-ec77222127ca",
+    "ProcessName": "TravelSettlementNew",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlementNew_AdiditionalDetails"
+  },
+  {
     "PackageProcessMapId": "b92107f7-28a5-49d0-8b7f-312c4826dd60",
     "ProcessActivityMapId": "E1B5DCB8-1278-4AA0-A8B2-1C0CDE17E77A",
     "ProcessName": "ProjectCreation",
@@ -274,10 +280,22 @@ export const pages = [
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectFundInstallment_HOD"
   },
   {
+    "PackageProcessMapId": "bfcdccb2-7467-4308-a53d-7cab7b883529",
+    "ProcessActivityMapId": "53f85601-40a8-3229-8209-00367a5bc621",
+    "ProcessName": "TravelRequestNew",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequestNew_AdditionaDetails"
+  },
+  {
     "PackageProcessMapId": "85014d12-a85b-4330-8d7f-29776cbda319",
     "ProcessActivityMapId": "560A61B0-D0D9-4566-B1E9-4190F008BC9E",
     "ProcessName": "TemporaryAdvanceNew",
     "RoutPath": "PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_Registrar"
+  },
+  {
+    "PackageProcessMapId": "bfcdccb2-7467-4308-a53d-7cab7b883529",
+    "ProcessActivityMapId": "98d8749e-f1dc-685b-3509-35353f8b3c3d",
+    "ProcessName": "TravelRequestNew",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequestNew_RDOfficePayment"
   },
   {
     "PackageProcessMapId": "9A6DB1E6-872F-4A0C-B21C-6BE13EC6E295",
@@ -386,6 +404,12 @@ export const pages = [
     "ProcessActivityMapId": "03b36fe2-406e-40c3-e807-49a3e2937922",
     "ProcessName": "TemporaryAdvanceNew",
     "RoutPath": "PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_RDOfficePayment"
+  },
+  {
+    "PackageProcessMapId": "d4b10079-b7a6-40d1-94ec-eb886005f33a",
+    "ProcessActivityMapId": "f75a82b6-5c5f-9157-8e14-7521dd2a01f1",
+    "ProcessName": "TravelSettlementNew",
+    "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlementNew_RDOfficePayment"
   },
   {
     "PackageProcessMapId": "B1037B85-D9C1-411B-87DE-0658365B81A8",
