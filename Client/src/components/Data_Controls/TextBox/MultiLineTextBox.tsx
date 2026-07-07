@@ -1,7 +1,9 @@
 // Innovace Intech Solution Pvt Ltd
+// Innovace Intech Solution Pvt Ltd
 import React from "react";
 import type { UIElement } from "../../../constants/types";
 import { useGeneralStore } from "../../../store/useStore";
+import { accessMandatory } from "@/helpers/utils";
 
 const MultiLineTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
   element,
@@ -12,7 +14,8 @@ const MultiLineTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
   );
   const setState = useGeneralStore((store) => store.setState);
 
-  
+  const isMandatory =
+      element.ElementControlProperty?.some((prop) => accessMandatory(prop)) ?? false;
 
   return (
     <div className={[
@@ -29,7 +32,13 @@ const MultiLineTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
             </label>
           ) : null}
 
-          <span className="text-danger"></span>
+          <span
+                    id={`man_${element.ElementName}`}
+                    className="mandatory-symbol"
+                    aria-hidden="true"
+                  >
+                    {isMandatory && <span className="mandatory-icon">*</span>}
+                  </span>
 
           <div className="controls">
             <textarea

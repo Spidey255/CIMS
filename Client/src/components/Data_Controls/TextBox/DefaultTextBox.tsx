@@ -1,8 +1,10 @@
 // Innovace Intech Solution Pvt Ltd
+// Innovace Intech Solution Pvt Ltd
 import React from "react";
 import type { UIElement } from "../../../constants/types";
 import { useGeneralStore } from "../../../store/useStore";
 import { resusableOnChange } from "../../Events/onChange";
+import { accessMandatory } from "@/helpers/utils";
 
 const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
   element,
@@ -23,18 +25,21 @@ const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
   const controlId = element.ElementName || element.UIElementid;
 
   const storeVisible = useGeneralStore(
-      (store) => store.state[element.ElementName]?.isVisible
-    );
-  
-    const isVisible =
-      storeVisible !== undefined && storeVisible !== null
-        ? storeVisible
-        : true;
-  
-    if (isVisible == false || isVisible == "false") return null
+    (store) => store.state[element.ElementName]?.isVisible
+  );
+
+  const isMandatory =
+    element.ElementControlProperty?.some((prop) => accessMandatory(prop)) ?? false;
+
+  const isVisible =
+    storeVisible !== undefined && storeVisible !== null
+      ? storeVisible
+      : true;
+
+  if (isVisible == false || isVisible == "false") return null
 
   return (
-    <div className={!Boolean(isGrid) ? `${element.ColumnCss} col-md-${element.Wrap}` : element.ColumnCss }>
+    <div className={!Boolean(isGrid) ? `${element.ColumnCss} col-md-${element.Wrap}` : element.ColumnCss}>
       <div className="form-group">
         {!Boolean(isGrid) && Boolean(element["ShowCaption"]) ? (
           <label id={element.ElementName} className="form-label">
@@ -42,7 +47,14 @@ const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
           </label>
         ) : null}
 
-        <span id={`man_${element.ElementName}`} className="text-danger"></span>
+
+        <span
+          id={`man_${element.ElementName}`}
+          className="mandatory-symbol"
+          aria-hidden="true"
+        >
+          {isMandatory && <span className="mandatory-icon">*</span>}
+        </span>
 
         <div id={`mc_${element.ElementName}`} className="controls">
           {element.IsMultiline ? (
@@ -53,8 +65,8 @@ const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
               rows={5}
               className="form-control input-lg"
               placeholder={element?.DHelpText}
-              value={state !== undefined && state !== null ? String(state) : ""}              // ✅ controlled value
-              onChange={onChange}               // ✅ update store
+              value={state !== undefined && state !== null ? String(state) : ""}              // ? controlled value
+              onChange={onChange}               // ? update store
               onClick={(e) => e.stopPropagation()}
             />
           ) : (
@@ -64,7 +76,7 @@ const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
               name={element.ElementName}
               className="form-control input-lg"
               placeholder={element?.DHelpText}
-              value={state !== undefined && state !== null ? String(state) : ""}              // ✅ controlled value
+              value={state !== undefined && state !== null ? String(state) : ""}              // ? controlled value
               onChange={onChange}
               onClick={(e) => e.stopPropagation()}
             />

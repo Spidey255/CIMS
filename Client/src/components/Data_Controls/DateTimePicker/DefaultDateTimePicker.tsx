@@ -1,9 +1,11 @@
 // Innovace Intech Solution Pvt Ltd
+// Innovace Intech Solution Pvt Ltd
 import React from "react";
 import dayjs from "dayjs";
 import type { UIElement } from "@/constants/types";
 import { useGeneralStore } from "@/store/useStore";
 import { resusableOnChange } from "../../Events/onChange";
+import { accessMandatory } from "@/helpers/utils";
 
 const DefaultDateTimePicker: React.FC<{
   element: UIElement;
@@ -21,6 +23,8 @@ const DefaultDateTimePicker: React.FC<{
   const setState = useGeneralStore((store) => store.setState);
 
   const controlId = element.ElementName || element.UIElementid;
+  const isMandatory =
+      element.ElementControlProperty?.some((prop) => accessMandatory(prop)) ?? false;
   // const visible = element.ElementControlProperty?.find(p => "Visible" in p)?.Visible ?? "";
    const storeVisible = useGeneralStore(
         (store) => store.state[element.ElementName]?.isVisible
@@ -47,7 +51,13 @@ const DefaultDateTimePicker: React.FC<{
             </label>
           ) : null}
 
-          <span id={`man_${controlId}`} className="text-danger"></span>
+         <span
+                   id={`man_${controlId}`}
+                   className="mandatory-symbol"
+                   aria-hidden="true"
+                 >
+                   {isMandatory && <span className="mandatory-icon">*</span>}
+                 </span>
 
           <div
             className="input-xs"
