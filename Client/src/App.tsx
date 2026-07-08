@@ -92,9 +92,6 @@ const TemporaryAdvanceNew_DeanRandD = React.lazy(() =>
 const TravelSettlement_PIInitiation = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/TravelSettlement_PIInitiation")
   );
-const Workflow_Start = React.lazy(() =>
-    import("@/pages/PRJ20251020000000025-R&DProjects/PRJ20251020000000025-ProjectWidget/Workflow_Start")
-  );
 const ProjectFundExplorer_Start = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/ProjectFundExplorer_Start")
   );
@@ -205,9 +202,6 @@ const ProjectProposal_Additional = React.lazy(() =>
   );
 const TravelRequest_RDDean = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/TravelRequest_RDDean")
-  );
-const ProjectFundAllocation_Start = React.lazy(() =>
-    import("@/pages/PRJ20251020000000025-R&DProjects/PRJ20251020000000025-ProjectWidget/ProjectFundAllocation_Start")
   );
 const TravelRequestNew_Registrar = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/TravelRequestNew_Registrar")
@@ -326,7 +320,6 @@ const App: React.FC = () => {
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_Start" element={<ProjectProposal_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_DeanRandD" element={<TemporaryAdvanceNew_DeanRandD />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelSettlement_PIInitiation" element={<TravelSettlement_PIInitiation />} />
-              <Route path="/PRJ20251020000000025-R&DProjects/PRJ20251020000000025-ProjectWidget/Workflow_Start" element={<Workflow_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundExplorer_Start" element={<ProjectFundExplorer_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelSettlementNew_AdiditionalDetails" element={<TravelSettlementNew_AdiditionalDetails />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreation_Initiation" element={<ProjectCreation_Initiation />} />
@@ -364,7 +357,6 @@ const App: React.FC = () => {
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_RDOffice" element={<ProjectFundInstallment_RDOffice />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_Additional" element={<ProjectProposal_Additional />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequest_RDDean" element={<TravelRequest_RDDean />} />
-              <Route path="/PRJ20251020000000025-R&DProjects/PRJ20251020000000025-ProjectWidget/ProjectFundAllocation_Start" element={<ProjectFundAllocation_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequestNew_Registrar" element={<TravelRequestNew_Registrar />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_PIInitiation" element={<ProjectFundInstallment_PIInitiation />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursement_AdditionalDetails" element={<ProjectReimbursement_AdditionalDetails />} />

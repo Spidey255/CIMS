@@ -2356,7 +2356,15 @@ if(1==1)
 base.WriteDebugInfo(@"if(1==1)");
 ISpace["FWFM_BudgetHead"].Man=true;ISpace["FWFM_ProjectNo"].Man=true;ISpace["MF_d1_TravelType"].Man=true;ISpace["MFG_d3_FromDate"].Man=true;ISpace["MF_d1_TravelPlace"].Man=true;ISpace["MFG_d2_JourneyClass"].Man=true;ISpace["MFG_d2_Arrival"].Man=true;ISpace["MF_d1_JourneyPurpose"].Man=true;ISpace["MFG_d3_Amount"].Man=true;ISpace["FWFM_Amount"].Man=true;ISpace["MFG_d2_Amount"].Man=true;ISpace["MF_d1_AdvanceAmount"].Man=true;ISpace["MFG_d2_DepartureDate"].Man=true;ISpace["MFG_d3_OtherExpenditureType"].Man=true;ISpace["MFG_d2_ModeofJourney"].Man=true;ISpace["MFG_d2_Departure"].Man=true;ISpace["MF_d1_IsAdvanceRequired"].Man=true;ISpace["MFG_d2_ArrivalDate"].Man=true;ISpace["FWFM_FundType"].Man=true;ISpace["MFG_d3_ExpenditureType"].Man=true;ISpace["MFG_d3_ToDate"].Man=true;
 base.WriteDebugInfo(@"ISpace[""FWFM_BudgetHead""].Man=true;ISpace[""FWFM_ProjectNo""].Man=true;ISpace[""MF_d1_TravelType""].Man=true;ISpace[""MFG_d3_FromDate""].Man=true;ISpace[""MF_d1_TravelPlace""].Man=true;ISpace[""MFG_d2_JourneyClass""].Man=true;ISpace[""MFG_d2_Arrival""].Man=true;ISpace[""MF_d1_JourneyPurpose""].Man=true;ISpace[""MFG_d3_Amount""].Man=true;ISpace[""FWFM_Amount""].Man=true;ISpace[""MFG_d2_Amount""].Man=true;ISpace[""MF_d1_AdvanceAmount""].Man=true;ISpace[""MFG_d2_DepartureDate""].Man=true;ISpace[""MFG_d3_OtherExpenditureType""].Man=true;ISpace[""MFG_d2_ModeofJourney""].Man=true;ISpace[""MFG_d2_Departure""].Man=true;ISpace[""MF_d1_IsAdvanceRequired""].Man=true;ISpace[""MFG_d2_ArrivalDate""].Man=true;ISpace[""FWFM_FundType""].Man=true;ISpace[""MFG_d3_ExpenditureType""].Man=true;ISpace[""MFG_d3_ToDate""].Man=true;");
+ISpace["MF_EligibleAdavnce"].Value=0;
+base.WriteDebugInfo(@"ISpace[""MF_EligibleAdavnce""].Value=0;");
 }
+ISpace["MF_TotalOtherExpense"].Value=0;
+base.WriteDebugInfo(@"ISpace[""MF_TotalOtherExpense""].Value=0;");
+ISpace["MF_TotaTravellExpense"].Value=0;
+base.WriteDebugInfo(@"ISpace[""MF_TotaTravellExpense""].Value=0;");
+ISpace["MF_d1_TotalAmount"].Value=0;
+base.WriteDebugInfo(@"ISpace[""MF_d1_TotalAmount""].Value=0;");
 base.WriteDebugInfo(@"EXEC [GenerateRef] 3,'@@gv_UserId'");
 
 var querySourcecb7a5d0645d0748ac18fbb48a35f9e4e =GetQueryExpressionDataSource("cb7a5d06-45d0-748a-c18f-bb48a35f9e4e");
@@ -5178,7 +5186,15 @@ if(1==1)
 base.WriteDebugInfo(@"if(1==1)");
 ISpace["FWFM_BudgetHead"].Man=true;ISpace["FWFM_ProjectNo"].Man=true;ISpace["MF_d1_TravelType"].Man=true;ISpace["MFG_d3_FromDate"].Man=true;ISpace["MF_d1_TravelPlace"].Man=true;ISpace["MFG_d2_JourneyClass"].Man=true;ISpace["MFG_d2_Arrival"].Man=true;ISpace["MF_d1_JourneyPurpose"].Man=true;ISpace["MFG_d3_Amount"].Man=true;ISpace["FWFM_Amount"].Man=true;ISpace["MFG_d2_Amount"].Man=true;ISpace["MF_d1_AdvanceAmount"].Man=true;ISpace["MFG_d2_DepartureDate"].Man=true;ISpace["MFG_d3_OtherExpenditureType"].Man=true;ISpace["MFG_d2_ModeofJourney"].Man=true;ISpace["MFG_d2_Departure"].Man=true;ISpace["MF_d1_IsAdvanceRequired"].Man=true;ISpace["MFG_d2_ArrivalDate"].Man=true;ISpace["FWFM_FundType"].Man=true;ISpace["MFG_d3_ExpenditureType"].Man=true;ISpace["MFG_d3_ToDate"].Man=true;
 base.WriteDebugInfo(@"ISpace[""FWFM_BudgetHead""].Man=true;ISpace[""FWFM_ProjectNo""].Man=true;ISpace[""MF_d1_TravelType""].Man=true;ISpace[""MFG_d3_FromDate""].Man=true;ISpace[""MF_d1_TravelPlace""].Man=true;ISpace[""MFG_d2_JourneyClass""].Man=true;ISpace[""MFG_d2_Arrival""].Man=true;ISpace[""MF_d1_JourneyPurpose""].Man=true;ISpace[""MFG_d3_Amount""].Man=true;ISpace[""FWFM_Amount""].Man=true;ISpace[""MFG_d2_Amount""].Man=true;ISpace[""MF_d1_AdvanceAmount""].Man=true;ISpace[""MFG_d2_DepartureDate""].Man=true;ISpace[""MFG_d3_OtherExpenditureType""].Man=true;ISpace[""MFG_d2_ModeofJourney""].Man=true;ISpace[""MFG_d2_Departure""].Man=true;ISpace[""MF_d1_IsAdvanceRequired""].Man=true;ISpace[""MFG_d2_ArrivalDate""].Man=true;ISpace[""FWFM_FundType""].Man=true;ISpace[""MFG_d3_ExpenditureType""].Man=true;ISpace[""MFG_d3_ToDate""].Man=true;");
+ISpace["MF_EligibleAdavnce"].Value=0;
+base.WriteDebugInfo(@"ISpace[""MF_EligibleAdavnce""].Value=0;");
 }
+ISpace["MF_TotalOtherExpense"].Value=0;
+base.WriteDebugInfo(@"ISpace[""MF_TotalOtherExpense""].Value=0;");
+ISpace["MF_TotaTravellExpense"].Value=0;
+base.WriteDebugInfo(@"ISpace[""MF_TotaTravellExpense""].Value=0;");
+ISpace["MF_d1_TotalAmount"].Value=0;
+base.WriteDebugInfo(@"ISpace[""MF_d1_TotalAmount""].Value=0;");
 base.WriteDebugInfo(@"EXEC [GenerateRef] 3,'@@gv_UserId'");
 
 var querySourcecb7a5d0645d0748ac18fbb48a35f9e4e =GetQueryExpressionDataSource("cb7a5d06-45d0-748a-c18f-bb48a35f9e4e");
