@@ -274,7 +274,15 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("FWFM_ProjectNo","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
-												     @"EXEC GetProjectExtensionDetails 1,'@PFMF_UserId'"),
+												     @"EXEC GetProjectNoCombo 1,'@PFMF_UserId'"),
+			
+						
+			     new Triplet<string, string, string>("MFG_d3_ExpenditureType","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetTravelAdvanceView 3,''"),
+			
+						
+			     new Triplet<string, string, string>("MF_d1_TravelType","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetTravelTypes"),
 			
 						
 			     new Triplet<string, string, string>("WMF_MoveTo","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAX4svK5cDYCPw2sEhYNSLVUgHvT8EwteQ6Cu6POiqivUqpEh16s8+yjMECvtOIho/Hsxg7bNByVU=",
@@ -283,6 +291,26 @@ namespace CPS.Proof.DFSExtension
 						
 			     new Triplet<string, string, string>("FWAB_ProjectNo","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
 												     @"EXEC GetProjectExtensionDetails 1,'@PFMF_UserId'"),
+			
+						
+			     new Triplet<string, string, string>("R_ReferenceNo","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"Exec GetTravelSettlement 5,'','@UC_EmployeeBaicInfoID'"),
+			
+						
+			     new Triplet<string, string, string>("MG_d2_ModeofJourney","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetTravelAdvanceDetailCombo 4"),
+			
+						
+			     new Triplet<string, string, string>("MFG_d2_ModeofJourney","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetTravelAdvanceDetailCombo 4"),
+			
+						
+			     new Triplet<string, string, string>("MG_d3_ExpenditureType","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetTravelAdvanceView 3,''"),
+			
+						
+			     new Triplet<string, string, string>("MFG_d2_JourneyClass","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
+												     @"EXEC GetTravelAdvanceDetailCombo 17,''"),
 			
 						
 		};
@@ -470,10 +498,10 @@ namespace CPS.Proof.DFSExtension
                                       case "8EC3FC2B-F5B6-4077-8C73-B83F5D859FC4":
                     {
                      
-                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [8EC3FC2B-F5B6-4077-8C73-B83F5D859FC4] WHERE InstanceId='{0}') BEGIN INSERT INTO [8EC3FC2B-F5B6-4077-8C73-B83F5D859FC4](ProcessActivityMapId,FormId,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_d1_AdvanceAmount,MF_d1_TravelStatus,MF_d1_TSAmount,MF_d1_TSStatus,MF_d1_PITransactionNo,MF_d1_PITransactionDate,MF_d1_TSTransactionNo,MF_d1_TSTransactionDate,MF_d1_CreatedBy,MF_d1_CreatedOn,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_TotalRequested,MF_AdvanceCollected,MF_TransactionNo,MF_TransactionDate,R_ReferenceNo,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,MF_d1_TravelAdvanceID,MF_d1_EmployeeBasicInfoId,MF_d1_ReferenceNo,MF_d1_JourneyPurpose,MF_d1_TravelType,MF_d1_TravelPlace,MF_d1_IsAdvanceRequired,MF_d1_PaymentRemittenceTo,MF_d1_BeneficiaryName,MF_d1_AccountNo,MF_d1_BankName,MF_d1_IFSCCode,MF_d1_BankDocument,MF_d1_TransactionNo,MF_d1_TransactionDate,MF_d1_TotalAmount,UC_EmployeeId,UC_Name,UC_Designation,UC_Department,MF_ActualTravelExpense,MF_ActualOtherExpense,MF_SettlementAmount,UC_EmailID,UC_PhoneNumber,UC_DOB,UC_DOJ,UC_DOR,UC_Paylevel,UC_Grade,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,WMF_IsInFlow,WMF_MoveTo,Comments,FlowType,WMF_InstanceId,InstanceId)
+                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [8EC3FC2B-F5B6-4077-8C73-B83F5D859FC4] WHERE InstanceId='{0}') BEGIN INSERT INTO [8EC3FC2B-F5B6-4077-8C73-B83F5D859FC4](ProcessActivityMapId,FormId,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_d1_AdvanceAmount,MF_d1_TravelStatus,MF_d1_TSAmount,MF_d1_TSStatus,MF_d1_PITransactionNo,MF_d1_PITransactionDate,MF_d1_TSTransactionNo,MF_d1_TSTransactionDate,MF_d1_CreatedBy,MF_d1_CreatedOn,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_TotalRequested,MF_AdvanceCollected,MF_TransactionNo,MF_TransactionDate,R_ReferenceNo,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,MF_d1_TravelAdvanceID,MF_d1_EmployeeBasicInfoId,MF_d1_ReferenceNo,MF_d1_JourneyPurpose,MF_d1_TravelType,MF_d1_TravelPlace,MF_d1_IsAdvanceRequired,MF_d1_PaymentRemittenceTo,MF_d1_BeneficiaryName,MF_d1_AccountNo,MF_d1_BankName,MF_d1_IFSCCode,MF_d1_BankDocument,MF_d1_TransactionNo,MF_d1_TransactionDate,MF_d1_TotalAmount,UC_EmployeeId,UC_Name,UC_Designation,UC_Department,MF_ActualTravelExpense,MF_ActualOtherExpense,MF_SettlementAmount,UC_EmailID,UC_PhoneNumber,UC_DOB,UC_DOJ,UC_DOR,UC_Paylevel,UC_Grade,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,WMF_IsInFlow,WMF_MoveTo,Comments,FlowType,WMF_InstanceId,InstanceId,UC_EmployeeBaicInfoId)
 							VALUES( {3}) END ELSE BEGIN UPDATE [8EC3FC2B-F5B6-4077-8C73-B83F5D859FC4]SET {4}WHERE InstanceId='{0}'END ";
 
-                                     colList=@"ProcessActivityMapId,FormId,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_d1_AdvanceAmount,MF_d1_TravelStatus,MF_d1_TSAmount,MF_d1_TSStatus,MF_d1_PITransactionNo,MF_d1_PITransactionDate,MF_d1_TSTransactionNo,MF_d1_TSTransactionDate,MF_d1_CreatedBy,MF_d1_CreatedOn,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_TotalRequested,MF_AdvanceCollected,MF_TransactionNo,MF_TransactionDate,R_ReferenceNo,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,MF_d1_TravelAdvanceID,MF_d1_EmployeeBasicInfoId,MF_d1_ReferenceNo,MF_d1_JourneyPurpose,MF_d1_TravelType,MF_d1_TravelPlace,MF_d1_IsAdvanceRequired,MF_d1_PaymentRemittenceTo,MF_d1_BeneficiaryName,MF_d1_AccountNo,MF_d1_BankName,MF_d1_IFSCCode,MF_d1_BankDocument,MF_d1_TransactionNo,MF_d1_TransactionDate,MF_d1_TotalAmount,UC_EmployeeId,UC_Name,UC_Designation,UC_Department,MF_ActualTravelExpense,MF_ActualOtherExpense,MF_SettlementAmount,UC_EmailID,UC_PhoneNumber,UC_DOB,UC_DOJ,UC_DOR,UC_Paylevel,UC_Grade,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,WMF_IsInFlow,WMF_MoveTo,Comments,FlowType,WMF_InstanceId,InstanceId";
+                                     colList=@"ProcessActivityMapId,FormId,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_d1_AdvanceAmount,MF_d1_TravelStatus,MF_d1_TSAmount,MF_d1_TSStatus,MF_d1_PITransactionNo,MF_d1_PITransactionDate,MF_d1_TSTransactionNo,MF_d1_TSTransactionDate,MF_d1_CreatedBy,MF_d1_CreatedOn,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_TotalRequested,MF_AdvanceCollected,MF_TransactionNo,MF_TransactionDate,R_ReferenceNo,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,MF_d1_TravelAdvanceID,MF_d1_EmployeeBasicInfoId,MF_d1_ReferenceNo,MF_d1_JourneyPurpose,MF_d1_TravelType,MF_d1_TravelPlace,MF_d1_IsAdvanceRequired,MF_d1_PaymentRemittenceTo,MF_d1_BeneficiaryName,MF_d1_AccountNo,MF_d1_BankName,MF_d1_IFSCCode,MF_d1_BankDocument,MF_d1_TransactionNo,MF_d1_TransactionDate,MF_d1_TotalAmount,UC_EmployeeId,UC_Name,UC_Designation,UC_Department,MF_ActualTravelExpense,MF_ActualOtherExpense,MF_SettlementAmount,UC_EmailID,UC_PhoneNumber,UC_DOB,UC_DOJ,UC_DOR,UC_Paylevel,UC_Grade,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,WMF_IsInFlow,WMF_MoveTo,Comments,FlowType,WMF_InstanceId,InstanceId,UC_EmployeeBaicInfoId";
                                     
                      
                             splitcols = colList.Split(',');
@@ -1007,7 +1035,7 @@ namespace CPS.Proof.DFSExtension
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_CDCED39AD76C42049A70C637DD092E54 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d2_TADetailsID] VARCHAR(MAX)	, [MG_d2_TravelAdvanceID] VARCHAR(MAX)	, [MG_d2_Departure] VARCHAR(MAX)	, [MG_d2_DepartureDate] DATETIME	, [MG_d2_DepartureTime] VARCHAR(MAX)	, [MG_d2_Arrival] VARCHAR(MAX)	, [MG_d2_ArrivalDate] DATETIME	, [MG_d2_ArrivalTime] VARCHAR(MAX)	, [MG_d2_ModeofJourney] VARCHAR(MAX)	, [MG_d2_JourneyClass] VARCHAR(MAX)	, [MG_d2_Road] INT	, [MG_d2_PNRNo] VARCHAR(MAX)	, [MG_d2_Amount] DECIMAL(18,2)	, [MG_d2_IsTravelRequest] INT	, [MG_d2_UpdatedBy] INT	, [MG_d2_UpdatedOn] DATETIME){0}INSERT INTO [CDCED39A-D76C-4204-9A70-C637DD092E54](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d2_TADetailsID,MG_d2_TravelAdvanceID,MG_d2_Departure,MG_d2_DepartureDate,MG_d2_DepartureTime,MG_d2_Arrival,MG_d2_ArrivalDate,MG_d2_ArrivalTime,MG_d2_ModeofJourney,MG_d2_JourneyClass,MG_d2_Road,MG_d2_PNRNo,MG_d2_Amount,MG_d2_IsTravelRequest,MG_d2_UpdatedBy,MG_d2_UpdatedOn)
+		DECLARE  @TBL_CDCED39AD76C42049A70C637DD092E54 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d2_TADetailsID] VARCHAR(MAX)	, [MG_d2_TravelAdvanceID] VARCHAR(MAX)	, [MG_d2_Departure] VARCHAR(MAX)	, [MG_d2_DepartureDate] DATETIME	, [MG_d2_DepartureTime] VARCHAR(MAX)	, [MG_d2_Arrival] VARCHAR(MAX)	, [MG_d2_ArrivalDate] DATETIME	, [MG_d2_ArrivalTime] VARCHAR(MAX)	, [MG_d2_ModeofJourney] VARCHAR(250)	, [MG_d2_JourneyClass] VARCHAR(250)	, [MG_d2_Road] INT	, [MG_d2_PNRNo] VARCHAR(MAX)	, [MG_d2_Amount] DECIMAL(18,2)	, [MG_d2_IsTravelRequest] INT	, [MG_d2_UpdatedBy] INT	, [MG_d2_UpdatedOn] DATETIME){0}INSERT INTO [CDCED39A-D76C-4204-9A70-C637DD092E54](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d2_TADetailsID,MG_d2_TravelAdvanceID,MG_d2_Departure,MG_d2_DepartureDate,MG_d2_DepartureTime,MG_d2_Arrival,MG_d2_ArrivalDate,MG_d2_ArrivalTime,MG_d2_ModeofJourney,MG_d2_JourneyClass,MG_d2_Road,MG_d2_PNRNo,MG_d2_Amount,MG_d2_IsTravelRequest,MG_d2_UpdatedBy,MG_d2_UpdatedOn)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d2_TADetailsID,TDT.MG_d2_TravelAdvanceID,TDT.MG_d2_Departure,TDT.MG_d2_DepartureDate,TDT.MG_d2_DepartureTime,TDT.MG_d2_Arrival,TDT.MG_d2_ArrivalDate,TDT.MG_d2_ArrivalTime,TDT.MG_d2_ModeofJourney,TDT.MG_d2_JourneyClass,TDT.MG_d2_Road,TDT.MG_d2_PNRNo,TDT.MG_d2_Amount,TDT.MG_d2_IsTravelRequest,TDT.MG_d2_UpdatedBy,TDT.MG_d2_UpdatedOn FROM @TBL_CDCED39AD76C42049A70C637DD092E54 TDT
 							LEFT JOIN [CDCED39A-D76C-4204-9A70-C637DD092E54] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d2_TADetailsID=TDT.MG_d2_TADetailsID,MG_d2_TravelAdvanceID=TDT.MG_d2_TravelAdvanceID,MG_d2_Departure=TDT.MG_d2_Departure,MG_d2_DepartureDate=TDT.MG_d2_DepartureDate,MG_d2_DepartureTime=TDT.MG_d2_DepartureTime,MG_d2_Arrival=TDT.MG_d2_Arrival,MG_d2_ArrivalDate=TDT.MG_d2_ArrivalDate,MG_d2_ArrivalTime=TDT.MG_d2_ArrivalTime,MG_d2_ModeofJourney=TDT.MG_d2_ModeofJourney,MG_d2_JourneyClass=TDT.MG_d2_JourneyClass,MG_d2_Road=TDT.MG_d2_Road,MG_d2_PNRNo=TDT.MG_d2_PNRNo,MG_d2_Amount=TDT.MG_d2_Amount,MG_d2_IsTravelRequest=TDT.MG_d2_IsTravelRequest,MG_d2_UpdatedBy=TDT.MG_d2_UpdatedBy,MG_d2_UpdatedOn=TDT.MG_d2_UpdatedOn FROM @TBL_CDCED39AD76C42049A70C637DD092E54 TDT
@@ -1124,7 +1152,7 @@ namespace CPS.Proof.DFSExtension
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_7DC7A3E89FDF4C759F83FEC89BA524E4 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d3_ExpenditureTypeID] VARCHAR(MAX)	, [MG_d3_TravelAdvanceID] VARCHAR(MAX)	, [MG_d3_FromDate] DATETIME	, [MG_d3_ToDate] DATETIME	, [MG_d3_Amount] DECIMAL(18,2)	, [MG_d3_UpdatedBy] INT	, [MG_d3_UpdatedOn] DATETIME	, [MG_d3_ExpenditureType] INT	, [MG_d3_OtherExpenditureType] VARCHAR(MAX)	, [MG_d3_IsTravelRequest] INT){0}INSERT INTO [7DC7A3E8-9FDF-4C75-9F83-FEC89BA524E4](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d3_ExpenditureTypeID,MG_d3_TravelAdvanceID,MG_d3_FromDate,MG_d3_ToDate,MG_d3_Amount,MG_d3_UpdatedBy,MG_d3_UpdatedOn,MG_d3_ExpenditureType,MG_d3_OtherExpenditureType,MG_d3_IsTravelRequest)
+		DECLARE  @TBL_7DC7A3E89FDF4C759F83FEC89BA524E4 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d3_ExpenditureTypeID] VARCHAR(MAX)	, [MG_d3_TravelAdvanceID] VARCHAR(MAX)	, [MG_d3_FromDate] DATETIME	, [MG_d3_ToDate] DATETIME	, [MG_d3_Amount] DECIMAL(18,2)	, [MG_d3_UpdatedBy] INT	, [MG_d3_UpdatedOn] DATETIME	, [MG_d3_ExpenditureType] VARCHAR(250)	, [MG_d3_OtherExpenditureType] VARCHAR(MAX)	, [MG_d3_IsTravelRequest] INT){0}INSERT INTO [7DC7A3E8-9FDF-4C75-9F83-FEC89BA524E4](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d3_ExpenditureTypeID,MG_d3_TravelAdvanceID,MG_d3_FromDate,MG_d3_ToDate,MG_d3_Amount,MG_d3_UpdatedBy,MG_d3_UpdatedOn,MG_d3_ExpenditureType,MG_d3_OtherExpenditureType,MG_d3_IsTravelRequest)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d3_ExpenditureTypeID,TDT.MG_d3_TravelAdvanceID,TDT.MG_d3_FromDate,TDT.MG_d3_ToDate,TDT.MG_d3_Amount,TDT.MG_d3_UpdatedBy,TDT.MG_d3_UpdatedOn,TDT.MG_d3_ExpenditureType,TDT.MG_d3_OtherExpenditureType,TDT.MG_d3_IsTravelRequest FROM @TBL_7DC7A3E89FDF4C759F83FEC89BA524E4 TDT
 							LEFT JOIN [7DC7A3E8-9FDF-4C75-9F83-FEC89BA524E4] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d3_ExpenditureTypeID=TDT.MG_d3_ExpenditureTypeID,MG_d3_TravelAdvanceID=TDT.MG_d3_TravelAdvanceID,MG_d3_FromDate=TDT.MG_d3_FromDate,MG_d3_ToDate=TDT.MG_d3_ToDate,MG_d3_Amount=TDT.MG_d3_Amount,MG_d3_UpdatedBy=TDT.MG_d3_UpdatedBy,MG_d3_UpdatedOn=TDT.MG_d3_UpdatedOn,MG_d3_ExpenditureType=TDT.MG_d3_ExpenditureType,MG_d3_OtherExpenditureType=TDT.MG_d3_OtherExpenditureType,MG_d3_IsTravelRequest=TDT.MG_d3_IsTravelRequest FROM @TBL_7DC7A3E89FDF4C759F83FEC89BA524E4 TDT
@@ -2057,7 +2085,7 @@ namespace CPS.Proof.DFSExtension
                      
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_CDCED39AD76C42049A70C637DD092E54 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d2_TADetailsID] VARCHAR(MAX)	, [MG_d2_TravelAdvanceID] VARCHAR(MAX)	, [MG_d2_Departure] VARCHAR(MAX)	, [MG_d2_DepartureDate] DATETIME	, [MG_d2_DepartureTime] VARCHAR(MAX)	, [MG_d2_Arrival] VARCHAR(MAX)	, [MG_d2_ArrivalDate] DATETIME	, [MG_d2_ArrivalTime] VARCHAR(MAX)	, [MG_d2_ModeofJourney] VARCHAR(MAX)	, [MG_d2_JourneyClass] VARCHAR(MAX)	, [MG_d2_Road] INT	, [MG_d2_PNRNo] VARCHAR(MAX)	, [MG_d2_Amount] DECIMAL(18,2)	, [MG_d2_IsTravelRequest] INT	, [MG_d2_UpdatedBy] INT	, [MG_d2_UpdatedOn] DATETIME){0}INSERT INTO [CDCED39A-D76C-4204-9A70-C637DD092E54](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d2_TADetailsID,MG_d2_TravelAdvanceID,MG_d2_Departure,MG_d2_DepartureDate,MG_d2_DepartureTime,MG_d2_Arrival,MG_d2_ArrivalDate,MG_d2_ArrivalTime,MG_d2_ModeofJourney,MG_d2_JourneyClass,MG_d2_Road,MG_d2_PNRNo,MG_d2_Amount,MG_d2_IsTravelRequest,MG_d2_UpdatedBy,MG_d2_UpdatedOn)
+		DECLARE  @TBL_CDCED39AD76C42049A70C637DD092E54 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d2_TADetailsID] VARCHAR(MAX)	, [MG_d2_TravelAdvanceID] VARCHAR(MAX)	, [MG_d2_Departure] VARCHAR(MAX)	, [MG_d2_DepartureDate] DATETIME	, [MG_d2_DepartureTime] VARCHAR(MAX)	, [MG_d2_Arrival] VARCHAR(MAX)	, [MG_d2_ArrivalDate] DATETIME	, [MG_d2_ArrivalTime] VARCHAR(MAX)	, [MG_d2_ModeofJourney] VARCHAR(250)	, [MG_d2_JourneyClass] VARCHAR(250)	, [MG_d2_Road] INT	, [MG_d2_PNRNo] VARCHAR(MAX)	, [MG_d2_Amount] DECIMAL(18,2)	, [MG_d2_IsTravelRequest] INT	, [MG_d2_UpdatedBy] INT	, [MG_d2_UpdatedOn] DATETIME){0}INSERT INTO [CDCED39A-D76C-4204-9A70-C637DD092E54](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d2_TADetailsID,MG_d2_TravelAdvanceID,MG_d2_Departure,MG_d2_DepartureDate,MG_d2_DepartureTime,MG_d2_Arrival,MG_d2_ArrivalDate,MG_d2_ArrivalTime,MG_d2_ModeofJourney,MG_d2_JourneyClass,MG_d2_Road,MG_d2_PNRNo,MG_d2_Amount,MG_d2_IsTravelRequest,MG_d2_UpdatedBy,MG_d2_UpdatedOn)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d2_TADetailsID,TDT.MG_d2_TravelAdvanceID,TDT.MG_d2_Departure,TDT.MG_d2_DepartureDate,TDT.MG_d2_DepartureTime,TDT.MG_d2_Arrival,TDT.MG_d2_ArrivalDate,TDT.MG_d2_ArrivalTime,TDT.MG_d2_ModeofJourney,TDT.MG_d2_JourneyClass,TDT.MG_d2_Road,TDT.MG_d2_PNRNo,TDT.MG_d2_Amount,TDT.MG_d2_IsTravelRequest,TDT.MG_d2_UpdatedBy,TDT.MG_d2_UpdatedOn FROM @TBL_CDCED39AD76C42049A70C637DD092E54 TDT
 							LEFT JOIN [CDCED39A-D76C-4204-9A70-C637DD092E54] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d2_TADetailsID=TDT.MG_d2_TADetailsID,MG_d2_TravelAdvanceID=TDT.MG_d2_TravelAdvanceID,MG_d2_Departure=TDT.MG_d2_Departure,MG_d2_DepartureDate=TDT.MG_d2_DepartureDate,MG_d2_DepartureTime=TDT.MG_d2_DepartureTime,MG_d2_Arrival=TDT.MG_d2_Arrival,MG_d2_ArrivalDate=TDT.MG_d2_ArrivalDate,MG_d2_ArrivalTime=TDT.MG_d2_ArrivalTime,MG_d2_ModeofJourney=TDT.MG_d2_ModeofJourney,MG_d2_JourneyClass=TDT.MG_d2_JourneyClass,MG_d2_Road=TDT.MG_d2_Road,MG_d2_PNRNo=TDT.MG_d2_PNRNo,MG_d2_Amount=TDT.MG_d2_Amount,MG_d2_IsTravelRequest=TDT.MG_d2_IsTravelRequest,MG_d2_UpdatedBy=TDT.MG_d2_UpdatedBy,MG_d2_UpdatedOn=TDT.MG_d2_UpdatedOn FROM @TBL_CDCED39AD76C42049A70C637DD092E54 TDT
@@ -2158,7 +2186,7 @@ namespace CPS.Proof.DFSExtension
                      
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_7DC7A3E89FDF4C759F83FEC89BA524E4 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d3_ExpenditureTypeID] VARCHAR(MAX)	, [MG_d3_TravelAdvanceID] VARCHAR(MAX)	, [MG_d3_FromDate] DATETIME	, [MG_d3_ToDate] DATETIME	, [MG_d3_Amount] DECIMAL(18,2)	, [MG_d3_UpdatedBy] INT	, [MG_d3_UpdatedOn] DATETIME	, [MG_d3_ExpenditureType] INT	, [MG_d3_OtherExpenditureType] VARCHAR(MAX)	, [MG_d3_IsTravelRequest] INT){0}INSERT INTO [7DC7A3E8-9FDF-4C75-9F83-FEC89BA524E4](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d3_ExpenditureTypeID,MG_d3_TravelAdvanceID,MG_d3_FromDate,MG_d3_ToDate,MG_d3_Amount,MG_d3_UpdatedBy,MG_d3_UpdatedOn,MG_d3_ExpenditureType,MG_d3_OtherExpenditureType,MG_d3_IsTravelRequest)
+		DECLARE  @TBL_7DC7A3E89FDF4C759F83FEC89BA524E4 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d3_ExpenditureTypeID] VARCHAR(MAX)	, [MG_d3_TravelAdvanceID] VARCHAR(MAX)	, [MG_d3_FromDate] DATETIME	, [MG_d3_ToDate] DATETIME	, [MG_d3_Amount] DECIMAL(18,2)	, [MG_d3_UpdatedBy] INT	, [MG_d3_UpdatedOn] DATETIME	, [MG_d3_ExpenditureType] VARCHAR(250)	, [MG_d3_OtherExpenditureType] VARCHAR(MAX)	, [MG_d3_IsTravelRequest] INT){0}INSERT INTO [7DC7A3E8-9FDF-4C75-9F83-FEC89BA524E4](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d3_ExpenditureTypeID,MG_d3_TravelAdvanceID,MG_d3_FromDate,MG_d3_ToDate,MG_d3_Amount,MG_d3_UpdatedBy,MG_d3_UpdatedOn,MG_d3_ExpenditureType,MG_d3_OtherExpenditureType,MG_d3_IsTravelRequest)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d3_ExpenditureTypeID,TDT.MG_d3_TravelAdvanceID,TDT.MG_d3_FromDate,TDT.MG_d3_ToDate,TDT.MG_d3_Amount,TDT.MG_d3_UpdatedBy,TDT.MG_d3_UpdatedOn,TDT.MG_d3_ExpenditureType,TDT.MG_d3_OtherExpenditureType,TDT.MG_d3_IsTravelRequest FROM @TBL_7DC7A3E89FDF4C759F83FEC89BA524E4 TDT
 							LEFT JOIN [7DC7A3E8-9FDF-4C75-9F83-FEC89BA524E4] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d3_ExpenditureTypeID=TDT.MG_d3_ExpenditureTypeID,MG_d3_TravelAdvanceID=TDT.MG_d3_TravelAdvanceID,MG_d3_FromDate=TDT.MG_d3_FromDate,MG_d3_ToDate=TDT.MG_d3_ToDate,MG_d3_Amount=TDT.MG_d3_Amount,MG_d3_UpdatedBy=TDT.MG_d3_UpdatedBy,MG_d3_UpdatedOn=TDT.MG_d3_UpdatedOn,MG_d3_ExpenditureType=TDT.MG_d3_ExpenditureType,MG_d3_OtherExpenditureType=TDT.MG_d3_OtherExpenditureType,MG_d3_IsTravelRequest=TDT.MG_d3_IsTravelRequest FROM @TBL_7DC7A3E89FDF4C759F83FEC89BA524E4 TDT
@@ -2808,6 +2836,8 @@ if(resultA12A0256E91B49BCB475C85CE71A07B6.ContainsKey(23))
 ISpace["MF_d1_TSTransactionDate"].Value = resultA12A0256E91B49BCB475C85CE71A07B6[23];
 if(resultA12A0256E91B49BCB475C85CE71A07B6.ContainsKey(14))
 ISpace["MF_d1_TransactionDate"].Value = resultA12A0256E91B49BCB475C85CE71A07B6[14];
+if(resultA12A0256E91B49BCB475C85CE71A07B6.ContainsKey(4))
+ISpace["MF_d1_TravelType"].Value = resultA12A0256E91B49BCB475C85CE71A07B6[4];
 if(resultA12A0256E91B49BCB475C85CE71A07B6.ContainsKey(12))
 ISpace["MF_d1_BankDocument"].Value = resultA12A0256E91B49BCB475C85CE71A07B6[12];
 if(resultA12A0256E91B49BCB475C85CE71A07B6.ContainsKey(24))
@@ -2820,8 +2850,6 @@ if(resultA12A0256E91B49BCB475C85CE71A07B6.ContainsKey(15))
 ISpace["MF_d1_TotalAmount"].Value = resultA12A0256E91B49BCB475C85CE71A07B6[15];
 if(resultA12A0256E91B49BCB475C85CE71A07B6.ContainsKey(13))
 ISpace["MF_d1_TransactionNo"].Value = resultA12A0256E91B49BCB475C85CE71A07B6[13];
-if(resultA12A0256E91B49BCB475C85CE71A07B6.ContainsKey(4))
-ISpace["MF_d1_TravelType"].Value = resultA12A0256E91B49BCB475C85CE71A07B6[4];
 if(resultA12A0256E91B49BCB475C85CE71A07B6.ContainsKey(10))
 ISpace["MF_d1_BankName"].Value = resultA12A0256E91B49BCB475C85CE71A07B6[10];
 if(resultA12A0256E91B49BCB475C85CE71A07B6.ContainsKey(2))
@@ -2854,7 +2882,7 @@ if(resultA12A0256E91B49BCB475C85CE71A07B6.ContainsKey(0))
 ISpace["MF_d1_TravelAdvanceID"].Value = resultA12A0256E91B49BCB475C85CE71A07B6[0];
 }
 else{
-ISpace["MF_d1_PITransactionDate"].Value = null;ISpace["MF_d1_CreatedOn"].Value = null;ISpace["MF_d1_TSTransactionDate"].Value = null;ISpace["MF_d1_TransactionDate"].Value = null;ISpace["MF_d1_BankDocument"].Value = null;ISpace["MF_d1_CreatedBy"].Value = null;ISpace["MF_d1_AdvanceAmount"].Value = null;ISpace["MF_d1_TSAmount"].Value = null;ISpace["MF_d1_TotalAmount"].Value = null;ISpace["MF_d1_TransactionNo"].Value = null;ISpace["MF_d1_TravelType"].Value = null;ISpace["MF_d1_BankName"].Value = null;ISpace["MF_d1_ReferenceNo"].Value = null;ISpace["MF_d1_TSTransactionNo"].Value = null;ISpace["MF_d1_JourneyPurpose"].Value = null;ISpace["MF_d1_IsAdvanceRequired"].Value = null;ISpace["MF_d1_AccountNo"].Value = null;ISpace["MF_d1_IFSCCode"].Value = null;ISpace["MF_d1_EmployeeBasicInfoId"].Value = null;ISpace["MF_d1_PaymentRemittenceTo"].Value = null;ISpace["MF_d1_PITransactionNo"].Value = null;ISpace["MF_d1_BeneficiaryName"].Value = null;ISpace["MF_d1_TravelStatus"].Value = null;ISpace["MF_d1_TravelPlace"].Value = null;ISpace["MF_d1_TSStatus"].Value = null;ISpace["MF_d1_TravelAdvanceID"].Value = null;
+ISpace["MF_d1_PITransactionDate"].Value = null;ISpace["MF_d1_CreatedOn"].Value = null;ISpace["MF_d1_TSTransactionDate"].Value = null;ISpace["MF_d1_TransactionDate"].Value = null;ISpace["MF_d1_TravelType"].Value = null;ISpace["MF_d1_BankDocument"].Value = null;ISpace["MF_d1_CreatedBy"].Value = null;ISpace["MF_d1_AdvanceAmount"].Value = null;ISpace["MF_d1_TSAmount"].Value = null;ISpace["MF_d1_TotalAmount"].Value = null;ISpace["MF_d1_TransactionNo"].Value = null;ISpace["MF_d1_BankName"].Value = null;ISpace["MF_d1_ReferenceNo"].Value = null;ISpace["MF_d1_TSTransactionNo"].Value = null;ISpace["MF_d1_JourneyPurpose"].Value = null;ISpace["MF_d1_IsAdvanceRequired"].Value = null;ISpace["MF_d1_AccountNo"].Value = null;ISpace["MF_d1_IFSCCode"].Value = null;ISpace["MF_d1_EmployeeBasicInfoId"].Value = null;ISpace["MF_d1_PaymentRemittenceTo"].Value = null;ISpace["MF_d1_PITransactionNo"].Value = null;ISpace["MF_d1_BeneficiaryName"].Value = null;ISpace["MF_d1_TravelStatus"].Value = null;ISpace["MF_d1_TravelPlace"].Value = null;ISpace["MF_d1_TSStatus"].Value = null;ISpace["MF_d1_TravelAdvanceID"].Value = null;
 }
 
 var querySourceDA439285F85F4AA6815ECCAD8ADBC5EB =GetQueryExpressionDataSource("DA439285-F85F-4AA6-815E-CCAD8ADBC5EB");
@@ -3071,23 +3099,23 @@ if(resultE66769EAD7F24E8EAEE5A3238B58DB25.ContainsKey(3))
 ISpace["MFG_d3_ToDate"].Value = resultE66769EAD7F24E8EAEE5A3238B58DB25[3];
 if(resultE66769EAD7F24E8EAEE5A3238B58DB25.ContainsKey(2))
 ISpace["MFG_d3_FromDate"].Value = resultE66769EAD7F24E8EAEE5A3238B58DB25[2];
-if(resultE66769EAD7F24E8EAEE5A3238B58DB25.ContainsKey(4))
-ISpace["MFG_d3_Amount"].Value = resultE66769EAD7F24E8EAEE5A3238B58DB25[4];
-if(resultE66769EAD7F24E8EAEE5A3238B58DB25.ContainsKey(5))
-ISpace["MFG_d3_UpdatedBy"].Value = resultE66769EAD7F24E8EAEE5A3238B58DB25[5];
-if(resultE66769EAD7F24E8EAEE5A3238B58DB25.ContainsKey(9))
-ISpace["MFG_d3_IsTravelRequest"].Value = resultE66769EAD7F24E8EAEE5A3238B58DB25[9];
 if(resultE66769EAD7F24E8EAEE5A3238B58DB25.ContainsKey(7))
 ISpace["MFG_d3_ExpenditureType"].Value = resultE66769EAD7F24E8EAEE5A3238B58DB25[7];
+if(resultE66769EAD7F24E8EAEE5A3238B58DB25.ContainsKey(4))
+ISpace["MFG_d3_Amount"].Value = resultE66769EAD7F24E8EAEE5A3238B58DB25[4];
+if(resultE66769EAD7F24E8EAEE5A3238B58DB25.ContainsKey(9))
+ISpace["MFG_d3_IsTravelRequest"].Value = resultE66769EAD7F24E8EAEE5A3238B58DB25[9];
+if(resultE66769EAD7F24E8EAEE5A3238B58DB25.ContainsKey(5))
+ISpace["MFG_d3_UpdatedBy"].Value = resultE66769EAD7F24E8EAEE5A3238B58DB25[5];
+if(resultE66769EAD7F24E8EAEE5A3238B58DB25.ContainsKey(8))
+ISpace["MFG_d3_OtherExpenditureType"].Value = resultE66769EAD7F24E8EAEE5A3238B58DB25[8];
 if(resultE66769EAD7F24E8EAEE5A3238B58DB25.ContainsKey(0))
 ISpace["MFG_d3_ExpenditureTypeID"].Value = resultE66769EAD7F24E8EAEE5A3238B58DB25[0];
 if(resultE66769EAD7F24E8EAEE5A3238B58DB25.ContainsKey(1))
 ISpace["MFG_d3_TravelAdvanceID"].Value = resultE66769EAD7F24E8EAEE5A3238B58DB25[1];
-if(resultE66769EAD7F24E8EAEE5A3238B58DB25.ContainsKey(8))
-ISpace["MFG_d3_OtherExpenditureType"].Value = resultE66769EAD7F24E8EAEE5A3238B58DB25[8];
 }
 else{
-ISpace["MFG_d3_UpdatedOn"].Value = null;ISpace["MFG_d3_ToDate"].Value = null;ISpace["MFG_d3_FromDate"].Value = null;ISpace["MFG_d3_Amount"].Value = null;ISpace["MFG_d3_UpdatedBy"].Value = null;ISpace["MFG_d3_IsTravelRequest"].Value = null;ISpace["MFG_d3_ExpenditureType"].Value = null;ISpace["MFG_d3_ExpenditureTypeID"].Value = null;ISpace["MFG_d3_TravelAdvanceID"].Value = null;ISpace["MFG_d3_OtherExpenditureType"].Value = null;
+ISpace["MFG_d3_UpdatedOn"].Value = null;ISpace["MFG_d3_ToDate"].Value = null;ISpace["MFG_d3_FromDate"].Value = null;ISpace["MFG_d3_ExpenditureType"].Value = null;ISpace["MFG_d3_Amount"].Value = null;ISpace["MFG_d3_IsTravelRequest"].Value = null;ISpace["MFG_d3_UpdatedBy"].Value = null;ISpace["MFG_d3_OtherExpenditureType"].Value = null;ISpace["MFG_d3_ExpenditureTypeID"].Value = null;ISpace["MFG_d3_TravelAdvanceID"].Value = null;
 }
 }
 catch(Exception ex)
@@ -3477,35 +3505,35 @@ if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(15))
 ISpace["MFG_d2_UpdatedOn"].Value = result1ECA577C1B9946409E4893B3CA7B355F[15];
 if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(6))
 ISpace["MFG_d2_ArrivalDate"].Value = result1ECA577C1B9946409E4893B3CA7B355F[6];
-if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(14))
-ISpace["MFG_d2_UpdatedBy"].Value = result1ECA577C1B9946409E4893B3CA7B355F[14];
+if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(9))
+ISpace["MFG_d2_JourneyClass"].Value = result1ECA577C1B9946409E4893B3CA7B355F[9];
+if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(8))
+ISpace["MFG_d2_ModeofJourney"].Value = result1ECA577C1B9946409E4893B3CA7B355F[8];
 if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(10))
 ISpace["MFG_d2_Road"].Value = result1ECA577C1B9946409E4893B3CA7B355F[10];
 if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(13))
 ISpace["MFG_d2_IsTravelRequest"].Value = result1ECA577C1B9946409E4893B3CA7B355F[13];
 if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(12))
 ISpace["MFG_d2_Amount"].Value = result1ECA577C1B9946409E4893B3CA7B355F[12];
+if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(14))
+ISpace["MFG_d2_UpdatedBy"].Value = result1ECA577C1B9946409E4893B3CA7B355F[14];
+if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(0))
+ISpace["MFG_d2_TADetailsID"].Value = result1ECA577C1B9946409E4893B3CA7B355F[0];
+if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(11))
+ISpace["MFG_d2_PNRNo"].Value = result1ECA577C1B9946409E4893B3CA7B355F[11];
+if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(5))
+ISpace["MFG_d2_Arrival"].Value = result1ECA577C1B9946409E4893B3CA7B355F[5];
+if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(1))
+ISpace["MFG_d2_TravelAdvanceID"].Value = result1ECA577C1B9946409E4893B3CA7B355F[1];
 if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(2))
 ISpace["MFG_d2_Departure"].Value = result1ECA577C1B9946409E4893B3CA7B355F[2];
 if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(4))
 ISpace["MFG_d2_DepartureTime"].Value = result1ECA577C1B9946409E4893B3CA7B355F[4];
 if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(7))
 ISpace["MFG_d2_ArrivalTime"].Value = result1ECA577C1B9946409E4893B3CA7B355F[7];
-if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(8))
-ISpace["MFG_d2_ModeofJourney"].Value = result1ECA577C1B9946409E4893B3CA7B355F[8];
-if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(0))
-ISpace["MFG_d2_TADetailsID"].Value = result1ECA577C1B9946409E4893B3CA7B355F[0];
-if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(11))
-ISpace["MFG_d2_PNRNo"].Value = result1ECA577C1B9946409E4893B3CA7B355F[11];
-if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(9))
-ISpace["MFG_d2_JourneyClass"].Value = result1ECA577C1B9946409E4893B3CA7B355F[9];
-if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(5))
-ISpace["MFG_d2_Arrival"].Value = result1ECA577C1B9946409E4893B3CA7B355F[5];
-if(result1ECA577C1B9946409E4893B3CA7B355F.ContainsKey(1))
-ISpace["MFG_d2_TravelAdvanceID"].Value = result1ECA577C1B9946409E4893B3CA7B355F[1];
 }
 else{
-ISpace["MFG_d2_DepartureDate"].Value = null;ISpace["MFG_d2_UpdatedOn"].Value = null;ISpace["MFG_d2_ArrivalDate"].Value = null;ISpace["MFG_d2_UpdatedBy"].Value = null;ISpace["MFG_d2_Road"].Value = null;ISpace["MFG_d2_IsTravelRequest"].Value = null;ISpace["MFG_d2_Amount"].Value = null;ISpace["MFG_d2_Departure"].Value = null;ISpace["MFG_d2_DepartureTime"].Value = null;ISpace["MFG_d2_ArrivalTime"].Value = null;ISpace["MFG_d2_ModeofJourney"].Value = null;ISpace["MFG_d2_TADetailsID"].Value = null;ISpace["MFG_d2_PNRNo"].Value = null;ISpace["MFG_d2_JourneyClass"].Value = null;ISpace["MFG_d2_Arrival"].Value = null;ISpace["MFG_d2_TravelAdvanceID"].Value = null;
+ISpace["MFG_d2_DepartureDate"].Value = null;ISpace["MFG_d2_UpdatedOn"].Value = null;ISpace["MFG_d2_ArrivalDate"].Value = null;ISpace["MFG_d2_JourneyClass"].Value = null;ISpace["MFG_d2_ModeofJourney"].Value = null;ISpace["MFG_d2_Road"].Value = null;ISpace["MFG_d2_IsTravelRequest"].Value = null;ISpace["MFG_d2_Amount"].Value = null;ISpace["MFG_d2_UpdatedBy"].Value = null;ISpace["MFG_d2_TADetailsID"].Value = null;ISpace["MFG_d2_PNRNo"].Value = null;ISpace["MFG_d2_Arrival"].Value = null;ISpace["MFG_d2_TravelAdvanceID"].Value = null;ISpace["MFG_d2_Departure"].Value = null;ISpace["MFG_d2_DepartureTime"].Value = null;ISpace["MFG_d2_ArrivalTime"].Value = null;
 }
 }
 catch(Exception ex)

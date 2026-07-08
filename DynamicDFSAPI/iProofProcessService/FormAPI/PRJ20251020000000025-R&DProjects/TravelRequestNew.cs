@@ -294,7 +294,7 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("FWFM_ProjectNo","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
-												     @"EXEC GetProjectExtensionDetails 1,'@PFMF_UserId'"),
+												     @"EXEC GetProjectNoCombo 1,'@PFMF_UserId'"),
 			
 						
 			     new Triplet<string, string, string>("MF_d1_TravelType","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
@@ -2679,9 +2679,9 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 
 return;");
 }
-if(ISpace["MFG_d2_ArrivalDate"].Value<=ISpace["MFG_d2_DepartureDate"].Value)
+if(ISpace["MFG_d2_ArrivalDate"].Value<ISpace["MFG_d2_DepartureDate"].Value)
 {
-base.WriteDebugInfo(@"if(ISpace[""MFG_d2_ArrivalDate""].Value<=ISpace[""MFG_d2_DepartureDate""].Value)");
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_ArrivalDate""].Value<ISpace[""MFG_d2_DepartureDate""].Value)");
 ISpace["Message"].Value=@"Error: Arrival Date Should be greater than Departure Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Arrival Date Should be greater than Departure Date"";");
 ISpace["IsCancelled"].Value = true; 
@@ -2696,6 +2696,18 @@ if(ISpace["MFG_d2_Amount"].Value==0)
 base.WriteDebugInfo(@"if(ISpace[""MFG_d2_Amount""].Value==0)");
 ISpace["Message"].Value=@"Error: Please Enter the Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please Enter the Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MFG_d2_Arrival"].Value==ISpace["MFG_d2_Departure"].Value)
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_Arrival""].Value==ISpace[""MFG_d2_Departure""].Value)");
+ISpace["Message"].Value=@"Error: Departure and Arrival Place Must not be same";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Departure and Arrival Place Must not be same"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -2878,18 +2890,50 @@ base.WriteDebugInfo(@"SubmitForm-OnClick");
 if(ISpace["MF_d1_TravelType"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_TravelType""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please select Travel Type";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please select Travel Type"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MF_d1_TravelPlace"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_TravelPlace""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please enter the Travel Place";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please enter the Travel Place"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MF_d1_JourneyPurpose"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_JourneyPurpose""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please Enter the Purpose of Journey";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please Enter the Purpose of Journey"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MF_d1_IsAdvanceRequired"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please Select Is Advance Required";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please Select Is Advance Required"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MF_d1_IsAdvanceRequired"].Value=="Yes")
 {
@@ -2897,7 +2941,27 @@ base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value==""Yes"")");
 if(ISpace["MF_d1_AdvanceAmount"].Value==0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_AdvanceAmount""].Value==0)");
+ISpace["Message"].Value=@"Please Enter the Advance Amount";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Advance Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
+}
+if(ISpace["MF_FundTotal"].Value!=ISpace["MF_d1_TotalAmount"].Value)
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_FundTotal""].Value!=ISpace[""MF_d1_TotalAmount""].Value)");
+ISpace["Message"].Value=@"Error: Total Fund Amount and Total Amount must be Equal";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Total Fund Amount and Total Amount must be Equal"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["WF_FlowType"].Value=="APPROVE")
 {
@@ -5509,9 +5573,9 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 
 return;");
 }
-if(ISpace["MFG_d2_ArrivalDate"].Value<=ISpace["MFG_d2_DepartureDate"].Value)
+if(ISpace["MFG_d2_ArrivalDate"].Value<ISpace["MFG_d2_DepartureDate"].Value)
 {
-base.WriteDebugInfo(@"if(ISpace[""MFG_d2_ArrivalDate""].Value<=ISpace[""MFG_d2_DepartureDate""].Value)");
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_ArrivalDate""].Value<ISpace[""MFG_d2_DepartureDate""].Value)");
 ISpace["Message"].Value=@"Error: Arrival Date Should be greater than Departure Date";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Arrival Date Should be greater than Departure Date"";");
 ISpace["IsCancelled"].Value = true; 
@@ -5526,6 +5590,18 @@ if(ISpace["MFG_d2_Amount"].Value==0)
 base.WriteDebugInfo(@"if(ISpace[""MFG_d2_Amount""].Value==0)");
 ISpace["Message"].Value=@"Error: Please Enter the Amount";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please Enter the Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MFG_d2_Arrival"].Value==ISpace["MFG_d2_Departure"].Value)
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_Arrival""].Value==ISpace[""MFG_d2_Departure""].Value)");
+ISpace["Message"].Value=@"Error: Departure and Arrival Place Must not be same";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Departure and Arrival Place Must not be same"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -5708,18 +5784,50 @@ base.WriteDebugInfo(@"SubmitForm-OnClick");
 if(ISpace["MF_d1_TravelType"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_TravelType""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please select Travel Type";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please select Travel Type"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MF_d1_TravelPlace"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_TravelPlace""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please enter the Travel Place";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please enter the Travel Place"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MF_d1_JourneyPurpose"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_JourneyPurpose""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please Enter the Purpose of Journey";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please Enter the Purpose of Journey"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MF_d1_IsAdvanceRequired"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please Select Is Advance Required";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please Select Is Advance Required"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["MF_d1_IsAdvanceRequired"].Value=="Yes")
 {
@@ -5727,7 +5835,27 @@ base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value==""Yes"")");
 if(ISpace["MF_d1_AdvanceAmount"].Value==0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_AdvanceAmount""].Value==0)");
+ISpace["Message"].Value=@"Please Enter the Advance Amount";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Advance Amount"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
+}
+if(ISpace["MF_FundTotal"].Value!=ISpace["MF_d1_TotalAmount"].Value)
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_FundTotal""].Value!=ISpace[""MF_d1_TotalAmount""].Value)");
+ISpace["Message"].Value=@"Error: Total Fund Amount and Total Amount must be Equal";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Total Fund Amount and Total Amount must be Equal"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
 }
 if(ISpace["WF_FlowType"].Value=="APPROVE")
 {
