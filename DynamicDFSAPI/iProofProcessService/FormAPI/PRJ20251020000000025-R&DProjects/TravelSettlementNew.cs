@@ -435,6 +435,10 @@ namespace CPS.Proof.DFSExtension
 							virtualInstance=new ISpaceAF9613E108AC4C90B5AD8A0678BD0D92();
 							break;
 					
+											case "ef50e1fb-78ab-345b-f630-ec77222127ca":
+							virtualInstance=new ISpaceef50e1fb78ab345bf630ec77222127ca();
+							break;
+					
 					
 					default:
 						break;
@@ -2762,9 +2766,15 @@ ISpace["WMF_InstanceId"].Value=ISpace["gv_instanceid"].Value;
 base.WriteDebugInfo(@"ISpace[""WMF_InstanceId""].Value=ISpace[""gv_instanceid""].Value;");
 if(ISpace["FormVersionId"].Value=="5EC1F0DF-8850-4210-ADF0-87EF9BDCB734")
 {
+ISpace["UI_PFHideRow"].Visible="false";
+}if(ISpace["FormVersionId"].Value=="5EC1F0DF-8850-4210-ADF0-87EF9BDCB734")
+{
 ISpace["UI_ApprovalHideRow"].Visible="false";
 }
 base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""5EC1F0DF-8850-4210-ADF0-87EF9BDCB734"")
+{
+ISpace[""UI_PFHideRow""].Visible=""false"";
+}if(ISpace[""FormVersionId""].Value==""5EC1F0DF-8850-4210-ADF0-87EF9BDCB734"")
 {
 ISpace[""UI_ApprovalHideRow""].Visible=""false"";
 }");
@@ -3043,12 +3053,60 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_mfg_d3_expendituretype (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MFG_d3_ExpenditureType-OnChange");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+if(ISpace["MFG_d3_ExpenditureType"].Value=="1045")
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d3_ExpenditureType""].Value==""1045"")");
+ISpace["MFG_d3_OtherExpenditureType"].Visible="true";ISpace["MFG_d3_OtherExpenditureType"].Man=true;
+base.WriteDebugInfo(@"ISpace[""MFG_d3_OtherExpenditureType""].Visible=""true"";ISpace[""MFG_d3_OtherExpenditureType""].Man=true;");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["MFG_d3_OtherExpenditureType"].Visible="false";ISpace["MFG_d3_OtherExpenditureType"].Man=false;
+base.WriteDebugInfo(@"ISpace[""MFG_d3_OtherExpenditureType""].Visible=""false"";ISpace[""MFG_d3_OtherExpenditureType""].Man=false;");
+ISpace["MFG_d3_OtherExpenditureType"].Value="";
+base.WriteDebugInfo(@"ISpace[""MFG_d3_OtherExpenditureType""].Value="""";");
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_save_actualexpensedetails (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"Save_ActualExpenseDetails-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+if(ISpace["MFG_d3_ToDate"].Value<ISpace["MFG_d3_FromDate"].Value)
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d3_ToDate""].Value<ISpace[""MFG_d3_FromDate""].Value)");
+ISpace["Message"].Value=@"ERROR:To Date should be greater than From Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:To Date should be greater than From Date"";");
+ISpace["MFG_d3_ToDate"].Value=null;
+base.WriteDebugInfo(@"ISpace[""MFG_d3_ToDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
 if(ISpace["growid"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""growid""].Value=="""")");
@@ -3085,6 +3143,14 @@ List<Triplet<string, short, short?>> result7C43A884FC3143E2A4ADE41C918D2F43=acda
 iSpace.SetGridData(resultAF669D29F63D48B397FF02224E901479,result7C43A884FC3143E2A4ADE41C918D2F43,"ActualExpenseDetails",ref ISpace);
 iSpace.UpdateGridBindDetails("ActualExpenseDetails",result7C43A884FC3143E2A4ADE41C918D2F43);
 }
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+object MG_d3_Amount=iSpace.Sum("[7DC7A3E8-9FDF-4C75-9F83-FEC89BA524E4]","MG_d3_Amount","",ISpace["gv_instanceid"].Value);
+ISpace["MF_ActualOtherExpense"].Value=Convert.ChangeType(MG_d3_Amount, MG_d3_Amount.GetType());;
+base.WriteDebugInfo(@"object MG_d3_Amount=iSpace.Sum(""[7DC7A3E8-9FDF-4C75-9F83-FEC89BA524E4]"",""MG_d3_Amount"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_ActualOtherExpense""].Value=Convert.ChangeType(MG_d3_Amount, MG_d3_Amount.GetType());;");
+}
 ISpace["growid"].Value="";
 base.WriteDebugInfo(@"ISpace[""growid""].Value="""";");
 ISpace["MFG_d3_ExpenditureTypeID"].Value="";
@@ -3107,6 +3173,14 @@ ISpace["MFG_d3_OtherExpenditureType"].Value="";
 base.WriteDebugInfo(@"ISpace[""MFG_d3_OtherExpenditureType""].Value="""";");
 ISpace["MFG_d3_IsTravelRequest"].Value="";
 base.WriteDebugInfo(@"ISpace[""MFG_d3_IsTravelRequest""].Value="""";");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["MF_d1_TotalAmount"].Value=ISpace["MF_ActualTravelExpense"].Value+ISpace["MF_ActualOtherExpense"].Value;
+base.WriteDebugInfo(@"ISpace[""MF_d1_TotalAmount""].Value=ISpace[""MF_ActualTravelExpense""].Value+ISpace[""MF_ActualOtherExpense""].Value;");
+ISpace["MF_SettlementAmount"].Value=ISpace["MF_d1_TotalAmount"].Value-ISpace["MF_AdvanceCollected"].Value;
+base.WriteDebugInfo(@"ISpace[""MF_SettlementAmount""].Value=ISpace[""MF_d1_TotalAmount""].Value-ISpace[""MF_AdvanceCollected""].Value;");
+}
 }
 catch(Exception ex)
 {
@@ -3239,6 +3313,38 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"Save_ActualAdvanceDetails-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+if(ISpace["MFG_d2_Departure"].Value==ISpace["MFG_d2_Arrival"].Value)
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_Departure""].Value==ISpace[""MFG_d2_Arrival""].Value)");
+ISpace["Message"].Value=@"ERROR:Arrival Station and Departure Station can""t be same.";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Arrival Station and Departure Station can""""t be same."";");
+ISpace["MFG_d2_Arrival"].Value=null;
+base.WriteDebugInfo(@"ISpace[""MFG_d2_Arrival""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["MFG_d2_ArrivalDate"].Value<ISpace["MFG_d2_DepartureDate"].Value)
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_ArrivalDate""].Value<ISpace[""MFG_d2_DepartureDate""].Value)");
+ISpace["Message"].Value=@"ERROR:Arrival Date should be greater than Departure Date";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Arrival Date should be greater than Departure Date"";");
+ISpace["MFG_d2_ArrivalDate"].Value=null;
+base.WriteDebugInfo(@"ISpace[""MFG_d2_ArrivalDate""].Value=null;");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
 if(ISpace["growid"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""growid""].Value=="""")");
@@ -3275,6 +3381,14 @@ List<Triplet<string, short, short?>> result4271EF3857134A9AB23998C593F3257F=acda
 iSpace.SetGridData(result9057B26B58804FC0B20E1099AFBF96BA,result4271EF3857134A9AB23998C593F3257F,"ActualAdvanceDetails",ref ISpace);
 iSpace.UpdateGridBindDetails("ActualAdvanceDetails",result4271EF3857134A9AB23998C593F3257F);
 }
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+object MG_d2_Amount=iSpace.Sum("[CDCED39A-D76C-4204-9A70-C637DD092E54]","MG_d2_Amount","",ISpace["gv_instanceid"].Value);
+ISpace["MF_ActualTravelExpense"].Value=Convert.ChangeType(MG_d2_Amount, MG_d2_Amount.GetType());;
+base.WriteDebugInfo(@"object MG_d2_Amount=iSpace.Sum(""[CDCED39A-D76C-4204-9A70-C637DD092E54]"",""MG_d2_Amount"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_ActualTravelExpense""].Value=Convert.ChangeType(MG_d2_Amount, MG_d2_Amount.GetType());;");
+}
 ISpace["growid"].Value="";
 base.WriteDebugInfo(@"ISpace[""growid""].Value="""";");
 ISpace["MFG_d2_TADetailsID"].Value="";
@@ -3309,6 +3423,14 @@ ISpace["MFG_d2_UpdatedBy"].Value="";
 base.WriteDebugInfo(@"ISpace[""MFG_d2_UpdatedBy""].Value="""";");
 ISpace["MFG_d2_UpdatedOn"].Value="";
 base.WriteDebugInfo(@"ISpace[""MFG_d2_UpdatedOn""].Value="""";");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["MF_d1_TotalAmount"].Value=ISpace["MF_ActualTravelExpense"].Value+ISpace["MF_ActualOtherExpense"].Value;
+base.WriteDebugInfo(@"ISpace[""MF_d1_TotalAmount""].Value=ISpace[""MF_ActualTravelExpense""].Value+ISpace[""MF_ActualOtherExpense""].Value;");
+ISpace["MF_SettlementAmount"].Value=ISpace["MF_d1_TotalAmount"].Value-ISpace["MF_AdvanceCollected"].Value;
+base.WriteDebugInfo(@"ISpace[""MF_SettlementAmount""].Value=ISpace[""MF_d1_TotalAmount""].Value-ISpace[""MF_AdvanceCollected""].Value;");
+}
 }
 catch(Exception ex)
 {
@@ -3529,6 +3651,36 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_mfg_d2_modeofjourney (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MFG_d2_ModeofJourney-OnChange");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["MFG_d2_JourneyClass"].rElemData=iSpace.Reload(ISpace["MFG_d2_JourneyClass"].Value,@"EXEC GetTravelAdvanceDetailCombo 17,''","3A103712-5244-4427-B2B6-1C4E046FD337");
+base.WriteDebugInfo(@"ISpace[""MFG_d2_JourneyClass""].rElemData=iSpace.Reload(ISpace[""MFG_d2_JourneyClass""].Value,@""EXEC GetTravelAdvanceDetailCombo 17,''"",""3A103712-5244-4427-B2B6-1C4E046FD337"");");
+if(ISpace["MFG_d2_ModeofJourney"].Value=="477")
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_ModeofJourney""].Value==""477"")");
+ISpace["MFG_d2_Road"].Visible="true";ISpace["MFG_d2_Road"].Man=true;ISpace["MFG_d2_PNRNo"].Visible="false";ISpace["MFG_d2_PNRNo"].Man=false;
+base.WriteDebugInfo(@"ISpace[""MFG_d2_Road""].Visible=""true"";ISpace[""MFG_d2_Road""].Man=true;ISpace[""MFG_d2_PNRNo""].Visible=""false"";ISpace[""MFG_d2_PNRNo""].Man=false;");
+}
+}
+if(ISpace["MFG_d2_ModeofJourney"].Value=="478"||ISpace["MFG_d2_ModeofJourney"].Value=="479")
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_ModeofJourney""].Value==""478""||ISpace[""MFG_d2_ModeofJourney""].Value==""479"")");
+ISpace["MFG_d2_Road"].Visible="false";ISpace["MFG_d2_Road"].Man=false;ISpace["MFG_d2_PNRNo"].Visible="true";ISpace["MFG_d2_PNRNo"].Man=true;
+base.WriteDebugInfo(@"ISpace[""MFG_d2_Road""].Visible=""false"";ISpace[""MFG_d2_Road""].Man=false;ISpace[""MFG_d2_PNRNo""].Visible=""true"";ISpace[""MFG_d2_PNRNo""].Man=true;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_pfa_delete (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -3717,6 +3869,10 @@ public override void ExecuteMethod
     {
     			SubscribeElementEvents_fwfm_fundtype(ref dfsParam);
     }
+		if(elementName.ToLower().Equals("mfg_d3_expendituretype"))
+    {
+    			SubscribeElementEvents_mfg_d3_expendituretype(ref dfsParam);
+    }
 		if(elementName.ToLower().Equals("wmf_moveto"))
     {
     			SubscribeElementEvents_wmf_moveto(ref dfsParam);
@@ -3724,6 +3880,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("r_referenceno"))
     {
     			SubscribeElementEvents_r_referenceno(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mfg_d2_modeofjourney"))
+    {
+    			SubscribeElementEvents_mfg_d2_modeofjourney(ref dfsParam);
     }
 }
 	if(methodName.ToLower().Equals("onclick"))
@@ -3797,6 +3957,158 @@ namespace CPS.Proof.DFSExtension
 }
 namespace CPS.Proof.DFSExtension
 {
+
+using System.Collections.Generic;
+using System;
+using CPS.Proof.DFSExtension;
+using System.Linq;using System.Data;
+using System.Runtime.CompilerServices;
+public class ISpaceef50e1fb78ab345bf630ec77222127ca : VirtualForm
+{
+IISpace iSpace = new ISpace();
+AcDataISpaceef50e1fb78ab345bf630ec77222127ca acdataIspaceef50e1fb78ab345bf630ec77222127ca=new AcDataISpaceef50e1fb78ab345bf630ec77222127ca();
+private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
+{
+try
+{
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mfg_d3_expendituretype (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MFG_d3_ExpenditureType-OnChange");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+if(ISpace["MFG_d3_ExpenditureType"].Value=="1045")
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d3_ExpenditureType""].Value==""1045"")");
+ISpace["MFG_d3_OtherExpenditureType"].Visible="true";ISpace["MFG_d3_OtherExpenditureType"].Man=true;
+base.WriteDebugInfo(@"ISpace[""MFG_d3_OtherExpenditureType""].Visible=""true"";ISpace[""MFG_d3_OtherExpenditureType""].Man=true;");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["MFG_d3_OtherExpenditureType"].Visible="false";ISpace["MFG_d3_OtherExpenditureType"].Man=false;
+base.WriteDebugInfo(@"ISpace[""MFG_d3_OtherExpenditureType""].Visible=""false"";ISpace[""MFG_d3_OtherExpenditureType""].Man=false;");
+ISpace["MFG_d3_OtherExpenditureType"].Value="";
+base.WriteDebugInfo(@"ISpace[""MFG_d3_OtherExpenditureType""].Value="""";");
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_save_actualexpensedetails (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"Save_ActualExpenseDetails-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["MF_d1_TotalAmount"].Value=ISpace["MF_ActualTravelExpense"].Value+ISpace["MF_ActualOtherExpense"].Value;
+base.WriteDebugInfo(@"ISpace[""MF_d1_TotalAmount""].Value=ISpace[""MF_ActualTravelExpense""].Value+ISpace[""MF_ActualOtherExpense""].Value;");
+ISpace["MF_SettlementAmount"].Value=ISpace["MF_d1_TotalAmount"].Value-ISpace["MF_AdvanceCollected"].Value;
+base.WriteDebugInfo(@"ISpace[""MF_SettlementAmount""].Value=ISpace[""MF_d1_TotalAmount""].Value-ISpace[""MF_AdvanceCollected""].Value;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_save_actualadvancedetails (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"Save_ActualAdvanceDetails-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["MF_d1_TotalAmount"].Value=ISpace["MF_ActualTravelExpense"].Value+ISpace["MF_ActualOtherExpense"].Value;
+base.WriteDebugInfo(@"ISpace[""MF_d1_TotalAmount""].Value=ISpace[""MF_ActualTravelExpense""].Value+ISpace[""MF_ActualOtherExpense""].Value;");
+ISpace["MF_SettlementAmount"].Value=ISpace["MF_d1_TotalAmount"].Value-ISpace["MF_AdvanceCollected"].Value;
+base.WriteDebugInfo(@"ISpace[""MF_SettlementAmount""].Value=ISpace[""MF_d1_TotalAmount""].Value-ISpace[""MF_AdvanceCollected""].Value;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_mfg_d2_modeofjourney (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MFG_d2_ModeofJourney-OnChange");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["MFG_d2_JourneyClass"].rElemData=iSpace.Reload(ISpace["MFG_d2_JourneyClass"].Value,@"EXEC GetTravelAdvanceDetailCombo 17,''","3A103712-5244-4427-B2B6-1C4E046FD337");
+base.WriteDebugInfo(@"ISpace[""MFG_d2_JourneyClass""].rElemData=iSpace.Reload(ISpace[""MFG_d2_JourneyClass""].Value,@""EXEC GetTravelAdvanceDetailCombo 17,''"",""3A103712-5244-4427-B2B6-1C4E046FD337"");");
+if(ISpace["MFG_d2_ModeofJourney"].Value=="477")
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_ModeofJourney""].Value==""477"")");
+ISpace["MFG_d2_Road"].Visible="true";ISpace["MFG_d2_Road"].Man=true;ISpace["MFG_d2_PNRNo"].Visible="false";ISpace["MFG_d2_PNRNo"].Man=false;
+base.WriteDebugInfo(@"ISpace[""MFG_d2_Road""].Visible=""true"";ISpace[""MFG_d2_Road""].Man=true;ISpace[""MFG_d2_PNRNo""].Visible=""false"";ISpace[""MFG_d2_PNRNo""].Man=false;");
+}
+}
+if(ISpace["MFG_d2_ModeofJourney"].Value=="478"||ISpace["MFG_d2_ModeofJourney"].Value=="479")
+{
+base.WriteDebugInfo(@"if(ISpace[""MFG_d2_ModeofJourney""].Value==""478""||ISpace[""MFG_d2_ModeofJourney""].Value==""479"")");
+ISpace["MFG_d2_Road"].Visible="false";ISpace["MFG_d2_Road"].Man=false;ISpace["MFG_d2_PNRNo"].Visible="true";ISpace["MFG_d2_PNRNo"].Man=true;
+base.WriteDebugInfo(@"ISpace[""MFG_d2_Road""].Visible=""false"";ISpace[""MFG_d2_Road""].Man=false;ISpace[""MFG_d2_PNRNo""].Visible=""true"";ISpace[""MFG_d2_PNRNo""].Man=true;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+public override void ExecuteMethod
+	(string methodName, string elementName,
+		ref Dictionary<string, ServiceElementData> dfsParam)
+{
+	if(methodName.ToLower().Equals("formonload"))
+{
+			SubscribeFormEvents_root(ref dfsParam);
+}
+	if(methodName.ToLower().Equals("onchange"))
+{
+		if(elementName.ToLower().Equals("mfg_d3_expendituretype"))
+    {
+    			SubscribeElementEvents_mfg_d3_expendituretype(ref dfsParam);
+    }
+		if(elementName.ToLower().Equals("mfg_d2_modeofjourney"))
+    {
+    			SubscribeElementEvents_mfg_d2_modeofjourney(ref dfsParam);
+    }
+}
+	if(methodName.ToLower().Equals("onclick"))
+{
+		if(elementName.ToLower().Equals("save_actualexpensedetails"))
+{
+			SubscribeElementEvents_save_actualexpensedetails(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("save_actualadvancedetails"))
+{
+			SubscribeElementEvents_save_actualadvancedetails(ref dfsParam);
+}
+}
+}
+}
 }
 
   
