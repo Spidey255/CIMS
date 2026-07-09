@@ -53,7 +53,7 @@ const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
           className="mandatory-symbol"
           aria-hidden="true"
         >
-          {isMandatory && <span className="mandatory-icon">*</span>}
+          {isMandatory &&  !isGrid && (<span className="mandatory-icon">*</span>)}
         </span>
 
         <div id={`mc_${element.ElementName}`} className="controls">

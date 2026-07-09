@@ -112,8 +112,8 @@ const DefaultNumericTextBox: React.FC<DefaultNumericTextBoxProps> = ({
                     className="mandatory-symbol"
                     aria-hidden="true"
                   >
-                    {isMandatory && <span className="mandatory-icon">*</span>}
-                  </span>
+                    {isMandatory &&  !isGrid && (<span className="mandatory-icon">*</span>)}
+                  </span> 
 
           <span className="help">{element.DHelpText}</span>
 
