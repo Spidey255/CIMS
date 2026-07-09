@@ -208,6 +208,18 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
+			     new Triplet<string, string, string>("9133aa40-b5b5-96e5-4fc6-9212c7e9fe30","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("d7861157-224b-2b45-d8a6-11cbb35901e9","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("e8420ac7-b16a-6541-962f-4cdbd27cfe91","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
 			     new Triplet<string, string, string>("ef80d92e-3159-d029-50cc-f887f93cddd2","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -246,6 +258,18 @@ namespace CPS.Proof.DFSExtension
 						
 			     new Triplet<string, string, string>("9B9A263E-C6A3-4D51-B6C8-18D8E59AC1BF","Load Grid By IdActualAdvanceDetails",
 												     @"CDCED39A-D76C-4204-9A70-C637DD092E54"),
+			
+						
+			     new Triplet<string, string, string>("9133aa40-b5b5-96e5-4fc6-9212c7e9fe30","Load Travel Advance",
+												     @"f4c435ef-658d-ea4b-3047-12782c9508ca"),
+			
+						
+			     new Triplet<string, string, string>("d7861157-224b-2b45-d8a6-11cbb35901e9","Load Existing Fund Details",
+												     @"c018d17a-c198-7da2-f9a8-6701c434c1c3"),
+			
+						
+			     new Triplet<string, string, string>("e8420ac7-b16a-6541-962f-4cdbd27cfe91","Load Other Expenses",
+												     @"5cd6b407-a9ef-5a80-b97f-443d95733731"),
 			
 						
 			     new Triplet<string, string, string>("AF669D29-F63D-48B3-97FF-02224E901479","Grid BindingF",
@@ -3357,6 +3381,94 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_r_referenceno (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"R_ReferenceNo-OnChange");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [GetTravelSettlement] 1,'#R_ReferenceNo'");
+
+var querySourceef80d92e3159d02950ccf887f93cddd2 =GetQueryExpressionDataSource("ef80d92e-3159-d029-50cc-f887f93cddd2");
+Dictionary<short,object> resultef80d92e3159d02950ccf887f93cddd2=iSpace.ExecuteQuery(querySourceef80d92e3159d02950ccf887f93cddd2,@"EXEC [GetTravelSettlement] 1,'" + ISpace["R_ReferenceNo"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourceef80d92e3159d02950ccf887f93cddd2 =GetQueryExpressionDataSource(""ef80d92e-3159-d029-50cc-f887f93cddd2"");Dictionary<short,object> resultef80d92e3159d02950ccf887f93cddd2=iSpace.ExecuteQuery(querySourceef80d92e3159d02950ccf887f93cddd2,@""EXEC [GetTravelSettlement] 1,'"" + ISpace[""R_ReferenceNo""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultef80d92e3159d02950ccf887f93cddd2!=null) && (resultef80d92e3159d02950ccf887f93cddd2.Count!=0))
+{
+if(resultef80d92e3159d02950ccf887f93cddd2.ContainsKey(10))
+ISpace["MF_d1_TransactionDate"].Value = resultef80d92e3159d02950ccf887f93cddd2[10];
+if(resultef80d92e3159d02950ccf887f93cddd2.ContainsKey(3))
+ISpace["MF_d1_TravelType"].Value = resultef80d92e3159d02950ccf887f93cddd2[3];
+if(resultef80d92e3159d02950ccf887f93cddd2.ContainsKey(7))
+ISpace["MF_AdvanceCollected"].Value = resultef80d92e3159d02950ccf887f93cddd2[7];
+if(resultef80d92e3159d02950ccf887f93cddd2.ContainsKey(6))
+ISpace["MF_TotalRequested"].Value = resultef80d92e3159d02950ccf887f93cddd2[6];
+if(resultef80d92e3159d02950ccf887f93cddd2.ContainsKey(2))
+ISpace["MF_d1_JourneyPurpose"].Value = resultef80d92e3159d02950ccf887f93cddd2[2];
+if(resultef80d92e3159d02950ccf887f93cddd2.ContainsKey(5))
+ISpace["MF_d1_IsAdvanceRequired"].Value = resultef80d92e3159d02950ccf887f93cddd2[5];
+if(resultef80d92e3159d02950ccf887f93cddd2.ContainsKey(4))
+ISpace["MF_d1_TravelPlace"].Value = resultef80d92e3159d02950ccf887f93cddd2[4];
+if(resultef80d92e3159d02950ccf887f93cddd2.ContainsKey(9))
+ISpace["MF_d1_TransactionNo"].Value = resultef80d92e3159d02950ccf887f93cddd2[9];
+}
+else{
+ISpace["MF_d1_TransactionDate"].Value = null;ISpace["MF_d1_TravelType"].Value = null;ISpace["MF_AdvanceCollected"].Value = null;ISpace["MF_TotalRequested"].Value = null;ISpace["MF_d1_JourneyPurpose"].Value = null;ISpace["MF_d1_IsAdvanceRequired"].Value = null;ISpace["MF_d1_TravelPlace"].Value = null;ISpace["MF_d1_TransactionNo"].Value = null;
+}
+
+var querySourced7861157224b2b45d8a611cbb35901e9 =GetQueryExpressionDataSource("d7861157-224b-2b45-d8a6-11cbb35901e9");
+
+DataTable resultd7861157224b2b45d8a611cbb35901e9=iSpace.SetGridDataSource(querySourced7861157224b2b45d8a611cbb35901e9, _objectFactory.GetGridRPP("TRMG_FundDetails"),@"EXEC [GetTravelSettlement] 2,'" + ISpace["R_ReferenceNo"].Value + @"'");
+
+iSpace.InsertGridBindDetails("TRMG_FundDetails","11",querySourced7861157224b2b45d8a611cbb35901e9,"EXEC [GetTravelSettlement] 2,'" + ISpace["R_ReferenceNo"].Value + @"'",_objectFactory.GetGridRPP("TRMG_FundDetails"));
+
+base.WriteDebugInfo(@"var querySourced7861157224b2b45d8a611cbb35901e9 =GetQueryExpressionDataSource(""d7861157-224b-2b45-d8a6-11cbb35901e9"");DataTable resultd7861157224b2b45d8a611cbb35901e9=iSpace.SetGridDataSource(querySourced7861157224b2b45d8a611cbb35901e9, _objectFactory.GetGridRPP(""TRMG_FundDetails""),@""EXEC [GetTravelSettlement] 2,'"" + ISpace[""R_ReferenceNo""].Value + @""'"");iSpace.InsertGridBindDetails(""TRMG_FundDetails"",""11"",querySourced7861157224b2b45d8a611cbb35901e9,""EXEC [GetTravelSettlement] 2,'"" + ISpace[""R_ReferenceNo""].Value + @""'"",_objectFactory.GetGridRPP(""TRMG_FundDetails""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result41bda1f43fa7de9c7ca5ce3d21fa9eba=acdataIspaceAF9613E108AC4C90B5AD8A0678BD0D92.GetQueryExpressionBindings("41bda1f4-3fa7-de9c-7ca5-ce3d21fa9eba");
+iSpace.SetGridData(resultd7861157224b2b45d8a611cbb35901e9,result41bda1f43fa7de9c7ca5ce3d21fa9eba,"TRMG_FundDetails",ref ISpace);
+iSpace.UpdateGridBindDetails("TRMG_FundDetails",result41bda1f43fa7de9c7ca5ce3d21fa9eba);
+
+var querySourcee8420ac7b16a6541962f4cdbd27cfe91 =GetQueryExpressionDataSource("e8420ac7-b16a-6541-962f-4cdbd27cfe91");
+
+DataTable resulte8420ac7b16a6541962f4cdbd27cfe91=iSpace.SetGridDataSource(querySourcee8420ac7b16a6541962f4cdbd27cfe91, _objectFactory.GetGridRPP("TRMG_Expenses"),@"EXEC [GetTravelSettlement] 3,'" + ISpace["R_ReferenceNo"].Value + @"'");
+
+iSpace.InsertGridBindDetails("TRMG_Expenses","11",querySourcee8420ac7b16a6541962f4cdbd27cfe91,"EXEC [GetTravelSettlement] 3,'" + ISpace["R_ReferenceNo"].Value + @"'",_objectFactory.GetGridRPP("TRMG_Expenses"));
+
+base.WriteDebugInfo(@"var querySourcee8420ac7b16a6541962f4cdbd27cfe91 =GetQueryExpressionDataSource(""e8420ac7-b16a-6541-962f-4cdbd27cfe91"");DataTable resulte8420ac7b16a6541962f4cdbd27cfe91=iSpace.SetGridDataSource(querySourcee8420ac7b16a6541962f4cdbd27cfe91, _objectFactory.GetGridRPP(""TRMG_Expenses""),@""EXEC [GetTravelSettlement] 3,'"" + ISpace[""R_ReferenceNo""].Value + @""'"");iSpace.InsertGridBindDetails(""TRMG_Expenses"",""11"",querySourcee8420ac7b16a6541962f4cdbd27cfe91,""EXEC [GetTravelSettlement] 3,'"" + ISpace[""R_ReferenceNo""].Value + @""'"",_objectFactory.GetGridRPP(""TRMG_Expenses""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result35d2c62417a7f375afb53e36975a5c3b=acdataIspaceAF9613E108AC4C90B5AD8A0678BD0D92.GetQueryExpressionBindings("35d2c624-17a7-f375-afb5-3e36975a5c3b");
+iSpace.SetGridData(resulte8420ac7b16a6541962f4cdbd27cfe91,result35d2c62417a7f375afb53e36975a5c3b,"TRMG_Expenses",ref ISpace);
+iSpace.UpdateGridBindDetails("TRMG_Expenses",result35d2c62417a7f375afb53e36975a5c3b);
+
+var querySource9133aa40b5b596e54fc69212c7e9fe30 =GetQueryExpressionDataSource("9133aa40-b5b5-96e5-4fc6-9212c7e9fe30");
+
+DataTable result9133aa40b5b596e54fc69212c7e9fe30=iSpace.SetGridDataSource(querySource9133aa40b5b596e54fc69212c7e9fe30, _objectFactory.GetGridRPP("TRMG_TravelDetails"),@"EXEC [GetTravelSettlement] 4,'" + ISpace["R_ReferenceNo"].Value + @"'");
+
+iSpace.InsertGridBindDetails("TRMG_TravelDetails","11",querySource9133aa40b5b596e54fc69212c7e9fe30,"EXEC [GetTravelSettlement] 4,'" + ISpace["R_ReferenceNo"].Value + @"'",_objectFactory.GetGridRPP("TRMG_TravelDetails"));
+
+base.WriteDebugInfo(@"var querySource9133aa40b5b596e54fc69212c7e9fe30 =GetQueryExpressionDataSource(""9133aa40-b5b5-96e5-4fc6-9212c7e9fe30"");DataTable result9133aa40b5b596e54fc69212c7e9fe30=iSpace.SetGridDataSource(querySource9133aa40b5b596e54fc69212c7e9fe30, _objectFactory.GetGridRPP(""TRMG_TravelDetails""),@""EXEC [GetTravelSettlement] 4,'"" + ISpace[""R_ReferenceNo""].Value + @""'"");iSpace.InsertGridBindDetails(""TRMG_TravelDetails"",""11"",querySource9133aa40b5b596e54fc69212c7e9fe30,""EXEC [GetTravelSettlement] 4,'"" + ISpace[""R_ReferenceNo""].Value + @""'"",_objectFactory.GetGridRPP(""TRMG_TravelDetails""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result451293d701b58f3517a0d23e6c7fafa3=acdataIspaceAF9613E108AC4C90B5AD8A0678BD0D92.GetQueryExpressionBindings("451293d7-01b5-8f35-17a0-d23e6c7fafa3");
+iSpace.SetGridData(result9133aa40b5b596e54fc69212c7e9fe30,result451293d701b58f3517a0d23e6c7fafa3,"TRMG_TravelDetails",ref ISpace);
+iSpace.UpdateGridBindDetails("TRMG_TravelDetails",result451293d701b58f3517a0d23e6c7fafa3);
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_submitform (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -3609,6 +3721,10 @@ public override void ExecuteMethod
     {
     			SubscribeElementEvents_wmf_moveto(ref dfsParam);
     }
+		if(elementName.ToLower().Equals("r_referenceno"))
+    {
+    			SubscribeElementEvents_r_referenceno(ref dfsParam);
+    }
 }
 	if(methodName.ToLower().Equals("onclick"))
 {
@@ -3843,6 +3959,20 @@ using System;
 														   -1),
 								}
 			},
+							{"35d2c624-17a7-f375-afb5-3e36975a5c3b", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("ED_FromDate",2,
+														   -1),
+								   new Triplet<string, short, short?>("ED_Amount",4,
+														   -1),
+								   new Triplet<string, short, short?>("ED_ExpentitureType",5,
+														   -1),
+								   new Triplet<string, short, short?>("ED_ToDate",3,
+														   -1),
+								}
+			},
 							{"58EFF32D-D0CA-4464-8DB7-68C9010FA8B0", 
 				
 				new List<Triplet<string, short, short?>> {
@@ -3864,6 +3994,18 @@ using System;
 								   new Triplet<string, short, short?>("PFA_Amount",11,
 														   -1),
 								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
+														   -1),
+								}
+			},
+							{"41bda1f4-3fa7-de9c-7ca5-ce3d21fa9eba", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("FD_Amount",6,
+														   -1),
+								   new Triplet<string, short, short?>("FD_FundType",4,
+														   -1),
+								   new Triplet<string, short, short?>("FD_Description",5,
 														   -1),
 								}
 			},
@@ -3932,6 +4074,28 @@ using System;
 								   new Triplet<string, short, short?>("MG_d2_DepartureDate",3,
 														   -1),
 								   new Triplet<string, short, short?>("MG_d2_TravelAdvanceID",1,
+														   -1),
+								}
+			},
+							{"451293d7-01b5-8f35-17a0-d23e6c7fafa3", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("TD_ArrivalDate",5,
+														   -1),
+								   new Triplet<string, short, short?>("TD_Arrival",4,
+														   -1),
+								   new Triplet<string, short, short?>("TD_DepartureDate",2,
+														   -1),
+								   new Triplet<string, short, short?>("TD_ModeofJourney",7,
+														   -1),
+								   new Triplet<string, short, short?>("TD_JourneyClass",8,
+														   -1),
+								   new Triplet<string, short, short?>("TD_Departure",1,
+														   -1),
+								   new Triplet<string, short, short?>("TD_RoadKms",9,
+														   -1),
+								   new Triplet<string, short, short?>("TD_Amount",11,
 														   -1),
 								}
 			},
