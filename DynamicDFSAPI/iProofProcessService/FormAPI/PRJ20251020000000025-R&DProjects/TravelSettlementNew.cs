@@ -326,7 +326,7 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("R_ReferenceNo","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
-												     @"Exec GetTravelSettlement 5,'','@UC_EmployeeBaicInfoID'"),
+												     @"Exec GetTravelSettlement 5,'','@UC_EmployeeBaicInfoId'"),
 			
 						
 			     new Triplet<string, string, string>("MG_d2_ModeofJourney","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
