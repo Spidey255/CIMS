@@ -180,6 +180,10 @@ namespace CPS.Proof.DFSExtension
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
 						
+			     new Triplet<string, string, string>("5e37aeee-480f-3746-17c4-8cdda7cb1e4a","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
 			     new Triplet<string, string, string>("658407BF-CBFF-443B-AA60-4C126BC8B3CE","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
@@ -2652,6 +2656,42 @@ base.WriteDebugInfo(@"if(ISpace[""MFG_R2_ReceiptSplitUpId""].Value=="""")");
 ISpace["MFG_R2_ReceiptSplitUpId"].Value=Guid.NewGuid().ToString();
 base.WriteDebugInfo(@"ISpace[""MFG_R2_ReceiptSplitUpId""].Value=Guid.NewGuid().ToString();");
 }
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [ValidateFundReceiptGrid] '#MFG_R2_BudgetId','@@gv_InstanceId','#growid'");
+
+var querySource5e37aeee480f374617c48cdda7cb1e4a =GetQueryExpressionDataSource("5e37aeee-480f-3746-17c4-8cdda7cb1e4a");
+Dictionary<short,object> result5e37aeee480f374617c48cdda7cb1e4a=iSpace.ExecuteQuery(querySource5e37aeee480f374617c48cdda7cb1e4a,@"EXEC [ValidateFundReceiptGrid] '" + ISpace["MFG_R2_BudgetId"].Value + @"','" + ISpace["gv_instanceid"].Value + @"','" + ISpace["growid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource5e37aeee480f374617c48cdda7cb1e4a =GetQueryExpressionDataSource(""5e37aeee-480f-3746-17c4-8cdda7cb1e4a"");Dictionary<short,object> result5e37aeee480f374617c48cdda7cb1e4a=iSpace.ExecuteQuery(querySource5e37aeee480f374617c48cdda7cb1e4a,@""EXEC [ValidateFundReceiptGrid] '"" + ISpace[""MFG_R2_BudgetId""].Value + @""','"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""growid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result5e37aeee480f374617c48cdda7cb1e4a!=null) && (result5e37aeee480f374617c48cdda7cb1e4a.Count!=0))
+{
+if(result5e37aeee480f374617c48cdda7cb1e4a.ContainsKey(0))
+ISpace["M_BudgetErr"].Value = result5e37aeee480f374617c48cdda7cb1e4a[0];
+if(result5e37aeee480f374617c48cdda7cb1e4a.ContainsKey(1))
+ISpace["M_BudgetErrMsg"].Value = result5e37aeee480f374617c48cdda7cb1e4a[1];
+}
+else{
+ISpace["M_BudgetErr"].Value = null;ISpace["M_BudgetErrMsg"].Value = null;
+}
+if(ISpace["M_BudgetErr"].Value==1)
+{
+base.WriteDebugInfo(@"if(ISpace[""M_BudgetErr""].Value==1)");
+ISpace["M_BudgetErr"].Value=0;
+base.WriteDebugInfo(@"ISpace[""M_BudgetErr""].Value=0;");
+ISpace["Message"].Value=String.Format(@"{0}",ISpace["M_BudgetErrMsg"].Value);
+base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""M_BudgetErrMsg""].Value);");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
 if(ISpace["growid"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""growid""].Value=="""")");
@@ -4067,6 +4107,42 @@ if(ISpace["MFG_R2_ReceiptSplitUpId"].Value=="")
 base.WriteDebugInfo(@"if(ISpace[""MFG_R2_ReceiptSplitUpId""].Value=="""")");
 ISpace["MFG_R2_ReceiptSplitUpId"].Value=Guid.NewGuid().ToString();
 base.WriteDebugInfo(@"ISpace[""MFG_R2_ReceiptSplitUpId""].Value=Guid.NewGuid().ToString();");
+}
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [ValidateFundReceiptGrid] '#MFG_R2_BudgetId','@@gv_InstanceId','#growid'");
+
+var querySource5e37aeee480f374617c48cdda7cb1e4a =GetQueryExpressionDataSource("5e37aeee-480f-3746-17c4-8cdda7cb1e4a");
+Dictionary<short,object> result5e37aeee480f374617c48cdda7cb1e4a=iSpace.ExecuteQuery(querySource5e37aeee480f374617c48cdda7cb1e4a,@"EXEC [ValidateFundReceiptGrid] '" + ISpace["MFG_R2_BudgetId"].Value + @"','" + ISpace["gv_instanceid"].Value + @"','" + ISpace["growid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource5e37aeee480f374617c48cdda7cb1e4a =GetQueryExpressionDataSource(""5e37aeee-480f-3746-17c4-8cdda7cb1e4a"");Dictionary<short,object> result5e37aeee480f374617c48cdda7cb1e4a=iSpace.ExecuteQuery(querySource5e37aeee480f374617c48cdda7cb1e4a,@""EXEC [ValidateFundReceiptGrid] '"" + ISpace[""MFG_R2_BudgetId""].Value + @""','"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""growid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result5e37aeee480f374617c48cdda7cb1e4a!=null) && (result5e37aeee480f374617c48cdda7cb1e4a.Count!=0))
+{
+if(result5e37aeee480f374617c48cdda7cb1e4a.ContainsKey(0))
+ISpace["M_BudgetErr"].Value = result5e37aeee480f374617c48cdda7cb1e4a[0];
+if(result5e37aeee480f374617c48cdda7cb1e4a.ContainsKey(1))
+ISpace["M_BudgetErrMsg"].Value = result5e37aeee480f374617c48cdda7cb1e4a[1];
+}
+else{
+ISpace["M_BudgetErr"].Value = null;ISpace["M_BudgetErrMsg"].Value = null;
+}
+if(ISpace["M_BudgetErr"].Value==1)
+{
+base.WriteDebugInfo(@"if(ISpace[""M_BudgetErr""].Value==1)");
+ISpace["M_BudgetErr"].Value=0;
+base.WriteDebugInfo(@"ISpace[""M_BudgetErr""].Value=0;");
+ISpace["Message"].Value=String.Format(@"{0}",ISpace["M_BudgetErrMsg"].Value);
+base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""M_BudgetErrMsg""].Value);");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
 }
 if(ISpace["growid"].Value=="")
 {

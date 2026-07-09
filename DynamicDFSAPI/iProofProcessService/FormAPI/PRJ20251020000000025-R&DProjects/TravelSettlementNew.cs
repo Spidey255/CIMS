@@ -192,6 +192,10 @@ namespace CPS.Proof.DFSExtension
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
 						
+			     new Triplet<string, string, string>("fa7f4efd-a3f9-5748-468c-d4a4ac18e087","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"028B1EFF-34A8-4D44-BF39-06CE99DF7C67"),
+			
+						
 			     new Triplet<string, string, string>("DA439285-F85F-4AA6-815E-CCAD8ADBC5EB","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -201,6 +205,10 @@ namespace CPS.Proof.DFSExtension
 			
 						
 			     new Triplet<string, string, string>("A12A0256-E91B-49BC-B475-C85CE71A07B6","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("ef80d92e-3159-d029-50cc-f887f93cddd2","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
@@ -2912,6 +2920,48 @@ base.WriteDebugInfo(@"");
 List<Triplet<string, short, short?>> result66C9935619C846F3AA3EE02BDAE5E174=acdataIspaceAF9613E108AC4C90B5AD8A0678BD0D92.GetQueryExpressionBindings("66C99356-19C8-46F3-AA3E-E02BDAE5E174");
 iSpace.SetGridData(result9B9A263EC6A34D51B6C818D8E59AC1BF,result66C9935619C846F3AA3EE02BDAE5E174,"ActualAdvanceDetails",ref ISpace);
 iSpace.UpdateGridBindDetails("ActualAdvanceDetails",result66C9935619C846F3AA3EE02BDAE5E174);
+}
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [GetEmployeeUserContextDetails] '@@gv_UserId'");
+
+var querySourcefa7f4efda3f95748468cd4a4ac18e087 =GetQueryExpressionDataSource("fa7f4efd-a3f9-5748-468c-d4a4ac18e087");
+Dictionary<short,object> resultfa7f4efda3f95748468cd4a4ac18e087=iSpace.ExecuteQuery(querySourcefa7f4efda3f95748468cd4a4ac18e087,@"EXEC [GetEmployeeUserContextDetails] '" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcefa7f4efda3f95748468cd4a4ac18e087 =GetQueryExpressionDataSource(""fa7f4efd-a3f9-5748-468c-d4a4ac18e087"");Dictionary<short,object> resultfa7f4efda3f95748468cd4a4ac18e087=iSpace.ExecuteQuery(querySourcefa7f4efda3f95748468cd4a4ac18e087,@""EXEC [GetEmployeeUserContextDetails] '"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultfa7f4efda3f95748468cd4a4ac18e087!=null) && (resultfa7f4efda3f95748468cd4a4ac18e087.Count!=0))
+{
+if(resultfa7f4efda3f95748468cd4a4ac18e087.ContainsKey(1))
+ISpace["UC_EmployeeId"].Value = resultfa7f4efda3f95748468cd4a4ac18e087[1];
+if(resultfa7f4efda3f95748468cd4a4ac18e087.ContainsKey(11))
+ISpace["UC_Grade"].Value = resultfa7f4efda3f95748468cd4a4ac18e087[11];
+if(resultfa7f4efda3f95748468cd4a4ac18e087.ContainsKey(4))
+ISpace["UC_DOJ"].Value = resultfa7f4efda3f95748468cd4a4ac18e087[4];
+if(resultfa7f4efda3f95748468cd4a4ac18e087.ContainsKey(5))
+ISpace["UC_PhoneNumber"].Value = resultfa7f4efda3f95748468cd4a4ac18e087[5];
+if(resultfa7f4efda3f95748468cd4a4ac18e087.ContainsKey(2))
+ISpace["UC_Name"].Value = resultfa7f4efda3f95748468cd4a4ac18e087[2];
+if(resultfa7f4efda3f95748468cd4a4ac18e087.ContainsKey(6))
+ISpace["UC_Department"].Value = resultfa7f4efda3f95748468cd4a4ac18e087[6];
+if(resultfa7f4efda3f95748468cd4a4ac18e087.ContainsKey(3))
+ISpace["UC_EmailID"].Value = resultfa7f4efda3f95748468cd4a4ac18e087[3];
+if(resultfa7f4efda3f95748468cd4a4ac18e087.ContainsKey(7))
+ISpace["UC_Designation"].Value = resultfa7f4efda3f95748468cd4a4ac18e087[7];
+if(resultfa7f4efda3f95748468cd4a4ac18e087.ContainsKey(0))
+ISpace["UC_EmployeeBaicInfoId"].Value = resultfa7f4efda3f95748468cd4a4ac18e087[0];
+if(resultfa7f4efda3f95748468cd4a4ac18e087.ContainsKey(10))
+ISpace["UC_DOR"].Value = resultfa7f4efda3f95748468cd4a4ac18e087[10];
+if(resultfa7f4efda3f95748468cd4a4ac18e087.ContainsKey(9))
+ISpace["UC_DOB"].Value = resultfa7f4efda3f95748468cd4a4ac18e087[9];
+if(resultfa7f4efda3f95748468cd4a4ac18e087.ContainsKey(12))
+ISpace["UC_Paylevel"].Value = resultfa7f4efda3f95748468cd4a4ac18e087[12];
+}
+else{
+ISpace["UC_EmployeeId"].Value = null;ISpace["UC_Grade"].Value = null;ISpace["UC_DOJ"].Value = null;ISpace["UC_PhoneNumber"].Value = null;ISpace["UC_Name"].Value = null;ISpace["UC_Department"].Value = null;ISpace["UC_EmailID"].Value = null;ISpace["UC_Designation"].Value = null;ISpace["UC_EmployeeBaicInfoId"].Value = null;ISpace["UC_DOR"].Value = null;ISpace["UC_DOB"].Value = null;ISpace["UC_Paylevel"].Value = null;
+}
 }
 }
 catch(Exception ex)
