@@ -610,7 +610,7 @@ namespace CPS.Proof.DFSExtension
                Status status = Status.Failure;
 
                 //Call Submit Instance
-                if(context.ControlId.ToLower()=="submitform")
+                if(context.ControlId.ToLower()== "submitform"  || context.ControlId.ToLower() == "mf_bt_submit")
                 {
 
                      if(refParams["IsCancelled"].Value==false)   
@@ -655,6 +655,8 @@ namespace CPS.Proof.DFSExtension
                 }
 
                 common.RemoveVariables(ref refParams, globalVariables, userVariables);
+
+               
 
                  //  RBAC Filter Call
                 FilterResponseByRBAC(
@@ -701,23 +703,7 @@ namespace CPS.Proof.DFSExtension
 
                 foreach (var item in refParams)
                 {
-                    if (action.ToLower().Equals("onclick"))
-                    {
-                       if(item.Value !=null)
-                        {
-                            var itemdet = new ServiceElementData();
-
-                            itemdet = item.Value;
-
-                            if(itemdet.ToString().Contains("ISpace.html"))
-                            {
-                                itemdet.ToString().Replace("~", "https://dev.iprooflowcode.com/Default");
-                               // item.Value = itemdet;
-                            }
-
-                        }
-                    }
-
+                    
                       if(item.Key=="Message")
                         {
                             if(item.Value !=null)
@@ -725,7 +711,7 @@ namespace CPS.Proof.DFSExtension
                            
                         }
 
-                       
+                 
 
                     response.Rows.Add(item.Value);
                 }

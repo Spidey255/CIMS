@@ -642,11 +642,39 @@ namespace CPS.Proof.DFSExtension
                 pageContext.InstanceContext = InstanceContext;
 
                 CallRemoteAPI(token, context, ref pageContext);
-                            
+
+                if (pageContext.KeyElements != null)
+                {
+                    foreach (var item in pageContext.KeyElements)
+                    {
+                        if (item.Key == "ASNMessage")
+                            refParams.Add("ASNMessage", new ServiceElementData { Value = item.Value.ToString() });
+
+                        if (item.Key == "ASNStatus")
+                            refParams.Add("ASNStatus", new ServiceElementData { Value = item.Value.ToString() });
+
+                    }
+                }
 
                 if (pageContext.Status == FormStatus.Failure)
                 {
                     refParams["Message"].Value = pageContext.SuspendedReason;
+
+                }
+
+                if (refParams.ContainsKey("ASNMessage"))
+                {
+                    refParams["Message"].Value = refParams["ASNMessage"].Value.ToString();
+
+                    if (refParams["ASNStatus"].Value == "error")
+                    {
+                        if (refParams["RedirectUrl"].Value!=null)
+                        {
+                            refParams["RedirectUrl"].Value = null;
+                        }
+
+                    }
+
                 }
 
                 return Status.Success;

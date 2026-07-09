@@ -240,6 +240,10 @@ namespace CPS.Proof.DFSExtension
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
 						
+			     new Triplet<string, string, string>("588a57f1-a423-85cb-c854-b18aee523e01","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
 			     new Triplet<string, string, string>("fbb131bf-5cbf-0eb8-6f44-bf481055f5b7","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -1570,6 +1574,107 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
+                                              case "A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC":
+                    {
+                     
+                            gInsertQuery=@"
+		
+		DECLARE  @TBL_A2ABDF833F2048449175EC5BCC4B7DCC AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PAB_BudgetName] VARCHAR(MAX)	, [PAB_SanctionedAmount] DECIMAL(18,2)	, [PAB_YetToRecieve] DECIMAL(18,2)	, [PAB_RecievedAmount] DECIMAL(18,2)	, [PAB_Commitment] DECIMAL(18,2)	, [PAB_Spent] DECIMAL(18,2)	, [PAB_Balance] DECIMAL(18,2)){0}INSERT INTO [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PAB_BudgetName,TDT.PAB_SanctionedAmount,TDT.PAB_YetToRecieve,TDT.PAB_RecievedAmount,TDT.PAB_Commitment,TDT.PAB_Spent,TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
+							LEFT JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PAB_BudgetName=TDT.PAB_BudgetName,PAB_SanctionedAmount=TDT.PAB_SanctionedAmount,PAB_YetToRecieve=TDT.PAB_YetToRecieve,PAB_RecievedAmount=TDT.PAB_RecievedAmount,PAB_Commitment=TDT.PAB_Commitment,PAB_Spent=TDT.PAB_Spent,PAB_Balance=TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
+							JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
+
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance";
+
+                            tempInsertQuery=@"INSERT INTO @TBL_A2ABDF833F2048449175EC5BCC4B7DCC(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)VALUES({0});";
+
+                            splitcols = colList.Split(',');
+
+                            if (splitcols.Length <= 0)
+                                return null;
+
+                            foreach (var gridChild in gridData[gridName].Child)
+                            {                            
+                                                                                         
+
+
+                                foreach (var gcol in splitcols)
+                                {
+                                    if (gcol == "InstanceId")
+                                    {
+                                        colValues += "'" + instanceId + "',";
+
+                                        continue;
+
+                                    }
+
+                                    else if (gcol == "ProcessActivityMapId")
+                                    {
+                                        colValues += "'" + processActivityMapId + "',";
+                                        continue;
+                                    }
+
+                                    else if (gcol == "GridId")
+                                    {
+                                        colValues += "'" + gridId + "',";
+                                        continue;
+                                    }
+                                    else if (gcol == "Sequence")
+                                    {
+                                        colValues += gridChild.SEQ + ",";
+                                        continue;
+                                    }
+                                    else if (gcol == "RowId")
+                                    {
+                                        colValues += "'" + gridChild.RwId + "',";
+                                        continue;
+                                    }
+
+                                    bool isFound = false;
+
+                                    foreach (var gridrow in gridChild.Child)
+                                    {
+
+                                        if (gridrow.ElementName == gcol)
+                                        {
+                                            isFound = true;
+
+                                            if (gridrow.Value == null)
+                                            {
+                                                colValues += "null,";
+                                                break;
+                                            }
+
+                                            switch (Convert.ToInt32(gridrow.EDT))
+                                            {
+                                                case 8:
+                                                case 9:
+                                                    colValues += "'" + gridrow.Value.ToString() + "',";
+                                                    break;
+
+                                                default:
+                                                    colValues += gridrow.Value.ToString() + ",";
+                                                    break;
+                                            }
+                                        }
+                                    }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+
+                                    }
+
+                                }
+                                colValues = colValues.Remove(colValues.Length - 1);
+
+                                bulkInsertQuery = bulkInsertQuery + string.Format(tempInsertQuery, colValues);
+                            }
+                        }
+                        break;
+
                                               case "93B856A5-0D32-4A27-8B58-5BFE5FF0162C":
                     {
                      
@@ -1787,107 +1892,6 @@ namespace CPS.Proof.DFSExtension
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId";
 
                             tempInsertQuery=@"INSERT INTO @TBL_D16E4242860448C18EF4A05C77ED8CF5(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId)VALUES({0});";
-
-                            splitcols = colList.Split(',');
-
-                            if (splitcols.Length <= 0)
-                                return null;
-
-                            foreach (var gridChild in gridData[gridName].Child)
-                            {                            
-                                                                                         
-
-
-                                foreach (var gcol in splitcols)
-                                {
-                                    if (gcol == "InstanceId")
-                                    {
-                                        colValues += "'" + instanceId + "',";
-
-                                        continue;
-
-                                    }
-
-                                    else if (gcol == "ProcessActivityMapId")
-                                    {
-                                        colValues += "'" + processActivityMapId + "',";
-                                        continue;
-                                    }
-
-                                    else if (gcol == "GridId")
-                                    {
-                                        colValues += "'" + gridId + "',";
-                                        continue;
-                                    }
-                                    else if (gcol == "Sequence")
-                                    {
-                                        colValues += gridChild.SEQ + ",";
-                                        continue;
-                                    }
-                                    else if (gcol == "RowId")
-                                    {
-                                        colValues += "'" + gridChild.RwId + "',";
-                                        continue;
-                                    }
-
-                                    bool isFound = false;
-
-                                    foreach (var gridrow in gridChild.Child)
-                                    {
-
-                                        if (gridrow.ElementName == gcol)
-                                        {
-                                            isFound = true;
-
-                                            if (gridrow.Value == null)
-                                            {
-                                                colValues += "null,";
-                                                break;
-                                            }
-
-                                            switch (Convert.ToInt32(gridrow.EDT))
-                                            {
-                                                case 8:
-                                                case 9:
-                                                    colValues += "'" + gridrow.Value.ToString() + "',";
-                                                    break;
-
-                                                default:
-                                                    colValues += gridrow.Value.ToString() + ",";
-                                                    break;
-                                            }
-                                        }
-                                    }
-
-                                    if (!isFound)
-                                    {
-                                        colValues += "null,";
-
-                                    }
-
-                                }
-                                colValues = colValues.Remove(colValues.Length - 1);
-
-                                bulkInsertQuery = bulkInsertQuery + string.Format(tempInsertQuery, colValues);
-                            }
-                        }
-                        break;
-
-                                              case "A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC":
-                    {
-                     
-                            gInsertQuery=@"
-		
-		DECLARE  @TBL_A2ABDF833F2048449175EC5BCC4B7DCC AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PAB_BudgetName] VARCHAR(MAX)	, [PAB_SanctionedAmount] DECIMAL(18,2)	, [PAB_YetToRecieve] DECIMAL(18,2)	, [PAB_RecievedAmount] DECIMAL(18,2)	, [PAB_Commitment] DECIMAL(18,2)	, [PAB_Spent] DECIMAL(18,2)	, [PAB_Balance] DECIMAL(18,2)){0}INSERT INTO [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PAB_BudgetName,TDT.PAB_SanctionedAmount,TDT.PAB_YetToRecieve,TDT.PAB_RecievedAmount,TDT.PAB_Commitment,TDT.PAB_Spent,TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
-							LEFT JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PAB_BudgetName=TDT.PAB_BudgetName,PAB_SanctionedAmount=TDT.PAB_SanctionedAmount,PAB_YetToRecieve=TDT.PAB_YetToRecieve,PAB_RecievedAmount=TDT.PAB_RecievedAmount,PAB_Commitment=TDT.PAB_Commitment,PAB_Spent=TDT.PAB_Spent,PAB_Balance=TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
-							JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
-
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance";
-
-                            tempInsertQuery=@"INSERT INTO @TBL_A2ABDF833F2048449175EC5BCC4B7DCC(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)VALUES({0});";
 
                             splitcols = colList.Split(',');
 
@@ -2395,12 +2399,12 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"FWFM_Save-OnClick");
-base.WriteDebugInfo(@"EXEC [Upsert60e821d0-153e-94bb-1fef-2594b78625bd] '@@gv_InstanceId','@@gv_ProcessMapId','#FWFM_FundDetailsId','#FWFM_FundType','#FWFM_ProjectNo','#FWFM_BudgetHead','#FWFM_Amount'");
+base.WriteDebugInfo(@"EXEC [Upsert60e821d0-153e-94bb-1fef-2594b78625bd] '@@gv_InstanceId','@@gv_ProcessMapId','#FWFM_FundDetailsId','#FWFM_FundType','#FWFM_ProjectNo','#FWFM_BudgetHead','#FWFM_Amount','#UC_EmployeeBaicInfoId'");
 
 var querySourceB39C99E949594231A55079A7280A86B2 =GetQueryExpressionDataSource("B39C99E9-4959-4231-A550-79A7280A86B2");
-Dictionary<short,object> resultB39C99E949594231A55079A7280A86B2=iSpace.ExecuteQuery(querySourceB39C99E949594231A55079A7280A86B2,@"EXEC [Upsert60e821d0-153e-94bb-1fef-2594b78625bd] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_processmapid"].Value + @"','" + ISpace["FWFM_FundDetailsId"].Value + @"','" + ISpace["FWFM_FundType"].Value + @"','" + ISpace["FWFM_ProjectNo"].Value + @"','" + ISpace["FWFM_BudgetHead"].Value + @"','" + ISpace["FWFM_Amount"].Value + @"'",false);
+Dictionary<short,object> resultB39C99E949594231A55079A7280A86B2=iSpace.ExecuteQuery(querySourceB39C99E949594231A55079A7280A86B2,@"EXEC [Upsert60e821d0-153e-94bb-1fef-2594b78625bd] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_processmapid"].Value + @"','" + ISpace["FWFM_FundDetailsId"].Value + @"','" + ISpace["FWFM_FundType"].Value + @"','" + ISpace["FWFM_ProjectNo"].Value + @"','" + ISpace["FWFM_BudgetHead"].Value + @"','" + ISpace["FWFM_Amount"].Value + @"','" + ISpace["UC_EmployeeBaicInfoId"].Value + @"'",false);
 
-base.WriteDebugInfo(@"var querySourceB39C99E949594231A55079A7280A86B2 =GetQueryExpressionDataSource(""B39C99E9-4959-4231-A550-79A7280A86B2"");Dictionary<short,object> resultB39C99E949594231A55079A7280A86B2=iSpace.ExecuteQuery(querySourceB39C99E949594231A55079A7280A86B2,@""EXEC [Upsert60e821d0-153e-94bb-1fef-2594b78625bd] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""','"" + ISpace[""FWFM_FundDetailsId""].Value + @""','"" + ISpace[""FWFM_FundType""].Value + @""','"" + ISpace[""FWFM_ProjectNo""].Value + @""','"" + ISpace[""FWFM_BudgetHead""].Value + @""','"" + ISpace[""FWFM_Amount""].Value + @""'"",false);");
+base.WriteDebugInfo(@"var querySourceB39C99E949594231A55079A7280A86B2 =GetQueryExpressionDataSource(""B39C99E9-4959-4231-A550-79A7280A86B2"");Dictionary<short,object> resultB39C99E949594231A55079A7280A86B2=iSpace.ExecuteQuery(querySourceB39C99E949594231A55079A7280A86B2,@""EXEC [Upsert60e821d0-153e-94bb-1fef-2594b78625bd] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""','"" + ISpace[""FWFM_FundDetailsId""].Value + @""','"" + ISpace[""FWFM_FundType""].Value + @""','"" + ISpace[""FWFM_ProjectNo""].Value + @""','"" + ISpace[""FWFM_BudgetHead""].Value + @""','"" + ISpace[""FWFM_Amount""].Value + @""','"" + ISpace[""UC_EmployeeBaicInfoId""].Value + @""'"",false);");
 
 var querySourceB40457367C78448F8AD374D62A738672 =GetQueryExpressionDataSource("B4045736-7C78-448F-8AD3-74D62A738672");
 
@@ -3151,8 +3155,32 @@ ISpace["PFM_ErrId"].Value = result94A94EAC199144639AD7CC6F7445F90A[0];
 else{
 ISpace["PFM_ErrId"].Value = null;
 }
+if(ISpace["WF_FlowType"].Value!="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value!=""REJECT"")");
+base.WriteDebugInfo(@"EXEC [UpdateCommitmentSpent] '@@gv_InstanceId'");
+
+var querySource588a57f1a42385cbc854b18aee523e01 =GetQueryExpressionDataSource("588a57f1-a423-85cb-c854-b18aee523e01");
+Dictionary<short,object> result588a57f1a42385cbc854b18aee523e01=iSpace.ExecuteQuery(querySource588a57f1a42385cbc854b18aee523e01,@"EXEC [UpdateCommitmentSpent] '" + ISpace["gv_instanceid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource588a57f1a42385cbc854b18aee523e01 =GetQueryExpressionDataSource(""588a57f1-a423-85cb-c854-b18aee523e01"");Dictionary<short,object> result588a57f1a42385cbc854b18aee523e01=iSpace.ExecuteQuery(querySource588a57f1a42385cbc854b18aee523e01,@""EXEC [UpdateCommitmentSpent] '"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result588a57f1a42385cbc854b18aee523e01!=null) && (result588a57f1a42385cbc854b18aee523e01.Count!=0))
+{
+}
+else{
+
+}
+}
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -3834,17 +3862,11 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
-if(ISpace["WF_FlowType"].Value=="RETURN"||ISpace["WF_FlowType"].Value=="REJECT")
+if(1==1)
 {
-base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN""||ISpace[""WF_FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"if(1==1)");
 base.WriteDebugInfo(@"EXEC [UpdateTravelRequestStatus] '@@gv_InstanceId','@@gv_UserId','#WF_FlowType'");
 
 var querySourcefbb131bf5cbf0eb86f44bf481055f5b7 =GetQueryExpressionDataSource("fbb131bf-5cbf-0eb8-6f44-bf481055f5b7");
@@ -3864,6 +3886,12 @@ else{
 ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -4097,17 +4125,11 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
-if(ISpace["WF_FlowType"].Value=="RETURN"||ISpace["WF_FlowType"].Value=="REJECT")
+if(1==1)
 {
-base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN""||ISpace[""WF_FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"if(1==1)");
 base.WriteDebugInfo(@"EXEC [UpdateTravelRequestStatus] '@@gv_InstanceId','@@gv_UserId','#WF_FlowType'");
 
 var querySourcefbb131bf5cbf0eb86f44bf481055f5b7 =GetQueryExpressionDataSource("fbb131bf-5cbf-0eb8-6f44-bf481055f5b7");
@@ -4127,6 +4149,12 @@ else{
 ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -4360,17 +4388,11 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
-if(ISpace["WF_FlowType"].Value=="RETURN"||ISpace["WF_FlowType"].Value=="REJECT")
+if(1==1)
 {
-base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN""||ISpace[""WF_FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"if(1==1)");
 base.WriteDebugInfo(@"EXEC [UpdateTravelRequestStatus] '@@gv_InstanceId','@@gv_UserId','#WF_FlowType'");
 
 var querySourcefbb131bf5cbf0eb86f44bf481055f5b7 =GetQueryExpressionDataSource("fbb131bf-5cbf-0eb8-6f44-bf481055f5b7");
@@ -4390,6 +4412,12 @@ else{
 ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -4623,17 +4651,11 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
-if(ISpace["WF_FlowType"].Value=="RETURN"||ISpace["WF_FlowType"].Value=="REJECT")
+if(1==1)
 {
-base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN""||ISpace[""WF_FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"if(1==1)");
 base.WriteDebugInfo(@"EXEC [UpdateTravelRequestStatus] '@@gv_InstanceId','@@gv_UserId','#WF_FlowType'");
 
 var querySourcefbb131bf5cbf0eb86f44bf481055f5b7 =GetQueryExpressionDataSource("fbb131bf-5cbf-0eb8-6f44-bf481055f5b7");
@@ -4653,6 +4675,12 @@ else{
 ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -4886,17 +4914,125 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
+base.WriteDebugInfo(@"EXEC InnovaceNoCode..[FormSave_5D394C98-9AAB-4228-B011-FC8008C3247C] '@@gv_InstanceId','@@gv_ActivityMapId','bfcdccb2-7467-4308-a53d-7cab7b883529','@@gv_InstanceId','#UC_EmployeeBaicInfoId','#MF_d1_ReferenceNo','#MF_d1_JourneyPurpose','#MF_d1_TravelType','#MF_d1_TravelPlace','#MF_d1_IsAdvanceRequired','#MF_d1_PaymentRemittenceTo','#MF_d1_BeneficiaryName','#MF_d1_AccountNo','#MF_d1_BankName','#MF_d1_IFSCCode','#MF_d1_BankDocument','#MF_d1_TransactionNo','#MF_d1_TransactionDate','#MF_d1_TotalAmount','#MF_d1_AdvanceAmount','#MF_d1_TravelStatus','#MF_d1_TSAmount','#MF_d1_TSStatus','#MF_d1_PITransactionNo','#MF_d1_PITransactionDate','#MF_d1_TSTransactionNo','#MF_d1_TSTransactionDate','@@gv_UserId','#MF_d1_CreatedOn'");
 
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
+var querySourceE182AF12DAED4644A9FC9AA3381897FF =GetQueryExpressionDataSource("E182AF12-DAED-4644-A9FC-9AA3381897FF");
+Dictionary<short,object> resultE182AF12DAED4644A9FC9AA3381897FF=iSpace.ExecuteQuery(querySourceE182AF12DAED4644A9FC9AA3381897FF,@"EXEC InnovaceNoCode..[FormSave_5D394C98-9AAB-4228-B011-FC8008C3247C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','bfcdccb2-7467-4308-a53d-7cab7b883529','" + ISpace["gv_instanceid"].Value + @"','" + ISpace["UC_EmployeeBaicInfoId"].Value + @"','" + ISpace["MF_d1_ReferenceNo"].Value + @"','" + ISpace["MF_d1_JourneyPurpose"].Value + @"','" + ISpace["MF_d1_TravelType"].Value + @"','" + ISpace["MF_d1_TravelPlace"].Value + @"','" + ISpace["MF_d1_IsAdvanceRequired"].Value + @"','" + ISpace["MF_d1_PaymentRemittenceTo"].Value + @"','" + ISpace["MF_d1_BeneficiaryName"].Value + @"','" + ISpace["MF_d1_AccountNo"].Value + @"','" + ISpace["MF_d1_BankName"].Value + @"','" + ISpace["MF_d1_IFSCCode"].Value + @"','" + ISpace["MF_d1_BankDocument"].Value + @"','" + ISpace["MF_d1_TransactionNo"].Value + @"','" + ISpace["MF_d1_TransactionDate"].Value + @"','" + ISpace["MF_d1_TotalAmount"].Value + @"','" + ISpace["MF_d1_AdvanceAmount"].Value + @"','" + ISpace["MF_d1_TravelStatus"].Value + @"','" + ISpace["MF_d1_TSAmount"].Value + @"','" + ISpace["MF_d1_TSStatus"].Value + @"','" + ISpace["MF_d1_PITransactionNo"].Value + @"','" + ISpace["MF_d1_PITransactionDate"].Value + @"','" + ISpace["MF_d1_TSTransactionNo"].Value + @"','" + ISpace["MF_d1_TSTransactionDate"].Value + @"','" + ISpace["gv_userid"].Value + @"','" + ISpace["MF_d1_CreatedOn"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourceE182AF12DAED4644A9FC9AA3381897FF =GetQueryExpressionDataSource(""E182AF12-DAED-4644-A9FC-9AA3381897FF"");Dictionary<short,object> resultE182AF12DAED4644A9FC9AA3381897FF=iSpace.ExecuteQuery(querySourceE182AF12DAED4644A9FC9AA3381897FF,@""EXEC InnovaceNoCode..[FormSave_5D394C98-9AAB-4228-B011-FC8008C3247C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','bfcdccb2-7467-4308-a53d-7cab7b883529','"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""UC_EmployeeBaicInfoId""].Value + @""','"" + ISpace[""MF_d1_ReferenceNo""].Value + @""','"" + ISpace[""MF_d1_JourneyPurpose""].Value + @""','"" + ISpace[""MF_d1_TravelType""].Value + @""','"" + ISpace[""MF_d1_TravelPlace""].Value + @""','"" + ISpace[""MF_d1_IsAdvanceRequired""].Value + @""','"" + ISpace[""MF_d1_PaymentRemittenceTo""].Value + @""','"" + ISpace[""MF_d1_BeneficiaryName""].Value + @""','"" + ISpace[""MF_d1_AccountNo""].Value + @""','"" + ISpace[""MF_d1_BankName""].Value + @""','"" + ISpace[""MF_d1_IFSCCode""].Value + @""','"" + ISpace[""MF_d1_BankDocument""].Value + @""','"" + ISpace[""MF_d1_TransactionNo""].Value + @""','"" + ISpace[""MF_d1_TransactionDate""].Value + @""','"" + ISpace[""MF_d1_TotalAmount""].Value + @""','"" + ISpace[""MF_d1_AdvanceAmount""].Value + @""','"" + ISpace[""MF_d1_TravelStatus""].Value + @""','"" + ISpace[""MF_d1_TSAmount""].Value + @""','"" + ISpace[""MF_d1_TSStatus""].Value + @""','"" + ISpace[""MF_d1_PITransactionNo""].Value + @""','"" + ISpace[""MF_d1_PITransactionDate""].Value + @""','"" + ISpace[""MF_d1_TSTransactionNo""].Value + @""','"" + ISpace[""MF_d1_TSTransactionDate""].Value + @""','"" + ISpace[""gv_userid""].Value + @""','"" + ISpace[""MF_d1_CreatedOn""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultE182AF12DAED4644A9FC9AA3381897FF!=null) && (resultE182AF12DAED4644A9FC9AA3381897FF.Count!=0))
+{
+if(resultE182AF12DAED4644A9FC9AA3381897FF.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultE182AF12DAED4644A9FC9AA3381897FF[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+base.WriteDebugInfo(@"EXEC InnovaceNoCode..[GridSave_63762982-2C07-4E60-8D86-D3A35CA53EDA]   '@@gv_InstanceId','@@gv_ActivityMapId','63762982-2C07-4E60-8D86-D3A35CA53EDA'");
+
+var querySource5D2551CDFD03487A81061EBC8385C05B =GetQueryExpressionDataSource("5D2551CD-FD03-487A-8106-1EBC8385C05B");
+Dictionary<short,object> result5D2551CDFD03487A81061EBC8385C05B=iSpace.ExecuteQuery(querySource5D2551CDFD03487A81061EBC8385C05B,@"EXEC InnovaceNoCode..[GridSave_63762982-2C07-4E60-8D86-D3A35CA53EDA]   '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','63762982-2C07-4E60-8D86-D3A35CA53EDA'",false);
+
+base.WriteDebugInfo(@"var querySource5D2551CDFD03487A81061EBC8385C05B =GetQueryExpressionDataSource(""5D2551CD-FD03-487A-8106-1EBC8385C05B"");Dictionary<short,object> result5D2551CDFD03487A81061EBC8385C05B=iSpace.ExecuteQuery(querySource5D2551CDFD03487A81061EBC8385C05B,@""EXEC InnovaceNoCode..[GridSave_63762982-2C07-4E60-8D86-D3A35CA53EDA]   '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','63762982-2C07-4E60-8D86-D3A35CA53EDA'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result5D2551CDFD03487A81061EBC8385C05B!=null) && (result5D2551CDFD03487A81061EBC8385C05B.Count!=0))
+{
+if(result5D2551CDFD03487A81061EBC8385C05B.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = result5D2551CDFD03487A81061EBC8385C05B[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+if(ISpace["MF_ErrId"].Value==1)
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_ErrId""].Value==1)");
+ISpace["Message"].Value=String.Format(@"{0}",ISpace["MF_ErrMsg"].Value);
+base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""MF_ErrMsg""].Value);");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
+base.WriteDebugInfo(@"EXEC InnovaceNoCode..[GridSave_93B856A5-0D32-4A27-8B58-5BFE5FF0162C]   '@@gv_InstanceId','@@gv_ActivityMapId','93B856A5-0D32-4A27-8B58-5BFE5FF0162C'");
+
+var querySourceB926676F6B9A4DFE933F733A15635C3F =GetQueryExpressionDataSource("B926676F-6B9A-4DFE-933F-733A15635C3F");
+Dictionary<short,object> resultB926676F6B9A4DFE933F733A15635C3F=iSpace.ExecuteQuery(querySourceB926676F6B9A4DFE933F733A15635C3F,@"EXEC InnovaceNoCode..[GridSave_93B856A5-0D32-4A27-8B58-5BFE5FF0162C]   '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C'",false);
+
+base.WriteDebugInfo(@"var querySourceB926676F6B9A4DFE933F733A15635C3F =GetQueryExpressionDataSource(""B926676F-6B9A-4DFE-933F-733A15635C3F"");Dictionary<short,object> resultB926676F6B9A4DFE933F733A15635C3F=iSpace.ExecuteQuery(querySourceB926676F6B9A4DFE933F733A15635C3F,@""EXEC InnovaceNoCode..[GridSave_93B856A5-0D32-4A27-8B58-5BFE5FF0162C]   '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultB926676F6B9A4DFE933F733A15635C3F!=null) && (resultB926676F6B9A4DFE933F733A15635C3F.Count!=0))
+{
+if(resultB926676F6B9A4DFE933F733A15635C3F.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultB926676F6B9A4DFE933F733A15635C3F[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+if(ISpace["MF_ErrId"].Value==1)
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_ErrId""].Value==1)");
+ISpace["Message"].Value=String.Format(@"{0}",ISpace["MF_ErrMsg"].Value);
+base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""MF_ErrMsg""].Value);");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
+base.WriteDebugInfo(@"Exec [SaveTravelRequestDocuments] '@@gv_InstanceId','@@gv_ProcessMapId','@@gv_UserId'");
+
+var querySource0e8ceab69d8fffd68fe03de1048b96a0 =GetQueryExpressionDataSource("0e8ceab6-9d8f-ffd6-8fe0-3de1048b96a0");
+Dictionary<short,object> result0e8ceab69d8fffd68fe03de1048b96a0=iSpace.ExecuteQuery(querySource0e8ceab69d8fffd68fe03de1048b96a0,@"Exec [SaveTravelRequestDocuments] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_processmapid"].Value + @"','" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource0e8ceab69d8fffd68fe03de1048b96a0 =GetQueryExpressionDataSource(""0e8ceab6-9d8f-ffd6-8fe0-3de1048b96a0"");Dictionary<short,object> result0e8ceab69d8fffd68fe03de1048b96a0=iSpace.ExecuteQuery(querySource0e8ceab69d8fffd68fe03de1048b96a0,@""Exec [SaveTravelRequestDocuments] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""','"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result0e8ceab69d8fffd68fe03de1048b96a0!=null) && (result0e8ceab69d8fffd68fe03de1048b96a0.Count!=0))
+{
+if(result0e8ceab69d8fffd68fe03de1048b96a0.ContainsKey(0))
+ISpace["MF_ErrId"].Value = result0e8ceab69d8fffd68fe03de1048b96a0[0];
+if(result0e8ceab69d8fffd68fe03de1048b96a0.ContainsKey(1))
+ISpace["MF_ErrMsg"].Value = result0e8ceab69d8fffd68fe03de1048b96a0[1];
+}
+else{
+ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
+}
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+if(ISpace["MF_ErrId"].Value==1)
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_ErrId""].Value==1)");
+ISpace["Message"].Value=String.Format(@"{0}",ISpace["MF_ErrMsg"].Value);
+base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""MF_ErrMsg""].Value);");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
-if(ISpace["WF_FlowType"].Value=="RETURN"||ISpace["WF_FlowType"].Value=="REJECT")
+if(1==1)
 {
-base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN""||ISpace[""WF_FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"if(1==1)");
 base.WriteDebugInfo(@"EXEC [UpdateTravelRequestStatus] '@@gv_InstanceId','@@gv_UserId','#WF_FlowType'");
 
 var querySourcefbb131bf5cbf0eb86f44bf481055f5b7 =GetQueryExpressionDataSource("fbb131bf-5cbf-0eb8-6f44-bf481055f5b7");
@@ -4936,6 +5072,12 @@ else{
 ISpace["MF_ErrId"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -5307,12 +5449,12 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"FWFM_Save-OnClick");
-base.WriteDebugInfo(@"EXEC [Upsert60e821d0-153e-94bb-1fef-2594b78625bd] '@@gv_InstanceId','@@gv_ProcessMapId','#FWFM_FundDetailsId','#FWFM_FundType','#FWFM_ProjectNo','#FWFM_BudgetHead','#FWFM_Amount'");
+base.WriteDebugInfo(@"EXEC [Upsert60e821d0-153e-94bb-1fef-2594b78625bd] '@@gv_InstanceId','@@gv_ProcessMapId','#FWFM_FundDetailsId','#FWFM_FundType','#FWFM_ProjectNo','#FWFM_BudgetHead','#FWFM_Amount','#UC_EmployeeBaicInfoId'");
 
 var querySourceB39C99E949594231A55079A7280A86B2 =GetQueryExpressionDataSource("B39C99E9-4959-4231-A550-79A7280A86B2");
-Dictionary<short,object> resultB39C99E949594231A55079A7280A86B2=iSpace.ExecuteQuery(querySourceB39C99E949594231A55079A7280A86B2,@"EXEC [Upsert60e821d0-153e-94bb-1fef-2594b78625bd] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_processmapid"].Value + @"','" + ISpace["FWFM_FundDetailsId"].Value + @"','" + ISpace["FWFM_FundType"].Value + @"','" + ISpace["FWFM_ProjectNo"].Value + @"','" + ISpace["FWFM_BudgetHead"].Value + @"','" + ISpace["FWFM_Amount"].Value + @"'",false);
+Dictionary<short,object> resultB39C99E949594231A55079A7280A86B2=iSpace.ExecuteQuery(querySourceB39C99E949594231A55079A7280A86B2,@"EXEC [Upsert60e821d0-153e-94bb-1fef-2594b78625bd] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_processmapid"].Value + @"','" + ISpace["FWFM_FundDetailsId"].Value + @"','" + ISpace["FWFM_FundType"].Value + @"','" + ISpace["FWFM_ProjectNo"].Value + @"','" + ISpace["FWFM_BudgetHead"].Value + @"','" + ISpace["FWFM_Amount"].Value + @"','" + ISpace["UC_EmployeeBaicInfoId"].Value + @"'",false);
 
-base.WriteDebugInfo(@"var querySourceB39C99E949594231A55079A7280A86B2 =GetQueryExpressionDataSource(""B39C99E9-4959-4231-A550-79A7280A86B2"");Dictionary<short,object> resultB39C99E949594231A55079A7280A86B2=iSpace.ExecuteQuery(querySourceB39C99E949594231A55079A7280A86B2,@""EXEC [Upsert60e821d0-153e-94bb-1fef-2594b78625bd] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""','"" + ISpace[""FWFM_FundDetailsId""].Value + @""','"" + ISpace[""FWFM_FundType""].Value + @""','"" + ISpace[""FWFM_ProjectNo""].Value + @""','"" + ISpace[""FWFM_BudgetHead""].Value + @""','"" + ISpace[""FWFM_Amount""].Value + @""'"",false);");
+base.WriteDebugInfo(@"var querySourceB39C99E949594231A55079A7280A86B2 =GetQueryExpressionDataSource(""B39C99E9-4959-4231-A550-79A7280A86B2"");Dictionary<short,object> resultB39C99E949594231A55079A7280A86B2=iSpace.ExecuteQuery(querySourceB39C99E949594231A55079A7280A86B2,@""EXEC [Upsert60e821d0-153e-94bb-1fef-2594b78625bd] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_processmapid""].Value + @""','"" + ISpace[""FWFM_FundDetailsId""].Value + @""','"" + ISpace[""FWFM_FundType""].Value + @""','"" + ISpace[""FWFM_ProjectNo""].Value + @""','"" + ISpace[""FWFM_BudgetHead""].Value + @""','"" + ISpace[""FWFM_Amount""].Value + @""','"" + ISpace[""UC_EmployeeBaicInfoId""].Value + @""'"",false);");
 
 var querySourceB40457367C78448F8AD374D62A738672 =GetQueryExpressionDataSource("B4045736-7C78-448F-8AD3-74D62A738672");
 
@@ -6063,11 +6205,29 @@ ISpace["PFM_ErrId"].Value = result94A94EAC199144639AD7CC6F7445F90A[0];
 else{
 ISpace["PFM_ErrId"].Value = null;
 }
+if(ISpace["WF_FlowType"].Value!="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value!=""REJECT"")");
+base.WriteDebugInfo(@"EXEC [UpdateCommitmentSpent] '@@gv_InstanceId'");
+
+var querySource588a57f1a42385cbc854b18aee523e01 =GetQueryExpressionDataSource("588a57f1-a423-85cb-c854-b18aee523e01");
+Dictionary<short,object> result588a57f1a42385cbc854b18aee523e01=iSpace.ExecuteQuery(querySource588a57f1a42385cbc854b18aee523e01,@"EXEC [UpdateCommitmentSpent] '" + ISpace["gv_instanceid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource588a57f1a42385cbc854b18aee523e01 =GetQueryExpressionDataSource(""588a57f1-a423-85cb-c854-b18aee523e01"");Dictionary<short,object> result588a57f1a42385cbc854b18aee523e01=iSpace.ExecuteQuery(querySource588a57f1a42385cbc854b18aee523e01,@""EXEC [UpdateCommitmentSpent] '"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result588a57f1a42385cbc854b18aee523e01!=null) && (result588a57f1a42385cbc854b18aee523e01.Count!=0))
+{
+}
+else{
+
+}
+}
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
-if(ISpace["WF_FlowType"].Value=="RETURN"||ISpace["WF_FlowType"].Value=="REJECT")
+if(1==1)
 {
-base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN""||ISpace[""WF_FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"if(1==1)");
 base.WriteDebugInfo(@"EXEC [UpdateTravelRequestStatus] '@@gv_InstanceId','@@gv_UserId','#WF_FlowType'");
 
 var querySourcefbb131bf5cbf0eb86f44bf481055f5b7 =GetQueryExpressionDataSource("fbb131bf-5cbf-0eb8-6f44-bf481055f5b7");
@@ -6087,6 +6247,12 @@ else{
 ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
