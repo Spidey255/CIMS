@@ -2799,9 +2799,9 @@ ISpace[""UI_PFHideRow""].Visible=""false"";
 ISpace[""UI_ApprovalHideRow""].Visible=""false"";
 }");
 }
-if(ISpace["FlowType"].Value=="")
+if(ISpace["WF_FlowType"].Value=="")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value=="""")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value=="""")");
 ISpace["WMF_IsInFlow"].Value=0;
 base.WriteDebugInfo(@"ISpace[""WMF_IsInFlow""].Value=0;");
 base.WriteDebugInfo(@"EXEC [GetInstanceInFlow] '@@gv_InstanceId'");
@@ -2823,8 +2823,8 @@ ISpace["WMF_IsInFlow"].Value = null;
 if(ISpace["WMF_IsInFlow"].Value==1)
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_IsInFlow""].Value==1)");
-ISpace["WMF_FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""WMF_FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["WMF_MoveTo"].Visible="true";ISpace["WMF_History"].Visible="true";
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""true"";ISpace[""WMF_History""].Visible=""true"";");
 }
@@ -3154,24 +3154,24 @@ base.WriteDebugInfo(@"WMF_MoveTo-OnChange");
 if(ISpace["WMF_MoveTo"].Value=="APPROVE")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""APPROVE"")");
-ISpace["FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["Comments"].Man=false;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=false;");
 }
 if(ISpace["WMF_MoveTo"].Value=="RETURN")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""RETURN"")");
-ISpace["FlowType"].Value="RETURN";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""RETURN"";");
+ISpace["WF_FlowType"].Value="RETURN";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""RETURN"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
 if(ISpace["WMF_MoveTo"].Value=="REJECT")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""REJECT"")");
-ISpace["FlowType"].Value="REJECT";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""REJECT"";");
+ISpace["WF_FlowType"].Value="REJECT";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""REJECT"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
@@ -3581,9 +3581,9 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"SubmitForm-OnClick");
-if(ISpace["FlowType"].Value=="APPROVE")
+if(ISpace["WF_FlowType"].Value=="APPROVE")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""APPROVE"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
@@ -3597,9 +3597,9 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-if(ISpace["FlowType"].Value=="RETURN" || ISpace["FlowType"].Value=="REJECT")
+if(ISpace["WF_FlowType"].Value=="RETURN" || ISpace["WF_FlowType"].Value=="REJECT")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""RETURN"" || ISpace[""FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN"" || ISpace[""WF_FlowType""].Value==""REJECT"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
@@ -4111,9 +4111,9 @@ ISpace[""UI_PFHideRow""].Visible=""false"";
 ISpace[""UI_ApprovalHideRow""].Visible=""false"";
 }");
 }
-if(ISpace["FlowType"].Value=="")
+if(ISpace["WF_FlowType"].Value=="")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value=="""")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value=="""")");
 ISpace["WMF_IsInFlow"].Value=0;
 base.WriteDebugInfo(@"ISpace[""WMF_IsInFlow""].Value=0;");
 base.WriteDebugInfo(@"EXEC [GetInstanceInFlow] '@@gv_InstanceId'");
@@ -4135,8 +4135,8 @@ ISpace["WMF_IsInFlow"].Value = null;
 if(ISpace["WMF_IsInFlow"].Value==1)
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_IsInFlow""].Value==1)");
-ISpace["WMF_FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""WMF_FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["WMF_MoveTo"].Visible="true";ISpace["WMF_History"].Visible="true";
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""true"";ISpace[""WMF_History""].Visible=""true"";");
 }
@@ -4178,24 +4178,24 @@ base.WriteDebugInfo(@"WMF_MoveTo-OnChange");
 if(ISpace["WMF_MoveTo"].Value=="APPROVE")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""APPROVE"")");
-ISpace["FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["Comments"].Man=false;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=false;");
 }
 if(ISpace["WMF_MoveTo"].Value=="RETURN")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""RETURN"")");
-ISpace["FlowType"].Value="RETURN";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""RETURN"";");
+ISpace["WF_FlowType"].Value="RETURN";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""RETURN"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
 if(ISpace["WMF_MoveTo"].Value=="REJECT")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""REJECT"")");
-ISpace["FlowType"].Value="REJECT";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""REJECT"";");
+ISpace["WF_FlowType"].Value="REJECT";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""REJECT"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
@@ -4211,9 +4211,9 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"SubmitForm-OnClick");
-if(ISpace["FlowType"].Value=="APPROVE")
+if(ISpace["WF_FlowType"].Value=="APPROVE")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""APPROVE"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
@@ -4227,9 +4227,9 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-if(ISpace["FlowType"].Value=="RETURN" || ISpace["FlowType"].Value=="REJECT")
+if(ISpace["WF_FlowType"].Value=="RETURN" || ISpace["WF_FlowType"].Value=="REJECT")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""RETURN"" || ISpace[""FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN"" || ISpace[""WF_FlowType""].Value==""REJECT"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
@@ -4385,9 +4385,9 @@ ISpace[""UI_PFHideRow""].Visible=""false"";
 ISpace[""UI_ApprovalHideRow""].Visible=""false"";
 }");
 }
-if(ISpace["FlowType"].Value=="")
+if(ISpace["WF_FlowType"].Value=="")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value=="""")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value=="""")");
 ISpace["WMF_IsInFlow"].Value=0;
 base.WriteDebugInfo(@"ISpace[""WMF_IsInFlow""].Value=0;");
 base.WriteDebugInfo(@"EXEC [GetInstanceInFlow] '@@gv_InstanceId'");
@@ -4409,8 +4409,8 @@ ISpace["WMF_IsInFlow"].Value = null;
 if(ISpace["WMF_IsInFlow"].Value==1)
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_IsInFlow""].Value==1)");
-ISpace["WMF_FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""WMF_FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["WMF_MoveTo"].Visible="true";ISpace["WMF_History"].Visible="true";
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""true"";ISpace[""WMF_History""].Visible=""true"";");
 }
@@ -4452,24 +4452,24 @@ base.WriteDebugInfo(@"WMF_MoveTo-OnChange");
 if(ISpace["WMF_MoveTo"].Value=="APPROVE")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""APPROVE"")");
-ISpace["FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["Comments"].Man=false;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=false;");
 }
 if(ISpace["WMF_MoveTo"].Value=="RETURN")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""RETURN"")");
-ISpace["FlowType"].Value="RETURN";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""RETURN"";");
+ISpace["WF_FlowType"].Value="RETURN";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""RETURN"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
 if(ISpace["WMF_MoveTo"].Value=="REJECT")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""REJECT"")");
-ISpace["FlowType"].Value="REJECT";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""REJECT"";");
+ISpace["WF_FlowType"].Value="REJECT";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""REJECT"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
@@ -4485,9 +4485,9 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"SubmitForm-OnClick");
-if(ISpace["FlowType"].Value=="APPROVE")
+if(ISpace["WF_FlowType"].Value=="APPROVE")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""APPROVE"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
@@ -4501,9 +4501,9 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-if(ISpace["FlowType"].Value=="RETURN" || ISpace["FlowType"].Value=="REJECT")
+if(ISpace["WF_FlowType"].Value=="RETURN" || ISpace["WF_FlowType"].Value=="REJECT")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""RETURN"" || ISpace[""FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN"" || ISpace[""WF_FlowType""].Value==""REJECT"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
@@ -4659,9 +4659,9 @@ ISpace[""UI_PFHideRow""].Visible=""false"";
 ISpace[""UI_ApprovalHideRow""].Visible=""false"";
 }");
 }
-if(ISpace["FlowType"].Value=="")
+if(ISpace["WF_FlowType"].Value=="")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value=="""")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value=="""")");
 ISpace["WMF_IsInFlow"].Value=0;
 base.WriteDebugInfo(@"ISpace[""WMF_IsInFlow""].Value=0;");
 base.WriteDebugInfo(@"EXEC [GetInstanceInFlow] '@@gv_InstanceId'");
@@ -4683,8 +4683,8 @@ ISpace["WMF_IsInFlow"].Value = null;
 if(ISpace["WMF_IsInFlow"].Value==1)
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_IsInFlow""].Value==1)");
-ISpace["WMF_FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""WMF_FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["WMF_MoveTo"].Visible="true";ISpace["WMF_History"].Visible="true";
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""true"";ISpace[""WMF_History""].Visible=""true"";");
 }
@@ -4726,24 +4726,24 @@ base.WriteDebugInfo(@"WMF_MoveTo-OnChange");
 if(ISpace["WMF_MoveTo"].Value=="APPROVE")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""APPROVE"")");
-ISpace["FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["Comments"].Man=false;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=false;");
 }
 if(ISpace["WMF_MoveTo"].Value=="RETURN")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""RETURN"")");
-ISpace["FlowType"].Value="RETURN";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""RETURN"";");
+ISpace["WF_FlowType"].Value="RETURN";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""RETURN"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
 if(ISpace["WMF_MoveTo"].Value=="REJECT")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""REJECT"")");
-ISpace["FlowType"].Value="REJECT";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""REJECT"";");
+ISpace["WF_FlowType"].Value="REJECT";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""REJECT"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
@@ -4759,9 +4759,9 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"SubmitForm-OnClick");
-if(ISpace["FlowType"].Value=="APPROVE")
+if(ISpace["WF_FlowType"].Value=="APPROVE")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""APPROVE"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
@@ -4775,9 +4775,9 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-if(ISpace["FlowType"].Value=="RETURN" || ISpace["FlowType"].Value=="REJECT")
+if(ISpace["WF_FlowType"].Value=="RETURN" || ISpace["WF_FlowType"].Value=="REJECT")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""RETURN"" || ISpace[""FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN"" || ISpace[""WF_FlowType""].Value==""REJECT"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
@@ -4933,9 +4933,9 @@ ISpace[""UI_PFHideRow""].Visible=""false"";
 ISpace[""UI_ApprovalHideRow""].Visible=""false"";
 }");
 }
-if(ISpace["FlowType"].Value=="")
+if(ISpace["WF_FlowType"].Value=="")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value=="""")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value=="""")");
 ISpace["WMF_IsInFlow"].Value=0;
 base.WriteDebugInfo(@"ISpace[""WMF_IsInFlow""].Value=0;");
 base.WriteDebugInfo(@"EXEC [GetInstanceInFlow] '@@gv_InstanceId'");
@@ -4957,8 +4957,8 @@ ISpace["WMF_IsInFlow"].Value = null;
 if(ISpace["WMF_IsInFlow"].Value==1)
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_IsInFlow""].Value==1)");
-ISpace["WMF_FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""WMF_FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["WMF_MoveTo"].Visible="true";ISpace["WMF_History"].Visible="true";
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""true"";ISpace[""WMF_History""].Visible=""true"";");
 }
@@ -5000,24 +5000,24 @@ base.WriteDebugInfo(@"WMF_MoveTo-OnChange");
 if(ISpace["WMF_MoveTo"].Value=="APPROVE")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""APPROVE"")");
-ISpace["FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["Comments"].Man=false;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=false;");
 }
 if(ISpace["WMF_MoveTo"].Value=="RETURN")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""RETURN"")");
-ISpace["FlowType"].Value="RETURN";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""RETURN"";");
+ISpace["WF_FlowType"].Value="RETURN";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""RETURN"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
 if(ISpace["WMF_MoveTo"].Value=="REJECT")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""REJECT"")");
-ISpace["FlowType"].Value="REJECT";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""REJECT"";");
+ISpace["WF_FlowType"].Value="REJECT";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""REJECT"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
@@ -5033,9 +5033,9 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"SubmitForm-OnClick");
-if(ISpace["FlowType"].Value=="APPROVE")
+if(ISpace["WF_FlowType"].Value=="APPROVE")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""APPROVE"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
@@ -5049,9 +5049,9 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-if(ISpace["FlowType"].Value=="RETURN" || ISpace["FlowType"].Value=="REJECT")
+if(ISpace["WF_FlowType"].Value=="RETURN" || ISpace["WF_FlowType"].Value=="REJECT")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""RETURN"" || ISpace[""FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN"" || ISpace[""WF_FlowType""].Value==""REJECT"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
@@ -5207,9 +5207,9 @@ ISpace[""UI_PFHideRow""].Visible=""false"";
 ISpace[""UI_ApprovalHideRow""].Visible=""false"";
 }");
 }
-if(ISpace["FlowType"].Value=="")
+if(ISpace["WF_FlowType"].Value=="")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value=="""")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value=="""")");
 ISpace["WMF_IsInFlow"].Value=0;
 base.WriteDebugInfo(@"ISpace[""WMF_IsInFlow""].Value=0;");
 base.WriteDebugInfo(@"EXEC [GetInstanceInFlow] '@@gv_InstanceId'");
@@ -5231,8 +5231,8 @@ ISpace["WMF_IsInFlow"].Value = null;
 if(ISpace["WMF_IsInFlow"].Value==1)
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_IsInFlow""].Value==1)");
-ISpace["WMF_FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""WMF_FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["WMF_MoveTo"].Visible="true";ISpace["WMF_History"].Visible="true";
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""true"";ISpace[""WMF_History""].Visible=""true"";");
 }
@@ -5274,24 +5274,24 @@ base.WriteDebugInfo(@"WMF_MoveTo-OnChange");
 if(ISpace["WMF_MoveTo"].Value=="APPROVE")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""APPROVE"")");
-ISpace["FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["Comments"].Man=false;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=false;");
 }
 if(ISpace["WMF_MoveTo"].Value=="RETURN")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""RETURN"")");
-ISpace["FlowType"].Value="RETURN";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""RETURN"";");
+ISpace["WF_FlowType"].Value="RETURN";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""RETURN"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
 if(ISpace["WMF_MoveTo"].Value=="REJECT")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""REJECT"")");
-ISpace["FlowType"].Value="REJECT";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""REJECT"";");
+ISpace["WF_FlowType"].Value="REJECT";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""REJECT"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
@@ -5307,9 +5307,9 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"SubmitForm-OnClick");
-if(ISpace["FlowType"].Value=="APPROVE")
+if(ISpace["WF_FlowType"].Value=="APPROVE")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""APPROVE"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
@@ -5323,9 +5323,9 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-if(ISpace["FlowType"].Value=="RETURN" || ISpace["FlowType"].Value=="REJECT")
+if(ISpace["WF_FlowType"].Value=="RETURN" || ISpace["WF_FlowType"].Value=="REJECT")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""RETURN"" || ISpace[""FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN"" || ISpace[""WF_FlowType""].Value==""REJECT"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
@@ -5503,9 +5503,9 @@ ISpace[""UI_PFHideRow""].Visible=""false"";
 ISpace[""UI_ApprovalHideRow""].Visible=""false"";
 }");
 }
-if(ISpace["FlowType"].Value=="")
+if(ISpace["WF_FlowType"].Value=="")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value=="""")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value=="""")");
 ISpace["WMF_IsInFlow"].Value=0;
 base.WriteDebugInfo(@"ISpace[""WMF_IsInFlow""].Value=0;");
 base.WriteDebugInfo(@"EXEC [GetInstanceInFlow] '@@gv_InstanceId'");
@@ -5527,8 +5527,8 @@ ISpace["WMF_IsInFlow"].Value = null;
 if(ISpace["WMF_IsInFlow"].Value==1)
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_IsInFlow""].Value==1)");
-ISpace["WMF_FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""WMF_FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["WMF_MoveTo"].Visible="true";ISpace["WMF_History"].Visible="true";
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""true"";ISpace[""WMF_History""].Visible=""true"";");
 }
@@ -5858,24 +5858,24 @@ base.WriteDebugInfo(@"WMF_MoveTo-OnChange");
 if(ISpace["WMF_MoveTo"].Value=="APPROVE")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""APPROVE"")");
-ISpace["FlowType"].Value="APPROVE";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""APPROVE"";");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
 ISpace["Comments"].Man=false;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=false;");
 }
 if(ISpace["WMF_MoveTo"].Value=="RETURN")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""RETURN"")");
-ISpace["FlowType"].Value="RETURN";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""RETURN"";");
+ISpace["WF_FlowType"].Value="RETURN";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""RETURN"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
 if(ISpace["WMF_MoveTo"].Value=="REJECT")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""REJECT"")");
-ISpace["FlowType"].Value="REJECT";
-base.WriteDebugInfo(@"ISpace[""FlowType""].Value=""REJECT"";");
+ISpace["WF_FlowType"].Value="REJECT";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""REJECT"";");
 ISpace["Comments"].Man=true;
 base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
 }
@@ -6285,9 +6285,9 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"SubmitForm-OnClick");
-if(ISpace["FlowType"].Value=="APPROVE")
+if(ISpace["WF_FlowType"].Value=="APPROVE")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""APPROVE"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
@@ -6301,9 +6301,9 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-if(ISpace["FlowType"].Value=="RETURN" || ISpace["FlowType"].Value=="REJECT")
+if(ISpace["WF_FlowType"].Value=="RETURN" || ISpace["WF_FlowType"].Value=="REJECT")
 {
-base.WriteDebugInfo(@"if(ISpace[""FlowType""].Value==""RETURN"" || ISpace[""FlowType""].Value==""REJECT"")");
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN"" || ISpace[""WF_FlowType""].Value==""REJECT"")");
 if(ISpace["WMF_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");

@@ -1,6 +1,6 @@
 // Innovace Intech Solution Pvt Ltd
 // ⚠️ AUTO-GENERATED FILE – DO NOT EDIT
-// Generated on 2026-07-09T19:02:36.614Z
+// Generated on 2026-07-09T19:23:25.402Z
 
 export const pages = [
   {
