@@ -162,7 +162,7 @@ namespace CPS.Proof.DFSExtension
 		
 	  			
 			     new Triplet<string, string, string>("MF_ProjectRefNo","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
-												     @"EXEC GetProjectNoCombo 1,'@@gv_UserId'"),
+												     @"EXEC GetProjectNoCombo 1,'@M_UserId'"),
 			
 						
 			     new Triplet<string, string, string>("MF_Status","Z4IrlPTfl7E3UHhZKuDmi6JCY+YHcA863SqFhgUyVVzIeVWsNWiw16Mu4wxMKNVEYFCkgoGo43Ehmc2lZ2dV6IArjst1ThMAqCwOWy+D7Ogje1I4jfjiAZNrjEazgaNyfBj9pr2u90lOsHzRNfKnSybWqRxrZGqV",
@@ -330,10 +330,10 @@ namespace CPS.Proof.DFSExtension
                                       case "CB38069E-44DE-463F-BAA6-6EA818E0CA3F":
                     {
                      
-                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [CB38069E-44DE-463F-BAA6-6EA818E0CA3F] WHERE InstanceId='{0}') BEGIN INSERT INTO [CB38069E-44DE-463F-BAA6-6EA818E0CA3F](ProcessActivityMapId,FormId,SLATime,MF_ProjectRefNo,MF_Status,MF_PendingCount,MF_CompletedCount,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,RedirectUrl,InstanceId)
+                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [CB38069E-44DE-463F-BAA6-6EA818E0CA3F] WHERE InstanceId='{0}') BEGIN INSERT INTO [CB38069E-44DE-463F-BAA6-6EA818E0CA3F](ProcessActivityMapId,FormId,SLATime,MF_ProjectRefNo,MF_Status,MF_PendingCount,MF_CompletedCount,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,RedirectUrl,InstanceId,M_UserId)
 							VALUES( {3}) END ELSE BEGIN UPDATE [CB38069E-44DE-463F-BAA6-6EA818E0CA3F]SET {4}WHERE InstanceId='{0}'END ";
 
-                                     colList=@"ProcessActivityMapId,FormId,SLATime,MF_ProjectRefNo,MF_Status,MF_PendingCount,MF_CompletedCount,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,RedirectUrl,InstanceId";
+                                     colList=@"ProcessActivityMapId,FormId,SLATime,MF_ProjectRefNo,MF_Status,MF_PendingCount,MF_CompletedCount,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,RedirectUrl,InstanceId,M_UserId";
                                     
                      
                             splitcols = colList.Split(',');
@@ -832,6 +832,10 @@ ISpace["MF_CompletedCount"].Value = result4a9a698cb4763eeff4f27fd4b9f8164b[1];
 else{
 ISpace["MF_PendingCount"].Value = null;ISpace["MF_CompletedCount"].Value = null;
 }
+ISpace["M_UserId"].Value=ISpace["gv_userid"].Value;
+base.WriteDebugInfo(@"ISpace[""M_UserId""].Value=ISpace[""gv_userid""].Value;");
+ISpace["M_UserId"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""M_UserId""].Visible=""false"";");
 }
 if(1==1)
 {
@@ -884,6 +888,10 @@ ISpace["MF_CompletedCount"].Value = result4a9a698cb4763eeff4f27fd4b9f8164b[1];
 else{
 ISpace["MF_PendingCount"].Value = null;ISpace["MF_CompletedCount"].Value = null;
 }
+ISpace["M_UserId"].Value=ISpace["gv_userid"].Value;
+base.WriteDebugInfo(@"ISpace[""M_UserId""].Value=ISpace[""gv_userid""].Value;");
+ISpace["M_UserId"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""M_UserId""].Visible=""false"";");
 }
 if(1==1)
 {
@@ -954,6 +962,10 @@ ISpace["MF_CompletedCount"].Value = result4a9a698cb4763eeff4f27fd4b9f8164b[1];
 else{
 ISpace["MF_PendingCount"].Value = null;ISpace["MF_CompletedCount"].Value = null;
 }
+ISpace["M_UserId"].Value=ISpace["gv_userid"].Value;
+base.WriteDebugInfo(@"ISpace[""M_UserId""].Value=ISpace[""gv_userid""].Value;");
+ISpace["M_UserId"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""M_UserId""].Visible=""false"";");
 }
 if(1==1)
 {
