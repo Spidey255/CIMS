@@ -1,6 +1,6 @@
 // Innovace Intech Solution Pvt Ltd
 // ⚠️ AUTO-GENERATED FILE – DO NOT EDIT
-// Generated on 2026-07-13T11:27:25.980Z
+// Generated on 2026-07-16T15:23:00.973Z
 
 export const pages = [
   {
@@ -8,12 +8,6 @@ export const pages = [
     "ProcessActivityMapId": "009B2351-D971-439B-9562-7308C30437A5",
     "ProcessName": "TravelSettlementNew",
     "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlementNew_DeanRandD"
-  },
-  {
-    "PackageProcessMapId": "B1037B85-D9C1-411B-87DE-0658365B81A8",
-    "ProcessActivityMapId": "01ABEB23-E635-437D-A24F-27342FB92C55",
-    "ProcessName": "ProjectReimbursement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectReimbursement_RDoffice"
   },
   {
     "PackageProcessMapId": "bfcdccb2-7467-4308-a53d-7cab7b883529",
@@ -110,12 +104,6 @@ export const pages = [
     "ProcessActivityMapId": "E8A1BB2D-0BB9-439B-8967-B3E1AB42CBDB",
     "ProcessName": "TravelSettlementNew",
     "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlementNew_Registrar"
-  },
-  {
-    "PackageProcessMapId": "B1037B85-D9C1-411B-87DE-0658365B81A8",
-    "ProcessActivityMapId": "C4E2EC4C-58BD-44FB-91D1-3D8E475D6C14",
-    "ProcessName": "ProjectReimbursement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectReimbursement_Registrar"
   },
   {
     "PackageProcessMapId": "026e321e-9bb7-4c74-8615-3bbd7cc1b241",
@@ -232,12 +220,6 @@ export const pages = [
     "RoutPath": "PRJ20251020000000025-R&DProjects/TravelRequestNew_RDOfficePayment"
   },
   {
-    "PackageProcessMapId": "B1037B85-D9C1-411B-87DE-0658365B81A8",
-    "ProcessActivityMapId": "788CA62E-DF0F-4071-B3E3-4239827AFC52",
-    "ProcessName": "ProjectReimbursement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectReimbursement_PIInitiation"
-  },
-  {
     "PackageProcessMapId": "C12B87A0-C375-4057-B0BA-64B4C80E77F9",
     "ProcessActivityMapId": "C74E1FE0-A9E3-4B09-A184-6D1DC9CE7B0F",
     "ProcessName": "CommitmentSpentDetails",
@@ -298,12 +280,6 @@ export const pages = [
     "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectFundInstallment_PIInitiation"
   },
   {
-    "PackageProcessMapId": "B1037B85-D9C1-411B-87DE-0658365B81A8",
-    "ProcessActivityMapId": "DFE5FDDD-AC9D-4714-A581-68E139EAC447",
-    "ProcessName": "ProjectReimbursement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectReimbursement_AdditionalDetails"
-  },
-  {
     "PackageProcessMapId": "0CC7EA0F-1DD0-4053-9D0E-E7EF819021D7",
     "ProcessActivityMapId": "0325353E-7E13-4762-AFC9-88434C58F52C",
     "ProcessName": "TempAdvanceExplorer",
@@ -320,18 +296,6 @@ export const pages = [
     "ProcessActivityMapId": "f75a82b6-5c5f-9157-8e14-7521dd2a01f1",
     "ProcessName": "TravelSettlementNew",
     "RoutPath": "PRJ20251020000000025-R&DProjects/TravelSettlementNew_RDOfficePayment"
-  },
-  {
-    "PackageProcessMapId": "B1037B85-D9C1-411B-87DE-0658365B81A8",
-    "ProcessActivityMapId": "7B9E10F1-A9E8-4A0C-90D9-F183CC3B49D0",
-    "ProcessName": "ProjectReimbursement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectReimbursement_DeanRD"
-  },
-  {
-    "PackageProcessMapId": "B1037B85-D9C1-411B-87DE-0658365B81A8",
-    "ProcessActivityMapId": "89D38028-FA53-4F9E-89EA-42C506E8E381",
-    "ProcessName": "ProjectReimbursement",
-    "RoutPath": "PRJ20251020000000025-R&DProjects/ProjectReimbursement_ARRD"
   },
   {
     "PackageProcessMapId": "36447555-6c49-45cd-8563-426f536ebf74",
