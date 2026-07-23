@@ -196,6 +196,10 @@ namespace CPS.Proof.DFSExtension
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
 						
+			     new Triplet<string, string, string>("bc65d3f1-af53-0623-8188-972c84eb7419","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
+			
+						
 			     new Triplet<string, string, string>("C19B89A6-EE8E-4242-8B3C-B80EB38918A3","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
@@ -3727,12 +3731,6 @@ ISpace["MF_ErrMsg"].Value = result2b98bf7bb73c87fa284445922ab108db[1];
 else{
 ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
 }
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
 if(ISpace["WF_FlowType"].Value!="REJECT")
@@ -3757,6 +3755,12 @@ else{
 ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -4281,12 +4285,6 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
 if(1==1)
@@ -4311,6 +4309,12 @@ else{
 ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -4563,12 +4567,6 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
 if(1==1)
@@ -4593,6 +4591,12 @@ else{
 ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -4845,12 +4849,6 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
 if(1==1)
@@ -4875,6 +4873,12 @@ else{
 ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -5127,12 +5131,6 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
 if(1==1)
@@ -5157,6 +5155,12 @@ else{
 ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -5409,12 +5413,6 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
 if(1==1)
@@ -5461,6 +5459,12 @@ else{
 ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -6497,12 +6501,6 @@ ISpace["MF_ErrMsg"].Value = result2b98bf7bb73c87fa284445922ab108db[1];
 else{
 ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
 }
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
 if(1==1)
@@ -6549,6 +6547,12 @@ else{
 ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
