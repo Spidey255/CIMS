@@ -377,7 +377,7 @@ namespace CPS.Proof.DFSExtension
 			     new Tuple<string, int>("MG_FundAllocation",5),
 			
 						
-			     new Tuple<string, int>("MG_AvailableBudget",5),
+			     new Tuple<string, int>("MG_AvailableBudget",200),
 			
 						
 			     new Tuple<string, int>("MG_RequiredDocuments",5),
