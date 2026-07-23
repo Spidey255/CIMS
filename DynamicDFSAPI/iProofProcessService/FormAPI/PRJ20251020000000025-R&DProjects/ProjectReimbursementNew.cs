@@ -228,6 +228,10 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
+			     new Triplet<string, string, string>("fc557ffb-97ce-abdd-3605-f56b1f9104c4","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
+			
+						
 			     new Triplet<string, string, string>("E8CDF359-9A11-4739-A997-9B7F3B8E3BA0","Load Commitments",
 												     @"6B7A35BC-59EB-4CFB-8FBF-ADB3E8BC39C6"),
 			
@@ -3301,12 +3305,6 @@ return;");
 }
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 if(ISpace["WF_FlowType"].Value=="RETURN"|| ISpace["WF_FlowType"].Value=="REJECT")
 {
 base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN""|| ISpace[""WF_FlowType""].Value==""REJECT"")");
@@ -3327,6 +3325,12 @@ else{
 ISpace["MF_ErrId"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -3341,6 +3345,46 @@ try
 base.WriteDebugInfo(@"WMF_History-OnClick");
 ISpace["UI_History"].ShowDialog=true;;
 base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_m_cancel (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_Cancel-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [UnlockProcessInstance] '@@gv_InstanceId','@@gv_UserId'");
+
+var querySourcefc557ffb97ceabdd3605f56b1f9104c4 =GetQueryExpressionDataSource("fc557ffb-97ce-abdd-3605-f56b1f9104c4");
+Dictionary<short,object> resultfc557ffb97ceabdd3605f56b1f9104c4=iSpace.ExecuteQuery(querySourcefc557ffb97ceabdd3605f56b1f9104c4,@"EXEC [UnlockProcessInstance] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcefc557ffb97ceabdd3605f56b1f9104c4 =GetQueryExpressionDataSource(""fc557ffb-97ce-abdd-3605-f56b1f9104c4"");Dictionary<short,object> resultfc557ffb97ceabdd3605f56b1f9104c4=iSpace.ExecuteQuery(querySourcefc557ffb97ceabdd3605f56b1f9104c4,@""EXEC [UnlockProcessInstance] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultfc557ffb97ceabdd3605f56b1f9104c4!=null) && (resultfc557ffb97ceabdd3605f56b1f9104c4.Count!=0))
+{
+if(resultfc557ffb97ceabdd3605f56b1f9104c4.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultfc557ffb97ceabdd3605f56b1f9104c4[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+ISpace["Message"].Value=@"SUCCESS:Cancelled Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Cancelled Successfully"";");
+}
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -3371,6 +3415,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("wmf_history"))
 {
 			SubscribeElementEvents_wmf_history(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("m_cancel"))
+{
+			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
 }
@@ -3605,12 +3653,6 @@ return;");
 }
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 if(ISpace["WF_FlowType"].Value=="RETURN"|| ISpace["WF_FlowType"].Value=="REJECT")
 {
 base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN""|| ISpace[""WF_FlowType""].Value==""REJECT"")");
@@ -3631,6 +3673,12 @@ else{
 ISpace["MF_ErrId"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -3645,6 +3693,46 @@ try
 base.WriteDebugInfo(@"WMF_History-OnClick");
 ISpace["UI_History"].ShowDialog=true;;
 base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_m_cancel (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_Cancel-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [UnlockProcessInstance] '@@gv_InstanceId','@@gv_UserId'");
+
+var querySourcefc557ffb97ceabdd3605f56b1f9104c4 =GetQueryExpressionDataSource("fc557ffb-97ce-abdd-3605-f56b1f9104c4");
+Dictionary<short,object> resultfc557ffb97ceabdd3605f56b1f9104c4=iSpace.ExecuteQuery(querySourcefc557ffb97ceabdd3605f56b1f9104c4,@"EXEC [UnlockProcessInstance] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcefc557ffb97ceabdd3605f56b1f9104c4 =GetQueryExpressionDataSource(""fc557ffb-97ce-abdd-3605-f56b1f9104c4"");Dictionary<short,object> resultfc557ffb97ceabdd3605f56b1f9104c4=iSpace.ExecuteQuery(querySourcefc557ffb97ceabdd3605f56b1f9104c4,@""EXEC [UnlockProcessInstance] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultfc557ffb97ceabdd3605f56b1f9104c4!=null) && (resultfc557ffb97ceabdd3605f56b1f9104c4.Count!=0))
+{
+if(resultfc557ffb97ceabdd3605f56b1f9104c4.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultfc557ffb97ceabdd3605f56b1f9104c4[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+ISpace["Message"].Value=@"SUCCESS:Cancelled Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Cancelled Successfully"";");
+}
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -3675,6 +3763,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("wmf_history"))
 {
 			SubscribeElementEvents_wmf_history(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("m_cancel"))
+{
+			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
 }
@@ -3909,12 +4001,6 @@ return;");
 }
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 if(ISpace["WF_FlowType"].Value=="RETURN"|| ISpace["WF_FlowType"].Value=="REJECT")
 {
 base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN""|| ISpace[""WF_FlowType""].Value==""REJECT"")");
@@ -3935,6 +4021,12 @@ else{
 ISpace["MF_ErrId"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -3949,6 +4041,46 @@ try
 base.WriteDebugInfo(@"WMF_History-OnClick");
 ISpace["UI_History"].ShowDialog=true;;
 base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_m_cancel (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_Cancel-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [UnlockProcessInstance] '@@gv_InstanceId','@@gv_UserId'");
+
+var querySourcefc557ffb97ceabdd3605f56b1f9104c4 =GetQueryExpressionDataSource("fc557ffb-97ce-abdd-3605-f56b1f9104c4");
+Dictionary<short,object> resultfc557ffb97ceabdd3605f56b1f9104c4=iSpace.ExecuteQuery(querySourcefc557ffb97ceabdd3605f56b1f9104c4,@"EXEC [UnlockProcessInstance] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcefc557ffb97ceabdd3605f56b1f9104c4 =GetQueryExpressionDataSource(""fc557ffb-97ce-abdd-3605-f56b1f9104c4"");Dictionary<short,object> resultfc557ffb97ceabdd3605f56b1f9104c4=iSpace.ExecuteQuery(querySourcefc557ffb97ceabdd3605f56b1f9104c4,@""EXEC [UnlockProcessInstance] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultfc557ffb97ceabdd3605f56b1f9104c4!=null) && (resultfc557ffb97ceabdd3605f56b1f9104c4.Count!=0))
+{
+if(resultfc557ffb97ceabdd3605f56b1f9104c4.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultfc557ffb97ceabdd3605f56b1f9104c4[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+ISpace["Message"].Value=@"SUCCESS:Cancelled Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Cancelled Successfully"";");
+}
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -3979,6 +4111,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("wmf_history"))
 {
 			SubscribeElementEvents_wmf_history(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("m_cancel"))
+{
+			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
 }
@@ -4213,12 +4349,6 @@ return;");
 }
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 if(ISpace["WF_FlowType"].Value=="APPROVE")
 {
 base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
@@ -4259,6 +4389,12 @@ else{
 ISpace["MF_ErrId"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -4273,6 +4409,46 @@ try
 base.WriteDebugInfo(@"WMF_History-OnClick");
 ISpace["UI_History"].ShowDialog=true;;
 base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_m_cancel (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_Cancel-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [UnlockProcessInstance] '@@gv_InstanceId','@@gv_UserId'");
+
+var querySourcefc557ffb97ceabdd3605f56b1f9104c4 =GetQueryExpressionDataSource("fc557ffb-97ce-abdd-3605-f56b1f9104c4");
+Dictionary<short,object> resultfc557ffb97ceabdd3605f56b1f9104c4=iSpace.ExecuteQuery(querySourcefc557ffb97ceabdd3605f56b1f9104c4,@"EXEC [UnlockProcessInstance] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_userid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcefc557ffb97ceabdd3605f56b1f9104c4 =GetQueryExpressionDataSource(""fc557ffb-97ce-abdd-3605-f56b1f9104c4"");Dictionary<short,object> resultfc557ffb97ceabdd3605f56b1f9104c4=iSpace.ExecuteQuery(querySourcefc557ffb97ceabdd3605f56b1f9104c4,@""EXEC [UnlockProcessInstance] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_userid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultfc557ffb97ceabdd3605f56b1f9104c4!=null) && (resultfc557ffb97ceabdd3605f56b1f9104c4.Count!=0))
+{
+if(resultfc557ffb97ceabdd3605f56b1f9104c4.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultfc557ffb97ceabdd3605f56b1f9104c4[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+ISpace["Message"].Value=@"SUCCESS:Cancelled Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Cancelled Successfully"";");
+}
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -4303,6 +4479,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("wmf_history"))
 {
 			SubscribeElementEvents_wmf_history(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("m_cancel"))
+{
+			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
 }
@@ -5259,12 +5439,6 @@ ISpace["RedirectUrl"].Value="?PkActMId=3F131441-D0E5-4A35-BADE-BBDC8C5190A1&frmE
 base.WriteDebugInfo(@"
 ISpace[""RedirectUrl""].RedirectType=""R"";
 ISpace[""RedirectUrl""].Value=""?PkActMId=3F131441-D0E5-4A35-BADE-BBDC8C5190A1&frmElementId=A2D043F8-4C87-4C0C-BB8B-FB2C64B24C44&PkPrMId=3A048090-0538-48F9-8870-AE1A37E0EDB9&formVersionId=EBFF27E0-9875-4D44-9674-9F00EBD7ABAD&Ver=0.0000"";");
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 if(ISpace["WF_FlowType"].Value=="RETURN"|| ISpace["WF_FlowType"].Value=="REJECT")
 {
 base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN""|| ISpace[""WF_FlowType""].Value==""REJECT"")");
@@ -5285,6 +5459,12 @@ else{
 ISpace["MF_ErrId"].Value = null;
 }
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {

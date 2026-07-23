@@ -204,6 +204,10 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
+			     new Triplet<string, string, string>("4c20e723-6b4e-1baa-1f33-b09cc235bbe6","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
+			
+						
 			     new Triplet<string, string, string>("D7D51D58-71D4-428E-A54A-D52FA8744223","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
