@@ -3,6 +3,7 @@ import React, { useEffect } from "react";
 import dayjs from "dayjs";
 import type { UIElement } from "@/constants/types";
 import { useGeneralStore } from "@/store/useStore";
+import { convertPhpToDayjsFormat } from "@/helpers/dateFormatHelper";
 
 declare global {
   interface Window {
@@ -14,6 +15,9 @@ const LabelDateTimePicker: React.FC<{
   element: UIElement;
   isGrid?: boolean;
 }> = ({ element, isGrid }) => {
+  const displayFormat = element.DisplayFormat || "Y-m-d";
+const dayjsFormat = convertPhpToDayjsFormat(displayFormat);
+
   const state = useGeneralStore(
     (store) => store.state[element.ElementName]?.["value"]
   );
@@ -72,9 +76,9 @@ const LabelDateTimePicker: React.FC<{
               className={`${element.Css} ${!state ? "text-muted fst-italic" : ""}`}
             >
               {/* If there's a state (date), show formatted date. If not, show placeholder. */}
-              {state
-                ? dayjs(state.toString()).format("YYYY-MM-DD")
-                : "YYYY-MM-DD"}
+             {state
+  ? dayjs(state.toString()).format(dayjsFormat)
+  : displayFormat}
             </span>
           </div>
 
