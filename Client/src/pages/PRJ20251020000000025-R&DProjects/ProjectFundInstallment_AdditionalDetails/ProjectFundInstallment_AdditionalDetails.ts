@@ -75,6 +75,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 1,
         "_id": "7C2FCB5F-5B8F-411B-97D0-66895BA743C7_2_1",
         "children": [
@@ -115,6 +116,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "UCaption": "Project Fund Instalment",
             "__idx": 7,
             "_id": "0999F5C1-1DDE-4164-9ECE-E510AAC6076E_8_7",
@@ -156,6 +158,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 8,
             "_id": "92DA46A6-E38B-446E-A902-89D082955DFD_9_8",
             "children": [
@@ -195,6 +198,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 21,
                 "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_22_21",
                 "children": [
@@ -392,6 +396,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 22,
                 "_id": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD_23_22",
                 "children": []
@@ -436,6 +441,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 2,
         "_id": "4D98DF58-F3A0-4125-AF46-6C19692C99F4_3_2",
         "children": [
@@ -475,6 +481,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 9,
             "_id": "AE89E521-C9BC-49E0-AF9F-EA3BDB561C49_10_9",
             "children": [
@@ -514,6 +521,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 23,
                 "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_24_23",
                 "children": [
@@ -596,6 +604,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 10,
             "_id": "1CB48FE9-E433-409E-B08B-4074DC4AE3E5_11_10",
             "children": [
@@ -635,6 +644,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 24,
                 "_id": "856B243C-AB46-4C50-8A2C-C34E7AA194EA_25_24",
                 "children": [
@@ -674,6 +684,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 53,
                     "_id": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F_54_53",
                     "children": [
@@ -713,6 +724,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 73,
                         "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_74_73",
                         "children": [
@@ -753,6 +765,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "UCaption": "Project Information",
                             "__idx": 91,
                             "_id": "0B168B00-008D-4750-9372-547D14EA5D78_92_91",
@@ -794,6 +807,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 92,
                             "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_93_92",
                             "children": []
@@ -836,6 +850,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 74,
                         "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_75_74",
                         "children": [
@@ -875,6 +890,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 93,
                             "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_94_93",
                             "children": [
@@ -1069,6 +1085,7 @@ export const DataElementsData = [
                                 "DCaption": "Sanctioned Date",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "DisplayFormat": "d-m-Y",
                                 "__idx": 117,
                                 "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
                                 "children": []
@@ -1145,6 +1162,7 @@ export const DataElementsData = [
                                 "DCaption": "Start Date",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "DisplayFormat": "d-m-Y",
                                 "__idx": 119,
                                 "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
                                 "children": []
@@ -1183,6 +1201,7 @@ export const DataElementsData = [
                                 "DCaption": "End Date",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "DisplayFormat": "d-m-Y",
                                 "__idx": 120,
                                 "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
                                 "children": []
@@ -1265,6 +1284,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 75,
                         "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_76_75",
                         "children": [
@@ -1304,6 +1324,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 94,
                             "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_95_94",
                             "children": [
@@ -1341,6 +1362,7 @@ export const DataElementsData = [
                                 "DCaption": "Actual Start Date",
                                 "DHelpText": "",
                                 "DToolTip": "",
+                                "DisplayFormat": "d-m-Y",
                                 "__idx": 122,
                                 "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
                                 "children": []
@@ -1389,6 +1411,8 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
+                                "DisplayFormat": "d-m-Y",
+                                "DateInputtype": "DateTime",
                                 "__idx": 123,
                                 "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
                                 "children": []
@@ -1439,6 +1463,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 11,
             "_id": "344E139A-A81C-4C70-960F-6CE23BFCF2CD_12_11",
             "children": [
@@ -1478,6 +1503,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 25,
                 "_id": "46EB9B6C-719A-4E03-88D8-86F4062E3A45_26_25",
                 "children": [
@@ -1517,6 +1543,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 54,
                     "_id": "D0DF120F-C213-48A2-9B4C-AF2F7D166169_55_54",
                     "children": [
@@ -1556,6 +1583,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 76,
                         "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_77_76",
                         "children": [
@@ -1596,6 +1624,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "UCaption": "Fund Installment Details",
                             "__idx": 95,
                             "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_96_95",
@@ -1636,6 +1665,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 96,
                             "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_97_96",
                             "children": []
@@ -1678,6 +1708,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 77,
                         "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_78_77",
                         "children": [
@@ -1717,6 +1748,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 97,
                             "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_98_97",
                             "children": [
@@ -1820,6 +1852,7 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
+                                "DisplayFormat": "d-m-Y",
                                 "__idx": 125,
                                 "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
                                 "children": []
@@ -2059,6 +2092,7 @@ export const DataElementsData = [
                                     "Span": false
                                   }
                                 ],
+                                "DisplayFormat": "d-m-Y",
                                 "__idx": 130,
                                 "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
                                 "children": []
@@ -2156,6 +2190,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 12,
             "_id": "518E5A77-F7AD-4C49-B77F-A04C4EEA12BF_13_12",
             "children": [
@@ -2195,6 +2230,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 26,
                 "_id": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D_27_26",
                 "children": [
@@ -2234,6 +2270,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 55,
                     "_id": "31F38CD6-6BEA-4BC4-8B26-493F1977A981_56_55",
                     "children": [
@@ -2273,6 +2310,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 78,
                         "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_79_78",
                         "children": [
@@ -2313,6 +2351,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "UCaption": "Split Up of Fund Installment",
                             "__idx": 98,
                             "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_99_98",
@@ -2353,6 +2392,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 99,
                             "_id": "97461361-3474-48BD-B47B-2DD78F64392B_100_99",
                             "children": []
@@ -2395,6 +2435,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 79,
                         "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_80_79",
                         "children": [
@@ -2434,6 +2475,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 100,
                             "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_101_100",
                             "children": [
@@ -2657,6 +2699,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 80,
                         "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_81_80",
                         "children": [
@@ -2737,6 +2780,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 136,
                                 "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
                                 "children": []
@@ -2776,6 +2820,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 137,
                                 "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
                                 "children": []
@@ -2814,7 +2859,7 @@ export const DataElementsData = [
                                 "BindingDetail": "",
                                 "EDT": 12,
                                 "GM": "Repeater",
-                                "DCaption": "",
+                                "DCaption": "ReceiptSplitUpDetails",
                                 "DHelpText": "",
                                 "DToolTip": "",
                                 "__idx": 138,
@@ -2895,6 +2940,7 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
+                                        "DCaption": "",
                                         "__idx": 1,
                                         "_id": "8D4BCB77-F9C5-489E-AC36-620F0DCFFC80_2_1",
                                         "children": [
@@ -2934,6 +2980,7 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
+                                            "DCaption": "",
                                             "__idx": 2,
                                             "_id": "1F8952B7-07BE-407F-BCE8-77AD0F255D62_3_2",
                                             "children": [
@@ -2973,6 +3020,7 @@ export const DataElementsData = [
                                                 "Bindable": false,
                                                 "IsSaveWidget": 0,
                                                 "BindingDetail": "",
+                                                "DCaption": "",
                                                 "__idx": 3,
                                                 "_id": "D301EE49-0B64-4DBB-97A1-65D316D5C75B_4_3",
                                                 "children": [
@@ -3012,6 +3060,7 @@ export const DataElementsData = [
                                                     "Bindable": false,
                                                     "IsSaveWidget": 0,
                                                     "BindingDetail": "",
+                                                    "DCaption": "",
                                                     "__idx": 4,
                                                     "_id": "5FBA8A9C-38FF-4E61-A3F7-DD0731802F6A_5_4",
                                                     "children": [
@@ -3051,6 +3100,7 @@ export const DataElementsData = [
                                                         "Bindable": false,
                                                         "IsSaveWidget": 0,
                                                         "BindingDetail": "",
+                                                        "DCaption": "",
                                                         "__idx": 6,
                                                         "_id": "A224556A-C230-4ACD-9AB8-35949BBE200C_7_6",
                                                         "children": []
@@ -3093,6 +3143,7 @@ export const DataElementsData = [
                                                     "Bindable": false,
                                                     "IsSaveWidget": 0,
                                                     "BindingDetail": "",
+                                                    "DCaption": "",
                                                     "__idx": 5,
                                                     "_id": "8D825448-5E5D-4B02-ABE5-FC9AC3EBD8DB_6_5",
                                                     "children": [
@@ -3132,6 +3183,7 @@ export const DataElementsData = [
                                                         "Bindable": false,
                                                         "IsSaveWidget": 0,
                                                         "BindingDetail": "",
+                                                        "DCaption": "",
                                                         "__idx": 7,
                                                         "_id": "61413121-A958-4C8E-9086-58ABE3CBBABE_8_7",
                                                         "children": [
@@ -3250,6 +3302,7 @@ export const DataElementsData = [
                                                             "Bindable": false,
                                                             "IsSaveWidget": 0,
                                                             "BindingDetail": "",
+                                                            "DCaption": "",
                                                             "__idx": 10,
                                                             "_id": "0E600BA1-6FC8-4892-8B79-F6BED5A736F4_11_10",
                                                             "children": [
@@ -3383,6 +3436,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 139,
                                 "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
                                 "children": []
@@ -3791,6 +3845,7 @@ export const DataElementsData = [
                                       }
                                     ],
                                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
+                                    "DisplayFormat": "d-m-Y",
                                     "__idx": 152,
                                     "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
                                     "children": []
@@ -3931,6 +3986,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 13,
             "_id": "5A625208-771E-45E9-BB12-AC6CF55D27D0_14_13",
             "children": [
@@ -3970,6 +4026,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 27,
                 "_id": "69C14AD1-4D01-4C59-9329-309CD11792BC_28_27",
                 "children": [
@@ -4009,6 +4066,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 56,
                     "_id": "09678F54-644C-42B0-8E43-28997A14ED3D_57_56",
                     "children": [
@@ -4048,6 +4106,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 81,
                         "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_82_81",
                         "children": [
@@ -4088,6 +4147,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "UCaption": "Summary",
                             "__idx": 102,
                             "_id": "840D2A86-98D9-4239-8536-663ECAA70414_103_102",
@@ -4128,6 +4188,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 103,
                             "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_104_103",
                             "children": []
@@ -4170,6 +4231,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 82,
                         "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_83_82",
                         "children": [
@@ -4209,6 +4271,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 104,
                             "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_105_104",
                             "children": [
@@ -4248,6 +4311,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 141,
                                 "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
                                 "children": [
@@ -4287,6 +4351,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 155,
                                     "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
                                     "children": [
@@ -4326,6 +4391,7 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
+                                        "DCaption": "",
                                         "__idx": 161,
                                         "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
                                         "children": [
@@ -4365,6 +4431,7 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
+                                            "DCaption": "",
                                             "__idx": 163,
                                             "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                                             "children": [
@@ -4404,6 +4471,7 @@ export const DataElementsData = [
                                                 "Bindable": false,
                                                 "IsSaveWidget": 0,
                                                 "BindingDetail": "",
+                                                "DCaption": "",
                                                 "__idx": 165,
                                                 "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                                                 "children": [
@@ -4491,6 +4559,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 142,
                                 "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
                                 "children": [
@@ -4530,6 +4599,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 156,
                                     "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
                                     "children": [
@@ -4569,6 +4639,7 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
+                                        "DCaption": "",
                                         "__idx": 162,
                                         "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
                                         "children": [
@@ -4608,6 +4679,7 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
+                                            "DCaption": "",
                                             "__idx": 164,
                                             "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                                             "children": [
@@ -4647,6 +4719,7 @@ export const DataElementsData = [
                                                 "Bindable": false,
                                                 "IsSaveWidget": 0,
                                                 "BindingDetail": "",
+                                                "DCaption": "",
                                                 "__idx": 166,
                                                 "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                                                 "children": [
@@ -4738,6 +4811,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 83,
                         "_id": "530F4791-43BB-498A-920D-7093BD174467_84_83",
                         "children": []
@@ -4784,6 +4858,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 14,
             "_id": "0673AD4B-ED6D-4C28-BD79-B150D07FA90A_15_14",
             "children": [
@@ -4823,6 +4898,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 28,
                 "_id": "46091F7F-014D-4DDC-AD9D-974B1E4002B5_29_28",
                 "children": [
@@ -4902,6 +4978,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 84,
                         "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_85_84",
                         "children": []
@@ -4942,6 +5019,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 85,
                         "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_86_85",
                         "children": []
@@ -5022,6 +5100,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 87,
                         "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_88_87",
                         "children": []
@@ -5305,6 +5384,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 15,
             "_id": "A4063845-FD74-466E-BA32-35B3F61228C5_16_15",
             "children": [
@@ -5344,6 +5424,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 29,
                 "_id": "0DD3C9A1-7792-46A1-AE80-5240D67771C7_30_29",
                 "children": [
@@ -5383,6 +5464,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 58,
                     "_id": "97388DDE-3223-499A-B2CB-FE3C761AEA03_59_58",
                     "children": [
@@ -5422,6 +5504,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 89,
                         "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_90_89",
                         "children": [
@@ -5462,6 +5545,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "UCaption": "Next Action",
                             "__idx": 110,
                             "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_111_110",
@@ -5502,6 +5586,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 111,
                             "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_112_111",
                             "children": []
@@ -5544,6 +5629,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 90,
                         "_id": "8B846853-9923-40F7-9C01-1A529703585B_91_90",
                         "children": [
@@ -5583,6 +5669,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 112,
                             "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_113_112",
                             "children": [
@@ -5622,6 +5709,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 143,
                                 "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
                                 "children": [
@@ -5722,7 +5810,7 @@ export const DataElementsData = [
                                 "FontStrikeout": false,
                                 "FontUnderline": false,
                                 "Depth": 8,
-                                "Css": "grid_view flex-end gap-2",
+                                "Css": "grid_view flex-end gap-2 hlCmpt",
                                 "IsBadge": false,
                                 "MaxValue": 100,
                                 "CurrValue": 10,
@@ -5747,6 +5835,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 144,
                                 "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
                                 "children": [
@@ -5799,14 +5888,14 @@ export const DataElementsData = [
                                     "FontStrikeout": false,
                                     "FontUnderline": false,
                                     "Depth": 9,
-                                    "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
+                                    "Css": "btn btn-info btn-xs btn-primary",
                                     "ElementId": "de579991-212f-3ed2-1827-9bdd18c52f44",
                                     "UIElementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                                     "Sequence": 19,
                                     "ElementName": "M_History",
                                     "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
                                     "ControlType": "ActionButton",
-                                    "Wrap": 4,
+                                    "Wrap": 0,
                                     "ClearFix": false,
                                     "OnDemandLoad": false,
                                     "ControlId": 9,
@@ -5876,6 +5965,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 3,
         "_id": "DEB9F9C9-2B61-479A-88C3-9AF4EAE7763C_4_3",
         "children": [
@@ -5956,6 +6046,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 30,
                 "_id": "AD7A0985-D773-4505-B214-3753D81629B6_31_30",
                 "children": []
@@ -5995,6 +6086,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 31,
                 "_id": "FB487F2B-EAF1-43AD-B348-B06B39371ABA_32_31",
                 "children": []
@@ -6075,6 +6167,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 33,
                 "_id": "2D875F54-F45D-496C-AD6B-92D9B9846E36_34_33",
                 "children": []
@@ -6430,6 +6523,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 4,
         "_id": "65640807-7FEC-4B06-B4F0-B498E2ED8D3C_5_4",
         "children": [
@@ -6468,6 +6562,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 17,
             "_id": "f40488b3-2895-b981-ad1f-c24aa99b40a2_18_17",
             "children": [
@@ -6509,6 +6604,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 35,
                 "_id": "12E9ACFC-EA06-41F0-864C-56AB4242C92C_36_35",
                 "children": []
@@ -6526,6 +6622,7 @@ export const DataElementsData = [
             "FontStrikeout": false,
             "FontUnderline": false,
             "Depth": 3,
+            "Css": "row grid_view d-flex justify-content-center",
             "IsBadge": false,
             "MaxValue": 100,
             "CurrValue": 10,
@@ -6550,6 +6647,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 18,
             "_id": "6ab3094c-42ec-df3f-43d7-79441d249115_19_18",
             "children": [
@@ -6589,6 +6687,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 36,
                 "_id": "71740417-6F9D-4EE9-8F19-6A2D0A225A47_37_36",
                 "children": []
@@ -6629,6 +6728,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 37,
                 "_id": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41_38_37",
                 "children": []
@@ -6673,6 +6773,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 5,
         "_id": "A2BBDDB3-FD24-42A6-B85D-36790BB660DD_6_5",
         "children": [
@@ -6712,6 +6813,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 19,
             "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_20_19",
             "children": [
@@ -6962,6 +7064,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 6,
         "_id": "D26C046D-FD5F-4B2E-B031-C8051F19949F_7_6",
         "children": [
@@ -7041,6 +7144,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 43,
                 "_id": "0B55DFD1-2410-4AE4-9504-B06D014378C6_44_43",
                 "children": []
@@ -7080,6 +7184,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 44,
                 "_id": "C9BB7C58-7A52-4144-89EC-E828E0D7B908_45_44",
                 "children": []
@@ -7160,6 +7265,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 46,
                 "_id": "BD56103A-3552-4850-B1D0-36AD88502675_47_46",
                 "children": []
@@ -7471,6 +7577,8 @@ export const DataElementsData = [
                     "DHelpText": "",
                     "DToolTip": "",
                     "GridParent": "A60B4163-9CF0-4E09-BFA3-CE33E4A3DE48",
+                    "DisplayFormat": "d-m-Y",
+                    "DateInputtype": "Date",
                     "__idx": 72,
                     "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_73_72",
                     "children": []
@@ -7519,6 +7627,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 1,
     "_id": "7C2FCB5F-5B8F-411B-97D0-66895BA743C7_2_1",
     "children": [
@@ -7559,6 +7668,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "UCaption": "Project Fund Instalment",
         "__idx": 7,
         "_id": "0999F5C1-1DDE-4164-9ECE-E510AAC6076E_8_7",
@@ -7600,6 +7710,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 8,
         "_id": "92DA46A6-E38B-446E-A902-89D082955DFD_9_8",
         "children": [
@@ -7639,6 +7750,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 21,
             "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_22_21",
             "children": [
@@ -7836,6 +7948,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 22,
             "_id": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD_23_22",
             "children": []
@@ -7880,6 +7993,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 2,
     "_id": "4D98DF58-F3A0-4125-AF46-6C19692C99F4_3_2",
     "children": [
@@ -7919,6 +8033,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 9,
         "_id": "AE89E521-C9BC-49E0-AF9F-EA3BDB561C49_10_9",
         "children": [
@@ -7958,6 +8073,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 23,
             "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_24_23",
             "children": [
@@ -8040,6 +8156,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 10,
         "_id": "1CB48FE9-E433-409E-B08B-4074DC4AE3E5_11_10",
         "children": [
@@ -8079,6 +8196,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 24,
             "_id": "856B243C-AB46-4C50-8A2C-C34E7AA194EA_25_24",
             "children": [
@@ -8118,6 +8236,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 53,
                 "_id": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F_54_53",
                 "children": [
@@ -8157,6 +8276,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 73,
                     "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_74_73",
                     "children": [
@@ -8197,6 +8317,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "UCaption": "Project Information",
                         "__idx": 91,
                         "_id": "0B168B00-008D-4750-9372-547D14EA5D78_92_91",
@@ -8238,6 +8359,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 92,
                         "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_93_92",
                         "children": []
@@ -8280,6 +8402,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 74,
                     "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_75_74",
                     "children": [
@@ -8319,6 +8442,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 93,
                         "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_94_93",
                         "children": [
@@ -8513,6 +8637,7 @@ export const DataElementsData = [
                             "DCaption": "Sanctioned Date",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "DisplayFormat": "d-m-Y",
                             "__idx": 117,
                             "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
                             "children": []
@@ -8589,6 +8714,7 @@ export const DataElementsData = [
                             "DCaption": "Start Date",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "DisplayFormat": "d-m-Y",
                             "__idx": 119,
                             "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
                             "children": []
@@ -8627,6 +8753,7 @@ export const DataElementsData = [
                             "DCaption": "End Date",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "DisplayFormat": "d-m-Y",
                             "__idx": 120,
                             "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
                             "children": []
@@ -8709,6 +8836,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 75,
                     "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_76_75",
                     "children": [
@@ -8748,6 +8876,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 94,
                         "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_95_94",
                         "children": [
@@ -8785,6 +8914,7 @@ export const DataElementsData = [
                             "DCaption": "Actual Start Date",
                             "DHelpText": "",
                             "DToolTip": "",
+                            "DisplayFormat": "d-m-Y",
                             "__idx": 122,
                             "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
                             "children": []
@@ -8833,6 +8963,8 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
+                            "DisplayFormat": "d-m-Y",
+                            "DateInputtype": "DateTime",
                             "__idx": 123,
                             "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
                             "children": []
@@ -8883,6 +9015,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 11,
         "_id": "344E139A-A81C-4C70-960F-6CE23BFCF2CD_12_11",
         "children": [
@@ -8922,6 +9055,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 25,
             "_id": "46EB9B6C-719A-4E03-88D8-86F4062E3A45_26_25",
             "children": [
@@ -8961,6 +9095,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 54,
                 "_id": "D0DF120F-C213-48A2-9B4C-AF2F7D166169_55_54",
                 "children": [
@@ -9000,6 +9135,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 76,
                     "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_77_76",
                     "children": [
@@ -9040,6 +9176,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "UCaption": "Fund Installment Details",
                         "__idx": 95,
                         "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_96_95",
@@ -9080,6 +9217,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 96,
                         "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_97_96",
                         "children": []
@@ -9122,6 +9260,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 77,
                     "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_78_77",
                     "children": [
@@ -9161,6 +9300,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 97,
                         "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_98_97",
                         "children": [
@@ -9264,6 +9404,7 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
+                            "DisplayFormat": "d-m-Y",
                             "__idx": 125,
                             "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
                             "children": []
@@ -9503,6 +9644,7 @@ export const DataElementsData = [
                                 "Span": false
                               }
                             ],
+                            "DisplayFormat": "d-m-Y",
                             "__idx": 130,
                             "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
                             "children": []
@@ -9600,6 +9742,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 12,
         "_id": "518E5A77-F7AD-4C49-B77F-A04C4EEA12BF_13_12",
         "children": [
@@ -9639,6 +9782,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 26,
             "_id": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D_27_26",
             "children": [
@@ -9678,6 +9822,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 55,
                 "_id": "31F38CD6-6BEA-4BC4-8B26-493F1977A981_56_55",
                 "children": [
@@ -9717,6 +9862,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 78,
                     "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_79_78",
                     "children": [
@@ -9757,6 +9903,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "UCaption": "Split Up of Fund Installment",
                         "__idx": 98,
                         "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_99_98",
@@ -9797,6 +9944,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 99,
                         "_id": "97461361-3474-48BD-B47B-2DD78F64392B_100_99",
                         "children": []
@@ -9839,6 +9987,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 79,
                     "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_80_79",
                     "children": [
@@ -9878,6 +10027,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 100,
                         "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_101_100",
                         "children": [
@@ -10101,6 +10251,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 80,
                     "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_81_80",
                     "children": [
@@ -10181,6 +10332,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 136,
                             "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
                             "children": []
@@ -10220,6 +10372,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 137,
                             "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
                             "children": []
@@ -10258,7 +10411,7 @@ export const DataElementsData = [
                             "BindingDetail": "",
                             "EDT": 12,
                             "GM": "Repeater",
-                            "DCaption": "",
+                            "DCaption": "ReceiptSplitUpDetails",
                             "DHelpText": "",
                             "DToolTip": "",
                             "__idx": 138,
@@ -10339,6 +10492,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 1,
                                     "_id": "8D4BCB77-F9C5-489E-AC36-620F0DCFFC80_2_1",
                                     "children": [
@@ -10378,6 +10532,7 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
+                                        "DCaption": "",
                                         "__idx": 2,
                                         "_id": "1F8952B7-07BE-407F-BCE8-77AD0F255D62_3_2",
                                         "children": [
@@ -10417,6 +10572,7 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
+                                            "DCaption": "",
                                             "__idx": 3,
                                             "_id": "D301EE49-0B64-4DBB-97A1-65D316D5C75B_4_3",
                                             "children": [
@@ -10456,6 +10612,7 @@ export const DataElementsData = [
                                                 "Bindable": false,
                                                 "IsSaveWidget": 0,
                                                 "BindingDetail": "",
+                                                "DCaption": "",
                                                 "__idx": 4,
                                                 "_id": "5FBA8A9C-38FF-4E61-A3F7-DD0731802F6A_5_4",
                                                 "children": [
@@ -10495,6 +10652,7 @@ export const DataElementsData = [
                                                     "Bindable": false,
                                                     "IsSaveWidget": 0,
                                                     "BindingDetail": "",
+                                                    "DCaption": "",
                                                     "__idx": 6,
                                                     "_id": "A224556A-C230-4ACD-9AB8-35949BBE200C_7_6",
                                                     "children": []
@@ -10537,6 +10695,7 @@ export const DataElementsData = [
                                                 "Bindable": false,
                                                 "IsSaveWidget": 0,
                                                 "BindingDetail": "",
+                                                "DCaption": "",
                                                 "__idx": 5,
                                                 "_id": "8D825448-5E5D-4B02-ABE5-FC9AC3EBD8DB_6_5",
                                                 "children": [
@@ -10576,6 +10735,7 @@ export const DataElementsData = [
                                                     "Bindable": false,
                                                     "IsSaveWidget": 0,
                                                     "BindingDetail": "",
+                                                    "DCaption": "",
                                                     "__idx": 7,
                                                     "_id": "61413121-A958-4C8E-9086-58ABE3CBBABE_8_7",
                                                     "children": [
@@ -10694,6 +10854,7 @@ export const DataElementsData = [
                                                         "Bindable": false,
                                                         "IsSaveWidget": 0,
                                                         "BindingDetail": "",
+                                                        "DCaption": "",
                                                         "__idx": 10,
                                                         "_id": "0E600BA1-6FC8-4892-8B79-F6BED5A736F4_11_10",
                                                         "children": [
@@ -10827,6 +10988,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 139,
                             "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
                             "children": []
@@ -11235,6 +11397,7 @@ export const DataElementsData = [
                                   }
                                 ],
                                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
+                                "DisplayFormat": "d-m-Y",
                                 "__idx": 152,
                                 "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
                                 "children": []
@@ -11375,6 +11538,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 13,
         "_id": "5A625208-771E-45E9-BB12-AC6CF55D27D0_14_13",
         "children": [
@@ -11414,6 +11578,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 27,
             "_id": "69C14AD1-4D01-4C59-9329-309CD11792BC_28_27",
             "children": [
@@ -11453,6 +11618,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 56,
                 "_id": "09678F54-644C-42B0-8E43-28997A14ED3D_57_56",
                 "children": [
@@ -11492,6 +11658,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 81,
                     "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_82_81",
                     "children": [
@@ -11532,6 +11699,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "UCaption": "Summary",
                         "__idx": 102,
                         "_id": "840D2A86-98D9-4239-8536-663ECAA70414_103_102",
@@ -11572,6 +11740,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 103,
                         "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_104_103",
                         "children": []
@@ -11614,6 +11783,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 82,
                     "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_83_82",
                     "children": [
@@ -11653,6 +11823,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 104,
                         "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_105_104",
                         "children": [
@@ -11692,6 +11863,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 141,
                             "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
                             "children": [
@@ -11731,6 +11903,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 155,
                                 "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
                                 "children": [
@@ -11770,6 +11943,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 161,
                                     "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
                                     "children": [
@@ -11809,6 +11983,7 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
+                                        "DCaption": "",
                                         "__idx": 163,
                                         "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                                         "children": [
@@ -11848,6 +12023,7 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
+                                            "DCaption": "",
                                             "__idx": 165,
                                             "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                                             "children": [
@@ -11935,6 +12111,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 142,
                             "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
                             "children": [
@@ -11974,6 +12151,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 156,
                                 "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
                                 "children": [
@@ -12013,6 +12191,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 162,
                                     "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
                                     "children": [
@@ -12052,6 +12231,7 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
+                                        "DCaption": "",
                                         "__idx": 164,
                                         "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                                         "children": [
@@ -12091,6 +12271,7 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
+                                            "DCaption": "",
                                             "__idx": 166,
                                             "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                                             "children": [
@@ -12182,6 +12363,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 83,
                     "_id": "530F4791-43BB-498A-920D-7093BD174467_84_83",
                     "children": []
@@ -12228,6 +12410,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 14,
         "_id": "0673AD4B-ED6D-4C28-BD79-B150D07FA90A_15_14",
         "children": [
@@ -12267,6 +12450,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 28,
             "_id": "46091F7F-014D-4DDC-AD9D-974B1E4002B5_29_28",
             "children": [
@@ -12346,6 +12530,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 84,
                     "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_85_84",
                     "children": []
@@ -12386,6 +12571,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 85,
                     "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_86_85",
                     "children": []
@@ -12466,6 +12652,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 87,
                     "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_88_87",
                     "children": []
@@ -12749,6 +12936,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 15,
         "_id": "A4063845-FD74-466E-BA32-35B3F61228C5_16_15",
         "children": [
@@ -12788,6 +12976,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 29,
             "_id": "0DD3C9A1-7792-46A1-AE80-5240D67771C7_30_29",
             "children": [
@@ -12827,6 +13016,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 58,
                 "_id": "97388DDE-3223-499A-B2CB-FE3C761AEA03_59_58",
                 "children": [
@@ -12866,6 +13056,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 89,
                     "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_90_89",
                     "children": [
@@ -12906,6 +13097,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "UCaption": "Next Action",
                         "__idx": 110,
                         "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_111_110",
@@ -12946,6 +13138,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 111,
                         "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_112_111",
                         "children": []
@@ -12988,6 +13181,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 90,
                     "_id": "8B846853-9923-40F7-9C01-1A529703585B_91_90",
                     "children": [
@@ -13027,6 +13221,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 112,
                         "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_113_112",
                         "children": [
@@ -13066,6 +13261,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 143,
                             "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
                             "children": [
@@ -13166,7 +13362,7 @@ export const DataElementsData = [
                             "FontStrikeout": false,
                             "FontUnderline": false,
                             "Depth": 8,
-                            "Css": "grid_view flex-end gap-2",
+                            "Css": "grid_view flex-end gap-2 hlCmpt",
                             "IsBadge": false,
                             "MaxValue": 100,
                             "CurrValue": 10,
@@ -13191,6 +13387,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 144,
                             "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
                             "children": [
@@ -13243,14 +13440,14 @@ export const DataElementsData = [
                                 "FontStrikeout": false,
                                 "FontUnderline": false,
                                 "Depth": 9,
-                                "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
+                                "Css": "btn btn-info btn-xs btn-primary",
                                 "ElementId": "de579991-212f-3ed2-1827-9bdd18c52f44",
                                 "UIElementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                                 "Sequence": 19,
                                 "ElementName": "M_History",
                                 "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
                                 "ControlType": "ActionButton",
-                                "Wrap": 4,
+                                "Wrap": 0,
                                 "ClearFix": false,
                                 "OnDemandLoad": false,
                                 "ControlId": 9,
@@ -13320,6 +13517,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 3,
     "_id": "DEB9F9C9-2B61-479A-88C3-9AF4EAE7763C_4_3",
     "children": [
@@ -13400,6 +13598,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 30,
             "_id": "AD7A0985-D773-4505-B214-3753D81629B6_31_30",
             "children": []
@@ -13439,6 +13638,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 31,
             "_id": "FB487F2B-EAF1-43AD-B348-B06B39371ABA_32_31",
             "children": []
@@ -13519,6 +13719,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 33,
             "_id": "2D875F54-F45D-496C-AD6B-92D9B9846E36_34_33",
             "children": []
@@ -13874,6 +14075,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 4,
     "_id": "65640807-7FEC-4B06-B4F0-B498E2ED8D3C_5_4",
     "children": [
@@ -13912,6 +14114,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 17,
         "_id": "f40488b3-2895-b981-ad1f-c24aa99b40a2_18_17",
         "children": [
@@ -13953,6 +14156,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 35,
             "_id": "12E9ACFC-EA06-41F0-864C-56AB4242C92C_36_35",
             "children": []
@@ -13970,6 +14174,7 @@ export const DataElementsData = [
         "FontStrikeout": false,
         "FontUnderline": false,
         "Depth": 3,
+        "Css": "row grid_view d-flex justify-content-center",
         "IsBadge": false,
         "MaxValue": 100,
         "CurrValue": 10,
@@ -13994,6 +14199,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 18,
         "_id": "6ab3094c-42ec-df3f-43d7-79441d249115_19_18",
         "children": [
@@ -14033,6 +14239,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 36,
             "_id": "71740417-6F9D-4EE9-8F19-6A2D0A225A47_37_36",
             "children": []
@@ -14073,6 +14280,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 37,
             "_id": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41_38_37",
             "children": []
@@ -14117,6 +14325,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 5,
     "_id": "A2BBDDB3-FD24-42A6-B85D-36790BB660DD_6_5",
     "children": [
@@ -14156,6 +14365,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 19,
         "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_20_19",
         "children": [
@@ -14406,6 +14616,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 6,
     "_id": "D26C046D-FD5F-4B2E-B031-C8051F19949F_7_6",
     "children": [
@@ -14485,6 +14696,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 43,
             "_id": "0B55DFD1-2410-4AE4-9504-B06D014378C6_44_43",
             "children": []
@@ -14524,6 +14736,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 44,
             "_id": "C9BB7C58-7A52-4144-89EC-E828E0D7B908_45_44",
             "children": []
@@ -14604,6 +14817,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 46,
             "_id": "BD56103A-3552-4850-B1D0-36AD88502675_47_46",
             "children": []
@@ -14915,6 +15129,8 @@ export const DataElementsData = [
                 "DHelpText": "",
                 "DToolTip": "",
                 "GridParent": "A60B4163-9CF0-4E09-BFA3-CE33E4A3DE48",
+                "DisplayFormat": "d-m-Y",
+                "DateInputtype": "Date",
                 "__idx": 72,
                 "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_73_72",
                 "children": []
@@ -14962,6 +15178,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "UCaption": "Project Fund Instalment",
     "__idx": 7,
     "_id": "0999F5C1-1DDE-4164-9ECE-E510AAC6076E_8_7",
@@ -15003,6 +15220,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 8,
     "_id": "92DA46A6-E38B-446E-A902-89D082955DFD_9_8",
     "children": [
@@ -15042,6 +15260,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 21,
         "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_22_21",
         "children": [
@@ -15239,6 +15458,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 22,
         "_id": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD_23_22",
         "children": []
@@ -15281,6 +15501,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 9,
     "_id": "AE89E521-C9BC-49E0-AF9F-EA3BDB561C49_10_9",
     "children": [
@@ -15320,6 +15541,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 23,
         "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_24_23",
         "children": [
@@ -15402,6 +15624,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 10,
     "_id": "1CB48FE9-E433-409E-B08B-4074DC4AE3E5_11_10",
     "children": [
@@ -15441,6 +15664,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 24,
         "_id": "856B243C-AB46-4C50-8A2C-C34E7AA194EA_25_24",
         "children": [
@@ -15480,6 +15704,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 53,
             "_id": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F_54_53",
             "children": [
@@ -15519,6 +15744,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 73,
                 "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_74_73",
                 "children": [
@@ -15559,6 +15785,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "UCaption": "Project Information",
                     "__idx": 91,
                     "_id": "0B168B00-008D-4750-9372-547D14EA5D78_92_91",
@@ -15600,6 +15827,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 92,
                     "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_93_92",
                     "children": []
@@ -15642,6 +15870,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 74,
                 "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_75_74",
                 "children": [
@@ -15681,6 +15910,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 93,
                     "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_94_93",
                     "children": [
@@ -15875,6 +16105,7 @@ export const DataElementsData = [
                         "DCaption": "Sanctioned Date",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "DisplayFormat": "d-m-Y",
                         "__idx": 117,
                         "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
                         "children": []
@@ -15951,6 +16182,7 @@ export const DataElementsData = [
                         "DCaption": "Start Date",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "DisplayFormat": "d-m-Y",
                         "__idx": 119,
                         "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
                         "children": []
@@ -15989,6 +16221,7 @@ export const DataElementsData = [
                         "DCaption": "End Date",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "DisplayFormat": "d-m-Y",
                         "__idx": 120,
                         "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
                         "children": []
@@ -16071,6 +16304,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 75,
                 "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_76_75",
                 "children": [
@@ -16110,6 +16344,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 94,
                     "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_95_94",
                     "children": [
@@ -16147,6 +16382,7 @@ export const DataElementsData = [
                         "DCaption": "Actual Start Date",
                         "DHelpText": "",
                         "DToolTip": "",
+                        "DisplayFormat": "d-m-Y",
                         "__idx": 122,
                         "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
                         "children": []
@@ -16195,6 +16431,8 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
+                        "DisplayFormat": "d-m-Y",
+                        "DateInputtype": "DateTime",
                         "__idx": 123,
                         "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
                         "children": []
@@ -16245,6 +16483,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 11,
     "_id": "344E139A-A81C-4C70-960F-6CE23BFCF2CD_12_11",
     "children": [
@@ -16284,6 +16523,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 25,
         "_id": "46EB9B6C-719A-4E03-88D8-86F4062E3A45_26_25",
         "children": [
@@ -16323,6 +16563,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 54,
             "_id": "D0DF120F-C213-48A2-9B4C-AF2F7D166169_55_54",
             "children": [
@@ -16362,6 +16603,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 76,
                 "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_77_76",
                 "children": [
@@ -16402,6 +16644,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "UCaption": "Fund Installment Details",
                     "__idx": 95,
                     "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_96_95",
@@ -16442,6 +16685,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 96,
                     "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_97_96",
                     "children": []
@@ -16484,6 +16728,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 77,
                 "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_78_77",
                 "children": [
@@ -16523,6 +16768,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 97,
                     "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_98_97",
                     "children": [
@@ -16626,6 +16872,7 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
+                        "DisplayFormat": "d-m-Y",
                         "__idx": 125,
                         "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
                         "children": []
@@ -16865,6 +17112,7 @@ export const DataElementsData = [
                             "Span": false
                           }
                         ],
+                        "DisplayFormat": "d-m-Y",
                         "__idx": 130,
                         "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
                         "children": []
@@ -16962,6 +17210,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 12,
     "_id": "518E5A77-F7AD-4C49-B77F-A04C4EEA12BF_13_12",
     "children": [
@@ -17001,6 +17250,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 26,
         "_id": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D_27_26",
         "children": [
@@ -17040,6 +17290,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 55,
             "_id": "31F38CD6-6BEA-4BC4-8B26-493F1977A981_56_55",
             "children": [
@@ -17079,6 +17330,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 78,
                 "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_79_78",
                 "children": [
@@ -17119,6 +17371,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "UCaption": "Split Up of Fund Installment",
                     "__idx": 98,
                     "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_99_98",
@@ -17159,6 +17412,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 99,
                     "_id": "97461361-3474-48BD-B47B-2DD78F64392B_100_99",
                     "children": []
@@ -17201,6 +17455,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 79,
                 "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_80_79",
                 "children": [
@@ -17240,6 +17495,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 100,
                     "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_101_100",
                     "children": [
@@ -17463,6 +17719,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 80,
                 "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_81_80",
                 "children": [
@@ -17543,6 +17800,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 136,
                         "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
                         "children": []
@@ -17582,6 +17840,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 137,
                         "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
                         "children": []
@@ -17620,7 +17879,7 @@ export const DataElementsData = [
                         "BindingDetail": "",
                         "EDT": 12,
                         "GM": "Repeater",
-                        "DCaption": "",
+                        "DCaption": "ReceiptSplitUpDetails",
                         "DHelpText": "",
                         "DToolTip": "",
                         "__idx": 138,
@@ -17701,6 +17960,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 1,
                                 "_id": "8D4BCB77-F9C5-489E-AC36-620F0DCFFC80_2_1",
                                 "children": [
@@ -17740,6 +18000,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 2,
                                     "_id": "1F8952B7-07BE-407F-BCE8-77AD0F255D62_3_2",
                                     "children": [
@@ -17779,6 +18040,7 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
+                                        "DCaption": "",
                                         "__idx": 3,
                                         "_id": "D301EE49-0B64-4DBB-97A1-65D316D5C75B_4_3",
                                         "children": [
@@ -17818,6 +18080,7 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
+                                            "DCaption": "",
                                             "__idx": 4,
                                             "_id": "5FBA8A9C-38FF-4E61-A3F7-DD0731802F6A_5_4",
                                             "children": [
@@ -17857,6 +18120,7 @@ export const DataElementsData = [
                                                 "Bindable": false,
                                                 "IsSaveWidget": 0,
                                                 "BindingDetail": "",
+                                                "DCaption": "",
                                                 "__idx": 6,
                                                 "_id": "A224556A-C230-4ACD-9AB8-35949BBE200C_7_6",
                                                 "children": []
@@ -17899,6 +18163,7 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
+                                            "DCaption": "",
                                             "__idx": 5,
                                             "_id": "8D825448-5E5D-4B02-ABE5-FC9AC3EBD8DB_6_5",
                                             "children": [
@@ -17938,6 +18203,7 @@ export const DataElementsData = [
                                                 "Bindable": false,
                                                 "IsSaveWidget": 0,
                                                 "BindingDetail": "",
+                                                "DCaption": "",
                                                 "__idx": 7,
                                                 "_id": "61413121-A958-4C8E-9086-58ABE3CBBABE_8_7",
                                                 "children": [
@@ -18056,6 +18322,7 @@ export const DataElementsData = [
                                                     "Bindable": false,
                                                     "IsSaveWidget": 0,
                                                     "BindingDetail": "",
+                                                    "DCaption": "",
                                                     "__idx": 10,
                                                     "_id": "0E600BA1-6FC8-4892-8B79-F6BED5A736F4_11_10",
                                                     "children": [
@@ -18189,6 +18456,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 139,
                         "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
                         "children": []
@@ -18597,6 +18865,7 @@ export const DataElementsData = [
                               }
                             ],
                             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
+                            "DisplayFormat": "d-m-Y",
                             "__idx": 152,
                             "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
                             "children": []
@@ -18737,6 +19006,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 13,
     "_id": "5A625208-771E-45E9-BB12-AC6CF55D27D0_14_13",
     "children": [
@@ -18776,6 +19046,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 27,
         "_id": "69C14AD1-4D01-4C59-9329-309CD11792BC_28_27",
         "children": [
@@ -18815,6 +19086,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 56,
             "_id": "09678F54-644C-42B0-8E43-28997A14ED3D_57_56",
             "children": [
@@ -18854,6 +19126,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 81,
                 "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_82_81",
                 "children": [
@@ -18894,6 +19167,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "UCaption": "Summary",
                     "__idx": 102,
                     "_id": "840D2A86-98D9-4239-8536-663ECAA70414_103_102",
@@ -18934,6 +19208,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 103,
                     "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_104_103",
                     "children": []
@@ -18976,6 +19251,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 82,
                 "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_83_82",
                 "children": [
@@ -19015,6 +19291,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 104,
                     "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_105_104",
                     "children": [
@@ -19054,6 +19331,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 141,
                         "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
                         "children": [
@@ -19093,6 +19371,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 155,
                             "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
                             "children": [
@@ -19132,6 +19411,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 161,
                                 "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
                                 "children": [
@@ -19171,6 +19451,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 163,
                                     "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                                     "children": [
@@ -19210,6 +19491,7 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
+                                        "DCaption": "",
                                         "__idx": 165,
                                         "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                                         "children": [
@@ -19297,6 +19579,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 142,
                         "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
                         "children": [
@@ -19336,6 +19619,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 156,
                             "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
                             "children": [
@@ -19375,6 +19659,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 162,
                                 "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
                                 "children": [
@@ -19414,6 +19699,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 164,
                                     "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                                     "children": [
@@ -19453,6 +19739,7 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
+                                        "DCaption": "",
                                         "__idx": 166,
                                         "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                                         "children": [
@@ -19544,6 +19831,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 83,
                 "_id": "530F4791-43BB-498A-920D-7093BD174467_84_83",
                 "children": []
@@ -19590,6 +19878,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 14,
     "_id": "0673AD4B-ED6D-4C28-BD79-B150D07FA90A_15_14",
     "children": [
@@ -19629,6 +19918,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 28,
         "_id": "46091F7F-014D-4DDC-AD9D-974B1E4002B5_29_28",
         "children": [
@@ -19708,6 +19998,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 84,
                 "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_85_84",
                 "children": []
@@ -19748,6 +20039,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 85,
                 "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_86_85",
                 "children": []
@@ -19828,6 +20120,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 87,
                 "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_88_87",
                 "children": []
@@ -20111,6 +20404,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 15,
     "_id": "A4063845-FD74-466E-BA32-35B3F61228C5_16_15",
     "children": [
@@ -20150,6 +20444,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 29,
         "_id": "0DD3C9A1-7792-46A1-AE80-5240D67771C7_30_29",
         "children": [
@@ -20189,6 +20484,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 58,
             "_id": "97388DDE-3223-499A-B2CB-FE3C761AEA03_59_58",
             "children": [
@@ -20228,6 +20524,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 89,
                 "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_90_89",
                 "children": [
@@ -20268,6 +20565,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "UCaption": "Next Action",
                     "__idx": 110,
                     "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_111_110",
@@ -20308,6 +20606,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 111,
                     "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_112_111",
                     "children": []
@@ -20350,6 +20649,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 90,
                 "_id": "8B846853-9923-40F7-9C01-1A529703585B_91_90",
                 "children": [
@@ -20389,6 +20689,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 112,
                     "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_113_112",
                     "children": [
@@ -20428,6 +20729,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 143,
                         "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
                         "children": [
@@ -20528,7 +20830,7 @@ export const DataElementsData = [
                         "FontStrikeout": false,
                         "FontUnderline": false,
                         "Depth": 8,
-                        "Css": "grid_view flex-end gap-2",
+                        "Css": "grid_view flex-end gap-2 hlCmpt",
                         "IsBadge": false,
                         "MaxValue": 100,
                         "CurrValue": 10,
@@ -20553,6 +20855,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 144,
                         "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
                         "children": [
@@ -20605,14 +20908,14 @@ export const DataElementsData = [
                             "FontStrikeout": false,
                             "FontUnderline": false,
                             "Depth": 9,
-                            "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
+                            "Css": "btn btn-info btn-xs btn-primary",
                             "ElementId": "de579991-212f-3ed2-1827-9bdd18c52f44",
                             "UIElementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                             "Sequence": 19,
                             "ElementName": "M_History",
                             "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
                             "ControlType": "ActionButton",
-                            "Wrap": 4,
+                            "Wrap": 0,
                             "ClearFix": false,
                             "OnDemandLoad": false,
                             "ControlId": 9,
@@ -20721,6 +21024,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 30,
         "_id": "AD7A0985-D773-4505-B214-3753D81629B6_31_30",
         "children": []
@@ -20760,6 +21064,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 31,
         "_id": "FB487F2B-EAF1-43AD-B348-B06B39371ABA_32_31",
         "children": []
@@ -20840,6 +21145,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 33,
         "_id": "2D875F54-F45D-496C-AD6B-92D9B9846E36_34_33",
         "children": []
@@ -21192,6 +21498,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 17,
     "_id": "f40488b3-2895-b981-ad1f-c24aa99b40a2_18_17",
     "children": [
@@ -21233,6 +21540,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 35,
         "_id": "12E9ACFC-EA06-41F0-864C-56AB4242C92C_36_35",
         "children": []
@@ -21250,6 +21558,7 @@ export const DataElementsData = [
     "FontStrikeout": false,
     "FontUnderline": false,
     "Depth": 3,
+    "Css": "row grid_view d-flex justify-content-center",
     "IsBadge": false,
     "MaxValue": 100,
     "CurrValue": 10,
@@ -21274,6 +21583,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 18,
     "_id": "6ab3094c-42ec-df3f-43d7-79441d249115_19_18",
     "children": [
@@ -21313,6 +21623,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 36,
         "_id": "71740417-6F9D-4EE9-8F19-6A2D0A225A47_37_36",
         "children": []
@@ -21353,6 +21664,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 37,
         "_id": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41_38_37",
         "children": []
@@ -21395,6 +21707,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 19,
     "_id": "39BBC959-9D53-4443-B5BF-42423887F1CE_20_19",
     "children": [
@@ -21683,6 +21996,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 43,
         "_id": "0B55DFD1-2410-4AE4-9504-B06D014378C6_44_43",
         "children": []
@@ -21722,6 +22036,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 44,
         "_id": "C9BB7C58-7A52-4144-89EC-E828E0D7B908_45_44",
         "children": []
@@ -21802,6 +22117,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 46,
         "_id": "BD56103A-3552-4850-B1D0-36AD88502675_47_46",
         "children": []
@@ -22113,6 +22429,8 @@ export const DataElementsData = [
             "DHelpText": "",
             "DToolTip": "",
             "GridParent": "A60B4163-9CF0-4E09-BFA3-CE33E4A3DE48",
+            "DisplayFormat": "d-m-Y",
+            "DateInputtype": "Date",
             "__idx": 72,
             "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_73_72",
             "children": []
@@ -22157,6 +22475,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 21,
     "_id": "1D58BA9C-4006-45B3-AF25-3AF326F3CF66_22_21",
     "children": [
@@ -22354,6 +22673,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 22,
     "_id": "81D0E6D8-3678-4508-B832-1D8D0B01CDCD_23_22",
     "children": []
@@ -22394,6 +22714,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 23,
     "_id": "8FEA8240-7016-42F3-B614-DC90CA28A213_24_23",
     "children": [
@@ -22474,6 +22795,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 24,
     "_id": "856B243C-AB46-4C50-8A2C-C34E7AA194EA_25_24",
     "children": [
@@ -22513,6 +22835,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 53,
         "_id": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F_54_53",
         "children": [
@@ -22552,6 +22875,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 73,
             "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_74_73",
             "children": [
@@ -22592,6 +22916,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "UCaption": "Project Information",
                 "__idx": 91,
                 "_id": "0B168B00-008D-4750-9372-547D14EA5D78_92_91",
@@ -22633,6 +22958,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 92,
                 "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_93_92",
                 "children": []
@@ -22675,6 +23001,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 74,
             "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_75_74",
             "children": [
@@ -22714,6 +23041,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 93,
                 "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_94_93",
                 "children": [
@@ -22908,6 +23236,7 @@ export const DataElementsData = [
                     "DCaption": "Sanctioned Date",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "DisplayFormat": "d-m-Y",
                     "__idx": 117,
                     "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
                     "children": []
@@ -22984,6 +23313,7 @@ export const DataElementsData = [
                     "DCaption": "Start Date",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "DisplayFormat": "d-m-Y",
                     "__idx": 119,
                     "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
                     "children": []
@@ -23022,6 +23352,7 @@ export const DataElementsData = [
                     "DCaption": "End Date",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "DisplayFormat": "d-m-Y",
                     "__idx": 120,
                     "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
                     "children": []
@@ -23104,6 +23435,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 75,
             "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_76_75",
             "children": [
@@ -23143,6 +23475,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 94,
                 "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_95_94",
                 "children": [
@@ -23180,6 +23513,7 @@ export const DataElementsData = [
                     "DCaption": "Actual Start Date",
                     "DHelpText": "",
                     "DToolTip": "",
+                    "DisplayFormat": "d-m-Y",
                     "__idx": 122,
                     "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
                     "children": []
@@ -23228,6 +23562,8 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
+                    "DisplayFormat": "d-m-Y",
+                    "DateInputtype": "DateTime",
                     "__idx": 123,
                     "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
                     "children": []
@@ -23276,6 +23612,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 25,
     "_id": "46EB9B6C-719A-4E03-88D8-86F4062E3A45_26_25",
     "children": [
@@ -23315,6 +23652,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 54,
         "_id": "D0DF120F-C213-48A2-9B4C-AF2F7D166169_55_54",
         "children": [
@@ -23354,6 +23692,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 76,
             "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_77_76",
             "children": [
@@ -23394,6 +23733,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "UCaption": "Fund Installment Details",
                 "__idx": 95,
                 "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_96_95",
@@ -23434,6 +23774,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 96,
                 "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_97_96",
                 "children": []
@@ -23476,6 +23817,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 77,
             "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_78_77",
             "children": [
@@ -23515,6 +23857,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 97,
                 "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_98_97",
                 "children": [
@@ -23618,6 +23961,7 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
+                    "DisplayFormat": "d-m-Y",
                     "__idx": 125,
                     "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
                     "children": []
@@ -23857,6 +24201,7 @@ export const DataElementsData = [
                         "Span": false
                       }
                     ],
+                    "DisplayFormat": "d-m-Y",
                     "__idx": 130,
                     "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
                     "children": []
@@ -23952,6 +24297,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 26,
     "_id": "8DC6C039-F665-4D5A-B0C3-CDF25EB1BF5D_27_26",
     "children": [
@@ -23991,6 +24337,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 55,
         "_id": "31F38CD6-6BEA-4BC4-8B26-493F1977A981_56_55",
         "children": [
@@ -24030,6 +24377,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 78,
             "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_79_78",
             "children": [
@@ -24070,6 +24418,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "UCaption": "Split Up of Fund Installment",
                 "__idx": 98,
                 "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_99_98",
@@ -24110,6 +24459,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 99,
                 "_id": "97461361-3474-48BD-B47B-2DD78F64392B_100_99",
                 "children": []
@@ -24152,6 +24502,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 79,
             "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_80_79",
             "children": [
@@ -24191,6 +24542,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 100,
                 "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_101_100",
                 "children": [
@@ -24414,6 +24766,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 80,
             "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_81_80",
             "children": [
@@ -24494,6 +24847,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 136,
                     "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
                     "children": []
@@ -24533,6 +24887,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 137,
                     "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
                     "children": []
@@ -24571,7 +24926,7 @@ export const DataElementsData = [
                     "BindingDetail": "",
                     "EDT": 12,
                     "GM": "Repeater",
-                    "DCaption": "",
+                    "DCaption": "ReceiptSplitUpDetails",
                     "DHelpText": "",
                     "DToolTip": "",
                     "__idx": 138,
@@ -24652,6 +25007,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 1,
                             "_id": "8D4BCB77-F9C5-489E-AC36-620F0DCFFC80_2_1",
                             "children": [
@@ -24691,6 +25047,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 2,
                                 "_id": "1F8952B7-07BE-407F-BCE8-77AD0F255D62_3_2",
                                 "children": [
@@ -24730,6 +25087,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 3,
                                     "_id": "D301EE49-0B64-4DBB-97A1-65D316D5C75B_4_3",
                                     "children": [
@@ -24769,6 +25127,7 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
+                                        "DCaption": "",
                                         "__idx": 4,
                                         "_id": "5FBA8A9C-38FF-4E61-A3F7-DD0731802F6A_5_4",
                                         "children": [
@@ -24808,6 +25167,7 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
+                                            "DCaption": "",
                                             "__idx": 6,
                                             "_id": "A224556A-C230-4ACD-9AB8-35949BBE200C_7_6",
                                             "children": []
@@ -24850,6 +25210,7 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
+                                        "DCaption": "",
                                         "__idx": 5,
                                         "_id": "8D825448-5E5D-4B02-ABE5-FC9AC3EBD8DB_6_5",
                                         "children": [
@@ -24889,6 +25250,7 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
+                                            "DCaption": "",
                                             "__idx": 7,
                                             "_id": "61413121-A958-4C8E-9086-58ABE3CBBABE_8_7",
                                             "children": [
@@ -25007,6 +25369,7 @@ export const DataElementsData = [
                                                 "Bindable": false,
                                                 "IsSaveWidget": 0,
                                                 "BindingDetail": "",
+                                                "DCaption": "",
                                                 "__idx": 10,
                                                 "_id": "0E600BA1-6FC8-4892-8B79-F6BED5A736F4_11_10",
                                                 "children": [
@@ -25140,6 +25503,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 139,
                     "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
                     "children": []
@@ -25548,6 +25912,7 @@ export const DataElementsData = [
                           }
                         ],
                         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
+                        "DisplayFormat": "d-m-Y",
                         "__idx": 152,
                         "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
                         "children": []
@@ -25686,6 +26051,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 27,
     "_id": "69C14AD1-4D01-4C59-9329-309CD11792BC_28_27",
     "children": [
@@ -25725,6 +26091,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 56,
         "_id": "09678F54-644C-42B0-8E43-28997A14ED3D_57_56",
         "children": [
@@ -25764,6 +26131,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 81,
             "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_82_81",
             "children": [
@@ -25804,6 +26172,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "UCaption": "Summary",
                 "__idx": 102,
                 "_id": "840D2A86-98D9-4239-8536-663ECAA70414_103_102",
@@ -25844,6 +26213,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 103,
                 "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_104_103",
                 "children": []
@@ -25886,6 +26256,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 82,
             "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_83_82",
             "children": [
@@ -25925,6 +26296,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 104,
                 "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_105_104",
                 "children": [
@@ -25964,6 +26336,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 141,
                     "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
                     "children": [
@@ -26003,6 +26376,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 155,
                         "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
                         "children": [
@@ -26042,6 +26416,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 161,
                             "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
                             "children": [
@@ -26081,6 +26456,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 163,
                                 "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                                 "children": [
@@ -26120,6 +26496,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 165,
                                     "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                                     "children": [
@@ -26207,6 +26584,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 142,
                     "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
                     "children": [
@@ -26246,6 +26624,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 156,
                         "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
                         "children": [
@@ -26285,6 +26664,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 162,
                             "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
                             "children": [
@@ -26324,6 +26704,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 164,
                                 "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                                 "children": [
@@ -26363,6 +26744,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 166,
                                     "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                                     "children": [
@@ -26454,6 +26836,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 83,
             "_id": "530F4791-43BB-498A-920D-7093BD174467_84_83",
             "children": []
@@ -26498,6 +26881,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 28,
     "_id": "46091F7F-014D-4DDC-AD9D-974B1E4002B5_29_28",
     "children": [
@@ -26577,6 +26961,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 84,
             "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_85_84",
             "children": []
@@ -26617,6 +27002,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 85,
             "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_86_85",
             "children": []
@@ -26697,6 +27083,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 87,
             "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_88_87",
             "children": []
@@ -26978,6 +27365,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 29,
     "_id": "0DD3C9A1-7792-46A1-AE80-5240D67771C7_30_29",
     "children": [
@@ -27017,6 +27405,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 58,
         "_id": "97388DDE-3223-499A-B2CB-FE3C761AEA03_59_58",
         "children": [
@@ -27056,6 +27445,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 89,
             "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_90_89",
             "children": [
@@ -27096,6 +27486,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "UCaption": "Next Action",
                 "__idx": 110,
                 "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_111_110",
@@ -27136,6 +27527,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 111,
                 "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_112_111",
                 "children": []
@@ -27178,6 +27570,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 90,
             "_id": "8B846853-9923-40F7-9C01-1A529703585B_91_90",
             "children": [
@@ -27217,6 +27610,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 112,
                 "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_113_112",
                 "children": [
@@ -27256,6 +27650,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 143,
                     "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
                     "children": [
@@ -27356,7 +27751,7 @@ export const DataElementsData = [
                     "FontStrikeout": false,
                     "FontUnderline": false,
                     "Depth": 8,
-                    "Css": "grid_view flex-end gap-2",
+                    "Css": "grid_view flex-end gap-2 hlCmpt",
                     "IsBadge": false,
                     "MaxValue": 100,
                     "CurrValue": 10,
@@ -27381,6 +27776,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 144,
                     "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
                     "children": [
@@ -27433,14 +27829,14 @@ export const DataElementsData = [
                         "FontStrikeout": false,
                         "FontUnderline": false,
                         "Depth": 9,
-                        "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
+                        "Css": "btn btn-info btn-xs btn-primary",
                         "ElementId": "de579991-212f-3ed2-1827-9bdd18c52f44",
                         "UIElementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                         "Sequence": 19,
                         "ElementName": "M_History",
                         "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
                         "ControlType": "ActionButton",
-                        "Wrap": 4,
+                        "Wrap": 0,
                         "ClearFix": false,
                         "OnDemandLoad": false,
                         "ControlId": 9,
@@ -27506,6 +27902,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 30,
     "_id": "AD7A0985-D773-4505-B214-3753D81629B6_31_30",
     "children": []
@@ -27545,6 +27942,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 31,
     "_id": "FB487F2B-EAF1-43AD-B348-B06B39371ABA_32_31",
     "children": []
@@ -27625,6 +28023,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 33,
     "_id": "2D875F54-F45D-496C-AD6B-92D9B9846E36_34_33",
     "children": []
@@ -27978,6 +28377,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 35,
     "_id": "12E9ACFC-EA06-41F0-864C-56AB4242C92C_36_35",
     "children": []
@@ -28018,6 +28418,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 36,
     "_id": "71740417-6F9D-4EE9-8F19-6A2D0A225A47_37_36",
     "children": []
@@ -28058,6 +28459,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 37,
     "_id": "D2CB2B19-8D1B-4631-BFFF-077C3F750F41_38_37",
     "children": []
@@ -28305,6 +28707,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 43,
     "_id": "0B55DFD1-2410-4AE4-9504-B06D014378C6_44_43",
     "children": []
@@ -28344,6 +28747,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 44,
     "_id": "C9BB7C58-7A52-4144-89EC-E828E0D7B908_45_44",
     "children": []
@@ -28424,6 +28828,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 46,
     "_id": "BD56103A-3552-4850-B1D0-36AD88502675_47_46",
     "children": []
@@ -28735,6 +29140,8 @@ export const DataElementsData = [
         "DHelpText": "",
         "DToolTip": "",
         "GridParent": "A60B4163-9CF0-4E09-BFA3-CE33E4A3DE48",
+        "DisplayFormat": "d-m-Y",
+        "DateInputtype": "Date",
         "__idx": 72,
         "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_73_72",
         "children": []
@@ -28972,6 +29379,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 53,
     "_id": "EB2A8E71-94CC-49B6-8B51-A94CA07E502F_54_53",
     "children": [
@@ -29011,6 +29419,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 73,
         "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_74_73",
         "children": [
@@ -29051,6 +29460,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "UCaption": "Project Information",
             "__idx": 91,
             "_id": "0B168B00-008D-4750-9372-547D14EA5D78_92_91",
@@ -29092,6 +29502,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 92,
             "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_93_92",
             "children": []
@@ -29134,6 +29545,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 74,
         "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_75_74",
         "children": [
@@ -29173,6 +29585,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 93,
             "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_94_93",
             "children": [
@@ -29367,6 +29780,7 @@ export const DataElementsData = [
                 "DCaption": "Sanctioned Date",
                 "DHelpText": "",
                 "DToolTip": "",
+                "DisplayFormat": "d-m-Y",
                 "__idx": 117,
                 "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
                 "children": []
@@ -29443,6 +29857,7 @@ export const DataElementsData = [
                 "DCaption": "Start Date",
                 "DHelpText": "",
                 "DToolTip": "",
+                "DisplayFormat": "d-m-Y",
                 "__idx": 119,
                 "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
                 "children": []
@@ -29481,6 +29896,7 @@ export const DataElementsData = [
                 "DCaption": "End Date",
                 "DHelpText": "",
                 "DToolTip": "",
+                "DisplayFormat": "d-m-Y",
                 "__idx": 120,
                 "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
                 "children": []
@@ -29563,6 +29979,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 75,
         "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_76_75",
         "children": [
@@ -29602,6 +30019,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 94,
             "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_95_94",
             "children": [
@@ -29639,6 +30057,7 @@ export const DataElementsData = [
                 "DCaption": "Actual Start Date",
                 "DHelpText": "",
                 "DToolTip": "",
+                "DisplayFormat": "d-m-Y",
                 "__idx": 122,
                 "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
                 "children": []
@@ -29687,6 +30106,8 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
+                "DisplayFormat": "d-m-Y",
+                "DateInputtype": "DateTime",
                 "__idx": 123,
                 "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
                 "children": []
@@ -29733,6 +30154,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 54,
     "_id": "D0DF120F-C213-48A2-9B4C-AF2F7D166169_55_54",
     "children": [
@@ -29772,6 +30194,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 76,
         "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_77_76",
         "children": [
@@ -29812,6 +30235,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "UCaption": "Fund Installment Details",
             "__idx": 95,
             "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_96_95",
@@ -29852,6 +30276,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 96,
             "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_97_96",
             "children": []
@@ -29894,6 +30319,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 77,
         "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_78_77",
         "children": [
@@ -29933,6 +30359,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 97,
             "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_98_97",
             "children": [
@@ -30036,6 +30463,7 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
+                "DisplayFormat": "d-m-Y",
                 "__idx": 125,
                 "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
                 "children": []
@@ -30275,6 +30703,7 @@ export const DataElementsData = [
                     "Span": false
                   }
                 ],
+                "DisplayFormat": "d-m-Y",
                 "__idx": 130,
                 "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
                 "children": []
@@ -30368,6 +30797,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 55,
     "_id": "31F38CD6-6BEA-4BC4-8B26-493F1977A981_56_55",
     "children": [
@@ -30407,6 +30837,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 78,
         "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_79_78",
         "children": [
@@ -30447,6 +30878,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "UCaption": "Split Up of Fund Installment",
             "__idx": 98,
             "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_99_98",
@@ -30487,6 +30919,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 99,
             "_id": "97461361-3474-48BD-B47B-2DD78F64392B_100_99",
             "children": []
@@ -30529,6 +30962,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 79,
         "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_80_79",
         "children": [
@@ -30568,6 +31002,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 100,
             "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_101_100",
             "children": [
@@ -30791,6 +31226,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 80,
         "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_81_80",
         "children": [
@@ -30871,6 +31307,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 136,
                 "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
                 "children": []
@@ -30910,6 +31347,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 137,
                 "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
                 "children": []
@@ -30948,7 +31386,7 @@ export const DataElementsData = [
                 "BindingDetail": "",
                 "EDT": 12,
                 "GM": "Repeater",
-                "DCaption": "",
+                "DCaption": "ReceiptSplitUpDetails",
                 "DHelpText": "",
                 "DToolTip": "",
                 "__idx": 138,
@@ -31029,6 +31467,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 1,
                         "_id": "8D4BCB77-F9C5-489E-AC36-620F0DCFFC80_2_1",
                         "children": [
@@ -31068,6 +31507,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 2,
                             "_id": "1F8952B7-07BE-407F-BCE8-77AD0F255D62_3_2",
                             "children": [
@@ -31107,6 +31547,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 3,
                                 "_id": "D301EE49-0B64-4DBB-97A1-65D316D5C75B_4_3",
                                 "children": [
@@ -31146,6 +31587,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 4,
                                     "_id": "5FBA8A9C-38FF-4E61-A3F7-DD0731802F6A_5_4",
                                     "children": [
@@ -31185,6 +31627,7 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
+                                        "DCaption": "",
                                         "__idx": 6,
                                         "_id": "A224556A-C230-4ACD-9AB8-35949BBE200C_7_6",
                                         "children": []
@@ -31227,6 +31670,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 5,
                                     "_id": "8D825448-5E5D-4B02-ABE5-FC9AC3EBD8DB_6_5",
                                     "children": [
@@ -31266,6 +31710,7 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
+                                        "DCaption": "",
                                         "__idx": 7,
                                         "_id": "61413121-A958-4C8E-9086-58ABE3CBBABE_8_7",
                                         "children": [
@@ -31384,6 +31829,7 @@ export const DataElementsData = [
                                             "Bindable": false,
                                             "IsSaveWidget": 0,
                                             "BindingDetail": "",
+                                            "DCaption": "",
                                             "__idx": 10,
                                             "_id": "0E600BA1-6FC8-4892-8B79-F6BED5A736F4_11_10",
                                             "children": [
@@ -31517,6 +31963,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 139,
                 "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
                 "children": []
@@ -31925,6 +32372,7 @@ export const DataElementsData = [
                       }
                     ],
                     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
+                    "DisplayFormat": "d-m-Y",
                     "__idx": 152,
                     "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
                     "children": []
@@ -32061,6 +32509,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 56,
     "_id": "09678F54-644C-42B0-8E43-28997A14ED3D_57_56",
     "children": [
@@ -32100,6 +32549,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 81,
         "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_82_81",
         "children": [
@@ -32140,6 +32590,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "UCaption": "Summary",
             "__idx": 102,
             "_id": "840D2A86-98D9-4239-8536-663ECAA70414_103_102",
@@ -32180,6 +32631,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 103,
             "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_104_103",
             "children": []
@@ -32222,6 +32674,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 82,
         "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_83_82",
         "children": [
@@ -32261,6 +32714,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 104,
             "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_105_104",
             "children": [
@@ -32300,6 +32754,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 141,
                 "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
                 "children": [
@@ -32339,6 +32794,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 155,
                     "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
                     "children": [
@@ -32378,6 +32834,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 161,
                         "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
                         "children": [
@@ -32417,6 +32874,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 163,
                             "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                             "children": [
@@ -32456,6 +32914,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 165,
                                 "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                                 "children": [
@@ -32543,6 +33002,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 142,
                 "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
                 "children": [
@@ -32582,6 +33042,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 156,
                     "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
                     "children": [
@@ -32621,6 +33082,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 162,
                         "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
                         "children": [
@@ -32660,6 +33122,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 164,
                             "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                             "children": [
@@ -32699,6 +33162,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 166,
                                 "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                                 "children": [
@@ -32790,6 +33254,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 83,
         "_id": "530F4791-43BB-498A-920D-7093BD174467_84_83",
         "children": []
@@ -32872,6 +33337,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 84,
         "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_85_84",
         "children": []
@@ -32912,6 +33378,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 85,
         "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_86_85",
         "children": []
@@ -32992,6 +33459,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 87,
         "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_88_87",
         "children": []
@@ -33271,6 +33739,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 58,
     "_id": "97388DDE-3223-499A-B2CB-FE3C761AEA03_59_58",
     "children": [
@@ -33310,6 +33779,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 89,
         "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_90_89",
         "children": [
@@ -33350,6 +33820,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "UCaption": "Next Action",
             "__idx": 110,
             "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_111_110",
@@ -33390,6 +33861,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 111,
             "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_112_111",
             "children": []
@@ -33432,6 +33904,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 90,
         "_id": "8B846853-9923-40F7-9C01-1A529703585B_91_90",
         "children": [
@@ -33471,6 +33944,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 112,
             "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_113_112",
             "children": [
@@ -33510,6 +33984,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 143,
                 "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
                 "children": [
@@ -33610,7 +34085,7 @@ export const DataElementsData = [
                 "FontStrikeout": false,
                 "FontUnderline": false,
                 "Depth": 8,
-                "Css": "grid_view flex-end gap-2",
+                "Css": "grid_view flex-end gap-2 hlCmpt",
                 "IsBadge": false,
                 "MaxValue": 100,
                 "CurrValue": 10,
@@ -33635,6 +34110,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 144,
                 "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
                 "children": [
@@ -33687,14 +34163,14 @@ export const DataElementsData = [
                     "FontStrikeout": false,
                     "FontUnderline": false,
                     "Depth": 9,
-                    "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
+                    "Css": "btn btn-info btn-xs btn-primary",
                     "ElementId": "de579991-212f-3ed2-1827-9bdd18c52f44",
                     "UIElementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                     "Sequence": 19,
                     "ElementName": "M_History",
                     "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
                     "ControlType": "ActionButton",
-                    "Wrap": 4,
+                    "Wrap": 0,
                     "ClearFix": false,
                     "OnDemandLoad": false,
                     "ControlId": 9,
@@ -34258,6 +34734,8 @@ export const DataElementsData = [
     "DHelpText": "",
     "DToolTip": "",
     "GridParent": "A60B4163-9CF0-4E09-BFA3-CE33E4A3DE48",
+    "DisplayFormat": "d-m-Y",
+    "DateInputtype": "Date",
     "__idx": 72,
     "_id": "53EAE349-CB78-420E-9257-AFFC0DDE36EE_73_72",
     "children": []
@@ -34298,6 +34776,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 73,
     "_id": "1CA1DF06-57FA-42A9-9D80-70836540BA06_74_73",
     "children": [
@@ -34338,6 +34817,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "UCaption": "Project Information",
         "__idx": 91,
         "_id": "0B168B00-008D-4750-9372-547D14EA5D78_92_91",
@@ -34379,6 +34859,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 92,
         "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_93_92",
         "children": []
@@ -34421,6 +34902,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 74,
     "_id": "67B99F6B-1727-49CC-A01E-2054296BCAD7_75_74",
     "children": [
@@ -34460,6 +34942,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 93,
         "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_94_93",
         "children": [
@@ -34654,6 +35137,7 @@ export const DataElementsData = [
             "DCaption": "Sanctioned Date",
             "DHelpText": "",
             "DToolTip": "",
+            "DisplayFormat": "d-m-Y",
             "__idx": 117,
             "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
             "children": []
@@ -34730,6 +35214,7 @@ export const DataElementsData = [
             "DCaption": "Start Date",
             "DHelpText": "",
             "DToolTip": "",
+            "DisplayFormat": "d-m-Y",
             "__idx": 119,
             "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
             "children": []
@@ -34768,6 +35253,7 @@ export const DataElementsData = [
             "DCaption": "End Date",
             "DHelpText": "",
             "DToolTip": "",
+            "DisplayFormat": "d-m-Y",
             "__idx": 120,
             "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
             "children": []
@@ -34850,6 +35336,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 75,
     "_id": "99147C2A-2072-4712-ABDC-B969A5DD6A89_76_75",
     "children": [
@@ -34889,6 +35376,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 94,
         "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_95_94",
         "children": [
@@ -34926,6 +35414,7 @@ export const DataElementsData = [
             "DCaption": "Actual Start Date",
             "DHelpText": "",
             "DToolTip": "",
+            "DisplayFormat": "d-m-Y",
             "__idx": 122,
             "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
             "children": []
@@ -34974,6 +35463,8 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
+            "DisplayFormat": "d-m-Y",
+            "DateInputtype": "DateTime",
             "__idx": 123,
             "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
             "children": []
@@ -35018,6 +35509,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 76,
     "_id": "B0DE6D81-DD59-4CE2-A4C4-D569F85D3326_77_76",
     "children": [
@@ -35058,6 +35550,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "UCaption": "Fund Installment Details",
         "__idx": 95,
         "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_96_95",
@@ -35098,6 +35591,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 96,
         "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_97_96",
         "children": []
@@ -35140,6 +35634,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 77,
     "_id": "749D3334-9C41-470F-97DF-2BA7F4283B3F_78_77",
     "children": [
@@ -35179,6 +35674,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 97,
         "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_98_97",
         "children": [
@@ -35282,6 +35778,7 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
+            "DisplayFormat": "d-m-Y",
             "__idx": 125,
             "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
             "children": []
@@ -35521,6 +36018,7 @@ export const DataElementsData = [
                 "Span": false
               }
             ],
+            "DisplayFormat": "d-m-Y",
             "__idx": 130,
             "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
             "children": []
@@ -35612,6 +36110,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 78,
     "_id": "3DC05163-B9D7-4A7C-858D-2A4006282CCB_79_78",
     "children": [
@@ -35652,6 +36151,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "UCaption": "Split Up of Fund Installment",
         "__idx": 98,
         "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_99_98",
@@ -35692,6 +36192,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 99,
         "_id": "97461361-3474-48BD-B47B-2DD78F64392B_100_99",
         "children": []
@@ -35734,6 +36235,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 79,
     "_id": "B3AC33B9-A1A2-4DA3-9DEE-07C94A49686E_80_79",
     "children": [
@@ -35773,6 +36275,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 100,
         "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_101_100",
         "children": [
@@ -35996,6 +36499,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 80,
     "_id": "9E5AA13B-47F5-44AA-8226-5B44FA18CD05_81_80",
     "children": [
@@ -36076,6 +36580,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 136,
             "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
             "children": []
@@ -36115,6 +36620,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 137,
             "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
             "children": []
@@ -36153,7 +36659,7 @@ export const DataElementsData = [
             "BindingDetail": "",
             "EDT": 12,
             "GM": "Repeater",
-            "DCaption": "",
+            "DCaption": "ReceiptSplitUpDetails",
             "DHelpText": "",
             "DToolTip": "",
             "__idx": 138,
@@ -36234,6 +36740,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 1,
                     "_id": "8D4BCB77-F9C5-489E-AC36-620F0DCFFC80_2_1",
                     "children": [
@@ -36273,6 +36780,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 2,
                         "_id": "1F8952B7-07BE-407F-BCE8-77AD0F255D62_3_2",
                         "children": [
@@ -36312,6 +36820,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 3,
                             "_id": "D301EE49-0B64-4DBB-97A1-65D316D5C75B_4_3",
                             "children": [
@@ -36351,6 +36860,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 4,
                                 "_id": "5FBA8A9C-38FF-4E61-A3F7-DD0731802F6A_5_4",
                                 "children": [
@@ -36390,6 +36900,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 6,
                                     "_id": "A224556A-C230-4ACD-9AB8-35949BBE200C_7_6",
                                     "children": []
@@ -36432,6 +36943,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 5,
                                 "_id": "8D825448-5E5D-4B02-ABE5-FC9AC3EBD8DB_6_5",
                                 "children": [
@@ -36471,6 +36983,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 7,
                                     "_id": "61413121-A958-4C8E-9086-58ABE3CBBABE_8_7",
                                     "children": [
@@ -36589,6 +37102,7 @@ export const DataElementsData = [
                                         "Bindable": false,
                                         "IsSaveWidget": 0,
                                         "BindingDetail": "",
+                                        "DCaption": "",
                                         "__idx": 10,
                                         "_id": "0E600BA1-6FC8-4892-8B79-F6BED5A736F4_11_10",
                                         "children": [
@@ -36722,6 +37236,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 139,
             "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
             "children": []
@@ -37130,6 +37645,7 @@ export const DataElementsData = [
                   }
                 ],
                 "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
+                "DisplayFormat": "d-m-Y",
                 "__idx": 152,
                 "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
                 "children": []
@@ -37264,6 +37780,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 81,
     "_id": "9D1D395B-FF59-42E6-AD93-F77808B2A5D9_82_81",
     "children": [
@@ -37304,6 +37821,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "UCaption": "Summary",
         "__idx": 102,
         "_id": "840D2A86-98D9-4239-8536-663ECAA70414_103_102",
@@ -37344,6 +37862,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 103,
         "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_104_103",
         "children": []
@@ -37386,6 +37905,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 82,
     "_id": "917C4E99-F72F-4705-81DE-F66EB877C500_83_82",
     "children": [
@@ -37425,6 +37945,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 104,
         "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_105_104",
         "children": [
@@ -37464,6 +37985,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 141,
             "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
             "children": [
@@ -37503,6 +38025,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 155,
                 "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
                 "children": [
@@ -37542,6 +38065,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 161,
                     "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
                     "children": [
@@ -37581,6 +38105,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 163,
                         "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                         "children": [
@@ -37620,6 +38145,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 165,
                             "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                             "children": [
@@ -37707,6 +38233,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 142,
             "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
             "children": [
@@ -37746,6 +38273,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 156,
                 "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
                 "children": [
@@ -37785,6 +38313,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 162,
                     "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
                     "children": [
@@ -37824,6 +38353,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 164,
                         "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                         "children": [
@@ -37863,6 +38393,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 166,
                             "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                             "children": [
@@ -37954,6 +38485,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 83,
     "_id": "530F4791-43BB-498A-920D-7093BD174467_84_83",
     "children": []
@@ -37994,6 +38526,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 84,
     "_id": "66453106-78BB-46CF-B15A-89BC68114F1E_85_84",
     "children": []
@@ -38034,6 +38567,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 85,
     "_id": "90341255-31D0-46BE-9FD8-3F03D54B5388_86_85",
     "children": []
@@ -38114,6 +38648,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 87,
     "_id": "1DCEB5B5-AF52-4B48-BA65-EBAE58EACBA0_88_87",
     "children": []
@@ -38391,6 +38926,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 89,
     "_id": "9F3ECA88-93FF-4AFD-AB38-DE7D035CD428_90_89",
     "children": [
@@ -38431,6 +38967,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "UCaption": "Next Action",
         "__idx": 110,
         "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_111_110",
@@ -38471,6 +39008,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 111,
         "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_112_111",
         "children": []
@@ -38513,6 +39051,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 90,
     "_id": "8B846853-9923-40F7-9C01-1A529703585B_91_90",
     "children": [
@@ -38552,6 +39091,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 112,
         "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_113_112",
         "children": [
@@ -38591,6 +39131,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 143,
             "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
             "children": [
@@ -38691,7 +39232,7 @@ export const DataElementsData = [
             "FontStrikeout": false,
             "FontUnderline": false,
             "Depth": 8,
-            "Css": "grid_view flex-end gap-2",
+            "Css": "grid_view flex-end gap-2 hlCmpt",
             "IsBadge": false,
             "MaxValue": 100,
             "CurrValue": 10,
@@ -38716,6 +39257,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 144,
             "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
             "children": [
@@ -38768,14 +39310,14 @@ export const DataElementsData = [
                 "FontStrikeout": false,
                 "FontUnderline": false,
                 "Depth": 9,
-                "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
+                "Css": "btn btn-info btn-xs btn-primary",
                 "ElementId": "de579991-212f-3ed2-1827-9bdd18c52f44",
                 "UIElementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
                 "Sequence": 19,
                 "ElementName": "M_History",
                 "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
                 "ControlType": "ActionButton",
-                "Wrap": 4,
+                "Wrap": 0,
                 "ClearFix": false,
                 "OnDemandLoad": false,
                 "ControlId": 9,
@@ -38838,6 +39380,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "UCaption": "Project Information",
     "__idx": 91,
     "_id": "0B168B00-008D-4750-9372-547D14EA5D78_92_91",
@@ -38879,6 +39422,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 92,
     "_id": "5FABFD91-84EE-457E-A01E-FD284E5D083A_93_92",
     "children": []
@@ -38919,6 +39463,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 93,
     "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_94_93",
     "children": [
@@ -39113,6 +39658,7 @@ export const DataElementsData = [
         "DCaption": "Sanctioned Date",
         "DHelpText": "",
         "DToolTip": "",
+        "DisplayFormat": "d-m-Y",
         "__idx": 117,
         "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
         "children": []
@@ -39189,6 +39735,7 @@ export const DataElementsData = [
         "DCaption": "Start Date",
         "DHelpText": "",
         "DToolTip": "",
+        "DisplayFormat": "d-m-Y",
         "__idx": 119,
         "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
         "children": []
@@ -39227,6 +39774,7 @@ export const DataElementsData = [
         "DCaption": "End Date",
         "DHelpText": "",
         "DToolTip": "",
+        "DisplayFormat": "d-m-Y",
         "__idx": 120,
         "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
         "children": []
@@ -39307,6 +39855,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 94,
     "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_95_94",
     "children": [
@@ -39344,6 +39893,7 @@ export const DataElementsData = [
         "DCaption": "Actual Start Date",
         "DHelpText": "",
         "DToolTip": "",
+        "DisplayFormat": "d-m-Y",
         "__idx": 122,
         "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
         "children": []
@@ -39392,6 +39942,8 @@ export const DataElementsData = [
             "Span": false
           }
         ],
+        "DisplayFormat": "d-m-Y",
+        "DateInputtype": "DateTime",
         "__idx": 123,
         "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
         "children": []
@@ -39435,6 +39987,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "UCaption": "Fund Installment Details",
     "__idx": 95,
     "_id": "255A5CD9-8822-4862-936D-2E7ED1F1BD50_96_95",
@@ -39475,6 +40028,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 96,
     "_id": "EB1AFF71-083F-4E90-AA98-A5CD83DE61C7_97_96",
     "children": []
@@ -39515,6 +40069,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 97,
     "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_98_97",
     "children": [
@@ -39618,6 +40173,7 @@ export const DataElementsData = [
             "Span": false
           }
         ],
+        "DisplayFormat": "d-m-Y",
         "__idx": 125,
         "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
         "children": []
@@ -39857,6 +40413,7 @@ export const DataElementsData = [
             "Span": false
           }
         ],
+        "DisplayFormat": "d-m-Y",
         "__idx": 130,
         "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
         "children": []
@@ -39947,6 +40504,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "UCaption": "Split Up of Fund Installment",
     "__idx": 98,
     "_id": "34F57298-4365-45D8-B9FD-5C4B8C6544E3_99_98",
@@ -39987,6 +40545,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 99,
     "_id": "97461361-3474-48BD-B47B-2DD78F64392B_100_99",
     "children": []
@@ -40027,6 +40586,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 100,
     "_id": "ADDD5AE4-0455-4CC9-B235-6C51C3533F3D_101_100",
     "children": [
@@ -40289,6 +40849,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 136,
         "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
         "children": []
@@ -40328,6 +40889,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 137,
         "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
         "children": []
@@ -40366,7 +40928,7 @@ export const DataElementsData = [
         "BindingDetail": "",
         "EDT": 12,
         "GM": "Repeater",
-        "DCaption": "",
+        "DCaption": "ReceiptSplitUpDetails",
         "DHelpText": "",
         "DToolTip": "",
         "__idx": 138,
@@ -40447,6 +41009,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 1,
                 "_id": "8D4BCB77-F9C5-489E-AC36-620F0DCFFC80_2_1",
                 "children": [
@@ -40486,6 +41049,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 2,
                     "_id": "1F8952B7-07BE-407F-BCE8-77AD0F255D62_3_2",
                     "children": [
@@ -40525,6 +41089,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 3,
                         "_id": "D301EE49-0B64-4DBB-97A1-65D316D5C75B_4_3",
                         "children": [
@@ -40564,6 +41129,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 4,
                             "_id": "5FBA8A9C-38FF-4E61-A3F7-DD0731802F6A_5_4",
                             "children": [
@@ -40603,6 +41169,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 6,
                                 "_id": "A224556A-C230-4ACD-9AB8-35949BBE200C_7_6",
                                 "children": []
@@ -40645,6 +41212,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 5,
                             "_id": "8D825448-5E5D-4B02-ABE5-FC9AC3EBD8DB_6_5",
                             "children": [
@@ -40684,6 +41252,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 7,
                                 "_id": "61413121-A958-4C8E-9086-58ABE3CBBABE_8_7",
                                 "children": [
@@ -40802,6 +41371,7 @@ export const DataElementsData = [
                                     "Bindable": false,
                                     "IsSaveWidget": 0,
                                     "BindingDetail": "",
+                                    "DCaption": "",
                                     "__idx": 10,
                                     "_id": "0E600BA1-6FC8-4892-8B79-F6BED5A736F4_11_10",
                                     "children": [
@@ -40935,6 +41505,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 139,
         "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
         "children": []
@@ -41343,6 +41914,7 @@ export const DataElementsData = [
               }
             ],
             "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
+            "DisplayFormat": "d-m-Y",
             "__idx": 152,
             "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
             "children": []
@@ -41476,6 +42048,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "UCaption": "Summary",
     "__idx": 102,
     "_id": "840D2A86-98D9-4239-8536-663ECAA70414_103_102",
@@ -41516,6 +42089,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 103,
     "_id": "FB3FE2D0-870B-481F-86C1-1BA1667188B9_104_103",
     "children": []
@@ -41556,6 +42130,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 104,
     "_id": "C1717B28-7611-445B-9745-4CF46D7A390C_105_104",
     "children": [
@@ -41595,6 +42170,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 141,
         "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
         "children": [
@@ -41634,6 +42210,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 155,
             "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
             "children": [
@@ -41673,6 +42250,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 161,
                 "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
                 "children": [
@@ -41712,6 +42290,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 163,
                     "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                     "children": [
@@ -41751,6 +42330,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 165,
                         "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                         "children": [
@@ -41838,6 +42418,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 142,
         "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
         "children": [
@@ -41877,6 +42458,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 156,
             "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
             "children": [
@@ -41916,6 +42498,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 162,
                 "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
                 "children": [
@@ -41955,6 +42538,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 164,
                     "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                     "children": [
@@ -41994,6 +42578,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 166,
                         "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                         "children": [
@@ -42279,6 +42864,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "UCaption": "Next Action",
     "__idx": 110,
     "_id": "F5B358B1-AC61-4100-BC6C-167FC7340D30_111_110",
@@ -42319,6 +42905,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 111,
     "_id": "3528E434-EF97-461F-8CB4-FF31848A097F_112_111",
     "children": []
@@ -42359,6 +42946,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 112,
     "_id": "5D7C36E7-F6E3-4898-8573-06D2021C39BB_113_112",
     "children": [
@@ -42398,6 +42986,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 143,
         "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
         "children": [
@@ -42498,7 +43087,7 @@ export const DataElementsData = [
         "FontStrikeout": false,
         "FontUnderline": false,
         "Depth": 8,
-        "Css": "grid_view flex-end gap-2",
+        "Css": "grid_view flex-end gap-2 hlCmpt",
         "IsBadge": false,
         "MaxValue": 100,
         "CurrValue": 10,
@@ -42523,6 +43112,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 144,
         "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
         "children": [
@@ -42575,14 +43165,14 @@ export const DataElementsData = [
             "FontStrikeout": false,
             "FontUnderline": false,
             "Depth": 9,
-            "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
+            "Css": "btn btn-info btn-xs btn-primary",
             "ElementId": "de579991-212f-3ed2-1827-9bdd18c52f44",
             "UIElementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
             "Sequence": 19,
             "ElementName": "M_History",
             "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
             "ControlType": "ActionButton",
-            "Wrap": 4,
+            "Wrap": 0,
             "ClearFix": false,
             "OnDemandLoad": false,
             "ControlId": 9,
@@ -42797,6 +43387,7 @@ export const DataElementsData = [
     "DCaption": "Sanctioned Date",
     "DHelpText": "",
     "DToolTip": "",
+    "DisplayFormat": "d-m-Y",
     "__idx": 117,
     "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_118_117",
     "children": []
@@ -42873,6 +43464,7 @@ export const DataElementsData = [
     "DCaption": "Start Date",
     "DHelpText": "",
     "DToolTip": "",
+    "DisplayFormat": "d-m-Y",
     "__idx": 119,
     "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_120_119",
     "children": []
@@ -42911,6 +43503,7 @@ export const DataElementsData = [
     "DCaption": "End Date",
     "DHelpText": "",
     "DToolTip": "",
+    "DisplayFormat": "d-m-Y",
     "__idx": 120,
     "_id": "FADCE077-BC7F-48A1-90F1-C65C09403D24_121_120",
     "children": []
@@ -42987,6 +43580,7 @@ export const DataElementsData = [
     "DCaption": "Actual Start Date",
     "DHelpText": "",
     "DToolTip": "",
+    "DisplayFormat": "d-m-Y",
     "__idx": 122,
     "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_123_122",
     "children": []
@@ -43035,6 +43629,8 @@ export const DataElementsData = [
         "Span": false
       }
     ],
+    "DisplayFormat": "d-m-Y",
+    "DateInputtype": "DateTime",
     "__idx": 123,
     "_id": "1A0CBDF8-4B88-46BE-9C9A-D5CC722F0796_124_123",
     "children": []
@@ -43139,6 +43735,7 @@ export const DataElementsData = [
         "Span": false
       }
     ],
+    "DisplayFormat": "d-m-Y",
     "__idx": 125,
     "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_126_125",
     "children": []
@@ -43378,6 +43975,7 @@ export const DataElementsData = [
         "Span": false
       }
     ],
+    "DisplayFormat": "d-m-Y",
     "__idx": 130,
     "_id": "756C5ACB-3962-4749-9642-6629C6DC9573_131_130",
     "children": []
@@ -43645,6 +44243,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 136,
     "_id": "6E8ADDFD-8CBE-4240-98D0-7C5245ADB880_137_136",
     "children": []
@@ -43684,6 +44283,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 137,
     "_id": "6B9CB23A-420F-421E-B39A-47785DBDABB4_138_137",
     "children": []
@@ -43722,7 +44322,7 @@ export const DataElementsData = [
     "BindingDetail": "",
     "EDT": 12,
     "GM": "Repeater",
-    "DCaption": "",
+    "DCaption": "ReceiptSplitUpDetails",
     "DHelpText": "",
     "DToolTip": "",
     "__idx": 138,
@@ -43803,6 +44403,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 1,
             "_id": "8D4BCB77-F9C5-489E-AC36-620F0DCFFC80_2_1",
             "children": [
@@ -43842,6 +44443,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 2,
                 "_id": "1F8952B7-07BE-407F-BCE8-77AD0F255D62_3_2",
                 "children": [
@@ -43881,6 +44483,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 3,
                     "_id": "D301EE49-0B64-4DBB-97A1-65D316D5C75B_4_3",
                     "children": [
@@ -43920,6 +44523,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 4,
                         "_id": "5FBA8A9C-38FF-4E61-A3F7-DD0731802F6A_5_4",
                         "children": [
@@ -43959,6 +44563,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 6,
                             "_id": "A224556A-C230-4ACD-9AB8-35949BBE200C_7_6",
                             "children": []
@@ -44001,6 +44606,7 @@ export const DataElementsData = [
                         "Bindable": false,
                         "IsSaveWidget": 0,
                         "BindingDetail": "",
+                        "DCaption": "",
                         "__idx": 5,
                         "_id": "8D825448-5E5D-4B02-ABE5-FC9AC3EBD8DB_6_5",
                         "children": [
@@ -44040,6 +44646,7 @@ export const DataElementsData = [
                             "Bindable": false,
                             "IsSaveWidget": 0,
                             "BindingDetail": "",
+                            "DCaption": "",
                             "__idx": 7,
                             "_id": "61413121-A958-4C8E-9086-58ABE3CBBABE_8_7",
                             "children": [
@@ -44158,6 +44765,7 @@ export const DataElementsData = [
                                 "Bindable": false,
                                 "IsSaveWidget": 0,
                                 "BindingDetail": "",
+                                "DCaption": "",
                                 "__idx": 10,
                                 "_id": "0E600BA1-6FC8-4892-8B79-F6BED5A736F4_11_10",
                                 "children": [
@@ -44291,6 +44899,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 139,
     "_id": "CD676D28-A3E1-43EF-B0DA-DACF5056DBFE_140_139",
     "children": []
@@ -44699,6 +45308,7 @@ export const DataElementsData = [
           }
         ],
         "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
+        "DisplayFormat": "d-m-Y",
         "__idx": 152,
         "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
         "children": []
@@ -44829,6 +45439,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 141,
     "_id": "7C02E7A5-376D-4C7A-A23C-C304ADCDC586_142_141",
     "children": [
@@ -44868,6 +45479,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 155,
         "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
         "children": [
@@ -44907,6 +45519,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 161,
             "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
             "children": [
@@ -44946,6 +45559,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 163,
                 "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
                 "children": [
@@ -44985,6 +45599,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 165,
                     "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                     "children": [
@@ -45072,6 +45687,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 142,
     "_id": "DB0732DD-E26E-451F-B8DD-D9E1E718BA94_143_142",
     "children": [
@@ -45111,6 +45727,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 156,
         "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
         "children": [
@@ -45150,6 +45767,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 162,
             "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
             "children": [
@@ -45189,6 +45807,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 164,
                 "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
                 "children": [
@@ -45228,6 +45847,7 @@ export const DataElementsData = [
                     "Bindable": false,
                     "IsSaveWidget": 0,
                     "BindingDetail": "",
+                    "DCaption": "",
                     "__idx": 166,
                     "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                     "children": [
@@ -45315,6 +45935,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 143,
     "_id": "1FAF6A32-6CAE-4BA5-B57A-1279ECB28D1C_144_143",
     "children": [
@@ -45415,7 +46036,7 @@ export const DataElementsData = [
     "FontStrikeout": false,
     "FontUnderline": false,
     "Depth": 8,
-    "Css": "grid_view flex-end gap-2",
+    "Css": "grid_view flex-end gap-2 hlCmpt",
     "IsBadge": false,
     "MaxValue": 100,
     "CurrValue": 10,
@@ -45440,6 +46061,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 144,
     "_id": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6_145_144",
     "children": [
@@ -45492,14 +46114,14 @@ export const DataElementsData = [
         "FontStrikeout": false,
         "FontUnderline": false,
         "Depth": 9,
-        "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
+        "Css": "btn btn-info btn-xs btn-primary",
         "ElementId": "de579991-212f-3ed2-1827-9bdd18c52f44",
         "UIElementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
         "Sequence": 19,
         "ElementName": "M_History",
         "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
         "ControlType": "ActionButton",
-        "Wrap": 4,
+        "Wrap": 0,
         "ClearFix": false,
         "OnDemandLoad": false,
         "ControlId": 9,
@@ -45885,6 +46507,7 @@ export const DataElementsData = [
       }
     ],
     "GridParent": "85304B03-E000-474F-9FB8-FE1347D51C74",
+    "DisplayFormat": "d-m-Y",
     "__idx": 152,
     "_id": "0A7CD310-A2E4-4B68-A429-1F903AEA1DF6_153_152",
     "children": []
@@ -46013,6 +46636,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 155,
     "_id": "3E5E4CF3-CBB7-4EAE-A389-E315DBB49FC9_156_155",
     "children": [
@@ -46052,6 +46676,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 161,
         "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
         "children": [
@@ -46091,6 +46716,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 163,
             "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
             "children": [
@@ -46130,6 +46756,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 165,
                 "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
                 "children": [
@@ -46215,6 +46842,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 156,
     "_id": "8240DE4E-8538-4B39-8EA8-3605B3C1B6BA_157_156",
     "children": [
@@ -46254,6 +46882,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 162,
         "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
         "children": [
@@ -46293,6 +46922,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 164,
             "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
             "children": [
@@ -46332,6 +46962,7 @@ export const DataElementsData = [
                 "Bindable": false,
                 "IsSaveWidget": 0,
                 "BindingDetail": "",
+                "DCaption": "",
                 "__idx": 166,
                 "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
                 "children": [
@@ -46514,14 +47145,14 @@ export const DataElementsData = [
     "FontStrikeout": false,
     "FontUnderline": false,
     "Depth": 9,
-    "Css": "btn btn-info btn-xs btn btn-info btn-xs btn-primary",
+    "Css": "btn btn-info btn-xs btn-primary",
     "ElementId": "de579991-212f-3ed2-1827-9bdd18c52f44",
     "UIElementid": "CE7355F4-0CCD-4B2F-B17E-E694D8A615D6",
     "Sequence": 19,
     "ElementName": "M_History",
     "ParentElementId": "8A7A4CC4-0187-401F-BAF6-2AC1394A9245",
     "ControlType": "ActionButton",
-    "Wrap": 4,
+    "Wrap": 0,
     "ClearFix": false,
     "OnDemandLoad": false,
     "ControlId": 9,
@@ -46577,6 +47208,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 161,
     "_id": "659D47FF-B282-4438-A53A-A7ACA37F740F_162_161",
     "children": [
@@ -46616,6 +47248,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 163,
         "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
         "children": [
@@ -46655,6 +47288,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 165,
             "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
             "children": [
@@ -46738,6 +47372,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 162,
     "_id": "63E0C491-B7F5-4E4F-B9C8-5692124AC1D7_163_162",
     "children": [
@@ -46777,6 +47412,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 164,
         "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
         "children": [
@@ -46816,6 +47452,7 @@ export const DataElementsData = [
             "Bindable": false,
             "IsSaveWidget": 0,
             "BindingDetail": "",
+            "DCaption": "",
             "__idx": 166,
             "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
             "children": [
@@ -46899,6 +47536,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 163,
     "_id": "1C5C4175-1245-45B0-8B04-6F7056984FFE_164_163",
     "children": [
@@ -46938,6 +47576,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 165,
         "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
         "children": [
@@ -47019,6 +47658,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 164,
     "_id": "C99BC49F-B3F1-4200-9C0F-1528B298E082_165_164",
     "children": [
@@ -47058,6 +47698,7 @@ export const DataElementsData = [
         "Bindable": false,
         "IsSaveWidget": 0,
         "BindingDetail": "",
+        "DCaption": "",
         "__idx": 166,
         "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
         "children": [
@@ -47139,6 +47780,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 165,
     "_id": "B05B089F-443B-4529-89E1-D6A2E892ED18_166_165",
     "children": [
@@ -47218,6 +47860,7 @@ export const DataElementsData = [
     "Bindable": false,
     "IsSaveWidget": 0,
     "BindingDetail": "",
+    "DCaption": "",
     "__idx": 166,
     "_id": "A6DB5F2E-F289-44FC-B154-37EB6D221B12_167_166",
     "children": [

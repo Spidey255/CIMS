@@ -212,6 +212,10 @@ namespace CPS.Proof.DFSExtension
 												     @"9AE80211-3943-4A9E-9DD9-C091F77BF194"),
 			
 						
+			     new Triplet<string, string, string>("ad23dc32-a105-830d-1795-05cba6194988","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
+			
+						
 			     new Triplet<string, string, string>("EE2E79C5-4A8F-4AC1-A64E-6FCFA533D02D","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -3131,6 +3135,46 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_m_cancel (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_Cancel-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [UnlockProcessInstance] '@@gv_InstanceId','@@gv_UserMapId'");
+
+var querySourcead23dc32a105830d179505cba6194988 =GetQueryExpressionDataSource("ad23dc32-a105-830d-1795-05cba6194988");
+Dictionary<short,object> resultad23dc32a105830d179505cba6194988=iSpace.ExecuteQuery(querySourcead23dc32a105830d179505cba6194988,@"EXEC [UnlockProcessInstance] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_usermapid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcead23dc32a105830d179505cba6194988 =GetQueryExpressionDataSource(""ad23dc32-a105-830d-1795-05cba6194988"");Dictionary<short,object> resultad23dc32a105830d179505cba6194988=iSpace.ExecuteQuery(querySourcead23dc32a105830d179505cba6194988,@""EXEC [UnlockProcessInstance] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_usermapid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultad23dc32a105830d179505cba6194988!=null) && (resultad23dc32a105830d179505cba6194988.Count!=0))
+{
+if(resultad23dc32a105830d179505cba6194988.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultad23dc32a105830d179505cba6194988[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+ISpace["Message"].Value=@"SUCCESS:Cancelled Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Cancelled Successfully"";");
+}
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_m_moveto (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -3227,6 +3271,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("submitform"))
 {
 			SubscribeElementEvents_submitform(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("m_cancel"))
+{
+			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 		if(elementName.ToLower().Equals("m_history"))
 {
@@ -3608,12 +3656,6 @@ ISpace["ErrorId"].Value = null;
 ISpace["Message"].Value=@"SUCCESS:Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Submitted Successfully"";");
 }
-
-ISpace["RedirectUrl"].RedirectType="R";
-ISpace["RedirectUrl"].Value="/Inbox";
-base.WriteDebugInfo(@"
-ISpace[""RedirectUrl""].RedirectType=""R"";
-ISpace[""RedirectUrl""].Value=""/Inbox"";");
 if(1==1)
 {
 base.WriteDebugInfo(@"if(1==1)");
@@ -3624,6 +3666,52 @@ base.WriteDebugInfo(@"
 ISpace[""RedirectUrl""].RedirectType=""R"";
 ISpace[""RedirectUrl""].Value=""?PkActMId=391EB18F-A1B6-490F-B60C-D4572FE018AB&frmElementId=CB38069E-44DE-463F-BAA6-6EA818E0CA3F&PkPrMId=1C5D271E-9D4D-47A4-8622-C1DBD65C0B6A&formVersionId=F663CD0F-3CCA-46BE-86C9-2DA22AE05E9F&Ver=0.0000"";");
 }
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_m_cancel (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_Cancel-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [UnlockProcessInstance] '@@gv_InstanceId','@@gv_UserMapId'");
+
+var querySourcead23dc32a105830d179505cba6194988 =GetQueryExpressionDataSource("ad23dc32-a105-830d-1795-05cba6194988");
+Dictionary<short,object> resultad23dc32a105830d179505cba6194988=iSpace.ExecuteQuery(querySourcead23dc32a105830d179505cba6194988,@"EXEC [UnlockProcessInstance] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_usermapid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcead23dc32a105830d179505cba6194988 =GetQueryExpressionDataSource(""ad23dc32-a105-830d-1795-05cba6194988"");Dictionary<short,object> resultad23dc32a105830d179505cba6194988=iSpace.ExecuteQuery(querySourcead23dc32a105830d179505cba6194988,@""EXEC [UnlockProcessInstance] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_usermapid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultad23dc32a105830d179505cba6194988!=null) && (resultad23dc32a105830d179505cba6194988.Count!=0))
+{
+if(resultad23dc32a105830d179505cba6194988.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultad23dc32a105830d179505cba6194988[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+ISpace["Message"].Value=@"SUCCESS:Cancelled Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Cancelled Successfully"";");
+}
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
 }
 catch(Exception ex)
 {
@@ -4765,6 +4853,10 @@ public override void ExecuteMethod
 {
 			SubscribeElementEvents_submitform(ref dfsParam);
 }
+		if(elementName.ToLower().Equals("m_cancel"))
+{
+			SubscribeElementEvents_m_cancel(ref dfsParam);
+}
 		if(elementName.ToLower().Equals("availablebudgetclose"))
 {
 			SubscribeElementEvents_availablebudgetclose(ref dfsParam);
@@ -4961,6 +5053,46 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_m_cancel (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_Cancel-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [UnlockProcessInstance] '@@gv_InstanceId','@@gv_UserMapId'");
+
+var querySourcead23dc32a105830d179505cba6194988 =GetQueryExpressionDataSource("ad23dc32-a105-830d-1795-05cba6194988");
+Dictionary<short,object> resultad23dc32a105830d179505cba6194988=iSpace.ExecuteQuery(querySourcead23dc32a105830d179505cba6194988,@"EXEC [UnlockProcessInstance] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_usermapid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcead23dc32a105830d179505cba6194988 =GetQueryExpressionDataSource(""ad23dc32-a105-830d-1795-05cba6194988"");Dictionary<short,object> resultad23dc32a105830d179505cba6194988=iSpace.ExecuteQuery(querySourcead23dc32a105830d179505cba6194988,@""EXEC [UnlockProcessInstance] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_usermapid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultad23dc32a105830d179505cba6194988!=null) && (resultad23dc32a105830d179505cba6194988.Count!=0))
+{
+if(resultad23dc32a105830d179505cba6194988.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultad23dc32a105830d179505cba6194988[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+ISpace["Message"].Value=@"SUCCESS:Cancelled Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Cancelled Successfully"";");
+}
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_m_moveto (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -5051,6 +5183,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("submitform"))
 {
 			SubscribeElementEvents_submitform(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("m_cancel"))
+{
+			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 		if(elementName.ToLower().Equals("m_history"))
 {
