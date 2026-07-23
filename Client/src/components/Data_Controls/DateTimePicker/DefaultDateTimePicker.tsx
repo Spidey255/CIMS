@@ -1,5 +1,6 @@
 // Innovace Intech Solution Pvt Ltd
 // Innovace Intech Solution Pvt Ltd
+// Innovace Intech Solution Pvt Ltd
 import React from "react";
 import dayjs from "dayjs";
 import type { UIElement } from "@/constants/types";
@@ -29,6 +30,16 @@ const DefaultDateTimePicker: React.FC<{
    const storeVisible = useGeneralStore(
         (store) => store.state[element.ElementName]?.isVisible
       );
+
+        const Enbl = useGeneralStore(
+        (store) => store.state[element.ElementName]?.Enbl
+      );
+     
+      const isDisabled =
+  Enbl === false ||
+  Enbl === "false" ||
+  Enbl === 0 ||
+  Enbl === "0";
     
       const isVisible =
         storeVisible !== undefined && storeVisible !== null
@@ -74,6 +85,7 @@ const DefaultDateTimePicker: React.FC<{
               value={state ? dayjs(state.toString()).format("YYYY-MM-DD") : ""}
               onChange={(e) => onchange(e)}
               onClick={(e) => e.stopPropagation()}
+               disabled={isDisabled}
             />
           </div>
         </div>

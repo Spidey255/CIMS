@@ -207,6 +207,8 @@ export interface IGlobalStateValues {
   ShowModal?: boolean;
   rElemData?: any;
   Css?: string;
+  Enbl?:any;
+
 }
 
 export interface IDocumentValue {

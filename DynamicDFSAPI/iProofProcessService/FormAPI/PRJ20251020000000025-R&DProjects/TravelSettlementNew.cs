@@ -196,6 +196,10 @@ namespace CPS.Proof.DFSExtension
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
 						
+			     new Triplet<string, string, string>("d3f520dc-192b-a2be-895f-0110cd26ead3","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
+			
+						
 			     new Triplet<string, string, string>("bc65d3f1-af53-0623-8188-972c84eb7419","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
@@ -4349,6 +4353,46 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_m_cancel (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_Cancel-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [UnlockProcessInstance] '@@gv_InstanceId','@@gv_UserMapId'");
+
+var querySourced3f520dc192ba2be895f0110cd26ead3 =GetQueryExpressionDataSource("d3f520dc-192b-a2be-895f-0110cd26ead3");
+Dictionary<short,object> resultd3f520dc192ba2be895f0110cd26ead3=iSpace.ExecuteQuery(querySourced3f520dc192ba2be895f0110cd26ead3,@"EXEC [UnlockProcessInstance] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_usermapid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourced3f520dc192ba2be895f0110cd26ead3 =GetQueryExpressionDataSource(""d3f520dc-192b-a2be-895f-0110cd26ead3"");Dictionary<short,object> resultd3f520dc192ba2be895f0110cd26ead3=iSpace.ExecuteQuery(querySourced3f520dc192ba2be895f0110cd26ead3,@""EXEC [UnlockProcessInstance] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_usermapid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultd3f520dc192ba2be895f0110cd26ead3!=null) && (resultd3f520dc192ba2be895f0110cd26ead3.Count!=0))
+{
+if(resultd3f520dc192ba2be895f0110cd26ead3.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultd3f520dc192ba2be895f0110cd26ead3[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+ISpace["Message"].Value=@"SUCCESS: Cancelled Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS: Cancelled Successfully"";");
+}
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 public override void ExecuteMethod
 	(string methodName, string elementName,
 		ref Dictionary<string, ServiceElementData> dfsParam)
@@ -4373,6 +4417,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("wmf_history"))
 {
 			SubscribeElementEvents_wmf_history(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("m_cancel"))
+{
+			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
 }
@@ -4631,6 +4679,46 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_m_cancel (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_Cancel-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [UnlockProcessInstance] '@@gv_InstanceId','@@gv_UserMapId'");
+
+var querySourced3f520dc192ba2be895f0110cd26ead3 =GetQueryExpressionDataSource("d3f520dc-192b-a2be-895f-0110cd26ead3");
+Dictionary<short,object> resultd3f520dc192ba2be895f0110cd26ead3=iSpace.ExecuteQuery(querySourced3f520dc192ba2be895f0110cd26ead3,@"EXEC [UnlockProcessInstance] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_usermapid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourced3f520dc192ba2be895f0110cd26ead3 =GetQueryExpressionDataSource(""d3f520dc-192b-a2be-895f-0110cd26ead3"");Dictionary<short,object> resultd3f520dc192ba2be895f0110cd26ead3=iSpace.ExecuteQuery(querySourced3f520dc192ba2be895f0110cd26ead3,@""EXEC [UnlockProcessInstance] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_usermapid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultd3f520dc192ba2be895f0110cd26ead3!=null) && (resultd3f520dc192ba2be895f0110cd26ead3.Count!=0))
+{
+if(resultd3f520dc192ba2be895f0110cd26ead3.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultd3f520dc192ba2be895f0110cd26ead3[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+ISpace["Message"].Value=@"SUCCESS: Cancelled Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS: Cancelled Successfully"";");
+}
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 public override void ExecuteMethod
 	(string methodName, string elementName,
 		ref Dictionary<string, ServiceElementData> dfsParam)
@@ -4655,6 +4743,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("wmf_history"))
 {
 			SubscribeElementEvents_wmf_history(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("m_cancel"))
+{
+			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
 }
@@ -4913,6 +5005,46 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_m_cancel (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_Cancel-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [UnlockProcessInstance] '@@gv_InstanceId','@@gv_UserMapId'");
+
+var querySourced3f520dc192ba2be895f0110cd26ead3 =GetQueryExpressionDataSource("d3f520dc-192b-a2be-895f-0110cd26ead3");
+Dictionary<short,object> resultd3f520dc192ba2be895f0110cd26ead3=iSpace.ExecuteQuery(querySourced3f520dc192ba2be895f0110cd26ead3,@"EXEC [UnlockProcessInstance] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_usermapid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourced3f520dc192ba2be895f0110cd26ead3 =GetQueryExpressionDataSource(""d3f520dc-192b-a2be-895f-0110cd26ead3"");Dictionary<short,object> resultd3f520dc192ba2be895f0110cd26ead3=iSpace.ExecuteQuery(querySourced3f520dc192ba2be895f0110cd26ead3,@""EXEC [UnlockProcessInstance] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_usermapid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultd3f520dc192ba2be895f0110cd26ead3!=null) && (resultd3f520dc192ba2be895f0110cd26ead3.Count!=0))
+{
+if(resultd3f520dc192ba2be895f0110cd26ead3.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultd3f520dc192ba2be895f0110cd26ead3[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+ISpace["Message"].Value=@"SUCCESS: Cancelled Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS: Cancelled Successfully"";");
+}
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 public override void ExecuteMethod
 	(string methodName, string elementName,
 		ref Dictionary<string, ServiceElementData> dfsParam)
@@ -4937,6 +5069,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("wmf_history"))
 {
 			SubscribeElementEvents_wmf_history(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("m_cancel"))
+{
+			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
 }
@@ -5195,6 +5331,46 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_m_cancel (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_Cancel-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [UnlockProcessInstance] '@@gv_InstanceId','@@gv_UserMapId'");
+
+var querySourced3f520dc192ba2be895f0110cd26ead3 =GetQueryExpressionDataSource("d3f520dc-192b-a2be-895f-0110cd26ead3");
+Dictionary<short,object> resultd3f520dc192ba2be895f0110cd26ead3=iSpace.ExecuteQuery(querySourced3f520dc192ba2be895f0110cd26ead3,@"EXEC [UnlockProcessInstance] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_usermapid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourced3f520dc192ba2be895f0110cd26ead3 =GetQueryExpressionDataSource(""d3f520dc-192b-a2be-895f-0110cd26ead3"");Dictionary<short,object> resultd3f520dc192ba2be895f0110cd26ead3=iSpace.ExecuteQuery(querySourced3f520dc192ba2be895f0110cd26ead3,@""EXEC [UnlockProcessInstance] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_usermapid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultd3f520dc192ba2be895f0110cd26ead3!=null) && (resultd3f520dc192ba2be895f0110cd26ead3.Count!=0))
+{
+if(resultd3f520dc192ba2be895f0110cd26ead3.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultd3f520dc192ba2be895f0110cd26ead3[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+ISpace["Message"].Value=@"SUCCESS: Cancelled Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS: Cancelled Successfully"";");
+}
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 public override void ExecuteMethod
 	(string methodName, string elementName,
 		ref Dictionary<string, ServiceElementData> dfsParam)
@@ -5219,6 +5395,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("wmf_history"))
 {
 			SubscribeElementEvents_wmf_history(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("m_cancel"))
+{
+			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
 }
@@ -5499,6 +5679,46 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_m_cancel (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"M_Cancel-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [UnlockProcessInstance] '@@gv_InstanceId','@@gv_UserMapId'");
+
+var querySourced3f520dc192ba2be895f0110cd26ead3 =GetQueryExpressionDataSource("d3f520dc-192b-a2be-895f-0110cd26ead3");
+Dictionary<short,object> resultd3f520dc192ba2be895f0110cd26ead3=iSpace.ExecuteQuery(querySourced3f520dc192ba2be895f0110cd26ead3,@"EXEC [UnlockProcessInstance] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_usermapid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourced3f520dc192ba2be895f0110cd26ead3 =GetQueryExpressionDataSource(""d3f520dc-192b-a2be-895f-0110cd26ead3"");Dictionary<short,object> resultd3f520dc192ba2be895f0110cd26ead3=iSpace.ExecuteQuery(querySourced3f520dc192ba2be895f0110cd26ead3,@""EXEC [UnlockProcessInstance] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_usermapid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultd3f520dc192ba2be895f0110cd26ead3!=null) && (resultd3f520dc192ba2be895f0110cd26ead3.Count!=0))
+{
+if(resultd3f520dc192ba2be895f0110cd26ead3.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultd3f520dc192ba2be895f0110cd26ead3[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+ISpace["Message"].Value=@"SUCCESS: Cancelled Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS: Cancelled Successfully"";");
+}
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 public override void ExecuteMethod
 	(string methodName, string elementName,
 		ref Dictionary<string, ServiceElementData> dfsParam)
@@ -5523,6 +5743,10 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("wmf_history"))
 {
 			SubscribeElementEvents_wmf_history(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("m_cancel"))
+{
+			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
 }

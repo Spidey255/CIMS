@@ -199,6 +199,8 @@ export async function resusableOnChange(element: UIElement) {
             ShowDialog: row.ShowDialog ?? false,
             HideDialog: row.HideDialog ?? false,
             ShowModal: row.ShowModal ?? false,
+	    Enbl: row?.Enbl,
+
 
             rElemData: row.rElemData,
           };
