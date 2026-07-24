@@ -65,7 +65,10 @@ const Tab: React.FC<{ element: UIElement; children?: React.ReactNode }> = ({
           >
             <a
               className={`nav-link  ${isActive(header) ? "active" : ""}`}
-              onClick={() => setActiveTab(element.UIElementid, header.uniqueKey)}
+                onClick={(e) => {
+    e.preventDefault();
+    setActiveTab(element.UIElementid, header.uniqueKey);
+  }}
               role="tab"
               href="#"
             >
