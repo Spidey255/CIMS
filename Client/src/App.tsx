@@ -164,6 +164,9 @@ const TravelSettlementNew_RDOfficePayment = React.lazy(() =>
 const ProjectReimbursementNew_RandDOffice = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursementNew_RandDOffice")
   );
+const TravelRequestNew_AdvanceNo = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TravelRequestNew_AdvanceNo")
+  );
 
 
 const hasAccessToken = (): boolean => {
@@ -275,6 +278,7 @@ const App: React.FC = () => {
               <Route path="/PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_RDOfficePayment" element={<TemporaryAdvanceNew_RDOfficePayment />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelSettlementNew_RDOfficePayment" element={<TravelSettlementNew_RDOfficePayment />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursementNew_RandDOffice" element={<ProjectReimbursementNew_RandDOffice />} />
+              <Route path="/PRJ20251020000000025-R&DProjects/TravelRequestNew_AdvanceNo" element={<TravelRequestNew_AdvanceNo />} />
               <Route path="/Inbox" element={<Inbox />} />
               <Route path="*" element={<NotFound />} />
             </Route>

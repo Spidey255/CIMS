@@ -458,6 +458,10 @@ namespace CPS.Proof.DFSExtension
 							virtualInstance=new ISpace53f8560140a83229820900367a5bc621();
 							break;
 					
+											case "51DD9052-4F9D-41AE-B8FF-9311377196D8":
+							virtualInstance=new ISpace51DD90524F9D41AEB8FF9311377196D8();
+							break;
+					
 					
 					default:
 						break;
@@ -553,10 +557,10 @@ namespace CPS.Proof.DFSExtension
                                       case "5D394C98-9AAB-4228-B011-FC8008C3247C":
                     {
                      
-                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [5D394C98-9AAB-4228-B011-FC8008C3247C] WHERE InstanceId='{0}') BEGIN INSERT INTO [5D394C98-9AAB-4228-B011-FC8008C3247C](ProcessActivityMapId,FormId,WMF_IsInFlow,WMF_MoveTo,Comments,WMF_InstanceId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d1_TravelAdvanceID,MF_d1_EmployeeBasicInfoId,MF_d1_ReferenceNo,MF_d1_JourneyPurpose,MF_d1_TravelType,MF_d1_TravelPlace,MF_d1_IsAdvanceRequired,MF_d1_PaymentRemittenceTo,MF_d1_BeneficiaryName,MF_d1_AccountNo,MF_d1_BankName,MF_d1_IFSCCode,MF_d1_BankDocument,MF_d1_TransactionNo,MF_d1_TransactionDate,MF_d1_TotalAmount,MF_d1_AdvanceAmount,MF_d1_TravelStatus,MF_d1_TSAmount,MF_d1_TSStatus,MF_d1_PITransactionNo,MF_d1_PITransactionDate,MF_d1_TSTransactionNo,MF_d1_TSTransactionDate,MF_d1_CreatedBy,MF_d1_CreatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_TotaTravellExpense,MF_TotalOtherExpense,MF_EligibleAdavnce,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,InstanceId,UC_EmailId,UC_PhoneNumber,UC_Paylevel,UC_Grade,UC_DOJ,UC_DOR,UC_DOB,UC_EmployeeBaicInfoId,UC_EmployeeId,UC_Name,UC_Designation,UC_Department,PF_FundTotal,WF_FlowType,MF_ErrId,MF_ErrMsg,MF_FundTotal)
+                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [5D394C98-9AAB-4228-B011-FC8008C3247C] WHERE InstanceId='{0}') BEGIN INSERT INTO [5D394C98-9AAB-4228-B011-FC8008C3247C](ProcessActivityMapId,FormId,WMF_IsInFlow,WMF_MoveTo,Comments,WMF_InstanceId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d1_TravelAdvanceID,MF_d1_EmployeeBasicInfoId,MF_d1_ReferenceNo,MF_d1_JourneyPurpose,MF_d1_TravelType,MF_d1_TravelPlace,MF_d1_IsAdvanceRequired,MF_d1_PaymentRemittenceTo,MF_d1_BeneficiaryName,MF_d1_AccountNo,MF_d1_BankName,MF_d1_IFSCCode,MF_d1_BankDocument,MF_d1_TransactionNo,MF_d1_TransactionDate,MF_d1_TotalAmount,MF_d1_AdvanceAmount,MF_d1_TravelStatus,MF_d1_TSAmount,MF_d1_TSStatus,MF_d1_PITransactionNo,MF_d1_PITransactionDate,MF_d1_TSTransactionNo,MF_d1_TSTransactionDate,MF_d1_CreatedBy,MF_d1_CreatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_TotaTravellExpense,MF_TotalOtherExpense,MF_EligibleAdavnce,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,InstanceId,UC_EmailId,UC_PhoneNumber,UC_Paylevel,UC_Grade,UC_DOJ,UC_DOR,UC_DOB,UC_EmployeeBaicInfoId,UC_EmployeeId,UC_Name,UC_Designation,UC_Department,PF_FundTotal,WF_FlowType,MF_ErrId,MF_ErrMsg,MF_FundTotal,MF_IsApprovalrequired)
 							VALUES( {3}) END ELSE BEGIN UPDATE [5D394C98-9AAB-4228-B011-FC8008C3247C]SET {4}WHERE InstanceId='{0}'END ";
 
-                                     colList=@"ProcessActivityMapId,FormId,WMF_IsInFlow,WMF_MoveTo,Comments,WMF_InstanceId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d1_TravelAdvanceID,MF_d1_EmployeeBasicInfoId,MF_d1_ReferenceNo,MF_d1_JourneyPurpose,MF_d1_TravelType,MF_d1_TravelPlace,MF_d1_IsAdvanceRequired,MF_d1_PaymentRemittenceTo,MF_d1_BeneficiaryName,MF_d1_AccountNo,MF_d1_BankName,MF_d1_IFSCCode,MF_d1_BankDocument,MF_d1_TransactionNo,MF_d1_TransactionDate,MF_d1_TotalAmount,MF_d1_AdvanceAmount,MF_d1_TravelStatus,MF_d1_TSAmount,MF_d1_TSStatus,MF_d1_PITransactionNo,MF_d1_PITransactionDate,MF_d1_TSTransactionNo,MF_d1_TSTransactionDate,MF_d1_CreatedBy,MF_d1_CreatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_TotaTravellExpense,MF_TotalOtherExpense,MF_EligibleAdavnce,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,InstanceId,UC_EmailId,UC_PhoneNumber,UC_Paylevel,UC_Grade,UC_DOJ,UC_DOR,UC_DOB,UC_EmployeeBaicInfoId,UC_EmployeeId,UC_Name,UC_Designation,UC_Department,PF_FundTotal,WF_FlowType,MF_ErrId,MF_ErrMsg,MF_FundTotal";
+                                     colList=@"ProcessActivityMapId,FormId,WMF_IsInFlow,WMF_MoveTo,Comments,WMF_InstanceId,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,MF_d1_TravelAdvanceID,MF_d1_EmployeeBasicInfoId,MF_d1_ReferenceNo,MF_d1_JourneyPurpose,MF_d1_TravelType,MF_d1_TravelPlace,MF_d1_IsAdvanceRequired,MF_d1_PaymentRemittenceTo,MF_d1_BeneficiaryName,MF_d1_AccountNo,MF_d1_BankName,MF_d1_IFSCCode,MF_d1_BankDocument,MF_d1_TransactionNo,MF_d1_TransactionDate,MF_d1_TotalAmount,MF_d1_AdvanceAmount,MF_d1_TravelStatus,MF_d1_TSAmount,MF_d1_TSStatus,MF_d1_PITransactionNo,MF_d1_PITransactionDate,MF_d1_TSTransactionNo,MF_d1_TSTransactionDate,MF_d1_CreatedBy,MF_d1_CreatedOn,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_TotaTravellExpense,MF_TotalOtherExpense,MF_EligibleAdavnce,FWFM_FundDetailsId,FWFM_FundType,FWFM_ProjectNo,FWFM_BudgetHead,FWFM_Amount,PFMF_PackageProcessMapId,FWAB_ProjectNo,PFMF_UserId,PFM_ErrId,PFM_ErrMsg,PFM_FundDetailsId,InstanceId,UC_EmailId,UC_PhoneNumber,UC_Paylevel,UC_Grade,UC_DOJ,UC_DOR,UC_DOB,UC_EmployeeBaicInfoId,UC_EmployeeId,UC_Name,UC_Designation,UC_Department,PF_FundTotal,WF_FlowType,MF_ErrId,MF_ErrMsg,MF_FundTotal,MF_IsApprovalrequired";
                                     
                      
                             splitcols = colList.Split(',');
@@ -7242,6 +7246,332 @@ public override void ExecuteMethod
 namespace CPS.Proof.DFSExtension
 {
 }
+namespace CPS.Proof.DFSExtension
+{
+
+using System.Collections.Generic;
+using System;
+using CPS.Proof.DFSExtension;
+using System.Linq;using System.Data;
+using System.Runtime.CompilerServices;
+public class ISpace51DD90524F9D41AEB8FF9311377196D8 : VirtualForm
+{
+IISpace iSpace = new ISpace();
+AcDataISpace51DD90524F9D41AEB8FF9311377196D8 acdataIspace51DD90524F9D41AEB8FF9311377196D8=new AcDataISpace51DD90524F9D41AEB8FF9311377196D8();
+private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
+{
+try
+{
+base.WriteDebugInfo(@"Root-OnAfterFormLoad");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["WMF_InstanceId"].Value=ISpace["gv_instanceid"].Value;
+base.WriteDebugInfo(@"ISpace[""WMF_InstanceId""].Value=ISpace[""gv_instanceid""].Value;");
+if(ISpace["FormVersionId"].Value=="48D9155C-42D2-4414-AF53-3D00D9908DD4")
+{
+ISpace["UI_PFHideRow"].Visible="false";
+}if(ISpace["FormVersionId"].Value=="48D9155C-42D2-4414-AF53-3D00D9908DD4")
+{
+ISpace["UI_ApprovalHideRow"].Visible="false";
+}
+base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""48D9155C-42D2-4414-AF53-3D00D9908DD4"")
+{
+ISpace[""UI_PFHideRow""].Visible=""false"";
+}if(ISpace[""FormVersionId""].Value==""48D9155C-42D2-4414-AF53-3D00D9908DD4"")
+{
+ISpace[""UI_ApprovalHideRow""].Visible=""false"";
+}");
+ISpace["Comments"].Value="";
+base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
+ISpace["WMF_MoveTo"].Value="";
+base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Value="""";");
+}
+if(ISpace["WF_FlowType"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value=="""")");
+ISpace["WMF_IsInFlow"].Value=0;
+base.WriteDebugInfo(@"ISpace[""WMF_IsInFlow""].Value=0;");
+base.WriteDebugInfo(@"EXEC [GetInstanceInFlow] '@@gv_InstanceId'");
+
+var querySource76804AA1305E4E7F895EB90B051455D5 =GetQueryExpressionDataSource("76804AA1-305E-4E7F-895E-B90B051455D5");
+Dictionary<short,object> result76804AA1305E4E7F895EB90B051455D5=iSpace.ExecuteQuery(querySource76804AA1305E4E7F895EB90B051455D5,@"EXEC [GetInstanceInFlow] '" + ISpace["gv_instanceid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource76804AA1305E4E7F895EB90B051455D5 =GetQueryExpressionDataSource(""76804AA1-305E-4E7F-895E-B90B051455D5"");Dictionary<short,object> result76804AA1305E4E7F895EB90B051455D5=iSpace.ExecuteQuery(querySource76804AA1305E4E7F895EB90B051455D5,@""EXEC [GetInstanceInFlow] '"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result76804AA1305E4E7F895EB90B051455D5!=null) && (result76804AA1305E4E7F895EB90B051455D5.Count!=0))
+{
+if(result76804AA1305E4E7F895EB90B051455D5.ContainsKey(0))
+ISpace["WMF_IsInFlow"].Value = result76804AA1305E4E7F895EB90B051455D5[0];
+}
+else{
+ISpace["WMF_IsInFlow"].Value = null;
+}
+if(ISpace["WMF_IsInFlow"].Value==1)
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_IsInFlow""].Value==1)");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
+ISpace["WMF_History"].Visible="true";ISpace["WMF_MoveTo"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""WMF_History""].Visible=""true"";ISpace[""WMF_MoveTo""].Visible=""true"";");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["WMF_History"].Visible="false";ISpace["WMF_MoveTo"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""WMF_History""].Visible=""false"";ISpace[""WMF_MoveTo""].Visible=""false"";");
+}
+}
+ISpace["WMF_MoveTo"].Man=true;
+base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Man=true;");
+
+var querySource698205C52C1A42F39D81823D3215AB11 =GetQueryExpressionDataSource("698205C5-2C1A-42F3-9D81-823D3215AB11");
+
+DataTable result698205C52C1A42F39D81823D3215AB11=iSpace.SetGridDataSource(querySource698205C52C1A42F39D81823D3215AB11, _objectFactory.GetGridRPP("WMG_CommentsHistory"),@"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("WMG_CommentsHistory","11",querySource698205C52C1A42F39D81823D3215AB11,"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("WMG_CommentsHistory"));
+
+base.WriteDebugInfo(@"var querySource698205C52C1A42F39D81823D3215AB11 =GetQueryExpressionDataSource(""698205C5-2C1A-42F3-9D81-823D3215AB11"");DataTable result698205C52C1A42F39D81823D3215AB11=iSpace.SetGridDataSource(querySource698205C52C1A42F39D81823D3215AB11, _objectFactory.GetGridRPP(""WMG_CommentsHistory""),@""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""WMG_CommentsHistory"",""11"",querySource698205C52C1A42F39D81823D3215AB11,""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""WMG_CommentsHistory""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result794A7328890E42A3B11A5984B2D49196=acdataIspace51DD90524F9D41AEB8FF9311377196D8.GetQueryExpressionBindings("794A7328-890E-42A3-B11A-5984B2D49196");
+iSpace.SetGridData(result698205C52C1A42F39D81823D3215AB11,result794A7328890E42A3B11A5984B2D49196,"WMG_CommentsHistory",ref ISpace);
+iSpace.UpdateGridBindDetails("WMG_CommentsHistory",result794A7328890E42A3B11A5984B2D49196);
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
+ISpace["MF_IsApprovalrequired"].Value=false;
+base.WriteDebugInfo(@"ISpace[""MF_IsApprovalrequired""].Value=false;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_wmf_history (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"WMF_History-OnClick");
+
+var querySource698205C52C1A42F39D81823D3215AB11 =GetQueryExpressionDataSource("698205C5-2C1A-42F3-9D81-823D3215AB11");
+
+DataTable result698205C52C1A42F39D81823D3215AB11=iSpace.SetGridDataSource(querySource698205C52C1A42F39D81823D3215AB11, _objectFactory.GetGridRPP("WMG_CommentsHistory"),@"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("WMG_CommentsHistory","11",querySource698205C52C1A42F39D81823D3215AB11,"EXEC [GetInstanceFlowDetais] '" + ISpace["gv_instanceid"].Value + @"'",_objectFactory.GetGridRPP("WMG_CommentsHistory"));
+
+base.WriteDebugInfo(@"var querySource698205C52C1A42F39D81823D3215AB11 =GetQueryExpressionDataSource(""698205C5-2C1A-42F3-9D81-823D3215AB11"");DataTable result698205C52C1A42F39D81823D3215AB11=iSpace.SetGridDataSource(querySource698205C52C1A42F39D81823D3215AB11, _objectFactory.GetGridRPP(""WMG_CommentsHistory""),@""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"");iSpace.InsertGridBindDetails(""WMG_CommentsHistory"",""11"",querySource698205C52C1A42F39D81823D3215AB11,""EXEC [GetInstanceFlowDetais] '"" + ISpace[""gv_instanceid""].Value + @""'"",_objectFactory.GetGridRPP(""WMG_CommentsHistory""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result794A7328890E42A3B11A5984B2D49196=acdataIspace51DD90524F9D41AEB8FF9311377196D8.GetQueryExpressionBindings("794A7328-890E-42A3-B11A-5984B2D49196");
+iSpace.SetGridData(result698205C52C1A42F39D81823D3215AB11,result794A7328890E42A3B11A5984B2D49196,"WMG_CommentsHistory",ref ISpace);
+iSpace.UpdateGridBindDetails("WMG_CommentsHistory",result794A7328890E42A3B11A5984B2D49196);
+ISpace["UI_History"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_submitform (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"SubmitForm-OnClick");
+if(ISpace["WF_FlowType"].Value=="APPROVE")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""APPROVE"")");
+if(ISpace["WMF_MoveTo"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
+ISpace["Message"].Value=@"Error:Please Select Next Action";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Please Select Next Action"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
+if(ISpace["WF_FlowType"].Value=="RETURN" || ISpace["WF_FlowType"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value==""RETURN"" || ISpace[""WF_FlowType""].Value==""REJECT"")");
+if(ISpace["WMF_MoveTo"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value=="""")");
+ISpace["Message"].Value=@"Error:Please Select Next Action";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Please Select Next Action"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+if(ISpace["Comments"].Value=="")
+{
+base.WriteDebugInfo(@"if(ISpace[""Comments""].Value=="""")");
+ISpace["Message"].Value=@"Error: Please Enter Comments";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please Enter Comments"";");
+ISpace["IsCancelled"].Value = true; 
+
+return;
+base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
+
+return;");
+}
+}
+ISpace["Message"].Value=@"Success: Submitted Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [UpdateTravelRequestStatus] '@@gv_InstanceId','@@gv_UserId','#WF_FlowType'");
+
+var querySourcefbb131bf5cbf0eb86f44bf481055f5b7 =GetQueryExpressionDataSource("fbb131bf-5cbf-0eb8-6f44-bf481055f5b7");
+Dictionary<short,object> resultfbb131bf5cbf0eb86f44bf481055f5b7=iSpace.ExecuteQuery(querySourcefbb131bf5cbf0eb86f44bf481055f5b7,@"EXEC [UpdateTravelRequestStatus] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_userid"].Value + @"','" + ISpace["WF_FlowType"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourcefbb131bf5cbf0eb86f44bf481055f5b7 =GetQueryExpressionDataSource(""fbb131bf-5cbf-0eb8-6f44-bf481055f5b7"");Dictionary<short,object> resultfbb131bf5cbf0eb86f44bf481055f5b7=iSpace.ExecuteQuery(querySourcefbb131bf5cbf0eb86f44bf481055f5b7,@""EXEC [UpdateTravelRequestStatus] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_userid""].Value + @""','"" + ISpace[""WF_FlowType""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultfbb131bf5cbf0eb86f44bf481055f5b7!=null) && (resultfbb131bf5cbf0eb86f44bf481055f5b7.Count!=0))
+{
+if(resultfbb131bf5cbf0eb86f44bf481055f5b7.ContainsKey(0))
+ISpace["MF_ErrId"].Value = resultfbb131bf5cbf0eb86f44bf481055f5b7[0];
+if(resultfbb131bf5cbf0eb86f44bf481055f5b7.ContainsKey(1))
+ISpace["MF_ErrMsg"].Value = resultfbb131bf5cbf0eb86f44bf481055f5b7[1];
+}
+else{
+ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
+}
+}
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_wmf_moveto (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"WMF_MoveTo-OnChange");
+if(ISpace["WMF_MoveTo"].Value=="APPROVE")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""APPROVE"")");
+ISpace["WF_FlowType"].Value="APPROVE";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""APPROVE"";");
+ISpace["Comments"].Man=false;
+base.WriteDebugInfo(@"ISpace[""Comments""].Man=false;");
+}
+if(ISpace["WMF_MoveTo"].Value=="RETURN")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""RETURN"")");
+ISpace["WF_FlowType"].Value="RETURN";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""RETURN"";");
+ISpace["Comments"].Man=true;
+base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
+}
+if(ISpace["WMF_MoveTo"].Value=="REJECT")
+{
+base.WriteDebugInfo(@"if(ISpace[""WMF_MoveTo""].Value==""REJECT"")");
+ISpace["WF_FlowType"].Value="REJECT";
+base.WriteDebugInfo(@"ISpace[""WF_FlowType""].Value=""REJECT"";");
+ISpace["Comments"].Man=true;
+base.WriteDebugInfo(@"ISpace[""Comments""].Man=true;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_cancelform (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"CancelForm-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [UnlockProcessInstance] '@@gv_InstanceId','@@gv_UserMapId'");
+
+var querySource4c20e7236b4e1baa1f33b09cc235bbe6 =GetQueryExpressionDataSource("4c20e723-6b4e-1baa-1f33-b09cc235bbe6");
+Dictionary<short,object> result4c20e7236b4e1baa1f33b09cc235bbe6=iSpace.ExecuteQuery(querySource4c20e7236b4e1baa1f33b09cc235bbe6,@"EXEC [UnlockProcessInstance] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_usermapid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource4c20e7236b4e1baa1f33b09cc235bbe6 =GetQueryExpressionDataSource(""4c20e723-6b4e-1baa-1f33-b09cc235bbe6"");Dictionary<short,object> result4c20e7236b4e1baa1f33b09cc235bbe6=iSpace.ExecuteQuery(querySource4c20e7236b4e1baa1f33b09cc235bbe6,@""EXEC [UnlockProcessInstance] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_usermapid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result4c20e7236b4e1baa1f33b09cc235bbe6!=null) && (result4c20e7236b4e1baa1f33b09cc235bbe6.Count!=0))
+{
+if(result4c20e7236b4e1baa1f33b09cc235bbe6.ContainsKey(0))
+ISpace["MF_ErrId"].Value = result4c20e7236b4e1baa1f33b09cc235bbe6[0];
+}
+else{
+ISpace["MF_ErrId"].Value = null;
+}
+}
+ISpace["Message"].Value=@"Success: Cancelled Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Cancelled Successfully"";");
+
+ISpace["RedirectUrl"].RedirectType="R";
+ISpace["RedirectUrl"].Value="/Inbox";
+base.WriteDebugInfo(@"
+ISpace[""RedirectUrl""].RedirectType=""R"";
+ISpace[""RedirectUrl""].Value=""/Inbox"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+public override void ExecuteMethod
+	(string methodName, string elementName,
+		ref Dictionary<string, ServiceElementData> dfsParam)
+{
+	if(methodName.ToLower().Equals("formonload"))
+{
+			SubscribeFormEvents_root(ref dfsParam);
+}
+	if(methodName.ToLower().Equals("onchange"))
+{
+		if(elementName.ToLower().Equals("wmf_moveto"))
+    {
+    			SubscribeElementEvents_wmf_moveto(ref dfsParam);
+    }
+}
+	if(methodName.ToLower().Equals("onclick"))
+{
+		if(elementName.ToLower().Equals("wmf_history"))
+{
+			SubscribeElementEvents_wmf_history(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("submitform"))
+{
+			SubscribeElementEvents_submitform(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("cancelform"))
+{
+			SubscribeElementEvents_cancelform(ref dfsParam);
+}
+}
+}
+}
+}
 
   
 
@@ -8943,6 +9273,188 @@ using System;
 
 
 	public partial class AcDataISpace66993345063b9dc08b58e3d322bd7e24  : ExtensionActivityBase
+	{		
+		
+		
+		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
+											new Dictionary<string,  List<Triplet<string, short, short?>>>
+		{
+							{"FCFC0853-8E66-474B-A676-F339F45380EF", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("PAB_YetToRecieve",2,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_RecievedAmount",3,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Spent",5,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Commitment",4,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_SanctionedAmount",1,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_BudgetName",0,
+														   -1),
+								   new Triplet<string, short, short?>("PAB_Balance",6,
+														   -1),
+								}
+			},
+							{"25891B74-08F4-4F71-BE61-36CEA4C143EC", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("PFA_Amount",11,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_ProjectNoValue",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_FundAllocation_RowId",3,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundDetailsId",12,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundTypeValue",6,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_ProjectNo",7,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_FundType",5,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHeadValue",10,
+														   -1),
+								   new Triplet<string, short, short?>("PFA_BudgetHead",9,
+														   -1),
+								}
+			},
+							{"794A7328-890E-42A3-B11A-5984B2D49196", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("WMC_DateofComments",4,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_Comments",5,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_StepTo",2,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_User",3,
+														   -1),
+								   new Triplet<string, short, short?>("WMC_StepFrom",1,
+														   -1),
+								}
+			},
+					};	
+
+	
+
+		private Dictionary<string,string> formVersionList =new Dictionary<string,string> 
+		{
+							{"48D9155C-42D2-4414-AF53-3D00D9908DD4", "Medium"},
+					};	
+
+		
+		private Dictionary<string,string> formVersionLayoutList =new Dictionary<string,string> 
+		{
+							{"8B5E7D64-27A5-47EC-AA51-6B0C9FE60F8B", ""},
+							{"C09BB3BF-5B1D-4159-A21D-D9F47B2384A3", ""},
+							{"48D9155C-42D2-4414-AF53-3D00D9908DD4", ""},
+							{"EAD3F27A-81C8-4887-9A84-B78392BE5185", ""},
+							{"DAF566B2-97D0-46E2-AE1C-6519FF641BC5", ""},
+							{"CBA147CF-E1CD-4D0A-9CDB-076831CC605E", ""},
+							{"A97604B2-DA94-49B4-993D-8CCCAF6FEA82", ""},
+							{"DAF433BE-67AC-476C-B3F4-C758B6AB75D5", ""},
+					};	
+
+		
+
+	
+	
+		
+		
+		public override  List<Triplet<string, short, short?>> GetQueryExpressionBindings(string expressionId)
+		{
+			if(string.IsNullOrWhiteSpace(expressionId))
+            {
+			  return null;				
+            }
+
+
+			if(queryExpressionBindings == null || queryExpressionBindings.Count <= 0)
+				return null;
+
+			return queryExpressionBindings[expressionId];
+		}
+
+		public override string GetValidFormVersionId(string formVersionId,ViewportTypes viewPort)
+		{	
+					
+			 if(formVersionList == null || formVersionList.Count <= 0)
+				return formVersionId;
+
+			if (formVersionList.Count == 1)
+                return formVersionList.FirstOrDefault().Key;  
+
+			
+
+			if ( !string.IsNullOrEmpty(formVersionId) &&  formVersionList.ContainsKey(formVersionId))
+            {
+                if (formVersionList.Any(x => x.Key == formVersionId && x.Value == viewPort.ToString()))
+                    return formVersionId;
+            }
+
+			var fallback= new List<string>{"Mobile","Tab","Medium","Large"};
+
+           switch (viewPort)
+            {
+                case ViewportTypes.Tab:
+                    fallback = new List<string> { "Tab", "Mobile", "Medium", "Large" };
+                    break;
+
+                case ViewportTypes.Medium:
+                    fallback = new List<string> { "Medium", "Tab", "Large", "Mobile" };
+                    break;
+
+                case ViewportTypes.Large:
+                    fallback = new List<string> { "Large", "Medium", "Tab", "Mobile" };
+                    break;
+            }
+
+           for (int i = 0; i < fallback.Count; i++)
+           {
+               if (formVersionList.Any(x => x.Value == fallback[i]))
+                   return formVersionList.Where(x => x.Value == fallback[i]).Select(y => y.Key).FirstOrDefault();
+           }
+
+		   return formVersionId;
+		}
+
+	
+
+		
+		
+		
+		
+		
+
+
+	}
+
+}
+		
+  
+
+
+
+
+
+
+
+namespace CPS.Proof.DFSExtension
+{
+	
+using System;
+    using System.Collections.Generic;    
+    using System.Text;	
+    using System.Linq;	
+
+
+	public partial class AcDataISpace51DD90524F9D41AEB8FF9311377196D8  : ExtensionActivityBase
 	{		
 		
 		
