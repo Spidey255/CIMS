@@ -2849,40 +2849,6 @@ base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Visible=""false"";ISpace[""WMF_Hist
 }
 ISpace["WMF_MoveTo"].Man=true;
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Man=true;");
-if(1==1)
-{
-base.WriteDebugInfo(@"if(1==1)");
-base.WriteDebugInfo(@"EXEC [ValidateTravelSettlement]  '@@gv_InstanceId','#R_ReferenceNo','#MF_d1_TotalAmount'");
-
-var querySourced5cbf87bd837c5d8041a517f3417a942 =GetQueryExpressionDataSource("d5cbf87b-d837-c5d8-041a-517f3417a942");
-Dictionary<short,object> resultd5cbf87bd837c5d8041a517f3417a942=iSpace.ExecuteQuery(querySourced5cbf87bd837c5d8041a517f3417a942,@"EXEC [ValidateTravelSettlement] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["R_ReferenceNo"].Value + @"','" + ISpace["MF_d1_TotalAmount"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySourced5cbf87bd837c5d8041a517f3417a942 =GetQueryExpressionDataSource(""d5cbf87b-d837-c5d8-041a-517f3417a942"");Dictionary<short,object> resultd5cbf87bd837c5d8041a517f3417a942=iSpace.ExecuteQuery(querySourced5cbf87bd837c5d8041a517f3417a942,@""EXEC [ValidateTravelSettlement] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""R_ReferenceNo""].Value + @""','"" + ISpace[""MF_d1_TotalAmount""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((resultd5cbf87bd837c5d8041a517f3417a942!=null) && (resultd5cbf87bd837c5d8041a517f3417a942.Count!=0))
-{
-if(resultd5cbf87bd837c5d8041a517f3417a942.ContainsKey(0))
-ISpace["MF_ErrId"].Value = resultd5cbf87bd837c5d8041a517f3417a942[0];
-if(resultd5cbf87bd837c5d8041a517f3417a942.ContainsKey(1))
-ISpace["MF_ErrMsg"].Value = resultd5cbf87bd837c5d8041a517f3417a942[1];
-}
-else{
-ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
-}
-}
-if(ISpace["MF_ErrId"].Value==1)
-{
-base.WriteDebugInfo(@"if(ISpace[""MF_ErrId""].Value==1)");
-ISpace["Message"].Value=String.Format(@"{0}",ISpace["MF_ErrMsg"].Value);
-base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""MF_ErrMsg""].Value);");
-ISpace["IsCancelled"].Value = true; 
-
-return;
-base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true; 
-
-return;");
-}
 
 var querySource435CD4B5CC1D46F09646DC152C46DC8B =GetQueryExpressionDataSource("435CD4B5-CC1D-46F0-9646-DC152C46DC8B");
 
