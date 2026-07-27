@@ -1,12 +1,9 @@
 import Row from "./Row";
-import Tab from "./Tab";
 import Panel from "./Panel";
 import Label from "./Label";
 import Column from "./Column";
 import Header from "./Header";
-import TabPane from "./TabPane";
 import Div from "./Div";
-import Span from "./Span";
 import Grid from "../Data_Controls/InlineGrid";
 import ActionButton from "../Data_Controls/ActionButton";
 import InlineGridFooter from "../Data_Controls/GridFooter";
@@ -19,14 +16,11 @@ import RepeaterGridSearchBar from "../Data_Controls/RepeaterSearchbar";
 
 const UIControls = {
   Row,
-  Tab,
   Panel,
   Label,
   Column,
   Header,
-  TabPane,
   Div,
-  Span,
   Grid,
   ActionButton,
   InlineGridFooter,
