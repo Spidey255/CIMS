@@ -191,16 +191,6 @@ namespace CPS.Proof.DFSExtension
 
                                             break;
 
-                                     case "B1037B85-D9C1-411B-87DE-0658365B81A8":   var  objectFactoryProjectReimbursement=new ProjectReimbursementObjectFactory();
-                                             virtualpageinstance = objectFactoryProjectReimbursement.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-
-                                            virtualpageinstance._objectFactory = objectFactoryProjectReimbursement;
-
-                                            virtualpageinstance._elementBase = new ProjectReimbursementDataElementFactory();
-
-                                            break;
-
                                      case "d4b10079-b7a6-40d1-94ec-eb886005f33a":   var  objectFactoryTravelSettlementNew=new TravelSettlementNewObjectFactory();
                                              virtualpageinstance = objectFactoryTravelSettlementNew.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
@@ -591,12 +581,6 @@ namespace CPS.Proof.DFSExtension
                                             virtualpageinstance._objectFactory = objectFactoryProjectFundInstallment;
                                             break;
 
-                                     case "B1037B85-D9C1-411B-87DE-0658365B81A8":   var  objectFactoryProjectReimbursement=new ProjectReimbursementObjectFactory();
-                                             virtualpageinstance = objectFactoryProjectReimbursement.GetDfsVirtualInstance
-                                                        (context.ProcessActivityMapId);
-                                            virtualpageinstance._objectFactory = objectFactoryProjectReimbursement;
-                                            break;
-
                                      case "d4b10079-b7a6-40d1-94ec-eb886005f33a":   var  objectFactoryTravelSettlementNew=new TravelSettlementNewObjectFactory();
                                              virtualpageinstance = objectFactoryTravelSettlementNew.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
@@ -948,18 +932,6 @@ namespace CPS.Proof.DFSExtension
                                             break;
                    
                                     
-                    case "B1037B85-D9C1-411B-87DE-0658365B81A8":   
-                                             foreach (var item in context.Params)
-                                             {
-                                            var  objectFactoryProjectReimbursement=new ProjectReimbursementObjectFactory();
-                                             combosource = objectFactoryProjectReimbursement.GetComboDataSource
-                                                        (item.ElementName);  
-                                             if (combosource != null)
-                                break;
-                                             }
-                                            break;
-                   
-                                    
                     case "d4b10079-b7a6-40d1-94ec-eb886005f33a":   
                                              foreach (var item in context.Params)
                                              {
@@ -1280,21 +1252,6 @@ namespace CPS.Proof.DFSExtension
                                             else
                                             {
                                                 insertQuery=elementFactoryProjectFundInstallment.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId, token.UMID, formjsonData);
-                                            }
-
-                                            break;
-
-                                     case "B1037B85-D9C1-411B-87DE-0658365B81A8":    var elementFactoryProjectReimbursement=new ProjectReimbursementDataElementFactory();       
-                                           
-                                             if(context.Action=="GridSave")
-                                            {
-                                                insertQuery = elementFactoryProjectReimbursement.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
-                                                    context.WidgetId,token.UMID, formjsonData);
-                                            }
-                                            else
-                                            {
-                                                insertQuery=elementFactoryProjectReimbursement.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
                                                     context.WidgetId, token.UMID, formjsonData);
                                             }
 
