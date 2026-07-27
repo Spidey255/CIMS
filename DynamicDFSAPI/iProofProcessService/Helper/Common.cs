@@ -357,7 +357,7 @@ namespace CPS.Proof.DFSExtension
                         return 0;
                 }
                   //8 represents DateTime
-                if (dataType == 9 || dataType == 10)
+                if (dataType == 9 || dataType == 10 || dataType==2)
                 {
                     if (obj != null && obj.ToString() != "")
                         return obj.ToString();
@@ -467,8 +467,12 @@ namespace CPS.Proof.DFSExtension
                 //Create transaction instance of type TransactionObject
                 pageContext.TransactionObject = transactionBase.CreateTransactionInstance();
 
+                var instanceId = refParams["InstanceId"].Value;
+
                 var InstanceContext = new FormInstanceInfo
                 {
+                    InsId = instanceId,
+
                     InsCmd = "AddInstance",
 
                     PPM = context.PackageProcessMapId,

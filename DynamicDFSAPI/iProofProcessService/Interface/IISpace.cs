@@ -121,5 +121,7 @@ namespace CPS.Proof.DFSExtension
          bool GetGridTableRows(string gridName, string gridQuery,
             ref Dictionary<string, ServiceElementData> ISpace);
 
+        int GetGridColumnIndex(List<ServiceElementData> gridrow, string gridColumnName);
+
     }
 }

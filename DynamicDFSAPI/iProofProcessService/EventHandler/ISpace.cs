@@ -418,10 +418,7 @@ namespace CPS.Proof.DFSExtension
 
                  _gridtotalRows= queryResults.Rows.Count;   
 
-                  if(gridRowsPerPage==-1)
-                    return queryResults;
-                 else
-                    return queryResults.AsEnumerable().Take(gridRowsPerPage).CopyToDataTable();             
+                 return queryResults;                          
 
 
             }
@@ -726,7 +723,7 @@ namespace CPS.Proof.DFSExtension
 
                             var gridcolumn = new ServiceElementData();
 
-                            gridcolumn.ElementName = row[column] as string;
+                            gridcolumn.ElementName = column.ColumnName as string;
 
                             gridcolumn.Value=row[column];
 
@@ -1120,6 +1117,12 @@ namespace CPS.Proof.DFSExtension
                     ObjectManager.Release<ICommon>(common);
                 _log.Debug("Exiting AddNewInstance");
             }
+        }
+
+
+         public int GetGridColumnIndex(List<ServiceElementData> gridrow,string gridColumnName)
+        {
+            return gridrow.FindIndex(c => c.ElementName == gridColumnName);
         }
 
         private Status InserttoMappedElements(SlotToken token, 
