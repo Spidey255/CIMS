@@ -65,7 +65,7 @@ namespace CPS.Proof.DFSExtension
         Status GetElementClientData(string instanceId, string widgetId, out string formData);
 
         Status GetComboDataSource(SlotToken token, Tuple<string,string> comboSource,
-            out DataTable queryResult);
+            out Dictionary<string, string> queryResult);
 
 
         Status ExecuteQuery(string connectionString,
