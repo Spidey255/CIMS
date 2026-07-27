@@ -232,6 +232,10 @@ namespace CPS.Proof.DFSExtension
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
+			     new Triplet<string, string, string>("1576f55d-41e6-9976-4fa4-c3c07f6486c1","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
+			
+						
 			     new Triplet<string, string, string>("d2263c8e-514f-23ed-fc67-87a6b036069a","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -246,6 +250,10 @@ namespace CPS.Proof.DFSExtension
 						
 			     new Triplet<string, string, string>("588a57f1-a423-85cb-c854-b18aee523e01","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
+			     new Triplet<string, string, string>("0bc8baac-3fc3-bec3-1b5d-acc4aeb32ee7","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
 			
 						
 			     new Triplet<string, string, string>("26009b26-7935-bbf6-96af-006a2d0ff061","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
@@ -284,11 +292,19 @@ namespace CPS.Proof.DFSExtension
 												     @"93B856A5-0D32-4A27-8B58-5BFE5FF0162C"),
 			
 						
+			     new Triplet<string, string, string>("1576f55d-41e6-9976-4fa4-c3c07f6486c1","Expense Details Delete",
+												     @"63762982-2C07-4E60-8D86-D3A35CA53EDA"),
+			
+						
 			     new Triplet<string, string, string>("7444A313-0116-4D01-ADC7-D4FB2D3A166B","Grid BindingF",
 												     @"93B856A5-0D32-4A27-8B58-5BFE5FF0162C"),
 			
 						
 			     new Triplet<string, string, string>("5E4DD494-A941-46D5-861A-1C2B0B9576C2","Grid Binding0",
+												     @"93B856A5-0D32-4A27-8B58-5BFE5FF0162C"),
+			
+						
+			     new Triplet<string, string, string>("0bc8baac-3fc3-bec3-1b5d-acc4aeb32ee7","Advance Details Delete",
 												     @"93B856A5-0D32-4A27-8B58-5BFE5FF0162C"),
 			
 			
@@ -855,123 +871,6 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
                      
-                                    case "A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC":
-                    {
-                     
-                                     gInsertQuery=@"
-		
-		DECLARE  @TBL_A2ABDF833F2048449175EC5BCC4B7DCC AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PAB_BudgetName] VARCHAR(MAX)	, [PAB_SanctionedAmount] DECIMAL(18,2)	, [PAB_YetToRecieve] DECIMAL(18,2)	, [PAB_RecievedAmount] DECIMAL(18,2)	, [PAB_Commitment] DECIMAL(18,2)	, [PAB_Spent] DECIMAL(18,2)	, [PAB_Balance] DECIMAL(18,2)){0}INSERT INTO [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PAB_BudgetName,TDT.PAB_SanctionedAmount,TDT.PAB_YetToRecieve,TDT.PAB_RecievedAmount,TDT.PAB_Commitment,TDT.PAB_Spent,TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
-							LEFT JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PAB_BudgetName=TDT.PAB_BudgetName,PAB_SanctionedAmount=TDT.PAB_SanctionedAmount,PAB_YetToRecieve=TDT.PAB_YetToRecieve,PAB_RecievedAmount=TDT.PAB_RecievedAmount,PAB_Commitment=TDT.PAB_Commitment,PAB_Spent=TDT.PAB_Spent,PAB_Balance=TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
-							JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
-
-                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance";
-
-                                     tempInsertQuery=@"INSERT INTO @TBL_A2ABDF833F2048449175EC5BCC4B7DCC(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)VALUES({0});";
-                                     
-
-                            splitcols = colList.Split(',');
-
-                            if(splitcols.Length<=0)
-                                return null;
-
-                            var parentObject = JObject.Parse(formJsonData)["Child"];
-
-                            for (int i = 0; i < ((JArray)parentObject).Count; i++)
-                            {
-
-                            JObject childObject = (JObject)parentObject[i];
-
-                            var gridRow = childObject["Child"];
-
-
-                        
-                            foreach (var gcol in splitcols)
-                            {
-                                if (gcol == "InstanceId")
-                                {
-                                    colValues += "'" + instanceId + "',";
-
-                                    continue;
-
-                                }
-
-                                else if (gcol == "ProcessActivityMapId")
-                                {
-                                    colValues += "'" + processActivityMapId + "',";
-                                    continue;
-                            }
-
-                            else if (gcol == "GridId")
-                            {
-                                    colValues += "'" + gridId + "',";
-                                continue;
-                            }                               
-                            else if(gcol=="Sequence")
-                            {
-                                colValues += childObject["SEQ"]+",";
-                                continue;
-                            }
-                             else if(gcol=="RowId")
-                            {
-                                colValues +="'" + childObject["RwId"]+"',";
-                                continue;
-                            }
-
-                            bool isFound = false;
-
-                            foreach (var gitem in gridRow)
-                            {                               
-
-                                if (gitem["ElementName"].ToString() == gcol)
-                                {
-                                    isFound = true;
-
-                                    if (gitem["Value"] == null)
-                                    {
-                                        colValues += "null,";
-                                        break;
-                                    }
-
-                                    switch(Convert.ToInt32(gitem["EDT"]))
-                                    {
-                                        case 0:
-                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
-												break; 
-                                        case 8:
-                                        case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
-                                                break;
-
-                                        default:
-                                                    if(gitem["Value"].ToString()=="")
-
-                                                        colValues +=  "NULL,";
-                                                    else
-                                                    colValues += gitem["Value"].ToString() + ",";
-                                            break;
-                                    }                                    
-                                }                                 
-                            }
-
-                                    if (!isFound)
-                                    {
-                                        colValues += "null,";
-                                        
-                                    }
-                            
-                        }
-                                 colValues=colValues.Remove(colValues.Length - 1);
-
-                                 bulkInsertQuery=bulkInsertQuery+ string.Format(tempInsertQuery, colValues);
-
-                                 colValues=string.Empty;
-                        }
-                        }
-                        break;
-                     
                                     case "93B856A5-0D32-4A27-8B58-5BFE5FF0162C":
                     {
                      
@@ -1221,6 +1120,123 @@ namespace CPS.Proof.DFSExtension
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId";
 
                                      tempInsertQuery=@"INSERT INTO @TBL_D16E4242860448C18EF4A05C77ED8CF5(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId)VALUES({0});";
+                                     
+
+                            splitcols = colList.Split(',');
+
+                            if(splitcols.Length<=0)
+                                return null;
+
+                            var parentObject = JObject.Parse(formJsonData)["Child"];
+
+                            for (int i = 0; i < ((JArray)parentObject).Count; i++)
+                            {
+
+                            JObject childObject = (JObject)parentObject[i];
+
+                            var gridRow = childObject["Child"];
+
+
+                        
+                            foreach (var gcol in splitcols)
+                            {
+                                if (gcol == "InstanceId")
+                                {
+                                    colValues += "'" + instanceId + "',";
+
+                                    continue;
+
+                                }
+
+                                else if (gcol == "ProcessActivityMapId")
+                                {
+                                    colValues += "'" + processActivityMapId + "',";
+                                    continue;
+                            }
+
+                            else if (gcol == "GridId")
+                            {
+                                    colValues += "'" + gridId + "',";
+                                continue;
+                            }                               
+                            else if(gcol=="Sequence")
+                            {
+                                colValues += childObject["SEQ"]+",";
+                                continue;
+                            }
+                             else if(gcol=="RowId")
+                            {
+                                colValues +="'" + childObject["RwId"]+"',";
+                                continue;
+                            }
+
+                            bool isFound = false;
+
+                            foreach (var gitem in gridRow)
+                            {                               
+
+                                if (gitem["ElementName"].ToString() == gcol)
+                                {
+                                    isFound = true;
+
+                                    if (gitem["Value"] == null)
+                                    {
+                                        colValues += "null,";
+                                        break;
+                                    }
+
+                                    switch(Convert.ToInt32(gitem["EDT"]))
+                                    {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
+                                        case 8:
+                                        case 9:
+                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                                break;
+
+                                        default:
+                                                    if(gitem["Value"].ToString()=="")
+
+                                                        colValues +=  "NULL,";
+                                                    else
+                                                    colValues += gitem["Value"].ToString() + ",";
+                                            break;
+                                    }                                    
+                                }                                 
+                            }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+                                        
+                                    }
+                            
+                        }
+                                 colValues=colValues.Remove(colValues.Length - 1);
+
+                                 bulkInsertQuery=bulkInsertQuery+ string.Format(tempInsertQuery, colValues);
+
+                                 colValues=string.Empty;
+                        }
+                        }
+                        break;
+                     
+                                    case "A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC":
+                    {
+                     
+                                     gInsertQuery=@"
+		
+		DECLARE  @TBL_A2ABDF833F2048449175EC5BCC4B7DCC AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PAB_BudgetName] VARCHAR(MAX)	, [PAB_SanctionedAmount] DECIMAL(18,2)	, [PAB_YetToRecieve] DECIMAL(18,2)	, [PAB_RecievedAmount] DECIMAL(18,2)	, [PAB_Commitment] DECIMAL(18,2)	, [PAB_Spent] DECIMAL(18,2)	, [PAB_Balance] DECIMAL(18,2)){0}INSERT INTO [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PAB_BudgetName,TDT.PAB_SanctionedAmount,TDT.PAB_YetToRecieve,TDT.PAB_RecievedAmount,TDT.PAB_Commitment,TDT.PAB_Spent,TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
+							LEFT JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PAB_BudgetName=TDT.PAB_BudgetName,PAB_SanctionedAmount=TDT.PAB_SanctionedAmount,PAB_YetToRecieve=TDT.PAB_YetToRecieve,PAB_RecievedAmount=TDT.PAB_RecievedAmount,PAB_Commitment=TDT.PAB_Commitment,PAB_Spent=TDT.PAB_Spent,PAB_Balance=TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
+							JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
+
+                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance";
+
+                                     tempInsertQuery=@"INSERT INTO @TBL_A2ABDF833F2048449175EC5BCC4B7DCC(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)VALUES({0});";
                                      
 
                             splitcols = colList.Split(',');
@@ -1586,107 +1602,6 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
-                                              case "A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC":
-                    {
-                     
-                            gInsertQuery=@"
-		
-		DECLARE  @TBL_A2ABDF833F2048449175EC5BCC4B7DCC AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PAB_BudgetName] VARCHAR(MAX)	, [PAB_SanctionedAmount] DECIMAL(18,2)	, [PAB_YetToRecieve] DECIMAL(18,2)	, [PAB_RecievedAmount] DECIMAL(18,2)	, [PAB_Commitment] DECIMAL(18,2)	, [PAB_Spent] DECIMAL(18,2)	, [PAB_Balance] DECIMAL(18,2)){0}INSERT INTO [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PAB_BudgetName,TDT.PAB_SanctionedAmount,TDT.PAB_YetToRecieve,TDT.PAB_RecievedAmount,TDT.PAB_Commitment,TDT.PAB_Spent,TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
-							LEFT JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PAB_BudgetName=TDT.PAB_BudgetName,PAB_SanctionedAmount=TDT.PAB_SanctionedAmount,PAB_YetToRecieve=TDT.PAB_YetToRecieve,PAB_RecievedAmount=TDT.PAB_RecievedAmount,PAB_Commitment=TDT.PAB_Commitment,PAB_Spent=TDT.PAB_Spent,PAB_Balance=TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
-							JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
-
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance";
-
-                            tempInsertQuery=@"INSERT INTO @TBL_A2ABDF833F2048449175EC5BCC4B7DCC(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)VALUES({0});";
-
-                            splitcols = colList.Split(',');
-
-                            if (splitcols.Length <= 0)
-                                return null;
-
-                            foreach (var gridChild in gridData[gridName].Child)
-                            {                            
-                                                                                         
-
-
-                                foreach (var gcol in splitcols)
-                                {
-                                    if (gcol == "InstanceId")
-                                    {
-                                        colValues += "'" + instanceId + "',";
-
-                                        continue;
-
-                                    }
-
-                                    else if (gcol == "ProcessActivityMapId")
-                                    {
-                                        colValues += "'" + processActivityMapId + "',";
-                                        continue;
-                                    }
-
-                                    else if (gcol == "GridId")
-                                    {
-                                        colValues += "'" + gridId + "',";
-                                        continue;
-                                    }
-                                    else if (gcol == "Sequence")
-                                    {
-                                        colValues += gridChild.SEQ + ",";
-                                        continue;
-                                    }
-                                    else if (gcol == "RowId")
-                                    {
-                                        colValues += "'" + gridChild.RwId + "',";
-                                        continue;
-                                    }
-
-                                    bool isFound = false;
-
-                                    foreach (var gridrow in gridChild.Child)
-                                    {
-
-                                        if (gridrow.ElementName == gcol)
-                                        {
-                                            isFound = true;
-
-                                            if (gridrow.Value == null)
-                                            {
-                                                colValues += "null,";
-                                                break;
-                                            }
-
-                                            switch (Convert.ToInt32(gridrow.EDT))
-                                            {
-                                                case 8:
-                                                case 9:
-                                                    colValues += "'" + gridrow.Value.ToString() + "',";
-                                                    break;
-
-                                                default:
-                                                    colValues += gridrow.Value.ToString() + ",";
-                                                    break;
-                                            }
-                                        }
-                                    }
-
-                                    if (!isFound)
-                                    {
-                                        colValues += "null,";
-
-                                    }
-
-                                }
-                                colValues = colValues.Remove(colValues.Length - 1);
-
-                                bulkInsertQuery = bulkInsertQuery + string.Format(tempInsertQuery, colValues);
-                            }
-                        }
-                        break;
-
                                               case "93B856A5-0D32-4A27-8B58-5BFE5FF0162C":
                     {
                      
@@ -1904,6 +1819,107 @@ namespace CPS.Proof.DFSExtension
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId";
 
                             tempInsertQuery=@"INSERT INTO @TBL_D16E4242860448C18EF4A05C77ED8CF5(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PFA_FundType,PFA_FundTypeValue,PFA_ProjectNo,PFA_ProjectNoValue,PFA_BudgetHead,PFA_BudgetHeadValue,PFA_Amount,PFA_FundDetailsId)VALUES({0});";
+
+                            splitcols = colList.Split(',');
+
+                            if (splitcols.Length <= 0)
+                                return null;
+
+                            foreach (var gridChild in gridData[gridName].Child)
+                            {                            
+                                                                                         
+
+
+                                foreach (var gcol in splitcols)
+                                {
+                                    if (gcol == "InstanceId")
+                                    {
+                                        colValues += "'" + instanceId + "',";
+
+                                        continue;
+
+                                    }
+
+                                    else if (gcol == "ProcessActivityMapId")
+                                    {
+                                        colValues += "'" + processActivityMapId + "',";
+                                        continue;
+                                    }
+
+                                    else if (gcol == "GridId")
+                                    {
+                                        colValues += "'" + gridId + "',";
+                                        continue;
+                                    }
+                                    else if (gcol == "Sequence")
+                                    {
+                                        colValues += gridChild.SEQ + ",";
+                                        continue;
+                                    }
+                                    else if (gcol == "RowId")
+                                    {
+                                        colValues += "'" + gridChild.RwId + "',";
+                                        continue;
+                                    }
+
+                                    bool isFound = false;
+
+                                    foreach (var gridrow in gridChild.Child)
+                                    {
+
+                                        if (gridrow.ElementName == gcol)
+                                        {
+                                            isFound = true;
+
+                                            if (gridrow.Value == null)
+                                            {
+                                                colValues += "null,";
+                                                break;
+                                            }
+
+                                            switch (Convert.ToInt32(gridrow.EDT))
+                                            {
+                                                case 8:
+                                                case 9:
+                                                    colValues += "'" + gridrow.Value.ToString() + "',";
+                                                    break;
+
+                                                default:
+                                                    colValues += gridrow.Value.ToString() + ",";
+                                                    break;
+                                            }
+                                        }
+                                    }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+
+                                    }
+
+                                }
+                                colValues = colValues.Remove(colValues.Length - 1);
+
+                                bulkInsertQuery = bulkInsertQuery + string.Format(tempInsertQuery, colValues);
+                            }
+                        }
+                        break;
+
+                                              case "A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC":
+                    {
+                     
+                            gInsertQuery=@"
+		
+		DECLARE  @TBL_A2ABDF833F2048449175EC5BCC4B7DCC AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PAB_BudgetName] VARCHAR(MAX)	, [PAB_SanctionedAmount] DECIMAL(18,2)	, [PAB_YetToRecieve] DECIMAL(18,2)	, [PAB_RecievedAmount] DECIMAL(18,2)	, [PAB_Commitment] DECIMAL(18,2)	, [PAB_Spent] DECIMAL(18,2)	, [PAB_Balance] DECIMAL(18,2)){0}INSERT INTO [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PAB_BudgetName,TDT.PAB_SanctionedAmount,TDT.PAB_YetToRecieve,TDT.PAB_RecievedAmount,TDT.PAB_Commitment,TDT.PAB_Spent,TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
+							LEFT JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PAB_BudgetName=TDT.PAB_BudgetName,PAB_SanctionedAmount=TDT.PAB_SanctionedAmount,PAB_YetToRecieve=TDT.PAB_YetToRecieve,PAB_RecievedAmount=TDT.PAB_RecievedAmount,PAB_Commitment=TDT.PAB_Commitment,PAB_Spent=TDT.PAB_Spent,PAB_Balance=TDT.PAB_Balance FROM @TBL_A2ABDF833F2048449175EC5BCC4B7DCC TDT
+							JOIN [A2ABDF83-3F20-4844-9175-EC5BCC4B7DCC] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
+
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance";
+
+                            tempInsertQuery=@"INSERT INTO @TBL_A2ABDF833F2048449175EC5BCC4B7DCC(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PAB_BudgetName,PAB_SanctionedAmount,PAB_YetToRecieve,PAB_RecievedAmount,PAB_Commitment,PAB_Spent,PAB_Balance)VALUES({0});";
 
                             splitcols = colList.Split(',');
 
@@ -2508,6 +2524,80 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_ui_adyes (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"UI_ADYes-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+
+var querySource0bc8baac3fc3bec31b5dacc4aeb32ee7 =GetQueryExpressionDataSource("0bc8baac-3fc3-bec3-1b5d-acc4aeb32ee7");
+
+DataTable result0bc8baac3fc3bec31b5dacc4aeb32ee7=iSpace.SetGridDataSource(querySource0bc8baac3fc3bec31b5dacc4aeb32ee7, _objectFactory.GetGridRPP("AdvanceDetails"),@"Exec [Delete93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["growid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("AdvanceDetails","11",querySource0bc8baac3fc3bec31b5dacc4aeb32ee7,"Exec [Delete93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["growid"].Value + @"'",_objectFactory.GetGridRPP("AdvanceDetails"));
+
+base.WriteDebugInfo(@"var querySource0bc8baac3fc3bec31b5dacc4aeb32ee7 =GetQueryExpressionDataSource(""0bc8baac-3fc3-bec3-1b5d-acc4aeb32ee7"");DataTable result0bc8baac3fc3bec31b5dacc4aeb32ee7=iSpace.SetGridDataSource(querySource0bc8baac3fc3bec31b5dacc4aeb32ee7, _objectFactory.GetGridRPP(""AdvanceDetails""),@""Exec [Delete93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""growid""].Value + @""'"");iSpace.InsertGridBindDetails(""AdvanceDetails"",""11"",querySource0bc8baac3fc3bec31b5dacc4aeb32ee7,""Exec [Delete93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""growid""].Value + @""'"",_objectFactory.GetGridRPP(""AdvanceDetails""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> resultece2eb015906ae19727ba8ed7f1ad25a=acdataIspaceF1E219523E9A4F379C422F86E1775788.GetQueryExpressionBindings("ece2eb01-5906-ae19-727b-a8ed7f1ad25a");
+iSpace.SetGridData(result0bc8baac3fc3bec31b5dacc4aeb32ee7,resultece2eb015906ae19727ba8ed7f1ad25a,"AdvanceDetails",ref ISpace);
+iSpace.UpdateGridBindDetails("AdvanceDetails",resultece2eb015906ae19727ba8ed7f1ad25a);
+ISpace["Message"].Value=@"SUCCESS:Deleted Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Deleted Successfully"";");
+ISpace["UI_AdvanceDeleteDialog"].HideDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_AdvanceDeleteDialog""].HideDialog=true;;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_delete_expensedetails (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"Delete_ExpenseDetails-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["UI_ExpensedeleteDialog"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_ExpensedeleteDialog""].ShowDialog=true;;");
+ISpace["growid"].Value=ISpace["ExpenseDetails_RowId"].Value;
+base.WriteDebugInfo(@"ISpace[""growid""].Value=ISpace[""ExpenseDetails_RowId""].Value;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_delete_advancedetails (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"Delete_AdvanceDetails-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["UI_AdvanceDeleteDialog"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_AdvanceDeleteDialog""].ShowDialog=true;;");
+ISpace["growid"].Value=ISpace["AdvanceDetails_RowId"].Value;
+base.WriteDebugInfo(@"ISpace[""growid""].Value=ISpace[""AdvanceDetails_RowId""].Value;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_pfa_widgetsubmit (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -2780,11 +2870,11 @@ base.WriteDebugInfo(@"if(ISpace[""growid""].Value=="""")");
 
 var querySource5E4DD494A94146D5861A1C2B0B9576C2 =GetQueryExpressionDataSource("5E4DD494-A941-46D5-861A-1C2B0B9576C2");
 
-DataTable result5E4DD494A94146D5861A1C2B0B9576C2=iSpace.SetGridDataSource(querySource5E4DD494A94146D5861A1C2B0B9576C2, _objectFactory.GetGridRPP("AdvanceDetails"),@"EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",'" + ISpace["MFG_d2_UpdatedOn"].Value + @"'");
+DataTable result5E4DD494A94146D5861A1C2B0B9576C2=iSpace.SetGridDataSource(querySource5E4DD494A94146D5861A1C2B0B9576C2, _objectFactory.GetGridRPP("AdvanceDetails"),@"EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",''");
 
-iSpace.InsertGridBindDetails("AdvanceDetails","11",querySource5E4DD494A94146D5861A1C2B0B9576C2,"EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",'" + ISpace["MFG_d2_UpdatedOn"].Value + @"'",_objectFactory.GetGridRPP("AdvanceDetails"));
+iSpace.InsertGridBindDetails("AdvanceDetails","11",querySource5E4DD494A94146D5861A1C2B0B9576C2,"EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",''",_objectFactory.GetGridRPP("AdvanceDetails"));
 
-base.WriteDebugInfo(@"var querySource5E4DD494A94146D5861A1C2B0B9576C2 =GetQueryExpressionDataSource(""5E4DD494-A941-46D5-861A-1C2B0B9576C2"");DataTable result5E4DD494A94146D5861A1C2B0B9576C2=iSpace.SetGridDataSource(querySource5E4DD494A94146D5861A1C2B0B9576C2, _objectFactory.GetGridRPP(""AdvanceDetails""),@""EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",'"" + ISpace[""MFG_d2_UpdatedOn""].Value + @""'"");iSpace.InsertGridBindDetails(""AdvanceDetails"",""11"",querySource5E4DD494A94146D5861A1C2B0B9576C2,""EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",'"" + ISpace[""MFG_d2_UpdatedOn""].Value + @""'"",_objectFactory.GetGridRPP(""AdvanceDetails""));");
+base.WriteDebugInfo(@"var querySource5E4DD494A94146D5861A1C2B0B9576C2 =GetQueryExpressionDataSource(""5E4DD494-A941-46D5-861A-1C2B0B9576C2"");DataTable result5E4DD494A94146D5861A1C2B0B9576C2=iSpace.SetGridDataSource(querySource5E4DD494A94146D5861A1C2B0B9576C2, _objectFactory.GetGridRPP(""AdvanceDetails""),@""EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",''"");iSpace.InsertGridBindDetails(""AdvanceDetails"",""11"",querySource5E4DD494A94146D5861A1C2B0B9576C2,""EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",''"",_objectFactory.GetGridRPP(""AdvanceDetails""));");
 base.WriteDebugInfo(@"EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '@@gv_InstanceId','@@gv_ActivityMapId','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','#growid',#AdvanceDetails_Sequence,'#MFG_d2_TADetailsID','#MFG_d2_TravelAdvanceID','#MFG_d2_Departure','#MFG_d2_DepartureDate','#MFG_d2_DepartureTime','#MFG_d2_Arrival','#MFG_d2_ArrivalDate','#MFG_d2_ArrivalTime','#MFG_d2_ModeofJourney','#MFG_d2_JourneyClass',#MFG_d2_Road,'#MFG_d2_PNRNo',#MFG_d2_Amount,#MFG_d2_IsTravelRequest,#MFG_d2_UpdatedBy,'#MFG_d2_UpdatedO");
 
 
@@ -2798,11 +2888,11 @@ base.WriteDebugInfo(@"else");
 
 var querySource7444A31301164D01ADC7D4FB2D3A166B =GetQueryExpressionDataSource("7444A313-0116-4D01-ADC7-D4FB2D3A166B");
 
-DataTable result7444A31301164D01ADC7D4FB2D3A166B=iSpace.SetGridDataSource(querySource7444A31301164D01ADC7D4FB2D3A166B, _objectFactory.GetGridRPP("AdvanceDetails"),@"EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",'" + ISpace["MFG_d2_Updatedon"].Value + @"'");
+DataTable result7444A31301164D01ADC7D4FB2D3A166B=iSpace.SetGridDataSource(querySource7444A31301164D01ADC7D4FB2D3A166B, _objectFactory.GetGridRPP("AdvanceDetails"),@"EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",''");
 
-iSpace.InsertGridBindDetails("AdvanceDetails","11",querySource7444A31301164D01ADC7D4FB2D3A166B,"EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",'" + ISpace["MFG_d2_Updatedon"].Value + @"'",_objectFactory.GetGridRPP("AdvanceDetails"));
+iSpace.InsertGridBindDetails("AdvanceDetails","11",querySource7444A31301164D01ADC7D4FB2D3A166B,"EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",''",_objectFactory.GetGridRPP("AdvanceDetails"));
 
-base.WriteDebugInfo(@"var querySource7444A31301164D01ADC7D4FB2D3A166B =GetQueryExpressionDataSource(""7444A313-0116-4D01-ADC7-D4FB2D3A166B"");DataTable result7444A31301164D01ADC7D4FB2D3A166B=iSpace.SetGridDataSource(querySource7444A31301164D01ADC7D4FB2D3A166B, _objectFactory.GetGridRPP(""AdvanceDetails""),@""EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",'"" + ISpace[""MFG_d2_Updatedon""].Value + @""'"");iSpace.InsertGridBindDetails(""AdvanceDetails"",""11"",querySource7444A31301164D01ADC7D4FB2D3A166B,""EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",'"" + ISpace[""MFG_d2_Updatedon""].Value + @""'"",_objectFactory.GetGridRPP(""AdvanceDetails""));");
+base.WriteDebugInfo(@"var querySource7444A31301164D01ADC7D4FB2D3A166B =GetQueryExpressionDataSource(""7444A313-0116-4D01-ADC7-D4FB2D3A166B"");DataTable result7444A31301164D01ADC7D4FB2D3A166B=iSpace.SetGridDataSource(querySource7444A31301164D01ADC7D4FB2D3A166B, _objectFactory.GetGridRPP(""AdvanceDetails""),@""EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",''"");iSpace.InsertGridBindDetails(""AdvanceDetails"",""11"",querySource7444A31301164D01ADC7D4FB2D3A166B,""EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",''"",_objectFactory.GetGridRPP(""AdvanceDetails""));");
 base.WriteDebugInfo(@"EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '@@gv_InstanceId','@@gv_ActivityMapId','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','#growid',#AdvanceDetails_Sequence,'#MFG_d2_TADetailsID','#MFG_d2_TravelAdvanceID','#MFG_d2_Departure','#MFG_d2_DepartureDate','#MFG_d2_DepartureTime','#MFG_d2_Arrival','#MFG_d2_ArrivalDate','#MFG_d2_ArrivalTime','#MFG_d2_ModeofJourney','#MFG_d2_JourneyClass',#MFG_d2_Road,'#MFG_d2_PNRNo',#MFG_d2_Amount,#MFG_d2_IsTravelRequest,#MFG_d2_UpdatedBy,'#MFG_d2_Updat");
 
 
@@ -2936,6 +3026,24 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_ui_exno (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"UI_EXNo-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["UI_ExpensedeleteDialog"].HideDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_ExpensedeleteDialog""].HideDialog=true;;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_pfm_no (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -2946,6 +3054,24 @@ ISpace["PFM_FundDetailsId"].Value="";
 base.WriteDebugInfo(@"ISpace[""PFM_FundDetailsId""].Value="""";");
 ISpace["UI_DeleteDialog"].HideDialog=true;;
 base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].HideDialog=true;;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_ui_adno (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"UI_ADNo-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["UI_AdvanceDeleteDialog"].HideDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_AdvanceDeleteDialog""].HideDialog=true;;");
+}
 }
 catch(Exception ex)
 {
@@ -3012,8 +3138,8 @@ base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value==""Yes"")");
 if(ISpace["MF_d1_AdvanceAmount"].Value==0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_AdvanceAmount""].Value==0)");
-ISpace["Message"].Value=@"Please Enter the Advance Amount";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Advance Amount"";");
+ISpace["Message"].Value=@"ERROR:Please Enter the Advance Amount";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Please Enter the Advance Amount"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -3486,6 +3612,40 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_ui_exyes (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"UI_EXYes-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+
+var querySource1576f55d41e699764fa4c3c07f6486c1 =GetQueryExpressionDataSource("1576f55d-41e6-9976-4fa4-c3c07f6486c1");
+
+DataTable result1576f55d41e699764fa4c3c07f6486c1=iSpace.SetGridDataSource(querySource1576f55d41e699764fa4c3c07f6486c1, _objectFactory.GetGridRPP("ExpenseDetails"),@"Exec [Delete63762982-2C07-4E60-8D86-D3A35CA53EDA] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["growid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("ExpenseDetails","11",querySource1576f55d41e699764fa4c3c07f6486c1,"Exec [Delete63762982-2C07-4E60-8D86-D3A35CA53EDA] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["growid"].Value + @"'",_objectFactory.GetGridRPP("ExpenseDetails"));
+
+base.WriteDebugInfo(@"var querySource1576f55d41e699764fa4c3c07f6486c1 =GetQueryExpressionDataSource(""1576f55d-41e6-9976-4fa4-c3c07f6486c1"");DataTable result1576f55d41e699764fa4c3c07f6486c1=iSpace.SetGridDataSource(querySource1576f55d41e699764fa4c3c07f6486c1, _objectFactory.GetGridRPP(""ExpenseDetails""),@""Exec [Delete63762982-2C07-4E60-8D86-D3A35CA53EDA] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""growid""].Value + @""'"");iSpace.InsertGridBindDetails(""ExpenseDetails"",""11"",querySource1576f55d41e699764fa4c3c07f6486c1,""Exec [Delete63762982-2C07-4E60-8D86-D3A35CA53EDA] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""growid""].Value + @""'"",_objectFactory.GetGridRPP(""ExpenseDetails""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> resultdbb52fdf60b777aa810db3e76e91912e=acdataIspaceF1E219523E9A4F379C422F86E1775788.GetQueryExpressionBindings("dbb52fdf-60b7-77aa-810d-b3e76e91912e");
+iSpace.SetGridData(result1576f55d41e699764fa4c3c07f6486c1,resultdbb52fdf60b777aa810db3e76e91912e,"ExpenseDetails",ref ISpace);
+iSpace.UpdateGridBindDetails("ExpenseDetails",resultdbb52fdf60b777aa810db3e76e91912e);
+ISpace["Message"].Value=@"SUCCESS:Deleted Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Deleted Successfully"";");
+ISpace["UI_ExpensedeleteDialog"].HideDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_ExpensedeleteDialog""].HideDialog=true;;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_wmf_moveto (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -3732,6 +3892,14 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("fwfm_save"))
 {
 			SubscribeElementEvents_fwfm_save(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("delete_expensedetails"))
+{
+			SubscribeElementEvents_delete_expensedetails(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("delete_advancedetails"))
+{
+			SubscribeElementEvents_delete_advancedetails(ref dfsParam);
 }
 		if(elementName.ToLower().Equals("pfa_widgetsubmit"))
 {
@@ -5944,6 +6112,46 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_delete_expensedetails (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"Delete_ExpenseDetails-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["UI_ExpensedeleteDialog"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_ExpensedeleteDialog""].ShowDialog=true;;");
+ISpace["growid"].Value=ISpace["ExpenseDetails_RowId"].Value;
+base.WriteDebugInfo(@"ISpace[""growid""].Value=ISpace[""ExpenseDetails_RowId""].Value;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_delete_advancedetails (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"Delete_AdvanceDetails-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["UI_AdvanceDeleteDialog"].ShowDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_AdvanceDeleteDialog""].ShowDialog=true;;");
+ISpace["growid"].Value=ISpace["AdvanceDetails_RowId"].Value;
+base.WriteDebugInfo(@"ISpace[""growid""].Value=ISpace[""AdvanceDetails_RowId""].Value;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_pfa_widgetsubmit (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -6073,6 +6281,40 @@ ISpace["MF_FundTotal"].Value = resultbbe4aa41de2bed94cedd90d80df7192f[0];
 }
 else{
 ISpace["MF_FundTotal"].Value = null;
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_ui_adyes (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"UI_ADYes-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+
+var querySource0bc8baac3fc3bec31b5dacc4aeb32ee7 =GetQueryExpressionDataSource("0bc8baac-3fc3-bec3-1b5d-acc4aeb32ee7");
+
+DataTable result0bc8baac3fc3bec31b5dacc4aeb32ee7=iSpace.SetGridDataSource(querySource0bc8baac3fc3bec31b5dacc4aeb32ee7, _objectFactory.GetGridRPP("AdvanceDetails"),@"Exec [Delete93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["growid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("AdvanceDetails","11",querySource0bc8baac3fc3bec31b5dacc4aeb32ee7,"Exec [Delete93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["growid"].Value + @"'",_objectFactory.GetGridRPP("AdvanceDetails"));
+
+base.WriteDebugInfo(@"var querySource0bc8baac3fc3bec31b5dacc4aeb32ee7 =GetQueryExpressionDataSource(""0bc8baac-3fc3-bec3-1b5d-acc4aeb32ee7"");DataTable result0bc8baac3fc3bec31b5dacc4aeb32ee7=iSpace.SetGridDataSource(querySource0bc8baac3fc3bec31b5dacc4aeb32ee7, _objectFactory.GetGridRPP(""AdvanceDetails""),@""Exec [Delete93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""growid""].Value + @""'"");iSpace.InsertGridBindDetails(""AdvanceDetails"",""11"",querySource0bc8baac3fc3bec31b5dacc4aeb32ee7,""Exec [Delete93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""growid""].Value + @""'"",_objectFactory.GetGridRPP(""AdvanceDetails""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> resultece2eb015906ae19727ba8ed7f1ad25a=acdataIspace53f8560140a83229820900367a5bc621.GetQueryExpressionBindings("ece2eb01-5906-ae19-727b-a8ed7f1ad25a");
+iSpace.SetGridData(result0bc8baac3fc3bec31b5dacc4aeb32ee7,resultece2eb015906ae19727ba8ed7f1ad25a,"AdvanceDetails",ref ISpace);
+iSpace.UpdateGridBindDetails("AdvanceDetails",resultece2eb015906ae19727ba8ed7f1ad25a);
+ISpace["Message"].Value=@"SUCCESS:Deleted Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Deleted Successfully"";");
+ISpace["UI_AdvanceDeleteDialog"].HideDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_AdvanceDeleteDialog""].HideDialog=true;;");
 }
 }
 catch(Exception ex)
@@ -6216,11 +6458,11 @@ base.WriteDebugInfo(@"if(ISpace[""growid""].Value=="""")");
 
 var querySource5E4DD494A94146D5861A1C2B0B9576C2 =GetQueryExpressionDataSource("5E4DD494-A941-46D5-861A-1C2B0B9576C2");
 
-DataTable result5E4DD494A94146D5861A1C2B0B9576C2=iSpace.SetGridDataSource(querySource5E4DD494A94146D5861A1C2B0B9576C2, _objectFactory.GetGridRPP("AdvanceDetails"),@"EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",'" + ISpace["MFG_d2_UpdatedOn"].Value + @"'");
+DataTable result5E4DD494A94146D5861A1C2B0B9576C2=iSpace.SetGridDataSource(querySource5E4DD494A94146D5861A1C2B0B9576C2, _objectFactory.GetGridRPP("AdvanceDetails"),@"EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",''");
 
-iSpace.InsertGridBindDetails("AdvanceDetails","11",querySource5E4DD494A94146D5861A1C2B0B9576C2,"EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",'" + ISpace["MFG_d2_UpdatedOn"].Value + @"'",_objectFactory.GetGridRPP("AdvanceDetails"));
+iSpace.InsertGridBindDetails("AdvanceDetails","11",querySource5E4DD494A94146D5861A1C2B0B9576C2,"EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",''",_objectFactory.GetGridRPP("AdvanceDetails"));
 
-base.WriteDebugInfo(@"var querySource5E4DD494A94146D5861A1C2B0B9576C2 =GetQueryExpressionDataSource(""5E4DD494-A941-46D5-861A-1C2B0B9576C2"");DataTable result5E4DD494A94146D5861A1C2B0B9576C2=iSpace.SetGridDataSource(querySource5E4DD494A94146D5861A1C2B0B9576C2, _objectFactory.GetGridRPP(""AdvanceDetails""),@""EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",'"" + ISpace[""MFG_d2_UpdatedOn""].Value + @""'"");iSpace.InsertGridBindDetails(""AdvanceDetails"",""11"",querySource5E4DD494A94146D5861A1C2B0B9576C2,""EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",'"" + ISpace[""MFG_d2_UpdatedOn""].Value + @""'"",_objectFactory.GetGridRPP(""AdvanceDetails""));");
+base.WriteDebugInfo(@"var querySource5E4DD494A94146D5861A1C2B0B9576C2 =GetQueryExpressionDataSource(""5E4DD494-A941-46D5-861A-1C2B0B9576C2"");DataTable result5E4DD494A94146D5861A1C2B0B9576C2=iSpace.SetGridDataSource(querySource5E4DD494A94146D5861A1C2B0B9576C2, _objectFactory.GetGridRPP(""AdvanceDetails""),@""EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",''"");iSpace.InsertGridBindDetails(""AdvanceDetails"",""11"",querySource5E4DD494A94146D5861A1C2B0B9576C2,""EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",''"",_objectFactory.GetGridRPP(""AdvanceDetails""));");
 base.WriteDebugInfo(@"EXEC [AddFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '@@gv_InstanceId','@@gv_ActivityMapId','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','#growid',#AdvanceDetails_Sequence,'#MFG_d2_TADetailsID','#MFG_d2_TravelAdvanceID','#MFG_d2_Departure','#MFG_d2_DepartureDate','#MFG_d2_DepartureTime','#MFG_d2_Arrival','#MFG_d2_ArrivalDate','#MFG_d2_ArrivalTime','#MFG_d2_ModeofJourney','#MFG_d2_JourneyClass',#MFG_d2_Road,'#MFG_d2_PNRNo',#MFG_d2_Amount,#MFG_d2_IsTravelRequest,#MFG_d2_UpdatedBy,'#MFG_d2_UpdatedO");
 
 
@@ -6234,11 +6476,11 @@ base.WriteDebugInfo(@"else");
 
 var querySource7444A31301164D01ADC7D4FB2D3A166B =GetQueryExpressionDataSource("7444A313-0116-4D01-ADC7-D4FB2D3A166B");
 
-DataTable result7444A31301164D01ADC7D4FB2D3A166B=iSpace.SetGridDataSource(querySource7444A31301164D01ADC7D4FB2D3A166B, _objectFactory.GetGridRPP("AdvanceDetails"),@"EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",'" + ISpace["MFG_d2_Updatedon"].Value + @"'");
+DataTable result7444A31301164D01ADC7D4FB2D3A166B=iSpace.SetGridDataSource(querySource7444A31301164D01ADC7D4FB2D3A166B, _objectFactory.GetGridRPP("AdvanceDetails"),@"EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",''");
 
-iSpace.InsertGridBindDetails("AdvanceDetails","11",querySource7444A31301164D01ADC7D4FB2D3A166B,"EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",'" + ISpace["MFG_d2_Updatedon"].Value + @"'",_objectFactory.GetGridRPP("AdvanceDetails"));
+iSpace.InsertGridBindDetails("AdvanceDetails","11",querySource7444A31301164D01ADC7D4FB2D3A166B,"EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["gv_activitymapid"].Value + @"','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','" + ISpace["growid"].Value + @"'," + ISpace["AdvanceDetails_Sequence"].Value + @",'" + ISpace["MFG_d2_TADetailsID"].Value + @"','" + ISpace["MFG_d2_TravelAdvanceID"].Value + @"','" + ISpace["MFG_d2_Departure"].Value + @"','" + ISpace["MFG_d2_DepartureDate"].Value + @"','" + ISpace["MFG_d2_DepartureTime"].Value + @"','" + ISpace["MFG_d2_Arrival"].Value + @"','" + ISpace["MFG_d2_ArrivalDate"].Value + @"','" + ISpace["MFG_d2_ArrivalTime"].Value + @"','" + ISpace["MFG_d2_ModeofJourney"].Value + @"','" + ISpace["MFG_d2_JourneyClass"].Value + @"'," + ISpace["MFG_d2_Road"].Value + @",'" + ISpace["MFG_d2_PNRNo"].Value + @"'," + ISpace["MFG_d2_Amount"].Value + @"," + ISpace["MFG_d2_IsTravelRequest"].Value + @"," + ISpace["MFG_d2_UpdatedBy"].Value + @",''",_objectFactory.GetGridRPP("AdvanceDetails"));
 
-base.WriteDebugInfo(@"var querySource7444A31301164D01ADC7D4FB2D3A166B =GetQueryExpressionDataSource(""7444A313-0116-4D01-ADC7-D4FB2D3A166B"");DataTable result7444A31301164D01ADC7D4FB2D3A166B=iSpace.SetGridDataSource(querySource7444A31301164D01ADC7D4FB2D3A166B, _objectFactory.GetGridRPP(""AdvanceDetails""),@""EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",'"" + ISpace[""MFG_d2_Updatedon""].Value + @""'"");iSpace.InsertGridBindDetails(""AdvanceDetails"",""11"",querySource7444A31301164D01ADC7D4FB2D3A166B,""EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",'"" + ISpace[""MFG_d2_Updatedon""].Value + @""'"",_objectFactory.GetGridRPP(""AdvanceDetails""));");
+base.WriteDebugInfo(@"var querySource7444A31301164D01ADC7D4FB2D3A166B =GetQueryExpressionDataSource(""7444A313-0116-4D01-ADC7-D4FB2D3A166B"");DataTable result7444A31301164D01ADC7D4FB2D3A166B=iSpace.SetGridDataSource(querySource7444A31301164D01ADC7D4FB2D3A166B, _objectFactory.GetGridRPP(""AdvanceDetails""),@""EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",''"");iSpace.InsertGridBindDetails(""AdvanceDetails"",""11"",querySource7444A31301164D01ADC7D4FB2D3A166B,""EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""gv_activitymapid""].Value + @""','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','"" + ISpace[""growid""].Value + @""',"" + ISpace[""AdvanceDetails_Sequence""].Value + @"",'"" + ISpace[""MFG_d2_TADetailsID""].Value + @""','"" + ISpace[""MFG_d2_TravelAdvanceID""].Value + @""','"" + ISpace[""MFG_d2_Departure""].Value + @""','"" + ISpace[""MFG_d2_DepartureDate""].Value + @""','"" + ISpace[""MFG_d2_DepartureTime""].Value + @""','"" + ISpace[""MFG_d2_Arrival""].Value + @""','"" + ISpace[""MFG_d2_ArrivalDate""].Value + @""','"" + ISpace[""MFG_d2_ArrivalTime""].Value + @""','"" + ISpace[""MFG_d2_ModeofJourney""].Value + @""','"" + ISpace[""MFG_d2_JourneyClass""].Value + @""',"" + ISpace[""MFG_d2_Road""].Value + @"",'"" + ISpace[""MFG_d2_PNRNo""].Value + @""',"" + ISpace[""MFG_d2_Amount""].Value + @"","" + ISpace[""MFG_d2_IsTravelRequest""].Value + @"","" + ISpace[""MFG_d2_UpdatedBy""].Value + @"",''"",_objectFactory.GetGridRPP(""AdvanceDetails""));");
 base.WriteDebugInfo(@"EXEC [UpdateFormGridData93B856A5-0D32-4A27-8B58-5BFE5FF0162C] '@@gv_InstanceId','@@gv_ActivityMapId','93B856A5-0D32-4A27-8B58-5BFE5FF0162C','#growid',#AdvanceDetails_Sequence,'#MFG_d2_TADetailsID','#MFG_d2_TravelAdvanceID','#MFG_d2_Departure','#MFG_d2_DepartureDate','#MFG_d2_DepartureTime','#MFG_d2_Arrival','#MFG_d2_ArrivalDate','#MFG_d2_ArrivalTime','#MFG_d2_ModeofJourney','#MFG_d2_JourneyClass',#MFG_d2_Road,'#MFG_d2_PNRNo',#MFG_d2_Amount,#MFG_d2_IsTravelRequest,#MFG_d2_UpdatedBy,'#MFG_d2_Updat");
 
 
@@ -6388,6 +6630,58 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_ui_exyes (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"UI_EXYes-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+
+var querySource1576f55d41e699764fa4c3c07f6486c1 =GetQueryExpressionDataSource("1576f55d-41e6-9976-4fa4-c3c07f6486c1");
+
+DataTable result1576f55d41e699764fa4c3c07f6486c1=iSpace.SetGridDataSource(querySource1576f55d41e699764fa4c3c07f6486c1, _objectFactory.GetGridRPP("ExpenseDetails"),@"Exec [Delete63762982-2C07-4E60-8D86-D3A35CA53EDA] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["growid"].Value + @"'");
+
+iSpace.InsertGridBindDetails("ExpenseDetails","11",querySource1576f55d41e699764fa4c3c07f6486c1,"Exec [Delete63762982-2C07-4E60-8D86-D3A35CA53EDA] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["growid"].Value + @"'",_objectFactory.GetGridRPP("ExpenseDetails"));
+
+base.WriteDebugInfo(@"var querySource1576f55d41e699764fa4c3c07f6486c1 =GetQueryExpressionDataSource(""1576f55d-41e6-9976-4fa4-c3c07f6486c1"");DataTable result1576f55d41e699764fa4c3c07f6486c1=iSpace.SetGridDataSource(querySource1576f55d41e699764fa4c3c07f6486c1, _objectFactory.GetGridRPP(""ExpenseDetails""),@""Exec [Delete63762982-2C07-4E60-8D86-D3A35CA53EDA] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""growid""].Value + @""'"");iSpace.InsertGridBindDetails(""ExpenseDetails"",""11"",querySource1576f55d41e699764fa4c3c07f6486c1,""Exec [Delete63762982-2C07-4E60-8D86-D3A35CA53EDA] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""growid""].Value + @""'"",_objectFactory.GetGridRPP(""ExpenseDetails""));");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> resultdbb52fdf60b777aa810db3e76e91912e=acdataIspace53f8560140a83229820900367a5bc621.GetQueryExpressionBindings("dbb52fdf-60b7-77aa-810d-b3e76e91912e");
+iSpace.SetGridData(result1576f55d41e699764fa4c3c07f6486c1,resultdbb52fdf60b777aa810db3e76e91912e,"ExpenseDetails",ref ISpace);
+iSpace.UpdateGridBindDetails("ExpenseDetails",resultdbb52fdf60b777aa810db3e76e91912e);
+ISpace["Message"].Value=@"SUCCESS:Deleted Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Deleted Successfully"";");
+ISpace["UI_ExpensedeleteDialog"].HideDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_ExpensedeleteDialog""].HideDialog=true;;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void SubscribeElementEvents_ui_adno (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"UI_ADNo-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["UI_AdvanceDeleteDialog"].HideDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_AdvanceDeleteDialog""].HideDialog=true;;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_submitform (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -6448,8 +6742,8 @@ base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value==""Yes"")");
 if(ISpace["MF_d1_AdvanceAmount"].Value==0)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_AdvanceAmount""].Value==0)");
-ISpace["Message"].Value=@"Please Enter the Advance Amount";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Please Enter the Advance Amount"";");
+ISpace["Message"].Value=@"ERROR:Please Enter the Advance Amount";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Please Enter the Advance Amount"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -6944,6 +7238,24 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_ui_exno (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"UI_EXNo-OnClick");
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+ISpace["UI_ExpensedeleteDialog"].HideDialog=true;;
+base.WriteDebugInfo(@"ISpace[""UI_ExpensedeleteDialog""].HideDialog=true;;");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_wmf_moveto (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -7190,6 +7502,14 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("fwfm_save"))
 {
 			SubscribeElementEvents_fwfm_save(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("delete_expensedetails"))
+{
+			SubscribeElementEvents_delete_expensedetails(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("delete_advancedetails"))
+{
+			SubscribeElementEvents_delete_advancedetails(ref dfsParam);
 }
 		if(elementName.ToLower().Equals("pfa_widgetsubmit"))
 {
@@ -7821,6 +8141,46 @@ using System;
 														   -1),
 								}
 			},
+							{"ece2eb01-5906-ae19-727b-a8ed7f1ad25a", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d2_IsTravelRequest",13,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ModeofJourney",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ArrivalTime",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_DepartureTime",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ArrivalDate",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_TADetailsID",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Amount",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_TravelAdvanceID",1,
+														   -1),
+								   new Triplet<string, short, short?>("AdvanceDetails_RowId",16,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Departure",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_DepartureDate",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",15,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Arrival",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",14,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_PNRNo",11,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_JourneyClass",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Road",10,
+														   -1),
+								}
+			},
 							{"25891B74-08F4-4F71-BE61-36CEA4C143EC", 
 				
 				new List<Triplet<string, short, short?>> {
@@ -7858,6 +8218,34 @@ using System;
 								   new Triplet<string, short, short?>("WMC_User",3,
 														   -1),
 								   new Triplet<string, short, short?>("WMC_StepFrom",1,
+														   -1),
+								}
+			},
+							{"dbb52fdf-60b7-77aa-810d-b3e76e91912e", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d3_TravelAdvanceID",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_ToDate",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_UpdatedOn",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_OtherExpenditureType",8,
+														   -1),
+								   new Triplet<string, short, short?>("ExpenseDetails_RowId",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_UpdatedBy",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_ExpenditureTypeID",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_Amount",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_ExpenditureType",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_IsTravelRequest",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_FromDate",2,
 														   -1),
 								}
 			},
@@ -9117,6 +9505,46 @@ using System;
 														   -1),
 								}
 			},
+							{"ece2eb01-5906-ae19-727b-a8ed7f1ad25a", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d2_IsTravelRequest",13,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ModeofJourney",8,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ArrivalTime",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_DepartureTime",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_ArrivalDate",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_TADetailsID",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Amount",12,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_TravelAdvanceID",1,
+														   -1),
+								   new Triplet<string, short, short?>("AdvanceDetails_RowId",16,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Departure",2,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_DepartureDate",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",15,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Arrival",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",14,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_PNRNo",11,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_JourneyClass",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d2_Road",10,
+														   -1),
+								}
+			},
 							{"25891B74-08F4-4F71-BE61-36CEA4C143EC", 
 				
 				new List<Triplet<string, short, short?>> {
@@ -9154,6 +9582,34 @@ using System;
 								   new Triplet<string, short, short?>("WMC_User",3,
 														   -1),
 								   new Triplet<string, short, short?>("WMC_StepFrom",1,
+														   -1),
+								}
+			},
+							{"dbb52fdf-60b7-77aa-810d-b3e76e91912e", 
+				
+				new List<Triplet<string, short, short?>> {
+
+								   new Triplet<string, short, short?>("MG_d3_TravelAdvanceID",1,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_ToDate",3,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_UpdatedOn",6,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_OtherExpenditureType",8,
+														   -1),
+								   new Triplet<string, short, short?>("ExpenseDetails_RowId",10,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_UpdatedBy",5,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_ExpenditureTypeID",0,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_Amount",4,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_ExpenditureType",7,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_IsTravelRequest",9,
+														   -1),
+								   new Triplet<string, short, short?>("MG_d3_FromDate",2,
 														   -1),
 								}
 			},
