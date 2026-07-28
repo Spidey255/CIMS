@@ -122,9 +122,6 @@ const TemporaryAdvanceNew_Registrar = React.lazy(() =>
 const TravelRequestNew_RDOfficePayment = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/TravelRequestNew_RDOfficePayment")
   );
-const CommitmentSpentDetails_Start = React.lazy(() =>
-    import("@/pages/PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start")
-  );
 const ProjectProposal_View = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/ProjectProposal_View")
   );
@@ -264,7 +261,6 @@ const App: React.FC = () => {
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequestNew_AdditionaDetails" element={<TravelRequestNew_AdditionaDetails />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_Registrar" element={<TemporaryAdvanceNew_Registrar />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequestNew_RDOfficePayment" element={<TravelRequestNew_RDOfficePayment />} />
-              <Route path="/PRJ20251020000000025-R&DProjects/CommitmentSpentDetails_Start" element={<CommitmentSpentDetails_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_View" element={<ProjectProposal_View />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_Start" element={<TemporaryAdvanceNew_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursementNew_View" element={<ProjectReimbursementNew_View />} />

@@ -21,6 +21,17 @@ const CheckBox: React.FC<{
 
   const controlId = element.ElementName || element.UIElementid;
 
+
+       const storeVisible = useGeneralStore(
+      (store) => store.state[element.ElementName]?.isVisible
+    );
+    const isVisible =
+      storeVisible !== undefined && storeVisible !== null
+        ? storeVisible
+        : true;
+  
+    if (isVisible == false || isVisible == "false") return null
+
   return (
     <div  className={!Boolean(isGrid) ? `${element.ColumnCss} col-md-${element.Wrap}` : element.ColumnCss }>
       <div id={controlId} className="form-check form-check-inline">
