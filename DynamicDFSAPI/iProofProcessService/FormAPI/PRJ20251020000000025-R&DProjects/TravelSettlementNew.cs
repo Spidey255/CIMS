@@ -3935,12 +3935,12 @@ base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successful
 if(ISpace["WF_FlowType"].Value!="REJECT")
 {
 base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value!=""REJECT"")");
-base.WriteDebugInfo(@"EXEC  [UpdateCommitmentSpent] '@@gv_InstanceId'");
+base.WriteDebugInfo(@"EXEC  [UpdateCommitmentSpentSettlement] '@@gv_InstanceId','#R_ReferenceNo'");
 
 var querySource70d9c8c62cf214a341b218c986821e04 =GetQueryExpressionDataSource("70d9c8c6-2cf2-14a3-41b2-18c986821e04");
-Dictionary<short,object> result70d9c8c62cf214a341b218c986821e04=iSpace.ExecuteQuery(querySource70d9c8c62cf214a341b218c986821e04,@"EXEC [UpdateCommitmentSpent] '" + ISpace["gv_instanceid"].Value + @"'",false);
+Dictionary<short,object> result70d9c8c62cf214a341b218c986821e04=iSpace.ExecuteQuery(querySource70d9c8c62cf214a341b218c986821e04,@"EXEC [UpdateCommitmentSpentSettlement] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["R_ReferenceNo"].Value + @"'",false);
 
-base.WriteDebugInfo(@"var querySource70d9c8c62cf214a341b218c986821e04 =GetQueryExpressionDataSource(""70d9c8c6-2cf2-14a3-41b2-18c986821e04"");Dictionary<short,object> result70d9c8c62cf214a341b218c986821e04=iSpace.ExecuteQuery(querySource70d9c8c62cf214a341b218c986821e04,@""EXEC [UpdateCommitmentSpent] '"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"var querySource70d9c8c62cf214a341b218c986821e04 =GetQueryExpressionDataSource(""70d9c8c6-2cf2-14a3-41b2-18c986821e04"");Dictionary<short,object> result70d9c8c62cf214a341b218c986821e04=iSpace.ExecuteQuery(querySource70d9c8c62cf214a341b218c986821e04,@""EXEC [UpdateCommitmentSpentSettlement] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""R_ReferenceNo""].Value + @""'"",false);");
 base.WriteDebugInfo(@"");
 
 if((result70d9c8c62cf214a341b218c986821e04!=null) && (result70d9c8c62cf214a341b218c986821e04.Count!=0))
@@ -7015,12 +7015,12 @@ ISpace["MF_ErrId"].Value = null;ISpace["MF_ErrMsg"].Value = null;
 if(ISpace["WF_FlowType"].Value!="REJECT")
 {
 base.WriteDebugInfo(@"if(ISpace[""WF_FlowType""].Value!=""REJECT"")");
-base.WriteDebugInfo(@"EXEC  [UpdateCommitmentSpent] '@@gv_InstanceId'");
+base.WriteDebugInfo(@"EXEC  [UpdateCommitmentSpentSettlement] '@@gv_InstanceId','#R_ReferenceNo'");
 
 var querySource70d9c8c62cf214a341b218c986821e04 =GetQueryExpressionDataSource("70d9c8c6-2cf2-14a3-41b2-18c986821e04");
-Dictionary<short,object> result70d9c8c62cf214a341b218c986821e04=iSpace.ExecuteQuery(querySource70d9c8c62cf214a341b218c986821e04,@"EXEC [UpdateCommitmentSpent] '" + ISpace["gv_instanceid"].Value + @"'",false);
+Dictionary<short,object> result70d9c8c62cf214a341b218c986821e04=iSpace.ExecuteQuery(querySource70d9c8c62cf214a341b218c986821e04,@"EXEC [UpdateCommitmentSpentSettlement] '" + ISpace["gv_instanceid"].Value + @"','" + ISpace["R_ReferenceNo"].Value + @"'",false);
 
-base.WriteDebugInfo(@"var querySource70d9c8c62cf214a341b218c986821e04 =GetQueryExpressionDataSource(""70d9c8c6-2cf2-14a3-41b2-18c986821e04"");Dictionary<short,object> result70d9c8c62cf214a341b218c986821e04=iSpace.ExecuteQuery(querySource70d9c8c62cf214a341b218c986821e04,@""EXEC [UpdateCommitmentSpent] '"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"var querySource70d9c8c62cf214a341b218c986821e04 =GetQueryExpressionDataSource(""70d9c8c6-2cf2-14a3-41b2-18c986821e04"");Dictionary<short,object> result70d9c8c62cf214a341b218c986821e04=iSpace.ExecuteQuery(querySource70d9c8c62cf214a341b218c986821e04,@""EXEC [UpdateCommitmentSpentSettlement] '"" + ISpace[""gv_instanceid""].Value + @""','"" + ISpace[""R_ReferenceNo""].Value + @""'"",false);");
 base.WriteDebugInfo(@"");
 
 if((result70d9c8c62cf214a341b218c986821e04!=null) && (result70d9c8c62cf214a341b218c986821e04.Count!=0))
