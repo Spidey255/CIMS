@@ -1224,6 +1224,10 @@ export const DataElementsData = [
                                           {
                                             "Mandatory": true,
                                             "Span": false
+                                          },
+                                          {
+                                            "Visible": false,
+                                            "Span": false
                                           }
                                         ],
                                         "__idx": 245,
@@ -15038,6 +15042,10 @@ export const DataElementsData = [
                                       {
                                         "Mandatory": true,
                                         "Span": false
+                                      },
+                                      {
+                                        "Visible": false,
+                                        "Span": false
                                       }
                                     ],
                                     "__idx": 245,
@@ -28762,6 +28770,10 @@ export const DataElementsData = [
                                   {
                                     "Mandatory": true,
                                     "Span": false
+                                  },
+                                  {
+                                    "Visible": false,
+                                    "Span": false
                                   }
                                 ],
                                 "__idx": 245,
@@ -42081,6 +42093,10 @@ export const DataElementsData = [
                               {
                                 "Mandatory": true,
                                 "Span": false
+                              },
+                              {
+                                "Visible": false,
+                                "Span": false
                               }
                             ],
                             "__idx": 245,
@@ -53530,6 +53546,10 @@ export const DataElementsData = [
                           {
                             "Mandatory": true,
                             "Span": false
+                          },
+                          {
+                            "Visible": false,
+                            "Span": false
                           }
                         ],
                         "__idx": 245,
@@ -63916,6 +63936,10 @@ export const DataElementsData = [
                       {
                         "Mandatory": true,
                         "Span": false
+                      },
+                      {
+                        "Visible": false,
+                        "Span": false
                       }
                     ],
                     "__idx": 245,
@@ -73300,6 +73324,10 @@ export const DataElementsData = [
                   {
                     "Mandatory": true,
                     "Span": false
+                  },
+                  {
+                    "Visible": false,
+                    "Span": false
                   }
                 ],
                 "__idx": 245,
@@ -81457,6 +81485,10 @@ export const DataElementsData = [
               {
                 "Mandatory": true,
                 "Span": false
+              },
+              {
+                "Visible": false,
+                "Span": false
               }
             ],
             "__idx": 245,
@@ -88548,6 +88580,10 @@ export const DataElementsData = [
           {
             "Mandatory": true,
             "Span": false
+          },
+          {
+            "Visible": false,
+            "Span": false
           }
         ],
         "__idx": 245,
@@ -91814,6 +91850,10 @@ export const DataElementsData = [
     "ElementControlProperty": [
       {
         "Mandatory": true,
+        "Span": false
+      },
+      {
+        "Visible": false,
         "Span": false
       }
     ],
