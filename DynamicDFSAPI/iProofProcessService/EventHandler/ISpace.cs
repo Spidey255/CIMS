@@ -586,12 +586,18 @@ namespace CPS.Proof.DFSExtension
 
                     rowItem.Child = new List<ServiceElementData>();
 
-                    if (row.Table.Columns.Contains("RowId") &&
-                                row["RowId"] != DBNull.Value &&
-                                    !string.IsNullOrWhiteSpace(row["RowId"].ToString()))                  
-                        rowItem.RwId = row["RowId"].ToString();
-                    else
-                        rowItem.RwId = Guid.NewGuid().ToString();
+                     if (row.Table.Columns.Contains("RowId") &&
+                                    row["RowId"] != DBNull.Value &&
+                                        !string.IsNullOrWhiteSpace(row["RowId"].ToString()))
+                        {
+                            rowItem.RwId = row["RowId"].ToString();
+                           
+                        }
+                        else
+                        {
+                            rowItem.RwId = Guid.NewGuid().ToString();
+                           
+                        }
 
                     var indexer = bindings.GetEnumerator();
 
@@ -819,13 +825,13 @@ namespace CPS.Proof.DFSExtension
             {                            
 
                 externalQueryController = 
-                    ObjectManager.Acquire<IExternalQueryController>();
+                    ObjectManager.Acquire<IExternalQueryController>();              
 
                 externalQueryController.UpdateGridLoopData(bulkInsertQuery);
                                
 
-                ISpace[gridName].Child.RemoveRange(gridRPP + 1,
-                   ISpace[gridName].Child.Count - gridRPP - 1);
+                ISpace[gridName].Child.RemoveRange(gridRPP,
+                   ISpace[gridName].Child.Count - gridRPP);
             }
             catch (Exception ex)
             {

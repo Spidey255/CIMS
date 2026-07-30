@@ -908,7 +908,7 @@ namespace CPS.Proof.DFSExtension
       }
 
 
-      public override string GetGridLoopQuery(string gridId,string gridName,ref Dictionary<string,ServiceElementData> gridData)
+      public override string GetGridLoopQuery(string gridId,string gridName,bool IsGridReset,ref Dictionary<string,ServiceElementData> gridData)
         {
             _sysLog.Debug("Entering GetGridLoopQuery");
 
@@ -928,6 +928,8 @@ namespace CPS.Proof.DFSExtension
 
                 string bulkInsertQuery = string.Empty;
 
+                string deleteQuery=string.Empty;
+
                 string instanceId = gridData["InstanceId"].Value;
 
                  if (string.IsNullOrEmpty(instanceId))
@@ -940,6 +942,8 @@ namespace CPS.Proof.DFSExtension
                 string processActivityMapId = gridData["gv_activitymapid"].Value;
 
              
+
+             
                 switch (gridId)
                 {
                      
@@ -947,6 +951,11 @@ namespace CPS.Proof.DFSExtension
                                          case "4f5082a3-9a94-c0ae-f847-0dd75437412a":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [4f5082a3-9a94-c0ae-f847-0dd75437412a] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_4f5082a39a94c0aef8470dd75437412a AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_ProjectOrOtherId] INT	, [MG_DistributionId] VARCHAR(MAX)	, [MG_FundType] VARCHAR(MAX)	, [MG_BudgetHeadId] VARCHAR(250)	, [MG_MaxPercentageUsage] DECIMAL(18,2)	, [MG_MaxAmount] DECIMAL(18,2)	, [MG_Description] VARCHAR(MAX)){0}INSERT INTO [4f5082a3-9a94-c0ae-f847-0dd75437412a](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_ProjectOrOtherId,MG_DistributionId,MG_FundType,MG_BudgetHeadId,MG_MaxPercentageUsage,MG_MaxAmount,MG_Description)
@@ -1013,6 +1022,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -1062,6 +1072,11 @@ namespace CPS.Proof.DFSExtension
                                               case "281a2415-aef4-5ac1-c31b-4beaec59046b":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [281a2415-aef4-5ac1-c31b-4beaec59046b] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_281a2415aef45ac1c31b4beaec59046b AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [combo] VARCHAR(250)){0}INSERT INTO [281a2415-aef4-5ac1-c31b-4beaec59046b](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,combo)
@@ -1128,6 +1143,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -1177,6 +1193,11 @@ namespace CPS.Proof.DFSExtension
                                               case "04FCD160-1EC6-471F-97B0-1C6738875C87":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [04FCD160-1EC6-471F-97B0-1C6738875C87] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_04FCD1601EC6471F97B01C6738875C87 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_FundTypeName] VARCHAR(MAX)	, [MG_FundTypeId] INT){0}INSERT INTO [04FCD160-1EC6-471F-97B0-1C6738875C87](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_FundTypeName,MG_FundTypeId)
@@ -1243,6 +1264,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -1293,6 +1315,14 @@ namespace CPS.Proof.DFSExtension
                        
                 bulkInsertQuery = string.Format(gInsertQuery, bulkInsertQuery);
 
+                if(IsGridReset)
+                {
+                    //Delete Existing Records of InstanceId
+                    deleteQuery=string.Format(deleteQuery, instanceId); 
+
+                    bulkInsertQuery=deleteQuery+"\n\n"+bulkInsertQuery;
+                }
+
                 return bulkInsertQuery;
 
             }
@@ -1341,7 +1371,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> resultA1ECD9F97CCB425C9711457074501B49=acdataIspace4E51124DBF8346ECBA9AB746693F716F.GetQueryExpressionBindings("A1ECD9F9-7CCB-425C-9711-457074501B49");
 iSpace.SetGridData(result0845D724E0EA4F3CA76947186EED23FB,resultA1ECD9F97CCB425C9711457074501B49,"MF_FundType",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MF_FundType","04FCD160-1EC6-471F-97B0-1C6738875C87",_objectFactory.GetGridRPP("MF_FundType"),_elementBase.GetGridLoopQuery("04FCD160-1EC6-471F-97B0-1C6738875C87","MF_FundType",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MF_FundType","04FCD160-1EC6-471F-97B0-1C6738875C87",_objectFactory.GetGridRPP("MF_FundType"),_elementBase.GetGridLoopQuery("04FCD160-1EC6-471F-97B0-1C6738875C87","MF_FundType",true,ref ISpace), ref ISpace);
 
 if(ISpace["FormVersionId"].Value=="FE4DDBCD-890E-4679-BDD8-D94D3D9C5BC3")
 {
@@ -1478,7 +1508,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result080778C9A8D34B048CFA39FBC2646244=acdataIspace4E51124DBF8346ECBA9AB746693F716F.GetQueryExpressionBindings("080778C9-A8D3-4B04-8CFA-39FBC2646244");
 iSpace.SetGridData(result291629D86EDC4ED287968C3E5F8981AB,result080778C9A8D34B048CFA39FBC2646244,"MG_PDDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_PDDetails","4f5082a3-9a94-c0ae-f847-0dd75437412a",_objectFactory.GetGridRPP("MG_PDDetails"),_elementBase.GetGridLoopQuery("4f5082a3-9a94-c0ae-f847-0dd75437412a","MG_PDDetails",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_PDDetails","4f5082a3-9a94-c0ae-f847-0dd75437412a",_objectFactory.GetGridRPP("MG_PDDetails"),_elementBase.GetGridLoopQuery("4f5082a3-9a94-c0ae-f847-0dd75437412a","MG_PDDetails",true,ref ISpace), ref ISpace);
 
 if(ISpace["FormVersionId"].Value=="FE4DDBCD-890E-4679-BDD8-D94D3D9C5BC3")
 {
@@ -1595,6 +1625,7 @@ else{
 ISpace["MF_InsertCount"].Value = null;
 }
 }
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MF_DistrubitionDetails","",_objectFactory.GetGridRPP("MF_DistrubitionDetails"),_elementBase.GetGridLoopQuery("","MF_DistrubitionDetails",false,ref ISpace), ref ISpace);
 base.WriteDebugInfo(@"iSpace.GetGridTableRows(""MF_DistrubitionDetails"",""Select * from Proof..[] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace);
 
  var grid = ISpace[""MF_DistrubitionDetails""];

@@ -645,7 +645,7 @@ namespace CPS.Proof.DFSExtension
       }
 
 
-      public override string GetGridLoopQuery(string gridId,string gridName,ref Dictionary<string,ServiceElementData> gridData)
+      public override string GetGridLoopQuery(string gridId,string gridName,bool IsGridReset,ref Dictionary<string,ServiceElementData> gridData)
         {
             _sysLog.Debug("Entering GetGridLoopQuery");
 
@@ -665,6 +665,8 @@ namespace CPS.Proof.DFSExtension
 
                 string bulkInsertQuery = string.Empty;
 
+                string deleteQuery=string.Empty;
+
                 string instanceId = gridData["InstanceId"].Value;
 
                  if (string.IsNullOrEmpty(instanceId))
@@ -677,6 +679,8 @@ namespace CPS.Proof.DFSExtension
                 string processActivityMapId = gridData["gv_activitymapid"].Value;
 
              
+
+             
                 switch (gridId)
                 {
                      
@@ -684,6 +688,11 @@ namespace CPS.Proof.DFSExtension
                                          case "98F402C4-A592-451F-B29E-2F28BE67530B":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [98F402C4-A592-451F-B29E-2F28BE67530B] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_98F402C4A592451FB29E2F28BE67530B AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [RD_RefNo] VARCHAR(MAX)	, [RD_ReceiptDate] DATETIME	, [RD_ReceiptAmount] DECIMAL(18,2)	, [RD_RefId] VARCHAR(MAX)	, [RD_Status] VARCHAR(MAX)){0}INSERT INTO [98F402C4-A592-451F-B29E-2F28BE67530B](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,RD_RefNo,RD_ReceiptDate,RD_ReceiptAmount,RD_RefId,RD_Status)
@@ -750,6 +759,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -799,6 +809,14 @@ namespace CPS.Proof.DFSExtension
                                           }
                        
                 bulkInsertQuery = string.Format(gInsertQuery, bulkInsertQuery);
+
+                if(IsGridReset)
+                {
+                    //Delete Existing Records of InstanceId
+                    deleteQuery=string.Format(deleteQuery, instanceId); 
+
+                    bulkInsertQuery=deleteQuery+"\n\n"+bulkInsertQuery;
+                }
 
                 return bulkInsertQuery;
 
@@ -870,7 +888,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result72B5DE26E0BD4445B660905F5AA1FD90=acdataIspace0325353E7E134762AFC988434C58F52C.GetQueryExpressionBindings("72B5DE26-E0BD-4445-B660-905F5AA1FD90");
 iSpace.SetGridData(result2DCE3283256D4120938065242E6EC71E,result72B5DE26E0BD4445B660905F5AA1FD90,"MG_ReceiptDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_ReceiptDetails","98F402C4-A592-451F-B29E-2F28BE67530B",_objectFactory.GetGridRPP("MG_ReceiptDetails"),_elementBase.GetGridLoopQuery("98F402C4-A592-451F-B29E-2F28BE67530B","MG_ReceiptDetails",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_ReceiptDetails","98F402C4-A592-451F-B29E-2F28BE67530B",_objectFactory.GetGridRPP("MG_ReceiptDetails"),_elementBase.GetGridLoopQuery("98F402C4-A592-451F-B29E-2F28BE67530B","MG_ReceiptDetails",true,ref ISpace), ref ISpace);
 
 }
 }
@@ -922,7 +940,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result72B5DE26E0BD4445B660905F5AA1FD90=acdataIspace0325353E7E134762AFC988434C58F52C.GetQueryExpressionBindings("72B5DE26-E0BD-4445-B660-905F5AA1FD90");
 iSpace.SetGridData(result2DCE3283256D4120938065242E6EC71E,result72B5DE26E0BD4445B660905F5AA1FD90,"MG_ReceiptDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_ReceiptDetails","98F402C4-A592-451F-B29E-2F28BE67530B",_objectFactory.GetGridRPP("MG_ReceiptDetails"),_elementBase.GetGridLoopQuery("98F402C4-A592-451F-B29E-2F28BE67530B","MG_ReceiptDetails",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_ReceiptDetails","98F402C4-A592-451F-B29E-2F28BE67530B",_objectFactory.GetGridRPP("MG_ReceiptDetails"),_elementBase.GetGridLoopQuery("98F402C4-A592-451F-B29E-2F28BE67530B","MG_ReceiptDetails",true,ref ISpace), ref ISpace);
 
 }
 }
@@ -992,7 +1010,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result72B5DE26E0BD4445B660905F5AA1FD90=acdataIspace0325353E7E134762AFC988434C58F52C.GetQueryExpressionBindings("72B5DE26-E0BD-4445-B660-905F5AA1FD90");
 iSpace.SetGridData(result2DCE3283256D4120938065242E6EC71E,result72B5DE26E0BD4445B660905F5AA1FD90,"MG_ReceiptDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_ReceiptDetails","98F402C4-A592-451F-B29E-2F28BE67530B",_objectFactory.GetGridRPP("MG_ReceiptDetails"),_elementBase.GetGridLoopQuery("98F402C4-A592-451F-B29E-2F28BE67530B","MG_ReceiptDetails",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_ReceiptDetails","98F402C4-A592-451F-B29E-2F28BE67530B",_objectFactory.GetGridRPP("MG_ReceiptDetails"),_elementBase.GetGridLoopQuery("98F402C4-A592-451F-B29E-2F28BE67530B","MG_ReceiptDetails",true,ref ISpace), ref ISpace);
 
 }
 }

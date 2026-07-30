@@ -1181,7 +1181,7 @@ namespace CPS.Proof.DFSExtension
       }
 
 
-      public override string GetGridLoopQuery(string gridId,string gridName,ref Dictionary<string,ServiceElementData> gridData)
+      public override string GetGridLoopQuery(string gridId,string gridName,bool IsGridReset,ref Dictionary<string,ServiceElementData> gridData)
         {
             _sysLog.Debug("Entering GetGridLoopQuery");
 
@@ -1201,6 +1201,8 @@ namespace CPS.Proof.DFSExtension
 
                 string bulkInsertQuery = string.Empty;
 
+                string deleteQuery=string.Empty;
+
                 string instanceId = gridData["InstanceId"].Value;
 
                  if (string.IsNullOrEmpty(instanceId))
@@ -1213,6 +1215,8 @@ namespace CPS.Proof.DFSExtension
                 string processActivityMapId = gridData["gv_activitymapid"].Value;
 
              
+
+             
                 switch (gridId)
                 {
                      
@@ -1220,6 +1224,11 @@ namespace CPS.Proof.DFSExtension
                                          case "FC9B8D2E-9EE3-436F-AF08-A774AF04D678":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [FC9B8D2E-9EE3-436F-AF08-A774AF04D678] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_FC9B8D2E9EE3436FAF08A774AF04D678 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d2_AdditionalID] VARCHAR(MAX)	, [MG_d2_ProjectDetailsID] VARCHAR(MAX)	, [MG_d2_AdditionalType] VARCHAR(MAX)	, [MG_d2_AdditionalName] VARCHAR(MAX)	, [MG_d2_Departmentid] VARCHAR(MAX)	, [MG_d2_DesignationID] VARCHAR(MAX)	, [MG_d2_ExternalInstituteName] VARCHAR(MAX)	, [MG_d2_ExternalFacultyName] VARCHAR(MAX)	, [MG_d2_ExternalDesignation] VARCHAR(MAX)	, [MG_d2_ExternalEmailId] VARCHAR(MAX)	, [MG_d2_ExternalContactNo] VARCHAR(MAX)	, [MG_d2_UpdatedBy] INT	, [MG_d2_UpdatedOn] DATETIME	, [MG_d2_MemberType] VARCHAR(MAX)	, [MG_EmployeeName] VARCHAR(MAX)	, [MG_EmployeeDepartment] VARCHAR(MAX)	, [MG_AdditionalTypeValue] VARCHAR(MAX)	, [MG_MemberTypeValue] VARCHAR(MAX)){0}INSERT INTO [FC9B8D2E-9EE3-436F-AF08-A774AF04D678](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d2_AdditionalID,MG_d2_ProjectDetailsID,MG_d2_AdditionalType,MG_d2_AdditionalName,MG_d2_Departmentid,MG_d2_DesignationID,MG_d2_ExternalInstituteName,MG_d2_ExternalFacultyName,MG_d2_ExternalDesignation,MG_d2_ExternalEmailId,MG_d2_ExternalContactNo,MG_d2_UpdatedBy,MG_d2_UpdatedOn,MG_d2_MemberType,MG_EmployeeName,MG_EmployeeDepartment,MG_AdditionalTypeValue,MG_MemberTypeValue)
@@ -1286,6 +1295,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -1335,6 +1345,11 @@ namespace CPS.Proof.DFSExtension
                                               case "D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_D2D6E00AB6B74968BAAAEF3D20F2BAC5 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d3_DocumentName] VARCHAR(MAX)	, [MG_d3_UpdatedOn] DATETIME	, [MG_d3_DocumentProposalID] VARCHAR(MAX)	, [MG_d3_UploadDocument] VARCHAR(36)	, [MG_d3_ProposalDocumentID] VARCHAR(MAX)	, [MG_d3_UpdatedBy] INT	, [MG_d3_ProjectproposalID] VARCHAR(MAX)	, [MG_d3_MandatoryCheck] INT){0}INSERT INTO [D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d3_DocumentName,MG_d3_UpdatedOn,MG_d3_DocumentProposalID,MG_d3_UploadDocument,MG_d3_ProposalDocumentID,MG_d3_UpdatedBy,MG_d3_ProjectproposalID,MG_d3_MandatoryCheck)
@@ -1401,6 +1416,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -1450,6 +1466,11 @@ namespace CPS.Proof.DFSExtension
                                               case "A3BB2140-4053-4558-9363-3BA1B526BD0A":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [A3BB2140-4053-4558-9363-3BA1B526BD0A] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_A3BB21404053455893633BA1B526BD0A AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d4_UpdatedBy] INT	, [MG_d4_DocumentId] VARCHAR(MAX)	, [MG_d4_UpdatedOn] DATETIME	, [MG_d4_ProjectproposalID] VARCHAR(MAX)	, [MG_d4_Document] VARCHAR(36)	, [MG_d4_DocumentName] VARCHAR(MAX)	, [MG_d4_Categorymapid] VARCHAR(MAX)){0}INSERT INTO [A3BB2140-4053-4558-9363-3BA1B526BD0A](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d4_UpdatedBy,MG_d4_DocumentId,MG_d4_UpdatedOn,MG_d4_ProjectproposalID,MG_d4_Document,MG_d4_DocumentName,MG_d4_Categorymapid)
@@ -1516,6 +1537,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -1565,6 +1587,11 @@ namespace CPS.Proof.DFSExtension
                                               case "99ae5d17-b4b2-d238-11a3-a33c1b7f516b":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [99ae5d17-b4b2-d238-11a3-a33c1b7f516b] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_99ae5d17b4b2d23811a3a33c1b7f516b AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [99ae5d17-b4b2-d238-11a3-a33c1b7f516b](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
@@ -1631,6 +1658,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -1680,6 +1708,14 @@ namespace CPS.Proof.DFSExtension
                                           }
                        
                 bulkInsertQuery = string.Format(gInsertQuery, bulkInsertQuery);
+
+                if(IsGridReset)
+                {
+                    //Delete Existing Records of InstanceId
+                    deleteQuery=string.Format(deleteQuery, instanceId); 
+
+                    bulkInsertQuery=deleteQuery+"\n\n"+bulkInsertQuery;
+                }
 
                 return bulkInsertQuery;
 
@@ -1741,7 +1777,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> resultef1f2ec4a6cbdd231f52fd0b0d03ba57=acdataIspaceB3A493374C4B42EC9F9B1C4C8B4E2E13.GetQueryExpressionBindings("ef1f2ec4-a6cb-dd23-1f52-fd0b0d03ba57");
 iSpace.SetGridData(result0a52bb10821c0a9a8ae2ec075fba6a8e,resultef1f2ec4a6cbdd231f52fd0b0d03ba57,"ProposalDocuments",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ProposalDocuments","D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5",_objectFactory.GetGridRPP("ProposalDocuments"),_elementBase.GetGridLoopQuery("D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5","ProposalDocuments",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ProposalDocuments","D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5",_objectFactory.GetGridRPP("ProposalDocuments"),_elementBase.GetGridLoopQuery("D2D6E00A-B6B7-4968-BAAA-EF3D20F2BAC5","ProposalDocuments",true,ref ISpace), ref ISpace);
 
 }
 if(1==1)
@@ -1859,7 +1895,7 @@ base.WriteDebugInfo(@"EXEC [AddFormGridDataFC9B8D2E-9EE3-436F-AF08-A774AF04D678]
 
 List<Triplet<string, short, short?>> result2FAC01E585404425AD0142973E87B3C5=acdataIspaceB3A493374C4B42EC9F9B1C4C8B4E2E13.GetQueryExpressionBindings("2FAC01E5-8540-4425-AD01-42973E87B3C5");
 iSpace.SetGridData(result6C11211E63544E6499A1D591D85CCC41,result2FAC01E585404425AD0142973E87B3C5,"CopiDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("CopiDetails","FC9B8D2E-9EE3-436F-AF08-A774AF04D678",_objectFactory.GetGridRPP("CopiDetails"),_elementBase.GetGridLoopQuery("FC9B8D2E-9EE3-436F-AF08-A774AF04D678","CopiDetails",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("CopiDetails","FC9B8D2E-9EE3-436F-AF08-A774AF04D678",_objectFactory.GetGridRPP("CopiDetails"),_elementBase.GetGridLoopQuery("FC9B8D2E-9EE3-436F-AF08-A774AF04D678","CopiDetails",true,ref ISpace), ref ISpace);
 
 }
 else
@@ -1877,7 +1913,7 @@ base.WriteDebugInfo(@"EXEC [UpdateFormGridDataFC9B8D2E-9EE3-436F-AF08-A774AF04D6
 
 List<Triplet<string, short, short?>> resultBE604E66309D4989879C431B3984B4B4=acdataIspaceB3A493374C4B42EC9F9B1C4C8B4E2E13.GetQueryExpressionBindings("BE604E66-309D-4989-879C-431B3984B4B4");
 iSpace.SetGridData(result401A9D348FD64AD08D6DBFDA8D331663,resultBE604E66309D4989879C431B3984B4B4,"CopiDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("CopiDetails","FC9B8D2E-9EE3-436F-AF08-A774AF04D678",_objectFactory.GetGridRPP("CopiDetails"),_elementBase.GetGridLoopQuery("FC9B8D2E-9EE3-436F-AF08-A774AF04D678","CopiDetails",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("CopiDetails","FC9B8D2E-9EE3-436F-AF08-A774AF04D678",_objectFactory.GetGridRPP("CopiDetails"),_elementBase.GetGridLoopQuery("FC9B8D2E-9EE3-436F-AF08-A774AF04D678","CopiDetails",true,ref ISpace), ref ISpace);
 
 }
 ISpace["growid"].Value="";
@@ -1946,7 +1982,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> resulte94499bc4a5f3d1caf8ae6389d08f460=acdataIspaceB3A493374C4B42EC9F9B1C4C8B4E2E13.GetQueryExpressionBindings("e94499bc-4a5f-3d1c-af8a-e6389d08f460");
 iSpace.SetGridData(result46a6879a4dfd54d138c96438be62af60,resulte94499bc4a5f3d1caf8ae6389d08f460,"CopiDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("CopiDetails","FC9B8D2E-9EE3-436F-AF08-A774AF04D678",_objectFactory.GetGridRPP("CopiDetails"),_elementBase.GetGridLoopQuery("FC9B8D2E-9EE3-436F-AF08-A774AF04D678","CopiDetails",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("CopiDetails","FC9B8D2E-9EE3-436F-AF08-A774AF04D678",_objectFactory.GetGridRPP("CopiDetails"),_elementBase.GetGridLoopQuery("FC9B8D2E-9EE3-436F-AF08-A774AF04D678","CopiDetails",true,ref ISpace), ref ISpace);
 
 ISpace["Message"].Value=@"Success:Deleted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:Deleted Successfully"";");
@@ -2432,7 +2468,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result46a77cd670de6252e1d62429032e267f=acdataIspaceB3A493374C4B42EC9F9B1C4C8B4E2E13.GetQueryExpressionBindings("46a77cd6-70de-6252-e1d6-2429032e267f");
 iSpace.SetGridData(result18f009fa842f90cf5d3c5263dc607c23,result46a77cd670de6252e1d62429032e267f,"RequiredDocuments",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("RequiredDocuments","A3BB2140-4053-4558-9363-3BA1B526BD0A",_objectFactory.GetGridRPP("RequiredDocuments"),_elementBase.GetGridLoopQuery("A3BB2140-4053-4558-9363-3BA1B526BD0A","RequiredDocuments",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("RequiredDocuments","A3BB2140-4053-4558-9363-3BA1B526BD0A",_objectFactory.GetGridRPP("RequiredDocuments"),_elementBase.GetGridLoopQuery("A3BB2140-4053-4558-9363-3BA1B526BD0A","RequiredDocuments",true,ref ISpace), ref ISpace);
 
 }
 catch(Exception ex)
@@ -2587,7 +2623,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result803558a97e53bd55f2b553d65d8b0305=acdataIspaceF692D0262B48418C9285DBD42DAC5F26.GetQueryExpressionBindings("803558a9-7e53-bd55-f2b5-53d65d8b0305");
 iSpace.SetGridData(result5c6a584da4e2b467f6c2c66f0c409f6c,result803558a97e53bd55f2b553d65d8b0305,"MG_Comments",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","99ae5d17-b4b2-d238-11a3-a33c1b7f516b",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("99ae5d17-b4b2-d238-11a3-a33c1b7f516b","MG_Comments",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","99ae5d17-b4b2-d238-11a3-a33c1b7f516b",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("99ae5d17-b4b2-d238-11a3-a33c1b7f516b","MG_Comments",true,ref ISpace), ref ISpace);
 
 }
 ISpace["Comments"].Value="";
@@ -2627,7 +2663,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result803558a97e53bd55f2b553d65d8b0305=acdataIspaceF692D0262B48418C9285DBD42DAC5F26.GetQueryExpressionBindings("803558a9-7e53-bd55-f2b5-53d65d8b0305");
 iSpace.SetGridData(result5c6a584da4e2b467f6c2c66f0c409f6c,result803558a97e53bd55f2b553d65d8b0305,"MG_Comments",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","99ae5d17-b4b2-d238-11a3-a33c1b7f516b",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("99ae5d17-b4b2-d238-11a3-a33c1b7f516b","MG_Comments",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","99ae5d17-b4b2-d238-11a3-a33c1b7f516b",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("99ae5d17-b4b2-d238-11a3-a33c1b7f516b","MG_Comments",true,ref ISpace), ref ISpace);
 
 }
 }
@@ -2889,7 +2925,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result803558a97e53bd55f2b553d65d8b0305=acdataIspace2D400E54E6D143C798243831B9AD8F32.GetQueryExpressionBindings("803558a9-7e53-bd55-f2b5-53d65d8b0305");
 iSpace.SetGridData(result5c6a584da4e2b467f6c2c66f0c409f6c,result803558a97e53bd55f2b553d65d8b0305,"MG_Comments",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","99ae5d17-b4b2-d238-11a3-a33c1b7f516b",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("99ae5d17-b4b2-d238-11a3-a33c1b7f516b","MG_Comments",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","99ae5d17-b4b2-d238-11a3-a33c1b7f516b",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("99ae5d17-b4b2-d238-11a3-a33c1b7f516b","MG_Comments",true,ref ISpace), ref ISpace);
 
 }
 ISpace["Comments"].Value="";
@@ -2947,7 +2983,7 @@ base.WriteDebugInfo(@"EXEC [AddFormGridDataFC9B8D2E-9EE3-436F-AF08-A774AF04D678]
 
 List<Triplet<string, short, short?>> result2FAC01E585404425AD0142973E87B3C5=acdataIspace2D400E54E6D143C798243831B9AD8F32.GetQueryExpressionBindings("2FAC01E5-8540-4425-AD01-42973E87B3C5");
 iSpace.SetGridData(result6C11211E63544E6499A1D591D85CCC41,result2FAC01E585404425AD0142973E87B3C5,"CopiDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("CopiDetails","FC9B8D2E-9EE3-436F-AF08-A774AF04D678",_objectFactory.GetGridRPP("CopiDetails"),_elementBase.GetGridLoopQuery("FC9B8D2E-9EE3-436F-AF08-A774AF04D678","CopiDetails",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("CopiDetails","FC9B8D2E-9EE3-436F-AF08-A774AF04D678",_objectFactory.GetGridRPP("CopiDetails"),_elementBase.GetGridLoopQuery("FC9B8D2E-9EE3-436F-AF08-A774AF04D678","CopiDetails",true,ref ISpace), ref ISpace);
 
 }
 else
@@ -2965,7 +3001,7 @@ base.WriteDebugInfo(@"EXEC [UpdateFormGridDataFC9B8D2E-9EE3-436F-AF08-A774AF04D6
 
 List<Triplet<string, short, short?>> resultBE604E66309D4989879C431B3984B4B4=acdataIspace2D400E54E6D143C798243831B9AD8F32.GetQueryExpressionBindings("BE604E66-309D-4989-879C-431B3984B4B4");
 iSpace.SetGridData(result401A9D348FD64AD08D6DBFDA8D331663,resultBE604E66309D4989879C431B3984B4B4,"CopiDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("CopiDetails","FC9B8D2E-9EE3-436F-AF08-A774AF04D678",_objectFactory.GetGridRPP("CopiDetails"),_elementBase.GetGridLoopQuery("FC9B8D2E-9EE3-436F-AF08-A774AF04D678","CopiDetails",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("CopiDetails","FC9B8D2E-9EE3-436F-AF08-A774AF04D678",_objectFactory.GetGridRPP("CopiDetails"),_elementBase.GetGridLoopQuery("FC9B8D2E-9EE3-436F-AF08-A774AF04D678","CopiDetails",true,ref ISpace), ref ISpace);
 
 }
 ISpace["growid"].Value="";
@@ -3034,7 +3070,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> resulte94499bc4a5f3d1caf8ae6389d08f460=acdataIspace2D400E54E6D143C798243831B9AD8F32.GetQueryExpressionBindings("e94499bc-4a5f-3d1c-af8a-e6389d08f460");
 iSpace.SetGridData(result46a6879a4dfd54d138c96438be62af60,resulte94499bc4a5f3d1caf8ae6389d08f460,"CopiDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("CopiDetails","FC9B8D2E-9EE3-436F-AF08-A774AF04D678",_objectFactory.GetGridRPP("CopiDetails"),_elementBase.GetGridLoopQuery("FC9B8D2E-9EE3-436F-AF08-A774AF04D678","CopiDetails",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("CopiDetails","FC9B8D2E-9EE3-436F-AF08-A774AF04D678",_objectFactory.GetGridRPP("CopiDetails"),_elementBase.GetGridLoopQuery("FC9B8D2E-9EE3-436F-AF08-A774AF04D678","CopiDetails",true,ref ISpace), ref ISpace);
 
 ISpace["Message"].Value=@"Success:Deleted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:Deleted Successfully"";");
@@ -3173,7 +3209,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result803558a97e53bd55f2b553d65d8b0305=acdataIspace2D400E54E6D143C798243831B9AD8F32.GetQueryExpressionBindings("803558a9-7e53-bd55-f2b5-53d65d8b0305");
 iSpace.SetGridData(result5c6a584da4e2b467f6c2c66f0c409f6c,result803558a97e53bd55f2b553d65d8b0305,"MG_Comments",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","99ae5d17-b4b2-d238-11a3-a33c1b7f516b",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("99ae5d17-b4b2-d238-11a3-a33c1b7f516b","MG_Comments",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","99ae5d17-b4b2-d238-11a3-a33c1b7f516b",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("99ae5d17-b4b2-d238-11a3-a33c1b7f516b","MG_Comments",true,ref ISpace), ref ISpace);
 
 }
 }
@@ -3618,7 +3654,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result46a77cd670de6252e1d62429032e267f=acdataIspace2D400E54E6D143C798243831B9AD8F32.GetQueryExpressionBindings("46a77cd6-70de-6252-e1d6-2429032e267f");
 iSpace.SetGridData(result18f009fa842f90cf5d3c5263dc607c23,result46a77cd670de6252e1d62429032e267f,"RequiredDocuments",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("RequiredDocuments","A3BB2140-4053-4558-9363-3BA1B526BD0A",_objectFactory.GetGridRPP("RequiredDocuments"),_elementBase.GetGridLoopQuery("A3BB2140-4053-4558-9363-3BA1B526BD0A","RequiredDocuments",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("RequiredDocuments","A3BB2140-4053-4558-9363-3BA1B526BD0A",_objectFactory.GetGridRPP("RequiredDocuments"),_elementBase.GetGridLoopQuery("A3BB2140-4053-4558-9363-3BA1B526BD0A","RequiredDocuments",true,ref ISpace), ref ISpace);
 
 }
 catch(Exception ex)
@@ -3769,7 +3805,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result803558a97e53bd55f2b553d65d8b0305=acdataIspace6d06ae9bb5873c74a7473b1063ed2f0d.GetQueryExpressionBindings("803558a9-7e53-bd55-f2b5-53d65d8b0305");
 iSpace.SetGridData(result5c6a584da4e2b467f6c2c66f0c409f6c,result803558a97e53bd55f2b553d65d8b0305,"MG_Comments",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","99ae5d17-b4b2-d238-11a3-a33c1b7f516b",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("99ae5d17-b4b2-d238-11a3-a33c1b7f516b","MG_Comments",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","99ae5d17-b4b2-d238-11a3-a33c1b7f516b",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("99ae5d17-b4b2-d238-11a3-a33c1b7f516b","MG_Comments",true,ref ISpace), ref ISpace);
 
 }
 }
@@ -3805,7 +3841,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result803558a97e53bd55f2b553d65d8b0305=acdataIspace6d06ae9bb5873c74a7473b1063ed2f0d.GetQueryExpressionBindings("803558a9-7e53-bd55-f2b5-53d65d8b0305");
 iSpace.SetGridData(result5c6a584da4e2b467f6c2c66f0c409f6c,result803558a97e53bd55f2b553d65d8b0305,"MG_Comments",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","99ae5d17-b4b2-d238-11a3-a33c1b7f516b",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("99ae5d17-b4b2-d238-11a3-a33c1b7f516b","MG_Comments",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","99ae5d17-b4b2-d238-11a3-a33c1b7f516b",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("99ae5d17-b4b2-d238-11a3-a33c1b7f516b","MG_Comments",true,ref ISpace), ref ISpace);
 
 }
 }

@@ -14,6 +14,6 @@ namespace CPS.Proof.DFSExtension
         string GetInsertGridDataQuery(string instanceId, string packageProcessMapId, string processActivityMapId,
           string formId, long usermapid, string formJsonData);
 
-        string GetGridLoopQuery(string gridId, string gridName,ref Dictionary<string, ServiceElementData> gridData);
+        string GetGridLoopQuery(string gridId, string gridName,bool isGridReset,ref Dictionary<string, ServiceElementData> gridData);
     }
 }

@@ -910,7 +910,7 @@ namespace CPS.Proof.DFSExtension
       }
 
 
-      public override string GetGridLoopQuery(string gridId,string gridName,ref Dictionary<string,ServiceElementData> gridData)
+      public override string GetGridLoopQuery(string gridId,string gridName,bool IsGridReset,ref Dictionary<string,ServiceElementData> gridData)
         {
             _sysLog.Debug("Entering GetGridLoopQuery");
 
@@ -930,6 +930,8 @@ namespace CPS.Proof.DFSExtension
 
                 string bulkInsertQuery = string.Empty;
 
+                string deleteQuery=string.Empty;
+
                 string instanceId = gridData["InstanceId"].Value;
 
                  if (string.IsNullOrEmpty(instanceId))
@@ -942,6 +944,8 @@ namespace CPS.Proof.DFSExtension
                 string processActivityMapId = gridData["gv_activitymapid"].Value;
 
              
+
+             
                 switch (gridId)
                 {
                      
@@ -949,6 +953,11 @@ namespace CPS.Proof.DFSExtension
                                          case "BDF7896C-4676-4008-BC64-2C45896293B5":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [BDF7896C-4676-4008-BC64-2C45896293B5] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_BDF7896C46764008BC642C45896293B5 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MGG_V1_ProjectDetailsID] VARCHAR(MAX)	, [MGG_V1_ProjectNo] VARCHAR(MAX)	, [MGG_V1_Department] VARCHAR(MAX)	, [MGG_V1_PI] VARCHAR(MAX)	, [MGG_V1_CoPI] VARCHAR(MAX)	, [MGG_V1_ProjectType] VARCHAR(MAX)	, [MGG_V1_Agency] VARCHAR(MAX)	, [MGG_V1_StartDate] DATETIME	, [MGG_V1_EndDate] DATETIME	, [MGG_V1_Duration] VARCHAR(MAX)	, [MGG_V1_FinancialYear] VARCHAR(MAX)	, [MGG_V1_SanctionedValue] DECIMAL(18,2)	, [MGG_V1_Type] VARCHAR(MAX)){0}INSERT INTO [BDF7896C-4676-4008-BC64-2C45896293B5](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MGG_V1_ProjectDetailsID,MGG_V1_ProjectNo,MGG_V1_Department,MGG_V1_PI,MGG_V1_CoPI,MGG_V1_ProjectType,MGG_V1_Agency,MGG_V1_StartDate,MGG_V1_EndDate,MGG_V1_Duration,MGG_V1_FinancialYear,MGG_V1_SanctionedValue,MGG_V1_Type)
@@ -1015,6 +1024,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -1064,6 +1074,11 @@ namespace CPS.Proof.DFSExtension
                                               case "23d626be-34a2-1938-8ea1-8cb78d7f1be0":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [23d626be-34a2-1938-8ea1-8cb78d7f1be0] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_23d626be34a219388ea18cb78d7f1be0 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PD_V1_ProjectDetailsID] VARCHAR(MAX)	, [PD_V1_ProjectNo] VARCHAR(MAX)	, [PD_V1_Department] VARCHAR(MAX)	, [PD_V1_PI] VARCHAR(MAX)	, [PD_V1_CoPI] VARCHAR(MAX)	, [PD_V1_ProjectType] VARCHAR(MAX)	, [PD_V1_Agency] VARCHAR(MAX)	, [PD_V1_FinancialYear] VARCHAR(MAX)	, [PD_V1_SanctionedValue] DECIMAL(18,2)	, [PD_V1_Type] VARCHAR(MAX)){0}INSERT INTO [23d626be-34a2-1938-8ea1-8cb78d7f1be0](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PD_V1_ProjectDetailsID,PD_V1_ProjectNo,PD_V1_Department,PD_V1_PI,PD_V1_CoPI,PD_V1_ProjectType,PD_V1_Agency,PD_V1_FinancialYear,PD_V1_SanctionedValue,PD_V1_Type)
@@ -1130,6 +1145,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -1179,6 +1195,11 @@ namespace CPS.Proof.DFSExtension
                                               case "0429d560-d100-3a28-bdfd-bd0143de5ba7":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [0429d560-d100-3a28-bdfd-bd0143de5ba7] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_0429d560d1003a28bdfdbd0143de5ba7 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PP_ProjectDetailsID] VARCHAR(MAX)	, [PP_ProjectNo] VARCHAR(MAX)	, [PP_Department] VARCHAR(MAX)	, [PP_PI] VARCHAR(MAX)	, [PP_CoPI] VARCHAR(MAX)	, [PP_ProjectType] VARCHAR(MAX)	, [PP_Agency] VARCHAR(MAX)	, [PP_FinancialYear] VARCHAR(MAX)	, [PP_SanctionedValue] DECIMAL(18,2)	, [PP_Type] VARCHAR(MAX)){0}INSERT INTO [0429d560-d100-3a28-bdfd-bd0143de5ba7](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PP_ProjectDetailsID,PP_ProjectNo,PP_Department,PP_PI,PP_CoPI,PP_ProjectType,PP_Agency,PP_FinancialYear,PP_SanctionedValue,PP_Type)
@@ -1245,6 +1266,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -1294,6 +1316,14 @@ namespace CPS.Proof.DFSExtension
                                           }
                        
                 bulkInsertQuery = string.Format(gInsertQuery, bulkInsertQuery);
+
+                if(IsGridReset)
+                {
+                    //Delete Existing Records of InstanceId
+                    deleteQuery=string.Format(deleteQuery, instanceId); 
+
+                    bulkInsertQuery=deleteQuery+"\n\n"+bulkInsertQuery;
+                }
 
                 return bulkInsertQuery;
 
@@ -1390,7 +1420,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result4173c13929717f559c2bebe2d5b9617c=acdataIspace34CF8FAF7574478F9C4AA65F98E4D18A.GetQueryExpressionBindings("4173c139-2971-7f55-9c2b-ebe2d5b9617c");
 iSpace.SetGridData(result4967d2ab4f5d45e71f44a1f300508733,result4173c13929717f559c2bebe2d5b9617c,"MG_ProjectProposalDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_ProjectProposalDetails","0429d560-d100-3a28-bdfd-bd0143de5ba7",_objectFactory.GetGridRPP("MG_ProjectProposalDetails"),_elementBase.GetGridLoopQuery("0429d560-d100-3a28-bdfd-bd0143de5ba7","MG_ProjectProposalDetails",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_ProjectProposalDetails","0429d560-d100-3a28-bdfd-bd0143de5ba7",_objectFactory.GetGridRPP("MG_ProjectProposalDetails"),_elementBase.GetGridLoopQuery("0429d560-d100-3a28-bdfd-bd0143de5ba7","MG_ProjectProposalDetails",true,ref ISpace), ref ISpace);
 
 }
 if(1==1)
@@ -1408,7 +1438,7 @@ base.WriteDebugInfo(@"EXEC dbo.[Get_bccb6bb6-39f0-4863-8a17-2efdffe2a45b_FilterD
 
 List<Triplet<string, short, short?>> result28E58773E71A46B18591A5E00111B3CB=acdataIspace34CF8FAF7574478F9C4AA65F98E4D18A.GetQueryExpressionBindings("28E58773-E71A-46B1-8591-A5E00111B3CB");
 iSpace.SetGridData(resultDE7234F0989946C58758427FAF6AEB5A,result28E58773E71A46B18591A5E00111B3CB,"ProjectListActiveProjectspr",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ProjectListActiveProjectspr","BDF7896C-4676-4008-BC64-2C45896293B5",_objectFactory.GetGridRPP("ProjectListActiveProjectspr"),_elementBase.GetGridLoopQuery("BDF7896C-4676-4008-BC64-2C45896293B5","ProjectListActiveProjectspr",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ProjectListActiveProjectspr","BDF7896C-4676-4008-BC64-2C45896293B5",_objectFactory.GetGridRPP("ProjectListActiveProjectspr"),_elementBase.GetGridLoopQuery("BDF7896C-4676-4008-BC64-2C45896293B5","ProjectListActiveProjectspr",true,ref ISpace), ref ISpace);
 
 }
 }
@@ -1481,7 +1511,7 @@ base.WriteDebugInfo(@"EXEC dbo.[Get_bccb6bb6-39f0-4863-8a17-2efdffe2a45b_FilterD
 
 List<Triplet<string, short, short?>> result28E58773E71A46B18591A5E00111B3CB=acdataIspace34CF8FAF7574478F9C4AA65F98E4D18A.GetQueryExpressionBindings("28E58773-E71A-46B1-8591-A5E00111B3CB");
 iSpace.SetGridData(resultDE7234F0989946C58758427FAF6AEB5A,result28E58773E71A46B18591A5E00111B3CB,"ProjectListActiveProjectspr",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ProjectListActiveProjectspr","BDF7896C-4676-4008-BC64-2C45896293B5",_objectFactory.GetGridRPP("ProjectListActiveProjectspr"),_elementBase.GetGridLoopQuery("BDF7896C-4676-4008-BC64-2C45896293B5","ProjectListActiveProjectspr",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ProjectListActiveProjectspr","BDF7896C-4676-4008-BC64-2C45896293B5",_objectFactory.GetGridRPP("ProjectListActiveProjectspr"),_elementBase.GetGridLoopQuery("BDF7896C-4676-4008-BC64-2C45896293B5","ProjectListActiveProjectspr",true,ref ISpace), ref ISpace);
 
 }
 }
@@ -1511,7 +1541,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result4173c13929717f559c2bebe2d5b9617c=acdataIspace34CF8FAF7574478F9C4AA65F98E4D18A.GetQueryExpressionBindings("4173c139-2971-7f55-9c2b-ebe2d5b9617c");
 iSpace.SetGridData(result4967d2ab4f5d45e71f44a1f300508733,result4173c13929717f559c2bebe2d5b9617c,"MG_ProjectProposalDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_ProjectProposalDetails","0429d560-d100-3a28-bdfd-bd0143de5ba7",_objectFactory.GetGridRPP("MG_ProjectProposalDetails"),_elementBase.GetGridLoopQuery("0429d560-d100-3a28-bdfd-bd0143de5ba7","MG_ProjectProposalDetails",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_ProjectProposalDetails","0429d560-d100-3a28-bdfd-bd0143de5ba7",_objectFactory.GetGridRPP("MG_ProjectProposalDetails"),_elementBase.GetGridLoopQuery("0429d560-d100-3a28-bdfd-bd0143de5ba7","MG_ProjectProposalDetails",true,ref ISpace), ref ISpace);
 
 }
 }
@@ -1541,7 +1571,7 @@ base.WriteDebugInfo(@"EXEC dbo.[Get_bccb6bb6-39f0-4863-8a17-2efdffe2a45b_FilterD
 
 List<Triplet<string, short, short?>> result28E58773E71A46B18591A5E00111B3CB=acdataIspace34CF8FAF7574478F9C4AA65F98E4D18A.GetQueryExpressionBindings("28E58773-E71A-46B1-8591-A5E00111B3CB");
 iSpace.SetGridData(resultDE7234F0989946C58758427FAF6AEB5A,result28E58773E71A46B18591A5E00111B3CB,"ProjectListActiveProjectspr",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ProjectListActiveProjectspr","BDF7896C-4676-4008-BC64-2C45896293B5",_objectFactory.GetGridRPP("ProjectListActiveProjectspr"),_elementBase.GetGridLoopQuery("BDF7896C-4676-4008-BC64-2C45896293B5","ProjectListActiveProjectspr",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ProjectListActiveProjectspr","BDF7896C-4676-4008-BC64-2C45896293B5",_objectFactory.GetGridRPP("ProjectListActiveProjectspr"),_elementBase.GetGridLoopQuery("BDF7896C-4676-4008-BC64-2C45896293B5","ProjectListActiveProjectspr",true,ref ISpace), ref ISpace);
 
 }
 }
@@ -1685,7 +1715,7 @@ base.WriteDebugInfo(@"EXEC dbo.[Get_bccb6bb6-39f0-4863-8a17-2efdffe2a45b_FilterD
 
 List<Triplet<string, short, short?>> result28E58773E71A46B18591A5E00111B3CB=acdataIspace34CF8FAF7574478F9C4AA65F98E4D18A.GetQueryExpressionBindings("28E58773-E71A-46B1-8591-A5E00111B3CB");
 iSpace.SetGridData(resultDE7234F0989946C58758427FAF6AEB5A,result28E58773E71A46B18591A5E00111B3CB,"ProjectListActiveProjectspr",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ProjectListActiveProjectspr","BDF7896C-4676-4008-BC64-2C45896293B5",_objectFactory.GetGridRPP("ProjectListActiveProjectspr"),_elementBase.GetGridLoopQuery("BDF7896C-4676-4008-BC64-2C45896293B5","ProjectListActiveProjectspr",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ProjectListActiveProjectspr","BDF7896C-4676-4008-BC64-2C45896293B5",_objectFactory.GetGridRPP("ProjectListActiveProjectspr"),_elementBase.GetGridLoopQuery("BDF7896C-4676-4008-BC64-2C45896293B5","ProjectListActiveProjectspr",true,ref ISpace), ref ISpace);
 
 }
 }

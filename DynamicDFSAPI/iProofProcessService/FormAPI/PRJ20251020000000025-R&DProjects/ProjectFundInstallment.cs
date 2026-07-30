@@ -164,6 +164,10 @@ namespace CPS.Proof.DFSExtension
 												     @"028B1EFF-34A8-4D44-BF39-06CE99DF7C67"),
 			
 						
+			     new Triplet<string, string, string>("890e9a4b-157c-db47-4f5b-025f0fd80618","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
+			
+						
 			     new Triplet<string, string, string>("e295028a-d1f0-7017-ff24-c1d15fcd3358","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
@@ -214,6 +218,10 @@ namespace CPS.Proof.DFSExtension
 						
 			     new Triplet<string, string, string>("ad23dc32-a105-830d-1795-05cba6194988","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
 												     @"24F5D845-D560-4FC1-B284-00FB19DFB96F"),
+			
+						
+			     new Triplet<string, string, string>("ee555d56-8a7b-50b2-647d-efb98c63a436","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
+												     @"3A103712-5244-4427-B2B6-1C4E046FD337"),
 			
 						
 			     new Triplet<string, string, string>("EE2E79C5-4A8F-4AC1-A64E-6FCFA533D02D","C3BEA3AF-C9B7-4DEA-AE35-EA1C626191C0",
@@ -1276,7 +1284,7 @@ namespace CPS.Proof.DFSExtension
       }
 
 
-      public override string GetGridLoopQuery(string gridId,string gridName,ref Dictionary<string,ServiceElementData> gridData)
+      public override string GetGridLoopQuery(string gridId,string gridName,bool IsGridReset,ref Dictionary<string,ServiceElementData> gridData)
         {
             _sysLog.Debug("Entering GetGridLoopQuery");
 
@@ -1296,6 +1304,8 @@ namespace CPS.Proof.DFSExtension
 
                 string bulkInsertQuery = string.Empty;
 
+                string deleteQuery=string.Empty;
+
                 string instanceId = gridData["InstanceId"].Value;
 
                  if (string.IsNullOrEmpty(instanceId))
@@ -1308,6 +1318,8 @@ namespace CPS.Proof.DFSExtension
                 string processActivityMapId = gridData["gv_activitymapid"].Value;
 
              
+
+             
                 switch (gridId)
                 {
                      
@@ -1315,6 +1327,11 @@ namespace CPS.Proof.DFSExtension
                                          case "9A0E4095-1BE8-44D4-97FB-822ADA862E58":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [9A0E4095-1BE8-44D4-97FB-822ADA862E58] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_9A0E40951BE844D497FB822ADA862E58 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [A_BudgetID] INT	, [A_OverallSantionedAmount] DECIMAL(18,2)	, [MG_AvailableAmount] DECIMAL(18,2)	, [A_BudgetClaimedAmount] DECIMAL(18,2)	, [A_BudgetName] VARCHAR(MAX)){0}INSERT INTO [9A0E4095-1BE8-44D4-97FB-822ADA862E58](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,A_BudgetID,A_OverallSantionedAmount,MG_AvailableAmount,A_BudgetClaimedAmount,A_BudgetName)
@@ -1381,6 +1398,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -1430,6 +1448,11 @@ namespace CPS.Proof.DFSExtension
                                               case "C2287754-790E-4853-A5A7-64772676D00E":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [C2287754-790E-4853-A5A7-64772676D00E] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_C2287754790E4853A5A764772676D00E AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [M_DocumentDetailsId] VARCHAR(MAX)	, [M_DocumentName] VARCHAR(MAX)	, [M_UploadDcoument] VARCHAR(36)){0}INSERT INTO [C2287754-790E-4853-A5A7-64772676D00E](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,M_DocumentDetailsId,M_DocumentName,M_UploadDcoument)
@@ -1496,6 +1519,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -1545,6 +1569,11 @@ namespace CPS.Proof.DFSExtension
                                               case "8B4BCD21-9BD3-4278-AA2C-99F30B18BC32":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [8B4BCD21-9BD3-4278-AA2C-99F30B18BC32] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_8B4BCD219BD34278AA2C99F30B18BC32 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [UserName] VARCHAR(MAX)	, [ActivityName] VARCHAR(MAX)	, [Remarks] VARCHAR(MAX)	, [RemarksId] VARCHAR(MAX)	, [DateOfRemarks] DATETIME){0}INSERT INTO [8B4BCD21-9BD3-4278-AA2C-99F30B18BC32](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,UserName,ActivityName,Remarks,RemarksId,DateOfRemarks)
@@ -1611,6 +1640,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -1660,6 +1690,11 @@ namespace CPS.Proof.DFSExtension
                                               case "97c72782-b716-b2cd-caba-bef246e1dab6":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [97c72782-b716-b2cd-caba-bef246e1dab6] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_97c72782b716b2cdcababef246e1dab6 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [97c72782-b716-b2cd-caba-bef246e1dab6](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
@@ -1726,6 +1761,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -1775,6 +1811,11 @@ namespace CPS.Proof.DFSExtension
                                               case "249EF445-9B49-4EF9-8045-46BD1E6FF8ED":
                     {
                      
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] WHERE InstanceId='{0}';";
+
+                           
+
                             gInsertQuery=@"
 		
 		DECLARE  @TBL_249EF4459B494EF9804546BD1E6FF8ED AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_R2_ReceiptsId] VARCHAR(MAX)	, [MG_R2_ReceiptSplitUpId] VARCHAR(MAX)	, [MG_R2_UpdatedBy] INT	, [MG_R2_Amount] DECIMAL(18,2)	, [MG_R2_BudgetId] VARCHAR(250)	, [MG_R2_UpdatedOn] DATETIME){0}INSERT INTO [249EF445-9B49-4EF9-8045-46BD1E6FF8ED](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)
@@ -1841,6 +1882,7 @@ namespace CPS.Proof.DFSExtension
                                     foreach (var gridrow in gridChild.Child)
                                     {
 
+                                     
                                         if (gridrow.ElementName == gcol)
                                         {
                                             isFound = true;
@@ -1890,6 +1932,14 @@ namespace CPS.Proof.DFSExtension
                                           }
                        
                 bulkInsertQuery = string.Format(gInsertQuery, bulkInsertQuery);
+
+                if(IsGridReset)
+                {
+                    //Delete Existing Records of InstanceId
+                    deleteQuery=string.Format(deleteQuery, instanceId); 
+
+                    bulkInsertQuery=deleteQuery+"\n\n"+bulkInsertQuery;
+                }
 
                 return bulkInsertQuery;
 
@@ -2213,6 +2263,26 @@ base.WriteDebugInfo(@"
 ISpace[""RedirectUrl""].RedirectType=""R"";
 ISpace[""RedirectUrl""].Value=""?PkActMId=391EB18F-A1B6-490F-B60C-D4572FE018AB&frmElementId=CB38069E-44DE-463F-BAA6-6EA818E0CA3F&PkPrMId=1C5D271E-9D4D-47A4-8622-C1DBD65C0B6A&formVersionId=F663CD0F-3CCA-46BE-86C9-2DA22AE05E9F&Ver=0.0000"";");
 }
+if(1==1)
+{
+base.WriteDebugInfo(@"if(1==1)");
+base.WriteDebugInfo(@"EXEC [UpsertProjectBudgetDetails] 4,'@@gv_InstanceId'");
+
+var querySourceee555d568a7b50b2647defb98c63a436 =GetQueryExpressionDataSource("ee555d56-8a7b-50b2-647d-efb98c63a436");
+Dictionary<short,object> resultee555d568a7b50b2647defb98c63a436=iSpace.ExecuteQuery(querySourceee555d568a7b50b2647defb98c63a436,@"EXEC [UpsertProjectBudgetDetails] 4,'" + ISpace["gv_instanceid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySourceee555d568a7b50b2647defb98c63a436 =GetQueryExpressionDataSource(""ee555d56-8a7b-50b2-647d-efb98c63a436"");Dictionary<short,object> resultee555d568a7b50b2647defb98c63a436=iSpace.ExecuteQuery(querySourceee555d568a7b50b2647defb98c63a436,@""EXEC [UpsertProjectBudgetDetails] 4,'"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((resultee555d568a7b50b2647defb98c63a436!=null) && (resultee555d568a7b50b2647defb98c63a436.Count!=0))
+{
+if(resultee555d568a7b50b2647defb98c63a436.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = resultee555d568a7b50b2647defb98c63a436[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+}
 }
 catch(Exception ex)
 {
@@ -2438,7 +2508,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result7383DEAC014B4719858E5F2EDC911594=acdataIspaceDDBF52926EF44C37B72AE6DCFFBF7B02.GetQueryExpressionBindings("7383DEAC-014B-4719-858E-5F2EDC911594");
 iSpace.SetGridData(resultEE2E79C54A8F4AC1A64E6FCFA533D02D,result7383DEAC014B4719858E5F2EDC911594,"AvailableBudgetHeadAmount",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("AvailableBudgetHeadAmount","9A0E4095-1BE8-44D4-97FB-822ADA862E58",_objectFactory.GetGridRPP("AvailableBudgetHeadAmount"),_elementBase.GetGridLoopQuery("9A0E4095-1BE8-44D4-97FB-822ADA862E58","AvailableBudgetHeadAmount",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("AvailableBudgetHeadAmount","9A0E4095-1BE8-44D4-97FB-822ADA862E58",_objectFactory.GetGridRPP("AvailableBudgetHeadAmount"),_elementBase.GetGridLoopQuery("9A0E4095-1BE8-44D4-97FB-822ADA862E58","AvailableBudgetHeadAmount",true,ref ISpace), ref ISpace);
 
 }
 ISpace["MF_P1_ReceiptAmount"].Enbl="true";
@@ -2550,7 +2620,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result17C8E5FF5228497B8E83DEEEFF92F497=acdataIspaceDDBF52926EF44C37B72AE6DCFFBF7B02.GetQueryExpressionBindings("17C8E5FF-5228-497B-8E83-DEEEFF92F497");
 iSpace.SetGridData(result658407BFCBFF443BAA604C126BC8B3CE,result17C8E5FF5228497B8E83DEEEFF92F497,"ReceiptSplitUp",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",true,ref ISpace), ref ISpace);
 
 object MG_R2_Amount=iSpace.Sum("[249EF445-9B49-4EF9-8045-46BD1E6FF8ED]","MG_R2_Amount","",ISpace["gv_instanceid"].Value);
 ISpace["R_TotalSplitUpAmount"].Value=Convert.ChangeType(MG_R2_Amount, MG_R2_Amount.GetType());;
@@ -2828,7 +2898,7 @@ base.WriteDebugInfo(@"EXEC AddFormGridDatacc29fcb5b804498f8b8407ad780fb5af '@@gv
 
 List<Triplet<string, short, short?>> result68E47F7523D14580ABFCB23D3E6D49FF=acdataIspaceDDBF52926EF44C37B72AE6DCFFBF7B02.GetQueryExpressionBindings("68E47F75-23D1-4580-ABFC-B23D3E6D49FF");
 iSpace.SetGridData(result490A453A68524615B83B173BC38F190B,result68E47F7523D14580ABFCB23D3E6D49FF,"ReceiptSplitUp",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",true,ref ISpace), ref ISpace);
 
 }
 else
@@ -2846,7 +2916,7 @@ base.WriteDebugInfo(@"EXEC UpdateFormGridDatacc29fcb5b804498f8b8407ad780fb5af '@
 
 List<Triplet<string, short, short?>> resultCA26392720D64C629E9F015B3ED8015D=acdataIspaceDDBF52926EF44C37B72AE6DCFFBF7B02.GetQueryExpressionBindings("CA263927-20D6-4C62-9E9F-015B3ED8015D");
 iSpace.SetGridData(resultC102915BAF5144F9A85E2C1A53654BCF,resultCA26392720D64C629E9F015B3ED8015D,"ReceiptSplitUp",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",true,ref ISpace), ref ISpace);
 
 }
 object MG_R2_Amount=iSpace.Sum("[249EF445-9B49-4EF9-8045-46BD1E6FF8ED]","MG_R2_Amount","",ISpace["gv_instanceid"].Value);
@@ -3122,7 +3192,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result4ACD680C9EAE4FDBA4A3FC5C4D353701=acdataIspaceFF2ED87620AB4F5DB62B385405DFB900.GetQueryExpressionBindings("4ACD680C-9EAE-4FDB-A4A3-FC5C4D353701");
 iSpace.SetGridData(resultB8A2A58C91CA4FD4B3269652593DD27B,result4ACD680C9EAE4FDBA4A3FC5C4D353701,"MG_RemarksDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_RemarksDetails","8B4BCD21-9BD3-4278-AA2C-99F30B18BC32",_objectFactory.GetGridRPP("MG_RemarksDetails"),_elementBase.GetGridLoopQuery("8B4BCD21-9BD3-4278-AA2C-99F30B18BC32","MG_RemarksDetails",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_RemarksDetails","8B4BCD21-9BD3-4278-AA2C-99F30B18BC32",_objectFactory.GetGridRPP("MG_RemarksDetails"),_elementBase.GetGridLoopQuery("8B4BCD21-9BD3-4278-AA2C-99F30B18BC32","MG_RemarksDetails",true,ref ISpace), ref ISpace);
 
 ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
@@ -3321,7 +3391,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> resultb5b67bd83405b1007a48e1e328275325=acdataIspaceFF2ED87620AB4F5DB62B385405DFB900.GetQueryExpressionBindings("b5b67bd8-3405-b100-7a48-e1e328275325");
 iSpace.SetGridData(resultfc9385e0be8b9893ddc2d81ce337a491,resultb5b67bd83405b1007a48e1e328275325,"MG_Comments",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","97c72782-b716-b2cd-caba-bef246e1dab6",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("97c72782-b716-b2cd-caba-bef246e1dab6","MG_Comments",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","97c72782-b716-b2cd-caba-bef246e1dab6",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("97c72782-b716-b2cd-caba-bef246e1dab6","MG_Comments",true,ref ISpace), ref ISpace);
 
 }
 }
@@ -3513,7 +3583,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result4ACD680C9EAE4FDBA4A3FC5C4D353701=acdataIspace2B40E332984042E38DDC002EAFAA05FA.GetQueryExpressionBindings("4ACD680C-9EAE-4FDB-A4A3-FC5C4D353701");
 iSpace.SetGridData(resultB8A2A58C91CA4FD4B3269652593DD27B,result4ACD680C9EAE4FDBA4A3FC5C4D353701,"MG_RemarksDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_RemarksDetails","8B4BCD21-9BD3-4278-AA2C-99F30B18BC32",_objectFactory.GetGridRPP("MG_RemarksDetails"),_elementBase.GetGridLoopQuery("8B4BCD21-9BD3-4278-AA2C-99F30B18BC32","MG_RemarksDetails",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_RemarksDetails","8B4BCD21-9BD3-4278-AA2C-99F30B18BC32",_objectFactory.GetGridRPP("MG_RemarksDetails"),_elementBase.GetGridLoopQuery("8B4BCD21-9BD3-4278-AA2C-99F30B18BC32","MG_RemarksDetails",true,ref ISpace), ref ISpace);
 
 ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
@@ -3745,6 +3815,26 @@ base.WriteDebugInfo(@"
 ISpace[""RedirectUrl""].RedirectType=""R"";
 ISpace[""RedirectUrl""].Value=""?PkActMId=391EB18F-A1B6-490F-B60C-D4572FE018AB&frmElementId=CB38069E-44DE-463F-BAA6-6EA818E0CA3F&PkPrMId=1C5D271E-9D4D-47A4-8622-C1DBD65C0B6A&formVersionId=F663CD0F-3CCA-46BE-86C9-2DA22AE05E9F&Ver=0.0000"";");
 }
+if(ISpace["M_MoveTo"].Value=="APPROVE")
+{
+base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value==""APPROVE"")");
+base.WriteDebugInfo(@"EXEC [UpsertProjectBudgetDetails] 4,'@@gv_InstanceId'");
+
+var querySource890e9a4b157cdb474f5b025f0fd80618 =GetQueryExpressionDataSource("890e9a4b-157c-db47-4f5b-025f0fd80618");
+Dictionary<short,object> result890e9a4b157cdb474f5b025f0fd80618=iSpace.ExecuteQuery(querySource890e9a4b157cdb474f5b025f0fd80618,@"EXEC [UpsertProjectBudgetDetails] 4,'" + ISpace["gv_instanceid"].Value + @"'",false);
+
+base.WriteDebugInfo(@"var querySource890e9a4b157cdb474f5b025f0fd80618 =GetQueryExpressionDataSource(""890e9a4b-157c-db47-4f5b-025f0fd80618"");Dictionary<short,object> result890e9a4b157cdb474f5b025f0fd80618=iSpace.ExecuteQuery(querySource890e9a4b157cdb474f5b025f0fd80618,@""EXEC [UpsertProjectBudgetDetails] 4,'"" + ISpace[""gv_instanceid""].Value + @""'"",false);");
+base.WriteDebugInfo(@"");
+
+if((result890e9a4b157cdb474f5b025f0fd80618!=null) && (result890e9a4b157cdb474f5b025f0fd80618.Count!=0))
+{
+if(result890e9a4b157cdb474f5b025f0fd80618.ContainsKey(0))
+ISpace["ExecutionMessage"].Value = result890e9a4b157cdb474f5b025f0fd80618[0];
+}
+else{
+ISpace["ExecutionMessage"].Value = null;
+}
+}
 
 ISpace["RedirectUrl"].RedirectType="R";
 ISpace["RedirectUrl"].Value="/Inbox";
@@ -3908,7 +3998,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result7383DEAC014B4719858E5F2EDC911594=acdataIspace2B40E332984042E38DDC002EAFAA05FA.GetQueryExpressionBindings("7383DEAC-014B-4719-858E-5F2EDC911594");
 iSpace.SetGridData(resultEE2E79C54A8F4AC1A64E6FCFA533D02D,result7383DEAC014B4719858E5F2EDC911594,"AvailableBudgetHeadAmount",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("AvailableBudgetHeadAmount","9A0E4095-1BE8-44D4-97FB-822ADA862E58",_objectFactory.GetGridRPP("AvailableBudgetHeadAmount"),_elementBase.GetGridLoopQuery("9A0E4095-1BE8-44D4-97FB-822ADA862E58","AvailableBudgetHeadAmount",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("AvailableBudgetHeadAmount","9A0E4095-1BE8-44D4-97FB-822ADA862E58",_objectFactory.GetGridRPP("AvailableBudgetHeadAmount"),_elementBase.GetGridLoopQuery("9A0E4095-1BE8-44D4-97FB-822ADA862E58","AvailableBudgetHeadAmount",true,ref ISpace), ref ISpace);
 
 }
 ISpace["MF_P1_ReceiptAmount"].Enbl="true";
@@ -4184,7 +4274,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result7383DEAC014B4719858E5F2EDC911594=acdataIspace2B40E332984042E38DDC002EAFAA05FA.GetQueryExpressionBindings("7383DEAC-014B-4719-858E-5F2EDC911594");
 iSpace.SetGridData(resultEE2E79C54A8F4AC1A64E6FCFA533D02D,result7383DEAC014B4719858E5F2EDC911594,"AvailableBudgetHeadAmount",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("AvailableBudgetHeadAmount","9A0E4095-1BE8-44D4-97FB-822ADA862E58",_objectFactory.GetGridRPP("AvailableBudgetHeadAmount"),_elementBase.GetGridLoopQuery("9A0E4095-1BE8-44D4-97FB-822ADA862E58","AvailableBudgetHeadAmount",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("AvailableBudgetHeadAmount","9A0E4095-1BE8-44D4-97FB-822ADA862E58",_objectFactory.GetGridRPP("AvailableBudgetHeadAmount"),_elementBase.GetGridLoopQuery("9A0E4095-1BE8-44D4-97FB-822ADA862E58","AvailableBudgetHeadAmount",true,ref ISpace), ref ISpace);
 
 }
 ISpace["MF_P1_ReceiptAmount"].Enbl="true";
@@ -4252,7 +4342,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result17C8E5FF5228497B8E83DEEEFF92F497=acdataIspace2B40E332984042E38DDC002EAFAA05FA.GetQueryExpressionBindings("17C8E5FF-5228-497B-8E83-DEEEFF92F497");
 iSpace.SetGridData(result658407BFCBFF443BAA604C126BC8B3CE,result17C8E5FF5228497B8E83DEEEFF92F497,"ReceiptSplitUp",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",true,ref ISpace), ref ISpace);
 
 object MG_R2_Amount=iSpace.Sum("[249EF445-9B49-4EF9-8045-46BD1E6FF8ED]","MG_R2_Amount","",ISpace["gv_instanceid"].Value);
 ISpace["R_TotalSplitUpAmount"].Value=Convert.ChangeType(MG_R2_Amount, MG_R2_Amount.GetType());;
@@ -4326,7 +4416,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result17C8E5FF5228497B8E83DEEEFF92F497=acdataIspace2B40E332984042E38DDC002EAFAA05FA.GetQueryExpressionBindings("17C8E5FF-5228-497B-8E83-DEEEFF92F497");
 iSpace.SetGridData(result658407BFCBFF443BAA604C126BC8B3CE,result17C8E5FF5228497B8E83DEEEFF92F497,"ReceiptSplitUp",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",true,ref ISpace), ref ISpace);
 
 object MG_R2_Amount=iSpace.Sum("[249EF445-9B49-4EF9-8045-46BD1E6FF8ED]","MG_R2_Amount","",ISpace["gv_instanceid"].Value);
 ISpace["R_TotalSplitUpAmount"].Value=Convert.ChangeType(MG_R2_Amount, MG_R2_Amount.GetType());;
@@ -4680,7 +4770,7 @@ base.WriteDebugInfo(@"EXEC AddFormGridDatacc29fcb5b804498f8b8407ad780fb5af '@@gv
 
 List<Triplet<string, short, short?>> result68E47F7523D14580ABFCB23D3E6D49FF=acdataIspace2B40E332984042E38DDC002EAFAA05FA.GetQueryExpressionBindings("68E47F75-23D1-4580-ABFC-B23D3E6D49FF");
 iSpace.SetGridData(result490A453A68524615B83B173BC38F190B,result68E47F7523D14580ABFCB23D3E6D49FF,"ReceiptSplitUp",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",true,ref ISpace), ref ISpace);
 
 }
 else
@@ -4698,7 +4788,7 @@ base.WriteDebugInfo(@"EXEC UpdateFormGridDatacc29fcb5b804498f8b8407ad780fb5af '@
 
 List<Triplet<string, short, short?>> resultCA26392720D64C629E9F015B3ED8015D=acdataIspace2B40E332984042E38DDC002EAFAA05FA.GetQueryExpressionBindings("CA263927-20D6-4C62-9E9F-015B3ED8015D");
 iSpace.SetGridData(resultC102915BAF5144F9A85E2C1A53654BCF,resultCA26392720D64C629E9F015B3ED8015D,"ReceiptSplitUp",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ReceiptSplitUp","249EF445-9B49-4EF9-8045-46BD1E6FF8ED",_objectFactory.GetGridRPP("ReceiptSplitUp"),_elementBase.GetGridLoopQuery("249EF445-9B49-4EF9-8045-46BD1E6FF8ED","ReceiptSplitUp",true,ref ISpace), ref ISpace);
 
 }
 object MG_R2_Amount=iSpace.Sum("[249EF445-9B49-4EF9-8045-46BD1E6FF8ED]","MG_R2_Amount","",ISpace["gv_instanceid"].Value);
@@ -4776,7 +4866,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> resultb5b67bd83405b1007a48e1e328275325=acdataIspace2B40E332984042E38DDC002EAFAA05FA.GetQueryExpressionBindings("b5b67bd8-3405-b100-7a48-e1e328275325");
 iSpace.SetGridData(resultfc9385e0be8b9893ddc2d81ce337a491,resultb5b67bd83405b1007a48e1e328275325,"MG_Comments",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","97c72782-b716-b2cd-caba-bef246e1dab6",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("97c72782-b716-b2cd-caba-bef246e1dab6","MG_Comments",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","97c72782-b716-b2cd-caba-bef246e1dab6",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("97c72782-b716-b2cd-caba-bef246e1dab6","MG_Comments",true,ref ISpace), ref ISpace);
 
 }
 }
@@ -5036,7 +5126,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> result4ACD680C9EAE4FDBA4A3FC5C4D353701=acdataIspace537084A67B724CBEA0A2057049686345.GetQueryExpressionBindings("4ACD680C-9EAE-4FDB-A4A3-FC5C4D353701");
 iSpace.SetGridData(resultB8A2A58C91CA4FD4B3269652593DD27B,result4ACD680C9EAE4FDBA4A3FC5C4D353701,"MG_RemarksDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_RemarksDetails","8B4BCD21-9BD3-4278-AA2C-99F30B18BC32",_objectFactory.GetGridRPP("MG_RemarksDetails"),_elementBase.GetGridLoopQuery("8B4BCD21-9BD3-4278-AA2C-99F30B18BC32","MG_RemarksDetails",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_RemarksDetails","8B4BCD21-9BD3-4278-AA2C-99F30B18BC32",_objectFactory.GetGridRPP("MG_RemarksDetails"),_elementBase.GetGridLoopQuery("8B4BCD21-9BD3-4278-AA2C-99F30B18BC32","MG_RemarksDetails",true,ref ISpace), ref ISpace);
 
 ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
@@ -5209,7 +5299,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> resultb5b67bd83405b1007a48e1e328275325=acdataIspace537084A67B724CBEA0A2057049686345.GetQueryExpressionBindings("b5b67bd8-3405-b100-7a48-e1e328275325");
 iSpace.SetGridData(resultfc9385e0be8b9893ddc2d81ce337a491,resultb5b67bd83405b1007a48e1e328275325,"MG_Comments",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","97c72782-b716-b2cd-caba-bef246e1dab6",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("97c72782-b716-b2cd-caba-bef246e1dab6","MG_Comments",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","97c72782-b716-b2cd-caba-bef246e1dab6",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("97c72782-b716-b2cd-caba-bef246e1dab6","MG_Comments",true,ref ISpace), ref ISpace);
 
 }
 }
@@ -5283,7 +5373,7 @@ base.WriteDebugInfo(@"");
 
 List<Triplet<string, short, short?>> resultb5b67bd83405b1007a48e1e328275325=acdataIspace1d2a9754f9d8747f9a216341b89095ab.GetQueryExpressionBindings("b5b67bd8-3405-b100-7a48-e1e328275325");
 iSpace.SetGridData(resultfc9385e0be8b9893ddc2d81ce337a491,resultb5b67bd83405b1007a48e1e328275325,"MG_Comments",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","97c72782-b716-b2cd-caba-bef246e1dab6",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("97c72782-b716-b2cd-caba-bef246e1dab6","MG_Comments",ref ISpace), ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("MG_Comments","97c72782-b716-b2cd-caba-bef246e1dab6",_objectFactory.GetGridRPP("MG_Comments"),_elementBase.GetGridLoopQuery("97c72782-b716-b2cd-caba-bef246e1dab6","MG_Comments",true,ref ISpace), ref ISpace);
 
 }
 if(1==1)
