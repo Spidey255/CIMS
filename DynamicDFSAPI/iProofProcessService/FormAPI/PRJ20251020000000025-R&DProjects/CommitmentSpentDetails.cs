@@ -842,6 +842,12 @@ public class ISpaceC74E1FE0A9E34B09A1846D1DC9CE7B0F : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpaceC74E1FE0A9E34B09A1846D1DC9CE7B0F acdataIspaceC74E1FE0A9E34B09A1846D1DC9CE7B0F=new AcDataISpaceC74E1FE0A9E34B09A1846D1DC9CE7B0F();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -931,6 +937,9 @@ public override void ExecuteMethod
     }
 }
 	if(methodName.ToLower().Equals("onclick"))
+{
+}
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
 {
 }
 }

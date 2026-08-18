@@ -2248,6 +2248,84 @@ public class ISpaceE1B5DCB812784AA0A8B21C0CDE17E77A : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpaceE1B5DCB812784AA0A8B21C0CDE17E77A acdataIspaceE1B5DCB812784AA0A8B21C0CDE17E77A=new AcDataISpaceE1B5DCB812784AA0A8B21C0CDE17E77A();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void equipmentgrid_onafterrowdeleting(ref Dictionary<string, ServiceElementData> ISpace)
+{
+try
+{
+base.WriteDebugInfo(@"EquipmentGrid-OnAfterRowDeleting");
+base.WriteDebugInfo(@"EquipmentGrid-OnAfterRowDeleting");
+object MG_d109_TotalEquipmentcost=iSpace.Sum("[08F73C4A-3B94-4327-8859-B98388D1C9CD]","MG_d109_TotalEquipmentcost","",ISpace["gv_instanceid"].Value);
+ISpace["MF_EquipmentTotal"].Value=Convert.ChangeType(MG_d109_TotalEquipmentcost, MG_d109_TotalEquipmentcost.GetType());;
+base.WriteDebugInfo(@"object MG_d109_TotalEquipmentcost=iSpace.Sum(""[08F73C4A-3B94-4327-8859-B98388D1C9CD]"",""MG_d109_TotalEquipmentcost"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_EquipmentTotal""].Value=Convert.ChangeType(MG_d109_TotalEquipmentcost, MG_d109_TotalEquipmentcost.GetType());;");
+
+var querySource61e7d77340d395e92de5549773196e79 =GetQueryExpressionDataSource("61e7d773-40d3-95e9-2de5-549773196e79");
+
+DataTable result61e7d77340d395e92de5549773196e79=iSpace.SetGridDataSource(querySource61e7d77340d395e92de5549773196e79, _objectFactory.GetGridRPP("EquipmentGrid"),@"EXEC [GetGridData08F73C4A-3B94-4327-8859-B98388D1C9CD] '" + ISpace["gv_instanceid"].Value + @"'");
+
+
+base.WriteDebugInfo(@"var querySource61e7d77340d395e92de5549773196e79 =GetQueryExpressionDataSource(""61e7d773-40d3-95e9-2de5-549773196e79"");DataTable result61e7d77340d395e92de5549773196e79=iSpace.SetGridDataSource(querySource61e7d77340d395e92de5549773196e79, _objectFactory.GetGridRPP(""EquipmentGrid""),@""EXEC [GetGridData08F73C4A-3B94-4327-8859-B98388D1C9CD] '"" + ISpace[""gv_instanceid""].Value + @""'"");");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result83ae6bea5b86be67af2d86bd670877ef=acdataIspaceE1B5DCB812784AA0A8B21C0CDE17E77A.GetQueryExpressionBindings("83ae6bea-5b86-be67-af2d-86bd670877ef");
+iSpace.SetGridData(result61e7d77340d395e92de5549773196e79,result83ae6bea5b86be67af2d86bd670877ef,"EquipmentGrid",ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("EquipmentGrid","08F73C4A-3B94-4327-8859-B98388D1C9CD",_objectFactory.GetGridRPP("EquipmentGrid"),_elementBase.GetGridLoopQuery("08F73C4A-3B94-4327-8859-B98388D1C9CD","EquipmentGrid",true,ref ISpace), ref ISpace);
+
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void manpowergrid_onafterrowdeleting(ref Dictionary<string, ServiceElementData> ISpace)
+{
+try
+{
+base.WriteDebugInfo(@"ManpowerGrid-OnAfterRowDeleting");
+base.WriteDebugInfo(@"ManpowerGrid-OnAfterRowDeleting");
+object MG_d154_TotalCost=iSpace.Sum("[25683F52-E21A-4CE3-9196-7BCFA640A94B]","MG_d154_TotalCost","",ISpace["gv_instanceid"].Value);
+ISpace["MF_ManPowerTotal"].Value=Convert.ChangeType(MG_d154_TotalCost, MG_d154_TotalCost.GetType());;
+base.WriteDebugInfo(@"object MG_d154_TotalCost=iSpace.Sum(""[25683F52-E21A-4CE3-9196-7BCFA640A94B]"",""MG_d154_TotalCost"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_ManPowerTotal""].Value=Convert.ChangeType(MG_d154_TotalCost, MG_d154_TotalCost.GetType());;");
+
+var querySource7c4d94f12381b2c2c38d941e8dba8928 =GetQueryExpressionDataSource("7c4d94f1-2381-b2c2-c38d-941e8dba8928");
+
+DataTable result7c4d94f12381b2c2c38d941e8dba8928=iSpace.SetGridDataSource(querySource7c4d94f12381b2c2c38d941e8dba8928, _objectFactory.GetGridRPP("ManpowerGrid"),@"EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '" + ISpace["gv_instanceid"].Value + @"'");
+
+
+base.WriteDebugInfo(@"var querySource7c4d94f12381b2c2c38d941e8dba8928 =GetQueryExpressionDataSource(""7c4d94f1-2381-b2c2-c38d-941e8dba8928"");DataTable result7c4d94f12381b2c2c38d941e8dba8928=iSpace.SetGridDataSource(querySource7c4d94f12381b2c2c38d941e8dba8928, _objectFactory.GetGridRPP(""ManpowerGrid""),@""EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '"" + ISpace[""gv_instanceid""].Value + @""'"");");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result2dff53097010e57f5c95f700983350be=acdataIspaceE1B5DCB812784AA0A8B21C0CDE17E77A.GetQueryExpressionBindings("2dff5309-7010-e57f-5c95-f700983350be");
+iSpace.SetGridData(result7c4d94f12381b2c2c38d941e8dba8928,result2dff53097010e57f5c95f700983350be,"ManpowerGrid",ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ManpowerGrid","25683F52-E21A-4CE3-9196-7BCFA640A94B",_objectFactory.GetGridRPP("ManpowerGrid"),_elementBase.GetGridLoopQuery("25683F52-E21A-4CE3-9196-7BCFA640A94B","ManpowerGrid",true,ref ISpace), ref ISpace);
+
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -2349,6 +2427,12 @@ base.WriteDebugInfo(@"ISpace[""EquipmentGrid""].Visible=""false"";");
 }
 ISpace["MF_d10_FinancialYearID"].Value="19";
 base.WriteDebugInfo(@"ISpace[""MF_d10_FinancialYearID""].Value=""19"";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 }
 catch(Exception ex)
 {
@@ -3259,6 +3343,17 @@ public override void ExecuteMethod
 			SubscribeElementEvents_submitform(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+		if(elementName.ToLower().Equals("equipmentgrid"))
+{
+			equipmentgrid_onafterrowdeleting(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("manpowergrid"))
+{
+			manpowergrid_onafterrowdeleting(ref dfsParam);
+}
+}
 }
 }
 }
@@ -3274,6 +3369,36 @@ public class ISpaceBD6CC522F7E646CBB2009C41F448175B : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpaceBD6CC522F7E646CBB2009C41F448175B acdataIspaceBD6CC522F7E646CBB2009C41F448175B=new AcDataISpaceBD6CC522F7E646CBB2009C41F448175B();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -3291,6 +3416,12 @@ ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 ISpace["M_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_MoveTo""].Value="""";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 }
 catch(Exception ex)
 {
@@ -3501,6 +3632,17 @@ public override void ExecuteMethod
 			SubscribeElementEvents_submitform(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+		if(elementName.ToLower().Equals("equipmentgrid"))
+{
+			equipmentgrid_onafterrowdeleting(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("manpowergrid"))
+{
+			manpowergrid_onafterrowdeleting(ref dfsParam);
+}
+}
 }
 }
 }
@@ -3516,6 +3658,36 @@ public class ISpace218B0C87E3E24D2EBB8FB38C51CAD1FE : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpace218B0C87E3E24D2EBB8FB38C51CAD1FE acdataIspace218B0C87E3E24D2EBB8FB38C51CAD1FE=new AcDataISpace218B0C87E3E24D2EBB8FB38C51CAD1FE();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -3533,6 +3705,12 @@ ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 ISpace["M_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_MoveTo""].Value="""";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 }
 catch(Exception ex)
 {
@@ -3749,6 +3927,17 @@ public override void ExecuteMethod
 			SubscribeElementEvents_submitform(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+		if(elementName.ToLower().Equals("equipmentgrid"))
+{
+			equipmentgrid_onafterrowdeleting(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("manpowergrid"))
+{
+			manpowergrid_onafterrowdeleting(ref dfsParam);
+}
+}
 }
 }
 }
@@ -3764,6 +3953,36 @@ public class ISpace88470FA805F74764A871E9DAC8F66C89 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpace88470FA805F74764A871E9DAC8F66C89 acdataIspace88470FA805F74764A871E9DAC8F66C89=new AcDataISpace88470FA805F74764A871E9DAC8F66C89();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -3781,6 +4000,12 @@ ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 ISpace["M_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_MoveTo""].Value="""";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 }
 catch(Exception ex)
 {
@@ -3907,6 +4132,17 @@ public override void ExecuteMethod
 			SubscribeElementEvents_m_back(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+		if(elementName.ToLower().Equals("equipmentgrid"))
+{
+			equipmentgrid_onafterrowdeleting(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("manpowergrid"))
+{
+			manpowergrid_onafterrowdeleting(ref dfsParam);
+}
+}
 }
 }
 }
@@ -3922,6 +4158,84 @@ public class ISpaceDC6D256C5F944FE59309FD74A0FF257E : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpaceDC6D256C5F944FE59309FD74A0FF257E acdataIspaceDC6D256C5F944FE59309FD74A0FF257E=new AcDataISpaceDC6D256C5F944FE59309FD74A0FF257E();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void equipmentgrid_onafterrowdeleting(ref Dictionary<string, ServiceElementData> ISpace)
+{
+try
+{
+base.WriteDebugInfo(@"EquipmentGrid-OnAfterRowDeleting");
+base.WriteDebugInfo(@"EquipmentGrid-OnAfterRowDeleting");
+object MG_d109_TotalEquipmentcost=iSpace.Sum("[08F73C4A-3B94-4327-8859-B98388D1C9CD]","MG_d109_TotalEquipmentcost","",ISpace["gv_instanceid"].Value);
+ISpace["MF_EquipmentTotal"].Value=Convert.ChangeType(MG_d109_TotalEquipmentcost, MG_d109_TotalEquipmentcost.GetType());;
+base.WriteDebugInfo(@"object MG_d109_TotalEquipmentcost=iSpace.Sum(""[08F73C4A-3B94-4327-8859-B98388D1C9CD]"",""MG_d109_TotalEquipmentcost"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_EquipmentTotal""].Value=Convert.ChangeType(MG_d109_TotalEquipmentcost, MG_d109_TotalEquipmentcost.GetType());;");
+
+var querySource61e7d77340d395e92de5549773196e79 =GetQueryExpressionDataSource("61e7d773-40d3-95e9-2de5-549773196e79");
+
+DataTable result61e7d77340d395e92de5549773196e79=iSpace.SetGridDataSource(querySource61e7d77340d395e92de5549773196e79, _objectFactory.GetGridRPP("EquipmentGrid"),@"EXEC [GetGridData08F73C4A-3B94-4327-8859-B98388D1C9CD] '" + ISpace["gv_instanceid"].Value + @"'");
+
+
+base.WriteDebugInfo(@"var querySource61e7d77340d395e92de5549773196e79 =GetQueryExpressionDataSource(""61e7d773-40d3-95e9-2de5-549773196e79"");DataTable result61e7d77340d395e92de5549773196e79=iSpace.SetGridDataSource(querySource61e7d77340d395e92de5549773196e79, _objectFactory.GetGridRPP(""EquipmentGrid""),@""EXEC [GetGridData08F73C4A-3B94-4327-8859-B98388D1C9CD] '"" + ISpace[""gv_instanceid""].Value + @""'"");");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result83ae6bea5b86be67af2d86bd670877ef=acdataIspaceDC6D256C5F944FE59309FD74A0FF257E.GetQueryExpressionBindings("83ae6bea-5b86-be67-af2d-86bd670877ef");
+iSpace.SetGridData(result61e7d77340d395e92de5549773196e79,result83ae6bea5b86be67af2d86bd670877ef,"EquipmentGrid",ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("EquipmentGrid","08F73C4A-3B94-4327-8859-B98388D1C9CD",_objectFactory.GetGridRPP("EquipmentGrid"),_elementBase.GetGridLoopQuery("08F73C4A-3B94-4327-8859-B98388D1C9CD","EquipmentGrid",true,ref ISpace), ref ISpace);
+
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void manpowergrid_onafterrowdeleting(ref Dictionary<string, ServiceElementData> ISpace)
+{
+try
+{
+base.WriteDebugInfo(@"ManpowerGrid-OnAfterRowDeleting");
+base.WriteDebugInfo(@"ManpowerGrid-OnAfterRowDeleting");
+object MG_d154_TotalCost=iSpace.Sum("[25683F52-E21A-4CE3-9196-7BCFA640A94B]","MG_d154_TotalCost","",ISpace["gv_instanceid"].Value);
+ISpace["MF_ManPowerTotal"].Value=Convert.ChangeType(MG_d154_TotalCost, MG_d154_TotalCost.GetType());;
+base.WriteDebugInfo(@"object MG_d154_TotalCost=iSpace.Sum(""[25683F52-E21A-4CE3-9196-7BCFA640A94B]"",""MG_d154_TotalCost"","""",ISpace[""gv_instanceid""].Value);
+ISpace[""MF_ManPowerTotal""].Value=Convert.ChangeType(MG_d154_TotalCost, MG_d154_TotalCost.GetType());;");
+
+var querySource7c4d94f12381b2c2c38d941e8dba8928 =GetQueryExpressionDataSource("7c4d94f1-2381-b2c2-c38d-941e8dba8928");
+
+DataTable result7c4d94f12381b2c2c38d941e8dba8928=iSpace.SetGridDataSource(querySource7c4d94f12381b2c2c38d941e8dba8928, _objectFactory.GetGridRPP("ManpowerGrid"),@"EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '" + ISpace["gv_instanceid"].Value + @"'");
+
+
+base.WriteDebugInfo(@"var querySource7c4d94f12381b2c2c38d941e8dba8928 =GetQueryExpressionDataSource(""7c4d94f1-2381-b2c2-c38d-941e8dba8928"");DataTable result7c4d94f12381b2c2c38d941e8dba8928=iSpace.SetGridDataSource(querySource7c4d94f12381b2c2c38d941e8dba8928, _objectFactory.GetGridRPP(""ManpowerGrid""),@""EXEC [GetGridData25683F52-E21A-4CE3-9196-7BCFA640A94B] '"" + ISpace[""gv_instanceid""].Value + @""'"");");
+base.WriteDebugInfo(@"");
+
+
+List<Triplet<string, short, short?>> result2dff53097010e57f5c95f700983350be=acdataIspaceDC6D256C5F944FE59309FD74A0FF257E.GetQueryExpressionBindings("2dff5309-7010-e57f-5c95-f700983350be");
+iSpace.SetGridData(result7c4d94f12381b2c2c38d941e8dba8928,result2dff53097010e57f5c95f700983350be,"ManpowerGrid",ref ISpace);
+if (_elementBase != null)  iSpace.SetLoopExpressionData("ManpowerGrid","25683F52-E21A-4CE3-9196-7BCFA640A94B",_objectFactory.GetGridRPP("ManpowerGrid"),_elementBase.GetGridLoopQuery("25683F52-E21A-4CE3-9196-7BCFA640A94B","ManpowerGrid",true,ref ISpace), ref ISpace);
+
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -3989,6 +4303,12 @@ ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 ISpace["M_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_MoveTo""].Value="""";");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 }
 catch(Exception ex)
 {
@@ -4999,6 +5319,25 @@ public override void ExecuteMethod
 		if(elementName.ToLower().Equals("submitform"))
 {
 			SubscribeElementEvents_submitform(ref dfsParam);
+}
+}
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+		if(elementName.ToLower().Equals("equipmentgrid"))
+{
+			equipmentgrid_onafterrowdeleting(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("manpowergrid"))
+{
+			manpowergrid_onafterrowdeleting(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("equipmentgrid"))
+{
+			equipmentgrid_onafterrowdeleting(ref dfsParam);
+}
+		if(elementName.ToLower().Equals("manpowergrid"))
+{
+			manpowergrid_onafterrowdeleting(ref dfsParam);
 }
 }
 }

@@ -1447,6 +1447,24 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_add (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -1777,6 +1795,9 @@ public override void ExecuteMethod
 {
 			SubscribeElementEvents_m_createproposal(ref dfsParam);
 }
+}
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
 }
 }
 }

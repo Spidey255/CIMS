@@ -1981,6 +1981,12 @@ public class ISpaceF66E6A92393A4A498F4478FD095E0597 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpaceF66E6A92393A4A498F4478FD095E0597 acdataIspaceF66E6A92393A4A498F4478FD095E0597=new AcDataISpaceF66E6A92393A4A498F4478FD095E0597();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -2238,6 +2244,30 @@ ISpace["MF_RefNo"].Value = result2d9488fa20cb2a80d60456eb53ef3388[0];
 }
 else{
 ISpace["Subject"].Value = null;ISpace["MF_RefNo"].Value = null;
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
 }
 }
 }
@@ -3208,6 +3238,9 @@ public override void ExecuteMethod
 			SubscribeElementEvents_save_billdetails(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+}
 }
 }
 }
@@ -3223,6 +3256,12 @@ public class ISpaceAD7FAB31860C4A919BE80D0CF56E7583 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpaceAD7FAB31860C4A919BE80D0CF56E7583 acdataIspaceAD7FAB31860C4A919BE80D0CF56E7583=new AcDataISpaceAD7FAB31860C4A919BE80D0CF56E7583();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -3322,6 +3361,30 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_wmf_moveto (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -3556,6 +3619,9 @@ public override void ExecuteMethod
 			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+}
 }
 }
 }
@@ -3571,6 +3637,12 @@ public class ISpaceE60C4911F4B54E9188F8124B76418F88 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpaceE60C4911F4B54E9188F8124B76418F88 acdataIspaceE60C4911F4B54E9188F8124B76418F88=new AcDataISpaceE60C4911F4B54E9188F8124B76418F88();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -3670,6 +3742,30 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_wmf_moveto (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -3904,6 +4000,9 @@ public override void ExecuteMethod
 			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+}
 }
 }
 }
@@ -3919,6 +4018,12 @@ public class ISpace8BE8AAA637F34E7FA3C36E343F95D288 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpace8BE8AAA637F34E7FA3C36E343F95D288 acdataIspace8BE8AAA637F34E7FA3C36E343F95D288=new AcDataISpace8BE8AAA637F34E7FA3C36E343F95D288();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -4018,6 +4123,30 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_wmf_moveto (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -4252,6 +4381,9 @@ public override void ExecuteMethod
 			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+}
 }
 }
 }
@@ -4267,6 +4399,12 @@ public class ISpace62F4B948F79A433BA563CF964E1B1774 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpace62F4B948F79A433BA563CF964E1B1774 acdataIspace62F4B948F79A433BA563CF964E1B1774=new AcDataISpace62F4B948F79A433BA563CF964E1B1774();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -4359,6 +4497,30 @@ ISpace[""UI_PFHideRow""].Visible=""false"";
 {
 ISpace[""UI_ApprovalHideRow""].Visible=""false"";
 }");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
 }
 }
 catch(Exception ex)
@@ -4620,6 +4782,9 @@ public override void ExecuteMethod
 			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+}
 }
 }
 }
@@ -4635,6 +4800,12 @@ public class ISpacee6e02ee6d4bcb327d8fa1270dda6c7b9 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpacee6e02ee6d4bcb327d8fa1270dda6c7b9 acdataIspacee6e02ee6d4bcb327d8fa1270dda6c7b9=new AcDataISpacee6e02ee6d4bcb327d8fa1270dda6c7b9();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -4889,6 +5060,30 @@ ISpace[""UI_PFHideRow""].Visible=""false"";
 {
 ISpace[""UI_ApprovalHideRow""].Visible=""false"";
 }");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
 }
 }
 catch(Exception ex)
@@ -5902,6 +6097,9 @@ public override void ExecuteMethod
 			SubscribeElementEvents_save_billdetails(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+}
 }
 }
 }
@@ -5917,6 +6115,12 @@ public class ISpacedb7cf7d3928392219512156e470919b5 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpacedb7cf7d3928392219512156e470919b5 acdataIspacedb7cf7d3928392219512156e470919b5=new AcDataISpacedb7cf7d3928392219512156e470919b5();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -5960,6 +6164,30 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_mf_back (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -5995,6 +6223,9 @@ public override void ExecuteMethod
 {
 			SubscribeElementEvents_mf_back(ref dfsParam);
 }
+}
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
 }
 }
 }

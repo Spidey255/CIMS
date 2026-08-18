@@ -1031,21 +1031,21 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
                      
-                                    case "249EF445-9B49-4EF9-8045-46BD1E6FF8ED":
+                                    case "97c72782-b716-b2cd-caba-bef246e1dab6":
                     {
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_249EF4459B494EF9804546BD1E6FF8ED AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_R2_ReceiptsId] VARCHAR(MAX)	, [MG_R2_ReceiptSplitUpId] VARCHAR(MAX)	, [MG_R2_UpdatedBy] INT	, [MG_R2_Amount] DECIMAL(18,2)	, [MG_R2_BudgetId] VARCHAR(250)	, [MG_R2_UpdatedOn] DATETIME){0}INSERT INTO [249EF445-9B49-4EF9-8045-46BD1E6FF8ED](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_R2_ReceiptsId,TDT.MG_R2_ReceiptSplitUpId,TDT.MG_R2_UpdatedBy,TDT.MG_R2_Amount,TDT.MG_R2_BudgetId,TDT.MG_R2_UpdatedOn FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
-							LEFT JOIN [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_R2_ReceiptsId=TDT.MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId=TDT.MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy=TDT.MG_R2_UpdatedBy,MG_R2_Amount=TDT.MG_R2_Amount,MG_R2_BudgetId=TDT.MG_R2_BudgetId,MG_R2_UpdatedOn=TDT.MG_R2_UpdatedOn FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
-							JOIN [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] DT  WITH(NOLOCK)
+		DECLARE  @TBL_97c72782b716b2cdcababef246e1dab6 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [97c72782-b716-b2cd-caba-bef246e1dab6](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.C_Stepfrom,TDT.C_StepTo,TDT.C_Comments,TDT.C_User,TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
+							LEFT JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
+							JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
-                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn";
+                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments";
 
-                                     tempInsertQuery=@"INSERT INTO @TBL_249EF4459B494EF9804546BD1E6FF8ED(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)VALUES({0});";
+                                     tempInsertQuery=@"INSERT INTO @TBL_97c72782b716b2cdcababef246e1dab6(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)VALUES({0});";
                                      
 
                             splitcols = colList.Split(',');
@@ -1149,21 +1149,21 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
                      
-                                    case "97c72782-b716-b2cd-caba-bef246e1dab6":
+                                    case "249EF445-9B49-4EF9-8045-46BD1E6FF8ED":
                     {
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_97c72782b716b2cdcababef246e1dab6 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [97c72782-b716-b2cd-caba-bef246e1dab6](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.C_Stepfrom,TDT.C_StepTo,TDT.C_Comments,TDT.C_User,TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
-							LEFT JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
-							JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
+		DECLARE  @TBL_249EF4459B494EF9804546BD1E6FF8ED AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_R2_ReceiptsId] VARCHAR(MAX)	, [MG_R2_ReceiptSplitUpId] VARCHAR(MAX)	, [MG_R2_UpdatedBy] INT	, [MG_R2_Amount] DECIMAL(18,2)	, [MG_R2_BudgetId] VARCHAR(250)	, [MG_R2_UpdatedOn] DATETIME){0}INSERT INTO [249EF445-9B49-4EF9-8045-46BD1E6FF8ED](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_R2_ReceiptsId,TDT.MG_R2_ReceiptSplitUpId,TDT.MG_R2_UpdatedBy,TDT.MG_R2_Amount,TDT.MG_R2_BudgetId,TDT.MG_R2_UpdatedOn FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
+							LEFT JOIN [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_R2_ReceiptsId=TDT.MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId=TDT.MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy=TDT.MG_R2_UpdatedBy,MG_R2_Amount=TDT.MG_R2_Amount,MG_R2_BudgetId=TDT.MG_R2_BudgetId,MG_R2_UpdatedOn=TDT.MG_R2_UpdatedOn FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
+							JOIN [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
-                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments";
+                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn";
 
-                                     tempInsertQuery=@"INSERT INTO @TBL_97c72782b716b2cdcababef246e1dab6(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)VALUES({0});";
+                                     tempInsertQuery=@"INSERT INTO @TBL_249EF4459B494EF9804546BD1E6FF8ED(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)VALUES({0});";
                                      
 
                             splitcols = colList.Split(',');
@@ -1687,28 +1687,28 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
-                                              case "97c72782-b716-b2cd-caba-bef246e1dab6":
+                                              case "249EF445-9B49-4EF9-8045-46BD1E6FF8ED":
                     {
                      
                                 //Delete Existing Records of InstanceId
-                                deleteQuery="Delete FROM [97c72782-b716-b2cd-caba-bef246e1dab6] WHERE InstanceId='{0}';";
+                                deleteQuery="Delete FROM [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] WHERE InstanceId='{0}';";
 
                            
 
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_97c72782b716b2cdcababef246e1dab6 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [97c72782-b716-b2cd-caba-bef246e1dab6](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.C_Stepfrom,TDT.C_StepTo,TDT.C_Comments,TDT.C_User,TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
-							LEFT JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
-							JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
+		DECLARE  @TBL_249EF4459B494EF9804546BD1E6FF8ED AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_R2_ReceiptsId] VARCHAR(MAX)	, [MG_R2_ReceiptSplitUpId] VARCHAR(MAX)	, [MG_R2_UpdatedBy] INT	, [MG_R2_Amount] DECIMAL(18,2)	, [MG_R2_BudgetId] VARCHAR(250)	, [MG_R2_UpdatedOn] DATETIME){0}INSERT INTO [249EF445-9B49-4EF9-8045-46BD1E6FF8ED](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_R2_ReceiptsId,TDT.MG_R2_ReceiptSplitUpId,TDT.MG_R2_UpdatedBy,TDT.MG_R2_Amount,TDT.MG_R2_BudgetId,TDT.MG_R2_UpdatedOn FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
+							LEFT JOIN [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_R2_ReceiptsId=TDT.MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId=TDT.MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy=TDT.MG_R2_UpdatedBy,MG_R2_Amount=TDT.MG_R2_Amount,MG_R2_BudgetId=TDT.MG_R2_BudgetId,MG_R2_UpdatedOn=TDT.MG_R2_UpdatedOn FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
+							JOIN [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments";
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn";
 
-                            colListwithEDT=@"InstanceId#0,ProcessActivityMapId#0,GridId#0,RowId#0,Sequence#0,C_Stepfrom#9,C_StepTo#9,C_Comments#9,C_User#9,C_DateofComments#8";
+                            colListwithEDT=@"InstanceId#0,ProcessActivityMapId#0,GridId#0,RowId#0,Sequence#0,MG_R2_ReceiptsId#9,MG_R2_ReceiptSplitUpId#9,MG_R2_UpdatedBy#5,MG_R2_Amount#3,MG_R2_BudgetId#9,MG_R2_UpdatedOn#8";
 
-                            tempInsertQuery=@"INSERT INTO @TBL_97c72782b716b2cdcababef246e1dab6(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)VALUES({0});";
+                            tempInsertQuery=@"INSERT INTO @TBL_249EF4459B494EF9804546BD1E6FF8ED(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)VALUES({0});";
 
                             splitcols = colListwithEDT.Split(',');
 
@@ -1808,28 +1808,28 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
-                                              case "249EF445-9B49-4EF9-8045-46BD1E6FF8ED":
+                                              case "97c72782-b716-b2cd-caba-bef246e1dab6":
                     {
                      
                                 //Delete Existing Records of InstanceId
-                                deleteQuery="Delete FROM [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] WHERE InstanceId='{0}';";
+                                deleteQuery="Delete FROM [97c72782-b716-b2cd-caba-bef246e1dab6] WHERE InstanceId='{0}';";
 
                            
 
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_249EF4459B494EF9804546BD1E6FF8ED AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_R2_ReceiptsId] VARCHAR(MAX)	, [MG_R2_ReceiptSplitUpId] VARCHAR(MAX)	, [MG_R2_UpdatedBy] INT	, [MG_R2_Amount] DECIMAL(18,2)	, [MG_R2_BudgetId] VARCHAR(250)	, [MG_R2_UpdatedOn] DATETIME){0}INSERT INTO [249EF445-9B49-4EF9-8045-46BD1E6FF8ED](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_R2_ReceiptsId,TDT.MG_R2_ReceiptSplitUpId,TDT.MG_R2_UpdatedBy,TDT.MG_R2_Amount,TDT.MG_R2_BudgetId,TDT.MG_R2_UpdatedOn FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
-							LEFT JOIN [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_R2_ReceiptsId=TDT.MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId=TDT.MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy=TDT.MG_R2_UpdatedBy,MG_R2_Amount=TDT.MG_R2_Amount,MG_R2_BudgetId=TDT.MG_R2_BudgetId,MG_R2_UpdatedOn=TDT.MG_R2_UpdatedOn FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
-							JOIN [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] DT  WITH(NOLOCK)
+		DECLARE  @TBL_97c72782b716b2cdcababef246e1dab6 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [97c72782-b716-b2cd-caba-bef246e1dab6](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.C_Stepfrom,TDT.C_StepTo,TDT.C_Comments,TDT.C_User,TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
+							LEFT JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
+							JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn";
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments";
 
-                            colListwithEDT=@"InstanceId#0,ProcessActivityMapId#0,GridId#0,RowId#0,Sequence#0,MG_R2_ReceiptsId#9,MG_R2_ReceiptSplitUpId#9,MG_R2_UpdatedBy#5,MG_R2_Amount#3,MG_R2_BudgetId#9,MG_R2_UpdatedOn#8";
+                            colListwithEDT=@"InstanceId#0,ProcessActivityMapId#0,GridId#0,RowId#0,Sequence#0,C_Stepfrom#9,C_StepTo#9,C_Comments#9,C_User#9,C_DateofComments#8";
 
-                            tempInsertQuery=@"INSERT INTO @TBL_249EF4459B494EF9804546BD1E6FF8ED(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)VALUES({0});";
+                            tempInsertQuery=@"INSERT INTO @TBL_97c72782b716b2cdcababef246e1dab6(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)VALUES({0});";
 
                             splitcols = colListwithEDT.Split(',');
 
@@ -1969,6 +1969,40 @@ public class ISpaceDDBF52926EF44C37B72AE6DCFFBF7B02 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpaceDDBF52926EF44C37B72AE6DCFFBF7B02 acdataIspaceDDBF52926EF44C37B72AE6DCFFBF7B02=new AcDataISpaceDDBF52926EF44C37B72AE6DCFFBF7B02();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void mg_dcoumentdetails_onafterrowadding(ref Dictionary<string, ServiceElementData> ISpace)
+{
+try
+{
+base.WriteDebugInfo(@"MG_DcoumentDetails-OnAfterRowAdding");
+base.WriteDebugInfo(@"MG_DcoumentDetails-OnAfterRowAdding");
+ISpace["M_DocumentDetailsId"].Value=Guid.NewGuid().ToString();
+base.WriteDebugInfo(@"ISpace[""M_DocumentDetailsId""].Value=Guid.NewGuid().ToString();");
+ISpace["M_DocumentName"].Man=true;ISpace["M_UploadDcoument"].Man=true;
+base.WriteDebugInfo(@"ISpace[""M_DocumentName""].Man=true;ISpace[""M_UploadDcoument""].Man=true;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -2060,6 +2094,12 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-B
 {
 ISpace[""UI_InvisibleRow""].Visible=""false"";
 }");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
 }
 }
 catch(Exception ex)
@@ -2327,9 +2367,21 @@ if((result2a36367a3c65545a9c2743f47c05073d!=null) && (result2a36367a3c65545a9c27
 {
 if(result2a36367a3c65545a9c2743f47c05073d.ContainsKey(0))
 ISpace["MF_P1_ActualEndDate"].Value = result2a36367a3c65545a9c2743f47c05073d[0];
+if(result2a36367a3c65545a9c2743f47c05073d.ContainsKey(2))
+ISpace["M_BudgetErr"].Value = result2a36367a3c65545a9c2743f47c05073d[2];
+if(result2a36367a3c65545a9c2743f47c05073d.ContainsKey(1))
+ISpace["M_BudgetErrMsg"].Value = result2a36367a3c65545a9c2743f47c05073d[1];
 }
 else{
-ISpace["MF_P1_ActualEndDate"].Value = null;
+ISpace["MF_P1_ActualEndDate"].Value = null;ISpace["M_BudgetErr"].Value = null;ISpace["M_BudgetErrMsg"].Value = null;
+}
+if(ISpace["M_BudgetErr"].Value==1)
+{
+base.WriteDebugInfo(@"if(ISpace[""M_BudgetErr""].Value==1)");
+ISpace["Message"].Value=String.Format(@"{0}",ISpace["M_BudgetErrMsg"].Value);
+base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""M_BudgetErrMsg""].Value);");
+ISpace["M_BudgetErr"].Value=0;
+base.WriteDebugInfo(@"ISpace[""M_BudgetErr""].Value=0;");
 }
 }
 catch(Exception ex)
@@ -3111,6 +3163,9 @@ public override void ExecuteMethod
 			SubscribeElementEvents_add(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+}
 }
 }
 }
@@ -3126,6 +3181,30 @@ public class ISpaceFF2ED87620AB4F5DB62B385405DFB900 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpaceFF2ED87620AB4F5DB62B385405DFB900 acdataIspaceFF2ED87620AB4F5DB62B385405DFB900=new AcDataISpaceFF2ED87620AB4F5DB62B385405DFB900();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -3209,6 +3288,12 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-B
 {
 ISpace[""UI_InvisibleRow""].Visible=""false"";
 }");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
 }
 }
 catch(Exception ex)
@@ -3430,6 +3515,9 @@ public override void ExecuteMethod
 			SubscribeElementEvents_m_history(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+}
 }
 }
 }
@@ -3445,6 +3533,40 @@ public class ISpace2B40E332984042E38DDC002EAFAA05FA : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpace2B40E332984042E38DDC002EAFAA05FA acdataIspace2B40E332984042E38DDC002EAFAA05FA=new AcDataISpace2B40E332984042E38DDC002EAFAA05FA();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+private void mg_dcoumentdetails_onafterrowadding(ref Dictionary<string, ServiceElementData> ISpace)
+{
+try
+{
+base.WriteDebugInfo(@"MG_DcoumentDetails-OnAfterRowAdding");
+base.WriteDebugInfo(@"MG_DcoumentDetails-OnAfterRowAdding");
+ISpace["M_DocumentDetailsId"].Value=Guid.NewGuid().ToString();
+base.WriteDebugInfo(@"ISpace[""M_DocumentDetailsId""].Value=Guid.NewGuid().ToString();");
+ISpace["M_DocumentName"].Man=true;ISpace["M_UploadDcoument"].Man=true;
+base.WriteDebugInfo(@"ISpace[""M_DocumentName""].Man=true;ISpace[""M_UploadDcoument""].Man=true;");
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -3600,6 +3722,12 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-B
 {
 ISpace[""UI_InvisibleRow""].Visible=""false"";
 }");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
 }
 }
 catch(Exception ex)
@@ -4093,9 +4221,21 @@ if((result2a36367a3c65545a9c2743f47c05073d!=null) && (result2a36367a3c65545a9c27
 {
 if(result2a36367a3c65545a9c2743f47c05073d.ContainsKey(0))
 ISpace["MF_P1_ActualEndDate"].Value = result2a36367a3c65545a9c2743f47c05073d[0];
+if(result2a36367a3c65545a9c2743f47c05073d.ContainsKey(2))
+ISpace["M_BudgetErr"].Value = result2a36367a3c65545a9c2743f47c05073d[2];
+if(result2a36367a3c65545a9c2743f47c05073d.ContainsKey(1))
+ISpace["M_BudgetErrMsg"].Value = result2a36367a3c65545a9c2743f47c05073d[1];
 }
 else{
-ISpace["MF_P1_ActualEndDate"].Value = null;
+ISpace["MF_P1_ActualEndDate"].Value = null;ISpace["M_BudgetErr"].Value = null;ISpace["M_BudgetErrMsg"].Value = null;
+}
+if(ISpace["M_BudgetErr"].Value==1)
+{
+base.WriteDebugInfo(@"if(ISpace[""M_BudgetErr""].Value==1)");
+ISpace["Message"].Value=String.Format(@"{0}",ISpace["M_BudgetErrMsg"].Value);
+base.WriteDebugInfo(@"ISpace[""Message""].Value=String.Format(@""{0}"",ISpace[""M_BudgetErrMsg""].Value);");
+ISpace["M_BudgetErr"].Value=0;
+base.WriteDebugInfo(@"ISpace[""M_BudgetErr""].Value=0;");
 }
 }
 catch(Exception ex)
@@ -5039,6 +5179,9 @@ public override void ExecuteMethod
 			SubscribeElementEvents_add(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+}
 }
 }
 }
@@ -5060,6 +5203,30 @@ public class ISpace537084A67B724CBEA0A2057049686345 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpace537084A67B724CBEA0A2057049686345 acdataIspace537084A67B724CBEA0A2057049686345=new AcDataISpace537084A67B724CBEA0A2057049686345();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -5143,6 +5310,12 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-B
 {
 ISpace[""UI_InvisibleRow""].Visible=""false"";
 }");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
 }
 }
 catch(Exception ex)
@@ -5338,6 +5511,9 @@ public override void ExecuteMethod
 			SubscribeElementEvents_m_history(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+}
 }
 }
 }
@@ -5353,6 +5529,30 @@ public class ISpace1d2a9754f9d8747f9a216341b89095ab : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpace1d2a9754f9d8747f9a216341b89095ab acdataIspace1d2a9754f9d8747f9a216341b89095ab=new AcDataISpace1d2a9754f9d8747f9a216341b89095ab();
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -5387,6 +5587,12 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-B
 {
 ISpace[""UI_InvisibleRow""].Visible=""false"";
 }");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
 }
 }
 catch(Exception ex)
@@ -5433,6 +5639,9 @@ public override void ExecuteMethod
 {
 			SubscribeElementEvents_mf_back(ref dfsParam);
 }
+}
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
 }
 }
 }

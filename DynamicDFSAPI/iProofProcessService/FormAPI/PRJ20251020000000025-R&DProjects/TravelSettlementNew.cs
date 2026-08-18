@@ -3196,6 +3196,60 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_pfm_no (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -4358,6 +4412,9 @@ public override void ExecuteMethod
 			SubscribeElementEvents_wmf_history(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+}
 }
 }
 }
@@ -4457,6 +4514,60 @@ ISpace["WMF_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Value="""";");
 ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
 }
 }
 catch(Exception ex)
@@ -4683,6 +4794,9 @@ public override void ExecuteMethod
 {
 			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
+}
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
 }
 }
 }
@@ -4790,6 +4904,60 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_wmf_moveto (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -5010,6 +5178,9 @@ public override void ExecuteMethod
 			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+}
 }
 }
 }
@@ -5109,6 +5280,60 @@ ISpace["WMF_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Value="""";");
 ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
 }
 }
 catch(Exception ex)
@@ -5335,6 +5560,9 @@ public override void ExecuteMethod
 {
 			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
+}
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
 }
 }
 }
@@ -5442,6 +5670,60 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_wmf_moveto (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -5662,6 +5944,9 @@ public override void ExecuteMethod
 			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+}
 }
 }
 }
@@ -5761,6 +6046,60 @@ ISpace["WMF_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Value="""";");
 ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
 }
 }
 catch(Exception ex)
@@ -6010,6 +6349,9 @@ public override void ExecuteMethod
 			SubscribeElementEvents_m_cancel(ref dfsParam);
 }
 }
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
+}
 }
 }
 }
@@ -6247,6 +6589,60 @@ ISpace["WMF_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Value="""";");
 ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
 }
 }
 catch(Exception ex)
@@ -7437,6 +7833,9 @@ public override void ExecuteMethod
 {
 			SubscribeElementEvents_wmf_history(ref dfsParam);
 }
+}
+	if(methodName.ToLower().Equals("onafterrowdeleting"))
+{
 }
 }
 }
