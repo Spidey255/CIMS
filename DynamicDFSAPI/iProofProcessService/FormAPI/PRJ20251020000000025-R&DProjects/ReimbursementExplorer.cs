@@ -603,7 +603,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -851,12 +851,6 @@ public class ISpace3F131441D0E54A35BADEBBDC8C5190A1 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpace3F131441D0E54A35BADEBBDC8C5190A1 acdataIspace3F131441D0E54A35BADEBBDC8C5190A1=new AcDataISpace3F131441D0E54A35BADEBBDC8C5190A1();
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try

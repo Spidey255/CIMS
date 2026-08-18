@@ -849,7 +849,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -967,7 +967,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -1085,7 +1085,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -1203,7 +1203,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -1321,7 +1321,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -1439,7 +1439,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -1557,7 +1557,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -1675,7 +1675,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -1793,7 +1793,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -3196,60 +3196,6 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 private void SubscribeElementEvents_pfm_no (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -4521,60 +4467,6 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 private void SubscribeElementEvents_wmf_moveto (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -4897,60 +4789,6 @@ ISpace["WMF_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Value="""";");
 ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
 }
 }
 catch(Exception ex)
@@ -5287,60 +5125,6 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 private void SubscribeElementEvents_wmf_moveto (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -5670,60 +5454,6 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 private void SubscribeElementEvents_wmf_moveto (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -6046,60 +5776,6 @@ ISpace["WMF_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Value="""";");
 ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
 }
 }
 catch(Exception ex)
@@ -6589,60 +6265,6 @@ ISpace["WMF_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""WMF_MoveTo""].Value="""";");
 ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
 }
 }
 catch(Exception ex)

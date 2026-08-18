@@ -123,5 +123,7 @@ namespace CPS.Proof.DFSExtension
 
         int GetGridColumnIndex(List<ServiceElementData> gridrow, string gridColumnName);
 
+        void Redirectpermanent(ref Dictionary<string, ServiceElementData> ISpace, string url);
+
     }
 }

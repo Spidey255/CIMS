@@ -829,9 +829,17 @@ namespace CPS.Proof.DFSExtension
 
                 externalQueryController.UpdateGridLoopData(bulkInsertQuery);
                                
+                if (ISpace[gridName].Child != null)
+                {
 
-                ISpace[gridName].Child.RemoveRange(gridRPP,
-                   ISpace[gridName].Child.Count - gridRPP);
+                    if (ISpace[gridName].Child.Count > gridRPP)
+                    {
+                        ISpace[gridName].Child.RemoveRange(gridRPP,
+                                ISpace[gridName].Child.Count - gridRPP);
+                    }
+                }
+
+               
             }
             catch (Exception ex)
             {
@@ -1003,6 +1011,16 @@ namespace CPS.Proof.DFSExtension
 
                 return null;
             }
+        }
+
+        public void Redirectpermanent(ref Dictionary<string, ServiceElementData> ISpace, string url)
+        {
+            if (!ISpace.ContainsKey("RedirectUrl"))
+                ISpace.Add("RedirectUrl", new ServiceElementData { Value = string.Empty });
+
+            ISpace["RedirectUrl"].RedirectType = "RP";
+
+            ISpace["RedirectUrl"].Value = url;
         }
 
         public void RedirectNewWindow(ref Dictionary<string, ServiceElementData> ISpace, string url)

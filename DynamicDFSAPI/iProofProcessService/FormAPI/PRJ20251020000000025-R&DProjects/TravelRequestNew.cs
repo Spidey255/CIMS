@@ -861,7 +861,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -979,7 +979,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -1097,7 +1097,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -1215,7 +1215,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -1333,7 +1333,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -1451,7 +1451,7 @@ namespace CPS.Proof.DFSExtension
 												break; 
                                         case 8:
                                         case 9:
-                                            colValues +="'"+ gitem["Value"].ToString() + "',";
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
                                                 break;
 
                                         default:
@@ -2304,12 +2304,6 @@ public class ISpaceF1E219523E9A4F379C422F86E1775788 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpaceF1E219523E9A4F379C422F86E1775788 acdataIspaceF1E219523E9A4F379C422F86E1775788=new AcDataISpaceF1E219523E9A4F379C422F86E1775788();
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -2602,36 +2596,6 @@ ISpace["MF_d1_ReferenceNo"].Value = resultcb7a5d0645d0748ac18fbb48a35f9e4e[0];
 }
 else{
 ISpace["Subject"].Value = null;ISpace["MF_d1_ReferenceNo"].Value = null;
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
 }
 }
 catch(Exception ex)
@@ -4197,12 +4161,6 @@ public class ISpace34A8F37F24BF4316826BDF78EE6E8579 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpace34A8F37F24BF4316826BDF78EE6E8579 acdataIspace34A8F37F24BF4316826BDF78EE6E8579=new AcDataISpace34A8F37F24BF4316826BDF78EE6E8579();
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -4299,36 +4257,6 @@ if(ISpace["MF_d1_IsAdvanceRequired"].Value=="Yes")
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value==""Yes"")");
 ISpace["MF_d1_IsAdvanceRequired"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""MF_d1_IsAdvanceRequired""].Visible=""false"";");
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
 }
 }
 catch(Exception ex)
@@ -4596,12 +4524,6 @@ public class ISpaceA09DFE7057414CBDA7B76CCED54DCE3D : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpaceA09DFE7057414CBDA7B76CCED54DCE3D acdataIspaceA09DFE7057414CBDA7B76CCED54DCE3D=new AcDataISpaceA09DFE7057414CBDA7B76CCED54DCE3D();
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -4698,36 +4620,6 @@ if(ISpace["MF_d1_IsAdvanceRequired"].Value=="Yes")
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value==""Yes"")");
 ISpace["MF_d1_IsAdvanceRequired"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""MF_d1_IsAdvanceRequired""].Visible=""false"";");
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
 }
 }
 catch(Exception ex)
@@ -4995,12 +4887,6 @@ public class ISpaceC1E33E745080471B9D135EC3EC7C54E8 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpaceC1E33E745080471B9D135EC3EC7C54E8 acdataIspaceC1E33E745080471B9D135EC3EC7C54E8=new AcDataISpaceC1E33E745080471B9D135EC3EC7C54E8();
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -5097,36 +4983,6 @@ if(ISpace["MF_d1_IsAdvanceRequired"].Value=="Yes")
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value==""Yes"")");
 ISpace["MF_d1_IsAdvanceRequired"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""MF_d1_IsAdvanceRequired""].Visible=""false"";");
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
 }
 }
 catch(Exception ex)
@@ -5394,12 +5250,6 @@ public class ISpace82118DD85B264EE28171D616101898A6 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpace82118DD85B264EE28171D616101898A6 acdataIspace82118DD85B264EE28171D616101898A6=new AcDataISpace82118DD85B264EE28171D616101898A6();
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -5483,36 +5333,6 @@ if (_elementBase != null)  iSpace.SetLoopExpressionData("WMG_CommentsHistory","2
 
 ISpace["UI_History"].ShowDialog=true;;
 base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 }
 catch(Exception ex)
 {
@@ -5793,12 +5613,6 @@ public class ISpace98d8749ef1dc685b350935353f8b3c3d : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpace98d8749ef1dc685b350935353f8b3c3d acdataIspace98d8749ef1dc685b350935353f8b3c3d=new AcDataISpace98d8749ef1dc685b350935353f8b3c3d();
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -5882,36 +5696,6 @@ if (_elementBase != null)  iSpace.SetLoopExpressionData("WMG_CommentsHistory","2
 
 ISpace["UI_History"].ShowDialog=true;;
 base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 }
 catch(Exception ex)
 {
@@ -6298,12 +6082,6 @@ public class ISpace53f8560140a83229820900367a5bc621 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpace53f8560140a83229820900367a5bc621 acdataIspace53f8560140a83229820900367a5bc621=new AcDataISpace53f8560140a83229820900367a5bc621();
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -6596,36 +6374,6 @@ ISpace["MF_d1_ReferenceNo"].Value = resultcb7a5d0645d0748ac18fbb48a35f9e4e[0];
 }
 else{
 ISpace["Subject"].Value = null;ISpace["MF_d1_ReferenceNo"].Value = null;
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
 }
 }
 catch(Exception ex)
@@ -8320,12 +8068,6 @@ public class ISpace51DD90524F9D41AEB8FF9311377196D8 : VirtualForm
 {
 IISpace iSpace = new ISpace();
 AcDataISpace51DD90524F9D41AEB8FF9311377196D8 acdataIspace51DD90524F9D41AEB8FF9311377196D8=new AcDataISpace51DD90524F9D41AEB8FF9311377196D8();
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
 private void SubscribeFormEvents_root(ref Dictionary<string, ServiceElementData> ISpace)
 {
 try
@@ -8422,36 +8164,6 @@ if(ISpace["MF_d1_IsAdvanceRequired"].Value=="Yes")
 base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value==""Yes"")");
 ISpace["MF_d1_IsAdvanceRequired"].Visible="false";
 base.WriteDebugInfo(@"ISpace[""MF_d1_IsAdvanceRequired""].Visible=""false"";");
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
-}
-}
-catch(Exception ex)
-{
-base.WriteErrorInfo(@"Exception:",ex);
-}
 }
 }
 catch(Exception ex)
