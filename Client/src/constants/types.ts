@@ -67,6 +67,7 @@ export interface UIElement {
   Width?: number;
   DocumentSettings?:string;
   Visible?: string | boolean;
+ Enbl?: string | boolean;
   
   TabHeaders?: ITabHeader[];
   ActiveTab?: boolean;
@@ -208,6 +209,7 @@ export interface IGlobalStateValues {
   rElemData?: any;
   Css?: string;
   Enbl?:any;
+					
 
 }
 

@@ -28,6 +28,10 @@ const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
     (store) => store.state[element.ElementName]?.isVisible
   );
 
+	const disable = useGeneralStore(
+    (store) => store.state[element.ElementName]?.Enbl
+  );
+
   const isMandatory =
     element.ElementControlProperty?.some((prop) => accessMandatory(prop)) ?? false;
 
@@ -68,6 +72,7 @@ const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
               value={state !== undefined && state !== null ? String(state) : ""}              // ? controlled value
               onChange={onChange}               // ? update store
               onClick={(e) => e.stopPropagation()}
+	      disabled={disable === false || disable === "false" ? true : false}
             />
           ) : (
             <input
@@ -79,6 +84,7 @@ const DefaultTextBox: React.FC<{ element: UIElement; isGrid?: boolean }> = ({
               value={state !== undefined && state !== null ? String(state) : ""}              // ? controlled value
               onChange={onChange}
               onClick={(e) => e.stopPropagation()}
+              disabled={disable === false || disable === "false" ? true : false}
             />
           )}
         </div>

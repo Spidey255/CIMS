@@ -535,18 +535,8 @@ namespace CPS.Proof.DFSExtension
                                       case "7F2113FD-876A-41F4-BEAC-881CA7D38469":
                     {
                      
-                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [7F2113FD-876A-41F4-BEAC-881CA7D38469] WHERE InstanceId='{0}') 
-BEGIN 
-INSERT INTO [7F2113FD-876A-41F4-BEAC-881CA7D38469]
-(ProcessActivityMapId,FormId,MF_d10_Sector,MF_d10_ProjectDetailsID,MF_d10_InstanceId,MF_d10_ProjectCode,MF_d10_ProjectRefNo,MF_d10_EmployeeBasicInfoId,MF_d10_ActualDate,MF_d10_ActualEndDate,MF_d10_NonRecurringAmount,MF_d10_RecurringAmount,MF_d10_IfExtended,MF_d10_ExtendedDate,MF_d10_BudgetTotalAmount,MF_d10_Overhead,MF_d10_ExchangeRate,MF_d10_DocumentComments,MF_d19_OverallAmount,MF_d145_OverallTotalCost,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_d10_FinancialYearID,MF_d10_ProjectName,MF_d10_Duration,MF_d10_IfManpower,MF_d10_IfEquipment,MF_d10_IsExternalIns,MF_d10_FundReceiptMode,MF_d10_PrincipalInvestigator,MF_d10_ProjectproposalID,MF_d10_SanctionedNumber,MF_d10_DepartmentID,MF_d10_SchemeID,MF_d10_FundingAgency,MF_d10_YearMonth,MF_d10_ProjectStatus,MF_d10_Designation,MF_d10_ProjectCategoryID,MF_d10_IsSubmitted,MF_d10_SanctionedDate,MF_d10_FromDate,MF_d10_ToDate,MF_d10_ProjectBudget,MF_d10_ProjectType,InstanceId,M_MoveTo,m_currency,m_typeofproject,MF_d10_RecurringValidation,MF_ManPowerTotal,MF_EquipmentTotal,MF_d10_EmployeeCode,MF_d10_EmpDeptCode,MF_Counter,Comments,M_FlowType,ErrId,ErrMsg)
-							VALUES( {3})
- END ELSE 
-BEGIN 
-UPDATE [7F2113FD-876A-41F4-BEAC-881CA7D38469]
-SET {4}
-WHERE InstanceId='{0}'
-END 
-";
+                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [7F2113FD-876A-41F4-BEAC-881CA7D38469] WHERE InstanceId='{0}') BEGIN INSERT INTO [7F2113FD-876A-41F4-BEAC-881CA7D38469](ProcessActivityMapId,FormId,MF_d10_Sector,MF_d10_ProjectDetailsID,MF_d10_InstanceId,MF_d10_ProjectCode,MF_d10_ProjectRefNo,MF_d10_EmployeeBasicInfoId,MF_d10_ActualDate,MF_d10_ActualEndDate,MF_d10_NonRecurringAmount,MF_d10_RecurringAmount,MF_d10_IfExtended,MF_d10_ExtendedDate,MF_d10_BudgetTotalAmount,MF_d10_Overhead,MF_d10_ExchangeRate,MF_d10_DocumentComments,MF_d19_OverallAmount,MF_d145_OverallTotalCost,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_d10_FinancialYearID,MF_d10_ProjectName,MF_d10_Duration,MF_d10_IfManpower,MF_d10_IfEquipment,MF_d10_IsExternalIns,MF_d10_FundReceiptMode,MF_d10_PrincipalInvestigator,MF_d10_ProjectproposalID,MF_d10_SanctionedNumber,MF_d10_DepartmentID,MF_d10_SchemeID,MF_d10_FundingAgency,MF_d10_YearMonth,MF_d10_ProjectStatus,MF_d10_Designation,MF_d10_ProjectCategoryID,MF_d10_IsSubmitted,MF_d10_SanctionedDate,MF_d10_FromDate,MF_d10_ToDate,MF_d10_ProjectBudget,MF_d10_ProjectType,InstanceId,M_MoveTo,m_currency,m_typeofproject,MF_d10_RecurringValidation,MF_ManPowerTotal,MF_EquipmentTotal,MF_d10_EmployeeCode,MF_d10_EmpDeptCode,MF_Counter,Comments,M_FlowType,ErrId,ErrMsg)
+							VALUES( {3}) END ELSE BEGIN UPDATE [7F2113FD-876A-41F4-BEAC-881CA7D38469]SET {4}WHERE InstanceId='{0}'END ";
 
                                      colList=@"ProcessActivityMapId,FormId,MF_d10_Sector,MF_d10_ProjectDetailsID,MF_d10_InstanceId,MF_d10_ProjectCode,MF_d10_ProjectRefNo,MF_d10_EmployeeBasicInfoId,MF_d10_ActualDate,MF_d10_ActualEndDate,MF_d10_NonRecurringAmount,MF_d10_RecurringAmount,MF_d10_IfExtended,MF_d10_ExtendedDate,MF_d10_BudgetTotalAmount,MF_d10_Overhead,MF_d10_ExchangeRate,MF_d10_DocumentComments,MF_d19_OverallAmount,MF_d145_OverallTotalCost,Subject,ExecutionStatus,ExecutionMessage,SetDestinationTo,SLATime,AssignToRole,AssignToUser,IN_Priority,IN_InstanceName,IN_SLA,IN_Status,IN_Category,ExecuteCommand,RedirectUrl,Thumbnail,CancelRedirectUrl,KeyContext,DisplayContext,growid,MF_d10_FinancialYearID,MF_d10_ProjectName,MF_d10_Duration,MF_d10_IfManpower,MF_d10_IfEquipment,MF_d10_IsExternalIns,MF_d10_FundReceiptMode,MF_d10_PrincipalInvestigator,MF_d10_ProjectproposalID,MF_d10_SanctionedNumber,MF_d10_DepartmentID,MF_d10_SchemeID,MF_d10_FundingAgency,MF_d10_YearMonth,MF_d10_ProjectStatus,MF_d10_Designation,MF_d10_ProjectCategoryID,MF_d10_IsSubmitted,MF_d10_SanctionedDate,MF_d10_FromDate,MF_d10_ToDate,MF_d10_ProjectBudget,MF_d10_ProjectType,InstanceId,M_MoveTo,m_currency,m_typeofproject,MF_d10_RecurringValidation,MF_ManPowerTotal,MF_EquipmentTotal,MF_d10_EmployeeCode,MF_d10_EmpDeptCode,MF_Counter,Comments,M_FlowType,ErrId,ErrMsg";
                                     
@@ -732,26 +722,12 @@ END
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_B73036BBFE7D4B0D998A985294F8FC5B AS TABLE
-(
-	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d28_RecurringValidation] INT	, [MG_d28_Reappropriation] DECIMAL(18,2)	, [MG_d28_BudgetID] VARCHAR(MAX)	, [MG_d28_BudgetAmount] DECIMAL(18,2)	, [MG_d28_Comments] VARCHAR(MAX)	, [MG_d28_RDOfficeComments] VARCHAR(MAX)	, [MG_d28_Justiifcation] VARCHAR(MAX)	, [MG_d28_JustiifcationbyHoD] VARCHAR(MAX)	, [MG_d28_Year1] DECIMAL(18,2)	, [MG_d28_Year2] DECIMAL(18,2)	, [MG_d28_Year3] DECIMAL(18,2)	, [MG_d28_Year4] DECIMAL(18,2)	, [MG_d28_Year5] DECIMAL(18,2)	, [MG_d28_Year6] DECIMAL(18,2)	, [MG_d28_Year7] DECIMAL(18,2)	, [MG_d28_Year8] DECIMAL(18,2)	, [MG_d28_Year9] DECIMAL(18,2)	, [MG_d28_Year10] DECIMAL(18,2)	, [MG_d28_Year11] DECIMAL(18,2)	, [MG_d28_Year12] DECIMAL(18,2)	, [MG_d28_BudgetHead] VARCHAR(MAX)	, [MG_d28_BudgetDetailsId] VARCHAR(MAX)
-)
-
-{0}
-INSERT INTO [B73036BB-FE7D-4B0D-998A-985294F8FC5B]
-(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d28_RecurringValidation,MG_d28_Reappropriation,MG_d28_BudgetID,MG_d28_BudgetAmount,MG_d28_Comments,MG_d28_RDOfficeComments,MG_d28_Justiifcation,MG_d28_JustiifcationbyHoD,MG_d28_Year1,MG_d28_Year2,MG_d28_Year3,MG_d28_Year4,MG_d28_Year5,MG_d28_Year6,MG_d28_Year7,MG_d28_Year8,MG_d28_Year9,MG_d28_Year10,MG_d28_Year11,MG_d28_Year12,MG_d28_BudgetHead,MG_d28_BudgetDetailsId)
+		DECLARE  @TBL_B73036BBFE7D4B0D998A985294F8FC5B AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d28_RecurringValidation] INT	, [MG_d28_Reappropriation] DECIMAL(18,2)	, [MG_d28_BudgetID] VARCHAR(MAX)	, [MG_d28_BudgetAmount] DECIMAL(18,2)	, [MG_d28_Comments] VARCHAR(MAX)	, [MG_d28_RDOfficeComments] VARCHAR(MAX)	, [MG_d28_Justiifcation] VARCHAR(MAX)	, [MG_d28_JustiifcationbyHoD] VARCHAR(MAX)	, [MG_d28_Year1] DECIMAL(18,2)	, [MG_d28_Year2] DECIMAL(18,2)	, [MG_d28_Year3] DECIMAL(18,2)	, [MG_d28_Year4] DECIMAL(18,2)	, [MG_d28_Year5] DECIMAL(18,2)	, [MG_d28_Year6] DECIMAL(18,2)	, [MG_d28_Year7] DECIMAL(18,2)	, [MG_d28_Year8] DECIMAL(18,2)	, [MG_d28_Year9] DECIMAL(18,2)	, [MG_d28_Year10] DECIMAL(18,2)	, [MG_d28_Year11] DECIMAL(18,2)	, [MG_d28_Year12] DECIMAL(18,2)	, [MG_d28_BudgetHead] VARCHAR(MAX)	, [MG_d28_BudgetDetailsId] VARCHAR(MAX)){0}INSERT INTO [B73036BB-FE7D-4B0D-998A-985294F8FC5B](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d28_RecurringValidation,MG_d28_Reappropriation,MG_d28_BudgetID,MG_d28_BudgetAmount,MG_d28_Comments,MG_d28_RDOfficeComments,MG_d28_Justiifcation,MG_d28_JustiifcationbyHoD,MG_d28_Year1,MG_d28_Year2,MG_d28_Year3,MG_d28_Year4,MG_d28_Year5,MG_d28_Year6,MG_d28_Year7,MG_d28_Year8,MG_d28_Year9,MG_d28_Year10,MG_d28_Year11,MG_d28_Year12,MG_d28_BudgetHead,MG_d28_BudgetDetailsId)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d28_RecurringValidation,TDT.MG_d28_Reappropriation,TDT.MG_d28_BudgetID,TDT.MG_d28_BudgetAmount,TDT.MG_d28_Comments,TDT.MG_d28_RDOfficeComments,TDT.MG_d28_Justiifcation,TDT.MG_d28_JustiifcationbyHoD,TDT.MG_d28_Year1,TDT.MG_d28_Year2,TDT.MG_d28_Year3,TDT.MG_d28_Year4,TDT.MG_d28_Year5,TDT.MG_d28_Year6,TDT.MG_d28_Year7,TDT.MG_d28_Year8,TDT.MG_d28_Year9,TDT.MG_d28_Year10,TDT.MG_d28_Year11,TDT.MG_d28_Year12,TDT.MG_d28_BudgetHead,TDT.MG_d28_BudgetDetailsId FROM @TBL_B73036BBFE7D4B0D998A985294F8FC5B TDT
 							LEFT JOIN [B73036BB-FE7D-4B0D-998A-985294F8FC5B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
- WHERE DT.RowId IS NULL;
-
-UPDATE  DT
- SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d28_RecurringValidation=TDT.MG_d28_RecurringValidation,MG_d28_Reappropriation=TDT.MG_d28_Reappropriation,MG_d28_BudgetID=TDT.MG_d28_BudgetID,MG_d28_BudgetAmount=TDT.MG_d28_BudgetAmount,MG_d28_Comments=TDT.MG_d28_Comments,MG_d28_RDOfficeComments=TDT.MG_d28_RDOfficeComments,MG_d28_Justiifcation=TDT.MG_d28_Justiifcation,MG_d28_JustiifcationbyHoD=TDT.MG_d28_JustiifcationbyHoD,MG_d28_Year1=TDT.MG_d28_Year1,MG_d28_Year2=TDT.MG_d28_Year2,MG_d28_Year3=TDT.MG_d28_Year3,MG_d28_Year4=TDT.MG_d28_Year4,MG_d28_Year5=TDT.MG_d28_Year5,MG_d28_Year6=TDT.MG_d28_Year6,MG_d28_Year7=TDT.MG_d28_Year7,MG_d28_Year8=TDT.MG_d28_Year8,MG_d28_Year9=TDT.MG_d28_Year9,MG_d28_Year10=TDT.MG_d28_Year10,MG_d28_Year11=TDT.MG_d28_Year11,MG_d28_Year12=TDT.MG_d28_Year12,MG_d28_BudgetHead=TDT.MG_d28_BudgetHead,MG_d28_BudgetDetailsId=TDT.MG_d28_BudgetDetailsId FROM @TBL_B73036BBFE7D4B0D998A985294F8FC5B TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d28_RecurringValidation=TDT.MG_d28_RecurringValidation,MG_d28_Reappropriation=TDT.MG_d28_Reappropriation,MG_d28_BudgetID=TDT.MG_d28_BudgetID,MG_d28_BudgetAmount=TDT.MG_d28_BudgetAmount,MG_d28_Comments=TDT.MG_d28_Comments,MG_d28_RDOfficeComments=TDT.MG_d28_RDOfficeComments,MG_d28_Justiifcation=TDT.MG_d28_Justiifcation,MG_d28_JustiifcationbyHoD=TDT.MG_d28_JustiifcationbyHoD,MG_d28_Year1=TDT.MG_d28_Year1,MG_d28_Year2=TDT.MG_d28_Year2,MG_d28_Year3=TDT.MG_d28_Year3,MG_d28_Year4=TDT.MG_d28_Year4,MG_d28_Year5=TDT.MG_d28_Year5,MG_d28_Year6=TDT.MG_d28_Year6,MG_d28_Year7=TDT.MG_d28_Year7,MG_d28_Year8=TDT.MG_d28_Year8,MG_d28_Year9=TDT.MG_d28_Year9,MG_d28_Year10=TDT.MG_d28_Year10,MG_d28_Year11=TDT.MG_d28_Year11,MG_d28_Year12=TDT.MG_d28_Year12,MG_d28_BudgetHead=TDT.MG_d28_BudgetHead,MG_d28_BudgetDetailsId=TDT.MG_d28_BudgetDetailsId FROM @TBL_B73036BBFE7D4B0D998A985294F8FC5B TDT
 							JOIN [B73036BB-FE7D-4B0D-998A-985294F8FC5B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
-";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d28_RecurringValidation,MG_d28_Reappropriation,MG_d28_BudgetID,MG_d28_BudgetAmount,MG_d28_Comments,MG_d28_RDOfficeComments,MG_d28_Justiifcation,MG_d28_JustiifcationbyHoD,MG_d28_Year1,MG_d28_Year2,MG_d28_Year3,MG_d28_Year4,MG_d28_Year5,MG_d28_Year6,MG_d28_Year7,MG_d28_Year8,MG_d28_Year9,MG_d28_Year10,MG_d28_Year11,MG_d28_Year12,MG_d28_BudgetHead,MG_d28_BudgetDetailsId";
 
@@ -864,26 +840,12 @@ UPDATE  DT
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_6677BAB3659A4A9690675D365F60CB62 AS TABLE
-(
-	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d82_DocumentName] VARCHAR(MAX)	, [MG_d82_DocumentID] VARCHAR(36)
-)
-
-{0}
-INSERT INTO [6677BAB3-659A-4A96-9067-5D365F60CB62]
-(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d82_DocumentName,MG_d82_DocumentID)
+		DECLARE  @TBL_6677BAB3659A4A9690675D365F60CB62 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d82_DocumentName] VARCHAR(MAX)	, [MG_d82_DocumentID] VARCHAR(36)){0}INSERT INTO [6677BAB3-659A-4A96-9067-5D365F60CB62](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d82_DocumentName,MG_d82_DocumentID)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d82_DocumentName,TDT.MG_d82_DocumentID FROM @TBL_6677BAB3659A4A9690675D365F60CB62 TDT
 							LEFT JOIN [6677BAB3-659A-4A96-9067-5D365F60CB62] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
- WHERE DT.RowId IS NULL;
-
-UPDATE  DT
- SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d82_DocumentName=TDT.MG_d82_DocumentName,MG_d82_DocumentID=TDT.MG_d82_DocumentID FROM @TBL_6677BAB3659A4A9690675D365F60CB62 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d82_DocumentName=TDT.MG_d82_DocumentName,MG_d82_DocumentID=TDT.MG_d82_DocumentID FROM @TBL_6677BAB3659A4A9690675D365F60CB62 TDT
 							JOIN [6677BAB3-659A-4A96-9067-5D365F60CB62] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
-";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d82_DocumentName,MG_d82_DocumentID";
 
@@ -996,26 +958,12 @@ UPDATE  DT
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_59259E21AFE84DABA54374CC22FC79D5 AS TABLE
-(
-	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d55_Departmentid] VARCHAR(MAX)	, [MG_d55_AdditionalType] VARCHAR(MAX)	, [MG_d55_AdditionalName] VARCHAR(MAX)	, [MG_d55_ExternalInstituteName] VARCHAR(MAX)	, [MG_d55_ExternalFacultyName] VARCHAR(MAX)	, [MG_d55_DesignationID] VARCHAR(MAX)	, [MG_d55_ExternalDesignation] VARCHAR(MAX)	, [MG_d55_ExternalEmailId] VARCHAR(MAX)	, [MG_d55_ExternalContactNo] VARCHAR(MAX)
-)
-
-{0}
-INSERT INTO [59259E21-AFE8-4DAB-A543-74CC22FC79D5]
-(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d55_Departmentid,MG_d55_AdditionalType,MG_d55_AdditionalName,MG_d55_ExternalInstituteName,MG_d55_ExternalFacultyName,MG_d55_DesignationID,MG_d55_ExternalDesignation,MG_d55_ExternalEmailId,MG_d55_ExternalContactNo)
+		DECLARE  @TBL_59259E21AFE84DABA54374CC22FC79D5 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d55_Departmentid] VARCHAR(MAX)	, [MG_d55_AdditionalType] VARCHAR(MAX)	, [MG_d55_AdditionalName] VARCHAR(MAX)	, [MG_d55_ExternalInstituteName] VARCHAR(MAX)	, [MG_d55_ExternalFacultyName] VARCHAR(MAX)	, [MG_d55_DesignationID] VARCHAR(MAX)	, [MG_d55_ExternalDesignation] VARCHAR(MAX)	, [MG_d55_ExternalEmailId] VARCHAR(MAX)	, [MG_d55_ExternalContactNo] VARCHAR(MAX)){0}INSERT INTO [59259E21-AFE8-4DAB-A543-74CC22FC79D5](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d55_Departmentid,MG_d55_AdditionalType,MG_d55_AdditionalName,MG_d55_ExternalInstituteName,MG_d55_ExternalFacultyName,MG_d55_DesignationID,MG_d55_ExternalDesignation,MG_d55_ExternalEmailId,MG_d55_ExternalContactNo)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d55_Departmentid,TDT.MG_d55_AdditionalType,TDT.MG_d55_AdditionalName,TDT.MG_d55_ExternalInstituteName,TDT.MG_d55_ExternalFacultyName,TDT.MG_d55_DesignationID,TDT.MG_d55_ExternalDesignation,TDT.MG_d55_ExternalEmailId,TDT.MG_d55_ExternalContactNo FROM @TBL_59259E21AFE84DABA54374CC22FC79D5 TDT
 							LEFT JOIN [59259E21-AFE8-4DAB-A543-74CC22FC79D5] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
- WHERE DT.RowId IS NULL;
-
-UPDATE  DT
- SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d55_Departmentid=TDT.MG_d55_Departmentid,MG_d55_AdditionalType=TDT.MG_d55_AdditionalType,MG_d55_AdditionalName=TDT.MG_d55_AdditionalName,MG_d55_ExternalInstituteName=TDT.MG_d55_ExternalInstituteName,MG_d55_ExternalFacultyName=TDT.MG_d55_ExternalFacultyName,MG_d55_DesignationID=TDT.MG_d55_DesignationID,MG_d55_ExternalDesignation=TDT.MG_d55_ExternalDesignation,MG_d55_ExternalEmailId=TDT.MG_d55_ExternalEmailId,MG_d55_ExternalContactNo=TDT.MG_d55_ExternalContactNo FROM @TBL_59259E21AFE84DABA54374CC22FC79D5 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d55_Departmentid=TDT.MG_d55_Departmentid,MG_d55_AdditionalType=TDT.MG_d55_AdditionalType,MG_d55_AdditionalName=TDT.MG_d55_AdditionalName,MG_d55_ExternalInstituteName=TDT.MG_d55_ExternalInstituteName,MG_d55_ExternalFacultyName=TDT.MG_d55_ExternalFacultyName,MG_d55_DesignationID=TDT.MG_d55_DesignationID,MG_d55_ExternalDesignation=TDT.MG_d55_ExternalDesignation,MG_d55_ExternalEmailId=TDT.MG_d55_ExternalEmailId,MG_d55_ExternalContactNo=TDT.MG_d55_ExternalContactNo FROM @TBL_59259E21AFE84DABA54374CC22FC79D5 TDT
 							JOIN [59259E21-AFE8-4DAB-A543-74CC22FC79D5] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
-";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d55_Departmentid,MG_d55_AdditionalType,MG_d55_AdditionalName,MG_d55_ExternalInstituteName,MG_d55_ExternalFacultyName,MG_d55_DesignationID,MG_d55_ExternalDesignation,MG_d55_ExternalEmailId,MG_d55_ExternalContactNo";
 
@@ -1128,26 +1076,12 @@ UPDATE  DT
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_08F73C4A3B9443278859B98388D1C9CD AS TABLE
-(
-	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d109_SerialNo] INT	, [MG_d109_EquipmentName] VARCHAR(MAX)	, [MG_d109_Description] VARCHAR(MAX)	, [MG_d109_Quantity] INT	, [MG_d109_RateinINR] DECIMAL(18,2)	, [MG_d109_TotalEquipmentcost] DECIMAL(18,2)	, [MG_d109_EquipmentBudget] INT	, [MG_d109_OverallEquipmentcost] DECIMAL(18,2)
-)
-
-{0}
-INSERT INTO [08F73C4A-3B94-4327-8859-B98388D1C9CD]
-(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d109_SerialNo,MG_d109_EquipmentName,MG_d109_Description,MG_d109_Quantity,MG_d109_RateinINR,MG_d109_TotalEquipmentcost,MG_d109_EquipmentBudget,MG_d109_OverallEquipmentcost)
+		DECLARE  @TBL_08F73C4A3B9443278859B98388D1C9CD AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d109_SerialNo] INT	, [MG_d109_EquipmentName] VARCHAR(MAX)	, [MG_d109_Description] VARCHAR(MAX)	, [MG_d109_Quantity] INT	, [MG_d109_RateinINR] DECIMAL(18,2)	, [MG_d109_TotalEquipmentcost] DECIMAL(18,2)	, [MG_d109_EquipmentBudget] INT	, [MG_d109_OverallEquipmentcost] DECIMAL(18,2)){0}INSERT INTO [08F73C4A-3B94-4327-8859-B98388D1C9CD](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d109_SerialNo,MG_d109_EquipmentName,MG_d109_Description,MG_d109_Quantity,MG_d109_RateinINR,MG_d109_TotalEquipmentcost,MG_d109_EquipmentBudget,MG_d109_OverallEquipmentcost)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d109_SerialNo,TDT.MG_d109_EquipmentName,TDT.MG_d109_Description,TDT.MG_d109_Quantity,TDT.MG_d109_RateinINR,TDT.MG_d109_TotalEquipmentcost,TDT.MG_d109_EquipmentBudget,TDT.MG_d109_OverallEquipmentcost FROM @TBL_08F73C4A3B9443278859B98388D1C9CD TDT
 							LEFT JOIN [08F73C4A-3B94-4327-8859-B98388D1C9CD] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
- WHERE DT.RowId IS NULL;
-
-UPDATE  DT
- SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d109_SerialNo=TDT.MG_d109_SerialNo,MG_d109_EquipmentName=TDT.MG_d109_EquipmentName,MG_d109_Description=TDT.MG_d109_Description,MG_d109_Quantity=TDT.MG_d109_Quantity,MG_d109_RateinINR=TDT.MG_d109_RateinINR,MG_d109_TotalEquipmentcost=TDT.MG_d109_TotalEquipmentcost,MG_d109_EquipmentBudget=TDT.MG_d109_EquipmentBudget,MG_d109_OverallEquipmentcost=TDT.MG_d109_OverallEquipmentcost FROM @TBL_08F73C4A3B9443278859B98388D1C9CD TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d109_SerialNo=TDT.MG_d109_SerialNo,MG_d109_EquipmentName=TDT.MG_d109_EquipmentName,MG_d109_Description=TDT.MG_d109_Description,MG_d109_Quantity=TDT.MG_d109_Quantity,MG_d109_RateinINR=TDT.MG_d109_RateinINR,MG_d109_TotalEquipmentcost=TDT.MG_d109_TotalEquipmentcost,MG_d109_EquipmentBudget=TDT.MG_d109_EquipmentBudget,MG_d109_OverallEquipmentcost=TDT.MG_d109_OverallEquipmentcost FROM @TBL_08F73C4A3B9443278859B98388D1C9CD TDT
 							JOIN [08F73C4A-3B94-4327-8859-B98388D1C9CD] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
-";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d109_SerialNo,MG_d109_EquipmentName,MG_d109_Description,MG_d109_Quantity,MG_d109_RateinINR,MG_d109_TotalEquipmentcost,MG_d109_EquipmentBudget,MG_d109_OverallEquipmentcost";
 
@@ -1260,26 +1194,12 @@ UPDATE  DT
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_25683F52E21A4CE391967BCFA640A94B AS TABLE
-(
-	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d154_Duration] INT	, [MG_d154_SerialNo] INT	, [MG_d154_Comments] VARCHAR(MAX)	, [MG_d154_ManpowerPosition] VARCHAR(250)	, [MG_d154_No_OfManpowerPosition] DECIMAL(18,2)	, [MG_d154_RatePerMonth] DECIMAL(18,2)	, [MG_d154_HRAPercentage] DECIMAL(18,2)	, [MG_d154_HRAPerMonth] DECIMAL(18,2)	, [MG_d154_TotalPerMonth] DECIMAL(18,2)	, [MG_d154_TotalMonths] INT	, [MG_d154_TotalCost] DECIMAL(18,2)
-)
-
-{0}
-INSERT INTO [25683F52-E21A-4CE3-9196-7BCFA640A94B]
-(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d154_Duration,MG_d154_SerialNo,MG_d154_Comments,MG_d154_ManpowerPosition,MG_d154_No_OfManpowerPosition,MG_d154_RatePerMonth,MG_d154_HRAPercentage,MG_d154_HRAPerMonth,MG_d154_TotalPerMonth,MG_d154_TotalMonths,MG_d154_TotalCost)
+		DECLARE  @TBL_25683F52E21A4CE391967BCFA640A94B AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d154_Duration] INT	, [MG_d154_SerialNo] INT	, [MG_d154_Comments] VARCHAR(MAX)	, [MG_d154_ManpowerPosition] VARCHAR(250)	, [MG_d154_No_OfManpowerPosition] DECIMAL(18,2)	, [MG_d154_RatePerMonth] DECIMAL(18,2)	, [MG_d154_HRAPercentage] DECIMAL(18,2)	, [MG_d154_HRAPerMonth] DECIMAL(18,2)	, [MG_d154_TotalPerMonth] DECIMAL(18,2)	, [MG_d154_TotalMonths] INT	, [MG_d154_TotalCost] DECIMAL(18,2)){0}INSERT INTO [25683F52-E21A-4CE3-9196-7BCFA640A94B](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d154_Duration,MG_d154_SerialNo,MG_d154_Comments,MG_d154_ManpowerPosition,MG_d154_No_OfManpowerPosition,MG_d154_RatePerMonth,MG_d154_HRAPercentage,MG_d154_HRAPerMonth,MG_d154_TotalPerMonth,MG_d154_TotalMonths,MG_d154_TotalCost)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d154_Duration,TDT.MG_d154_SerialNo,TDT.MG_d154_Comments,TDT.MG_d154_ManpowerPosition,TDT.MG_d154_No_OfManpowerPosition,TDT.MG_d154_RatePerMonth,TDT.MG_d154_HRAPercentage,TDT.MG_d154_HRAPerMonth,TDT.MG_d154_TotalPerMonth,TDT.MG_d154_TotalMonths,TDT.MG_d154_TotalCost FROM @TBL_25683F52E21A4CE391967BCFA640A94B TDT
 							LEFT JOIN [25683F52-E21A-4CE3-9196-7BCFA640A94B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
- WHERE DT.RowId IS NULL;
-
-UPDATE  DT
- SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d154_Duration=TDT.MG_d154_Duration,MG_d154_SerialNo=TDT.MG_d154_SerialNo,MG_d154_Comments=TDT.MG_d154_Comments,MG_d154_ManpowerPosition=TDT.MG_d154_ManpowerPosition,MG_d154_No_OfManpowerPosition=TDT.MG_d154_No_OfManpowerPosition,MG_d154_RatePerMonth=TDT.MG_d154_RatePerMonth,MG_d154_HRAPercentage=TDT.MG_d154_HRAPercentage,MG_d154_HRAPerMonth=TDT.MG_d154_HRAPerMonth,MG_d154_TotalPerMonth=TDT.MG_d154_TotalPerMonth,MG_d154_TotalMonths=TDT.MG_d154_TotalMonths,MG_d154_TotalCost=TDT.MG_d154_TotalCost FROM @TBL_25683F52E21A4CE391967BCFA640A94B TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d154_Duration=TDT.MG_d154_Duration,MG_d154_SerialNo=TDT.MG_d154_SerialNo,MG_d154_Comments=TDT.MG_d154_Comments,MG_d154_ManpowerPosition=TDT.MG_d154_ManpowerPosition,MG_d154_No_OfManpowerPosition=TDT.MG_d154_No_OfManpowerPosition,MG_d154_RatePerMonth=TDT.MG_d154_RatePerMonth,MG_d154_HRAPercentage=TDT.MG_d154_HRAPercentage,MG_d154_HRAPerMonth=TDT.MG_d154_HRAPerMonth,MG_d154_TotalPerMonth=TDT.MG_d154_TotalPerMonth,MG_d154_TotalMonths=TDT.MG_d154_TotalMonths,MG_d154_TotalCost=TDT.MG_d154_TotalCost FROM @TBL_25683F52E21A4CE391967BCFA640A94B TDT
 							JOIN [25683F52-E21A-4CE3-9196-7BCFA640A94B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
-";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d154_Duration,MG_d154_SerialNo,MG_d154_Comments,MG_d154_ManpowerPosition,MG_d154_No_OfManpowerPosition,MG_d154_RatePerMonth,MG_d154_HRAPercentage,MG_d154_HRAPerMonth,MG_d154_TotalPerMonth,MG_d154_TotalMonths,MG_d154_TotalCost";
 
@@ -1392,26 +1312,12 @@ UPDATE  DT
                      
                                      gInsertQuery=@"
 		
-		DECLARE  @TBL_f182594398b5f54f02250081ef436f94 AS TABLE
-(
-	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME
-)
-
-{0}
-INSERT INTO [f1825943-98b5-f54f-0225-0081ef436f94]
-(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
+		DECLARE  @TBL_f182594398b5f54f02250081ef436f94 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [f1825943-98b5-f54f-0225-0081ef436f94](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.C_Stepfrom,TDT.C_StepTo,TDT.C_Comments,TDT.C_User,TDT.C_DateofComments FROM @TBL_f182594398b5f54f02250081ef436f94 TDT
 							LEFT JOIN [f1825943-98b5-f54f-0225-0081ef436f94] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
- WHERE DT.RowId IS NULL;
-
-UPDATE  DT
- SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_f182594398b5f54f02250081ef436f94 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_f182594398b5f54f02250081ef436f94 TDT
 							JOIN [f1825943-98b5-f54f-0225-0081ef436f94] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
-";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                                      colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments";
 
@@ -1586,26 +1492,12 @@ UPDATE  DT
 
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_B73036BBFE7D4B0D998A985294F8FC5B AS TABLE
-(
-	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d28_RecurringValidation] INT	, [MG_d28_Reappropriation] DECIMAL(18,2)	, [MG_d28_BudgetID] VARCHAR(MAX)	, [MG_d28_BudgetAmount] DECIMAL(18,2)	, [MG_d28_Comments] VARCHAR(MAX)	, [MG_d28_RDOfficeComments] VARCHAR(MAX)	, [MG_d28_Justiifcation] VARCHAR(MAX)	, [MG_d28_JustiifcationbyHoD] VARCHAR(MAX)	, [MG_d28_Year1] DECIMAL(18,2)	, [MG_d28_Year2] DECIMAL(18,2)	, [MG_d28_Year3] DECIMAL(18,2)	, [MG_d28_Year4] DECIMAL(18,2)	, [MG_d28_Year5] DECIMAL(18,2)	, [MG_d28_Year6] DECIMAL(18,2)	, [MG_d28_Year7] DECIMAL(18,2)	, [MG_d28_Year8] DECIMAL(18,2)	, [MG_d28_Year9] DECIMAL(18,2)	, [MG_d28_Year10] DECIMAL(18,2)	, [MG_d28_Year11] DECIMAL(18,2)	, [MG_d28_Year12] DECIMAL(18,2)	, [MG_d28_BudgetHead] VARCHAR(MAX)	, [MG_d28_BudgetDetailsId] VARCHAR(MAX)
-)
-
-{0}
-INSERT INTO [B73036BB-FE7D-4B0D-998A-985294F8FC5B]
-(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d28_RecurringValidation,MG_d28_Reappropriation,MG_d28_BudgetID,MG_d28_BudgetAmount,MG_d28_Comments,MG_d28_RDOfficeComments,MG_d28_Justiifcation,MG_d28_JustiifcationbyHoD,MG_d28_Year1,MG_d28_Year2,MG_d28_Year3,MG_d28_Year4,MG_d28_Year5,MG_d28_Year6,MG_d28_Year7,MG_d28_Year8,MG_d28_Year9,MG_d28_Year10,MG_d28_Year11,MG_d28_Year12,MG_d28_BudgetHead,MG_d28_BudgetDetailsId)
+		DECLARE  @TBL_B73036BBFE7D4B0D998A985294F8FC5B AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d28_RecurringValidation] INT	, [MG_d28_Reappropriation] DECIMAL(18,2)	, [MG_d28_BudgetID] VARCHAR(MAX)	, [MG_d28_BudgetAmount] DECIMAL(18,2)	, [MG_d28_Comments] VARCHAR(MAX)	, [MG_d28_RDOfficeComments] VARCHAR(MAX)	, [MG_d28_Justiifcation] VARCHAR(MAX)	, [MG_d28_JustiifcationbyHoD] VARCHAR(MAX)	, [MG_d28_Year1] DECIMAL(18,2)	, [MG_d28_Year2] DECIMAL(18,2)	, [MG_d28_Year3] DECIMAL(18,2)	, [MG_d28_Year4] DECIMAL(18,2)	, [MG_d28_Year5] DECIMAL(18,2)	, [MG_d28_Year6] DECIMAL(18,2)	, [MG_d28_Year7] DECIMAL(18,2)	, [MG_d28_Year8] DECIMAL(18,2)	, [MG_d28_Year9] DECIMAL(18,2)	, [MG_d28_Year10] DECIMAL(18,2)	, [MG_d28_Year11] DECIMAL(18,2)	, [MG_d28_Year12] DECIMAL(18,2)	, [MG_d28_BudgetHead] VARCHAR(MAX)	, [MG_d28_BudgetDetailsId] VARCHAR(MAX)){0}INSERT INTO [B73036BB-FE7D-4B0D-998A-985294F8FC5B](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d28_RecurringValidation,MG_d28_Reappropriation,MG_d28_BudgetID,MG_d28_BudgetAmount,MG_d28_Comments,MG_d28_RDOfficeComments,MG_d28_Justiifcation,MG_d28_JustiifcationbyHoD,MG_d28_Year1,MG_d28_Year2,MG_d28_Year3,MG_d28_Year4,MG_d28_Year5,MG_d28_Year6,MG_d28_Year7,MG_d28_Year8,MG_d28_Year9,MG_d28_Year10,MG_d28_Year11,MG_d28_Year12,MG_d28_BudgetHead,MG_d28_BudgetDetailsId)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d28_RecurringValidation,TDT.MG_d28_Reappropriation,TDT.MG_d28_BudgetID,TDT.MG_d28_BudgetAmount,TDT.MG_d28_Comments,TDT.MG_d28_RDOfficeComments,TDT.MG_d28_Justiifcation,TDT.MG_d28_JustiifcationbyHoD,TDT.MG_d28_Year1,TDT.MG_d28_Year2,TDT.MG_d28_Year3,TDT.MG_d28_Year4,TDT.MG_d28_Year5,TDT.MG_d28_Year6,TDT.MG_d28_Year7,TDT.MG_d28_Year8,TDT.MG_d28_Year9,TDT.MG_d28_Year10,TDT.MG_d28_Year11,TDT.MG_d28_Year12,TDT.MG_d28_BudgetHead,TDT.MG_d28_BudgetDetailsId FROM @TBL_B73036BBFE7D4B0D998A985294F8FC5B TDT
 							LEFT JOIN [B73036BB-FE7D-4B0D-998A-985294F8FC5B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
- WHERE DT.RowId IS NULL;
-
-UPDATE  DT
- SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d28_RecurringValidation=TDT.MG_d28_RecurringValidation,MG_d28_Reappropriation=TDT.MG_d28_Reappropriation,MG_d28_BudgetID=TDT.MG_d28_BudgetID,MG_d28_BudgetAmount=TDT.MG_d28_BudgetAmount,MG_d28_Comments=TDT.MG_d28_Comments,MG_d28_RDOfficeComments=TDT.MG_d28_RDOfficeComments,MG_d28_Justiifcation=TDT.MG_d28_Justiifcation,MG_d28_JustiifcationbyHoD=TDT.MG_d28_JustiifcationbyHoD,MG_d28_Year1=TDT.MG_d28_Year1,MG_d28_Year2=TDT.MG_d28_Year2,MG_d28_Year3=TDT.MG_d28_Year3,MG_d28_Year4=TDT.MG_d28_Year4,MG_d28_Year5=TDT.MG_d28_Year5,MG_d28_Year6=TDT.MG_d28_Year6,MG_d28_Year7=TDT.MG_d28_Year7,MG_d28_Year8=TDT.MG_d28_Year8,MG_d28_Year9=TDT.MG_d28_Year9,MG_d28_Year10=TDT.MG_d28_Year10,MG_d28_Year11=TDT.MG_d28_Year11,MG_d28_Year12=TDT.MG_d28_Year12,MG_d28_BudgetHead=TDT.MG_d28_BudgetHead,MG_d28_BudgetDetailsId=TDT.MG_d28_BudgetDetailsId FROM @TBL_B73036BBFE7D4B0D998A985294F8FC5B TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d28_RecurringValidation=TDT.MG_d28_RecurringValidation,MG_d28_Reappropriation=TDT.MG_d28_Reappropriation,MG_d28_BudgetID=TDT.MG_d28_BudgetID,MG_d28_BudgetAmount=TDT.MG_d28_BudgetAmount,MG_d28_Comments=TDT.MG_d28_Comments,MG_d28_RDOfficeComments=TDT.MG_d28_RDOfficeComments,MG_d28_Justiifcation=TDT.MG_d28_Justiifcation,MG_d28_JustiifcationbyHoD=TDT.MG_d28_JustiifcationbyHoD,MG_d28_Year1=TDT.MG_d28_Year1,MG_d28_Year2=TDT.MG_d28_Year2,MG_d28_Year3=TDT.MG_d28_Year3,MG_d28_Year4=TDT.MG_d28_Year4,MG_d28_Year5=TDT.MG_d28_Year5,MG_d28_Year6=TDT.MG_d28_Year6,MG_d28_Year7=TDT.MG_d28_Year7,MG_d28_Year8=TDT.MG_d28_Year8,MG_d28_Year9=TDT.MG_d28_Year9,MG_d28_Year10=TDT.MG_d28_Year10,MG_d28_Year11=TDT.MG_d28_Year11,MG_d28_Year12=TDT.MG_d28_Year12,MG_d28_BudgetHead=TDT.MG_d28_BudgetHead,MG_d28_BudgetDetailsId=TDT.MG_d28_BudgetDetailsId FROM @TBL_B73036BBFE7D4B0D998A985294F8FC5B TDT
 							JOIN [B73036BB-FE7D-4B0D-998A-985294F8FC5B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
-";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d28_RecurringValidation,MG_d28_Reappropriation,MG_d28_BudgetID,MG_d28_BudgetAmount,MG_d28_Comments,MG_d28_RDOfficeComments,MG_d28_Justiifcation,MG_d28_JustiifcationbyHoD,MG_d28_Year1,MG_d28_Year2,MG_d28_Year3,MG_d28_Year4,MG_d28_Year5,MG_d28_Year6,MG_d28_Year7,MG_d28_Year8,MG_d28_Year9,MG_d28_Year10,MG_d28_Year11,MG_d28_Year12,MG_d28_BudgetHead,MG_d28_BudgetDetailsId";
 
@@ -1721,26 +1613,12 @@ UPDATE  DT
 
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_59259E21AFE84DABA54374CC22FC79D5 AS TABLE
-(
-	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d55_Departmentid] VARCHAR(MAX)	, [MG_d55_AdditionalType] VARCHAR(MAX)	, [MG_d55_AdditionalName] VARCHAR(MAX)	, [MG_d55_ExternalInstituteName] VARCHAR(MAX)	, [MG_d55_ExternalFacultyName] VARCHAR(MAX)	, [MG_d55_DesignationID] VARCHAR(MAX)	, [MG_d55_ExternalDesignation] VARCHAR(MAX)	, [MG_d55_ExternalEmailId] VARCHAR(MAX)	, [MG_d55_ExternalContactNo] VARCHAR(MAX)
-)
-
-{0}
-INSERT INTO [59259E21-AFE8-4DAB-A543-74CC22FC79D5]
-(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d55_Departmentid,MG_d55_AdditionalType,MG_d55_AdditionalName,MG_d55_ExternalInstituteName,MG_d55_ExternalFacultyName,MG_d55_DesignationID,MG_d55_ExternalDesignation,MG_d55_ExternalEmailId,MG_d55_ExternalContactNo)
+		DECLARE  @TBL_59259E21AFE84DABA54374CC22FC79D5 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d55_Departmentid] VARCHAR(MAX)	, [MG_d55_AdditionalType] VARCHAR(MAX)	, [MG_d55_AdditionalName] VARCHAR(MAX)	, [MG_d55_ExternalInstituteName] VARCHAR(MAX)	, [MG_d55_ExternalFacultyName] VARCHAR(MAX)	, [MG_d55_DesignationID] VARCHAR(MAX)	, [MG_d55_ExternalDesignation] VARCHAR(MAX)	, [MG_d55_ExternalEmailId] VARCHAR(MAX)	, [MG_d55_ExternalContactNo] VARCHAR(MAX)){0}INSERT INTO [59259E21-AFE8-4DAB-A543-74CC22FC79D5](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d55_Departmentid,MG_d55_AdditionalType,MG_d55_AdditionalName,MG_d55_ExternalInstituteName,MG_d55_ExternalFacultyName,MG_d55_DesignationID,MG_d55_ExternalDesignation,MG_d55_ExternalEmailId,MG_d55_ExternalContactNo)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d55_Departmentid,TDT.MG_d55_AdditionalType,TDT.MG_d55_AdditionalName,TDT.MG_d55_ExternalInstituteName,TDT.MG_d55_ExternalFacultyName,TDT.MG_d55_DesignationID,TDT.MG_d55_ExternalDesignation,TDT.MG_d55_ExternalEmailId,TDT.MG_d55_ExternalContactNo FROM @TBL_59259E21AFE84DABA54374CC22FC79D5 TDT
 							LEFT JOIN [59259E21-AFE8-4DAB-A543-74CC22FC79D5] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
- WHERE DT.RowId IS NULL;
-
-UPDATE  DT
- SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d55_Departmentid=TDT.MG_d55_Departmentid,MG_d55_AdditionalType=TDT.MG_d55_AdditionalType,MG_d55_AdditionalName=TDT.MG_d55_AdditionalName,MG_d55_ExternalInstituteName=TDT.MG_d55_ExternalInstituteName,MG_d55_ExternalFacultyName=TDT.MG_d55_ExternalFacultyName,MG_d55_DesignationID=TDT.MG_d55_DesignationID,MG_d55_ExternalDesignation=TDT.MG_d55_ExternalDesignation,MG_d55_ExternalEmailId=TDT.MG_d55_ExternalEmailId,MG_d55_ExternalContactNo=TDT.MG_d55_ExternalContactNo FROM @TBL_59259E21AFE84DABA54374CC22FC79D5 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d55_Departmentid=TDT.MG_d55_Departmentid,MG_d55_AdditionalType=TDT.MG_d55_AdditionalType,MG_d55_AdditionalName=TDT.MG_d55_AdditionalName,MG_d55_ExternalInstituteName=TDT.MG_d55_ExternalInstituteName,MG_d55_ExternalFacultyName=TDT.MG_d55_ExternalFacultyName,MG_d55_DesignationID=TDT.MG_d55_DesignationID,MG_d55_ExternalDesignation=TDT.MG_d55_ExternalDesignation,MG_d55_ExternalEmailId=TDT.MG_d55_ExternalEmailId,MG_d55_ExternalContactNo=TDT.MG_d55_ExternalContactNo FROM @TBL_59259E21AFE84DABA54374CC22FC79D5 TDT
 							JOIN [59259E21-AFE8-4DAB-A543-74CC22FC79D5] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
-";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d55_Departmentid,MG_d55_AdditionalType,MG_d55_AdditionalName,MG_d55_ExternalInstituteName,MG_d55_ExternalFacultyName,MG_d55_DesignationID,MG_d55_ExternalDesignation,MG_d55_ExternalEmailId,MG_d55_ExternalContactNo";
 
@@ -1856,26 +1734,12 @@ UPDATE  DT
 
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_6677BAB3659A4A9690675D365F60CB62 AS TABLE
-(
-	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d82_DocumentName] VARCHAR(MAX)	, [MG_d82_DocumentID] VARCHAR(36)
-)
-
-{0}
-INSERT INTO [6677BAB3-659A-4A96-9067-5D365F60CB62]
-(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d82_DocumentName,MG_d82_DocumentID)
+		DECLARE  @TBL_6677BAB3659A4A9690675D365F60CB62 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d82_DocumentName] VARCHAR(MAX)	, [MG_d82_DocumentID] VARCHAR(36)){0}INSERT INTO [6677BAB3-659A-4A96-9067-5D365F60CB62](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d82_DocumentName,MG_d82_DocumentID)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d82_DocumentName,TDT.MG_d82_DocumentID FROM @TBL_6677BAB3659A4A9690675D365F60CB62 TDT
 							LEFT JOIN [6677BAB3-659A-4A96-9067-5D365F60CB62] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
- WHERE DT.RowId IS NULL;
-
-UPDATE  DT
- SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d82_DocumentName=TDT.MG_d82_DocumentName,MG_d82_DocumentID=TDT.MG_d82_DocumentID FROM @TBL_6677BAB3659A4A9690675D365F60CB62 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d82_DocumentName=TDT.MG_d82_DocumentName,MG_d82_DocumentID=TDT.MG_d82_DocumentID FROM @TBL_6677BAB3659A4A9690675D365F60CB62 TDT
 							JOIN [6677BAB3-659A-4A96-9067-5D365F60CB62] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
-";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d82_DocumentName,MG_d82_DocumentID";
 
@@ -1991,26 +1855,12 @@ UPDATE  DT
 
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_f182594398b5f54f02250081ef436f94 AS TABLE
-(
-	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME
-)
-
-{0}
-INSERT INTO [f1825943-98b5-f54f-0225-0081ef436f94]
-(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
+		DECLARE  @TBL_f182594398b5f54f02250081ef436f94 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [f1825943-98b5-f54f-0225-0081ef436f94](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.C_Stepfrom,TDT.C_StepTo,TDT.C_Comments,TDT.C_User,TDT.C_DateofComments FROM @TBL_f182594398b5f54f02250081ef436f94 TDT
 							LEFT JOIN [f1825943-98b5-f54f-0225-0081ef436f94] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
- WHERE DT.RowId IS NULL;
-
-UPDATE  DT
- SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_f182594398b5f54f02250081ef436f94 TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_f182594398b5f54f02250081ef436f94 TDT
 							JOIN [f1825943-98b5-f54f-0225-0081ef436f94] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
-";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments";
 
@@ -2126,26 +1976,12 @@ UPDATE  DT
 
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_08F73C4A3B9443278859B98388D1C9CD AS TABLE
-(
-	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d109_SerialNo] INT	, [MG_d109_EquipmentName] VARCHAR(MAX)	, [MG_d109_Description] VARCHAR(MAX)	, [MG_d109_Quantity] INT	, [MG_d109_RateinINR] DECIMAL(18,2)	, [MG_d109_TotalEquipmentcost] DECIMAL(18,2)	, [MG_d109_EquipmentBudget] INT	, [MG_d109_OverallEquipmentcost] DECIMAL(18,2)
-)
-
-{0}
-INSERT INTO [08F73C4A-3B94-4327-8859-B98388D1C9CD]
-(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d109_SerialNo,MG_d109_EquipmentName,MG_d109_Description,MG_d109_Quantity,MG_d109_RateinINR,MG_d109_TotalEquipmentcost,MG_d109_EquipmentBudget,MG_d109_OverallEquipmentcost)
+		DECLARE  @TBL_08F73C4A3B9443278859B98388D1C9CD AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d109_SerialNo] INT	, [MG_d109_EquipmentName] VARCHAR(MAX)	, [MG_d109_Description] VARCHAR(MAX)	, [MG_d109_Quantity] INT	, [MG_d109_RateinINR] DECIMAL(18,2)	, [MG_d109_TotalEquipmentcost] DECIMAL(18,2)	, [MG_d109_EquipmentBudget] INT	, [MG_d109_OverallEquipmentcost] DECIMAL(18,2)){0}INSERT INTO [08F73C4A-3B94-4327-8859-B98388D1C9CD](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d109_SerialNo,MG_d109_EquipmentName,MG_d109_Description,MG_d109_Quantity,MG_d109_RateinINR,MG_d109_TotalEquipmentcost,MG_d109_EquipmentBudget,MG_d109_OverallEquipmentcost)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d109_SerialNo,TDT.MG_d109_EquipmentName,TDT.MG_d109_Description,TDT.MG_d109_Quantity,TDT.MG_d109_RateinINR,TDT.MG_d109_TotalEquipmentcost,TDT.MG_d109_EquipmentBudget,TDT.MG_d109_OverallEquipmentcost FROM @TBL_08F73C4A3B9443278859B98388D1C9CD TDT
 							LEFT JOIN [08F73C4A-3B94-4327-8859-B98388D1C9CD] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
- WHERE DT.RowId IS NULL;
-
-UPDATE  DT
- SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d109_SerialNo=TDT.MG_d109_SerialNo,MG_d109_EquipmentName=TDT.MG_d109_EquipmentName,MG_d109_Description=TDT.MG_d109_Description,MG_d109_Quantity=TDT.MG_d109_Quantity,MG_d109_RateinINR=TDT.MG_d109_RateinINR,MG_d109_TotalEquipmentcost=TDT.MG_d109_TotalEquipmentcost,MG_d109_EquipmentBudget=TDT.MG_d109_EquipmentBudget,MG_d109_OverallEquipmentcost=TDT.MG_d109_OverallEquipmentcost FROM @TBL_08F73C4A3B9443278859B98388D1C9CD TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d109_SerialNo=TDT.MG_d109_SerialNo,MG_d109_EquipmentName=TDT.MG_d109_EquipmentName,MG_d109_Description=TDT.MG_d109_Description,MG_d109_Quantity=TDT.MG_d109_Quantity,MG_d109_RateinINR=TDT.MG_d109_RateinINR,MG_d109_TotalEquipmentcost=TDT.MG_d109_TotalEquipmentcost,MG_d109_EquipmentBudget=TDT.MG_d109_EquipmentBudget,MG_d109_OverallEquipmentcost=TDT.MG_d109_OverallEquipmentcost FROM @TBL_08F73C4A3B9443278859B98388D1C9CD TDT
 							JOIN [08F73C4A-3B94-4327-8859-B98388D1C9CD] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
-";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d109_SerialNo,MG_d109_EquipmentName,MG_d109_Description,MG_d109_Quantity,MG_d109_RateinINR,MG_d109_TotalEquipmentcost,MG_d109_EquipmentBudget,MG_d109_OverallEquipmentcost";
 
@@ -2261,26 +2097,12 @@ UPDATE  DT
 
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_25683F52E21A4CE391967BCFA640A94B AS TABLE
-(
-	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d154_Duration] INT	, [MG_d154_SerialNo] INT	, [MG_d154_Comments] VARCHAR(MAX)	, [MG_d154_ManpowerPosition] VARCHAR(250)	, [MG_d154_No_OfManpowerPosition] DECIMAL(18,2)	, [MG_d154_RatePerMonth] DECIMAL(18,2)	, [MG_d154_HRAPercentage] DECIMAL(18,2)	, [MG_d154_HRAPerMonth] DECIMAL(18,2)	, [MG_d154_TotalPerMonth] DECIMAL(18,2)	, [MG_d154_TotalMonths] INT	, [MG_d154_TotalCost] DECIMAL(18,2)
-)
-
-{0}
-INSERT INTO [25683F52-E21A-4CE3-9196-7BCFA640A94B]
-(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d154_Duration,MG_d154_SerialNo,MG_d154_Comments,MG_d154_ManpowerPosition,MG_d154_No_OfManpowerPosition,MG_d154_RatePerMonth,MG_d154_HRAPercentage,MG_d154_HRAPerMonth,MG_d154_TotalPerMonth,MG_d154_TotalMonths,MG_d154_TotalCost)
+		DECLARE  @TBL_25683F52E21A4CE391967BCFA640A94B AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_d154_Duration] INT	, [MG_d154_SerialNo] INT	, [MG_d154_Comments] VARCHAR(MAX)	, [MG_d154_ManpowerPosition] VARCHAR(250)	, [MG_d154_No_OfManpowerPosition] DECIMAL(18,2)	, [MG_d154_RatePerMonth] DECIMAL(18,2)	, [MG_d154_HRAPercentage] DECIMAL(18,2)	, [MG_d154_HRAPerMonth] DECIMAL(18,2)	, [MG_d154_TotalPerMonth] DECIMAL(18,2)	, [MG_d154_TotalMonths] INT	, [MG_d154_TotalCost] DECIMAL(18,2)){0}INSERT INTO [25683F52-E21A-4CE3-9196-7BCFA640A94B](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d154_Duration,MG_d154_SerialNo,MG_d154_Comments,MG_d154_ManpowerPosition,MG_d154_No_OfManpowerPosition,MG_d154_RatePerMonth,MG_d154_HRAPercentage,MG_d154_HRAPerMonth,MG_d154_TotalPerMonth,MG_d154_TotalMonths,MG_d154_TotalCost)
 							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_d154_Duration,TDT.MG_d154_SerialNo,TDT.MG_d154_Comments,TDT.MG_d154_ManpowerPosition,TDT.MG_d154_No_OfManpowerPosition,TDT.MG_d154_RatePerMonth,TDT.MG_d154_HRAPercentage,TDT.MG_d154_HRAPerMonth,TDT.MG_d154_TotalPerMonth,TDT.MG_d154_TotalMonths,TDT.MG_d154_TotalCost FROM @TBL_25683F52E21A4CE391967BCFA640A94B TDT
 							LEFT JOIN [25683F52-E21A-4CE3-9196-7BCFA640A94B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
- WHERE DT.RowId IS NULL;
-
-UPDATE  DT
- SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d154_Duration=TDT.MG_d154_Duration,MG_d154_SerialNo=TDT.MG_d154_SerialNo,MG_d154_Comments=TDT.MG_d154_Comments,MG_d154_ManpowerPosition=TDT.MG_d154_ManpowerPosition,MG_d154_No_OfManpowerPosition=TDT.MG_d154_No_OfManpowerPosition,MG_d154_RatePerMonth=TDT.MG_d154_RatePerMonth,MG_d154_HRAPercentage=TDT.MG_d154_HRAPercentage,MG_d154_HRAPerMonth=TDT.MG_d154_HRAPerMonth,MG_d154_TotalPerMonth=TDT.MG_d154_TotalPerMonth,MG_d154_TotalMonths=TDT.MG_d154_TotalMonths,MG_d154_TotalCost=TDT.MG_d154_TotalCost FROM @TBL_25683F52E21A4CE391967BCFA640A94B TDT
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_d154_Duration=TDT.MG_d154_Duration,MG_d154_SerialNo=TDT.MG_d154_SerialNo,MG_d154_Comments=TDT.MG_d154_Comments,MG_d154_ManpowerPosition=TDT.MG_d154_ManpowerPosition,MG_d154_No_OfManpowerPosition=TDT.MG_d154_No_OfManpowerPosition,MG_d154_RatePerMonth=TDT.MG_d154_RatePerMonth,MG_d154_HRAPercentage=TDT.MG_d154_HRAPercentage,MG_d154_HRAPerMonth=TDT.MG_d154_HRAPerMonth,MG_d154_TotalPerMonth=TDT.MG_d154_TotalPerMonth,MG_d154_TotalMonths=TDT.MG_d154_TotalMonths,MG_d154_TotalCost=TDT.MG_d154_TotalCost FROM @TBL_25683F52E21A4CE391967BCFA640A94B TDT
 							JOIN [25683F52-E21A-4CE3-9196-7BCFA640A94B] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId
- AND TDT.InstanceId=DT.InstanceId 
-";
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
                             colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_d154_Duration,MG_d154_SerialNo,MG_d154_Comments,MG_d154_ManpowerPosition,MG_d154_No_OfManpowerPosition,MG_d154_RatePerMonth,MG_d154_HRAPercentage,MG_d154_HRAPerMonth,MG_d154_TotalPerMonth,MG_d154_TotalMonths,MG_d154_TotalCost";
 
@@ -2587,6 +2409,8 @@ base.WriteDebugInfo(@"ISpace[""EquipmentGrid""].Visible=""false"";");
 }
 ISpace["MF_d10_FinancialYearID"].Value="19";
 base.WriteDebugInfo(@"ISpace[""MF_d10_FinancialYearID""].Value=""19"";");
+ISpace["MF_d10_FundReceiptMode"].Visible="false";ISpace["MF_d10_SchemeID"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_d10_FundReceiptMode""].Visible=""false"";ISpace[""MF_d10_SchemeID""].Visible=""false"";");
 }
 catch(Exception ex)
 {
@@ -2648,8 +2472,8 @@ ISpace["ExecutionMessage"].Value = resultcfc8b06a84f18ec2a3f33b615821582c[0];
 else{
 ISpace["ExecutionMessage"].Value = null;
 }
-ISpace["Message"].Value=@"SUCCESS:Cancelled Successfully";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Cancelled Successfully"";");
+ISpace["Message"].Value=@"SUCCESS:CancelledÂ Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:CancelledÂ Successfully"";");
 }
 
 ISpace["RedirectUrl"].RedirectType="R";
@@ -3126,8 +2950,8 @@ base.WriteDebugInfo(@"ISpace[""MF_d10_ProjectName""].Value=Trim(ISpace[""MF_d10_
 if(ISpace["MF_d10_FinancialYearID"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d10_FinancialYearID""].Value=="""")");
-ISpace["Message"].Value=@"Error:Please Select Financial Year";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Please Select Financial Year"";");
+ISpace["Message"].Value=@"Error:PleaseÂ Select Financial Year";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:PleaseÂ Select Financial Year"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -3138,8 +2962,8 @@ return;");
 if(ISpace["MF_d10_FundingAgency"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d10_FundingAgency""].Value=="""")");
-ISpace["Message"].Value=@"ERROR:Please Enter Funding Agency Name";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Please Enter Funding Agency Name"";");
+ISpace["Message"].Value=@"ERROR:PleaseÂ Enter Funding Agency Name";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:PleaseÂ Enter Funding Agency Name"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -3150,8 +2974,8 @@ return;");
 if(ISpace["MF_d10_ProjectCategoryID"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d10_ProjectCategoryID""].Value=="""")");
-ISpace["Message"].Value=@"Error: Please  Select Project Category";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please  Select Project Category"";");
+ISpace["Message"].Value=@"Error: PleaseÂ  Select Project Category";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: PleaseÂ  Select Project Category"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -3409,8 +3233,8 @@ ISpace["ExecutionMessage"].Value = result3E77697F9C9B4F7086A4EEAF4AAF6937[0];
 else{
 ISpace["ExecutionMessage"].Value = null;
 }
-ISpace["Message"].Value=@"Success:Submitted Successfully";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:Submitted Successfully"";");
+ISpace["Message"].Value=@"Success:SubmittedÂ Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:SubmittedÂ Successfully"";");
 
 ISpace["RedirectUrl"].RedirectType="R";
 ISpace["RedirectUrl"].Value="?PkActMId=34CF8FAF-7574-478F-9C4A-A65F98E4D18A&frmElementId=7816392B-A9EF-486D-88F9-AC7C972D679B&PkPrMId=B219A0EA-0254-4F69-B989-B681DD475183&formVersionId=02A1FE25-AE94-461D-9B6F-A7AC8493B6F6&Ver=0.0000";
@@ -3540,6 +3364,8 @@ ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 ISpace["M_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_MoveTo""].Value="""";");
+ISpace["MF_d10_FundReceiptMode"].Visible="false";ISpace["MF_d10_SchemeID"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_d10_FundReceiptMode""].Visible=""false"";ISpace[""MF_d10_SchemeID""].Visible=""false"";");
 }
 catch(Exception ex)
 {
@@ -3571,8 +3397,8 @@ ISpace["ExecutionMessage"].Value = resultcfc8b06a84f18ec2a3f33b615821582c[0];
 else{
 ISpace["ExecutionMessage"].Value = null;
 }
-ISpace["Message"].Value=@"SUCCESS:Cancelled Successfully";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Cancelled Successfully"";");
+ISpace["Message"].Value=@"SUCCESS:CancelledÂ Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:CancelledÂ Successfully"";");
 }
 
 ISpace["RedirectUrl"].RedirectType="R";
@@ -3706,8 +3532,8 @@ ISpace["ExecutionMessage"].Value = result2ed62a73b6f234b7c20cdca9b5617146[0];
 else{
 ISpace["ExecutionMessage"].Value = null;
 }
-ISpace["Message"].Value=@"Success:Submitted Successfully";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:Submitted Successfully"";");
+ISpace["Message"].Value=@"Success:SubmittedÂ Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:SubmittedÂ Successfully"";");
 
 ISpace["RedirectUrl"].RedirectType="R";
 ISpace["RedirectUrl"].Value="/Inbox";
@@ -3754,11 +3580,11 @@ public override void ExecuteMethod
 {
 		if(elementName.ToLower().Equals("equipmentgrid"))
 {
-			//equipmentgrid_onafterrowdeleting(ref dfsParam);
+			equipmentgrid_onafterrowdeleting(ref dfsParam);
 }
 		if(elementName.ToLower().Equals("manpowergrid"))
 {
-			//manpowergrid_onafterrowdeleting(ref dfsParam);
+			manpowergrid_onafterrowdeleting(ref dfsParam);
 }
 }
 }
@@ -3793,6 +3619,8 @@ ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 ISpace["M_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_MoveTo""].Value="""";");
+ISpace["MF_d10_FundReceiptMode"].Visible="false";ISpace["MF_d10_SchemeID"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_d10_FundReceiptMode""].Visible=""false"";ISpace[""MF_d10_SchemeID""].Visible=""false"";");
 }
 catch(Exception ex)
 {
@@ -3824,8 +3652,8 @@ ISpace["ExecutionMessage"].Value = resultcfc8b06a84f18ec2a3f33b615821582c[0];
 else{
 ISpace["ExecutionMessage"].Value = null;
 }
-ISpace["Message"].Value=@"SUCCESS:Cancelled Successfully";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Cancelled Successfully"";");
+ISpace["Message"].Value=@"SUCCESS:CancelledÂ Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:CancelledÂ Successfully"";");
 }
 
 ISpace["RedirectUrl"].RedirectType="R";
@@ -3965,8 +3793,8 @@ ISpace["ExecutionMessage"].Value = result2ed62a73b6f234b7c20cdca9b5617146[0];
 else{
 ISpace["ExecutionMessage"].Value = null;
 }
-ISpace["Message"].Value=@"Success:Submitted Successfully";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:Submitted Successfully"";");
+ISpace["Message"].Value=@"Success:SubmittedÂ Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:SubmittedÂ Successfully"";");
 
 ISpace["RedirectUrl"].RedirectType="R";
 ISpace["RedirectUrl"].Value="/Inbox";
@@ -4013,11 +3841,11 @@ public override void ExecuteMethod
 {
 		if(elementName.ToLower().Equals("equipmentgrid"))
 {
-			//equipmentgrid_onafterrowdeleting(ref dfsParam);
+			equipmentgrid_onafterrowdeleting(ref dfsParam);
 }
 		if(elementName.ToLower().Equals("manpowergrid"))
 {
-			//manpowergrid_onafterrowdeleting(ref dfsParam);
+			manpowergrid_onafterrowdeleting(ref dfsParam);
 }
 }
 }
@@ -4052,6 +3880,8 @@ ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 ISpace["M_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_MoveTo""].Value="""";");
+ISpace["MF_d10_FundReceiptMode"].Visible="false";ISpace["MF_d10_SchemeID"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_d10_FundReceiptMode""].Visible=""false"";ISpace[""MF_d10_SchemeID""].Visible=""false"";");
 }
 catch(Exception ex)
 {
@@ -4083,8 +3913,8 @@ ISpace["ExecutionMessage"].Value = resultcfc8b06a84f18ec2a3f33b615821582c[0];
 else{
 ISpace["ExecutionMessage"].Value = null;
 }
-ISpace["Message"].Value=@"SUCCESS:Cancelled Successfully";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Cancelled Successfully"";");
+ISpace["Message"].Value=@"SUCCESS:CancelledÂ Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:CancelledÂ Successfully"";");
 }
 
 ISpace["RedirectUrl"].RedirectType="R";
@@ -4182,11 +4012,11 @@ public override void ExecuteMethod
 {
 		if(elementName.ToLower().Equals("equipmentgrid"))
 {
-			//equipmentgrid_onafterrowdeleting(ref dfsParam);
+			equipmentgrid_onafterrowdeleting(ref dfsParam);
 }
 		if(elementName.ToLower().Equals("manpowergrid"))
 {
-			//manpowergrid_onafterrowdeleting(ref dfsParam);
+			manpowergrid_onafterrowdeleting(ref dfsParam);
 }
 }
 }
@@ -4331,6 +4161,8 @@ ISpace["Comments"].Value="";
 base.WriteDebugInfo(@"ISpace[""Comments""].Value="""";");
 ISpace["M_MoveTo"].Value="";
 base.WriteDebugInfo(@"ISpace[""M_MoveTo""].Value="""";");
+ISpace["MF_d10_FundReceiptMode"].Visible="false";ISpace["MF_d10_SchemeID"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_d10_FundReceiptMode""].Visible=""false"";ISpace[""MF_d10_SchemeID""].Visible=""false"";");
 }
 catch(Exception ex)
 {
@@ -4392,8 +4224,8 @@ ISpace["ExecutionMessage"].Value = resultcfc8b06a84f18ec2a3f33b615821582c[0];
 else{
 ISpace["ExecutionMessage"].Value = null;
 }
-ISpace["Message"].Value=@"SUCCESS:Cancelled Successfully";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:Cancelled Successfully"";");
+ISpace["Message"].Value=@"SUCCESS:CancelledÂ Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""SUCCESS:CancelledÂ Successfully"";");
 }
 
 ISpace["RedirectUrl"].RedirectType="R";
@@ -4936,8 +4768,8 @@ base.WriteDebugInfo(@"ISpace[""MF_d10_ProjectName""].Value=Trim(ISpace[""MF_d10_
 if(ISpace["MF_d10_FinancialYearID"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d10_FinancialYearID""].Value=="""")");
-ISpace["Message"].Value=@"Error:Please Select Financial Year";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:Please Select Financial Year"";");
+ISpace["Message"].Value=@"Error:PleaseÂ Select Financial Year";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error:PleaseÂ Select Financial Year"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -4948,8 +4780,8 @@ return;");
 if(ISpace["MF_d10_FundingAgency"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d10_FundingAgency""].Value=="""")");
-ISpace["Message"].Value=@"ERROR:Please Enter Funding Agency Name";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:Please Enter Funding Agency Name"";");
+ISpace["Message"].Value=@"ERROR:PleaseÂ Enter Funding Agency Name";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""ERROR:PleaseÂ Enter Funding Agency Name"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -4960,8 +4792,8 @@ return;");
 if(ISpace["MF_d10_ProjectCategoryID"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_d10_ProjectCategoryID""].Value=="""")");
-ISpace["Message"].Value=@"Error: Please  Select Project Category";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: Please  Select Project Category"";");
+ISpace["Message"].Value=@"Error: PleaseÂ  Select Project Category";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Error: PleaseÂ  Select Project Category"";");
 ISpace["IsCancelled"].Value = true; 
 
 return;
@@ -5219,8 +5051,8 @@ ISpace["ExecutionMessage"].Value = result3E77697F9C9B4F7086A4EEAF4AAF6937[0];
 else{
 ISpace["ExecutionMessage"].Value = null;
 }
-ISpace["Message"].Value=@"Success:Submitted Successfully";
-base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:Submitted Successfully"";");
+ISpace["Message"].Value=@"Success:SubmittedÂ Successfully";
+base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:SubmittedÂ Successfully"";");
 if(ISpace["M_MoveTo"].Value=="")
 {
 base.WriteDebugInfo(@"if(ISpace[""M_MoveTo""].Value=="""")");
@@ -6470,4 +6302,5 @@ using System;
 
 }
 		
+
 

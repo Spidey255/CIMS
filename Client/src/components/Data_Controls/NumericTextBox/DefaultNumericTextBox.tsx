@@ -55,6 +55,11 @@ const DefaultNumericTextBox: React.FC<DefaultNumericTextBoxProps> = ({
     (store) => store.state[element.ElementName]?.isVisible
   );
 
+const disable = useGeneralStore(
+    (store) => store.state[element.ElementName]?.Enbl
+  );
+
+
   const isVisible =
     storeVisible !== undefined && storeVisible !== null
       ? storeVisible
@@ -129,6 +134,8 @@ const DefaultNumericTextBox: React.FC<DefaultNumericTextBoxProps> = ({
               onChange={onChange}
               onClick={(e) => e.stopPropagation()}
               autoComplete="off"
+	      disabled={disable === false || disable === "false" ? true : false}
+
             />
           </div>
         </div>

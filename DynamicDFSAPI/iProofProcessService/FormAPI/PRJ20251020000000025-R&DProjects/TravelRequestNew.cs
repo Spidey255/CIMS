@@ -891,124 +891,6 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
                      
-                                    case "281302FF-406D-4F35-B5E6-D8D09F04484C":
-                    {
-                     
-                                     gInsertQuery=@"
-		
-		DECLARE  @TBL_281302FF406D4F35B5E6D8D09F04484C AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PADD_DocumentName] VARCHAR(MAX)	, [PADD_Document] VARCHAR(MAX)){0}INSERT INTO [281302FF-406D-4F35-B5E6-D8D09F04484C](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PADD_DocumentName,PADD_Document)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PADD_DocumentName,TDT.PADD_Document FROM @TBL_281302FF406D4F35B5E6D8D09F04484C TDT
-							LEFT JOIN [281302FF-406D-4F35-B5E6-D8D09F04484C] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PADD_DocumentName=TDT.PADD_DocumentName,PADD_Document=TDT.PADD_Document FROM @TBL_281302FF406D4F35B5E6D8D09F04484C TDT
-							JOIN [281302FF-406D-4F35-B5E6-D8D09F04484C] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
-
-                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PADD_DocumentName,PADD_Document";
-
-                                     tempInsertQuery=@"INSERT INTO @TBL_281302FF406D4F35B5E6D8D09F04484C(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PADD_DocumentName,PADD_Document)VALUES({0});";
-                                     
-
-                            splitcols = colList.Split(',');
-
-                            if(splitcols.Length<=0)
-                                return null;
-
-                            var parentObject = JObject.Parse(formJsonData)["Child"];
-
-                            for (int i = 0; i < ((JArray)parentObject).Count; i++)
-                            {
-
-                            JObject childObject = (JObject)parentObject[i];
-
-                            var gridRow = childObject["Child"];
-
-
-                        
-                            foreach (var gcol in splitcols)
-                            {
-                                                                 
-                                if (gcol == "InstanceId")
-                                {
-                                    colValues += "'" + instanceId + "',";
-
-                                    continue;
-
-                                }
-
-                                else if (gcol == "ProcessActivityMapId")
-                                {
-                                    colValues += "'" + processActivityMapId + "',";
-                                    continue;
-                            }
-
-                            else if (gcol == "GridId")
-                            {
-                                    colValues += "'" + gridId + "',";
-                                continue;
-                            }                               
-                            else if(gcol=="Sequence")
-                            {
-                                colValues += childObject["SEQ"]+",";
-                                continue;
-                            }
-                             else if(gcol=="RowId")
-                            {
-                                colValues +="'" + childObject["RwId"]+"',";
-                                continue;
-                            }
-
-                            bool isFound = false;
-
-                            foreach (var gitem in gridRow)
-                            {                               
-
-                                if (gitem["ElementName"].ToString() == gcol)
-                                {
-                                    isFound = true;
-
-                                    if (gitem["Value"] == null)
-                                    {
-                                        colValues += "null,";
-                                        break;
-                                    }
-
-                                    switch(Convert.ToInt32(gitem["EDT"]))
-                                    {
-                                        case 0:
-                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
-												break; 
-                                        case 8:
-                                        case 9:
-                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
-                                                break;
-
-                                        default:
-                                                    if(gitem["Value"].ToString()=="")
-
-                                                        colValues +=  "NULL,";
-                                                    else
-                                                    colValues += gitem["Value"].ToString() + ",";
-                                            break;
-                                    }                                    
-                                }                                 
-                            }
-
-                                    if (!isFound)
-                                    {
-                                        colValues += "null,";
-                                        
-                                    }
-                            
-                        }
-                                 colValues=colValues.Remove(colValues.Length - 1);
-
-                                 bulkInsertQuery=bulkInsertQuery+ string.Format(tempInsertQuery, colValues);
-
-                                 colValues=string.Empty;
-                        }
-                        }
-                        break;
-                     
                                     case "93B856A5-0D32-4A27-8B58-5BFE5FF0162C":
                     {
                      
@@ -1481,6 +1363,124 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
                      
+                                    case "281302FF-406D-4F35-B5E6-D8D09F04484C":
+                    {
+                     
+                                     gInsertQuery=@"
+		
+		DECLARE  @TBL_281302FF406D4F35B5E6D8D09F04484C AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PADD_DocumentName] VARCHAR(MAX)	, [PADD_Document] VARCHAR(MAX)){0}INSERT INTO [281302FF-406D-4F35-B5E6-D8D09F04484C](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PADD_DocumentName,PADD_Document)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PADD_DocumentName,TDT.PADD_Document FROM @TBL_281302FF406D4F35B5E6D8D09F04484C TDT
+							LEFT JOIN [281302FF-406D-4F35-B5E6-D8D09F04484C] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PADD_DocumentName=TDT.PADD_DocumentName,PADD_Document=TDT.PADD_Document FROM @TBL_281302FF406D4F35B5E6D8D09F04484C TDT
+							JOIN [281302FF-406D-4F35-B5E6-D8D09F04484C] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
+
+                                     colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PADD_DocumentName,PADD_Document";
+
+                                     tempInsertQuery=@"INSERT INTO @TBL_281302FF406D4F35B5E6D8D09F04484C(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PADD_DocumentName,PADD_Document)VALUES({0});";
+                                     
+
+                            splitcols = colList.Split(',');
+
+                            if(splitcols.Length<=0)
+                                return null;
+
+                            var parentObject = JObject.Parse(formJsonData)["Child"];
+
+                            for (int i = 0; i < ((JArray)parentObject).Count; i++)
+                            {
+
+                            JObject childObject = (JObject)parentObject[i];
+
+                            var gridRow = childObject["Child"];
+
+
+                        
+                            foreach (var gcol in splitcols)
+                            {
+                                                                 
+                                if (gcol == "InstanceId")
+                                {
+                                    colValues += "'" + instanceId + "',";
+
+                                    continue;
+
+                                }
+
+                                else if (gcol == "ProcessActivityMapId")
+                                {
+                                    colValues += "'" + processActivityMapId + "',";
+                                    continue;
+                            }
+
+                            else if (gcol == "GridId")
+                            {
+                                    colValues += "'" + gridId + "',";
+                                continue;
+                            }                               
+                            else if(gcol=="Sequence")
+                            {
+                                colValues += childObject["SEQ"]+",";
+                                continue;
+                            }
+                             else if(gcol=="RowId")
+                            {
+                                colValues +="'" + childObject["RwId"]+"',";
+                                continue;
+                            }
+
+                            bool isFound = false;
+
+                            foreach (var gitem in gridRow)
+                            {                               
+
+                                if (gitem["ElementName"].ToString() == gcol)
+                                {
+                                    isFound = true;
+
+                                    if (gitem["Value"] == null)
+                                    {
+                                        colValues += "null,";
+                                        break;
+                                    }
+
+                                    switch(Convert.ToInt32(gitem["EDT"]))
+                                    {
+                                        case 0:
+                                            colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
+												break; 
+                                        case 8:
+                                        case 9:
+                                            colValues +="'"+ gitem["Value"].ToString().Replace("'","''") + "',";
+                                                break;
+
+                                        default:
+                                                    if(gitem["Value"].ToString()=="")
+
+                                                        colValues +=  "NULL,";
+                                                    else
+                                                    colValues += gitem["Value"].ToString() + ",";
+                                            break;
+                                    }                                    
+                                }                                 
+                            }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+                                        
+                                    }
+                            
+                        }
+                                 colValues=colValues.Remove(colValues.Length - 1);
+
+                                 bulkInsertQuery=bulkInsertQuery+ string.Format(tempInsertQuery, colValues);
+
+                                 colValues=string.Empty;
+                        }
+                        }
+                        break;
+                     
                                  
                  }       
                 
@@ -1560,127 +1560,6 @@ namespace CPS.Proof.DFSExtension
                             colListwithEDT=@"InstanceId#0,ProcessActivityMapId#0,GridId#0,RowId#0,Sequence#0,WMC_StepFrom#9,WMC_StepTo#9,WMC_Comments#9,WMC_User#9,WMC_DateofComments#8";
 
                             tempInsertQuery=@"INSERT INTO @TBL_25967012E9024718B75F2ECC20C16014(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,WMC_StepFrom,WMC_StepTo,WMC_Comments,WMC_User,WMC_DateofComments)VALUES({0});";
-
-                            splitcols = colListwithEDT.Split(',');
-
-                            if (splitcols.Length <= 0)
-                                return null;
-
-                            foreach (var gridChild in gridData[gridName].Child)
-                            {                            
-                                                                                         
-                                colValues = string.Empty;
-
-                                foreach (var sgcol in splitcols)
-                                {
-                                    var gcol = sgcol.Split("#")[0];
-
-                                    var edt=Convert.ToInt16(sgcol.Split("#")[1]);
-
-                                    if (gcol == "InstanceId")
-                                    {
-                                        colValues += "'" + instanceId + "',";
-
-                                        continue;
-
-                                    }
-
-                                    else if (gcol == "ProcessActivityMapId")
-                                    {
-                                        colValues += "'" + processActivityMapId + "',";
-                                        continue;
-                                    }
-
-                                    else if (gcol == "GridId")
-                                    {
-                                        colValues += "'" + gridId + "',";
-                                        continue;
-                                    }
-                                    else if (gcol == "Sequence")
-                                    {
-                                        colValues += gridChild.SEQ + ",";
-                                        continue;
-                                    }
-                                    else if (gcol == "RowId")
-                                    {
-                                        colValues += "'" + gridChild.RwId + "',";
-                                        continue;
-                                    }
-
-                                    bool isFound = false;
-
-                                    foreach (var gridrow in gridChild.Child)
-                                    {
-
-                                     
-                                        if (gridrow.ElementName == gcol)
-                                        {
-                                            isFound = true;
-
-                                            if (gridrow.Value == null)
-                                            {
-                                                colValues += "null,";
-                                                break;
-                                            }
-
-                                            switch (edt)
-                                            {
-                                                case 0:
-                                                    colValues += (Convert.ToBoolean(gridrow.Value) ? "1" : "0") + ",";
-                                                    break;
-                                                case 8:
-                                                case 9:
-                                                    colValues += "'" + gridrow.Value.ToString() + "',";
-                                                    break;
-
-                                                default:
-                                                    if (gridrow.Value.ToString() == "")
-
-                                                        colValues += "NULL,";
-                                                    else
-                                                        colValues += gridrow.Value.ToString() + ",";
-                                                    
-                                                    break;
-                                            }
-                                        }
-                                    }
-
-                                    if (!isFound)
-                                    {
-                                        colValues += "null,";
-
-                                    }
-
-                                }
-                                colValues = colValues.Remove(colValues.Length - 1);
-
-                                bulkInsertQuery = bulkInsertQuery+ string.Format(tempInsertQuery, colValues);
-                            }
-                        }
-                        break;
-
-                                              case "281302FF-406D-4F35-B5E6-D8D09F04484C":
-                    {
-                     
-                                //Delete Existing Records of InstanceId
-                                deleteQuery="Delete FROM [281302FF-406D-4F35-B5E6-D8D09F04484C] WHERE InstanceId='{0}';";
-
-                           
-
-                            gInsertQuery=@"
-		
-		DECLARE  @TBL_281302FF406D4F35B5E6D8D09F04484C AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PADD_DocumentName] VARCHAR(MAX)	, [PADD_Document] VARCHAR(MAX)){0}INSERT INTO [281302FF-406D-4F35-B5E6-D8D09F04484C](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PADD_DocumentName,PADD_Document)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PADD_DocumentName,TDT.PADD_Document FROM @TBL_281302FF406D4F35B5E6D8D09F04484C TDT
-							LEFT JOIN [281302FF-406D-4F35-B5E6-D8D09F04484C] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PADD_DocumentName=TDT.PADD_DocumentName,PADD_Document=TDT.PADD_Document FROM @TBL_281302FF406D4F35B5E6D8D09F04484C TDT
-							JOIN [281302FF-406D-4F35-B5E6-D8D09F04484C] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
-
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PADD_DocumentName,PADD_Document";
-
-                            colListwithEDT=@"InstanceId#0,ProcessActivityMapId#0,GridId#0,RowId#0,Sequence#0,PADD_DocumentName#9,PADD_Document#1";
-
-                            tempInsertQuery=@"INSERT INTO @TBL_281302FF406D4F35B5E6D8D09F04484C(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PADD_DocumentName,PADD_Document)VALUES({0});";
 
                             splitcols = colListwithEDT.Split(',');
 
@@ -2264,6 +2143,127 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
+                                              case "281302FF-406D-4F35-B5E6-D8D09F04484C":
+                    {
+                     
+                                //Delete Existing Records of InstanceId
+                                deleteQuery="Delete FROM [281302FF-406D-4F35-B5E6-D8D09F04484C] WHERE InstanceId='{0}';";
+
+                           
+
+                            gInsertQuery=@"
+		
+		DECLARE  @TBL_281302FF406D4F35B5E6D8D09F04484C AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [PADD_DocumentName] VARCHAR(MAX)	, [PADD_Document] VARCHAR(MAX)){0}INSERT INTO [281302FF-406D-4F35-B5E6-D8D09F04484C](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PADD_DocumentName,PADD_Document)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.PADD_DocumentName,TDT.PADD_Document FROM @TBL_281302FF406D4F35B5E6D8D09F04484C TDT
+							LEFT JOIN [281302FF-406D-4F35-B5E6-D8D09F04484C] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,PADD_DocumentName=TDT.PADD_DocumentName,PADD_Document=TDT.PADD_Document FROM @TBL_281302FF406D4F35B5E6D8D09F04484C TDT
+							JOIN [281302FF-406D-4F35-B5E6-D8D09F04484C] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
+
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PADD_DocumentName,PADD_Document";
+
+                            colListwithEDT=@"InstanceId#0,ProcessActivityMapId#0,GridId#0,RowId#0,Sequence#0,PADD_DocumentName#9,PADD_Document#1";
+
+                            tempInsertQuery=@"INSERT INTO @TBL_281302FF406D4F35B5E6D8D09F04484C(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,PADD_DocumentName,PADD_Document)VALUES({0});";
+
+                            splitcols = colListwithEDT.Split(',');
+
+                            if (splitcols.Length <= 0)
+                                return null;
+
+                            foreach (var gridChild in gridData[gridName].Child)
+                            {                            
+                                                                                         
+                                colValues = string.Empty;
+
+                                foreach (var sgcol in splitcols)
+                                {
+                                    var gcol = sgcol.Split("#")[0];
+
+                                    var edt=Convert.ToInt16(sgcol.Split("#")[1]);
+
+                                    if (gcol == "InstanceId")
+                                    {
+                                        colValues += "'" + instanceId + "',";
+
+                                        continue;
+
+                                    }
+
+                                    else if (gcol == "ProcessActivityMapId")
+                                    {
+                                        colValues += "'" + processActivityMapId + "',";
+                                        continue;
+                                    }
+
+                                    else if (gcol == "GridId")
+                                    {
+                                        colValues += "'" + gridId + "',";
+                                        continue;
+                                    }
+                                    else if (gcol == "Sequence")
+                                    {
+                                        colValues += gridChild.SEQ + ",";
+                                        continue;
+                                    }
+                                    else if (gcol == "RowId")
+                                    {
+                                        colValues += "'" + gridChild.RwId + "',";
+                                        continue;
+                                    }
+
+                                    bool isFound = false;
+
+                                    foreach (var gridrow in gridChild.Child)
+                                    {
+
+                                     
+                                        if (gridrow.ElementName == gcol)
+                                        {
+                                            isFound = true;
+
+                                            if (gridrow.Value == null)
+                                            {
+                                                colValues += "null,";
+                                                break;
+                                            }
+
+                                            switch (edt)
+                                            {
+                                                case 0:
+                                                    colValues += (Convert.ToBoolean(gridrow.Value) ? "1" : "0") + ",";
+                                                    break;
+                                                case 8:
+                                                case 9:
+                                                    colValues += "'" + gridrow.Value.ToString() + "',";
+                                                    break;
+
+                                                default:
+                                                    if (gridrow.Value.ToString() == "")
+
+                                                        colValues += "NULL,";
+                                                    else
+                                                        colValues += gridrow.Value.ToString() + ",";
+                                                    
+                                                    break;
+                                            }
+                                        }
+                                    }
+
+                                    if (!isFound)
+                                    {
+                                        colValues += "null,";
+
+                                    }
+
+                                }
+                                colValues = colValues.Remove(colValues.Length - 1);
+
+                                bulkInsertQuery = bulkInsertQuery+ string.Format(tempInsertQuery, colValues);
+                            }
+                        }
+                        break;
+
                                           }
                        
                 bulkInsertQuery = string.Format(gInsertQuery, bulkInsertQuery);
@@ -2427,104 +2427,6 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""48D9155C-42D2-4414-A
 {
 ISpace[""UI_PFHideRow""].Visible=""false"";
 }");
-if(ISpace["MF_d1_TravelAdvanceID"].Value!="0")
-{
-base.WriteDebugInfo(@"if(ISpace[""MF_d1_TravelAdvanceID""].Value!=""0"")");
-base.WriteDebugInfo(@"EXEC InnovaceNoCode..[FormLoadById_5D394C98-9AAB-4228-B011-FC8008C3247C]  '#MF_d1_TravelAdvanceID'");
-
-var querySource8A15D75CE81B41A994470F78A10C69DF =GetQueryExpressionDataSource("8A15D75C-E81B-41A9-9447-0F78A10C69DF");
-Dictionary<short,object> result8A15D75CE81B41A994470F78A10C69DF=iSpace.ExecuteQuery(querySource8A15D75CE81B41A994470F78A10C69DF,@"EXEC InnovaceNoCode..[FormLoadById_5D394C98-9AAB-4228-B011-FC8008C3247C]  '" + ISpace["MF_d1_TravelAdvanceID"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySource8A15D75CE81B41A994470F78A10C69DF =GetQueryExpressionDataSource(""8A15D75C-E81B-41A9-9447-0F78A10C69DF"");Dictionary<short,object> result8A15D75CE81B41A994470F78A10C69DF=iSpace.ExecuteQuery(querySource8A15D75CE81B41A994470F78A10C69DF,@""EXEC InnovaceNoCode..[FormLoadById_5D394C98-9AAB-4228-B011-FC8008C3247C]  '"" + ISpace[""MF_d1_TravelAdvanceID""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((result8A15D75CE81B41A994470F78A10C69DF!=null) && (result8A15D75CE81B41A994470F78A10C69DF.Count!=0))
-{
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(23))
-ISpace["MF_d1_TSTransactionDate"].Value = result8A15D75CE81B41A994470F78A10C69DF[23];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(25))
-ISpace["MF_d1_CreatedOn"].Value = result8A15D75CE81B41A994470F78A10C69DF[25];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(21))
-ISpace["MF_d1_PITransactionDate"].Value = result8A15D75CE81B41A994470F78A10C69DF[21];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(14))
-ISpace["MF_d1_TransactionDate"].Value = result8A15D75CE81B41A994470F78A10C69DF[14];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(4))
-ISpace["MF_d1_TravelType"].Value = result8A15D75CE81B41A994470F78A10C69DF[4];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(6))
-ISpace["MF_d1_IsAdvanceRequired"].Value = result8A15D75CE81B41A994470F78A10C69DF[6];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(12))
-ISpace["MF_d1_BankDocument"].Value = result8A15D75CE81B41A994470F78A10C69DF[12];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(15))
-ISpace["MF_d1_TotalAmount"].Value = result8A15D75CE81B41A994470F78A10C69DF[15];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(24))
-ISpace["MF_d1_CreatedBy"].Value = result8A15D75CE81B41A994470F78A10C69DF[24];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(16))
-ISpace["MF_d1_AdvanceAmount"].Value = result8A15D75CE81B41A994470F78A10C69DF[16];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(18))
-ISpace["MF_d1_TSAmount"].Value = result8A15D75CE81B41A994470F78A10C69DF[18];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(7))
-ISpace["MF_d1_PaymentRemittenceTo"].Value = result8A15D75CE81B41A994470F78A10C69DF[7];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(20))
-ISpace["MF_d1_PITransactionNo"].Value = result8A15D75CE81B41A994470F78A10C69DF[20];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(2))
-ISpace["MF_d1_ReferenceNo"].Value = result8A15D75CE81B41A994470F78A10C69DF[2];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(5))
-ISpace["MF_d1_TravelPlace"].Value = result8A15D75CE81B41A994470F78A10C69DF[5];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(13))
-ISpace["MF_d1_TransactionNo"].Value = result8A15D75CE81B41A994470F78A10C69DF[13];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(3))
-ISpace["MF_d1_JourneyPurpose"].Value = result8A15D75CE81B41A994470F78A10C69DF[3];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(22))
-ISpace["MF_d1_TSTransactionNo"].Value = result8A15D75CE81B41A994470F78A10C69DF[22];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(19))
-ISpace["MF_d1_TSStatus"].Value = result8A15D75CE81B41A994470F78A10C69DF[19];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(10))
-ISpace["MF_d1_BankName"].Value = result8A15D75CE81B41A994470F78A10C69DF[10];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(9))
-ISpace["MF_d1_AccountNo"].Value = result8A15D75CE81B41A994470F78A10C69DF[9];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(17))
-ISpace["MF_d1_TravelStatus"].Value = result8A15D75CE81B41A994470F78A10C69DF[17];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(1))
-ISpace["MF_d1_EmployeeBasicInfoId"].Value = result8A15D75CE81B41A994470F78A10C69DF[1];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(11))
-ISpace["MF_d1_IFSCCode"].Value = result8A15D75CE81B41A994470F78A10C69DF[11];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(8))
-ISpace["MF_d1_BeneficiaryName"].Value = result8A15D75CE81B41A994470F78A10C69DF[8];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(0))
-ISpace["MF_d1_TravelAdvanceID"].Value = result8A15D75CE81B41A994470F78A10C69DF[0];
-}
-else{
-ISpace["MF_d1_TSTransactionDate"].Value = null;ISpace["MF_d1_CreatedOn"].Value = null;ISpace["MF_d1_PITransactionDate"].Value = null;ISpace["MF_d1_TransactionDate"].Value = null;ISpace["MF_d1_TravelType"].Value = null;ISpace["MF_d1_IsAdvanceRequired"].Value = null;ISpace["MF_d1_BankDocument"].Value = null;ISpace["MF_d1_TotalAmount"].Value = null;ISpace["MF_d1_CreatedBy"].Value = null;ISpace["MF_d1_AdvanceAmount"].Value = null;ISpace["MF_d1_TSAmount"].Value = null;ISpace["MF_d1_PaymentRemittenceTo"].Value = null;ISpace["MF_d1_PITransactionNo"].Value = null;ISpace["MF_d1_ReferenceNo"].Value = null;ISpace["MF_d1_TravelPlace"].Value = null;ISpace["MF_d1_TransactionNo"].Value = null;ISpace["MF_d1_JourneyPurpose"].Value = null;ISpace["MF_d1_TSTransactionNo"].Value = null;ISpace["MF_d1_TSStatus"].Value = null;ISpace["MF_d1_BankName"].Value = null;ISpace["MF_d1_AccountNo"].Value = null;ISpace["MF_d1_TravelStatus"].Value = null;ISpace["MF_d1_EmployeeBasicInfoId"].Value = null;ISpace["MF_d1_IFSCCode"].Value = null;ISpace["MF_d1_BeneficiaryName"].Value = null;ISpace["MF_d1_TravelAdvanceID"].Value = null;
-}
-
-var querySource0B38C2325A80430BA2372A5E6E1AD125 =GetQueryExpressionDataSource("0B38C232-5A80-430B-A237-2A5E6E1AD125");
-
-DataTable result0B38C2325A80430BA2372A5E6E1AD125=iSpace.SetGridDataSource(querySource0B38C2325A80430BA2372A5E6E1AD125, _objectFactory.GetGridRPP("ExpenseDetails"),@"EXEC InnovaceNoCode..[GridLoadById_63762982-2C07-4E60-8D86-D3A35CA53EDA]  '" + ISpace["MF_d1_TravelAdvanceID"].Value + @"'");
-
-
-base.WriteDebugInfo(@"var querySource0B38C2325A80430BA2372A5E6E1AD125 =GetQueryExpressionDataSource(""0B38C232-5A80-430B-A237-2A5E6E1AD125"");DataTable result0B38C2325A80430BA2372A5E6E1AD125=iSpace.SetGridDataSource(querySource0B38C2325A80430BA2372A5E6E1AD125, _objectFactory.GetGridRPP(""ExpenseDetails""),@""EXEC InnovaceNoCode..[GridLoadById_63762982-2C07-4E60-8D86-D3A35CA53EDA]  '"" + ISpace[""MF_d1_TravelAdvanceID""].Value + @""'"");");
-base.WriteDebugInfo(@"");
-
-
-List<Triplet<string, short, short?>> result9E3B6B37E97348C38A158354D2CC4DEF=acdataIspaceF1E219523E9A4F379C422F86E1775788.GetQueryExpressionBindings("9E3B6B37-E973-48C3-8A15-8354D2CC4DEF");
-iSpace.SetGridData(result0B38C2325A80430BA2372A5E6E1AD125,result9E3B6B37E97348C38A158354D2CC4DEF,"ExpenseDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ExpenseDetails","63762982-2C07-4E60-8D86-D3A35CA53EDA",_objectFactory.GetGridRPP("ExpenseDetails"),_elementBase.GetGridLoopQuery("63762982-2C07-4E60-8D86-D3A35CA53EDA","ExpenseDetails",true,ref ISpace), ref ISpace);
-
-
-var querySource22A090AD8607491EAEE23888BF931161 =GetQueryExpressionDataSource("22A090AD-8607-491E-AEE2-3888BF931161");
-
-DataTable result22A090AD8607491EAEE23888BF931161=iSpace.SetGridDataSource(querySource22A090AD8607491EAEE23888BF931161, _objectFactory.GetGridRPP("AdvanceDetails"),@"EXEC InnovaceNoCode..[GridLoadById_93B856A5-0D32-4A27-8B58-5BFE5FF0162C]  '" + ISpace["MF_d1_TravelAdvanceID"].Value + @"'");
-
-
-base.WriteDebugInfo(@"var querySource22A090AD8607491EAEE23888BF931161 =GetQueryExpressionDataSource(""22A090AD-8607-491E-AEE2-3888BF931161"");DataTable result22A090AD8607491EAEE23888BF931161=iSpace.SetGridDataSource(querySource22A090AD8607491EAEE23888BF931161, _objectFactory.GetGridRPP(""AdvanceDetails""),@""EXEC InnovaceNoCode..[GridLoadById_93B856A5-0D32-4A27-8B58-5BFE5FF0162C]  '"" + ISpace[""MF_d1_TravelAdvanceID""].Value + @""'"");");
-base.WriteDebugInfo(@"");
-
-
-List<Triplet<string, short, short?>> resultA86C8422ADD944BAB612C8D9EDB841C5=acdataIspaceF1E219523E9A4F379C422F86E1775788.GetQueryExpressionBindings("A86C8422-ADD9-44BA-B612-C8D9EDB841C5");
-iSpace.SetGridData(result22A090AD8607491EAEE23888BF931161,resultA86C8422ADD944BAB612C8D9EDB841C5,"AdvanceDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("AdvanceDetails","93B856A5-0D32-4A27-8B58-5BFE5FF0162C",_objectFactory.GetGridRPP("AdvanceDetails"),_elementBase.GetGridLoopQuery("93B856A5-0D32-4A27-8B58-5BFE5FF0162C","AdvanceDetails",true,ref ISpace), ref ISpace);
-
-}
 base.WriteDebugInfo(@"EXEC [GetEmployeeUserContextDetails] '@@gv_UserId'");
 
 var querySource3c3e1ff76c79c28ed6149890b238c224 =GetQueryExpressionDataSource("3c3e1ff7-6c79-c28e-d614-9890b238c224");
@@ -6205,104 +6107,6 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""48D9155C-42D2-4414-A
 {
 ISpace[""UI_PFHideRow""].Visible=""false"";
 }");
-if(ISpace["MF_d1_TravelAdvanceID"].Value!="0")
-{
-base.WriteDebugInfo(@"if(ISpace[""MF_d1_TravelAdvanceID""].Value!=""0"")");
-base.WriteDebugInfo(@"EXEC InnovaceNoCode..[FormLoadById_5D394C98-9AAB-4228-B011-FC8008C3247C]  '#MF_d1_TravelAdvanceID'");
-
-var querySource8A15D75CE81B41A994470F78A10C69DF =GetQueryExpressionDataSource("8A15D75C-E81B-41A9-9447-0F78A10C69DF");
-Dictionary<short,object> result8A15D75CE81B41A994470F78A10C69DF=iSpace.ExecuteQuery(querySource8A15D75CE81B41A994470F78A10C69DF,@"EXEC InnovaceNoCode..[FormLoadById_5D394C98-9AAB-4228-B011-FC8008C3247C]  '" + ISpace["MF_d1_TravelAdvanceID"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySource8A15D75CE81B41A994470F78A10C69DF =GetQueryExpressionDataSource(""8A15D75C-E81B-41A9-9447-0F78A10C69DF"");Dictionary<short,object> result8A15D75CE81B41A994470F78A10C69DF=iSpace.ExecuteQuery(querySource8A15D75CE81B41A994470F78A10C69DF,@""EXEC InnovaceNoCode..[FormLoadById_5D394C98-9AAB-4228-B011-FC8008C3247C]  '"" + ISpace[""MF_d1_TravelAdvanceID""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((result8A15D75CE81B41A994470F78A10C69DF!=null) && (result8A15D75CE81B41A994470F78A10C69DF.Count!=0))
-{
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(23))
-ISpace["MF_d1_TSTransactionDate"].Value = result8A15D75CE81B41A994470F78A10C69DF[23];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(25))
-ISpace["MF_d1_CreatedOn"].Value = result8A15D75CE81B41A994470F78A10C69DF[25];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(21))
-ISpace["MF_d1_PITransactionDate"].Value = result8A15D75CE81B41A994470F78A10C69DF[21];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(14))
-ISpace["MF_d1_TransactionDate"].Value = result8A15D75CE81B41A994470F78A10C69DF[14];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(4))
-ISpace["MF_d1_TravelType"].Value = result8A15D75CE81B41A994470F78A10C69DF[4];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(6))
-ISpace["MF_d1_IsAdvanceRequired"].Value = result8A15D75CE81B41A994470F78A10C69DF[6];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(12))
-ISpace["MF_d1_BankDocument"].Value = result8A15D75CE81B41A994470F78A10C69DF[12];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(15))
-ISpace["MF_d1_TotalAmount"].Value = result8A15D75CE81B41A994470F78A10C69DF[15];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(24))
-ISpace["MF_d1_CreatedBy"].Value = result8A15D75CE81B41A994470F78A10C69DF[24];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(16))
-ISpace["MF_d1_AdvanceAmount"].Value = result8A15D75CE81B41A994470F78A10C69DF[16];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(18))
-ISpace["MF_d1_TSAmount"].Value = result8A15D75CE81B41A994470F78A10C69DF[18];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(7))
-ISpace["MF_d1_PaymentRemittenceTo"].Value = result8A15D75CE81B41A994470F78A10C69DF[7];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(20))
-ISpace["MF_d1_PITransactionNo"].Value = result8A15D75CE81B41A994470F78A10C69DF[20];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(2))
-ISpace["MF_d1_ReferenceNo"].Value = result8A15D75CE81B41A994470F78A10C69DF[2];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(5))
-ISpace["MF_d1_TravelPlace"].Value = result8A15D75CE81B41A994470F78A10C69DF[5];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(13))
-ISpace["MF_d1_TransactionNo"].Value = result8A15D75CE81B41A994470F78A10C69DF[13];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(3))
-ISpace["MF_d1_JourneyPurpose"].Value = result8A15D75CE81B41A994470F78A10C69DF[3];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(22))
-ISpace["MF_d1_TSTransactionNo"].Value = result8A15D75CE81B41A994470F78A10C69DF[22];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(19))
-ISpace["MF_d1_TSStatus"].Value = result8A15D75CE81B41A994470F78A10C69DF[19];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(10))
-ISpace["MF_d1_BankName"].Value = result8A15D75CE81B41A994470F78A10C69DF[10];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(9))
-ISpace["MF_d1_AccountNo"].Value = result8A15D75CE81B41A994470F78A10C69DF[9];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(17))
-ISpace["MF_d1_TravelStatus"].Value = result8A15D75CE81B41A994470F78A10C69DF[17];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(1))
-ISpace["MF_d1_EmployeeBasicInfoId"].Value = result8A15D75CE81B41A994470F78A10C69DF[1];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(11))
-ISpace["MF_d1_IFSCCode"].Value = result8A15D75CE81B41A994470F78A10C69DF[11];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(8))
-ISpace["MF_d1_BeneficiaryName"].Value = result8A15D75CE81B41A994470F78A10C69DF[8];
-if(result8A15D75CE81B41A994470F78A10C69DF.ContainsKey(0))
-ISpace["MF_d1_TravelAdvanceID"].Value = result8A15D75CE81B41A994470F78A10C69DF[0];
-}
-else{
-ISpace["MF_d1_TSTransactionDate"].Value = null;ISpace["MF_d1_CreatedOn"].Value = null;ISpace["MF_d1_PITransactionDate"].Value = null;ISpace["MF_d1_TransactionDate"].Value = null;ISpace["MF_d1_TravelType"].Value = null;ISpace["MF_d1_IsAdvanceRequired"].Value = null;ISpace["MF_d1_BankDocument"].Value = null;ISpace["MF_d1_TotalAmount"].Value = null;ISpace["MF_d1_CreatedBy"].Value = null;ISpace["MF_d1_AdvanceAmount"].Value = null;ISpace["MF_d1_TSAmount"].Value = null;ISpace["MF_d1_PaymentRemittenceTo"].Value = null;ISpace["MF_d1_PITransactionNo"].Value = null;ISpace["MF_d1_ReferenceNo"].Value = null;ISpace["MF_d1_TravelPlace"].Value = null;ISpace["MF_d1_TransactionNo"].Value = null;ISpace["MF_d1_JourneyPurpose"].Value = null;ISpace["MF_d1_TSTransactionNo"].Value = null;ISpace["MF_d1_TSStatus"].Value = null;ISpace["MF_d1_BankName"].Value = null;ISpace["MF_d1_AccountNo"].Value = null;ISpace["MF_d1_TravelStatus"].Value = null;ISpace["MF_d1_EmployeeBasicInfoId"].Value = null;ISpace["MF_d1_IFSCCode"].Value = null;ISpace["MF_d1_BeneficiaryName"].Value = null;ISpace["MF_d1_TravelAdvanceID"].Value = null;
-}
-
-var querySource0B38C2325A80430BA2372A5E6E1AD125 =GetQueryExpressionDataSource("0B38C232-5A80-430B-A237-2A5E6E1AD125");
-
-DataTable result0B38C2325A80430BA2372A5E6E1AD125=iSpace.SetGridDataSource(querySource0B38C2325A80430BA2372A5E6E1AD125, _objectFactory.GetGridRPP("ExpenseDetails"),@"EXEC InnovaceNoCode..[GridLoadById_63762982-2C07-4E60-8D86-D3A35CA53EDA]  '" + ISpace["MF_d1_TravelAdvanceID"].Value + @"'");
-
-
-base.WriteDebugInfo(@"var querySource0B38C2325A80430BA2372A5E6E1AD125 =GetQueryExpressionDataSource(""0B38C232-5A80-430B-A237-2A5E6E1AD125"");DataTable result0B38C2325A80430BA2372A5E6E1AD125=iSpace.SetGridDataSource(querySource0B38C2325A80430BA2372A5E6E1AD125, _objectFactory.GetGridRPP(""ExpenseDetails""),@""EXEC InnovaceNoCode..[GridLoadById_63762982-2C07-4E60-8D86-D3A35CA53EDA]  '"" + ISpace[""MF_d1_TravelAdvanceID""].Value + @""'"");");
-base.WriteDebugInfo(@"");
-
-
-List<Triplet<string, short, short?>> result9E3B6B37E97348C38A158354D2CC4DEF=acdataIspace53f8560140a83229820900367a5bc621.GetQueryExpressionBindings("9E3B6B37-E973-48C3-8A15-8354D2CC4DEF");
-iSpace.SetGridData(result0B38C2325A80430BA2372A5E6E1AD125,result9E3B6B37E97348C38A158354D2CC4DEF,"ExpenseDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("ExpenseDetails","63762982-2C07-4E60-8D86-D3A35CA53EDA",_objectFactory.GetGridRPP("ExpenseDetails"),_elementBase.GetGridLoopQuery("63762982-2C07-4E60-8D86-D3A35CA53EDA","ExpenseDetails",true,ref ISpace), ref ISpace);
-
-
-var querySource22A090AD8607491EAEE23888BF931161 =GetQueryExpressionDataSource("22A090AD-8607-491E-AEE2-3888BF931161");
-
-DataTable result22A090AD8607491EAEE23888BF931161=iSpace.SetGridDataSource(querySource22A090AD8607491EAEE23888BF931161, _objectFactory.GetGridRPP("AdvanceDetails"),@"EXEC InnovaceNoCode..[GridLoadById_93B856A5-0D32-4A27-8B58-5BFE5FF0162C]  '" + ISpace["MF_d1_TravelAdvanceID"].Value + @"'");
-
-
-base.WriteDebugInfo(@"var querySource22A090AD8607491EAEE23888BF931161 =GetQueryExpressionDataSource(""22A090AD-8607-491E-AEE2-3888BF931161"");DataTable result22A090AD8607491EAEE23888BF931161=iSpace.SetGridDataSource(querySource22A090AD8607491EAEE23888BF931161, _objectFactory.GetGridRPP(""AdvanceDetails""),@""EXEC InnovaceNoCode..[GridLoadById_93B856A5-0D32-4A27-8B58-5BFE5FF0162C]  '"" + ISpace[""MF_d1_TravelAdvanceID""].Value + @""'"");");
-base.WriteDebugInfo(@"");
-
-
-List<Triplet<string, short, short?>> resultA86C8422ADD944BAB612C8D9EDB841C5=acdataIspace53f8560140a83229820900367a5bc621.GetQueryExpressionBindings("A86C8422-ADD9-44BA-B612-C8D9EDB841C5");
-iSpace.SetGridData(result22A090AD8607491EAEE23888BF931161,resultA86C8422ADD944BAB612C8D9EDB841C5,"AdvanceDetails",ref ISpace);
-if (_elementBase != null)  iSpace.SetLoopExpressionData("AdvanceDetails","93B856A5-0D32-4A27-8B58-5BFE5FF0162C",_objectFactory.GetGridRPP("AdvanceDetails"),_elementBase.GetGridLoopQuery("93B856A5-0D32-4A27-8B58-5BFE5FF0162C","AdvanceDetails",true,ref ISpace), ref ISpace);
-
-}
 base.WriteDebugInfo(@"EXEC [GetEmployeeUserContextDetails] '@@gv_UserId'");
 
 var querySource3c3e1ff76c79c28ed6149890b238c224 =GetQueryExpressionDataSource("3c3e1ff7-6c79-c28e-d614-9890b238c224");
@@ -8444,74 +8248,6 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
-							{"9E3B6B37-E973-48C3-8A15-8354D2CC4DEF", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("MG_d3_UpdatedOn",6,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_OtherExpenditureType",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_Amount",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_TravelAdvanceID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_FromDate",2,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_UpdatedBy",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_IsTravelRequest",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_ExpenditureType",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_ExpenditureTypeID",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_ToDate",3,
-														   -1),
-								   new Triplet<string, short, short?>("ExpenseDetails_RowId",10,
-														   -1),
-								}
-			},
-							{"A86C8422-ADD9-44BA-B612-C8D9EDB841C5", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("MG_d2_Amount",12,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ArrivalTime",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Arrival",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_IsTravelRequest",13,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_JourneyClass",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DepartureTime",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ArrivalDate",6,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DepartureDate",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_TADetailsID",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ModeofJourney",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_PNRNo",11,
-														   -1),
-								   new Triplet<string, short, short?>("AdvanceDetails_RowId",16,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Departure",2,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",14,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_TravelAdvanceID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Road",10,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",15,
-														   -1),
-								}
-			},
 							{"FCFC0853-8E66-474B-A676-F339F45380EF", 
 				
 				new List<Triplet<string, short, short?>> {
@@ -9808,74 +9544,6 @@ using System;
 		private Dictionary<string,  List<Triplet<string, short, short?>>> queryExpressionBindings = 
 											new Dictionary<string,  List<Triplet<string, short, short?>>>
 		{
-							{"9E3B6B37-E973-48C3-8A15-8354D2CC4DEF", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("MG_d3_UpdatedOn",6,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_OtherExpenditureType",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_Amount",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_TravelAdvanceID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_FromDate",2,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_UpdatedBy",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_IsTravelRequest",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_ExpenditureType",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_ExpenditureTypeID",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d3_ToDate",3,
-														   -1),
-								   new Triplet<string, short, short?>("ExpenseDetails_RowId",10,
-														   -1),
-								}
-			},
-							{"A86C8422-ADD9-44BA-B612-C8D9EDB841C5", 
-				
-				new List<Triplet<string, short, short?>> {
-
-								   new Triplet<string, short, short?>("MG_d2_Amount",12,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ArrivalTime",7,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Arrival",5,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_IsTravelRequest",13,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_JourneyClass",9,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DepartureTime",4,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ArrivalDate",6,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_DepartureDate",3,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_TADetailsID",0,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_ModeofJourney",8,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_PNRNo",11,
-														   -1),
-								   new Triplet<string, short, short?>("AdvanceDetails_RowId",16,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Departure",2,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedBy",14,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_TravelAdvanceID",1,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_Road",10,
-														   -1),
-								   new Triplet<string, short, short?>("MG_d2_UpdatedOn",15,
-														   -1),
-								}
-			},
 							{"FCFC0853-8E66-474B-A676-F339F45380EF", 
 				
 				new List<Triplet<string, short, short?>> {

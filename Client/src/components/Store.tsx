@@ -203,6 +203,11 @@ await Promise.all(
                   ? true
                   : existData.Visible !== "false",
               EDT: existData?.EDT ?? curr["EDT"] ?? "",
+	      Enbl:
+                      existData?.Enbl == null
+                        ? true
+                        : existData.Enbl !== "false",
+
             },
           };
         }, {});
@@ -233,6 +238,10 @@ await Promise.all(
               ShowModal: existData?.ShowModal === true,
               ShowDialog: existData?.ShowDialog === true,
               HideDialog: existData?.HideDialog === true,
+                    Enbl:
+                      existData?.Enbl == null
+                        ? true
+                        : existData.Enbl !== "false",
             },
           };
         }, {});

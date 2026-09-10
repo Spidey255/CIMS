@@ -283,6 +283,11 @@ namespace CPS.Proof.DFSExtension
 		
 	  			
 			
+			     new Triplet<string, string, string>("MF_SchemeID","3A103712-5244-4427-B2B6-1C4E046FD337",
+												     @"Exec GetBudgetSchema"),
+			
+						
+			
 			     new Triplet<string, string, string>("MF_P1_TransferReferenceBankId","3A103712-5244-4427-B2B6-1C4E046FD337",
 												     @"EXEC GetReceiptsTransferType"),
 			
@@ -300,6 +305,11 @@ namespace CPS.Proof.DFSExtension
 			
 			     new Triplet<string, string, string>("C_FC_ProjectNo_15","3A103712-5244-4427-B2B6-1C4E046FD337",
 												     @"EXEC GetProjectExtensionDetails 1,'@UC_EmployeeBaicInfoId'"),
+			
+						
+			
+			     new Triplet<string, string, string>("MF_FundReceiptMode","3A103712-5244-4427-B2B6-1C4E046FD337",
+												     @"Exec GetFundReceiptMode"),
 			
 						
 			
@@ -495,10 +505,10 @@ namespace CPS.Proof.DFSExtension
                                       case "8A7A4CC4-0187-401F-BAF6-2AC1394A9245":
                     {
                      
-                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [8A7A4CC4-0187-401F-BAF6-2AC1394A9245] WHERE InstanceId='{0}') BEGIN INSERT INTO [8A7A4CC4-0187-401F-BAF6-2AC1394A9245](ProcessActivityMapId,FormId,MF_P1_ReceiptAmount,Amounttest,Addflag,IN_Status,M_FieldMandatory,MF_ProjectDetailsID,M_RemarksMandatory,R_ReceiptAmountBalance,R_ReceiptAmountValidation,M_IsSourceStep,M_Amount,MF_P1_Duration,M_SaveDomainData,Editflag,M_IsflowReturned,M_IsCancelReject,MF_P1_UpdatedBy,SLATime,C_FC_SanctionedValue_15,M_BudgetErr,IN_Priority,M_Totalsum,MF_P1_YearMonth,IN_Category,M_RequestId,R_TotalSplitUpAmount,RedirectUrl,IN_InstanceName,MF_E1_EmployeeBasicInfoId,CancelRedirectUrl,SetDestinationTo,UC_EmployeeId,C_FC_SanctionNo_15,UC_Designation,Mailcount,FC_SanctionedValue,MF_P1_ReceiptsId,C_FC_AgencyCode_15,C_FC_ProjectName_15,M_ActivityName,UC_EmployeeBaicInfoId,M_NextStage,AssignToRole,M_Budgetid,ProjectCode,HODUSERID,MF_P1_TransferReferenceNumber,MF_P1_ProjectDetailsId,Subject,FC_AgencyCode,FRValues,M_R2_ReceiptSplitUpId,M_DestinationActivityId,M_BudgetErrMsg,growid,IN_SLA,FC_ProjectNo,MF_P1_ReceiptNo,FC_Category,UC_DOB,FC_EndDate,FC_SanctionedDate,M_PackageProcessMapId,FC_ProjectName,M_Currentlevel,M_Remarks,UC_Grade,FC_SanctionNo,ExecutionStatus,UC_EmailId,UC_PhoneNumber,M_SourceActivityMapId,MF_P1_Status,UC_DOR,UC_Name,MF_P1_TransferReferenceBranch,ExecutionMessage,AssignToUser,M_Status,FC_StartDate,ExecuteCommand,M_InstanceId,KeyContext,DisplayContext,UC_Department,UC_Paylevel,C_FC_Category_15,M_InitiatorUserMapId,M_MoveToValue,UC_DOJ,M_MoveTo,C_FC_ProjectNo_15,MF_P1_TransferReferenceBankId,MF_P1_TransferType,MF_P1_UpdatedOn,MF_P1_ActualEndDate,C_FC_SanctionedDate_15,C_FC_StartDate_15,MF_P1_ReceiptDate,MF_P1_TransferReferenceDate,MF_P1_ActualDate,C_FC_EndDate,Thumbnail,Comments,M_FlowType,ErrorId,InstanceId)
+                                     fInsertQuery=@"IF NOT EXISTS(SELECT 1 FROM [8A7A4CC4-0187-401F-BAF6-2AC1394A9245] WHERE InstanceId='{0}') BEGIN INSERT INTO [8A7A4CC4-0187-401F-BAF6-2AC1394A9245](ProcessActivityMapId,FormId,MF_P1_ReceiptAmount,Amounttest,Addflag,IN_Status,M_FieldMandatory,MF_ProjectDetailsID,M_RemarksMandatory,R_ReceiptAmountBalance,R_ReceiptAmountValidation,M_IsSourceStep,M_Amount,MF_P1_Duration,M_SaveDomainData,Editflag,M_IsflowReturned,M_IsCancelReject,MF_P1_UpdatedBy,SLATime,C_FC_SanctionedValue_15,M_BudgetErr,IN_Priority,M_Totalsum,MF_P1_YearMonth,IN_Category,M_RequestId,R_TotalSplitUpAmount,RedirectUrl,IN_InstanceName,MF_E1_EmployeeBasicInfoId,CancelRedirectUrl,SetDestinationTo,UC_EmployeeId,C_FC_SanctionNo_15,UC_Designation,Mailcount,FC_SanctionedValue,MF_P1_ReceiptsId,C_FC_AgencyCode_15,C_FC_ProjectName_15,M_ActivityName,UC_EmployeeBaicInfoId,M_NextStage,AssignToRole,M_Budgetid,ProjectCode,HODUSERID,MF_P1_TransferReferenceNumber,MF_P1_ProjectDetailsId,Subject,FC_AgencyCode,FRValues,M_R2_ReceiptSplitUpId,M_DestinationActivityId,M_BudgetErrMsg,growid,IN_SLA,FC_ProjectNo,MF_P1_ReceiptNo,FC_Category,UC_DOB,FC_EndDate,FC_SanctionedDate,M_PackageProcessMapId,FC_ProjectName,M_Currentlevel,M_Remarks,UC_Grade,FC_SanctionNo,ExecutionStatus,UC_EmailId,UC_PhoneNumber,M_SourceActivityMapId,MF_P1_Status,UC_DOR,UC_Name,MF_P1_TransferReferenceBranch,ExecutionMessage,AssignToUser,M_Status,FC_StartDate,ExecuteCommand,M_InstanceId,KeyContext,DisplayContext,UC_Department,UC_Paylevel,C_FC_Category_15,M_InitiatorUserMapId,M_MoveToValue,UC_DOJ,M_MoveTo,C_FC_ProjectNo_15,MF_P1_TransferReferenceBankId,MF_P1_TransferType,MF_P1_UpdatedOn,MF_P1_ActualEndDate,C_FC_SanctionedDate_15,C_FC_StartDate_15,MF_P1_ReceiptDate,MF_P1_TransferReferenceDate,MF_P1_ActualDate,C_FC_EndDate,Thumbnail,Comments,M_FlowType,ErrorId,InstanceId,MF_FundReceiptMode,MF_SchemeID)
 							VALUES( {3}) END ELSE BEGIN UPDATE [8A7A4CC4-0187-401F-BAF6-2AC1394A9245]SET {4}WHERE InstanceId='{0}'END ";
 
-                                     colList=@"ProcessActivityMapId,FormId,MF_P1_ReceiptAmount,Amounttest,Addflag,IN_Status,M_FieldMandatory,MF_ProjectDetailsID,M_RemarksMandatory,R_ReceiptAmountBalance,R_ReceiptAmountValidation,M_IsSourceStep,M_Amount,MF_P1_Duration,M_SaveDomainData,Editflag,M_IsflowReturned,M_IsCancelReject,MF_P1_UpdatedBy,SLATime,C_FC_SanctionedValue_15,M_BudgetErr,IN_Priority,M_Totalsum,MF_P1_YearMonth,IN_Category,M_RequestId,R_TotalSplitUpAmount,RedirectUrl,IN_InstanceName,MF_E1_EmployeeBasicInfoId,CancelRedirectUrl,SetDestinationTo,UC_EmployeeId,C_FC_SanctionNo_15,UC_Designation,Mailcount,FC_SanctionedValue,MF_P1_ReceiptsId,C_FC_AgencyCode_15,C_FC_ProjectName_15,M_ActivityName,UC_EmployeeBaicInfoId,M_NextStage,AssignToRole,M_Budgetid,ProjectCode,HODUSERID,MF_P1_TransferReferenceNumber,MF_P1_ProjectDetailsId,Subject,FC_AgencyCode,FRValues,M_R2_ReceiptSplitUpId,M_DestinationActivityId,M_BudgetErrMsg,growid,IN_SLA,FC_ProjectNo,MF_P1_ReceiptNo,FC_Category,UC_DOB,FC_EndDate,FC_SanctionedDate,M_PackageProcessMapId,FC_ProjectName,M_Currentlevel,M_Remarks,UC_Grade,FC_SanctionNo,ExecutionStatus,UC_EmailId,UC_PhoneNumber,M_SourceActivityMapId,MF_P1_Status,UC_DOR,UC_Name,MF_P1_TransferReferenceBranch,ExecutionMessage,AssignToUser,M_Status,FC_StartDate,ExecuteCommand,M_InstanceId,KeyContext,DisplayContext,UC_Department,UC_Paylevel,C_FC_Category_15,M_InitiatorUserMapId,M_MoveToValue,UC_DOJ,M_MoveTo,C_FC_ProjectNo_15,MF_P1_TransferReferenceBankId,MF_P1_TransferType,MF_P1_UpdatedOn,MF_P1_ActualEndDate,C_FC_SanctionedDate_15,C_FC_StartDate_15,MF_P1_ReceiptDate,MF_P1_TransferReferenceDate,MF_P1_ActualDate,C_FC_EndDate,Thumbnail,Comments,M_FlowType,ErrorId,InstanceId";
+                                     colList=@"ProcessActivityMapId,FormId,MF_P1_ReceiptAmount,Amounttest,Addflag,IN_Status,M_FieldMandatory,MF_ProjectDetailsID,M_RemarksMandatory,R_ReceiptAmountBalance,R_ReceiptAmountValidation,M_IsSourceStep,M_Amount,MF_P1_Duration,M_SaveDomainData,Editflag,M_IsflowReturned,M_IsCancelReject,MF_P1_UpdatedBy,SLATime,C_FC_SanctionedValue_15,M_BudgetErr,IN_Priority,M_Totalsum,MF_P1_YearMonth,IN_Category,M_RequestId,R_TotalSplitUpAmount,RedirectUrl,IN_InstanceName,MF_E1_EmployeeBasicInfoId,CancelRedirectUrl,SetDestinationTo,UC_EmployeeId,C_FC_SanctionNo_15,UC_Designation,Mailcount,FC_SanctionedValue,MF_P1_ReceiptsId,C_FC_AgencyCode_15,C_FC_ProjectName_15,M_ActivityName,UC_EmployeeBaicInfoId,M_NextStage,AssignToRole,M_Budgetid,ProjectCode,HODUSERID,MF_P1_TransferReferenceNumber,MF_P1_ProjectDetailsId,Subject,FC_AgencyCode,FRValues,M_R2_ReceiptSplitUpId,M_DestinationActivityId,M_BudgetErrMsg,growid,IN_SLA,FC_ProjectNo,MF_P1_ReceiptNo,FC_Category,UC_DOB,FC_EndDate,FC_SanctionedDate,M_PackageProcessMapId,FC_ProjectName,M_Currentlevel,M_Remarks,UC_Grade,FC_SanctionNo,ExecutionStatus,UC_EmailId,UC_PhoneNumber,M_SourceActivityMapId,MF_P1_Status,UC_DOR,UC_Name,MF_P1_TransferReferenceBranch,ExecutionMessage,AssignToUser,M_Status,FC_StartDate,ExecuteCommand,M_InstanceId,KeyContext,DisplayContext,UC_Department,UC_Paylevel,C_FC_Category_15,M_InitiatorUserMapId,M_MoveToValue,UC_DOJ,M_MoveTo,C_FC_ProjectNo_15,MF_P1_TransferReferenceBankId,MF_P1_TransferType,MF_P1_UpdatedOn,MF_P1_ActualEndDate,C_FC_SanctionedDate_15,C_FC_StartDate_15,MF_P1_ReceiptDate,MF_P1_TransferReferenceDate,MF_P1_ActualDate,C_FC_EndDate,Thumbnail,Comments,M_FlowType,ErrorId,InstanceId,MF_FundReceiptMode,MF_SchemeID";
                                     
                      
                             splitcols = colList.Split(',');
@@ -1687,28 +1697,28 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
-                                              case "97c72782-b716-b2cd-caba-bef246e1dab6":
+                                              case "249EF445-9B49-4EF9-8045-46BD1E6FF8ED":
                     {
                      
                                 //Delete Existing Records of InstanceId
-                                deleteQuery="Delete FROM [97c72782-b716-b2cd-caba-bef246e1dab6] WHERE InstanceId='{0}';";
+                                deleteQuery="Delete FROM [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] WHERE InstanceId='{0}';";
 
                            
 
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_97c72782b716b2cdcababef246e1dab6 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [97c72782-b716-b2cd-caba-bef246e1dab6](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.C_Stepfrom,TDT.C_StepTo,TDT.C_Comments,TDT.C_User,TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
-							LEFT JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
-							JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
+		DECLARE  @TBL_249EF4459B494EF9804546BD1E6FF8ED AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_R2_ReceiptsId] VARCHAR(MAX)	, [MG_R2_ReceiptSplitUpId] VARCHAR(MAX)	, [MG_R2_UpdatedBy] INT	, [MG_R2_Amount] DECIMAL(18,2)	, [MG_R2_BudgetId] VARCHAR(250)	, [MG_R2_UpdatedOn] DATETIME){0}INSERT INTO [249EF445-9B49-4EF9-8045-46BD1E6FF8ED](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_R2_ReceiptsId,TDT.MG_R2_ReceiptSplitUpId,TDT.MG_R2_UpdatedBy,TDT.MG_R2_Amount,TDT.MG_R2_BudgetId,TDT.MG_R2_UpdatedOn FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
+							LEFT JOIN [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_R2_ReceiptsId=TDT.MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId=TDT.MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy=TDT.MG_R2_UpdatedBy,MG_R2_Amount=TDT.MG_R2_Amount,MG_R2_BudgetId=TDT.MG_R2_BudgetId,MG_R2_UpdatedOn=TDT.MG_R2_UpdatedOn FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
+							JOIN [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments";
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn";
 
-                            colListwithEDT=@"InstanceId#0,ProcessActivityMapId#0,GridId#0,RowId#0,Sequence#0,C_Stepfrom#9,C_StepTo#9,C_Comments#9,C_User#9,C_DateofComments#8";
+                            colListwithEDT=@"InstanceId#0,ProcessActivityMapId#0,GridId#0,RowId#0,Sequence#0,MG_R2_ReceiptsId#9,MG_R2_ReceiptSplitUpId#9,MG_R2_UpdatedBy#5,MG_R2_Amount#3,MG_R2_BudgetId#9,MG_R2_UpdatedOn#8";
 
-                            tempInsertQuery=@"INSERT INTO @TBL_97c72782b716b2cdcababef246e1dab6(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)VALUES({0});";
+                            tempInsertQuery=@"INSERT INTO @TBL_249EF4459B494EF9804546BD1E6FF8ED(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)VALUES({0});";
 
                             splitcols = colListwithEDT.Split(',');
 
@@ -1808,28 +1818,28 @@ namespace CPS.Proof.DFSExtension
                         }
                         break;
 
-                                              case "249EF445-9B49-4EF9-8045-46BD1E6FF8ED":
+                                              case "97c72782-b716-b2cd-caba-bef246e1dab6":
                     {
                      
                                 //Delete Existing Records of InstanceId
-                                deleteQuery="Delete FROM [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] WHERE InstanceId='{0}';";
+                                deleteQuery="Delete FROM [97c72782-b716-b2cd-caba-bef246e1dab6] WHERE InstanceId='{0}';";
 
                            
 
                             gInsertQuery=@"
 		
-		DECLARE  @TBL_249EF4459B494EF9804546BD1E6FF8ED AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [MG_R2_ReceiptsId] VARCHAR(MAX)	, [MG_R2_ReceiptSplitUpId] VARCHAR(MAX)	, [MG_R2_UpdatedBy] INT	, [MG_R2_Amount] DECIMAL(18,2)	, [MG_R2_BudgetId] VARCHAR(250)	, [MG_R2_UpdatedOn] DATETIME){0}INSERT INTO [249EF445-9B49-4EF9-8045-46BD1E6FF8ED](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)
-							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.MG_R2_ReceiptsId,TDT.MG_R2_ReceiptSplitUpId,TDT.MG_R2_UpdatedBy,TDT.MG_R2_Amount,TDT.MG_R2_BudgetId,TDT.MG_R2_UpdatedOn FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
-							LEFT JOIN [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] DT  WITH(NOLOCK)
-							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,MG_R2_ReceiptsId=TDT.MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId=TDT.MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy=TDT.MG_R2_UpdatedBy,MG_R2_Amount=TDT.MG_R2_Amount,MG_R2_BudgetId=TDT.MG_R2_BudgetId,MG_R2_UpdatedOn=TDT.MG_R2_UpdatedOn FROM @TBL_249EF4459B494EF9804546BD1E6FF8ED TDT
-							JOIN [249EF445-9B49-4EF9-8045-46BD1E6FF8ED] DT  WITH(NOLOCK)
+		DECLARE  @TBL_97c72782b716b2cdcababef246e1dab6 AS TABLE(	  [InstanceId] VARCHAR(36)	, [ProcessActivityMapId] VARCHAR(36)	, [GridId] VARCHAR(36)	, [RowId] VARCHAR(36)	, [Sequence] INT	, [C_Stepfrom] VARCHAR(MAX)	, [C_StepTo] VARCHAR(MAX)	, [C_Comments] VARCHAR(MAX)	, [C_User] VARCHAR(MAX)	, [C_DateofComments] DATETIME){0}INSERT INTO [97c72782-b716-b2cd-caba-bef246e1dab6](InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)
+							SELECT TDT.InstanceId,TDT.ProcessActivityMapId,TDT.GridId,TDT.RowId,TDT.Sequence,TDT.C_Stepfrom,TDT.C_StepTo,TDT.C_Comments,TDT.C_User,TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
+							LEFT JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
+							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId  WHERE DT.RowId IS NULL;UPDATE  DT SET ProcessActivityMapId=TDT.ProcessActivityMapId,Sequence=TDT.Sequence,C_Stepfrom=TDT.C_Stepfrom,C_StepTo=TDT.C_StepTo,C_Comments=TDT.C_Comments,C_User=TDT.C_User,C_DateofComments=TDT.C_DateofComments FROM @TBL_97c72782b716b2cdcababef246e1dab6 TDT
+							JOIN [97c72782-b716-b2cd-caba-bef246e1dab6] DT  WITH(NOLOCK)
 							ON	TDT.RowId=DT.RowId AND TDT.InstanceId=DT.InstanceId ";
 
-                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn";
+                            colList=@"InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments";
 
-                            colListwithEDT=@"InstanceId#0,ProcessActivityMapId#0,GridId#0,RowId#0,Sequence#0,MG_R2_ReceiptsId#9,MG_R2_ReceiptSplitUpId#9,MG_R2_UpdatedBy#5,MG_R2_Amount#3,MG_R2_BudgetId#9,MG_R2_UpdatedOn#8";
+                            colListwithEDT=@"InstanceId#0,ProcessActivityMapId#0,GridId#0,RowId#0,Sequence#0,C_Stepfrom#9,C_StepTo#9,C_Comments#9,C_User#9,C_DateofComments#8";
 
-                            tempInsertQuery=@"INSERT INTO @TBL_249EF4459B494EF9804546BD1E6FF8ED(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,MG_R2_ReceiptsId,MG_R2_ReceiptSplitUpId,MG_R2_UpdatedBy,MG_R2_Amount,MG_R2_BudgetId,MG_R2_UpdatedOn)VALUES({0});";
+                            tempInsertQuery=@"INSERT INTO @TBL_97c72782b716b2cdcababef246e1dab6(InstanceId,ProcessActivityMapId,GridId,RowId,Sequence,C_Stepfrom,C_StepTo,C_Comments,C_User,C_DateofComments)VALUES({0});";
 
                             splitcols = colListwithEDT.Split(',');
 
@@ -2077,6 +2087,8 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-B
 ISpace[""UI_InvisibleRow""].Visible=""false"";
 }");
 }
+ISpace["MF_SchemeID"].Visible="false";ISpace["MF_P1_TransferReferenceBankId"].Visible="false";ISpace["MF_P1_TransferReferenceBranch"].Visible="false";ISpace["MF_P1_TransferReferenceNumber"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_SchemeID""].Visible=""false"";ISpace[""MF_P1_TransferReferenceBankId""].Visible=""false"";ISpace[""MF_P1_TransferReferenceBranch""].Visible=""false"";ISpace[""MF_P1_TransferReferenceNumber""].Visible=""false"";");
 }
 catch(Exception ex)
 {
@@ -2715,6 +2727,30 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_mf_fundreceiptmode (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MF_FundReceiptMode-OnChange");
+if(ISpace["MF_FundReceiptMode"].Value=="2")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_FundReceiptMode""].Value==""2"")");
+ISpace["MF_SchemeID"].Visible="true";ISpace["MF_P1_TransferReferenceBankId"].Visible="false";ISpace["MF_P1_TransferReferenceBranch"].Visible="false";ISpace["MF_P1_TransferReferenceNumber"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_SchemeID""].Visible=""true"";ISpace[""MF_P1_TransferReferenceBankId""].Visible=""false"";ISpace[""MF_P1_TransferReferenceBranch""].Visible=""false"";ISpace[""MF_P1_TransferReferenceNumber""].Visible=""false"";");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["MF_SchemeID"].Visible="false";ISpace["MF_P1_TransferReferenceBankId"].Visible="true";ISpace["MF_P1_TransferReferenceBranch"].Visible="true";ISpace["MF_P1_TransferReferenceNumber"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""MF_SchemeID""].Visible=""false"";ISpace[""MF_P1_TransferReferenceBankId""].Visible=""true"";ISpace[""MF_P1_TransferReferenceBranch""].Visible=""true"";ISpace[""MF_P1_TransferReferenceNumber""].Visible=""true"";");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_mf_back (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -3095,6 +3131,10 @@ public override void ExecuteMethod
     {
     			SubscribeElementEvents_mf_p1_transferreferencedate(ref dfsParam);
     }
+		if(elementName.ToLower().Equals("mf_fundreceiptmode"))
+    {
+    			SubscribeElementEvents_mf_fundreceiptmode(ref dfsParam);
+    }
 		if(elementName.ToLower().Equals("mf_p1_receiptdate"))
     {
     			SubscribeElementEvents_mf_p1_receiptdate(ref dfsParam);
@@ -3240,6 +3280,18 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-B
 {
 ISpace[""UI_InvisibleRow""].Visible=""false"";
 }");
+}
+if(ISpace["MF_FundReceiptMode"].Value=="2")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_FundReceiptMode""].Value==""2"")");
+ISpace["MF_SchemeID"].Visible="true";ISpace["MF_P1_TransferReferenceBankId"].Visible="false";ISpace["MF_P1_TransferReferenceBranch"].Visible="false";ISpace["MF_P1_TransferReferenceNumber"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_SchemeID""].Visible=""true"";ISpace[""MF_P1_TransferReferenceBankId""].Visible=""false"";ISpace[""MF_P1_TransferReferenceBranch""].Visible=""false"";ISpace[""MF_P1_TransferReferenceNumber""].Visible=""false"";");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["MF_SchemeID"].Visible="false";ISpace["MF_P1_TransferReferenceBankId"].Visible="true";ISpace["MF_P1_TransferReferenceBranch"].Visible="true";ISpace["MF_P1_TransferReferenceNumber"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""MF_SchemeID""].Visible=""false"";ISpace[""MF_P1_TransferReferenceBankId""].Visible=""true"";ISpace[""MF_P1_TransferReferenceBranch""].Visible=""true"";ISpace[""MF_P1_TransferReferenceNumber""].Visible=""true"";");
 }
 }
 catch(Exception ex)
@@ -3651,6 +3703,8 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-B
 ISpace[""UI_InvisibleRow""].Visible=""false"";
 }");
 }
+ISpace["MF_SchemeID"].Visible="false";ISpace["MF_P1_TransferReferenceBankId"].Visible="false";ISpace["MF_P1_TransferReferenceBranch"].Visible="false";ISpace["MF_P1_TransferReferenceNumber"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_SchemeID""].Visible=""false"";ISpace[""MF_P1_TransferReferenceBankId""].Visible=""false"";ISpace[""MF_P1_TransferReferenceBranch""].Visible=""false"";ISpace[""MF_P1_TransferReferenceNumber""].Visible=""false"";");
 }
 catch(Exception ex)
 {
@@ -4545,6 +4599,30 @@ catch(Exception ex)
 base.WriteErrorInfo(@"Exception:",ex);
 }
 }
+private void SubscribeElementEvents_mf_fundreceiptmode (ref Dictionary<string,ServiceElementData> ISpace)
+{
+IISpace iSpace = new ISpace();
+try
+{
+base.WriteDebugInfo(@"MF_FundReceiptMode-OnChange");
+if(ISpace["MF_FundReceiptMode"].Value=="2")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_FundReceiptMode""].Value==""2"")");
+ISpace["MF_SchemeID"].Visible="true";ISpace["MF_P1_TransferReferenceBankId"].Visible="false";ISpace["MF_P1_TransferReferenceBranch"].Visible="false";ISpace["MF_P1_TransferReferenceNumber"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_SchemeID""].Visible=""true"";ISpace[""MF_P1_TransferReferenceBankId""].Visible=""false"";ISpace[""MF_P1_TransferReferenceBranch""].Visible=""false"";ISpace[""MF_P1_TransferReferenceNumber""].Visible=""false"";");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["MF_SchemeID"].Visible="false";ISpace["MF_P1_TransferReferenceBankId"].Visible="true";ISpace["MF_P1_TransferReferenceBranch"].Visible="true";ISpace["MF_P1_TransferReferenceNumber"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""MF_SchemeID""].Visible=""false"";ISpace[""MF_P1_TransferReferenceBankId""].Visible=""true"";ISpace[""MF_P1_TransferReferenceBranch""].Visible=""true"";ISpace[""MF_P1_TransferReferenceNumber""].Visible=""true"";");
+}
+}
+catch(Exception ex)
+{
+base.WriteErrorInfo(@"Exception:",ex);
+}
+}
 private void SubscribeElementEvents_mf_back (ref Dictionary<string,ServiceElementData> ISpace)
 {
 IISpace iSpace = new ISpace();
@@ -5041,6 +5119,10 @@ public override void ExecuteMethod
     {
     			SubscribeElementEvents_mf_p1_transferreferencedate(ref dfsParam);
     }
+		if(elementName.ToLower().Equals("mf_fundreceiptmode"))
+    {
+    			SubscribeElementEvents_mf_fundreceiptmode(ref dfsParam);
+    }
 		if(elementName.ToLower().Equals("m_moveto"))
     {
     			SubscribeElementEvents_m_moveto(ref dfsParam);
@@ -5208,6 +5290,18 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-B
 {
 ISpace[""UI_InvisibleRow""].Visible=""false"";
 }");
+}
+if(ISpace["MF_FundReceiptMode"].Value=="2")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_FundReceiptMode""].Value==""2"")");
+ISpace["MF_SchemeID"].Visible="true";ISpace["MF_P1_TransferReferenceBankId"].Visible="false";ISpace["MF_P1_TransferReferenceBranch"].Visible="false";ISpace["MF_P1_TransferReferenceNumber"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_SchemeID""].Visible=""true"";ISpace[""MF_P1_TransferReferenceBankId""].Visible=""false"";ISpace[""MF_P1_TransferReferenceBranch""].Visible=""false"";ISpace[""MF_P1_TransferReferenceNumber""].Visible=""false"";");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["MF_SchemeID"].Visible="false";ISpace["MF_P1_TransferReferenceBankId"].Visible="true";ISpace["MF_P1_TransferReferenceBranch"].Visible="true";ISpace["MF_P1_TransferReferenceNumber"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""MF_SchemeID""].Visible=""false"";ISpace[""MF_P1_TransferReferenceBankId""].Visible=""true"";ISpace[""MF_P1_TransferReferenceBranch""].Visible=""true"";ISpace[""MF_P1_TransferReferenceNumber""].Visible=""true"";");
 }
 }
 catch(Exception ex)
@@ -5455,6 +5549,18 @@ base.WriteDebugInfo(@"if(ISpace[""FormVersionId""].Value==""B1CB93DB-7B9C-4661-B
 {
 ISpace[""UI_InvisibleRow""].Visible=""false"";
 }");
+}
+if(ISpace["MF_FundReceiptMode"].Value=="2")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_FundReceiptMode""].Value==""2"")");
+ISpace["MF_SchemeID"].Visible="true";ISpace["MF_P1_TransferReferenceBankId"].Visible="false";ISpace["MF_P1_TransferReferenceBranch"].Visible="false";ISpace["MF_P1_TransferReferenceNumber"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_SchemeID""].Visible=""true"";ISpace[""MF_P1_TransferReferenceBankId""].Visible=""false"";ISpace[""MF_P1_TransferReferenceBranch""].Visible=""false"";ISpace[""MF_P1_TransferReferenceNumber""].Visible=""false"";");
+}
+else
+{
+base.WriteDebugInfo(@"else");
+ISpace["MF_SchemeID"].Visible="false";ISpace["MF_P1_TransferReferenceBankId"].Visible="true";ISpace["MF_P1_TransferReferenceBranch"].Visible="true";ISpace["MF_P1_TransferReferenceNumber"].Visible="true";
+base.WriteDebugInfo(@"ISpace[""MF_SchemeID""].Visible=""false"";ISpace[""MF_P1_TransferReferenceBankId""].Visible=""true"";ISpace[""MF_P1_TransferReferenceBranch""].Visible=""true"";ISpace[""MF_P1_TransferReferenceNumber""].Visible=""true"";");
 }
 }
 catch(Exception ex)

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate, Outlet, useLocation } from "react-router-dom";
-import { Toaster } from "react-hot-toast";
+import { Toaster, toast } from "react-hot-toast";
 import NotFound from "@/pages/NotFound";
 import GlobalLoader from "@/components/Loader/GlobalLoader";
 import Inbox from "@/components/Inbox/Inbox";
@@ -28,6 +28,9 @@ const TravelRequestNew_Start = React.lazy(() =>
   );
 const ProjectReimbursementNew_DeanRandD = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursementNew_DeanRandD")
+  );
+const ProjectOverview_Start = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectOverview_Start")
   );
 const ProjectFundInstallment_AdditionalDetails = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_AdditionalDetails")
@@ -98,8 +101,8 @@ const ProjectReimbursementNew_Registrar = React.lazy(() =>
 const ProjectCreation_View = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/ProjectCreation_View")
   );
-const TravelSettlementNew_RandDOffice = React.lazy(() =>
-    import("@/pages/PRJ20251020000000025-R&DProjects/TravelSettlementNew_RandDOffice")
+const FundConfigurations_Start = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/FundConfigurations_Start")
   );
 const ProjectCreation_RANDDOFFICE = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/ProjectCreation_RANDDOFFICE")
@@ -136,6 +139,9 @@ const TravelRequestNew_RandDOffice = React.lazy(() =>
   );
 const TravelSettlementNew_ARRandD = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/TravelSettlementNew_ARRandD")
+  );
+const TravelSettlementNew_RandDOffice = React.lazy(() =>
+    import("@/pages/PRJ20251020000000025-R&DProjects/TravelSettlementNew_RandDOffice")
   );
 const ProjectFundInstallment_RDOffice = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_RDOffice")
@@ -203,6 +209,32 @@ const PublicRoute: React.FC = () => {
 const App: React.FC = () => {
   const [sessionExpired, setSessionExpired] = useState(false);
 
+   useEffect(() => {
+    const handleMessage = (event: MessageEvent) => {
+      if (event.data?.type !== "API_MESSAGE") return;
+
+      const { messageType, message } = event.data;
+
+      if (!message) return;
+
+      if (messageType === "success") {
+        toast.success(message);
+      } else if (messageType === "warning") {
+        toast(message, {
+          icon: "??",
+        });
+      } else {
+        toast.error(message);
+      }
+    };
+
+    window.addEventListener("message", handleMessage);
+
+    return () => {
+      window.removeEventListener("message", handleMessage);
+    };
+  }, []);
+
   (window as any).triggerSessionTimeout = () => {
     setSessionExpired(true);
   };
@@ -230,6 +262,7 @@ const App: React.FC = () => {
               <Route path="/PRJ20251020000000025-R&DProjects/ReimbursementExplorer_Start" element={<ReimbursementExplorer_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequestNew_Start" element={<TravelRequestNew_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursementNew_DeanRandD" element={<ProjectReimbursementNew_DeanRandD />} />
+              <Route path="/PRJ20251020000000025-R&DProjects/ProjectOverview_Start" element={<ProjectOverview_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_AdditionalDetails" element={<ProjectFundInstallment_AdditionalDetails />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreation_AdditionalDetails" element={<ProjectCreation_AdditionalDetails />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequestNew_DeanRandD" element={<TravelRequestNew_DeanRandD />} />
@@ -253,7 +286,7 @@ const App: React.FC = () => {
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_ReadOnly" element={<ProjectProposal_ReadOnly />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursementNew_Registrar" element={<ProjectReimbursementNew_Registrar />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreation_View" element={<ProjectCreation_View />} />
-              <Route path="/PRJ20251020000000025-R&DProjects/TravelSettlementNew_RandDOffice" element={<TravelSettlementNew_RandDOffice />} />
+              <Route path="/PRJ20251020000000025-R&DProjects/FundConfigurations_Start" element={<FundConfigurations_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreation_RANDDOFFICE" element={<ProjectCreation_RANDDOFFICE />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_RandDOffice" element={<TemporaryAdvanceNew_RandDOffice />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_HOD" element={<ProjectFundInstallment_HOD />} />
@@ -266,6 +299,7 @@ const App: React.FC = () => {
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursementNew_View" element={<ProjectReimbursementNew_View />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequestNew_RandDOffice" element={<TravelRequestNew_RandDOffice />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelSettlementNew_ARRandD" element={<TravelSettlementNew_ARRandD />} />
+              <Route path="/PRJ20251020000000025-R&DProjects/TravelSettlementNew_RandDOffice" element={<TravelSettlementNew_RandDOffice />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_RDOffice" element={<ProjectFundInstallment_RDOffice />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectProposal_Additional" element={<ProjectProposal_Additional />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequestNew_Registrar" element={<TravelRequestNew_Registrar />} />
@@ -293,7 +327,13 @@ const App: React.FC = () => {
         </Routes>
       </Router>
 
-      <Toaster />
+      <Toaster position="top-center"
+        containerStyle={{
+          zIndex: 999999999,
+        }}
+        toastOptions={{
+          duration: 4000,
+        }}/>
       <SessionTimeoutModal
         isOpen={sessionExpired}
         onConfirm={handleLogout}

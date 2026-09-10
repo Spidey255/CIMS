@@ -3154,24 +3154,6 @@ else{
 ISpace["UC_EmployeeId"].Value = null;ISpace["UC_Grade"].Value = null;ISpace["UC_DOJ"].Value = null;ISpace["UC_PhoneNumber"].Value = null;ISpace["UC_Name"].Value = null;ISpace["UC_Department"].Value = null;ISpace["UC_EmailID"].Value = null;ISpace["UC_Designation"].Value = null;ISpace["UC_EmployeeBaicInfoId"].Value = null;ISpace["UC_DOR"].Value = null;ISpace["UC_DOB"].Value = null;ISpace["UC_Paylevel"].Value = null;
 }
 }
-
-{
-base.WriteDebugInfo(@"");
-base.WriteDebugInfo(@"EXEC  ");
-
-var querySource1D7493FAE1074E7090DA9ABDA2948042 =GetQueryExpressionDataSource("1D7493FA-E107-4E70-90DA-9ABDA2948042");
-Dictionary<short,object> result1D7493FAE1074E7090DA9ABDA2948042=iSpace.ExecuteQuery(querySource1D7493FAE1074E7090DA9ABDA2948042,@"EXEC  ",false);
-
-base.WriteDebugInfo(@"var querySource1D7493FAE1074E7090DA9ABDA2948042 =GetQueryExpressionDataSource(""1D7493FA-E107-4E70-90DA-9ABDA2948042"");Dictionary<short,object> result1D7493FAE1074E7090DA9ABDA2948042=iSpace.ExecuteQuery(querySource1D7493FAE1074E7090DA9ABDA2948042,@""EXEC  "",false);");
-base.WriteDebugInfo(@"");
-
-if((result1D7493FAE1074E7090DA9ABDA2948042!=null) && (result1D7493FAE1074E7090DA9ABDA2948042.Count!=0))
-{
-}
-else{
-
-}
-}
 base.WriteDebugInfo(@"EXEC [GenerateRef] 4,'@@gv_UserId'");
 
 var querySource961d3d1f5e32cf946e2e7d3b69f20bac =GetQueryExpressionDataSource("961d3d1f-5e32-cf94-6e2e-7d3b69f20bac");
@@ -6220,24 +6202,6 @@ ISpace["UC_Paylevel"].Value = resultfa7f4efda3f95748468cd4a4ac18e087[12];
 }
 else{
 ISpace["UC_EmployeeId"].Value = null;ISpace["UC_Grade"].Value = null;ISpace["UC_DOJ"].Value = null;ISpace["UC_PhoneNumber"].Value = null;ISpace["UC_Name"].Value = null;ISpace["UC_Department"].Value = null;ISpace["UC_EmailID"].Value = null;ISpace["UC_Designation"].Value = null;ISpace["UC_EmployeeBaicInfoId"].Value = null;ISpace["UC_DOR"].Value = null;ISpace["UC_DOB"].Value = null;ISpace["UC_Paylevel"].Value = null;
-}
-}
-
-{
-base.WriteDebugInfo(@"");
-base.WriteDebugInfo(@"EXEC  ");
-
-var querySource1D7493FAE1074E7090DA9ABDA2948042 =GetQueryExpressionDataSource("1D7493FA-E107-4E70-90DA-9ABDA2948042");
-Dictionary<short,object> result1D7493FAE1074E7090DA9ABDA2948042=iSpace.ExecuteQuery(querySource1D7493FAE1074E7090DA9ABDA2948042,@"EXEC  ",false);
-
-base.WriteDebugInfo(@"var querySource1D7493FAE1074E7090DA9ABDA2948042 =GetQueryExpressionDataSource(""1D7493FA-E107-4E70-90DA-9ABDA2948042"");Dictionary<short,object> result1D7493FAE1074E7090DA9ABDA2948042=iSpace.ExecuteQuery(querySource1D7493FAE1074E7090DA9ABDA2948042,@""EXEC  "",false);");
-base.WriteDebugInfo(@"");
-
-if((result1D7493FAE1074E7090DA9ABDA2948042!=null) && (result1D7493FAE1074E7090DA9ABDA2948042.Count!=0))
-{
-}
-else{
-
 }
 }
 base.WriteDebugInfo(@"EXEC [GenerateRef] 4,'@@gv_UserId'");
