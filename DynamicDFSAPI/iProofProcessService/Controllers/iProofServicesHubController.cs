@@ -101,6 +101,16 @@ namespace CPS.Proof.DFSExtension
 
                                             break;
 
+                                     case "B219A0EA-0254-4F69-B989-B681DD475183":   var  objectFactoryProjectsExplorer=new ProjectsExplorerObjectFactory();
+                                             virtualpageinstance = objectFactoryProjectsExplorer.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+
+                                            virtualpageinstance._objectFactory = objectFactoryProjectsExplorer;
+
+                                            virtualpageinstance._elementBase = new ProjectsExplorerDataElementFactory();
+
+                                            break;
+
                                      case "026e321e-9bb7-4c74-8615-3bbd7cc1b241":   var  objectFactoryProjectProposal=new ProjectProposalObjectFactory();
                                              virtualpageinstance = objectFactoryProjectProposal.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
@@ -517,6 +527,12 @@ namespace CPS.Proof.DFSExtension
                                             virtualpageinstance._objectFactory = objectFactoryTempAdvanceExplorer;
                                             break;
 
+                                     case "B219A0EA-0254-4F69-B989-B681DD475183":   var  objectFactoryProjectsExplorer=new ProjectsExplorerObjectFactory();
+                                             virtualpageinstance = objectFactoryProjectsExplorer.GetDfsVirtualInstance
+                                                        (context.ProcessActivityMapId);
+                                            virtualpageinstance._objectFactory = objectFactoryProjectsExplorer;
+                                            break;
+
                                      case "026e321e-9bb7-4c74-8615-3bbd7cc1b241":   var  objectFactoryProjectProposal=new ProjectProposalObjectFactory();
                                              virtualpageinstance = objectFactoryProjectProposal.GetDfsVirtualInstance
                                                         (context.ProcessActivityMapId);
@@ -808,6 +824,18 @@ namespace CPS.Proof.DFSExtension
                                             break;
                    
                                     
+                    case "B219A0EA-0254-4F69-B989-B681DD475183":   
+                                             foreach (var item in context.Params)
+                                             {
+                                            var  objectFactoryProjectsExplorer=new ProjectsExplorerObjectFactory();
+                                             combosource = objectFactoryProjectsExplorer.GetComboDataSource
+                                                        (item.ElementName);  
+                                             if (combosource != null)
+                                break;
+                                             }
+                                            break;
+                   
+                                    
                     case "026e321e-9bb7-4c74-8615-3bbd7cc1b241":   
                                              foreach (var item in context.Params)
                                              {
@@ -1084,6 +1112,21 @@ namespace CPS.Proof.DFSExtension
                                             else
                                             {
                                                 insertQuery=elementFactoryTempAdvanceExplorer.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId, token.UMID, formjsonData);
+                                            }
+
+                                            break;
+
+                                     case "B219A0EA-0254-4F69-B989-B681DD475183":    var elementFactoryProjectsExplorer=new ProjectsExplorerDataElementFactory();       
+                                           
+                                             if(context.Action=="GridSave")
+                                            {
+                                                insertQuery = elementFactoryProjectsExplorer.GetInsertGridDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
+                                                    context.WidgetId,token.UMID, formjsonData);
+                                            }
+                                            else
+                                            {
+                                                insertQuery=elementFactoryProjectsExplorer.GetInsertFormDataQuery(context.FormInstanceId, context.PackageProcessMapId, context.ProcessActivityMapId,
                                                     context.WidgetId, token.UMID, formjsonData);
                                             }
 
