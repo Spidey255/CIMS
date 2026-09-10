@@ -29,9 +29,6 @@ const TravelRequestNew_Start = React.lazy(() =>
 const ProjectReimbursementNew_DeanRandD = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/ProjectReimbursementNew_DeanRandD")
   );
-const ProjectOverview_Start = React.lazy(() =>
-    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectOverview_Start")
-  );
 const ProjectFundInstallment_AdditionalDetails = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_AdditionalDetails")
   );
@@ -40,9 +37,6 @@ const ProjectCreation_AdditionalDetails = React.lazy(() =>
   );
 const TravelRequestNew_DeanRandD = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/TravelRequestNew_DeanRandD")
-  );
-const ProjectsExplorer_Start = React.lazy(() =>
-    import("@/pages/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start")
   );
 const TemporaryAdvanceNew_View = React.lazy(() =>
     import("@/pages/PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_View")
@@ -262,11 +256,9 @@ const App: React.FC = () => {
               <Route path="/PRJ20251020000000025-R&DProjects/ReimbursementExplorer_Start" element={<ReimbursementExplorer_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequestNew_Start" element={<TravelRequestNew_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectReimbursementNew_DeanRandD" element={<ProjectReimbursementNew_DeanRandD />} />
-              <Route path="/PRJ20251020000000025-R&DProjects/ProjectOverview_Start" element={<ProjectOverview_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectFundInstallment_AdditionalDetails" element={<ProjectFundInstallment_AdditionalDetails />} />
               <Route path="/PRJ20251020000000025-R&DProjects/ProjectCreation_AdditionalDetails" element={<ProjectCreation_AdditionalDetails />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequestNew_DeanRandD" element={<TravelRequestNew_DeanRandD />} />
-              <Route path="/PRJ20251020000000025-R&DProjects/ProjectsExplorer_Start" element={<ProjectsExplorer_Start />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TemporaryAdvanceNew_View" element={<TemporaryAdvanceNew_View />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelRequestNew_ARRandD" element={<TravelRequestNew_ARRandD />} />
               <Route path="/PRJ20251020000000025-R&DProjects/TravelSettlementNew_Start" element={<TravelSettlementNew_Start />} />
