@@ -2472,15 +2472,7 @@ if(1==1)
 base.WriteDebugInfo(@"if(1==1)");
 ISpace["FWFM_BudgetHead"].Man=true;ISpace["FWFM_ProjectNo"].Man=true;ISpace["MF_d1_TravelType"].Man=true;ISpace["MFG_d3_FromDate"].Man=true;ISpace["MF_d1_TravelPlace"].Man=true;ISpace["MFG_d2_JourneyClass"].Man=true;ISpace["MFG_d2_Arrival"].Man=true;ISpace["MF_d1_JourneyPurpose"].Man=true;ISpace["MFG_d3_Amount"].Man=true;ISpace["FWFM_Amount"].Man=true;ISpace["MFG_d2_Amount"].Man=true;ISpace["MF_d1_AdvanceAmount"].Man=true;ISpace["MFG_d2_DepartureDate"].Man=true;ISpace["MFG_d3_OtherExpenditureType"].Man=true;ISpace["MFG_d2_ModeofJourney"].Man=true;ISpace["MFG_d2_Departure"].Man=true;ISpace["MF_d1_IsAdvanceRequired"].Man=true;ISpace["MFG_d2_ArrivalDate"].Man=true;ISpace["FWFM_FundType"].Man=true;ISpace["MFG_d3_ExpenditureType"].Man=true;ISpace["MFG_d3_ToDate"].Man=true;
 base.WriteDebugInfo(@"ISpace[""FWFM_BudgetHead""].Man=true;ISpace[""FWFM_ProjectNo""].Man=true;ISpace[""MF_d1_TravelType""].Man=true;ISpace[""MFG_d3_FromDate""].Man=true;ISpace[""MF_d1_TravelPlace""].Man=true;ISpace[""MFG_d2_JourneyClass""].Man=true;ISpace[""MFG_d2_Arrival""].Man=true;ISpace[""MF_d1_JourneyPurpose""].Man=true;ISpace[""MFG_d3_Amount""].Man=true;ISpace[""FWFM_Amount""].Man=true;ISpace[""MFG_d2_Amount""].Man=true;ISpace[""MF_d1_AdvanceAmount""].Man=true;ISpace[""MFG_d2_DepartureDate""].Man=true;ISpace[""MFG_d3_OtherExpenditureType""].Man=true;ISpace[""MFG_d2_ModeofJourney""].Man=true;ISpace[""MFG_d2_Departure""].Man=true;ISpace[""MF_d1_IsAdvanceRequired""].Man=true;ISpace[""MFG_d2_ArrivalDate""].Man=true;ISpace[""FWFM_FundType""].Man=true;ISpace[""MFG_d3_ExpenditureType""].Man=true;ISpace[""MFG_d3_ToDate""].Man=true;");
-ISpace["MF_EligibleAdavnce"].Value=0;
-base.WriteDebugInfo(@"ISpace[""MF_EligibleAdavnce""].Value=0;");
 }
-ISpace["MF_TotalOtherExpense"].Value=0;
-base.WriteDebugInfo(@"ISpace[""MF_TotalOtherExpense""].Value=0;");
-ISpace["MF_TotaTravellExpense"].Value=0;
-base.WriteDebugInfo(@"ISpace[""MF_TotaTravellExpense""].Value=0;");
-ISpace["MF_d1_TotalAmount"].Value=0;
-base.WriteDebugInfo(@"ISpace[""MF_d1_TotalAmount""].Value=0;");
 base.WriteDebugInfo(@"EXEC [GenerateRef] 3,'@@gv_UserId'");
 
 var querySourcecb7a5d0645d0748ac18fbb48a35f9e4e =GetQueryExpressionDataSource("cb7a5d06-45d0-748a-c18f-bb48a35f9e4e");
@@ -3415,6 +3407,8 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
+ISpace["Subject"].Value=ISpace["MF_d1_ReferenceNo"].Value;
+base.WriteDebugInfo(@"ISpace[""Subject""].Value=ISpace[""MF_d1_ReferenceNo""].Value;");
 base.WriteDebugInfo(@"EXEC [UpsertProjectFundAllocation] '@@gv_InstanceId','@@gv_ProcessMapId','@@gv_UserId'");
 
 var querySource94A94EAC199144639AD7CC6F7445F90A =GetQueryExpressionDataSource("94A94EAC-1991-4463-9AD7-CC6F7445F90A");
@@ -4144,6 +4138,18 @@ List<Triplet<string, short, short?>> result794A7328890E42A3B11A5984B2D49196=acda
 iSpace.SetGridData(result698205C52C1A42F39D81823D3215AB11,result794A7328890E42A3B11A5984B2D49196,"WMG_CommentsHistory",ref ISpace);
 if (_elementBase != null)  iSpace.SetLoopExpressionData("WMG_CommentsHistory","25967012-E902-4718-B75F-2ECC20C16014",_objectFactory.GetGridRPP("WMG_CommentsHistory"),_elementBase.GetGridLoopQuery("25967012-E902-4718-B75F-2ECC20C16014","WMG_CommentsHistory",true,ref ISpace), ref ISpace);
 
+if(ISpace["MF_d1_IsAdvanceRequired"].Value=="No")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value==""No"")");
+ISpace["MF_EligibleAdavnce"].Visible="false";ISpace["MF_d1_AdvanceAmount"].Visible="false";
+base.WriteDebugInfo(@"ISpace[""MF_EligibleAdavnce""].Visible=""false"";ISpace[""MF_d1_AdvanceAmount""].Visible=""false"";");
+}
+if(ISpace["MF_d1_IsAdvanceRequired"].Value=="Yes")
+{
+base.WriteDebugInfo(@"if(ISpace[""MF_d1_IsAdvanceRequired""].Value==""Yes"")");
+ISpace["MF_EligibleAdavnce"].Visible="true";ISpace["MF_d1_AdvanceAmount"].Visible="true";ISpace["MF_d1_AdvanceAmount"].Man=true;
+base.WriteDebugInfo(@"ISpace[""MF_EligibleAdavnce""].Visible=""true"";ISpace[""MF_d1_AdvanceAmount""].Visible=""true"";ISpace[""MF_d1_AdvanceAmount""].Man=true;");
+}
 ISpace["UI_History"].ShowDialog=true;;
 base.WriteDebugInfo(@"ISpace[""UI_History""].ShowDialog=true;;");
 ISpace["MF_IsApprovalrequired"].Value=false;
@@ -5804,6 +5810,8 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
+ISpace["Subject"].Value=ISpace["MF_d1_ReferenceNo"].Value;
+base.WriteDebugInfo(@"ISpace[""Subject""].Value=ISpace[""MF_d1_ReferenceNo""].Value;");
 ISpace["Message"].Value=@"Success: Submitted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success: Submitted Successfully"";");
 if(1==1)
@@ -6152,32 +6160,6 @@ if(1==1)
 base.WriteDebugInfo(@"if(1==1)");
 ISpace["FWFM_BudgetHead"].Man=true;ISpace["FWFM_ProjectNo"].Man=true;ISpace["MF_d1_TravelType"].Man=true;ISpace["MFG_d3_FromDate"].Man=true;ISpace["MF_d1_TravelPlace"].Man=true;ISpace["MFG_d2_JourneyClass"].Man=true;ISpace["MFG_d2_Arrival"].Man=true;ISpace["MF_d1_JourneyPurpose"].Man=true;ISpace["MFG_d3_Amount"].Man=true;ISpace["FWFM_Amount"].Man=true;ISpace["MFG_d2_Amount"].Man=true;ISpace["MF_d1_AdvanceAmount"].Man=true;ISpace["MFG_d2_DepartureDate"].Man=true;ISpace["MFG_d3_OtherExpenditureType"].Man=true;ISpace["MFG_d2_ModeofJourney"].Man=true;ISpace["MFG_d2_Departure"].Man=true;ISpace["MF_d1_IsAdvanceRequired"].Man=true;ISpace["MFG_d2_ArrivalDate"].Man=true;ISpace["FWFM_FundType"].Man=true;ISpace["MFG_d3_ExpenditureType"].Man=true;ISpace["MFG_d3_ToDate"].Man=true;
 base.WriteDebugInfo(@"ISpace[""FWFM_BudgetHead""].Man=true;ISpace[""FWFM_ProjectNo""].Man=true;ISpace[""MF_d1_TravelType""].Man=true;ISpace[""MFG_d3_FromDate""].Man=true;ISpace[""MF_d1_TravelPlace""].Man=true;ISpace[""MFG_d2_JourneyClass""].Man=true;ISpace[""MFG_d2_Arrival""].Man=true;ISpace[""MF_d1_JourneyPurpose""].Man=true;ISpace[""MFG_d3_Amount""].Man=true;ISpace[""FWFM_Amount""].Man=true;ISpace[""MFG_d2_Amount""].Man=true;ISpace[""MF_d1_AdvanceAmount""].Man=true;ISpace[""MFG_d2_DepartureDate""].Man=true;ISpace[""MFG_d3_OtherExpenditureType""].Man=true;ISpace[""MFG_d2_ModeofJourney""].Man=true;ISpace[""MFG_d2_Departure""].Man=true;ISpace[""MF_d1_IsAdvanceRequired""].Man=true;ISpace[""MFG_d2_ArrivalDate""].Man=true;ISpace[""FWFM_FundType""].Man=true;ISpace[""MFG_d3_ExpenditureType""].Man=true;ISpace[""MFG_d3_ToDate""].Man=true;");
-ISpace["MF_EligibleAdavnce"].Value=0;
-base.WriteDebugInfo(@"ISpace[""MF_EligibleAdavnce""].Value=0;");
-}
-ISpace["MF_TotalOtherExpense"].Value=0;
-base.WriteDebugInfo(@"ISpace[""MF_TotalOtherExpense""].Value=0;");
-ISpace["MF_TotaTravellExpense"].Value=0;
-base.WriteDebugInfo(@"ISpace[""MF_TotaTravellExpense""].Value=0;");
-ISpace["MF_d1_TotalAmount"].Value=0;
-base.WriteDebugInfo(@"ISpace[""MF_d1_TotalAmount""].Value=0;");
-base.WriteDebugInfo(@"EXEC [GenerateRef] 3,'@@gv_UserId'");
-
-var querySourcecb7a5d0645d0748ac18fbb48a35f9e4e =GetQueryExpressionDataSource("cb7a5d06-45d0-748a-c18f-bb48a35f9e4e");
-Dictionary<short,object> resultcb7a5d0645d0748ac18fbb48a35f9e4e=iSpace.ExecuteQuery(querySourcecb7a5d0645d0748ac18fbb48a35f9e4e,@"EXEC[GenerateRef] 3,'" + ISpace["gv_userid"].Value + @"'",false);
-
-base.WriteDebugInfo(@"var querySourcecb7a5d0645d0748ac18fbb48a35f9e4e =GetQueryExpressionDataSource(""cb7a5d06-45d0-748a-c18f-bb48a35f9e4e"");Dictionary<short,object> resultcb7a5d0645d0748ac18fbb48a35f9e4e=iSpace.ExecuteQuery(querySourcecb7a5d0645d0748ac18fbb48a35f9e4e,@""EXEC[GenerateRef] 3,'"" + ISpace[""gv_userid""].Value + @""'"",false);");
-base.WriteDebugInfo(@"");
-
-if((resultcb7a5d0645d0748ac18fbb48a35f9e4e!=null) && (resultcb7a5d0645d0748ac18fbb48a35f9e4e.Count!=0))
-{
-if(resultcb7a5d0645d0748ac18fbb48a35f9e4e.ContainsKey(0))
-ISpace["Subject"].Value = resultcb7a5d0645d0748ac18fbb48a35f9e4e[0];
-if(resultcb7a5d0645d0748ac18fbb48a35f9e4e.ContainsKey(0))
-ISpace["MF_d1_ReferenceNo"].Value = resultcb7a5d0645d0748ac18fbb48a35f9e4e[0];
-}
-else{
-ISpace["Subject"].Value = null;ISpace["MF_d1_ReferenceNo"].Value = null;
 }
 }
 catch(Exception ex)
@@ -7181,6 +7163,8 @@ base.WriteDebugInfo(@"ISpace[""IsCancelled""].Value = true;
 return;");
 }
 }
+ISpace["Subject"].Value=ISpace["MF_d1_ReferenceNo"].Value;
+base.WriteDebugInfo(@"ISpace[""Subject""].Value=ISpace[""MF_d1_ReferenceNo""].Value;");
 base.WriteDebugInfo(@"EXEC [UpsertProjectFundAllocation] '@@gv_InstanceId','@@gv_ProcessMapId','@@gv_UserId'");
 
 var querySource94A94EAC199144639AD7CC6F7445F90A =GetQueryExpressionDataSource("94A94EAC-1991-4463-9AD7-CC6F7445F90A");
