@@ -803,4 +803,18 @@ namespace CPS.Proof.DFSExtension
         Invalid = 2,
         Error = 3
     }
+
+      public enum ResponseTypes : byte
+    {
+        QueryCS = 1,
+        XmlCS = 2,
+        BinaryCS = 3,
+        JsonCS = 4,
+        TextCS = 5,
+        IndexBT = 6,
+        XmlBT = 7,
+        PosBT = 8,
+        JsonBT = 9,
+        PlainText = 10,
+    }
 }

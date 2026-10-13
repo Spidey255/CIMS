@@ -67,19 +67,14 @@ namespace CPS.Proof.DFSExtension
         /// Gets <see cref="string"/> contains ShowDialog.
         /// </summary>
         [DataMember(Name = "ShowDialog", IsRequired = false)]
-        public bool ShowDialog { get; set; }
+        public bool? ShowDialog { get; set; }
 
-        /// <summary>
-        /// Gets <see cref="string"/> contains HideDialog.
-        /// </summary>
-        [DataMember(Name = "HideDialog", IsRequired = false)]
-        public bool HideDialog { get; set; }
-
+       
         /// <summary>
         /// Gets <see cref="string"/> contains ShowModal.
         /// </summary>
         [DataMember(Name = "ShowModal", IsRequired = false)]
-        public bool ShowModal { get; set; }
+        public bool? ShowModal { get; set; }
 
         /// <summary>
         /// Gets <see cref="string"/> contains element control type.
