@@ -1042,6 +1042,23 @@ namespace CPS.Proof.DFSExtension
             }
         }
 
+         /// <summary>
+        /// Method to convert string to integer
+        /// </summary>
+        public int ToInt(string originalString)
+        {
+            try
+            {
+                return originalString == null ? 0 : Convert.ToInt32(originalString);
+            }
+            catch (Exception ex)
+            {
+                _log.Error("Error in ToInt Converison", ex);
+
+                return 0;
+            }
+        }
+
         /// <summary>
         /// Represents a property to convert object to 
         /// string.

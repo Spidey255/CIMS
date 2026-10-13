@@ -776,6 +776,8 @@ namespace CPS.Proof.DFSExtension
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
                                         case 0:
+                                              if (gitem["Value"].ToString() == "")
+                                                        gitem["Value"] = "false";
                                             colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
 												break; 
                                         case 8:
@@ -894,6 +896,8 @@ namespace CPS.Proof.DFSExtension
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
                                         case 0:
+                                              if (gitem["Value"].ToString() == "")
+                                                        gitem["Value"] = "false";
                                             colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
 												break; 
                                         case 8:
@@ -1012,6 +1016,8 @@ namespace CPS.Proof.DFSExtension
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
                                         case 0:
+                                              if (gitem["Value"].ToString() == "")
+                                                        gitem["Value"] = "false";
                                             colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
 												break; 
                                         case 8:
@@ -1130,6 +1136,8 @@ namespace CPS.Proof.DFSExtension
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
                                         case 0:
+                                              if (gitem["Value"].ToString() == "")
+                                                        gitem["Value"] = "false";
                                             colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
 												break; 
                                         case 8:
@@ -1956,8 +1964,8 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"COPI_No-OnClick");
-ISpace["UI_DeleteDialog"].HideDialog=true;;
-base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].HideDialog=true;;");
+ISpace["UI_DeleteDialog"].ShowDialog=false;;
+base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].ShowDialog=false;;");
 }
 catch(Exception ex)
 {
@@ -1986,8 +1994,8 @@ if (_elementBase != null)  iSpace.SetLoopExpressionData("CopiDetails","FC9B8D2E-
 
 ISpace["Message"].Value=@"Success:Deleted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:Deleted Successfully"";");
-ISpace["UI_DeleteDialog"].HideDialog=true;;
-base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].HideDialog=true;;");
+ISpace["UI_DeleteDialog"].ShowDialog=false;;
+base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].ShowDialog=false;;");
 }
 catch(Exception ex)
 {
@@ -3050,8 +3058,8 @@ IISpace iSpace = new ISpace();
 try
 {
 base.WriteDebugInfo(@"COPI_No-OnClick");
-ISpace["UI_DeleteDialog"].HideDialog=true;;
-base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].HideDialog=true;;");
+ISpace["UI_DeleteDialog"].ShowDialog=false;;
+base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].ShowDialog=false;;");
 }
 catch(Exception ex)
 {
@@ -3080,8 +3088,8 @@ if (_elementBase != null)  iSpace.SetLoopExpressionData("CopiDetails","FC9B8D2E-
 
 ISpace["Message"].Value=@"Success:Deleted Successfully";
 base.WriteDebugInfo(@"ISpace[""Message""].Value=@""Success:Deleted Successfully"";");
-ISpace["UI_DeleteDialog"].HideDialog=true;;
-base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].HideDialog=true;;");
+ISpace["UI_DeleteDialog"].ShowDialog=false;;
+base.WriteDebugInfo(@"ISpace[""UI_DeleteDialog""].ShowDialog=false;;");
 }
 catch(Exception ex)
 {

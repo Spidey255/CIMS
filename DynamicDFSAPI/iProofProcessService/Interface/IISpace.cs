@@ -125,5 +125,19 @@ namespace CPS.Proof.DFSExtension
 
         void Redirectpermanent(ref Dictionary<string, ServiceElementData> ISpace, string url);
 
+          bool ExecuteHttpRequest(Dictionary<string, string> querySourceDetails, string expressionId,
+            ref List<RequestFieldElements> requestFields, out string responseString);
+
+        object GetBindingElementValue(string queryValue, string queryPath,
+            string queryExpressionId,
+            byte? bindingType);
+
+        bool ExecuteRestRequest(HttpRequest request,
+            out HttpResponse response);
+
+        string Encrypt(string originalString);
+
+        string Decrypt(string originalString);
+
     }
 }

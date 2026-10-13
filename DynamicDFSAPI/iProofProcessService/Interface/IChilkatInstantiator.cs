@@ -12,5 +12,7 @@ namespace CPS.Proof.DFSExtension
     public interface IChilkatInstantiator
     {
         ck.Rest GetChilkatInstance();
+
+        bool Disconnect(ck.Rest restInstance);
     }
 }

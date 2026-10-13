@@ -35,6 +35,7 @@ namespace CPS.Proof.DFSExtension
     using Newtonsoft.Json.Linq;
     using SRA.Proof.Helpers;
     using SRA.Proof.Middleware;
+    using Chilkat;
 
     // ReSharper disable once InconsistentNaming
     public class ISpace : CPS.Proof.DFSExtension.IISpace
@@ -1028,7 +1029,7 @@ namespace CPS.Proof.DFSExtension
             if (!ISpace.ContainsKey("RedirectUrl"))
                 ISpace.Add("RedirectUrl", new ServiceElementData { Value = string.Empty });
 
-            ISpace["RedirectUrl"].RedirectType = "RE";
+            ISpace["RedirectUrl"].RedirectType = "RNW";
 
             ISpace["RedirectUrl"].Value = url;
         }
@@ -1048,7 +1049,7 @@ namespace CPS.Proof.DFSExtension
             if (!ISpace.ContainsKey("RedirectUrl"))
                 ISpace.Add("RedirectUrl", new ServiceElementData { Value = string.Empty });
 
-            ISpace["RedirectUrl"].RedirectType = "RE";
+            ISpace["RedirectUrl"].RedirectType = "R";
 
             ISpace["RedirectUrl"].Value = url;
         }
@@ -1181,6 +1182,393 @@ namespace CPS.Proof.DFSExtension
                 }
             }
         }
+
+        #region RESTAPI
+
+        /// <summary>
+        /// Represents the method that is used to execute the http 
+        /// request.
+        /// </summary>
+        /// <param name="expressionId"></param>
+        /// <param name="requestFields"></param>
+        /// <returns></returns>
+        public bool ExecuteHttpRequest(Dictionary<string,string> querySourceDetails,  string expressionId,
+            ref List<RequestFieldElements> requestFields,out string responseString)
+        {
+            _log.Debug("Entering ExecuteHttpRequest");
+
+            responseString = string.Empty;
+
+            try
+            {
+               
+
+                    if (string.IsNullOrWhiteSpace(expressionId))
+                        return false;
+
+                  
+                    string connectionId = querySourceDetails.Select
+                        (item => item.Value).FirstOrDefault();
+
+                    string proofConnectionId = querySourceDetails.Select
+                         (item => item.Key).FirstOrDefault();
+
+                    var connectionString = GetAppConnectionString
+                        (proofConnectionId, connectionId);
+
+
+                    if (connectionString == null)
+                    {
+                        _log.Error("Connection String is null or empty");
+
+                        _log.Error("Exiting ExecuteHttpRequest");
+
+                        return false;
+                    }
+
+                  
+                        var requestObject = new HttpRequest();
+
+                        requestObject.RequestFields = requestFields;
+
+                        requestObject.Template = connectionString.Template;
+
+                        requestObject.Domain = connectionString.HostName;
+
+                        requestObject.Port = connectionString.Port;
+
+                        requestObject.CharSet = (connectionString.ConnectionType == ConnectionTypes.WebServices ||
+                        connectionString.ConnectionType == ConnectionTypes.WCF) ? "utf-8" : "";
+
+                        requestObject.ContentType = connectionString.ContentType;
+
+                        requestObject.RequestPath = connectionString.Connection;
+
+                        if (connectionString.ConnectionType == ConnectionTypes.WebServices)
+
+                            requestObject.SoapAction = string.Format("{0}#{1}", connectionString.NameSpace, connectionString.MethodName);
+
+                        else if (connectionString.ConnectionType == ConnectionTypes.REST)
+
+                            requestObject.SoapAction = connectionString.MethodName;
+
+                        requestObject.ConnectionType = connectionString.ConnectionType;
+
+                        requestObject.RequestType = connectionString.RequestType;
+
+                        requestObject.RequireAuthentication = connectionString.RequireAuthentication;
+
+                        requestObject.HasRequestBody = connectionString.HasRequestBody;
+
+                        requestObject.UserName = connectionString.UserName;
+
+                        requestObject.Password = connectionString.Password;
+
+                        requestObject.TransportLayeredService = connectionString.TransportLayeredService;
+
+                        requestObject.AutoReconnect = connectionString.AutoReConnect;
+
+                        requestObject.IdleTimeOutMs = connectionString.IdleTimeouts;
+
+                        requestObject.ErrorCodes = connectionString.ErrorCodes;
+
+                        requestObject.SuccessCodes = connectionString.SuccessCodes;
+
+                        requestObject.IsAsync = connectionString.IsAsync;
+
+                        requestObject.Retries = connectionString.Retries;
+
+                        requestObject.RetryInterval = connectionString.RetryInterval;
+
+                      
+                        HttpResponse responseObj;
+
+                        var status = ExecuteRestRequest(requestObject, out responseObj);
+
+                        if (status ==false|| responseObj == null)
+                            return false;
+
+                        if (string.IsNullOrWhiteSpace(responseObj.ResponseString))
+                            return false;
+
+                        responseString= responseObj.ResponseString;
+
+                      
+                    return true;
+                
+            }
+            catch (Exception ex)
+            {
+                _log.Error("Error in ExecuteHttpRequest", ex);
+
+                return false;
+            }
+            finally
+            {
+                _log.Error("Exiting ExecuteHttpRequest");
+            }
+        }
+
+        /// <summary>
+        /// Represents a method to execute query and to get
+        /// result set.
+        /// </summary>
+        /// <param name="queryPath">
+        /// A <see cref="string"/> representing
+        /// the expression id.
+        /// </param>
+        /// <param name="queryExpressionId">
+        /// A <see cref="string"/> representing the 
+        /// parsed query string.
+        /// </param>
+        /// <param name="bindingType"></param>
+        /// <returns></returns>
+        public object GetBindingElementValue(string queryValue,string queryPath,
+            string queryExpressionId,
+            byte? bindingType)
+        {
+            try
+            {
+                _log.Debug("Entering GetBindingElementValue");
+
+               
+
+                    if (string.IsNullOrWhiteSpace(queryValue) || string.IsNullOrEmpty(queryValue) ||
+                        string.IsNullOrWhiteSpace(queryPath) || bindingType == null)
+                        return null;
+                                      
+
+                        var value = string.Empty;
+
+                        switch ((ResponseTypes)bindingType)
+                        {
+                            case ResponseTypes.XmlBT:
+                                value = GetXmlValue(queryValue, queryPath);
+                                break;
+
+                            case ResponseTypes.JsonBT:
+                                value = GetJsonValue(queryValue, queryPath);
+                                break;
+                        }
+
+                        return value;                   
+                
+
+                _log.Debug("Exiting GetBindingElementValue");
+
+            }
+            catch (Exception exp)
+            {
+                _log.ErrorFormat("Error in GetBindingElementValue, {0}", exp);
+
+                return null;
+            }
+
+            return null;
+        }
+
+        /// <summary>
+        /// Represents a method to convert a string to 
+        /// Encrypted data.
+        /// </summary>
+        public string Encrypt(string originalString)
+        {
+            var cryptoManager
+                = ObjectManager.Acquire<ICryptoManager>();
+
+            try
+            {
+                return cryptoManager.Encrypt(originalString);
+            }
+            finally
+            {
+                if (cryptoManager != null)
+                    ObjectManager.Release(cryptoManager);
+            }
+        }
+
+        public string Decrypt(string originalString)
+        {
+            var cryptoManager
+                = ObjectManager.Acquire<ICryptoManager>();
+
+            try
+            {
+                return cryptoManager.Decrypt(originalString);
+            }
+            finally
+            {
+                if (cryptoManager != null)
+                    ObjectManager.Release(cryptoManager);
+            }
+        }
+
+        /// <summary>
+        /// Represents the method that converts GetJsonValue.
+        /// </summary>
+        /// <param name="jsonString">
+        /// A <see cref="string"/> that holds complex element details.
+        /// <param name="jsonPath">
+        /// A <see cref="string"/> that holds complex element details.
+        /// </param>
+        /// <returns>
+        /// Returns Json object as string.
+        /// </returns>
+        private string GetJsonValue(string jsonString, string jsonPath)
+        {
+            if (string.IsNullOrWhiteSpace(jsonPath) ||
+                string.IsNullOrWhiteSpace(jsonString))
+            {
+                _log.ErrorFormat("jsonString is null and jsonPath is - {0}", jsonPath);
+                return null;
+            }
+
+            // string[] splitstring = jsonPath.Split("/");
+
+            string result = string.Empty;
+         
+            var jsonResp = new JsonObject();
+
+            jsonResp.Load(jsonString);
+
+            jsonResp.EmitCompact = false;
+
+            var value = jsonResp.StringOf(jsonPath); //outParams.CustId
+
+            if (value == null)
+            {
+                _log.ErrorFormat("jsonPath - {0} returned null", jsonPath);
+
+                _log.ErrorFormat("jsonString Response : {0}", jsonString);
+
+                return null;
+            }
+
+            return value;
+            // }
+
+        }
+
+        /// <summary>
+        /// Represents the method that converts GetXmlValue.
+        /// </summary>
+        /// <param name="xml">
+        /// A <see cref="string"/> that holds complex element details.
+        /// <param name="xPath">
+        /// A <see cref="string"/> that holds complex element details.
+        /// </param>
+        /// <returns>
+        /// Returns xml object as string.
+        /// </returns>
+        private string GetXmlValue(string xml, string xPath)
+        {
+            if (string.IsNullOrWhiteSpace(xPath) ||
+                string.IsNullOrWhiteSpace(xml))
+            {
+                _log.ErrorFormat("Xml is null and xPath is - {0}", xPath);
+                return null;
+            }
+
+            var xmldoc = new XmlDocument();
+
+            xml = xml.Replace("xmlns=\"http://tempuri.org/\"", "");
+
+            xmldoc.LoadXml(xml);
+
+            xmldoc = RemoveXmlns(xmldoc);
+
+            var nsmgr = new XmlNamespaceManager(xmldoc.NameTable);
+            nsmgr.AddNamespace("soap", "http://schemas.xmlsoap.org/soap/envelope/");
+
+            var selectSingleNode = xmldoc.SelectSingleNode(xPath, nsmgr);
+
+            if (selectSingleNode == null)
+            {
+                _log.ErrorFormat("xPath - {0} returned null", xPath);
+
+                _log.ErrorFormat("XML Response : {0}", xmldoc.InnerXml);
+
+                return null;
+            }
+
+            string value = selectSingleNode.InnerText;
+
+            return value;
+        }
+
+        /// <summary>
+        /// Represents a method to execute an Http Request
+        /// </summary>
+        public bool ExecuteRestRequest(HttpRequest request,
+            out HttpResponse response)
+        {
+            response = null;
+
+            IRestExecutor executor = null;
+
+            try
+            {
+                _log.Debug("Entering ExecuteRestRequest");
+
+                executor = ObjectManager.Acquire<IRestExecutor>();
+
+                string responseMessage = null;
+
+                var status = Status.Failure;
+
+                //status = CallRest(request, out responseMessage);
+
+                status=executor.ExecuteRest(request,out responseMessage);
+
+
+                if (status==Status.Failure)
+                    return false;
+
+                response = new HttpResponse { ResponseString = responseMessage };
+
+                return true;
+            }
+            finally
+            {
+                _log.Error("Exiting in ExecuteRestRequest ");
+
+                if (executor != null)
+                    ObjectManager.Release<IRestExecutor>(executor);
+            }
+
+
+        }
+
+        /// <summary>
+        /// Represents the method that converts RemoveXmlns
+        /// </summary>
+        /// <param name="doc">
+        /// A <see cref="XmlDocument"/> that holds complex element details.  
+        /// </param>
+        /// <returns>   
+        /// </returns>
+        private XmlDocument RemoveXmlns(XmlDocument doc)
+        {
+            XDocument d;
+
+            using (var nodeReader = new XmlNodeReader(doc))
+                d = XDocument.Load(nodeReader);
+
+            d.Root.Descendants().Attributes().Where(x => x.IsNamespaceDeclaration).Remove();
+
+            foreach (var elem in d.Descendants())
+                elem.Name = elem.Name.LocalName;
+
+            var xmlDocument = new XmlDocument();
+
+            using (var xmlReader = d.CreateReader())
+                xmlDocument.Load(xmlReader);
+
+            return xmlDocument;
+        }
+
+
+        #endregion
 
     }
 }

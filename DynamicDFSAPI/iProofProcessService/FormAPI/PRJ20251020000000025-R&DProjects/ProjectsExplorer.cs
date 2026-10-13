@@ -623,6 +623,8 @@ namespace CPS.Proof.DFSExtension
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
                                         case 0:
+                                              if (gitem["Value"].ToString() == "")
+                                                        gitem["Value"] = "false";
                                             colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
 												break; 
                                         case 8:
@@ -741,6 +743,8 @@ namespace CPS.Proof.DFSExtension
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
                                         case 0:
+                                              if (gitem["Value"].ToString() == "")
+                                                        gitem["Value"] = "false";
                                             colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
 												break; 
                                         case 8:
@@ -859,6 +863,8 @@ namespace CPS.Proof.DFSExtension
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
                                         case 0:
+                                              if (gitem["Value"].ToString() == "")
+                                                        gitem["Value"] = "false";
                                             colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
 												break; 
                                         case 8:

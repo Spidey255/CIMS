@@ -33,5 +33,16 @@ namespace CPS.Proof.DFSExtension
         {
 			return rest;
         }
+
+        /// <summary>
+		/// Represents a method to notify disconenction
+		/// </summary>
+		/// <returns>
+		/// Boolean as execution result
+		/// </returns>
+		public bool Disconnect(ck.Rest restInstance)
+        {
+            return restInstance.Disconnect(1);
+        }
     }
 }

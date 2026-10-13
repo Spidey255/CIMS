@@ -621,6 +621,8 @@ namespace CPS.Proof.DFSExtension
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
                                         case 0:
+                                              if (gitem["Value"].ToString() == "")
+                                                        gitem["Value"] = "false";
                                             colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
 												break; 
                                         case 8:
@@ -739,6 +741,8 @@ namespace CPS.Proof.DFSExtension
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
                                         case 0:
+                                              if (gitem["Value"].ToString() == "")
+                                                        gitem["Value"] = "false";
                                             colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
 												break; 
                                         case 8:
@@ -857,6 +861,8 @@ namespace CPS.Proof.DFSExtension
                                     switch(Convert.ToInt32(gitem["EDT"]))
                                     {
                                         case 0:
+                                              if (gitem["Value"].ToString() == "")
+                                                        gitem["Value"] = "false";
                                             colValues += (Convert.ToBoolean(gitem["Value"]) ? "1" : "0") + ",";
 												break; 
                                         case 8:
@@ -1601,12 +1607,39 @@ if(ISpace["MF_FundTypeId"].Value==1)
 {
 base.WriteDebugInfo(@"if(ISpace[""MF_FundTypeId""].Value==1)");
 base.WriteDebugInfo(@"#MF_DistrubitionDetails[Rows]");
-iSpace.GetGridTableRows("MF_DistrubitionDetails","Select * from Proof..[] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"'",ref ISpace);
+iSpace.GetGridTableRows("MF_DistrubitionDetails","Select * from Proof..[] WITH(NOLOCK) WHERE InstanceId='"+ISpace["InstanceId"].Value+@"' AND InstanceId<>''",ref ISpace);
 
- var grid = ISpace["MF_DistrubitionDetails"];
+ var gridMF_DistrubitionDetailsE = ISpace["MF_DistrubitionDetails"];
 
- foreach(var gridrow in grid.Child) 
+ foreach(var gridrow in gridMF_DistrubitionDetailsE.Child) 
 {
+
+                                foreach(var gridrowchild in gridrow.Child)
+                                {
+                                   
+                                if (ISpace.ContainsKey(gridrowchild.ElementName))
+                                {
+                                    if (ISpace[gridrowchild.ElementName].EDT == 5
+                                        || ISpace[gridrowchild.ElementName].EDT == 6
+                                        || ISpace[gridrowchild.ElementName].EDT == 7
+                                        || ISpace[gridrowchild.ElementName].EDT == 3 || ISpace[gridrowchild.ElementName].EDT == 4
+
+                                        )
+                                    {
+                                        
+                                        // if (gridrowchild.Value == DBNull.Value)
+                                        if (Convert.IsDBNull(gridrowchild.Value))
+                                            ISpace[gridrowchild.ElementName].Value = 0;
+                                        else
+                                            ISpace[gridrowchild.ElementName].Value = gridrowchild.Value;
+                                    }
+                                    else
+                                    {
+                                        ISpace[gridrowchild.ElementName].Value = gridrowchild.Value;
+                                    }
+                                }
+                            
+                                }
 
 base.WriteDebugInfo(@"EXEC [SP_UpsertProjectDistributionDetails] '#MG_ProjectOrOtherId','#MG_Description','#MF_FundTypeId',#MG_MaxAmount,'#MG_BudgetHeadId',#MG_MaxPercentageUsage,'#MF_DistributionId'");
 
@@ -1626,12 +1659,39 @@ ISpace["MF_InsertCount"].Value = null;
 }
 }
 if (_elementBase != null)  iSpace.SetLoopExpressionData("MF_DistrubitionDetails","",_objectFactory.GetGridRPP("MF_DistrubitionDetails"),_elementBase.GetGridLoopQuery("","MF_DistrubitionDetails",false,ref ISpace), ref ISpace);
-base.WriteDebugInfo(@"iSpace.GetGridTableRows(""MF_DistrubitionDetails"",""Select * from Proof..[] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""'"",ref ISpace);
+base.WriteDebugInfo(@"iSpace.GetGridTableRows(""MF_DistrubitionDetails"",""Select * from Proof..[] WITH(NOLOCK) WHERE InstanceId='""+ISpace[""InstanceId""].Value+@""' AND InstanceId<>''"",ref ISpace);
 
- var grid = ISpace[""MF_DistrubitionDetails""];
+ var gridMF_DistrubitionDetailsE = ISpace[""MF_DistrubitionDetails""];
 
- foreach(var gridrow in grid.Child) 
+ foreach(var gridrow in gridMF_DistrubitionDetailsE.Child) 
 {
+
+                                foreach(var gridrowchild in gridrow.Child)
+                                {
+                                   
+                                if (ISpace.ContainsKey(gridrowchild.ElementName))
+                                {
+                                    if (ISpace[gridrowchild.ElementName].EDT == 5
+                                        || ISpace[gridrowchild.ElementName].EDT == 6
+                                        || ISpace[gridrowchild.ElementName].EDT == 7
+                                        || ISpace[gridrowchild.ElementName].EDT == 3 || ISpace[gridrowchild.ElementName].EDT == 4
+
+                                        )
+                                    {
+                                        
+                                        // if (gridrowchild.Value == DBNull.Value)
+                                        if (Convert.IsDBNull(gridrowchild.Value))
+                                            ISpace[gridrowchild.ElementName].Value = 0;
+                                        else
+                                            ISpace[gridrowchild.ElementName].Value = gridrowchild.Value;
+                                    }
+                                    else
+                                    {
+                                        ISpace[gridrowchild.ElementName].Value = gridrowchild.Value;
+                                    }
+                                }
+                            
+                                }
 ");
 }
 else
