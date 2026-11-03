@@ -1583,18 +1583,6 @@ export const DataElementsData = [
                                 DHelpText: "",
                                 DToolTip: "",
                                 ElementControlProperty: [
-                                  {
-                                    Enable: true,
-                                    Visible: true,
-                                    Mandatory: false,
-                                    Span: false,
-                                  },
-                                  {
-                                    Enable: true,
-                                    Visible: true,
-                                    Mandatory: false,
-                                    Span: false,
-                                  },
                                   { Visible: false, Span: false },
                                   { Visible: false, Span: false },
                                   { Visible: false, Span: false },
@@ -10901,18 +10889,6 @@ export const DataElementsData = [
                             DHelpText: "",
                             DToolTip: "",
                             ElementControlProperty: [
-                              {
-                                Enable: true,
-                                Visible: true,
-                                Mandatory: false,
-                                Span: false,
-                              },
-                              {
-                                Enable: true,
-                                Visible: true,
-                                Mandatory: false,
-                                Span: false,
-                              },
                               { Visible: false, Span: false },
                               { Visible: false, Span: false },
                               { Visible: false, Span: false },
@@ -19990,18 +19966,6 @@ export const DataElementsData = [
                         DHelpText: "",
                         DToolTip: "",
                         ElementControlProperty: [
-                          {
-                            Enable: true,
-                            Visible: true,
-                            Mandatory: false,
-                            Span: false,
-                          },
-                          {
-                            Enable: true,
-                            Visible: true,
-                            Mandatory: false,
-                            Span: false,
-                          },
                           { Visible: false, Span: false },
                           { Visible: false, Span: false },
                           { Visible: false, Span: false },
@@ -28553,18 +28517,6 @@ export const DataElementsData = [
                     DHelpText: "",
                     DToolTip: "",
                     ElementControlProperty: [
-                      {
-                        Enable: true,
-                        Visible: true,
-                        Mandatory: false,
-                        Span: false,
-                      },
-                      {
-                        Enable: true,
-                        Visible: true,
-                        Mandatory: false,
-                        Span: false,
-                      },
                       { Visible: false, Span: false },
                       { Visible: false, Span: false },
                       { Visible: false, Span: false },
@@ -36744,18 +36696,6 @@ export const DataElementsData = [
                 DHelpText: "",
                 DToolTip: "",
                 ElementControlProperty: [
-                  {
-                    Enable: true,
-                    Visible: true,
-                    Mandatory: false,
-                    Span: false,
-                  },
-                  {
-                    Enable: true,
-                    Visible: true,
-                    Mandatory: false,
-                    Span: false,
-                  },
                   { Visible: false, Span: false },
                   { Visible: false, Span: false },
                   { Visible: false, Span: false },
@@ -43772,8 +43712,6 @@ export const DataElementsData = [
             DHelpText: "",
             DToolTip: "",
             ElementControlProperty: [
-              { Enable: true, Visible: true, Mandatory: false, Span: false },
-              { Enable: true, Visible: true, Mandatory: false, Span: false },
               { Visible: false, Span: false },
               { Visible: false, Span: false },
               { Visible: false, Span: false },
@@ -50209,8 +50147,6 @@ export const DataElementsData = [
         DHelpText: "",
         DToolTip: "",
         ElementControlProperty: [
-          { Enable: true, Visible: true, Mandatory: false, Span: false },
-          { Enable: true, Visible: true, Mandatory: false, Span: false },
           { Visible: false, Span: false },
           { Visible: false, Span: false },
           { Visible: false, Span: false },
@@ -56012,8 +55948,6 @@ export const DataElementsData = [
     DHelpText: "",
     DToolTip: "",
     ElementControlProperty: [
-      { Enable: true, Visible: true, Mandatory: false, Span: false },
-      { Enable: true, Visible: true, Mandatory: false, Span: false },
       { Visible: false, Span: false },
       { Visible: false, Span: false },
       { Visible: false, Span: false },
